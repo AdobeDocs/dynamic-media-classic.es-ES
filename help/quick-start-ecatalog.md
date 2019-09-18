@@ -1,28 +1,28 @@
 ---
-title: '" Inicio rápido: Catálogos electrónicos "'
-seo-title: '" Inicio rápido: Catálogos electrónicos "'
+title: '"Inicio rápido: catálogos electrónicos"'
+seo-title: '"Inicio rápido: catálogos electrónicos"'
 description: nulo
-seo-description: Introducción e Inicio rápido a catálogos electrónicos para ayudarle en el uso inicial de las técnicas de catálogo electrónico.
-uuid: 1 ec 41927-3 df 6-4845-8 d 9 d-bb 92 cf 6 dca 08
+seo-description: Introducción y inicio rápido a los catálogos electrónicos para ayudarle en el uso inicial de las técnicas de catálogos electrónicos.
+uuid: 1ec41927-3df6-4845-8d9d-bb92cf6dca08
 contentOwner: admin
 content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categorías/ecatalogs
-discoiquuid: 781 dacd 0-ef 0 c -42 b 7-92 e 0-12791994874 d
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
+discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: e1b74f30faab334453f941e9075910c8a8565462
 
 ---
 
 
 # Inicio rápido: Catálogos electrónicos{#quick-start-ecatalogs}
 
-Un catálogo electrónico es una versión web digital de material impreso: por ejemplo, un catálogo, un folleto, un manual de un producto o una circular publicitaria. Los catálogos electrónicos se muestran en un visor de catálogos electrónicos contenido en un sitio web. Este visor simula la lectura de material impreso. Según la configuración que elija para el catálogo electrónico, el visor podrá hacer lo siguiente:
+Un catálogo electrónico es una versión web digital de material impreso: por ejemplo, un catálogo, un folleto, un manual de un producto o una circular publicitaria. Los catálogos electrónicos se muestran en un visor de catálogos electrónicos contenido en un sitio web. Este visor simula la lectura de material impreso. Según la configuración que elija para el catálogo electrónico, el visor puede permitirle hacer lo siguiente:
 
-* Busque en el catálogo una palabra clave o palabras clave. Los resultados de la búsqueda se muestran como una lista de miniaturas en un panel de búsqueda a la izquierda del catálogo. Cada miniatura seleccionable representa un pliego de catálogo donde se encontró el término de búsqueda resaltado.
+* Busque en el catálogo una palabra clave o palabras clave. Los resultados de la búsqueda se muestran como una lista de miniaturas en un panel de búsqueda a la izquierda del catálogo. Cada miniatura en la que se puede hacer clic representa un pliego de catálogo donde se encontró el término de búsqueda resaltado.
 
-* Compartir el catálogo mediante medios sociales; descargar el catálogo para ver sin conexión; active Favoritos para marcar los elementos que desee volver rápidamente o imprimir el catálogo.
-* Navegue por el catálogo utilizando la tabla de contenido o la vista de cuadrícula de páginas; página hacia delante o hacia atrás haciendo clic en el borde central de una página.
+* Compartir el catálogo a través de los medios sociales; descargue el catálogo para verlo sin conexión; active Favoritos para marcar los elementos a los que desee volver rápidamente o imprimir el catálogo.
+* Navegue por el catálogo utilizando la tabla de contenido o la vista de cuadrícula de página; para avanzar o retroceder, haga clic en el borde medio de una página.
 * Acercar o alejar la página, y desplazarse por ella para examinar sus elementos.
 * Pasar el puntero por encima de una región de la página (denominada mapa de imagen) para ver una ventana emergente con información sobre un producto.
 * Hacer clic en una región de la página para abrir una nueva página web con más información sobre un determinado producto.
@@ -31,11 +31,17 @@ Un catálogo electrónico es una versión web digital de material impreso: por e
 * Usar interacciones de gestos como pellizcar para ampliar y reducir la imagen o arrastrar para pasar de página.
 * Buscar elementos por palabras clave.
 
-![Catálogo electrónico que ven los usuarios. A) Apertura de la página. B)eCatalog turned to page 2.](/help/assets/ec_cat_viewer_popup.png)
+![Catálogo electrónico que ven los usuarios. A) Página de inicio del catálogo electrónico. B)eCatalog turned to page 2.](/help/assets/ec_cat_viewer_popup.png)
 
 Para crear un catálogo electrónico, suelen utilizarse archivos PDF de alta resolución creados en Adobe® Acrobat® o en otro programa de impresión, aunque también pueden crearse catálogos electrónicos a partir de archivos de imagen.
 
 Al crear el catálogo electrónico, tiene la posibilidad de ordenar como desee páginas o conjuntos de páginas. También puede decidir si desea ver páginas individuales, dobles o múltiples. Puede crear mapas de imagen en algunas regiones de las páginas para que los usuarios puedan, por ejemplo, hacer clic en una zona de la página y abrir una nueva página dentro de su sitio web. Puede gestionar el texto de rollover que aparece mediante la configuración del panel de información en la pantalla del catálogo electrónico. También puede configurar el visor de catálogos electrónicos, para lo cual puede elegir entre más de 100 opciones de configuración diferentes. Puede adaptar las funciones, el aspecto y el diseño del visor según sus destinatarios.
+
+>[!NOTE]
+>
+>Si es un usuario del modo AEM Dynamic Media - Scene7 y desea utilizar catálogos electrónicos, deberá editar el `pdfbrochure` valor en CRXDE Lite. Para ello, en AEM, haga clic en Herramientas de **[UICONTROL &gt; General &gt; CRXDE Lite]**. En el árbol de navegación del panel izquierdo, vaya a `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
+En el panel inferior derecho, en la ficha **Propiedades** , seleccione la `jobParam` fila. Establezca el valor de `pdfbrochure` de `false` a `true`. Como en `pdfbrochure=true`la esquina superior izquierda de la página de CRXDE Lite, haga clic en **Guardar todo**.
+Ahora podrá crear catálogos electrónicos en SPS.
 
 **Inicio rápido**
 
@@ -81,9 +87,9 @@ Consulte [Gestión del contenido del panel de información](info-panel-content.m
 
 **4. Configuración de ajustes preestablecidos del visor de catálogos electrónicos**
 
-Los usuarios finales ven el catálogo electrónico en el visor de catálogos electrónicos. Si es un administrador, puede configurar el visor de catálogos electrónicos. Puede cambiar el color del contorno y seleccionar una nueva “apariencia” para personalizar el catálogo electrónico. Dynamic Media Classic viene con varios ajustes preestablecidos de visor de catálogos electrónicos «recomendados». Puede elegir uno de estos ajustes preestablecidos para mostrar los catálogos electrónicos. También puede crear un ajuste preestablecido de visor de catálogos electrónicos propio si es administrador.
+Los usuarios finales ven el catálogo electrónico en el visor de catálogos electrónicos. Si es un administrador, puede configurar el visor de catálogos electrónicos. Puede cambiar el color del contorno y seleccionar una nueva “apariencia” para personalizar el catálogo electrónico. Dynamic Media Classic incluye varios ajustes preestablecidos de visor de catálogos electrónicos "recomendados". Puede elegir uno de estos ajustes preestablecidos para mostrar los catálogos electrónicos. También puede crear un ajuste preestablecido de visor de catálogos electrónicos propio si es administrador.
 
-Para crear un ajuste preestablecido para el visor del catálogo electrónico, haga clic en el botón Ajustes de la barra de navegación global y elija Ajustes preestablecidos de visor. A continuación, haga clic en Agregar, elija una plataforma y luego seleccione Catálogo electrónico &gt; Visor.
+Para crear un ajuste preestablecido para el visor del catálogo electrónico, haga clic en el botón Ajustes de la barra de navegación global y elija Ajustes preestablecidos de visor. Then click Add, choose a platform, and choose **[UICONTROL eCatalog &gt; Viewer]**.
 
 Consulte [Configuración de ajustes preestablecidos del visor de catálogos electrónicos](setting-ecatalog-viewer-presets.md#setting-up-ecatalog-viewer-presets).
 
@@ -99,11 +105,11 @@ Consulte [Vista previa de catálogos electrónicos en el visor de catálogos ele
 
 **6. Publicación de catálogos electrónicos y archivos PDF asociados**
 
-Al publicar el catálogo electrónico y el PDF asociado, éste se coloca en los servidores de imágenes de Dynamic Media para que se pueda publicar en el sitio web y en la aplicación. Como parte del proceso de publicación, Scene7 Publishing System activa la cadena URL para el catálogo electrónico. Utilice esta URL para llamar al catálogo electrónico desde los servidores de imágenes de Dynamic Media hasta su sitio web o aplicación.
+Al publicar el catálogo electrónico y el PDF asociado, éste se coloca en los servidores de imágenes de Dynamic Media para que se pueda entregar en el sitio web y la aplicación. Como parte del proceso de publicación, Scene7 Publishing System activa la cadena URL para el catálogo electrónico. Utilice esta URL para llamar al catálogo electrónico desde los servidores de imágenes de Dynamic Media al sitio web o la aplicación.
 
-Tras marcar el catálogo electrónico y el PDF para publicación en el panel Examinar, seleccione el botón Publicar en la barra de navegación global para iniciar una publicación. En la pantalla Publicar, haga clic en Iniciar publicación.
+Después de marcar el catálogo electrónico y el PDF para publicación en el panel Examinar, seleccione el botón Publicar en la barra de navegación global para iniciar una publicación. En la pantalla Publicar, haga clic en Iniciar publicación.
 
-Consulte [Publicación de catálogos electrónicos y archivos PDF asociados](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
+Consulte [Publicación de catálogos electrónicos y archivos PDF](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs)asociados.
 
 **7. Vinculación de un catálogo electrónico a una página web**
 
