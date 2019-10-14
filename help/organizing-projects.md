@@ -2,15 +2,15 @@
 title: Organización del trabajo con proyectos
 seo-title: Organización del trabajo con proyectos
 description: nulo
-seo-description: Descubra cómo organizar su trabajo con proyectos.
-uuid: bd 2 b 1792-e 2 d 9-4 a 15-90 c 1-8 ef 2 cf 632867
+seo-description: Aprenda a organizar su trabajo con proyectos.
+uuid: bd2b1792-e2d9-4a15-90c1-8ef2cf632867
 contentOwner: admin
 content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/managing_ assets
-discoiquuid: 036 dfc 1 f -8317-4887-a 6 e 1-d 8 f 2 cb 61819 c
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
+discoiquuid: 036dfc1f-8317-4887-a6e1-d8f2cb61819c
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -25,7 +25,7 @@ Los proyectos pueden crearse al cargar archivos o desde el panel de la bibliotec
 
 >[!NOTE]
 >
->Dynamic Media Classic recomienda organizar recursos con metadatos en lugar de Proyectos. Consulte [Visualización, adición y exportación de metadatos](viewing-adding-exporting-metadata.md).
+>Dynamic Media Classic recomienda organizar recursos con metadatos en lugar de proyectos. Consulte [Visualización, adición y exportación de metadatos](viewing-adding-exporting-metadata.md).
 
 >[!NOTE]
 >
@@ -35,9 +35,9 @@ Los proyectos pueden crearse al cargar archivos o desde el panel de la bibliotec
 
 Puede crear una carpeta de proyecto desde la biblioteca de recursos o al cargar archivos a Scene7 Publishing System:
 
-**En la biblioteca** de recursos, desplácese hasta la parte inferior de la biblioteca de recursos, a la sección Proyectos y seleccione el botón Agregar proyecto. A continuación, escriba un nombre para el proyecto.
+* **En la biblioteca** de recursos, desplácese hasta la parte inferior de la biblioteca de recursos, hasta la sección Proyectos y seleccione el botón Agregar proyecto . A continuación, escriba un nombre para el proyecto.
 
-**Al cargar archivos** en la pantalla Cargar, seleccione el menú Agregar al proyecto y elija Crear proyecto. A continuación, escriba un nombre para el proyecto.
+* **Al cargar archivos** En la pantalla Cargar, seleccione el menú Agregar al proyecto y elija Crear proyecto. A continuación, escriba un nombre para el proyecto.
 
 >[!NOTE]
 >
@@ -47,16 +47,16 @@ Puede crear una carpeta de proyecto desde la biblioteca de recursos o al cargar 
 
 Si desea mostrar o eliminar una carpeta de proyecto, o cambiarle el nombre, siga estas instrucciones:
 
-**Navegar contenido** Seleccione el nombre de la carpeta en la biblioteca de recursos. Los recursos que contiene aparecen en el panel Examinar.
+* **Exploración del contenido** Seleccione el nombre de la carpeta en la biblioteca de recursos. Los recursos que contiene aparecen en el panel Examinar.
 
-**Eliminación de carpetas de proyecto** Seleccione la carpeta Proyecto y, a continuación, seleccione el botón Eliminar proyecto. Si elimina recursos de una carpeta de proyecto, éstos no se eliminarán de Scene7 Publishing System, sino que permanecerán en la carpeta original en la que se almacenan.
+* **Eliminación de carpetas** de proyecto Seleccione la carpeta de proyecto y, a continuación, seleccione el botón Eliminar proyecto . Si elimina recursos de una carpeta de proyecto, éstos no se eliminarán de Scene7 Publishing System, sino que permanecerán en la carpeta original en la que se almacenan.
 
-**Cambiar el nombre de las carpetas** de proyecto haga doble clic en el nombre de la carpeta en el panel de recursos y, a continuación, introduzca un nuevo nombre.
+* **Cambio de nombre de carpetas** de proyecto Haga doble clic en el nombre de la carpeta en el panel de recursos y, a continuación, introduzca un nombre nuevo.
 
 ## Adición de recursos a una carpeta de proyecto {#adding-assets-to-a-project-folder}
 
 Puede agregar imágenes a una carpeta de proyecto desde el panel Examinar o al cargar archivos a Scene7 Publishing System:
 
-**Desde el panel** Examinar, seleccione los recursos y arrástrelos a una carpeta de proyecto. También puede elegir Archivo &gt; Agregar al proyecto, seleccionar el nombre de la carpeta de proyecto en el cuadro de diálogo Seleccionar proyecto y seleccionar el botón Enviar.
+* **En el panel** Examinar, seleccione los recursos y arrástrelos a una carpeta de proyecto. También puede elegir Archivo &gt; Agregar al proyecto, seleccionar el nombre de la carpeta de proyecto en el cuadro de diálogo Seleccionar proyecto y seleccionar el botón Enviar.
 
-**Al cargar archivos** en la pantalla Cargar, haga clic en el botón Opciones de trabajo. En el cuadro de diálogo Opciones de trabajo de carga, elija Proyectos y seleccione un nombre de proyecto.
+* **Al cargar archivos** En la pantalla Cargar, haga clic en el botón Opciones de trabajo. En el cuadro de diálogo Opciones de trabajo de carga, elija Proyectos y seleccione un nombre de proyecto.
