@@ -2,15 +2,15 @@
 title: Exportación de recursos de Scene7 Publishing System
 seo-title: Exportación de recursos de Scene7 Publishing System
 description: nulo
-seo-description: Obtenga información sobre cómo exportar recursos desde Scene 7 Publishing System.
-uuid: d 42 b 7 a 73-80 c 0-4 a 9 a-a 04 e -7 ef 53 e 6 fcf 22
+seo-description: Descubra cómo exportar recursos desde Scene7 Publishing System.
+uuid: d42b7a73-80c0-4a9a-a04e-7ef53e6fcf22
 contentOwner: admin
 content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/managing_ assets
-discoiquuid: eb 850 ec 7-a 669-41 ea-b 2 b 0-4 c 9178 e 34 f 95
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
+discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -28,23 +28,23 @@ Dynamic Media Classic mantiene un registro de los trabajos de exportación en la
 1. Seleccione los recursos que desea exportar y haga clic en **Archivo** &gt; **Exportar**.
 1. En la ventana Exportar recursos seleccionados, haga clic en **Opciones de imagen** y especifique cualquiera de las siguientes opciones (los administradores determinan las opciones que están disponibles para los usuarios):
 
-   **Opcionalmente,** elija un ajuste preestablecido de imagen para dar formato al recurso al exportarlo. Si elige un ajuste preestablecido de imagen, las otras opciones de formato no estarán disponibles, ya que el recurso adopta los formatos definidos en el ajuste preestablecido de imagen.
+   * **Ajustes preestablecidos** Si lo desea, elija un ajuste preestablecido de imagen para dar formato al recurso al exportarlo. Si elige un ajuste preestablecido de imagen, las otras opciones de formato no estarán disponibles, ya que el recurso adopta los formatos definidos en el ajuste preestablecido de imagen.
 
-   **Conversión** Convierta el archivo de recurso o la imagen original.
+   * **Conversión** Convertir el archivo de recurso o la imagen original.
 
-   **Tamañopuede seleccionar** un tamaño estándar. O bien, puede hacer clic en Otro en la lista desplegable Tamaño, elegir la unidad de medida que desee y, a continuación, especificar la anchura y la altura.
+   * **Tamaño** Puede seleccionar un tamaño estándar. O bien, puede hacer clic en Otro en la lista desplegable Tamaño, elegir la unidad de medida que desee y, a continuación, especificar la anchura y la altura.
 
-   Consulte también [Especificación de opciones de exportación disponibles para los usuarios de Media Portal](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
+      Consulte también [Especificación de opciones de exportación disponibles para los usuarios de Media Portal](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
-   **Formato** Seleccione un formato de imagen.
+   * **Formato** Elija un formato de imagen.
 
-   **Color** Seleccione RGB, CMYK o Gris.
+   * **Color** Elija RGB, CMYK o gris.
 
-   **Resolución** Seleccione 72, 150 o 300 ppp.
+   * **Resolución** Elija 72, 150 o 300 ppp.
 
-   **Nombre** de trabajo Puede asignar un nombre de trabajo a la exportación.
+   * **Nombre** del trabajo Puede asignar un nombre de trabajo a la exportación.
 
-   **Enviar correo electrónico a** opcionalmente, introduzca una dirección de correo electrónico para enviar los recursos por correo electrónico. Este mensaje de correo electrónico contiene una URL a la que el destinatario puede ir para descargar los recursos.
+   * **Enviar correo electrónico a** De forma opcional, introduzca una dirección de correo electrónico para enviar los recursos por correo electrónico. Este mensaje de correo electrónico contiene una URL a la que el destinatario puede ir para descargar los recursos.
 
 1. Haga clic en **Exportar**.
 
