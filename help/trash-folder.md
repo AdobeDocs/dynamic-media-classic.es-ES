@@ -2,15 +2,15 @@
 title: Gestión de la carpeta Papelera
 seo-title: Gestión de la carpeta Papelera
 description: nulo
-seo-description: Descubra cómo gestionar la papelera.
-uuid: 3992 a 5 b 8-1919-4924-b 07 d -7 fb 25565 effd
+seo-description: Obtenga información sobre cómo administrar la carpeta Papelera.
+uuid: 3992a5b8-1919-4924-b07d-7fb25565effd
 contentOwner: admin
 content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/managing_ assets
-discoiquuid: 553 c 95 fc -0 a 41-4 f 06-af 50-a 62 bc 1438149
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
+discoiquuid: 553c95fc-0a41-4f06-af50-a62bc1438149
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -25,13 +25,13 @@ Al eliminar elementos de la carpeta Papelera, éstos se eliminarán de forma per
 
 >[!NOTE]
 >
->los recursos que se encuentran en la carpeta Papelera siguen registrados en Scene7 Publishing System. Si intenta cargar un archivo con el mismo nombre que un archivo eliminado en la carpeta Papelera, Dynamic Media Classic trata el recurso que desea cargar como recurso duplicado. Por tanto, se agregará un número al nombre.
+>los recursos que se encuentran en la carpeta Papelera siguen registrados en Scene7 Publishing System. Si intenta cargar un archivo con el mismo nombre que un archivo eliminado en la carpeta Papelera, Dynamic Media Classic trata el recurso que desea cargar como un recurso duplicado. Por tanto, se agregará un número al nombre.
 
 ## Acerca de la carpeta Papelera {#about-the-trash-folder}
 
 Si elimina un recurso en una carpeta, éste se colocará en la carpeta Papelera. Al eliminar un elemento y moverlo a la carpeta Papelera, ocurre lo siguiente:
 
-* Aunque el elemento se ha eliminado de las carpetas de Scene7 Publishing System, su ID no se podrá asignar a otro recurso mientras se encuentre en la carpeta Papelera. Si intenta cargar un recurso con el mismo nombre que un archivo en la carpeta Papelera, Dynamic Media Classic añadirá un numeral al nombre del recurso.
+* Aunque el elemento se ha eliminado de las carpetas de Scene7 Publishing System, su ID no se podrá asignar a otro recurso mientras se encuentre en la carpeta Papelera. Si intenta cargar un recurso con el mismo nombre que un archivo en la carpeta Papelera, Dynamic Media Classic añadirá un número al nombre del recurso.
 * El elemento no se puede publicar. Aunque el elemento estuviera marcado para la publicación al eliminarlo, no se publicará.
 * El elemento permanece en la carpeta Papelera durante siete días, a menos que se restaure antes o alguien elija el comando para vaciar la papelera. Pasados siete días, se produce una operación de limpieza automática y el elemento se elimina de forma permanente.
 
@@ -51,9 +51,9 @@ Al eliminar recursos en la carpeta Papelera, éstos se eliminan de forma permane
 
 Si desea eliminar recursos de forma permanente desde la carpeta Papelera, seleccione el icono Papelera  para abrir esta carpeta. A continuación, elimine recursos individuales o elimine todos los recursos de la papelera:
 
-**Eliminación de recursos individuales** Seleccione los recursos que desea eliminar de forma permanente y haga clic en Archivo &gt; Vacío de papelera.
+* **Eliminación de recursos** individuales Seleccione los recursos que desea eliminar de forma permanente y haga clic en **[!UICONTROL Archivo &gt; Eliminar de papelera]**.
 
-**Al eliminar todos los recursos** , haga clic en Archivo &gt; Papelera vacía.
+* **Eliminación de todos los recursos** Haga clic en **[!UICONTROL Archivo &gt; Vaciar papelera]**.
 
 >[!MORELIKETHIS]
 >
