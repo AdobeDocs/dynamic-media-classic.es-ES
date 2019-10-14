@@ -2,26 +2,26 @@
 title: Visualización, adición y exportación de metadatos
 seo-title: Visualización, adición y exportación de metadatos
 description: nulo
-seo-description: Aprenda a ver, agregar y exportar metadatos.
-uuid: a 5254 c 51-9 e 04-45 ae -8236-3 eab 2925 e 5 fc
+seo-description: Obtenga información sobre cómo ver, agregar y exportar metadatos.
+uuid: a5254c51-9e04-45ae-8236-3eab2925e5fc
 contentOwner: admin
 content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/managing_ assets
-discoiquuid: 5414 b 4 f 5-6 e 05-468 c -8725-385423596342
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
+discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
 
 # Visualización, adición y exportación de metadatos{#viewing-adding-and-exporting-metadata}
 
-Puede almacenar información específica sobre los archivos con que trabaja en Scene7 Publishing System; esta información recibe el nombre de *metadatos*. Puede utilizar metadatos en Dynamic Media Classic para organizar, buscar, filtrar y ordenar sus recursos.
+Puede almacenar información específica sobre los archivos con que trabaja en Scene7 Publishing System; esta información recibe el nombre de *metadatos*. Puede utilizar los metadatos en Dynamic Media Classic para organizar, buscar, filtrar y ordenar los recursos.
 
 Los metadatos aparecen en la vista de detalles junto con la información generada por Dynamic Media Classic, como la fecha de creación del archivo, la fecha de publicación y las palabras clave. Para ver los metadatos, abra el recurso en la vista de detalles y seleccione el panel Metadatos. Puede introducir y editar metadatos en la vista de detalles.
 
-Algunos metadatos están incrustados directamente en un archivo. Si un archivo contiene estos metadatos, Dynamic Media Classic lo carga automáticamente con el archivo. Puede incrustar metadatos en recursos de origen en Adobe Photoshop, indesign, Illustrator y otras aplicaciones; Dynamic Media Classic reconoce estos metadatos. También puede añadir metadatos a archivos individuales en el panel de metadatos, en la vista de detalles. Para mantener la coherencia entre los recursos, los administradores de empresa pueden crear plantillas de metadatos que proporcionen los campos de metadatos que se pueden rellenar.
+Algunos metadatos están incrustados directamente en un archivo. Si un archivo contiene estos metadatos, Dynamic Media Classic los carga automáticamente con el archivo. Puede incrustar metadatos en recursos de origen en Adobe Photoshop, InDesign, Illustrator y otras aplicaciones; Dynamic Media Classic reconoce estos metadatos. También puede añadir metadatos a archivos individuales en el panel de metadatos, en la vista de detalles. Para mantener la coherencia entre los recursos, los administradores de empresa pueden crear plantillas de metadatos que proporcionen los campos de metadatos que se pueden rellenar.
 
 For more information about embedded metadata, see [www.adobe.com/go/learn_s7_xmp_en](https://www.adobe.com/go/learn_s7_xmp_en).
 
@@ -29,11 +29,11 @@ For more information about embedded metadata, see [www.adobe.com/go/learn_s7_xmp
 
 Para ver los metadatos de un recurso, abra el recurso en la vista de detalles y seleccione el panel Metadatos. A continuación, seleccione una opción en el menú Vista de metadatos para seleccionar un conjunto de campos de metadatos. Dynamic Media Classic ofrece estas vistas de metadatos:
 
-**Vista compacta** Una lista básica de valores.
+* **Vista compacta** Una lista básica de valores.
 
-**Valores IPTC** tal como se define en el International Press Telecommunications Council.
+* **IPTC** Values según la definición del Consejo Internacional de Telecomunicaciones de Prensa.
 
-**Valores XMP** definidos por la plataforma de metadatos extensible.
+* **Valores XMP** definidos por la plataforma de metadatos extensible.
 
 Los administradores pueden crear vistas de metadatos. Estas vistas también aparecen en el menú Vistas de metadatos. Para obtener más información acerca de la creación de vistas de metadatos, consulte [Vistas de metadatos](application-setup.md#metadata_views).
 
@@ -67,7 +67,7 @@ Si durante la sesión ha agregado palabras clave para otros archivos, o si las h
 1. Para eliminar una palabra clave, selecciónela y haga clic en Eliminar. Pasará a incluirse en la tabla Sugerencias de palabras clave.
 
 >[!NOTE]
-Puede agregar palabras clave a los archivos al cargarlas en Dynamic Media Classic. En el cuadro de diálogo Opciones de trabajo de carga, seleccione Metadatos adicionales e introduzca palabras clave. Consulte [Opciones de carga](uploading-files.md#upload_options).
+Puede agregar palabras clave a los archivos al cargarlos en Dynamic Media Classic. En el cuadro de diálogo Opciones de trabajo de carga, seleccione Metadatos adicionales e introduzca palabras clave. Consulte [Opciones de carga](uploading-files.md#upload_options).
 
 ## Importación de metadatos {#import-metadata}
 
@@ -76,7 +76,7 @@ En lugar de introducir los metadatos manualmente de uno en uno, puede importar l
 >[!NOTE]
 Puede crear una plantilla para introducir los metadatos de modo que puedan importarse correctamente en Scene7 Publishing System. Una vez creada la plantilla, puede utilizarla para introducir los metadatos. Consulte [Creación de una plantilla para la introducción y carga de metadatos](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload).
 
-Puede encontrar más información sobre las propiedades estandarizadas en: https://www.adobe.com/devnet/xmp.html
+Puede obtener más información sobre las propiedades estandarizadas en: https://www.adobe.com/devnet/xmp.html
 
 1. En el panel Examinar, seleccione las imágenes a las que quiera agregar metadatos a partir del archivo delimitado por tabuladores o XML.
 1. Haga clic en **Archivo** &gt; **Importar metadatos**.
@@ -143,7 +143,7 @@ El registro de trabajos para el trabajo de metadatos muestra qué ID se han camb
 
 ## Creación de una plantilla para la introducción y carga de metadatos {#create-a-template-for-entering-metadata-to-upload}
 
-Dynamic Media Classic ofrece un comando para crear una plantilla para registrar metadatos. El uso de esta plantilla garantiza que los metadatos se introducen con el formato correcto de modo que puedan cargarse correctamente a Scene7 Publishing System. Siga estos pasos para crear una plantilla y utilizarla en la grabación e importación de metadatos a Scene7 Publishing System:
+Dynamic Media Classic ofrece un comando para crear una plantilla para grabar metadatos. El uso de esta plantilla garantiza que los metadatos se introducen con el formato correcto de modo que puedan cargarse correctamente a Scene7 Publishing System. Siga estos pasos para crear una plantilla y utilizarla en la grabación e importación de metadatos a Scene7 Publishing System:
 
 1. Seleccione recursos de imagen con los campos de metadatos que desee incluir en la plantilla.
 1. Elija Archivo &gt; Importar metadatos.
@@ -187,7 +187,7 @@ El editor de esquemas de metadatos permite para agregar o editar de forma gráfi
 
 * Espacio de nombre
 
-   Identificador técnico exclusivo para el esquema, normalmente una URL del formulario `https://your.company.com/name/version/`. Consulte ejemplos en la lista de esquemas de estándares. El espacio de nombre no es visible en la interfaz de usuario de SPS, pero se utiliza para almacenar los metadatos en el bloque XMP.
+   Identificador técnico único para el esquema, generalmente una dirección URL en el formulario `https://your.company.com/name/version/`. Consulte ejemplos en la lista de esquemas de estándares. El espacio de nombre no es visible en la interfaz de usuario de SPS, pero se utiliza para almacenar los metadatos en el bloque XMP.
 
 * Descripción
 
