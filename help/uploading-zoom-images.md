@@ -3,14 +3,14 @@ title: Carga de imágenes de zoom
 seo-title: Carga de imágenes de zoom
 description: nulo
 seo-description: Aprenda a cargar imágenes de zoom.
-uuid: 5814 ec 28-3 a 06-4 b 92-b 70 e -0 aa 5 b 83 e 7 b 0 e
+uuid: 5814ec28-3a06-4b92-b70e-0aa5b83e7b0e
 contentOwner: admin
 content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categorías/zoom
-discoiquuid: e 84 b 7 b 0 e -527 a -4 c 64-bc 2 a-e 5 e 64 d 47 b 47 b
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
+discoiquuid: e84b7b0e-527a-4c64-bc2a-e5e64d47b2d6
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -25,13 +25,13 @@ Para obtener instrucciones detalladas sobre cómo cargar imágenes, consulte [Ca
 
 **Preparación de imágenes para aplicarles zoom**
 
-Para aprovechar mejor las funciones de zoom clásico de Media Media, prepare los archivos de imagen de zoom antes de cargarlos:
+Para aprovechar al máximo las funciones de zoom de Dynamic Media Classic, prepare los archivos de imágenes de zoom antes de cargarlos:
 
-**El tamaño** de imagen Dynamic Media Classic recomienda utilizar archivos de imágenes que, como mínimo, son 2000 píxeles a lo largo. De este modo, las imágenes se verán con claridad cuando los usuarios apliquen zoom en las mismas.
+* **Tamaño** de imagenDynamic Media Classic recomienda el uso de archivos de imágenes que tengan una dimensión mínima de 2000 píxeles. De este modo, las imágenes se verán con claridad cuando los usuarios apliquen zoom en las mismas.
 
-**Los formatos** de archivo Dynamic Media Classic admiten todos los formatos de archivo de imagen estándar, incluidos TIFF, BMP, JPEG, PSD, GIF y EPS. Se recomiendan los formatos de imagen sin pérdida (TIFF y PNG). Si usa una imagen JPEG, utilice los valores más altos de calidad.
+* **Formatos** de archivoDynamic Media Classic admite todos los formatos de archivo de imagen estándar, incluidos TIFF, BMP, JPEG, PSD, GIF y EPS. Se recomiendan los formatos de imagen sin pérdida (TIFF y PNG). Si usa una imagen JPEG, utilice los valores más altos de calidad.
 
-**El espacio de color** RGB es el espacio de color para presentaciones de imágenes web; Las imágenes CMYK se convierten automáticamente a RGB al cargarlas. Se recomienda cargar imágenes CMYK con un perfil de color ICC incrustado para la conversión a RGB. Consulte también Perfiles ICC.
+* **Espacio** de color RGB es el espacio de color para presentaciones de imágenes web; Las imágenes CMYK se convierten automáticamente a RGB al cargarlas. Se recomienda cargar imágenes CMYK con un perfil de color ICC incrustado para la conversión a RGB. Consulte también Perfiles ICC.
 
 >[!MORELIKETHIS]
 >
