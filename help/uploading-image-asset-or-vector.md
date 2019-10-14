@@ -2,14 +2,14 @@
 title: Carga de recursos de imagen o recursos de vector
 seo-title: Carga de recursos de imagen o recursos de vector
 description: nulo
-seo-description: Aprenda a cargar recursos de imagen o recursos vectoriales.
-uuid: d 0 e 4 a 754-8 a 49-4 b 0 f-b 202-e 9003 bdb 8 f 20
+seo-description: Obtenga información sobre cómo cargar un recurso de imagen o un recurso de vector.
+uuid: d0e4a754-8a49-4b0f-b202-e9003bdb8f20
 contentOwner: admin
 content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-discoiquuid: de 21 dca 9-99 fe -4183-b 647-debfe 112 fda 4
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+discoiquuid: de21dca9-99fe-4183-b647-debfe112fda4
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -22,7 +22,7 @@ Para poder cargar un recurso de imagen, primero debe solicitar una clave secreta
 
 Para solicitar una *clave secreta compartida*, envíe al equipo de asistencia técnica de Scene7 un mensaje de correo electrónico a la dirección s7support@adobe.com.
 
-En el mensaje, proporcione el nombre de empresa que desee utilizar para cargar los recursos de imagen. Después de recibir la clave de Dynamic Media Classic, guárdela localmente para usarla en el futuro.
+En el mensaje, proporcione el nombre de empresa que desee utilizar para cargar los recursos de imagen. Después de recibir la clave de Dynamic Media Classic, guárdela localmente para su uso futuro.
 
 ## Recuperación del distintivo de carga {#retrieving-the-upload-token}
 
@@ -122,8 +122,8 @@ El siguiente formulario HTML permite al usuario cargar un recurso. En el formula
 * Distintivo de carga.
 * Límite de tamaño de archivo.
 * Lista de extensiones de nombre de archivo.
-* Indica si se conservan o no el perfil de color y el nombre de archivo asociados al recurso.
-* Indica si se utiliza el fondo de cobertura. Si activa Fondo de cobertura, configure los métodos Esquina, Tolerancia y Relleno. Consulte Fondo de cobertura en [las opciones de edición de imágenes durante la carga](image-editing-options-upload.md#image-editing-options-at-upload).
+* Indica si se debe conservar o no el perfil de color y el nombre de archivo asociados al recurso.
+* Indica si se utiliza o no el fondo de cobertura. Si activa Fondo de cobertura, defina la esquina, la tolerancia y el método de relleno. Consulte Fondo de cobertura en las opciones de edición [de imágenes durante la carga](image-editing-options-upload.md#image-editing-options-at-upload).
 * Nombre del archivo que se debe cargar
 
 <!-- 
@@ -142,9 +142,9 @@ Puede ver el código fuente HTML asociado con el formulario anterior haciendo cl
 
 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-En Firefox, haga clic con el botón derecho en la ventana del explorador y, a continuación, haga clic **en Ver fuente de página**. El código muestra la cadena de consulta URL y el método POST oportunos que se ejecutan cuando el usuario hace clic en **Enviar**.
+En Firefox, haga clic con el botón secundario en la ventana del explorador y, a continuación, haga clic en **Ver origen** de página. El código muestra la cadena de consulta URL y el método POST oportunos que se ejecutan cuando el usuario hace clic en **Enviar**.
 
-Para ver la respuesta en XML en Internet Explorer, haga clic en **Ver** &gt; **Código fuente**. To view XML response in Firefox, click **Tools** &gt; **Web Developer** &gt; **Page Source**. Se recomienda utilizar Firefox para ver las respuestas en XML.
+Para ver la respuesta en XML en Internet Explorer, haga clic en **Ver &gt; Código fuente**. To view XML response in Firefox, click **Tools &gt; Web Developer &gt; Page Source**. Se recomienda utilizar Firefox para ver las respuestas en XML.
 
 A continuación se muestra una respuesta de carga correcta de ejemplo:
 
@@ -285,8 +285,8 @@ El siguiente formulario HTML permite al usuario cargar un recurso. En el formula
 * Distintivo de carga.
 * Límite de tamaño de archivo.
 * Lista de extensiones de nombre de archivo.
-* Indica si se conservan o no el perfil de color y el nombre de archivo asociados al recurso.
-* Indica si se utiliza el fondo de cobertura. Si activa Fondo de cobertura, configure los métodos Esquina, Tolerancia y Relleno. Consulte Fondo de cobertura en [las opciones de edición de imágenes durante la carga](image-editing-options-upload.md#image-editing-options-at-upload).
+* Indica si se debe conservar o no el perfil de color y el nombre de archivo asociados al recurso.
+* Indica si se utiliza o no el fondo de cobertura. Si activa Fondo de cobertura, defina la esquina, la tolerancia y el método de relleno. Consulte Fondo de cobertura en las opciones de edición [de imágenes durante la carga](image-editing-options-upload.md#image-editing-options-at-upload).
 * Nombre del archivo que se debe cargar
 
 <!-- 
