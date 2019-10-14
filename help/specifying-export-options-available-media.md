@@ -1,15 +1,15 @@
 ---
-title: Especificación de opciones de exportación disponibles para usuarios de Media Portal
-seo-title: Especificación de opciones de exportación disponibles para usuarios de Media Portal
+title: Especificación de opciones de exportación disponibles para los usuarios de Media Portal
+seo-title: Especificación de opciones de exportación disponibles para los usuarios de Media Portal
 description: nulo
-seo-description: Aprenda a especificar las opciones de exportación disponibles para los usuarios de Media Portal.
-uuid: 5258 b 8 a 4-0704-43 cd -97 d 1-c 9 af 2 e 4 e 298 b
+seo-description: Descubra cómo especificar las opciones de exportación disponibles para los usuarios de Media Portal.
+uuid: 5258b8a4-0704-43cd-97d1-c9af2e4e298b
 contentOwner: admin
 content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-discoiquuid: 9 bfd 95 da -3714-4 e 38-98 af -331 a 04 c 685 f 5
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 translation-type: tm+mt
-source-git-commit: 0f6c8e6ac69e29aab7a48425aab76c10170d9ddf
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -30,13 +30,13 @@ Consulte también [Exportación de recursos de Scene7 Publishing System](exporti
 1. Haga clic en **Ajustes** &gt; **Ajustes preestablecidos de imagen**.
 1. En la ventana Ajustes preestablecidos de imagen, seleccione una de las siguientes opciones:
 
-   **Activar conversión definida por el usuario** Cuando se selecciona, esta opción permite a los usuarios elegir otro en la lista desplegable Tamaño de la ventana Exportar recursos seleccionados. A continuación, los usuarios pueden elegir una unidad de medida como, por ejemplo, píxeles o centímetros, y especificar la anchura y la altura deseadas. Al exportar o descargar estos archivos, se cambia el formato de los archivos de imagen.
+   * **Activar conversión** definida por el usuario Si está seleccionada, esta opción permite que los usuarios elijan otro en la lista desplegable Tamaño de la ventana Exportar recursos seleccionados. A continuación, los usuarios pueden elegir una unidad de medida como, por ejemplo, píxeles o centímetros, y especificar la anchura y la altura deseadas. Al exportar o descargar estos archivos, se cambia el formato de los archivos de imagen.
 
-   Cuando se eligen **píxeles** de la lista desplegable **Tamaño**, la anchura x la altura de la imagen resultante no puede superar los 100 millones de píxeles. Este tamaño equivale a 10.000 x 10.000 píxeles para una imagen cuadrada, o aproximadamente 8.000 x 12.000 píxeles para una imagen con una proporción de aspecto 2x3. Esta restricción de tamaño no se aplica si exporta imágenes principales originales.
+      Cuando se eligen **píxeles** de la lista desplegable **Tamaño**, la anchura x la altura de la imagen resultante no puede superar los 100 millones de píxeles. Este tamaño equivale a 10.000 x 10.000 píxeles para una imagen cuadrada, o aproximadamente 8.000 x 12.000 píxeles para una imagen con una proporción de aspecto 2x3. Esta restricción de tamaño no se aplica si exporta imágenes principales originales.
 
-   Anule la selección de esta opción si desea que los usuarios descarguen archivos sin cambiar el formato al descargarlos.
+      Anule la selección de esta opción si desea que los usuarios descarguen archivos sin cambiar el formato al descargarlos.
 
-   **Activar exportación original** Permite exportar imágenes principales originales. En el cuadro de diálogo Exportar recursos seleccionados, los usuarios pueden abrir el menú desplegable Conversión y elegir Exportar original para exportar los archivos originales. Anule la selección de esta opción si desea obligar a los usuarios a seleccionar un ajuste preestablecido de imagen o sus propias opciones de conversión al exportar imágenes.
+   * **Activar Exportar original** Permite exportar imágenes principales originales. En el cuadro de diálogo Exportar recursos seleccionados, los usuarios pueden abrir el menú desplegable Conversión y elegir Exportar original para exportar los archivos originales. Anule la selección de esta opción si desea obligar a los usuarios a seleccionar un ajuste preestablecido de imagen o sus propias opciones de conversión al exportar imágenes.
 
 >[!MORELIKETHIS]
 >
