@@ -2,15 +2,15 @@
 title: Configuración de un ajuste preestablecido de visor de conjuntos de medios mixtos
 seo-title: Configuración de un ajuste preestablecido de visor de conjuntos de medios mixtos
 description: nulo
-seo-description: Descubra cómo configurar un ajuste preestablecido de visor de conjuntos de medios mixtos.
-uuid: d 5 bf 1840-e 453-445 d-bebc -84889 b 29 f 3 c 8
+seo-description: Obtenga información sobre cómo configurar un ajuste preestablecido de visor de conjuntos de medios mixtos.
+uuid: d5bf1840-e453-445d-bebc-84889b29f3c8
 contentOwner: admin
 content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/mixed_ media_ sets
-discoiquuid: 8029 aad 8-d 696-4 d 7 c -99 e 2-3 b 08 edb 68181
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/mix_media_sets
+discoiquuid: 8029aad8-d696-4d7c-99e2-3b08edb68181
 translation-type: tm+mt
-source-git-commit: b8d245bfc8375966af314ed95e81a519c5ee6c24
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -22,7 +22,7 @@ Los ajustes preestablecidos de visor de conjuntos de medios mixtos determinan el
 Puede elegir incluir todas o algunas de las funciones de comunidad en el visor de conjuntos de medios mixtos. La función Incrustar añade un vínculo al visor que permite que los usuarios copien el código necesario para ver el visor en una página externa (como un blog, sitio web o sitio de red social). La función Vínculo proporciona la dirección URL al visor, de forma que los usuarios pueden volver a este visor. La función Visita proporciona un vínculo al sitio web que especifique.
 
 1. Haga clic en **Ajustes** &gt; **Ajustes preestablecidos de visor**.
-1. En la página Ajustes preestablecidos de visor, realice una de las siguientes acciones:
+1. En la página Ajustes preestablecidos de visor, realice una de las acciones siguientes:
 
    * To create a new preset, click **Add**. In the Add Viewer Preset dialog box, choose a platform, choose Mixed Media Set Viewer, then click **Add**.
    * To edit a Mixed Media Set Viewer preset, select it, then click **Edit**.
@@ -51,13 +51,13 @@ Puede elegir incluir todas o algunas de las funciones de comunidad en el visor d
 
 1. Para agregar funciones de comunidad (Incrustar, Vínculo, Visita) al visor, especifique las opciones para cualquiera de lo siguiente:
 
-   **Haga clic en** Activar para habilitar un botón de correo electrónico en el visor. Cuando se visualiza el conjunto y el usuario hace clic en el botón Correo electrónico, se abre un menaje que contiene un vínculo a este conjunto.
+   * **Correo electrónico** Haga clic en Activado para activar un botón Correo electrónico en el visor. Cuando se visualiza el conjunto y el usuario hace clic en el botón Correo electrónico, se abre un menaje que contiene un vínculo a este conjunto.
 
-   **Incrustar** clic en Live. En el cuadro Etiqueta de botón de incrustación, escriba el nombre que desea ver en el visor del botón Incrustar. If desired, click **Browse** to locate and select a custom skin for the button.
+   * **Incrustar** clic en directo. En el cuadro Etiqueta de botón de incrustación, escriba el nombre que desea ver en el visor del botón Incrustar. If desired, click **Browse** to locate and select a custom skin for the button.
 
-   **Clic en vínculo** en directo. En el cuadro Etiqueta de botón de vínculo, escriba el nombre que desea ver en el visor del botón Vínculo. If desired, click **Browse** to locate and select a custom skin for the button.
+   * **Vínculo** Haga clic en directo. En el cuadro Etiqueta de botón de vínculo, escriba el nombre que desea ver en el visor del botón Vínculo. If desired, click **Browse** to locate and select a custom skin for the button.
 
-   **Visita** en **directo**. En el cuadro Etiqueta del botón de visita, escriba el nombre que desea ver en el visor del botón Visita. En el cuadro URL de visita, escriba la URL del sitio web que desea abrir cuando se haga clic en el vínculo.
+   * **Visite** Click **Live**. En el cuadro Etiqueta del botón de visita, escriba el nombre que desea ver en el visor del botón Visita. En el cuadro URL de visita, escriba la URL del sitio web que desea abrir cuando se haga clic en el vínculo.
 
 1. Especifique otras opciones que desee. Para ver una descripción de una opción, haga clic en el icono de información  que aparece junto a ella.
 
