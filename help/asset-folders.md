@@ -3,14 +3,14 @@ title: Uso de carpetas de recursos
 seo-title: Uso de carpetas de recursos
 description: nulo
 seo-description: Aprenda a trabajar con carpetas de recursos.
-uuid: 3 bd 83701-e 2 c 2-4 e 39-b 225-c 2 d 27 ad 836 c 2
+uuid: 3bd83701-e2c2-4e39-b225-c2d27ad836c2
 contentOwner: admin
 content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/managing_ assets
-discoiquuid: 588944 c 3-78 ba -4 bd 1-a 8 da -9 a 6 dd 99 a 27 a 9
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
+discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
 translation-type: tm+mt
-source-git-commit: b8d245bfc8375966af314ed95e81a519c5ee6c24
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -25,15 +25,15 @@ Establezca una estructura organizada de carpetas para almacenar los archivos en 
 
 En la biblioteca de recursos se muestran los archivos que contiene el árbol de carpetas. Al seleccionar una carpeta en la biblioteca de recursos, su contenido aparecerá en el panel Examinar. Utilice estas técnicas para localizar carpetas en el árbol de carpetas:
 
-**Visualización de subcarpetas** Seleccione el icono Expandir carpeta para mostrar las subcarpetas de una carpeta. Este icono se encuentra a la izquierda del nombre de cada carpeta.
+* **Visualización de subcarpetas** Seleccione el icono Expandir carpeta para mostrar las subcarpetas de una carpeta. Este icono se encuentra a la izquierda del nombre de cada carpeta.
 
-**Movimiento de una carpeta** Puede mover una carpeta arrastrándola y soltándola en su nueva ubicación o seleccionando Archivo &gt; Mover carpeta.
+* **Desplazamiento de una carpeta** Puede moverla arrastrándola y soltándola en su nueva ubicación, o bien seleccionando Archivo &gt; Mover carpeta.
 
-**Ocultar carpetas** Seleccione el icono Contraer carpeta para contraer las subcarpetas. Este icono se encuentra a la izquierda del nombre de cada carpeta.
+* **Ocultar carpetas** Seleccione el icono Contraer carpeta para contraer subcarpetas. Este icono se encuentra a la izquierda del nombre de cada carpeta.
 
-**Apertura de una carpeta** Seleccione una carpeta para mostrar su contenido en el panel Examinar.
+* **Abrir una carpeta** Seleccione una carpeta para mostrar su contenido en el panel Examinar.
 
-***Sugerencia**: Puede ocultar o mostrar la biblioteca de recursos haciendo clic en el control Expandir/Contraer a la izquierda. Oculte el panel de la biblioteca de recursos si necesita más espacio de trabajo en el panel Examinar.*
+***Sugerencia**: Puede ocultar o mostrar la biblioteca de recursos haciendo clic en el control Expandir/Contraer de la parte izquierda. Oculte el panel de la biblioteca de recursos si necesita más espacio de trabajo en el panel Examinar.*
 
 ## Creación de carpetas {#creating-folders}
 
@@ -51,8 +51,10 @@ Para crear una carpeta, siga estos pasos:
 
 Seleccione una carpeta y utilice estas técnicas para eliminarla o cambiar su nombre:
 
-**Eliminación** del botón Eliminar carpeta. Los recursos que se encuentren en una carpeta eliminada se colocarán en la carpeta Papelera. Podrá recuperarlos desde esta carpeta.
+* **Eliminación** Seleccione el botón Eliminar carpeta . Los recursos que se encuentren en una carpeta eliminada se colocarán en la carpeta Papelera. Podrá recuperarlos desde esta carpeta.
 
-**Cambie el nombre** de doble clic en el nombre e introduzca un nombre nuevo.
+* **Cambio de nombre** Haga doble clic en el nombre e introduzca un nuevo nombre.
 
-***Nota**: No se pueden copiar carpetas ni recursos porque hacerlo crearía carpetas y recursos duplicados en Scene 7 Publishing System, y no se admiten duplicados en el sistema.*
+>[!NOTE]
+>
+>No se pueden copiar carpetas ni recursos porque al hacerlo se crearían carpetas y recursos duplicados en Scene7 Publishing System, y no se permiten duplicados.
