@@ -2,28 +2,28 @@
 title: Parametrización de una plantilla en Dynamic Media Classic
 seo-title: Parametrización de una plantilla en Dynamic Media Classic
 description: nulo
-seo-description: Aprenda a parametrizar una plantilla en Dynamic Media Classic
-uuid: 27 c 8 c 8 b 4-47 f 3-4270-a 6 db-d 304648 ba 357
+seo-description: Obtenga información sobre cómo parametrizar una plantilla en Dynamic Media Classic
+uuid: 27c8c8b4-47f3-4270-a6db-d304648ba357
 contentOwner: admin
 content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categorías/template-publishing
-discoiquuid: df 1 a 9 ff 5-a 5 ba -4480-ba 0 d-a 19 bc 665 f 907
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/template-publishing
+discoiquuid: df1a9ff5-a5ba-4480-ba0d-a19bc665f907
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
 
 # Parametrización de una plantilla en Dynamic Media Classic{#parameterizing-a-template-in-scene}
 
-Después de cargar una plantilla de Illustrator guardada como FXG de Dynamic Media Classic en Scene 7 Publishing System, puede definir sus elementos variables. Para ello, parametrice los elementos variables en las pantallas Generar y Vista previa de Publicación de plantillas. Dynamic Media Classic ofrece herramientas para definir parámetros de texto y objetos en capas y sus respectivas propiedades. También puede crear diferentes versiones de una plantilla.
+Después de cargar una plantilla de Illustrator guardada como FXG de Dynamic Media Classic en Scene7 Publishing System, puede definir sus elementos variables. Para ello, parametrice los elementos variables en las pantallas Generar y Vista previa de Publicación de plantillas. Dynamic Media Classic ofrece herramientas para definir parámetros de texto y objeto en capas y sus propiedades respectivas. También puede crear diferentes versiones de una plantilla.
 
-La parametrización de una plantilla FXG le permite personalizar la variabilidad del texto, las imágenes y los gráficos de la plantilla. Por ejemplo, puede parametrizar una línea de texto de forma que los usuarios finales puedan modificar el texto a través de una interfaz de usuario web. Puede definir campos de texto vacíos como variables de forma que los usuarios finales puedan rellenar estos campos con texto personalizado. También puede parametrizar los atributos y las propiedades de los elementos de diseño en la pantalla Generar publicación de Dynamic Media Classic.
+La parametrización de una plantilla FXG le permite personalizar la variabilidad del texto, las imágenes y los gráficos de la plantilla. Por ejemplo, puede parametrizar una línea de texto de forma que los usuarios finales puedan modificar el texto a través de una interfaz de usuario web. Puede definir campos de texto vacíos como variables de forma que los usuarios finales puedan rellenar estos campos con texto personalizado. También puede parametrizar los atributos y las propiedades de los elementos de diseño en la pantalla Generar de publicación de plantillas de Dynamic Media Classic.
 
 >[!NOTE]
 >
->No es necesario parametrizar la plantilla en Dynamic Media Classic si planea utilizar la manipulación DOM.
+>No es necesario parametrizar la plantilla en Dynamic Media Classic si va a utilizar la manipulación DOM.
 
 ## Definición de parámetros en plantillas FXG {#defining-parameters-in-fxg-templates}
 
@@ -34,7 +34,7 @@ Siga estos pasos en Dynamic Media Classic para definir parámetros para una plan
 
    Se abre la pantalla Publicación de plantilla.
 
-1. Seleccione lrco\ FXG\ Welcome_ Summit_ 10 (archivo FXG) y haga clic **en Generar** &gt; **Publicación de plantillas**.</p>
+1. Seleccione LRCo\FXG\Welcome_Summit_10 (archivo FXG) y haga clic en **Generar** &gt; Publicación **de plantillas**.</p>
 
    ![](assets/wp_fxg_edit.png)
 
@@ -46,10 +46,9 @@ Siga estos pasos en Dynamic Media Classic para definir parámetros para una plan
 
 1. En el panel Propiedades, haga clic en un parámetro de la columna Nombre (para parametrizar texto) o Parámetro (para parametrizar objetos).
 
-   **Clic en texto** en el campo de texto (desplácese hasta la parte inferior de la lista Propiedades para encontrarla). Se abrirá el cuadro de diálogo Parámetros. Select the text that you want to parameterize and click **Add**. Puede crear varios parámetros desde la misma propiedad de texto si selecciona diferentes partes del texto y añade parámetros para cada una de ellas. To change the name of the parameter, click it, enter a new name, and click **Close**.
+   * **Texto** Haga clic en el campo de texto (desplácese hasta la parte inferior de la lista Propiedades para encontrarla). Se abrirá el cuadro de diálogo Parámetros. Select the text that you want to parameterize and click **Add**. Puede crear varios parámetros desde la misma propiedad de texto si selecciona diferentes partes del texto y añade parámetros para cada una de ellas. To change the name of the parameter, click it, enter a new name, and click **Close**.
 
-   **Objetos** Haga clic en un cuadro de la columna Parámetro. Se abrirá el cuadro de diálogo Editar parámetro. Enter a name and click **OK**.
-
+   * **Objetos** Haga clic en un cuadro de la columna Parámetro. Se abrirá el cuadro de diálogo Editar parámetro. Enter a name and click **OK**.
    Para personalizar múltiples atributos a la vez con el mismo valor, use el mismo nombre de parámetro para cada atributo. For example, if your template has a rectangle and a star, you can type `newcolor` as the Parameter name for the SolidColor color attribute of each. Whenever you change the `newcolor` value, both the rectangle and the star change to the new color.
 
 1. Especifique un valor predeterminado para el atributo del campo Valor o Datos. Establezca todas las propiedades del objeto seleccionado para especificar la apariencia exacta que desea.
@@ -117,11 +116,11 @@ Cada atributo contiene un conjunto de valores.
 
 | Atributo | Valores | Predeterminado |
 |--- |--- |--- |
-| Estilos 7: Warpstyle | nonearcarcLowerarcUpperarchbulgeshellLowershellUpperflagwavefishrisefishEyeinflatesqueezetwist | ninguno |
-| Direcciones 7: Warpdirection | horizontalvertical | horizontal |
-| Finaliza 7: Warpbend | -1 a 1 | 0,5 |
-| Distorsión horizontal 7: Warphorizontaldistortion | -1 a 1 | 0 |
-| Distorsión vertical de distorsión vertical 7: Warpverticaldistortion | -1 a 1 | 0 |
+| Estilos7:warpStyle | nonearcarcLowerarcUpperarchbulgeshellLowershellUpperflagwavefishrisefishEyeinflatesqueezetwist | ninguno |
+| Direcciones7:warpDirection | horizontalvertical | horizontal |
+| Curva7:warpBend | -1 a 1 | 0,5 |
+| Distorsiones horizontales7:warpHorizontalDistortion | -1 a 1 | 0 |
+| Distorsiones verticales7:warpVerticalDistortion | -1 a 1 | 0 |
 
 >[!NOTE]
 >
