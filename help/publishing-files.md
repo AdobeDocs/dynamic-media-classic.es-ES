@@ -1,37 +1,37 @@
 ---
-title: Publicación XSLT
-seo-title: Publicación XSLT
+title: 'Publicar archivos '
+seo-title: 'Publicar archivos '
 description: nulo
-seo-description: Descubra cómo publicar archivos.
-uuid: cdcf 519 b -4 c 1 e -430 b-b 43 a -2 f 20 f 75071 b 1
+seo-description: Obtenga información sobre cómo publicar archivos.
+uuid: cdcf519b-4c1e-430b-b43a-2f20f75071b1
 contentOwner: admin
 content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categorías/upload_ and_ publish_ assets
-discoiquuid: 39099 bc 0-9228-46 f 0-9 bee -3542059 f 4695
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
+discoiquuid: 39099bc0-9228-46f0-9bee-3542059f4695
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
 
-# Publicación de archivos{#publishing-files}
+# Publicar archivos {#publishing-files}
 
-Los recursos se publican en los servidores de imágenes de Dynamic Media. Puede publicar recursos una sola vez o disponer de Dynamic Media Classic para publicar recursos de forma recurrente. Después de publicarse, tiene los recursos disponibles para su entrega. Puede copiar las llamadas URL desde Scene7 Publishing System y agregarlas a su aplicación o sitio Web.
+Los recursos se publican en servidores de imágenes de Dynamic Media. Puede publicar recursos una sola vez o organizar que Dynamic Media Classic publique recursos de forma recurrente. Después de publicarse, tiene los recursos disponibles para su entrega. Puede copiar las llamadas URL desde Scene7 Publishing System y agregarlas a su aplicación o sitio Web.
 
-Scene 7 Publishing System ahora admite la entrega de todas las imágenes y vídeos a través de HTTP/2. Es decir, una URL publicada o código incrustado para la imagen o el vídeo está disponible para integrarse con cualquier aplicación que acepte un recurso alojado. A continuación, el recurso publicado se entrega mediante protocolo HTTP/2. Este método de entrega mejora la comunicación de los exploradores y servidores, lo que permite una mejor respuesta y tiempos de carga de todos los recursos de Dynamic Media Classic. Consulte [HTTP 2 Envío de preguntas frecuentes sobre contenido](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html).
+Scene7 Publishing System ahora admite la entrega de todas las imágenes y vídeos a través de HTTP/2. Es decir, una URL publicada o código incrustado para la imagen o el vídeo está disponible para integrarse con cualquier aplicación que acepte un recurso alojado. Ese recurso publicado se entrega a través del protocolo HTTP/2. Este método de entrega mejora la forma en que se comunican los exploradores y los servidores, lo que permite una mejor respuesta y tiempos de carga de todos los recursos de Dynamic Media Classic. Consulte [HTTP2 Entrega de contenido Preguntas más frecuentes](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html).
 
 ## Publicar tras la carga {#publish-after-uploading}
 
-Los recursos están en un estado publicado o no. De forma predeterminada, los recursos que cargue en Dynamic Media Classic se marcarán automáticamente para su publicación.
+Los recursos están en un estado publicado o no. De forma predeterminada, los recursos que cargue en Dynamic Media Classic se marcan automáticamente para su publicación.
 
-Para obtener más información, consulte el PDF de aviso de publicación [instantánea](https://marketing.adobe.com/resources/help/en_US/s7/rendering-instant-publish-notification.pdf).
+Para obtener más información, consulte el PDF [](https://marketing.adobe.com/resources/help/en_US/s7/rendering-instant-publish-notification.pdf)Aviso de publicación instantánea.
 
 Para marcar recursos para la publicación, siga estas técnicas:
 
-**Publicar después de cargar** en la página Cargar, cerca de la parte inferior, seleccione Publicar tras la carga. El valor predeterminado es un estado seleccionado.
+* **Publicar tras la carga** En la página de carga, cerca de la parte inferior, seleccione Publicar tras la carga. El valor predeterminado es un estado seleccionado.
 
-**Publicar tras la carga** En el cuadro de diálogo Opciones de trabajo, seleccione Publicar tras la carga. El valor predeterminado es un estado seleccionado.
+* **Publicar tras la carga** En el cuadro de diálogo Opciones de trabajo, seleccione Publicar tras la carga. El valor predeterminado es un estado seleccionado.
 
 Algunos recursos "secundarios" se marcan para la publicación de forma automática al marcarse para publicación los recursos principales. En esta tabla se muestran los recursos que se marcan para la publicación de forma automática.
 
@@ -46,7 +46,7 @@ Las imágenes derivadas también se marcan para la publicación de forma automá
 
 ## Creación de un trabajo de publicación {#creating-a-publish-job}
 
-Cree un trabajo de publicación para publicar recursos cargados en servidores de Dynamic Media Classic pero elija no publicarlos automáticamente aún. Puede llevar a cabo un trabajo de publicación único o programar trabajos para que se repitan de forma regular. Dynamic Media Classic ofrece opciones avanzadas de publicación para publicar en servidores específicos y opciones para volver a publicar recursos que ya se han publicado.
+Cree un trabajo de publicación para publicar los recursos que ha cargado en los servidores de Dynamic Media Classic pero que aún no ha publicado automáticamente. Puede llevar a cabo un trabajo de publicación único o programar trabajos para que se repitan de forma regular. Dynamic Media Classic ofrece opciones de publicación avanzadas para publicar en servidores específicos y opciones para volver a publicar recursos que ya se han publicado.
 
 **Para crear un trabajo de publicación**
 
@@ -86,17 +86,17 @@ Consulte [Creación de un intervalo personalizado para un trabajo de carga o pub
 >
 >Los trabajos de publicación (y carga) recurrentes aparecen en la página Trabajos. Si desea editar o eliminar un trabajo programado vaya a la ficha Programados en la página Trabajos.
 
-### Opciones avanzadas de publicación {#advanced-publish-options}
+### Opciones de publicación avanzadas {#advanced-publish-options}
 
 Puede acceder a las opciones avanzadas desde la página Publicar y especificar estas opciones para controlar un trabajo de publicación:
 
-**Publicar para** elegir un tipo de servidor para publicar recursos solo en un servidor específico, no en todos los servidores.
+* **Publicar para** Elija un tipo de servidor para publicar recursos solo en un servidor específico, no en todos los servidores.
 
-**Publicar** de forma predeterminada, SPS publica solo recursos que son nuevos y que no se han publicado anteriormente (la opción Nuevo desde la última publicación). Sin embargo, puede elegir Publicación completa y publicar los recursos que se hayan actualizado o cambiado desde su última publicación. Elija Completa con datos de búsqueda si va a publicar un catálogo electrónico y desea que los lectores puedan realizar búsquedas por palabra clave.
+* **Publicar** De forma predeterminada, SPS solo publica recursos nuevos que no se hayan publicado anteriormente (la opción Nuevo desde la última publicación). Sin embargo, puede elegir Publicación completa y publicar los recursos que se hayan actualizado o cambiado desde su última publicación. Elija Completa con datos de búsqueda si va a publicar un catálogo electrónico y desea que los lectores puedan realizar búsquedas por palabra clave.
 
-**Ejecutar trabajo como** elija un nombre de usuario de la lista. Desde la página Trabajos, puede ordenar los trabajos por nombre de usuario. Si elige un nombre, asociará el trabajo de publicación con un usuario.
+* **Ejecutar trabajo como** elija un nombre de usuario en la lista. Desde la página Trabajos, puede ordenar los trabajos por nombre de usuario. Si elige un nombre, asociará el trabajo de publicación con un usuario.
 
-**Notificación HTTP** Introduzca una URL para activar los trabajos de publicación posteriores.
+**Notificación** HTTP Introduzca una URL para activar los trabajos de publicación posteriores.
 
 (Consulte [Uso de un trabajo de carga o publicación como desencadenador](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)).
 
@@ -122,7 +122,7 @@ Los recursos sin publicar se indican en la interfaz de usuario con un icono gris
 
    * En la vista de cuadrícula, la vista de lista o la vista de detalles, utilice los métodos tradicionales de selección de archivos para seleccionar uno o más recursos sin publicar.
 
-      En la barra de navegación global, haga clic en **Archivo** &gt; **Publicar**.
+      En la barra de navegación global, haga clic en **Archivo &gt; Publicar**.
 
    * En la vista de cuadrícula, la vista de lista o la vista de detalles, haga clic en el icono gris redondeado con una barra diagonal a la izquierda del nombre del recurso.
 
@@ -138,7 +138,7 @@ Los recursos publicados aparecen en la interfaz de usuario con un icono verde re
 
    * En la vista de cuadrícula, la vista de lista o la vista de detalles, seleccione uno o varios recursos publicados.
 
-      En la barra de navegación global, haga clic en **Archivo** &gt; **Cancelar publicación**.
+      On the Global Navigation Bar, click **File &gt; **Unpublish**.
 
    * En la vista de cuadrícula, la vista de lista o la vista de detalles, haga clic en el icono verde redondeado a la izquierda del nombre del recurso.
 
@@ -152,7 +152,7 @@ Los recursos de Dynamic Media Classic se distribuyen en la red de entrega de con
 
 La primera vez que alguien descarga una página web, los recursos se envían a un servidor web de almacenamiento en caché de CDN. Se almacenan en este servidor para que la próxima vez que alguien que se encuentre en la misma zona acceda a la página web, se pueda agilizar la entrega del mismo contenido almacenado en la caché. El contenido se entrega con mayor rapidez porque se encuentra más cerca del usuario final. CDN agiliza la visualización de páginas web. Disminuye la necesidad de banda ancha del servidor central porque el contenido se entrega desde la red de borde de almacenamiento en caché, y no desde un servidor central en cada caso.
 
-El contenido de Dynamic Media Classic publicado recientemente está disponible inmediatamente para el usuario final y rellena rápidamente la red de caché Edge. Pero el nuevo contenido que se vuelve a publicar (las imágenes que tienen el mismo nombre que otras imágenes publicadas en un servidor de imágenes) no se actualiza en CDN hasta pasadas diez horas. En lugar de ver este contenido, los usuarios ven el de la memoria caché web de la red CDN. Por este motivo, es posible que los recursos republicados de Dynamic Media Classic no aparezcan a los usuarios finales durante diez horas.
+El contenido de Dynamic Media Classic recientemente publicado está disponible inmediatamente para el usuario final y rellena rápidamente la red de caché Edge. Pero el nuevo contenido que se vuelve a publicar (las imágenes que tienen el mismo nombre que otras imágenes publicadas en un servidor de imágenes) no se actualiza en CDN hasta pasadas diez horas. En lugar de ver este contenido, los usuarios ven el de la memoria caché web de la red CDN. Por este motivo, es posible que los usuarios finales no vean los recursos republicados de Dynamic Media Classic durante diez horas.
 
 Si desea que los recursos de imagen que se vuelven a publicar estén disponibles antes de ese plazo, puede vaciar las cachés web de CDN. Al vaciar estas memorias se eliminará el contenido antiguo de las cachés web de CDN y será sustituido por los recursos que se han publicado recientemente.
 
