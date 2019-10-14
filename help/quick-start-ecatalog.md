@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 translation-type: tm+mt
-source-git-commit: e1b74f30faab334453f941e9075910c8a8565462
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -39,8 +39,8 @@ Al crear el catálogo electrónico, tiene la posibilidad de ordenar como desee p
 
 >[!NOTE]
 >
->Si es un usuario del modo AEM Dynamic Media - Scene7 y desea utilizar catálogos electrónicos, deberá editar el `pdfbrochure` valor en CRXDE Lite. Para ello, en AEM, haga clic en Herramientas de **[UICONTROL &gt; General &gt; CRXDE Lite]**. En el árbol de navegación del panel izquierdo, vaya a `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
-En el panel inferior derecho, en la ficha **Propiedades** , seleccione la `jobParam` fila. Establezca el valor de `pdfbrochure` de `false` a `true`. Como en `pdfbrochure=true`la esquina superior izquierda de la página de CRXDE Lite, haga clic en **Guardar todo**.
+>Si es un usuario del modo AEM Dynamic Media - Scene7 y desea utilizar catálogos electrónicos, deberá editar el `pdfbrochure` valor en CRXDE Lite. Para ello, en AEM, haga clic en **[!UICONTROL Herramientas &gt; General &gt; CRXDE Lite]**. En el árbol de navegación del panel izquierdo, vaya a `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
+En el panel inferior derecho, en la ficha **[!UICONTROL Propiedades]** , seleccione la `jobParam` fila. Establezca el valor de `pdfbrochure` de `false` a `true`. Como en `pdfbrochure=true`la esquina superior izquierda de la página de CRXDE Lite, haga clic en **[!UICONTROL Guardar todo]**.
 Ahora podrá crear catálogos electrónicos en SPS.
 
 **Inicio rápido**
@@ -65,7 +65,7 @@ En la ficha Ordenar páginas, seleccione uno de los botones de presentación (1 
 
 Para agregar páginas, seleccione una carpeta en la biblioteca de recursos y arrastre los archivos PDF o de imagen a la pantalla Ordenar páginas. Si no desea utilizar la numeración de páginas predeterminada, puede proporcionar nombres de página personalizados o importar varios nombres de página.
 
-Haga clic en el botón Guardar, asigne un nombre al catálogo electrónico, elija la carpeta de SPS en la que desea guardarlo y seleccione el botón Guardar. Cada vez que cambie el orden de las páginas o que edite el catálogo electrónico, guarde los cambios haciendo clic en el botón Guardar. 
+Click **[!UICONTROL Save]**, enter a name for your eCatalog, choose an SPS folder for storing it, and click **[!UICONTROL Save]**. Each time you change the page order or edit your eCatalog, save your changes by clicking **[!UICONTROL Save]**.
 
 Consulte [Creación de un catálogo electrónico](creating-ecatalog.md).
 
@@ -73,7 +73,7 @@ Consulte [Creación de un catálogo electrónico](creating-ecatalog.md).
 
 Los mapas de imagen agregan otra dimensión a las páginas del catálogo electrónico. Un mapa de imagen es una región de la página que ofrece más información sobre un elemento determinado. Al pasar el puntero sobre el mapa de imagen, los usuarios verán una descripción del elemento. Al hacer clic en el mapa de imagen se activa una referencia externa, que abre una nueva página web donde hay más información sobre el elemento seleccionado.
 
-Para crear un mapa de imagen, abra la pantalla Catálogo electrónico. A continuación, vaya a la ficha Páginas de mapa de la pantalla Catálogo electrónico y dibuje el mapa con la herramienta de mapa de imagen rectangular  o la herramienta de mapa de imagen poligonal . Si desea ajustar la posición y el tamaño de los mapas de imagen, arrastre los bordes del mapa con la Herramienta de desplazamiento .
+Para crear un mapa de imagen, abra la pantalla Catálogo electrónico. Then go to the **[!UICONTROL Map Pages]** tab of the eCatalog screen, and draw the map with the Rectangle Image Map tool or Polygon Image Map tool. Si desea ajustar la posición y el tamaño de los mapas de imagen, arrastre los bordes del mapa con la Herramienta de desplazamiento .
 
 Tras dibujar el mapa de imagen, introduzca la dirección URL a la que desea ir al hacer clic en el mapa de imagen. También puede escribir el texto de rollover que aparecerá al mover el puntero sobre el mapa de imagen. 
 
@@ -89,7 +89,7 @@ Consulte [Gestión del contenido del panel de información](info-panel-content.m
 
 Los usuarios finales ven el catálogo electrónico en el visor de catálogos electrónicos. Si es un administrador, puede configurar el visor de catálogos electrónicos. Puede cambiar el color del contorno y seleccionar una nueva “apariencia” para personalizar el catálogo electrónico. Dynamic Media Classic incluye varios ajustes preestablecidos de visor de catálogos electrónicos "recomendados". Puede elegir uno de estos ajustes preestablecidos para mostrar los catálogos electrónicos. También puede crear un ajuste preestablecido de visor de catálogos electrónicos propio si es administrador.
 
-Para crear un ajuste preestablecido para el visor del catálogo electrónico, haga clic en el botón Ajustes de la barra de navegación global y elija Ajustes preestablecidos de visor. Then click Add, choose a platform, and choose **[UICONTROL eCatalog &gt; Viewer]**.
+Para crear un ajuste preestablecido de visor de catálogos electrónicos, en la barra de navegación global, haga clic en **[!UICONTROL Ajustes]** y seleccione Ajustes preestablecidos **[!UICONTROL de visor]**. A continuación, haga clic en **[!UICONTROL Agregar]**, elija una plataforma y, a continuación, haga clic en **[!UICONTROL Catálogo electrónico &gt; Visor]**.
 
 Consulte [Configuración de ajustes preestablecidos del visor de catálogos electrónicos](setting-ecatalog-viewer-presets.md#setting-up-ecatalog-viewer-presets).
 
@@ -97,7 +97,7 @@ Consulte [Configuración de ajustes preestablecidos del visor de catálogos elec
 
 Los ajustes preestablecidos de visor de catálogos electrónicos determinan el estilo y comportamiento de los visores de catálogos electrónicos.
 
-Para ver cómo queda el catálogo electrónico con los ajustes preestablecidos, seleccione el catálogo electrónico en el panel Examinar y luego haga clic en Vista previa. Se abrirá la pantalla Vista previa en el visor predeterminado.
+To find out how eCatalog Viewer Presets display your eCatalog, select your eCatalog in the Browse Panel and click **[!UICONTROL Preview]**. Se abrirá la pantalla Vista previa en el visor predeterminado.
 
 Fíjese en la orientación, la combinación de colores, el aspecto de los controles con los que se cambia de página y la apariencia de las páginas al pasar de página.
 
@@ -107,7 +107,7 @@ Consulte [Vista previa de catálogos electrónicos en el visor de catálogos ele
 
 Al publicar el catálogo electrónico y el PDF asociado, éste se coloca en los servidores de imágenes de Dynamic Media para que se pueda entregar en el sitio web y la aplicación. Como parte del proceso de publicación, Scene7 Publishing System activa la cadena URL para el catálogo electrónico. Utilice esta URL para llamar al catálogo electrónico desde los servidores de imágenes de Dynamic Media al sitio web o la aplicación.
 
-Después de marcar el catálogo electrónico y el PDF para publicación en el panel Examinar, seleccione el botón Publicar en la barra de navegación global para iniciar una publicación. En la pantalla Publicar, haga clic en Iniciar publicación.
+Después de marcar el catálogo electrónico y el PDF para publicación en el panel Examinar, seleccione el botón Publicar en la barra de navegación global para iniciar una publicación. On the Publish screen, click **[!UICONTROL Start Publish]**.
 
 Consulte [Publicación de catálogos electrónicos y archivos PDF](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs)asociados.
 
