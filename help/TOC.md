@@ -1,26 +1,27 @@
 ---
 cloud: experience-cloud
-product: 'dynamic media classic '
+product: 'Dynamic Media Classic '
 audience: usuario final
 user-guide-title: Ayuda de Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: e78e6bc34343479b133f475e9c0fae1e1841d465
 
 ---
 
 
 # Ayuda de Dynamic Media Classic {#using}
 
-+ [Página de inicio de documentación de Dynamic Media Classic](home.md)
-+ Introducción a Adobe Dynamic Media Classic {#intro}
++ [Inicio de documentación de Dynamic Media Classic](home.md)
++ [Boletín de Dynamic Media de la Liga de experiencias](dynamic-media-newsletter.md)
++ Presentación de Adobe Dynamic Media Classic {#intro}
    + [Acerca de Dynamic Media Classic](introduction.md)
    + [Recursos para desarrolladores](developer-resources.md)
    + [Novedades](whats-new.md)
    + [Requisitos del sistema](system-requirements.md)
    + [Aplicaciones de escritorio de Adobe Scene7 Publishing System](scene7-publishing-system-desktop-applications.md)
    + [Soporte técnico](support.md)
-   + [Ayuda para Dynamic Media Classic Media Portal](help-scene7-media-portal.md)
+   + [Ayuda de Dynamic Media Classic Media Portal](help-scene7-media-portal.md)
    + [Servicios de formación de Adobe](training-services.md)
    + [Recursos habituales](popular-resources.md)
 + Introducción {#getting-started}
@@ -49,9 +50,9 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [Uso eficaz de los metadatos](making-efficient-metadata.md)
    + [Personalización de la pantalla de Media Portal](customizing-media-portal-screen.md)
 + Carga y publicación de recursos {#upload-publish}
-   + [Carga y publicación de recursos](about-asset-upload-publish.md)
+   + [Acerca de la carga y publicación de recursos](about-asset-upload-publish.md)
    + [Carga de archivos](uploading-files.md)
-   + [Publicación de archivos](publishing-files.md)
+   + [Publicar archivos ](publishing-files.md)
    + [Prueba de los recursos antes de hacerlos públicos](testing-assets-making-them-public.md)
    + [Comprobación de archivos de trabajo](checking-job-files.md)
 + Administración de recursos {#managing-assets}
@@ -62,7 +63,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [Búsqueda de recursos](searching-assets.md)
    + [Previsualización de un recurso](previewing-asset.md)
    + [Desplazamiento, cambio de nombre y eliminación de recursos](moving-renaming-deleting-assets.md)
-   + [Uso de la vista de detalles](detail-view.md)
+   + [Trabajar en la Vista de detalles ](detail-view.md)
    + [Visualización, adición y exportación de metadatos](viewing-adding-exporting-metadata.md)
    + [Exportación de recursos de Scene7 Publishing System](exporting-assets-scene7-publishing-system.md)
    + [Uso compartido de cambios de recursos con iguales en tiempo real](sharing-asset-changes-peers-real.md)
@@ -80,7 +81,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [Carga de imágenes de zoom](uploading-zoom-images.md)
    + [Creación de destinos de zoom para zoom guiado](creating-zoom-targets-guided-zoom.md)
    + [Configuración de ajustes preestablecidos de visor de zoom](setting-zoom-viewer-presets.md)
-   + [Vista previa de recursos de imagen con diferentes visores zoom](previewing-image-assets-different-zoom.md)
+   + [Vista previa de recursos de imagen con diferentes visores de zoom](previewing-image-assets-different-zoom.md)
    + [Publicación de imágenes de zoom](publishing-zoom-images.md)
    + [Vinculación de visores de zoom a páginas web](linking-zoom-viewers-web-pages.md)
 + Catálogos electrónicos {#ecatalogs}
@@ -98,7 +99,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [Preparación de recursos de conjunto de imágenes para cargar](preparing-image-set-assets-upload.md)
    + [Creación de un conjunto de imágenes](creating-image-set.md)
    + [Inclusión de destinos de zoom y mapas de imagen en conjuntos de imágenes](including-zoom-targets-image-maps.md)
-   + [Gestión del contenido del panel de información en conjuntos de imágenes](info-panel-content-1.md)
+   + [Gestión del contenido del panel de información en los conjuntos de imágenes](info-panel-content-1.md)
    + [Visualización de conjuntos de imágenes](viewing-image-sets.md)
    + [Generación automatizada de conjuntos de imágenes](automated-image-set-generation.md)
    + [Vinculación de un conjunto de imágenes a una página web](linking-image-set-web-page.md)
@@ -119,7 +120,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 + Template basics {#template-basics}
    + [Inicio rápido: Funciones básicas de plantilla](quick-start-template-basics.md)
    + [Carga de archivos de plantilla](uploading-template-files.md)
-   + [Creación de una plantilla](creating-template.md)
+   + [Crear una plantilla](creating-template.md)
    + [Creación de parámetros de plantilla](creating-template-parameters.md)
    + [Publicación de plantillas](publishing-templates.md)
    + [Vinculación de una plantilla a una página web](linking-template-web-page.md)
@@ -164,7 +165,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [Creación de un conjunto de ofertas](creating-offer-set.md)
    + [Inserción de conjuntos de ofertas en Adobe Target Classic](pushing-offer-sets-target-classic.md)
 + Contenido generado por usuarios {#user-generated-content}
-   + [Acerca del contenido generado por usuarios](about-ugc.md)
+   + [Acerca del contenido generado por el usuario](about-ugc.md)
    + [Eliminación de recursos cargados](deleting-uploaded-asset.md)
    + [Obtención de información sobre el uso del disco](getting-disk-usage-information.md)
    + [Carga de recursos de imagen o recursos de vector](uploading-image-asset-or-vector.md)
@@ -177,7 +178,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [Ajuste de imágenes](adjusting-image.md)
    + [Opciones de edición de imágenes al cargarlas](image-editing-options-upload.md)
    + [Uso de archivos PDF](pdfs.md)
-   + [Uso de archivos PSD](psd-files.md)
+   + [Uso de archivos PSD ](psd-files.md)
    + [Uso de archivos de PostScript e Illustrator](postscript-illustrator-files.md)
    + [Uso de archivos de viñeta, cobertura de ventana y armario](vignette-window-covering-cabinet-files.md)
 + Archivos de compatibilidad {#support-files}
