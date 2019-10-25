@@ -1,44 +1,85 @@
 ---
-description: Adobe Target Insider es una newsletter mensual para miembros de la comunidad de Adobe Target. Obtenga información sobre actualizaciones de productos y planes futuros, consejos y trucos de personalización y optimización, éxitos de clientes, próximos eventos, white papers llenos de información, populares publicaciones de blogs, etc.
-keywords: newsletter de información interna;newsletter;actualizaciones de productos;sugerencias y trucos;eventos;éxito del cliente;blog;blogs;documento técnico;documento técnico
-seo-description: Adobe Target Insider es una newsletter mensual para miembros de la comunidad de Adobe Target. Obtenga información sobre actualizaciones de productos y planes futuros, consejos y trucos de personalización y optimización, éxitos de clientes, próximos eventos, white papers llenos de información, populares publicaciones de blogs, etc.
-seo-title: 'Boletín de Adobe Target Insider '
-solution: Destino
-title: Newsletter de Target Insider
+description: 'El boletín informativo de Dynamic Media de Experience League es un boletín mensual. Está diseñado para ayudarle a ponerse al día con Dynamic Media y Dynamic Media Classic, de modo que pueda empezar a obtener valor de inmediato. En este boletín de noticias de una sola empresa encontrará valiosos recursos para la creación de conocimientos, entre los que se incluyen vídeos, descripciones generales de soluciones e presentaciones a algunas de las funciones y funcionalidades clave, como ajustes preestablecidos de imagen, ajustes preestablecidos de visor, perfiles de vídeo y mucho más. '
+keywords: Dynamic Media;newsletter;actualizaciones de productos;sugerencias y trucos;eventos;éxito del cliente;blog;blogs;imágenes;videos;funciones;capacidades
+seo-description: en este boletín informativo de una sola publicación encontrará recursos para la creación de conocimientos, como vídeos, descripciones generales de soluciones e introducción a algunas de las funciones y funciones clave, como ajustes preestablecidos de imagen, ajustes preestablecidos de visor, perfiles de vídeo y mucho más.
+seo-title: 'Boletín de Adobe Dynamic Media '
+solution: Medios dinámicos
+title: Boletín de Dynamic Media
 translation-type: tm+mt
-source-git-commit: 1fc1537288fe8e106970a61271705f28ecf497c0
+source-git-commit: e78e6bc34343479b133f475e9c0fae1e1841d465
 
 ---
 
 
-# Boletín de Target Insider
+# ![Logotipo del boletín de Dynamic Media](/help/assets/dynamic-media-newsletter-logo.png)
 
-Adobe Target Insider es una newsletter mensual para miembros de la comunidad de Adobe Target. Obtenga información sobre actualizaciones de productos y planes futuros, consejos y trucos de personalización y optimización, éxitos de clientes, próximos eventos, white papers llenos de información, populares publicaciones de blogs, etc.
+El boletín informativo de Dynamic Media de Experience League es un boletín mensual diseñado para ayudarle a ponerse al día con los medios dinámicos y los medios dinámicos clásicos, de modo que pueda empezar a obtener valor de inmediato.
+
+**¿Qué se incluye en los boletines informativos?**
+En este boletín de noticias de una sola empresa encontrará valiosos recursos para la creación de conocimientos, incluidos vídeos explicativos, descripciones generales de soluciones e introducciones a algunas de las funciones y funciones clave, como ajustes preestablecidos de imagen, ajustes preestablecidos de visor, perfiles de vídeo y mucho más.
+
+## Siéntase inspirado. Manténgase informado.
+
+[Regístrese](https://www.adobe.com/subscription/dynamic-media-newsletter.html) para recibir el boletín de Dynamic Media mensualmente en su bandeja de entrada.
+
+## ¿Ha perdido un número del boletín de Dynamic Media?
+
+* **[Octubre de 2019, edición 10](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_10_2019_Oct.html)** En este número:
+
+   * Cómo obtener análisis avanzados sobre las acciones que los visitantes realizan en los visores de Dynamic Media.
+   * Una infografía con sugerencias para el asombro resulta de la entrega de imágenes y vídeos de alta calidad.
+   * Un artículo de CMSwire que le ayuda a comprender cómo actualizar su estrategia de medios enriquecidos para satisfacer las expectativas de los clientes actuales.
+   * Acceso al seminario web a petición sobre medios dinámicos de la serie Skill Builder.
+   * Conozca a Nick Peters, Director, Ingeniería de confiabilidad del sitio, Adobe Experience Manager.
+   * Póngase al día con Dynamic Media y Dynamic Media Classic en Experience League.
+
+* **[Septiembre de 2019, número 09](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_09_2019_Sept.html)** En este número:
+
+   * Superponga las experiencias de sus clientes eliminando estas 9 "dificultades".
+   * Descubra cómo el equipo de Dynamic Media puede ayudarle a prepararse para un día con un tráfico de visitantes mayor que el normal.
+   * Una segunda oportunidad para capturar dos seminarios web recientes del generador de habilidades.
+   * Vea el seminario web a petición sobre la protección de sus activos digitales contra la piratería.
+   * Conozca a Bridget Roman, responsable sénior de marketing de productos para Recursos Adobe Experience Manager.
+   * Póngase al día con Dynamic Media y Dynamic Media Classic en Experience League.
 
 
-Lea la carta [de](https://theblog.adobe.com/stay-optimized-adobe-target-insider-newsletter/) anuncio para aprender a optimizarse con la newsletter Adobe Target Insider.
+* **[Agosto de 2019, número 08](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_08_2019_Aug.html)** En este número:
 
->[!IMPORTANT]
->
->[Regístrese para recibir automáticamente la newsletter de Adobe Target Insider en su bandeja de entrada](https://www.adobe.com/subscription/adobe_target_newsletter.html).
+   * Explore las valiosas funciones disponibles solo cuando actualice a Dynamic Media.
+   * Obtenga información sobre una serie de seminarios web diseñados para ayudarle a utilizar los recursos y medios dinámicos de Adobe Experience Manager.
+   * Empiece su viaje obteniendo valor de Dynamic Media en Experience League.
+   * Eche un vistazo a una poderosa integración que se producirá en septiembre y le permitirá analizar cómo los visitantes interactúan con sus medios enriquecidos.
+   * Conozca a PieterJan Pieper, técnico de Dynamic Media con asistencia técnica.
 
-Si ha omitido las newsletters anteriores, haga clic en los vínculos siguientes para asegurarse de que no se pierde nada:
 
->[!NOTE]
->
->Asegúrese de volver a comprobarlo. Estamos trabajando para publicar todos los problemas anteriores aquí.
+* **[Julio de 2019, número 07](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_07_2019_July.html)** En este número:
 
-| Problema | Detalles |
-|--- |--- |
-|  |  |
-| [Noviembre de 2018 (Volumen 1, Número 11)](https://expleague.azureedge.net/assets/target/newsletter-2018-november.html) | En este número, conozca nuestro reciente seminario web sobre plataformas de optimización de experiencias con el ponente invitado James McCormick, el analista principal de Forrester. Descubra cómo desarrollar aplicaciones móviles que los clientes utilizan una y otra vez. Obtenga consejos de Matt Ravlich de WestJet sobre la comunicación de los éxitos de optimización. Descubra cómo dos potentes funciones de AI impulsadas por Adobe Sensei permiten la personalización a escala. Y no olvide guardar la fecha de Adobe Summit. |
-| [Octubre de 2018 (Volumen 1, Número 10)](https://expleague.azureedge.net/assets/target/newsletter-2018-october.html) | Recientemente, hemos añadido muchas funciones y mejoras nuevas en Adobe Target, incluidas algunas que se incluyeron en un artículo reciente de TechCrunch. Obtenga más información sobre nuestras nuevas funciones a través de un artículo de blog relacionado y las últimas novedades de Adobe Target. Además, descubra cómo David Parker y su equipo ayudaron a una compañía gigante de telecomunicaciones a optimizar todo el viaje del cliente en el sitio web de la empresa. |
-| [Septiembre de 2018 (Volumen 1, Número 9)](https://expleague.azureedge.net/assets/target/newsletter-2018-september.html) | En esta edición de Adobe Target Insider, Leen Habbal, nuestra pasante de verano, comparte su experiencia como pasante de verano en el equipo de marketing de productos de Adobe Target. También presentamos Adobe Cloud Platform Auditor, una herramienta que le ayuda a validar que ha implementado correctamente sus tecnologías de Adobe. Explicamos cómo AI puede llevar el viaje del cliente al siguiente nivel y cómo obtener la certificación de Adobe Target. Además, oímos a Rob McLaughlin, de la empresa de telecomunicaciones y medios con sede en el Reino Unido, Sky, sobre cómo ofrecer personalización a gran escala a los clientes, y mucho más. |
-| [Agosto de 2018 (Volumen 1, Número 8)](https://expleague.azureedge.net/assets/target/newsletter-2018-august.html) | En esta newsletter de Adobe Target Insider, descubra Adobe Experience League para Adobe Target, un recurso valioso para crear su experiencia en optimización y personalización. A continuación, descubra cómo Jake Mitchell de CarMax dependía de Adobe Target para la optimización de la experiencia del usuario. Por último, explore la ciencia de datos en los nuevos informes de Perspectivas de personalización de Adobe Target Premium. |
-| [Julio de 2018 (Volumen 1, Número 7)](https://expleague.azureedge.net/assets/target/newsletter-2018-july.html) | En esta edición de Adobe Target Insider, presentamos Adobe Target Basics, una nueva serie de seminarios web alojada en nuestra comunidad de Target que le lleva a la interfaz de usuario de la solución (IU) para obtener consejos y consejos sobre prácticas recomendadas. También compartimos opiniones de Nicolas Mériel sobre el camino de Swisscom hacia el uso de la IA para la personalización, ofrecemos aspectos destacados de nuestra reciente encuesta de IA en Personalización, y mucho más. |
-| [Junio de 2018 (Volumen 1, Número 6)](https://expleague.azureedge.net/assets/target/newsletter-2018-june.html) | Nos sentimos honrados de haber sido nombrados el único líder en The Forrester Wave™: Plataformas de optimización de experiencias, informe del segundo trimestre de 2018 y le agradecemos mucho a usted, nuestros clientes, su asistencia y sus valiosos comentarios que ayudaron a nuestra solución a ganar este honor. Lea nuestra entrada de blog sobre el informe, conozca cinco consejos para transformar su programa de optimización desde una presentación en la parte superior, disfrute de un resumen de nuestra reciente parada de tour de Adobe Insider en Atlanta, y mucho más. |
-| [Mayo de 2018 (Volumen 1, Número 5)](https://expleague.azureedge.net/assets/target/newsletter-2018-may.html) | En esta edición, descubra cómo Adobe Experience Cloud está abordando el Reglamento general de protección de datos (RGPD) de la UE, que entrará en vigor el 25 de mayo. Disfrute de una recapitulación de nuestras sesiones de Adobe Summit mejor valoradas en la pista Personalización. Y para ustedes B2B-ers, lean para obtener información de un gigante B2B, Grainger. |
-| [Abril de 2018 (Volumen 1, Número 4)](https://expleague.azureedge.net/assets/target/newsletter-2018-april.html) | En esta edición, le ayudamos a revivir parte de la bondad de Adobe Summit en Las Vegas, a la vez que le presentamos una nueva oportunidad para continuar con estas valiosas conexiones en persona con nuestro equipo y con sus compañeros: el Adobe Insider Tour. A continuación, lea para conocer los cinco finalistas de los premios Adobe Experience Business Excellence que han compartido sus historias de éxito de personalización sobre el uso de Adobe Target. En esta edición, le ayudamos a revivir parte de la bondad de Adobe Summit en Las Vegas, a la vez que le presentamos una nueva oportunidad para continuar con estas valiosas conexiones en persona con nuestro equipo y con sus compañeros: el Adobe Insider Tour. A continuación, lea para conocer los cinco finalistas de los premios Adobe Experience Business Excellence que han compartido sus historias de éxito de personalización sobre el uso de Adobe Target. |
-| [Marzo de 2018 (Volumen 1, Número 3)](https://expleague.azureedge.net/assets/target/newsletter-2018-march.html) | Este año hemos trabajado duro en el desarrollo de nuevas funciones innovadoras en Adobe Target que acabamos de anunciar en Adobe Summit. Lea sobre ellos aquí, junto con algunos artículos técnicos de análisis profundo que le ayudarán a obtener aún más valor de Adobe Target. |
-| [Febrero de 2018 (Volumen 1, Número 2)](https://expleague.azureedge.net/assets/target/newsletter-2018-february.html) | En esta edición, proporcionamos la versión de Cliff Notes para las sesiones de personalización de Adobe Summit. Echa un vistazo, elige tus sesiones, y te veremos en el gran evento. Además, conozca y lance la encuesta 2018 Estado de IA en Personalización, en el siguiente artículo. Hay una bebida de café de Starbucks esperándote cuando lo completes como un pequeño agradecimiento de nosotros! |
-| [Enero de 2018 (Volumen 1, Número 1)](https://expleague.azureedge.net/assets/target/newsletter-2018-january.html) | Bienvenido al primer número de Adobe Target Insider, nuestro boletín mensual lleno de noticias y recursos para los usuarios de Adobe Target. En este tema, compartiré mis opiniones sobre lo que está por venir para la personalización en 2018. Disfrútelo. |
+   * Recursos e información que le permiten administrar correctamente sus activos de alto valor para ofrecer experiencias seguras que mantienen a los visitantes en el retorno.
+   * Obtenga información sobre un seminario web sobre la protección de recursos digitales.
+   * A continuación, se detiene en la gira informativa de Adobe Insider.
+   * Funciones interesantes disponibles cuando dispone de Dynamic Media en Recursos Adobe Experience Manager (Recursos AEM).
+   * Adición de vídeos de 360 grados y miniaturas de vídeo personalizadas a su sitio web.
+   * Conozca a Andrew Hathaway, consultor de soluciones principales para medios dinámicos en Recursos AEM.
+
+* **[Junio de 2019, número 06](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_06_2019_June.html)** En este número:
+
+   * Disfrute de vídeos que resaltan la percepción de la actualización a Dynamic Media en Recursos AEM.
+   * Vea vídeos de procedimientos clave en Experience League.
+   * Obtenga más información sobre el próximo Adobe Insider Tour.
+   * Obtenga información sobre cómo proteger los recursos digitales contra la piratería.
+   * Obtenga información sobre el recorte inteligente impulsado por AI para imágenes.
+   * Conozca a Alex Thiers, uno de los factores que impulsan muchas de las grandes características e innovaciones de Dynamic Media y Dynamic Media Classic.
+
+* **[Mayo de 2019, número 05](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_05_2019_May.html)** En este número:
+
+   * Descubra las 10 principales funciones ocultas de Dynamic Media Classic en una publicación de blog
+   * Vea vídeos de procedimientos clave en Experience League.
+   * Obtenga información sobre la próxima gira de Adobe Insider.
+   * Lea una serie de blogs en tres partes para actualizar su estrategia de medios enriquecidos.
+   * Obtenga más información sobre el recorte inteligente de vídeo impulsado por AI.
+
+* **[Abril de 2019, número 04](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_04_2019_April.html)** Bienvenido al número de inauguración del boletín de Dynamic Media, nuestro nuevo boletín mensual lleno de noticias, eventos y recursos para los usuarios de Dynamic Media en Recursos Adobe Experience Manager y Adobe Dynamic Media Classic. En este número:
+   * Regístrese en nuestro seminario web de funciones ocultas de Dynamic Media Classic.
+   * Conozca nuestra serie de seminarios web a petición para ayudarle a desarrollar su estrategia de medios enriquecidos.
+   * Obtenga información sobre los casos clave de uso de medios enriquecidos y nuestras soluciones para ellos.
+   * ... y mucho más!
