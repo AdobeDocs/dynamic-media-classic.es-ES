@@ -6,17 +6,16 @@ seo-title: 'Boletín de Adobe Dynamic Media '
 solution: Medios dinámicos
 title: Boletín de Dynamic Media
 translation-type: tm+mt
-source-git-commit: fe982958e9954adb814fdd7cc94225a9dbe7c6b0
+source-git-commit: 656a9ab1b4fd0c99b612dc0e42d03b56ff213191
 
 ---
 
 
 # ![Logotipo del boletín de Dynamic Media](/help/assets/dynamic-media-newsletter-logo.png)
 
-El boletín informativo de Dynamic Media de Experience League es un boletín mensual diseñado para ayudarle a ponerse al día con los medios dinámicos y los medios dinámicos clásicos, de modo que pueda empezar a obtener valor de inmediato.
+El boletín mensual de Dynamic Media de Experience League está diseñado para ayudarle a ponerse al día con los medios dinámicos y los medios dinámicos clásicos, de modo que pueda empezar a obtener valor de inmediato.
 
-**¿Qué se incluye en los boletines informativos?**
-En este boletín de noticias de una sola empresa encontrará valiosos recursos para la creación de conocimientos, incluidos vídeos explicativos, descripciones generales de soluciones e introducciones a algunas de las funciones y funciones clave, como ajustes preestablecidos de imagen, ajustes preestablecidos de visor, perfiles de vídeo y mucho más.
+En este boletín de noticias de una sola empresa, descubra valiosos recursos para la creación de conocimientos, como vídeos explicativos, descripción general de la solución e introducción a algunas de las funciones y funciones clave de la solución, como ajustes preestablecidos de imagen, ajustes preestablecidos de visor, perfiles de vídeo y mucho más.
 
 ## Siéntase inspirado. Manténgase informado.
 
