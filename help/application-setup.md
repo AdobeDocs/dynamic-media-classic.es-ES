@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: ae2d1895-a437-4463-bface-3960c8027551
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 8216ac64ba418987c7f5ed84c4cb957189645bd9
 
 ---
 
@@ -457,7 +457,7 @@ Consulte [Práctica recomendada: Uso del visor de vídeo HTML5](best-practice-us
 
 Dependiendo del visor, puede añadir funciones de comunidad. Las funciones de la comunidad incluyen los botones de incrustación, enlace y visita al sitio. Estos botones permiten a las personas que utilizan los visores compartir el visor con otros usuarios o abrir el sitio web de Dynamic Media Classic.
 
-Consulte también Ejemplos de la biblioteca de referencia de visores de Adobe [aquí](/help/assets/vlist/vlist.html) y [aquí](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
+Consulte también Ejemplos [de la biblioteca de referencia de visores de](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)Adobe.
 
 ### Compatibilidad de los visores para páginas web diseñadas para interactividad {#viewer-support-for-responsive-designed-web-pages}
 
@@ -497,7 +497,7 @@ Para obtener más información sobre este cambio importante, consulte el siguien
 
 La siguiente tabla identifica los ajustes preestablecidos de visor de Dynamic Media Classic disponibles actualmente. En la tabla también se especifica la compatibilidad del visor con los ordenadores y los dispositivos móviles, así como la tecnología empleada para cada visor.
 
-Consulte también Ejemplos de la biblioteca de referencia de visores de Adobe [aquí](/help/assets/vlist/vlist.html) y [aquí](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
+Consulte también Ejemplos [de la biblioteca de referencia de visores de](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)Adobe.
 
 Para obtener información sobre las versiones de sistema operativo y navegador web admitidas para los visores, consulte las notas de la versión de los visores.
 
