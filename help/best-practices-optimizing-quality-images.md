@@ -2,15 +2,15 @@
 title: Prácticas recomendadas para optimizar la calidad de las imágenes
 seo-title: Prácticas recomendadas para optimizar la calidad de las imágenes
 description: nulo
-seo-description: Aprenda las prácticas recomendadas para optimizar la calidad de las imágenes.
-uuid: 102 e 83 fe-ee 2 a -443 b-ba 92-6 ad 5 cc 3 daef 0
+seo-description: Conozca las prácticas recomendadas para optimizar la calidad de las imágenes.
+uuid: 102e83fe-ee2a-443b-ba92-6ad5cc3daef0
 contentOwner: admin
 content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/master_ files
-discoiquuid: 8164466 e -2520-482 a -88 ec -6191 fdc 77 ea 3
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
+discoiquuid: 8164466e-2520-482a-88ec-6191fdc77ea3
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
 
 ---
 
@@ -21,12 +21,12 @@ La optimización de la calidad de las imágenes puede ser un proceso lento, ya q
 
 Dynamic Media Classic incluye más de 100 comandos de servicio de imágenes para ajustar y optimizar imágenes y procesar resultados. Las directrices siguientes pueden ayudarle a agilizar el proceso y a obtener buenos resultados con rapidez utilizando ciertos comandos esenciales y prácticas recomendadas.
 
-Consulte también [Imágenes inteligentes](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html).
+Consulte también Imágenes [inteligentes](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html).
 
 ## Prácticas recomendadas para el formato de imágenes (&amp;fmt=) {#best-practices-for-image-format-fmt}
 
 * Los formatos JPG o PNG son las mejores opciones para distribuir imágenes con una buena calidad y con un tamaño y peso manejables.
-* Si no se proporciona ningún comando de formato en la URL, el servicio de imágenes de Dynamic Media se establece de forma predeterminada en JPG para su envío.
+* Si no se proporciona ningún comando de formato en la URL, el servicio de imágenes de Dynamic Media utiliza JPG de forma predeterminada para la entrega.
 * JPG comprime en una proporción de 10:1 y generalmente ofrece tamaños de archivo de imagen más pequeños. PNG comprime en una proporción de 2:1 aproximadamente, excepto en ciertos casos, como cuando las imágenes contienen un fondo blanco. Normalmente, los tamaños de archivo PNG son mayores que los archivos JPG.
 * JPG utiliza compresión con pérdidas, lo que significa que elementos de la imagen (píxeles) se eliminan durante la compresión. PNG utiliza la compresión sin pérdidas.
 * JPG a menudo comprime imágenes fotográficas con una mejor fidelidad que las imágenes sintéticas con contraste y bordes y nítidos.
@@ -36,18 +36,18 @@ As a best practice for image format, start with the most common setting `&fmt=JP
 
 ## Prácticas recomendadas para el tamaño de imagen {#best-practices-for-image-size}
 
-La reducción dinámica del tamaño de la imagen es una de las tareas más comunes que desempeña el servicio de imágenes de Dynamic Media. Requiere especificar el tamaño y, opcionalmente, el modo de disminución de resolución que se utiliza para reducir el tamaño de la imagen.
+La reducción dinámica del tamaño de la imagen es una de las tareas más comunes que realiza el servicio de imágenes de Dynamic Media. Requiere especificar el tamaño y, opcionalmente, el modo de disminución de resolución que se utiliza para reducir el tamaño de la imagen.
 
 * For image sizing, the best and most straightforward approach is to use `&wid=<value>` and `&hei=<value>` or just `&hei=<value>`. Estos parámetros establecen la anchura de la imagen automáticamente según la proporción de aspecto.
-* `&resMode=<value>` controla el algoritmo utilizado para disminuir la resolución. Comience `&resMode=sharp2`con. Este valor proporciona la mejor calidad de imagen. While using the downsampling value `=bilin` is faster, it often results in the aliasing of artifacts.
+* `&resMode=<value>` controla el algoritmo utilizado para la disminución de resolución. Empiece por `&resMode=sharp2`. Este valor proporciona la mejor calidad de imagen. While using the downsampling value `=bilin` is faster, it often results in the aliasing of artifacts.
 
-Como práctica recomendada para cambiar el tamaño de imagen, utilice `&wid=<value>&hei=<value>&resMode=sharp2` o `&hei=<value>&resMode=sharp2`
+Como práctica recomendada para cambiar el tamaño, el uso `&wid=<value>&hei=<value>&resMode=sharp2` o `&hei=<value>&resMode=sharp2`
 
 ## Prácticas recomendadas para el enfoque de imágenes {#best-practices-for-image-sharpening}
 
-El enfoque de imágenes es el aspecto más complejo del control de imágenes en su sitio Web y en el que se producen muchos errores. Dedique tiempo a conocer cómo funciona el enfoque y la máscara de enfoque en Dynamic Media Classic haciendo referencia a los siguientes recursos útiles:
+El enfoque de imágenes es el aspecto más complejo del control de imágenes en su sitio Web y en el que se producen muchos errores. Tómese el tiempo para obtener más información sobre el funcionamiento del enfoque y la máscara de enfoque en Dynamic Media Classic haciendo referencia a los siguientes recursos útiles:
 
-Documento técnico Prácticas recomendadas [para enfocar imágenes en Adobe Scene 7 Publishing System y en el servidor de imágenes](https://marketing.adobe.com/resources/help/en_US/s7/sharpening/s7_sharpening_images.pdf).
+Documento técnico de prácticas recomendadas [Enfoque de imágenes en Adobe Scene7 Publishing System y en el servidor](/help/assets/s7_sharpening_images.pdf)de imágenes.
 
 On Adobe TV, watch [Sharpening an image with unsharp mask](https://tv.adobe.com/watch/visual-design-cs6/sharpening-an-image-with-unsharp-mask/).
 
@@ -70,11 +70,11 @@ Puede utilizar dos métodos de enfoque de imágenes:
          Este parámetro determina hasta qué punto deben ser distintos los píxeles enfocados respecto al área que los rodea para poder considerarse píxeles de borde y por tanto enfocarse. El umbral ayuda a evitar el exceso de áreas de enfoque con colores similares, como los tonos de piel. Por ejemplo, un valor de umbral 12 ignora las ligeras variaciones de brillo en el tono de la piel para no agregar “ruido” y, simultáneamente, agrega contraste al borde de las áreas contrastadas, por ejemplo, donde las pestañas tocan la piel.
       Para obtener más información sobre la configuración de estos tres parámetros, incluidas las prácticas recomendadas de uso del filtro, consulte los siguientes recursos:
 
-      Tema de ayuda de Media Media Classic sobre [enfoque de imágenes](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html).
+      Tema de ayuda de Dynamic Media Classic sobre el [enfoque de imágenes](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html).
 
-      Documento técnico Prácticas recomendadas [para enfocar imágenes en Adobe Scene 7 Publishing System y en el servidor de imágenes](https://marketing.adobe.com/resources/help/en_US/s7/sharpening/s7_sharpening_images.pdf).
+      Documento técnico de prácticas recomendadas [Enfoque de imágenes en Adobe Scene7 Publishing System y en el servidor](/help/assets/s7_sharpening_images.pdf)de imágenes.
 
-   * Dynamic Media Classic también permite controlar un cuarto parámetro: monocromo ( `0,1`). Este parámetro determina si la máscara de enfoque se aplica a cada componente de color por separado mediante el valor `0` o al brillo o la intensidad de la imagen con el valor `1`.
+   * Dynamic Media Classic también le permite controlar un cuarto parámetro: monocromo ( `0,1`). Este parámetro determina si la máscara de enfoque se aplica a cada componente de color por separado mediante el valor `0` o al brillo o la intensidad de la imagen con el valor `1`.
 
 
 La práctica recomendada es comenzar con el parámetro de radio de máscara de enfoque. Puede comenzar con las configuraciones de radio siguientes:
@@ -106,7 +106,7 @@ La práctica recomendada de compresión JPG es `&qlt=85,0`.
 `jpegSize` es un parámetro muy útil si desea asegurarse de que una imagen no supere un determinado tamaño para la distribución en dispositivos con memoria limitada.
 
 * Este parámetro se establece en kilobytes ( `jpegSize=<size_in_kilobytes>`). Define el tamaño máximo permitido para la distribución de imágenes.
-* `&jpegSize=` interactúa con el parámetro `&qlt=`de compresión JPG. If the JPG response with the specified JPG compression parameter ( `&qlt=`) does not exceed the `jpegSize` value, the image is returned with `&qlt=` as defined. Otherwise, `&qlt=` is gradually decreased until the image fits in the maximum allowed size, or until the system determines it cannot fit and returns an error.
+* `&jpegSize=` interactúa con el parámetro de compresión JPG `&qlt=`. If the JPG response with the specified JPG compression parameter ( `&qlt=`) does not exceed the `jpegSize` value, the image is returned with `&qlt=` as defined. Otherwise, `&qlt=` is gradually decreased until the image fits in the maximum allowed size, or until the system determines it cannot fit and returns an error.
 
 As a best practice, set `&jpegSize=` and add the parameter `&qlt=` if you are delivering JPG images to devices with limited memory.
 
@@ -124,7 +124,7 @@ Si los resultados de enfoque aún no son satisfactorios, aumente el radio en inc
 
 Al experimentar, también puede encontrar las sugerencias generales siguientes útiles para optimizar el flujo de trabajo:
 
-* Pruebe y pruebe distintos parámetros en tiempo real, directamente en una URL clásica de Media Media Classic o utilizando la funcionalidad de ajuste de imagen de Scene 7 Publishing System que proporciona vistas previas en tiempo real para operaciones de ajuste.
-* Como práctica recomendada, recuerde agrupar los comandos de servicio de imágenes de Dynamic Media en un ajuste preestablecido de imagen. An image preset is basically URL command macros with custom preset names such as `$thumb_low$` and `&product_high$`. El nombre del ajuste preestablecido personalizado en una ruta URL invoca estos ajustes preestablecidos. Esta funcionalidad le ayudará a administrar comandos y ajustes de calidad para diferentes modelos de uso de imágenes en su sitio web y reducirá la longitud total de la URL.
-* Dynamic Media Classic también ofrece formas más avanzadas de ajustar la calidad de imagen, como aplicar imágenes enfocadas al ingesta. En el caso de usos avanzados, en los que es necesaria esta opción para perfeccionar y optimizar aún más los resultados del procesamiento, Adobe Professional Service puede ayudarle con prácticas recomendadas y sugerencias personalizadas.
+* Pruebe distintos parámetros en tiempo real, ya sea directamente en una URL de Dynamic Media Classic o mediante la función de ajuste de imagen de Scene7 Publishing System, que proporciona vistas previas en tiempo real para las operaciones de ajuste.
+* Como práctica recomendada, recuerde que puede agrupar comandos de servicio de imágenes de Dynamic Media en un ajuste preestablecido de imagen. An image preset is basically URL command macros with custom preset names such as `$thumb_low$` and `&product_high$`. El nombre del ajuste preestablecido personalizado en una ruta URL invoca estos ajustes preestablecidos. Esta funcionalidad le ayudará a administrar comandos y ajustes de calidad para diferentes modelos de uso de imágenes en su sitio web y reducirá la longitud total de la URL.
+* Dynamic Media Classic también ofrece formas más avanzadas de ajustar la calidad de imagen, como la aplicación de imágenes de enfoque durante la ingesta. En el caso de usos avanzados, en los que es necesaria esta opción para perfeccionar y optimizar aún más los resultados del procesamiento, Adobe Professional Service puede ayudarle con prácticas recomendadas y sugerencias personalizadas.
 
