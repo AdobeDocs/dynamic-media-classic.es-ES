@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 8216ac64ba418987c7f5ed84c4cb957189645bd9
 
 ---
 
@@ -23,7 +23,7 @@ Consulte [Configuración de los visores predeterminados](application-setup.md#co
 
 Si se muestra la vista previa de un recurso de plantilla con capas de parámetros, puede realizar cambios en los parámetros o cambiar el ajuste preestablecido de imagen. Debido a que los cambios se realizan en línea, los resultados pueden verse inmediatamente desde la propia ventana de vista previa.
 
-Consulte también Ejemplos de la biblioteca de referencia de visores de Adobe [aquí](/help/assets/vlist/vlist.html) y [aquí](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
+Consulte también Ejemplos [de la biblioteca de referencia de visores de](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)Adobe.
 
 **Para obtener la vista previa de un recurso**
 
