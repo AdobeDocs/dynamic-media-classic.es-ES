@@ -3,14 +3,14 @@ title: Previsualización de un recurso
 seo-title: Previsualización de un recurso
 description: nulo
 seo-description: Obtenga información sobre cómo obtener una vista previa de un recurso.
-uuid: 4 a 01 be 21-e 37 f -4 d 79-9220-f 4 e 177 e 9179 a
+uuid: 4a01be21-e37f-4d79-9220-f4e177e9179a
 contentOwner: admin
 content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/managing_ assets
-discoiquuid: 17 d 0 bfd 6-fc 62-4 ed 6-8 a 51-7 ac 1 a 6 bb 96 cc
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
+discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
 
 ---
 
@@ -23,7 +23,7 @@ Consulte [Configuración de los visores predeterminados](application-setup.md#co
 
 Si se muestra la vista previa de un recurso de plantilla con capas de parámetros, puede realizar cambios en los parámetros o cambiar el ajuste preestablecido de imagen. Debido a que los cambios se realizan en línea, los resultados pueden verse inmediatamente desde la propia ventana de vista previa.
 
-Consulte también [Ejemplos de biblioteca de visores de Dynamic Media Classic](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html).
+Consulte también Ejemplos de la biblioteca de referencia de visores de Adobe [aquí](/help/assets/vlist/vlist.html) y [aquí](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 **Para obtener la vista previa de un recurso**
 
