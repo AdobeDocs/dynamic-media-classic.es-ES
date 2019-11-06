@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: d3f21cdf-2cb3-46e8-955a-b8daf0b233bc
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
 
 ---
 
@@ -81,7 +81,7 @@ En Máscara de enfoque, establezca las opciones que desee. Las opciones de confi
 
 Consulte también [Enfoque de imágenes](sharpening-image.md#sharpening_an_image).
 
-Consulte también [Enfoque de imágenes en Scene7 Publishing System y en el servidor](https://marketing.adobe.com/resources/help/en_US/s7/sharpening/s7_sharpening_images.pdf)de imágenes.
+Consulte también [Enfoque de imágenes en Scene7 Publishing System y en el servidor](/help/assets/s7_sharpening_images.pdf)de imágenes.
 
 **Fondo de cobertura**
 
