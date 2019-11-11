@@ -3,21 +3,21 @@ title: Ayuda de Dynamic Media Classic
 seo-title: Adobe Dynamic Media Classic
 description: Descripción general de Dynamic Media Classic
 seo-description: Descripción general de Dynamic Media Classic
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 1c11dd719e5da1d166f43e0ab9b490464c74645f
 
 ---
 
 
 # Ayuda de Dynamic Media Classic {#scene7-overview}
 
-Bienvenido a Adobe Dynamic Media Classic (anteriormente Scene 7), el sistema de publicación multiplataforma líder en la demanda para cargar, gestionar, mejorar y publicar contenido enriquecido dinámico en todos los dispositivos y pantallas. Las soluciones de Adobe Dynamic Media Classic incluyen lo siguiente:
+Bienvenido a Adobe Dynamic Media Classic (anteriormente Scene7), el sistema líder de publicación multimedios a petición para cargar, gestionar, mejorar y publicar contenido enriquecido dinámico en todos los dispositivos y pantallas. Las soluciones de Adobe Dynamic Media Classic incluyen lo siguiente:
 
 * Imágenes dinámicas: edición en tiempo real, con cambio de formatos y tamaños, zoom y desplazamiento interactivo, muestras de colores y texturas, giros de 360º, plantillas de imágenes y visores multimedia.
-* Catálogos electrónicos: Autor, vinculación interactiva, habilitada, habilitada, publicar y distribuir catálogos en línea que funcionan dinámicamente en visores configurables.
-* Media Portal: Entorno de autoservicio que proporciona a los usuarios del portal «vistas» controladas por el administrador en recursos de Dynamic Media Classic para acceder fácilmente a la carga, exploración, búsqueda, vista previa y exportación de recursos.
-* Evideo: Carga de vídeos finales en cualquier formato, gestión, edición, creación de puntos interactivos y plantillas de vídeo, publicación y flujo en visores de vídeos configurables
+* Catálogos electrónicos: Creación, vinculación de puntos interactivos, búsqueda habilitada, publicación y distribución dinámica de catálogos en línea en visores configurables.
+* Media Portal: Entorno de autoservicio que proporciona a los usuarios del portal "vistas" controladas por el administrador de los recursos de Dynamic Media Classic para acceder fácilmente a la carga, exploración, búsqueda, vista previa y exportación de recursos.
+* eVideo: Cargue vídeos finales en cualquier formato, administre, edite, cree zonas interactivas y plantillas de vídeo, publique y transmita en visores de vídeo configurables
 * Configuradores visuales: tecnología de procesamiento en tiempo real para poder hacer configuraciones visuales en línea y personalizar efectos. Por ejemplo, procesar en tiempo real texturas y colores, superficies, motivos, monogramas y grabados en escenas o en imágenes de productos.
 * Impresión virtual: tecnología y marco de composición en tiempo real para habilitar el uso de soluciones personalizadas de impresión virtual para crear documentos personalizados.
 * Impresión y correo electrónico de destino: distribución de campañas de correo electrónico personalizadas visualmente, vinculadas a perfiles de cliente, a productos y a bases de datos de canales.
@@ -25,5 +25,17 @@ Bienvenido a Adobe Dynamic Media Classic (anteriormente Scene 7), el sistema de 
 ## Recursos clave
 
 * [Introducción y descripción general](/help/scene7-platform-overview.md)
+* [Inicio rápido: Catálogo electrónico](/help/quick-start-ecatalog.md)
+* [Inicio rápido: Conjuntos de imágenes](/help/quick-start-image-sets.md)
+* [Inicio rápido: Tamaño de imagen](/help/quick-start-image-sizing.md)
+* [Inicio rápido: Integración de análisis de Scene7](/help/quick-start-integrating-scene7-analytics.md)
 * [Inicio rápido: Media Portal](/help/quick-start-media-portal-administration.md)
-* [Novedades](/help/whats-new.md)
+* [Inicio rápido: Conjuntos de medios mixtos](/help/quick-start-mixed-media-sets.md)
+* [Inicio rápido: Conjuntos de giros](/help/quick-start-spin-sets.md)
+* [Inicio rápido: Conjuntos de muestras](/help/quick-start-swatch-sets.md)
+* [Inicio rápido: Integración de Target Classic](/help/quick-start-target-classic-integration.md)
+* [Inicio rápido: Aspectos básicos de la plantilla](/help/quick-start-template-basics.md)
+* [Inicio rápido: Publicación de plantillas](/help/quick-start-template-publishing.md)
+* [Inicio rápido: Vídeo](/help/quick-start-video.md)
+* [Inicio rápido: Zoom](/help/quick-start-zoom.md)
+
