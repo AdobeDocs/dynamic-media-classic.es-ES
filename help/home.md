@@ -5,7 +5,7 @@ description: Documentación técnica de Dynamic Media Classic
 seo-description: 'Documentación técnica, notas de la versión y materiales de autoayuda para Adobe Dynamic Media Classic, anteriormente Scene7 '
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 1c11dd719e5da1d166f43e0ab9b490464c74645f
 
 ---
 
@@ -14,19 +14,20 @@ source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
 
 Bienvenido a la Ayuda de Dynamic Media Classic. Aquí puede acceder a todos los recursos disponibles para obtener más información sobre el uso de Dynamic Media Classic (anteriormente denominado Scene7).
 
-## Documentación técnica de Dynamic Media Classic
+## Nueva interfaz de usuario de Dynamic Media Classic que se lanzará en el primer semestre de 2020
 
-* [Notas de la versión](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
-* [Guía del usuario](introduction.md)
+Los usuarios de Dynamic Media Classic pueden esperar una actualización de su interfaz de usuario en el primer semestre de 2020. La experiencia proporcionará un inicio de sesión actualizado con vínculos a recursos valiosos. Además, esta actualización ya no se basará en la tecnología Adobe Flash del navegador.
 
-## Recursos para desarrolladores de Dynamic Media Classic
+Consulte Preguntas [más frecuentes](new-ui-2020.md).
 
-* [Guía de referencia de visores de Adobe](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/index.html)
-* [Ejemplos de la biblioteca de visores](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
-* [API de servicio y renderización de imágenes](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/index.html)
+## Recursos para desarrolladores de Dynamic Media
 
-## Tutoriales y seminarios web de Dynamic Media Classic
+* [Página](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html) de inicio de Recursos para desarrolladores de Dynamic Media: Incluye Guía de referencia de visores, API de servicio de imágenes/procesamiento de imágenes, API de sistema de producción de imágenes y notas de la versión de Dynamic Media Classic.
+* [Ejemplos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) de la biblioteca de visores: Incluye ejemplos de visor para vídeo, medios de ventas, medios mixtos, conjuntos de giros, zoom en línea, conjuntos de imágenes y muestras y diseños.
 
+## Boletines informativos, seminarios web y tutoriales de Dynamic Media Classic
+
+* [Archivo de newsletters de Dynamic Media](dynamic-media-newsletter.md)
 * [Prácticas recomendadas para enfocar imágenes](/help/assets/s7_sharpening_images.pdf)
 * [Maximice el ROI](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&fcsContent=true&pbMode=normal&proto=true) de sus recursos: Conozca las prácticas recomendadas del sector para distribuir medios enriquecidos en sus sitios y aplicaciones móviles. En este seminario web le mostramos ejemplos y demostraciones que le muestran cómo distribuir vídeos de forma eficaz en distintos dispositivos, ofrecer elementos creativos dinámicos en sus campañas de marketing y aumentar la conversión haciendo que cualquier imagen, guía de estilo o libro de búsqueda sea posible.
 * [Acelere su ciclo](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/) de vida de entrega de contenido: este seminario web le ofrece una introducción y una demostración de Recursos Adobe Experience Manager, On Demand, la plataforma de próxima generación para la administración y entrega de medios enriquecidos. Aprenda a colaborar y compartir recursos entre equipos creativos y de marketing para optimizar los procesos de revisión de recursos; prácticas recomendadas para administrar eficazmente los metadatos de los recursos a fin de facilitar la búsqueda, el uso, la reutilización y el uso compartido de los recursos, y para ofrecer experiencias interactivas de medios enriquecidos en varios canales.
