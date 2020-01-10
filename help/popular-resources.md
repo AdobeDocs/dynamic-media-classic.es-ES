@@ -7,12 +7,12 @@ uuid: a2ef0e50-056c-4528-96d8-343c24f944a2
 contentOwner: alvawb
 discoiquuid: 094f1894-59f9-4e66-aa0a-1e0c4d7cc452
 translation-type: tm+mt
-source-git-commit: db33a9d841481f8eb0887d5713e6f8efd34fa8d7
+source-git-commit: b53a0e9776bbf3ee577c2b610f44325d6876c062
 
 ---
 
 
-# Recursos habituales {#popular-resources}
+# Recursos habituales{#popular-resources}
 
 ## Documentación técnica de Dynamic Media Classic
 
@@ -33,12 +33,12 @@ source-git-commit: db33a9d841481f8eb0887d5713e6f8efd34fa8d7
 * [Diseño para la optimización](https://adobecustomersuccess.adobeconnect.com/p6oqd3wydif/?launcher=false&fcsContent=true&pbMode=normal&proto=true) móvil: utilice Dynamic Media Classic para ofrecer medios enriquecidos dirigidos de forma eficaz a todos los dispositivos. En este seminario web, aprenderá a diseñar y distribuir experiencias de visualización de imágenes y vídeos que sean eficaces en las aplicaciones móviles y en los sitios interactivos.
 * [Cómo Adobe Dyanmic Media Classic admite SEO](/help/assets/s7_seo.pdf) : los motores de búsqueda habilitan la búsqueda de sitios web e imágenes. SPS admite los esfuerzos para que las imágenes sean más fáciles de utilizar en los motores de búsqueda, de modo que se dirija más tráfico al sitio web del usuario de Dynamic Media Classic. Este PDF le proporciona el fondo y las recomendaciones de implementación para que esto suceda.
 * [Con Dynamic Media Classic para maximizar la conversión](https://adobecustomersuccess.adobeconnect.com/p32n1yr85c9/?proto=true) de vacaciones: este seminario web le enseña a configurar flujos de trabajo automatizados para obtener contenido de carpetas vigiladas y crear conjuntos de giros y vídeos automáticamente. También aprenderá cómo gestionar cambios y actualizar imágenes con rapidez.
-* [Prácticas recomendadas para ofrecer experiencias interactivas con Dynamic Media Classic](http://seminars.adobeconnect.com/p7wb8ej3u6d/) : este seminario web le enseña a introducir y extraer contenido de Dynamic Media Classic y a configurar ajustes preestablecidos de imagen para un rendimiento y una experiencia óptimos. También aprenderá a utilizar ajustes preestablecidos de visor y almacenar configuraciones en caché.
-* [Prácticas recomendadas para el diseño](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html) interactivo: Este seminario le enseña consejos prácticos sobre cómo mejorar su estrategia móvil. Vea en acción ejemplos reales de diseño interactivo. Cree un recurso principal que funcione en distintos dispositivos y mejore el rendimiento móvil al cambiar de forma dinámica la resolución o la orientación de las imágenes para que se muestren en vertical u horizontal. Aprenda también a recortar, escalar o cambiar el tamaño de las imágenes de forma dinámica.
+* [Prácticas recomendadas para ofrecer experiencias interactivas con Dynamic Media Classic](https://seminars.adobeconnect.com/p7wb8ej3u6d/) : este seminario web le enseña a introducir y extraer contenido de Dynamic Media Classic y a configurar ajustes preestablecidos de imagen para un rendimiento y una experiencia óptimos. También aprenderá a utilizar ajustes preestablecidos de visor y almacenar configuraciones en caché.
+* [Prácticas recomendadas para el diseño](https://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html) interactivo: Este seminario le enseña consejos prácticos sobre cómo mejorar su estrategia móvil. Vea en acción ejemplos reales de diseño interactivo. Cree un recurso principal que funcione en distintos dispositivos y mejore el rendimiento móvil al cambiar de forma dinámica la resolución o la orientación de las imágenes para que se muestren en vertical u horizontal. Aprenda también a recortar, escalar o cambiar el tamaño de las imágenes de forma dinámica.
 
 ## Formación de Dynamic Media Classic
 
-Vaya [aquí](http://training.adobe.com/training/courses.html#product=adobe-scene7) para ver los cursos de formación disponibles actualmente.
+Vaya [aquí](https://training.adobe.com/training/courses.html#product=adobe-scene7) para ver los cursos de formación disponibles actualmente.
 [Vídeos](https://marketing.adobe.com/resources/help/en_US/s7/training-videos/)de formación de Dynamic Media Classic.
 
 Consulte todos los recursos populares disponibles para [Dynamic Media Classic](home.md).
