@@ -1,8 +1,8 @@
 ---
 title: Vídeos de capacitación de Dynamic Media Classic
-description: nulo
+description: Vídeos de formación de Dynamic Media Classic sobre introducción, imágenes dinámicas, vídeo, portal de medios, plantillas y creación y representación de imágenes.
 translation-type: tm+mt
-source-git-commit: 19126573aa4fa4d313e30273f0b1af03082565c8
+source-git-commit: 3f450bea8712c304226bea1ef1d2eaa8f4fb112c
 
 ---
 
