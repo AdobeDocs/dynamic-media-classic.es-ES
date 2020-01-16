@@ -5,12 +5,12 @@ description: nulo
 seo-description: Conozca las prácticas recomendadas para optimizar la calidad de las imágenes.
 uuid: 102e83fe-ee2a-443b-ba92-6ad5cc3daef0
 contentOwner: admin
-content-type: referencia
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 8164466e-2520-482a-88ec-6191fdc77ea3
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 6b0833287291f6475ab15106e8f33ed0dda0b2d4
 
 ---
 
@@ -49,7 +49,7 @@ El enfoque de imágenes es el aspecto más complejo del control de imágenes en 
 
 Documento técnico de prácticas recomendadas [Enfoque de imágenes en Adobe Scene7 Publishing System y en el servidor](/help/assets/s7_sharpening_images.pdf)de imágenes.
 
-On Adobe TV, watch [Sharpening an image with unsharp mask](https://tv.adobe.com/watch/visual-design-cs6/sharpening-an-image-with-unsharp-mask/).
+Consulte también [Enfoque de imágenes con máscara](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html)de enfoque.
 
 Con Dynamic Media Classic, puede enfocar imágenes durante la ingesta, la entrega o ambos. En la mayoría de los casos, no obstante, deberá enfocar las imágenes con un método u otro, pero no ambos. Normalmente, el enfoque de imágenes durante la distribución, en una URL, ofrece los mejores resultados.
 
@@ -63,7 +63,7 @@ Puede utilizar dos métodos de enfoque de imágenes:
       * `amount` (cantidad= (0-5, intensidad del efecto).
       * `radius` (radio) (0-250, anchura de las “líneas de enfoque” dibujadas alrededor del objeto enfocado, medidas en píxeles.)
 
-         Keep in mind that the parameters `radius` and `amount` work against each other. La reducción `radius` se puede compensar aumentando `amount`. `Radius` permite un control más preciso, ya que un valor inferior enfoca solo los píxeles de borde, mientras que un valor más alto enfoca una banda más ancha de píxeles.
+         Keep in mind that the parameters `radius` and `amount` work against each other. La reducción `radius` se puede compensar aumentando `amount`. `Radius` permite un control más preciso, ya que un valor más bajo enfoca solo los píxeles de borde, mientras que un valor más alto enfoca una banda más ancha de píxeles.
 
       * `threshold` (0-255, sensibilidad del efecto).
 
