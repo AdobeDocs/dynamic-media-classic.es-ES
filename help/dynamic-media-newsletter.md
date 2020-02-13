@@ -6,7 +6,7 @@ seo-title: 'Boletín de Adobe Dynamic Media '
 solution: Dynamic Media
 title: Boletín de Dynamic Media
 translation-type: tm+mt
-source-git-commit: e68bef4e597e81269d863e37fcd1d1b33c842836
+source-git-commit: 15beb1fbac7e6bf2c7d593806dc84efeea37d620
 
 ---
 
@@ -22,6 +22,15 @@ En este boletín de noticias de una sola empresa, descubra valiosos recursos par
 [Regístrese](https://www.adobe.com/subscription/dynamic-media-newsletter.html) para recibir el boletín de Dynamic Media mensualmente en su bandeja de entrada.
 
 ## ¿Ha perdido un número del boletín de Dynamic Media?
+
+* **[Febrero de 2020, edición 2](http://amc-mkt-prod1-t.adobe-campaign.com/rest/head/mirrorPage/@5lYjerUalNCDQd6ABlMufSyP3GqbFDn747uBiom3-3_efxsaEjuw8LNhJxrs89ft1vcsQzjvxTGMo55w-4k0YyBVGiL6m5AWSe9I7H7wIXKT0Efz.html)**En este número:
+
+   * Asista a los nuevos seminarios web de Skill Builder y conviértase en un experto de Dynamic Media Classic.
+   * Descubra dónde encontrará Dynamic Media en Adobe Summit 2020.
+   * Descubra cómo usar la magia de recorte de Dynamic Media.
+   * Aproveche una auditoría gratuita para obtener más valor de Dynamic Media Classic.
+   * Obtenga información sobre la nueva interfaz de usuario de Dynamic Media Classic.
+   * Conozca a Georgia Myers, responsable del éxito del cliente para Adobe Experience Cloud.
 
 * **[Enero de 2020, edición 1](http://amc-mkt-prod1-t.adobe-campaign.com/rest/head/mirrorPage/@NpvOA7LHuVbd-W1B5pENdSLNFZ4L4ZeEkA_bVd4reX31KUOs3uaPFEuEx2mWz-3oNkVBcY5fdimoW3RM-SzTt6QXI4l1Rd2mEwrYsWp7C1LnUMVp.html)**En este número:
 
