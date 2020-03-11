@@ -2,15 +2,15 @@
 title: Carga de imágenes principales
 seo-title: Carga de imágenes principales
 description: nulo
-seo-description: Aprenda a cargar imágenes principales.
+seo-description: Obtenga información sobre cómo cargar imágenes principales.
 uuid: 50bcf2e2-852b-48f1-a7c7-5063a87ce9c1
 contentOwner: admin
-content-type: referencia
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_size
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 8c94bafc-94cc-496f-a394-a945cd7b02cf
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: dfe86e040d0acc3135fcb596c85867f2d55d9090
 
 ---
 
@@ -25,7 +25,7 @@ Para obtener más información sobre la carga de imágenes, consulte [Carga de a
 
 Antes de cargar los archivos de imágenes principales a Scene7 Publishing System, debe prepararlos:
 
-* **Tamaño** de imagen Cree las imágenes de mayor tamaño que desee utilizar. Los tamaños estándar están entre 1.500 y 2.500 píxeles (a lo largo). Si desea utilizar la función Zoom, Dynamic Media Classic recomienda el uso de imágenes que tengan al menos 2000 píxeles en la dimensión más larga para obtener un nivel de detalle óptimo del zoom.
+* **Tamaño** de imagen Cree las imágenes de mayor tamaño que desee utilizar. Los tamaños estándar están entre 1.500 y 2.500 píxeles (a lo largo). Si desea utilizar la función Zoom, Dynamic Media Classic recomienda el uso de imágenes que tengan al menos 2000 píxeles en la dimensión más larga para obtener un nivel de detalle óptimo del zoom. Dynamic Media Classic puede procesar imágenes de hasta 25 megapíxeles cada una. Por ejemplo, puede usar una imagen de 5000 x 5000 megapíxeles o cualquier otra combinación de tamaño de hasta 25 megapíxeles.
 
 * **Formatos** de archivoDynamic Media Classic admite todos los formatos de archivo de imagen estándar, incluidos TIFF, BMP, JPEG, PSD, GIF y EPS. Se recomiendan los formatos de imagen sin pérdida (TIFF y PNG). Si usa una imagen JPEG, utilice los valores más altos de calidad.
 
