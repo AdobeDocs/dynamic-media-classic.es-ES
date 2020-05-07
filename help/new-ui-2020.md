@@ -7,7 +7,7 @@ contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: 36d716d080cf9afde2361d8fce1c9123bb085bf1
+source-git-commit: 718067c87239044a827c66f72f7a2d0a476a23f6
 workflow-type: tm+mt
 source-wordcount: '981'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## _Última actualización: 7 de mayo de 2020_
 
-El 30 de junio de 2020, los usuarios clásicos de Dynamic Media obtendrán acceso a una nueva experiencia de inicio de sesión que ya no depende de la tecnología Adobe Flash en el navegador. Lea las siguientes preguntas más frecuentes para obtener más información.
+El 30 de junio de 2020, los usuarios de Dynamic Media Classic obtendrán acceso a una nueva experiencia de inicio de sesión que ya no depende de la tecnología Adobe Flash en el navegador. Lea las siguientes preguntas más frecuentes para obtener más información.
 
 ### **_Cuando los navegadores dejen de admitir Adobe Flash el 31 de diciembre de 2020, ¿tendrá algún impacto en Dynamic Media Classic (anteriormente Scene7)?_**
 
