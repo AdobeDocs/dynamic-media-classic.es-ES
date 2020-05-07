@@ -5,7 +5,10 @@ description: Descripción general de Dynamic Media Classic
 seo-description: Descripción general de Dynamic Media Classic
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: 1c11dd719e5da1d166f43e0ab9b490464c74645f
+source-git-commit: df0c2897b9fceddde648be53b23e25b13388d6b9
+workflow-type: tm+mt
+source-wordcount: '245'
+ht-degree: 31%
 
 ---
 
@@ -16,10 +19,9 @@ Bienvenido a Adobe Dynamic Media Classic (anteriormente Scene7), el sistema líd
 
 * Imágenes dinámicas: edición en tiempo real, con cambio de formatos y tamaños, zoom y desplazamiento interactivo, muestras de colores y texturas, giros de 360º, plantillas de imágenes y visores multimedia.
 * Catálogos electrónicos: Creación, vinculación de puntos interactivos, búsqueda habilitada, publicación y distribución dinámica de catálogos en línea en visores configurables.
-* Media Portal: Entorno de autoservicio que proporciona a los usuarios del portal "vistas" controladas por el administrador de los recursos de Dynamic Media Classic para acceder fácilmente a la carga, exploración, búsqueda, vista previa y exportación de recursos.
+* Media Portal: entorno de autoservicio que proporciona a los usuarios del portal &quot;vistas&quot; controladas por el administrador en los recursos de Dynamic Media Classic para acceder fácilmente a la carga, exploración, búsqueda, previsualización y exportación de recursos.
 * eVideo: Cargue vídeos finales en cualquier formato, administre, edite, cree zonas interactivas y plantillas de vídeo, publique y transmita en visores de vídeo configurables
 * Configuradores visuales: tecnología de procesamiento en tiempo real para poder hacer configuraciones visuales en línea y personalizar efectos. Por ejemplo, procesar en tiempo real texturas y colores, superficies, motivos, monogramas y grabados en escenas o en imágenes de productos.
-* Impresión virtual: tecnología y marco de composición en tiempo real para habilitar el uso de soluciones personalizadas de impresión virtual para crear documentos personalizados.
 * Impresión y correo electrónico de destino: distribución de campañas de correo electrónico personalizadas visualmente, vinculadas a perfiles de cliente, a productos y a bases de datos de canales.
 
 ## Recursos clave
@@ -33,9 +35,8 @@ Bienvenido a Adobe Dynamic Media Classic (anteriormente Scene7), el sistema líd
 * [Inicio rápido: Conjuntos de medios mixtos](/help/quick-start-mixed-media-sets.md)
 * [Inicio rápido: Conjuntos de giros](/help/quick-start-spin-sets.md)
 * [Inicio rápido: Conjuntos de muestras](/help/quick-start-swatch-sets.md)
-* [Inicio rápido: Integración de Target Classic](/help/quick-start-target-classic-integration.md)
+* [Inicio rápido: Integración de Destinatario Classic](/help/quick-start-target-classic-integration.md)
 * [Inicio rápido: Aspectos básicos de la plantilla](/help/quick-start-template-basics.md)
-* [Inicio rápido: Publicación de plantillas](/help/quick-start-template-publishing.md)
 * [Inicio rápido: Vídeo](/help/quick-start-video.md)
 * [Inicio rápido: Zoom](/help/quick-start-zoom.md)
 
