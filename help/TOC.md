@@ -2,10 +2,13 @@
 cloud: experience-cloud
 product: dynamic media classic
 audience: end-user
-user-guide-title: Dynamic Media Classic Help
+user-guide-title: Ayuda de Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
+source-git-commit: 7739d61eac6ca4d278e88d570e9890a67669bcb8
+workflow-type: tm+mt
+source-wordcount: '726'
+ht-degree: 78%
 
 ---
 
@@ -127,16 +130,6 @@ source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
    + [Publicación de plantillas](publishing-templates.md)
    + [Vinculación de una plantilla a una página web](linking-template-web-page.md)
    + [Gestión de variaciones de contenido](content-variations.md)
-+ Template publishing {#template-publishing}
-   + [Inicio rápido: Publicación de plantillas](quick-start-template-publishing.md)
-   + [Creación de la plantilla inicial en Adobe Illustrator](create-initial-template-illustrator.md)
-   + [Carga de archivos para publicación de plantillas](upload-files-template-publishing.md)
-   + [Definición de variabilidad: parametrización y manipulación DOM](defining-variability-parameterization-versus-dom.md)
-   + [Parametrización de una plantilla en Dynamic Media Classic](parameterizing-template-scene7.md)
-   + [Vista previa y actualización de los atributos de la plantilla](preview-update-template-attributes.md)
-   + [Manipulación DOM](dom-manipulation.md)
-   + [Vinculación de plantillas FXG a páginas web](linking-fxg-template-web-page.md)
-   + [Creación de documentos PDF](creating-pdf-document.md)
 + Vídeo {#video}
    + [Inicio rápido: Vídeo](quick-start-video.md)
    + [Práctica recomendada: Uso del visor de vídeo HTML5](best-practice-using-html5-video.md)
@@ -161,11 +154,11 @@ source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
    + [Prueba de integración mediante la visualización de un informe de Adobe Analytics](testing-integration-viewing-analytics-report.md)
    + [Activación de los informes de vídeo de Adobe Analytics](enabling-analytics-video-reports.md)
    + [Publicación de la información de configuración de Adobe Analytics](publishing-analytics-configuration-information.md)
-+ Integración de Target Classic {#target-classic}
-   + [Inicio rápido: Integración de Target Classic](quick-start-target-classic-integration.md)
-   + [Integración de Adobe Dynamic Media Classic con Adobe Target Classic](integrating-scene7-target-classic.md)
++ Integración de Destinatario Classic {#target-classic}
+   + [Inicio rápido: Integración de Destinatario Classic](quick-start-target-classic-integration.md)
+   + [Integración de Adobe Dynamic Media Classic con Adobe Destinatario Classic](integrating-scene7-target-classic.md)
    + [Creación de un conjunto de ofertas](creating-offer-set.md)
-   + [Inserción de conjuntos de ofertas en Adobe Target Classic](pushing-offer-sets-target-classic.md)
+   + [Inserción de conjuntos de ofertas en Adobe Destinatario Classic](pushing-offer-sets-target-classic.md)
 + Contenido generado por usuarios {#user-generated-content}
    + [Acerca del contenido generado por el usuario](about-ugc.md)
    + [Eliminación de recursos cargados](deleting-uploaded-asset.md)
