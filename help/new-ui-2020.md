@@ -1,15 +1,15 @@
 ---
-title: Nueva interfaz de usuario de Dynamic Media Classic que se lanzará en el primer semestre de 2020
-seo-title: Nueva interfaz de usuario de Dynamic Media Classic que se lanzará en el primer semestre de 2020
-description: Los usuarios de Dynamic Media Classic pueden esperar una actualización de su interfaz de usuario en el primer semestre de 2020. La experiencia proporcionará un inicio de sesión actualizado con vínculos a recursos valiosos, además de esta actualización ya no dependerá de la tecnología Adobe Flash en el navegador.
-seo-description: Los usuarios de Dynamic Media Classic pueden esperar una actualización de su interfaz de usuario en el primer semestre de 2020. La experiencia proporcionará un inicio de sesión actualizado con vínculos a recursos valiosos, además de esta actualización ya no dependerá de la tecnología Adobe Flash en el navegador.
+title: Nueva experiencia de inicio de sesión de Dynamic Media Classic disponible el 30 de junio de 2020
+seo-title: Nuevo Dynamic Media Classic 30 de junio de 2020
+description: Los usuarios de Dynamic Media Classic pueden esperar una actualización de su interfaz de usuario el 30 de junio de 2020. La experiencia proporcionará un inicio de sesión actualizado con vínculos a recursos valiosos, además de esta actualización ya no dependerá de la tecnología Adobe Flash en el navegador.
+seo-description: Los usuarios de Dynamic Media Classic pueden esperar una actualización de su interfaz de usuario el 30 de junio de 2020. La experiencia proporcionará un inicio de sesión actualizado con vínculos a recursos valiosos, además de esta actualización ya no dependerá de la tecnología Adobe Flash en el navegador.
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: 718067c87239044a827c66f72f7a2d0a476a23f6
+source-git-commit: 3fa61a14b21b7cdc6c71d43d5ad9fd84c1ee89b4
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
