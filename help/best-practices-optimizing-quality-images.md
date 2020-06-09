@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 8164466e-2520-482a-88ec-6191fdc77ea3
 translation-type: tm+mt
-source-git-commit: 6b0833287291f6475ab15106e8f33ed0dda0b2d4
+source-git-commit: 707afa544ffcea8885631c9fca8b432bc7af6860
+workflow-type: tm+mt
+source-wordcount: '1527'
+ht-degree: 60%
 
 ---
 
@@ -26,8 +29,8 @@ Consulte también Imágenes [inteligentes](https://helpx.adobe.com/experience-ma
 ## Prácticas recomendadas para el formato de imágenes (&amp;fmt=) {#best-practices-for-image-format-fmt}
 
 * Los formatos JPG o PNG son las mejores opciones para distribuir imágenes con una buena calidad y con un tamaño y peso manejables.
-* Si no se proporciona ningún comando de formato en la URL, el servicio de imágenes de Dynamic Media utiliza JPG de forma predeterminada para la entrega.
-* JPG comprime en una proporción de 10:1 y generalmente ofrece tamaños de archivo de imagen más pequeños. PNG comprime en una proporción de 2:1 aproximadamente, excepto en ciertos casos, como cuando las imágenes contienen un fondo blanco. Normalmente, los tamaños de archivo PNG son mayores que los archivos JPG.
+* Si no se proporciona ningún comando de formato en la dirección URL, el servicio de imágenes de Dynamic Media tiene el valor predeterminado JPG para envío.
+* JPG comprime en una proporción de 10:1 y generalmente ofrece tamaños de archivo de imagen más pequeños. PNG se comprime a una proporción de aproximadamente 2:1, excepto en algunos casos, como cuando las imágenes contienen un fondo vacío. Normalmente, los tamaños de archivo PNG son mayores que los archivos JPG.
 * JPG utiliza compresión con pérdidas, lo que significa que elementos de la imagen (píxeles) se eliminan durante la compresión. PNG utiliza la compresión sin pérdidas.
 * JPG a menudo comprime imágenes fotográficas con una mejor fidelidad que las imágenes sintéticas con contraste y bordes y nítidos.
 * Si las imágenes contienen transparencias, utilice PNG porque JPG no admite transparencias.
@@ -39,7 +42,7 @@ As a best practice for image format, start with the most common setting `&fmt=JP
 La reducción dinámica del tamaño de la imagen es una de las tareas más comunes que realiza el servicio de imágenes de Dynamic Media. Requiere especificar el tamaño y, opcionalmente, el modo de disminución de resolución que se utiliza para reducir el tamaño de la imagen.
 
 * For image sizing, the best and most straightforward approach is to use `&wid=<value>` and `&hei=<value>` or just `&hei=<value>`. Estos parámetros establecen la anchura de la imagen automáticamente según la proporción de aspecto.
-* `&resMode=<value>` controla el algoritmo utilizado para la disminución de resolución. Empiece por `&resMode=sharp2`. Este valor proporciona la mejor calidad de imagen. While using the downsampling value `=bilin` is faster, it often results in the aliasing of artifacts.
+* `&resMode=<value>` controla el algoritmo utilizado para la disminución de resolución. Inicio con `&resMode=sharp2`. Este valor proporciona la mejor calidad de imagen. While using the downsampling value `=bilin` is faster, it often results in the aliasing of artifacts.
 
 Como práctica recomendada para cambiar el tamaño, el uso `&wid=<value>&hei=<value>&resMode=sharp2` o `&hei=<value>&resMode=sharp2`
 
@@ -51,7 +54,7 @@ Documento técnico de prácticas recomendadas [Enfoque de imágenes en Adobe Sce
 
 Consulte también [Enfoque de imágenes con máscara](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html)de enfoque.
 
-Con Dynamic Media Classic, puede enfocar imágenes durante la ingesta, la entrega o ambos. En la mayoría de los casos, no obstante, deberá enfocar las imágenes con un método u otro, pero no ambos. Normalmente, el enfoque de imágenes durante la distribución, en una URL, ofrece los mejores resultados.
+Con Dynamic Media Classic, puede enfocar imágenes durante la ingesta, en el envío o en ambos. En la mayoría de los casos, no obstante, deberá enfocar las imágenes con un método u otro, pero no ambos. Normalmente, el enfoque de imágenes durante la distribución, en una URL, ofrece los mejores resultados.
 
 Puede utilizar dos métodos de enfoque de imágenes:
 
@@ -67,7 +70,7 @@ Puede utilizar dos métodos de enfoque de imágenes:
 
       * `threshold` (0-255, sensibilidad del efecto).
 
-         Este parámetro determina hasta qué punto deben ser distintos los píxeles enfocados respecto al área que los rodea para poder considerarse píxeles de borde y por tanto enfocarse. El umbral ayuda a evitar el exceso de áreas de enfoque con colores similares, como los tonos de piel. Por ejemplo, un valor de umbral 12 ignora las ligeras variaciones de brillo en el tono de la piel para no agregar “ruido” y, simultáneamente, agrega contraste al borde de las áreas contrastadas, por ejemplo, donde las pestañas tocan la piel.
+         Este parámetro determina la diferencia entre los píxeles enfocados y el área circundante antes de que se consideren píxeles de borde y el filtro los enfoque. El umbral ayuda a evitar el exceso de áreas de enfoque con colores similares, como los tonos de piel. Por ejemplo, un valor de umbral de 12 ignora las ligeras variaciones en el brillo del tono de la piel para evitar agregar “ruido”, mientras que al mismo tiempo agrega contraste al borde de las áreas de alto contraste, como cuando las pestañas tocan la piel.
       Para obtener más información sobre la configuración de estos tres parámetros, incluidas las prácticas recomendadas de uso del filtro, consulte los siguientes recursos:
 
       Tema de ayuda de Dynamic Media Classic sobre el [enfoque de imágenes](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html).
@@ -124,7 +127,7 @@ Si los resultados de enfoque aún no son satisfactorios, aumente el radio en inc
 
 Al experimentar, también puede encontrar las sugerencias generales siguientes útiles para optimizar el flujo de trabajo:
 
-* Pruebe distintos parámetros en tiempo real, ya sea directamente en una URL de Dynamic Media Classic o mediante la función de ajuste de imagen de Scene7 Publishing System, que proporciona vistas previas en tiempo real para las operaciones de ajuste.
+* Pruebe distintos parámetros en tiempo real, ya sea directamente en una URL de Dynamic Media Classic o mediante la función de ajuste de imagen de Scene7 Publishing System, que proporciona previsualizaciones en tiempo real para las operaciones de ajuste.
 * Como práctica recomendada, recuerde que puede agrupar comandos de servicio de imágenes de Dynamic Media en un ajuste preestablecido de imagen. An image preset is basically URL command macros with custom preset names such as `$thumb_low$` and `&product_high$`. El nombre del ajuste preestablecido personalizado en una ruta URL invoca estos ajustes preestablecidos. Esta funcionalidad le ayudará a administrar comandos y ajustes de calidad para diferentes modelos de uso de imágenes en su sitio web y reducirá la longitud total de la URL.
 * Dynamic Media Classic también ofrece formas más avanzadas de ajustar la calidad de imagen, como la aplicación de imágenes de enfoque durante la ingesta. En el caso de usos avanzados, en los que es necesaria esta opción para perfeccionar y optimizar aún más los resultados del procesamiento, Adobe Professional Service puede ayudarle con prácticas recomendadas y sugerencias personalizadas.
 
