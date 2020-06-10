@@ -6,7 +6,10 @@ seo-title: 'Boletín de Adobe Dynamic Media '
 solution: Dynamic Media
 title: Boletín de Dynamic Media
 translation-type: tm+mt
-source-git-commit: f9ae9b5de27f159982dd0c9addd68cb88bc1a8d6
+source-git-commit: 73837dc50c700c9c3e6fe3209f733173669245a9
+workflow-type: tm+mt
+source-wordcount: '1321'
+ht-degree: 0%
 
 ---
 
@@ -23,6 +26,21 @@ En este boletín informativo de una sola publicación, descubra los valiosos rec
 
 ## ¿Ha perdido un número del boletín de Dynamic Media?
 
+* **[Mayo de 2020, número 4](https://expleague.azureedge.net/assets/aem/Experience-Insider-vol.31.html)**
+
+   En este número:
+
+   * Qué significa continuidad del negocio en tiempos inciertos.
+   * Principales ventajas de la primera Cumbre de Adobe digital.
+   * Hay que observar las sesiones de grupo de trabajo de Experience Manager.
+   * Puntos destacados del cliente de la cumbre: Bajo Armor.
+   * Nunca pierda un seminario web de Experience Insider.
+   * Puntos destacados del sector público: La necesidad urgente de matriculación digital.
+   * Descubra las novedades de la innovación de Experience Manager.
+   * Cree sus habilidades de Experience Manager *en directo* con los profesionales de Adobe.
+   * Conéctese con la comunidad de Adobe Experience Manager.
+   * Realice un seguimiento rápido de su experiencia con Adobe Experience League.
+
 * **[Abril de 2020, número 3](http://amc-mkt-prod1-t.adobe-campaign.com/rest/head/mirrorPage/@DRPFipWV_3bgH_oxl1monOhd4auNDxFVTBWB-uKB6lM_BixlVqja2E5Ml7DbtOy6pARL78LPxljqgxEEAr7RBsRp8WOyn-Zw6hQ8MNoFn9i9WMXm.html)**
 
    En este número:
@@ -33,6 +51,7 @@ En este boletín informativo de una sola publicación, descubra los valiosos rec
    * Vista de las sesiones de Dynamic Media desde la Cumbre en línea de Adobe 2020.
    * Obtenga más información sobre nuestras auditorías gratuitas de Dynamic Media Classic.
    * Conozca a John Monroe, Director de Programa sénior para Servicios de Éxito de Clientes.
+
    >[!IMPORTANT]
    >
    >Queremos asegurarnos de que sólo enviaremos el boletín de Dynamic Media a los que deseen recibirlo. Para continuar recibiendo la newsletter después de este número, regístrese [aquí](https://nam04.safelinks.protection.outlook.com/?url=http%3A%2F%2Ft.messages.adobe.com%2Fr%2F%3Fid%3Dha6c66e%2C266d7ba%2C26edbee&amp;data=02%7C01%7Crbrough%40adobe.com%7Ce0ec0f8dde0f4eb03d9c08d7e2173fd3%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C637226461801398160&amp;sdata=3c1oREsqy%2FeDPKC3dd4IO9dXomQ1XbokaBAYQl8obrk%3D&amp;reserved=0).
