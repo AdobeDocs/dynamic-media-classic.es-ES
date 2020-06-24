@@ -3,14 +3,17 @@ title: Vinculación de un conjunto de muestras a una página web
 seo-title: Vinculación de un conjunto de muestras a una página web
 description: nulo
 seo-description: Descubra cómo vincular un conjunto de muestras a una página web.
-uuid: 1 f 623 bf 2-3 bb 0-481 f-b 063-79 e 4 ce 125424
+uuid: 1f623bf2-3bb0-481f-b063-79e4ce125424
 contentOwner: admin
-content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/swatch_ sets
-discoiquuid: 0 edab 47 b -531 c -41 a 9-89 c 3-2 e 179 c 4 f 9 fa 4
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
+discoiquuid: 0edab47b-531c-41a9-89c3-2e179c4f9fa4
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+workflow-type: tm+mt
+source-wordcount: '688'
+ht-degree: 94%
 
 ---
 
@@ -30,15 +33,15 @@ Una vez que haya publicado un conjunto de muestras, puede usar su URL o código 
 1. Encima del panel de exploración de recursos, en la parte derecha de la barra de herramientas, realice una de las siguientes acciones:
 
    * Haga clic en **Vista de cuadrícula**. En el panel de exploración de recursos, haga doble clic en un único recurso para abrirlo en la vista de detalles. En el panel URL y código incrustado de la derecha, haga clic en **Copiar URL** a la derecha del visor que desee.
-   * Haga clic en **Vista de cuadrícula**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **Vista previa** &gt; **Lista del visor** debajo de la imagen en miniatura.
+   * Haga clic en **Vista de cuadrícula**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **Vista previa** > **Lista del visor** debajo de la imagen en miniatura.
 
       En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Copiar URL**.
 
-   * Haga clic en **Vista de lista**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **Vista previa** &gt; **Lista del visor** a la derecha de la imagen en miniatura.
+   * Haga clic en **Vista de lista**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **Vista previa** > **Lista del visor** a la derecha de la imagen en miniatura.
 
       En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Copiar URL**.
 
-   * Haga clic en **Vista de cuadrícula**, **Vista de lista** o **Vista de detalles**. En la misma barra de herramientas, haga clic en **Vista previa** &gt; **Lista del visor**.
+   * Haga clic en **Vista de cuadrícula**, **Vista de lista** o **Vista de detalles**. En la misma barra de herramientas, haga clic en **Vista previa** > **Lista del visor**.
 
       En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Copiar URL**.
 
@@ -46,7 +49,7 @@ Una vez que haya publicado un conjunto de muestras, puede usar su URL o código 
 
 La manera más común de distribuir conjuntos de muestras consiste en colocar un vínculo (por medio de un icono de navegación) en la página web. Si se selecciona este icono, se inicia una página web dinámica (ASP o JSP) que muestra el conjunto de muestras en una ventana emergente con zoom. El vínculo de zoom abre una ventana emergente que contiene la función de zoom.
 
-Para obtener más información y muestras de código, consulte [Incrustación del visor de zoom HTML 5 en la Guía de referencia de visores de Adobe](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_20_zoom_viewer_about.html).
+Para obtener más información y ejemplos de código, consulte [Incrustación del visor de zoom HTML5 en la Guía](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html)de referencia de visores de Adobe.
 
 ## Copia del código incrustado de un visor de conjuntos de muestras {#copying-the-embed-code-of-a-swatch-set-viewer}
 
@@ -59,15 +62,15 @@ El uso de la función de código incrustado permite revisar el código del visor
 1. Encima del panel de exploración de recursos, en la parte derecha de la barra de herramientas, realice una de las siguientes acciones:
 
    * Haga clic en **Vista de cuadrícula**. En el panel de exploración de recursos, haga doble clic en un único recurso para abrirlo en la vista de detalles. En el panel URL y código incrustado de la derecha, haga clic en **Código incrustado** a la derecha del visor que desee.
-   * Haga clic en **Vista de cuadrícula**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **Vista previa** &gt; **Lista del visor** debajo de la imagen en miniatura.
+   * Haga clic en **Vista de cuadrícula**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **Vista previa** > **Lista del visor** debajo de la imagen en miniatura.
 
       En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Código incrustado**.
 
-   * Haga clic en **Vista de lista**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **Vista previa** &gt; **Lista del visor** a la derecha de la imagen en miniatura.
+   * Haga clic en **Vista de lista**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **Vista previa** > **Lista del visor** a la derecha de la imagen en miniatura.
 
       En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Código incrustado**.
 
-   * Haga clic en **Vista de cuadrícula**, **Vista de lista** o **Vista de detalles**. En la misma barra de herramientas, haga clic en **Vista previa** &gt; **Lista del visor**.
+   * Haga clic en **Vista de cuadrícula**, **Vista de lista** o **Vista de detalles**. En la misma barra de herramientas, haga clic en **Vista previa** > **Lista del visor**.
 
       En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Código incrustado**.
 
