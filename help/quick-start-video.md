@@ -2,22 +2,25 @@
 title: '"Inicio rápido: Vídeo"'
 seo-title: '"Inicio rápido: Vídeo"'
 description: nulo
-seo-description: Introducción y inicio rápido de vídeo para ayudarle en el uso inicial.
+seo-description: Introducción y Inicio rápido de vídeo para ayudarle en el uso inicial.
 uuid: bf0ecf87-a1f2-4e83-8041-df5192dd26a1
 contentOwner: admin
-content-type: referencia
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 6cef541b-e9df-48eb-9a16-ca3e1f07238e
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+workflow-type: tm+mt
+source-wordcount: '1444'
+ht-degree: 66%
 
 ---
 
 
 # Inicio rápido: Vídeo{#quick-start-video}
 
-Adobe Dynamic Media Classic Video es una solución integral que facilita la publicación de vídeo adaptable de alta calidad para transmitir en varias pantallas, incluidos equipos de escritorio, iOS, Android, Blackberry y dispositivos móviles Windows. Los conjuntos de vídeos adaptables agrupan versiones del mismo vídeo codificadas con una velocidad de bits y un formato diferentes, por ejemplo, 400 kbps, 800 kbps y 1.000 kbps. El ordenador de escritorio o dispositivo móvil detecta el ancho de banda disponible.
+Adobe Dynamic Media Classic Video es una solución integral que facilita la publicación de vídeos adaptables de alta calidad para transmitir en varias pantallas, incluidos equipos de escritorio, iOS, Android, Blackberry y dispositivos móviles Windows. Los conjuntos de vídeos adaptables agrupan versiones del mismo vídeo codificadas con una velocidad de bits y un formato diferentes, por ejemplo, 400 kbps, 800 kbps y 1.000 kbps. El ordenador de escritorio o dispositivo móvil detecta el ancho de banda disponible.
 
 Por ejemplo, en un dispositivo móvil iOS, detecta un ancho de banda de, por ejemplo, 3G, 4G o Wi-Fi. A continuación, selecciona de forma automática el vídeo codificado correcto de las diversas velocidades de bits que incluye el conjunto de vídeos adaptable. El vídeo se transmite a equipos de escritorio, dispositivos móviles o tablets.
 
@@ -25,7 +28,7 @@ Además, la calidad de vídeo se cambia dinámicamente de forma automática si l
 
 La lógica que un reproductor de vídeo utiliza para determinar qué vídeo codificado se debe reproducir o seleccionar durante la reproducción se basa en el siguiente algoritmo:
 
-1. El reproductor de vídeo carga el fragmento de vídeo inicial en función de la velocidad de bits más cercana al valor definido para la "velocidad de bits inicial" en el propio reproductor.
+1. El reproductor de vídeo carga el fragmento de vídeo inicial en función de la velocidad de bits más cercana al valor definido para la &quot;velocidad de bits inicial&quot; en el propio reproductor.
 1. El reproductor de vídeo cambia en función de los cambios en la velocidad de ancho de banda mediante los siguientes criterios:
 
    1. El reproductor elige el flujo de ancho de banda más alto por debajo o por debajo del ancho de banda estimado.
@@ -52,7 +55,7 @@ Para administrar un solo vídeo y conjuntos de vídeos adaptables, Dynamic Media
 
    El flujo de vídeo adaptable se admite en numerosas plataformas de iOS.
 
-   Consulte la compatibilidad más reciente en la Guía de referencia de visores de [Adobe](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/).
+   Consulte la compatibilidad más reciente en la Guía de referencia de visores de [Adobe](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
 
    Dynamic Media Classic admite la reproducción de vídeo móvil para vídeo MP4 H.264. Puede consultar los dispositivos BlackBerry compatibles con este formato de vídeo en este sitio web:
 
@@ -78,8 +81,10 @@ La siguiente descripción paso a paso del flujo de trabajo se ha diseñado para 
 
 Cargue y genere conjuntos de vídeos adaptables con una de los dos situaciones siguientes:
 
-* **Cargar vídeos** precodificadosSi los vídeos ya estaban codificados fuera de Dynamic Media Classic, haga clic en **Cargar** en la barra de navegación global para buscar y cargar archivos de vídeo MP4 directamente en Scene7 Publishing System. A continuación, haga clic en **Generar &gt; Conjuntos de vídeos adaptables**. Busque los archivos de vídeo. Arrastre los archivos de vídeo deseados, suéltelos en la tabla Conjunto de vídeos adaptable y, a continuación, guarde el conjunto.
-* **Cargar vídeos** de origen maestros Si los vídeos no están codificados, haga clic en **Cargar** en la barra de navegación global para cargar archivos de origen de vídeo maestros (que no sean MP4) y haga que Scene7 Publishing System los codifique en archivos MP4. En el cuadro de diálogo Opciones de trabajo de carga, en Opciones de eVideo, seleccione **Vídeo adaptable**.
+* **Cargar vídeos** precodificados Si los vídeos ya estaban codificados fuera de Dynamic Media Classic, haga clic en 
+**Cargue** archivos de vídeo MP4 directamente en Scene7 Publishing System en la barra de navegación global. A continuación, haga clic en **Generar > Conjuntos de vídeos adaptables**. Busque los archivos de vídeo. Arrastre los archivos de vídeo deseados, suéltelos en la tabla Conjunto de vídeos adaptable y, a continuación, guarde el conjunto.
+* **Cargar vídeos** de origen maestros Si los vídeos no están codificados, haga clic en 
+**Cargue** en la barra de navegación global para cargar archivos de origen de vídeo maestros (que no sean MP4) y hacer que Scene7 Publishing System los codifique en archivos MP4 por usted. En el cuadro de diálogo Opciones de trabajo de carga, en Opciones de eVideo, seleccione **Vídeo adaptable**.
 
    Esta opción preferida permite crear un conjunto de vídeos adaptables que aplica automáticamente el ajuste preestablecido de codificación correcto al vídeo, 16:9 o 4:3, para que coincida con las dimensiones del vídeo que haya cargado. Al enviar el trabajo de carga, se crea automáticamente un conjunto de vídeos adaptable que incluye tres codificaciones de vídeo con la proporción de aspecto correcta.
 
@@ -91,9 +96,9 @@ Consulte [Carga y codificación de vídeo](uploading-encoding-videos.md#uploadin
 
 **Opcional**
 
-Dynamic Media Classic ofrece numerosos ajustes preestablecidos de codificación de vídeo predefinidos. Estos ajustes preestablecidos reflejan la configuración de codificación de vídeo más común y se han optimizado para la reproducción en las pantallas de destino.
+Dynamic Media Classic oferta varios ajustes preestablecidos de codificación de vídeo predefinidos. Estos ajustes preestablecidos reflejan la configuración de codificación de vídeo más común y se han optimizado para la reproducción en las pantallas de destino.
 
-Sin embargo, si es necesario personalizar más el proyecto, los administradores pueden crear ajustes preestablecidos de vídeo para personalizar el tamaño y la reproducción de vídeos para los usuarios finales. Los administradores pueden agregar y administrar ajustes preestablecidos de vídeo desde la página Ajustes preestablecidos de vídeo disponible en Ajustes &gt; Ajustes de aplicación &gt; Ajustes preestablecidos de vídeo &gt; Ajustes preestablecidos de codificación única. La página Ajustes preestablecidos de vídeo contiene opciones para agregar, editar, eliminar y activar ajustes preestablecidos de vídeo.
+Sin embargo, si es necesario personalizar más el proyecto, los administradores pueden crear ajustes preestablecidos de vídeo para personalizar el tamaño y la reproducción de vídeos para los usuarios finales. Los administradores pueden agregar y administrar ajustes preestablecidos de vídeo desde la página Ajustes preestablecidos de vídeo disponible en Ajustes > Ajustes de aplicación > Ajustes preestablecidos de vídeo > Ajustes preestablecidos de codificación única. La página Ajustes preestablecidos de vídeo contiene opciones para agregar, editar, eliminar y activar ajustes preestablecidos de vídeo.
 
 Consulte [Uso de ajustes preestablecidos de codificación de vídeo](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
@@ -107,7 +112,7 @@ Puede reproducir el vídeo en la pantalla Vista previa. También puede elegir vi
 
 **Opcional**
 
-Personalización de ajustes preestablecidos de visor: Dynamic Media Classic ofrece ajustes preestablecidos de visor predefinidos para la publicación de vídeo. Estos ajustes preestablecidos determinan la apariencia del visor y cómo funcionan los controles de reproducción. Para personalizar el visor de vídeo, los administradores pueden agregar y gestionar ajustes preestablecidos de visor desde la página Ajustes preestablecidos de visor. Para abrir esta página, en la esquina superior derecha de Scene7 Publishing System, haga clic en Ajustes &gt; Ajustes preestablecidos de visor. La página Ajustes preestablecidos de visor contiene opciones para agregar, editar, eliminar y activar ajustes preestablecidos de visor.
+Personalización de ajustes preestablecidos de visor: Dynamic Media Classic oferta ajustes preestablecidos de visor predefinidos para la publicación de vídeo. Estos ajustes preestablecidos determinan la apariencia del visor y cómo funcionan los controles de reproducción. Para personalizar el visor de vídeo, los administradores pueden agregar y gestionar ajustes preestablecidos de visor desde la página Ajustes preestablecidos de visor. Para abrir esta página, en la esquina superior derecha de Scene7 Publishing System, haga clic en Ajustes > Ajustes preestablecidos de visor. La página Ajustes preestablecidos de visor contiene opciones para agregar, editar, eliminar y activar ajustes preestablecidos de visor.
 
 Consulte [Uso de ajustes preestablecidos de visor de vídeo](previewing-videos-video-viewer.md#working_with_video_viewer_presets).
 
@@ -127,7 +132,7 @@ Para incorporar el vídeo en el sitio web, puede realizar cualquiera de las acci
 
 * Mostrar el vídeo incrustado en la página web; en ese caso, deberá utilizar la función de Código incrustado.
 
-   Para obtener el código incrustado de un vídeo, en la vista de cuadrícula o de lista, selecciónelo en el panel Examinar. Haga clic en Vista previa &gt; Lista del visor. En la columna Acciones de la tabla, haga clic en Código incrustado a la derecha de `Universal_HTML5_Video`. No se permite editar el código.
+   Para obtener el código incrustado de un vídeo, en la vista de cuadrícula o de lista, selecciónelo en el panel Examinar. Haga clic en Vista previa > Lista del visor. En la columna Acciones de la tabla, haga clic en Código incrustado a la derecha de `Universal_HTML5_Video`. No se permite editar el código.
 
    Haga clic en Cerrar y pegue el código incrustado en las páginas web.
 
