@@ -5,12 +5,15 @@ description: Obtenga información sobre cómo configurar el área de aplicación
 seo-description: Obtenga información sobre cómo configurar el área de aplicación de Dynamic Media Classic.
 uuid: 3e2f1d30-8f33-4a9d-bbe4-e8c3dbc968f8
 contentOwner: admin
-content-type: referencia
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
-discoiquuid: ae2d1895-a437-4463-bface-3960c8027551
+discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: 8216ac64ba418987c7f5ed84c4cb957189645bd9
+source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+workflow-type: tm+mt
+source-wordcount: '11120'
+ht-degree: 71%
 
 ---
 
@@ -25,21 +28,21 @@ Puede utilizar las páginas Ajustes de aplicación para introducir ajustes gener
 
 ## Configuración general {#general-settings}
 
-To open the Application General Settings page, on the Global Navigation bar, click **[!UICONTROL Setup &gt; Application Setup &gt; General Settings]**.
+Para abrir la página Configuración general de la aplicación, haga clic en **[!UICONTROL Ajustes > Ajustes de aplicación > Configuración general]** en la barra de navegación global.
 
 ### Servidores
 
-Al crear la cuenta, Dynamic Media Classic proporciona automáticamente los servidores asignados a la empresa. Estos servidores se utilizan para crear cadenas URL para su página web y sus aplicaciones. Estas llamadas mediante URL son específicas para su cuenta.
+Al crear la cuenta, Dynamic Media Classic proporciona automáticamente los servidores asignados para la compañía. Estos servidores se utilizan para crear cadenas URL para su página web y sus aplicaciones. Estas llamadas mediante URL son específicas para su cuenta.
 
 Consulte también [Prueba del servicio Secure Testing](testing-assets-making-them-public.md#testing_the_secure_testing_service).
 
-**Nombre** del servidor publicado Este servidor es el servidor CDN activo que se utiliza en todas las llamadas URL generadas por el sistema específicas de su cuenta. No cambie este nombre de servidor a menos que un técnico de soporte de Dynamic Media Classic le indique que lo haga.
+**Nombre** del servidor publicado Este servidor es el servidor CDN activo que se utiliza en todas las llamadas URL generadas por el sistema específicas de su cuenta. No cambie este nombre de servidor a menos que un técnico de asistencia de Dynamic Media Classic le indique que lo haga.
 
-**Nombre** del servidor de origen Este servidor se utiliza solamente para la prueba de control de calidad. No cambie este nombre de servidor a menos que un técnico de soporte de Dynamic Media Classic le indique que lo haga.
+**Nombre** del servidor Origen Este servidor se utiliza solamente para la prueba de control de calidad. No cambie este nombre de servidor a menos que se lo indique un técnico de asistencia de Dynamic Media Classic.
 
-**Nombre** del servidor AGM Este servidor se utiliza para plantillas de impresión virtual. Este servidor se configura para toda la empresa. No cambie este nombre de servidor a menos que un técnico de soporte de Dynamic Media Classic le indique que lo haga.
+**Nombre** del servidor AGM Este servidor se utiliza para plantillas de impresión virtual. Este servidor se configura para toda la empresa. No cambie este nombre de servidor a menos que se lo indique un técnico de asistencia de Dynamic Media Classic.
 
-**Nombre** del servidor de Test&amp;Target Su URL de Test&amp;Target, hasta .com inclusive. Para obtener instrucciones sobre cómo obtener esta URL, consulte Integración de Dynamic Media Classic con Target Classic.
+**Nombre** del servidor de Test&amp;Destinatario Su URL de Test&amp;Destinatario, hasta .com inclusive. Para obtener instrucciones sobre cómo obtener esta URL, consulte Integración de Dynamic Media Classic con Destinatario Classic.
 
 **Nombre** del servidor de flujo iOS La URL de su servidor de flujo iOS de Dynamic Media Classic. Este servidor ofrece transmisión de vídeo para los dispositivos basados en iOS utilizando el protocolo HTTP.
 
@@ -47,11 +50,11 @@ Consulte también [Prueba del servicio Secure Testing](testing-assets-making-the
 
 **Mostrar URL para recursos** sin publicar Seleccione esta opción si desea que Dynamic Media Classic muestre una URL al obtener una vista previa de cualquier recurso, esté publicado o no. Si el recurso no está publicado, la URL no funciona. Sin embargo, puede utilizar la dirección URL para fines de planificación o de organización.
 
-**Permitir la instalación** de AIR Seleccione esta opción para permitir a los usuarios descargar la versión de escritorio de Scene7 Publishing System en sus discos duros locales. Los usuarios instalan la aplicación desde el área Versión de escritorio de la pantalla Ajustes personales.
+**Permitir la instalación** de AIR Seleccione esta opción para permitir que los usuarios descarguen la versión de escritorio de Scene7 Publishing System en sus discos duros locales. Los usuarios instalan la aplicación desde el área Versión de escritorio de la pantalla Ajustes personales.
 
 Los usuarios de AIR deben desinstalar manualmente la aplicación existente y volver a la instalarla desde la versión web de Scene7 Publishing System (en Configuración personal). Tras esta reinstalación puntual, se le pide que ejecute la actualización cada vez que el servidor disponga de una versión nueva de Scene7 Publishing System AIR. Scene7 Publishing System está integrado con el marco de actualización de la aplicación que facilita el proceso de actualización.
 
-**Plantilla** de invalidación de CDN Especifica la plantilla que se utiliza para invalidar la caché de CDN (red de entrega de contenido).
+**Plantilla** de invalidación de CDN Especifica la plantilla que se utiliza para invalidar la caché de CDN (red de Envío de contenido).
 
 For example, suppose you enter an image URL (including image presets or modifiers) referencing `<ID>`, instead of a specific image ID as in the following example:
 
@@ -59,7 +62,7 @@ For example, suppose you enter an image URL (including image presets or modifier
 
 If the Template just contains `<ID>`, then SPS fills in the `https://<server>/is/image`, where `<server>` is the Publish Server Name that is defined in General Settings.
 
-Si se define una plantilla de inutilización de CDN, se selecciona una imagen con el nombre Backpack_B y se hace clic en **Archivo** &gt; **Inutilizar en CDN**, se crea la siguiente URL en la interfaz de inutilización de CDN:
+Si se define una plantilla de inutilización de CDN, se selecciona una imagen con el nombre Backpack_B y se hace clic en **Archivo** > **Inutilizar en CDN**, se crea la siguiente URL en la interfaz de inutilización de CDN:
 
 `https://sample.scene7.com/is/image/Company/Backpack_B?$s7product$`
 
@@ -67,7 +70,7 @@ En el cuadro de lista de URL, haga clic en **Continuar** para borrar la caché d
 
 Después de seleccionar la plantilla de inutilización de CDN y realizar la solicitud de Inutilizar en CDN, aparecerá un indicador en la interfaz de usuario que le proporciona una idea de cuánto tiempo tardará en borrarse la caché.
 
-Del mismo modo, si se seleccionan varias imágenes de SPS cuando se hace clic en **Archivo** &gt; **Inutilizar en CDN**, se hace referencia a cada imagen en la plantilla URL guardada. Por lo tanto, se puede definir una plantilla de invalidación de CDN que haga referencia a cada URL a la que se hace referencia en su sitio web (por ejemplo, los detalles del producto, los resultados de la búsqueda, etc.). A continuación, cuando se seleccione una o varias imágenes para la invalidación desde la caché, las direcciones URL rellenan automáticamente la interfaz.
+Del mismo modo, si se seleccionan varias imágenes de SPS cuando se hace clic en **Archivo** > **Inutilizar en CDN**, se hace referencia a cada imagen en la plantilla URL guardada. Por lo tanto, se puede definir una plantilla de invalidación de CDN que haga referencia a cada URL a la que se hace referencia en su sitio web (por ejemplo, los detalles del producto, los resultados de la búsqueda, etc.). A continuación, al seleccionar una o varias imágenes para la invalidación desde la caché, las direcciones URL rellenan automáticamente la interfaz.
 
 Consulte [Caché de contenido](scene7-platform-overview.md#content_caching).
 
@@ -85,9 +88,9 @@ Consulte [Segunda publicación de recursos y retrasos de CDN](publishing-files.m
 
 Para buscar vídeos rápidamente en Scene7 Publishing System sin tener que navegar por varios derivados codificados del mismo vídeo, deje esta opción sin seleccionar (predeterminada). En la interfaz de usuario solo se muestra la miniatura del Vídeo principal, que es el vídeo de origen que ha cargado y utilizado para crear todos los derivados, y la miniatura del Conjunto de vídeos adaptable “principal”, que contiene todos los derivados “secundarios” del conjunto de vídeos codificado.
 
-Sin embargo, puede seguir teniendo acceso a vídeos codificados individuales en el vídeo principal o en el conjunto de vídeos adaptable. Para ello, haga doble clic en la imagen en miniatura del vídeo para abrir la vista de detalles. A continuación, haga clic en **Vídeos codificados** en el panel derecho para tener acceso a todos los vídeos "secundarios".
+Sin embargo, puede seguir teniendo acceso a vídeos codificados individuales en el vídeo principal o en el conjunto de vídeos adaptable. Para ello, haga doble clic en la imagen en miniatura del vídeo para abrir la vista de detalles. A continuación, haga clic en **Vídeos codificados** en el panel derecho para tener acceso a todos los vídeos &quot;secundarios&quot;.
 
-También puede utilizar **Archivo &gt; Volver a procesar** para crear más vídeos "secundarios" codificados directamente desde un conjunto de vídeos adaptable. Scene7 Publishing System busca automáticamente el vídeo "principal" del conjunto adaptable y lo utiliza como vídeo de origen en la transcodificación. Sin embargo, cuando se guardan los nuevos vídeos codificados individuales, estos no se ven al buscar o examinar un elemento. No obstante, siguen siendo accesibles desde la ficha Vídeos codificados en la vista de detalles.
+También puede utilizar **Archivo > Volver a procesar** para crear más vídeos &quot;secundarios&quot; codificados directamente desde un conjunto de vídeos adaptable. Scene7 Publishing System busca automáticamente el vídeo &quot;principal&quot; del conjunto adaptable y lo utiliza como vídeo de origen en la transcodificación. Sin embargo, cuando se guardan los nuevos vídeos codificados individuales, estos no se ven al buscar o examinar un elemento. No obstante, siguen siendo accesibles desde la ficha Vídeos codificados en la vista de detalles.
 
 Consulte [Carga y transcodificación de vídeo](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
@@ -97,15 +100,15 @@ Hay ciertas acciones en el menú Generar que solo funcionan, o funcionan de form
 
 >[Nota]
 >
->Si no ha utilizado Scene7 Publishing System para cargar y codificar recursos de vídeo, Dynamic Media Classic muestra todos los vídeos codificados individuales, aunque esta opción no esté seleccionada.
+>Si no ha utilizado Scene7 Publishing System para cargar y codificar los recursos de vídeo, Dynamic Media Classic muestra todos los vídeos codificados individuales, aunque esta opción no esté seleccionada.
 
 **Mostrar botón** Actualizar subcarpetas Active o desactive la visualización del botón Actualizar subcarpetas.
 
 **Cuenta de FTP de Dynamic Media Classic**
 
-**Servidor** Muestra el servidor de cuentas FTP.
+**El servidor** Lista su servidor de cuentas FTP.
 
-**Nombre** de usuario Muestra el nombre de usuario de la cuenta de FTP.
+**Nombre** de usuario Lista el nombre de usuario de la cuenta de FTP.
 
 **Cargar a la aplicación**
 
@@ -127,9 +130,9 @@ Exige que la imagen de sustitución tenga la misma extensión de nombre de archi
 
 Esta opción supone la regla de sustitución menos excluyente. Puede cargar la imagen de sustitución en otra carpeta distinta de la original, cargar un archivo con una extensión de nombre de archivo diferente y sustituir el archivo original. Si el archivo original está en otra carpeta, la imagen de sustitución residirá en la nueva carpeta en la que se haya cargado.
 
-**Conservar publicación** Especifica si una imagen de sustitución cargada en Dynamic Media Classic conserva la configuración Listo para publicar de la imagen que está reemplazando o si la configuración se especifica al cargar.
+**Conservar publicación** Especifica si una imagen de reemplazo cargada en Dynamic Media Classic conserva la configuración Listo para publicar de la imagen que está reemplazando o si la configuración se especifica al cargar.
 
-**Perfiles** de color predeterminados Especifica los perfiles de color aplicados como parte de Opciones de perfil de color predeterminadas al agregar imágenes CMYK.
+**Perfiles** de color predeterminados Especifica los perfiles de color aplicados como parte de Opciones de Perfil de color predeterminadas al agregar imágenes CMYK.
 
 **Opciones** de carga predeterminadas Abre el cuadro de diálogo Opciones de trabajo de carga, donde puede especificar las opciones de carga predeterminadas. Para obtener información sobre estas opciones, consulte Opciones de carga.
 
@@ -147,11 +150,11 @@ Esta opción supone la regla de sustitución menos excluyente. Puede cargar la i
 
 Dynamic Media Classic no permite que dos archivos tengan el mismo nombre. El ID de Scene7 Publishing System de cada elemento (el nombre de la imagen menos la extensión de nombre de archivo) debe ser único. Debido a esta regla, el cuadro de diálogo Cargar incluye las opciones Sobrescribir imágenes. El efecto exacto de esta opción depende de un ajuste de configuración interna de Scene7 Publishing System de cada empresa.
 
-Si previamente ha cargado las imágenes y, a continuación, ha cambiado los archivos originales (o los ha reemplazado), la opción Sobrescribir seleccionada especifica cómo se reemplazan las imágenes con Dynamic Media Classic. No se modifica ningún dato referente a la imagen sino que la nueva imagen sustituye la antigua. Si la carpeta también contiene imágenes que aún no están en Dynamic Media Classic, se agregan.
+Si previamente ha cargado las imágenes y, a continuación, ha cambiado los archivos originales (o los ha sustituido), la opción Sobrescribir seleccionada especifica cómo Dynamic Media Classic sustituye las imágenes. No se modifica ningún dato referente a la imagen sino que la nueva imagen sustituye la antigua. Si la carpeta también contiene imágenes que aún no están en Dynamic Media Classic, se agregan.
 
 Use esta opción si las imágenes cargadas han sufrido alguna variación (por ejemplo, se ha alterado una imagen) pero la referencia a ellas permanece igual. La sobreescritura también resulta de utilidad a la hora de cargar y extraer archivos PDF de Adobe®. To fine-tune how Dynamic Media Classic *rips* the image, adjust the ICC color profile options in the Upload dialog box and re-upload using the Overwrite feature.
 
-Los ID de Dynamic Media Classic que se utilizan para acceder a las imágenes desde los servidores de producción se derivan de los nombres de archivo de imagen. El uso de caracteres en mayúsculas y minúsculas en el nombre del archivo es importante, tanto para la sustitución de archivos existentes como para los ID de Dynamic Media Classic utilizados para acceder a la imagen. Asegúrese de que el uso de caracteres en mayúsculas y minúsculas en los nombres de archivo es correcto antes de cargarlos en Dynamic Media Classic para evitar que los ID de Dynamic Media Classic solo difieran en el caso de la misma imagen.
+Los ID de Dynamic Media Classic que se utilizan para acceder a las imágenes desde los servidores de producción se derivan de los nombres de archivo de imagen. El uso de caracteres en mayúsculas y minúsculas en el nombre del archivo es importante, tanto para la sustitución de archivos existentes como para los ID de Dynamic Media Classic que se utilizan para acceder a la imagen. Asegúrese de que el uso de caracteres en mayúsculas y minúsculas en los nombres de archivo es correcto antes de cargarlos en Dynamic Media Classic para evitar que los ID de Dynamic Media Classic difieran solo en el caso de la misma imagen.
 
 Al anular la selección de esta opción, todas las imágenes que tengan los mismos nombres de archivo como imágenes existentes se tratan como duplicados y, por consiguiente, no se agregan.
 
@@ -161,15 +164,15 @@ En la pantalla Ajustes preestablecidos de imagen se pueden crear y editar ajuste
 
 Los administradores pueden crear ajustes preestablecidos para exportar recursos. Los usuarios pueden elegir un ajuste preestablecido al exportar imágenes, lo que corrige el formato de las imágenes de acuerdo con las especificaciones del administrador.
 
-To open the Image Preset screen, on the Global Navigation bar, click **Setup** &gt; **Image Presets**.
+To open the Image Preset screen, on the Global Navigation bar, click **Setup** > **Image Presets**.
 
 Consulte Imágenes [inteligentes](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html).
 
 ### Creación y edición de ajustes preestablecidos de imagen {#creating-and-editing-image-presets}
 
-1. Haga clic en **Ajustes** &gt; **Ajustes preestablecidos de imagen**.
+1. Haga clic en **Ajustes** > **Ajustes preestablecidos de imagen**.
 1. Cree un ajuste preestablecido nuevo o empiece a partir de un ajuste preestablecido existente:
-   * **Creación de un ajuste preestablecido** de imagen: haga clic en **Agregar**.
+   * **Creación de un ajuste preestablecido** de imagen: haga clic en **Añadir**.
    * **Creación de un ajuste preestablecido de imagen a partir de un ajuste preestablecido** existente: seleccione el ajuste preestablecido de imagen más parecido al que desea crear y, a continuación, haga clic en Editar.
 
 1. En la pantalla de adición (o de edición) del ajuste preestablecido, introduzca el nombre que desea darle al ajuste preestablecido.
@@ -248,29 +251,29 @@ Para obtener más información acerca del enfoque, los modos de remuestreo y la 
 
 **Radio** Determina el número de píxeles que rodean los píxeles del borde que afectan al enfoque. Para las imágenes de alta resolución, introduzca una cantidad de 1 a 2. Un valor bajo aplica enfoque solo a los píxeles de borde; un valor alto aplica enfoque a un mayor número de píxeles. El valor adecuado depende del tamaño de la imagen.
 
-**Umbral** Determina el rango de contraste que se debe ignorar al aplicar el filtro de máscara de enfoque. Es decir, esta opción determina en qué deben diferenciarse los píxeles enfocados del área que los rodea antes de ser considerados píxeles de borde y por tanto enfocados. Para evitar la introducción de ruido, experimente con valores entre 0,02 y 0,2. El valor predeterminado (6) aplica enfoque a todos los píxeles de la imagen.
+**Umbral** Determina el rango de contraste que se debe ignorar cuando se aplica el filtro de máscara de enfoque. Es decir, esta opción determina en qué deben diferenciarse los píxeles enfocados del área que los rodea antes de ser considerados píxeles de borde y por tanto enfocados. Para evitar la introducción de ruido, experimente con valores entre 0,02 y 0,2. El valor predeterminado (6) aplica enfoque a todos los píxeles de la imagen.
 
 **Espacio** de colorDetermina si la imagen utiliza el espacio en el que se creó, normalmente RGB (Original) o un espacio de luminancia (Intensidad).
 
 **Color** Elija estas opciones:
 
-**Perfil** de color de salida Seleccione Usar predeterminado o uno de los perfiles de color ICC disponibles en Scene7 Publishing System.
+**Perfil** de color de salida Seleccione Utilizar predeterminado o uno de los perfiles de color ICC disponibles en Scene7 Publishing System.
 
 Consulte también [Perfiles ICC](icc-profiles.md#icc_profiles).
 
 **Calidad** de representación Seleccione una opción si desea anular la interpretación predeterminada del perfil de color. Utilice esta opción cuando uno de los perfiles ICC predeterminados es el espacio de color de destino en una conversión de color, un dispositivo de salida (impresora o monitor) está caracterizado por este perfil y la interpretación especificada es válida para este perfil.
 
-**Incrustar perfil** Seleccione esta opción para que, si abre esta imagen en Adobe® Photoshop®, utilice este perfil.
+**Incrustar Perfil** Seleccione esta opción para que, si abre esta imagen en Adobe® Photoshop®, utilice este perfil.
 
 **Resolución** de impresión Elija una resolución para imprimir esta imagen; 72 píxeles es el valor predeterminado.
 
 **Modificadores** de URL Si prefiere especificar los modificadores de URL que definen el ajuste preestablecido de imagen en lugar de la configuración, introduzca los modificadores aquí.
 
-**URL** de imagen de ejemplo Muestra la cadena URL "sin procesar" que utiliza el servidor de imágenes de Dynamic Media para distribuir imágenes con el ajuste preestablecido de imagen que está agregando o editando. Esta cadena URL codifica la configuración de formato seleccionada en las pantallas de adición o de edición de ajustes preestablecidos.
+**La URL** de imagen de ejemplo Lista la cadena URL &quot;sin procesar&quot; que utiliza el servidor de imágenes de Dynamic Media para distribuir imágenes con el ajuste preestablecido de imagen que está agregando o editando. Esta cadena URL codifica la configuración de formato seleccionada en las pantallas de adición o de edición de ajustes preestablecidos.
 
 ### Edición, eliminación o desactivación de un ajuste preestablecido de imagen {#editing-removing-or-deactivating-an-image-preset}
 
-1. Haga clic en **Ajustes** &gt; **Ajustes preestablecidos de imagen**.
+1. Haga clic en **Ajustes** > **Ajustes preestablecidos de imagen**.
 1. En la pantalla Ajustes preestablecidos de imagen, seleccione un ajuste preestablecido de la tabla y, a continuación, realice una de las siguientes acciones:
 
    * Click **Edit** and then specify new options in the Edit Preset dialog box.
@@ -279,7 +282,7 @@ Consulte también [Perfiles ICC](icc-profiles.md#icc_profiles).
 
 ## Activación o desactivación de los ajustes preestablecidos de vídeos adaptables {#activating-or-deactivating-adaptive-video-presets}
 
-Dynamic Media Classic ofrece ajustes preestablecidos de codificación de vídeo adaptable. Es una lista maestra de ajustes preestablecidos que combina ajustes preestablecidos de vídeo adaptable de 16:9 y ajustes preestablecidos de vídeo adaptable de 4:3 en un grupo. Estos ajustes preestablecidos predefinidos reflejan la configuración de codificación más común y se han optimizado para la reproducción en dispositivos móviles, tablets y escritorios.
+ofertas de Dynamic Media Classic Ajustes preestablecidos de codificación de vídeo adaptable. Es una lista maestra de ajustes preestablecidos que combina ajustes preestablecidos de vídeo adaptable de 16:9 y ajustes preestablecidos de vídeo adaptable de 4:3 en un grupo. Estos ajustes preestablecidos predefinidos reflejan la configuración de codificación más común y se han optimizado para la reproducción en dispositivos móviles, tablets y escritorios.
 
 De forma predeterminada solo se activan (habilitan o “encienden”) los ajustes preestablecidos de codificación de “Vídeo adaptable”. Puede desactivarlos, si lo desea. Los ajustes preestablecidos de vídeos adaptables inactivos no aparecen como una opción seleccionable en la sección eVideo del cuadro de diálogo Opciones de trabajo de carga.
 
@@ -287,7 +290,7 @@ Consulte [Carga y codificación de vídeo](uploading-encoding-videos.md#uploadin
 
 **Para activar y desactivar ajustes preestablecidos de vídeos adaptables**
 
-1. Cerca de la esquina superior derecha de Scene7 Publishing System, haga clic en **Ajustes** &gt; **Configuración de aplicaciones** &gt; **Ajustes preestablecidos de vídeo** &gt; **Ajustes preestablecidos de vídeo adaptables**.
+1. Cerca de la esquina superior derecha de Scene7 Publishing System, haga clic en **Ajustes** > **Configuración de aplicaciones** > **Ajustes preestablecidos de vídeo** > **Ajustes preestablecidos de vídeo adaptables**.
 1. En la página Ajustes preestablecidos de vídeo, anule la selección de la casilla de verificación situada junto al nombre de un ajuste preestablecido para quitarlo de la lista Opciones de eVideo del cuadro de diálogo Opciones de trabajo de carga.
 1. Haga clic en **Cerrar**.
 
@@ -303,11 +306,11 @@ Para seleccionar un ajuste preestablecido de codificación, haga clic en Opc. de
 
    **Vídeo adaptable 16:9**
 
-   Cree vídeos con una proporción de aspecto de 16:9 para su distribución en equipos de escritorio, móviles (iPhone, iPad, Android) y tablets (iPad, Android), optimizados con la resolución y la velocidad de bits que mejor se ajusten a la velocidad de conexión del visor.
+   Cree vídeos con una proporción de aspecto de 16:9 para envío y escritorio, móvil (iPhone, iPad, Android) y tablets (iPad, Android), optimizados con la resolución y la velocidad de bits que mejor se ajusten a la velocidad de conexión del visor.
 
    **Vídeo adaptable 4:3**
 
-   Cree vídeos con una proporción de aspecto de 4:3 para su distribución en equipos de escritorio, móviles (iPhone, iPad, Android) y tablets (iPad, Android), optimizados con la resolución y la velocidad de bits que mejor se ajusten a la velocidad de conexión del visor.
+   Cree vídeos con una proporción de aspecto de 4:3 para envío a equipos de escritorio, dispositivos móviles (iPhone, iPad, Android) y tablets (iPad, Android), optimizados con la resolución y la velocidad de bits que mejor se ajusten a la velocidad de conexión del visor.
 
    **Vídeo adaptable**
 
@@ -319,7 +322,7 @@ Para seleccionar un ajuste preestablecido de codificación, haga clic en Opc. de
 
    **Codificación de vídeo adaptable (16:9 o 4:3)**
 
-   Cree vídeos con una proporción de aspecto de 16:9 y 4:3 para su distribución en equipos de escritorio, móviles (iPhone, iPad, Android) y tablets (iPad, Android), optimizados con la resolución y la velocidad de bits que mejor se ajusten a la velocidad de conexión del visor.
+   Cree vídeos con una proporción de aspecto de 16:9 y 4:3 para envío a equipos de escritorio, dispositivos móviles (iPhone, iPad, Android) y tablets (iPad, Android), optimizados con la resolución y la velocidad de bits que mejor se ajusten a la velocidad de conexión del visor.
 
    Consulte [Ajustes preestablecidos de vídeo de codificación de vídeo adaptable (16:9 o 4:3)](application-setup.md#adaptive_video_encoding_16_9_or_4_3_video_presets)
 
@@ -339,15 +342,15 @@ Después de hacer clic en **Iniciar carga**, se carga el archivo de vídeo maest
 
 Los parámetros de las opciones de ajustes preestablecidos de codificación son los siguientes:
 
-**Velocidad** de conexión de Target La velocidad de conexión a Internet del usuario final de destino.
+**Velocidad** de conexión a Destinatario La velocidad de conexión a Internet del usuario final de destino.
 
 **Sufijo** de archivo codificado El sufijo que se adjunta al archivo de vídeo codificado para fines de identificación.
 
 **Velocidad de bits de vídeo (velocidad de datos)** Cantidad de datos codificados para configurar un solo segundo de reproducción de vídeo (en kilobits por segundo).
 
-**Anchura y altura** de píxeles La dimensión de anchura de la imagen de pantalla, en píxeles; dimensión de altura de la imagen de pantalla (en píxeles).
+**Anchura y altura** de píxeles La dimensión de anchura de la imagen de pantalla, en píxeles; la dimensión de altura de la imagen de pantalla (en píxeles).
 
-**Fotograma por segundo (fps)** El número de fotogramas o imágenes fijas para cada segundo de vídeo. En Estados Unidos y Japón, la mayoría de los vídeos se graban a 29,97 fps; en Europa y Asia (excluido Japón), la mayoría se graba a 25 fps. Las películas se graban a 24 fps.
+**Fotograma por segundo (fps)** El número de fotogramas, o imágenes fijas, para cada segundo de vídeo. En Estados Unidos y Japón, la mayoría de los vídeos se graban a 29,97 fps; en Europa y Asia (excluido Japón), la mayoría se graba a 25 fps. Las películas se graban a 24 fps.
 
 **Velocidad** de bits de audio La cantidad de datos codificados para configurar un solo segundo de reproducción de audio, en kilobits por segundo.
 
@@ -443,13 +446,13 @@ Para obtener más información sobre los parámetros de opciones de codificació
 
 >[!NOTE]
 >
->**Aviso** de fin de vida útil de visores Flash: a partir del 31 de enero de 2017, Adobe Scene7 Publishing System ha dejado de ofrecer asistencia técnica para la plataforma de visor Flash. Para obtener más información sobre este cambio importante, consulte el siguiente sitio web de preguntas más frecuentes: [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
+>**Aviso** de fin de vida útil de los visores Flash: a partir del 31 de enero de 2017, Adobe Scene7 Publishing System ha dejado de ofrecer asistencia técnica para la plataforma de visor Flash. Para obtener más información sobre este cambio importante, consulte el siguiente sitio web de preguntas más frecuentes: [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
 
 Un *ajuste preestablecido de visor* es una serie de opciones que determinan la manera en que los usuarios verán los recursos de medios enriquecidos en la pantalla de su ordenador y dispositivos móviles. Como administrador, puede crear ajustes preestablecidos de visor. Se pueden configurar varias opciones de configuración para los visores. Por ejemplo, puede cambiar el tamaño, el comportamiento del zoom, las combinaciones de colores, los bordes y las fuentes del visor.
 
 Se recomienda utilizar los visores de vídeo HTML5 de Dynamic Media Classic. Los ajustes preestablecidos utilizados en los visores de vídeo HTML5 son reproductores de vídeo sólidos. Al combinar en un solo reproductor la capacidad para diseñar los componentes de reproducción mediante HTML5 y CSS, tener la reproducción incorporada y usar flujo adaptable y progresivo en función de la capacidad del explorador, se amplía el alcance del contenido de medios enriquecidos para los usuarios de móviles, tablets y de escritorio y se garantiza una experiencia optimizada de vídeo.
 
-Consulte [Acerca de los visores](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_viewers_about.html) HTML5 en la Guía de referencia de visores de Adobe.
+Consulte [Acerca de los visores](hhttps://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html) HTML5 en la Guía de referencia de visores de Adobe.
 
 Consulte Tabla [de compatibilidad de ajustes preestablecidos de visor de](application-setup.md#scene7_viewer_preset_compatibility_matrix)Dynamic Media Classic.
 
@@ -461,7 +464,7 @@ Consulte también Ejemplos [de la biblioteca de referencia de visores de](https:
 
 ### Compatibilidad de los visores para páginas web diseñadas para interactividad {#viewer-support-for-responsive-designed-web-pages}
 
-Diferentes páginas Web tienen diferentes necesidades. A veces deseará que la página web proporcione un vínculo que abra el visor HTML5 en otra ventana del explorador. En otros casos, puede ser necesario incrustar el visor HTML5 directamente en la página de alojamiento. En este último caso, la página web puede tener un diseño estático. O bien, puede ser “interactiva” y mostrarse de forma diferente en diferentes dispositivos o diferentes tamaños de ventana de explorador. Para satisfacer estas necesidades, los visores HTML5 que vienen con Dynamic Media Classic admiten páginas web estáticas y páginas web diseñadas con capacidad de respuesta.
+Diferentes páginas Web tienen diferentes necesidades. A veces deseará que la página web proporcione un vínculo que abra el visor HTML5 en otra ventana del explorador. En otros casos, puede ser necesario incrustar el visor HTML5 directamente en la página de alojamiento. En este último caso, la página web puede tener un diseño estático. O bien, puede ser “interactiva” y mostrarse de forma diferente en diferentes dispositivos o diferentes tamaños de ventana de explorador. Para satisfacer estas necesidades, los visores HTML5 que vienen con Dynamic Media Classic admiten tanto páginas web estáticas como páginas web diseñadas interactivas.
 
 Consulte [Biblioteca de imágenes estáticas interactivas](https://marketing.adobe.com.com/resources/help/en_US/s7/is_ir_api/is_api/c_about_responsive_static_image_library.html)en la Ayuda *de la API de servicio de imágenes de* Adobe para obtener más información sobre cómo incrustar visores interactivos en sus páginas web.
 
@@ -479,7 +482,7 @@ Los administradores pueden crear y personalizar los siguientes tipos de valores 
 
 **Visor** de vídeos Muestra vídeos con las dimensiones de resolución del archivo de origen o un tamaño personalizado. Dynamic Media Classic incluye muchos ajustes preestablecidos de visor predefinidos para reproducir vídeo y, si es un administrador, puede crear ajustes preestablecidos de visor de vídeo personalizados. Hay más de una docena de opciones de configuración diferentes para personalizar el visor de vídeo. Puede configurar el tamaño, el color de primer plano y fondo, los controles de audio y vídeo, la barra de progreso, la apariencia de la interfaz del usuario, las funciones sociales y la ayuda del visor.
 
-**Visores** de zoom Ofrece tres tipos de visor de zoom:
+**Los visores** de zoom Oferta una selección de tres tipos de visor de zoom:
 
 **Visor** de zoom Permite a los usuarios acercarse al área haciendo clic en él. Pueden hacer clic en los controles para acercarse, alejarse y restablecer la imagen a su tamaño predeterminado.
 
@@ -489,19 +492,19 @@ Al determinar el uso del ancho de banda completo para este visor, tenga en cuent
 
 Por ejemplo, si el tamaño de la imagen principal es 350 x 350 píxeles, con un factor de zoom de 3, el tamaño de la imagen flotante que resultará será de 1050 x 1050 píxeles. Si el tamaño de la imagen principal es de 300 x 300 píxeles, con un factor de zoom de 4, el tamaño de la imagen flotante será de 1200 x 1200 píxeles. Según el ajuste de calidad JPEG (el recomendado es entre 80 y 90), podrá reducir el tamaño del archivo en gran medida. Los factores de zoom recomendados son de 2,5 a 4, según el tamaño de la imagen principal.
 
-### Tabla de compatibilidad de ajustes preestablecidos de visor de Dynamic Media Classic {#scene-viewer-preset-compatibility-matrix}
+### Tabla de compatibilidad con ajustes preestablecidos de visor de Dynamic Media Classic {#scene-viewer-preset-compatibility-matrix}
 
 **Aviso** de fin de vida útil de visores Flash: A partir del 31 de enero de 2017, Adobe Scene7 Publishing System dejó de ofrecer asistencia técnica para la plataforma de visor Flash.
 
 Para obtener más información sobre este cambio importante, consulte el siguiente sitio web de preguntas más frecuentes: [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
 
-La siguiente tabla identifica los ajustes preestablecidos de visor de Dynamic Media Classic disponibles actualmente. En la tabla también se especifica la compatibilidad del visor con los ordenadores y los dispositivos móviles, así como la tecnología empleada para cada visor.
+La siguiente tabla identifica los ajustes preestablecidos de visor Dynamic Media Classic disponibles actualmente. En la tabla también se especifica la compatibilidad del visor con los ordenadores y los dispositivos móviles, así como la tecnología empleada para cada visor.
 
 Consulte también Ejemplos [de la biblioteca de referencia de visores de](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)Adobe.
 
 Para obtener información sobre las versiones de sistema operativo y navegador web admitidas para los visores, consulte las notas de la versión de los visores.
 
-Consulte las Notas [de la versión de referencia de visores de](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/)Adobe.
+Consulte las Notas [de la versión de referencia de visores de](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)Adobe.
 
 |  | Tecnología de visor | Ordenador | Apple iPhone | Apple iPad | Smartphone Android | Tablet Android |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -542,7 +545,7 @@ Consulte las Notas [de la versión de referencia de visores de](https://marketin
 
 Dynamic Media Classic admite la reproducción de vídeo móvil para vídeo MP4 H.264.
 
-* Puede encontrar los dispositivos Blackberry compatibles con este formato de vídeo en: Formatos de vídeo [admitidos en Blackberry](https://developer.blackberry.com/devzone/develop/supported_media/bb10_media_support.html)
+* Puede encontrar los dispositivos Blackberry compatibles con este formato de vídeo en: [Formatos de vídeo compatibles con BlackBerry](https://developer.blackberry.com/devzone/develop/supported_media/bb10_media_support.html)
 * También puede encontrar dispositivos Windows compatibles con este formato de vídeo en los siguientes:Formatos de vídeo[admitidos en Windows Phone](https://docs.microsoft.com/en-us/previous-versions/windows/apps/ff462087(v=vs.105)?redirectedfrom=MSDN)
 
 |  | Tecnología de visor | Ordenador | Apple iPhone | Apple iPad | Smartphone Android | Tablet Android | Smartphone Blackberry | Teléfono de Windows |
@@ -569,11 +572,11 @@ En la siguiente tabla se identifican los gestos del visor móvil que admiten los
 
 ### Sobre la pantalla Valor predeterminado del visualizador {#about-the-viewer-preset-screen}
 
-Esta pantalla permite crear y gestionar ajustes preestablecidos de visor. Para abrir esta pantalla, haga clic en **Ajustes** &gt; **Ajustes preestablecidos de visor**.
+Esta pantalla permite crear y gestionar ajustes preestablecidos de visor. Para abrir esta pantalla, haga clic en **Ajustes** > **Ajustes preestablecidos de visor**.
 
 La pantalla Ajustes preestablecidos de visor ofrece una serie de herramientas para realizar las siguientes tareas:
 
-**Adición de un ajuste preestablecido** Haga clic en Agregar y seleccione las opciones deseadas en el cuadro de diálogo Añadir ajuste preestablecido de visor.
+**Añadir un ajuste preestablecido** Haga clic en Añadir y seleccione las opciones deseadas en el cuadro de diálogo Añadir ajuste preestablecido de visor.
 
 Consulte [Adición y edición de ajustes preestablecidos de visor](application-setup.md#adding_and_editing_viewer_presets).
 
@@ -587,12 +590,12 @@ Consulte [Adición y edición de ajustes preestablecidos de visor](application-s
 
 Consulte [Exportación de ajustes preestablecidos](application-setup.md#exporting_an_html5_viewer_preset)de visor HTML5.
 
-**Filtrado de la lista** Ajustes preestablecidos de visor Utilice estas herramientas para filtrar la lista:
+**Filtrado de la lista** de ajustes preestablecidos de visor Utilice estas herramientas para filtrar la lista:
 
 * Abra la lista desplegable de **activo/inactivo** y seleccione una opción para mostrar los ajustes preestablecidos activos, los inactivos o todos.
 * Abra la lista desplegable **Visor** y elija una opción para ver únicamente los visores de un tipo concreto. Seleccione **Todos los visores** para mostrarlos todos.
 
-**Clasificación de ajustes preestablecidos** Haga clic en un encabezado de columna (Activo, Tipo, Ajuste preestablecido o Plataforma) para ordenar la lista en una columna. Vuelva a hacer clic en el encabezado de columna para ordenar la lista en orden descendente (o ascendente).
+**Clasificación de ajustes preestablecidos** Haga clic en un encabezado de columna (Activo, Tipo, Ajuste preestablecido o Platform) para ordenar la lista en una columna. Vuelva a hacer clic en el encabezado de columna para ordenar la lista en orden descendente (o ascendente).
 
 **Activación y desactivación de ajustes preestablecidos** Seleccione un ajuste preestablecido y haga clic en su opción Activa para activarlo o desactivarlo.
 
@@ -610,17 +613,17 @@ Consulte [Exportación de ajustes preestablecidos](application-setup.md#exportin
 
 **Para añadir y editar ajustes preestablecidos de visor**
 
-1. Cerca de la esquina superior derecha de Scene7 Publishing System, haga clic en **Ajustes** &gt; **Ajustes preestablecidos de visor**.
+1. Cerca de la esquina superior derecha de Scene7 Publishing System, haga clic en **Ajustes** > **Ajustes preestablecidos de visor**.
 
    Puede filtrar la lista de ajustes preestablecidos. Por ejemplo, para ver solo los ajustes preestablecidos para los visores de vídeos, seleccione Visor de vídeos en el menú desplegable de visores que hay en la barra de herramientas, justo encima de la tabla.
 
 1. En la pantalla Ajustes preestablecidos de visor, añada o edite el ajuste preestablecido de visor oportuno.
 
-   **Adición** Haga clic en Agregar en la barra de herramientas. En el cuadro de diálogo Añadir ajuste preestablecido de visor, elija una plataforma y seleccione un tipo de recurso de medios enriquecidos.
+   **Añadir** Haga clic en Añadir en la barra de herramientas. En el cuadro de diálogo Añadir ajuste preestablecido de visor, elija una plataforma y seleccione un tipo de recurso de medios enriquecidos.
 
    Haga clic en **Guardar como** cuando termine de crear el ajuste preestablecido de visor.
 
-   **Adición a partir de un ajuste preestablecido** de visor existente En la tabla, seleccione un ajuste preestablecido de visor de vídeo y, a continuación, haga clic en Editar en la barra de herramientas.
+   **Añadir a partir de un ajuste preestablecido** de visor existente En la tabla, seleccione un ajuste preestablecido de visor de vídeo y, a continuación, haga clic en Editar en la barra de herramientas.
 
    Después de volver a configurar el visor de vídeo, haga clic en **Guardar como** para guardar el ajuste preestablecido con otro nombre en el campo de texto Nombre de ajuste preestablecido.
 
@@ -657,7 +660,7 @@ Tenga en cuenta que todos los archivos CSS preestablecidos de visor predetermina
 https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha
 ```
 
-1. Haga clic en **Ajustes** &gt; **Ajustes preestablecidos de visor**.
+1. Haga clic en **Ajustes** > **Ajustes preestablecidos de visor**.
 1. On the Viewer Presets toolbar, in the second drop-down list from the left, select **HTML5**.
 1. En la tercera lista desplegable desde la izquierda, seleccione **Todos los visores**.
 1. Seleccione el ajuste preestablecido de visor que desee utilizar como base para un nuevo ajuste preestablecido de visor HTML5.
@@ -687,7 +690,7 @@ Si no desactiva los ajustes preestablecidos de visor en su pantalla correspondie
 
 **Para activar o desactivar ajustes preestablecidos de visor**
 
-1. Choose **Setup** &gt; **Viewer Presets** to open the Viewer Presets screen.
+1. Choose **Setup** > **Viewer Presets** to open the Viewer Presets screen.
 1. Seleccione o anule la selección de opciones activas para activar o desactivar ajustes preestablecidos de visor.
 
 ### Copia de la dirección URL de un ajuste preestablecido de visor {#copying-the-url-of-a-viewer-preset}
@@ -702,13 +705,13 @@ La URL se copiará en el portapapeles. Podrá utilizarla como sea necesario en e
 1. Encima del panel de exploración de recursos, en la parte derecha de la barra de herramientas, realice una de las siguientes acciones:
 
    * Haga clic en **Vista de cuadrícula**. En el panel de exploración de recursos, haga doble clic en un único recurso para abrirlo en la vista de detalles. En el panel URL y código incrustado de la derecha, haga clic en **Copiar URL** a la derecha del visor que desee.
-   * Haga clic en **Vista de cuadrícula**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **Vista previa** &gt; **Lista del visor** debajo de la imagen en miniatura.
+   * Haga clic en **Vista de cuadrícula**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **Vista previa** > **Lista del visor** debajo de la imagen en miniatura.
    En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Copiar URL**.
 
-   * Haga clic en **Vista de lista**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **Vista previa** &gt; **Lista del visor** a la derecha de la imagen en miniatura.
+   * Haga clic en **Vista de lista**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **Vista previa** > **Lista del visor** a la derecha de la imagen en miniatura.
    En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Copiar URL**.
 
-   * Haga clic en **Vista de cuadrícula**, **Vista de lista** o **Vista de detalles**. En la misma barra de herramientas, haga clic en **Vista previa** &gt; **Lista del visor**.
+   * Haga clic en **Vista de cuadrícula**, **Vista de lista** o **Vista de detalles**. En la misma barra de herramientas, haga clic en **Vista previa** > **Lista del visor**.
    En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Copiar URL**.
 
 ### Copia del código incrustado de un ajuste preestablecido de visor  {#copying-the-embed-code-of-a-viewer-preset}
@@ -723,13 +726,13 @@ No se permite la edición del código en el cuadro de diálogo Código incrustad
 1. Encima del panel de exploración de recursos, en la parte derecha de la barra de herramientas, realice una de las siguientes acciones:
 
    * Haga clic en **Vista de cuadrícula**. En el panel de exploración de recursos, haga doble clic en un único recurso para abrirlo en la vista de detalles. En el panel Direcciones URL de la derecha, haga clic en **Código incrustado**.
-   * Haga clic en **Vista de cuadrícula**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **Vista previa** &gt; **Lista del visor** debajo de la imagen en miniatura.
+   * Haga clic en **Vista de cuadrícula**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **Vista previa** > **Lista del visor** debajo de la imagen en miniatura.
    En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Código incrustado**.
 
-   * Haga clic en **Vista de lista**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **Vista previa** &gt; **Lista del visor** a la derecha de la imagen en miniatura.
+   * Haga clic en **Vista de lista**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **Vista previa** > **Lista del visor** a la derecha de la imagen en miniatura.
    En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Código incrustado**.
 
-   * Haga clic en **Vista de cuadrícula**, **Vista de lista** o **Vista de detalles**. En la misma barra de herramientas, haga clic en **Vista previa** &gt; **Lista del visor**.
+   * Haga clic en **Vista de cuadrícula**, **Vista de lista** o **Vista de detalles**. En la misma barra de herramientas, haga clic en **Vista previa** > **Lista del visor**.
    En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Código incrustado**.
 
 1. En el cuadro de diálogo Código incrustado, haga clic en **Copiar al portapapeles**.
@@ -750,7 +753,7 @@ Puede utilizar visores predeterminados para configurar el visor predeterminado q
 **Para configurar los visores predeterminados**
 
 1. In the Setup drop-down list, click **Application Setup**.
-1. In the Setup window, in the left pane, expand **Application Setup** &gt; **Viewers**
+1. In the Setup window, in the left pane, expand **Application Setup** > **Viewers**
 1. Click **Default Viewers**.
 1. En la ventana Visores predeterminados, en la lista desplegable para cada tipo de recurso, seleccione el visor que desee asociar con la vista previa del recurso.
 1. In the lower-right corner of the Default Viewers window, click **Save Settings**.
@@ -760,11 +763,11 @@ Puede utilizar visores predeterminados para configurar el visor predeterminado q
 
 Los *metadatos* constituyen un conjunto de información estandarizada sobre un recurso. Puede utilizar metadatos para perfeccionar el flujo de trabajo, organizar sus recursos y mejorar las búsquedas. Dynamic Media Classic admite el estándar IPTC (International Press Telecommunications Council) y el estándar XMP (Extensible Metadata Platform). Antes de que los usuarios vean o introduzcan los metadatos de un recurso en la vista de detalles, pueden abrir el menú Vistas de metadatos y seleccionar el conjunto de campos de metadatos que deseen ver o utilizar para describir el recurso.
 
-Dynamic Media Classic incluye vistas de metadatos predefinidas y los administradores pueden crear sus propias vistas de metadatos para que los usuarios puedan elegir cuándo introducen metadatos.
+Dynamic Media Classic incluye Vistas de metadatos predefinidas y los administradores pueden crear sus propias Vistas de metadatos para que los usuarios elijan cuándo introducen metadatos.
 
 ### Creación de una vista de metadatos {#creating-a-metadata-view}
 
-1. Click **Setup** &gt; **Application Setup** &gt; **Metadata** &gt; **Metadata Views**.
+1. Click **Setup** > **Application Setup** > **Metadata** > **Metadata Views**.
 1. Haga clic en **Agregar**.
 1. En el campo de texto Nombre de ajuste preestablecido, introduzca un nombre para la vista.
 1. (Optional) Check **Make Default** to make this view the one that users see when they open the Metadata panel in Detail View.
@@ -776,7 +779,7 @@ Dynamic Media Classic incluye vistas de metadatos predefinidas y los administrad
 
 ### Gestión de vistas de metadatos {#managing-metadata-views}
 
-1. Click **Setup** &gt; **Application Setup** &gt; **Metadata** &gt; **Metadata Views**.
+1. Click **Setup** > **Application Setup** > **Metadata** > **Metadata Views**.
 1. Realice una de las siguientes acciones:
 
    * Para obtener una vista previa de una vista, selecciónela. Los campos de la vista aparecen en el panel Vista previa.
@@ -792,10 +795,10 @@ Cree un ajuste preestablecido de metadatos para cada conjunto de valores de meta
 
 ### Creación o edición de un ajuste preestablecido de metadatos {#creating-or-editing-a-metadata-preset}
 
-1. Click **Setup** &gt; **Application Setup** &gt; **Metadata** &gt; **Metadata Presets** .
+1. Click **Setup** > **Application Setup** > **Metadata** > **Metadata Presets** .
 1. En la pantalla Ajustes preestablecidos de metadatos, realice lo siguiente:
 
-   * To create a preset, click **Add**. En el campo de texto Nombre de plantilla de metadatos, escriba un nombre para el ajuste preestablecido, haga clic en Vistas **de** metadatos y elija una vista en la lista desplegable (consulte Vistas [de](application-setup.md#metadata_views)metadatos).
+   * To create a preset, click **Add**. En el campo de texto Nombre de plantilla de metadatos, escriba un nombre para el ajuste preestablecido y, a continuación, haga clic en Vistas **** de metadatos y elija una vista en la lista desplegable (consulte Vistas [de](application-setup.md#metadata_views)metadatos).
    * To edit an existing preset, select the preset from the Metadata Presets list and then click **Edit**.
 
 1. Expanda los encabezados que desee incluir en el ajuste preestablecido e introduzca los valores en los distintos campos que desee incluir en este ajuste.
@@ -805,7 +808,7 @@ Cree un ajuste preestablecido de metadatos para cada conjunto de valores de meta
 
 ### Gestión de ajustes preestablecidos de metadatos {#managing-metadata-presets}
 
-1. Click **Setup** &gt; **Application Setup** &gt; **Metadata** &gt; **Metadata Presets**.
+1. Click **Setup** > **Application Setup** > **Metadata** > **Metadata Presets**.
 1. Realice una de las siguientes acciones:
 
    * Para obtener la vista previa de un ajuste preestablecido, selecciónelo. La información del ajuste preestablecido (categorías y campos) aparece en la pantalla Ajuste preestablecido.
@@ -815,7 +818,7 @@ Cree un ajuste preestablecido de metadatos para cada conjunto de valores de meta
 
 Un administrador de Media Portal o un administrador de empresa pueden crear campos de metadatos personalizables o personalizados. Los campos personalizados pueden ayudarle a organizar los recursos en Scene7 Publishing System. Puede marcar los campos como activos, según sea necesario. Cuando están activados, los nombres de estos campos de metadatos personalizados aparecen en el panel Metadatos, en la vista de detalles. Los usuarios pueden introducir información en los campos de metadatos definidos por el usuario para describir los recursos. También pueden utilizar un campo de metadatos definido por el usuario como criterio de búsqueda.
 
-Un uso efectivo de los campos de metadatos personalizables es retardar el tiempo de activación de un recurso para un lanzamiento o una oferta específicos. El campo "activación" se define en función del tipo *Fecha*. Then, using the **Metadata** panel in **Detail** view or **File** &gt; **Edit Info**, you can specify when the asset is activated. Scene7 Publishing System comprueba el estado y el historial de publicación de un recurso. Si no se encuentra dentro del tiempo de activación, el estado de publicación se muestra como "No publicado".
+Un uso efectivo de los campos de metadatos personalizables es retardar el tiempo de activación de un recurso para un lanzamiento o una oferta específicos. El campo &quot;activación&quot; se define en función del tipo *Fecha*. Then, using the **Metadata** panel in **Detail** view or **File** > **Edit Info**, you can specify when the asset is activated. Scene7 Publishing System comprueba el estado y el historial de publicación de un recurso. Si no se encuentra dentro del tiempo de activación, el estado de publicación se muestra como &quot;No publicado&quot;.
 
 >[!NOTE]
 >
@@ -823,11 +826,11 @@ Un uso efectivo de los campos de metadatos personalizables es retardar el tiempo
 
 >[!NOTE]
 >
->Para buscar recursos utilizando los campos personalizados o personalizables, haga clic en **Ajustes** &gt; **Ajustes personales** y seleccione **Incluir UDF en la búsqueda**. Consulte [Ajustes personales](personal-setup.md#personal_setup).
+>Para buscar recursos utilizando los campos personalizados o personalizables, haga clic en **Ajustes** > **Ajustes personales** y seleccione **Incluir UDF en la búsqueda**. Consulte [Ajustes personales](personal-setup.md#personal_setup).
 
 ### Creación de un campo de metadatos definido por el usuario {#creating-a-user-defined-metadata-field}
 
-1. Haga clic en **Ajustes** &gt; **Ajustes de aplicación** &gt; **Metadatos** &gt; **Campos personalizables**.
+1. Haga clic en **Ajustes** > **Ajustes de aplicación** > **Metadatos** > **Campos personalizables**.
 1. Haga clic en **Agregar**.
 1. En el cuadro de diálogo Campo personalizado, seleccione las opciones que desee.
 
@@ -867,21 +870,21 @@ La pantalla Campos personalizables ofrece comandos para gestionar campos de meta
 
 Solo un administrador de Media Portal o un administrador de empresa pueden administrar campos personalizables.
 
-Para abrir esta pantalla, haga clic en **Ajustes** &gt; **Ajustes de aplicación** &gt; **Metadatos** &gt; **Campos personalizables**.
+Para abrir esta pantalla, haga clic en **Ajustes** > **Ajustes de aplicación** > **Metadatos** > **Campos personalizables**.
 
 **Edición de un campo** Seleccione el campo y, a continuación, haga clic en **Editar**.
 
 **Eliminación de un campo** Seleccione el campo y, a continuación, haga clic en **Eliminar**.
 
-**Activar campo** Haga clic para seleccionar o anular la selección de la opción Activo junto al nombre de un campo. Si tiene la función de Administración de empresa, puede ser que no se muestre esta opción. Como esta opción está relacionada con MediaPortal, debe seleccionar (activar) Mostrar funciones de MediaPortal en Ajustes personales para ver los campos de activación.
+**Activar campo** Haga clic para seleccionar o anular la selección de la opción Activo junto al nombre de un campo. Si tiene la función de Administración de empresa, puede ser que no se muestre esta opción. Debido a que esta opción está relacionada con MediaPortal, debe seleccionar (activar) Mostrar funciones de MediaPortal en Ajustes personales para ver los campos de activación.
 
 ## Optimización de archivos {#optimize-files}
 
-Cuando carga archivos en Scene7 Publishing System, el sistema los optimiza para su almacenamiento y publicación. Sin embargo, si se interrumpe el proceso de carga, no se pueden optimizar todas las imágenes. De ser así, aparecerá el mensaje "La imagen no está optimizada todavía". Si es un administrador podrá optimizar estos archivos.
+Cuando carga archivos en Scene7 Publishing System, el sistema los optimiza para su almacenamiento y publicación. Sin embargo, si se interrumpe el proceso de carga, no se pueden optimizar todas las imágenes. De ser así, aparecerá el mensaje &quot;La imagen no está optimizada todavía&quot;. Si es un administrador podrá optimizar estos archivos.
 
 Scene7 Publishing System realiza una búsqueda entre los archivos y optimiza solo las imágenes que no hayan sido optimizadas anteriormente.
 
-1. Elija **Ajustes** &gt; Ajustes **de aplicación** y, a continuación, seleccione **Optimizar archivos**.
+1. Elija **Ajustes** > Ajustes **de aplicación** y, a continuación, seleccione **Optimizar archivos**.
 1. Enter information for the optimization job and click **Submit**.
 
    Si trabaja con más de una empresa, optimice los archivos de cada una de forma independiente.
@@ -900,8 +903,8 @@ El administrador de empresa crea una convención de nombre predeterminada que se
 
 Al configurar una convención de nombre predeterminada no es necesario utilizar la funcionalidad de ajuste preestablecido de conjunto de lotes, la práctica recomendada es utilizar la convención de nombre predeterminada para definir todos los elementos de la convención con nombre que desee agrupar en un conjunto para agilizar la creación de conjuntos de lotes.
 
-1. Haga clic en **Ajustes** &gt; **Ajustes de aplicación** &gt; **Ajustes preestablecidos de conjunto por lotes** &gt; **Nombre por defecto**.
-1. Seleccione **Ver formulario** o **Ver código** para determinar cómo desea ver e introducir la información de cada elemento.
+1. Haga clic en **Ajustes** > **Ajustes de aplicación** > **Ajustes preestablecidos de conjunto por lotes** > **Nombre por defecto**.
+1. Seleccione **Ver formulario** o **Ver código** para especificar cómo desea ver e introducir información sobre cada elemento.
 
    Puede seleccionar la casilla de verificación Ver código para ver la creación del valor de expresión regular junto con las selecciones de formulario. Puede introducir o alterar estos valores para ayudar a definir los elementos de la convención de nombre, si la vista del formulario le limita por alguna razón. Si los valores no se pueden analizar en la vista del formulario, los campos del formulario se volverán inactivos.
 
@@ -928,7 +931,7 @@ Consulte también [Creación de un ajuste preestablecido de conjunto de lotes pa
 
 **Creación de un ajuste preestablecido de conjunto de lotes**
 
-1. Haga clic en **Ajustes &gt;****Ajustes de aplicación** &gt; **Ajustes preestablecidos de conjunto por lotes** &gt; **Valor preestablecido de conjunto de lotes**. **Ver formulario**, definido en la esquina superior derecha de la página Detalles, es la opción predeterminada.
+1. Haga clic en **Ajustes >****Ajustes de aplicación** > **Ajustes preestablecidos de conjunto por lotes** > **Valor preestablecido de conjunto de lotes**. **Ver formulario**, definido en la esquina superior derecha de la página Detalles, es la opción predeterminada.
 1. En el panel Lista de ajustes preestablecidos, haga clic en **Añadir** para activar los campos de definición en el panel Detalles del lateral derecho de la pantalla.
 1. En el panel Detalles, en el campo Nombre de ajuste preestablecido, escriba un nombre para el ajuste preestablecido.
 1. En el menú desplegable Tipo de conjunto de lotes, seleccione un tipo de ajuste preestablecido.
@@ -937,7 +940,7 @@ Consulte también [Creación de un ajuste preestablecido de conjunto de lotes pa
 
 1. Realice una de las acciones siguientes:
 
-   * Si está utilizando una convención de nombres predeterminada configurada previamente en Ajustes de aplicación &gt; Valores preestablecidos de conjuntos de lotes &gt; Nombre por defecto, amplíe **Convenciones de nombres de recursos** y haga clic en **Predeterminado** en la lista desplegable Nombres de archivo.
+   * Si está utilizando una convención de nombres predeterminada configurada previamente en Ajustes de aplicación > Valores preestablecidos de conjuntos de lotes > Nombre por defecto, amplíe **Convenciones de nombres de recursos** y haga clic en **Predeterminado** en la lista desplegable Nombres de archivo.
    * Para definir una convención de nombre al configurar el ajuste preestablecido, amplíe **Convenciones de nombres de recursos** y haga clic en **Personalizado** en la lista desplegable Nombres de archivo.
 
 1. Para el orden de secuencia, defina el orden de las imágenes después de que el conjunto se agrupe en Dynamic Media Classic. De forma predeterminada, los recursos se ordenan de forma alfanumérica. Sin embargo, puede utilizar una lista de expresiones regulares separada por comas para definir el orden.
@@ -971,19 +974,19 @@ Con esta información, puede crear esta fórmula de tipo de conjunto de lotes:
 
 ![](assets/se_batch_set_recipe.png)
 
-La agrupación de la parte compartida del nombre de recurso del conjunto de giros se añade al campo **Coincidencia** (zona resaltada). La parte variable del nombre de recurso que contiene la fila y la columna se añade a los campos **Fila** y **Columna** respectivamente.
+La agrupación de la parte del nombre de recurso compartido del conjunto de giros se agrega al campo **Coincidencia** (como resaltado). La parte variable del nombre del recurso que contiene la fila y la columna se agrega a los campos **Fila** y **Columna**, respectivamente.
 
-Cuando se cargue y publique el conjunto de giros, se activará el nombre de la fórmula de conjunto de giros 2D que se muestra en **Ajustes preestablecidos de conjunto por lotes** en el cuadro de diálogo **Opciones de trabajo de carga**.
+Cuando se carga y publica el conjunto de giros, se activa el nombre de la fórmula de conjunto de giros 2D que aparece en **Ajustes preestablecidos de conjunto de lotes** en el cuadro de diálogo **Opciones de carga de trabajo**.
 
 **Creación de un ajuste preestablecido de conjunto de lotes para la generación automática de conjuntos de giros 2D**
 
-1. Elija **Ajustes &gt;****Ajustes de aplicación** &gt; **Valores preestablecidos de conjunto por lotes** &gt; **Valor preestablecido de conjunto de lotes**. **Ver formulario**, definido en la esquina superior derecha de la página Detalles, es la opción predeterminada.
+1. Elija **Ajustes >****Ajustes de aplicación** > **Valores preestablecidos de conjunto por lotes** > **Valor preestablecido de conjunto de lotes**. **Ver formulario**, definido en la esquina superior derecha de la página Detalles, es la opción predeterminada.
 1. En el panel Lista de ajustes preestablecidos, haga clic en **Añadir** para activar los campos de definición en el panel Detalles del lateral derecho de la pantalla.
 1. En el panel Detalles, en el campo Nombre de ajuste preestablecido, escriba un nombre para el ajuste preestablecido.
 1. En el menú desplegable Tipo de conjunto de lotes, seleccione **Conjunto de recursos**.
 1. En la lista desplegable Subtipo, seleccione **Conjunto de giros con varios ejes**.
 1. Amplíe **Convenciones de nombres de recursos** y, a continuación, haga clic en **Personalizado** en la lista desplegable Nombre de archivos.
-1. Utilice los atributos **Coincidencia** y, si lo desea, **Nombre base** para definir una expresión regular para la denominación de los recursos de imágenes que conforman el grupo.
+1. Utilice los atributos **Coincidencia** y, opcionalmente, **Nombre base** para establecer una expresión regular para la asignación de nombres a los recursos de imagen que conforman la agrupación.
 
    Por ejemplo, la expresión regular Coincidencia literal puede tener el siguiente aspecto:
 
