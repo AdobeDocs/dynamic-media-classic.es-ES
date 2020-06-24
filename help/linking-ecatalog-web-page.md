@@ -2,22 +2,25 @@
 title: Vinculación de un catálogo electrónico a una página web
 seo-title: Vinculación de un catálogo electrónico a una página web
 description: nulo
-seo-description: Descubra cómo vincular un catálogo electrónico a una página web.
-uuid: 90098 a 90-180 b -477 a -8533-24 a 52 a 93200 b
+seo-description: Obtenga información sobre cómo vincular un catálogo electrónico a una página web.
+uuid: 90098a90-180b-477a-8533-24a52a93200b
 contentOwner: admin
-content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categorías/ecatalogs
-discoiquuid: 140640 f 2-3 ca 4-4 b 6 c-a 240-5 f 01 be 87 fa 9 c
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
+discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+workflow-type: tm+mt
+source-wordcount: '679'
+ht-degree: 91%
 
 ---
 
 
 # Vinculación de un catálogo electrónico a una página web{#linking-an-ecatalog-to-a-web-page}
 
-Los sitios web y las aplicaciones acceden al contenido del servidor de imágenes de Dynamic Media, incluidos los catálogos electrónicos, a través de cadenas URL o código incrustado. Estas cadenas URL se activan durante el proceso de publicación. Para colocar la cadena URL o código incrustado del catálogo electrónico en las páginas web y las aplicaciones, debe copiar esta cadena desde Scene7 Publishing System.
+Los sitios web y las aplicaciones acceden al contenido de Dynamic Media Image Server, incluidos los catálogos electrónicos, a través de cadenas URL o código incrustado. Estas cadenas URL se activan durante el proceso de publicación. Para colocar la cadena URL o código incrustado del catálogo electrónico en las páginas web y las aplicaciones, debe copiar esta cadena desde Scene7 Publishing System.
 
 >[!NOTE]
 >
@@ -30,15 +33,15 @@ Los sitios web y las aplicaciones acceden al contenido del servidor de imágenes
 1. Encima del panel de exploración de recursos, en la parte derecha de la barra de herramientas, realice una de las siguientes acciones:
 
    * Haga clic en **Vista de cuadrícula**. En el panel de exploración de recursos, haga doble clic en un único recurso para abrirlo en la vista de detalles. En el panel URL y código incrustado de la derecha, haga clic en **Copiar URL** a la derecha del visor que desee.
-   * Haga clic en **Vista de cuadrícula**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **Vista previa** &gt; **Lista del visor** debajo de la imagen en miniatura.
+   * Haga clic en **Vista de cuadrícula**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **Vista previa** > **Lista del visor** debajo de la imagen en miniatura.
 
       En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Copiar URL**.
 
-   * Haga clic en **Vista de lista**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **Vista previa** &gt; **Lista del visor** a la derecha de la imagen en miniatura.
+   * Haga clic en **Vista de lista**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **Vista previa** > **Lista del visor** a la derecha de la imagen en miniatura.
 
       En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Copiar URL**.
 
-   * Haga clic en **Vista de cuadrícula**, **Vista de lista** o **Vista de detalles**. En la misma barra de herramientas, haga clic en **Vista previa** &gt; **Lista del visor**.
+   * Haga clic en **Vista de cuadrícula**, **Vista de lista** o **Vista de detalles**. En la misma barra de herramientas, haga clic en **Vista previa** > **Lista del visor**.
 
       En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Copiar URL**.
 
@@ -46,7 +49,7 @@ Los sitios web y las aplicaciones acceden al contenido del servidor de imágenes
 
 La manera más común de distribuir el catálogo electrónico consiste en colocar en la página web un vínculo representado por una miniatura de la portada del catálogo electrónico. Trabaje con su grupo de TI para que el catálogo electrónico se abra en una ventana emergente centrada y bien visible. Solicite al grupo de TI que no se muestren la barra de herramientas ni la de dirección del explorador.
 
-Para obtener más información y muestras de código, consulte [Incrustación del visor de catálogos electrónicos HTML 5 en la Guía de referencia de visores de Adobe](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_20_ecatalog_viewer_about.html).
+Para obtener más información y ejemplos de código, consulte [Incrustación del visor de catálogos electrónicos HTML5 en la Guía](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html)de referencia de visores de Adobe.
 
 ## Copia del código incrustado de un visor de catálogos electrónicos {#copying-the-embed-code-of-an-ecatalog-viewer}
 
@@ -59,15 +62,15 @@ El uso de la función de código incrustado permite revisar el código del visor
 1. Encima del panel de exploración de recursos, en la parte derecha de la barra de herramientas, realice una de las siguientes acciones:
 
    * Haga clic en **Vista de cuadrícula**. En el panel de exploración de recursos, haga doble clic en un único recurso para abrirlo en la vista de detalles. En el panel Direcciones URL de la derecha, haga clic en **Código incrustado**.
-   * Haga clic en **Vista de cuadrícula**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **Vista previa** &gt; **Lista del visor** debajo de la imagen en miniatura.
+   * Haga clic en **Vista de cuadrícula**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **Vista previa** > **Lista del visor** debajo de la imagen en miniatura.
 
       En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Código incrustado**.
 
-   * Haga clic en **Vista de lista**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **Vista previa** &gt; **Lista del visor** a la derecha de la imagen en miniatura.
+   * Haga clic en **Vista de lista**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **Vista previa** > **Lista del visor** a la derecha de la imagen en miniatura.
 
       En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Código incrustado**.
 
-   * Haga clic en **Vista de cuadrícula**, **Vista de lista** o **Vista de detalles**. En la misma barra de herramientas, haga clic en **Vista previa** &gt; **Lista del visor**.
+   * Haga clic en **Vista de cuadrícula**, **Vista de lista** o **Vista de detalles**. En la misma barra de herramientas, haga clic en **Vista previa** > **Lista del visor**.
 
       En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Código incrustado**.
 
