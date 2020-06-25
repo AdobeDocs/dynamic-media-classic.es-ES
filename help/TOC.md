@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Ayuda de Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: 46285648da0e4c53c9ce08fc088705853e6a3a46
+source-git-commit: c554e643d287680c34a3b0e79c8dfd7c306a0111
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 77%
+source-wordcount: '730'
+ht-degree: 76%
 
 ---
 
@@ -16,6 +16,7 @@ ht-degree: 77%
 # Ayuda de Dynamic Media Classic {#using}
 
 + [Inicio de documentación de Dynamic Media Classic](home.md)
++ [Tutorial de optimizaciones](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 + [NUEVA experiencia de inicio de sesión de Dynamic Media Classic disponible el 30 de junio de 2020](new-ui-2020.md)
 + [Boletín de Dynamic Media por la Liga de la experiencia](dynamic-media-newsletter.md)
 + Presentación de Adobe Dynamic Media Classic {#intro}
@@ -23,7 +24,7 @@ ht-degree: 77%
    + [Recursos para desarrolladores](developer-resources.md)
    + [Novedades](whats-new.md)
    + [Requisitos del sistema](system-requirements.md)
-   + [La aplicación de escritorio Adobe Dynamic Media Classic pronto estará disponible.](dynamic-media-classic-desktop-app.md)
+   + [La aplicación de escritorio de Adobe Dynamic Media Classic pronto estará disponible.](dynamic-media-classic-desktop-app.md)
    + [Soporte técnico](support.md)
    + [Ayuda de Dynamic Media Classic Media Portal](help-scene7-media-portal.md)
    + [Servicios de formación de Adobe](training-services.md)
@@ -155,9 +156,9 @@ ht-degree: 77%
    + [Publicación de la información de configuración de Adobe Analytics](publishing-analytics-configuration-information.md)
 + Integración de Destinatario Classic {#target-classic}
    + [Inicio rápido: Integración de Destinatario Classic](quick-start-target-classic-integration.md)
-   + [Integración de Adobe Dynamic Media Classic con Adobe Destinatario Classic](integrating-scene7-target-classic.md)
+   + [Integración de Adobe Dynamic Media Classic con Adobe Target Classic](integrating-scene7-target-classic.md)
    + [Creación de un conjunto de ofertas](creating-offer-set.md)
-   + [Inserción de conjuntos de ofertas en Adobe Destinatario Classic](pushing-offer-sets-target-classic.md)
+   + [Inserción de conjuntos de ofertas en Adobe Target Classic](pushing-offer-sets-target-classic.md)
 + Contenido generado por usuarios {#user-generated-content}
    + [Acerca del contenido generado por el usuario](about-ugc.md)
    + [Eliminación de recursos cargados](deleting-uploaded-asset.md)
