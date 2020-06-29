@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Ayuda de Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: c554e643d287680c34a3b0e79c8dfd7c306a0111
+source-git-commit: d3870442babfbcc14734b4e31f9989f5e5837049
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '731'
 ht-degree: 76%
 
 ---
@@ -17,14 +17,14 @@ ht-degree: 76%
 
 + [Inicio de documentación de Dynamic Media Classic](home.md)
 + [Tutorial de optimizaciones](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [NUEVA experiencia de inicio de sesión de Dynamic Media Classic disponible el 30 de junio de 2020](new-ui-2020.md)
++ [NUEVA experiencia de inicio de sesión en Dynamic Media Classic ahora disponible](new-ui-2020.md)
 + [Boletín de Dynamic Media por la Liga de la experiencia](dynamic-media-newsletter.md)
 + Presentación de Adobe Dynamic Media Classic {#intro}
+   + [Aplicación de escritorio de Adobe Dynamic Media Classic: ahora disponible](dynamic-media-classic-desktop-app.md)
    + [Acerca de Dynamic Media Classic](introduction.md)
    + [Recursos para desarrolladores](developer-resources.md)
    + [Novedades](whats-new.md)
    + [Requisitos del sistema](system-requirements.md)
-   + [La aplicación de escritorio de Adobe Dynamic Media Classic pronto estará disponible.](dynamic-media-classic-desktop-app.md)
    + [Soporte técnico](support.md)
    + [Ayuda de Dynamic Media Classic Media Portal](help-scene7-media-portal.md)
    + [Servicios de formación de Adobe](training-services.md)
