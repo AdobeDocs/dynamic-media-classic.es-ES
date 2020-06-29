@@ -1,20 +1,20 @@
 ---
-title: Ya está disponible la nueva experiencia de inicio de sesión de Dynamic Media Classic
-seo-title: Ya está disponible la nueva aplicación de escritorio Dynamic Media Classic
+title: Aplicación de escritorio de Adobe Dynamic Media Classic
+seo-title: Aplicación de escritorio de Adobe Dynamic Media Classic
 description: Los usuarios de Dynamic Media Classic ahora pueden actualizar completamente la interfaz de usuario. La experiencia ofrece un inicio de sesión actualizado con vínculos a recursos valiosos, además de que esta actualización ya no depende de la tecnología Adobe Flash en el navegador.
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: 42d2a6e5d1a4b33149043eed590137ea826fe146
+source-git-commit: d3870442babfbcc14734b4e31f9989f5e5837049
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
 
 
-# Ya está disponible la nueva experiencia de inicio de sesión de Dynamic Media Classic {#new-ui-2020}
+# Aplicación de escritorio Adobe Dynamic Media Classic - Ya disponible {#new-ui-2020}
 
 Consulte la aplicación [de escritorio](/help/dynamic-media-classic-desktop-app.md) Adobe Dynamic Media Classic para revisar los requisitos del sistema, descargar e instalar la nueva aplicación y, a continuación, iniciar sesión en ella.
 
