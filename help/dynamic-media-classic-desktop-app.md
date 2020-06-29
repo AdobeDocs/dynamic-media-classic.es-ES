@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 37f9a42b89ad1ade0aa7f8fc542b03c930bd9c27
+source-git-commit: f2b8c8a5bdac38a48157c6eaa80cd09692ee2259
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -47,18 +47,18 @@ La aplicación de escritorio Adobe Dynamic Media Classic es compatible con los s
 
    * **Para macOS** : en el cuadro de diálogo **[!UICONTROL Arrastrar y soltar para instalar]** , arrastre **[!UICONTROL Adobe Dynamic Media Classic]** y suéltelo en **[!UICONTROL Aplicaciones]**.
 
-      ![Arrastre y suelte la instalación en macOS](/help/assets/dragondrop-install.png)
+      ![Arrastre y suelte la instalación en macOS](/help/assets/dragondrop-install1.png)
 
    * En la carpeta **[!UICONTROL Aplicaciones]** , toque el icono de Adobe Dynamic Media Classic.
    * En el cuadro de diálogo, toque **[!UICONTROL Abrir]** para abrir la aplicación de escritorio de Adobe Dynamic Media Classic.
 
-      ![Abrir aplicación descargada](/help/assets/open-dmclassicapp.png)
+      ![Abrir aplicación descargada](/help/assets/open-dmclassicapp1.png)
 
    * **Para Windows** : ejecute el archivo binario del instalador y siga las instrucciones que aparecen en pantalla para instalar la aplicación de escritorio.
 
 1. Al abrir la aplicación, se muestra la nueva página de inicio de sesión de Adobe Dynamic Media Classic:
 
-   ![Inicio de sesión de Dynamic Media Classic](/help/assets/dmclassic-login.png)
+   ![Inicio de sesión de Dynamic Media Classic](/help/assets/dmclassic-login1.png)
 
 1. Utilice las mismas credenciales que las credenciales del explorador para iniciar sesión en Adobe Dynamic Media Classic.
 
@@ -80,7 +80,7 @@ La aplicación de escritorio Adobe Dynamic Media Classic es compatible con los s
 * En la aplicación Dynamic Media Classic, seleccione la nueva compañía en la lista desplegable compañía.
 * Cuando aparezca la ventana emergente, toque **[!UICONTROL Aceptar]** para cerrar sesión y cerrar la aplicación.
 
-   ![Reinicie la aplicación para utilizar la nueva compañía](/help/assets/dmclassic-new-company.png)
+   ![Reinicie la aplicación para utilizar la nueva compañía](/help/assets/dmclassic-new-company1.png)
 * Reinicie Dynamic Media Classic e inicie sesión como de costumbre para trabajar con la nueva compañía.
 
 ## Sugerencias y trucos
@@ -89,6 +89,6 @@ La aplicación de escritorio Adobe Dynamic Media Classic es compatible con los s
 
 **_El estado de publicación (indicador verde) de un recurso no se refleja correctamente._**<br> En la interfaz de usuario del explorador, se requería volver a iniciar sesión en la interfaz de usuario para ver el estado de publicación correcto de los recursos. En la aplicación de escritorio, hemos introducido un icono **[!UICONTROL Actualizar]** en la barra de herramientas, a la derecha del botón **[!UICONTROL Seleccionar ninguno]** . Toque el icono **[!UICONTROL Actualizar]** para ver el estado más reciente de todos los recursos de una página determinada. No es necesario volver a iniciar sesión como en la interfaz de usuario del explorador.
 
-![Icono](/help/assets/refresh-icon.png)Actualizar icono *Actualizar*
+![Icono](/help/assets/refresh-icon1.png)Actualizar icono *Actualizar*
 
 **_No veo que los ajustes preestablecidos de conjunto de lotes funcionen en la aplicación de escritorio._**<br> Toque **[!UICONTROL Cargar > Opciones de trabajo > Valores preestablecidos]** de conjunto por lotes. Asegúrese de que el ajuste preestablecido **[!UICONTROL de conjunto de]** lotes correspondiente está activado. Haga clic en **[!UICONTROL Guardar y enviar carga]**.
