@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 59116a685629cfd788c32fb5082f35d90e66fb5a
+source-git-commit: 37f9a42b89ad1ade0aa7f8fc542b03c930bd9c27
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Esta nueva aplicación ya está disponible para Windows y MacOS.
 >
 >Le recomendamos que instale la nueva aplicación de escritorio Adobe Dynamic Media Classic antes del 1 de octubre de 2020. Al hacerlo, se asegurará de que dispone de una transición suave antes de que Adobe Flash Player quede obsoleto el 31 de diciembre de 2020. En esa fecha, ya no podrá iniciar sesión en la versión del navegador de la interfaz de usuario de Adobe Dynamic Media Classic, etiquetada como Scene7 Publishing System en el producto.
 
-Consulte las preguntas más frecuentes sobre la experiencia de inicio de sesión de [Dynamic Media Classic ahora disponible](/help/new-ui-2020.md).
+Consulte las preguntas más frecuentes sobre la experiencia de inicio de sesión de [nuevo Dynamic Media Classic ahora disponible.](/help/new-ui-2020.md)
 
 ## Requisitos del sistema para la aplicación de escritorio de Adobe Dynamic Media Classic {#system-requirements-dmc-app}
 
@@ -40,8 +40,8 @@ La aplicación de escritorio Adobe Dynamic Media Classic es compatible con los s
 
 1. Descargue el instalador más reciente para la aplicación de escritorio Adobe Dynamic Media Classic.
 
-   * macOS (.dmg) - [Descargar](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg).
-   * Windows (.exe): [Descargar](lhttp://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe).
+   * [macOS (.dmg) - Descargar.](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
+   * [Windows (.exe): descarga.](lhttp://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
 
 1. Realice una de las siguientes acciones en función del instalador que descargó.
 
