@@ -1,16 +1,19 @@
 ---
-title: '" Inicio rápido: Integración de Dynamic Media Classic y Adobe Analytics "'
-seo-title: '" Inicio rápido: Integración de Dynamic Media Classic y Adobe Analytics "'
+title: '"Inicio rápido: Integración de Dynamic Media Classic y Adobe Analytics "'
+seo-title: '"Inicio rápido: Integración de Dynamic Media Classic y Adobe Analytics "'
 description: nulo
-seo-description: Una introducción e Inicio rápido para integrar Dynamic Media Classic y Adobe Analytics para ayudarle a empezar a utilizarlo rápidamente.
-uuid: 3 f 9 e 2 c 91-15 d 4-4 b 53-8220-9 b 1 ca 57 c 0 b 1 d
+seo-description: Introducción y Inicio rápido a la integración de Dynamic Media Classic y Adobe Analytics para ayudarle en el uso inicial.
+uuid: 3f9e2c91-15d4-4b53-8220-9b1ca57c0b1d
 contentOwner: admin
-content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/adobe_ analytics_ instrumentation_ kit
-discoiquuid: abec 9 a 85-013 c -4030-b 129-bf 27 a 89 cb 464
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
+discoiquuid: abec9a85-013c-4030-b129-bf27a89cb464
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 2fb7e34b734dba1e0bd1d150580d7d6c74ee1b79
+workflow-type: tm+mt
+source-wordcount: '685'
+ht-degree: 47%
 
 ---
 
@@ -19,11 +22,11 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
 Adobe Analytics es un producto líder de la industria que ofrece a los vendedores un lugar donde pueden medir, analizar y optimizar datos integrados de todas las iniciativas en línea a través de múltiples canales de marketing.
 
-Después de integrar Adobe Analytics con Scene 7 Publishing System, puede obtener informes sobre el comportamiento de los visitantes del sitio web mediante visores de Dynamic Media Classic en su sitio web. Por ejemplo, cuando un visitante de un sitio web hace clic en un destino de zoom en un visor de zoom de Media Media Classic, Adobe Analytics registra esta acción. Los informes de Adobe Analytics pueden recopilar información acumulativa sobre la actividad de los usuarios en los visores de Dynamic Media Classic.
+Después de integrar Adobe Analytics con Scene7 Publishing System, puede obtener informes sobre el comportamiento de los visitantes del sitio web mediante los visores de Dynamic Media Classic en el sitio web. Por ejemplo, cuando un visitante de un sitio web hace clic en un destinatario de zoom en un visor de zoom Dynamic Media Classic, Adobe Analytics registra esta acción. Los informes de Adobe Analytics pueden recopilar información acumulativa sobre la actividad de los usuarios en los visores de Dynamic Media Classic.
 
 Con el uso de los informes de Adobe Analytics, podrá obtener una imagen clara de la actividad de los clientes en su sitio web. Podrá averiguar cuáles son las presentaciones de productos que producen ventas y cuáles las que no despiertan el interés de los clientes.
 
-Consulte también [Medición de vídeo en Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/).
+Consulte también [Medición de vídeo en Adobe Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html).
 
 >[!NOTE]
 >
@@ -37,36 +40,36 @@ Este inicio rápido se ha diseñado para ayudarle en el uso inicial del kit de i
 
 >[!NOTE]
 >
->Para poder configurar informes de Adobe Analytics y combinar variables de informes de Adobe Analytics con los eventos de Dynamic Media Classic, compruebe que se haya agregado como miembro del grupo Acceso a servicio Web en Adobe Analytics. Los miembros de este grupo pueden acceder a todos los informes de los grupos de informes especificados mediante la API de servicios web de Marketing Cloud independientemente de los permisos establecidos en la interfaz. Para agregar un miembro al grupo, en Adobe Analytics, haga clic en **Herramientas de administración** &gt; **Administración de usuario** &gt; **Editar grupos**.
+>Antes de configurar los informes de Adobe Analytics y hacer coincidir las variables de informes de Adobe Analytics con los eventos de Dynamic Media Classic, compruebe que se le ha agregado como miembro del grupo Acceso a servicios web en Adobe Analytics. Los miembros de este grupo pueden acceder a todos los informes de los grupos de informes especificados mediante la API de servicios web de Marketing Cloud independientemente de los permisos establecidos en la interfaz. Para agregar un miembro al grupo, en Adobe Analytics, haga clic en **Herramientas de administración** > **Administración de usuario** > **Editar grupos**.
 
-After you have verified that you are a member of the Web Service Access group, in Dynamic Media Classic, click **Setup** &gt; **Application Setup** &gt; **Adobe Analytics**. En la página de configuración de Adobe Analytics, haga clic en **Inicio de sesión de Adobe Analytics**.
+After you have verified that you are a member of the Web Service Access group, in Dynamic Media Classic, click **Setup** > **Application Setup** > **Adobe Analytics**. En la página de configuración de Adobe Analytics, haga clic en **Inicio de sesión de Adobe Analytics**.
 
 Consulte [Inicio de sesión en Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 
-En el cuadro de diálogo Inicio de sesión de Adobe Analytics, escriba su ID de organización de Marketing Cloud (opcional) y sus credenciales completas y, a continuación, haga clic **en Iniciar sesión**. En el menú desplegable Grupo de informes, seleccione el nombre del grupo de informes que desee utilizar.
+En el cuadro de diálogo Inicio de sesión de Adobe Analytics, escriba su ID de organización de Marketing Cloud (opcional) y sus credenciales completas y, a continuación, haga clic en **Iniciar sesión**. En el menú desplegable Grupo de informes, seleccione el nombre del grupo de informes que desee utilizar.
 
-**2. Asigne variables de informes de Adobe Analytics a eventos de visor de Dynamic Media Classic y variables de Dynamic Media Classic**
+**2. Asignar variables de informes de Adobe Analytics a eventos de visor de Dynamic Media Classic y variables de Dynamic Media Classic**
 
-En la página de configuración de Adobe Analytics, especifique la información que desee incluir en los informes de Adobe Analytics. Para cada evento de visor de Dynamic Media Classic en el que desee información, elija una variable de Adobe Analytics (de su grupo de informes) y una variable de Dynamic Media Classic.
+En la página de configuración de Adobe Analytics, especifique la información que desee incluir en los informes de Adobe Analytics. Para cada evento de visor de Dynamic Media Classic del que desee obtener información, elija una variable de Analytics de Adobe (del grupo de informes) y una variable de Dynamic Media Classic.
 
 * Los eventos del visor describen la actividad de los usuarios que desea registrar en los informes.
-* Las variables de Dynamic Media Classic describen los datos sobre los eventos de usuario que desea que entreguen los informes.
+* Las variables de Dynamic Media Classic describen los datos sobre los eventos de usuario que desea que los informes proporcionen.
 
 La pantalla de configuración de Adobe Analytics también incluye herramientas para activar, editar y eliminar eventos de visor.
 
-Después de hacer clic en Guardar en la pantalla de configuración de Adobe Analytics, se inserta un código de seguimiento personalizado para medir la actividad de los usuarios en los visores de Dynamic Media Classic. Esta funcionalidad permite realizar el seguimiento de la actividad de los usuarios en los informes de Adobe Analytics.
+Después de hacer clic en Guardar en la pantalla de configuración de Adobe Analytics, se inserta un código de seguimiento personalizado para medir la actividad del usuario en los visores de Dynamic Media Classic. Esta funcionalidad permite realizar el seguimiento de la actividad de los usuarios en los informes de Adobe Analytics.
 
 Consulte [Configuración de informes de Adobe Analytics](configuring-analytics-reports.md#configuring_adobe_analytics_reports).
 
 **3. Publicación de los visores de Dynamic Media Classic**
 
-Publique los visores de Dynamic Media Classic para que los visores (con código para el seguimiento de la actividad de los usuarios en los informes de Adobe Analytics) se carguen en servidores de Dynamic Media Classic. Después de la publicación, esta información se incluye en los visores y puede emplearse en los análisis de Adobe Analytics.
+Publique los visores de Dynamic Media Classic para que los visores (con código para el seguimiento de la actividad de los usuarios en los informes de Adobe Analytics) se carguen en los servidores de Dynamic Media Classic. Después de la publicación, esta información se incluye en los visores y puede emplearse en los análisis de Adobe Analytics.
 
 Consulte [Publicación de la información de configuración](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
 
 **4. Coloque los visores de Dynamic Media Classic en el sitio web**
 
-Coloque los visores de Dynamic Media Classic con el código de seguimiento de Adobe Analytics en su sitio web.
+Coloque los visores de Dynamic Media Classic con el código de seguimiento de Analytics de Adobe en el sitio web.
 
 **5. Prueba de la integración de Adobe Analytics mediante un informe de Adobe Analytics**
 
