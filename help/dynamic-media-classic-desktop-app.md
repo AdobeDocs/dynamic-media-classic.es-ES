@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 8858ca1482b8a33e3294df345bc2e5fc34483e07
+source-git-commit: 88f73056803a34ef2748b19eafbe7d50933b4d6a
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,10 @@ La aplicación de escritorio Adobe Dynamic Media Classic es compatible con los s
    | https://s7sps5.scene7.com/ | Producción de APAC (Asia-Pacífico) |
 
 1. Al publicar la interfaz de usuario de inicio de sesión, verá la experiencia familiar de la interfaz de usuario del explorador. Puede llevar su actividad diaria como de costumbre ahora en la interfaz de usuario de la aplicación de escritorio.
+
+## Vídeo explicativo sobre el uso de la aplicación Dynamic Media Classic Desktop
+
+Vea un [vídeo explicativo sobre el uso de Dynamic Media Classic Desktop App](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html) (Duración: 2 minutos y 36 segundos).
 
 ## Limitaciones conocidas en Dynamic Media Classic
 
