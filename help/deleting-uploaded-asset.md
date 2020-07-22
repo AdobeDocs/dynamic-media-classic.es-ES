@@ -2,14 +2,17 @@
 title: Eliminación de recursos cargados
 seo-title: Eliminación de recursos cargados
 description: nulo
-seo-description: Aprenda a eliminar un recurso cargado.
-uuid: edd 2 b 688-c 377-4 be 1-ba 16-d 2 dd 2 e 6 f 716 d
+seo-description: Obtenga información sobre cómo eliminar un recurso cargado.
+uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
 contentOwner: admin
-content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-discoiquuid: dd 338 c 8 c -06 c 6-44 d 5-8493-dc 2087 eeeafb
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '99'
+ht-degree: 88%
 
 ---
 
@@ -46,7 +49,7 @@ Se pueden usar los campos siguientes en la cadena de consulta URL para eliminar 
 |--- |--- |--- |
 | op | Obligatorio | eliminar |
 | shared_secret | Obligatorio | Clave secreta compartida de la empresa. |
-| <ul><li>Para imágenes: image_ name</li><li>Para el vector:fxg_name</li></ul> | Obligatorio | Nombre del recurso que se debe eliminar. |
+| <ul><li>Para imágenes:image_name</li><li>Para el vector:fxg_name</li></ul> | Obligatorio | Nombre del recurso que se debe eliminar. |
 
 **URL de imagen de muestra:**
 
