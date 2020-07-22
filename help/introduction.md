@@ -1,13 +1,13 @@
 ---
 title: Ayuda de Dynamic Media Classic
 seo-title: Adobe Dynamic Media Classic
-description: Descripción general de Dynamic Media Classic
-seo-description: Descripción general de Dynamic Media Classic
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+description: Información general de Dynamic Media Classic
+seo-description: Información general de Dynamic Media Classic
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: df0c2897b9fceddde648be53b23e25b13388d6b9
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '246'
 ht-degree: 31%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 31%
 
 # Ayuda de Dynamic Media Classic {#scene7-overview}
 
-Bienvenido a Adobe Dynamic Media Classic (anteriormente Scene7), el sistema líder de publicación multimedios a petición para cargar, gestionar, mejorar y publicar contenido enriquecido dinámico en todos los dispositivos y pantallas. Las soluciones de Adobe Dynamic Media Classic incluyen lo siguiente:
+Bienvenido a Adobe Dynamic Media Classic, el principal sistema de publicación a petición para cargar, gestionar, mejorar y publicar contenido enriquecido dinámico en todos los dispositivos y pantallas. Las soluciones de Adobe Dynamic Media Classic incluyen lo siguiente:
 
 * Imágenes dinámicas: edición en tiempo real, con cambio de formatos y tamaños, zoom y desplazamiento interactivo, muestras de colores y texturas, giros de 360º, plantillas de imágenes y visores multimedia.
 * Catálogos electrónicos: Creación, vinculación de puntos interactivos, búsqueda habilitada, publicación y distribución dinámica de catálogos en línea en visores configurables.
@@ -26,16 +26,16 @@ Bienvenido a Adobe Dynamic Media Classic (anteriormente Scene7), el sistema líd
 
 ## Recursos clave
 
-* [Introducción y descripción general](/help/scene7-platform-overview.md)
+* [Introducción y descripción general](/help/dmc-platform-overview.md)
 * [Inicio rápido: Catálogo electrónico](/help/quick-start-ecatalog.md)
 * [Inicio rápido: Conjuntos de imágenes](/help/quick-start-image-sets.md)
 * [Inicio rápido: Tamaño de imagen](/help/quick-start-image-sizing.md)
-* [Inicio rápido: Integración de análisis de Scene7](/help/quick-start-integrating-scene7-analytics.md)
+* [Inicio rápido: Integración de los análisis de Dynamic Media Classic](/help/quick-start-integrating-dmc-analytics.md)
 * [Inicio rápido: Media Portal](/help/quick-start-media-portal-administration.md)
 * [Inicio rápido: Conjuntos de medios mixtos](/help/quick-start-mixed-media-sets.md)
 * [Inicio rápido: Conjuntos de giros](/help/quick-start-spin-sets.md)
 * [Inicio rápido: Conjuntos de muestras](/help/quick-start-swatch-sets.md)
-* [Inicio rápido: Integración de Destinatario Classic](/help/quick-start-target-classic-integration.md)
+* [Inicio rápido: Integración con Target Standard/Premium](/help/quick-start-target-integration.md)
 * [Inicio rápido: Aspectos básicos de la plantilla](/help/quick-start-template-basics.md)
 * [Inicio rápido: Vídeo](/help/quick-start-video.md)
 * [Inicio rápido: Zoom](/help/quick-start-zoom.md)
