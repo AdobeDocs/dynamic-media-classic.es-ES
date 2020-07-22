@@ -2,32 +2,35 @@
 title: '"Inicio rápido: Conjuntos de imágenes"'
 seo-title: '"Inicio rápido: Conjuntos de imágenes"'
 description: nulo
-seo-description: Introducción e Inicio rápido a conjuntos de imágenes para ayudarle en el uso inicial de las técnicas de conjuntos de imágenes.
-uuid: daf 17 d 13-9 c 06-41 f 0-8 fc 5-2 e 56 d 460 d 341
+seo-description: Introducción y Inicio rápido a los conjuntos de imágenes para ayudarle en el uso inicial de las técnicas de conjuntos de imágenes.
+uuid: daf17d13-9c06-41f0-8fc5-2e56d460d341
 contentOwner: admin
-content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/image_ sets
-discoiquuid: 612 a 425 f -2840-46 c 4-8 e 5 a-c 0 bc 5 f 738 f 4 e
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
+discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '565'
+ht-degree: 62%
 
 ---
 
 
 # Inicio rápido: Conjuntos de imágenes{#quick-start-image-sets}
 
-Los conjuntos de imágenes clásicos de Media Media proporcionan a los usuarios una visualización integrada. En el visor de conjuntos de imágenes dinámico los usuarios pueden acceder a diversas vistas de un elemento haciendo clic en una imagen de miniatura. Los conjuntos de imágenes le permiten presentar vistas de alta resolución alternativas de un elemento.
+Los conjuntos de imágenes de Dynamic Media Classic ofrecen a los usuarios una experiencia de visualización integrada. En el visor de conjuntos de imágenes dinámico los usuarios pueden acceder a diversas vistas de un elemento haciendo clic en una imagen de miniatura. Los conjuntos de imágenes permiten presentar vistas alternativas de alta resolución de un elemento.
 
 El visor de conjuntos de imágenes ofrece herramientas de zoom para examinar las imágenes de cerca. Si lo desea, puede crear destinos de zoom guiado y mapas de imagen para que formen parte del conjunto de imágenes. Los conjuntos de imágenes permiten una visualización completa y coordinada.
 
-Este inicio rápido sobre los conjuntos de imágenes se ha diseñado para ayudarle en el uso inicial de las técnicas de conjuntos de imágenes en Dynamic Media Classic.
+Este Inicio rápido sobre los conjuntos de imágenes está diseñado para ponerse en marcha rápidamente con las técnicas de conjuntos de imágenes de Dynamic Media Classic.
 
 **1. Carga de las imágenes principales para varias vistas y muestras**
 
-Comience el proceso cargando las imágenes para los conjuntos de imágenes. Puesto que los usuarios pueden aplicar zoom a las imágenes en el visor de conjuntos de imágenes, recuerde tener en cuenta el zoom a la hora de elegir las imágenes. Asegúrese de que la dimensión superior de las imágenes es de al menos 2000 píxeles. Dynamic Media Classic admite muchos formatos de archivo de imagen, pero se recomiendan las imágenes TIFF, PNG y EPS sin pérdida.
+Comience el proceso cargando las imágenes para los conjuntos de imágenes. Puesto que los usuarios pueden aplicar zoom a las imágenes en el visor de conjuntos de imágenes, recuerde tener en cuenta el zoom a la hora de elegir las imágenes. Compruebe que las imágenes tengan al menos 2000 píxeles en la dimensión más grande. Dynamic Media Classic admite muchos formatos de archivo de imagen, pero se recomiendan las imágenes TIFF, PNG y EPS sin pérdida.
 
-Seleccione el botón Cargar en la barra de navegación global para cargar archivos del ordenador en una carpeta de Scene7 Publishing System. 
+Seleccione el botón Cargar en la barra de navegación global para cargar archivos del equipo en una carpeta de Dynamic Media Classic.
 
 Consulte [Preparación de recursos de conjunto de imágenes para cargar](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload) y [Carga de archivos](uploading-files.md#uploading-your-files).
 
@@ -43,7 +46,7 @@ Consulte también [Inclusión de destinos de zoom y mapas de imagen en conjuntos
 
 **3. Configuración de ajustes preestablecidos de visor de conjuntos de imágenes, según sea necesario**
 
-Los administradores pueden crear o modificar los ajustes preestablecidos de visor de conjuntos de imágenes. Dynamic Media Classic incluye ajustes preestablecidos de visor para cada tipo de medios enriquecidos. Use el Visor de zoom: Personalizar &gt; Imágenes o ajustes preestablecidos de Conjuntos de imágenes/Múltiples vistas para ver los conjuntos de imágenes.
+Los administradores pueden crear o modificar los ajustes preestablecidos de visor de conjuntos de imágenes. Dynamic Media Classic incluye ajustes preestablecidos de visor predeterminados para cada tipo de medio enriquecido. Use el Visor de zoom: Personalizar > Imágenes o ajustes preestablecidos de Conjuntos de imágenes/Múltiples vistas para ver los conjuntos de imágenes.
 
 Puede añadir o editar los ajustes preestablecidos del visor desde la pantalla Ajustes de aplicación.
 
@@ -61,7 +64,7 @@ Al publicar un conjunto de imágenes, éste se coloca en los servidores de Dynam
 
 >[!NOTE]
 >
->Este paso no es necesario si ha seleccionado** Publicar después de guardar** (predeterminado) en el momento de crear y guardar el conjunto de imágenes.
+>Este paso no es necesario si seleccionó **Publicar después de guardar ** (predeterminado) en el momento en que creó y guardó el conjunto de imágenes.
 
 Click the Mark for Publish icon to the left of its name in the Browse Panel. Then, click **Publish**. On the Publish screen, click **Start Publish**.
 
@@ -69,7 +72,7 @@ Consulte [Publicación](publishing-files.md#publishing-files).
 
 **6. Vinculación de un conjunto de imágenes al sitio web**
 
-Dynamic Media Classic crea llamadas mediante URL para conjuntos de imágenes y las activa después de la publicación. Puede copiar estas direcciones URL desde la pantalla Vista previa.
+Dynamic Media Classic crea llamadas mediante URL para conjuntos de imágenes y los activa después de la publicación. Puede copiar estas direcciones URL desde la pantalla Vista previa.
 
 Seleccione el conjunto de imágenes y, a continuación, seleccione el botón Vista previa. Se abre la pantalla Vista previa. Select an Image Set Viewer Preset and click **Copy URL**.
 
