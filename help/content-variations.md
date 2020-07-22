@@ -2,15 +2,18 @@
 title: Gestión de variaciones de contenido
 seo-title: Gestión de variaciones de contenido
 description: nulo
-seo-description: Descubra cómo administrar las variaciones de contenido.
-uuid: 1 e 40 a 526-02 f 8-41 d 9-886 f -6 d 094546 bc 13
+seo-description: Aprenda a administrar las variaciones de contenido.
+uuid: 1e40a526-02f8-41d9-886f-6d094546bc13
 contentOwner: admin
-content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/template_ basics
-discoiquuid: aa 129 b 0 e-fc 73-4 fc 2-a 894-4560 b 3 f 46 c 4 f
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
+discoiquuid: aa129b0e-fc73-4fc2-a894-4560b3f46c4f
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '248'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +28,7 @@ Las URL universales se utilizan para mostrar la variación de plantilla que apar
 
 Puede utilizar cualquier URL de ajuste preestablecido de imagen de la lista. Las URL de ajustes preestablecidos de imagen son como las URL universales. Puede haber más de una URL de ajuste preestablecido de imagen.
 
-1. Haga clic en Generar &gt; Conjuntos de plantillas.
+1. Haga clic en Generar > Conjuntos de plantillas.
 
    El generador se abre.
 
