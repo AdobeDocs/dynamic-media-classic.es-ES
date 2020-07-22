@@ -2,15 +2,18 @@
 title: Configuración de ajustes preestablecidos del visor de conjunto de giros
 seo-title: Configuración de ajustes preestablecidos del visor de conjunto de giros
 description: nulo
-seo-description: Descubra cómo configurar ajustes preestablecidos de visor de conjuntos de giros.
-uuid: e 095 f 989-f 3 df -46 ea-be 62-812922805 dc 0
+seo-description: Obtenga información sobre cómo configurar los ajustes preestablecidos de visor de conjuntos de giros.
+uuid: e095f989-f3df-46ea-be62-812922805dc0
 contentOwner: admin
-content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/spin_ sets
-discoiquuid: 9 dfaa 37 a -59 ab -46 ae -94 c 3-c 0 ab 9 f 940023
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
+discoiquuid: 9dfaa37a-59ab-46ae-94c3-c0ab9f940023
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '237'
+ht-degree: 76%
 
 ---
 
@@ -21,11 +24,12 @@ Los ajustes preestablecidos de visor de conjuntos de giros determinan el estilo,
 
 Para crear un ajuste preestablecido de visor de conjuntos de giros, siga estos pasos:
 
-1. Haga clic en **Ajustes** &gt; **Ajustes preestablecidos de visor**.
+1. Haga clic en **Ajustes** > **Ajustes preestablecidos de visor**.
 1. Realice una de las siguientes acciones:
 
    * To create a new preset, click **Add**, then in the Add Viewer Preset dialog box, choose a platform, and click **Spin Set Viewer**.
    * To edit an existing Spin Set Viewer preset, select the preset and click **Edit**.
+
    Se abrirá la pantalla Configurar visor.
 
 1. Escriba un nombre para el ajuste preestablecido de visor de conjuntos de giros en el cuadro Nombre de ajuste preestablecido.
