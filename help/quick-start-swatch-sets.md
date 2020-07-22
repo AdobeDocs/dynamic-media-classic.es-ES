@@ -2,40 +2,43 @@
 title: '"Inicio rápido: Conjuntos de muestras"'
 seo-title: '"Inicio rápido: Conjuntos de muestras"'
 description: nulo
-seo-description: Introducción e Inicio rápido al conjunto de muestras para ayudarle a empezar a utilizarlo rápidamente.
-uuid: 6 f 8 a 95 e 8-e 82 a -477 f -9 f 21-d 2 b 7 b 511 f 8 ae
+seo-description: Introducción y Inicio rápido del conjunto de muestras para ayudarle en el uso inicial.
+uuid: 6f8a95e8-e82a-477f-9f21-d2b7b511f8ae
 contentOwner: admin
-content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/swatch_ sets
-discoiquuid: 1 ea 70 fdf -3 cbd -409 c-ae 7 d -06286 c 99 c 6 ac
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
+discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '390'
+ht-degree: 64%
 
 ---
 
 
 # Inicio rápido: Conjuntos de muestras{#quick-start-swatch-sets}
 
-Los conjuntos de muestras clásicos de medios dinámicos ofrecen a los usuarios una visualización integrada. En el visor dinámico de conjuntos de muestras, los usuarios pueden ver un elemento con distintos colores, materiales, texturas, acabados o telas simplemente haciendo clic en una miniatura.
+Los conjuntos de muestras de Dynamic Media Classic ofrecen a los usuarios una visualización integrada. En el visor dinámico de conjuntos de muestras, los usuarios pueden ver un elemento con distintos colores, materiales, texturas, acabados o telas simplemente haciendo clic en una miniatura.
 
 **Inicio rápido**
 
-Este inicio rápido sobre los conjuntos de muestras se ha diseñado para ayudarle en el uso inicial de las técnicas de conjuntos de muestras en Dynamic Media Classic.
+Este Inicio rápido sobre los conjuntos de muestras se ha diseñado para ayudarle en el uso inicial de las técnicas de conjuntos de muestras en Dynamic Media Classic.
 
 **1. Carga de las imágenes y los archivos de muestra**
 
 Comience el proceso cargando las imágenes y los archivos de muestra para los conjuntos de muestras.
 
-Haga clic en Cargar en la barra de navegación global para cargar archivos del ordenador en una carpeta de Scene7 Publishing System. Consulte [Preparación de recursos de conjunto de muestras para cargar](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) y [Carga de archivos](uploading-files.md#uploading-your-files).
+Haga clic en Cargar en la barra de navegación global para cargar archivos del equipo en una carpeta de Dynamic Media Classic. Consulte [Preparación de recursos de conjunto de muestras para cargar](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) y [Carga de archivos](uploading-files.md#uploading-your-files).
 
 **2. Creación de un conjunto de muestras**
 
-Para crear un conjunto de muestras, haga clic en Generar &gt; Conjuntos de muestras. En la pantalla Conjuntos de muestras, arrastre imágenes y muestras de color a la pantalla. Consulte [Creación de un conjunto de muestras](creating-swatch-set.md#creating-a-swatch-set).
+Para crear un conjunto de muestras, haga clic en Generar > Conjuntos de muestras. En la pantalla Conjuntos de muestras, arrastre imágenes y muestras de color a la pantalla. Consulte [Creación de un conjunto de muestras](creating-swatch-set.md#creating-a-swatch-set).
 
 **3. Configuración de ajustes preestablecidos de visor de conjunto de muestras**
 
-Los administradores pueden crear o modificar los ajustes preestablecidos de visor de conjuntos de imágenes. Dynamic Media Classic incluye ajustes preestablecidos de visor para cada tipo de medios enriquecidos. Utilice el Visor de zoom: Personalizar &gt; ajustes preestablecidos de Conjuntos de imágenes/Muestras de color para ver sus conjuntos de muestras.
+Los administradores pueden crear o modificar los ajustes preestablecidos de visor de conjuntos de imágenes. Dynamic Media Classic incluye ajustes preestablecidos de visor predeterminados para cada tipo de medio enriquecido. Utilice el Visor de zoom: Personalizar > ajustes preestablecidos de Conjuntos de imágenes/Muestras de color para ver sus conjuntos de muestras.
 
 Consulte [Creación y edición de ajustes preestablecidos de visor](application-setup.md#adding-and-editing-viewer-presets).
 
