@@ -2,26 +2,29 @@
 title: Publicación de un conjunto de medios mixtos
 seo-title: Publicación de un conjunto de medios mixtos
 description: nulo
-seo-description: Aprenda a publicar un conjunto de medios mixtos.
-uuid: 4172347 c -7 bb 3-468 d-bda 2-fd 1 c 26 ccab 85
+seo-description: Obtenga información sobre cómo publicar un conjunto de medios mixtos.
+uuid: 4172347c-7bb3-468d-bda2-fd1c26ccab85
 contentOwner: admin
-content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/mixed_ media_ sets
-discoiquuid: 4 e 8694 f 7-c 1 b 5-4 d 45-a 18 b -2 b 9494 db 1757
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
+discoiquuid: 4e8694f7-c1b5-4d45-a18b-2b9494db1757
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '258'
+ht-degree: 60%
 
 ---
 
 
 # Publicación de un conjunto de medios mixtos{#publishing-a-mixed-media-set}
 
-Cree un trabajo de publicación para publicar un conjunto de medios mixtos marcado para su publicación en Dynamic Media Classic Video Server y Image Server. Dynamic Media Classic ofrece opciones avanzadas de publicación para publicar en servidores específicos y opciones para volver a publicar recursos que ya se han publicado.
+Cree un trabajo de publicación para publicar un conjunto de medios mixtos que haya marcado para su publicación en el servidor de vídeo e imágenes de Dynamic Media Classic. Dynamic Media Classic oferta opciones de publicación avanzadas para publicar en servidores específicos y opciones para volver a publicar recursos que ya se han publicado.
 
-***nota**: Los conjuntos de medios mixtos requieren que se publique en **el servidor de vídeo**y también en el servidor **de imágenes**. El **Servidor de vídeo**se utiliza para publicar los vídeos reales que se han marcado para publicación. Además, utilice **el servidor**de imágenes para publicar recursos relacionados, como miniaturas de vídeo, y definir información para cualquier conjunto de vídeos adaptable.*
+***nota **: Los conjuntos de medios mixtos requieren que se publique en el servidor**de vídeo **y también en el servidor**de imágenes **. El**Servidor de vídeo **se utiliza para publicar los vídeos reales que se han marcado para publicación. Además, se utiliza**Image Server **para publicar recursos relacionados, como las miniaturas de vídeo, y establecer información para cualquier conjunto de vídeos adaptable.*
 
-Scene7 Publishing System mantiene un seguimiento de los trabajos de publicación en la pantalla Trabajos.
+Dynamic Media Classic realiza un seguimiento de los trabajos de publicación en la pantalla Trabajos.
 
 Consulte [Publicación](publishing-files.md#publishing_files).
 
