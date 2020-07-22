@@ -3,21 +3,24 @@ title: Uso de archivos PDF
 seo-title: Uso de archivos PDF
 description: nulo
 seo-description: Aprenda a trabajar con archivos PDF en Dynamic Media Classic.
-uuid: 26 d 70 d 28-9393-49 b 1-9051-d 70456 deca 67
+uuid: 26d70d28-9393-49b1-9051-d70456deca67
 contentOwner: admin
-content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/master_ files
-discoiquuid: 5 a 073 de 3-6 b 1 d -4 c 3 e -8 c 03-9182 f 9 f 3874 a
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
+discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '674'
+ht-degree: 56%
 
 ---
 
 
 # Uso de archivos PDF{#working-with-pdfs}
 
-Los archivos PDF (Portable Document Format) se utilizan con más frecuencia en Dynamic Media Classic para crear catálogos electrónicos. Al cargar un archivo PDF, Dynamic Media Classic rasteriza, o extrae, las páginas de forma predeterminada para que las páginas puedan utilizarse para generar medios enriquecidos.
+Los archivos PDF (formato de Documento portátil) se utilizan con mayor frecuencia en Dynamic Media Classic para crear catálogos electrónicos. Al cargar un archivo PDF, Dynamic Media Classic rasteriza o extrae las páginas de forma predeterminada para que se puedan utilizar las páginas para crear medios enriquecidos.
 
 ## Opciones de carga de archivos PDF {#pdf-upload-options}
 
@@ -31,11 +34,11 @@ Las opciones de Procesamiento son:
 
 **Rasterizar** (predeterminado) Extrae las páginas del archivo PDF y convierte los gráficos vectoriales en imágenes de mapa de bits. Elija esta opción para crear un catálogo electrónico. 
 
-**Extraer palabras de búsqueda** Extrae palabras del archivo PDF para que el archivo pueda buscarse por palabra clave en un visor de catálogos electrónicos.
+**Extraer palabras** de búsqueda Extrae palabras del archivo PDF para que el archivo se pueda buscar por palabra clave en un visor de catálogos electrónicos.
 
 **Extraer vínculos** Extrae vínculos de los archivos PDF y los convierte en mapas de imagen que se utilizan en un visor de catálogos electrónicos.
 
-**Generar catálogo electrónico automáticamente con PDF de varias páginas crea** automáticamente un catálogo electrónico a partir del archivo PDF. El catálogo electrónico recibe el mismo nombre que el archivo PDF cargado. (Esta opción solo está disponible si rasteriza el archivo PDF al cargarlo).
+**Generar catálogo electrónico automáticamente con PDF** de varias páginas crea automáticamente un catálogo electrónico a partir del archivo PDF. El catálogo electrónico recibe el mismo nombre que el archivo PDF cargado. (Esta opción solo está disponible si rasteriza el archivo PDF al cargarlo).
 
 **Resolución**
 
@@ -45,23 +48,23 @@ Determina el valor de la resolución. Este valor determina cuántos píxeles se 
 
 Seleccione el menú Espacio de color y elija un espacio de color para el archivo PDF. La mayoría de los archivos PDF tienen imágenes de color RGB y CMYK. El espacio de color RGB es preferible para la visualización en línea.
 
-**Detectar Retiene automáticamente** el espacio de color del archivo PDF.
+**Detectar automáticamente** conserva el espacio de color del archivo PDF.
 
-**Forzar RGB** Convierte al espacio de color RGB.
+**Forzar RGB** convierte al espacio de color RGB.
 
-**Forzar CMYK** Convierte al espacio de color CMYK.
+**Forzar como CMYK** convierte al espacio de color CMYK.
 
-**Forzar escala de grises** convierte al espacio de color Escala de grises.
+**Forzar como escala de grises** convierte al espacio de color de escala de grises.
 
 **Perfil de color**
 
 Elija una opción de Perfil de color:
 
-**Convertir a SRGB** Convierte a SRGB (Standard Red Green Blue). SRGB es el espacio de color que se recomienda para mostrar imágenes en páginas web.
+**Convertir a sRGB** se convierte a sRGB (Standard Red Green Blue). SRGB es el espacio de color que se recomienda para mostrar imágenes en páginas web.
 
-**Mantener espacio de color original** Conserva el espacio de color original.
+**Mantener espacio** de color original Conserva el espacio de color original.
 
-**Personalizar &gt; Para** abrir menús para que pueda elegir un espacio de color Convertir de y Convertir a. Puede elegir un espacio de color estándar de Photoshop o uno que haya cargado en SPS. 
+**Personalizado de > Para** abre los menús para que pueda elegir un espacio de color Convertir de y Convertir en. Puede elegir un espacio de color estándar de Photoshop o un espacio de color que haya cargado en Dynamic Media Classic.
 
 Consulte [Perfiles ICC](icc-profiles.md#icc_profiles).
 
@@ -70,11 +73,11 @@ Consulte [Perfiles ICC](icc-profiles.md#icc_profiles).
 1. Para recortar automáticamente píxeles de espacio en blanco de un archivo PDF al cargarlo, seleccione el menú Recortar y elija Recortar.
 1. Especifique las opciones siguientes:
 
-   **Recortar basándose en** elegir si se desea recortar según color o transparencia:
+   **Recortar según** función Elija si desea recortar según el color o la transparencia:
 
    **Color** Elija la opción Color. A continuación, seleccione el menú Esquina y elija la esquina del PDF que mejor represente el color de espacio en blanco que desea recortar.
 
-   **Transparencia Elija** la opción Transparencia.
+   **Transparencia** Elija la opción Transparencia.
 
    **Tolerancia** Arrastre el control deslizante para especificar una tolerancia de 0 a 1:
 
