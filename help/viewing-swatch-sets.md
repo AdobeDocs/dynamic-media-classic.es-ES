@@ -2,15 +2,18 @@
 title: Visualización de conjuntos de muestras
 seo-title: Visualización de conjuntos de muestras
 description: nulo
-seo-description: Descubra cómo ver conjuntos de muestras.
-uuid: 80 df 403 b-b 03 f -428 f -9784-c 3 f 774567 bd 0
+seo-description: Obtenga información sobre cómo vista de conjuntos de muestras.
+uuid: 80df403b-b03f-428f-9784-c3f774567bd0
 contentOwner: admin
-content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/swatch_ sets
-discoiquuid: 48 de 8604-2 bb 4-4862-82 ee -0 c 7847 f 0 d 0 e 7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
+discoiquuid: 48de8604-2bb4-4862-82ee-0c7847f0d0e7
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '434'
+ht-degree: 86%
 
 ---
 
@@ -25,7 +28,7 @@ Dynamic Media Classic incluye ajustes preestablecidos de visor predeterminados. 
 
 Puede crear y personalizar ajustes preestablecidos de visor de acuerdo con sus necesidades.
 
-1. Haga clic en **Ajustes** &gt; **Ajustes preestablecidos de visor**.
+1. Haga clic en **Ajustes** > **Ajustes preestablecidos de visor**.
 1. Realice una de las siguientes acciones:
 
    * To create a new preset, click **Add**. In the Add Viewer Preset dialog box, choose a platform, choose Swatch Set Viewer, then click **Add**.
@@ -51,7 +54,7 @@ Utilice Vista previa para comprobar cómo se muestra un recurso en una plataform
    * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en **Vista de lista**. En la ventana Recursos, pase el cursor por un recurso y, a continuación, haga clic en **Vista previa**.
    * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en **Vista de cuadrícula**. En la ventana Recursos, en la ventana de una miniatura de un recurso, haga clic en **Vista previa**.
    * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en **Vista de detalles**. En la misma barra de herramientas, haga clic en **Vista previa**.
-   * En la ventana Recursos, seleccione un recurso. On the toolbar, click **File** &gt; **Preview**.
+   * En la ventana Recursos, seleccione un recurso. On the toolbar, click **File** > **Preview**.
 
 1. (Opcional) En la lista desplegable de la parte inferior de la ventana Vista previa, seleccione la codificación de URL que desee aplicar a la dirección URL del recurso cuando se copie.
 1. Haga clic en el vínculo de un visor para obtener la vista previa del recurso en el visor seleccionado.
