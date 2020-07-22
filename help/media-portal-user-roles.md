@@ -5,12 +5,15 @@ description: Obtenga información sobre las distintas funciones de usuario dispo
 seo-description: Obtenga información sobre las distintas funciones de usuario disponibles en Media Portal.
 uuid: 1bf2cc85-3655-428f-81ab-5fdaa1e9401b
 contentOwner: admin
-content-type: referencia
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 1bd7cb5d-156c-4dad-a725-e177f05ccedf
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '322'
+ht-degree: 73%
 
 ---
 
@@ -23,7 +26,7 @@ Media Portal incluye las siguientes funciones, cada una con derechos de acceso y
 
 * **Usuario** de Media Portal tiene acceso a carpetas y archivos. Un usuario solo puede examinar, previsualizar y descargar archivos. Esta función es adecuada para socios de canal o de servicio que necesitan acceso a los recursos aprobados de su empresa.
 
-* **Colaborador** de Media Portal Puede cargar, previsualizar y examinar archivos y metadatos en áreas en las que un administrador haya concedido permisos. El colaborador no puede descargar archivos. Los colaboradores pueden editar metadatos, cambiar el nombre de los archivos y las carpetas, mover archivos a carpetas diferentes o eliminar archivos.
+* **Colaborador** de Media Portal Puede cargar, previsualización y examinar archivos y metadatos en áreas en las que un administrador haya concedido permisos. El colaborador no puede descargar archivos. Los colaboradores pueden editar metadatos, cambiar el nombre de los archivos y las carpetas, mover archivos a carpetas diferentes o eliminar archivos.
 
 **Usuario** colaborador de Media Portal tiene acceso a carpetas y archivos. Un usuario colaborador puede examinar, descargar y cargar imágenes y metadatos, así como obtener una vista previa de los mismos. Los usuarios colaboradores pueden cambiar el nombre de los archivos, mover archivos a carpetas diferentes o eliminar archivos.
 
@@ -35,7 +38,7 @@ Esta tabla describe las tareas que pueden realizar los usuarios según su funci�
 | Explorar metadatos | X | X | X |
 | Previsualizar archivos | X | X | X |
 | Buscar archivos | X | X | X |
-| Cargar archivos en Scene7 Publishing System |  | X | X |
+| Carga de archivos en Dynamic Media Classic |  | X | X |
 | Editar e importar metadatos de recursos |  | X | X |
 | Crear, cambiar el nombre y eliminar carpetas |  | X | X |
 | Exportar metadatos de recursos | X |  | X |
@@ -43,4 +46,4 @@ Esta tabla describe las tareas que pueden realizar los usuarios según su funci�
 | Mover archivos a otras carpetas |  | X | X |
 | Cambiar el nombre de los archivos |  | X | X |
 | Eliminar archivos |  | X | X |
-| Exportar (descargar) archivos desde SPS | X |  | X |
+| Exportación (descarga) de archivos desde Dynamic Media Classic | X |  | X |
