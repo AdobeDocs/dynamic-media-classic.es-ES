@@ -2,15 +2,18 @@
 title: Visualización de conjuntos de imágenes
 seo-title: Visualización de conjuntos de imágenes
 description: nulo
-seo-description: Descubra cómo ver conjuntos de imágenes.
-uuid: bb 5 b 0 fee-abc 0-4236-ac 43-09 edb 9 bb 3651
+seo-description: Obtenga información sobre cómo vista de conjuntos de imágenes.
+uuid: bb5b0fee-abc0-4236-ac43-09edb9bb3651
 contentOwner: admin
-content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/image_ sets
-discoiquuid: 027 aa 3 e 0-f 085-48 ae-aff 9-7 b 805 bbdf 8 ab
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
+discoiquuid: 027aa3e0-f085-48ae-aff9-7b805bbdf8ab
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 90%
 
 ---
 
@@ -25,12 +28,12 @@ Dynamic Media Classic incluye ajustes preestablecidos de visor predeterminados. 
 
 Puede crear y personalizar ajustes preestablecidos de visor de acuerdo con sus necesidades.
 
-1. Haga clic en **Ajustes** &gt; **Ajustes preestablecidos de visor**.
+1. Haga clic en **Ajustes** > **Ajustes preestablecidos de visor**.
 1. Cree o edite el ajuste preestablecido de visor en la pantalla Ajustes preestablecidos de visor realizando una de las acciones siguientes:
 
-   **Crear** clic en Agregar. En el cuadro de diálogo Añadir ajuste preestablecido de visor, elija una plataforma, seleccione Visor de zoom: Personalizado y, a continuación, haga clic en Agregar. También puede crear un ajuste preestablecido de visor de zoom a partir de un ajuste preestablecido existente. Muestre el nombre del ajuste preestablecido, selecciónelo, y a continuación seleccione el botón Editar. En la pantalla Configurar visor, introduzca un nombre para el ajuste preestablecido de visor.
+   **Creación** Haga clic en Añadir. En el cuadro de diálogo Añadir ajuste preestablecido de visor, elija una plataforma, seleccione Visor de zoom: Personalizado y, a continuación, haga clic en Agregar. También puede crear un ajuste preestablecido de visor de zoom a partir de un ajuste preestablecido existente. Muestre el nombre del ajuste preestablecido, selecciónelo, y a continuación seleccione el botón Editar. En la pantalla Configurar visor, introduzca un nombre para el ajuste preestablecido de visor.
 
-   **Edición Muestre** el nombre de un ajuste preestablecido, selecciónelo y haga clic **en Editar**.
+   **Edición** Muestre el nombre de un ajuste preestablecido, selecciónelo y haga clic en **Editar**.
 
 1. Elija las opciones deseadas en la pantalla Configurar visor. 
 
@@ -51,7 +54,7 @@ Utilice Vista previa para comprobar cómo se muestra un recurso en una plataform
    * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en **Vista de lista**. In the Asset window, hover on an asset, then click **Preview**.
    * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en **Vista de cuadrícula**. En la ventana Recursos, en la ventana de una miniatura de un recurso, haga clic en **Vista previa**.
    * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en **Vista de detalles**. En la misma barra de herramientas, haga clic en **Vista previa**.
-   * En la ventana Recursos, seleccione un recurso. On the toolbar, click **File** &gt; **Preview**.
+   * En la ventana Recursos, seleccione un recurso. On the toolbar, click **File** > **Preview**.
 
 1. (Opcional) En la lista desplegable de la parte inferior de la ventana Vista previa, seleccione la codificación de URL que desee aplicar a la dirección URL del recurso cuando se copie.
 1. Haga clic en el vínculo de un visor para obtener la vista previa del recurso en el visor seleccionado.
