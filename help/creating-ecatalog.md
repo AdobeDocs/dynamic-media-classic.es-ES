@@ -2,15 +2,18 @@
 title: Creación de un catálogo electrónico
 seo-title: Creación de un catálogo electrónico
 description: nulo
-seo-description: Obtenga información sobre cómo crear un catálogo electrónico.
-uuid: 2 aff 05 c 2-7052-426 c-b 61 d -7 f 9091 f 7 ace 8
+seo-description: Aprenda a crear un catálogo electrónico.
+uuid: 2aff05c2-7052-426c-b61d-7f9091f7ace8
 contentOwner: admin
-content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categorías/ecatalogs
-discoiquuid: 28889 c 60-596 a -40 d 2-85 d 4-f 48 a 4 f 86 b 932
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
+discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
 translation-type: tm+mt
-source-git-commit: 1941567db5c154620bb0dcd12e363d7eebc61b20
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1005'
+ht-degree: 78%
 
 ---
 
@@ -36,9 +39,9 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 1. Comience la creación del catálogo electrónico utilizando una de estas técnicas:
 
-   **Seleccione los archivos primero** en el panel Examinar, seleccione archivos y haga clic en Generar &gt; Catálogos electrónicos.
+   **Seleccione los archivos primero** En el panel Examinar, seleccione los archivos y, a continuación, haga clic en Generar > Catálogos electrónicos.
 
-   **Comience desde la pantalla Catálogo electrónico** haga clic en Generar &gt; Catálogos electrónicos. Seleccione una carpeta en la biblioteca de recursos y arrastre los archivos deseados a la ficha Ordenar páginas que se encuentra en la página Catálogo electrónico.
+   **Inicio en la pantalla** Catálogo electrónico Haga clic en Generar > Catálogos electrónicos. Seleccione una carpeta en la biblioteca de recursos y arrastre los archivos deseados a la ficha Ordenar páginas que se encuentra en la página Catálogo electrónico.
 
    ***note**: To view the items in the Asset Library by name instead of thumbnail, select the Name option for Default Asset Library View in Personal Setup. *
 
@@ -46,11 +49,11 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 1. También puede cambiar la presentación de las páginas o distribuciones de páginas individuales seleccionándolas y eligiendo a continuación el botón 1 vertical, 2 verticales o Personalizar. Aparecerá el cuadro de diálogo Cambiar la presentación del catálogo electrónico. Select the Selected Spreads options and click **OK**.
 1. Reordene las páginas según sea necesario con una de estas técnicas:
 
-   **Arrastre** Arrastrando una página o un conjunto de páginas a una nueva ubicación. La barra vertical muestra el lugar al que se ha movido la página.
+   **Arrastrar** Arrastre una página o un conjunto de páginas a una nueva ubicación. La barra vertical muestra el lugar al que se ha movido la página.
 
-   **Botón Mover a** Seleccione una página o un pliego de página, haga clic en el botón Mover a y elija la página del menú que desee que aparezca la página antes.
+   **Botón** Mover aSeleccione una página o un pliego de páginas, haga clic en el botón Mover a y elija la página en el menú que desea que la página aparezca antes.
 
-   **Secuencia #** en Vista de lista, introduzca números de página en los campos N º de secuencia.
+   **Secuencia #** En Vista de Lista, introduzca los números de página en los campos Nº de secuencia.
 
 1. Cuando haya terminado, asegúrese de que esté seleccionada la opción **Publicar después de guardar** (predeterminada), cerca de la esquina inferior derecha de la página.
 1. Haga clic en **Guardar**.
@@ -66,7 +69,7 @@ Según si edita un conjunto publicado o sin publicar, la opción **Publicar desp
 | ¿Ya se ha publicado el conjunto? | ¿Se ha seleccionado la opción “Publicar después de Guardar” antes de guardar la edición? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
 |--- |--- |--- |--- |
 | Sí | Sí | Publicado | Publicado |
-| Sí | No | Publicado | Los miembros existentes del conjunto conservan su estado publicado. Todos los miembros nuevos que agregue durante la edición conservarán su estado publicado o no publicado. |
+| Sí | No | Publicado | Los miembros existentes del conjunto conservan su estado publicado.Los nuevos miembros del conjunto que haya agregado durante la edición conservarán su estado publicado o sin publicar. |
 | No | Sí | Publicado | Publicado |
 | No | No | Sin publicar | Los miembros existentes del conjunto y cualquier nuevo miembro que añada al conjunto durante la edición conservarán su estado publicado o no publicado. |
 
@@ -88,11 +91,11 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 **Para eliminar un catálogo electrónico**
 
 1. En la vista de cuadrícula, la vista de lista o la vista de detalles, seleccione uno o varios catálogos electrónicos.
-1. En la barra de navegación global, haga clic en **Archivo** &gt; **Eliminar** &gt; **Eliminar**.
+1. En la barra de navegación global, haga clic en **Archivo** > **Eliminar** > **Eliminar**.
 
 ## Personalización de la tabla de contenido (TOC) {#customizing-the-table-of-contents-toc}
 
-Dynamic Media Classic proporciona números de página predeterminados en el catálogo electrónico en la ficha Ordenar páginas de la pantalla Catálogo electrónico. Si desea personalizar el nombre de las páginas, puede cambiar las etiquetas de las páginas que forman la tabla de contenido (TOC). Se recomienda cambiar el nombre de la portada y la contraportada. Por ejemplo, la portada anverso puede leer «Portada» en lugar de «Página 0-1. »»
+Dynamic Media Classic proporciona números de página predeterminados en el catálogo electrónico en la ficha Ordenar páginas de la pantalla Catálogo electrónico. Si desea personalizar el nombre de las páginas, puede cambiar las etiquetas de las páginas que forman la tabla de contenido (TOC). Se recomienda cambiar el nombre de la portada y la contraportada. Por ejemplo: la portada principal puede ser &quot;Portada&quot; en lugar de &quot;Página 0-1&quot;.
 
 Puede crear una tabla de contenido (TOC) personalizada para el catálogo electrónico manualmente o importando los nombres de las páginas de un archivo CSV (solo Mac) o XML.
 
@@ -108,19 +111,19 @@ Para introducir manualmente nombres de página uno por uno, vaya a la ficha Orde
 
 Se recomienda la importación de nombres de página si se trabaja con un catálogo electrónico de muchas páginas. También puede importar los nombres de un archivo delimitado por tabuladores o XML.
 
-La etiqueta de tabla de contenido se almacena en el campo Datos de usuario de una imagen; formatear estos datos como una lista de `name=<value>`` pairs separated by two question marks “??” `. Por ejemplo, para definir una etiqueta para un campo de tabla de contenido denominado tocen «, establezca los datos de usuario de la imagen en:
+La etiqueta TDC se almacena en el campo Datos de usuario de una imagen; formatear estos datos como una lista de `name=<value>`` pairs separated by two question marks “??” `. Por ejemplo, para establecer una etiqueta para un campo de TDC denominado tocEN &quot;, establezca los datos de usuario de la imagen en:
 
-tocEN=&lt;EN_page_label&gt;
+tocEN=&lt;EN_page_label>
 
 Para establecer etiquetas independientes para campos de tabla de contenido con los nombres tocEN y tocFR:
 
-tocEN=&lt;EN_page_label&gt;??tocFR=&lt;FR_page_label&gt;
+tocEN=&lt;EN_page_label>??tocFR=&lt;FR_page_label>
 
 Para importar el campo Datos de usuario en un archivo delimitado por tabuladores, incluya el campo userdata:
 
 | IPSID | Userdata |
 |--- |--- |
-| `<image_IPS_ID>` | tocEN=&lt;EN_page_label&gt;??tocFR=&lt;FR_page_label&gt; |
+| `<image_IPS_ID>` | tocEN=&lt;EN_page_label>??tocFR=&lt;FR_page_label> |
 
 Para importar el campo Datos de usuario en un archivo XML, incluya el atributo `vc_userdata`:
 
