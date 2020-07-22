@@ -5,25 +5,28 @@ description: nulo
 seo-description: Obtenga información sobre cómo configurar los ajustes preestablecidos de visor de zoom.
 uuid: 202d80cb-8282-45d4-89e8-942c8677aa93
 contentOwner: admin
-content-type: referencia
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 5023a933-e229-4d3c-8e91-3ac5e9f4970b
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '615'
+ht-degree: 69%
 
 ---
 
 
 # Configuración de ajustes preestablecidos de visor de zoom{#setting-up-zoom-viewer-presets}
 
-Los ajustes preestablecidos de visor de zoom determinan el estilo, el comportamiento y el aspecto de los visores de zoom. Dynamic Media Classic ofrece muchas opciones para personalizar y aplicar aspectos a los visores. Dynamic Media Classic incluye ajustes preestablecidos de visor de zoom personalizados, flotante y básico predeterminados. Si es administrador, puede crear nuevos ajustes preestablecidos de visor de zoom para su empresa o editar un ajuste preestablecido de visor de zoom predeterminado y guardarlo con un nombre nuevo.
+Los ajustes preestablecidos de visor de zoom determinan el estilo, el comportamiento y el aspecto de los visores de zoom. Dynamic Media Classic oferta muchas opciones para personalizar y aplicar aspectos a los visores. Dynamic Media Classic viene con los ajustes preestablecidos de visor de zoom predeterminados básico (rápido), flotante y personalizado. Si es administrador, puede crear nuevos ajustes preestablecidos de visor de zoom para su empresa o editar un ajuste preestablecido de visor de zoom predeterminado y guardarlo con un nombre nuevo.
 
 Todos los visores de zoom tienen botones para acercar, alejar, desplazar y restablecer la imagen a su estado original tras la aplicación de zoom. El aspecto de estos botones y el de la ventana depende de la selección de ajustes preestablecidos de visor de zoom. Los ajustes preestablecidos de visor de zoom se pueden configurar con diferentes colores, bordes, fuentes y parámetros de imagen. Al configurar un visor de zoom guiado, también puede elegir dónde colocar los destinos de zoom. Los destinos de zoom son miniaturas en las que hacen clic los usuarios para aplicar zoom en áreas que se hayan especificado.
 
 ## Acerca de los ajustes preestablecidos de visor de zoom {#about-zoom-viewer-presets}
 
-Dynamic Media Classic ofrece estos ajustes preestablecidos de visor de zoom:
+Dynamic Media Classic oferta estos ajustes preestablecidos de visor de zoom:
 
 * **Visor de zoom: Básico** Proporciona un zoom básico en la imagen original.
 
@@ -45,12 +48,13 @@ Dynamic Media Classic recomienda estos parámetros para los ajustes preestableci
 
 Siga estos pasos para crear o editar un ajuste preestablecido de visor de zoom:
 
-1. Haga clic en **Ajustes** &gt; **Ajustes preestablecidos de visor**.
+1. Haga clic en **Ajustes** > **Ajustes preestablecidos de visor**.
 1. Realice una de las siguientes acciones:
 
-   * **Creación de un ajuste preestablecido** Haga clic en Agregar. En el cuadro de diálogo Añadir ajuste preestablecido de visor, elija una plataforma, elija un visor de zoom y, a continuación, haga clic en Agregar. Escriba un nombre para el ajuste preestablecido en el cuadro Nombre de ajuste preestablecido.
+   * **Creación de un ajuste preestablecido** Haga clic en Añadir. En el cuadro de diálogo Añadir ajuste preestablecido de visor, elija una plataforma, elija un visor de zoom y, a continuación, haga clic en Añadir. Escriba un nombre para el ajuste preestablecido en el cuadro Nombre de ajuste preestablecido.
 
-   * **Edición de un ajuste preestablecido** Seleccione un ajuste preestablecido de visor de zoom y, a continuación, haga clic en **Editar**.
+   * **Edición de un ajuste preestablecido** Seleccione un ajuste preestablecido de visor de zoom y, a continuación, haga clic en 
+**Editar**.
 
 1. Especifique los ajustes que desee.
 
