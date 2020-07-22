@@ -2,15 +2,18 @@
 title: Inclusión de destinos de zoom y mapas de imagen en conjuntos de imágenes
 seo-title: Inclusión de destinos de zoom y mapas de imagen en conjuntos de imágenes
 description: nulo
-seo-description: Aprenda a incluir destinos de zoom y mapas de imagen en conjuntos de imágenes.
-uuid: 1 f 5 a 00 fe -3 cc 2-4668-a 051-59 e 0 bee 50 b 35
+seo-description: Aprenda a incluir destinatarios de zoom y mapas de imagen en los conjuntos de imágenes.
+uuid: 1f5a00fe-3cc2-4668-a051-59e0bee50b35
 contentOwner: admin
-content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/image_ sets
-discoiquuid: ef 0 c 292 f -3240-4 c 62-8 f 32-25 de 8 e 4922 ad
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
+discoiquuid: ef0c292f-3240-4c62-8f32-25de8e4922ad
 translation-type: tm+mt
-source-git-commit: 0f6c8e6ac69e29aab7a48425aab76c10170d9ddf
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 92%
 
 ---
 
