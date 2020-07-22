@@ -2,15 +2,18 @@
 title: Desplazamiento, cambio de nombre y eliminación de recursos
 seo-title: Desplazamiento, cambio de nombre y eliminación de recursos
 description: nulo
-seo-description: Obtenga información sobre cómo mover, renombrar y eliminar recursos.
-uuid: deff 6521-0 ad 0-4 db 9-b 4 e 0-e 3211 ff 97740
+seo-description: Obtenga información sobre cómo mover, cambiar el nombre y eliminar recursos.
+uuid: deff6521-0ad0-4db9-b4e0-e3211ff97740
 contentOwner: admin
-content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/managing_ assets
-discoiquuid: 1 c 9 e 29 f 0-3083-4 d 22-a 439-2 a 01 faf 59683
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
+discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '573'
+ht-degree: 66%
 
 ---
 
@@ -26,7 +29,7 @@ En el panel Examinar, puede mover recursos a carpetas diferentes.
 1. Seleccione los recursos en el panel Examinar y realice una de las siguientes acciones:
 
    * Busque la carpeta a la que desea mover los recursos en la biblioteca de recursos y arrastre los recursos a esta carpeta.
-   * Elija Archivo &gt; Mover, seleccione una carpeta en la ventana Mover recursos y seleccione Mover.
+   * Elija Archivo > Mover, seleccione una carpeta en la ventana Mover recursos y seleccione Mover.
 
 ## Cambio de nombre de un recurso {#rename-assets}
 
@@ -35,9 +38,9 @@ Para cambiar el nombre de un recurso:
 1. Seleccione el recurso en el panel Examinar y realice una de las siguientes acciones:
 
    * Seleccione el nombre, escriba un nombre nuevo y pulse Intro o haga clic fuera del nombre.
-   * Elija Archivo &gt; Cambiar nombre. Se resaltará el nombre del archivo. Introduzca un nuevo nombre y pulse Intro.
+   * Elija Archivo > Cambiar nombre. Se resaltará el nombre del archivo. Introduzca un nuevo nombre y pulse Intro.
 
-Asegúrese de que el nombre introducido no corresponde al de ningún recurso de Scene7 Publishing System existente.
+Asegúrese de no introducir el nombre de un recurso de Dynamic Media Classic existente.
 
 ## Eliminación de recursos {#delete-assets}
 
@@ -51,28 +54,28 @@ Al eliminar un recurso, todos los derivados de dicho recurso se eliminarán con 
 
 1. Realice una de las siguientes acciones:
 
-   * Para eliminar uno o más recursos, selecciónelos en el panel Examinar y pulse Suprimir o seleccione Archivo &gt; Eliminar.
+   * Para eliminar uno o más recursos, selecciónelos en el panel Examinar y pulse Suprimir o seleccione Archivo > Eliminar.
    * To delete a folder, select the folder in the Asset Library, and click **Remove Folder**.
 
       Al eliminar una carpeta se eliminarán la carpeta, los recursos que contenga y los recursos que haya en las subcarpetas.
 
 >[!NOTE]
 >
->Dynamic Media Classic recomienda sobrescribir los archivos de recursos en lugar de eliminarlos si el motivo para eliminar un archivo de recurso es reemplazarlo por otro con el mismo nombre.
+>Dynamic Media Classic recomienda sobrescribir los archivos de recursos en lugar de eliminarlos si el motivo para eliminarlos es reemplazarlos por otro con el mismo nombre.
 
 ## Eliminación de varios recursos con un archivo de texto {#delete-multiple-assets-with-a-text-file}
 
-Para eliminar varios recursos a la vez en la biblioteca de recursos, puede enumerar los recursos que desea eliminar en un archivo de texto y enviar la lista a Dynamic Media Classic.
+Para eliminar varios recursos a la vez en toda la biblioteca de recursos, puede realizar la lista de los recursos que desee eliminar en un archivo de texto y enviar la lista a Dynamic Media Classic.
 
-Cree una lista con los ID de Scene7 Publishing System y guárdela como un archivo de texto (.txt). Cada ID de Scene7 Publishing System debe estar en una línea diferente (seguido de un salto de línea).
+Cree la lista de Dynamic Media Classic ID y guárdela como archivo de texto (.txt). Cada ID de Dynamic Media Classic debe estar en su propia línea (seguido de un salto de línea).
 
 Después de crear la lista, siga estos pasos para eliminar los recursos:
 
-1. Seleccione Archivo &gt; Lista de recursos para eliminar.
+1. Seleccione Archivo > Lista de recursos para eliminar.
 1. En el cuadro de diálogo Lista de recursos para eliminar, busque el archivo de texto (o escriba la ruta) con la lista de recursos que desea eliminar.
 1. Haga clic en el botón Eliminar.
 
-Al eliminar recursos con un archivo de texto, si algún ID de Scene 7 Publishing System no se encuentra en la lista, aparece un mensaje que le permite saber que Dynamic Media Classic es «No se pueden validar estas entradas en la lista: " junto con la lista de entradas. Sin embargo, Dynamic Media Classic no generará un error en la pantalla Trabajo.
+Al eliminar recursos con un archivo de texto, si no hay ningún ID de Dynamic Media Classic en la lista, se muestra un mensaje que le permite saber que Dynamic Media Classic es &quot;No se pueden validar estas entradas en la lista:&quot; junto con la lista de entradas. Sin embargo, Dynamic Media Classic no generará un error en la pantalla Trabajo.
 
 >[!MORELIKETHIS]
 >
