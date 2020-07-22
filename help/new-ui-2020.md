@@ -6,9 +6,9 @@ contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: d3870442babfbcc14734b4e31f9989f5e5837049
+source-git-commit: a3cd7494663337d55fa9b26b6ebe550791d32c7c
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1128'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Después de descargar, instalar e iniciar la aplicación de escritorio, se le mo
 
 >[!IMPORTANT]
 >
->Solo se puede instalar y activar una instancia de la aplicación de escritorio a la vez.
+>Solo se puede instalar *y activar una instancia de la aplicación de escritorio a la vez en un equipo determinado* . Sin embargo, no hay restricciones en cuanto al número de instalaciones que puede tener entre equipos.
 
 ### **_¿Qué sucede si utilizo las API de Dynamic Media Classic para acceder al producto y no inicio sesión a través de la interfaz de usuario web?_**
 
