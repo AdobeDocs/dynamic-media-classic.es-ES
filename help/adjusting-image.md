@@ -2,22 +2,25 @@
 title: Ajuste de imágenes
 seo-title: Ajuste de imágenes
 description: nulo
-seo-description: Cómo ajustar una imagen
-uuid: c 052 acd 3-e 8 c 1-4134-ad 21-b 9 c 41578097 f
+seo-description: Aprenda a ajustar una imagen
+uuid: c052acd3-e8c1-4134-ad21-b9c41578097f
 contentOwner: admin
-content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/master_ files
-discoiquuid: 47 a 23980-2886-4 da 3-ab 2 d -6 cd 50 e 00 d 188
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
+discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '554'
+ht-degree: 95%
 
 ---
 
 
 # Ajuste de imágenes{#adjusting-an-image}
 
-Dynamic Media Classic ofrece varios comandos para ajustar el aspecto de una imagen. Puede voltear, rotar, desenfocar, colorear o alterar el equilibrio de color de una imagen. Al experimentar con estos comandos, puede ver sus efectos en la imagen con que trabaje.
+Dynamic Media Classic oferta varios comandos para ajustar el aspecto de una imagen. Puede voltear, rotar, desenfocar, colorear o alterar el equilibrio de color de una imagen. Al experimentar con estos comandos, puede ver sus efectos en la imagen con que trabaje.
 
 Consulte también [Creación de un alias para una imagen](adjusting-image.md#creating_an_alias_for_an_image).
 
@@ -29,7 +32,7 @@ Consulte también [Creación de un alias para una imagen](adjusting-image.md#cre
    * Use el control deslizante de rotación para rotar la imagen. Puede introducir valores en el campo Rotar para rotar una imagen. Los valores positivos la rotan hacia la derecha; los negativos, hacia la izquierda.
    * Use el control deslizante Desenfocar o su cuadro correspondiente para desenfocar una imagen. Cuanto más alto sea el valor, más desenfocada quedará la imagen.
    * Use las opciones Contraste, Brillo, Saturación, Tono y Equilibrio de color para ajustar el color y el brillo. Estos efectos son acumulativos. Por ejemplo, los cambios en el valor Magenta/Verde se agregan a los realizados en el valor Tono.
-   * Use las opciones de Colorear para colorear una imagen a la vez que conserva las sombras y los resaltes. Los cambios en la opción Colorear también son acumulativos. Elija el menú Brillo y seleccione Sin compensación para desactivar la compensación automática de brillo. Establezca el valor de contraste en 0 para conservar el rango de contraste de la imagen original, o especifique un rango de contraste con un valor superior a 0. Un valor de 100 maximiza el contraste. Los valores típicos están en el intervalo de 30 a 70.
+   * Use las opciones de Colorear para colorear una imagen a la vez que conserva las sombras y los resaltes. Los cambios en la opción Colorear también son acumulativos. Elija el menú Brillo y seleccione Sin compensación para desactivar la compensación automática de brillo. Establezca el valor de contraste en 0 para conservar el rango de contraste de la imagen original, o especifique un rango de contraste con un valor superior a 0. Un valor de 100 maximiza el contraste. Los valores típicos están en el rango 30-70.
 
 1. Cuando termine de ajustar la imagen, realice una de las acciones siguientes:
 
