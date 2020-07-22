@@ -1,16 +1,19 @@
 ---
-title: Vista previa de recursos de imagen con diferentes visores zoom
-seo-title: Vista previa de recursos de imagen con diferentes visores zoom
+title: Vista previa de recursos de imagen con diferentes visores de zoom
+seo-title: Vista previa de recursos de imagen con diferentes visores de zoom
 description: nulo
-seo-description: Obtenga información sobre cómo previsualizar recursos de imagen con diferentes visores zoom.
-uuid: 244 c 0 faa -2 a 33-416 f -8987-bdc 0 c 85 f 5 c 2 e
+seo-description: Aprenda a previsualización de recursos de imagen con diferentes visores de zoom.
+uuid: 244c0faa-2a33-416f-8987-bdc0c85f5c2e
 contentOwner: admin
-content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categorías/zoom
-discoiquuid: b 072 d 3 b 7-0 d 30-4903-9 c 87-5 fbbcc 89 bd 51
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
+discoiquuid: b072d3b7-0d30-4903-9c87-5fbbcc89bd51
 translation-type: tm+mt
-source-git-commit: 0f6c8e6ac69e29aab7a48425aab76c10170d9ddf
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '255'
+ht-degree: 87%
 
 ---
 
@@ -29,9 +32,9 @@ Consulte [Vista previa de recursos](previewing-asset.md#previewing_an_asset).
 1. En el panel Biblioteca de recursos del lado izquierdo, navegue a las carpetas de recursos que contengan las imágenes cuya vista previa desee obtener con un visor de zoom.
 1. Realice una de las siguientes acciones:
 
-   * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en Vista de cuadrícula. En la ventana Recurso, situada debajo de la imagen en miniatura, haga clic en Vista previa &gt; Lista del visor.
-   * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en Vista de lista. En la ventana Recurso, seleccione un recurso y, a continuación, a la derecha de la imagen en miniatura, haga clic en Vista previa &gt; Lista del visor.
-   * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en Vista de detalles. En la misma barra de herramientas, haga clic en Vista previa &gt; Lista del visor.
+   * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en Vista de cuadrícula. En la ventana Recurso, situada debajo de la imagen en miniatura, haga clic en Vista previa > Lista del visor.
+   * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en Vista de lista. En la ventana Recurso, seleccione un recurso y, a continuación, a la derecha de la imagen en miniatura, haga clic en Vista previa > Lista del visor.
+   * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en Vista de detalles. En la misma barra de herramientas, haga clic en Vista previa > Lista del visor.
 
 1. En la tabla de la ventana Lista del visor, haga clic en un vínculo de visor para obtener una vista previa del recurso en el visor seleccionado.
 1. Cierre el visor mostrado para volver a la pantalla Lista del visor.
