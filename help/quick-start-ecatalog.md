@@ -1,16 +1,19 @@
 ---
-title: '"Inicio rápido: catálogos electrónicos"'
-seo-title: '"Inicio rápido: catálogos electrónicos"'
+title: '"Inicio rápido: Catálogos electrónicos"'
+seo-title: '"Inicio rápido: Catálogos electrónicos"'
 description: nulo
-seo-description: Introducción y inicio rápido a los catálogos electrónicos para ayudarle en el uso inicial de las técnicas de catálogos electrónicos.
+seo-description: Introducción y Inicio rápido a los catálogos electrónicos para ayudarle en el uso inicial de las técnicas de catálogos electrónicos.
 uuid: 1ec41927-3df6-4845-8d9d-bb92cf6dca08
 contentOwner: admin
-content-type: referencia
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1450'
+ht-degree: 63%
 
 ---
 
@@ -21,7 +24,7 @@ Un catálogo electrónico es una versión web digital de material impreso: por e
 
 * Busque en el catálogo una palabra clave o palabras clave. Los resultados de la búsqueda se muestran como una lista de miniaturas en un panel de búsqueda a la izquierda del catálogo. Cada miniatura en la que se puede hacer clic representa un pliego de catálogo donde se encontró el término de búsqueda resaltado.
 
-* Compartir el catálogo a través de los medios sociales; descargue el catálogo para verlo sin conexión; active Favoritos para marcar los elementos a los que desee volver rápidamente o imprimir el catálogo.
+* Compartir el catálogo a través de los medios sociales; descargar el catálogo para vista sin conexión; active Favoritos para marcar los elementos a los que desee volver rápidamente o imprimir el catálogo.
 * Navegue por el catálogo utilizando la tabla de contenido o la vista de cuadrícula de página; para avanzar o retroceder, haga clic en el borde medio de una página.
 * Acercar o alejar la página, y desplazarse por ella para examinar sus elementos.
 * Pasar el puntero por encima de una región de la página (denominada mapa de imagen) para ver una ventana emergente con información sobre un producto.
@@ -39,9 +42,9 @@ Al crear el catálogo electrónico, tiene la posibilidad de ordenar como desee p
 
 >[!NOTE]
 >
->Si es un usuario del modo AEM Dynamic Media - Scene7 y desea utilizar catálogos electrónicos, deberá editar el `pdfbrochure` valor en CRXDE Lite. Para ello, en AEM, haga clic en **[!UICONTROL Herramientas &gt; General &gt; CRXDE Lite]**. En el árbol de navegación del panel izquierdo, vaya a `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
+>Si es usuario del modo AEM Dynamic Media - Scene7 y desea utilizar catálogos electrónicos, deberá editar el `pdfbrochure` valor en CRXDE Lite. Para ello, en AEM, haga clic en **[!UICONTROL Herramientas > General > CRXDE Lite]**. En el árbol de navegación del panel izquierdo, vaya a `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
 En el panel inferior derecho, en la ficha **[!UICONTROL Propiedades]** , seleccione la `jobParam` fila. Establezca el valor de `pdfbrochure` de `false` a `true`. Como en `pdfbrochure=true`la esquina superior izquierda de la página de CRXDE Lite, haga clic en **[!UICONTROL Guardar todo]**.
-Ahora podrá crear catálogos electrónicos en SPS.
+Ahora podrá crear catálogos electrónicos en Dynamic Media Classic.
 
 **Inicio rápido**
 
@@ -49,9 +52,9 @@ Este inicio rápido de catálogos electrónicos se ha diseñado para ayudarle en
 
 **1. Carga de archivos PDF**
 
-Los catálogos electrónicos suelen crearse a partir de archivos PDF. Puesto que están diseñados para imprimirse, los archivos PDF suelen contener imágenes en CMYK. Scene7 Publishing System detecta estas imágenes y las convierte por medio de un perfil de color CMYK estándar. Sin embargo, quizás debe cargar y usar un perfil de color personalizado.
+Los catálogos electrónicos suelen crearse a partir de archivos PDF. Puesto que están diseñados para imprimirse, los archivos PDF suelen contener imágenes en CMYK. Dynamic Media Classic detecta estas imágenes y las convierte mediante un perfil de color CMYK estándar. Sin embargo, quizás debe cargar y usar un perfil de color personalizado.
 
-Haga clic en Cargar en la barra de navegación global para empezar a cargar archivos PDF o imágenes para el catálogo electrónico. Puede cargar archivos desde el escritorio o por medio de FTP; se recomienda usar FTP si va a cargar muchos archivos o archivos cuyo tamaño es superior a 100 MB.
+Haga clic en Cargar en la barra de navegación global para cargar inicios de archivos PDF o imágenes para el catálogo electrónico. Puede cargar archivos desde el escritorio o por medio de FTP; se recomienda usar FTP si va a cargar muchos archivos o archivos cuyo tamaño es superior a 100 MB.
 
 En la pantalla de carga, Opciones de PDF le ofrece las opciones necesarias para cargar los archivos PDF con la resolución adecuada y el espacio de color correcto. Se recomienda utilizar una resolución de 150 píxeles por pulgada. Puede seleccionar la opción Generar catálogo electrónico automáticamente y crear un catálogo electrónico al cargar un archivo PDF. 
 
@@ -65,7 +68,7 @@ En la ficha Ordenar páginas, seleccione uno de los botones de presentación (1 
 
 Para agregar páginas, seleccione una carpeta en la biblioteca de recursos y arrastre los archivos PDF o de imagen a la pantalla Ordenar páginas. Si no desea utilizar la numeración de páginas predeterminada, puede proporcionar nombres de página personalizados o importar varios nombres de página.
 
-Click **[!UICONTROL Save]**, enter a name for your eCatalog, choose an SPS folder for storing it, and click **[!UICONTROL Save]**. Each time you change the page order or edit your eCatalog, save your changes by clicking **[!UICONTROL Save]**.
+Haga clic en **[!UICONTROL Guardar]**, escriba un nombre para el catálogo electrónico, elija una carpeta de Dynamic Media Classic para guardarlo y haga clic en **[!UICONTROL Guardar]**. Each time you change the page order or edit your eCatalog, save your changes by clicking **[!UICONTROL Save]**.
 
 Consulte [Creación de un catálogo electrónico](creating-ecatalog.md).
 
@@ -87,9 +90,9 @@ Consulte [Gestión del contenido del panel de información](info-panel-content.m
 
 **4. Configuración de ajustes preestablecidos del visor de catálogos electrónicos**
 
-Los usuarios finales ven el catálogo electrónico en el visor de catálogos electrónicos. Si es un administrador, puede configurar el visor de catálogos electrónicos. Puede cambiar el color del contorno y seleccionar una nueva “apariencia” para personalizar el catálogo electrónico. Dynamic Media Classic incluye varios ajustes preestablecidos de visor de catálogos electrónicos "recomendados". Puede elegir uno de estos ajustes preestablecidos para mostrar los catálogos electrónicos. También puede crear un ajuste preestablecido de visor de catálogos electrónicos propio si es administrador.
+Los usuarios finales ven el catálogo electrónico en el visor de catálogos electrónicos. Si es un administrador, puede configurar el visor de catálogos electrónicos. Puede cambiar el color del contorno y seleccionar una nueva “apariencia” para personalizar el catálogo electrónico. Dynamic Media Classic incluye varios ajustes preestablecidos de visor de catálogos electrónicos &quot;recomendados&quot;. Puede elegir uno de estos ajustes preestablecidos para mostrar los catálogos electrónicos. También puede crear un ajuste preestablecido de visor de catálogos electrónicos propio si es administrador.
 
-Para crear un ajuste preestablecido de visor de catálogos electrónicos, en la barra de navegación global, haga clic en **[!UICONTROL Ajustes]** y seleccione Ajustes preestablecidos **[!UICONTROL de visor]**. A continuación, haga clic en **[!UICONTROL Agregar]**, elija una plataforma y, a continuación, haga clic en **[!UICONTROL Catálogo electrónico &gt; Visor]**.
+Para crear un ajuste preestablecido de visor de catálogos electrónicos, en la barra de navegación global, haga clic en **[!UICONTROL Ajustes]** y elija Ajustes preestablecidos **[!UICONTROL de visor]**. Then click **[!UICONTROL Add]**, choose a platform, then click **[!UICONTROL eCatalog > Viewer]**.
 
 Consulte [Configuración de ajustes preestablecidos del visor de catálogos electrónicos](setting-ecatalog-viewer-presets.md#setting-up-ecatalog-viewer-presets).
 
@@ -105,7 +108,7 @@ Consulte [Vista previa de catálogos electrónicos en el visor de catálogos ele
 
 **6. Publicación de catálogos electrónicos y archivos PDF asociados**
 
-Al publicar el catálogo electrónico y el PDF asociado, éste se coloca en los servidores de imágenes de Dynamic Media para que se pueda entregar en el sitio web y la aplicación. Como parte del proceso de publicación, Scene7 Publishing System activa la cadena URL para el catálogo electrónico. Utilice esta URL para llamar al catálogo electrónico desde los servidores de imágenes de Dynamic Media al sitio web o la aplicación.
+Al publicar el catálogo electrónico y el PDF asociado, éste se coloca en los servidores de imágenes de Dynamic Media para que se pueda entregar en el sitio web y la aplicación. Como parte del proceso de publicación, Dynamic Media Classic activa la cadena URL del catálogo electrónico. Utilice esta URL para llamar al catálogo electrónico desde los servidores de imágenes de Dynamic Media a su sitio web o aplicación.
 
 Después de marcar el catálogo electrónico y el PDF para publicación en el panel Examinar, seleccione el botón Publicar en la barra de navegación global para iniciar una publicación. On the Publish screen, click **[!UICONTROL Start Publish]**.
 
