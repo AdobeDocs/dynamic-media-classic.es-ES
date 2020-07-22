@@ -2,15 +2,18 @@
 title: Vista previa de catálogos electrónicos en el visor de catálogos electrónicos
 seo-title: Vista previa de catálogos electrónicos en el visor de catálogos electrónicos
 description: nulo
-seo-description: Obtenga información sobre cómo previsualizar catálogos electrónicos en el visor de catálogos electrónicos.
-uuid: fdaf 2129-e 558-4 f 27-b 30 f -564126 b 6 b 3 f 2
+seo-description: Obtenga información sobre cómo previsualización de catálogos electrónicos en el visor de catálogos electrónicos.
+uuid: fdaf2129-e558-4f27-b30f-564126b6b3f2
 contentOwner: admin
-content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categorías/ecatalogs
-discoiquuid: 92022 dce -6534-4 d 93-befe -9 dd 2818 c 7 b 41
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
+discoiquuid: 92022dce-6534-4d93-befe-9dd2818c7b41
 translation-type: tm+mt
-source-git-commit: 0f6c8e6ac69e29aab7a48425aab76c10170d9ddf
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '261'
+ht-degree: 96%
 
 ---
 
@@ -29,9 +32,9 @@ Consulte [Vista previa de recursos](previewing-asset.md#previewing_an_asset).
 1. En el panel Biblioteca de recursos del lado izquierdo, navegue a las carpetas de recursos que contengan los vídeos cuya vista previa desee obtener con el visor de catálogos electrónicos.
 1. Realice una de las siguientes acciones:
 
-   * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en Vista de cuadrícula. En la ventana Recurso, situada debajo de la imagen en miniatura, haga clic en Vista previa &gt; Lista del visor.
-   * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en Vista de lista. En la ventana Recurso, seleccione un recurso y, a continuación, a la derecha de la imagen en miniatura, haga clic en Vista previa &gt; Lista del visor.
-   * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en Vista de detalles. En la misma barra de herramientas, haga clic en Vista previa &gt; Lista del visor.
+   * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en Vista de cuadrícula. En la ventana Recurso, situada debajo de la imagen en miniatura, haga clic en Vista previa > Lista del visor.
+   * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en Vista de lista. En la ventana Recurso, seleccione un recurso y, a continuación, a la derecha de la imagen en miniatura, haga clic en Vista previa > Lista del visor.
+   * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en Vista de detalles. En la misma barra de herramientas, haga clic en Vista previa > Lista del visor.
 
 1. En la tabla de la ventana Lista del visor, haga clic en un vínculo de visor para obtener una vista previa del recurso en el visor seleccionado.
 1. Cierre el visor mostrado para volver a la pantalla Lista del visor.
