@@ -6,14 +6,14 @@ seo-description: Todos los usuarios pueden cambiar la configuración en la panta
 uuid: 29cb825a-f158-4a1e-9d5f-7636ee411b6e
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 translation-type: tm+mt
-source-git-commit: df0c2897b9fceddde648be53b23e25b13388d6b9
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 83%
+source-wordcount: '1194'
+ht-degree: 78%
 
 ---
 
@@ -24,7 +24,7 @@ Todos los usuarios pueden cambiar la configuración de la página Ajustes person
 
 >[!NOTE]
 >
->En la pantalla Ajustes personales se muestra su función de usuario dentro de Scene7 Publishing System: administrador de empresa, administrador o usuario.
+>La pantalla Ajustes personales lista la función de usuario que tiene en Dynamic Media Classic: Administrador de Compañías, Administrador o Usuario.
 
 La configuración de Ajustes personales determina el comportamiento predeterminado del panel Examinar, la manera en que se recibe correo electrónico y la configuración de la contraseña. No olvide hacer clic en Guardar después de cambiar la configuración.
 
@@ -34,11 +34,11 @@ Identifica el nombre de la cuenta, el nombre, el nombre de usuario (dirección d
 
 ### Versión de escritorio
 
-Haga clic en Instalar ahora para instalar la versión de escritorio de Scene7 Publishing System en su unidad de disco duro local. También puede hacer clic en Volver a instalar ahora para instalar la versión de escritorio de nuevo.
+Haga clic en Instalar ahora para instalar la versión de escritorio de Dynamic Media Classic en el disco duro local. También puede hacer clic en Volver a instalar ahora para instalar la versión de escritorio de nuevo.
 
 ## Para instalar el plugin en la unidad de disco duro local
 
-1. En la página Ajustes personales de Scene7 Publishing System, debajo del plugin de Illustrator para impresión virtual, haga clic en **Descargar ahora** para descargar el archivo **Plugin de Illustrator para impresión virtual**.
+1. On the Personal Setup page in Dynamic Media Classic, under Illustrator Plug-in for Web-to-Print, click **Download Now** to download the **Illustrator Plug-in for Web-to-Print.zip** file.
 1. Descomprima el archivo ZIP en una carpeta temporal.
 
    Se incluye un archivo Léame en la raíz del archivo descomprimido que le proporcionará información adicional sobre el plugin.
@@ -83,8 +83,6 @@ El plugin está ahora disponible para utilizarlo en Adobe Illustrator.
    * Muestra una capa de tablero de ajedrez detrás de las imágenes, de modo que resulta más fácil distinguir las áreas transparentes de imágenes con un canal alfa.
 * **Mostrar tamaño del archivo**
    * Muestra el tamaño de archivo del recurso mientras explora.
-* **Confirmar al salir de SPS**
-   * Muestra una ventana de confirmación antes de salir de Scene7 Publishing System.
 * **Incluir UDF en la búsqueda**
    * Se anula la selección de forma predeterminada para mejorar el rendimiento del sistema para la mayoría de las búsquedas de metadatos.
 
