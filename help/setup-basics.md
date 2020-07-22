@@ -5,19 +5,22 @@ description: nulo
 seo-description: Aprenda a utilizar la pantalla Ajustes para introducir su configuración personal. Si es un administrador, configure los ajustes de su empresa.
 uuid: 38f487d7-33f2-4a9e-a32e-bb08f3dd3284
 contentOwner: admin
-content-type: referencia
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '196'
+ht-degree: 66%
 
 ---
 
 
 # Nociones básicas de ajuste{#setup-basics}
 
-Utilice la pantalla de configuración de Scene7 Publishing System para acceder a sus ajustes personales. Si es un administrador, configure los ajustes de su empresa. Para abrir una pantalla de ajustes, haga clic en el botón Ajustes en la barra de navegación global.
+Utilice la pantalla de configuración de Dynamic Media Classic para introducir su configuración personal. Si es un administrador, configure los ajustes de su empresa. Para abrir una pantalla de ajustes, haga clic en el botón Ajustes en la barra de navegación global.
 
 Los ajustes de configuración disponibles en esta pantalla dependen de si el estado es usuario o administrador:
 
