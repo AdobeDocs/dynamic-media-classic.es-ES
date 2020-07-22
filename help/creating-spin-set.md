@@ -5,12 +5,15 @@ description: nulo
 seo-description: Obtenga información sobre cómo crear un conjunto de giros.
 uuid: 697bd78f-5e39-46bf-aa6d-ad8ab99fe40e
 contentOwner: admin
-content-type: referencia
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '906'
+ht-degree: 74%
 
 ---
 
@@ -21,11 +24,11 @@ Si desea crear un conjunto de giros eficaz, asegúrese de tomar las imágenes co
 
 >[!NOTE]
 >
->Las versiones anteriores de Dynamic Media Classic no ofrecían conjuntos de giros bidimensionales. Si ha creado un conjunto de giros en una versión anterior de Dynamic Media Classic, no podrá guardar el conjunto de giros unidimensional sin guardarlo primero con otro nombre. Haga clic en Guardar como en la pantalla Conjunto de giros e introduzca un nuevo nombre para poder editarlo en Dynamic Media Classic.
+>Las versiones anteriores de Dynamic Media Classic no hacían ofertas de conjuntos de giros bidimensionales. Si ha creado un conjunto de giros en una versión anterior de Dynamic Media Classic, no podrá guardar el conjunto de giros unidimensional sin guardarlo primero con otro nombre. Haga clic en Guardar como en la pantalla Conjunto de giros e introduzca un nuevo nombre para poder editarlo en Dynamic Media Classic.
 
 ## Instrucciones para obtener imágenes para conjuntos de giros {#guidelines-for-shooting-spin-set-images}
 
-Por normal general, cuantas más imágenes tenga un conjunto de giros, mejor será el efecto de giro. Sin embargo, si se incluyen muchas imágenes en el conjunto también se aumentará el tiempo que tardan en cargarse las imágenes. Dynamic Media Classic recomienda estas instrucciones para la toma de imágenes para su uso en conjuntos de giros:
+Por normal general, cuantas más imágenes tenga un conjunto de giros, mejor será el efecto de giro. Sin embargo, si se incluyen muchas imágenes en el conjunto también se aumentará el tiempo que tardan en cargarse las imágenes. Dynamic Media Classic recomienda estas pautas para la toma de imágenes para su uso en conjuntos de giros:
 
 * Como mínimo, utilice entre 8 y 12 imágenes en un conjunto de giros unidimensional y entre 16 y 24 imágenes en un conjunto de giros bidimensional.
 * Utilice un formato sin pérdida; se recomiendan TIFF y PNG.
@@ -35,7 +38,7 @@ Por normal general, cuantas más imágenes tenga un conjunto de giros, mejor ser
 
 ## Creación de un conjunto de giros {#create}
 
-Tenga en cuenta que es importante el orden en que se ha creado o editado el conjunto de giros en Scene7 Publishing System. Dependiendo del orden de los recursos al arrastrar y colocar imágenes en la cuadrícula de la pantalla Conjunto de giros, el conjunto girará en una dirección determinada. Por consiguiente, el orden en que se ve en el generador es la forma en que el recurso gira cuando un usuario mueve el puntero del ratón o mueve el dedo, de izquierda a derecha.
+Tenga en cuenta que es importante el orden en que se crea o se crea el conjunto de giros en Dynamic Media Classic. Dependiendo del orden de los recursos al arrastrar y colocar imágenes en la cuadrícula de la pantalla Conjunto de giros, el conjunto girará en una dirección determinada. Por consiguiente, el orden en que se ve en el generador es la forma en que el recurso gira cuando un usuario mueve el puntero del ratón o mueve el dedo, de izquierda a derecha.
 
 Al crear un conjunto, la opción **Publicar después de guardar** afecta al conjunto y a los miembros del conjunto de las siguientes formas:
 
@@ -71,7 +74,7 @@ Según si edita un conjunto publicado o sin publicar, la opción **Publicar desp
 | ¿Ya se ha publicado el conjunto? | ¿Se ha seleccionado la opción “Publicar después de Guardar” antes de guardar la edición? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
 |--- |--- |--- |--- |
 | Sí | Sí | Publicado | Publicado |
-| Sí | No | Publicado | Los miembros existentes del conjunto conservan su estado publicado.Los nuevos miembros del conjunto que haya agregado durante la edición conservarán su estado publicado o no. |
+| Sí | No | Publicado | Los miembros existentes del conjunto conservan su estado publicado.Los nuevos miembros del conjunto que haya agregado durante la edición conservarán su estado publicado o sin publicar. |
 | No | Sí | Publicado | Publicado |
 | No | No | Sin publicar | Los miembros existentes del conjunto y cualquier nuevo miembro que añada al conjunto durante la edición conservarán su estado publicado o no publicado. |
 
@@ -82,13 +85,15 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 1. Haga clic en el botón de rollover **Editar** del conjunto de giros.
 1. Realice una de las siguientes acciones:
 
-   * **Eliminación de imágenes** Seleccione la imagen y, a continuación, haga clic en **Eliminar**.
+   * **Eliminación de imágenes** Seleccione la imagen y, a continuación, haga clic en 
+**Eliminar**.
 
-   * **Adición de imágenes** Arrastre la imagen a una celda.
+   * **Añadir imágenes** Arrastre la imagen a una celda.
 
-   * **Reordenación de filas (conjuntos de giros bidimensionales)** Haga clic en un cuadro de selección de filas (a la izquierda de la fila) y, a continuación, haga clic en **Bajar** fila o **Subir fila**.
+   * **Reordenación de filas (conjuntos de giros bidimensionales)** Haga clic en un cuadro de selección de filas (a la izquierda de la fila) y, a continuación, haga clic en 
+**Bajar** fila o **Subir fila**.
 
-   * **Adición de filas y celdas** Introduzca un número en el cuadro Filas y el cuadro Celdas para determinar el número de filas y el número de celdas en cada fila.
+   * **Añadir filas y celdas** Introduzca un número en el cuadro Filas y el cuadro Celdas para determinar el número de filas y el número de celdas en cada fila.
 
 1. Cuando haya terminado con su edición, asegúrese de que esté seleccionada la opción **Publicar después de guardar** (predeterminada), cerca de la esquina inferior derecha de la página.
 1. Haga clic en **Guardar**, seleccione una carpeta de almacenamiento, especifique un nombre para el conjunto y haga clic en **Guardar**.
@@ -102,5 +107,5 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 **Para eliminar un conjunto de giros**
 
 1. En la vista de cuadrícula, la vista de lista o la vista de detalles, seleccione uno o varios conjuntos de giros.
-1. En la barra de navegación global, haga clic en **Archivo** &gt; **Eliminar** &gt; **Eliminar**.
+1. En la barra de navegación global, haga clic en **Archivo** > **Eliminar** > **Eliminar**.
 
