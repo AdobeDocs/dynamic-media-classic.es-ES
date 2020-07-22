@@ -2,15 +2,18 @@
 title: Publicación de la información de configuración de Adobe Analytics
 seo-title: Publicación de la información de configuración de Adobe Analytics
 description: nulo
-seo-description: Descubra cómo publicar la información de configuración de Adobe Analytics.
-uuid: 39 b 1 c 2 bd -8 eb 8-43 a 8-9482-9623115 c 5374
+seo-description: Obtenga información sobre cómo publicar la información de configuración de Adobe Analytics.
+uuid: 39b1c2bd-8eb8-43a8-9482-9623115c5374
 contentOwner: admin
-content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/adobe_ analytics_ instrumentation_ kit
-discoiquuid: deeb 9 fed-ef 27-4 d 58-af 98-f 381 de 33 c 431
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
+discoiquuid: deeb9fed-ef27-4d58-af98-f381de33c431
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '149'
+ht-degree: 46%
 
 ---
 
@@ -21,7 +24,7 @@ Publique los visores de Dynamic Media Classic para que la información sobre la 
 
 >[!NOTE]
 >
->Cada vez que cambie los ajustes de los informes de Adobe Analytics desde Adobe Analytics, asegúrese de volver a conectarse a Adobe Analytics desde Adobe Scene7 Publishing System, vuelva a guardar su configuración de Adobe Analytics y, finalmente, vuelva a publicar.
+>Siempre que cambie la configuración de los informes de Adobe Analytics en Adobe Analytics, asegúrese de volver a iniciar sesión en Adobe Analytics desde Dynamic Media Classic, vuelva a guardar la configuración de Adobe Analytics y, a continuación, vuelva a publicar.
 
 Consulte [Inicio de sesión en Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 
