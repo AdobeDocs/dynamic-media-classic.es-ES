@@ -6,28 +6,28 @@ seo-description: Obtenga información sobre cómo cargar archivos.
 uuid: b3025f84-4f28-4276-bc9c-f0c0c2a26e12
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 translation-type: tm+mt
-source-git-commit: d5dcc67200b636cafcf1c87b2ecdfb2271b7b9a2
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '3867'
-ht-degree: 51%
+source-wordcount: '3855'
+ht-degree: 43%
 
 ---
 
 
 # Carga de archivos{#uploading-files}
 
-Antes de cargar archivos de recursos en Scene7 Publishing System, asegúrese de que tienen el nombre correcto y que la estructura de carpetas está organizada de la forma que desea. Puede cargar archivos desde un sitio FTP proporcionado por Dynamic Media Classic o directamente desde el equipo o la red. Dynamic Media Classic oferta opciones para optimizar los archivos al cargarlos. Si ha instalado la aplicación de escritorio de Adobe Scene7 Publishing System, puede cargar archivos y carpetas arrastrándolos directamente desde el equipo. (Consulte [Configuración general de la aplicación](application-setup.md#general_settings)).
+Antes de cargar archivos de recursos a Dynamic Media Classic, asegúrese de que el nombre de los archivos de recursos es correcto y de que la estructura de carpetas está configurada y organizada de la forma que desee. Puede cargar archivos desde un sitio FTP proporcionado por Dynamic Media Classic o directamente desde el equipo o la red. Dynamic Media Classic oferta opciones para optimizar los archivos al cargarlos. Si ha instalado la aplicación de escritorio Adobe Dynamic Media Classic, puede cargar archivos y carpetas arrastrándolos directamente desde el escritorio. (Consulte [Configuración general de la aplicación](application-setup.md#general_settings)).
 
 ## Preparación de los recursos y las carpetas para la carga {#preparing-your-assets-and-folders-for-uploading}
 
-Antes de cargar recursos en Scene7 Publishing System, asegúrese de que tienen el tamaño y el formato correcto. También debe observar las reglas de Dynamic Media Classic para asignar nombres a los recursos. La creación de una estructura de carpetas para los archivos facilita la búsqueda y el uso de éstos.
+Antes de cargar recursos a Dynamic Media Classic, asegúrese de que tienen el formato y el tamaño adecuados. También debe observar las reglas de Dynamic Media Classic para asignar nombres a los recursos. La creación de una estructura de carpetas para los archivos facilita la búsqueda y el uso de éstos.
 
 ### Formatos de archivo de recurso admitidos {#supported-asset-file-formats}
 
-Esta tabla muestra los formatos de archivo de recurso que Scene7 Publishing System admite. For information on supported Camera Raw files, see [www.adobe.com/go/learn_s7_cameraraw_en](https://www.adobe.com/go/learn_s7_cameraraw_en).
+Esta tabla lista los formatos de archivo de recursos que admite Dynamic Media Classic. For information on supported Camera Raw files, see [www.adobe.com/go/learn_s7_cameraraw_en](https://www.adobe.com/go/learn_s7_cameraraw_en).
 
 | Formatos de archivo de recurso | Descripción |
 |--- |--- |
@@ -56,7 +56,7 @@ La carga de archivos TAR y ZIP incluye una casilla de verificación para selecci
 
 La siguiente lista describe los subtipos de formatos de archivo de imagen rasterizada que *no son* compatibles con Dynamic Media.
 
-Consulte también [Detección de formatos de archivo no compatibles para Dynamic Media](https://helpx.adobe.com/experience-manager/kb/detect-unsupported-assets-for-dynamic-media.html).
+Consulte también [Detección de formatos de archivo no admitidos para Dynamic Media](https://helpx.adobe.com/experience-manager/kb/detect-unsupported-assets-for-dynamic-media.html).
 
 * Archivos PNG con un tamaño de fragmento IDAT bueno de 100 MB.
 * Archivos PSB.
@@ -67,7 +67,7 @@ Consulte también [Detección de formatos de archivo no compatibles para Dynamic
 
 ### Tipos de recursos {#asset-types}
 
-Para obtener resultados óptimos con la plataforma de Dynamic Media Classic, asegúrese de utilizar los formatos y tamaños de archivo recomendados. Esta tabla muestra los tipos de recursos, algunos con los formatos y tamaños de archivos recomendados para los recursos más comunes.
+Para obtener resultados óptimos con la plataforma Dynamic Media Classic, asegúrese de utilizar los formatos y tamaños de archivo recomendados. Esta tabla muestra los tipos de recursos, algunos con los formatos y tamaños de archivos recomendados para los recursos más comunes.
 
 | Tipo de recurso | Descripción/Recomendaciones |
 |--- |--- |
@@ -90,7 +90,7 @@ Para obtener resultados óptimos con la plataforma de Dynamic Media Classic, ase
 
 >[!NOTE]
 >
->Al cargar archivos de imagen y PDF en SPS, el sistema convierte estos archivos de origen a formato P-TIFF (Pyramid TIFF). Estos P-TIFF son los archivos que se publican posteriormente en los servidores de imágenes de Dynamic Media. Dynamic Media Classic utiliza el formato de archivo Pyramid Tiff, ya que contiene varias relaciones de zoom que permiten un zoom rápido al visualizarse con un visor de zoom Dynamic Media Classic.
+>Al cargar archivos de imagen y archivos PDF a Dynamic Media Classic, el sistema convierte estos archivos de origen en archivos P-TIFF (Pyramid TIFF). Estos P-TIFF son los archivos que se publican posteriormente en los servidores de imágenes de Dynamic Media. Dynamic Media Classic utiliza el formato de archivo Pyramid Tiff porque contiene varias relaciones de zoom que permiten un zoom rápido al visualizarse con un visor de zoom Dynamic Media Classic.
 
 ### Formatos de archivo estático compatibles {#supported-static-file-formats}
 
@@ -113,7 +113,7 @@ Dynamic Media Classic no ofrece la opción de generar una URL de previsualizaci�
 
 ### Requisitos de nombre de archivo {#filename-requirements}
 
-Dado que las extensiones de nombre de archivo se quitan durante el proceso de carga, el sistema no permite que haya archivos con el mismo nombre raíz. En el sistema de Dynamic Media Classic, el nombre de archivo del recurso menos la extensión de nombre de archivo se convierte en el ID del recurso. Por esta razón no puede haber dos recursos con el mismo nombre.
+Dado que las extensiones de nombre de archivo se quitan durante el proceso de carga, el sistema no permite que haya archivos con el mismo nombre raíz. En el sistema Dynamic Media Classic, el nombre de archivo del recurso menos la extensión de nombre de archivo se convierte en el ID del recurso. Por esta razón no puede haber dos recursos con el mismo nombre.
 
 Asegúrese de que todos los usuarios de la empresa entienden las reglas de designación de archivos.
 
@@ -135,12 +135,12 @@ En la mayoría de los casos, un nombre de archivo de recurso puede coincidir con
 
 ### Organización y estructura de carpetas {#folder-organization-and-structure}
 
-Organice y estructure carpetas y subcarpetas en Scene7 Publishing System antes de cargar el contenido en el sistema. Esto aporta dos ventajas:
+Organice y estructure carpetas y subcarpetas para su contenido en Dynamic Media Classic antes de cargar el contenido en el sistema. Esto aporta dos ventajas:
 
-* Al cargar el contenido en SPS por medio de FTP, puede indicar al sistema que reproduzca la estructura de carpetas durante la carga. De esta forma, el contenido en SPS se organiza en las mismas carpetas y subcarpetas que en el ordenador o la red del usuario. Para reproducir la estructura de carpetas en SPS, seleccione la opción Incluir subcarpetas al cargar recursos a través de FTP.
+* Al cargar el contenido a Dynamic Media Classic mediante FTP, puede indicar al sistema que replique la estructura de carpetas durante la carga. De este modo, el contenido se organiza en las mismas carpetas y subcarpetas de Dynamic Media Classic que en el equipo o la red. (Para reproducir la estructura de carpetas en Dynamic Media Classic, seleccione la opción Incluir subcarpetas al cargar recursos mediante FTP).
 * La reorganización de carpetas dentro del sistema después de cargar los archivos resulta más difícil que un punto de partida con una estructura de carpetas ya probada.
 
-A la hora de elegir unas convenciones de nomenclatura y estructura para almacenar contenido en Scene7 Publishing System es preciso tener en cuenta los requisitos de cada empresa. A continuación se citan algunos ejemplos de estructura de carpetas:
+El método de asignación de nombres a las carpetas y la estructura que elija para almacenar el contenido en Dynamic Media Classic dependen de las necesidades de la organización. A continuación se citan algunos ejemplos de estructura de carpetas:
 
 **Las carpetas basadas** en SKU reciben nombres según los números de artículo o SKU. Por ejemplo, se crean carpetas distintas para las series de números 0-, 20-, 30-, etc.
 
@@ -154,21 +154,19 @@ A la hora de elegir unas convenciones de nomenclatura y estructura para almacena
 
 Puede cargar archivos individuales desde el escritorio o cargar carpetas enteras mediante FTP. If you want to upload more than 100 MB of files or upload entire folders and subfolders, select the **VIA FTP** tab.
 
-Si ha instalado la aplicación de escritorio de Scene7 Publishing System, puede arrastrar archivos y carpetas directamente desde el escritorio a la carpeta de carga de destino.
+Dynamic Media Classic le envía un mensaje de correo electrónico para confirmar cuándo comienza y termina el trabajo de carga y para notificar cualquier problema.
 
-Scene7 Publishing System le enviará un mensaje de correo electrónico para confirmar cuándo comienza y termina el trabajo de carga, y para notificar posibles problemas.
-
-Durante un trabajo de carga grande, o inmediatamente después, algunos elementos nuevos pueden mostrar el mensaje &quot;La imagen no está optimizada todavía&quot;. Este mensaje aparece porque los archivos aún no se han procesado completamente y se han agregado a SPS. Puede optimizar estos archivos posteriormente. (Consulte [Optimización de archivos](application-setup.md#optimize_files)).
+Durante un trabajo de carga grande, o inmediatamente después, algunos elementos nuevos pueden mostrar el mensaje &quot;La imagen no está optimizada todavía&quot;. Este mensaje aparece porque los archivos aún no se han procesado y agregado completamente a Dynamic Media Classic. Puede optimizar estos archivos posteriormente. (Consulte [Optimización de archivos](application-setup.md#optimize_files)).
 
 ### Carga de archivos mediante la ficha DESKTOP FROM {#upload-files-using-sps-desktop-application}
 
-La aplicación Scene7 Publishing System Desktop le permite cargar archivos y carpetas arrastrándolos.
+La aplicación Dynamic Media Classic Desktop permite cargar archivos y carpetas arrastrándolos.
 
-1. En la aplicación Scene7 Publishing System Desktop, en la barra de navegación global, haga clic en **Cargar**.
+1. In the Dynamic Media Classic Desktop application, on the Global Navigation bar, click **Upload**.
 1. On the Upload page, click the **FROM DESKTOP** tab.
 1. En la parte izquierda de la página Cargar, en el área **Seleccionar archivos para cargar** , haga clic en **Examinar** para seleccionar los archivos o carpetas que desea cargar y, a continuación, haga clic en **Abrir**.
 1. En la parte derecha de la página Cargar, en el área **Elegir destino** de la carpeta, navegue a la carpeta de destino donde desee agregar los archivos o carpetas cargados.
-1. (Opcional) Cerca de la parte inferior de la página Cargar, en el campo Nombre **del** trabajo, especifique el nuevo nombre del trabajo de carga. O bien, puede utilizar el nombre predeterminado generado por el sistema que proporciona SPS. El trabajo, junto con otros de carga y publicación, se grabará en la página Trabajos, donde puede comprobar el estado de los trabajos. Consulte [Comprobación de archivos de trabajo](checking-job-files.md#checking_job_files).
+1. (Opcional) Cerca de la parte inferior de la página Cargar, en el campo Nombre **del** trabajo, especifique el nuevo nombre del trabajo de carga. O bien, puede utilizar el nombre predeterminado generado por el sistema que proporciona Dynamic Media Classic. El trabajo, junto con otros de carga y publicación, se grabará en la página Trabajos, donde puede comprobar el estado de los trabajos. Consulte [Comprobación de archivos de trabajo](checking-job-files.md#checking_job_files).
 1. (Opcional) Cerca de la parte inferior de la página de carga, seleccione **Publicar tras la carga** si desea publicar automáticamente los recursos que cargue.
 Al publicar archivos, se envían a servidores interactivos. Las URL para estos archivos se pueden utilizar en sitios Web y aplicaciones externas. Tenga en cuenta que esta misma opción también está disponible en el cuadro de diálogo Opciones de trabajo.
 1. (Opcional) Cerca de la parte inferior de la página de carga, seleccione **Sobrescribir en cualquier carpeta, el mismo nombre de recurso base, independientemente de la extensión** , si desea que los archivos que cargue sustituyan los archivos existentes con los mismos nombres. Tenga en cuenta que esta misma opción también está disponible en el cuadro de diálogo Opciones de trabajo.
@@ -179,7 +177,7 @@ The name of this option could be different, depending on the settings in **Appli
 
 1. En el cuadro de diálogo Opciones de trabajo de carga, haga clic en **Guardar**.
 1. En la esquina inferior derecha de la página Cargar, haga clic en **Enviar carga**.
-Para ver el progreso de la carga, haga clic en **Trabajos** en la barra de navegación global. Puede continuar trabajando en Scene7 Publishing System y regresar a la pantalla Trabajos en cualquier momento para consultar un trabajo en curso. Para cancelar un trabajo de carga que se encuentre en curso, seleccione **Cancelar** junto al tiempo de duración.
+Para ver el progreso de la carga, haga clic en **Trabajos** en la barra de navegación global. Puede continuar trabajando en Dynamic Media Classic y volver a la página Trabajos en cualquier momento para revisar un trabajo en curso. Para cancelar un trabajo de carga que se encuentre en curso, seleccione **Cancelar** junto al tiempo de duración.
 
 ### Carga de archivos mediante la ficha VIA FTP {#upload-files-using-via-ftp}
 
@@ -187,8 +185,8 @@ Para ver el progreso de la carga, haga clic en **Trabajos** en la barra de naveg
 1. En Dynamic Media Classic, en la barra de navegación global, haga clic en **Cargar**.
 1. On the Upload page, click the **VIA FTP** tab.
 1. En la parte izquierda de la página Cargar, en el área **Elegir carpeta FTP para la carga** , elija una carpeta FTP desde la que cargar los archivos.
-1. En la parte derecha de la página Cargar, en el área **Elegir destino** de la carpeta de SPS, elija una carpeta de destino en Scene7 Publishing System.
-1. (Opcional) Cerca de la parte inferior de la página Cargar, en el campo Nombre **del** trabajo, especifique el nuevo nombre del trabajo de carga. O bien, puede utilizar el nombre predeterminado generado por el sistema que proporciona SPS. El trabajo, junto con otros de carga y publicación, se grabará en la página Trabajos, donde puede comprobar el estado de los trabajos. Consulte [Comprobación de archivos de trabajo](checking-job-files.md#checking_job_files).
+1. En la parte derecha de la página Cargar, en el área **Elegir destino** de la carpeta de Dynamic Media de Adobe, elija una carpeta de destino en Dynamic Media Classic.
+1. (Opcional) Cerca de la parte inferior de la página Cargar, en el campo Nombre **del** trabajo, especifique el nuevo nombre del trabajo de carga. O bien, puede utilizar el nombre predeterminado generado por el sistema que proporciona Dynamic Media Classic. El trabajo, junto con otros de carga y publicación, se grabará en la página Trabajos, donde puede comprobar el estado de los trabajos. Consulte [Comprobación de archivos de trabajo](checking-job-files.md#checking_job_files).
 1. (Opcional) Cerca de la parte inferior de la página de carga, seleccione **Publicar tras la carga** si desea publicar automáticamente los recursos que cargue.
 Al publicar archivos, se envían a servidores interactivos. Las URL para estos archivos se pueden utilizar en sitios Web y aplicaciones externas. Tenga en cuenta que esta misma opción también está disponible en el cuadro de diálogo Opciones de trabajo.
 1. (Opcional) Cerca de la parte inferior de la página de carga, seleccione **Sobrescribir en cualquier carpeta, el mismo nombre de recurso base, independientemente de la extensión** , si desea que los archivos que cargue sustituyan los archivos existentes con los mismos nombres. Tenga en cuenta que esta misma opción también está disponible en el cuadro de diálogo Opciones de trabajo.
@@ -201,7 +199,7 @@ The name of this option could be different, depending on the settings in **Appli
 1. En el cuadro de diálogo Opciones de trabajo de carga, haga clic en **Guardar**.
 1. En la esquina inferior derecha de la página Cargar, haga clic en **Enviar carga**.
 
-   Para ver el progreso de la carga, en la barra de navegación global, haga clic en **Trabajos**. La página Trabajos muestra el progreso de la carga. Puede continuar trabajando en Scene7 Publishing System y regresar a la pantalla Trabajos en cualquier momento para consultar un trabajo en curso.
+   Para ver el progreso de la carga, en la barra de navegación global, haga clic en **Trabajos**. La página Trabajos muestra el progreso de la carga. Puede continuar trabajando en Dynamic Media Classic y volver a la página Trabajos en cualquier momento para revisar un trabajo en curso.
 
 Para cancelar un trabajo de carga que se encuentre en curso, haga clic en **Cancelar** junto al tiempo de duración.
 
@@ -230,7 +228,7 @@ Al cargar archivos, puede elegir entre las siguientes opciones del cuadro de di�
 Seleccione esta opción si desea extraer automáticamente todos los archivos del archivo ZIP o TAR cargado. Tenga en cuenta que esta misma opción también está disponible en el cuadro de diálogo Opciones de trabajo.
 
    * **Incluir subcarpetas** — Solo está disponible si ha seleccionado la ficha **MEDIANTE FTP** .
-Seleccione esta opción si desea cargar subcarpetas de la carpeta que va a cargar. Los nombres de la carpeta y las subcarpetas que cargue se introducirán automáticamente en SPS.
+Seleccione esta opción si desea cargar subcarpetas de la carpeta que va a cargar. Los nombres de la carpeta y de las subcarpetas que cargue se introducirán automáticamente en Dynamic Media Classic.
 
    * **Procesar archivos** de metadatos — Solo está disponible si ha seleccionado la ficha **VIA FTP** . Seleccione esta opción si desea cargar un archivo delimitado por tabuladores o XML para agregar metadatos a varios recursos. Consulte [Importación de datos (mediante FTP)](viewing-adding-exporting-metadata.md#import-metadata).
 
@@ -253,7 +251,7 @@ Seleccione esta opción si desea cargar subcarpetas de la carpeta que va a carga
 
    * **Conservación** de color predeterminada — Mantiene los colores de la imagen de origen siempre que las imágenes contengan información de espacio de color; no hay conversión de color. Casi todas las imágenes actuales ya tienen incrustado el perfil de color adecuado. Sin embargo, si la imagen de origen CMYK no contiene un perfil de color incrustado, los colores se convierten al espacio de color sRGB (Standard Red Green Blue). SRGB es el espacio de color que se recomienda para mostrar imágenes en páginas web.
 
-   * **Mantener espacio** de color original: Conserva los colores originales sin ninguna conversión de color en el punto de ingestión en Scene7 Publishing System. Para las imágenes sin un perfil de color incrustado, las conversiones de color necesarias para procesar solicitudes de la imagen se realizan con los perfiles de color predeterminados como están configurados en Configuración de publicación. Puede ser que estos perfiles de color no coincidan con el color en los archivos creados con esta opción. Por lo tanto, se recomienda utilizar la opción Conservación de color predeterminada.
+   * **Mantener espacio** de color original: Conserva los colores originales sin ninguna conversión de color en el punto de ingestión en Dynamic Media Classic. Para las imágenes sin un perfil de color incrustado, las conversiones de color necesarias para procesar solicitudes de la imagen se realizan con los perfiles de color predeterminados como están configurados en Configuración de publicación. Puede ser que estos perfiles de color no coincidan con el color en los archivos creados con esta opción. Por lo tanto, se recomienda utilizar la opción Conservación de color predeterminada.
 
    * **Personalizar De > A** — Abre menús para que pueda elegir un espacio de color Convertir de y Convertir a. Esta opción avanzada sustituye cualquier información de color incrustada en el archivo de origen. Solo debe seleccionar esta opción cuando todas las imágenes que envía contienen datos de perfil de color incorrectos o que faltan.
 
