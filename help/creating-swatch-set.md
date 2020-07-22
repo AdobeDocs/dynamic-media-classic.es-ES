@@ -3,14 +3,17 @@ title: Creación de un conjunto de muestras
 seo-title: Creación de un conjunto de muestras
 description: nulo
 seo-description: Aprenda a crear un conjunto de muestras.
-uuid: 250 b 3525-310 d -4481-b 0 bc-f 9057 e 823 e 0 b
+uuid: 250b3525-310d-4481-b0bc-f9057e823e0b
 contentOwner: admin
-content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/swatch_ sets
-discoiquuid: 631 d 2 b 2 d -9 e 69-4 b 96-8392-17 e 00 a 1 a 8 de 0
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
+discoiquuid: 631d2b2d-9e69-4b96-8392-17e00a1a8de0
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '706'
+ht-degree: 84%
 
 ---
 
@@ -24,10 +27,10 @@ Por ejemplo, supongamos que desea ofrecer imágenes de gorras con viseras de dis
 ## Creación de un conjunto de muestras {#create}
 
 Al crear un conjunto, la opción **Publicar después de guardar** afecta al conjunto y a los miembros del conjunto de las siguientes formas:
-|¿Se seleccionó la opción «Publicar después de guardar» antes de guardar? | State del conjunto después de guardar | Estado de los miembros del conjunto después de guardar|
+|¿Se ha seleccionado la opción &quot;Publicar después de guardar&quot; antes de guardar?|Estado del conjunto después de guardar|Estado de los miembros del conjunto después de guardar|
 |— |— |— |
-| Sí | Publicado | Publicado|
-| No | Sin publicar | Establecer los miembros conservan su estado publicado o no. |
+|Sí|Publicado|Publicado|
+|No|No publicado|Los miembros del conjunto conservan su estado publicado o sin publicar.|
 
 Consulte también [Publicación manual de recursos](publishing-files.md#manually_publishing_assets) y [Cancelación manual de la publicación de recursos](publishing-files.md#manually_unpublishing_assets).
 
@@ -35,9 +38,9 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 1. Realice una de las siguientes acciones:
 
-   **Seleccione las imágenes primero** en el panel Examinar, seleccione las imágenes y, a continuación, haga clic en Generar &gt; Conjuntos de muestras.
+   **Seleccione las imágenes primero** En el panel Examinar, seleccione las imágenes y, a continuación, haga clic en Generar > Conjuntos de muestras.
 
-   **Comience en la pantalla Conjunto de muestras** haga clic en Generar &gt; Conjuntos de muestras. Seleccione una carpeta en la biblioteca de recursos y arrastre las imágenes a la sección Vistas de la página Conjunto de muestras.
+   **Inicio en la pantalla** Conjunto de muestras Haga clic en Generar > Conjuntos de muestras. Seleccione una carpeta en la biblioteca de recursos y arrastre las imágenes a la sección Vistas de la página Conjunto de muestras.
 
 1. Arrastre los colores, patrones o acabados de muestra al cuadro de marcador de posición Muestras de la página Conjunto de muestras.
 
@@ -55,7 +58,7 @@ Según si edita un conjunto publicado o sin publicar, la opción **Publicar desp
 | ¿Ya se ha publicado el conjunto? | ¿Se ha seleccionado la opción “Publicar después de Guardar” antes de guardar la edición? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
 |--- |--- |--- |--- |
 | Sí | Sí | Publicado | Publicado |
-| Sí | No | Publicado | Los miembros existentes del conjunto conservan su estado publicado. Todos los miembros nuevos que agregue durante la edición conservarán su estado publicado o no publicado. |
+| Sí | No | Publicado | Los miembros existentes del conjunto conservan su estado publicado.Los nuevos miembros del conjunto que haya agregado durante la edición conservarán su estado publicado o sin publicar. |
 | No | Sí | Publicado | Publicado |
 | No | No | Sin publicar | Los miembros existentes del conjunto y cualquier nuevo miembro que añada al conjunto durante la edición conservarán su estado publicado o no publicado. |
 
@@ -82,5 +85,5 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 **Para eliminar un conjunto de muestras**
 
 1. En la vista de cuadrícula, la vista de lista o la vista de detalles, seleccione uno o varios conjuntos de muestras.
-1. En la barra de navegación global, haga clic en **Archivo** &gt; **Eliminar** &gt; **Eliminar**.
+1. En la barra de navegación global, haga clic en **Archivo** > **Eliminar** > **Eliminar**.
 
