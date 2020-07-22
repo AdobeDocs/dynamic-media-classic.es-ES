@@ -5,11 +5,14 @@ description: nulo
 seo-description: Obtenga información sobre cómo cargar un recurso de imagen o un recurso de vector.
 uuid: d0e4a754-8a49-4b0f-b202-e9003bdb8f20
 contentOwner: admin
-content-type: referencia
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: de21dca9-99fe-4183-b647-debfe112fda4
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1522'
+ht-degree: 86%
 
 ---
 
@@ -22,7 +25,7 @@ Para poder cargar un recurso de imagen, primero debe solicitar una clave secreta
 
 Para solicitar una *clave secreta compartida*, envíe al equipo de asistencia técnica de Scene7 un mensaje de correo electrónico a la dirección s7support@adobe.com.
 
-En el mensaje, proporcione el nombre de empresa que desee utilizar para cargar los recursos de imagen. Después de recibir la clave de Dynamic Media Classic, guárdela localmente para su uso futuro.
+En el mensaje, proporcione el nombre de empresa que desee utilizar para cargar los recursos de imagen. Después de recibir la clave de Dynamic Media Classic, guárdela de forma local para usarla en el futuro.
 
 ## Recuperación del distintivo de carga {#retrieving-the-upload-token}
 
@@ -138,13 +141,13 @@ Last Modified Date:
 
 ![]()
 
-Puede ver el código fuente HTML asociado con el formulario anterior haciendo clic en el siguiente vínculo:
+Puede vista del código fuente HTML asociado con el formulario anterior haciendo clic en el siguiente vínculo:
 
 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-En Firefox, haga clic con el botón secundario en la ventana del explorador y, a continuación, haga clic en **Ver origen** de página. El código muestra la cadena de consulta URL y el método POST oportunos que se ejecutan cuando el usuario hace clic en **Enviar**.
+En Firefox, haga clic con el botón secundario en la ventana del explorador y, a continuación, haga clic en **Vista de origen** de página. El código muestra la cadena de consulta URL y el método POST oportunos que se ejecutan cuando el usuario hace clic en **Enviar**.
 
-Para ver la respuesta en XML en Internet Explorer, haga clic en **Ver &gt; Código fuente**. To view XML response in Firefox, click **Tools &gt; Web Developer &gt; Page Source**. Se recomienda utilizar Firefox para ver las respuestas en XML.
+Para ver la respuesta en XML en Internet Explorer, haga clic en **Ver > Código fuente**. To view XML response in Firefox, click **Tools > Web Developer > Page Source**. Se recomienda utilizar Firefox para ver las respuestas en XML.
 
 A continuación se muestra una respuesta de carga correcta de ejemplo:
 
@@ -335,7 +338,7 @@ return true;
 </body>
 ```
 
-Para ver la respuesta en XML en Internet Explorer, haga clic en **Ver** &gt; **Código fuente**. Para ver la respuesta en XML en Firefox, haga clic en **Ver** &gt; **Código fuente de la página**. Se recomienda utilizar Firefox para ver las respuestas en XML.
+Para ver la respuesta en XML en Internet Explorer, haga clic en **Ver** > **Código fuente**. Para ver la respuesta en XML en Firefox, haga clic en **Ver** > **Código fuente de la página**. Se recomienda utilizar Firefox para ver las respuestas en XML.
 
 A continuación se muestra una respuesta de carga correcta de ejemplo:
 
