@@ -2,22 +2,25 @@
 title: Preparación de recursos de conjunto de imágenes para cargar
 seo-title: Preparación de recursos de conjunto de imágenes para cargar
 description: nulo
-seo-description: Aprenda a preparar recursos de conjuntos de imágenes para cargar.
-uuid: ea 90643 f-f 52 f -43 cd -8 a 74-ebffc 78 ab 717
+seo-description: Obtenga información sobre cómo preparar recursos de conjuntos de imágenes para la carga.
+uuid: ea90643f-f52f-43cd-8a74-ebffc78ab717
 contentOwner: admin
-content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/image_ sets
-discoiquuid: c 341 f 5 ea-aa 7 b -4749-975 d -68 a 45 c 6 fa 77 c
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
+discoiquuid: c341f5ea-aa7b-4749-975d-68a45c6fa77c
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '160'
+ht-degree: 68%
 
 ---
 
 
 # Preparación de recursos de conjunto de imágenes para cargar{#preparing-image-set-assets-for-upload}
 
-Antes de cargar las imágenes que necesita para el conjunto de imágenes a Scene7 Publishing System, asegúrese de que las imágenes tienen el tamaño y el formato adecuados. 
+Antes de cargar las imágenes que necesita para los conjuntos de imágenes en Dynamic Media Classic, asegúrese de que las imágenes tienen el tamaño y el formato adecuados.
 
 Para crear un conjunto de imágenes con varias vistas, necesita imágenes que muestren un elemento desde distintos puntos de vista o que muestren distintos aspectos del mismo elemento. El objetivo es resaltar las características importantes del elemento para que los usuarios tengan una visión completa de su aspecto o función.
 
