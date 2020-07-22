@@ -4,9 +4,9 @@ seo-title: Aplicación de escritorio de Adobe Dynamic Media Classic
 description: Los usuarios de Dynamic Media Classic ahora pueden actualizar completamente la interfaz de usuario. La experiencia ofrece un inicio de sesión actualizado con vínculos a recursos valiosos, además de que esta actualización ya no depende de la tecnología Adobe Flash en el navegador.
 contentOwner: rbrough
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: a3cd7494663337d55fa9b26b6ebe550791d32c7c
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
 source-wordcount: '1128'
 ht-degree: 0%
