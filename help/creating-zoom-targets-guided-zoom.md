@@ -2,15 +2,18 @@
 title: Creación de destinos de zoom para zoom guiado
 seo-title: Creación de destinos de zoom para zoom guiado
 description: nulo
-seo-description: Aprenda a crear destinos de zoom para zoom guiado.
+seo-description: Aprenda a crear destinatarios de zoom para zoom guiado.
 uuid: 501ea37b-adc5-4290-87eb-52a3501e5d26
 contentOwner: admin
-content-type: referencia
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: e7b4673c-8681-4741-912e-9a31cf106449
 translation-type: tm+mt
-source-git-commit: 6ff0141d1e8e96278b95f61c00602780984aaf67
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '738'
+ht-degree: 69%
 
 ---
 
@@ -51,9 +54,9 @@ Abra la pantalla Editor de destinos de zoom y siga estos pasos para crear un des
 
 1. Click **[!UICONTROL Select Target]** (arrow), click to select the zoom target you created, and adjust the size and position of the target.
 
-   * **Cambiar el tamaño** Mueva el puntero sobre una esquina del destino de zoom y arrastre para ampliar o reducir el destino.
+   * **Cambiar el tamaño** Mueva el puntero sobre una esquina del destinatario de zoom y arrastre para aumentar o reducir el destinatario.
 
-   * **Colocación** Mueva el puntero sobre el destino de zoom y arrástrelo a una ubicación diferente.
+   * **Colocación** Mueva el puntero sobre el destinatario de zoom y arrástrelo a una ubicación diferente.
 
 1. Escriba un nombre para el destino de zoom en el cuadro Nombre. 
 
@@ -74,19 +77,19 @@ Abra la pantalla Editor de destinos de zoom y siga estos pasos para crear un des
 
 Utilice estas técnicas en la pantalla Editor de destinos de zoom para editar destinos de zoom:
 
-* **Cambio de posición** Con el botón Seleccionar destino (la flecha), haga clic en el destino para seleccionarlo. A continuación, arrastre el destino a otra ubicación.
+* **Cambio de posición** Con el botón Seleccionar Destinatario (la flecha), haga clic en el destinatario para seleccionarlo. A continuación, arrastre el destino a otra ubicación.
 
-* **Cambiar el tamaño** Con el botón Seleccionar destino (la flecha), haga clic en el destino para seleccionarlo. A continuación, mueva el puntero por la esquina del destino de zoom y arrastre para ampliar o reducir el destino.
+* **Cambiar el tamaño** Con el botón Seleccionar Destinatario (la flecha), haga clic en el destinatario para seleccionarlo. A continuación, mueva el puntero por la esquina del destino de zoom y arrastre para ampliar o reducir el destino.
 
-* **Eliminación** Haga clic en la imagen en miniatura del destino en la parte derecha de la pantalla. A continuación, haga clic en **[!UICONTROL Eliminar objetivo]**.
+* **Eliminación** Haga clic en la imagen en miniatura del destinatario en la parte derecha de la pantalla. A continuación, haga clic en **[!UICONTROL Eliminar Destinatario]**.
 
-* **Cambio de nombre** Haga clic en la imagen en miniatura del destino en la parte derecha de la pantalla. Then enter a name in the **[!UICONTROL Name]** text field and click **[!UICONTROL Save]**.
+* **Cambio de nombre** Haga clic en la imagen en miniatura del destinatario en la parte derecha de la pantalla. Then enter a name in the **[!UICONTROL Name]** text field and click **[!UICONTROL Save]**.
 
 ### Copia de destinos de zoom {#copying-zoom-targets}
 
 Puede copiar destinos de zoom de una imagen a otra. Copie los destinos cuando dos imágenes presenten un contenido similar y sus destinos de zoom pertenezcan a las mismas ubicaciones. Siga estos pasos para copiar los destinos de zoom a otra imagen:
 
 1. Abra la imagen con los destinos de zoom que desea copiar en la pantalla Editor de destinos de zoom.
-1. Haga clic en **[!UICONTROL Copiar objetivos a]**.
+1. Haga clic en **[!UICONTROL Copiar Destinatarios a]**.
 1. In the Select Images dialog box, select an image and click **[!UICONTROL Select]**.
 
