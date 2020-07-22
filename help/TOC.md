@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Ayuda de Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: b034ef968788ff6cdd95aa261302017307df120d
+source-git-commit: 38f5cf5264f9775a225d354ed9dc2f6caee236f2
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 76%
+source-wordcount: '736'
+ht-degree: 75%
 
 ---
 
@@ -26,12 +26,12 @@ ht-degree: 76%
    + [Novedades](whats-new.md)
    + [Requisitos del sistema](system-requirements.md)
    + [Soporte técnico](support.md)
-   + [Ayuda de Dynamic Media Classic Media Portal](help-scene7-media-portal.md)
+   + [Ayuda de Dynamic Media Classic Media Portal](help-dmc-media-portal.md)
    + [Servicios de formación de Adobe](training-services.md)
    + [Recursos habituales](popular-resources.md)
    + [Videos de capacitación](training-videos.md)
 + Introducción {#getting-started}
-   + [Descripción general de la plataforma Adobe Dynamic Media Classic](scene7-platform-overview.md)
+   + [Descripción general de la plataforma Adobe Dynamic Media Classic](dmc-platform-overview.md)
    + [Media Portal](media-portal.md)
    + [Inicio y cierre de sesión](signing-out.md)
    + [Nociones básicas de navegación](navigation-basics.md)
@@ -70,7 +70,7 @@ ht-degree: 76%
    + [Desplazamiento, cambio de nombre y eliminación de recursos](moving-renaming-deleting-assets.md)
    + [Trabajar en la Vista de detalles ](detail-view.md)
    + [Visualización, adición y exportación de metadatos](viewing-adding-exporting-metadata.md)
-   + [Exportación de recursos de Scene7 Publishing System](exporting-assets-scene7-publishing-system.md)
+   + [Exportación de recursos desde Dynamic Media Classic](exporting-assets-from-dmc.md)
    + [Uso compartido de cambios de recursos con iguales en tiempo real](sharing-asset-changes-peers-real.md)
    + [Impresión de recursos](printing-assets.md)
    + [Gestión de la carpeta Papelera](trash-folder.md)
@@ -146,7 +146,7 @@ ht-degree: 76%
    + [Publicación de un conjunto de medios mixtos](publishing-mixed-media-set.md)
    + [Vinculación de un conjunto de medios mixtos a una página web](linking-mixed-media-set-web.md)
 + Adobe Analytics instrumentation kit {#analytics-kit}
-   + [Inicio rápido: Integración de Dynamic Media Classic con Adobe Analytics](quick-start-integrating-scene7-analytics.md)
+   + [Inicio rápido: Integración de Dynamic Media Classic con Adobe Analytics](quick-start-integrating-dmc-analytics.md)
    + [Inicio de sesión en Adobe Analytics](log-analytics.md)
    + [Configuración de informes de Adobe Analytics](configuring-analytics-reports.md)
    + [Instrumentación de visores con el kit de instrumentación de Adobe Analytics](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -154,11 +154,11 @@ ht-degree: 76%
    + [Prueba de integración mediante la visualización de un informe de Adobe Analytics](testing-integration-viewing-analytics-report.md)
    + [Activación de los informes de vídeo de Adobe Analytics](enabling-analytics-video-reports.md)
    + [Publicación de la información de configuración de Adobe Analytics](publishing-analytics-configuration-information.md)
-+ Integración de Destinatario Classic {#target-classic}
-   + [Inicio rápido: Integración de Destinatario Classic](quick-start-target-classic-integration.md)
-   + [Integración de Adobe Dynamic Media Classic con Adobe Target Classic](integrating-scene7-target-classic.md)
++ Integración con Target Standard/Premium {#target-classic}
+   + [Inicio rápido: Integración con Target Standard/Premium](quick-start-target-integration.md)
+   + [Integración de Adobe Dynamic Media Classic con Adobe Target Standard/Premium](integrating-dmc-with-target.md)
    + [Creación de un conjunto de ofertas](creating-offer-set.md)
-   + [Inserción de conjuntos de ofertas en Adobe Target Classic](pushing-offer-sets-target-classic.md)
+   + [Inserción de conjuntos de ofertas en Adobe Target Standard/Premium](pushing-offer-sets-target.md)
 + Contenido generado por usuarios {#user-generated-content}
    + [Acerca del contenido generado por el usuario](about-ugc.md)
    + [Eliminación de recursos cargados](deleting-uploaded-asset.md)
