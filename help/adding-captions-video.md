@@ -6,12 +6,12 @@ seo-description: Aprenda a añadir subtítulos al vídeo
 uuid: 4cc64469-4369-44a9-83db-63bad51aba8a
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
 source-wordcount: '909'
-ht-degree: 70%
+ht-degree: 64%
 
 ---
 
@@ -40,13 +40,13 @@ See [Serving static (non-image) contents](https://docs.adobe.com/content/help/en
 
 **Para agregar subtítulos a vídeos**
 
-1. Con una aplicación de terceros fuera de Scene7 Publishing System, cree un archivo de subtítulos de vídeo según el tipo de visor que utilice.
+1. Con una aplicación de terceros fuera de Dynamic Media Classic, cree el archivo de subtítulos de vídeo según el tipo de visor que utilice.
 
    | Tipo de visor | Archivo de subtítulos |
    |--- |--- |
-   | HTML5 | Si utiliza un visor de vídeo HTML5, asegúrese de que el archivo de subtítulos que cree sigue el estándar de WebVTT (Web Video Text Tracks). La extensión de nombre de archivo de subtítulos es .vtt. Puede obtener más información sobre el estándar de subtítulos WebVTT.<br><br>[Consulte WebVTT](https://dev.w3.org/html5/webvtt/): Formato de seguimiento de texto de vídeo web. <br><br>Hay herramientas y servicios gratuitos y de pago que puede utilizar para crear archivos de subtítulos fuera de Scene7 Publishing System. Por ejemplo, para crear un archivo de subtítulos de vídeo sencillo sin estilo, puede utilizar la siguiente herramienta gratuita de edición y creación de subtítulos en línea: <br><br>[WebVTT Caption Maker](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html) <br><br>Para obtener los mejores resultados, utilice la herramienta de Internet Explorer 9 o posterior, Google Chrome o Safari. <br><br>En la herramienta, pegue la URL del archivo de vídeo en el campo <b>Escribir dirección URL del archivo de vídeo</b> y haga clic en <b>Cargar</b>. <br><br>Por ejemplo, si está utilizando una URL de Dynamic Media Classic para el archivo de vídeo, en SPS, haga clic con el doble en un recurso de vídeo individual (no en un conjunto de vídeos adaptable ni en un vídeo principal) para abrirlo en la Vista de detalles. En el panel derecho de la vista de detalles, amplíe URL y código incrustado. A continuación, en el grupo Móvil, a la derecha de Móvil (progresivo), haga clic en Copiar URL. This process gives you the URL to the video file itself which you can then paste into the <b>Enter URL of video file</b> field. Internet Explorer, Chrome o Safari pueden reproducir el vídeo de forma predeterminada. Siga las instrucciones en pantalla del sitio para crear y guardar el archivo WebVTT. Cuando haya terminado, copie el contenido del archivo de subtítulos, péguelo en un editor de texto sin formato y guárdelo con una extensión de nombre de archivo .vtt. <br><br><b>Nota:</b> Para obtener compatibilidad global con subtítulos de vídeo en idiomas distintos del inglés, el estándar WebVTT requiere que cree llamadas y archivos .vtt independientes para cada idioma que desee admitir. <br><br>Lo normal es que desee nombrar al archivo de subtítulos VTT con el mismo nombre que el archivo de vídeo y le añada la palabra captions. Esto puede ayudarle a automatizar la generación de URL de vídeo mediante el sistema de administración de contenido web. |
+   | HTML5 | Si utiliza un visor de vídeo HTML5, asegúrese de que el archivo de subtítulos que cree sigue el estándar de WebVTT (Web Video Text Tracks). La extensión de nombre de archivo de subtítulos es .vtt. Puede obtener más información sobre el estándar de subtítulos WebVTT.<br><br>[Consulte WebVTT](https://dev.w3.org/html5/webvtt/): Formato de seguimiento de texto de vídeo web. <br><br>Hay herramientas y servicios gratuitos y de pago que puede utilizar para crear archivos de subtítulos fuera de Dynamic Media Classic. Por ejemplo, para crear un archivo de subtítulos de vídeo sencillo sin estilo, puede utilizar la siguiente herramienta gratuita de edición y creación de subtítulos en línea: <br><br>[WebVTT Caption Maker](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html) <br><br>Para obtener los mejores resultados, utilice la herramienta de Internet Explorer 9 o posterior, Google Chrome o Safari. <br><br>En la herramienta, pegue la URL del archivo de vídeo en el campo <b>Escribir dirección URL del archivo de vídeo</b> y haga clic en <b>Cargar</b>. <br><br>Por ejemplo, si está utilizando una URL de Dynamic Media Classic para el archivo de vídeo, en DMC, haga clic con el doble en un recurso de vídeo individual (no en un conjunto de vídeos adaptable o un vídeo maestro) para abrirlo en la Vista de detalles. En el panel derecho de la vista de detalles, amplíe URL y código incrustado. A continuación, en el grupo Móvil, a la derecha de Móvil (progresivo), haga clic en Copiar URL. This process gives you the URL to the video file itself which you can then paste into the <b>Enter URL of video file</b> field. Internet Explorer, Chrome o Safari pueden reproducir el vídeo de forma predeterminada. Siga las instrucciones en pantalla del sitio para crear y guardar el archivo WebVTT. Cuando haya terminado, copie el contenido del archivo de subtítulos, péguelo en un editor de texto sin formato y guárdelo con una extensión de nombre de archivo .vtt. <br><br><b>Nota:</b> Para obtener compatibilidad global con subtítulos de vídeo en idiomas distintos del inglés, el estándar WebVTT requiere que cree llamadas y archivos .vtt independientes para cada idioma que desee admitir. <br><br>Lo normal es que desee nombrar al archivo de subtítulos VTT con el mismo nombre que el archivo de vídeo y le añada la palabra captions. Esto puede ayudarle a automatizar la generación de URL de vídeo mediante el sistema de administración de contenido web. |
 
-1. En Scene7 Publishing System, cargue el archivo WebVTT, DFXP o SMPTE XML.
+1. En Dynamic Media Classic, cargue el archivo de subtítulos XML WebVTT, DFXP o SMPTE.
 
    Consulte [Carga de archivos](uploading-files.md#uploading_files).
 
