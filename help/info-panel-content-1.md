@@ -1,25 +1,28 @@
 ---
-title: Gestión del contenido del panel de información en conjuntos de imágenes
+title: Gestión del contenido del panel de información en los conjuntos de imágenes
 seo-title: Gestión del contenido del panel de información en conjuntos de imágenes
 description: nulo
-seo-description: Descubra cómo administrar el contenido del panel de información en conjuntos de imágenes.
-uuid: ed 7 b 4344-f 180-41 fc-a 95 a -62 a 9767 dc 056
+seo-description: Obtenga información sobre cómo administrar el contenido del panel de información en los conjuntos de imágenes.
+uuid: ed7b4344-f180-41fc-a95a-62a9767dc056
 contentOwner: rbrough
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-content-type: referencia
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/image_ sets
-discoiquuid: ba 5 d 1 fb 1-af 54-471 c-a 471-853 ace 7 f 72 fd
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+content-type: reference
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
+discoiquuid: ba5d1fb1-af54-471c-a471-853ace7f72fd
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '776'
+ht-degree: 73%
 
 ---
 
 
-# Gestión del contenido del panel de información en conjuntos de imágenes{#managing-info-panel-content-in-image-sets}
+# Gestión del contenido del panel de información en los conjuntos de imágenes{#managing-info-panel-content-in-image-sets}
 
 Además de utilizar el texto del mapa de imagen para sus rollover en los conjuntos de imágenes, puede utilizar un panel de información para agregar grandes cantidades de texto rollover, incluyendo los vínculos. También puede gestionar el panel de información mediante el uso de almacenamiento en caché programado y actualizaciones de contenido planificadas.
 
-Puede gestionar la configuración y los datos de su panel de información mediante las siguientes características de Scene7 Publishing System:
+Puede administrar la configuración y los datos del panel de información mediante las siguientes funciones de Dynamic Media Classic:
 
 * El panel de configuración del panel de información le permite especificar la plantilla que desea usar para mostrar el texto del panel de información, una respuesta predeterminada para los errores y el número de horas del almacenamiento de la información en caché. Además, puede especificar si desea publicar automáticamente el conjunto de imágenes.
 * El panel Entrada de datos del panel de información le permite especificar un archivo CSV que contenga el texto que desea que aparezca en el texto rollover del panel de información, así como programar los tiempos de actualización de la información.
@@ -38,7 +41,7 @@ Puede seleccionar una de las tres plantillas de respuesta preestablecidas para m
    * Seleccione Predeterminado para utilizar la respuesta predeterminada. El XML para el diseño de la plantilla aparece atenuado en el cuadro de texto Plantilla del usuario.
    * Para crear su propia plantilla de respuesta, seleccione Personalizar. En el cuadro de texto Plantilla del usuario, escriba la definición XML de la plantilla. Como base para su propia respuesta, puede utilizar la plantilla predeterminada que ya está definida en el cuadro de texto.
 
-1. (Opcional) En el cuadro Respuesta predeterminada, escriba el texto que desea que aparezca si Dynamic Media Classic encuentra un error al recuperar la información para un mapa de imagen. Por ejemplo, si el sistema recibe un nombre de empresa y un nombre de conjunto de imágenes, pero ningún identificador rollover, aparecerá este mensaje para el usuario.
+1. (Opcional) En el cuadro Respuesta predeterminada, escriba el texto que desea que aparezca si Dynamic Media Classic encuentra un error al recuperar la información de un mapa de imagen. Por ejemplo, si el sistema recibe un nombre de empresa y un nombre de conjunto de imágenes, pero ningún identificador rollover, aparecerá este mensaje para el usuario.
 1. En el campo de texto Tiempo de respuesta, escriba el número de horas que desea esperar antes de almacenar los datos en caché.
 
    * Establezca un número más bajo si los datos se actualizan frecuentemente a lo largo del día.
@@ -51,7 +54,7 @@ Puede seleccionar una de las tres plantillas de respuesta preestablecidas para m
 
 1. In the InfoPanel Setup panel, click **Publish**.
 
-## Importación del contenido de origen para el panel de información en conjuntos de imágenes {#import-source-content-for-the-info-panel-in-image-sets}
+## Importación de contenido de origen para el panel de información en conjuntos de imágenes {#import-source-content-for-the-info-panel-in-image-sets}
 
 Puede utilizar un archivo CSV (valores delimitados por comas) con codificación ASCII (los caracteres no ASCII deben tener codificación HTML) o un archivo delimitado por tabuladores para el texto de origen del panel de información de un conjunto de imágenes. Los archivos delimitados por tabuladores deben usar la codificación UTF-16 (Unicode). Puede importar los distintos tipos de archivos mediante diferentes métodos.
 
@@ -61,7 +64,7 @@ Cuando dé formato al contenido de origen, tenga en cuenta las siguientes pautas
 * El primer elemento o columna de datos debe ser el identificador de rollover (asociado con el valor rollover_key de las URL de mapas de imagen).
 * Asegúrese de que cada elemento delimitado por comas o tabuladores tras el identificador es el elemento que desea sustituir en la plantilla de respuesta (la primera columna se sustituye en $1$, la segunda columna en $2$, y así sucesivamente).
 
-### Importar contenido CSV en conjuntos de imágenes desde una ubicación alojada externamente {#import-csv-content-into-image-sets-from-an-externally-hosted-location}
+### Importación de contenido CSV en conjuntos de imágenes desde una ubicación alojada externamente {#import-csv-content-into-image-sets-from-an-externally-hosted-location}
 
 1. Haga doble clic en el conjunto de imágenes para abrirlo en la vista de detalles.
 1. Click **InfoPanel Datafeed** to unfold the panel.
