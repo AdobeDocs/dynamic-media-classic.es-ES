@@ -5,12 +5,15 @@ description: nulo
 seo-description: Obtenga información sobre cómo configurar un ajuste preestablecido de visor de conjuntos de medios mixtos.
 uuid: d5bf1840-e453-445d-bebc-84889b29f3c8
 contentOwner: admin
-content-type: referencia
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENONDEMAND_PK/categories/mix_media_sets
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 8029aad8-d696-4d7c-99e2-3b08edb68181
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '611'
+ht-degree: 82%
 
 ---
 
@@ -21,11 +24,12 @@ Los ajustes preestablecidos de visor de conjuntos de medios mixtos determinan el
 
 Puede elegir incluir todas o algunas de las funciones de comunidad en el visor de conjuntos de medios mixtos. La función Incrustar añade un vínculo al visor que permite que los usuarios copien el código necesario para ver el visor en una página externa (como un blog, sitio web o sitio de red social). La función Vínculo proporciona la dirección URL al visor, de forma que los usuarios pueden volver a este visor. La función Visita proporciona un vínculo al sitio web que especifique.
 
-1. Haga clic en **Ajustes** &gt; **Ajustes preestablecidos de visor**.
+1. Haga clic en **Ajustes** > **Ajustes preestablecidos de visor**.
 1. En la página Ajustes preestablecidos de visor, realice una de las acciones siguientes:
 
    * To create a new preset, click **Add**. In the Add Viewer Preset dialog box, choose a platform, choose Mixed Media Set Viewer, then click **Add**.
    * To edit a Mixed Media Set Viewer preset, select it, then click **Edit**.
+
    Se abrirá la pantalla Configurar visor.
 
 1. Escriba un nombre en el cuadro Nombre de ajuste preestablecido para el ajuste preestablecido de visor de conjuntos de medios mixtos.
@@ -53,11 +57,14 @@ Puede elegir incluir todas o algunas de las funciones de comunidad en el visor d
 
    * **Correo electrónico** Haga clic en Activado para activar un botón Correo electrónico en el visor. Cuando se visualiza el conjunto y el usuario hace clic en el botón Correo electrónico, se abre un menaje que contiene un vínculo a este conjunto.
 
-   * **Incrustar** clic en directo. En el cuadro Etiqueta de botón de incrustación, escriba el nombre que desea ver en el visor del botón Incrustar. If desired, click **Browse** to locate and select a custom skin for the button.
+   * **Incrustar** clic en directo. En el cuadro Etiqueta de botón de incrustación, escriba el nombre que desea ver en el visor del botón Incrustar. Si lo desea, haga clic en 
+**Busque** y seleccione un aspecto personalizado para el botón.
 
-   * **Vínculo** Haga clic en directo. En el cuadro Etiqueta de botón de vínculo, escriba el nombre que desea ver en el visor del botón Vínculo. If desired, click **Browse** to locate and select a custom skin for the button.
+   * **Vínculo** Haga clic en directo. En el cuadro Etiqueta de botón de vínculo, escriba el nombre que desea ver en el visor del botón Vínculo. Si lo desea, haga clic en 
+**Busque** y seleccione un aspecto personalizado para el botón.
 
-   * **Visite** Click **Live**. En el cuadro Etiqueta del botón de visita, escriba el nombre que desea ver en el visor del botón Visita. En el cuadro URL de visita, escriba la URL del sitio web que desea abrir cuando se haga clic en el vínculo.
+   * **Visit** Click 
+**Activo**. En el cuadro Etiqueta del botón de visita, escriba el nombre que desea ver en el visor del botón Visita. En el cuadro URL de visita, escriba la URL del sitio web que desea abrir cuando se haga clic en el vínculo.
 
 1. Especifique otras opciones que desee. Para ver una descripción de una opción, haga clic en el icono de información  que aparece junto a ella.
 
