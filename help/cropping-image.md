@@ -2,22 +2,25 @@
 title: Recorte de imágenes
 seo-title: Recorte de imágenes
 description: nulo
-seo-description: Descubra cómo recortar una imagen.
-uuid: 84 f 199 de-cbfc -4 d 06-877 f -6 e 9148 e 82 e 15
+seo-description: Aprenda a recortar una imagen.
+uuid: 84f199de-cbfc-4d06-877f-6e9148e82e15
 contentOwner: admin
-content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/master_ files
-discoiquuid: 99 dfa 476-4 f 11-4569-a 27 e-a 76 ed 7787674
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
+discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
 translation-type: tm+mt
-source-git-commit: b8d245bfc8375966af314ed95e81a519c5ee6c24
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 86%
 
 ---
 
 
 # Recorte de imágenes{#cropping-an-image}
 
-Se pueden recortar imágenes en Scene7 Publishing System. El sistema retiene información sobre las imágenes que se recortaron para que pueda restaurar su estado original. También puede recortar una imagen y guardar con otro nombre la versión recortada.
+Puede recortar imágenes en Dynamic Media Classic. El sistema retiene información sobre las imágenes que se recortaron para que pueda restaurar su estado original. También puede recortar una imagen y guardar con otro nombre la versión recortada.
 
 Al recortar una imagen, puede quitar el espacio en blanco que la rodea o un área concreta de la imagen.
 
