@@ -2,24 +2,27 @@
 title: Vinculación de una plantilla a una página web
 seo-title: Vinculación de una plantilla a una página web
 description: nulo
-seo-description: Descubra cómo vincular una plantilla a una página web.
-uuid: f 111 ef 06-4 afc -454 c -86 ce -5 d 640236 d 40 b
+seo-description: Obtenga información sobre cómo vincular una plantilla a una página web.
+uuid: f111ef06-4afc-454c-86ce-5d640236d40b
 contentOwner: admin
-content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/template_ basics
-discoiquuid: 989 dba 07-448 a -45 b 1-b 157-af 50 abb 5359 a
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
+discoiquuid: 989dba07-448a-45b1-b157-af50abb5359a
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '340'
+ht-degree: 70%
 
 ---
 
 
 # Vinculación de una plantilla a una página web{#linking-a-template-to-a-web-page}
 
-Los sitios web y las aplicaciones acceden al contenido del servidor de imágenes de Dynamic Media a través de cadenas URL. Después de publicar una plantilla, Dynamic Media Classic activa una cadena URL que hace referencia a la plantilla en los servidores de imágenes de Dynamic Media. Puede pegar esta URL en un explorador web para probar su funcionamiento.
+Los sitios web y las aplicaciones acceden al contenido de Dynamic Media Image Server a través de cadenas URL. Después de publicar una plantilla, Dynamic Media Classic activa una cadena URL que hace referencia a la plantilla en los servidores de imágenes de Dynamic Media. Puede pegar esta URL en un explorador web para probar su funcionamiento.
 
-Para colocar cadenas URL en las páginas web y aplicaciones, se deben copiar de Scene7 Publishing System. Para obtener una URL de plantilla generada con un ajuste preestablecido de imagen, abra la pantalla Vista previa o el panel Examinar (en vista de detalles). A continuación, seleccione un ajuste preestablecido de imagen y seleccione el botón Copiar URL.
+Para colocar cadenas URL en las páginas web y las aplicaciones, cópielas desde Dynamic Media Classic. Para obtener una URL de plantilla generada con un ajuste preestablecido de imagen, abra la pantalla Vista previa o el panel Examinar (en vista de detalles). A continuación, seleccione un ajuste preestablecido de imagen y seleccione el botón Copiar URL.
 
 >[!NOTE]
 >
@@ -29,7 +32,7 @@ Para colocar cadenas URL en las páginas web y aplicaciones, se deben copiar de 
 
 Puede obtener una cadena URL de plantilla generada por un ajuste preestablecido de imagen en la pantalla Vista previa de plantilla. Una vez copiada la URL, ésta queda disponible en el portapapeles para que pueda pegarla cuando lo necesite. Siga estos pasos para obtener una cadena URL de plantilla generada con un ajuste preestablecido de imagen en la pantalla Vista previa de plantilla:
 
-1. Haga clic en el botón de rollover de vista previa de la plantilla o elija Archivo &gt; Vista previa. Se abre la pantalla Vista previa.
+1. Haga clic en el botón de rollover de vista previa de la plantilla o elija Archivo > Vista previa. Se abre la pantalla Vista previa.
 1. En los menús de Ajuste preestablecido, elija el Ajuste preestablecido de imagen que desee aplicar para enviar la imagen de plantilla. La pantalla Vista previa muestra el aspecto que tendrá la plantilla procedente del servidor.
 1. Haga clic en el botón Copiar URL para copiar la URL en el portapapeles.
 
