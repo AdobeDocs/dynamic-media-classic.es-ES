@@ -2,15 +2,18 @@
 title: Adición de marcadores de capítulo a vídeos
 seo-title: Adición de marcadores de capítulo a vídeos
 description: nulo
-seo-description: Descubra cómo agregar marcadores de capítulo a un vídeo.
-uuid: 4 e 1 e 6 daf-afc 6-49 d 9-ac 90-183 fe 2 a 903 b 2
+seo-description: Aprenda a añadir marcadores de capítulo a un vídeo.
+uuid: 4e1e6daf-afc6-49d9-ac90-183fe2a903b2
 contentOwner: admin
-content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categorías/video
-discoiquuid: 8 bc 5 e 552-2 abb -41 f 0-89 d 2-bdf 3 ae 5 d 96 c 2
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
+discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 87%
 
 ---
 
@@ -55,7 +58,7 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
 
 **Para agregar marcadores de capítulo a vídeos**
 
-1. Con un editor de texto simple fuera de Scene7 Publishing System, cree un archivo de capítulos de vídeo.
+1. Con un editor de texto simple fuera de Dynamic Media Classic, cree el archivo de capítulos de vídeo.
 
    >[!NOTE]
    >
@@ -65,12 +68,12 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
 
    Lo normal es que desee nombrar al archivo de capítulos VTT con el mismo nombre que el archivo de vídeo y le añada la palabra `chapters`. Esto puede ayudarle a automatizar la generación de URL de vídeo mediante el sistema de administración de contenido web.
 
-1. En Scene7 Publishing System, cargue el archivo de capítulos WebVTT.
+1. En Dynamic Media Classic, cargue el archivo de capítulos WebVTT.
 
    Consulte [Carga de archivos](uploading-files.md#uploading_files).
 
 1. En el panel Biblioteca de recursos del lado izquierdo, navegue a la carpeta de recursos que contenga el archivo de vídeo que desee asociar al archivo de capítulos que haya cargado.
-1. En el panel de exploración de recursos, seleccione un único recurso de vídeo y, a continuación, haga clic en **Vista previa** &gt; **Lista del visor** debajo de la imagen en miniatura del recurso.
+1. En el panel de exploración de recursos, seleccione un único recurso de vídeo y, a continuación, haga clic en **Vista previa** > **Lista del visor** debajo de la imagen en miniatura del recurso.
 1. En la tabla Lista de visores, busque el visor HTML5 con el nombre **Universal_HTML5_Video** y, a continuación, realice una de las siguientes acciones:
 
    * Para obtener un visor de vídeo emergente, haga clic en **Copiar URL** a la derecha del nombre.
