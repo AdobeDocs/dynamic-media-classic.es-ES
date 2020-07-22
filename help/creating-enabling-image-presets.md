@@ -3,14 +3,17 @@ title: Creación y activación de ajustes preestablecidos de imagen
 seo-title: Creación y activación de ajustes preestablecidos de imagen
 description: nulo
 seo-description: Aprenda a crear y activar ajustes preestablecidos de imagen.
-uuid: 62 cfc 6 fa-da 91-4 c 42-a 3 ed -10956384 d 633
+uuid: 62cfc6fa-da91-4c42-a3ed-10956384d633
 contentOwner: admin
-content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/media_ portal
-discoiquuid: 84257 b 2 a -681 c -4 fe 9-a 6 e 5-3633 c 1 d 61 d 8 c
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
+discoiquuid: 84257b2a-681c-4fe9-a6e5-3633c1d61d8c
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '258'
+ht-degree: 89%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 Cuando los usuarios exportan recursos de imagen con Media Portal, pueden elegir un ajuste preestablecido de imagen en el cuadro de diálogo Exportar recursos seleccionados. Un ajuste preestablecido de imagen es una recopilación de ajustes predefinidos para cambiar el tamaño, la calidad de la imagen, el formato, la resolución y otros aspectos visuales de una imagen al exportarse.
 
-Los administradores de Media Portal pueden crear ajustes preestablecidos de imagen para controlar la forma en la que se cambia el formato de las imágenes al exportarse. Los ajustes preestablecidos de imagen cambian el formato de las imágenes de acuerdo con las especificaciones de la empresa cuando los usuarios exportan imágenes desde Scene7 Publishing System. En lugar de cambiar el formato de las imágenes ellos mismos, los usuarios las exportan a las especificaciones concretas de un ajuste preestablecido de imagen.
+Los administradores de Media Portal pueden crear ajustes preestablecidos de imagen para controlar la forma en la que se cambia el formato de las imágenes al exportarse. Los ajustes preestablecidos de imagen cambian el formato de las imágenes según las especificaciones de su compañía cuando los usuarios exportan imágenes desde Dynamic Media Classic. En lugar de cambiar el formato de las imágenes ellos mismos, los usuarios las exportan a las especificaciones concretas de un ajuste preestablecido de imagen.
 
 Las siguientes restricciones se aplican al exportar recursos de imagen:
 
