@@ -6,14 +6,14 @@ seo-description: Introducción y Inicio rápido de vídeo para ayudarle en el us
 uuid: bf0ecf87-a1f2-4e83-8041-df5192dd26a1
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 6cef541b-e9df-48eb-9a16-ca3e1f07238e
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '1444'
-ht-degree: 66%
+source-wordcount: '1443'
+ht-degree: 65%
 
 ---
 
@@ -82,9 +82,9 @@ La siguiente descripción paso a paso del flujo de trabajo se ha diseñado para 
 Cargue y genere conjuntos de vídeos adaptables con una de los dos situaciones siguientes:
 
 * **Cargar vídeos** precodificados Si los vídeos ya estaban codificados fuera de Dynamic Media Classic, haga clic en 
-**Cargue** archivos de vídeo MP4 directamente en Scene7 Publishing System en la barra de navegación global. A continuación, haga clic en **Generar > Conjuntos de vídeos adaptables**. Busque los archivos de vídeo. Arrastre los archivos de vídeo deseados, suéltelos en la tabla Conjunto de vídeos adaptable y, a continuación, guarde el conjunto.
+**Cargue** archivos de vídeo MP4 directamente en Dynamic Media Classic en la barra de navegación global. A continuación, haga clic en **Generar > Conjuntos de vídeos adaptables**. Busque los archivos de vídeo. Arrastre los archivos de vídeo deseados, suéltelos en la tabla Conjunto de vídeos adaptable y, a continuación, guarde el conjunto.
 * **Cargar vídeos** de origen maestros Si los vídeos no están codificados, haga clic en 
-**Cargue** en la barra de navegación global para cargar archivos de origen de vídeo maestros (que no sean MP4) y hacer que Scene7 Publishing System los codifique en archivos MP4 por usted. En el cuadro de diálogo Opciones de trabajo de carga, en Opciones de eVideo, seleccione **Vídeo adaptable**.
+**Cargue** en la barra de navegación global para cargar archivos de origen de vídeo maestros (que no sean MP4) y hacer que Dynamic Media Classic los codifique en archivos MP4 por usted. En el cuadro de diálogo Opciones de trabajo de carga, en Opciones de eVideo, seleccione **Vídeo adaptable**.
 
    Esta opción preferida permite crear un conjunto de vídeos adaptables que aplica automáticamente el ajuste preestablecido de codificación correcto al vídeo, 16:9 o 4:3, para que coincida con las dimensiones del vídeo que haya cargado. Al enviar el trabajo de carga, se crea automáticamente un conjunto de vídeos adaptable que incluye tres codificaciones de vídeo con la proporción de aspecto correcta.
 
@@ -112,7 +112,7 @@ Puede reproducir el vídeo en la pantalla Vista previa. También puede elegir vi
 
 **Opcional**
 
-Personalización de ajustes preestablecidos de visor: Dynamic Media Classic oferta ajustes preestablecidos de visor predefinidos para la publicación de vídeo. Estos ajustes preestablecidos determinan la apariencia del visor y cómo funcionan los controles de reproducción. Para personalizar el visor de vídeo, los administradores pueden agregar y gestionar ajustes preestablecidos de visor desde la página Ajustes preestablecidos de visor. Para abrir esta página, en la esquina superior derecha de Scene7 Publishing System, haga clic en Ajustes > Ajustes preestablecidos de visor. La página Ajustes preestablecidos de visor contiene opciones para agregar, editar, eliminar y activar ajustes preestablecidos de visor.
+Personalización de ajustes preestablecidos de visor: Dynamic Media Classic oferta ajustes preestablecidos de visor predefinidos para la publicación de vídeo. Estos ajustes preestablecidos determinan la apariencia del visor y cómo funcionan los controles de reproducción. Para personalizar el visor de vídeo, los administradores pueden agregar y gestionar ajustes preestablecidos de visor desde la página Ajustes preestablecidos de visor. Para abrir esta página, en la esquina superior derecha de Dynamic Media Classic, haga clic en Ajustes > Ajustes preestablecidos de visor. La página Ajustes preestablecidos de visor contiene opciones para agregar, editar, eliminar y activar ajustes preestablecidos de visor.
 
 Consulte [Uso de ajustes preestablecidos de visor de vídeo](previewing-videos-video-viewer.md#working_with_video_viewer_presets).
 
