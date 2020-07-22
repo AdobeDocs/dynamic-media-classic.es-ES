@@ -5,12 +5,15 @@ description: nulo
 seo-description: Obtenga información sobre cómo crear mapas de imagen de catálogos electrónicos.
 uuid: 943ad3f7-a885-4bc2-88cb-77083384bdf8
 contentOwner: admin
-content-type: referencia
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1496'
+ht-degree: 77%
 
 ---
 
@@ -28,10 +31,10 @@ Los mapas de imagen de los catálogos electrónicos se dibujan en la ficha Pági
 1. En la parte izquierda de la pantalla Páginas de mapa, seleccione la página que desee.
 1. En el área del mapa de imagen, dibuje un mapa de imagen rectangular o poligonal (con varios lados):
 
-   * **Mapa** rectangular Seleccione la herramienta Mapa de imagen rectangular y arrastre la página para crear el rectángulo.
+   * **Mapa** rectangular Seleccione la herramienta Mapa de imagen rectangular y arrastre el ratón por la página para crear el rectángulo.
 
    * **Mapa poligonal** Seleccione la herramienta Mapa de imagen poligonal y haga clic tantas veces como sea necesario alrededor del perímetro de la imagen. Al hacer clic, Dynamic Media Classic dibuja los bordes del mapa de imagen.
-   Después de dibujar un mapa de imagen, Dynamic Media Classic le asigna un nombre en la lista de mapas de imagen. Para formar el nombre, Dynamic Media Classic anexa un número secuencial al nombre de la página del catálogo electrónico en la que está trabajando.
+   Después de dibujar un mapa de imagen, Dynamic Media Classic le asigna un nombre en la lista de mapa de imagen. Para formar el nombre, Dynamic Media Classic anexa un número secuencial al nombre de la página del catálogo electrónico en la que está trabajando.
 
 1. (Opcional) En el panel de lista de mapas de imagen, en la columna Nombre, introduzca un nuevo nombre para el mapa de imagen. No incluya espacios en blanco en el nombre.
 1. Puede hacer que los visores abran una página web nueva cuando se haga clic en el mapa de imagen. En el panel de lista de mapas de imagen, introduzca la dirección URL de la página web en la columna URL.
@@ -80,11 +83,12 @@ En la pantalla Catálogo electrónico, vaya a la ficha Páginas de mapa, desde d
 
    Consulte [Ajuste de la posición, la forma y el tamaño de los mapas de imagen](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
-* **Eliminación de mapas** de imagen Seleccione la herramienta de desplazamiento, haga clic en el mapa de imagen para seleccionarlo y, a continuación, haga clic en **Eliminar**.
+* **Eliminación de mapas** de imagen Seleccione la herramienta Panorámica, haga clic en el mapa de imagen para seleccionarlo y, a continuación, haga clic en 
+**Eliminar**.
 
    To remove all Image Maps from an eCatalog, click the **Order Pages** tab, and then click **Clear Maps**.
 
-* **Gestión de mapas** de imagen superpuestosArrastre para cambiar el orden de los mapas de imagen en la lista de mapas de imagen.
+* **Gestión de mapas** de imagen superpuestosArrastre para cambiar el orden de los mapas de imagen en la lista de mapa de imagen.
 
    Consulte [Control de superposición de mapas de imagen](creating-image-maps.md#handling_overlapping_image_maps).
 
@@ -140,4 +144,4 @@ Siga estos pasos para copiar todos los mapas de imagen de un catálogo electrón
 1. En la ficha Ordenar páginas, haga clic en Copiar mapas.
 1. En el cuadro de diálogo Seleccionar recurso, elija el catálogo electrónico en el que desea copiar los mapas de imagen y haga clic en Seleccionar.
 
-Dynamic Media Classic muestra un mensaje de advertencia si el catálogo electrónico de destino (el catálogo electrónico al que se copian los mapas de imagen) tiene un número diferente de páginas o imágenes con un tamaño diferente. Puede hacer clic en Continuar si desea copiar los mapas de imagen a pesar de la advertencia.
+Dynamic Media Classic muestra un mensaje de advertencia si el catálogo electrónico de destinatario (el catálogo electrónico al que se copian los mapas de imagen) tiene un número diferente de páginas o imágenes con un tamaño diferente. Puede hacer clic en Continuar si desea copiar los mapas de imagen a pesar de la advertencia.
