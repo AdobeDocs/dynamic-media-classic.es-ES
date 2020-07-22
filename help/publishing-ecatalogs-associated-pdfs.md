@@ -2,26 +2,29 @@
 title: Publicación de catálogos electrónicos y archivos PDF asociados
 seo-title: Publicación de catálogos electrónicos y archivos PDF asociados
 description: nulo
-seo-description: Descubra cómo publicar catálogos electrónicos y archivos PDF asociados.
-uuid: 6 f 2 f 2 c 79-921 a -4096-8 f 80-24 e 69 c 8983 fa
+seo-description: Obtenga información sobre cómo publicar catálogos electrónicos y archivos PDF asociados.
+uuid: 6f2f2c79-921a-4096-8f80-24e69c8983fa
 contentOwner: admin
-content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categorías/ecatalogs
-discoiquuid: 76 e 5732 a -83 c 6-4 e 6 b-a 29 f-a 393 b 1 c 971 aa
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
+discoiquuid: 76e5732a-83c6-4e6b-a29f-a393b1c971aa
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '188'
+ht-degree: 34%
 
 ---
 
 
 # Publicación de catálogos electrónicos y archivos PDF asociados{#publishing-ecatalogs-and-associated-pdfs}
 
-La publicación coloca el catálogo electrónico y el PDF en servidores de imágenes de Dynamic Media para que esté disponible en el sitio web o en la aplicación. Como parte del proceso de publicación, Scene7 Publishing System activa la cadena URL. Puede colocar esta cadena URL en el código HTML de su página web.
+La publicación coloca el catálogo electrónico y el PDF en los servidores de imágenes de Dynamic Media para que estén disponibles en el sitio web o la aplicación. Como parte del proceso de publicación, Dynamic Media Classic activa la cadena URL. Puede colocar esta cadena URL en el código HTML de su página web.
 
 >[!NOTE]
 >
->Asegúrese de que el catálogo electrónico y el PDF residen en la misma carpeta y se marquen para publicación en la página Examinar o Detalles del recurso antes de publicarlos.
+>Asegúrese de que el catálogo electrónico y el PDF se encuentran en la misma carpeta y de que están marcados para publicación en el panel Examinar o en la página Detalles del recurso antes de publicarlos.
 
 Para publicar el catálogo electrónico en los servidores de imágenes de Dynamic Media:
 
@@ -29,7 +32,7 @@ Para publicar el catálogo electrónico en los servidores de imágenes de Dynami
 1. En la pantalla Publicar, seleccione una opción para el parámetro Cuándo (Una vez o Recurrente).
 1. También puede introducir un nombre para el trabajo de publicación pero debe mantener el sello de fecha y hora.
 
-   Si configura el catálogo electrónico para que los usuarios puedan realizar búsquedas por palabras clave, deberá publicar los datos de palabra clave. Haga clic en Avanzado y, a continuación, en Opciones avanzadas. En el menú desplegable Publicar, haga clic en Completa W/Buscar datos. Ésta es la opción seleccionada por defecto.
+   Si configura el catálogo electrónico para que los usuarios puedan realizar búsquedas por palabras clave, deberá publicar los datos de palabra clave. Haga clic en Opciones avanzadas y, a continuación, en Opciones avanzadas. En el menú desplegable Publicar, haga clic en Completa con datos de búsqueda. Ésta es la opción seleccionada por defecto.
 
 1. Click **Start Publish**.
 
