@@ -6,21 +6,21 @@ seo-description: Obtenga información sobre cómo vincular un catálogo electró
 uuid: 90098a90-180b-477a-8533-24a52a93200b
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 91%
+source-wordcount: '678'
+ht-degree: 87%
 
 ---
 
 
 # Vinculación de un catálogo electrónico a una página web{#linking-an-ecatalog-to-a-web-page}
 
-Los sitios web y las aplicaciones acceden al contenido de Dynamic Media Image Server, incluidos los catálogos electrónicos, a través de cadenas URL o código incrustado. Estas cadenas URL se activan durante el proceso de publicación. Para colocar la cadena URL o código incrustado del catálogo electrónico en las páginas web y las aplicaciones, debe copiar esta cadena desde Scene7 Publishing System.
+Los sitios web y las aplicaciones acceden al contenido de Dynamic Media Image Server, incluidos los catálogos electrónicos, a través de cadenas URL o código incrustado. Estas cadenas URL se activan durante el proceso de publicación. Para colocar la cadena URL o el código incrustado del catálogo electrónico en las páginas web y las aplicaciones, debe copiar esta cadena desde Dynamic Media Classic.
 
 >[!NOTE]
 >
