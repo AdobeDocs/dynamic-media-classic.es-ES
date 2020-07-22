@@ -2,15 +2,18 @@
 title: Previsualización de un recurso
 seo-title: Previsualización de un recurso
 description: nulo
-seo-description: Obtenga información sobre cómo obtener una vista previa de un recurso.
+seo-description: Obtenga información sobre cómo previsualización de recursos.
 uuid: 4a01be21-e37f-4d79-9220-f4e177e9179a
 contentOwner: admin
-content-type: referencia
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
 translation-type: tm+mt
-source-git-commit: 8216ac64ba418987c7f5ed84c4cb957189645bd9
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1023'
+ht-degree: 98%
 
 ---
 
@@ -52,9 +55,9 @@ Para una plataforma de visor específica, la ventana Lista del visor le permite 
 1. En el panel Biblioteca de recursos del lado izquierdo, navegue a las carpetas de recursos que contienen el recurso cuya vista previa desea obtener.
 1. Realice una de las acciones siguientes:
 
-   * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en Vista de cuadrícula. En la ventana Recurso, seleccione un único recurso y, a continuación, haga clic en Vista previa &gt; Lista del visor debajo de la imagen en miniatura.
-   * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en Vista de lista. En la ventana Recurso, seleccione un único recurso y, a continuación, haga clic en Vista previa &gt; Lista del visor a la derecha de la imagen en miniatura.
-   * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en Vista de detalles. En la misma barra de herramientas, haga clic en Vista previa &gt; Lista del visor.
+   * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en Vista de cuadrícula. En la ventana Recurso, seleccione un único recurso y, a continuación, haga clic en Vista previa > Lista del visor debajo de la imagen en miniatura.
+   * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en Vista de lista. En la ventana Recurso, seleccione un único recurso y, a continuación, haga clic en Vista previa > Lista del visor a la derecha de la imagen en miniatura.
+   * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en Vista de detalles. En la misma barra de herramientas, haga clic en Vista previa > Lista del visor.
 
 1. (Opcional) En la ventana Lista del visor, haga clic en el encabezado de la columna **Nombre** o **Tipo de plataforma** para ordenar la columna en orden ascendente o descendente.
 1. En la ventana Lista del visor, en la columna Acciones de la tabla, haga clic en Vista previa para ver cómo se visualiza el recurso para un visor y un tipo de plataforma seleccionados.
@@ -91,9 +94,9 @@ Consulte [Creación y activación de ajustes preestablecidos de imagen](creating
 1. En el panel Biblioteca de recursos del lado izquierdo, navegue a las carpetas de recursos que contienen el recurso de imagen cuya vista previa desea obtener.
 1. Realice una de las acciones siguientes:
 
-   * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en Vista de cuadrícula. En la ventana Recurso, seleccione un único recurso de imagen y, a continuación, haga clic en Vista previa &gt; Lista de ajustes preestablecidos de imagen debajo de la imagen en miniatura.
-   * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en Vista de lista. En la ventana Recurso, seleccione un único recurso de imagen y, a continuación, haga clic en Vista previa &gt; Lista de ajustes preestablecidos de imagen a la derecha de la imagen en miniatura.
-   * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en Vista de detalles. En la misma barra de herramientas, haga clic en Vista previa &gt; Lista de ajustes preestablecidos de imagen.
+   * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en Vista de cuadrícula. En la ventana Recurso, seleccione un único recurso de imagen y, a continuación, haga clic en Vista previa > Lista de ajustes preestablecidos de imagen debajo de la imagen en miniatura.
+   * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en Vista de lista. En la ventana Recurso, seleccione un único recurso de imagen y, a continuación, haga clic en Vista previa > Lista de ajustes preestablecidos de imagen a la derecha de la imagen en miniatura.
+   * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en Vista de detalles. En la misma barra de herramientas, haga clic en Vista previa > Lista de ajustes preestablecidos de imagen.
 
 1. En la tabla de la ventana Lista de ajustes preestablecidos de imagen, seleccione el nombre de un tipo de ajuste preestablecido cuyo recurso de imagen quiera previsualizar en línea en el panel derecho.
 1. (Opcional) En la ventana Lista de ajustes preestablecidos de imagen, en la lista desplegable inferior Codificación URL para la creación de copias URL, seleccione la codificación de URL que desee aplicar a la dirección URL del recurso de imagen cuando se copie.
