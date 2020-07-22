@@ -2,56 +2,59 @@
 title: Ajuste de publicación
 seo-title: Ajuste de publicación
 description: nulo
-seo-description: La configuración de la pantalla Ajustes de publicación determina cómo se entregan los recursos de forma predeterminada desde los servidores de Dynamic Media Classic a los sitios web o aplicaciones.
-uuid: 196 f 25 c 8-abf 5-4 c 5 d -8 f 6 f-bc 70007 a 0301
+seo-description: La configuración de la pantalla Ajustes de publicación determina cómo se envían los recursos de forma predeterminada de los servidores de Dynamic Media Classic a los sitios web o las aplicaciones.
+uuid: 196f25c8-abf5-4c5d-8f6f-bc70007a0301
 contentOwner: admin
-content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-discoiquuid: cba 59093-28 b 6-4490-b 838-d 942 b 72 ad 1 ec
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+discoiquuid: cba59093-28b6-4490-b838-d942b72ad1ec
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '2397'
+ht-degree: 65%
 
 ---
 
 
 # Ajuste de publicación {#publish-setup}
 
-La configuración de la pantalla Ajustes de publicación determina cómo se entregan los recursos de forma predeterminada desde los servidores de Dynamic Media Classic a los sitios web o aplicaciones. Si no se especifica ningún ajuste, el servidor de Dynamic Media Classic entrega un recurso según la configuración predeterminada de la pantalla Ajustes de publicación. Por ejemplo, si se solicita una imagen que no incluye un atributo de resolución se enviará una imagen con la configuración de Resolución de objeto predeterminada que se encuentra en la pantalla del servidor de imágenes.
+La configuración de la pantalla Ajustes de publicación determina cómo se envían los recursos de forma predeterminada de los servidores de Dynamic Media Classic a los sitios web o las aplicaciones. Si no se especifica ninguna configuración, el servidor de Dynamic Media Classic envía un recurso de acuerdo con la configuración predeterminada de la pantalla Ajustes de publicación. Por ejemplo, si se solicita una imagen que no incluye un atributo de resolución se enviará una imagen con la configuración de Resolución de objeto predeterminada que se encuentra en la pantalla del servidor de imágenes.
 
 Los administradores pueden cambiar la configuración predeterminada de las pantallas Servidor de imágenes, Procesador de imágenes y Viñeta para establecer la configuración predeterminada a la hora de enviar recursos desde los servidores.
 
-Para abrir las pantallas de Ajuste de publicación, haga clic en Ajustes &gt; Ajustes de aplicación &gt; Ajuste de publicación.
+Para abrir las pantallas de Ajuste de publicación, haga clic en Ajustes > Ajustes de aplicación > Ajuste de publicación.
 
 >[!NOTE]
 >
->las pantallas de Ajuste de publicación están reservadas a los desarrolladores y programadores web experimentados. Dynamic Media Classic supone que los usuarios que cambian la configuración de estas pantallas están familiarizados con Scene 7 Publishing System, las normas y convenciones de protocolo HTTP y la tecnología básica de imágenes.
+>las pantallas de Ajuste de publicación están reservadas a los desarrolladores y programadores web experimentados. Dynamic Media Classic supone que los usuarios que cambian la configuración en estas pantallas están familiarizados con Dynamic Media Classic, las normas y convenciones del protocolo HTTP y la tecnología básica de imágenes.
 
 ## Servidor de imágenes {#image-server}
 
 La pantalla del servidor de imágenes establece la configuración predeterminada a la hora de enviar imágenes desde los servidores de imágenes. Las opciones de configuración se dividen en estas cinco categorías (consulte la pantalla del servidor de imágenes para ver una descripción detallada de las opciones).
 
-Cambie esta configuración solo con la ayuda de una persona de soporte de Dynamic Media Classic.
+Cambie esta configuración solo con la ayuda de una persona de asistencia técnica de Dynamic Media Classic.
 
-**Gestión de catálogo** Esta configuración determina cómo interactúan Scene 7 Publishing System y el catálogo. A diferencia de la mayoría de los servidores Web, las llamadas URL del servidor de imágenes Dynamic Media se dirigen a un archivo de catálogo o manifiesto en lugar de a un archivo de imagen. El archivo de catálogo (que no debe confundirse con un catálogo electrónico) contiene una lista del contenido que se ha publicado en el servidor de imágenes además de la ruta de cada imagen. Si tiene un ID de Digimarc, introduzca su información de usuario en la sección Información de usuario de Digimarc.
+**Administración** de catálogos Esta configuración determina la forma en que interactúan Dynamic Media Classic y el catálogo. A diferencia de la mayoría de los servidores web, las llamadas mediante URL al servidor de imágenes de Dynamic Media se dirigen a un archivo de catálogo o manifiesto en lugar de a un archivo de imagen en sí. El archivo de catálogo (que no debe confundirse con un catálogo electrónico) contiene una lista del contenido que se ha publicado en el servidor de imágenes además de la ruta de cada imagen. Si tiene un ID de Digimarc, introduzca su información de usuario en la sección Información de usuario de Digimarc.
 
-**Atributos de solicitud** Esta configuración impone límites a las imágenes que pueden entregarse desde el servidor.
+**Atributos** de solicitud Esta configuración impone límites a las imágenes que se pueden enviar desde el servidor.
 
-**Atributos de solicitud predeterminados** Esta configuración define el aspecto predeterminado de las imágenes.
+**Atributos** de solicitud predeterminados Esta configuración se refiere al aspecto predeterminado de las imágenes.
 
-**Atributos comunes de miniatura** Esta configuración define el aspecto predeterminado y la alineación de las imágenes en miniatura.
+**Atributos** de miniatura comunes Esta configuración se refiere al aspecto y la alineación predeterminados de las imágenes en miniatura.
 
-**Valores predeterminados para los campos** del catálogo Estos ajustes corresponden a la resolución y el tipo de miniatura predeterminado de imágenes.
+**Valores predeterminados para los campos** del catálogo Esta configuración se refiere a la resolución y al tipo de miniatura predeterminada de las imágenes.
 
-**Atributos de administración de color** Esta configuración determina qué perfiles de color ICC se utilizan.
+**Atributos** de administración de color Esta configuración determina qué perfiles de color ICC se utilizan.
 
-**Atributos de compatibilidad** Esta opción permite tratar los párrafos al principio y al final en capas de texto como en la versión 3.6 para lograr una compatibilidad con versiones anteriores.
+**Atributos** de compatibilidad Esta configuración permite que los párrafos al inicio y al final de las capas de texto se traten como en la versión 3.6 para la compatibilidad con versiones anteriores.
 
-**Asistencia para la localización** Estas opciones permiten administrar varios atributos de configuración regional. También permite especificar una cadena de asignación de configuración regional, de forma que puede definir los idiomas que desee admitir para los distintos consejos de herramientas en los visores.
+**Compatibilidad** con Localizaciones Esta configuración permite administrar varios atributos de configuración regional. También permite especificar una cadena de asignación de configuración regional, de forma que puede definir los idiomas que desee admitir para los distintos consejos de herramientas en los visores.
 
 Por ejemplo, si es una marca multinacional que vende en distintos países, puede asegurarse de que cada país tiene su propio visor con su propia configuración regional específica. Para llevar a cabo esta funcionalidad, puede especificar una cadena de asignación de configuración regional. A continuación, puede editar el texto de información sobre herramientas en un ajuste preestablecido del visor, agregando las cadenas de texto traducidas del visor para el idioma que desee.
 
 >[!NOTE]
-> Para configurar las opciones de Asistencia para la localización, póngase en contacto con el servicio de asistencia técnica clásica de Adobe Dynamic Media Classic o envíe un correo electrónico a s7support@adobe.com para solicitar la ayuda de configuración.
+> Para configurar las opciones de Asistencia técnica de Localización, póngase en contacto con el servicio de asistencia técnica de Adobe Dynamic Media Classic o envíe un correo electrónico a s7support@adobe.com para solicitar ayuda para la configuración.
 
 Para más información sobre la configuración de la **Asistencia para la localización**, consulte [Consideraciones al configurar la localización de recursos](publish-setup.md#considerations_when_setting_up_localization_of_assets).
 
@@ -59,9 +62,9 @@ Para más información sobre la configuración de la **Asistencia para la locali
 
 >[!NOTE]
 >
->Si desea configurar las opciones de Asistencia para la localización en Scene 7 Publishing System, como el campo Asignación de configuración regional, póngase en contacto con el servicio de soporte técnico clásico de Adobe Dynamic Media Classic. O bien, envíe un correo electrónico a s7support@adobe.com para solicitar ayuda con la configuración.
+>Si desea configurar las opciones de Soporte de Localización en Dynamic Media Classic, como el campo Asignación de configuración regional, póngase en contacto con el servicio de asistencia técnica de Dynamic Media Classic de Adobe. O bien, envíe un correo electrónico a s7support@adobe.com para solicitar ayuda con la configuración.
 
-Una forma habitual de utilizar Scene7 Publishing System (SPS) es para administrar imágenes de sus productos en sitios Web de comercio electrónico. Las empresas internacionales se enfrentan a un reto importante, ya que los recursos para productos similares tienen un aspecto distinto según el país. Normalmente, las diferencias constituyen una pequeña parte de todo el medio. Copiar todos los recursos para cada uno de los países y sobrescribir solo las diferencias es un enorme esfuerzo y contradice el principio de un solo recurso maestro. Dichas diferencias en los recursos pueden ser numerosas, desde vídeos para cada país con diferentes pistas de audio hasta diferencias pequeñas pero importantes en el cable de alimentación que se utiliza con el producto. Dynamic Media Classic utiliza un mecanismo básico de búsqueda. Puede definir el orden de los sufijos de los recursos en que busca el servidor de imágenes, empezando por la configuración regional requerida.
+Una forma común de utilizar Dynamic Media Classic es administrar las imágenes de los productos en los sitios web de comercio electrónico. Las empresas internacionales se enfrentan a un reto importante, ya que los recursos para productos similares tienen un aspecto distinto según el país. Normalmente, las diferencias constituyen una pequeña parte de todo el medio. Copiar todos los recursos para cada uno de los países y sobrescribir solo las diferencias es un enorme esfuerzo y contradice el principio de un solo recurso maestro. Dichas diferencias en los recursos pueden ser numerosas, desde vídeos para cada país con diferentes pistas de audio hasta diferencias pequeñas pero importantes en el cable de alimentación que se utiliza con el producto. Dynamic Media Classic utiliza un mecanismo de búsqueda básico. Puede definir el orden de los sufijos de los recursos en que busca el servidor de imágenes, empezando por la configuración regional requerida.
 
 **Búsqueda de recursos**
 
@@ -93,11 +96,11 @@ Some of the benefits of using `locale=` and `attribute::DefaultLocale` include t
 |--- |--- |
 | Localización de un visor | Tras implementar los catálogos de contenido estático, el parámetro locale= añadido a todas las solicitudes a IS controla la localización completamente. Los registros de configuración, las apariencias, pantallas de bienvenida, etc., pueden tener o no variantes regionales. IS proporciona el contenido correcto sin que el visor necesite saber qué parte del contenido se ha localizado y cuáles son sus ID. |
 | Imágenes y vídeo | Las compañías multinacionales suelen tener una mezcla de contenido genérico y regional. Con este mecanismo, una referencia a una imagen o un vídeo puede ser genérica, e IS muestra el contenido regional si está disponible. |
-| Conjuntos de imágenes y conjuntos de medios | El conjunto de imágenes completo puede ser diferente para algunas configuraciones regionales—como cuando un catálogo electrónico es completamente diferente—con la traducción de un conjunto de imágenes genérico a una configuración regional gestionada por el visor. Más comúnmente, los ID individuales de un conjunto genérico pueden hacer referencia a contenido localizado. Por ejemplo, la mayoría de las fotografías de un dispositivo pueden ser iguales en todos los idiomas, excepto la fotografía del panel de control. IS traduce automáticamente los identificadores, por lo que no es necesario generar conjuntos de imágenes regionales. |
+| Conjuntos de imágenes y conjuntos de medios | El conjunto de imágenes completo puede ser diferente para algunas configuraciones regionales (por ejemplo, cuando un catálogo electrónico es completamente diferente) con la traducción de un conjunto de imágenes genérico a uno específico de una configuración regional gestionado por el visor.Más comúnmente, los ID individuales de un conjunto genérico pueden referirse a contenido localizado. Por ejemplo, la mayoría de las fotografías de un dispositivo pueden ser iguales en todos los idiomas, excepto la fotografía del panel de control. IS traduce automáticamente los identificadores, por lo que no es necesario generar conjuntos de imágenes regionales. |
 
 **Implementación de la localización de recursos**
 
-Scene7 Publishing y el servicio de imágenes tienen una interfaz que permite localizar imágenes y contenido estático.
+Dynamic Media Classic y el servicio de imágenes tienen una interfaz que permite la localización de imágenes y contenido estático.
 
 Sin localización, una URL del servidor de imágenes tendrá este aspecto:
 
@@ -107,17 +110,17 @@ With localization, an Image Server URL adds the `locale=` parameter to the path,
 
 `https://server/is/image/company/image?locale=de_DE`
 
-On receipt of the http call by the Image Server, the `locale=` parameter is parsed through the localeMap field found in **Setup** &gt; **Application Setup** &gt; **Publish Setup** &gt; **Image Server** &gt; **Localization Support** group.
+On receipt of the http call by the Image Server, the `locale=` parameter is parsed through the localeMap field found in **Setup** > **Application Setup** > **Publish Setup** > **Image Server** > **Localization Support** group.
 
 El campo de asignación de configuración regional contiene una lista de entradas separadas por barras verticales (|).
 
 Cada entrada consta de una lista de valores separados por comas. The first value is the search value that is passed by the `locale=` parameter. Los valores restantes son sufijos o valores de sustitución que se prueban posteriormente hasta que uno resulta en una imagen existente.
 
-La aplicación de un sufijo o un valor de sustitución depende del ajuste de la configuración regional global en el grupo **Ajustes** &gt; **Ajustes de aplicación** &gt; **Ajustes de publicación** &gt; **Servidor de imágenes** &gt; **Asistencia para la localización** .
+La aplicación de un sufijo o un valor de sustitución depende del ajuste de la configuración regional global en el grupo **Ajustes** > **Ajustes de aplicación** > **Ajustes de publicación** > **Servidor de imágenes** > **Asistencia para la localización** .
 
 >[!NOTE]
 >
->La configuración regional global solo es posible si se establece mediante la API, no en la interfaz de Scene7 Publishing System.
+>Actualmente, la configuración regional global solo es posible cuando se establece mediante la API, no en la interfaz de Dynamic Media Classic.
 
 **Ejemplo de sufijo**
 
@@ -137,7 +140,7 @@ If an unknown or empty locale parameter is supplied with `locale=`, then the loc
 
 **Acerca de defaultImage**
 
-El servidor de imágenes prueba las opciones de la configuración regional solicitada, una tras otra. Si no coincide ninguna, se aplican las opciones de configuración regional a defaultImage y se devuelve la versión coincidente. Por lo tanto, cada configuración regional debe incluir una opción de imagen sin localización o deberían haber disponibles versiones de defaultImage localizadas en Scene7 Publishing System.
+El servidor de imágenes prueba las opciones de la configuración regional solicitada, una tras otra. Si no coincide ninguna, se aplican las opciones de configuración regional a defaultImage y se devuelve la versión coincidente. Por lo tanto, cada configuración regional debe incluir una opción para la imagen sin localización o las versiones de defaultImage localizadas deben estar disponibles en Dynamic Media Classic.
 
 **Situaciones de búsqueda de localeMap**
 
@@ -220,15 +223,15 @@ Using the first example as a basis, images for all languages may have the suffix
 
 La pantalla del procesador de imágenes establece la configuración predeterminada a la hora de enviar conjuntos de imágenes desde los servidores de procesamiento de imágenes. Las opciones de configuración se dividen en estas cinco categorías (consulte la pantalla del servidor de imágenes para ver una descripción detallada de las opciones):
 
-**Gestión de catálogo** Esta configuración determina cómo interactúan Scene 7 Publishing System y el archivo de catálogo. Las llamadas URL de Dynamic Media Classic se realizan al catálogo, lo que a su vez hace llamadas para entregar imágenes desde el servidor. Cambie esta configuración solo con la ayuda de una persona de soporte de Dynamic Media Classic.
+**Administración** de catálogos Esta configuración determina cómo interactúan Dynamic Media Classic y el archivo de catálogo. Las llamadas mediante URL al servidor de procesamiento de Dynamic Media Classic se realizan en el catálogo, que a su vez llama para enviar imágenes desde el servidor. Cambie esta configuración solo con la ayuda de una persona de asistencia técnica de Dynamic Media Classic.
 
-**Atributos de sesión** Esta configuración establece los parámetros de error, la URL de URL de imágenes relativas y si se permite la superposición de objetos.
+**Atributos** de sesión Esta configuración establece parámetros de error, la dirección URL de las URL de imagen relativas y si se permite la superposición de objetos.
 
-**Atributos de material predeterminados** Esta configuración establece la resolución predeterminada y el enfoque de las imágenes.
+**Atributos** de material predeterminados Esta configuración establece la resolución predeterminada y la configuración de enfoque de las imágenes.
 
-**Atributos de imagen de respuesta** Esta configuración define el aspecto predeterminado de las imágenes.
+**Atributos** de imagen de respuesta Estos ajustes se refieren al aspecto predeterminado de las imágenes.
 
-**Atributos de administración de color** Esta configuración define la configuración de color predeterminada de las imágenes.
+**Atributos** de administración de color Esta configuración se refiere a la configuración de color predeterminada de las imágenes.
 
 ## Viñeta {#vignette}
 
