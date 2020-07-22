@@ -5,12 +5,15 @@ description: nulo
 seo-description: Aprenda a enfocar una imagen.
 uuid: d86af74a-89c5-4f2b-96ba-f2e7da600bca
 contentOwner: admin
-content-type: referencia
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 11cd5362-d90a-4c1e-bbd-46a65a554409
+discoiquuid: 11cd5362-d90a-4c1e-bfbd-46a65a554409
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '2159'
+ht-degree: 73%
 
 ---
 
@@ -29,15 +32,15 @@ Sin embargo, tanto si utiliza los ajustes preestablecidos de imagen y de visor o
 >
 >los comandos de Enfocar anulan los valores de Ajuste preestablecido, incluidos sus efectos de enfoque. Un ajuste preestablecido de imagen determina el tamaño y el formato con los que se entregan las imágenes desde los servidores de imágenes de Dynamic Media. Dynamic Media Classic recomienda encarecidamente el uso de ajustes preestablecidos de imagen para distribuir todas las imágenes y asegurarse de que las imágenes se distribuyen con un tamaño y enfoque uniformes. Una vez que se cambian los valores de enfoque de una imagen individual, sin embargo, los valores de enfoque del ajuste preestablecido de imagen dejarán de aplicarse a la imagen. Se distribuye sin los valores de enfoque del ajuste preestablecido de imagen.
 
-A menudo es necesario enfocar imágenes. Los servidores de imágenes y SPS de Dynamic Media Classic ofrecen varias opciones de enfoque. Es importante entender cómo afecta el enfoque a una imagen y el grado de enfoque que necesita. La mayoría de las imágenes necesitan algo de enfoque pero la cantidad necesaria depende de la imagen.
+A menudo es necesario enfocar imágenes. Dynamic Media Classic y los servidores de imágenes oferta varias opciones de enfoque. Es importante entender cómo afecta el enfoque a una imagen y el grado de enfoque que necesita. La mayoría de las imágenes necesitan algo de enfoque pero la cantidad necesaria depende de la imagen.
 
 El enfoque de imágenes aumenta el contraste de los píxeles para crear el efecto de bordes acentuados. Los seres humanos perciben esta mejora del contraste de los bordes como un enfoque. Si bien es fácil mejorar una imagen mediante filtros de enfoque aplicados a la imagen, también es fácil enfocar una imagen demasiado.
 
 Al enfocar una imagen demasiado se crea un efecto de halo o bandas de las líneas del borde.
 
-Puede seguir las prácticas recomendadas para optimizar el enfoque de las imágenes en Scene7 Publishing System y en el servidor de imágenes de Dynamic Media.
+Existen prácticas recomendadas que puede seguir para optimizar el enfoque de sus imágenes en Dynamic Media Classic y en Dynamic Media Image Server.
 
-Consulte [Prácticas recomendadas para enfocar imágenes en Scene7 Publishing System y en el servidor](/help/assets/s7_sharpening_images.pdf)de imágenes de Dynamic Media.
+Consulte [Prácticas recomendadas para enfocar imágenes en Dynamic Media Classic y Dynamic Media Image Server](/help/assets/s7_sharpening_images.pdf).
 
 **Para enfocar una imagen**
 
@@ -61,9 +64,9 @@ Seleccione el menú Enfoque y elija una opción:
 
 **Ninguno** Desactiva el enfoque.
 
-**Enfocar** Ejecuta un enfoque simple en el archivo después de cambiarlo de tamaño. Es similar al filtro "Enfocar" de Photoshop y no admite ningún parámetro de usuario. Normalmente, utilizaría este filtro o Máscara de enfoque pero no ambos. Como práctica recomendada, no se recomienda utilizar este método, pero puede ayudar a compensar el desenfoque. (URL: op_sharpen)
+**Enfocar** Ejecuta un enfoque simple en el archivo después de cambiarlo de tamaño. Es similar al filtro &quot;Enfocar&quot; de Photoshop y no admite ningún parámetro de usuario. Normalmente, utilizaría este filtro o Máscara de enfoque pero no ambos. Como práctica recomendada, no se recomienda utilizar este método, pero puede ayudar a compensar el desenfoque. (URL: op_sharpen)
 
-**Máscara** de enfoque Permite ajustar un efecto de filtro de enfoque en la imagen final con disminución de resolución. Puede controlar la intensidad del efecto, el radio del efecto (medido en píxeles) y un umbral de contraste que se ignorará. Este efecto utiliza las mismas opciones que el filtro "Máscara de enfoque" de Photoshop. (URL: op_usm)
+**Máscara** de enfoque Permite ajustar con precisión un efecto de filtro de enfoque en la imagen final con disminución de resolución. Puede controlar la intensidad del efecto, el radio del efecto (medido en píxeles) y un umbral de contraste que se ignorará. Este efecto utiliza las mismas opciones que el filtro “Máscara de enfoque” de Photoshop. (URL: op_usm)
 
 Elija estas opciones para precisar el enfoque con Máscara de enfoque:
 
@@ -75,7 +78,7 @@ El valor de radio óptimo depende del tamaño de la imagen. Un valor bajo enfoca
 
 Por ejemplo, para obtener un efecto de enfoque similar para una imagen de 2000 x 2000 píxeles y una imagen de 500 x 500 píxeles, podría establecer un valor de radio de dos píxeles en la imagen de 2000 x 2000 píxeles. A continuación, defina un valor de radio de un píxel en la imagen de 500 x 500 píxeles (un valor mayor para una imagen con más píxeles).
 
-**Umbral** Determina el rango de contraste que se debe ignorar al aplicar el filtro de máscara de enfoque. Esta opción determina cómo deben ser de distintos los píxeles enfocados del área que los rodea para poder considerarse píxeles de borde y por tanto enfocarse.
+**Umbral** Determina el rango de contraste que se debe ignorar cuando se aplica el filtro de máscara de enfoque. Esta opción determina cómo deben ser de distintos los píxeles enfocados del área que los rodea para poder considerarse píxeles de borde y por tanto enfocarse.
 
 El umbral utiliza un valor entre 0 y 255, que es el número de pasos de brillo de una imagen en escala de grises. 0 = negro, 128 = 50% gris y 255 = blanco. Por ejemplo, el valor de umbral 12 ignora las ligeras variaciones de brillo en el tono de la piel para no agregar ruido, al mismo tiempo que agrega contraste del borde a las áreas contrastadas, por ejemplo, donde las pestañas tocan la piel. 
 
@@ -106,7 +109,7 @@ Puede mezclar los tres efectos de enfoque para obtener el resultado final. Sin e
 
 Los ajustes preestablecidos de imagen se pueden cambiar y actualizar en cualquier momento. Verá los resultados de un cambio en un ajuste preestablecido de imagen después de publicar y después de que se borre la caché de la URL.
 
-Si utiliza un ajuste preestablecido para cada imagen de una categoría de tamaño, cualquier administrador de empresa puede actualizar la definición de dicho ajuste preestablecido de imagen, volver a publicar y aplicar cambios a todas las imágenes con ese formato sin necesidad de cambiar ningún código web. La práctica recomendada es utilizar un ajuste preestablecido de imagen para cada tamaño único en el sitio. Para agregar un ajuste preestablecido de imagen, vaya a Ajustes &gt; Configuración de la aplicación &gt; Ajustes preestablecidos de imagen. A continuación, agregue o edite un ajuste preestablecido existente. El único campo requerido es el nombre del ajuste preestablecido. Sin embargo, se debe incluir algún nivel de enfoque en cada ajuste preestablecido. 
+Si utiliza un ajuste preestablecido para cada imagen de una categoría de tamaño, cualquier administrador de empresa puede actualizar la definición de dicho ajuste preestablecido de imagen, volver a publicar y aplicar cambios a todas las imágenes con ese formato sin necesidad de cambiar ningún código web. La práctica recomendada es utilizar un ajuste preestablecido de imagen para cada tamaño único en el sitio. Para agregar un ajuste preestablecido de imagen, vaya a Ajustes > Configuración de la aplicación > Ajustes preestablecidos de imagen. A continuación, agregue o edite un ajuste preestablecido existente. El único campo requerido es el nombre del ajuste preestablecido. Sin embargo, se debe incluir algún nivel de enfoque en cada ajuste preestablecido. 
 
 **Calidad JPG**
 
@@ -122,13 +125,13 @@ Las opciones de Calidad JPG controlan el nivel de compresión JPG:
 
 Si no utiliza un ajuste preestablecido de imagen o transfiere protocolos de enfoque específicos del servidor de imagen junto con la cadena URL, la imagen no se enfocará cuando disminuya su resolución. Sin embargo, si esto ocurre puede definir los valores de enfoque predeterminados y, a partir de entonces, cualquier imagen tendrá siempre algo de enfoque.
 
-Para definir las opciones de enfoque predeterminadas de la empresa, vaya a Ajustes &gt; Ajustes de aplicación &gt; Ajustes de publicación &gt; Servidor de imágenes. Si define Modo de remuestreo predeterminado en Enfocado2, siempre se enfocará la imagen cuando disminuya la resolución.
+Para definir las opciones de enfoque predeterminadas de la empresa, vaya a Ajustes > Ajustes de aplicación > Ajustes de publicación > Servidor de imágenes. Si define Modo de remuestreo predeterminado en Enfocado2, siempre se enfocará la imagen cuando disminuya la resolución.
 
 **Adición de enfoque a ajustes preestablecidos de visor**
 
 A no ser que se agreguen modificadores de imagen de enfoque al ajuste preestablecido, la pequeña imagen inicial de carga puede parecer suave porque se ha disminuido su resolución para que se ajuste a la ventana del visor sin enfocarla.
 
-En SPS, los ajustes preestablecidos de visor (como los ajustes preestablecidos de imagen) permiten centralizar muchas opciones en una ubicación, como una selección de opciones de apariencia y visor (por ejemplo, un botón Imprimir o el control de la velocidad de la animación de zoom). Los ajustes preestablecidos de visor se encuentran en la misma sección que los ajustes preestablecidos de imagen, en Ajustes &gt; Ajustes de la aplicación &gt; Ajustes preestablecidos de visor.
+En Dynamic Media Classic, los ajustes preestablecidos de visor (como los ajustes preestablecidos de imagen) permiten centralizar muchas opciones en una ubicación, incluida la selección de opciones de apariencia y visor (como incluir un botón de impresión o controlar la velocidad de la animación de zoom). Los ajustes preestablecidos de visor se encuentran en la misma sección que los ajustes preestablecidos de imagen, en Ajustes > Ajustes de la aplicación > Ajustes preestablecidos de visor.
 
 La opción Modificadores se encuentra en la sección Configuración básica de todos los ajustes preestablecidos de visor de catálogos electrónicos, de conjunto de giros y de zoom personalizado. Al agregar comandos de enfoque de URL al cuadro Modificadores, se agrega enfoque cada vez que se llama a ese visor con ese ajuste preestablecido de visor.
 
@@ -142,4 +145,4 @@ El ajuste preestablecido enfoca y cambia la apariencia predeterminada del visor.
 
 El último método de enfoque (y el menos recomendado) consiste en crear anulaciones de enfoque imagen por imagen. Esto anula el enfoque en un ajuste preestablecido de imagen con sus propios valores específicos. Sin embargo, anula todos los demás métodos de enfoque en cualquier tamaño. El mejor caso de uso de este método es si algunas de las imágenes no son de alta resolución y los valores de los ajustes preestablecidos de imagen son demasiado altos para estas imágenes pequeñas. En este caso, podría ser necesario aplicar algo de enfoque por imagen.
 
-En SPS, seleccione cualquier imagen, vaya a la vista de detalles (haciendo doble clic o pulsando el botón Ver detalles) y haga clic en Enfocar. Cambie cualquier parámetro y, a continuación, haga clic en Guardar. Esto indica al servidor de imágenes que utilice estos parámetros de enfoque en lugar de cualquier comando al que se llame en la URL, como un modificador de enfoque o un ajuste preestablecido de imagen. Debe publicar para que los cambios surtan efecto.
+En Dynamic Media Classic, seleccione cualquier imagen, vaya a la Vista de detalles (haciendo clic con el doble o pulsando el botón Vista de detalles) y haga clic en Enfocar. Cambie cualquier parámetro y, a continuación, haga clic en Guardar. Esto indica al servidor de imágenes que utilice estos parámetros de enfoque en lugar de cualquier comando al que se llame en la URL, como un modificador de enfoque o un ajuste preestablecido de imagen. Debe publicar para que los cambios surtan efecto.
