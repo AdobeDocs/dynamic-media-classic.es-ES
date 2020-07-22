@@ -5,29 +5,34 @@ description: nulo
 seo-description: Obtenga información sobre cómo iniciar y cerrar sesión en Dynamic Media Classic
 uuid: eaf51ab7-d17a-4b7b-b6a4-1ec78bfee36b
 contentOwner: admin
-content-type: referencia
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: ad418881-ff31-43b1-bbb6-ab2fbcf89bea
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '311'
+ht-degree: 39%
 
 ---
 
 
+<!-- UPDATE THIS TOPIC AFTER DECEMBER 31, 2020!!!!! -->
+
 # Inicio y cierre de sesión{#signing-in-and-out}
 
-Las tareas de carga, generación y publicación de recursos con Scene7 Publishing System exigen el cumplimiento previo de requisitos de sistema y otros. Es preciso completar un inicio de sesión para identificarse como usuario de SPS. Cuando haya terminado de usar Dynamic Media Classic, cierre la sesión.
+Cargar, crear y publicar con Dynamic Media Classic requiere cumplir ciertos requisitos previos de usuario y requisitos del sistema. Para identificarse con Dynamic Media Classic, inicie sesión. Cuando haya terminado de usar Dynamic Media Classic, cierre la sesión.
 
 Asegúrese de que dispone de lo siguiente antes de utilizar Dynamic Media Classic:
 
 * **Configuración** Debe haber sido configurado por el administrador para usar Dynamic Media Classic.
 
-* **URL** Debe tener la ubicación URL para acceder a Dynamic Media Classic. Puede obtener esta URL a través del correo electrónico de bienvenida o del administrador de Dynamic Media Classic.
+* **URL** Debe tener la ubicación URL para acceder a Dynamic Media Classic. Puede obtener esta URL a través del correo electrónico de bienvenida o de su administrador de Dynamic Media Classic.
 
 * **Nombre** de inicio de sesiónUtilice su dirección de correo electrónico como nombre de inicio de sesión.
 
-* **Contraseña** Puede obtener la contraseña temporal en un correo electrónico de bienvenida de Dynamic Media Classic o de su administrador de Dynamic Media Classic. Al iniciar sesión por primera vez, se indica al usuario que puede cambiar esa contraseña temporal.
+* **Contraseña** Obtendrá su contraseña temporal en un correo electrónico de bienvenida de Dynamic Media Classic o de su administrador de Dynamic Media Classic. Al iniciar sesión por primera vez, se indica al usuario que puede cambiar esa contraseña temporal.
 
 ## Inicio de sesión {#sign-in}
 
