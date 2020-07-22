@@ -5,11 +5,14 @@ description: nulo
 seo-description: Obtenga información sobre cómo configurar los ajustes preestablecidos de visor de catálogos electrónicos.
 uuid: aca66bc5-8491-4d81-9a06-1d3531860a14
 contentOwner: admin
-content-type: referencia
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '479'
+ht-degree: 67%
 
 ---
 
@@ -18,18 +21,20 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 Los ajustes preestablecidos de visor de catálogos electrónicos determinan el estilo, el comportamiento y el aspecto de los visores de catálogos electrónicos. Dynamic Media Classic proporciona ajustes preestablecidos de visor de catálogos electrónicos y también puede crear sus propios ajustes preestablecidos de visor de catálogos electrónicos si es administrador.
 
-Para crear un nuevo ajuste preestablecido, puede empezar desde cero o con un ajuste preestablecido de visor de catálogos electrónicos proporcionado por Dynamic Media Classic y guardarlo con un nuevo nombre. Puede crear sus propios ajustes preestablecidos de visor para presentar el material impreso en los colores de la empresa y establecer el tono.
+Para crear un nuevo ajuste preestablecido, puede realizar inicios desde cero o inicios con un ajuste preestablecido de visor de catálogos electrónicos proporcionado por Dynamic Media Classic y guardarlo con un nuevo nombre. Puede crear sus propios ajustes preestablecidos de visor para presentar el material impreso en los colores de la empresa y establecer el tono.
 
 Los ajustes preestablecidos del visor de catálogos electrónicos proporcionan muchas opciones de configuración para pasar de página, acercar o alejar la imagen, realizar búsquedas y elegir “apariencias”. El aspecto de estos controles y del propiamente dicho depende de la selección de ajustes preestablecidos de visor de catálogos electrónicos.
 
 Siga estos pasos para crear un ajuste preestablecido de visor de catálogos electrónicos (debe ser un administrador):
 
-1. Haga clic en **Ajustes** &gt; **Ajustes preestablecidos de visor**.
+1. Haga clic en **Ajustes** > **Ajustes preestablecidos de visor**.
 1. En la pantalla Ajustes preestablecidos de visor, cree un ajuste preestablecido de visor de catálogos electrónicos desde cero o a partir de un ajuste preestablecido de visor de catálogos electrónicos existente:
 
-   * **Creación de un ajuste preestablecido** de visor de catálogos electrónicos Haga clic en Agregar. In the Add Viewer Preset dialog box, choose a platform, choose eCatalog Viewer, then click **Add**.
+   * **Creación de un ajuste preestablecido** de visor de catálogos electrónicos Haga clic en Añadir. En el cuadro de diálogo Añadir ajuste preestablecido de visor, elija una plataforma, seleccione Visor de catálogos electrónicos y, a continuación, haga clic en 
+**Agregar**.
 
-   * **Edición de un ajuste preestablecido** de visor de catálogos electrónicos Seleccione un ajuste preestablecido de visor de catálogos electrónicos y, a continuación, haga clic en Editar. Click **Save As** after you finish creating the preset.
+   * **Edición de un ajuste preestablecido** de visor de catálogos electrónicos Seleccione un ajuste preestablecido de visor de catálogos electrónicos y, a continuación, haga clic en Editar. Haga clic 
+**Guardar como** una vez que haya terminado de crear el ajuste preestablecido.
 
 1. En la pantalla Configurar visor, introduzca un nombre para el ajuste preestablecido de visor de catálogos electrónicos.
 1. En la pantalla de Configurar visor, establezca las opciones que desee.
