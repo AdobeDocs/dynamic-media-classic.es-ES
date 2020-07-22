@@ -2,24 +2,27 @@
 title: Exportación de vídeos de origen y codificados
 seo-title: Exportación de vídeos de origen y codificados
 description: nulo
-seo-description: Descubra cómo exportar vídeos de origen y codificados.
-uuid: 17511 bdf -27 b 7-41 e 1-bf 39-a 5 e 39 f 55 f 5 d 8
+seo-description: Obtenga información sobre cómo exportar vídeos de origen y codificados.
+uuid: 17511bdf-27b7-41e1-bf39-a5e39f55f5d8
 contentOwner: admin
-content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categorías/video
-discoiquuid: f 6 a 2 dc 19-7 eb 5-41 f 7-b 6 f 2-de 1979 ed 1 d 4 e
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
+discoiquuid: f6a2dc19-7eb5-41f7-b6f2-de1979ed1d4e
 translation-type: tm+mt
-source-git-commit: 0f6c8e6ac69e29aab7a48425aab76c10170d9ddf
+source-git-commit: 38f5cf5264f9775a225d354ed9dc2f6caee236f2
+workflow-type: tm+mt
+source-wordcount: '74'
+ht-degree: 79%
 
 ---
 
 
 # Exportación de vídeos de origen y codificados{#exporting-source-and-encoded-videos}
 
-En el panel Examinar, los vídeos de origen tienen la etiqueta “Vídeo principal”. Los vídeos codificados tienen la etiqueta “Vídeo”. Es posible exportar tanto los vídeos de origen como los vídeos principales. Para exportar los archivos de vídeo, selecciónelos en el panel Examinar y elija Archivo &gt; Exportar. 
+En el panel Examinar, los vídeos de origen tienen la etiqueta “Vídeo principal”. Los vídeos codificados tienen la etiqueta “Vídeo”. Es posible exportar tanto los vídeos de origen como los vídeos principales. Para exportar los archivos de vídeo, selecciónelos en el panel Examinar y elija Archivo > Exportar. 
 
-Consulte [Exportación de recursos de Scene7 Publishing System](exporting-assets-scene7-publishing-system.md#exporting_assets_from_scene7_publishing_system).
+Consulte [Exportación de recursos de Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from-dmc).
 
 >[!MORELIKETHIS]
 >
