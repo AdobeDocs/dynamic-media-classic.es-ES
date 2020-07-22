@@ -2,15 +2,18 @@
 title: Creación de un conjunto de imágenes
 seo-title: Creación de un conjunto de imágenes
 description: nulo
-seo-description: Aprenda a crear un conjunto de imágenes.
-uuid: 689 fdc 14-4 f 51-4 c 94-8515-cd 8551 e 101 d 8
+seo-description: Obtenga información sobre cómo crear un conjunto de imágenes.
+uuid: 689fdc14-4f51-4c94-8515-cd8551e101d8
 contentOwner: admin
-content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/image_ sets
-discoiquuid: 3 f 356410-b 30 e -4870-ad 95-6 e 5 a 9 dc 126 c 8
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
+discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '586'
+ht-degree: 89%
 
 ---
 
@@ -34,9 +37,9 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 1. Realice una de las siguientes acciones:
 
-   **Seleccione las imágenes primero** en el panel Examinar, seleccione las imágenes que desee para el conjunto de imágenes, haga clic en Generar &gt; Conjuntos de imágenes.
+   **Seleccione las imágenes primero** En el panel Examinar, seleccione las imágenes que desee para el conjunto de imágenes y haga clic en Generar > Conjuntos de imágenes.
 
-   **Comience en la pantalla Conjunto de imágenes** haga clic en Generar &gt; Conjuntos de imágenes. Aparecerá la pantalla Conjunto de imágenes. Seleccione una carpeta en la biblioteca de recursos y arrastre las imágenes que desea agregar al conjunto de imágenes a la pantalla Conjunto de imágenes.
+   **Inicio en la pantalla** Conjunto de imágenes Haga clic en Generar > Conjuntos de imágenes. Aparecerá la pantalla Conjunto de imágenes. Seleccione una carpeta en la biblioteca de recursos y arrastre las imágenes que desea agregar al conjunto de imágenes a la pantalla Conjunto de imágenes.
 
 1. Para cambiar el orden de las imágenes, arrastre cada una a su nueva ubicación.
 1. Asegúrese de que esté seleccionada la opción **Publicar después de guardar** (predeterminada), cerca de la esquina inferior derecha de la página.
@@ -50,7 +53,7 @@ Según si edita un conjunto publicado o sin publicar, la opción **Publicar desp
 | ¿Ya se ha publicado el conjunto? | ¿Se ha seleccionado la opción “Publicar después de Guardar” antes de guardar la edición? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
 |--- |--- |--- |--- |
 | Sí | Sí | Publicado | Publicado |
-| Sí | No | Publicado | Los miembros existentes del conjunto conservan su estado publicado. Todos los miembros nuevos que agregue durante la edición conservarán su estado publicado o no publicado. |
+| Sí | No | Publicado | Los miembros existentes del conjunto conservan su estado publicado.Los nuevos miembros del conjunto que haya agregado durante la edición conservarán su estado publicado o sin publicar. |
 | No | Sí | Publicado | Publicado |
 | No | No | Sin publicar | Los miembros existentes del conjunto y cualquier nuevo miembro que añada al conjunto durante la edición conservarán su estado publicado o no publicado. |
 
@@ -77,5 +80,5 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 **Para eliminar un conjunto de imágenes**
 
 1. En la vista de cuadrícula, la vista de lista o la vista de detalles, seleccione uno o varios conjuntos de imágenes.
-1. En la barra de navegación global, haga clic en **Archivo** &gt; **Eliminar** &gt; **Eliminar**.
+1. En la barra de navegación global, haga clic en **Archivo** > **Eliminar** > **Eliminar**.
 
