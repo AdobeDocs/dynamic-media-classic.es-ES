@@ -3,21 +3,24 @@ title: Vinculación de un conjunto de giros a una página web
 seo-title: Vinculación de un conjunto de giros a una página web
 description: nulo
 seo-description: Descubra cómo vincular un conjunto de giros a una página web.
-uuid: d 3 c 5773 e -60 c 4-4 e 8 b -9 c 48-e 1 e 3 eb 8028 d 0
+uuid: d3c5773e-60c4-4e8b-9c48-e1e3eb8028d0
 contentOwner: admin
-content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/spin_ sets
-discoiquuid: 651 b 21 ef-e 322-4 e 6 d -8 e 37-45 ffd 56 f 7 a 58
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
+discoiquuid: 651b21ef-e322-4e6d-8e37-45ffd56f7a58
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '723'
+ht-degree: 88%
 
 ---
 
 
 # Vinculación de un conjunto de giros a una página web{#linking-a-spin-set-to-a-web-page}
 
-Los sitios web y las aplicaciones acceden al contenido del servidor de imágenes de Dynamic Media, incluidos los conjuntos de giros, a través de cadenas URL o código incrustado. Estas cadenas URL se activan durante el proceso de publicación. Para colocar la cadena URL o código incrustado del conjunto de giros en las páginas web y las aplicaciones, debe copiar esta cadena desde Scene7 Publishing System.
+Los sitios web y las aplicaciones acceden al contenido de Dynamic Media Image Server, incluidos los conjuntos de giros, a través de cadenas URL o código incrustado. Estas cadenas URL se activan durante el proceso de publicación. Para colocar la cadena URL o el código incrustado del conjunto de giros en las páginas web y las aplicaciones, debe copiar esta cadena desde Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -30,15 +33,15 @@ Los sitios web y las aplicaciones acceden al contenido del servidor de imágenes
 1. Encima del panel de exploración de recursos, en la parte derecha de la barra de herramientas, realice una de las siguientes acciones:
 
    * Haga clic en **Vista de cuadrícula**. En el panel de exploración de recursos, haga doble clic en un único recurso para abrirlo en la vista de detalles. En el panel URL y código incrustado de la derecha, haga clic en **Copiar URL** a la derecha del visor que desee.
-   * Haga clic en **Vista de cuadrícula**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **Vista previa** &gt; **Lista del visor** debajo de la imagen en miniatura.
+   * Haga clic en **Vista de cuadrícula**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **Vista previa** > **Lista del visor** debajo de la imagen en miniatura.
 
       En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Copiar URL**.
 
-   * Haga clic en **Vista de lista**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **Vista previa** &gt; **Lista del visor** a la derecha de la imagen en miniatura.
+   * Haga clic en **Vista de lista**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **Vista previa** > **Lista del visor** a la derecha de la imagen en miniatura.
 
       En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Copiar URL**.
 
-   * Haga clic en **Vista de cuadrícula**, **Vista de lista** o **Vista de detalles**. En la misma barra de herramientas, haga clic en **Vista previa** &gt; **Lista del visor**.
+   * Haga clic en **Vista de cuadrícula**, **Vista de lista** o **Vista de detalles**. En la misma barra de herramientas, haga clic en **Vista previa** > **Lista del visor**.
 
       En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Copiar URL**.
 
@@ -63,15 +66,15 @@ El uso de la función de código incrustado permite revisar el código del visor
 1. Encima del panel de exploración de recursos, en la parte derecha de la barra de herramientas, realice una de las siguientes acciones:
 
    * Haga clic en **Vista de cuadrícula**. En el panel de exploración de recursos, haga doble clic en un único recurso para abrirlo en la vista de detalles. En el panel URL y código incrustado de la derecha, haga clic en **Código incrustado** a la derecha del visor que desee.
-   * Haga clic en **Vista de cuadrícula**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **Vista previa** &gt; **Lista del visor** debajo de la imagen en miniatura.
+   * Haga clic en **Vista de cuadrícula**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **Vista previa** > **Lista del visor** debajo de la imagen en miniatura.
 
       En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Código incrustado**.
 
-   * Haga clic en **Vista de lista**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **Vista previa** &gt; **Lista del visor** a la derecha de la imagen en miniatura.
+   * Haga clic en **Vista de lista**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **Vista previa** > **Lista del visor** a la derecha de la imagen en miniatura.
 
       En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Código incrustado**.
 
-   * Haga clic en **Vista de cuadrícula**, **Vista de lista** o **Vista de detalles**. En la misma barra de herramientas, haga clic en **Vista previa** &gt; **Lista del visor**.
+   * Haga clic en **Vista de cuadrícula**, **Vista de lista** o **Vista de detalles**. En la misma barra de herramientas, haga clic en **Vista previa** > **Lista del visor**.
 
       En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Código incrustado**.
 
