@@ -2,15 +2,18 @@
 title: Preparación de recursos de conjunto de muestras para cargar
 seo-title: Preparación de recursos de conjunto de muestras para cargar
 description: nulo
-seo-description: Aprenda a preparar recursos de conjuntos de muestras para cargar.
-uuid: ed 78 da 8 c-d 708-418 b -97 ce -3 c 37 d 9 df 9 c 90
+seo-description: Obtenga información sobre cómo preparar recursos de conjuntos de muestras para la carga.
+uuid: ed78da8c-d708-418b-97ce-3c37d9df9c90
 contentOwner: admin
-content-type: referencia
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/swatch_ sets
-discoiquuid: 0 c 851 ecd-be 05-46 a 9-8654-3 d 028 f 3217 a 4
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
+discoiquuid: 0c851ecd-be05-46a9-8654-3d028f3217a4
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 85%
 
 ---
 
