@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ff112497b41f71b77f4afa47d331a1a9bc1e2d07
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 58%
+source-wordcount: '357'
+ht-degree: 37%
 
 ---
 
@@ -24,14 +24,21 @@ Antes de iniciar sesión para configurar los informes de Adobe Analytics y hacer
 
 Al iniciar sesión, tiene la opción de introducir el ID de organización de Marketing Cloud para utilizar la implementación de análisis de vídeo más reciente. Si decide no introducir su ID, el sistema de informes de vídeo seguirá funcionando. Sin embargo, puede hacer que los datos no se integren correctamente con otros datos de ese cliente desde fuera de Dynamic Media Classic.
 
+>[!NOTE]
+>
+>Si su cuenta de Adobe Analytics se ha migrado a la autenticación basada en IMS de Adobe (Identity Management System) para iniciar sesión, la introducción de credenciales directas no funcionará.
+
 **Inicio de sesión en Adobe Analytics**
 
-1. Haga clic en **Ajustes** > **Ajustes de aplicación**.
-1. En el panel izquierdo, haga clic en **Adobe Analytics** en Ajustes de aplicación.
-1. En la pantalla de configuración de Adobe Analytics, haga clic en **Inicio de sesión de Adobe Analytics**.
-1. En el cuadro de diálogo Inicio de sesión, escriba el nombre de su compañía, el ID de organización de Marketing Cloud (opcional), el nombre de usuario y la contraseña.
-1. Haga clic en **Inicio de sesión**.
-1. Seleccione un conjunto de informes y haga clic en **Aceptar**.
+1. Cerca de la esquina superior derecha de la página de Dynamic Media Classic, toque **[!UICONTROL Ajustes > Ajustes]** de aplicación.
+1. In the left pane, under **[!UICONTROL Application Setup]**, tap **[!UICONTROL Adobe Analytics]**.
+1. In the Adobe Analytics Configuration page, tap **[!UICONTROL Adobe Analytics Login]**.
+1. En el cuadro de diálogo Inicio de sesión **[!UICONTROL de]** Adobe Analytics, introduzca el nombre de su compañía, el ID de organización de Marketing Cloud (opcional), el nombre de usuario y la clave secreta ** compartida en el campo de texto **[!UICONTROL Contraseña]** .
+
+   Puede recuperar la clave secreta ** compartida desde la consola de administración de Analytics. Consulte [Cómo obtener las credenciales de API para las cuentas](https://helpx.adobe.com/analytics/kb/how-to-get-api-credentials-for-user-accounts-.html)de usuario.
+
+1. Haga clic en **[!UICONTROL Inicio de sesión]**.
+1. En el menú desplegable Grupo **[!UICONTROL de]** informes, elija un grupo de informes y haga clic en **[!UICONTROL Aceptar]**.
 
    >[!NOTE]
    >
