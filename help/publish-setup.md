@@ -9,9 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: cba59093-28b6-4490-b838-d942b72ad1ec
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 5622464ae7ae9cd47b7674449c7d1f7897bf4319
 workflow-type: tm+mt
-source-wordcount: '2397'
+source-wordcount: '2409'
 ht-degree: 65%
 
 ---
@@ -27,7 +27,7 @@ Para abrir las pantallas de Ajuste de publicación, haga clic en Ajustes > Ajust
 
 >[!NOTE]
 >
->las pantallas de Ajuste de publicación están reservadas a los desarrolladores y programadores web experimentados. Dynamic Media Classic supone que los usuarios que cambian la configuración en estas pantallas están familiarizados con Dynamic Media Classic, las normas y convenciones del protocolo HTTP y la tecnología básica de imágenes.
+>las pantallas de Ajuste de publicación están reservadas a los desarrolladores y programadores web experimentados. Dynamic Media Classic da por hecho que los usuarios que cambian la configuración en estas pantallas están familiarizados con Dynamic Media Classic, los estándares y convenciones del protocolo HTTP y la tecnología básica de imágenes.
 
 ## Servidor de imágenes {#image-server}
 
@@ -37,7 +37,7 @@ Cambie esta configuración solo con la ayuda de una persona de asistencia técni
 
 **Administración** de catálogos Esta configuración determina la forma en que interactúan Dynamic Media Classic y el catálogo. A diferencia de la mayoría de los servidores web, las llamadas mediante URL al servidor de imágenes de Dynamic Media se dirigen a un archivo de catálogo o manifiesto en lugar de a un archivo de imagen en sí. El archivo de catálogo (que no debe confundirse con un catálogo electrónico) contiene una lista del contenido que se ha publicado en el servidor de imágenes además de la ruta de cada imagen. Si tiene un ID de Digimarc, introduzca su información de usuario en la sección Información de usuario de Digimarc.
 
-**Atributos** de solicitud Esta configuración impone límites a las imágenes que se pueden enviar desde el servidor.
+**Atributos** de solicitud Esta configuración impone límites a las imágenes que se pueden enviar desde el servidor. Por ejemplo, el límite ** máximo **[!UICONTROL de tamaño de la imagen de]** respuesta es **[!UICONTROL anchura]** 5000 y **[!UICONTROL altura]** 5000.
 
 **Atributos** de solicitud predeterminados Esta configuración se refiere al aspecto predeterminado de las imágenes.
 
@@ -54,7 +54,7 @@ Cambie esta configuración solo con la ayuda de una persona de asistencia técni
 Por ejemplo, si es una marca multinacional que vende en distintos países, puede asegurarse de que cada país tiene su propio visor con su propia configuración regional específica. Para llevar a cabo esta funcionalidad, puede especificar una cadena de asignación de configuración regional. A continuación, puede editar el texto de información sobre herramientas en un ajuste preestablecido del visor, agregando las cadenas de texto traducidas del visor para el idioma que desee.
 
 >[!NOTE]
-> Para configurar las opciones de Asistencia técnica de Localización, póngase en contacto con el servicio de asistencia técnica de Adobe Dynamic Media Classic o envíe un correo electrónico a s7support@adobe.com para solicitar ayuda para la configuración.
+> Para configurar las opciones de asistencia técnica de Localización, póngase en contacto con el servicio de asistencia técnica de Adobe Dynamic Media Classic o envíe un correo electrónico a s7support@adobe.com para solicitar ayuda para la configuración.
 
 Para más información sobre la configuración de la **Asistencia para la localización**, consulte [Consideraciones al configurar la localización de recursos](publish-setup.md#considerations_when_setting_up_localization_of_assets).
 
@@ -62,9 +62,9 @@ Para más información sobre la configuración de la **Asistencia para la locali
 
 >[!NOTE]
 >
->Si desea configurar las opciones de Soporte de Localización en Dynamic Media Classic, como el campo Asignación de configuración regional, póngase en contacto con el servicio de asistencia técnica de Dynamic Media Classic de Adobe. O bien, envíe un correo electrónico a s7support@adobe.com para solicitar ayuda con la configuración.
+>Si desea configurar las opciones de soporte para Localizaciones en Dynamic Media Classic, como el campo Asignación de configuración regional, póngase en contacto con el servicio de soporte técnico de Adobe Dynamic Media Classic. O bien, envíe un correo electrónico a s7support@adobe.com para solicitar ayuda con la configuración.
 
-Una forma común de utilizar Dynamic Media Classic es administrar las imágenes de los productos en los sitios web de comercio electrónico. Las empresas internacionales se enfrentan a un reto importante, ya que los recursos para productos similares tienen un aspecto distinto según el país. Normalmente, las diferencias constituyen una pequeña parte de todo el medio. Copiar todos los recursos para cada uno de los países y sobrescribir solo las diferencias es un enorme esfuerzo y contradice el principio de un solo recurso maestro. Dichas diferencias en los recursos pueden ser numerosas, desde vídeos para cada país con diferentes pistas de audio hasta diferencias pequeñas pero importantes en el cable de alimentación que se utiliza con el producto. Dynamic Media Classic utiliza un mecanismo de búsqueda básico. Puede definir el orden de los sufijos de los recursos en que busca el servidor de imágenes, empezando por la configuración regional requerida.
+Una forma común de utilizar Dynamic Media Classic es administrar las imágenes del producto en los sitios web de comercio electrónico. Las empresas internacionales se enfrentan a un reto importante, ya que los recursos para productos similares tienen un aspecto distinto según el país. Normalmente, las diferencias constituyen una pequeña parte de todo el medio. Copiar todos los recursos para cada uno de los países y sobrescribir solo las diferencias es un enorme esfuerzo y contradice el principio de un solo recurso maestro. Dichas diferencias en los recursos pueden ser numerosas, desde vídeos para cada país con diferentes pistas de audio hasta diferencias pequeñas pero importantes en el cable de alimentación que se utiliza con el producto. Dynamic Media Classic utiliza un mecanismo de búsqueda básico. Puede definir el orden de los sufijos de los recursos en que busca el servidor de imágenes, empezando por la configuración regional requerida.
 
 **Búsqueda de recursos**
 
@@ -140,7 +140,7 @@ If an unknown or empty locale parameter is supplied with `locale=`, then the loc
 
 **Acerca de defaultImage**
 
-El servidor de imágenes prueba las opciones de la configuración regional solicitada, una tras otra. Si no coincide ninguna, se aplican las opciones de configuración regional a defaultImage y se devuelve la versión coincidente. Por lo tanto, cada configuración regional debe incluir una opción para la imagen sin localización o las versiones de defaultImage localizadas deben estar disponibles en Dynamic Media Classic.
+El servidor de imágenes prueba las opciones de la configuración regional solicitada, una tras otra. Si no coincide ninguna, se aplican las opciones de configuración regional a defaultImage y se devuelve la versión coincidente. Por lo tanto, cada configuración regional debe incluir una opción para la imagen sin localización, o bien las versiones de defaultImage localizadas deben estar disponibles en Dynamic Media Classic.
 
 **Situaciones de búsqueda de localeMap**
 
@@ -223,7 +223,7 @@ Using the first example as a basis, images for all languages may have the suffix
 
 La pantalla del procesador de imágenes establece la configuración predeterminada a la hora de enviar conjuntos de imágenes desde los servidores de procesamiento de imágenes. Las opciones de configuración se dividen en estas cinco categorías (consulte la pantalla del servidor de imágenes para ver una descripción detallada de las opciones):
 
-**Administración** de catálogos Esta configuración determina cómo interactúan Dynamic Media Classic y el archivo de catálogo. Las llamadas mediante URL al servidor de procesamiento de Dynamic Media Classic se realizan en el catálogo, que a su vez llama para enviar imágenes desde el servidor. Cambie esta configuración solo con la ayuda de una persona de asistencia técnica de Dynamic Media Classic.
+**Administración** de catálogos Esta configuración determina la forma en que interactúan Dynamic Media Classic y el archivo de catálogo. El servidor de procesamiento de Dynamic Media Classic realiza llamadas mediante URL al catálogo, que a su vez llama para enviar imágenes desde el servidor. Cambie esta configuración solo con la ayuda de una persona de asistencia técnica de Dynamic Media Classic.
 
 **Atributos** de sesión Esta configuración establece parámetros de error, la dirección URL de las URL de imagen relativas y si se permite la superposición de objetos.
 
