@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: 7c9b1976ced6ef5ad48b624b99aeeffed380168a
+source-git-commit: ffb8113750e526fe9124a06ac071ceadf23f9f5c
 workflow-type: tm+mt
-source-wordcount: '10982'
+source-wordcount: '10979'
 ht-degree: 68%
 
 ---
@@ -36,9 +36,9 @@ Al crear la cuenta, Dynamic Media Classic proporciona automáticamente los servi
 
 Consulte también [Prueba del servicio Secure Testing](testing-assets-making-them-public.md#testing_the_secure_testing_service).
 
-* **Nombre** del servidor publicado: este servidor es el servidor CDN activo que se utiliza en todas las llamadas URL generadas por el sistema específicas de su cuenta. No cambie este nombre de servidor a menos que un técnico de asistencia de Dynamic Media Classic le indique que lo haga.
+* **Nombre** del servidor publicado: este servidor es el servidor CDN activo que se utiliza en todas las llamadas URL generadas por el sistema específicas de su cuenta. No cambie este nombre de servidor a menos que un técnico de soporte de Dynamic Media Classic le indique que lo haga.
 
-* **Nombre** del servidor de Origen: este servidor se utiliza solamente para la prueba de control de calidad. No cambie este nombre de servidor a menos que se lo indique un técnico de asistencia de Dynamic Media Classic.
+* **Nombre** del servidor de origen: este servidor se utiliza solamente para la prueba de control de calidad. No cambie este nombre de servidor a menos que un técnico de soporte de Dynamic Media Classic le indique que lo haga.
 
 <!-- **AGM Server Name** This server is used for Web-to-Print templates. This server is set on a company-wide basis. Do not change this server name unless instructed to do so by a Dynamic Media Classic support technician. -->
 
@@ -100,9 +100,9 @@ Consulte también [Prueba del servicio Secure Testing](testing-assets-making-the
 
    Hay ciertas acciones en el menú Generar que solo funcionan, o funcionan de forma opcional, con vídeos individuales. Esta funcionalidad hace que sea necesario mostrar todos los derivados de vídeos codificados que pueda seleccionar, independientemente de cómo haya definido la opción **Mostrar vídeos codificados**. The Build actions that over-ride the **Show Encoded Videos** setting include **Adaptive Video Sets**, and **eCatalogs**.
 
-   >[Nota]
+   >[!NOTE]
    >
-   >Si no ha utilizado Dynamic Media Classic para cargar y codificar los recursos de vídeo, Dynamic Media Classic muestra todos los vídeos codificados individuales, aunque esta opción no esté seleccionada.
+   >Si no ha utilizado Dynamic Media Classic para cargar y codificar los recursos de vídeo, este programa muestra todos los vídeos codificados individuales, aunque esta opción no esté seleccionada.
 
 * **Mostrar botón** Actualizar subcarpetas: active o desactive la visualización del botón Actualizar de las subcarpetas.
 
@@ -124,7 +124,7 @@ Consulte también [Prueba del servicio Secure Testing](testing-assets-making-the
 
    * **Sobrescribir en cualquier carpeta, el mismo nombre de recurso base independientemente de la extensión** . Esta opción es la regla de reemplazo más inclusiva. Puede cargar la imagen de sustitución en otra carpeta distinta de la original, cargar un archivo con una extensión de nombre de archivo diferente y sustituir el archivo original. Si el archivo original está en otra carpeta, la imagen de sustitución residirá en la nueva carpeta en la que se haya cargado.
 
-* **Conservar publicación** : especifica si una imagen de reemplazo cargada en Dynamic Media Classic conserva la configuración Listo para publicar de la imagen que está reemplazando o si la configuración se especifica al cargar.
+* **Conservar publicación** : especifica si una imagen de sustitución cargada en Dynamic Media Classic conserva la configuración Listo para publicar de la imagen que está reemplazando o si la configuración se especifica al cargar.
 
 * **Perfiles** de color predeterminados: especifica los perfiles de color aplicados como parte de Opciones de Perfil de color predeterminadas al agregar imágenes CMYK.
 
@@ -144,11 +144,11 @@ Consulte también [Prueba del servicio Secure Testing](testing-assets-making-the
 
 Dynamic Media Classic no permite que dos archivos tengan el mismo nombre. El ID de Dynamic Media Classic de cada elemento (el nombre de la imagen menos la extensión de nombre de archivo) debe ser único. Debido a esta regla, el cuadro de diálogo Cargar incluye las opciones Sobrescribir imágenes. El efecto exacto de esta opción depende de un ajuste para la configuración interna de Dynamic Media Classic de cada compañía.
 
-Si previamente ha cargado las imágenes y, a continuación, ha cambiado los archivos originales (o los ha sustituido), la opción Sobrescribir seleccionada especifica cómo Dynamic Media Classic sustituye las imágenes. No se modifica ningún dato referente a la imagen sino que la nueva imagen sustituye la antigua. Si la carpeta también contiene imágenes que aún no están en Dynamic Media Classic, se agregan.
+Si previamente ha cargado las imágenes y, a continuación, ha cambiado los archivos originales (o los ha reemplazado), la opción Sobrescribir seleccionada especifica cómo se reemplazan las imágenes con Dynamic Media Classic. No se modifica ningún dato referente a la imagen sino que la nueva imagen sustituye la antigua. Si la carpeta también contiene imágenes que aún no están en Dynamic Media Classic, se agregan.
 
 Use esta opción si las imágenes cargadas han sufrido alguna variación (por ejemplo, se ha alterado una imagen) pero la referencia a ellas permanece igual. La sobreescritura también resulta de utilidad a la hora de cargar y extraer archivos PDF de Adobe®. To fine-tune how Dynamic Media Classic *rips* the image, adjust the ICC color profile options in the Upload dialog box and re-upload using the Overwrite feature.
 
-Los ID de Dynamic Media Classic que se utilizan para acceder a las imágenes desde los servidores de producción se derivan de los nombres de archivo de imagen. El uso de caracteres en mayúsculas y minúsculas en el nombre del archivo es importante, tanto para la sustitución de archivos existentes como para los ID de Dynamic Media Classic que se utilizan para acceder a la imagen. Asegúrese de que el uso de caracteres en mayúsculas y minúsculas en los nombres de archivo es correcto antes de cargarlos en Dynamic Media Classic para evitar que los ID de Dynamic Media Classic difieran solo en el caso de la misma imagen.
+Los ID de Dynamic Media Classic que se utilizan para acceder a las imágenes desde los servidores de producción se derivan de los nombres de archivo de imagen. El uso de caracteres en mayúsculas y minúsculas en el nombre del archivo es importante, tanto para la sustitución de archivos existentes como para los ID de Dynamic Media Classic utilizados para acceder a la imagen. Asegúrese de que el uso de caracteres en mayúsculas y minúsculas en los nombres de archivo es correcto antes de cargarlos en Dynamic Media Classic para evitar que los ID de Dynamic Media Classic solo difieran en el caso de la misma imagen.
 
 Al anular la selección de esta opción, todas las imágenes que tengan los mismos nombres de archivo como imágenes existentes se tratan como duplicados y, por consiguiente, no se agregan.
 
@@ -276,7 +276,7 @@ Consulte también [Perfiles ICC](icc-profiles.md#icc_profiles).
 
 ## Activación o desactivación de los ajustes preestablecidos de vídeos adaptables {#activating-or-deactivating-adaptive-video-presets}
 
-ofertas de Dynamic Media Classic Ajustes preestablecidos de codificación de vídeo adaptable. Es una lista maestra de ajustes preestablecidos que combina ajustes preestablecidos de vídeo adaptable de 16:9 y ajustes preestablecidos de vídeo adaptable de 4:3 en un grupo. Estos ajustes preestablecidos predefinidos reflejan la configuración de codificación más común y se han optimizado para la reproducción en dispositivos móviles, tablets y escritorios.
+Ofertas de Dynamic Media Classic Ajustes preestablecidos de codificación de vídeo adaptable. Es una lista maestra de ajustes preestablecidos que combina ajustes preestablecidos de vídeo adaptable de 16:9 y ajustes preestablecidos de vídeo adaptable de 4:3 en un grupo. Estos ajustes preestablecidos predefinidos reflejan la configuración de codificación más común y se han optimizado para la reproducción en dispositivos móviles, tablets y escritorios.
 
 De forma predeterminada solo se activan (habilitan o “encienden”) los ajustes preestablecidos de codificación de “Vídeo adaptable”. Puede desactivarlos, si lo desea. Los ajustes preestablecidos de vídeos adaptables inactivos no aparecen como una opción seleccionable en la sección eVideo del cuadro de diálogo Opciones de trabajo de carga.
 
@@ -322,7 +322,7 @@ Para seleccionar un ajuste preestablecido de codificación, haga clic en Opc. de
 
    **Ajustes preestablecidos de codificación única**
 
-   >[NOTA]
+   >[!NOTE]
    >
    >Para publicar vídeo en iPad, puede elegir un ajuste preestablecido de codificación Móvil o Tablet. Los ajustes preestablecidos Tablet están diseñados específicamente para iPad, normalmente con mayor resolución y calidad para aprovechar el tamaño de pantalla más grande y la conexión de ancho de banda más alta. La publicación de archivos de vídeo codificados con un ajuste preestablecido Tablet requiere la inclusión de código de detección de dispositivo en la aplicación o sitio móvil. Este código cambia entre la visualización de vídeo en iPhone o iPad, según el dispositivo de reproducción. Si se selecciona un ajuste preestablecido Móvil para la publicación de archivos de vídeo en iPad, el flujo de trabajo es más simple. El motivo es que puede utilizar el mismo archivo de vídeo para iPhone e iPad. Sin embargo, la calidad se estandariza a la visualización de iPhone de menor resolución.
 
@@ -336,7 +336,7 @@ Después de hacer clic en **Iniciar carga**, se carga el archivo de vídeo maest
 
 Los parámetros de las opciones de ajustes preestablecidos de codificación son los siguientes:
 
-**Velocidad** de conexión a Destinatario La velocidad de conexión a Internet del usuario final de destino.
+**Velocidad** de conexión a destinatario La velocidad de conexión a Internet del usuario final de destino.
 
 **Sufijo** de archivo codificado El sufijo que se adjunta al archivo de vídeo codificado para fines de identificación.
 
@@ -440,11 +440,11 @@ Para obtener más información sobre los parámetros de opciones de codificació
 
 >[!NOTE]
 >
->**Aviso** de fin de vida útil de visores Flash: a partir del 31 de enero de 2017, Adobe Dynamic Media Classic ha dejado de ofrecer asistencia técnica para la plataforma de visor Flash. Para obtener más información sobre este cambio importante, consulte el siguiente sitio web de preguntas más frecuentes: [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
+>**Aviso** de fin de vida útil de los visores de Flash: a partir del 31 de enero de 2017, Adobe Dynamic Media Classic finalizó oficialmente la compatibilidad con la plataforma del visor de Flash. Para obtener más información sobre este cambio importante, consulte el siguiente sitio web de preguntas más frecuentes: [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
 
 Un *ajuste preestablecido de visor* es una serie de opciones que determinan la manera en que los usuarios verán los recursos de medios enriquecidos en la pantalla de su ordenador y dispositivos móviles. Como administrador, puede crear ajustes preestablecidos de visor. Se pueden configurar varias opciones de configuración para los visores. Por ejemplo, puede cambiar el tamaño, el comportamiento del zoom, las combinaciones de colores, los bordes y las fuentes del visor.
 
-Se recomienda utilizar los visores de vídeo HTML5 de Dynamic Media Classic. Los ajustes preestablecidos utilizados en los visores de vídeo HTML5 son reproductores de vídeo sólidos. Al combinar en un solo reproductor la capacidad para diseñar los componentes de reproducción mediante HTML5 y CSS, tener la reproducción incorporada y usar flujo adaptable y progresivo en función de la capacidad del explorador, se amplía el alcance del contenido de medios enriquecidos para los usuarios de móviles, tablets y de escritorio y se garantiza una experiencia optimizada de vídeo.
+La práctica recomendada es utilizar los visores de vídeo HTML5 de Dynamic Media Classic. Los ajustes preestablecidos utilizados en los visores de vídeo HTML5 son reproductores de vídeo sólidos. Al combinar en un solo reproductor la capacidad para diseñar los componentes de reproducción mediante HTML5 y CSS, tener la reproducción incorporada y usar flujo adaptable y progresivo en función de la capacidad del explorador, se amplía el alcance del contenido de medios enriquecidos para los usuarios de móviles, tablets y de escritorio y se garantiza una experiencia optimizada de vídeo.
 
 Consulte [Acerca de los visores](hhttps://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html) HTML5 en la Guía de referencia de visores de Adobe.
 
@@ -458,7 +458,7 @@ Consulte también Ejemplos [de la biblioteca de referencia de visores de](https:
 
 ### Compatibilidad de los visores para páginas web diseñadas para interactividad {#viewer-support-for-responsive-designed-web-pages}
 
-Diferentes páginas Web tienen diferentes necesidades. A veces deseará que la página web proporcione un vínculo que abra el visor HTML5 en otra ventana del explorador. En otros casos, puede ser necesario incrustar el visor HTML5 directamente en la página de alojamiento. En este último caso, la página web puede tener un diseño estático. O bien, puede ser “interactiva” y mostrarse de forma diferente en diferentes dispositivos o diferentes tamaños de ventana de explorador. Para satisfacer estas necesidades, los visores HTML5 que vienen con Dynamic Media Classic admiten tanto páginas web estáticas como páginas web diseñadas interactivas.
+Diferentes páginas Web tienen diferentes necesidades. A veces deseará que la página web proporcione un vínculo que abra el visor HTML5 en otra ventana del explorador. En otros casos, puede ser necesario incrustar el visor HTML5 directamente en la página de alojamiento. En este último caso, la página web puede tener un diseño estático. O bien, puede ser “interactiva” y mostrarse de forma diferente en diferentes dispositivos o diferentes tamaños de ventana de explorador. Para satisfacer estas necesidades, los visores HTML5 que vienen con Dynamic Media Classic admiten páginas web estáticas y páginas web diseñadas con capacidad de respuesta.
 
 Consulte [Biblioteca de imágenes estáticas interactivas](https://marketing.adobe.com.com/resources/help/en_US/s7/is_ir_api/is_api/c_about_responsive_static_image_library.html)en la Ayuda *de la API de servicio de imágenes de* Adobe para obtener más información sobre cómo incrustar visores interactivos en sus páginas web.
 
@@ -486,13 +486,13 @@ Al determinar el uso del ancho de banda completo para este visor, tenga en cuent
 
 Por ejemplo, si el tamaño de la imagen principal es 350 x 350 píxeles, con un factor de zoom de 3, el tamaño de la imagen flotante que resultará será de 1050 x 1050 píxeles. Si el tamaño de la imagen principal es de 300 x 300 píxeles, con un factor de zoom de 4, el tamaño de la imagen flotante será de 1200 x 1200 píxeles. Según el ajuste de calidad JPEG (el recomendado es entre 80 y 90), podrá reducir el tamaño del archivo en gran medida. Los factores de zoom recomendados son de 2,5 a 4, según el tamaño de la imagen principal.
 
-### Tabla de compatibilidad con ajustes preestablecidos de visor de Dynamic Media Classic {#scene-viewer-preset-compatibility-matrix}
+### Tabla de compatibilidad de ajustes preestablecidos de visor de Dynamic Media Classic {#scene-viewer-preset-compatibility-matrix}
 
-**Aviso** de fin de vida útil de visores Flash: A partir del 31 de enero de 2017, Adobe Dynamic Media Classic dejó de ofrecer asistencia técnica para la plataforma de visor Flash.
+**Aviso** de fin de vida útil de los visores de Flash: A partir del 31 de enero de 2017, Adobe Dynamic Media Classic dejó de ofrecer asistencia técnica para la plataforma del visor de Flash.
 
 Para obtener más información sobre este cambio importante, consulte el siguiente sitio web de preguntas más frecuentes: [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
 
-La siguiente tabla identifica los ajustes preestablecidos de visor Dynamic Media Classic disponibles actualmente. En la tabla también se especifica la compatibilidad del visor con los ordenadores y los dispositivos móviles, así como la tecnología empleada para cada visor.
+La siguiente tabla identifica los ajustes preestablecidos de visor de Dynamic Media Classic disponibles actualmente. En la tabla también se especifica la compatibilidad del visor con los ordenadores y los dispositivos móviles, así como la tecnología empleada para cada visor.
 
 Consulte también Ejemplos [de la biblioteca de referencia de visores de](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)Adobe.
 
@@ -589,7 +589,7 @@ Consulte [Exportación de ajustes preestablecidos](application-setup.md#exportin
 * Abra la lista desplegable de **activo/inactivo** y seleccione una opción para mostrar los ajustes preestablecidos activos, los inactivos o todos.
 * Abra la lista desplegable **Visor** y elija una opción para ver únicamente los visores de un tipo concreto. Seleccione **Todos los visores** para mostrarlos todos.
 
-**Clasificación de ajustes preestablecidos** Haga clic en un encabezado de columna (Activo, Tipo, Ajuste preestablecido o Platform) para ordenar la lista en una columna. Vuelva a hacer clic en el encabezado de columna para ordenar la lista en orden descendente (o ascendente).
+**Clasificación de ajustes preestablecidos** Haga clic en un encabezado de columna (Activo, Tipo, Ajuste preestablecido o Plataforma) para ordenar la lista en una columna. Vuelva a hacer clic en el encabezado de columna para ordenar la lista en orden descendente (o ascendente).
 
 **Activación y desactivación de ajustes preestablecidos** Seleccione un ajuste preestablecido y haga clic en su opción Activa para activarlo o desactivarlo.
 
@@ -626,7 +626,7 @@ Consulte [Exportación de ajustes preestablecidos](application-setup.md#exportin
 1. En la pantalla Configurar visor, en el campo Nombre de ajuste preestablecido, escriba o edite el nombre.
 1. Defina las opciones restantes que desee.
 
-   >[NOTA]
+   >[!NOTE]
    >
    >Seleccione Igual que el origen para ajustar automáticamente el tamaño del visor de vídeos al tamaño de resolución del vídeo codificado. Si elige esta opción, no puede introducir la anchura ni la altura del escenario sino que estas opciones proceden del propio vídeo. Si selecciona Igual que el origen, configure la opción de tamaño de margen para que refleje las dimensiones de aspecto fuera del área de reproducción de vídeo. Este tamaño de margen es la altura y anchura de píxel de los controles de vídeo. La siguiente ilustración le ayuda a determinar los tamaños de margen que se deben utilizar.*
 
@@ -852,11 +852,11 @@ Un uso efectivo de los campos de metadatos personalizables es retardar el tiempo
 
    **Color** El nombre de un color.
 
-   **Dimensión** El ancho y el alto del recurso.
+   **Dimension** La anchura y la altura del recurso.
 
    **Sin tipo** Para compatibilidad con versiones anteriores. No seleccione esta opción.
 
-   **Valor** predeterminado De forma opcional, introduzca el valor que los usuarios tienen más probabilidades de introducir en el campo. El valor introducido se convertirá en el valor predeterminado del campo que cree.
+   **Valor** predeterminado Si lo desea, introduzca el valor que los usuarios tienen más posibilidades de introducir en el campo. El valor introducido se convertirá en el valor predeterminado del campo que cree.
 
    **Se aplica** de forma opcional, elija un tipo de recurso si desea que el campo de metadatos se aplique solo a un tipo específico de recurso.
 
@@ -882,7 +882,7 @@ Para abrir esta pantalla, haga clic en **Ajustes** > **Ajustes de aplicación** 
 
 A medida que carga archivos en Dynamic Media Classic, el sistema los optimiza para su almacenamiento y publicación. Sin embargo, si se interrumpe el proceso de carga, no se pueden optimizar todas las imágenes. De ser así, aparecerá el mensaje &quot;La imagen no está optimizada todavía&quot;. Si es un administrador podrá optimizar estos archivos.
 
-Dynamic Media Classic busca en los archivos y optimiza solo las imágenes que no se hayan optimizado completamente anteriormente.
+Dynamic Media Classic busca en los archivos y optimiza solo las imágenes que no se habían optimizado completamente antes.
 
 1. Elija **Ajustes** > Ajustes **de aplicación** y, a continuación, seleccione **Optimizar archivos**.
 1. Enter information for the optimization job and click **Submit**.
