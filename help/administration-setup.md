@@ -9,10 +9,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 1ee586fab6a4e10a946848fd079438ade38490d9
 workflow-type: tm+mt
-source-wordcount: '2213'
-ht-degree: 56%
+source-wordcount: '1945'
+ht-degree: 64%
 
 ---
 
@@ -29,7 +29,7 @@ Las pantallas Ajustes de administración sirven para administrar usuarios de Dyn
 
 A todos los usuarios de Dynamic Media Classic se les asigna una función que determina sus privilegios y derechos de acceso a las funciones de Dynamic Media Classic. Los administradores determinan las distintas funciones y responsabilidades para sus empresas.
 
-Normalmente, Dynamic Media Classic configura el primer conjunto de compañías y asigna un administrador de compañías. A continuación, el administrador de compañías configura y administra los usuarios de Dynamic Media Classic.
+Normalmente, Dynamic Media Classic configura el primer conjunto de compañías y asigna un administrador de compañías. A continuación, el administrador de compañía configura y administra los usuarios de Dynamic Media Classic.
 
 Dynamic Media Classic admite varias funciones de usuario. Estas funciones pueden acceder a las compañías configuradas para Dynamic Media Classic:
 
@@ -37,7 +37,7 @@ Dynamic Media Classic admite varias funciones de usuario. Estas funciones pueden
 
 **Usuario** de Adobe Dynamic Media Classic Puede acceder a las compañías a las que se les ha asignado; no puede realizar ninguna tarea administrativa.
 
-**El administrador** de Compañías de Adobe Dynamic Media Classic solo puede realizar la vista y administrar sus propias compañías. También puede realizar todas las funciones de administración (incluida la adición de administradores y usuarios). Un administrador de Compañías puede agregar un usuario a las cuentas de administrador de compañías DMC. (Esta función es la función de usuario predeterminada).
+**Administrador** de Compañías de Adobe Dynamic Media ClassicPuede realizar vistas y administrar solo sus propias compañías. También puede realizar todas las funciones de administración (incluida la adición de administradores y usuarios). Un administrador de Compañías puede agregar un usuario a las cuentas de administrador de compañías DMC. (Esta función es la función de usuario predeterminada).
 
 Después de agregar un usuario, Dynamic Media Classic envía un mensaje de correo electrónico de bienvenida al usuario. El mensaje incluye una contraseña y la URL de Dynamic Media Classic.
 
@@ -114,32 +114,33 @@ Puede utilizar las siguientes técnicas de filtrado en la lista usuarios:
 
 Si tiene muchos usuarios, puede limitar el tamaño de la lista seleccionando un número en el menú Tamaño máximo de lista.
 
-### Vinculación de una identidad de usuario de IMS a una cuenta de usuario de IPS de Dynamic Media Classic {#linking-an-ims-user-identity-to-a-scene-ips-user-account}
+<!-- CQDOC-16690 TOPIC REMOVED AS PER JIRA TICKET INSTRUCTIONS ### Linking an IMS user identity to a Dynamic Media Classic IPS user account {#linking-an-ims-user-identity-to-a-scene-ips-user-account}
 
-Puede vincular una identidad de usuario de Adobe IMS a una cuenta de usuario de Dynamic Media Classic IPS para que pueda utilizar SSO (inicio de sesión único) para iniciar sesión e iniciar Scene7 Publishing System desde Adobe Marketing Cloud.
+You can link an Adobe IMS user identity to a Dynamic Media Classic IPS user account so you can use SSO (Single Sign On) to log on and launch Scene7 Publishing System from within Adobe Marketing Cloud.
 
-1. Adobe ya debería haber configurado la cuenta con una organización de Adobe Marketing Cloud y vincularla al contexto de producto de Scene7 Publishing System. Si esta configuración aún no se ha realizado o no está seguro de si se ha realizado, póngase en contacto con el Servicio de atención al cliente de Adobe.
+1. Adobe should already have setup your account with an Adobe Marketing Cloud organization and linked it to your Scene7 Publishing System product context. If this setup is not yet done or you are unsure if it has been done, contact Adobe Customer Care.
 
-   Una vez que se haya completado la configuración, puede iniciar sesión en Adobe Marketing Cloud y vincular la identidad del Adobe Marketing Cloud a su cuenta de usuario de Dynamic Media Classic haciendo lo siguiente.
+   When the setup is complete, you can can log on to Adobe Marketing Cloud and link your Adobe Marketing Cloud identity to your Dynamic Media Classic user account by doing the following.
 
-1. En Adobe Marketing Cloud, vaya a la configuración de la cuenta.
-1. Haga clic en **Administrar organizaciones**.
-1. Haga clic en **Vincular cuenta** o **Obtener acceso**.
-1. Seleccione **Experience Manager** y, a continuación, escriba sus credenciales.
+1. In Adobe Marketing Cloud, navigate to your account settings.
+1. Click **Manage Organizations**.
+1. Click **Link Account** or **Get Access**.
+1. Select **Experience Manager**, and then type your credentials.
 
-   Sus credenciales incluyen la región de compañía IPS, la dirección de correo electrónico y la contraseña.
+   Your credentials include your IPS company region, email address, and password.
 
-1. Haga clic en **Vínculo**.
-1. Cuando se establece el vínculo, puede iniciar Scene7 Publishing System desde Adobe Marketing Cloud o iniciarlo directamente.
+1. Click **Link**.
+1. When the link is set, you can launch Scene7 Publishing System from within Adobe Marketing Cloud, or you can launch it directly.
 
-   Realice una de las siguientes acciones:
+   Do one of the following:
 
-   * Para iniciar Dynamic Media Classic desde Adobe Marketing Cloud, en la barra de Adobe Marketing Cloud izquierda, haga clic en **Soluciones** > **Experience Manager**. En la tarjeta Dynamic Media Classic, haga clic en **Iniciar**.
-   * Para iniciar sesión en Scene7 Publishing System directamente con las credenciales de IMS, utilice el siguiente sitio web:
+    * To launch Dynamic Media Classic from within Adobe Marketing Cloud, in the left rail of Adobe Marketing Cloud, click **Solutions** &gt; **Experience Manager**. Under the Dynamic Media Classic card, click **Launch**.
+    * To log on to Scene7 Publishing System directly using your IMS credentials, use the following website:
 
       https://s7spsN.scene7.com/IpsWeb?ims=1
 
-      Sustituya &quot;N&quot; en la ruta anterior por el número de la región de compañía IPS. Es decir, N = 1 para América del Norte; 3 para EMEA; o 5 para JAPAC.
+      Replace “N” in the above path with the number for your IPS company region. That is, N = 1 for North America; 3 for EMEA; or 5 for JAPAC.
+ -->
 
 ## Ancho de banda y almacenamiento {#bandwidth-storage}
 
