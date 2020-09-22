@@ -1,26 +1,26 @@
 ---
 cloud: experience-cloud
-product: dynamic media classic
+product: Adobe Dynamic Media Classic
 audience: end-user
-user-guide-title: Ayuda de Dynamic Media Classic
+user-guide-title: Guía de Adobe Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: 1ed0c74e3d2c94b22daa2fe2ac5c2a051e6768bc
+source-git-commit: 17e152e3768f527a9db2eadb664ca420778372ae
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 75%
+source-wordcount: '739'
+ht-degree: 74%
 
 ---
 
 
-# Ayuda de Dynamic Media Classic {#using}
+# Guía de Adobe Dynamic Media Classic {#using}
 
-+ [Inicio de documentación de Dynamic Media Classic](home.md)
++ [Guía de Adobe Dynamic Media Classic](home.md)
 + [Tutorial de optimizaciones](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [NUEVA experiencia de inicio de sesión en Dynamic Media Classic ahora disponible](new-ui-2020.md)
++ [La nueva experiencia de inicio de sesión de Dynamic Media Classic ya está disponible](new-ui-2020.md)
 + [Boletín de Dynamic Media por la Liga de la experiencia](dynamic-media-newsletter.md)
 + Presentación de Adobe Dynamic Media Classic {#intro}
-   + [Aplicación de escritorio Adobe Dynamic Media Classic - Ya disponible](dynamic-media-classic-desktop-app.md)
+   + [Aplicación de escritorio de Adobe Dynamic Media Classic: ahora disponible](dynamic-media-classic-desktop-app.md)
    + [Acerca de la Ayuda de Dynamic Media Classic](introduction.md)
    + [Recursos para desarrolladores](developer-resources.md)
    + [Novedades](whats-new.md)
