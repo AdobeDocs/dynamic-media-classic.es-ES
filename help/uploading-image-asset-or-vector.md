@@ -9,10 +9,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: de21dca9-99fe-4183-b647-debfe112fda4
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: df88ca77d3f9c40c59d796e6854942b93cef5729
 workflow-type: tm+mt
-source-wordcount: '1522'
-ht-degree: 86%
+source-wordcount: '1536'
+ht-degree: 84%
 
 ---
 
@@ -23,9 +23,9 @@ Para poder cargar un recurso de imagen, primero debe solicitar una clave secreta
 
 ## Solicitud de la clave secreta compartida {#requesting-a-shared-secret-key}
 
-Para solicitar una *clave secreta compartida*, envíe al equipo de asistencia técnica de Scene7 un mensaje de correo electrónico a la dirección s7support@adobe.com.
+Solicite una clave *secreta* compartida [utilizando el Admin Console para crear un caso de asistencia.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) En el caso de soporte, solicite una clave secreta compartida.
 
-En el mensaje, proporcione el nombre de empresa que desee utilizar para cargar los recursos de imagen. Después de recibir la clave de Dynamic Media Classic, guárdela de forma local para usarla en el futuro.
+En el mensaje, proporcione el nombre de empresa que desee utilizar para cargar los recursos de imagen. Después de recibir la clave de Dynamic Media Classic, guárdela localmente para su uso futuro.
 
 ## Recuperación del distintivo de carga {#retrieving-the-upload-token}
 
