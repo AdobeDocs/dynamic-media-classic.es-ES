@@ -9,10 +9,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: cba59093-28b6-4490-b838-d942b72ad1ec
 translation-type: tm+mt
-source-git-commit: 5622464ae7ae9cd47b7674449c7d1f7897bf4319
+source-git-commit: df88ca77d3f9c40c59d796e6854942b93cef5729
 workflow-type: tm+mt
-source-wordcount: '2409'
-ht-degree: 65%
+source-wordcount: '2421'
+ht-degree: 64%
 
 ---
 
@@ -49,12 +49,12 @@ Cambie esta configuración solo con la ayuda de una persona de asistencia técni
 
 **Atributos** de compatibilidad Esta configuración permite que los párrafos al inicio y al final de las capas de texto se traten como en la versión 3.6 para la compatibilidad con versiones anteriores.
 
-**Compatibilidad** con Localizaciones Esta configuración permite administrar varios atributos de configuración regional. También permite especificar una cadena de asignación de configuración regional, de forma que puede definir los idiomas que desee admitir para los distintos consejos de herramientas en los visores.
+**Compatibilidad** con localizaciones Esta configuración permite administrar varios atributos de configuración regional. También permite especificar una cadena de asignación de configuración regional, de forma que puede definir los idiomas que desee admitir para los distintos consejos de herramientas en los visores.
 
 Por ejemplo, si es una marca multinacional que vende en distintos países, puede asegurarse de que cada país tiene su propio visor con su propia configuración regional específica. Para llevar a cabo esta funcionalidad, puede especificar una cadena de asignación de configuración regional. A continuación, puede editar el texto de información sobre herramientas en un ajuste preestablecido del visor, agregando las cadenas de texto traducidas del visor para el idioma que desee.
 
 >[!NOTE]
-> Para configurar las opciones de asistencia técnica de Localización, póngase en contacto con el servicio de asistencia técnica de Adobe Dynamic Media Classic o envíe un correo electrónico a s7support@adobe.com para solicitar ayuda para la configuración.
+> Para configurar las opciones de Soporte de Localización, [utilice el Admin Console para crear un caso de soporte.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) En su caso de asistencia, solicite ayuda para configurar la asistencia.
 
 Para más información sobre la configuración de la **Asistencia para la localización**, consulte [Consideraciones al configurar la localización de recursos](publish-setup.md#considerations_when_setting_up_localization_of_assets).
 
@@ -62,7 +62,7 @@ Para más información sobre la configuración de la **Asistencia para la locali
 
 >[!NOTE]
 >
->Si desea configurar las opciones de soporte para Localizaciones en Dynamic Media Classic, como el campo Asignación de configuración regional, póngase en contacto con el servicio de soporte técnico de Adobe Dynamic Media Classic. O bien, envíe un correo electrónico a s7support@adobe.com para solicitar ayuda con la configuración.
+>Si desea configurar las opciones de Compatibilidad con Localizaciones en Dynamic Media Classic, como el campo Asignación de configuración regional, [utilice el Admin Console para crear un caso de compatibilidad.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) En su caso de asistencia, solicite ayuda para configurar la asistencia.
 
 Una forma común de utilizar Dynamic Media Classic es administrar las imágenes del producto en los sitios web de comercio electrónico. Las empresas internacionales se enfrentan a un reto importante, ya que los recursos para productos similares tienen un aspecto distinto según el país. Normalmente, las diferencias constituyen una pequeña parte de todo el medio. Copiar todos los recursos para cada uno de los países y sobrescribir solo las diferencias es un enorme esfuerzo y contradice el principio de un solo recurso maestro. Dichas diferencias en los recursos pueden ser numerosas, desde vídeos para cada país con diferentes pistas de audio hasta diferencias pequeñas pero importantes en el cable de alimentación que se utiliza con el producto. Dynamic Media Classic utiliza un mecanismo de búsqueda básico. Puede definir el orden de los sufijos de los recursos en que busca el servidor de imágenes, empezando por la configuración regional requerida.
 
