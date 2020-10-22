@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 3f79517399e9f242149b66c1b71f6cca26bdb37d
+source-git-commit: e6deebcd9acd2125629f65d1d21171f5ac2ce696
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: '1422'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ La aplicación de escritorio Adobe Dynamic Media Classic es compatible con los s
 
 Véase también:
 
-* [Descargue e instale la aplicación de escritorio más reciente de Adobe Dynamic Media Classic en Mac o Windows](#installation-dmc-app)
+* [Descargar y guardar silencio al instalar la aplicación de escritorio más reciente de Adobe Dynamic Media Classic en Mac](#install-silent-mac-dmc-app)
 * [Descargar y guardar silencio al instalar la aplicación de escritorio más reciente de Adobe Dynamic Media Classic en Windows](#install-silent-windows-dmc-app)
 
 1. Desinstale las versiones anteriores de la aplicación de escritorio de Dynamic Media Classic en el sistema.
@@ -143,7 +143,7 @@ El comando que utiliza es para una instalación silenciosa MSI básica. Sin emba
 Véase también:
 
 * [Descargue e instale la aplicación de escritorio más reciente de Adobe Dynamic Media Classic en Mac o Windows](#installation-dmc-app)
-* [Descargar y guardar silencio al instalar la aplicación de escritorio más reciente de Adobe Dynamic Media Classic en Windows](#install-silent-windows-dmc-app)
+* [Descargar y guardar silencio al instalar la aplicación de escritorio más reciente de Adobe Dynamic Media Classic en macOS](#install-silent-mac-dmc-app)
 
 Para descargar y *guardar silencio* , instale la versión más reciente de la aplicación de escritorio de Adobe Dynamic Media Classic en Windows:
 
