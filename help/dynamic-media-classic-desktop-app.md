@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 477a8fd6ffee00cd586d91f6eeda8e676753a90f
+source-git-commit: 8d226f9b68e8f4d756825b26599bae37e06cf088
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1422'
 ht-degree: 0%
 
 ---
@@ -34,19 +34,39 @@ La aplicación de escritorio Adobe Dynamic Media Classic es compatible con los s
 * macOS X 10.10 o posterior.
 * Windows 7 o posterior.
 
-## Descargar e instalar la aplicación de escritorio Adobe Dynamic Media Classic en MacOS o Windows {#installation-dmc-app}
+## Correcciones en la versión más reciente 20.20.2 {#latest-fixes-desktop-app}
+
+* No hay limitación en el número de archivos que se pueden cargar a través de la interfaz de usuario de la aplicación de escritorio para MacOS y Windows.
+* No es necesario cerrar sesión en la aplicación de escritorio para cambiar entre compañías.
+* Ctrl+V para la operación de pegado ahora funciona en Windows.
+* En el futuro, cuando se publique una nueva versión de la aplicación de escritorio, se notificará a los usuarios dentro de la propia aplicación de escritorio.
+
+## Descargue e instale la aplicación de escritorio más reciente de Adobe Dynamic Media Classic en MacOS o Windows {#installation-dmc-app}
 
 Véase también:
 
-* [Descarga e instalación *silenciosa* de la aplicación de escritorio Adobe Dynamic Media Classic en macOS](#install-silent-mac-dmc-app)
-* [Descargar e instalar *silenciosamente* la aplicación de escritorio Adobe Dynamic Media Classic en Windows](#install-silent-windows-dmc-app)
+* [Descargue e instale *silenciosamente* la aplicación de escritorio más reciente de Adobe Dynamic Media Classic en macOS](#install-silent-mac-dmc-app)
+* [Descargue e instale *silenciosamente* la aplicación de escritorio más reciente de Adobe Dynamic Media Classic en Windows](#install-silent-windows-dmc-app)
 
 1. Desinstale las versiones anteriores de la aplicación de escritorio de Dynamic Media Classic en el sistema.
 
 1. Descargue el instalador más reciente para la aplicación de escritorio Adobe Dynamic Media Classic.
 
-   * [macOS (.DMG) - Descargar.](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
-   * [Windows (.EXE): descarga.](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
+   >[!NOTE]
+   >
+   >Los usuarios que ya hayan instalado la versión de GA deben *desinstalarla* de su sistema local de Windows antes de instalar la versión más reciente. O bien, los usuarios pueden simplemente *reemplazar* la versión de GA instalada en su sistema macOS local con la última versión. Los nuevos usuarios deben instalar directamente la versión más reciente 20.20.2 .
+
+   La versión más reciente es 20.20.2, disponible en los siguientes lugares:
+
+   * [macOS (.DMG) - Descargar.](http://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
+   * [Windows (.EXE): descarga.](http://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
+
+   La versión de GA (disponibilidad general) estaba disponible en la versión 20.20.1 siguiente:
+
+   * [macOS (.DMG) - Descargar.](http://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.1.dmg)
+   * [Windows (.EXE): descarga.](http://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.1.exe)
+
+
 
 1. Realice una de las siguientes acciones en función del instalador que descargó.
 
@@ -77,24 +97,24 @@ Véase también:
 
 1. Al publicar la interfaz de usuario de inicio de sesión, verá la experiencia familiar de la interfaz de usuario del explorador. Puede llevar su actividad diaria como de costumbre ahora en la interfaz de usuario de la aplicación de escritorio.
 
-## Descarga e instalación *silenciosa* de la aplicación de escritorio Adobe Dynamic Media Classic en macOS {#install-silent-mac-dmc-app}
+## Descargue e instale *silenciosamente* la aplicación de escritorio más reciente de Adobe Dynamic Media Classic en macOS {#install-silent-mac-dmc-app}
 
 Véase también:
 
-* [Descargar e instalar la aplicación de escritorio Adobe Dynamic Media Classic en Mac o Windows](#installation-dmc-app)
-* [Descargar e instalar *silenciosamente* la aplicación de escritorio Adobe Dynamic Media Classic en Windows](#install-silent-windows-dmc-app)
+* [Descargue e instale la aplicación de escritorio más reciente de Adobe Dynamic Media Classic en Mac o Windows](#installation-dmc-app)
+* [Descargue e instale *silenciosamente* la aplicación de escritorio más reciente de Adobe Dynamic Media Classic en Windows](#install-silent-windows-dmc-app)
 
-Para descargar e instalar *silenciosamente* la aplicación de escritorio de Adobe Dynamic Media Classic en macOS:
+Para descargar y *guardar silencio* , instale la versión más reciente de la aplicación de escritorio de Adobe Dynamic Media Classic en macOS:
 
 1. Desinstale las versiones anteriores de la aplicación de escritorio de Dynamic Media Classic en el sistema.
 
 1. Descargue el instalador más reciente para la aplicación de escritorio de Adobe Dynamic Media Classic para macOS.
 
-   * [macOS (.DMG) - Descargar.](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
+   * [macOS (.DMG) - Descargar.](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.2.dmg)
 
 1. Monte la imagen de disco descargada (.DMG) en una ubicación de punto de montaje mediante el siguiente comando:
 
-   `hdiutil attach adobe-dynamic-media-classic-20.20.1.dmg -mountpoint <mount_point_path>`
+   `hdiutil attach adobe-dynamic-media-classic-20.20.2.dmg -mountpoint <mount_point_path>`
 
 1. Copie el archivo .APP en **[!UICONTROL Aplicaciones]** mediante el siguiente comando:
 
@@ -115,34 +135,34 @@ Unmount DMG - hdiutil detach <mount_point_path>`
    | https://s7sps3.scene7.com/ | Producción EMEA (Europa, Oriente Medio y África) |
    | https://s7sps5.scene7.com/ | Producción de APAC (Asia-Pacífico) |
 
-## Descargar e instalar *silenciosamente* la aplicación de escritorio Adobe Dynamic Media Classic en Windows {#install-silent-windows-dmc-app}
+## Descargue e instale *silenciosamente* la aplicación de escritorio más reciente de Adobe Dynamic Media Classic en Windows {#install-silent-windows-dmc-app}
 
 El comando que utiliza es para una instalación silenciosa MSI básica. Sin embargo, el instalador de la aplicación de escritorio de Dynamic Media Classic es un instalador de InstallScript MSI creado con InstallShield. Al ejecutar el programa de instalación en modo de registro, cualquier interacción del usuario se registra en un archivo de respuesta. Este archivo de respuesta se utiliza para una instalación silenciosa, tal como se describe en [Ejecución de instalaciones en modo silencioso.](https://docs.flexera.com/installshield19helplib/helplibrary/SilentInstall.htm)
 
 Véase también:
 
-* [Descargar e instalar la aplicación de escritorio Adobe Dynamic Media Classic en Mac o Windows](#installation-dmc-app)
-* [Descargar e instalar *silenciosamente* la aplicación de escritorio Adobe Dynamic Media Classic en Windows](#install-silent-windows-dmc-app)
+* [Descargue e instale la aplicación de escritorio más reciente de Adobe Dynamic Media Classic en Mac o Windows](#installation-dmc-app)
+* [Descargue e instale *silenciosamente* la aplicación de escritorio más reciente de Adobe Dynamic Media Classic en Windows](#install-silent-windows-dmc-app)
 
-Para descargar e instalar *silenciosamente* la aplicación de escritorio de Adobe Dynamic Media Classic en Windows:
+Para descargar y *guardar silencio* , instale la versión más reciente de la aplicación de escritorio de Adobe Dynamic Media Classic en Windows:
 
 1. Desinstale las versiones anteriores de la aplicación de escritorio de Dynamic Media Classic en el sistema.
 
 1. Descargue el instalador más reciente para la aplicación de escritorio Adobe Dynamic Media Classic.
 
-   * [Windows (.EXE): descarga.](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
+   * [Windows (.EXE): descarga.](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.2.exe)
 
 1. Ejecute el programa de instalación en modo de registro con el siguiente comando:
 
-   `adobe-dynamic-media-classic-20.20.1.exe /r /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.20.2.exe /r /f1"C:\Setup.iss"`
 
 1. En la ventana del programa de instalación de la interfaz gráfica de usuario, siga los pasos para la instalación de modo que las interacciones/entradas, como la ubicación de instalación, se registren en el `Setup.iss` archivo.
 
-1. Copie el `Setup.iss` archivo creado y `adobe-dynamic-media-classic-20.20.1.exe` en otro equipo.
+1. Copie el `Setup.iss` archivo creado y `adobe-dynamic-media-classic-20.20.2.exe` en otro equipo.
 
 1. Ejecute el siguiente comando para una instalación silenciosa:
 
-   `adobe-dynamic-media-classic-20.20.1.exe /s /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.20.2.exe /s /f1"C:\Setup.iss"`
 
    Los detalles sobre los parámetros de la línea de comandos están disponibles en Parámetros de la línea de comandos [Setup.exe y Update.exe.](https://docs.flexera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
 
@@ -165,7 +185,7 @@ Para descargar e instalar *silenciosamente* la aplicación de escritorio de Adob
 
 Vea un [vídeo explicativo sobre el uso de la aplicación](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html) de escritorio de Dynamic Media Classic (Duración: 2 minutos 36 segundos).
 
-## Limitaciones conocidas en Dynamic Media Classic
+## Limitaciones conocidas en Dynamic Media Classic 20.20.1 (corregidas en 20.20.2)
 
 **_Solo se aplica a Windows: ¿Existe alguna limitación en el número de archivos que se pueden cargar a través de la interfaz de usuario de la aplicación de escritorio?_**<br>Sí, se puede cargar un máximo de 150 archivos a la vez mediante la interfaz de usuario de la aplicación de escritorio.
 
