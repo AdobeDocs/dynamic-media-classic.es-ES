@@ -3,10 +3,9 @@ description: 'El boletín informativo de Dynamic Media de Experience League es u
 keywords: dynamic media;newsletter;product updates;tips and tricks;events;customer success;blog;blogs;images;videos;features;capabilities
 seo-description: Los recursos para la creación de conocimientos están disponibles en este boletín de noticias de una sola vez, que incluye información sobre vídeos, descripciones generales de soluciones e introducción a algunas de las funciones y funciones clave, como ajustes preestablecidos de imagen, ajustes preestablecidos de visor, perfiles de vídeo y mucho más.
 seo-title: 'Boletín de Adobe Dynamic Media '
-solution: Dynamic Media Classic
 title: Boletín de Dynamic Media
 translation-type: tm+mt
-source-git-commit: 4d2052f1ddb2394a08fbaa5cb3b8b8fd9d5c5217
+source-git-commit: 23b9846eaeaacf3eaa46b1467e5f7e6419827f4e
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 0%
@@ -16,7 +15,7 @@ ht-degree: 0%
 
 # ![Logotipo del boletín de Dynamic Media](/help/assets/dynamic-media-newsletter-logo.png)
 
-El boletín mensual de Dynamic Media de Experience League está diseñado para ayudarle a ponerse al día con los medios dinámicos y los medios dinámicos clásicos, de modo que pueda obtener un inicio de los valores inmediatamente.
+El boletín mensual de Dynamic Media de Experience League está diseñado para ayudarle a ponerse al día con los medios dinámicos y los medios dinámicos clásicos, de modo que pueda obtener un inicio del valor inmediatamente.
 
 En este boletín informativo de una sola publicación, descubra los valiosos recursos para la creación de conocimientos, como vídeos explicativos, descripción general de la solución e introducción a algunas de las funciones y funciones clave de la solución, como ajustes preestablecidos de imagen, ajustes preestablecidos de visor, perfiles de vídeo, etc.
 
@@ -137,7 +136,7 @@ En este boletín informativo de una sola publicación, descubra los valiosos rec
    En este número:
 
    * Disfrute de los vídeos que destacan la percepción de la actualización a Dynamic Media en AEM Assets.
-   * Vea vídeos de procedimientos clave en Experience League.
+   * Vea vídeos explicativos en Experience League.
    * Obtenga más información sobre el próximo Adobe Insider Tour.
    * Obtenga información sobre cómo proteger los recursos digitales contra la piratería.
    * Obtenga información sobre el recorte inteligente impulsado por AI para imágenes.
@@ -148,7 +147,7 @@ En este boletín informativo de una sola publicación, descubra los valiosos rec
    En este número:
 
    * Descubra las 10 principales funciones ocultas de Dynamic Media Classic en una publicación de blog.
-   * Vea vídeos de procedimientos clave en Experience League.
+   * Vea vídeos explicativos en Experience League.
    * Obtenga información sobre el próximo Adobe Insider Tour.
    * Lea una serie de blogs en tres partes para actualizar su estrategia de medios enriquecidos.
    * Obtenga más información sobre el recorte inteligente de vídeo impulsado por AI.
