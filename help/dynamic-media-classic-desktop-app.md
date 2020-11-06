@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: bfe4bc1898e781780202dc311b643dc7a4c7b146
+source-git-commit: 9e7955b2311496e58e9e973c8f579b2f256c55cb
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1556'
 ht-degree: 0%
 
 ---
@@ -182,9 +182,26 @@ Para descargar y *guardar silencio* , instale la versión más reciente de la ap
    | https://s7sps5.scene7.com/ | Producción de APAC (Asia-Pacífico) |
 
 
-## Vídeo explicativo sobre el uso de la aplicación de escritorio de Dynamic Media Classic
+## Vídeo explicativo sobre el uso de la aplicación de escritorio de Dynamic Media Classic {#dmc-app-video-walk-through}
 
 Vea un [vídeo explicativo sobre el uso de la aplicación](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html) de escritorio de Dynamic Media Classic (Duración: 2 minutos 36 segundos).
+
+## Borrado de la caché de imágenes y la caché de recursos de su equipo mediante la aplicación de escritorio
+
+1. En la aplicación de escritorio de Dynamic Media Classic, cerca de la esquina superior derecha, toque **[!UICONTROL Ajustes]** > Ajustes **[!UICONTROL personales]**.
+1. En la página Ajustes **** personales, bajo el encabezado **[!UICONTROL Escritorio]** , realice una de las siguientes acciones:
+   * Toque **[!UICONTROL Borrar caché]** de imágenes para eliminar todos los archivos de imagen en caché de Dynamic Media de Adobe del equipo. Toque **[!UICONTROL Aceptar]**.
+   * Toque **[!UICONTROL Borrar caché]** de recursos para quitar todos los archivos de recursos en caché de Adobe Dynamic Media del equipo. Toque **[!UICONTROL Aceptar]**.
+1. In the lower-right corner of the page, tap **[!UICONTROL Close]**.
+
+### Borrado manual de la caché de imágenes y la caché de recursos
+
+Además de borrar la imagen y la caché de recursos mediante la aplicación de escritorio, también puede realizar esta tarea manualmente borrando la caché directamente del sistema de archivos.
+
+1. En función del sistema operativo, vaya a lo siguiente:
+
+   * macOS: `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
+   * Windows: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
 ## Limitaciones conocidas en Dynamic Media Classic 20.20.1 (corregidas en 20.20.2)
 
