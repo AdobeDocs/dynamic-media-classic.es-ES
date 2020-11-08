@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 5023a933-e229-4d3c-8e91-3ac5e9f4970b
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 69%
@@ -20,7 +20,7 @@ ht-degree: 69%
 
 # Configuración de ajustes preestablecidos de visor de zoom{#setting-up-zoom-viewer-presets}
 
-Los ajustes preestablecidos de visor de zoom determinan el estilo, el comportamiento y el aspecto de los visores de zoom. Dynamic Media Classic oferta muchas opciones para personalizar y aplicar aspectos a los visores. Dynamic Media Classic viene con los ajustes preestablecidos de visor de zoom predeterminados básico (rápido), flotante y personalizado. Si es administrador, puede crear nuevos ajustes preestablecidos de visor de zoom para su empresa o editar un ajuste preestablecido de visor de zoom predeterminado y guardarlo con un nombre nuevo.
+Los ajustes preestablecidos de visor de zoom determinan el estilo, el comportamiento y el aspecto de los visores de zoom. Dynamic Media Classic oferta muchas opciones para personalizar y aplicar aspectos a los visores. Dynamic Media Classic incluye ajustes preestablecidos de visor de zoom personalizados, flotante y básico predeterminados. Si es administrador, puede crear nuevos ajustes preestablecidos de visor de zoom para su empresa o editar un ajuste preestablecido de visor de zoom predeterminado y guardarlo con un nombre nuevo.
 
 Todos los visores de zoom tienen botones para acercar, alejar, desplazar y restablecer la imagen a su estado original tras la aplicación de zoom. El aspecto de estos botones y el de la ventana depende de la selección de ajustes preestablecidos de visor de zoom. Los ajustes preestablecidos de visor de zoom se pueden configurar con diferentes colores, bordes, fuentes y parámetros de imagen. Al configurar un visor de zoom guiado, también puede elegir dónde colocar los destinos de zoom. Los destinos de zoom son miniaturas en las que hacen clic los usuarios para aplicar zoom en áreas que se hayan especificado.
 
