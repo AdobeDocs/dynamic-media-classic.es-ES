@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '3441'
 ht-degree: 65%
@@ -53,7 +53,7 @@ Puede crear una plantilla a partir de una existente. Abra la plantilla, haga cli
 1. Haga clic en **Guardar**.
 1. Seleccione una carpeta para guardar la plantilla, asigne un nombre a la plantilla y seleccione el botón **Enviar**.
 
-   Dynamic Media Classic reduce las imágenes si es necesario para que se ajusten al lienzo, el área de la pantalla Plantilla para definir la plantilla.
+   Si es necesario, Dynamic Media Classic reduce las imágenes para ajustarlas al lienzo, el área de la pantalla Plantilla para definir la plantilla.
 
 ## Edición de un conjunto de plantillas {#editing-a-template-set}
 
@@ -96,13 +96,13 @@ Use estas herramientas en la pantalla Plantilla para crear plantillas:
 
 **Herramienta** Texto Crea una capa de texto. Arrastre el puntero sobre el lienzo para crear una capa de texto e introduzca el texto en la capa. Consulte Creación de una capa de texto.
 
-**Botón** Previsualización Abre la pantalla Previsualización y muestra la plantilla en un visor de zoom. La plantilla aparece tal y como la verán los usuarios que accedan al sitio web o utilicen la aplicación.
+**Botón** previsualización Abre la pantalla Previsualización y muestra la plantilla en un visor de zoom. La plantilla aparece tal y como la verán los usuarios que accedan al sitio web o utilicen la aplicación.
 
 **Botón** Resumen de parámetros Abre la pantalla Resumen de parámetros. Puede ver el nombre de cada una de las capas de una plantilla y, en cada capa, los nombres de los parámetros que se han activado.
 
 **Editor de texto v4.3 y v4.2** Puede elegir utilizar el editor de texto más reciente y con más funciones, el v4.3, o el editor de texto anterior, el Editor de texto v4.2. Al crear nuevas plantillas, el Editor de texto v4.3 está seleccionado de forma predeterminada. Al editar plantillas antiguas, se seleccionará por defecto el Editor de texto 4.2. El Editor de texto v4.3 no admite el ajuste de palabras, de modo que si desea editar plantillas antiguas que utilicen ajuste de palabras, deberá utilizar el Editor de texto v4.2 para mantener intacta la fidelidad de la plantilla. Si la plantilla antigua no utiliza ajuste de palabras, puede seleccionar el Editor de texto v4.3 para aprovechar las nuevas funciones que este ofrece, como Aumentar márgenes, Reducir márgenes, Establecer texto en Todo en mayúsculas y Copiar texto de ajuste.
 
-***nota **: El Editor de texto v4.2 se eliminará como opción en Dynamic Media Classic, por lo que se recomienda que utilice el Editor de texto 4.3 cuando sea posible. La opción de ajuste de palabras se incluirá en una versión posterior del Editor de texto.*
+***nota **: El Editor de texto v4.2 se eliminará como opción en Dynamic Media Classic, por lo que se recomienda usar el Editor de texto 4.3 cuando sea posible. La opción de ajuste de palabras se incluirá en una versión posterior del Editor de texto.*
 
 **Diseñador y desarrollador** Seleccione la opción que mejor describa su función.
 
@@ -259,7 +259,7 @@ Además de cambiar el tamaño, también es posible añadir un margen a la capa. 
 
 Para modificar la posición de una capa o la del lienzo, seleccione el nombre en la lista de capas y use una de estas técnicas:
 
-**Cambio manual de la posición** Mueva el puntero cerca de un límite de capa pero no sobre él y, cuando vea el cursor de flecha con cuatro puntas, haga clic y arrastre el inicio.
+**Cambio manual de la posición** Mueva el puntero cerca de un límite de capa, pero no sobre él, y cuando vea el cursor de flecha con cuatro puntas, haga clic y arrastre el inicio.
 
 **Introducción de medidas** de desplazamiento de posición Introduzca las medidas de desplazamiento X e Y en los cuadros de texto X e Y. Esto valores representan el desfase x, y del punto de anclaje, medido en píxeles.
 
@@ -289,7 +289,7 @@ Para definir el color de fondo, la opacidad y el modo de fusión de una capa o d
 
 **Opacidad** Arrastre el control deslizante Opacidad para que cualquier capa quede translúcida de modo que se muestre parte de la imagen subyacente. El valor 100 representa la opacidad total y el valor 0 la transparencia.
 
-**Modo** de fusión Elija una opción para simular uno de los modos de mezcla disponibles en Photoshop. Las opciones son Normal, Disolver, Aclarar, Oscurecer, Multiplicar y Pantalla. Estas opciones están disponibles para capas únicamente, no son aplicables a lienzos.
+**Modo** de mezcla Elija una opción para simular uno de los modos de mezcla disponibles en Photoshop. Las opciones son Normal, Disolver, Aclarar, Oscurecer, Multiplicar y Pantalla. Estas opciones están disponibles para capas únicamente, no son aplicables a lienzos.
 
 ## Utilización de efectos de sombra y resplandor en las capas {#using-shadow-and-glow-effects-on-layers}
 
