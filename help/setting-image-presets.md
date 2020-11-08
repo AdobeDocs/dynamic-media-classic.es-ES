@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 1ec39fe5-7b2a-4034-9570-6b5595f97052
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 65%
@@ -20,7 +20,7 @@ ht-degree: 65%
 
 # Configuración de ajustes preestablecidos de imagen{#setting-up-image-presets}
 
-Un ajuste preestablecido de imagen, que se guarda con un nombre exclusivo, es similar a una macro y se compone de una serie de comandos de formato y tamaño predefinidos. Para entender cómo se usan los ajustes preestablecidos de imagen, supongamos que su sitio web requiere que la imagen de cada producto aparezca en dos tamaños distintos: 500 x 500 píxeles y 150 x 150 píxeles. Así pues, crea dos ajustes preestablecidos de imagen, uno denominado “Ampliación” para mostrar imágenes de 500 x 500 píxeles y otro denominado “Miniatura” para mostrar imágenes de 150 x 150 píxeles. Para distribuir imágenes con los tamaños &quot;Ampliar&quot; y &quot;Miniatura&quot;, un servidor de imágenes de Dynamic Media busca la definición del ajuste preestablecido de imagen Ampliación y el ajuste preestablecido de imagen en miniatura. El servidor generará dinámicamente una imagen con las especificaciones de tamaño y formato de cada ajuste preestablecido de imagen.
+Un ajuste preestablecido de imagen, que se guarda con un nombre exclusivo, es similar a una macro y se compone de una serie de comandos de formato y tamaño predefinidos. Para entender cómo se usan los ajustes preestablecidos de imagen, supongamos que su sitio web requiere que la imagen de cada producto aparezca en dos tamaños distintos: 500 x 500 píxeles y 150 x 150 píxeles. Así pues, crea dos ajustes preestablecidos de imagen, uno denominado “Ampliación” para mostrar imágenes de 500 x 500 píxeles y otro denominado “Miniatura” para mostrar imágenes de 150 x 150 píxeles. Para distribuir imágenes con los tamaños &quot;Ampliación&quot; y &quot;Miniatura&quot;, un servidor de imágenes de Dynamic Media busca la definición del ajuste preestablecido de imagen Ampliación y el ajuste preestablecido de imagen en miniatura. El servidor generará dinámicamente una imagen con las especificaciones de tamaño y formato de cada ajuste preestablecido de imagen.
 
 Dynamic Media Classic incluye varios ajustes preestablecidos de imagen &quot;recomendados&quot; que ya están configurados para su uso. Los administradores también pueden crear nuevos ajustes preestablecidos de imagen. Para crear un nuevo ajuste preestablecido, puede empezar desde cero o tomar uno existente como punto de partida y guardarlo con un nombre nuevo.
 
@@ -28,7 +28,7 @@ Téngase en cuenta que las imágenes de tamaño reducido pueden sufrir pérdidas
 
 ## Creación de un ajuste preestablecido de imagen {#creating-an-image-preset}
 
-Los administradores pueden crear ajustes preestablecidos de imagen. Puede crear nuevos ajustes preestablecidos de imagen o inicio con un ajuste preestablecido de imagen predeterminado que Dynamic Media Classic proporciona, editarlo y guardarlo con un nombre nuevo.
+Los administradores pueden crear ajustes preestablecidos de imagen. Puede crear nuevos ajustes preestablecidos de imagen o inicio con un ajuste preestablecido de imagen predeterminado que proporciona Dynamic Media Classic, editarlo y guardarlo con un nombre nuevo.
 
 **Para crear un ajuste preestablecido de imagen**
 
@@ -46,7 +46,7 @@ Los administradores pueden crear ajustes preestablecidos de imagen. Puede crear 
 1. Indique los valores de altura y anchura en píxeles. Estas medidas determinan el tamaño en que se distribuirán las imágenes.
 1. Introduzca los datos requeridos en la pantalla Agregar ajuste preestablecido o Editar ajuste preestablecido. Para obtener más información, consulte [Opciones de ajuste preestablecido de imagen](application-setup.md#image_preset_options).
 
-   Dynamic Media Classic recomienda estas opciones de &quot;prácticas recomendadas&quot; para el inicio:
+   Dynamic Media Classic recomienda estas opciones de &quot;prácticas recomendadas&quot; en inicio:
 
    * **Formato** Elija JPEG u otro formato que cumpla sus requisitos. Todos los navegadores web admiten el formato de imagen JPEG; ofrece un buen equilibrio entre los tamaños de archivos pequeños y la calidad de imagen. Sin embargo, las imágenes en formato JPEG utilizan un esquema de compresión con pérdidas que puede introducir artefactos de imagen no deseados si el ajuste de compresión es demasiado bajo. Por este motivo, Dynamic Media Classic recomienda establecer la calidad de compresión (en el control deslizante) en 75. Este ajuste ofrece un buen equilibrio entre la calidad de imagen y el tamaño de archivo pequeño.
 
@@ -64,7 +64,7 @@ Los administradores pueden crear ajustes preestablecidos de imagen. Puede crear 
 
 1. Haga clic en **Guardar**.
 
-Las opciones de &quot;prácticas recomendadas&quot; de Dynamic Media Classic para crear ajustes preestablecidos de imagen que se indican a continuación son recomendaciones generales; el enfoque es altamente subjetivo. Las “prácticas recomendadas” se basan en una imagen principal de 2000 x 2000. Las opciones deseables para imágenes mayores o menores pueden ser diferentes. Si desea ajustar la configuración de Máscara de enfoque, Dynamic Media Classic recomienda estos intervalos:
+Las opciones de &quot;prácticas recomendadas&quot; de Dynamic Media Classic para crear ajustes preestablecidos de imagen que se enumeran a continuación son recomendaciones generales; el enfoque es altamente subjetivo. Las “prácticas recomendadas” se basan en una imagen principal de 2000 x 2000. Las opciones deseables para imágenes mayores o menores pueden ser diferentes. Si desea ajustar la configuración de Máscara de enfoque, Dynamic Media Classic recomienda estos intervalos:
 
 * **Importe** entre 0,8 y 1,5.
 
