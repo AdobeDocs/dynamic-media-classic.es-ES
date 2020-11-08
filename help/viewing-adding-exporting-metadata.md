@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '2262'
 ht-degree: 78%
@@ -20,7 +20,7 @@ ht-degree: 78%
 
 # Visualización, adición y exportación de metadatos{#viewing-adding-and-exporting-metadata}
 
-You can store information specific to the files you work with in Dynamic Media Classic; this information is called *metadata*. Puede utilizar los metadatos de Dynamic Media Classic para organizar, buscar, filtrar y ordenar los recursos.
+You can store information specific to the files you work with in Dynamic Media Classic; this information is called *metadata*. Puede utilizar los metadatos en Dynamic Media Classic para organizar, buscar, filtrar y ordenar los recursos.
 
 Los metadatos aparecen en la vista de detalles junto con la información generada por Dynamic Media Classic, como la fecha de creación del archivo, la fecha de publicación y las palabras clave. Para ver los metadatos, abra el recurso en la vista de detalles y seleccione el panel Metadatos. Puede introducir y editar metadatos en la vista de detalles.
 
@@ -36,7 +36,7 @@ Para ver los metadatos de un recurso, abra el recurso en la vista de detalles y 
 
 * **IPTC** Values según la definición del Consejo Internacional de Telecomunicaciones de Prensa.
 
-* **Valores XMP** definidos por la plataforma de metadatos extensible.
+* **XMP** Valores definidos por la plataforma de metadatos extensible.
 
 Los administradores pueden crear vistas de metadatos. Estas vistas también aparecen en el menú Vistas de metadatos. Para obtener más información acerca de la creación de vistas de metadatos, consulte [Vistas de metadatos](application-setup.md#metadata_views).
 
@@ -70,14 +70,16 @@ Si durante la sesión ha agregado palabras clave para otros archivos, o si las h
 1. Para eliminar una palabra clave, selecciónela y haga clic en Eliminar. Pasará a incluirse en la tabla Sugerencias de palabras clave.
 
 >[!NOTE]
-Puede agregar palabras clave a los archivos al cargarlos en Dynamic Media Classic. En el cuadro de diálogo Opciones de trabajo de carga, seleccione Metadatos adicionales e introduzca palabras clave. Consulte [Opciones de carga](uploading-files.md#upload_options).
+>
+>Puede agregar palabras clave a los archivos al cargarlos en Dynamic Media Classic. En el cuadro de diálogo Opciones de trabajo de carga, seleccione Metadatos adicionales e introduzca palabras clave. Consulte [Opciones de carga](uploading-files.md#upload_options).
 
 ## Importación de metadatos {#import-metadata}
 
 En lugar de introducir los metadatos manualmente de uno en uno, puede importar los metadatos para varios recursos diferentes desde un archivo delimitado por tabuladores o XML. Introducir los metadatos en un archivo delimitado por tabuladores o XML e importar este archivo requiere menos tiempo que si se introducen estos metadatos en recursos individuales. En la primera fila del archivo delimitado por tabuladores, introduzca el ID y los nombres de los campos para los que desea grabar los metadatos. En cada fila posterior, introduzca un nombre de ID de recurso seguido de los valores de los metadatos. Los campos que no se incluyen en el archivo XML o delimitado por tabuladores no se modificarán. Para importar metadatos desde un archivo XML, asegúrese de que cumple con el archivo DTD.
 
 >[!NOTE]
-Puede crear una plantilla para introducir metadatos de modo que se puedan importar correctamente a Dynamic Media Classic. Una vez creada la plantilla, puede utilizarla para introducir los metadatos. Consulte [Creación de una plantilla para la introducción y carga de metadatos](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload).
+>
+>Puede crear una plantilla para introducir metadatos de modo que se puedan importar correctamente a Dynamic Media Classic. Una vez creada la plantilla, puede utilizarla para introducir los metadatos. Consulte [Creación de una plantilla para la introducción y carga de metadatos](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload).
 
 Puede obtener más información sobre las propiedades estandarizadas en: https://www.adobe.com/devnet/xmp.html
 
@@ -176,7 +178,8 @@ Puede utilizar el editor de esquemas de metadatos para realizar las siguientes a
 El sistema genera automáticamente un esquema personalizado para los campos definidos por el usuario con el prefijo &quot;s7udf&quot;. Éstos son los campos definidos por el usuario existentes y se editan en su propia sección de ajustes.
 
 >[!NOTE]
-Los cambios en el esquema nunca cambian los metadatos del recurso. Sin embargo, no son visibles para todas las funciones de Dynamic Media Classic y Metadata Server y no se puede acceder a ellos después de cambiarlos. Del mismo modo, si existen metadatos para un recurso, la creación del esquema coincidente hace que los metadatos se puedan utilizar en Dynamic Media Classic y en el servidor de metadatos.
+>
+>Los cambios en el esquema nunca cambian los metadatos del recurso. Sin embargo, no están visibles para todas las funciones de Dynamic Media Classic y del servidor de metadatos y no se puede acceder a ellos después de cambiarlos. Del mismo modo, si existen metadatos para un recurso, la creación del esquema coincidente hace que los metadatos se puedan utilizar en Dynamic Media Classic y en el servidor de metadatos.
 
 El Editor de Esquemas de metadatos oferta una forma gráfica de agregar o editar un esquema de compañía personalizado dentro de Dynamic Media Classic. Un esquema se define por un prefijo, un espacio de nombre y una lista de propiedades.
 
@@ -186,7 +189,7 @@ El Editor de Esquemas de metadatos oferta una forma gráfica de agregar o editar
 
 * Prefijo
 
-   Identificador técnico exclusivo para el esquema. Limitado a las letras a-z y A-Z. El prefijo no está visible en la IU de Dynamic Media Classic, pero se utiliza cuando los metadatos de un recurso se almacenan en el bloque XMP y en nuestra base de datos. El prefijo se usa para identificar de forma exclusiva los campos de metadatos en las consultas de búsqueda de metadatos en el servidor de metadatos o durante la importación.
+   Identificador técnico exclusivo para el esquema. Limitado a las letras a-z y A-Z. El prefijo no está visible en la interfaz de usuario de Dynamic Media Classic, pero se utiliza cuando los metadatos de un recurso se almacenan en el bloque de XMP y en nuestra base de datos. El prefijo se usa para identificar de forma exclusiva los campos de metadatos en las consultas de búsqueda de metadatos en el servidor de metadatos o durante la importación.
 
 * Espacio de nombre
 
@@ -197,13 +200,14 @@ El Editor de Esquemas de metadatos oferta una forma gráfica de agregar o editar
    Descripción de formato libre del esquema.
 
 >[!NOTE]
-El prefijo y el espacio de nombre no se pueden editar. Para cambiar estas propiedades, deberá eliminar y volver a crear el esquema.
+>
+>El prefijo y el espacio de nombre no se pueden editar. Para cambiar estas propiedades, deberá eliminar y volver a crear el esquema.
 
 Las propiedades describen los metadatos que se pueden almacenar con este esquema en el bloque XMP. Una propiedad consta de lo siguiente:
 
 | Propiedad | Descripción |
 |--- |--- |
-| ID | Identificador técnico para esta propiedad. El ID no está visible en la IU de Dynamic Media Classic, pero se utiliza cuando los metadatos de un recurso se almacenan en el bloque XMP y en nuestra base de datos. Este código se utiliza para crear consultas de búsqueda en el servidor de metadatos. El ID tiene algunas limitaciones, por ejemplo: <ul><li>No puede contener espacios</li><li>No &quot;.&quot;, &quot;:&quot;, &quot;$&quot;</li><li>No puede contener un número como primer carácter</li><li>Lo mejor es utilizar una letra de a-z o A-Z como primer carácter</li></ul> <br>Una vez creado, el ID no se puede modificar. |
+| ID | Identificador técnico para esta propiedad. El ID no está visible en la interfaz de usuario de Dynamic Media Classic, pero se utiliza cuando los metadatos de un recurso se almacenan en el bloque de XMP y en nuestra base de datos. Este código se utiliza para crear consultas de búsqueda en el servidor de metadatos. El ID tiene algunas limitaciones, por ejemplo: <ul><li>No puede contener espacios</li><li>No &quot;.&quot;, &quot;:&quot;, &quot;$&quot;</li><li>No puede contener un número como primer carácter</li><li>Lo mejor es utilizar una letra de a-z o A-Z como primer carácter</li></ul> <br>Una vez creado, el ID no se puede modificar. |
 | Etiqueta | Nombre de interfaz de usuario para esta propiedad. |
 | Estructura | Determina el tipo de la propiedad junto con el tipo de datos. La estructura puede ser uno de los siguientes valores:<ul><li>Tipo simple: solo el valor del tipo de datos.</li><li>Secuencia: una lista de valores del mismo tipo de datos.</li><li>Opción abierta: seleccione un elemento de la lista de valores predefinidos, o introduzca texto libre. El tipo de datos solo puede ser Cadena o Entero.</li><li>Opción cerrada: seleccione un elemento de la lista de valores predefinidos (una ventana emergente o un cuadro combinado).</li></ul> |
 | Tipo de datos | Seleccione uno de estos tipos disponibles: <ul><li>Cadena</li><li>Entero</li><li>Flotante</li><li>Sí/No (booleano)</li><li>Fecha</li></ul> |
@@ -213,10 +217,11 @@ Si la propiedad tiene la estructura Opción abierta u Opción cerrada, debe prop
 
 | Propiedad | Descripción |
 |--- |--- |
-| ID | Identificador técnico para este valor. El ID no está visible en la interfaz de usuario de Dynamic Media Classic, pero se utiliza cuando los metadatos de un recurso se almacenan en el bloque XMP y en la base de datos. Este ID se utiliza en las consultas de búsquedas del servidor de metadatos. El ID no puede contener espacios. Una vez creado, el ID no se puede modificar. |
+| ID | Identificador técnico para este valor. El ID no está visible en la interfaz de usuario de Dynamic Media Classic, pero se utiliza cuando los metadatos de un recurso se almacenan en el bloque de XMP y en la base de datos. Este ID se utiliza en las consultas de búsquedas del servidor de metadatos. El ID no puede contener espacios. Una vez creado, el ID no se puede modificar. |
 | Etiqueta | Nombre de interfaz de usuario para este valor. |
 
 >[!MORELIKETHIS]
-* [Ajustes preestablecidos de visor](application-setup.md#viewer_presets)
-* [Ajustes preestablecidos de metadatos](application-setup.md#metadata_presets)
+>
+>* [Ajustes preestablecidos de visor](application-setup.md#viewer_presets)
+>* [Ajustes preestablecidos de metadatos](application-setup.md#metadata_presets)
 
