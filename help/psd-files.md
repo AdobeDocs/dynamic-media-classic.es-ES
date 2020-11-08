@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1030'
 ht-degree: 64%
@@ -64,9 +64,9 @@ Para un recorte basado en transparencia, especifique 0 para recortar píxeles so
 
 **Nombre** de la capaAsigna un nombre a las imágenes después de los nombres de sus capas en el archivo PSD. Por ejemplo, una capa con el nombre Etiqueta de precio en el archivo PSD original se convierte en una imagen con el nombre Etiqueta de precio. Sin embargo, si los nombres de capa en el archivo PSD son de forma predeterminada nombres de capa de Photoshop (Fondo, Capa 1, Capa 2, etc), las imágenes recibirán como nombre su número de capa en el archivo PSD, no su nombre de capa predeterminado.
 
-**Photoshop y Número** de capaAsigne un nombre a las imágenes después de sus números de capa en el archivo PSD, omitiendo los nombres de capa originales. Las imágenes reciben el nombre del archivo de Photoshop y un sufijo de número de capa. Por ejemplo, la segunda capa de un archivo con el nombre Anuncio primavera.psd recibirá el nombre Anuncio primavera_2 aunque tenga un nombre no predeterminado en Photoshop.
+**Photoshop y Número** de capaAsigna un nombre a las imágenes después de los números de capa en el archivo PSD, omitiendo los nombres de capa originales. Las imágenes reciben el nombre del archivo de Photoshop y un sufijo de número de capa. Por ejemplo, la segunda capa de un archivo con el nombre Anuncio primavera.psd recibirá el nombre Anuncio primavera_2 aunque tenga un nombre no predeterminado en Photoshop.
 
-**Nombre** de Photoshop y capaNombres de las imágenes después del archivo PSD seguidos del nombre de la capa o el número de capa. El número de capa se utiliza si los nombres de capa en el archivo PSD son nombres de capa predeterminados de Photoshop. Por ejemplo, una capa con el nombre Etiqueta de precio en un archivo PSD con el nombre Anuncio primavera se llamará Anuncio primavera_Etiqueta de precio. Una capa con el nombre predeterminado Capa 2 se llamará Anuncio primavera_2.
+**Nombre** de capa y PhotoshopNombre las imágenes después del archivo PSD seguido del nombre o el número de capa. El número de capa se utiliza si los nombres de capa en el archivo PSD son nombres de capa predeterminados de Photoshop. Por ejemplo, una capa con el nombre Etiqueta de precio en un archivo PSD con el nombre Anuncio primavera se llamará Anuncio primavera_Etiqueta de precio. Una capa con el nombre predeterminado Capa 2 se llamará Anuncio primavera_2.
 
 **Anclaje** Especifique cómo se anclan las imágenes en plantillas generadas a partir de la composición por capas producida a partir del archivo PSD. De forma predeterminada, el anclaje es al centro. Un anclaje central permite la sustitución de imágenes para rellenar mejor el mismo espacio, independientemente de la proporción de la imagen de sustitución. Las imágenes con una proporción diferente que sustituyan esta imagen, al hacer referencia a la plantilla y usar la sustitución paramétrica, ocuparán el mismo espacio. Cambie a otra configuración si la aplicación requiere que las imágenes de sustitución rellenen el espacio asignado en la plantilla.
 
