@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '984'
 ht-degree: 66%
@@ -66,7 +66,7 @@ En la lista desplegable Modo de creación, elija un modo de informe:
 
 En la lista desplegable Modo automático/manual, elija si la creación se realiza de manera automática o manual:
 
-**Modo** automático Dynamic Media Classic genera automáticamente un mapa de vídeos, un recurso mRSS o ambos cada día. Elija la opción Marcar para publicación para marcar automáticamente para la publicación el archivo XML que Dynamic Media Classic genera.
+**Modo** automático Dynamic Media Classic genera automáticamente un mapa de vídeos, un recurso mRSS o ambos cada día. Seleccione la opción Marcar para publicación para marcar automáticamente para la publicación el archivo XML que genera Dynamic Media Classic.
 
 **Modo** manual Dynamic Media Classic genera el mapa de vídeos, el recurso mRSS o ambos al hacer clic en Generar o Guardar y generar en la pantalla Configuración de optimización de búsqueda de vídeo. Elija también estas opciones:
 
