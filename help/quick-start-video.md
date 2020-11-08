@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 6cef541b-e9df-48eb-9a16-ca3e1f07238e
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 65%
@@ -20,7 +20,7 @@ ht-degree: 65%
 
 # Inicio rápido: Vídeo{#quick-start-video}
 
-Adobe Dynamic Media Classic Video es una solución integral que facilita la publicación de vídeos adaptables de alta calidad para transmitir en varias pantallas, incluidos equipos de escritorio, iOS, Android, Blackberry y dispositivos móviles Windows. Los conjuntos de vídeos adaptables agrupan versiones del mismo vídeo codificadas con una velocidad de bits y un formato diferentes, por ejemplo, 400 kbps, 800 kbps y 1.000 kbps. El ordenador de escritorio o dispositivo móvil detecta el ancho de banda disponible.
+Adobe Dynamic Media Classic Video es una solución integral que facilita la publicación de vídeo adaptable de alta calidad para transmitir en varias pantallas, incluidos equipos de escritorio, iOS, Android, Blackberry y dispositivos móviles Windows. Los conjuntos de vídeos adaptables agrupan versiones del mismo vídeo codificadas con una velocidad de bits y un formato diferentes, por ejemplo, 400 kbps, 800 kbps y 1.000 kbps. El ordenador de escritorio o dispositivo móvil detecta el ancho de banda disponible.
 
 Por ejemplo, en un dispositivo móvil iOS, detecta un ancho de banda de, por ejemplo, 3G, 4G o Wi-Fi. A continuación, selecciona de forma automática el vídeo codificado correcto de las diversas velocidades de bits que incluye el conjunto de vídeos adaptable. El vídeo se transmite a equipos de escritorio, dispositivos móviles o tablets.
 
@@ -55,7 +55,7 @@ Para administrar un solo vídeo y conjuntos de vídeos adaptables, Dynamic Media
 
    El flujo de vídeo adaptable se admite en numerosas plataformas de iOS.
 
-   Consulte la compatibilidad más reciente en la Guía de referencia de visores de [Adobe](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
+   Consulte la compatibilidad más reciente en la Guía [de referencia de visores de](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)Adobe.
 
    Dynamic Media Classic admite la reproducción de vídeo móvil para vídeo MP4 H.264. Puede consultar los dispositivos BlackBerry compatibles con este formato de vídeo en este sitio web:
 
@@ -82,7 +82,7 @@ La siguiente descripción paso a paso del flujo de trabajo se ha diseñado para 
 Cargue y genere conjuntos de vídeos adaptables con una de los dos situaciones siguientes:
 
 * **Cargar vídeos** precodificados Si los vídeos ya estaban codificados fuera de Dynamic Media Classic, haga clic en 
-**Cargue** archivos de vídeo MP4 directamente en Dynamic Media Classic en la barra de navegación global. A continuación, haga clic en **Generar > Conjuntos de vídeos adaptables**. Busque los archivos de vídeo. Arrastre los archivos de vídeo deseados, suéltelos en la tabla Conjunto de vídeos adaptable y, a continuación, guarde el conjunto.
+**Cargue** en la barra de navegación global para buscar y cargar archivos de vídeo MP4 directamente en Dynamic Media Classic. A continuación, haga clic en **Generar > Conjuntos de vídeos adaptables**. Busque los archivos de vídeo. Arrastre los archivos de vídeo deseados, suéltelos en la tabla Conjunto de vídeos adaptable y, a continuación, guarde el conjunto.
 * **Cargar vídeos** de origen maestros Si los vídeos no están codificados, haga clic en 
 **Cargue** en la barra de navegación global para cargar archivos de origen de vídeo maestros (que no sean MP4) y hacer que Dynamic Media Classic los codifique en archivos MP4 por usted. En el cuadro de diálogo Opciones de trabajo de carga, en Opciones de eVideo, seleccione **Vídeo adaptable**.
 
@@ -112,7 +112,7 @@ Puede reproducir el vídeo en la pantalla Vista previa. También puede elegir vi
 
 **Opcional**
 
-Personalización de ajustes preestablecidos de visor: Dynamic Media Classic oferta ajustes preestablecidos de visor predefinidos para la publicación de vídeo. Estos ajustes preestablecidos determinan la apariencia del visor y cómo funcionan los controles de reproducción. Para personalizar el visor de vídeo, los administradores pueden agregar y gestionar ajustes preestablecidos de visor desde la página Ajustes preestablecidos de visor. Para abrir esta página, en la esquina superior derecha de Dynamic Media Classic, haga clic en Ajustes > Ajustes preestablecidos de visor. La página Ajustes preestablecidos de visor contiene opciones para agregar, editar, eliminar y activar ajustes preestablecidos de visor.
+Personalización de ajustes preestablecidos de visor: Dynamic Media Classic oferta los ajustes preestablecidos de visor predefinidos para la publicación de vídeo. Estos ajustes preestablecidos determinan la apariencia del visor y cómo funcionan los controles de reproducción. Para personalizar el visor de vídeo, los administradores pueden agregar y gestionar ajustes preestablecidos de visor desde la página Ajustes preestablecidos de visor. Para abrir esta página, en la esquina superior derecha de Dynamic Media Classic, haga clic en Ajustes > Ajustes preestablecidos de visor. La página Ajustes preestablecidos de visor contiene opciones para agregar, editar, eliminar y activar ajustes preestablecidos de visor.
 
 Consulte [Uso de ajustes preestablecidos de visor de vídeo](previewing-videos-video-viewer.md#working_with_video_viewer_presets).
 
