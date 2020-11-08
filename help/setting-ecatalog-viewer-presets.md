@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 67%
@@ -21,7 +21,7 @@ ht-degree: 67%
 
 Los ajustes preestablecidos de visor de catálogos electrónicos determinan el estilo, el comportamiento y el aspecto de los visores de catálogos electrónicos. Dynamic Media Classic proporciona ajustes preestablecidos de visor de catálogos electrónicos y también puede crear sus propios ajustes preestablecidos de visor de catálogos electrónicos si es administrador.
 
-Para crear un nuevo ajuste preestablecido, puede realizar inicios desde cero o inicios con un ajuste preestablecido de visor de catálogos electrónicos proporcionado por Dynamic Media Classic y guardarlo con un nuevo nombre. Puede crear sus propios ajustes preestablecidos de visor para presentar el material impreso en los colores de la empresa y establecer el tono.
+Para crear un nuevo ajuste preestablecido, puede crear inicios desde cero o inicios con un ajuste preestablecido de visor de catálogos electrónicos proporcionado por Dynamic Media Classic y guardarlo con un nuevo nombre. Puede crear sus propios ajustes preestablecidos de visor para presentar el material impreso en los colores de la empresa y establecer el tono.
 
 Los ajustes preestablecidos del visor de catálogos electrónicos proporcionan muchas opciones de configuración para pasar de página, acercar o alejar la imagen, realizar búsquedas y elegir “apariencias”. El aspecto de estos controles y del propiamente dicho depende de la selección de ajustes preestablecidos de visor de catálogos electrónicos.
 
