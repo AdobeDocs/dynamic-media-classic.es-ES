@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '2444'
 ht-degree: 75%
@@ -22,7 +22,7 @@ ht-degree: 75%
 
 Un mapa de imagen es una zona de una imagen, una página del catálogo electrónico o una imagen del Conjunto de giros, que muestra un panel de rollover con texto. Cuando el usuario hace clic en un mapa de imagen, se activa una acción de cierto tipo. Por ejemplo, se abre una página web para que el usuario pueda obtener más información sobre un producto. Para llamar la atención sobre un mapa de imagen, aparece un contorno alrededor de este cuando el usuario coloca el puntero sobre él.
 
-Además de la posibilidad de crear un mapa de imagen en Dynamic Media Classic, también puede crear mapas de imagen al diseñar un catálogo en Adobe Acrobat o Adobe InDesign.
+Además de la capacidad de crear un mapa de imagen en Dynamic Media Classic, también puede crear mapas de imagen al diseñar un catálogo en Adobe Acrobat o Adobe InDesign.
 
 Al crear mapas de imagen, puede realizar cualquiera de las siguientes acciones:
 
@@ -144,7 +144,7 @@ Deberá colocar todos los valores que no cambian entre los mapas de imagen en la
 * Valor de URL: `product.htm`
 * Dirección URL real generada: `javascript:loadProduct(‘https://www.examplesitehere.com/product.html);void(0);`
 
-By default, the URL template includes a proprietary Dynamic Media Classic JavaScript handler called `loadProduct` that opens a new window with the URL destination. Sin embargo, puede utilizar cualquier código JavaScript para reemplazar este controlador JavaScript o uno de los siguientes controladores de Dynamic Media Classic:
+By default, the URL template includes a proprietary Dynamic Media Classic JavaScript handler called `loadProduct` that opens a new window with the URL destination. Sin embargo, puede utilizar cualquier código JavaScript para reemplazar este controlador JavaScript o utilizar uno de los siguientes controladores de Dynamic Media Classic:
 
 * `loadProductCW`
 
@@ -154,7 +154,7 @@ By default, the URL template includes a proprietary Dynamic Media Classic JavaSc
 
    muestra el destino URL especificado en la columna URL en la ventana principal (la página que abrió la activa). La ventana activa permanece abierta, pero la principal cambia para mostrar el destino URL.
 
-   ***nota **: El controlador`loadProductPW`no admite visores DHTML y HTML5.*
+   ***nota **: El controlador `loadProductPW` no admite visores DHTML y HTML5.*
 
 ### Creación de una plantilla URL {#creating-a-url-template}
 
@@ -212,7 +212,7 @@ Para obtener más información, consulte la Ayuda de InDesign o Acrobat.
 
 1. Repita los pasos 2 a 5 para todos los mapas de imágenes que desee crear.
 1. Exporte el archivo como PDF.
-1. Cargue el PDF a Dynamic Media Classic y seleccione Extraer vínculos en Opciones de PDF.
+1. Cargue el PDF a Dynamic Media Classic y seleccione Extraer vínculos en las opciones de PDF.
 
 ### Para crear mapas de imagen en Adobe Acrobat {#to-create-image-maps-in-adobe-acrobat}
 
@@ -227,5 +227,5 @@ Para obtener más información, consulte la Ayuda de InDesign o Acrobat.
 1. Escriba la ID del producto para el mapa de imagen en el cuadro Editar URL y haga clic en Aceptar. (Dynamic Media Classic completa la dirección URL con la plantilla URL de mapa de imagen).
 1. Repita los pasos 1 a 7 para todos los mapas de imágenes que desee crear.
 1. Guarde el archivo.
-1. Cargue el PDF a Dynamic Media Classic y seleccione Extraer vínculos en Opciones de PDF.
+1. Cargue el PDF a Dynamic Media Classic y seleccione Extraer vínculos en las opciones de PDF.
 
