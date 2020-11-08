@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 62%
@@ -20,11 +20,11 @@ ht-degree: 62%
 
 # Inicio rápido: Conjuntos de imágenes{#quick-start-image-sets}
 
-Los conjuntos de imágenes de Dynamic Media Classic ofrecen a los usuarios una experiencia de visualización integrada. En el visor de conjuntos de imágenes dinámico los usuarios pueden acceder a diversas vistas de un elemento haciendo clic en una imagen de miniatura. Los conjuntos de imágenes permiten presentar vistas alternativas de alta resolución de un elemento.
+Los conjuntos de imágenes de Dynamic Media Classic ofrecen a los usuarios una visualización integrada. En el visor de conjuntos de imágenes dinámico los usuarios pueden acceder a diversas vistas de un elemento haciendo clic en una imagen de miniatura. Los conjuntos de imágenes permiten presentar vistas alternativas de alta resolución de un elemento.
 
 El visor de conjuntos de imágenes ofrece herramientas de zoom para examinar las imágenes de cerca. Si lo desea, puede crear destinos de zoom guiado y mapas de imagen para que formen parte del conjunto de imágenes. Los conjuntos de imágenes permiten una visualización completa y coordinada.
 
-Este Inicio rápido sobre los conjuntos de imágenes está diseñado para ponerse en marcha rápidamente con las técnicas de conjuntos de imágenes de Dynamic Media Classic.
+Este Inicio rápido sobre los conjuntos de imágenes se ha diseñado para ayudarle en el uso inicial de las técnicas de conjuntos de imágenes en Dynamic Media Classic.
 
 **1. Carga de las imágenes principales para varias vistas y muestras**
 
