@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: a2824244-1755-42de-a167-42af117cf038
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 38%
@@ -20,9 +20,9 @@ ht-degree: 38%
 
 # Instrumentación de visores con el kit de instrumentación de Adobe Analytics{#instrumenting-a-viewer-using-the-adobe-analytics-instrumentation-kit}
 
-Puede utilizar el kit de instrumentación de Analytics de Adobe para integrar un visor HTML5 con Adobe Analytics.
+Puede utilizar el kit de instrumentación de Adobe Analytics para integrar un visor HTML5 con Adobe Analytics.
 
-Si utiliza cualquiera de los ajustes preestablecidos de visor HTML5 de Dynamic Media Classic predefinidos, tenga en cuenta que ya contienen todo el código de implementación necesario para enviar datos a Adobe Analytics; no necesita más instrumentación.
+Si utiliza cualquiera de los ajustes preestablecidos de visor HTML5 de Dynamic Media Classic predefinidos, tenga en cuenta que ya contienen todo el código de implementación necesario para enviar datos a Adobe Analytics, por lo que no necesita más instrumentación.
 
 ## Configuración del seguimiento de Adobe Analytics desde Dynamic Media Classic {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
 
