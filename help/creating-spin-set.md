@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 74%
@@ -24,11 +24,11 @@ Si desea crear un conjunto de giros eficaz, asegúrese de tomar las imágenes co
 
 >[!NOTE]
 >
->Las versiones anteriores de Dynamic Media Classic no hacían ofertas de conjuntos de giros bidimensionales. Si ha creado un conjunto de giros en una versión anterior de Dynamic Media Classic, no podrá guardar el conjunto de giros unidimensional sin guardarlo primero con otro nombre. Haga clic en Guardar como en la pantalla Conjunto de giros e introduzca un nuevo nombre para poder editarlo en Dynamic Media Classic.
+>Las versiones anteriores de Dynamic Media Classic no ofertas de conjuntos de giros bidimensionales. Si ha creado un conjunto de giros en una versión anterior de Dynamic Media Classic, no podrá guardar el conjunto de giros unidimensional sin guardarlo primero con un nombre diferente. Haga clic en Guardar como en la pantalla Conjunto de giros e introduzca un nuevo nombre para poder editarlo en Dynamic Media Classic.
 
 ## Instrucciones para obtener imágenes para conjuntos de giros {#guidelines-for-shooting-spin-set-images}
 
-Por normal general, cuantas más imágenes tenga un conjunto de giros, mejor será el efecto de giro. Sin embargo, si se incluyen muchas imágenes en el conjunto también se aumentará el tiempo que tardan en cargarse las imágenes. Dynamic Media Classic recomienda estas pautas para la toma de imágenes para su uso en conjuntos de giros:
+Por normal general, cuantas más imágenes tenga un conjunto de giros, mejor será el efecto de giro. Sin embargo, si se incluyen muchas imágenes en el conjunto también se aumentará el tiempo que tardan en cargarse las imágenes. Dynamic Media Classic recomienda estas instrucciones para la toma de imágenes para su uso en conjuntos de giros:
 
 * Como mínimo, utilice entre 8 y 12 imágenes en un conjunto de giros unidimensional y entre 16 y 24 imágenes en un conjunto de giros bidimensional.
 * Utilice un formato sin pérdida; se recomiendan TIFF y PNG.
@@ -38,7 +38,7 @@ Por normal general, cuantas más imágenes tenga un conjunto de giros, mejor ser
 
 ## Creación de un conjunto de giros {#create}
 
-Tenga en cuenta que es importante el orden en que se crea o se crea el conjunto de giros en Dynamic Media Classic. Dependiendo del orden de los recursos al arrastrar y colocar imágenes en la cuadrícula de la pantalla Conjunto de giros, el conjunto girará en una dirección determinada. Por consiguiente, el orden en que se ve en el generador es la forma en que el recurso gira cuando un usuario mueve el puntero del ratón o mueve el dedo, de izquierda a derecha.
+Tenga en cuenta que es importante el orden en el que se crea o se crea el conjunto de giros en Dynamic Media Classic. Dependiendo del orden de los recursos al arrastrar y colocar imágenes en la cuadrícula de la pantalla Conjunto de giros, el conjunto girará en una dirección determinada. Por consiguiente, el orden en que se ve en el generador es la forma en que el recurso gira cuando un usuario mueve el puntero del ratón o mueve el dedo, de izquierda a derecha.
 
 Al crear un conjunto, la opción **Publicar después de guardar** afecta al conjunto y a los miembros del conjunto de las siguientes formas:
 
