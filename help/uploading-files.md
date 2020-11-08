@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '3855'
 ht-degree: 43%
@@ -27,7 +27,7 @@ Antes de cargar recursos a Dynamic Media Classic, asegúrese de que tienen el fo
 
 ### Formatos de archivo de recurso admitidos {#supported-asset-file-formats}
 
-Esta tabla lista los formatos de archivo de recursos que admite Dynamic Media Classic. For information on supported Camera Raw files, see [www.adobe.com/go/learn_s7_cameraraw_en](https://www.adobe.com/go/learn_s7_cameraraw_en).
+Esta tabla lista los formatos de archivo de recursos compatibles con Dynamic Media Classic. For information on supported Camera Raw files, see [www.adobe.com/go/learn_s7_cameraraw_en](https://www.adobe.com/go/learn_s7_cameraraw_en).
 
 | Formatos de archivo de recurso | Descripción |
 |--- |--- |
@@ -56,7 +56,7 @@ La carga de archivos TAR y ZIP incluye una casilla de verificación para selecci
 
 La siguiente lista describe los subtipos de formatos de archivo de imagen rasterizada que *no son* compatibles con Dynamic Media.
 
-Consulte también [Detección de formatos de archivo no admitidos para Dynamic Media](https://helpx.adobe.com/experience-manager/kb/detect-unsupported-assets-for-dynamic-media.html).
+Consulte también [Detección de formatos de archivo no compatibles para Dynamic Media](https://helpx.adobe.com/experience-manager/kb/detect-unsupported-assets-for-dynamic-media.html).
 
 * Archivos PNG con un tamaño de fragmento IDAT bueno de 100 MB.
 * Archivos PSB.
@@ -67,7 +67,7 @@ Consulte también [Detección de formatos de archivo no admitidos para Dynamic M
 
 ### Tipos de recursos {#asset-types}
 
-Para obtener resultados óptimos con la plataforma Dynamic Media Classic, asegúrese de utilizar los formatos y tamaños de archivo recomendados. Esta tabla muestra los tipos de recursos, algunos con los formatos y tamaños de archivos recomendados para los recursos más comunes.
+Para obtener resultados óptimos con la plataforma de Dynamic Media Classic, asegúrese de utilizar los formatos y tamaños de archivo recomendados. Esta tabla muestra los tipos de recursos, algunos con los formatos y tamaños de archivos recomendados para los recursos más comunes.
 
 | Tipo de recurso | Descripción/Recomendaciones |
 |--- |--- |
@@ -90,7 +90,7 @@ Para obtener resultados óptimos con la plataforma Dynamic Media Classic, asegú
 
 >[!NOTE]
 >
->Al cargar archivos de imagen y archivos PDF a Dynamic Media Classic, el sistema convierte estos archivos de origen en archivos P-TIFF (Pyramid TIFF). Estos P-TIFF son los archivos que se publican posteriormente en los servidores de imágenes de Dynamic Media. Dynamic Media Classic utiliza el formato de archivo Pyramid Tiff porque contiene varias relaciones de zoom que permiten un zoom rápido al visualizarse con un visor de zoom Dynamic Media Classic.
+>Al cargar archivos de imagen y archivos PDF en Dynamic Media Classic, el sistema convierte estos archivos de origen en archivos P-TIFF (Pyramid TIFF). Estos P-TIFF son los archivos que se publican posteriormente en los servidores de imágenes de Dynamic Media. Dynamic Media Classic utiliza el formato de archivo Pyramid Tiff, ya que contiene varias relaciones de zoom que permiten un zoom rápido al visualizarse con un visor de zoom Dynamic Media Classic.
 
 ### Formatos de archivo estático compatibles {#supported-static-file-formats}
 
@@ -113,7 +113,7 @@ Dynamic Media Classic no ofrece la opción de generar una URL de previsualizaci�
 
 ### Requisitos de nombre de archivo {#filename-requirements}
 
-Dado que las extensiones de nombre de archivo se quitan durante el proceso de carga, el sistema no permite que haya archivos con el mismo nombre raíz. En el sistema Dynamic Media Classic, el nombre de archivo del recurso menos la extensión de nombre de archivo se convierte en el ID del recurso. Por esta razón no puede haber dos recursos con el mismo nombre.
+Dado que las extensiones de nombre de archivo se quitan durante el proceso de carga, el sistema no permite que haya archivos con el mismo nombre raíz. En el sistema de Dynamic Media Classic, el nombre de archivo del recurso menos la extensión de nombre de archivo se convierte en el ID del recurso. Por esta razón no puede haber dos recursos con el mismo nombre.
 
 Asegúrese de que todos los usuarios de la empresa entienden las reglas de designación de archivos.
 
@@ -135,12 +135,12 @@ En la mayoría de los casos, un nombre de archivo de recurso puede coincidir con
 
 ### Organización y estructura de carpetas {#folder-organization-and-structure}
 
-Organice y estructure carpetas y subcarpetas para su contenido en Dynamic Media Classic antes de cargar el contenido en el sistema. Esto aporta dos ventajas:
+Organice y estructure carpetas y subcarpetas para el contenido en Dynamic Media Classic antes de cargar el contenido en el sistema. Esto aporta dos ventajas:
 
 * Al cargar el contenido a Dynamic Media Classic mediante FTP, puede indicar al sistema que replique la estructura de carpetas durante la carga. De este modo, el contenido se organiza en las mismas carpetas y subcarpetas de Dynamic Media Classic que en el equipo o la red. (Para reproducir la estructura de carpetas en Dynamic Media Classic, seleccione la opción Incluir subcarpetas al cargar recursos mediante FTP).
 * La reorganización de carpetas dentro del sistema después de cargar los archivos resulta más difícil que un punto de partida con una estructura de carpetas ya probada.
 
-El método de asignación de nombres a las carpetas y la estructura que elija para almacenar el contenido en Dynamic Media Classic dependen de las necesidades de la organización. A continuación se citan algunos ejemplos de estructura de carpetas:
+El método de asignación de nombres a carpetas y la estructura que elija para almacenar el contenido en Dynamic Media Classic dependen de las necesidades de la organización. A continuación se citan algunos ejemplos de estructura de carpetas:
 
 **Las carpetas basadas** en SKU reciben nombres según los números de artículo o SKU. Por ejemplo, se crean carpetas distintas para las series de números 0-, 20-, 30-, etc.
 
@@ -156,11 +156,11 @@ Puede cargar archivos individuales desde el escritorio o cargar carpetas enteras
 
 Dynamic Media Classic le envía un mensaje de correo electrónico para confirmar cuándo comienza y termina el trabajo de carga y para notificar cualquier problema.
 
-Durante un trabajo de carga grande, o inmediatamente después, algunos elementos nuevos pueden mostrar el mensaje &quot;La imagen no está optimizada todavía&quot;. Este mensaje aparece porque los archivos aún no se han procesado y agregado completamente a Dynamic Media Classic. Puede optimizar estos archivos posteriormente. (Consulte [Optimización de archivos](application-setup.md#optimize_files)).
+Durante un trabajo de carga grande, o inmediatamente después, algunos elementos nuevos pueden mostrar el mensaje &quot;La imagen no está optimizada todavía&quot;. Este mensaje aparece porque los archivos aún no se han procesado completamente y se han agregado a Dynamic Media Classic. Puede optimizar estos archivos posteriormente. (Consulte [Optimización de archivos](application-setup.md#optimize_files)).
 
 ### Carga de archivos mediante la ficha DESKTOP FROM {#upload-files-using-sps-desktop-application}
 
-La aplicación Dynamic Media Classic Desktop permite cargar archivos y carpetas arrastrándolos.
+La aplicación de escritorio de Dynamic Media Classic permite cargar archivos y carpetas arrastrándolos.
 
 1. In the Dynamic Media Classic Desktop application, on the Global Navigation bar, click **Upload**.
 1. On the Upload page, click the **FROM DESKTOP** tab.
@@ -185,7 +185,7 @@ Para ver el progreso de la carga, haga clic en **Trabajos** en la barra de naveg
 1. En Dynamic Media Classic, en la barra de navegación global, haga clic en **Cargar**.
 1. On the Upload page, click the **VIA FTP** tab.
 1. En la parte izquierda de la página Cargar, en el área **Elegir carpeta FTP para la carga** , elija una carpeta FTP desde la que cargar los archivos.
-1. En la parte derecha de la página Cargar, en el área **Elegir destino** de la carpeta de Dynamic Media de Adobe, elija una carpeta de destino en Dynamic Media Classic.
+1. En la parte derecha de la página Cargar, en el área **Elegir destino** de carpeta de medios dinámicos de Adobe, elija una carpeta de destino en Dynamic Media Classic.
 1. (Opcional) Cerca de la parte inferior de la página Cargar, en el campo Nombre **del** trabajo, especifique el nuevo nombre del trabajo de carga. O bien, puede utilizar el nombre predeterminado generado por el sistema que proporciona Dynamic Media Classic. El trabajo, junto con otros de carga y publicación, se grabará en la página Trabajos, donde puede comprobar el estado de los trabajos. Consulte [Comprobación de archivos de trabajo](checking-job-files.md#checking_job_files).
 1. (Opcional) Cerca de la parte inferior de la página de carga, seleccione **Publicar tras la carga** si desea publicar automáticamente los recursos que cargue.
 Al publicar archivos, se envían a servidores interactivos. Las URL para estos archivos se pueden utilizar en sitios Web y aplicaciones externas. Tenga en cuenta que esta misma opción también está disponible en el cuadro de diálogo Opciones de trabajo.
@@ -228,12 +228,12 @@ Al cargar archivos, puede elegir entre las siguientes opciones del cuadro de di�
 Seleccione esta opción si desea extraer automáticamente todos los archivos del archivo ZIP o TAR cargado. Tenga en cuenta que esta misma opción también está disponible en el cuadro de diálogo Opciones de trabajo.
 
    * **Incluir subcarpetas** — Solo está disponible si ha seleccionado la ficha **MEDIANTE FTP** .
-Seleccione esta opción si desea cargar subcarpetas de la carpeta que va a cargar. Los nombres de la carpeta y de las subcarpetas que cargue se introducirán automáticamente en Dynamic Media Classic.
+Seleccione esta opción si desea cargar subcarpetas de la carpeta que va a cargar. Los nombres de la carpeta y sus subcarpetas cargadas se introducen automáticamente en Dynamic Media Classic.
 
    * **Procesar archivos** de metadatos — Solo está disponible si ha seleccionado la ficha **VIA FTP** . Seleccione esta opción si desea cargar un archivo delimitado por tabuladores o XML para agregar metadatos a varios recursos. Consulte [Importación de datos (mediante FTP)](viewing-adding-exporting-metadata.md#import-metadata).
 
 
-* **OPCIONES** DE RECORTE — Para recortar automáticamente píxeles de espacio en blanco de una imagen, abra el menú Recortar, elija Manual e introduzca las medidas en píxeles en los campos Superior, Derecha, Inferior e Izquierda para recortar desde los lados. También puede seleccionar Recortar del menú Recortar y elegir estas opciones:
+* **OPTIONS** CROP — Para recortar automáticamente píxeles de espacio en blanco de una imagen, abra el menú Recortar, elija Manual e introduzca las medidas en píxeles en los campos Superior, Derecha, Inferior e Izquierda para recortar desde los lados. También puede seleccionar Recortar del menú Recortar y elegir estas opciones:
 
    * **Recortar basándose en** — Elija si desea recortar según el color o la transparencia:
 
@@ -247,7 +247,7 @@ Seleccione esta opción si desea cargar subcarpetas de la carpeta que va a carga
 
       * **Tolerancia** — Arrastre el control deslizante para especificar una tolerancia de 0 a 1.
 
-* **OPCIONES** DE PERFIL DE COLOR — Seleccione una conversión de color cuando cree archivos optimizados que se utilicen para el envío dinámico de Dynamic Media Classic:
+* **OPTIONS** DE PERFIL DE COLOR — Seleccione una conversión de color cuando cree archivos optimizados que se utilicen para el envío dinámico de Dynamic Media Classic:
 
    * **Conservación** de color predeterminada — Mantiene los colores de la imagen de origen siempre que las imágenes contengan información de espacio de color; no hay conversión de color. Casi todas las imágenes actuales ya tienen incrustado el perfil de color adecuado. Sin embargo, si la imagen de origen CMYK no contiene un perfil de color incrustado, los colores se convierten al espacio de color sRGB (Standard Red Green Blue). SRGB es el espacio de color que se recomienda para mostrar imágenes en páginas web.
 
@@ -255,25 +255,25 @@ Seleccione esta opción si desea cargar subcarpetas de la carpeta que va a carga
 
    * **Personalizar De > A** — Abre menús para que pueda elegir un espacio de color Convertir de y Convertir a. Esta opción avanzada sustituye cualquier información de color incrustada en el archivo de origen. Solo debe seleccionar esta opción cuando todas las imágenes que envía contienen datos de perfil de color incorrectos o que faltan.
 
-* **OPCIONES** DE EDICIÓN DE IMÁGENES — Puede conservar las máscaras de recorte &lt;> en las imágenes y elegir un perfil de color.
+* **OPTIONS** DE EDICIÓN DE IMÁGENES — Puede conservar las máscaras de recorte &lt;> en las imágenes y elegir un perfil de color.
 Consulte [Opciones de edición de imágenes al cargarlas](image-editing-options-upload.md#image-editing-options-at-upload).
 
-* **OPCIONES** POSTSCRIPT — Puede rasterizar archivos PostScript®, recortar archivos, mantener fondos transparentes, elegir una resolución y elegir un espacio de color.
+* **OPTIONS** POSTSCRIPT — Puede rasterizar archivos PostScript®, recortar archivos, mantener fondos transparentes, elegir una resolución y elegir un espacio de color.
 Consulte [Uso de archivos de PostScript e Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
-* **OPCIONES** DE PHOTOSHOP: Puede crear plantillas a partir de archivos de Adobe® Photoshop®, mantener las capas, especificar el nombre de las capas, extraer texto y especificar cómo se anclan las imágenes en las plantillas.
+* **OPTIONS** Photoshop — Puede crear plantillas a partir de archivos Adobe® Photoshop®, mantener las capas, especificar cómo se llaman las capas, extraer texto y especificar cómo se anclan las imágenes en las plantillas.
 Consulte [Opciones de carga de archivos PSD](psd-files.md#psd_upload_options).
 
-* **OPCIONES** DE PDF — Puede rasterizar los archivos, extraer palabras de búsqueda y vínculos, generar automáticamente un catálogo electrónico, definir la resolución y elegir un espacio de color.
+* **OPTIONS** PDF — Puede rasterizar los archivos, extraer palabras de búsqueda y vínculos, generar automáticamente un catálogo electrónico, definir la resolución y elegir un espacio de color.
 Consulte [Opciones de carga de PSD](pdfs.md#pdf_upload_options).
 
-* **OPCIONES** DE ILLUSTRATOR — Puede rasterizar archivos de Adobe Illustrator®, mantener fondos transparentes, elegir una resolución y elegir un espacio de color.
+* **OPTIONS** Illustrator — Puede rasterizar archivos Adobe Illustrator®, mantener fondos transparentes, elegir una resolución y elegir un espacio de color.
 Consulte [Uso de archivos de PostScript e Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
-* **OPCIONES** DE EVIDEO — Puede transcodificar un archivo de vídeo seleccionando un ajuste preestablecido de vídeo.
+* **OPTIONS** EVIDEO — Puede transcodificar un archivo de vídeo seleccionando un ajuste preestablecido de vídeo.
 Consulte [Uso de ajustes preestablecidos de codificación de vídeo](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
-* **METADATOS** ADICIONALES — Escriba las palabras clave que describan los archivos que va a cargar. Separe las palabras clave con una coma. Las palabras clave facilitan la búsqueda de recursos. Consulte [Búsqueda avanzada](searching-assets.md#conducting_an_advanced_search).
+* **METADATOS** ADICIONALES — Escriba palabras clave que describan los archivos que va a cargar. Separe las palabras clave con una coma. Las palabras clave facilitan la búsqueda de recursos. Consulte [Búsqueda avanzada](searching-assets.md#conducting_an_advanced_search).
 
 * **AJUSTES PREESTABLECIDOS** DE CONJUNTOS DE LOTES — Si desea crear un conjunto de imágenes, un conjunto de giros de varios ejes o un conjunto de muestras a partir de los archivos cargados, haga clic en la columna Activo del ajuste preestablecido que desee utilizar. Puede seleccionar varios ajustes preestablecidos. Los ajustes preestablecidos se crean en la página Ajustes de aplicación/Valores preestablecidos de conjunto por lotes.
 Consulte [Valores preestablecidos de conjunto por lotes](application-setup.md#batch_set_presets).
