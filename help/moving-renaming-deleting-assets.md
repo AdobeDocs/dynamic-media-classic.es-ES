@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 66%
@@ -67,7 +67,7 @@ Al eliminar un recurso, todos los derivados de dicho recurso se eliminarán con 
 
 Para eliminar varios recursos a la vez en toda la biblioteca de recursos, puede realizar la lista de los recursos que desee eliminar en un archivo de texto y enviar la lista a Dynamic Media Classic.
 
-Cree la lista de Dynamic Media Classic ID y guárdela como archivo de texto (.txt). Cada ID de Dynamic Media Classic debe estar en su propia línea (seguido de un salto de línea).
+Cree la lista de los ID de Dynamic Media Classic y guárdela como un archivo de texto (.txt). Cada ID de Dynamic Media Classic debe estar en su propia línea (seguido de un salto de línea).
 
 Después de crear la lista, siga estos pasos para eliminar los recursos:
 
