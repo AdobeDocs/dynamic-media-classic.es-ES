@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 56%
@@ -20,7 +20,7 @@ ht-degree: 56%
 
 # Uso de archivos PDF{#working-with-pdfs}
 
-Los archivos PDF (formato de Documento portátil) se utilizan con mayor frecuencia en Dynamic Media Classic para crear catálogos electrónicos. Al cargar un archivo PDF, Dynamic Media Classic rasteriza o extrae las páginas de forma predeterminada para que se puedan utilizar las páginas para crear medios enriquecidos.
+Los archivos PDF (formato de Documento portátil) se utilizan con mayor frecuencia en Dynamic Media Classic para crear catálogos electrónicos. Al cargar un archivo PDF, Dynamic Media Classic rasteriza o extrae las páginas de forma predeterminada para que se puedan utilizar para crear medios enriquecidos.
 
 ## Opciones de carga de archivos PDF {#pdf-upload-options}
 
