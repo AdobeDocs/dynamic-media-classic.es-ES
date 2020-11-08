@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 825b8949-f961-4ef9-828c-07349013d40d
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 52%
@@ -34,7 +34,7 @@ La barra de navegación global, situada en la parte superior de la pantalla, con
 
 **Generar** Elija una tarea de compilación en el menú. Se abrirá el panel de generación, donde podrá crear un tipo de recurso.
 
-**Publicar** Abre la pantalla Publicar para publicar recursos de medios enriquecidos en los servidores de imágenes de Dynamic Media y en el resto de la infraestructura de Dynamic Media Classic SAAS. Consulte Publicación.
+**Publicar** Abre la pantalla Publicar para publicar recursos de medios enriquecidos en los servidores de imágenes de Dynamic Media y en el resto de la infraestructura de SAAS de Dynamic Media Classic. Consulte Publicación.
 
 **Trabajos** Abre la pantalla Trabajos para que pueda examinar los registros de los trabajos de carga y publicación.
 
