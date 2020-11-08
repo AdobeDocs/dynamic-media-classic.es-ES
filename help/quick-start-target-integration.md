@@ -1,6 +1,6 @@
 ---
-title: '"Inicio rápido: Integración con Target Standard/Premium"'
-seo-title: '"Inicio rápido: Integración con Target Standard/Premium"'
+title: '"Inicio rápido: Integración de Target Standard/Premium"'
+seo-title: '"Inicio rápido: Integración de Target Standard/Premium"'
 description: nulo
 seo-description: Introducción y Inicio rápido a Adobe Target Standard/Premium para ayudarle en el uso inicial de las técnicas de integración de Target Standard/Premium.
 uuid: d8f79fbf-8be1-44fa-8058-3508060fcd70
@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_classic_integration
 discoiquuid: f8c25768-cf59-45ec-8193-522404191d57
 translation-type: tm+mt
-source-git-commit: 1ed0c74e3d2c94b22daa2fe2ac5c2a051e6768bc
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 19%
@@ -20,15 +20,15 @@ ht-degree: 19%
 
 # Inicio rápido: Integración con Adobe Target Standard/Premium{#quick-start-target-integration}
 
-Adobe Target Standard/Premium pone el control directamente en manos de los especialistas en mercadotecnia para ejecutar rápida y continuamente varias pruebas A/B y multivariadas, medir la eficacia y aumentar la relevancia del contenido en línea mediante la segmentación, la segmentación y la personalización automatizada.
+Adobe Target Standard/Premium pone el control directamente en manos de los especialistas en mercadotecnia para ejecutar rápida y continuamente varias pruebas A/B y multivariadas, medir la eficacia y aumentar la relevancia del contenido en línea mediante la segmentación, la determinación de objetivos y la personalización automatizada.
 
-Dynamic Media Classic le permite crear ofertas y conjuntos de ofertas para campañas Target Standard/Premium. Por ejemplo, puede crear un conjunto de ofertas con tres variaciones del mismo recurso de medios enriquecidos. A continuación, puede hacer que Target Standard/Premium determine qué recurso proporciona un mejor alza de conversión. Puede crear ofertas y ofrecer conjuntos de ofertas a partir de una plantilla básica o de imágenes individuales. Una vez insertado o guardado el conjunto de ofertas en Adobe Target Standard/Premium, donde las ofertas están asociadas con mboxes y experiencias, Target Standard/Premium puede ejecutar campañas para determinar qué variación de un sitio web puede funcionar mejor para las pulsaciones y la conversión.
+Dynamic Media Classic le permite crear ofertas y conjuntos de ofertas para campañas de Target Standard/Premium. Por ejemplo, puede crear un conjunto de ofertas con tres variaciones del mismo recurso de medios enriquecidos. A continuación, puede hacer que Target Standard/Premium determine qué recurso proporciona un mejor alza de conversión. Puede crear ofertas y ofrecer conjuntos de ofertas a partir de una plantilla básica o de imágenes individuales. Una vez insertado o guardado el conjunto de ofertas en Adobe Target Standard/Premium, donde las ofertas están asociadas con mboxes y experiencias, Target Standard/Premium puede ejecutar campañas para determinar qué variación de un sitio web puede funcionar mejor para las pulsaciones y la conversión.
 
-Para una buena personalización del contenido dinámico de Dynamic Media Classic, utilice ofertas HTML de Target Standard/Premium. Consulte la documentación del producto Target Standard/Premium para obtener más información.
+Para una buena personalización del contenido de Dynamic Media Classic, utilice ofertas HTML de Target Standard/Premium. Consulte la documentación del producto Target Standard/Premium para obtener más información.
 
 >[!NOTE]
 >
->Se requiere una cuenta de Adobe Target Standard/Premium válida para utilizar Target Standard/Premium con Dynamic Media Classic.
+>Se requiere una cuenta válida de Adobe Target Standard/Premium para usar Target Standard/Premium con Dynamic Media Classic.
 
 **Inicio rápido**
 
@@ -36,7 +36,7 @@ Este Inicio rápido está diseñado para ayudarle en el uso inicial de los conju
 
 **1. Enter your Adobe Target Standard/Premium URL in the Application General Settings screen.**
 
-Dynamic Media Classic necesita la URL de Target Standard/Premium para integrarse con Target Standard/Premium. Copy the portion of your Target Standard/Premium URL up to and including *.com*, and enter it in the Dynamic Media Classic Application General Settings screen. Consulte [Integración de Dynamic Media Classic con Target Standard/Premium](integrating-dmc-with-target.md#integrating-dmc-with-target).
+Dynamic Media Classic necesita que la URL de Target Standard/Premium se integre con Target Standard/Premium. Copy the portion of your Target Standard/Premium URL up to and including *.com*, and enter it in the Dynamic Media Classic Application General Settings screen. Consulte [Integración de Dynamic Media Classic con Target Standard/Premium](integrating-dmc-with-target.md#integrating-dmc-with-target).
 
 **2. Creación del conjunto de ofertas**
 
