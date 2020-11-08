@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '3938'
 ht-degree: 81%
@@ -130,7 +130,7 @@ En la siguiente tabla se muestran los tipos de archivo de vídeo (con los códec
 
 ## Prácticas recomendadas para la codificación de vídeo {#best-practices-for-video-encoding}
 
-Las siguientes son sugerencias recomendadas para codificar archivos de vídeo de origen en Dynamic Media Classic.
+A continuación se ofrecen sugerencias recomendadas para codificar archivos de vídeo de origen en Dynamic Media Classic.
 
 Para obtener más consejos sobre la codificación de vídeo, consulte los siguientes recursos:
 
@@ -261,7 +261,7 @@ Los archivos de vídeo principales creados con un equipo de producción de víde
 
 Consulte [Carga y codificación de vídeo](uploading-encoding-videos.md#uploading-and-encoding-videos).
 
-Dynamic Media Classic le ofrece una biblioteca de ajustes preestablecidos de codificación de vídeo predefinidos que reflejan los ajustes de codificación más comunes que se utilizan en la actualidad. Estos ajustes preestablecidos de codificación se han optimizado para la reproducción en pantallas de destino. Además, los administradores pueden crear sus propios ajustes preestablecidos de codificación de vídeo para personalizar el tamaño y la calidad de reproducción de vídeos para los usuarios finales. Todos los ajustes preestablecidos de codificación de vídeo, ya sean originales de Dynamic Media Classic o personalizados, emiten vídeo en formato de archivo MP4.
+Dynamic Media Classic le ofrece una biblioteca de ajustes preestablecidos de codificación de vídeo predefinidos que reflejan los ajustes de codificación más comunes que se utilizan en la actualidad. Estos ajustes preestablecidos de codificación se han optimizado para la reproducción en pantallas de destino. Además, los administradores pueden crear sus propios ajustes preestablecidos de codificación de vídeo para personalizar el tamaño y la calidad de reproducción de vídeos para los usuarios finales. Todos los ajustes preestablecidos de codificación de vídeo, ya sean listos para usar de Dynamic Media Classic o personalizados, emiten vídeo en formato de archivo MP4.
 
 En la pantalla Ajustes preestablecidos de vídeo, los administradores pueden configurar y administrar la codificación de vídeo. Pueden hacer lo siguiente:
 
@@ -286,7 +286,7 @@ Para los recursos de vídeo que se cargan y codifican en Dynamic Media Classic, 
 * HLS (HTTP Live Streaming, protocolo de transmisión de Apple).
 * Publicación de vídeo progresivo en dispositivos móviles Android, BlackBerry y Windows Phone.
 
-Cualquier otro códec y formato de vídeo se trata como un &quot;vídeo principal&quot;. Esta clasificación de los recursos implica que el vídeo es un archivo de origen y no se puede utilizar para su reproducción en escritorios ni dispositivos móviles. Por ejemplo, en Dynamic Media Classic no se pueden previsualización estos tipos de vídeos. Tampoco puede generar las opciones Copiar URL ni Código incrustado para su uso en los reproductores de vídeo, en los sitios web, etc.
+Cualquier otro códec y formato de vídeo se trata como un &quot;vídeo principal&quot;. Esta clasificación de los recursos implica que el vídeo es un archivo de origen y no se puede utilizar para su reproducción en escritorios ni dispositivos móviles. Por ejemplo, no puede realizar la previsualización de estos tipos de vídeos en Dynamic Media Classic. Tampoco puede generar las opciones Copiar URL ni Código incrustado para su uso en los reproductores de vídeo, en los sitios web, etc.
 
 ### Filtrado de la lista de ajustes preestablecidos de codificación de vídeo {#filtering-the-list-of-video-encoding-presets}
 
