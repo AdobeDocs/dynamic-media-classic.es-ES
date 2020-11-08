@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 989dba07-448a-45b1-b157-af50abb5359a
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 70%
@@ -20,7 +20,7 @@ ht-degree: 70%
 
 # Vinculación de una plantilla a una página web{#linking-a-template-to-a-web-page}
 
-Los sitios web y las aplicaciones acceden al contenido de Dynamic Media Image Server a través de cadenas URL. Después de publicar una plantilla, Dynamic Media Classic activa una cadena URL que hace referencia a la plantilla en los servidores de imágenes de Dynamic Media. Puede pegar esta URL en un explorador web para probar su funcionamiento.
+Los sitios web y las aplicaciones acceden al contenido del servidor de imágenes de Dynamic Media a través de cadenas URL. Después de publicar una plantilla, Dynamic Media Classic activa una cadena URL que hace referencia a la plantilla en los servidores de imágenes de Dynamic Media. Puede pegar esta URL en un explorador web para probar su funcionamiento.
 
 Para colocar cadenas URL en las páginas web y las aplicaciones, cópielas desde Dynamic Media Classic. Para obtener una URL de plantilla generada con un ajuste preestablecido de imagen, abra la pantalla Vista previa o el panel Examinar (en vista de detalles). A continuación, seleccione un ajuste preestablecido de imagen y seleccione el botón Copiar URL.
 
