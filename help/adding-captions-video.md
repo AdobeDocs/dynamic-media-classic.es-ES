@@ -8,7 +8,7 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '909'
 ht-degree: 64%
@@ -40,7 +40,7 @@ See [Serving static (non-image) contents](https://docs.adobe.com/content/help/en
 
 **Para agregar subtítulos a vídeos**
 
-1. Con una aplicación de terceros fuera de Dynamic Media Classic, cree el archivo de subtítulos de vídeo según el tipo de visor que utilice.
+1. Con una aplicación de terceros fuera de Dynamic Media Classic, cree el archivo de subtítulos de vídeo en función del tipo de visor que utilice.
 
    | Tipo de visor | Archivo de subtítulos |
    |--- |--- |
@@ -51,10 +51,10 @@ See [Serving static (non-image) contents](https://docs.adobe.com/content/help/en
    Consulte [Carga de archivos](uploading-files.md#uploading_files).
 
 1. En el panel Biblioteca de recursos del lado izquierdo, navegue a la carpeta de recursos que contenga el archivo de vídeo que desee asociar al archivo de subtítulos que ha cargado.
-1. En el panel de exploración de recursos, seleccione un único recurso de vídeo y, a continuación, haga clic en **Vista previa** > **Lista del visor** debajo de la imagen en miniatura del recurso.
+1. En el panel de exploración de recursos, seleccione un único recurso de vídeo y, a continuación, haga clic en **[!UICONTROL Vista previa]** > **[!UICONTROL Lista del visor]** debajo de la imagen en miniatura del recurso.
 1. In the Viewer List table, find the HTML5 viewer named **Univeral_HTML5_Video**, **Universal_HTML5_MixedMedia_dark**, or **Universal_HTML5_MixedMedia_light**, then do one of the following:
 
-   * Para obtener un visor de vídeo emergente, haga clic en **Copiar URL** a la derecha del nombre.
+   * Para obtener un visor de vídeo emergente, haga clic en **[!UICONTROL Copiar URL]** a la derecha del nombre.
 
       Añada la URL copiada del vídeo con la siguiente sintaxis para asociarla con la URL copiada en el archivo de subtítulos:
 
@@ -62,9 +62,9 @@ See [Serving static (non-image) contents](https://docs.adobe.com/content/help/en
 
       Note the `,1` at the end of the caption URL path. Inmediatamente después de la extensión de nombre de archivo .vtt en la ruta, tiene la opción de activar o desactivar el botón de subtítulos opcionales en la barra del reproductor de vídeo si lo define en `1` o `0` respectivamente.
 
-   * Para obtener un visor de vídeo incorporado, haga clic en **Código Incrustado** a la derecha del nombre.
+   * Para obtener un visor de vídeo incorporado, haga clic en **[!UICONTROL Código Incrustado]** a la derecha del nombre.
 
-      En el cuadro de diálogo Código incrustado, haga clic en **Copiar al portapapeles**.
+      En el cuadro de diálogo Código incrustado, haga clic en **[!UICONTROL Copiar al portapapeles]**.
 
       For the HTML5 `Universal_HTML5_Video`, `Universal_HTML5_MixedMedia_dark`, or `Universal_HTML5_MixedMedia_light` viewers, append the copied embed code with the following:
 
