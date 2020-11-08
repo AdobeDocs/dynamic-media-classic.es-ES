@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 87%
@@ -58,7 +58,7 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
 
 **Para agregar marcadores de capítulo a vídeos**
 
-1. Con un editor de texto simple fuera de Dynamic Media Classic, cree el archivo de capítulos de vídeo.
+1. Con un editor de texto sencillo fuera de Dynamic Media Classic, cree el archivo de capítulos de vídeo.
 
    >[!NOTE]
    >
@@ -73,18 +73,18 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
    Consulte [Carga de archivos](uploading-files.md#uploading_files).
 
 1. En el panel Biblioteca de recursos del lado izquierdo, navegue a la carpeta de recursos que contenga el archivo de vídeo que desee asociar al archivo de capítulos que haya cargado.
-1. En el panel de exploración de recursos, seleccione un único recurso de vídeo y, a continuación, haga clic en **Vista previa** > **Lista del visor** debajo de la imagen en miniatura del recurso.
+1. En el panel de exploración de recursos, seleccione un único recurso de vídeo y, a continuación, haga clic en **[!UICONTROL Vista previa]** > **[!UICONTROL Lista del visor]** debajo de la imagen en miniatura del recurso.
 1. En la tabla Lista de visores, busque el visor HTML5 con el nombre **Universal_HTML5_Video** y, a continuación, realice una de las siguientes acciones:
 
-   * Para obtener un visor de vídeo emergente, haga clic en **Copiar URL** a la derecha del nombre.
+   * Para obtener un visor de vídeo emergente, haga clic en **[!UICONTROL Copiar URL]** a la derecha del nombre.
 
       Añada la URL copiada del vídeo con la siguiente sintaxis para asociarla con la URL copiada en el archivo de subtítulos:
 
       `&navigation=*<full Copy URL path to the chapter navigation file .vtt>*`
 
-   * Para obtener un visor de vídeo incorporado, haga clic en **Código Incrustado** a la derecha del nombre.
+   * Para obtener un visor de vídeo incorporado, haga clic en **[!UICONTROL Código Incrustado]** a la derecha del nombre.
 
-      En el cuadro de diálogo Código incrustado, haga clic en **Copiar al portapapeles**.
+      En el cuadro de diálogo Código incrustado, haga clic en **[!UICONTROL Copiar al portapapeles]**.
 
       For the HTML5 `Universal_HTML5_Video` viewer, append the copied embed code with the following:
 
