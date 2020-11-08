@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1689'
 ht-degree: 69%
@@ -28,7 +28,7 @@ Los sitios web, los sitios móviles y las aplicaciones de escritorio acceden al 
 
 ## Publicación de vídeo {#publishing-video}
 
-La publicación de un vídeo permite a los servidores Dynamic Media Classic entregar vídeo en el sitio web, el sitio móvil o la aplicación.
+La publicación de un vídeo permite a los servidores de Dynamic Media Classic entregar vídeo a su sitio web, sitio móvil o aplicación.
 
 Existen dos métodos que puede utilizar para publicar vídeos:
 
@@ -136,7 +136,7 @@ If you do not use the Dynamic Media Classic HTML5 video player, but instead want
 
 ## Implementación de vídeo con un reproductor de vídeo de terceros {#deploying-video-using-a-third-party-video-player}
 
-Si utiliza un reproductor de vídeo de terceros o un reproductor de vídeo integrado personalizado en lugar de un visor de vídeo Dynamic Media Classic, puede obtener la URL de vídeo directa que funciona para el flujo de vídeo de varias velocidades de bits HLS o la descarga progresiva.
+Si utiliza un reproductor de vídeo de terceros o un reproductor de vídeo integrado personalizado en lugar de un visor de vídeo de Dynamic Media Classic, puede obtener la URL de vídeo directa que funciona para el flujo de vídeo de varias velocidades de bits HLS o la descarga progresiva.
 
 **Para implementar vídeo con un reproductor de vídeo de terceros**
 
@@ -163,7 +163,7 @@ For example, suppose the progressive video server name is `https://s7d9.scene7.c
 
 ## Uso de las miniaturas de vídeo {#working-with-video-thumbnails}
 
-Dynamic Media Classic genera miniaturas para vídeos codificados y vídeos precodificados. Puede utilizar las miniaturas de vídeo como cualquier otro recurso de imagen. Además, puede obtener direcciones URL para las miniaturas de vídeo que Dynamic Media Classic genera e implementar estas URL fuera de Dynamic Media Classic. Por ejemplo, puede implementar las miniaturas en resultados de búsquedas, listados de vídeos relacionados y listas de reproducción de vídeos en un sitio web.
+Dynamic Media Classic genera miniaturas para vídeos codificados y vídeos precodificados. Puede utilizar las miniaturas de vídeo como cualquier otro recurso de imagen. Además, puede obtener direcciones URL para las miniaturas de vídeo que genera Dynamic Media Classic e implementar estas URL fuera de Dynamic Media Classic. Por ejemplo, puede implementar las miniaturas en resultados de búsquedas, listados de vídeos relacionados y listas de reproducción de vídeos en un sitio web.
 
 Las miniaturas se generan en función del primer fotograma heterogéneo (no en un fotograma todo negro o todo blanco, etc. ) del vídeo.
 
