@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: ffb8113750e526fe9124a06ac071ceadf23f9f5c
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '10979'
 ht-degree: 68%
@@ -566,7 +566,7 @@ En la siguiente tabla se identifican los gestos del visor móvil que admiten los
 
 ### Sobre la pantalla Valor predeterminado del visualizador {#about-the-viewer-preset-screen}
 
-Esta pantalla permite crear y gestionar ajustes preestablecidos de visor. Para abrir esta pantalla, haga clic en **Ajustes** > **Ajustes preestablecidos de visor**.
+Esta pantalla permite crear y gestionar ajustes preestablecidos de visor. Para abrir esta pantalla, haga clic en **[!UICONTROL Ajustes]** > **[!UICONTROL Ajustes preestablecidos de visor]**.
 
 La pantalla Ajustes preestablecidos de visor ofrece una serie de herramientas para realizar las siguientes tareas:
 
@@ -587,7 +587,7 @@ Consulte [Exportación de ajustes preestablecidos](application-setup.md#exportin
 **Filtrado de la lista** de ajustes preestablecidos de visor Utilice estas herramientas para filtrar la lista:
 
 * Abra la lista desplegable de **activo/inactivo** y seleccione una opción para mostrar los ajustes preestablecidos activos, los inactivos o todos.
-* Abra la lista desplegable **Visor** y elija una opción para ver únicamente los visores de un tipo concreto. Seleccione **Todos los visores** para mostrarlos todos.
+* Abra la lista desplegable **Visor** y elija una opción para ver únicamente los visores de un tipo concreto. Seleccione **[!UICONTROL Todos los visores]** para mostrarlos todos.
 
 **Clasificación de ajustes preestablecidos** Haga clic en un encabezado de columna (Activo, Tipo, Ajuste preestablecido o Plataforma) para ordenar la lista en una columna. Vuelva a hacer clic en el encabezado de columna para ordenar la lista en orden descendente (o ascendente).
 
@@ -909,7 +909,8 @@ Al configurar una convención de nombre predeterminada no es necesario utilizar 
    Puede seleccionar la casilla de verificación Ver código para ver la creación del valor de expresión regular junto con las selecciones de formulario. Puede introducir o alterar estos valores para ayudar a definir los elementos de la convención de nombre, si la vista del formulario le limita por alguna razón. Si los valores no se pueden analizar en la vista del formulario, los campos del formulario se volverán inactivos.
 
    >[!NOTE]
-   Los campos del formulario desactivados no indican ninguna expresión regular no válida. No hay certeza de que las expresiones regulares sean correctas. Verá los resultados de la expresión regular que está creando para cada elemento después de la línea de resultados. La expresión regular completa está visible en la parte inferior de la página.
+   >
+   >Los campos del formulario desactivados no indican ninguna expresión regular no válida. No hay certeza de que las expresiones regulares sean correctas. Verá los resultados de la expresión regular que está creando para cada elemento después de la línea de resultados. La expresión regular completa está visible en la parte inferior de la página.
 
 1. Expanda los elementos necesarios e introduzca las convenciones de nombres que desee usar.
 1. Si es necesario, haga clic en **Agregar** para añadir otra convención de nombre para un elemento. O bien, haga clic en **Eliminar** para eliminar la convención de nombre de un elemento. 
@@ -1015,7 +1016,8 @@ Cuando se carga y publica el conjunto de giros, se activa el nombre de la fórmu
    Recuerde que solo son ejemplos. Puede crear su expresión regular como prefiera según sus necesidades.
 
    >[!NOTE]
-   Si la combinación de expresiones regulares de columna y fila no puede determinar la posición del recurso en la matriz de conjunto de giros multidimensional, ese recurso no se añadirá al conjunto y se registrará un error.
+   >
+   >Si la combinación de expresiones regulares de columna y fila no puede determinar la posición del recurso en la matriz de conjunto de giros multidimensional, ese recurso no se añadirá al conjunto y se registrará un error.
 
 1. Para las convenciones de nombres de conjuntos y opciones de creación, especifique el sufijo o prefijo en el nombre base que definió en Convenciones de nombres de recursos. También defina dónde se creará el conjunto de imágenes en la estructura de carpetas de Dynamic Media Classic.
 
@@ -1025,8 +1027,9 @@ Cuando se carga y publica el conjunto de giros, se activa el nombre de la fórmu
 1. Cargue y publique el conjunto de giros de la forma habitual, asegurándose de activar el nombre del conjunto de giros 2D en el cuadro de diálogo Opciones de carga de trabajo, en Valores preestablecidos de conjunto por lotes.
 
 >[!MORELIKETHIS]
-* [Previsualización de un recurso](previewing-asset.md#previewing_an_asset)
-* [Configuración de ajustes preestablecidos de imagen](setting-image-presets.md#setting_up_image_presets)
-* [Visualización, adición y exportación de metadatos](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
-* [Comprobación de archivos de trabajo](checking-job-files.md#checking_job_files)
+>
+>* [Previsualización de un recurso](previewing-asset.md#previewing_an_asset)
+>* [Configuración de ajustes preestablecidos de imagen](setting-image-presets.md#setting_up_image_presets)
+>* [Visualización, adición y exportación de metadatos](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
+>* [Comprobación de archivos de trabajo](checking-job-files.md#checking_job_files)
 
