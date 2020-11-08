@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 11cd5362-d90a-4c1e-bfbd-46a65a554409
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '2159'
 ht-degree: 73%
@@ -32,15 +32,15 @@ Sin embargo, tanto si utiliza los ajustes preestablecidos de imagen y de visor o
 >
 >los comandos de Enfocar anulan los valores de Ajuste preestablecido, incluidos sus efectos de enfoque. Un ajuste preestablecido de imagen determina el tamaño y el formato con los que se entregan las imágenes desde los servidores de imágenes de Dynamic Media. Dynamic Media Classic recomienda encarecidamente el uso de ajustes preestablecidos de imagen para distribuir todas las imágenes y asegurarse de que las imágenes se distribuyen con un tamaño y enfoque uniformes. Una vez que se cambian los valores de enfoque de una imagen individual, sin embargo, los valores de enfoque del ajuste preestablecido de imagen dejarán de aplicarse a la imagen. Se distribuye sin los valores de enfoque del ajuste preestablecido de imagen.
 
-A menudo es necesario enfocar imágenes. Dynamic Media Classic y los servidores de imágenes oferta varias opciones de enfoque. Es importante entender cómo afecta el enfoque a una imagen y el grado de enfoque que necesita. La mayoría de las imágenes necesitan algo de enfoque pero la cantidad necesaria depende de la imagen.
+A menudo es necesario enfocar imágenes. Los servidores de imágenes y Dynamic Media Classic oferta varias opciones de enfoque. Es importante entender cómo afecta el enfoque a una imagen y el grado de enfoque que necesita. La mayoría de las imágenes necesitan algo de enfoque pero la cantidad necesaria depende de la imagen.
 
 El enfoque de imágenes aumenta el contraste de los píxeles para crear el efecto de bordes acentuados. Los seres humanos perciben esta mejora del contraste de los bordes como un enfoque. Si bien es fácil mejorar una imagen mediante filtros de enfoque aplicados a la imagen, también es fácil enfocar una imagen demasiado.
 
 Al enfocar una imagen demasiado se crea un efecto de halo o bandas de las líneas del borde.
 
-Existen prácticas recomendadas que puede seguir para optimizar el enfoque de sus imágenes en Dynamic Media Classic y en Dynamic Media Image Server.
+Puede seguir las prácticas recomendadas para optimizar el enfoque de las imágenes en Dynamic Media Classic y en el servidor de imágenes de Dynamic Media.
 
-Consulte [Prácticas recomendadas para enfocar imágenes en Dynamic Media Classic y Dynamic Media Image Server](/help/assets/s7_sharpening_images.pdf).
+Consulte [Prácticas recomendadas para enfocar imágenes en Dynamic Media Classic y en el servidor](/help/assets/s7_sharpening_images.pdf)de imágenes de Dynamic Media.
 
 **Para enfocar una imagen**
 
@@ -66,11 +66,11 @@ Seleccione el menú Enfoque y elija una opción:
 
 **Enfocar** Ejecuta un enfoque simple en el archivo después de cambiarlo de tamaño. Es similar al filtro &quot;Enfocar&quot; de Photoshop y no admite ningún parámetro de usuario. Normalmente, utilizaría este filtro o Máscara de enfoque pero no ambos. Como práctica recomendada, no se recomienda utilizar este método, pero puede ayudar a compensar el desenfoque. (URL: op_sharpen)
 
-**Máscara** de enfoque Permite ajustar con precisión un efecto de filtro de enfoque en la imagen final con disminución de resolución. Puede controlar la intensidad del efecto, el radio del efecto (medido en píxeles) y un umbral de contraste que se ignorará. Este efecto utiliza las mismas opciones que el filtro “Máscara de enfoque” de Photoshop. (URL: op_usm)
+**Máscara** de enfoque Permite ajustar un efecto de filtro de enfoque en la imagen final con disminución de resolución. Puede controlar la intensidad del efecto, el radio del efecto (medido en píxeles) y un umbral de contraste que se ignorará. Este efecto utiliza las mismas opciones que el filtro “Máscara de enfoque” de Photoshop. (URL: op_usm)
 
 Elija estas opciones para precisar el enfoque con Máscara de enfoque:
 
-**Cantidad** Controla la cantidad de contraste aplicado a los píxeles del borde. El valor predeterminado es 0,0. En las imágenes de alta resolución, puede aumentarse hasta 5,0. La cantidad equivaldría a la medida de la intensidad del filtro. Tenga en cuenta que la configuración Cantidad de Dynamic Media Classic no es la misma que la de Cantidad de Photoshop. Photoshop utiliza una cantidad en el rango de 1% a 500%, mientras que Dynamic Media Classic escala de 0,0 a 5,0. (5,0 equivale aproximadamente al 500% en Photoshop, 0,9 es similar al 90 % y así sucesivamente).
+**Cantidad** Controla la cantidad de contraste aplicado a los píxeles del borde. El valor predeterminado es 0,0. En las imágenes de alta resolución, puede aumentarse hasta 5,0. La cantidad equivaldría a la medida de la intensidad del filtro. Tenga en cuenta que la configuración de cantidad de Dynamic Media Classic no es la misma que la de cantidad de Photoshop. Photoshop utiliza una cantidad en el rango de 1% a 500%, mientras que Dynamic Media Classic escala de 0,0 a 5,0. (5,0 equivale aproximadamente al 500% en Photoshop, 0,9 es similar al 90 % y así sucesivamente).
 
 **Radio** Determina el número de píxeles que rodean los píxeles del borde que afectan al enfoque. El efecto se ejecuta en todos los píxeles de la imagen e irradia en todas las direcciones. 
 
@@ -131,7 +131,7 @@ Para definir las opciones de enfoque predeterminadas de la empresa, vaya a Ajust
 
 A no ser que se agreguen modificadores de imagen de enfoque al ajuste preestablecido, la pequeña imagen inicial de carga puede parecer suave porque se ha disminuido su resolución para que se ajuste a la ventana del visor sin enfocarla.
 
-En Dynamic Media Classic, los ajustes preestablecidos de visor (como los ajustes preestablecidos de imagen) permiten centralizar muchas opciones en una ubicación, incluida la selección de opciones de apariencia y visor (como incluir un botón de impresión o controlar la velocidad de la animación de zoom). Los ajustes preestablecidos de visor se encuentran en la misma sección que los ajustes preestablecidos de imagen, en Ajustes > Ajustes de la aplicación > Ajustes preestablecidos de visor.
+En Dynamic Media Classic, los ajustes preestablecidos de visor (como los ajustes preestablecidos de imagen) le permiten centralizar muchas opciones en una ubicación, incluida la selección de opciones de apariencia y visor (como incluir un botón de impresión o controlar la velocidad de la animación de zoom). Los ajustes preestablecidos de visor se encuentran en la misma sección que los ajustes preestablecidos de imagen, en Ajustes > Ajustes de la aplicación > Ajustes preestablecidos de visor.
 
 La opción Modificadores se encuentra en la sección Configuración básica de todos los ajustes preestablecidos de visor de catálogos electrónicos, de conjunto de giros y de zoom personalizado. Al agregar comandos de enfoque de URL al cuadro Modificadores, se agrega enfoque cada vez que se llama a ese visor con ese ajuste preestablecido de visor.
 
