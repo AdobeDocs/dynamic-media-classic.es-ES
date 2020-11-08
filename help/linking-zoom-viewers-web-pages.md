@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: df5471c1-ccda-4dd4-a7f1-5b9193b41f98
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 86%
@@ -20,7 +20,7 @@ ht-degree: 86%
 
 # Vinculación de visores de zoom a páginas web{#linking-zoom-viewers-to-your-web-pages}
 
-Los sitios web y las aplicaciones acceden al contenido de Dynamic Media Image Server, incluidas las imágenes principales y los destinatarios de zoom asociados, así como a los ajustes preestablecidos de visor de zoom, a través de cadenas URL o código incrustado. Estas cadenas URL se activan durante el proceso de publicación. Para colocar estas cadenas URL o el código incrustado en las páginas web y las aplicaciones, debe copiarlas desde Dynamic Media Classic.
+Los sitios web y las aplicaciones acceden al contenido del servidor de imágenes de Dynamic Media, incluidas las imágenes principales y los destinatarios de zoom asociados, así como a los ajustes preestablecidos de visor de zoom, a través de cadenas URL o código incrustado. Estas cadenas URL se activan durante el proceso de publicación. Para colocar estas cadenas URL o el código incrustado en las páginas web y las aplicaciones, debe copiarlas desde Dynamic Media Classic.
 
 >[!NOTE]
 >
