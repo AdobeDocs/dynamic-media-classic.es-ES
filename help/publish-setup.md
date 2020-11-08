@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: cba59093-28b6-4490-b838-d942b72ad1ec
 translation-type: tm+mt
-source-git-commit: df88ca77d3f9c40c59d796e6854942b93cef5729
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '2421'
 ht-degree: 64%
@@ -223,7 +223,7 @@ Using the first example as a basis, images for all languages may have the suffix
 
 La pantalla del procesador de imágenes establece la configuración predeterminada a la hora de enviar conjuntos de imágenes desde los servidores de procesamiento de imágenes. Las opciones de configuración se dividen en estas cinco categorías (consulte la pantalla del servidor de imágenes para ver una descripción detallada de las opciones):
 
-**Administración** de catálogos Esta configuración determina la forma en que interactúan Dynamic Media Classic y el archivo de catálogo. El servidor de procesamiento de Dynamic Media Classic realiza llamadas mediante URL al catálogo, que a su vez llama para enviar imágenes desde el servidor. Cambie esta configuración solo con la ayuda de una persona de asistencia técnica de Dynamic Media Classic.
+**Administración** de catálogos Esta configuración determina la interacción entre Dynamic Media Classic y el archivo de catálogo. El servidor de procesamiento de Dynamic Media Classic realiza llamadas mediante URL al catálogo, que a su vez llama para enviar imágenes desde el servidor. Cambie esta configuración solo con la ayuda de una persona de asistencia técnica de Dynamic Media Classic.
 
 **Atributos** de sesión Esta configuración establece parámetros de error, la dirección URL de las URL de imagen relativas y si se permite la superposición de objetos.
 
