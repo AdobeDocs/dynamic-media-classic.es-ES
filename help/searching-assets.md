@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1407'
 ht-degree: 77%
@@ -53,7 +53,7 @@ Para realizar una búsqueda sencilla:
 
 >[!NOTE]
 >
->Dynamic Media Classic realiza un seguimiento de las búsquedas. Para volver a ejecutar una búsqueda, seleccione el botón de búsqueda y elija el nombre de la búsqueda deseada en la parte inferior del menú de búsqueda.
+>Dynamic Media Classic rastrea las búsquedas. Para volver a ejecutar una búsqueda, seleccione el botón de búsqueda y elija el nombre de la búsqueda deseada en la parte inferior del menú de búsqueda.
 
 ## Búsqueda avanzada {#conducting-an-advanced-search}
 
@@ -155,7 +155,7 @@ Se abre la pantalla Publicación en el servidor de metadatos. Esta pantalla perm
 
 **Publicación** instantánea Inserta automáticamente cualquier cambio de metadatos cuando se realiza, incluidos nuevos recursos, cambios de palabras clave, etc.
 
-**El paquete** XMP publica el paquete XMP. Este paquete no se utiliza en las búsquedas, pero proporciona el XMP más actualizado.
+**XMP paquete** publica el paquete XMP. Este paquete no se utiliza en las búsquedas, pero proporciona el XMP más actualizado.
 
 **Palabras clave** Publica las palabras clave en el servidor de metadatos para utilizarlas en las búsquedas.
 
