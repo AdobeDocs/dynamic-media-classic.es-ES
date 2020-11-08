@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 84%
@@ -42,7 +42,7 @@ Consulte [Adición y edición de ajustes preestablecidos de visor](application-s
 
 >[!NOTE]
 >
->Dynamic Media Classic proporciona un método cómodo para obtener una vista previa del vídeo MP4 en el escritorio. Utilice este método para obtener una vista previa del contenido móvil en el escritorio sin probarlo físicamente en dispositivos móviles. Sin embargo, tenga en cuenta que lo que ve en la vista previa de escritorio no muestra de forma realista el aspecto de la reproducción en el dispositivo móvil. Para obtener una vista previa del aspecto y reproducción del vídeo en un dispositivo móvil, vaya a la pantalla Vista previa, seleccione la opción de Copiar URL e introduzca la URL en el explorador web de un dispositivo móvil. Para obtener más información, consulte [Distribución de vídeo en sitios web y sitios móviles](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
+>Dynamic Media Classic proporciona un método cómodo para obtener una vista previa de vídeo MP4 en el escritorio. Utilice este método para obtener una vista previa del contenido móvil en el escritorio sin probarlo físicamente en dispositivos móviles. Sin embargo, tenga en cuenta que lo que ve en la vista previa de escritorio no muestra de forma realista el aspecto de la reproducción en el dispositivo móvil. Para obtener una vista previa del aspecto y reproducción del vídeo en un dispositivo móvil, vaya a la pantalla Vista previa, seleccione la opción de Copiar URL e introduzca la URL en el explorador web de un dispositivo móvil. Para obtener más información, consulte [Distribución de vídeo en sitios web y sitios móviles](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
 ## Uso de ajustes preestablecidos de visor de vídeo {#working-with-video-viewer-presets}
 
