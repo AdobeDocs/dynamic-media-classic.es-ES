@@ -4,13 +4,13 @@ product: Adobe Dynamic Media Classic
 audience: end-user
 user-guide-title: Guía de Adobe Dynamic Media Classic
 breadcrumb-title: Guía de Dynamic Media Classic
-user-guide-description: Obtenga más información sobre el uso de Dynamic Media Classic (anteriormente conocido como Scene7)
+user-guide-description: Más información sobre el uso de Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: 4d2052f1ddb2394a08fbaa5cb3b8b8fd9d5c5217
+source-git-commit: 98d5363c1a692cff234903b9ab0417ca803b5f96
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 77%
+source-wordcount: '750'
+ht-degree: 76%
 
 ---
 
