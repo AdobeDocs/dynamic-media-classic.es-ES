@@ -30,15 +30,15 @@ Al iniciar sesión, tiene la opción de introducir el ID de organización de Mar
 
 **Inicio de sesión en Adobe Analytics**
 
-1. Cerca de la esquina superior derecha de la página de Dynamic Media Classic, toque **[!UICONTROL Ajustes > Ajustes]** de aplicación.
-1. In the left pane, under **[!UICONTROL Application Setup]**, tap **[!UICONTROL Adobe Analytics]**.
-1. In the Adobe Analytics Configuration page, tap **[!UICONTROL Adobe Analytics Login]**.
-1. En el cuadro de diálogo Inicio de sesión **[!UICONTROL de]** Adobe Analytics, introduzca el nombre de su compañía, el ID de organización de Marketing Cloud (opcional), el nombre de usuario y la clave secreta ** compartida en el campo de texto **[!UICONTROL Contraseña]** .
+1. Cerca de la esquina superior derecha de la página de Dynamic Media Classic, toque **[!UICONTROL Ajustes > Ajustes de aplicación]**.
+1. En el panel izquierdo, en **[!UICONTROL Ajustes de aplicación]**, toque **[!UICONTROL Adobe Analytics]**.
+1. En la página Configuración de Adobe Analytics, toque **[!UICONTROL Inicio de sesión de Adobe Analytics]**.
+1. En el cuadro de diálogo **[!UICONTROL Inicio de sesión de Adobe Analytics]**, introduzca el nombre de la compañía, el ID de organización de Marketing Cloud (opcional), el nombre de usuario y la clave *clave secreta compartida* en el campo de texto **[!UICONTROL Contraseña]**.
 
-   Puede recuperar la clave secreta ** compartida desde la consola de administración de Analytics. Consulte [Cómo obtener las credenciales de API para las cuentas](https://helpx.adobe.com/analytics/kb/how-to-get-api-credentials-for-user-accounts-.html)de usuario.
+   Puede recuperar la clave *secreta compartida* desde la consola de administración de Analytics. Consulte [Cómo obtener las credenciales de API para cuentas de usuario](https://helpx.adobe.com/analytics/kb/how-to-get-api-credentials-for-user-accounts-.html).
 
 1. Haga clic en **[!UICONTROL Inicio de sesión]**.
-1. En el menú desplegable Grupo **[!UICONTROL de]** informes, elija un grupo de informes y haga clic en **[!UICONTROL Aceptar]**.
+1. En el menú desplegable **[!UICONTROL Grupo de informes]**, elija un grupo de informes y haga clic en **[!UICONTROL Aceptar]**.
 
    >[!NOTE]
    >
