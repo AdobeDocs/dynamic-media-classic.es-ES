@@ -22,9 +22,9 @@ ht-degree: 65%
 
 El zoom permite la vista interactiva de detalles de alta resolución en imágenes. Por ejemplo, se pueden ver colores, opciones, ángulos y detalles de una imagen en un visor integrado, dinámico y completamente configurable. Este visor puede ser parte de una página web o aparecer en una ventana emergente. Puede analizar las imágenes de cerca y desplazarlas con resoluciones altas. La aplicación de zoom ofrece a los clientes una visualización interactiva, informativa y atractiva.
 
-Dynamic Media Classic también oferta el zoom guiado, un medio para resaltar las características importantes de una imagen. Por ejemplo, para centrar la atención en un logotipo, puede crear un destino de zoom para el mismo. Cuando un usuario haga clic en este destino de zoom, se aplicará zoom al logotipo.
+Dynamic Media Classic también oferta el zoom guiado, un medio para resaltar las funciones importantes de una imagen. Por ejemplo, para centrar la atención en un logotipo, puede crear un destino de zoom para el mismo. Cuando un usuario haga clic en este destino de zoom, se aplicará zoom al logotipo.
 
-Todas las imágenes de zoom se crean y ofrecen a partir de imágenes principales, gráficos y atributos controlados por base de datos. El zoom de Dynamic Media Classic reduce considerablemente el tiempo y el coste de producción y distribución de imágenes. Puede utilizar los visores de zoom para acercar y alejar imágenes. El visor de zoom tiene botones en los que se puede hacer clic para aplicar zoom y desplazamiento; también se pueden realizar desplazamientos arrastrando a la pantalla. Mediante ajustes preestablecidos de visor de zoom se puede configurar el visor de zoom dentro del cual se aplicará zoom en las imágenes.
+Todas las imágenes de zoom se crean y ofrecen a partir de imágenes principales, gráficos y atributos controlados por base de datos. El zoom de Dynamic Media Classic reduce considerablemente el tiempo y el coste de producción y entrega de imágenes. Puede utilizar los visores de zoom para acercar y alejar imágenes. El visor de zoom tiene botones en los que se puede hacer clic para aplicar zoom y desplazamiento; también se pueden realizar desplazamientos arrastrando a la pantalla. Mediante ajustes preestablecidos de visor de zoom se puede configurar el visor de zoom dentro del cual se aplicará zoom en las imágenes.
 
 **Inicio rápido**
 
@@ -48,7 +48,7 @@ Los ajustes preestablecidos de visor de zoom determinan el estilo y comportamien
 
 Para crear un ajuste preestablecido del visor de zoom, haga clic en el botón Ajustes en la barra de navegación global y seleccione Ajustes preestablecidos de visor. A continuación, haga clic en el botón Agregar en la pantalla Ajustes preestablecidos de visor, seleccione una plataforma, elija Visor de zoom y haga clic en Agregar. A continuación elija las opciones deseadas en la pantalla Configurar visor. 
 
-Las opciones de ajustes preestablecidos de visor de zoom de ofertas de Dynamic Media Classic permiten seleccionar el estilo del botón y el aspecto general del visor. También puede personalizar la configuración de zoom para el sitio web. Consulte [Configuración de ajustes preestablecidos de visor de zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
+Opciones preestablecidas del visor de zoom de ofertas clásicas de Dynamic Media que le permiten seleccionar el estilo del botón y el aspecto general del visor. También puede personalizar la configuración de zoom para el sitio web. Consulte [Configuración de ajustes preestablecidos de visor de zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
 
 **4. Vista previa de imágenes con el visor de zoom**
 
