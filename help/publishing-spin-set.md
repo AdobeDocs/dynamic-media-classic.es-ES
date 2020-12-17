@@ -26,7 +26,7 @@ Al publicar un conjunto de giros, las imágenes del conjunto se colocan en los s
 
 Marque el conjunto de giros para la publicación para que se copie en los servidores de imágenes de Dynamic Media Classic. Para marcar un conjunto de giros para la publicación en el panel Examinar, seleccione el icono Marcar para publicación  que se encuentra a la izquierda del nombre del conjunto. Al marcar el conjunto de giros, todas las imágenes del conjunto se marcarán para la publicación.
 
-## Publicación del conjunto de giros {#publishing-the-spin-set}
+## Publicación del conjunto de giros  {#publishing-the-spin-set}
 
 Para publicar un conjunto de giros en servidores de imágenes de Dynamic Media, seleccione el botón Publicar en la barra de navegación global para realizar el inicio. Seleccione a continuación una opción Cuándo, introduzca si lo desea un nombre para el trabajo de publicación, y seleccione el botón Iniciar publicación.
 
