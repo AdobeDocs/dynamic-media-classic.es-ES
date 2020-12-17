@@ -28,7 +28,7 @@ Al recortar una imagen, puede quitar el espacio en blanco que la rodea o un áre
 >
 >Después del recorte, puede hacer clic en el botón Guardar como y guardar una versión recortada de la imagen con un nombre diferente. En la ventana Guardar como, elija Guardar como nuevo elemento principal para guardar una segunda copia de la imagen. Elija Guardar como vista adicional de imagen principal para guardar el original y su versión recortada con un nombre diferente. Elija Reemplazar original para eliminar el archivo original en el que recortó la imagen. A continuación, introduzca un nombre para la imagen y seleccione el botón Enviar.
 
-## Recorte para quitar espacio en blanco alrededor de una imagen {#crop-to-remove-white-space-around-an-image}
+## Recorte para quitar espacio en blanco alrededor de una imagen  {#crop-to-remove-white-space-around-an-image}
 
 Puede recortar los píxeles transparentes o de color sólido del borde de una imagen.
 
@@ -44,11 +44,11 @@ Puede recortar los píxeles transparentes o de color sólido del borde de una im
 >
 >Para restaurar una imagen a su estado original tras su recorte, muéstrela en la pantalla Editor de recorte y seleccione el botón Restablecer.
 
-## Selección de áreas que recortar {#select-an-area-to-crop}
+## Selección de áreas que recortar  {#select-an-area-to-crop}
 
-1. To crop an image, click its rollover Edit button and choose **Crop**, or display it in the Browse Panel in Detail view and click **Crop**.
+1. Para recortar una imagen, haga clic en su botón de rollover Editar y elija **Recortar**, o bien muéstrela en el panel Examinar de la vista de detalles y haga clic en **Recortar**.
 
-1. En la ventana Editor de recorte, coloque la parte de la imagen que no desee recortar en el cuadro de recorte. What appears inside the box remains when you click **Save** and crop the image.
+1. En la ventana Editor de recorte, coloque la parte de la imagen que no desee recortar en el cuadro de recorte. Lo que aparece dentro del cuadro permanece al hacer clic en **Guardar** y recortar la imagen.
 1. Para ajustar el área de recorte, siga uno de estos procedimientos:
 
    * Arrastre un lado o una esquina del recuadro. Mantenga pulsada la tecla Mayús mientras arrastra para cambiar el tamaño manteniendo la proporción de aspecto (la forma) del área de recorte.
