@@ -26,9 +26,11 @@ El modo en que inicia sesión en Dynamic Media Classic y cierra sesión se basa 
 
 Independientemente de cómo inicie sesión, asegúrese de que dispone de lo siguiente antes de utilizar Dynamic Media Classic:
 
-* **Nombre** de inicio de sesiónUtilice su dirección de correo electrónico como nombre de inicio de sesión.
+* **Nombre de**
+inicio de sesiónSu dirección de correo electrónico se utiliza como nombre de inicio de sesión.
 
-* **Contraseña** Puede obtener la contraseña temporal en un correo electrónico de bienvenida de Dynamic Media Classic o de su administrador de Dynamic Media Classic. Al iniciar sesión por primera vez, se indica al usuario que puede cambiar esa contraseña temporal.
+* ****
+ContraseñaPuede obtener la contraseña temporal en un correo electrónico de bienvenida de Dynamic Media Classic o de su administrador de Dynamic Media Classic. Al iniciar sesión por primera vez, se indica al usuario que puede cambiar esa contraseña temporal.
 
 ## Inicio de sesión en Dynamic Media Classic mediante la aplicación de escritorio {#sign-in-dmc-app}
 
@@ -36,9 +38,9 @@ Independientemente de cómo inicie sesión, asegúrese de que dispone de lo sigu
 
    ![Inicio de sesión de Dynamic Media Classic](/help/assets/dmclassic-login1.png)
 
-1. En el campo Nombre **[!UICONTROL de usuario]** , introduzca su dirección de correo electrónico.
-1. En el campo **[!UICONTROL Contraseña]** , escriba la contraseña.
-1. En la lista desplegable **[!UICONTROL Servidor]** , seleccione un servidor.
+1. En el campo **[!UICONTROL Nombre de usuario]**, introduzca su dirección de correo electrónico.
+1. En el campo **[!UICONTROL Contraseña]**, escriba la contraseña.
+1. En la lista desplegable **[!UICONTROL Servidor]**, seleccione un servidor.
 Utilice la siguiente asignación para seleccionar el entorno de producción que desee utilizar.
 
    | URL del explorador | Nombre del servidor de aplicaciones de escritorio |
@@ -49,33 +51,35 @@ Utilice la siguiente asignación para seleccionar el entorno de producción que 
 
 1. Toque **[!UICONTROL Iniciar sesión]**.
 
-### Cierre de sesión desde Dynamic Media mediante la aplicación de escritorio {#sign-out-dmc-app}
+### Cerrar sesión en Dynamic Media mediante la aplicación de escritorio {#sign-out-dmc-app}
 
-1. En la esquina superior derecha de la aplicación de escritorio de Dynamic Media Classic, toque **[!UICONTROL Cerrar sesión]** y, a continuación, vuelva a tocar **[!UICONTROL Cerrar sesión]** .
+1. En la esquina superior derecha de la aplicación de escritorio Dynamic Media Classic, toque **[!UICONTROL Cerrar sesión]** y luego toque **[!UICONTROL Cerrar sesión]** de nuevo.
 
-## Inicio de sesión en Dynamic Media Classic mediante el navegador web {#signing-in-and-out}
+## Inicio de sesión en Dynamic Media Classic a través del explorador Web {#signing-in-and-out}
 
-Además de su nombre de usuario y contraseña, asegúrese de que también dispone de lo siguiente antes de utilizar Dynamic Media Classic desde su explorador web:
+Además de su nombre de usuario y contraseña, asegúrese de que también dispone de lo siguiente antes de utilizar Dynamic Media Classic desde su navegador web:
 
-* **Configuración** Debe haber sido configurado por el administrador para usar Dynamic Media Classic.
+* ****
+ConfiguraciónEl administrador debe haber configurado el uso de Dynamic Media Classic.
 
-* **URL** Debe tener la ubicación URL para acceder a Dynamic Media Classic. Esta dirección URL se obtiene a través de la variable 
-*Mensaje de correo electrónico de bienvenida* o del administrador de Dynamic Media Classic.
+* ****
+URLYDebe tener la ubicación URL para acceder a Dynamic Media Classic. Esta dirección URL se obtiene a través de la variable 
+*Correo* de bienvenida o de su administrador de Dynamic Media Classic.
 
-Dado que Dynamic Media Classic está basado en la Web, si se va a un sitio web diferente, se abandona el sistema. Por ejemplo, si hace clic en el botón Atrás en la ventana del explorador, saldrá de Dynamic Media Classic.
+Como Dynamic Media Classic está basado en la Web, si se va a un sitio Web diferente, se cierra el sistema. Por ejemplo, si hace clic en el botón Atrás en la ventana del explorador, saldrá de Dynamic Media Classic.
 
 1. Inicie el explorador web.
-1. Vaya a la URL de inicio de sesión de Dynamic Media Classic (desde el correo electrónico de bienvenida). También puede iniciar sesión desde el sitio web de Dynamic Media Classic ( [www.adobe.com/products/scene7.html](https://www.adobe.com/products/scene7.html)) seleccionando el botón Inicio de sesión de cliente.
-1. En el campo de texto Nombre **[!UICONTROL de usuario]** , introduzca su dirección de correo electrónico.
-1. En el campo de texto **[!UICONTROL Contraseña]** , introduzca su contraseña.
-1. Optionally, you can make your computer remember your e-mail address by selecting the **[!UICONTROL Remember My User Name]** option.
+1. Vaya a la URL de inicio de sesión de Dynamic Media Classic (desde el correo electrónico de bienvenida). También puede iniciar sesión desde el sitio Web de Dynamic Media Classic ( [www.adobe.com/products/scene7.html](https://www.adobe.com/products/scene7.html)) seleccionando el botón Inicio de sesión de cliente.
+1. En el campo de texto **[!UICONTROL Nombre de usuario]**, introduzca su dirección de correo electrónico.
+1. En el campo de texto **[!UICONTROL Contraseña]**, introduzca su contraseña.
+1. Si lo desea, puede hacer que su equipo recuerde su dirección de correo electrónico seleccionando la opción **[!UICONTROL Recordar mi nombre de usuario]**.
 1. Toque **[!UICONTROL Iniciar sesión]**.
 
-### Cerrar sesión en Dynamic Media a través del explorador web {#sign-out}
+### Cerrar sesión en Dynamic Media a través del explorador Web {#sign-out}
 
 1. Realice una de las siguientes acciones:
 
-   * En la parte derecha de la barra de navegación global, toque **[!UICONTROL Cerrar sesión]**.
+   * En el lado derecho de la barra de navegación global, toque **[!UICONTROL Cerrar sesión]**.
    * Cierre el explorador.
 
 >[!MORELIKETHIS]
