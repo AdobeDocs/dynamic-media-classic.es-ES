@@ -20,27 +20,30 @@ ht-degree: 78%
 
 # Visualización, adición y exportación de metadatos{#viewing-adding-and-exporting-metadata}
 
-You can store information specific to the files you work with in Dynamic Media Classic; this information is called *metadata*. Puede utilizar los metadatos en Dynamic Media Classic para organizar, buscar, filtrar y ordenar los recursos.
+Puede almacenar información específica de los archivos con los que trabaja en Dynamic Media Classic; esta información se denomina *metadatos*. Puede utilizar los metadatos de Dynamic Media Classic para organizar, buscar, filtrar y ordenar los recursos.
 
 Los metadatos aparecen en la vista de detalles junto con la información generada por Dynamic Media Classic, como la fecha de creación del archivo, la fecha de publicación y las palabras clave. Para ver los metadatos, abra el recurso en la vista de detalles y seleccione el panel Metadatos. Puede introducir y editar metadatos en la vista de detalles.
 
 Algunos metadatos están incrustados directamente en un archivo. Si un archivo contiene estos metadatos, Dynamic Media Classic los carga automáticamente con el archivo. Puede incrustar metadatos en recursos de origen en Adobe Photoshop, InDesign, Illustrator y otras aplicaciones; Dynamic Media Classic reconoce estos metadatos. También puede añadir metadatos a archivos individuales en el panel de metadatos, en la vista de detalles. Para mantener la coherencia entre los recursos, los administradores de empresa pueden crear plantillas de metadatos que proporcionen los campos de metadatos que se pueden rellenar.
 
-For more information about embedded metadata, see [www.adobe.com/go/learn_s7_xmp_en](https://www.adobe.com/go/learn_s7_xmp_en).
+Para obtener más información sobre los metadatos incrustados, consulte [www.adobe.com/go/learn_s7_xmp_en](https://www.adobe.com/go/learn_s7_xmp_en).
 
 ## Visualización de metadatos {#view-metadata}
 
 Para ver los metadatos de un recurso, abra el recurso en la vista de detalles y seleccione el panel Metadatos. A continuación, seleccione una opción en el menú Vista de metadatos para seleccionar un conjunto de campos de metadatos. Dynamic Media Classic oferta estas Vistas de metadatos:
 
-* **Vista** compacta Una lista básica de valores.
+* **Compact**
+ViewUna lista básica de valores.
 
-* **IPTC** Values según la definición del Consejo Internacional de Telecomunicaciones de Prensa.
+* ****
+IPTCValues tal como lo define el Consejo Internacional de Telecomunicaciones de Prensa.
 
-* **XMP** Valores definidos por la plataforma de metadatos extensible.
+* ****
+XMPValues tal como se define en la plataforma de metadatos extensible.
 
 Los administradores pueden crear vistas de metadatos. Estas vistas también aparecen en el menú Vistas de metadatos. Para obtener más información acerca de la creación de vistas de metadatos, consulte [Vistas de metadatos](application-setup.md#metadata_views).
 
-## Introducción manual de metadatos para un recurso {#manually-enter-metadata-for-an-asset}
+## Introducción manual de metadatos para un recurso  {#manually-enter-metadata-for-an-asset}
 
 1. Abra el recurso en la vista de detalles.
 1. Abra el panel Metadatos y realice una de estas acciones o ambas:
@@ -54,7 +57,7 @@ Los administradores pueden crear vistas de metadatos. Estas vistas también apar
 >
 >Para editar los metadatos de varios recursos a la vez, seleccione los recursos y haga clic en Archivo > Editar información. Los cambios que se hagan en la ventana Editar información se aplicarán a todos los recursos seleccionados.
 
-## Adición o edición de palabras clave {#add-or-edit-keywords}
+## Adición o edición de palabras clave  {#add-or-edit-keywords}
 
 Además de los metadatos, las palabras clave también le pueden servir para buscar y gestionar sus recursos.
 
@@ -73,7 +76,7 @@ Si durante la sesión ha agregado palabras clave para otros archivos, o si las h
 >
 >Puede agregar palabras clave a los archivos al cargarlos en Dynamic Media Classic. En el cuadro de diálogo Opciones de trabajo de carga, seleccione Metadatos adicionales e introduzca palabras clave. Consulte [Opciones de carga](uploading-files.md#upload_options).
 
-## Importación de metadatos {#import-metadata}
+## Importación de metadatos  {#import-metadata}
 
 En lugar de introducir los metadatos manualmente de uno en uno, puede importar los metadatos para varios recursos diferentes desde un archivo delimitado por tabuladores o XML. Introducir los metadatos en un archivo delimitado por tabuladores o XML e importar este archivo requiere menos tiempo que si se introducen estos metadatos en recursos individuales. En la primera fila del archivo delimitado por tabuladores, introduzca el ID y los nombres de los campos para los que desea grabar los metadatos. En cada fila posterior, introduzca un nombre de ID de recurso seguido de los valores de los metadatos. Los campos que no se incluyen en el archivo XML o delimitado por tabuladores no se modificarán. Para importar metadatos desde un archivo XML, asegúrese de que cumple con el archivo DTD.
 
@@ -122,7 +125,7 @@ Por ejemplo:
 
 El prefijo debe agregarse en el encabezado de la columna correspondiente del campo de importación.
 
-## Importación de metadatos (mediante FTP) {#import-metadata-via-ftp}
+## Importación de metadatos (mediante FTP)  {#import-metadata-via-ftp}
 
 Para importar metadatos para varios archivos, introduzca los metadatos en un archivo XML o delimitado por tabuladores y seleccione la opción Procesar archivos de metadatos en la pantalla de carga mediante FTP.
 
@@ -130,11 +133,11 @@ Asegúrese de que los datos del archivo XML o delimitado por tabuladores tienen 
 
 Haga clic en el botón Cargar en la barra de navegación global y, en la pantalla Trabajos, elija la ficha Por medio de FTP para importar los metadatos. A continuación, haga clic en Opciones de trabajo. En el cuadro de diálogo Opciones de trabajo de carga, elija Procesar archivos de metadatos.
 
-## Cambio de nombre de ID por lotes con metadatos {#batch-rename-ids-using-metadata}
+## Cambio de nombre de ID por lotes con metadatos  {#batch-rename-ids-using-metadata}
 
 Mediante los metadatos importados desde un archivo delimitado por tabuladores o un archivo XML, puede cambiar el nombre de los ID de Dynamic Media Classic. Los metadatos importados solo se aplican a las imágenes que se especifican en el archivo de metadatos. No importa si las imágenes están seleccionadas en el panel Examinar.
 
-To rename an image’s Dynamic Media Classic ID, add a column labeled *newipsid* to the tab-delimited file, or add a field called* new_vc_objectname* to the XML data.
+Para cambiar el nombre del Dynamic Media Classic ID de una imagen, agregue una columna con la etiqueta *newipsid* al archivo delimitado por tabuladores o agregue un campo con el nombre* new_vc_objectname* a los datos XML.
 
 Por ejemplo:
 
@@ -146,7 +149,7 @@ Por ejemplo:
 
 El registro de trabajos para el trabajo de metadatos muestra qué ID se han cambiado correctamente y cuáles no.
 
-## Creación de una plantilla para la introducción y carga de metadatos {#create-a-template-for-entering-metadata-to-upload}
+## Creación de una plantilla para la introducción y carga de metadatos  {#create-a-template-for-entering-metadata-to-upload}
 
 Dynamic Media Classic oferta un comando para crear una plantilla para grabar metadatos. El uso de la plantilla garantiza que los metadatos se introducen en el formato correcto para que se puedan cargar correctamente en Dynamic Media Classic. Siga estos pasos para crear una plantilla para utilizarla en la grabación e importación de metadatos a Dynamic Media Classic:
 
@@ -179,7 +182,7 @@ El sistema genera automáticamente un esquema personalizado para los campos defi
 
 >[!NOTE]
 >
->Los cambios en el esquema nunca cambian los metadatos del recurso. Sin embargo, no están visibles para todas las funciones de Dynamic Media Classic y del servidor de metadatos y no se puede acceder a ellos después de cambiarlos. Del mismo modo, si existen metadatos para un recurso, la creación del esquema coincidente hace que los metadatos se puedan utilizar en Dynamic Media Classic y en el servidor de metadatos.
+>Los cambios en el esquema nunca cambian los metadatos del recurso. Sin embargo, no son visibles para todas las funciones de Dynamic Media Classic y Metadata Server y no se puede acceder a ellos después de cambiarlos. Del mismo modo, si existen metadatos para un recurso, la creación del esquema coincidente hace que los metadatos se puedan utilizar en Dynamic Media Classic y en el servidor de metadatos.
 
 El Editor de Esquemas de metadatos oferta una forma gráfica de agregar o editar un esquema de compañía personalizado dentro de Dynamic Media Classic. Un esquema se define por un prefijo, un espacio de nombre y una lista de propiedades.
 
@@ -189,11 +192,11 @@ El Editor de Esquemas de metadatos oferta una forma gráfica de agregar o editar
 
 * Prefijo
 
-   Identificador técnico exclusivo para el esquema. Limitado a las letras a-z y A-Z. El prefijo no está visible en la interfaz de usuario de Dynamic Media Classic, pero se utiliza cuando los metadatos de un recurso se almacenan en el bloque de XMP y en nuestra base de datos. El prefijo se usa para identificar de forma exclusiva los campos de metadatos en las consultas de búsqueda de metadatos en el servidor de metadatos o durante la importación.
+   Identificador técnico exclusivo para el esquema. Limitado a las letras a-z y A-Z. El prefijo no está visible en la IU de Dynamic Media Classic, pero se utiliza cuando los metadatos de un recurso se almacenan en el bloque de XMP y en nuestra base de datos. El prefijo se usa para identificar de forma exclusiva los campos de metadatos en las consultas de búsqueda de metadatos en el servidor de metadatos o durante la importación.
 
 * Espacio de nombre
 
-   Identificador técnico único para el esquema, generalmente una dirección URL en el formulario `https://your.company.com/name/version/`. Consulte ejemplos en la lista de esquemas de estándares. La Área de nombres no está visible en la interfaz de usuario de Dynamic Media Classic, pero se utiliza para almacenar metadatos en el bloque XMP.
+   Identificador técnico único para el esquema, generalmente una dirección URL con el formato `https://your.company.com/name/version/`. Consulte ejemplos en la lista de esquemas de estándares. La Área de nombres no está visible en la IU de Dynamic Media Classic, pero se utiliza para almacenar metadatos en el bloque XMP.
 
 * Descripción
 
@@ -207,7 +210,7 @@ Las propiedades describen los metadatos que se pueden almacenar con este esquema
 
 | Propiedad | Descripción |
 |--- |--- |
-| ID | Identificador técnico para esta propiedad. El ID no está visible en la interfaz de usuario de Dynamic Media Classic, pero se utiliza cuando los metadatos de un recurso se almacenan en el bloque de XMP y en nuestra base de datos. Este código se utiliza para crear consultas de búsqueda en el servidor de metadatos. El ID tiene algunas limitaciones, por ejemplo: <ul><li>No puede contener espacios</li><li>No &quot;.&quot;, &quot;:&quot;, &quot;$&quot;</li><li>No puede contener un número como primer carácter</li><li>Lo mejor es utilizar una letra de a-z o A-Z como primer carácter</li></ul> <br>Una vez creado, el ID no se puede modificar. |
+| ID | Identificador técnico para esta propiedad. El ID no está visible en la IU de Dynamic Media Classic, pero se utiliza cuando los metadatos de un recurso se almacenan en el bloque de XMP y en nuestra base de datos. Este código se utiliza para crear consultas de búsqueda en el servidor de metadatos. El ID tiene algunas limitaciones, por ejemplo: <ul><li>No puede contener espacios</li><li>No &quot;.&quot;, &quot;:&quot;, &quot;$&quot;</li><li>No puede contener un número como primer carácter</li><li>Lo mejor es utilizar una letra de a-z o A-Z como primer carácter</li></ul> <br>Una vez creado, el ID no se puede modificar. |
 | Etiqueta | Nombre de interfaz de usuario para esta propiedad. |
 | Estructura | Determina el tipo de la propiedad junto con el tipo de datos. La estructura puede ser uno de los siguientes valores:<ul><li>Tipo simple: solo el valor del tipo de datos.</li><li>Secuencia: una lista de valores del mismo tipo de datos.</li><li>Opción abierta: seleccione un elemento de la lista de valores predefinidos, o introduzca texto libre. El tipo de datos solo puede ser Cadena o Entero.</li><li>Opción cerrada: seleccione un elemento de la lista de valores predefinidos (una ventana emergente o un cuadro combinado).</li></ul> |
 | Tipo de datos | Seleccione uno de estos tipos disponibles: <ul><li>Cadena</li><li>Entero</li><li>Flotante</li><li>Sí/No (booleano)</li><li>Fecha</li></ul> |
