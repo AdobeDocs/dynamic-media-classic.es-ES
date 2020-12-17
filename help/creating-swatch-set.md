@@ -24,7 +24,7 @@ Gracias a los conjuntos de muestras, los usuarios pueden ver un elemento en dife
 
 Por ejemplo, supongamos que desea ofrecer imágenes de gorras con viseras de distintos colores; las viseras son de color rojo, verde y azul. En este caso, necesita tres tomas de la misma gorra. Necesitará una toma para la visera roja, otra para la verde y una tercera para la azul. También necesitará muestras de color en rojo, verde y azul. Las muestras de color serán las miniaturas en las que los usuarios harán clic en el visor de conjuntos de muestras para ver la gorra con la visera roja, verde o azul.
 
-## Creación de un conjunto de muestras {#create}
+## Creación de un conjunto de muestras  {#create}
 
 Al crear un conjunto, la opción **Publicar después de guardar** afecta al conjunto y a los miembros del conjunto de las siguientes formas:
 |¿Se ha seleccionado la opción &quot;Publicar después de guardar&quot; antes de guardar?|Estado del conjunto después de guardar|Estado de los miembros del conjunto después de guardar|
@@ -38,9 +38,9 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 1. Realice una de las siguientes acciones:
 
-   **Seleccione las imágenes primero** En el panel Examinar, seleccione las imágenes y, a continuación, haga clic en Generar > Conjuntos de muestras.
+   **Seleccione las imágenes** primeroEn el panel Examinar, seleccione las imágenes y, a continuación, haga clic en Generar > Conjuntos de muestras.
 
-   **Inicio en la pantalla** Conjunto de muestras Haga clic en Generar > Conjuntos de muestras. Seleccione una carpeta en la biblioteca de recursos y arrastre las imágenes a la sección Vistas de la página Conjunto de muestras.
+   **Inicio en la** pantalla Conjunto de muestrasHaga clic en Generar > Conjuntos de muestras. Seleccione una carpeta en la biblioteca de recursos y arrastre las imágenes a la sección Vistas de la página Conjunto de muestras.
 
 1. Arrastre los colores, patrones o acabados de muestra al cuadro de marcador de posición Muestras de la página Conjunto de muestras.
 
@@ -51,7 +51,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 1. Haga clic en **Guardar**, seleccione una carpeta para almacenar su conjunto de muestras de color, escriba un nombre para el conjunto y haga clic en Enviar.
 1. Para ver su conjunto de muestras en el visor de conjuntos de muestras, haga clic en **Vista previa** en la pantalla Conjunto de muestras. Puede hacer clic en las miniaturas de las muestras en el visor de conjuntos de muestras para ver el resultado.
 
-## Edición de un conjunto de muestras {#editing-a-swatch-set}
+## Edición de un conjunto de muestras  {#editing-a-swatch-set}
 
 Según si edita un conjunto publicado o sin publicar, la opción **Publicar después de guardar** afecta al conjunto y a los miembros del conjunto de las siguientes formas:
 
@@ -76,7 +76,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 1. Cuando haya terminado de editar el conjunto, asegúrese de que esté seleccionada la opción **Publicar después de guardar** (predeterminada), cerca de la esquina inferior derecha de la página.
 1. Haga clic en **Guardar**, seleccione una carpeta de almacenamiento, especifique un nombre para el conjunto y haga clic en **Guardar**.
 
-## Eliminación de un conjunto de muestras {#deleting-a-swatch-set}
+## Eliminación de un conjunto de muestras  {#deleting-a-swatch-set}
 
 Cuando se elimina un conjunto, el conjunto en sí se mueve a la papelera. Sin embargo, los miembros (o “elementos secundarios”) dentro de dicho conjunto no se verán afectados; cada uno mantendrá su estado existente de publicación o no.
 
