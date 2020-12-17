@@ -28,13 +28,13 @@ La publicación coloca el catálogo electrónico y el PDF en los servidores de i
 
 Para publicar el catálogo electrónico en los servidores de imágenes de Dynamic Media:
 
-1. Click **Publish** on the Global Navigation bar.
+1. Haga clic en **Publicar** en la barra de navegación global.
 1. En la pantalla Publicar, seleccione una opción para el parámetro Cuándo (Una vez o Recurrente).
 1. También puede introducir un nombre para el trabajo de publicación pero debe mantener el sello de fecha y hora.
 
    Si configura el catálogo electrónico para que los usuarios puedan realizar búsquedas por palabras clave, deberá publicar los datos de palabra clave. Haga clic en Opciones avanzadas y, a continuación, en Opciones avanzadas. En el menú desplegable Publicar, haga clic en Completa con datos de búsqueda. Ésta es la opción seleccionada por defecto.
 
-1. Click **Start Publish**.
+1. Haga clic en **Inicio Publish**.
 
 >[!MORELIKETHIS]
 >
