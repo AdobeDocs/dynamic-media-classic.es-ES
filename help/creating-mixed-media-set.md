@@ -54,7 +54,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
    Si desea ver el aspecto que tendrá el conjunto de imágenes combinado en un visor de conjuntos de imágenes, seleccione el botón **Vista previa**.
 
-## Edición de un conjunto de medios mixtos {#edit-a-mixed-media-set}
+## Edición de un conjunto de medios mixtos  {#edit-a-mixed-media-set}
 
 Puede editar un conjunto de medios mixtos. Si desea editar un conjunto dentro de un conjunto de medios mixtos, abra el conjunto por separado, edítelo y guárdelo. Los cambios aparecen en el conjunto de medios mixtos.
 
@@ -80,7 +80,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 1. Cuando haya terminado de editar el conjunto, asegúrese de que esté seleccionada la opción **Publicar después de guardar** (predeterminada), cerca de la esquina inferior derecha de la página.
 1. Haga clic en **Guardar** o **Guardar como**.
 
-## Eliminación de un conjunto de medios mixtos {#deleting-a-mixed-media-set}
+## Eliminación de un conjunto de medios mixtos  {#deleting-a-mixed-media-set}
 
 Cuando se elimina un conjunto, el conjunto en sí se mueve a la papelera. Sin embargo, los miembros (o “elementos secundarios”) dentro de dicho conjunto no se verán afectados; cada uno mantendrá su estado existente de publicación o no.
 
