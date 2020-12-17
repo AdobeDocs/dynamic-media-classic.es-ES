@@ -18,7 +18,7 @@ ht-degree: 87%
 ---
 
 
-# Previewing image assets with different Zoom viewers{#previewing-image-assets-with-different-zoom-viewers}
+# Vista previa de recursos de imagen con diferentes visores de zoom{#previewing-image-assets-with-different-zoom-viewers}
 
 En la pantalla Lista del visor, puede obtener una vista previa de las imágenes utilizando diferentes valores preestablecidos de visor de zoom.
 
