@@ -20,11 +20,11 @@ ht-degree: 62%
 
 # Inicio rápido: Conjuntos de imágenes{#quick-start-image-sets}
 
-Los conjuntos de imágenes de Dynamic Media Classic ofrecen a los usuarios una visualización integrada. En el visor de conjuntos de imágenes dinámico los usuarios pueden acceder a diversas vistas de un elemento haciendo clic en una imagen de miniatura. Los conjuntos de imágenes permiten presentar vistas alternativas de alta resolución de un elemento.
+Los conjuntos de imágenes de Dynamic Media Classic ofrecen a los usuarios una experiencia de visualización integrada. En el visor de conjuntos de imágenes dinámico los usuarios pueden acceder a diversas vistas de un elemento haciendo clic en una imagen de miniatura. Los conjuntos de imágenes permiten presentar vistas alternativas de alta resolución de un elemento.
 
 El visor de conjuntos de imágenes ofrece herramientas de zoom para examinar las imágenes de cerca. Si lo desea, puede crear destinos de zoom guiado y mapas de imagen para que formen parte del conjunto de imágenes. Los conjuntos de imágenes permiten una visualización completa y coordinada.
 
-Este Inicio rápido sobre los conjuntos de imágenes se ha diseñado para ayudarle en el uso inicial de las técnicas de conjuntos de imágenes en Dynamic Media Classic.
+Este Inicio rápido sobre los conjuntos de imágenes está diseñado para ponerse en marcha rápidamente con las técnicas de conjuntos de imágenes de Dynamic Media Classic.
 
 **1. Carga de las imágenes principales para varias vistas y muestras**
 
@@ -66,7 +66,7 @@ Al publicar un conjunto de imágenes, éste se coloca en los servidores de Dynam
 >
 >Este paso no es necesario si seleccionó **Publicar después de guardar ** (predeterminado) en el momento en que creó y guardó el conjunto de imágenes.
 
-Click the Mark for Publish icon to the left of its name in the Browse Panel. Then, click **Publish**. On the Publish screen, click **Start Publish**.
+Haga clic en el icono Marcar para publicación situado a la izquierda del nombre en el panel Examinar. A continuación, haga clic en **Publicar**. En la pantalla Publicar, haga clic en **Publicación de Inicio**.
 
 Consulte [Publicación](publishing-files.md#publishing-files).
 
@@ -74,6 +74,6 @@ Consulte [Publicación](publishing-files.md#publishing-files).
 
 Dynamic Media Classic crea llamadas mediante URL para conjuntos de imágenes y los activa después de la publicación. Puede copiar estas direcciones URL desde la pantalla Vista previa.
 
-Seleccione el conjunto de imágenes y, a continuación, seleccione el botón Vista previa. Se abre la pantalla Vista previa. Select an Image Set Viewer Preset and click **Copy URL**.
+Seleccione el conjunto de imágenes y, a continuación, seleccione el botón Vista previa. Se abre la pantalla Vista previa. Seleccione un ajuste preestablecido de visor de conjuntos de imágenes y haga clic en **Copiar URL**.
 
 Consulte [Vinculación de un conjunto de imágenes a una página web](linking-image-set-web-page.md#linking-an-image-set-to-a-web-page).
