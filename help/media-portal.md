@@ -22,6 +22,6 @@ ht-degree: 45%
 
 Adobe Media Portal ofrece a las empresas la posibilidad de adquirir y controlar fácilmente recursos creativos aprobados, así como distribuirlos a socios y canales externos y a usuarios internos de la empresa. Este entorno de &quot;autoservicio&quot; basado en explorador proporciona a los usuarios del portal &quot;vistas&quot; controladas por el administrador en los recursos de Dynamic Media Classic para acceder fácilmente a la carga, exploración, búsqueda, previsualización y exportación de recursos en formatos aprobados por la empresa.
 
-For more information about Media Portal including system requirements, see [www.adobe.com/go/learn_sc7_mediaportalusing_en](https://www.adobe.com/go/learn_sc7_mediaportalusing_en).
+Para obtener más información sobre Media Portal, incluidos los requisitos del sistema, consulte [www.adobe.com/go/learn_sc7_mediaportalusing_en](https://www.adobe.com/go/learn_sc7_mediaportalusing_en).
 
 Para obtener información acerca de cómo se administra Media Portal, consulte [Inicio rápido: Administración de Media Portal](quick-start-media-portal-administration.md#quick_start_media_portal_administration).
