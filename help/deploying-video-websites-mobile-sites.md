@@ -26,9 +26,9 @@ Los sitios web, los sitios móviles y las aplicaciones de escritorio acceden al 
 >
 >La URL o el código incrustado no se activan hasta que publique el recurso.
 
-## Publicación de vídeo {#publishing-video}
+## Publicación de vídeo  {#publishing-video}
 
-La publicación de un vídeo permite a los servidores de Dynamic Media Classic entregar vídeo a su sitio web, sitio móvil o aplicación.
+La publicación de un vídeo permite a los servidores Dynamic Media Classic entregar vídeo en el sitio web, el sitio móvil o la aplicación.
 
 Existen dos métodos que puede utilizar para publicar vídeos:
 
@@ -63,22 +63,22 @@ Consulte también [ Incrustación del visor de vídeo en páginas web](deploying
 1. En el panel Biblioteca de recursos del lado izquierdo, navegue a la carpeta de recursos que contenga el vídeo o el conjunto de vídeos adaptables cuyo código incrustado desee vincular.
 1. Encima del panel de exploración de recursos, en la parte derecha de la barra de herramientas, realice una de las siguientes acciones:
 
-   * Haga clic en **Vista de cuadrícula** o **Vista de lista**. En el panel de exploración de recursos, haga doble clic en la miniatura de vídeo de un solo recurso para abrirlo en la vista de detalles. En el panel URL y código incrustado de la derecha, en Flujo HTTP, haga clic en **Copiar URL** a la derecha del visor que desee. As a best practice, copy the URL associated with the `Universal_HTML5_Video` viewer.
+   * Haga clic en **Vista de cuadrícula** o **Vista de lista**. En el panel de exploración de recursos, haga doble clic en la miniatura de vídeo de un solo recurso para abrirlo en la vista de detalles. En el panel URL y código incrustado de la derecha, en Flujo HTTP, haga clic en **Copiar URL** a la derecha del visor que desee. Se recomienda copiar la URL asociada al visor `Universal_HTML5_Video`.
    * Haga clic en **Vista de cuadrícula**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **Vista previa** > **Lista del visor** debajo de la imagen en miniatura.
 
-      En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Copiar URL**. As a best practice, copy the URL associated with the `Universal_HTML5_Video` viewer.
+      En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Copiar URL**. Se recomienda copiar la URL asociada al visor `Universal_HTML5_Video`.
 
    * Haga clic en **Vista de lista**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **Vista previa** > **Lista del visor** a la derecha de la imagen en miniatura.
 
-      En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Copiar URL**. As a best practice, copy the URL associated with the `Universal_HTML5_Video` viewer.
+      En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Copiar URL**. Se recomienda copiar la URL asociada al visor `Universal_HTML5_Video`.
 
    * Haga clic en **Vista de cuadrícula**, **Vista de lista** o **Vista de detalles**. En la misma barra de herramientas, haga clic en **Vista previa** > **Lista del visor**.
 
-      En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Copiar URL**. As a best practice, copy the URL associated with the `Universal_HTML5_Video` viewer.
+      En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Copiar URL**. Se recomienda copiar la URL asociada al visor `Universal_HTML5_Video`.
 
 1. Coloque el vínculo a la URL del vídeo HTML5 en el sitio web y el sitio de dispositivos móviles.
 
-## Incrustación del visor de vídeo en páginas web {#embedding-the-video-viewer-on-a-web-page}
+## Incrustación del visor de vídeo en páginas web  {#embedding-the-video-viewer-on-a-web-page}
 
 Utilice la función de código incrustado si desea reproducir el vídeo incrustado en la página web. El código incrustado se copia en el portapapeles para pegarlo en las páginas web. No se permite la edición del código en el cuadro de diálogo Código incrustado.
 
@@ -90,18 +90,18 @@ Consulte también [Vinculación de una URL de vídeo a sitios web o de dispositi
 1. En el panel Biblioteca de recursos del lado izquierdo, navegue a la carpeta de recursos que contenga el vídeo o el conjunto de vídeos adaptables cuyo código incrustado desea copiar.
 1. Encima del panel de exploración de recursos, en la parte derecha de la barra de herramientas, realice una de las siguientes acciones:
 
-   * Haga clic en **Vista de cuadrícula** o **Vista de lista**. En el panel de exploración de recursos, haga doble clic en la miniatura de vídeo de un solo recurso para abrirlo en la vista de detalles. En el panel URL y código incrustado de la derecha, en Flujo HTTP, haga clic en **Código incrustado** a la derecha del visor que desee. As a best practice, click **Embed Code** that is associated with the `Universal_HTML5_Video` viewer.
+   * Haga clic en **Vista de cuadrícula** o **Vista de lista**. En el panel de exploración de recursos, haga doble clic en la miniatura de vídeo de un solo recurso para abrirlo en la vista de detalles. En el panel URL y código incrustado de la derecha, en Flujo HTTP, haga clic en **Código incrustado** a la derecha del visor que desee. Como práctica recomendada, haga clic en **Código incrustado** que está asociado con el visor `Universal_HTML5_Video`.
    * Haga clic en **Vista de cuadrícula**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **Vista previa** > **Lista del visor** debajo de la imagen de la miniatura de vídeo.
 
-      En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Código incrustado**. As a best practice, click **Embed Code** that is associated with the `Universal_HTML5_Video` viewer.
+      En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Código incrustado**. Como práctica recomendada, haga clic en **Código incrustado** que está asociado con el visor `Universal_HTML5_Video`.
 
    * Haga clic en **Vista de lista**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **Vista previa** > **Lista del visor** a la derecha de la imagen en miniatura.
 
-      En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Código incrustado**. As a best practice, click **Embed Code** that is associated with the `Universal_HTML5_Video` viewer.
+      En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Código incrustado**. Como práctica recomendada, haga clic en **Código incrustado** que está asociado con el visor `Universal_HTML5_Video`.
 
    * Haga clic en **Vista de cuadrícula**, **Vista de lista** o **Vista de detalles**. En la misma barra de herramientas, haga clic en **Vista previa** > **Lista del visor**.
 
-      En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Código incrustado**. As a best practice, click **Embed Code** that is associated with the `Universal_HTML5_Video` viewer.
+      En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Código incrustado**. Como práctica recomendada, haga clic en **Código incrustado** que está asociado con el visor `Universal_HTML5_Video`.
 
 1. En el cuadro de diálogo Código incrustado, haga clic en **Copiar al portapapeles**.
 
@@ -110,9 +110,9 @@ Consulte también [Vinculación de una URL de vídeo a sitios web o de dispositi
 1. Haga clic en **Cerrar**.
 1. Pegue el código incrustado en las páginas web.
 
-### Implementing embed code for using HTML5 video with MP4 video assets {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
+### Implementación de código incrustado para utilizar vídeo HTML5 con recursos de vídeo MP4 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
-If you do not use the Dynamic Media Classic HTML5 video player, but instead want to use the native HTML5 `<video>` tag with MP4 video assets, you can use the following embed code sample:
+Si no utiliza el reproductor de vídeo Dynamic Media Classic HTML5, sino que desea utilizar la etiqueta nativa HTML5 `<video>` con recursos de vídeo MP4, puede utilizar la siguiente muestra de código incrustado:
 
 ```as3
 <video poster="S7 video thumbnail URL" controls> 
@@ -122,48 +122,48 @@ If you do not use the Dynamic Media Classic HTML5 video player, but instead want
 </video>
 ```
 
-* Reemplazar `"S7 video thumbnail URL"` por la URL de la miniatura del vídeo. Esta es la imagen en miniatura del vídeo que un usuario ve antes de reproducir el vídeo.
+* Reemplace `"S7 video thumbnail URL"` por la URL de la miniatura del vídeo. Esta es la imagen en miniatura del vídeo que un usuario ve antes de reproducir el vídeo.
 
    Consulte [Obtención de las URL de miniaturas de vídeo](deploying-video-websites-mobile-sites.md#obtaining_video_thumbnail_urls).
 
-* Reemplazar `"S7 OGG video asset URL (no player)"` por la URL progresiva del vídeo para vídeo OGG.
+* Reemplace `"S7 OGG video asset URL (no player)"` por la URL progresiva del vídeo para vídeo OGG.
 
    Consulte [Vinculación de una URL de vídeo a sitios web o de dispositivos móviles](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
-* Reemplazar `"S7 MP4 mobile progressive video asset URL (no player)"` por la URL móvil progresiva del vídeo.
+* Reemplace `"S7 MP4 mobile progressive video asset URL (no player)"` por la URL móvil progresiva del vídeo.
 
    Consulte [Vinculación de una URL de vídeo a sitios web o de dispositivos móviles](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
-## Implementación de vídeo con un reproductor de vídeo de terceros {#deploying-video-using-a-third-party-video-player}
+## Implementación de vídeo con un reproductor de vídeo de terceros  {#deploying-video-using-a-third-party-video-player}
 
-Si utiliza un reproductor de vídeo de terceros o un reproductor de vídeo integrado personalizado en lugar de un visor de vídeo de Dynamic Media Classic, puede obtener la URL de vídeo directa que funciona para el flujo de vídeo de varias velocidades de bits HLS o la descarga progresiva.
+Si utiliza un reproductor de vídeo de terceros o un reproductor de vídeo integrado personalizado en lugar de un visor de vídeo Dynamic Media Classic, puede obtener la URL de vídeo directa que funciona para el flujo de vídeo de varias velocidades de bits HLS o la descarga progresiva.
 
 **Para implementar vídeo con un reproductor de vídeo de terceros**
 
-1. In Dynamic Media Classic, on the Global Navigation bar, click **Setup** > **Application Setup** > **General Settings**.
+1. En Dynamic Media Classic, en la barra de navegación global, haga clic en **Configuración** > **Ajustes de aplicación** > **Configuración general**.
 1. Según el tipo de URL que desee utilizar, realice una de las tareas siguientes:
 * Para generar una URL directa de vídeo de flujo HLS (varias velocidades de bits)
 
-   En la página Configuración **general de** la aplicación, en el grupo **Servidores** , en el campo de texto Nombre **del servidor** publicado, cree la URL directa con la siguiente sintaxis: `server/is/content/company/folder/filename.m3u8`
-Por ejemplo, supongamos que el nombre del servidor Publicado está `https://s7d9.scene7.com/.` Utilizando la sintaxis del paso 2, la dirección URL directa podría tener el siguiente aspecto:
+   En la página **Configuración general de la aplicación**, en el grupo **Servidores**, en el campo de texto **Nombre del servidor publicado**, cree la dirección URL directa con la siguiente sintaxis: `server/is/content/company/folder/filename.m3u8`
+Por ejemplo, supongamos que el nombre del servidor Publicado es `https://s7d9.scene7.com/.` Con la sintaxis del paso 2, la dirección URL directa podría tener el siguiente aspecto:
    `https://s7d9.scene7.com/is/content/GeoRetail/AdobeRIA-AVS.m3u8`
 
 * Para generar una URL directa de vídeo de flujo HLS (velocidad de bits única)
 
-   On the **Application General Settings** page, in the **Servers** group, in the **HLS Streaming Server Name** text field, construct the direct URL using the following syntax:
+   En la página **Configuración general de la aplicación**, en el grupo **Servidores**, en el campo de texto **Nombre del servidor de flujo HLS**, cree la dirección URL directa con la siguiente sintaxis:
    `server/company/folder/filename.ext.m3u8`
-Por ejemplo, supongamos que el nombre del servidor de flujo HLS es `https://s7mbrstream.scene7.com/hls-vod/`. Utilizando la sintaxis en el paso 2, la dirección URL directa puede tener el siguiente aspecto:
+Por ejemplo, supongamos que el nombre del servidor de flujo HLS es  `https://s7mbrstream.scene7.com/hls-vod/`. Utilizando la sintaxis en el paso 2, la dirección URL directa puede tener el siguiente aspecto:
    `https://s7mbrstream.scene7.com/hls-vod/GeoRetail/MBR/ToyStory3\_Teaser1\_High\_iPad\_768x432\_1296K.mp4.m3u8`
 
 * Para generar una URL directa de vídeo progresivo
 
-   En la página **Configuración general de la aplicación**, en el grupo **Servidores**, campo de texto **Nombre del servidor de vídeo progresivo**, cree la URL de eVideo directa utilizando la siguiente sintaxis: `server/company/folder/filename`
-For example, suppose the progressive video server name is `https://s7d9.scene7.com/is/content/`. Utilizando la sintaxis en el paso 2, la dirección URL directa puede tener el siguiente aspecto:
+   En la página **Configuración general de la aplicación**, en el grupo **Servidores**, campo de texto **Nombre del servidor de vídeo progresivo**, cree la URL de eVideo directa utilizando la siguiente sintaxis:  `server/company/folder/filename`
+Por ejemplo, supongamos que el nombre del servidor de vídeo progresivo es  `https://s7d9.scene7.com/is/content/`. Utilizando la sintaxis en el paso 2, la dirección URL directa puede tener el siguiente aspecto:
    `https://s7d9.scene7.com/e2/GeoRetail/SourceVideo/outdoors.mp4`
 
 ## Uso de las miniaturas de vídeo {#working-with-video-thumbnails}
 
-Dynamic Media Classic genera miniaturas para vídeos codificados y vídeos precodificados. Puede utilizar las miniaturas de vídeo como cualquier otro recurso de imagen. Además, puede obtener direcciones URL para las miniaturas de vídeo que genera Dynamic Media Classic e implementar estas URL fuera de Dynamic Media Classic. Por ejemplo, puede implementar las miniaturas en resultados de búsquedas, listados de vídeos relacionados y listas de reproducción de vídeos en un sitio web.
+Dynamic Media Classic genera miniaturas para vídeos codificados y vídeos precodificados. Puede utilizar las miniaturas de vídeo como cualquier otro recurso de imagen. Además, puede obtener direcciones URL para las miniaturas de vídeo que Dynamic Media Classic genera e implementar estas URL fuera de Dynamic Media Classic. Por ejemplo, puede implementar las miniaturas en resultados de búsquedas, listados de vídeos relacionados y listas de reproducción de vídeos en un sitio web.
 
 Las miniaturas se generan en función del primer fotograma heterogéneo (no en un fotograma todo negro o todo blanco, etc. ) del vídeo.
 
@@ -177,7 +177,7 @@ Consulte [Publicación de vídeo](deploying-video-websites-mobile-sites.md#publi
 
 Tras la publicación, puede obtener las URL de las miniaturas de vídeo en la vista de detalles del panel URL y código incrustado. Haga clic en **Copiar URL** a la derecha de la miniatura de vídeo para copiar su dirección URL.
 
-### Modificación de fotogramas de póster en visores de vídeos {#modifying-poster-frames-in-video-viewers}
+### Modificación de fotogramas de póster en visores de vídeos  {#modifying-poster-frames-in-video-viewers}
 
 El *fotograma de póster* es el fotograma inicial que aparece en los visores de vídeo antes de que el vídeo empiece a reproducirse. Dynamic Media Classic utiliza miniaturas de vídeo como fotogramas de póster.
 
