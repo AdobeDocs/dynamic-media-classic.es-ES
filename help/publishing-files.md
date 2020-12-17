@@ -22,19 +22,21 @@ ht-degree: 76%
 
 Los recursos se publican en los servidores de imágenes de Dynamic Media. Puede publicar recursos una sola vez o organizar que Dynamic Media Classic publique los recursos de forma periódica. Después de publicarse, tiene los recursos disponibles para su entrega. Puede copiar las llamadas mediante URL desde Dynamic Media Classic y agregarlas a su sitio Web o aplicación.
 
-Dynamic Media Classic ahora admite el envío de todas las imágenes y vídeos a través de HTTP/2. Es decir, una URL publicada o código incrustado para la imagen o el vídeo está disponible para integrarse con cualquier aplicación que acepte un recurso alojado. Ese recurso publicado se entrega a través del protocolo HTTP/2. Este método de envío mejora la forma en que se comunican los exploradores y los servidores, lo que permite una mejor respuesta y tiempos de carga de todos los recursos de Dynamic Media Classic. Consulte [HTTP2 Envío de las preguntas más frecuentes](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html)sobre el contenido.
+Dynamic Media Classic ahora admite el envío de todas las imágenes y vídeos a través de HTTP/2. Es decir, una URL publicada o código incrustado para la imagen o el vídeo está disponible para integrarse con cualquier aplicación que acepte un recurso alojado. Ese recurso publicado se entrega a través del protocolo HTTP/2. Este método de envío mejora la forma en que se comunican los exploradores y los servidores, lo que permite una mejor respuesta y tiempos de carga de todos los recursos de Dynamic Media Classic. Consulte [Preguntas más frecuentes sobre el Envío HTTP2](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html).
 
 ## Publicar tras la carga {#publish-after-uploading}
 
 Los recursos están en un estado publicado o no. De forma predeterminada, los recursos que cargue en Dynamic Media Classic se marcan automáticamente para su publicación.
 
-Para obtener más información, consulte el PDF [Aviso de publicación](/help/assets/rendering-instant-publish-notification.pdf)instantánea.
+Para obtener más información, consulte el [aviso de publicación instantánea PDF](/help/assets/rendering-instant-publish-notification.pdf).
 
 Para marcar recursos para la publicación, siga estas técnicas:
 
-* **Publicar tras la carga** En la página de carga, cerca de la parte inferior, seleccione Publicar tras la carga. El valor predeterminado es un estado seleccionado.
+* **Publicar tras la**
+cargaEn la página de carga, cerca de la parte inferior, seleccione Publicar tras la carga. El valor predeterminado es un estado seleccionado.
 
-* **Publicar tras la carga** En el cuadro de diálogo Opciones de trabajo, seleccione Publicar tras la carga. El valor predeterminado es un estado seleccionado.
+* **Publicar tras la**
+cargaEn el cuadro de diálogo Opciones de trabajo, seleccione Publicar tras la carga. El valor predeterminado es un estado seleccionado.
 
 Algunos recursos &quot;secundarios&quot; se marcan para la publicación de forma automática al marcarse para publicación los recursos principales. En esta tabla se muestran los recursos que se marcan para la publicación de forma automática.
 
@@ -47,7 +49,7 @@ Algunos recursos &quot;secundarios&quot; se marcan para la publicación de forma
 
 Las imágenes derivadas también se marcan para la publicación de forma automática cuando se están publicando las imágenes principales. Las imágenes derivadas son imágenes que se han ajustado con las opciones de edición de imágenes. Puede ver estas imágenes derivadas en la vista de detalles si selecciona Creación y derivados.
 
-## Creación de un trabajo de publicación {#creating-a-publish-job}
+## Creación de un trabajo de publicación  {#creating-a-publish-job}
 
 Cree un trabajo de publicación para publicar los recursos que ha cargado en los servidores de Dynamic Media Classic pero que aún no ha publicado automáticamente. Puede llevar a cabo un trabajo de publicación único o programar trabajos para que se repitan de forma regular. Dynamic Media Classic oferta opciones de publicación avanzadas para publicar en servidores específicos y opciones para volver a publicar recursos que ya se han publicado.
 
@@ -77,7 +79,7 @@ Para crear un trabajo de publicación único seleccione la opción Una vez en la
 
 Si desea iniciar el trabajo de publicación más tarde, seleccione el menú Cuándo y elija Programar para más tarde. A continuación utilice el control deslizante de calendario y hora para seleccionar el día y la hora en que desea ejecutar el trabajo de publicación.
 
-### Creación de un trabajo de publicación recurrente {#creating-a-recurring-publish-job}
+### Creación de un trabajo de publicación recurrente  {#creating-a-recurring-publish-job}
 
 Para crear un trabajo de publicación recurrente seleccione la opción Recurrente en la página Publicar.
 
@@ -93,17 +95,21 @@ Consulte [Creación de un intervalo personalizado para un trabajo de carga o pub
 
 Puede acceder a las opciones avanzadas desde la página Publicar y especificar estas opciones para controlar un trabajo de publicación:
 
-* **Publicar para** Elija un tipo de servidor para publicar recursos solo en un servidor específico, no en todos los servidores.
+* **Publicar**
+paraElija un tipo de servidor para publicar recursos solo en un servidor específico, no en todos los servidores.
 
-* **Publicar** De forma predeterminada, Dynamic Media Classic solo publica recursos nuevos que no se hayan publicado anteriormente (la opción Nuevo desde la última publicación). Sin embargo, puede elegir Publicación completa y publicar los recursos que se hayan actualizado o cambiado desde su última publicación. Elija Completa con datos de búsqueda si va a publicar un catálogo electrónico y desea que los lectores puedan realizar búsquedas por palabra clave.
+* ****
+PublicarDe forma predeterminada, Dynamic Media Classic solo publica recursos nuevos que no se hayan publicado anteriormente (la opción Nuevo desde la última publicación). Sin embargo, puede elegir Publicación completa y publicar los recursos que se hayan actualizado o cambiado desde su última publicación. Elija Completa con datos de búsqueda si va a publicar un catálogo electrónico y desea que los lectores puedan realizar búsquedas por palabra clave.
 
-* **Ejecutar trabajo como** elija un nombre de usuario en la lista. Desde la página Trabajos, puede ordenar los trabajos por nombre de usuario. Si elige un nombre, asociará el trabajo de publicación con un usuario.
+* **Ejecutar trabajo**
+comoElija un nombre de usuario en la lista. Desde la página Trabajos, puede ordenar los trabajos por nombre de usuario. Si elige un nombre, asociará el trabajo de publicación con un usuario.
 
-**Notificación** HTTP Introduzca una URL para activar los trabajos de publicación posteriores.
+**Notificación HTTPIntroduzca una dirección URL para activar los trabajos de publicación posteriores.**
+
 
 (Consulte [Uso de un trabajo de carga o publicación como desencadenador](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)).
 
-## Cancelación de un trabajo de publicación {#canceling-a-publish-job}
+## Cancelación de un trabajo de publicación  {#canceling-a-publish-job}
 
 Puede cancelar los trabajos de publicación que están en curso. Además, si es administrador, puede cancelar un trabajo de publicación en curso desde la página Trabajos de la empresa.
 
@@ -113,7 +119,7 @@ Para cancelar un trabajo de publicación, vaya a la página Trabajos y haga clic
 >
 >Al cancelar un trabajo de publicación, su estado se cambia a &quot;deteniendo&quot; hasta que el trabajo se pueda detener de forma segura. Si el trabajo de publicación está obteniendo datos de la base de datos, puede que tarde un tiempo en detenerse.
 
-## Publicación manual de recursos {#manually-publishing-assets}
+## Publicación manual de recursos  {#manually-publishing-assets}
 
 Puede publicar recursos individuales manualmente en lugar de crear un trabajo de publicación. Cuando publica conjuntos, como un conjunto de imágenes o un conjunto de vídeos adaptable, se publican el conjunto (o “elemento principal”) y todos los miembros (o “elementos secundarios”) dentro de dicho conjunto.
 
@@ -129,7 +135,7 @@ Los recursos sin publicar se indican en la interfaz de usuario con un icono gris
 
    * En la vista de cuadrícula, la vista de lista o la vista de detalles, haga clic en el icono gris redondeado con una barra diagonal a la izquierda del nombre del recurso.
 
-## Cancelación manual de la publicación de recursos {#manually-unpublishing-assets}
+## Cancelación manual de la publicación de recursos  {#manually-unpublishing-assets}
 
 Puede cancelar la publicación de los recursos individuales manualmente. Al cancelar la publicación de conjuntos, como un conjunto de muestras o un catálogo electrónico, el conjunto (o “elemento principal”) pasa a un estado no publicado. Sin embargo, los miembros (o “elementos secundarios”) dentro de dicho conjunto no se verán afectados; cada uno mantendrá su estado existente de publicación o no.
 
@@ -141,11 +147,11 @@ Los recursos publicados aparecen en la interfaz de usuario con un icono verde re
 
    * En la vista de cuadrícula, la vista de lista o la vista de detalles, seleccione uno o varios recursos publicados.
 
-      On the Global Navigation Bar, click **File > **Unpublish**.
+      En la barra de navegación global, haga clic en **Archivo > **Cancelar la publicación**.
 
    * En la vista de cuadrícula, la vista de lista o la vista de detalles, haga clic en el icono verde redondeado a la izquierda del nombre del recurso.
 
-## Obtención del historial de publicación de un recurso {#getting-an-asset-s-publish-history}
+## Obtención del historial de publicación de un recurso  {#getting-an-asset-s-publish-history}
 
 La última fecha de publicación de los recursos se muestra en la vista de detalles, en la parte superior del panel. Puede obtener más detalles sobre el historial de publicación si abre el panel Historial y servidores publicados en la vista de detalles. En este panel, podrá ver cuándo se publicó el recurso y los servidores en los que se publicó.
 
