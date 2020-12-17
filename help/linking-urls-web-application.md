@@ -20,11 +20,11 @@ ht-degree: 72%
 
 # Vinculación de direcciones URL al sitio web{#linking-urls-to-your-web-application}
 
-Los sitios web y las aplicaciones acceden al contenido del servidor de imágenes de Dynamic Media a través de cadenas URL. Después de publicar una imagen, Dynamic Media Classic activa una cadena URL que hace referencia al ajuste preestablecido de imagen en los servidores de imágenes de Dynamic Media. Puede probar el funcionamiento de estas cadenas URL pegándolas en un explorador web.
+Los sitios web y las aplicaciones acceden al contenido de Dynamic Media Image Server a través de cadenas URL. Después de publicar una imagen, Dynamic Media Classic activa una cadena URL que hace referencia al ajuste preestablecido de imagen en los servidores de imágenes de Dynamic Media. Puede probar el funcionamiento de estas cadenas URL pegándolas en un explorador web.
 
 Para colocar estas cadenas URL en las páginas web y las aplicaciones, cópielas desde Dynamic Media Classic. Para obtener una cadena URL generada con un ajuste preestablecido de imagen, abra la pantalla Vista previa o el panel Examinar (en vista de detalles).
 
-## Obtención de una URL de ajuste preestablecido de imagen {#obtaining-an-image-preset-url}
+## Obtención de una URL de ajuste preestablecido de imagen  {#obtaining-an-image-preset-url}
 
 Puede obtener una cadena URL generada por un ajuste preestablecido de imagen en la Vista previa o en Vista de detalles. Una vez copiada, la URL queda disponible en el portapapeles para que pueda pegarla cuando lo necesite.
 
@@ -43,7 +43,7 @@ Puede obtener una cadena URL generada por un ajuste preestablecido de imagen en 
 1. En la ventana Lista de ajustes preestablecidos de imagen, en la parte superior derecha del panel de vista previa, haga clic en Copiar URL para el tipo de ajuste preestablecido seleccionado.
 1. En la esquina inferior derecha de la ventana Lista de ajustes preestablecidos de imagen, haga clic en Cerrar para volver a la pantalla Recurso.
 
-### Obtención de una URL de ajustes preestablecidos de imagen desde el panel Examinar {#obtaining-an-image-preset-url-from-the-browse-panel}
+### Obtención de una URL de ajustes preestablecidos de imagen desde el panel Examinar  {#obtaining-an-image-preset-url-from-the-browse-panel}
 
 1. En el panel Biblioteca de recursos del lado izquierdo, navegue a las carpetas de recursos que contienen el recurso de imagen cuya vista previa desea obtener.
 1. Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en Vista de cuadrícula. En la ventana Recurso, seleccione un único recurso de imagen.
@@ -51,7 +51,7 @@ Puede obtener una cadena URL generada por un ajuste preestablecido de imagen en 
 1. Haga clic en Direcciones URL en el panel de la derecha para desplegar la lista de ajustes preestablecidos de imagen.
 1. Haga clic en el vínculo Copiar URL junto al nombre del ajuste preestablecido cuya URL quiera copiar en el portapapeles.
 
-## Acerca de las cadenas URL de ajustes preestablecidos de imagen {#about-image-preset-url-strings}
+## Acerca de las cadenas URL de ajustes preestablecidos de imagen  {#about-image-preset-url-strings}
 
 Una llamada mediante URL para el cambio de tamaño de imagen a los servidores de imágenes de Dynamic Media tiene la siguiente sintaxis básica:
 
@@ -75,11 +75,11 @@ Pero en una cadena URL generada con un ajuste preestablecido de imagen, el nombr
 https://s7d1.scene7.com/is/image/S7learn/backpack?$Large$
 ```
 
-Los nombres de ajuste preestablecido de imagen en direcciones URL se incluyen entre signos de dólar ($). When a Dynamic Media Image Server encounters the Image Preset portion of the URL (the `Large` in this case), using the size and formatting instructions defined by the “Large” Image Preset.
+Los nombres de ajuste preestablecido de imagen en direcciones URL se incluyen entre signos de dólar ($). Cuando un servidor de imágenes de Dynamic Media encuentra la porción de ajuste preestablecido de imagen de la URL (en este caso, `Large`), con las instrucciones de formato y tamaño definidas por el ajuste preestablecido de imagen &quot;Grande&quot;.
 
 ## Adición de imágenes dinámicas a la página web {#adding-dynamic-images-to-your-web-page}
 
-To add dynamic images to your web page, the `<IMG>` tag in your HTML web page code typically is modified using the Dynamic Media Classic URL string to make a request to Dynamic Media Image Servers. Esta cadena produce una imagen con las especificaciones de formato y tamaño definidas por el ajuste preestablecido de imagen.
+Para agregar imágenes dinámicas a la página web, la etiqueta `<IMG>` del código de la página web HTML se suele modificar con la cadena URL de Dynamic Media Classic para realizar una solicitud a los servidores de imágenes de Dynamic Media. Esta cadena produce una imagen con las especificaciones de formato y tamaño definidas por el ajuste preestablecido de imagen.
 
 Por ejemplo, en lugar de la típica llamada para abrir una imagen estática:
 
@@ -87,10 +87,10 @@ Por ejemplo, en lugar de la típica llamada para abrir una imagen estática:
 img src="/company_images/products/backpack_thumbnail.jpg"
 ```
 
-you now use the `<IMG>`tag to replace the reference to a static image with an Image Preset call to the Dynamic Media Classic platform. Ejemplo de llamada:
+ahora utilice la etiqueta `<IMG>`para reemplazar la referencia a una imagen estática con una llamada de ajuste preestablecido de imagen a la plataforma de Dynamic Media Classic. Ejemplo de llamada:
 
 ```as3
 img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$”
 ```
 
-In this example, a Dynamic Media Image Server “looks up” the definition of `$thumbnail$` and dynamically generates the appropriate image with the sizing and formatting specifications defined by the `thumbnail`Image Preset. En una cadena URL, todos los elementos a excepción del nombre de archivo de imagen de producto (`backpack_trns` en este caso) suelen estar fijados para la plantilla de página. El único elemento que se inserta automáticamente en la plantilla desde el servidor comercial es el ID de IPS o nombre de la imagen.
+En este ejemplo, un servidor de imágenes de Dynamic Media &quot;busca&quot; la definición de `$thumbnail$` y genera dinámicamente la imagen adecuada con las especificaciones de tamaño y formato definidas por el `thumbnail`ajuste preestablecido de imagen. En una cadena URL, todos los elementos a excepción del nombre de archivo de imagen de producto (`backpack_trns` en este caso) suelen estar fijados para la plantilla de página. El único elemento que se inserta automáticamente en la plantilla desde el servidor comercial es el ID de IPS o nombre de la imagen.
