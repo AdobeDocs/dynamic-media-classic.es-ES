@@ -29,13 +29,13 @@ Puede administrar la configuración y los datos del panel de información median
 * El cuadro de diálogo Importar metadatos (al que se accede a través de la vista Páginas de mapa) permite importar un archivo TXT delimitado por tabuladores con la información del texto rollover. Puede utilizar esta opción de TXT o el panel de alimentación de datos con la opción de archivo CSV para su texto rollover.
 * La vista Páginas de mapa proporciona una opción para previsualizar el XML que aparece para los mapas de imagen específicos.
 
-## Configuración de una plantilla de respuesta para catálogos electrónicos {#set-up-a-response-template-for-ecatalogs}
+## Configurar una plantilla de respuesta para catálogos electrónicos {#set-up-a-response-template-for-ecatalogs}
 
 Puede seleccionar una de las tres plantillas de respuesta preestablecidas para mostrar el texto en un panel de información. Estas plantillas de respuesta preestablecidas determinan cómo se presenta la información en el panel de información: el número de columnas y filas, el tamaño del tipo de letra, la fuente, etc. Puede seleccionar una plantilla de respuesta preestablecida o crear una propia.
 
 >[!NOTE]
 >
->También puede configurar una plantilla de respuesta en Ajustes preestablecidos de visor. To use the Response Template in the Viewer Preset instead, add `fmt=1` to the end of the Information Server URL in the Viewer Preset.
+>También puede configurar una plantilla de respuesta en Ajustes preestablecidos de visor. Para utilizar la plantilla de respuesta en el ajuste preestablecido de visor, agregue `fmt=1` al final de la URL del servidor de información en el ajuste preestablecido de visor.
 >
 >Consulte [Configuración de ajustes preestablecidos del visor de catálogos electrónicos](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets).
 
@@ -52,9 +52,9 @@ Puede seleccionar una de las tres plantillas de respuesta preestablecidas para m
    * Establezca un número más bajo si los datos se actualizan frecuentemente a lo largo del día.
    * Establezca un número más alto si los datos son relativamente estables y no requieren actualizarse con frecuencia a lo largo del día. El valor predeterminado es de diez horas.
 
-1. Click **Publish**.
+1. Haga clic en **Publicar**.
 
-## Import source content for the Info Panel in eCatalogs {#import-source-content-for-the-info-panel-in-ecatalogs}
+## Importar contenido de origen para el panel de información en catálogos electrónicos {#import-source-content-for-the-info-panel-in-ecatalogs}
 
 Puede utilizar archivos de valores separados por comas (CSV) o archivos delimitados por tabuladores (TXT) para el texto de origen del panel de información de un catálogo electrónico. Los archivos delimitados por tabuladores deben usar la codificación UTF16 (Unicode). Puede importar los distintos tipos de archivos mediante diferentes métodos.
 
@@ -64,7 +64,7 @@ Cuando dé formato al contenido de origen, tenga en cuenta las siguientes pautas
 * Asegúrese de que el primer elemento o columna de datos es el identificador de rollover (asociado con el valor rollover_key de las URL de mapas de imagen).
 * Asegúrese de que cada elemento delimitado por comas o tabuladores tras el identificador es el elemento que desea sustituir en la plantilla de respuesta (la primera columna se sustituye en $1$, la segunda columna en $2$, y así sucesivamente).
 
-### Import CSV content into eCatalogs from an externally hosted location {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}
+### Importar contenido CSV en catálogos electrónicos desde una ubicación alojada externamente {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}
 
 1. Haga doble clic en el catálogo electrónico para abrirlo en la vista de detalles.
 1. Haga clic en el panel de alimentación de datos del panel de información para abrirlo.
@@ -72,7 +72,7 @@ Cuando dé formato al contenido de origen, tenga en cuenta las siguientes pautas
 1. (Opcional) Especifique un tiempo para la actualización del contenido mediante los menús Actualiz. de la progr. y haga clic en Agregar. Puede seleccionar varios tiempos de actualización. Cada tiempo de actualización aparece en el cuadro de tiempos de actualización. (Para eliminar un tiempo, selecciónelo y haga clic en Eliminar).
 1. (Opcional) Haga clic en el botón de ejecución de la actualización para actualizar los contenidos inmediatamente.
 
-### Importación de un archivo CSV o delimitado por tabuladores {#import-a-tab-delimited-or-csv-file}
+### Importación de un archivo CSV o delimitado por tabuladores  {#import-a-tab-delimited-or-csv-file}
 
 <!-- 
 
@@ -87,7 +87,7 @@ Last Modified Date:
 1. Haga doble clic en el catálogo electrónico para abrirlo en la vista de detalles.
 1. Haga clic en el panel de configuración del panel de información para abrirlo.
 1. **Haga clic en Cargar contenido** de S7Info.
-1. Click **Browse**, select the tab-delimited TXT file, CSV or SSV file you want to use, and click **Open**.
+1. Haga clic en **Examinar**, seleccione el archivo TXT delimitado por tabuladores, el archivo CSV o SSV que desee utilizar y haga clic en **Abrir**.
 1. Haga clic en **Cargar**.
 
 Dynamic Media Classic le envía un mensaje de correo electrónico en el que se indica si la carga se ha realizado correctamente o no.
