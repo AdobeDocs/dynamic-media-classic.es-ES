@@ -21,11 +21,11 @@ ht-degree: 84%
 
 Para poder cargar un recurso de imagen, primero debe solicitar una clave secreta compartida. Esta clave permite recuperar un distintivo de carga. Este distintivo de carga se emplea para cargar recursos de imagen o vector.
 
-## Solicitud de la clave secreta compartida {#requesting-a-shared-secret-key}
+## Solicitud de la clave secreta compartida  {#requesting-a-shared-secret-key}
 
-Solicite una clave *secreta* compartida [utilizando el Admin Console para crear un caso de asistencia.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) En el caso de soporte, solicite una clave secreta compartida.
+Solicite una *clave secreta compartida* [mediante el Admin Console para crear un caso de soporte.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) En el caso de soporte, solicite una clave secreta compartida.
 
-En el mensaje, proporcione el nombre de empresa que desee utilizar para cargar los recursos de imagen. Después de recibir la clave de Dynamic Media Classic, guárdela localmente para su uso futuro.
+En el mensaje, proporcione el nombre de empresa que desee utilizar para cargar los recursos de imagen. Después de recibir la clave de Dynamic Media Classic, guárdela de forma local para usarla en el futuro.
 
 ## Recuperación del distintivo de carga {#retrieving-the-upload-token}
 
@@ -34,10 +34,10 @@ El *distintivo de carga* garantiza que nadie más use la misma clave secreta com
 El distintivo de carga es una cadena alfanumérica que solo se encuentra disponible durante un tiempo concreto. Use las siguientes URL (sustituyendo la clave secreta compartida por la suya) para recuperar el distintivo de carga.
 
 * Imagen
-   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`En este ejemplo, la clave secreta compartida es `fece4b21-87ee-47fc-9b99-2e29b78b602`
+   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`En este ejemplo, la clave secreta compartida es  `fece4b21-87ee-47fc-9b99-2e29b78b602`
 
 * Vector
-   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`En este ejemplo, la clave secreta compartida es `2d19f60e-890a-4e79-a1a5-9ac2875429b9`
+   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`En este ejemplo, la clave secreta compartida es  `2d19f60e-890a-4e79-a1a5-9ac2875429b9`
 
 De manera predeterminada, el distintivo de carga caduca en 5 minutos (300 segundos) después de recuperarlo. Si desea solicitar más tiempo, incluya en la URL `expires` seguido de la cantidad de tiempo necesaria en segundos. Por ejemplo, esta URL de imagen de ejemplo recupera un distintivo de carga válido durante 1.800 segundos:
 
@@ -90,7 +90,7 @@ Ya puede cargar un recurso de imagen.
 
 Consulte [Carga de recursos de imagen](uploading-image-asset-or-vector.md#uploading_an_image_asset).
 
-## Carga de recursos de imagen {#uploading-an-image-asset}
+## Carga de recursos de imagen  {#uploading-an-image-asset}
 
 Después de recuperar un distintivo de carga válido durante un tiempo determinado, ya se puede cargar un recurso de imagen. El recurso se carga como una publicación de varias partes o formularios mientras que el resto de los valores se envía en forma de cadena de consulta URL, tal como se muestra en este ejemplo:
 
@@ -98,7 +98,7 @@ Después de recuperar un distintivo de carga válido durante un tiempo determina
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company
 ```
 
-The `upload_token` and `company_name` fields are required.
+Los campos `upload_token` y `company_name` son obligatorios.
 
 Consulte [Recuperación del distintivo de carga](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
@@ -110,7 +110,7 @@ También se pueden enviar otros valores opcionales en forma de cadenas de consul
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-The `file_limit` parameter specifies the file-size limit in bytes. El parámetro `file_exts` especifica las extensiones de nombre de archivo permitidas en la carga. Ambos valores son opcionales.
+El parámetro `file_limit` especifica el límite de tamaño de archivo en bytes. El parámetro `file_exts` especifica las extensiones de nombre de archivo permitidas en la carga. Ambos valores son opcionales.
 
 En la aplicación se definen límites globales tanto para el límite de tamaño de los archivos como para las extensiones de nombre de archivo permitidas. Todo lo incluido en la solicitud se acepta si es un subconjunto de los límites globales. Éstos son los límites globales:
 
@@ -126,7 +126,7 @@ El siguiente formulario HTML permite al usuario cargar un recurso. En el formula
 * Límite de tamaño de archivo.
 * Lista de extensiones de nombre de archivo.
 * Indica si se debe conservar o no el perfil de color y el nombre de archivo asociados al recurso.
-* Indica si se utiliza o no el fondo de cobertura. Si activa Fondo de cobertura, defina la esquina, la tolerancia y el método de relleno. Consulte Fondo de cobertura en las opciones de edición [de imágenes durante la carga](image-editing-options-upload.md#image-editing-options-at-upload).
+* Indica si se utiliza o no el fondo de cobertura. Si activa Fondo de cobertura, defina la esquina, la tolerancia y el método de relleno. Consulte Fondo de cobertura en [Opciones de edición de imágenes al cargar](image-editing-options-upload.md#image-editing-options-at-upload).
 * Nombre del archivo que se debe cargar
 
 <!-- 
@@ -145,9 +145,9 @@ Puede vista del código fuente HTML asociado con el formulario anterior haciendo
 
 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-En Firefox, haga clic con el botón secundario en la ventana del explorador y, a continuación, haga clic en **Vista de origen** de página. El código muestra la cadena de consulta URL y el método POST oportunos que se ejecutan cuando el usuario hace clic en **Enviar**.
+En Firefox, haga clic con el botón secundario en la ventana del explorador y, a continuación, haga clic en **Origen de página de Vista**. El código muestra la cadena de consulta URL y el método POST oportunos que se ejecutan cuando el usuario hace clic en **Enviar**.
 
-Para ver la respuesta en XML en Internet Explorer, haga clic en **Ver > Código fuente**. To view XML response in Firefox, click **Tools > Web Developer > Page Source**. Se recomienda utilizar Firefox para ver las respuestas en XML.
+Para ver la respuesta en XML en Internet Explorer, haga clic en **Ver > Código fuente**. Para vista de respuestas XML en Firefox, haga clic en **Herramientas > Desarrollador web > Origen de página**. Se recomienda utilizar Firefox para ver las respuestas en XML.
 
 A continuación se muestra una respuesta de carga correcta de ejemplo:
 
@@ -205,7 +205,7 @@ Envíe el recurso para la carga como una publicación de varias partes o formula
 
 POST
 
-### Obtención de los metadatos de los recursos de imagen {#getting-asset-metadata-for-images}
+### Obtención de los metadatos de los recursos de imagen  {#getting-asset-metadata-for-images}
 
 Se puede usar `image_info` para recuperar los metadatos de cualquier recurso cargado, tal como se muestra en el siguiente ejemplo:
 
@@ -253,7 +253,7 @@ Se pueden usar los campos siguientes en la cadena de consulta URL para solicitar
 
 GET y POST
 
-## Carga de recursos de vector {#uploading-a-vector-asset}
+## Carga de recursos de vector  {#uploading-a-vector-asset}
 
 Después de recuperar un distintivo de carga válido durante un tiempo determinado, ya se puede cargar un recurso de vector. El recurso se carga como una publicación de varias partes o formularios mientras que el resto de los valores se envía en forma de cadena de consulta URL, tal como se muestra en este ejemplo:
 
@@ -261,7 +261,7 @@ Después de recuperar un distintivo de carga válido durante un tiempo determina
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d- 312094e0ef20_18000&company_name=000Company
 ```
 
-The `upload_token` and `company_name` fields are required.
+Los campos `upload_token` y `company_name` son obligatorios.
 
 Consulte [Recuperación del distintivo de carga](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
@@ -273,7 +273,7 @@ También se pueden enviar otros valores opcionales en forma de cadenas de consul
 https://s7ugc1.scene7.com/ugc/vector?op=upload&upload_token=aa2a378a-cd25-4c80-994d- 312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=ai,pdf
 ```
 
-The `file_limit` parameter specifies the file-size limit in bytes. El parámetro `file_exts` especifica las extensiones de nombre de archivo permitidas en la carga. Ambos valores son opcionales.
+El parámetro `file_limit` especifica el límite de tamaño de archivo en bytes. El parámetro `file_exts` especifica las extensiones de nombre de archivo permitidas en la carga. Ambos valores son opcionales.
 
 En la aplicación se definen límites globales tanto para el límite de tamaño de los archivos como para las extensiones de nombre de archivo permitidas. Todo lo incluido en la solicitud se acepta si es un subconjunto de los límites globales. Éstos son los límites globales:
 
@@ -289,7 +289,7 @@ El siguiente formulario HTML permite al usuario cargar un recurso. En el formula
 * Límite de tamaño de archivo.
 * Lista de extensiones de nombre de archivo.
 * Indica si se debe conservar o no el perfil de color y el nombre de archivo asociados al recurso.
-* Indica si se utiliza o no el fondo de cobertura. Si activa Fondo de cobertura, defina la esquina, la tolerancia y el método de relleno. Consulte Fondo de cobertura en las opciones de edición [de imágenes durante la carga](image-editing-options-upload.md#image-editing-options-at-upload).
+* Indica si se utiliza o no el fondo de cobertura. Si activa Fondo de cobertura, defina la esquina, la tolerancia y el método de relleno. Consulte Fondo de cobertura en [Opciones de edición de imágenes al cargar](image-editing-options-upload.md#image-editing-options-at-upload).
 * Nombre del archivo que se debe cargar
 
 <!-- 
@@ -380,7 +380,7 @@ Envíe el recurso para la carga como una publicación de varias partes o formula
 |--- |--- |--- |
 | op | Obligatorio | cargar |
 | upload_token | Obligatorio | Distintivo de carga para la clave secreta compartida asociada a la empresa. |
-| company_name | Obligatorio | Nombre de la empresa que realiza la carga. |
+| compañía_nombre | Obligatorio | Nombre de la empresa que realiza la carga. |
 | file_limit | Opcional | Límite de tamaño de archivo, en bytes, del recurso. |
 | file_exts | Opcional | Lista de extensiones admitidas para el archivo de recurso. |
 
