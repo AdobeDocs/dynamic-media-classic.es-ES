@@ -21,7 +21,7 @@ ht-degree: 67%
 
 Los ajustes preestablecidos de visor de catálogos electrónicos determinan el estilo, el comportamiento y el aspecto de los visores de catálogos electrónicos. Dynamic Media Classic proporciona ajustes preestablecidos de visor de catálogos electrónicos y también puede crear sus propios ajustes preestablecidos de visor de catálogos electrónicos si es administrador.
 
-Para crear un nuevo ajuste preestablecido, puede crear inicios desde cero o inicios con un ajuste preestablecido de visor de catálogos electrónicos proporcionado por Dynamic Media Classic y guardarlo con un nuevo nombre. Puede crear sus propios ajustes preestablecidos de visor para presentar el material impreso en los colores de la empresa y establecer el tono.
+Para crear un nuevo ajuste preestablecido, puede realizar inicios desde cero o inicios con un ajuste preestablecido de visor de catálogos electrónicos proporcionado por Dynamic Media Classic y guardarlo con un nuevo nombre. Puede crear sus propios ajustes preestablecidos de visor para presentar el material impreso en los colores de la empresa y establecer el tono.
 
 Los ajustes preestablecidos del visor de catálogos electrónicos proporcionan muchas opciones de configuración para pasar de página, acercar o alejar la imagen, realizar búsquedas y elegir “apariencias”. El aspecto de estos controles y del propiamente dicho depende de la selección de ajustes preestablecidos de visor de catálogos electrónicos.
 
@@ -30,11 +30,13 @@ Siga estos pasos para crear un ajuste preestablecido de visor de catálogos elec
 1. Haga clic en **Ajustes** > **Ajustes preestablecidos de visor**.
 1. En la pantalla Ajustes preestablecidos de visor, cree un ajuste preestablecido de visor de catálogos electrónicos desde cero o a partir de un ajuste preestablecido de visor de catálogos electrónicos existente:
 
-   * **Creación de un ajuste preestablecido** de visor de catálogos electrónicos Haga clic en Añadir. En el cuadro de diálogo Añadir ajuste preestablecido de visor, elija una plataforma, seleccione Visor de catálogos electrónicos y, a continuación, haga clic en 
+   * **Creación de un**
+ajuste preestablecido de visor de catálogos electrónicos Haga clic en Añadir. En el cuadro de diálogo Añadir ajuste preestablecido de visor, elija una plataforma, seleccione Visor de catálogos electrónicos y, a continuación, haga clic en 
 **Agregar**.
 
-   * **Edición de un ajuste preestablecido** de visor de catálogos electrónicos Seleccione un ajuste preestablecido de visor de catálogos electrónicos y, a continuación, haga clic en Editar. Haga clic 
-**Guardar como** una vez que haya terminado de crear el ajuste preestablecido.
+   * **Edición de un**
+ajuste preestablecido de visor de catálogos electrónicosSeleccione un ajuste preestablecido de visor de catálogos electrónicos y, a continuación, haga clic en Editar. Haga clic 
+**Guarde** cuando haya terminado de crear el ajuste preestablecido.
 
 1. En la pantalla Configurar visor, introduzca un nombre para el ajuste preestablecido de visor de catálogos electrónicos.
 1. En la pantalla de Configurar visor, establezca las opciones que desee.
@@ -47,7 +49,7 @@ Siga estos pasos para crear un ajuste preestablecido de visor de catálogos elec
 
    | Distintivo | Se sustituye por | Notas |
    |--- |--- |--- |
-   | `$1$` | valor rollover_key | The item identifier from the `<area>` element of the map. |
+   | `$1$` | valor rollover_key | El identificador de elemento del elemento `<area>` del mapa. |
    | `$2$` | frame | El número de secuencia del cuadro que se muestra actualmente en el conjunto de imágenes. |
    | `$3$` | imageroot | El primer elemento de ruta del primer elemento especificado en el comando de imagen (normalmente el ID del catálogo de imágenes de la entrada del catálogo en la que se especifica el conjunto de imágenes). |
 
@@ -60,7 +62,7 @@ Siga estos pasos para crear un ajuste preestablecido de visor de catálogos elec
 1. Haga clic en **Guardar**.
 1. Haga clic en Predeterminado si desea que el ajuste preestablecido del visor de catálogos electrónicos creado se utilice para mostrar los catálogos electrónicos de su página web.
 
-To delete an eCatalog Viewer Preset, select it on the Viewer Presets screen and click **Delete**.
+Para eliminar un ajuste preestablecido de visor de catálogos electrónicos, selecciónelo en la pantalla Ajustes preestablecidos de visor y haga clic en **Eliminar**.
 
 >[!MORELIKETHIS]
 >
