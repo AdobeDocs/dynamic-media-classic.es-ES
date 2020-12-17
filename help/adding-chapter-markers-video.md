@@ -50,11 +50,11 @@ Chapter 4
 Cost-efficient access to rapidly evolving technology.
 ```
 
-In the example above, `Chapter 1` is the cue identifier and is optional. La hora de señal `00:00:000 --> 01:04:364` especifica el tiempo de inicio y final del capítulo, en formato 00:00:000. Los tres últimos dígitos son milisegundos y pueden dejarse como 000, si se prefiere. The chapter title of `The bicycle store behind it all` is the actual description of the chapter’s contents. El identificador de señal, el tiempo de señal de inicio y el título del capítulo aparecen en una ventana emergente en el reproductor de vídeo cuando un usuario desliza el puntero sobre un punto de señal visual en la línea de tiempo de vídeo.
+En el ejemplo anterior, `Chapter 1` es el identificador de señal y es opcional. La hora de señal `00:00:000 --> 01:04:364` especifica el tiempo de inicio y final del capítulo, en formato 00:00:000. Los tres últimos dígitos son milisegundos y pueden dejarse como 000, si se prefiere. El título del capítulo de `The bicycle store behind it all` es la descripción real del contenido del capítulo. El identificador de señal, el tiempo de señal de inicio y el título del capítulo aparecen en una ventana emergente en el reproductor de vídeo cuando un usuario desliza el puntero sobre un punto de señal visual en la línea de tiempo de vídeo.
 
 Como está utilizando un visor de vídeo HTML5, asegúrese de que el archivo de capítulos que cree siga el estándar de WebVTT (Web Video Text Tracks). La extensión de nombre de archivo de capítulos es .vtt. Puede obtener más información sobre el estándar de subtítulos WebVTT.
 
-See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/).
+Consulte [WebVTT: Formato de seguimiento de texto de vídeo web](https://dev.w3.org/html5/webvtt/).
 
 **Para agregar marcadores de capítulo a vídeos**
 
@@ -86,7 +86,7 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
 
       En el cuadro de diálogo Código incrustado, haga clic en **[!UICONTROL Copiar al portapapeles]**.
 
-      For the HTML5 `Universal_HTML5_Video` viewer, append the copied embed code with the following:
+      Para el visor HTML5 `Universal_HTML5_Video`, añada el código incrustado copiado con lo siguiente:
 
       `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*”`
 
