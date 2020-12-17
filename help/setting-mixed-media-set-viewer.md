@@ -27,8 +27,8 @@ Puede elegir incluir todas o algunas de las funciones de comunidad en el visor d
 1. Haga clic en **Ajustes** > **Ajustes preestablecidos de visor**.
 1. En la página Ajustes preestablecidos de visor, realice una de las acciones siguientes:
 
-   * To create a new preset, click **Add**. In the Add Viewer Preset dialog box, choose a platform, choose Mixed Media Set Viewer, then click **Add**.
-   * To edit a Mixed Media Set Viewer preset, select it, then click **Edit**.
+   * Para crear un nuevo ajuste preestablecido, haga clic en **Añadir**. En el cuadro de diálogo Añadir ajuste preestablecido de visor, elija una plataforma, seleccione Visor de conjuntos de medios mixtos y, a continuación, haga clic en **Añadir**.
+   * Para editar un ajuste preestablecido de visor de conjuntos de medios mixtos, selecciónelo y haga clic en **Editar**.
 
    Se abrirá la pantalla Configurar visor.
 
@@ -55,15 +55,19 @@ Puede elegir incluir todas o algunas de las funciones de comunidad en el visor d
 
 1. Para agregar funciones de comunidad (Incrustar, Vínculo, Visita) al visor, especifique las opciones para cualquiera de lo siguiente:
 
-   * **Correo electrónico** Haga clic en Activado para activar un botón Correo electrónico en el visor. Cuando se visualiza el conjunto y el usuario hace clic en el botón Correo electrónico, se abre un menaje que contiene un vínculo a este conjunto.
+   * ****
+EmailHaga clic en para activar un botón Correo electrónico en el visor. Cuando se visualiza el conjunto y el usuario hace clic en el botón Correo electrónico, se abre un menaje que contiene un vínculo a este conjunto.
 
-   * **Incrustar** clic en directo. En el cuadro Etiqueta de botón de incrustación, escriba el nombre que desea ver en el visor del botón Incrustar. Si lo desea, haga clic en 
-**Busque** y seleccione un aspecto personalizado para el botón.
+   * ****
+EmbedClick Live. En el cuadro Etiqueta de botón de incrustación, escriba el nombre que desea ver en el visor del botón Incrustar. Si lo desea, haga clic en 
+**** Busque y seleccione un aspecto personalizado para el botón.
 
-   * **Vínculo** Haga clic en directo. En el cuadro Etiqueta de botón de vínculo, escriba el nombre que desea ver en el visor del botón Vínculo. Si lo desea, haga clic en 
-**Busque** y seleccione un aspecto personalizado para el botón.
+   * ****
+VínculoHaga clic en directo. En el cuadro Etiqueta de botón de vínculo, escriba el nombre que desea ver en el visor del botón Vínculo. Si lo desea, haga clic en 
+**** Busque y seleccione un aspecto personalizado para el botón.
 
-   * **Visit** Click 
+   * ****
+VisitClick 
 **Activo**. En el cuadro Etiqueta del botón de visita, escriba el nombre que desea ver en el visor del botón Visita. En el cuadro URL de visita, escriba la URL del sitio web que desea abrir cuando se haga clic en el vínculo.
 
 1. Especifique otras opciones que desee. Para ver una descripción de una opción, haga clic en el icono de información  que aparece junto a ella.
