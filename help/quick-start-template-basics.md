@@ -22,7 +22,7 @@ ht-degree: 71%
 
 Las funciones básicas de plantilla son archivos de imagen direccionables en capas creados de forma dinámica, como archivos con capas en aplicaciones de edición de imágenes como Adobe Photoshop. A diferencia de los archivos estáticos que contienen capas (por ejemplo, archivos PSD), una plantilla puede incluir parámetros. A través de parámetros, puede dirigir y personalizar los diferentes aspectos de la imagen.
 
-Una plantilla puede contener un número cualquiera de capas de imagen y capas de texto. Puede convertir un archivo estático que contenga capas, como un archivo PSD con capas, en una plantilla, así como crear plantillas en Dynamic Media Classic. Puede crear capas de texto en plantillas mediante fuentes cargadas en Dynamic Media Classic. Después de agregar texto a una plantilla, puede modificar las fuentes, el tamaño y el color de éstas y la justificación.
+Una plantilla puede contener un número cualquiera de capas de imagen y capas de texto. Puede convertir un archivo estático que contenga capas, como un archivo PSD con capas, en una plantilla, así como crear plantillas en Dynamic Media Classic. Puede crear capas de texto en plantillas con las fuentes cargadas en Dynamic Media Classic. Después de agregar texto a una plantilla, puede modificar las fuentes, el tamaño y el color de éstas y la justificación.
 
 En la pantalla Parámetros puede convertir cualquier aspecto de una plantilla en un parámetro direccionable. De este modo podrá elegir qué imagen de capa o qué valor de texto usar en la plantilla. Los parámetros se pasan junto a la cadena URL, lo que le permite cambiar cualquier parámetro para personalizar de forma dinámica la imagen de respuesta generada por el servidor de imágenes.
 
@@ -34,7 +34,7 @@ Este inicio rápido se ha diseñado para el uso inicial de Funciones básicas de
 
 Empiece por subir el archivo PSD o archivo de imagen para su plantilla. Dynamic Media Classic admite muchos formatos de archivo de imagen además de PSD, pero las imágenes TIFF y PNG sin pérdida se recomiendan para las plantillas porque permiten la transparencia.
 
-Si va a usar un archivo PSD para crear la plantilla, seleccione la opción Crear plantilla en el cuadro de diálogo Opciones de trabajo de carga cuando cargue el archivo PSD. También puede elegir una opción de nomenclatura de capas para indicar a Dynamic Media Classic cómo asignar nombres a las capas PSD cuando se cargan en Dynamic Media Classic.
+Si va a usar un archivo PSD para crear la plantilla, seleccione la opción Crear plantilla en el cuadro de diálogo Opciones de trabajo de carga cuando cargue el archivo PSD. También elija una opción de nomenclatura de capas para indicar a Dynamic Media Classic cómo asignar nombres a las capas PSD cuando se carguen en Dynamic Media Classic.
 
 Si utiliza archivos de imagen, puede recortar las imágenes y crear una máscara a partir de ruta de recorte al cargar las imágenes.
 
@@ -60,7 +60,7 @@ Para parametrizar una capa, abra la plantilla en la pantalla Plantilla y selecci
 
 **4. Publicación de plantillas**
 
-Al publicar una plantilla, ésta se coloca en los servidores de imágenes de Dynamic Media para que se pueda distribuir dinámicamente en el sitio web o la aplicación. La publicación también activa la URL para llamar a la plantilla desde los servidores de imágenes de Dynamic Media hasta su sitio web o aplicación.
+Al publicar la plantilla, ésta se coloca en los servidores de imágenes de Dynamic Media para que se pueda distribuir dinámicamente en el sitio web o la aplicación. La publicación también activa la URL para llamar a la plantilla desde los servidores de imágenes de Dynamic Media hasta su sitio web o aplicación.
 
 Debe publicar todas las imágenes asociadas a su plantilla.
 
