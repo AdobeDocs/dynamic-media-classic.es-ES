@@ -26,7 +26,7 @@ Para crear una plantilla, haga clic en Generar > Funciones básicas de plantilla
 >
 >Si edita una plantilla creada en una versión anterior de Dynamic Media Classic, puede recibir un mensaje al guardar preguntando &quot;¿Desea agregar una capa de lienzo?&quot; Seleccione No para evitar agregar una nueva capa base. Si por error selecciona Sí, elimine los modificadores &quot;&amp; allowCanvasPrompt&quot; y &quot;&amp; layer=0&quot; de la URL y pulse Intro o Retorno.
 
-## Creación de la plantilla inicial {#creating-the-initial-template}
+## Creación de la plantilla inicial  {#creating-the-initial-template}
 
 Al crear un conjunto de plantillas, la opción **Publicar después de guardar** afecta al conjunto y a los miembros del conjunto de las siguientes formas:
 
@@ -43,9 +43,9 @@ Puede crear una plantilla a partir de una existente. Abra la plantilla, haga cli
 
 1. Para crear la plantilla, utilice uno de los métodos siguientes:
 
-   **Seleccione el archivo PSD o las imágenes primero** En el panel Examinar, seleccione el archivo PSD o las imágenes que desee para la plantilla y haga clic en Generar > Funciones básicas de plantilla.
+   **Seleccione el archivo PSD o las imágenes** primeroEn el panel Examinar, seleccione el archivo PSD o las imágenes que desee para la plantilla y haga clic en Generar > Funciones básicas de plantilla.
 
-   **Inicio de la pantalla** Plantilla Haga clic en Generar > Funciones básicas de plantilla. Seleccione Diseñador o Desarrollador.
+   **Inicio desde la** pantalla PlantillaHaga clic en Generar > Funciones básicas de plantilla. Seleccione Diseñador o Desarrollador.
 
 1. En el cuadro de diálogo Introducir tamaño de lienzo, introduzca los valores de anchura y altura de la plantilla.
 1. Seleccione una carpeta en la biblioteca de recursos y arrastre el archivo PSD o las imágenes requeridas hasta la pantalla Plantilla.
@@ -53,7 +53,7 @@ Puede crear una plantilla a partir de una existente. Abra la plantilla, haga cli
 1. Haga clic en **Guardar**.
 1. Seleccione una carpeta para guardar la plantilla, asigne un nombre a la plantilla y seleccione el botón **Enviar**.
 
-   Si es necesario, Dynamic Media Classic reduce las imágenes para ajustarlas al lienzo, el área de la pantalla Plantilla para definir la plantilla.
+   Dynamic Media Classic reduce las imágenes si es necesario para que se ajusten al lienzo, el área de la pantalla Plantilla para definir la plantilla.
 
 ## Edición de un conjunto de plantillas {#editing-a-template-set}
 
@@ -75,7 +75,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 1. Cuando haya terminado con su edición, asegúrese de que esté seleccionada la opción **Publicar después de guardar** (predeterminada), cerca de la esquina inferior derecha de la página.
 1. Haga clic en **Guardar**, seleccione una carpeta de almacenamiento, especifique un nombre para el conjunto y haga clic en **Guardar**.
 
-## Eliminación de una plantilla {#deleting-a-template}
+## Eliminación de una plantilla  {#deleting-a-template}
 
 Cuando se elimina un conjunto de plantillas, el conjunto en sí se mueve a la papelera. Sin embargo, los miembros (o “elementos secundarios”) dentro de dicho conjunto no se verán afectados; cada uno mantendrá su estado existente de publicación o no.
 
@@ -92,25 +92,25 @@ La pantalla Plantilla contiene herramientas de edición y parametrización de ca
 
 Use estas herramientas en la pantalla Plantilla para crear plantillas:
 
-**Herramienta** de desplazamiento Permite seleccionar capas, moverlas por el lienzo, cambiar su tamaño o girarlas.
+**Herramienta** de desplazamientoPermite seleccionar capas, moverlas por el lienzo, cambiar su tamaño o girarlas.
 
-**Herramienta** Texto Crea una capa de texto. Arrastre el puntero sobre el lienzo para crear una capa de texto e introduzca el texto en la capa. Consulte Creación de una capa de texto.
+**Herramienta** TextoCrea una capa de texto. Arrastre el puntero sobre el lienzo para crear una capa de texto e introduzca el texto en la capa. Consulte Creación de una capa de texto.
 
-**Botón** previsualización Abre la pantalla Previsualización y muestra la plantilla en un visor de zoom. La plantilla aparece tal y como la verán los usuarios que accedan al sitio web o utilicen la aplicación.
+**Botón** de previsualizaciónAbre la pantalla de Previsualización y muestra la plantilla en un visor de zoom. La plantilla aparece tal y como la verán los usuarios que accedan al sitio web o utilicen la aplicación.
 
-**Botón** Resumen de parámetros Abre la pantalla Resumen de parámetros. Puede ver el nombre de cada una de las capas de una plantilla y, en cada capa, los nombres de los parámetros que se han activado.
+**Botón Resumen de parámetrosAbre la** pantalla Resumen de parámetros. Puede ver el nombre de cada una de las capas de una plantilla y, en cada capa, los nombres de los parámetros que se han activado.
 
-**Editor de texto v4.3 y v4.2** Puede elegir utilizar el editor de texto más reciente y con más funciones, el v4.3, o el editor de texto anterior, el Editor de texto v4.2. Al crear nuevas plantillas, el Editor de texto v4.3 está seleccionado de forma predeterminada. Al editar plantillas antiguas, se seleccionará por defecto el Editor de texto 4.2. El Editor de texto v4.3 no admite el ajuste de palabras, de modo que si desea editar plantillas antiguas que utilicen ajuste de palabras, deberá utilizar el Editor de texto v4.2 para mantener intacta la fidelidad de la plantilla. Si la plantilla antigua no utiliza ajuste de palabras, puede seleccionar el Editor de texto v4.3 para aprovechar las nuevas funciones que este ofrece, como Aumentar márgenes, Reducir márgenes, Establecer texto en Todo en mayúsculas y Copiar texto de ajuste.
+**Editor de texto v4.3 y v4.2** Puede elegir utilizar el editor de texto más reciente y con más funciones, el v4.3, o el editor de texto anterior, el v4.2. Al crear nuevas plantillas, el Editor de texto v4.3 está seleccionado de forma predeterminada. Al editar plantillas antiguas, se seleccionará por defecto el Editor de texto 4.2. El Editor de texto v4.3 no admite el ajuste de palabras, de modo que si desea editar plantillas antiguas que utilicen ajuste de palabras, deberá utilizar el Editor de texto v4.2 para mantener intacta la fidelidad de la plantilla. Si la plantilla antigua no utiliza ajuste de palabras, puede seleccionar el Editor de texto v4.3 para aprovechar las nuevas funciones que este ofrece, como Aumentar márgenes, Reducir márgenes, Establecer texto en Todo en mayúsculas y Copiar texto de ajuste.
 
-***nota **: El Editor de texto v4.2 se eliminará como opción en Dynamic Media Classic, por lo que se recomienda usar el Editor de texto 4.3 cuando sea posible. La opción de ajuste de palabras se incluirá en una versión posterior del Editor de texto.*
+***nota **: El Editor de texto v4.2 se eliminará como opción en Dynamic Media Classic, por lo que se recomienda que utilice el Editor de texto 4.3 cuando sea posible. La opción de ajuste de palabras se incluirá en una versión posterior del Editor de texto.*
 
-**Diseñador y desarrollador** Seleccione la opción que mejor describa su función.
+**Diseñador y** desarrolladorSeleccione la opción que mejor describa su función.
 
-**Lienzo** Define el área total disponible, en píxeles, para definir la plantilla. El tamaño predeterminado es 300 x 300 píxeles. La capas se colocan en el lienzo.
+**** LienzoDefine el área total disponible, en píxeles, para definir la plantilla. El tamaño predeterminado es 300 x 300 píxeles. La capas se colocan en el lienzo.
 
-**La lista** Capas Lista el nombre de las capas de la plantilla. Para seleccionar una capa, seleccione su nombre en esta lista. La lista de capas ofrece herramientas para agregar efectos a capas, eliminar y parametrizar capas y modificar el orden de éstas. Consulte Uso de capas.
+**Lista** de capasMuestra el nombre de las capas de la plantilla. Para seleccionar una capa, seleccione su nombre en esta lista. La lista de capas ofrece herramientas para agregar efectos a capas, eliminar y parametrizar capas y modificar el orden de éstas. Consulte Uso de capas.
 
-**El área** Propiedades de capa Oferta las herramientas para cambiar el color de fondo, la opacidad, el tamaño y la posición de una capa, así como el color de fondo, la opacidad y el tamaño del lienzo. También es posible ajustar efectos de sombra y resplandor. Consulte Uso de capas.
+**Área Propiedades de la capaOfrece herramientas para cambiar el color de fondo, la opacidad, el tamaño y la posición de una capa, así como el color de fondo, la opacidad y el tamaño del lienzo.** También es posible ajustar efectos de sombra y resplandor. Consulte Uso de capas.
 
 ## Creación de capas de imagen {#creating-image-layers}
 
@@ -133,7 +133,7 @@ Use estas herramientas en la pantalla Plantilla para crear plantillas:
 
 1. Haga clic en Aplicar y cierre la pantalla de texto.
 
-### Formateo de texto {#format-text}
+### Formateo de texto  {#format-text}
 
 Siga estos pasos para dar formato al texto en una capa de texto:
 
@@ -141,55 +141,55 @@ Siga estos pasos para dar formato al texto en una capa de texto:
 1. En el cuadro de texto, seleccione el texto al que desea dar formato. Puede seleccionar todo o parte del texto, o caracteres individuales.
 1. Especifique las siguientes opciones de formato y, a continuación, haga clic en Aplicar.
 
-   **Fuente** Elija una fuente en el menú Fuente. Si una fuente que desea no aparece en el menú, puede cargarla en Dynamic Media Classic. Consulte Fuentes.
+   **** FuenteElija una fuente en el menú Fuente. Si una fuente que desea no aparece en el menú, puede cargarla en Dynamic Media Classic. Consulte Fuentes.
 
-   **Tamaño** de fuente Elija un tamaño de fuente en el menú, escriba un tamaño específico en el cuadro o haga clic en las flechas arriba o abajo para aumentar o reducir el tamaño en dos puntos.
+   **Tamaño** de fuenteElija un tamaño de fuente en el menú, escriba un tamaño específico en el cuadro o haga clic en las flechas arriba o abajo para aumentar o reducir el tamaño en dos puntos.
 
-   **Color** Haga clic para elegir un color para el texto.
+   **** ColorHaga clic para elegir un color para el texto.
 
-   **Negrita, Cursiva o Subrayado** Seleccione el texto y, a continuación, haga clic en el icono del tipo de formato que desee aplicar al texto.
+   **Negrita, Cursiva o** SubrayadoSeleccione el texto y, a continuación, haga clic en el icono del tipo de formato que desee aplicar al texto.
 
-   **Todo en mayúsculas, Superíndice o Subíndice** Seleccione el texto y, a continuación, haga clic en el icono del tipo de formato que desee aplicar al texto.
+   **Todo en mayúsculas, Superíndice o** SubíndiceSeleccione el texto y, a continuación, haga clic en el icono del tipo de formato que desee aplicar al texto.
 
-   **Alineación** Seleccione un botón de alineación para alinear a la izquierda, al centro o a la derecha el texto de la capa de texto.
+   **** AlineaciónElija un botón de alineación para alinear a la izquierda, al centro o a la derecha el texto de la capa de texto.
 
-   **Seguimiento** Escriba o seleccione un valor numérico según el cual ajustar la cantidad de espacio entre palabras.
+   **** TrackingType o seleccione un valor numérico según el cual ajustar la cantidad de espacio entre palabras.
 
-   **Interletraje** Escriba o seleccione un valor numérico según el cual ajustar la cantidad de espacio entre caracteres.
+   **** KerningType o seleccione un valor numérico según el cual ajustar la cantidad de espacio entre caracteres.
 
-   **Interlineado** Escriba o seleccione un valor numérico según el cual ajustar la cantidad de espacio entre líneas.
+   **Line** SpacingEscriba o seleccione un valor numérico según el cual ajustar la cantidad de espacio entre líneas.
 
-   **Desplazamiento** de la línea baseEscriba o seleccione un valor numérico por el cual mover un carácter seleccionado hacia arriba o hacia abajo en relación con la línea base del texto que lo rodea. Esta opción resulta especialmente útil al definir fracciones manualmente o al ajustar la posición de gráficos integrados.
+   **Desplazamiento** verticalEscriba o seleccione un valor numérico por el cual mover un carácter seleccionado hacia arriba o hacia abajo en relación con la línea de base del texto que lo rodea. Esta opción resulta especialmente útil al definir fracciones manualmente o al ajustar la posición de gráficos integrados.
 
 >[!NOTE]
 >
 >Haga clic en Deshacer para deshacer la última acción. Haga clic en Rehacer si cambia de opinión acerca de deshacer una acción después de hacer clic en Deshacer.
 
-### Formateo de párrafos {#format-paragraphs}
+### Formateo de párrafos  {#format-paragraphs}
 
 1. En la lista Capas, haga doble clic en el nombre del cuadro de texto que contenga el texto que desee editar. Accederá al Editor de texto.
 1. Seleccione el párrafo al que desea dar formato.
 1. Especifique las siguientes opciones de formato y, a continuación, haga clic en Aplicar.
 
-   **Alineación** Haga clic para especificar el tipo de alineación: alinee a la izquierda, alinee al centro, alinee a la derecha o justifique.
+   **** AlineaciónHaga clic para especificar el tipo de alineación: alinee a la izquierda, alinee al centro, alinee a la derecha o justifique.
 
-   **Justificación** de fin de párrafo Haga clic para especificar el tipo de justificación de la última línea del párrafo: la última línea se alinea a la izquierda; la última línea alinea el centro; y la última línea se alinea a la derecha.
+   **Justificación del final del** párrafoHaga clic para especificar el tipo de justificación de la última línea del párrafo: la última línea se alinea a la izquierda; la última línea alinea el centro; y la última línea se alinea a la derecha.
 
-   **Interlineado** Escriba o seleccione un valor numérico según el cual ajustar la cantidad de espacio entre todas las líneas del párrafo.
+   **Line** SpacingEscriba o seleccione un valor numérico según el cual ajustar la cantidad de espacio entre todas las líneas del párrafo.
 
-   **Sangrar todo** Haga clic para aumentar la sangría del texto.
+   **Aplicar sangría a** AllClick para aumentar la sangría del texto.
 
-   **Quitar sangría** Haga clic en para reducir la sangría del texto.
+   **Quitar** sangríaHaga clic para reducir la sangría del texto.
 
-   **Sangría en primera línea** Especifique la cantidad en la que desea sangrar la primera línea de texto.
+   **Sangría en primera** líneaEspecifique la cantidad en la que desea sangrar la primera línea de texto.
 
-   **Espacio antes del párrafo** Especifique la cantidad de espacio que desea que aparezca por encima de la primera línea de texto del párrafo.
+   **Espacio antes del** párrafoEspecifique el espacio que desea que aparezca por encima de la primera línea de texto del párrafo.
 
-   **Espacio después del párrafo** Especifique la cantidad de espacio que desea que aparezca debajo de la última línea de texto del párrafo.
+   **Espacio después del** párrafoEspecifique el espacio que desea que aparezca debajo de la última línea de texto del párrafo.
 
-   **Alinear** verticalmente Seleccione dónde desea que aparezca el texto verticalmente dentro del cuadro de texto: Arriba, Medio, Abajo.
+   **Alineación verticalSeleccione dónde desea que aparezca el texto verticalmente dentro del cuadro de texto:**  Arriba, Medio, Abajo.
 
-   **Dirección** del texto Seleccione la dirección en la que desea que se muestre el texto: De derecha a izquierda o de izquierda a derecha.
+   **Dirección** del textoSeleccione la dirección en la que desea que se muestre el texto: De derecha a izquierda o de izquierda a derecha.
 
 ### Ajuste de propiedades de capas de texto {#adjust-text-layer-properties}
 
@@ -200,15 +200,15 @@ Siga estos pasos para dar formato al texto en una capa de texto:
 
    **Ajuste de palabras (solo Editor de texto v4.2)** Seleccione una opción de ajuste para especificar si el texto se ajusta o cómo:
 
-   **Ajustar** ajusta el texto para que quepa en un cuadro de texto demasiado pequeño horizontalmente.
+   **** AjustarAjusta el texto para que quepa en un cuadro de texto demasiado pequeño horizontalmente.
 
-   **No ajustar** No ajusta el texto cuando el cuadro de texto es demasiado pequeño horizontalmente y, en su lugar, corta una parte del texto.
+   **Sin** ajusteNo ajusta el texto cuando el cuadro de texto es demasiado pequeño horizontalmente y, en su lugar, corta una parte del texto.
 
-   **Ajuste** de no separación ajusta el texto para que quepa en un cuadro de texto y no rompe las palabras.
+   **Ajuste**  de no separación (no ajuste de no separación) Ajusta el texto para que encaje en un cuadro de texto y no rompe las palabras.
 
-   **Posición** Especifica la ubicación del cuadro de texto en el lienzo.
+   **** PosiciónEspecifica la ubicación del cuadro de texto en el lienzo.
 
-   **El relleno** Añade los márgenes o recorta el rectángulo de la capa. Especifique el número de píxeles que agregar o eliminar de izquierda, arriba, abajo, y derecha. Introduzca números positivos para agregar un margen; introduzca números negativos para recortarlos.
+   **** RellenoAgrega márgenes o recorta el rectángulo de la capa. Especifique el número de píxeles que agregar o eliminar de izquierda, arriba, abajo, y derecha. Introduzca números positivos para agregar un margen; introduzca números negativos para recortarlos.
 
 ### Visualización y edición de texto del código fuente {#view-and-edit-text-source-code}
 
@@ -222,13 +222,13 @@ La información que se proporciona en la ficha Origen del Editor de texto es par
 
 1. Haga clic en Aplicar para efectuar los cambios.
 
-## Uso de capas {#working-with-layers}
+## Uso de capas  {#working-with-layers}
 
 Use la lista de capas y el área Propiedades de la capa para trabajar con capas. Puede reordenar las capas, modificar su tamaño y posición, girarlas y determinar el color de fondo, color de primer plano, opacidad y modo de mezcla de una capa.
 
 También es posible modificar el tamaño del lienzo y especificar su color de fondo y opacidad.
 
-### Reordenación de las capas {#reordering-layers}
+### Reordenación de las capas  {#reordering-layers}
 
 Cambiar el orden de las capas puede afectar a su apariencia, especialmente cuando se trata de la transparencia o la sobreimpresión. Asegúrese de comprobar el resultado mediante una vista previa antes de confirmar los cambios.
 
@@ -237,7 +237,7 @@ Cambiar el orden de las capas puede afectar a su apariencia, especialmente cuand
    * Seleccione una capa en la lista de capas. A continuación, haga clic en el botón Subir o Bajar las veces necesarias para colocar la capa en la posición deseada en la lista.
    * Arrastre una capa a una posición superior o inferior en la lista.
 
-### Cambio del tamaño y la posición de las capas y el lienzo {#changing-the-size-and-position-of-layers-and-the-canvas}
+### Cambio del tamaño y la posición de las capas y el lienzo  {#changing-the-size-and-position-of-layers-and-the-canvas}
 
 El tamaño de las capas no debe superar las restricciones del lienzo. Puede modificar el tamaño de una capa o el del lienzo manualmente o introduciendo las medidas requeridas. Puede modificar la posición de una capa manualmente o introduciendo los valores de desfase requeridos. También puede rotar una capa.
 
@@ -249,9 +249,9 @@ El tamaño de las capas no debe superar las restricciones del lienzo. Puede modi
 
 Para modificar el tamaño de una capa o el del lienzo, seleccione la capa o el lienzo en la lista de capas y use una de estas técnicas:
 
-**Cambio manual del tamaño** Seleccione y arrastre una esquina de la capa o del lienzo. Con las capas de texto, también puede arrastrar un lado de la capa. Mantenga pulsada la tecla Mayús mientras arrastra para cambiar el tamaño pero manteniendo la proporción de aspecto (la forma).
+**Cambio manual del** tamañoSeleccione y arrastre una esquina de la capa o del lienzo. Con las capas de texto, también puede arrastrar un lado de la capa. Mantenga pulsada la tecla Mayús mientras arrastra para cambiar el tamaño pero manteniendo la proporción de aspecto (la forma).
 
-**Introducción de medidas** de tamaño de capa Introduzca medidas de píxeles en los cuadros de texto An (anchura) y Al (altura) del área Propiedades de la capa.
+**Introducción de** medidas de tamaño de capaIntroduzca medidas de píxeles en los cuadros de texto An (anchura) y Al (altura) del área Propiedades de la capa.
 
 Además de cambiar el tamaño, también es posible añadir un margen a la capa. Para ello, introduzca un valor de margen en los cuadros Izquierda, Derecha, Superior e Inferior del área Propiedades de la capa. Se insertará un margen entre la capa actual y el perímetro de la capa base. El margen es útil para hacer más visibles efectos de sombra paralela o resplandor exterior añadidos. El margen incrementa el tamaño de una capa y muestra su color de fondo en el área extendida. La posición de la capa base se ajusta con relación al nuevo tamaño de la capa. Por ejemplo, si la capa actual está centrada en la capa base, al extenderse el lado izquierdo de la capa ésta se desplaza hacia la derecha de la capa base.
 
@@ -259,17 +259,17 @@ Además de cambiar el tamaño, también es posible añadir un margen a la capa. 
 
 Para modificar la posición de una capa o la del lienzo, seleccione el nombre en la lista de capas y use una de estas técnicas:
 
-**Cambio manual de la posición** Mueva el puntero cerca de un límite de capa, pero no sobre él, y cuando vea el cursor de flecha con cuatro puntas, haga clic y arrastre el inicio.
+**Cambio manual de la** posiciónMueva el puntero cerca de un límite de la capa pero no sobre él y, cuando vea el cursor de flecha con cuatro puntas, haga clic y arrastre el inicio.
 
-**Introducción de medidas** de desplazamiento de posición Introduzca las medidas de desplazamiento X e Y en los cuadros de texto X e Y. Esto valores representan el desfase x, y del punto de anclaje, medido en píxeles.
+**Introducción de** medidas de desplazamiento de posiciónIntroduzca las medidas de desplazamiento X e Y en los cuadros de texto X e Y. Esto valores representan el desfase x, y del punto de anclaje, medido en píxeles.
 
 **Rotación de una capa**
 
 El cuadro Rotar indica el ángulo de rotación de la capa. Para rotar una capa, seleccione el nombre de ésta en la lista de capas y use una de estas técnicas:
 
-**Rotación** manual Mueva el cursor cerca de una esquina de la capa, pero no sobre ella. Cuando aparezca el cursor de rotación, arrastre la esquina de la capa. Mantenga pulsada la tecla Mayús mientras arrastra para rotar en incrementos de 15 grados.
+**Rotación manualMueva el cursor cerca de una esquina de la capa, pero no sobre ella.** Cuando aparezca el cursor de rotación, arrastre la esquina de la capa. Mantenga pulsada la tecla Mayús mientras arrastra para rotar en incrementos de 15 grados.
 
-**Introducción de una medición** de grados Introduzca el número de grados para rotar la capa. Se aplica una rotación hacia la derecha; para rotar la capa hacia la izquierda, debe introducir un valor negativo.
+**Introducción de una** medición de gradosIntroduzca el número de grados para rotar la capa. Se aplica una rotación hacia la derecha; para rotar la capa hacia la izquierda, debe introducir un valor negativo.
 
 **Ocultación de una capa o un efecto de capa**
 
@@ -279,38 +279,38 @@ layer=5&amp;src=is{PortalCo/title}&amp;pos=274,192&amp;effect=-1&amp;.effect=Dro
 
 layer=5&amp;src=is{PortalCo/title}&amp;pos=274,192&amp;hide=1&amp;effect=-1&amp;.effect=Drop Shadow&amp;blendmode
 
-### Configuración del color de fondo, la opacidad y el modo de fusión {#determining-the-background-color-opacity-and-blend-mode}
+### Configuración del color de fondo, la opacidad y el modo de fusión  {#determining-the-background-color-opacity-and-blend-mode}
 
 Para definir el color de fondo, la opacidad y el modo de fusión de una capa o del lienzo, seleccione la capa o el lienzo y use una de esta técnicas:
 
-**Color** frontal Haga clic en el botón Color frontal y elija una muestra de color para cambiar el color de la sombra o del resplandor. También puede introducir un valor de color en el cuadro. El color de fondo solo se aplica a las capas con transparencia. Se puede utilizar, por ejemplo, en una capa con transparencia parcial de una etiqueta de precio o en el fondo de un campo de texto. Las capas que consisten en una imagen PSD, TIFF o PNG con transparencia activada pueden tener fondos transparentes.
+**Color frontalHaga** clic en el botón Color frontal y elija una muestra de color para cambiar el color de la sombra o del resplandor. También puede introducir un valor de color en el cuadro. El color de fondo solo se aplica a las capas con transparencia. Se puede utilizar, por ejemplo, en una capa con transparencia parcial de una etiqueta de precio o en el fondo de un campo de texto. Las capas que consisten en una imagen PSD, TIFF o PNG con transparencia activada pueden tener fondos transparentes.
 
-**Color** de fondo Haga clic en el botón Color de fondo y elija una muestra de color para cambiar el color de las áreas acolchadas.
+**Color de** fondoHaga clic en el botón Color de fondo y elija una muestra de color para cambiar el color de las áreas acolchadas.
 
-**Opacidad** Arrastre el control deslizante Opacidad para que cualquier capa quede translúcida de modo que se muestre parte de la imagen subyacente. El valor 100 representa la opacidad total y el valor 0 la transparencia.
+**** OpacidadArrastre el control deslizante Opacidad para que cualquier capa quede translúcida de modo que se muestre parte de la imagen subyacente. El valor 100 representa la opacidad total y el valor 0 la transparencia.
 
-**Modo** de mezcla Elija una opción para simular uno de los modos de mezcla disponibles en Photoshop. Las opciones son Normal, Disolver, Aclarar, Oscurecer, Multiplicar y Pantalla. Estas opciones están disponibles para capas únicamente, no son aplicables a lienzos.
+**Modo** de mezclaElija una opción para simular uno de los modos de mezcla disponibles en Photoshop. Las opciones son Normal, Disolver, Aclarar, Oscurecer, Multiplicar y Pantalla. Estas opciones están disponibles para capas únicamente, no son aplicables a lienzos.
 
-## Utilización de efectos de sombra y resplandor en las capas {#using-shadow-and-glow-effects-on-layers}
+## Utilización de efectos de sombra y resplandor en las capas  {#using-shadow-and-glow-effects-on-layers}
 
 Puede aplicar una sombra o un resplandor a una capa. La sombra o el resplandor se aplican al perímetro de la capa y se extienden hacia dentro o hacia fuera, según la opción elegida. Si la plantilla se originó con un archivo PSD con efectos de sombra y resplandor, puede ajustar estos efectos en Dynamic Media Classic.
 
 Después de aplicar un efecto de sombra o resplandor, puede ajustar su tamaño, color, opacidad y posición en el área Propiedades de la capa, en la pantalla Plantilla.
 
-### Aplicación de un efecto de sombra o resplandor a una capa {#applying-a-shadow-or-glow-effect-to-a-layer}
+### Aplicación de un efecto de sombra o resplandor a una capa  {#applying-a-shadow-or-glow-effect-to-a-layer}
 
 Para aplicar un efecto de sombra o resplandor:
 
 1. Seleccione una capa en la lista de capas.
 1. Seleccione el menú Agregar efecto y elija una opción:
 
-   **Sombra** paralela Aplica una sombra a los lados inferior y derecho de la capa.
+   **Sombra** paralelaAplica una sombra a los lados inferior y derecho de la capa.
 
-   **Sombra** interior Aplica un efecto de sombra dentro de todos los bordes de la capa.
+   **Sombra interiorAplica un efecto de sombra dentro de todos los bordes de la capa.** 
 
-   **Resplandor** exterior Aplica un efecto de resplandor alrededor de todos los bordes de la capa.
+   **Resplandor** exteriorAplica un efecto de resplandor alrededor de todos los bordes de la capa.
 
-   **Resplandor** interior Aplica un efecto de resplandor dentro de todos los bordes de la capa.
+   **Resplandor interiorAplica un** resplandor dentro de todos los bordes de la capa.
 
 Después de aplicar un efecto, el nombre del mismo aparece en la lista de capas. Para eliminar un efecto, seleccione el nombre correspondiente en la lista de capas y luego seleccione el botón Eliminar.
 
@@ -318,23 +318,23 @@ Después de aplicar un efecto, el nombre del mismo aparece en la lista de capas.
 >
 >Si la capa subyacente es demasiado pequeña para mostrarlo, puede que no sea visible un efecto de sombra paralela o resplandor externo aplicado. De ser así, puede añadir valores de margen a la capa, o cambiar el orden de las capas. Consulte [Cambio del tamaño y la posición de las capas y el lienzo](creating-template.md#changing_the_size_and_position_of_layers_and_the_canvas) y [Reordenación de las capas](creating-template.md#reordering_layers).
 
-### Ajuste de un efecto de sombra o resplandor {#adjusting-a-shadow-or-glow-effect}
+### Ajuste de un efecto de sombra o resplandor  {#adjusting-a-shadow-or-glow-effect}
 
 Para ajustar un efecto de sombra o resplandor, seleccione el nombre correspondiente en la lista de capas. Cambie los valores que tiene asignados en el área Propiedades de la capa:
 
-**Color** Seleccione el botón Color y elija una muestra de color para cambiar el color de la sombra o del resplandor. También puede introducir un valor de color en el cuadro.
+**** ColorSeleccione el botón Color y elija una muestra de color para cambiar el color de la sombra o del resplandor. También puede introducir un valor de color en el cuadro.
 
-**Opacidad** Arrastre el control deslizante para determinar la intensidad del efecto. Cuanto menor sea el valor de opacidad, mayor será la transparencia del efecto.
+**** OpacidadArrastre el control deslizante para determinar la intensidad del efecto. Cuanto menor sea el valor de opacidad, mayor será la transparencia del efecto.
 
-**Modo** de fusión Elija una opción para simular uno de los modos de mezcla disponibles en Photoshop. Las opciones son Normal, Disolver, Aclarar, Oscurecer, Multiplicar y Pantalla.
+**Modo** de mezclaElija una opción para simular uno de los modos de mezcla disponibles en Photoshop. Las opciones son Normal, Disolver, Aclarar, Oscurecer, Multiplicar y Pantalla.
 
-**Tamaño** Introduzca las medidas en el cuadro X e Y para aumentar o reducir el efecto de sombra. Las opciones de tamaño son aplicables a sombras interiores y paralelas.
+**** TamañoIntroduzca medidas en el cuadro X e Y para aumentar o reducir el efecto de sombra. Las opciones de tamaño son aplicables a sombras interiores y paralelas.
 
-**Crecer** Arrastre el control deslizante para extender el efecto hacia dentro o hacia fuera.
+**** AumentarArrastre el control deslizante para extender el efecto hacia dentro o hacia fuera.
 
-**Desenfoque** Arrastre el control deslizante para controlar el calado en los bordes del efecto. Cuanto mayor sea el desenfoque, mayor será el calado.
+**** DesenfoqueArrastre el control deslizante para controlar el calado en los bordes del efecto. Cuanto mayor sea el desenfoque, mayor será el calado.
 
-## Creación de máscaras en capas {#masking-layers}
+## Creación de máscaras en capas  {#masking-layers}
 
 El botón Máscara, disponible en la lista de capas, permite especificar el uso de la máscara o el canal alfa de una capa. Con este botón puede aplicar el efecto de una capa de fondo a una capa concreta, o a toda la capa principal de la plantilla. Seleccione una capa en la lista de capas y luego seleccione el botón Máscara  para acceder a estos estados:
 
