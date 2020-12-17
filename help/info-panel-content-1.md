@@ -18,7 +18,7 @@ ht-degree: 73%
 ---
 
 
-# Gestión del contenido del panel de información en los conjuntos de imágenes{#managing-info-panel-content-in-image-sets}
+# Administración del contenido del panel de información en los conjuntos de imágenes{#managing-info-panel-content-in-image-sets}
 
 Además de utilizar el texto del mapa de imagen para sus rollover en los conjuntos de imágenes, puede utilizar un panel de información para agregar grandes cantidades de texto rollover, incluyendo los vínculos. También puede gestionar el panel de información mediante el uso de almacenamiento en caché programado y actualizaciones de contenido planificadas.
 
@@ -28,14 +28,14 @@ Puede administrar la configuración y los datos del panel de información median
 * El panel Entrada de datos del panel de información le permite especificar un archivo CSV que contenga el texto que desea que aparezca en el texto rollover del panel de información, así como programar los tiempos de actualización de la información.
 * El cuadro de diálogo Importación de metadatos le permite importar un archivo TXT delimitado por tabuladores con la información del texto rollover. Puede utilizar esta opción de TXT o el panel Entrada de datos del panel de información con la opción de archivo CSV para su texto rollover.
 
-## Configuración de una plantilla de respuesta para conjuntos de imágenes {#set-up-a-response-template-for-image-sets}
+## Configure una plantilla de respuesta para los conjuntos de imágenes {#set-up-a-response-template-for-image-sets}
 
 Puede seleccionar una de las tres plantillas de respuesta preestablecidas para mostrar el texto en un panel de información. Estas plantillas de respuesta preestablecidas determinan cómo se presenta la información en el panel de información: el número de columnas y filas, el tamaño del tipo de letra, la fuente, etc. Puede seleccionar una plantilla de respuesta preestablecida o crear una propia.
 
 **Para configurar una plantilla de respuesta**
 
 1. Haga doble clic en el conjunto de imágenes para abrirlo en la vista de detalles.
-1. Click **InfoPanel Setup** to unfold the panel.
+1. Haga clic en **Configuración del panel de información** para desplegar el panel.
 1. En la lista desplegable Plantilla de respuesta, realice una de las siguientes acciones:
 
    * Seleccione Predeterminado para utilizar la respuesta predeterminada. El XML para el diseño de la plantilla aparece atenuado en el cuadro de texto Plantilla del usuario.
@@ -47,14 +47,14 @@ Puede seleccionar una de las tres plantillas de respuesta preestablecidas para m
    * Establezca un número más bajo si los datos se actualizan frecuentemente a lo largo del día.
    * Establezca un número más alto si los datos son relativamente estables y no requieren actualizarse con frecuencia a lo largo del día. El valor predeterminado es de diez horas.
 
-1. Click **Upload** to upload info panel content, based on the rollover_key values, to s7info.
-1. In the S7Info Upload dialog box, browse to the file that you want to use, and then click **Upload**.
+1. Haga clic en **Cargar** para cargar contenido del panel de información, basado en los valores rollover_key, a s7info.
+1. En el cuadro de diálogo Carga de S7Info, busque el archivo que desee utilizar y haga clic en **Cargar**.
 
    Son compatibles los archivos delimitados por tabuladores con codificación UTF-16 y los archivos CSV con codificación ASCII. En el caso de los archivos CSV, los caracteres no ASCII deben estar codificados en HTML.
 
-1. In the InfoPanel Setup panel, click **Publish**.
+1. En el panel Configuración del panel de información, haga clic en **Publicar**.
 
-## Importación de contenido de origen para el panel de información en conjuntos de imágenes {#import-source-content-for-the-info-panel-in-image-sets}
+## Importar contenido de origen para el panel de información en conjuntos de imágenes {#import-source-content-for-the-info-panel-in-image-sets}
 
 Puede utilizar un archivo CSV (valores delimitados por comas) con codificación ASCII (los caracteres no ASCII deben tener codificación HTML) o un archivo delimitado por tabuladores para el texto de origen del panel de información de un conjunto de imágenes. Los archivos delimitados por tabuladores deben usar la codificación UTF-16 (Unicode). Puede importar los distintos tipos de archivos mediante diferentes métodos.
 
@@ -64,14 +64,14 @@ Cuando dé formato al contenido de origen, tenga en cuenta las siguientes pautas
 * El primer elemento o columna de datos debe ser el identificador de rollover (asociado con el valor rollover_key de las URL de mapas de imagen).
 * Asegúrese de que cada elemento delimitado por comas o tabuladores tras el identificador es el elemento que desea sustituir en la plantilla de respuesta (la primera columna se sustituye en $1$, la segunda columna en $2$, y así sucesivamente).
 
-### Importación de contenido CSV en conjuntos de imágenes desde una ubicación alojada externamente {#import-csv-content-into-image-sets-from-an-externally-hosted-location}
+### Importar contenido CSV en conjuntos de imágenes desde una ubicación alojada externamente {#import-csv-content-into-image-sets-from-an-externally-hosted-location}
 
 1. Haga doble clic en el conjunto de imágenes para abrirlo en la vista de detalles.
-1. Click **InfoPanel Datafeed** to unfold the panel.
+1. Haga clic en **Entrada de datos del panel de información** para desplegar el panel.
 1. En el campo de texto Ubicación del archivo CSV alojado de forma externa (HTTP), introduzca la URL del archivo CSV.
-1. (Optional) In the Schedule Update fields, specify a time to update the content, and then click **Add**.
+1. (Opcional) En los campos Programar actualización, especifique una hora para actualizar el contenido y, a continuación, haga clic en **Añadir**.
 
-   Puede seleccionar varios tiempos de actualización. Cada tiempo de actualización aparece en el cuadro Tiempos de actualización. To remove a scheduled time, select it, and then click **Delete**.
+   Puede seleccionar varios tiempos de actualización. Cada tiempo de actualización aparece en el cuadro Tiempos de actualización. Para eliminar una hora programada, selecciónela y haga clic en **Eliminar**.
 
-1. (Optional) Click **Run Update** to immediately update the content.
+1. (Opcional) Haga clic en **Ejecutar actualización** para actualizar el contenido inmediatamente.
 
