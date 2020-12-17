@@ -26,18 +26,18 @@ En Dynamic Media Classic, puede elegir un perfil ICC para convertir imágenes a 
 
 Además de utilizar los perfiles ICC predeterminados, puede cargar otros perfiles ICC a Dynamic Media Classic y hacerlos disponibles para la conversión de espacio de color. Cambie a la vista de detalles en el panel Examinar para investigar la clase de perfil, el tipo de espacio de color y el tipo de PCS de un perfil ICC.
 
-## Carga de perfiles ICC {#uploading-icc-profiles}
+## Carga de perfiles ICC  {#uploading-icc-profiles}
 
 Cargue perfiles ICC utilizando las mismas técnicas que usa para cargar otros archivos. Puede almacenar perfiles ICC en cualquier carpeta de Dynamic Media Classic. Consulte [Carga de los archivos](uploading-files.md#uploading_your_files).
 
-## Examen de un perfil ICC {#examining-an-icc-profile}
+## Examen de un perfil ICC  {#examining-an-icc-profile}
 
 Para examinar un perfil ICC, selecciónelo en el panel Examinar y acceda a la vista de detalles. La vista de detalles le ofrece esta información sobre los perfiles ICC:
 
-**Clase** de perfil El ICC (International Color Consortium) define cada clase para cubrir un tipo de aplicación. Por ejemplo, los perfiles de entrada se aplican a los dispositivos como las cámaras digitales o los escáneres, mientras que los perfiles de salida se aplican a las impresoras.
+**Clase** de perfilEl ICC (International Color Consortium) define cada clase para cubrir un tipo de aplicación. Por ejemplo, los perfiles de entrada se aplican a los dispositivos como las cámaras digitales o los escáneres, mientras que los perfiles de salida se aplican a las impresoras.
 
-**Tipo** de espacio de color Este número es el espacio de color de &quot;entrada&quot; del perfil, tal como lo define la ICC. El tipo de espacio de color especifica el número de componentes del espacio de color y la interpretación de esos componentes. Por ejemplo, RGB es un espacio de color con tres componentes: rojo, verde y azul. El tipo de espacio de color no precisa las características de color del espacio (por ejemplo, la cromaticidad de los colores primarios).
+**Tipo de** espacio de colorEste número es el espacio de color de &quot;entrada&quot; del perfil, tal como lo define el ICC. El tipo de espacio de color especifica el número de componentes del espacio de color y la interpretación de esos componentes. Por ejemplo, RGB es un espacio de color con tres componentes: rojo, verde y azul. El tipo de espacio de color no precisa las características de color del espacio (por ejemplo, la cromaticidad de los colores primarios).
 
-**Tipo** de PCS Este tipo de PCS es el espacio de color de &quot;salida&quot; del perfil, es decir, su espacio de conexión de perfil. Por ejemplo, un perfil de color puede convertir RGB al PCS, el cual lo convierte en CMYK.
+**Tipo** de PCSEste tipo de PCS es el espacio de color de &quot;salida&quot; del perfil, es decir, su espacio de conexión de perfil. Por ejemplo, un perfil de color puede convertir RGB al PCS, el cual lo convierte en CMYK.
 
 Para obtener un perfil de entrada, presentación y salida útil para el etiquetado de colores e imágenes, el tipo de PCS debe ser XYZ o Lab. Este perfil sería el espacio de color específico correspondiente que se define en la especificación de ICC.
