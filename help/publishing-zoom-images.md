@@ -24,11 +24,11 @@ La publicación coloca las imágenes de zoom en los servidores de imágenes de D
 
 ## Marcado de imágenes para publicación {#marking-images-for-publish}
 
-Las imágenes se deben marcar para publicación para que se puedan copiar en los servidores de imágenes de Dynamic Media. You can mark your images for publish in the Browse Panel by selecting the **Mark for Publish** icon. También se pueden marcar imágenes para publicación al cargarlas.
+Las imágenes se deben marcar para publicación para que se puedan copiar en los servidores de imágenes de Dynamic Media. Puede marcar las imágenes para publicación en el panel Examinar seleccionando el icono **Marcar para publicación**. También se pueden marcar imágenes para publicación al cargarlas.
 
-## Publicación de las imágenes {#publishing-the-images}
+## Publicación de las imágenes  {#publishing-the-images}
 
-To publish zoom images, start by clicking **Publish** on the Global Navigation bar. Then, select a **When option (One-Time or Recurring)**, optionally enter a name for the publish job, and click **Start Publish**.
+Para publicar imágenes con zoom, haga clic en el inicio **Publicar** en la barra de navegación global. A continuación, seleccione una opción **Cuando (Una vez o Recurrente)**, introduzca de forma opcional un nombre para el trabajo de publicación y haga clic en **Publicación de Inicio**.
 
 >[!MORELIKETHIS]
 >
