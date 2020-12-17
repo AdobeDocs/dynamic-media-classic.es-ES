@@ -29,9 +29,11 @@ Los ajustes de configuración disponibles en esta pantalla dependen de si el est
 
 Los administradores también pueden configurar ajustes preestablecidos de imágenes y de visores en la pantalla Ajustes.
 
-* **Los ajustes preestablecidos** de imagen son formatos guardados para mostrar imágenes principales en diferentes tamaños y formatos.
+* **Ajustes**
+preestablecidos de imagenLos ajustes preestablecidos de imagen son formatos guardados para mostrar imágenes principales en diferentes tamaños y formatos.
 
-* **Los ajustes preestablecidos** de visor determinan cómo se ven los medios enriquecidos cuando se ven en un visor.
+* **Ajustes**
+preestablecidos de visorLos ajustes preestablecidos de visor determinan cómo se ven los medios enriquecidos cuando se ven en un visor.
 
 >[!MORELIKETHIS]
 >
