@@ -18,7 +18,7 @@ ht-degree: 84%
 ---
 
 
-# Quick Start: Media Portal{#quick-start-media-portal}
+# Inicio rápido: Media Portal{#quick-start-media-portal}
 
 Media Portal permite a las compañías adquirir, controlar y distribuir fácilmente recursos creativos aprobados a socios y canales externos, así como a usuarios empresariales internos. Este entorno de &quot;autoservicio&quot; basado en explorador proporciona a los usuarios de Media Portal &quot;vistas&quot; controladas por el administrador en los recursos de Dynamic Media Classic para facilitar el acceso, la exploración, la búsqueda, la previsualización y la exportación de recursos en formatos aprobados por la empresa.
 
