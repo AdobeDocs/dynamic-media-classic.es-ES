@@ -20,13 +20,13 @@ ht-degree: 86%
 
 # Vinculación de visores de zoom a páginas web{#linking-zoom-viewers-to-your-web-pages}
 
-Los sitios web y las aplicaciones acceden al contenido del servidor de imágenes de Dynamic Media, incluidas las imágenes principales y los destinatarios de zoom asociados, así como a los ajustes preestablecidos de visor de zoom, a través de cadenas URL o código incrustado. Estas cadenas URL se activan durante el proceso de publicación. Para colocar estas cadenas URL o el código incrustado en las páginas web y las aplicaciones, debe copiarlas desde Dynamic Media Classic.
+Los sitios web y las aplicaciones acceden al contenido de Dynamic Media Image Server, incluidas las imágenes principales y los destinatarios de zoom asociados, así como a los ajustes preestablecidos de visor de zoom, a través de cadenas URL o código incrustado. Estas cadenas URL se activan durante el proceso de publicación. Para colocar estas cadenas URL o el código incrustado en las páginas web y las aplicaciones, debe copiarlas desde Dynamic Media Classic.
 
 >[!NOTE]
 >
 >La URL no se activa hasta que publique el recurso.
 
-## Copia de una URL de visor de zoom {#copying-a-zoom-viewer-url}
+## Copia de una URL de visor de zoom  {#copying-a-zoom-viewer-url}
 
 1. En el panel Biblioteca de recursos del lado izquierdo, navegue a la carpeta de recursos que contenga el visor de zoom cuya URL desee copiar.
 1. Encima del panel de exploración de recursos, en la parte derecha de la barra de herramientas, realice una de las siguientes acciones:
@@ -44,11 +44,11 @@ Los sitios web y las aplicaciones acceden al contenido del servidor de imágenes
 
       En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Copiar URL**.
 
-## Adición de direcciones URL de visores de zoom a una página web {#adding-zoom-viewer-urls-to-your-web-page}
+## Adición de direcciones URL de visores de zoom a una página web  {#adding-zoom-viewer-urls-to-your-web-page}
 
 Normalmente, los visitantes de un sitio web aplican zoom en las imágenes seleccionando primero un icono de zoom (representado por un icono de lupa, por lo general). Si se selecciona este icono, se inicia una página web dinámica (ASP o JSP) que muestra la imagen en una ventana emergente. Es en esta ventana emergente donde los visitantes aplican zoom en la imagen.
 
-Para obtener más información y ejemplos de código, consulte [Incrustación del visor de zoom básico HTML5 en la Guía](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html)de referencia de visores de Adobe.
+Para obtener más información y ejemplos de código, consulte [Incrustación del visor de zoom básico HTML5 en la Guía de referencia de visores de Adobe](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html).
 
 ## Copia de la copia incrustada de un visor de zoom {#copying-the-embed-copy-of-a-zoom-viewer}
 
