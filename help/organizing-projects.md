@@ -34,32 +34,39 @@ Los proyectos pueden crearse al cargar archivos o desde el panel de la bibliotec
 >
 >Para poder organizar los recursos por proyectos, es necesario tener permiso del administrador. Si no ve una sección para las carpetas de proyectos en la parte inferior de la biblioteca de recursos, significa que no puede acceder a este método de organización de recursos. Consulte [Configuración general de la aplicación](application-setup.md#general-settings).
 
-## Creación de una carpeta de proyecto {#creating-a-project-folder}
+## Creación de una carpeta de proyecto  {#creating-a-project-folder}
 
 Puede crear una carpeta de proyecto desde la biblioteca de recursos o al cargar archivos a Dynamic Media Classic:
 
-* **En la biblioteca** de recursos, desplácese hasta la parte inferior de la biblioteca de recursos, hasta la sección Proyectos y seleccione el botón Añadir proyecto . A continuación, escriba un nombre para el proyecto.
+* **En la**
+biblioteca de recursos, desplácese hasta la parte inferior de la biblioteca de recursos, hasta la sección Proyectos, y seleccione el botón Añadir proyecto . A continuación, escriba un nombre para el proyecto.
 
-* **Al cargar archivos** En la pantalla Cargar, seleccione el menú Añadir al proyecto y elija Crear proyecto. A continuación, escriba un nombre para el proyecto.
+* **Al cargar**
+archivosEn la pantalla Cargar, seleccione el menú Añadir al proyecto y elija Crear proyecto. A continuación, escriba un nombre para el proyecto.
 
 >[!NOTE]
 >
 >El área de proyectos de la biblioteca de recursos es una lista de carpetas de un solo nivel; no admite subcarpetas.
 
-## Uso de carpetas de proyecto {#working-with-project-folders}
+## Uso de carpetas de proyecto  {#working-with-project-folders}
 
 Si desea mostrar o eliminar una carpeta de proyecto, o cambiarle el nombre, siga estas instrucciones:
 
-* **Exploración del contenido** Seleccione el nombre de la carpeta en la biblioteca de recursos. Los recursos que contiene aparecen en el panel Examinar.
+* **Exploración de**
+contenidoSeleccione el nombre de la carpeta en la biblioteca de recursos. Los recursos que contiene aparecen en el panel Examinar.
 
-* **Eliminación de carpetas** de proyecto Seleccione la carpeta de proyecto y, a continuación, seleccione el botón Eliminar proyecto . La eliminación de recursos de una carpeta de proyecto no los elimina de Dynamic Media Classic; los recursos permanecen en las carpetas originales en las que se almacenan.
+* **Eliminación de**
+carpetas de proyectoSeleccione la carpeta de proyecto y, a continuación, el botón Eliminar proyecto . La eliminación de recursos de una carpeta de proyecto no los elimina de Dynamic Media Classic; los recursos permanecen en las carpetas originales en las que se almacenan.
 
-* **Cambiar el nombre de las carpetas** de proyecto; haga clic en el nombre de la carpeta en el panel de recursos y, a continuación, introduzca un nombre nuevo.
+* **Cambio del nombre de**
+las carpetas de proyectoHaga doble clic en el nombre de la carpeta en el panel de recursos y, a continuación, introduzca un nuevo nombre.
 
 ## Adición de recursos a una carpeta de proyecto {#adding-assets-to-a-project-folder}
 
 Puede agregar imágenes a una carpeta de proyecto desde el panel Examinar o al cargar archivos a Dynamic Media Classic:
 
-* **En el panel** Examinar, seleccione los recursos y arrástrelos a una carpeta de proyecto. También puede elegir Archivo > Agregar al proyecto, seleccionar el nombre de la carpeta de proyecto en el cuadro de diálogo Seleccionar proyecto y seleccionar el botón Enviar.
+* **Desde el**
+panel ExaminarSeleccione los recursos y arrástrelos a una carpeta de proyecto. También puede elegir Archivo > Agregar al proyecto, seleccionar el nombre de la carpeta de proyecto en el cuadro de diálogo Seleccionar proyecto y seleccionar el botón Enviar.
 
-* **Al cargar archivos** En la pantalla Cargar, haga clic en el botón Opciones de trabajo. En el cuadro de diálogo Opciones de trabajo de carga, elija Proyectos y seleccione un nombre de proyecto.
+* **Al cargar**
+archivosEn la pantalla Cargar, haga clic en el botón Opciones de trabajo. En el cuadro de diálogo Opciones de trabajo de carga, elija Proyectos y seleccione un nombre de proyecto.
