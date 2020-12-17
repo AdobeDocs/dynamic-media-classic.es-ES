@@ -34,7 +34,7 @@ La lógica que un reproductor de vídeo utiliza para determinar qué vídeo codi
    1. El reproductor elige el flujo de ancho de banda más alto por debajo o por debajo del ancho de banda estimado.
    1. El reproductor considera solamente el 80% del ancho de banda disponible. Sin embargo, si se está apagando, es más conversador con sólo el 70% para evitar sobreestimar y tener que volver inmediatamente.
 
-Consulte la lógica del algoritmo en [https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp) para obtener información técnica al respecto.
+Consulte la lógica del algoritmo en [https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp) para obtener información técnica sobre él.
 
 Para administrar un solo vídeo y conjuntos de vídeos adaptables, Dynamic Media Classic admite lo siguiente:
 
@@ -42,7 +42,7 @@ Para administrar un solo vídeo y conjuntos de vídeos adaptables, Dynamic Media
 
    Cuando se genera un conjunto de vídeos adaptables, incluye vídeos MP4.
 
-   `**Note:**` Los vídeos principales/originales y cualquier otro vídeo de formato de origen *no se agregan* a un conjunto de vídeos adaptable.
+   `**Note:**` Los vídeos principales/originales y cualquier otro vídeo de formato de origen  ** no se admiten en un conjunto de vídeos adaptable.
 
 * Subtítulos de vídeo en los visores Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark y Universal_HTML5_MixedMedia_light y navegación por capítulos de vídeo en los visores Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark y Universal_HTML5_MixedMedia_light.
 
@@ -55,15 +55,15 @@ Para administrar un solo vídeo y conjuntos de vídeos adaptables, Dynamic Media
 
    El flujo de vídeo adaptable se admite en numerosas plataformas de iOS.
 
-   Consulte la compatibilidad más reciente en la Guía [de referencia de visores de](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)Adobe.
+   Consulte la compatibilidad más reciente en la [Guía de referencia de visores de Adobe](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
 
    Dynamic Media Classic admite la reproducción de vídeo móvil para vídeo MP4 H.264. Puede consultar los dispositivos BlackBerry compatibles con este formato de vídeo en este sitio web:
 
-   Consulte Formatos de vídeo [admitidos en Blackberry](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482).
+   Consulte [Formatos de vídeo admitidos en Blackberry](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482).
 
    Puede consultar los dispositivos Windows compatibles con este formato de vídeo:
 
-   Consulte Formatos de vídeo [admitidos en Windows Phone](https://msdn.microsoft.com/en-us/library/ff462087(v=vs.92).aspx).
+   Consulte [Formatos de vídeo admitidos en Windows Phone](https://msdn.microsoft.com/en-us/library/ff462087(v=vs.92).aspx).
 
 * Reproducción del vídeo con los ajustes preestablecidos de visor de Dynamic Media Classic, incluidos los siguientes:
 
@@ -81,10 +81,12 @@ La siguiente descripción paso a paso del flujo de trabajo se ha diseñado para 
 
 Cargue y genere conjuntos de vídeos adaptables con una de los dos situaciones siguientes:
 
-* **Cargar vídeos** precodificados Si los vídeos ya estaban codificados fuera de Dynamic Media Classic, haga clic en 
-**Cargue** en la barra de navegación global para buscar y cargar archivos de vídeo MP4 directamente en Dynamic Media Classic. A continuación, haga clic en **Generar > Conjuntos de vídeos adaptables**. Busque los archivos de vídeo. Arrastre los archivos de vídeo deseados, suéltelos en la tabla Conjunto de vídeos adaptable y, a continuación, guarde el conjunto.
-* **Cargar vídeos** de origen maestros Si los vídeos no están codificados, haga clic en 
-**Cargue** en la barra de navegación global para cargar archivos de origen de vídeo maestros (que no sean MP4) y hacer que Dynamic Media Classic los codifique en archivos MP4 por usted. En el cuadro de diálogo Opciones de trabajo de carga, en Opciones de eVideo, seleccione **Vídeo adaptable**.
+* **Cargar**
+vídeos precodificadosSi los vídeos ya estaban codificados fuera de Dynamic Media Classic, haga clic en 
+**** Cargue en la barra de navegación global para buscar y cargar archivos de vídeo MP4 directamente en Dynamic Media Classic. A continuación, haga clic en **Generar > Conjuntos de vídeos adaptables**. Busque los archivos de vídeo. Arrastre los archivos de vídeo deseados, suéltelos en la tabla Conjunto de vídeos adaptable y, a continuación, guarde el conjunto.
+* **Cargar**
+vídeos de origen maestrosSi los vídeos no están codificados, haga clic en 
+**** Cargue en la barra de navegación global para cargar archivos de origen de vídeo maestros (que no sean MP4) y hacer que Dynamic Media Classic los codifique en archivos MP4 por usted. En el cuadro de diálogo Opciones de trabajo de carga, en Opciones de eVideo, seleccione **Vídeo adaptable**.
 
    Esta opción preferida permite crear un conjunto de vídeos adaptables que aplica automáticamente el ajuste preestablecido de codificación correcto al vídeo, 16:9 o 4:3, para que coincida con las dimensiones del vídeo que haya cargado. Al enviar el trabajo de carga, se crea automáticamente un conjunto de vídeos adaptable que incluye tres codificaciones de vídeo con la proporción de aspecto correcta.
 
@@ -112,7 +114,7 @@ Puede reproducir el vídeo en la pantalla Vista previa. También puede elegir vi
 
 **Opcional**
 
-Personalización de ajustes preestablecidos de visor: Dynamic Media Classic oferta los ajustes preestablecidos de visor predefinidos para la publicación de vídeo. Estos ajustes preestablecidos determinan la apariencia del visor y cómo funcionan los controles de reproducción. Para personalizar el visor de vídeo, los administradores pueden agregar y gestionar ajustes preestablecidos de visor desde la página Ajustes preestablecidos de visor. Para abrir esta página, en la esquina superior derecha de Dynamic Media Classic, haga clic en Ajustes > Ajustes preestablecidos de visor. La página Ajustes preestablecidos de visor contiene opciones para agregar, editar, eliminar y activar ajustes preestablecidos de visor.
+Personalización de ajustes preestablecidos de visor: Dynamic Media Classic oferta ajustes preestablecidos de visor predefinidos para la publicación de vídeo. Estos ajustes preestablecidos determinan la apariencia del visor y cómo funcionan los controles de reproducción. Para personalizar el visor de vídeo, los administradores pueden agregar y gestionar ajustes preestablecidos de visor desde la página Ajustes preestablecidos de visor. Para abrir esta página, en la esquina superior derecha de Dynamic Media Classic, haga clic en Ajustes > Ajustes preestablecidos de visor. La página Ajustes preestablecidos de visor contiene opciones para agregar, editar, eliminar y activar ajustes preestablecidos de visor.
 
 Consulte [Uso de ajustes preestablecidos de visor de vídeo](previewing-videos-video-viewer.md#working_with_video_viewer_presets).
 
@@ -122,7 +124,7 @@ Para incorporar el vídeo en el sitio web, puede realizar cualquiera de las acci
 
 * Mostrar el vídeo en su propia ventana emergente o modal; en ese caso, se utiliza la función de Copiar URL.
 
-   Para obtener la URL de un vídeo, en la vista de cuadrícula o de lista, selecciónelo en el panel Examinar. Click Preview, and then click Copy URL to the right of `Universal_HTML5_Viewer`.
+   Para obtener la URL de un vídeo, en la vista de cuadrícula o de lista, selecciónelo en el panel Examinar. Haga clic en Previsualización y, a continuación, en Copiar URL a la derecha de `Universal_HTML5_Viewer`.
 
    Después de hacer clic en Copiar URL, la dirección URL se copia al portapapeles. Coloque este código en el HTML de su sitio web, sitio móvil o aplicación. 
 
