@@ -20,7 +20,7 @@ ht-degree: 56%
 
 # Uso de archivos PDF{#working-with-pdfs}
 
-Los archivos PDF (formato de Documento portátil) se utilizan con mayor frecuencia en Dynamic Media Classic para crear catálogos electrónicos. Al cargar un archivo PDF, Dynamic Media Classic rasteriza o extrae las páginas de forma predeterminada para que se puedan utilizar para crear medios enriquecidos.
+Los archivos PDF (formato de Documento portátil) se utilizan con mayor frecuencia en Dynamic Media Classic para crear catálogos electrónicos. Al cargar un archivo PDF, Dynamic Media Classic rasteriza o extrae las páginas de forma predeterminada para que se puedan utilizar las páginas para crear medios enriquecidos.
 
 ## Opciones de carga de archivos PDF {#pdf-upload-options}
 
@@ -32,13 +32,13 @@ Las opciones para cargar archivos PDF se encuentran en la pantalla Cargar, en Op
 
 Las opciones de Procesamiento son:
 
-**Rasterizar** (predeterminado) Extrae las páginas del archivo PDF y convierte los gráficos vectoriales en imágenes de mapa de bits. Elija esta opción para crear un catálogo electrónico. 
+**Rasterizar**  (predeterminado) Extrae las páginas del archivo PDF y convierte los gráficos vectoriales en imágenes de mapa de bits. Elija esta opción para crear un catálogo electrónico. 
 
-**Extraer palabras** de búsqueda Extrae palabras del archivo PDF para que el archivo se pueda buscar por palabra clave en un visor de catálogos electrónicos.
+**Extraer** palabras de búsquedaExtrae palabras del archivo PDF para que el archivo se pueda buscar por palabra clave en un visor de catálogos electrónicos.
 
-**Extraer vínculos** Extrae vínculos de los archivos PDF y los convierte en mapas de imagen que se utilizan en un visor de catálogos electrónicos.
+**Extraer** vínculosExtrae vínculos de los archivos PDF y los convierte en mapas de imagen que se utilizan en un visor de catálogos electrónicos.
 
-**Generar catálogo electrónico automáticamente con PDF** de varias páginas crea automáticamente un catálogo electrónico a partir del archivo PDF. El catálogo electrónico recibe el mismo nombre que el archivo PDF cargado. (Esta opción solo está disponible si rasteriza el archivo PDF al cargarlo).
+**Generar catálogo electrónico automáticamente con** PDFA de varias páginas crea automáticamente un catálogo electrónico a partir del archivo PDF. El catálogo electrónico recibe el mismo nombre que el archivo PDF cargado. (Esta opción solo está disponible si rasteriza el archivo PDF al cargarlo).
 
 **Resolución**
 
@@ -48,42 +48,42 @@ Determina el valor de la resolución. Este valor determina cuántos píxeles se 
 
 Seleccione el menú Espacio de color y elija un espacio de color para el archivo PDF. La mayoría de los archivos PDF tienen imágenes de color RGB y CMYK. El espacio de color RGB es preferible para la visualización en línea.
 
-**Detectar automáticamente** conserva el espacio de color del archivo PDF.
+**Detectar** automáticamenteConserva el espacio de color del archivo PDF.
 
-**Forzar RGB** convierte al espacio de color RGB.
+**Forzar como** RGBConvierte al espacio de color RGB.
 
-**Forzar como CMYK** convierte al espacio de color CMYK.
+**Forzar como** CMYKConvierte al espacio de color CMYK.
 
-**Forzar como escala de grises** convierte al espacio de color de escala de grises.
+**Forzar** escala de grisesConvierte al espacio de color de escala de grises.
 
 **Perfil de color**
 
 Elija una opción de Perfil de color:
 
-**Convertir a sRGB** se convierte a sRGB (Standard Red Green Blue). SRGB es el espacio de color que se recomienda para mostrar imágenes en páginas web.
+**Convertir a** sRGBConvertidos a sRGB (Standard Red Green Blue). SRGB es el espacio de color que se recomienda para mostrar imágenes en páginas web.
 
-**Mantener espacio** de color original Conserva el espacio de color original.
+**Mantener** espacio de color originalConserva el espacio de color original.
 
-**Personalizado de > Para** abre los menús para que pueda elegir un espacio de color Convertir de y Convertir en. Puede elegir un espacio de color estándar de Photoshop o un espacio de color que haya cargado en Dynamic Media Classic.
+**Personalizado de >** AAbre los menús para que pueda elegir un espacio de color Convertir de y Convertir a. Puede elegir un espacio de color estándar de Photoshop o un espacio de color que haya cargado en Dynamic Media Classic.
 
 Consulte [Perfiles ICC](icc-profiles.md#icc_profiles).
 
-## Recorte de espacio en blanco de un archivo PDF {#cropping-white-space-from-a-pdf-file}
+## Recorte de espacio en blanco de un archivo PDF  {#cropping-white-space-from-a-pdf-file}
 
 1. Para recortar automáticamente píxeles de espacio en blanco de un archivo PDF al cargarlo, seleccione el menú Recortar y elija Recortar.
 1. Especifique las opciones siguientes:
 
-   **Recortar según** función Elija si desea recortar según el color o la transparencia:
+   **Recortar según** OnElija si desea recortar según el color o la transparencia:
 
-   **Color** Elija la opción Color. A continuación, seleccione el menú Esquina y elija la esquina del PDF que mejor represente el color de espacio en blanco que desea recortar.
+   **** ColorElija la opción Color. A continuación, seleccione el menú Esquina y elija la esquina del PDF que mejor represente el color de espacio en blanco que desea recortar.
 
-   **Transparencia** Elija la opción Transparencia.
+   **** TransparenciaElija la opción Transparencia.
 
-   **Tolerancia** Arrastre el control deslizante para especificar una tolerancia de 0 a 1:
+   **** ToleranciaArrastre el control deslizante para especificar una tolerancia de 0 a 1:
 
-   **Recorte basado en color** Especifique 0 para recortar píxeles solo si coinciden exactamente con el color seleccionado en la esquina del PDF. Los números más cercanos a 1 permiten una mayor diferencia de color.
+   **Recorte basado en** colorEspecifique 0 para recortar píxeles solo si coinciden exactamente con el color seleccionado en la esquina del PDF. Los números más cercanos a 1 permiten una mayor diferencia de color.
 
-   **Recorte basado en transparencia** Especifique 0 para recortar píxeles solo si son totalmente transparentes; los números más cercanos a 1 permiten una mayor transparencia.
+   **Recorte basado en** transparenciaEspecifique 0 para recortar píxeles solo si son totalmente transparentes; los números más cercanos a 1 permiten una mayor transparencia.
 
 ## Recorte de los lados de páginas PDF {#cropping-from-the-sides-of-pdf-pages}
 
