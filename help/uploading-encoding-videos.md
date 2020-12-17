@@ -29,9 +29,9 @@ Para crear un solo vídeo o conjuntos de vídeos adaptables para su envío a la 
 
 Dynamic Media Classic oferta dos flujos de trabajo para cargar archivos de vídeo:
 
-**Vídeos** precodificados Los archivos MP4 se cargan directamente en Dynamic Media Classic. Con este flujo de trabajo, los archivos no se codifican al cargarlos. Los archivos se codifican previamente como preparación para la publicación en el escritorio y los dispositivos móviles.
+**Vídeos precodificadosLos archivos** MP4 se cargan directamente a Dynamic Media Classic. Con este flujo de trabajo, los archivos no se codifican al cargarlos. Los archivos se codifican previamente como preparación para la publicación en el escritorio y los dispositivos móviles.
 
-**Vídeos** de origen maestros Cargue archivos de vídeo de origen maestros y, al cargarlos, codifíquelos en archivos MP4. Los vídeos codificados tienen la etiqueta “Vídeo” en el panel Examinar. Dynamic Media Classic admite la codificación de archivos de vídeo en muchos formatos.
+**Vídeos de origen maestrosCargue** archivos de vídeo de origen maestros y, al cargarlos, codifíquelos en archivos MP4. Los vídeos codificados tienen la etiqueta “Vídeo” en el panel Examinar. Dynamic Media Classic admite la codificación de archivos de vídeo en muchos formatos.
 
 * Asegúrese de que los archivos de vídeo de origen maestros que desea codificar sean compatibles. 
 
@@ -55,7 +55,7 @@ Realice una de las siguientes acciones:
 
 1. En la barra de navegación global, haga clic en **Cargar**.
 1. En la pantalla **Cargar**, haga clic en la ficha Desde el escritorio.
-1. On the Upload page, in the Select Files for Upload panel, click **Browse**, navigate to an MP4 video file, and then click **Open**.
+1. En la página Cargar, en el panel Seleccionar archivos para cargar, haga clic en **Examinar**, busque un archivo de vídeo MP4 y, a continuación, haga clic en **Abrir**.
 1. En el panel Elija el destino de la carpeta, elija una carpeta para cargar el archivo.
 1. En la página de carga, asegúrese de que esté activado **Publicar tras la carga**.
 1. Haga clic en **Cargar envío**.
@@ -101,9 +101,9 @@ Cuando se genera un conjunto de vídeos adaptables automáticamente o manualment
 
 En la siguiente tabla se muestran los tipos de archivo de vídeo (con los códecs de vídeo permitidos) que puede codificar al formato MP4 u OGV al cargar los archivos. En la tabla se muestran los formatos de archivo y códecs:
 
-**Formatos** de archivo de vídeo Al igual que un archivo ZIP, un formato de archivo de vídeo determina cómo se incluyen los archivos en el archivo de vídeo. Un archivo de vídeo suele contener varias pistas, una pista de vídeo (sin audio) y una o más pistas de audio (sin vídeo), que están interrelacionadas y sincronizadas. El formato de archivo de vídeo determina cómo se organizan estas distintas pistas de datos y metadatos.
+**Formatos** de archivo de vídeoAl igual que un archivo ZIP, un formato de archivo de vídeo determina cómo se incluyen los archivos en el archivo de vídeo. Un archivo de vídeo suele contener varias pistas, una pista de vídeo (sin audio) y una o más pistas de audio (sin vídeo), que están interrelacionadas y sincronizadas. El formato de archivo de vídeo determina cómo se organizan estas distintas pistas de datos y metadatos.
 
-**Códecs** de vídeo Un códec de vídeo describe el algoritmo mediante el cual se codifica un vídeo. Un reproductor de vídeo descodifica el vídeo según su códec y, a continuación, reproduce una serie de imágenes, o fotogramas, en la pantalla. Los códecs minimizan la cantidad de información que tienen que almacenar los archivos de vídeo para reproducir el vídeo. En lugar de la información sobre cada fotograma individual, solo se almacena la información sobre las diferencias entre un fotograma y el siguiente. Puesto que la mayoría de vídeos cambian poco de un fotograma al siguiente, los códecs permiten velocidades de compresión altas, cuyo resultado son tamaños de archivo menores.
+**Códecs** de vídeoUn códec de vídeo describe el algoritmo mediante el cual se codifica un vídeo. Un reproductor de vídeo descodifica el vídeo según su códec y, a continuación, reproduce una serie de imágenes, o fotogramas, en la pantalla. Los códecs minimizan la cantidad de información que tienen que almacenar los archivos de vídeo para reproducir el vídeo. En lugar de la información sobre cada fotograma individual, solo se almacena la información sobre las diferencias entre un fotograma y el siguiente. Puesto que la mayoría de vídeos cambian poco de un fotograma al siguiente, los códecs permiten velocidades de compresión altas, cuyo resultado son tamaños de archivo menores.
 
 | Formato de archivo de vídeo | Códecs de vídeo |
 |:--- |:--- |
@@ -128,13 +128,13 @@ En la siguiente tabla se muestran los tipos de archivo de vídeo (con los códec
 >
 >La pantalla Trabajos le avisa si carga e intenta codificar un archivo de vídeo pero este se rechaza porque contiene un códec o contenedor de archivos no compatible. Para obtener más información, consulte [Comprobación de archivos de trabajo](checking-job-files.md).
 
-## Prácticas recomendadas para la codificación de vídeo {#best-practices-for-video-encoding}
+## Prácticas recomendadas para la codificación de vídeo  {#best-practices-for-video-encoding}
 
-A continuación se ofrecen sugerencias recomendadas para codificar archivos de vídeo de origen en Dynamic Media Classic.
+Las siguientes son sugerencias recomendadas para codificar archivos de vídeo de origen en Dynamic Media Classic.
 
 Para obtener más consejos sobre la codificación de vídeo, consulte los siguientes recursos:
 
-* Article: *Streaming 101: The Basics — Codecs, Bandwidth, Data Rate, and Resolution: * [www.adobe.com/go/learn_s7_streaming101_en](https://www.adobe.com/go/learn_s7_streaming101_en).
+* Artículo: *Streaming 101: Conceptos básicos: Códecs, ancho de banda, velocidad de datos y resolución: * [www.adobe.com/go/learn_s7_streaming101_en](https://www.adobe.com/go/learn_s7_streaming101_en).
 * Vídeo: *Conceptos básicos de codificación de vídeo: * [www.adobe.com/go/learn_s7_encoding_en](https://www.adobe.com/go/learn_s7_encoding_en).
 
 ### Archivos de vídeo de origen {#source-video-files}
@@ -149,15 +149,15 @@ La siguiente tabla describe el tamaño recomendado, la proporción de aspecto y 
 | 1280 X 720 | 16:9 | 3000 - 6000 kbps, dependiendo de la cantidad de movimiento del vídeo. |
 | 1920 X 1080 | 16:9 | 6000 - 8000 kbps, dependiendo de la cantidad de movimiento del vídeo. |
 
-### Obtención de los metadatos de un archivo {#obtaining-a-file-s-metadata}
+### Obtención de los metadatos de un archivo  {#obtaining-a-file-s-metadata}
 
 Puede obtener los metadatos de un archivo visualizando sus metadatos en Dynamic Media Classic, con una herramienta de edición de vídeo o con una aplicación diseñada para obtener metadatos. A continuación se muestran instrucciones para el uso de MediaInfo, una aplicación de terceros, para obtener los metadatos de un archivo de vídeo:
 
-1. Go to this web page: [https://mediainfo.sourceforge.net/en/Download](https://mediainfo.sourceforge.net/en/Download).
+1. Vaya a esta página web: [https://mediainfo.sourceforge.net/en/Download](https://mediainfo.sourceforge.net/en/Download).
 1. Seleccione y descargue el instalador para la versión de interfaz gráfica de usuario y siga las instrucciones de instalación.
 1. Después de la instalación, haga clic con el botón derecho en el archivo de vídeo (solo Windows) y seleccione MediaInfo o abra MediaInfo y arrastre el archivo de vídeo a la aplicación. Se ven todos los metadatos asociados al archivo de vídeo, incluida su anchura, su altura y los fotogramas por segundo.
 
-### Proporción de aspecto {#aspect-ratio}
+### Proporción de aspecto  {#aspect-ratio}
 
 Al elegir o crear un ajuste preestablecido de codificación de vídeo para el archivo de vídeo principal, asegúrese de que dicho ajuste tenga la misma proporción de aspecto que el archivo de vídeo principal. La *proporción de aspecto* es la proporción de anchura y altura del vídeo.
 
@@ -176,9 +176,9 @@ En la tabla siguiente se describe cómo se traducen los resultados de la fórmul
 
 Por ejemplo, un vídeo con una anchura de 1440 y una altura de 1080 tiene una proporción de aspecto de 1440/1080 o 1,33. En este caso, debe elegir un ajuste preestablecido de codificación de vídeo con una proporción de aspecto 4:3 para codificar el archivo de vídeo.
 
-### Velocidad de datos {#data-rate}
+### Velocidad de datos  {#data-rate}
 
-The *data rate* (also called the* bit rate*) is the amount of data that is encoded to make up a single second of video playback. La velocidad de datos se mide en kilobits por segundo (kbps).
+La *velocidad de datos* (también denominada velocidad de bits**) es la cantidad de datos codificados para configurar un solo segundo de reproducción de vídeo. La velocidad de datos se mide en kilobits por segundo (kbps).
 
 >[!NOTE]
 >
@@ -195,7 +195,7 @@ En esta tabla se describe la velocidad de datos de las velocidades de conexión 
 | 2000 | Conexión de escritorio de ancho de banda habitual. Para esta conexión, destinatario una velocidad de datos en el rango de 800 a 2000 kbps, con un promedio de la mayoría de destinatarios de 1200 a 1500 kbps. |
 | 5000 | Conexión de gran ancho de banda habitual. La codificación en este rango superior no se recomienda, porque la mayoría de los usuarios no pueden recibir el vídeo a esta velocidad. |
 
-### Resolución {#resolution}
+### Resolución  {#resolution}
 
 Con *resolución* se describe la altura y la anchura de un vídeo en píxeles. La mayoría de vídeos de origen se almacenan con una resolución alta (por ejemplo, 1920 x 1080). Para el flujo continuo, el vídeo de origen se comprime con una resolución menor (640 x 480 o inferior).
 
@@ -228,13 +228,13 @@ Cuando elija (o cree) un ajuste preestablecido de codificación de vídeo para e
 | 720p | 720 | Pantalla grande |
 | 1080p | 1080 | Pantalla grande de alta definición |
 
-### Fotogramas por segundo (fps) {#fps-frames-per-second}
+### Fotogramas por segundo (fps)  {#fps-frames-per-second}
 
 En Estados Unidos y Japón, la mayoría de los vídeos se graban a 29,97 fotogramas por segundo (fps); en Europa, la mayoría se graba a 25 fps. Las películas se graban a 24 fps.
 
 Elija un ajuste preestablecido de codificación de vídeo que coincida con la velocidad de fps del archivo de vídeo principal. Por ejemplo, si el vídeo principal tiene una resolución de 25 fps, elija un ajuste preestablecido de codificación de 25 fps. De manera predeterminada, toda la codificación personalizada utiliza el valor de fps del archivo de vídeo principal. Por este motivo, no es necesario que especifique explícitamente el ajuste de fps al crear un ajuste preestablecido de codificación de vídeo.
 
-### Dimensiones de codificación de vídeo {#video-encoding-dimensions}
+### Dimensiones de codificación de vídeo  {#video-encoding-dimensions}
 
 Para obtener resultados óptimos, seleccione unas dimensiones de codificación de forma que el vídeo de origen sea un múltiplo entero de todos los vídeos codificados.
 
@@ -246,22 +246,22 @@ Como ejemplo, suponga que el vídeo de origen es de 1920 x 1080. En la tabla sig
 
 | Tipo de vídeo | Anchura x altura | Proporción de anchura | Proporción de altura |
 |--- |--- |--- |--- |
-| Origen | 1920 x 1080 | 1 | 1 |
+| Origen | 1920 x 1080 | 1 | 3 |
 | Codificado | 960 x 540 | 2 | 2 |
-| Codificado | 640 x 360 | 3 | 3 |
+| Codificado | 640 x 360 | 3 | 1 |
 | Codificado | 480 x 270 | 4 | 4 |
 
-### Formato de archivo de vídeo codificado {#encoded-video-file-format}
+### Formato de archivo de vídeo codificado  {#encoded-video-file-format}
 
 Adobe Dynamic Media Classic recomienda el uso de ajustes preestablecidos de codificación de vídeo MP4 H.264. Dado que los archivos MP4 usan el códec de vídeo H.264, proporcionan vídeo de alta calidad pero con un tamaño de archivo comprimido.
 
-## Uso de ajustes preestablecidos de codificación de vídeo {#working-with-video-encoding-presets}
+## Uso de ajustes preestablecidos de codificación de vídeo  {#working-with-video-encoding-presets}
 
 Los archivos de vídeo principales creados con un equipo de producción de vídeo y software de edición de vídeo suelen ser demasiado grandes y no tienen el formato correcto para la publicación en destinos en línea. Para convertir vídeo digital al formato y especificaciones correctos para la reproducción en distintas pantallas, puede *transcodificar* archivos de vídeo (un proceso que también se denomina *codificación*). Durante el proceso de codificación, el vídeo se comprime a un tamaño de archivo eficaz más pequeño, óptimo para la publicación en la web y en dispositivos móviles.
 
 Consulte [Carga y codificación de vídeo](uploading-encoding-videos.md#uploading-and-encoding-videos).
 
-Dynamic Media Classic le ofrece una biblioteca de ajustes preestablecidos de codificación de vídeo predefinidos que reflejan los ajustes de codificación más comunes que se utilizan en la actualidad. Estos ajustes preestablecidos de codificación se han optimizado para la reproducción en pantallas de destino. Además, los administradores pueden crear sus propios ajustes preestablecidos de codificación de vídeo para personalizar el tamaño y la calidad de reproducción de vídeos para los usuarios finales. Todos los ajustes preestablecidos de codificación de vídeo, ya sean listos para usar de Dynamic Media Classic o personalizados, emiten vídeo en formato de archivo MP4.
+Dynamic Media Classic le ofrece una biblioteca de ajustes preestablecidos de codificación de vídeo predefinidos que reflejan los ajustes de codificación más comunes que se utilizan en la actualidad. Estos ajustes preestablecidos de codificación se han optimizado para la reproducción en pantallas de destino. Además, los administradores pueden crear sus propios ajustes preestablecidos de codificación de vídeo para personalizar el tamaño y la calidad de reproducción de vídeos para los usuarios finales. Todos los ajustes preestablecidos de codificación de vídeo, ya sean originales de Dynamic Media Classic o personalizados, emiten vídeo en formato de archivo MP4.
 
 En la pantalla Ajustes preestablecidos de vídeo, los administradores pueden configurar y administrar la codificación de vídeo. Pueden hacer lo siguiente:
 
@@ -288,7 +288,7 @@ Para los recursos de vídeo que se cargan y codifican en Dynamic Media Classic, 
 
 Cualquier otro códec y formato de vídeo se trata como un &quot;vídeo principal&quot;. Esta clasificación de los recursos implica que el vídeo es un archivo de origen y no se puede utilizar para su reproducción en escritorios ni dispositivos móviles. Por ejemplo, no puede realizar la previsualización de estos tipos de vídeos en Dynamic Media Classic. Tampoco puede generar las opciones Copiar URL ni Código incrustado para su uso en los reproductores de vídeo, en los sitios web, etc.
 
-### Filtrado de la lista de ajustes preestablecidos de codificación de vídeo {#filtering-the-list-of-video-encoding-presets}
+### Filtrado de la lista de ajustes preestablecidos de codificación de vídeo  {#filtering-the-list-of-video-encoding-presets}
 
 La página Ajustes preestablecidos de vídeo y la página Ajustes preestablecidos de vídeos adaptables constan de una tabla que enumera el estado activo, el nombre del ajuste preestablecido, el dispositivo de reproducción, el tamaño del vídeo y la velocidad de datos de destino de cada ajuste preestablecido de vídeo.
 
@@ -298,7 +298,7 @@ También puede filtrar en función de una opción de dispositivo de reproducció
 
 **Para filtrar la lista de ajustes preestablecidos de codificación de vídeo**
 
-1. In Dynamic Media Classic, click **Setup** > **Application Setup** > **Video Presets** > **Adaptive Video Presets** or **Single Encoding Presets**.
+1. En Dynamic Media Classic, haga clic en **Ajustes** > **Ajustes de aplicación** > **Ajustes preestablecidos de vídeo** > **Ajustes preestablecidos de vídeo adaptables** o **Ajustes preestablecidos de codificación única**.
 
    Las páginas para los ajustes preestablecidos de vídeos adaptables y ajustes preestablecidos de codificación única incluyen una tabla que enumera el estado activo, el nombre de ajuste preestablecido, el dispositivo de reproducción, tamaño del vídeo, y la velocidad de datos de destino de cada ajuste preestablecido de vídeo.
 
@@ -307,13 +307,13 @@ También puede filtrar en función de una opción de dispositivo de reproducció
    * En el primer campo, con una lista desplegable más estrecha, elija **Ambos** para ver todos los ajustes preestablecidos de vídeo o elija **Activo** o **Inactivo** para reducir la lista a los que están activos o inactivos.
    * En la segunda lista desplegable, más amplia, elija una opción de dispositivo de reproducción para reducir la lista a los ajustes preestablecidos de vídeo diseñados para reproducir vídeos en equipos de escritorio o para reproducir vídeos en dispositivos móviles o tablets.
 
-### Activación o desactivación de ajustes preestablecidos de codificación de vídeo {#activating-or-deactivating-video-encoding-presets}
+### Activación o desactivación de ajustes preestablecidos de codificación de vídeo  {#activating-or-deactivating-video-encoding-presets}
 
 Los ajustes preestablecidos de vídeo activados aparecen en el cuadro de diálogo Opciones de trabajo de carga. Se trata del cuadro de diálogo que aparece cuando un usuario carga archivos de vídeo durante el proceso de carga. Puede elegir de una lista de todos los ajustes preestablecidos de codificación activados.
 
 **Para activar o desactivar ajustes preestablecidos de codificación de vídeo**
 
-1. En Dynamic Media Classic, haga clic en **Ajustes** > Ajustes **** de aplicación > Ajustes preestablecidos **** de vídeo.
+1. En Dynamic Media Classic, haga clic en **Ajustes** > **Ajustes de aplicación** > **Ajustes preestablecidos de vídeo**.
 1. Realice una de las siguientes acciones:
 
    * Haga clic en **Ajustes preestablecidos de vídeo adaptables**.
@@ -324,11 +324,11 @@ Los ajustes preestablecidos de vídeo activados aparecen en el cuadro de diálog
    * Para activar un ajuste preestablecido de vídeo, en la columna Activo de la página de ajustes preestablecidos, seleccione la casilla junto a un nombre de ajuste preestablecido.
    * Para desactivar un ajuste preestablecido de vídeo, desactive la casilla junto a los que desea hacer inactivos.
 
-      ***note**: Inactive Video Presets do not appear in the Upload Job Options dialog box. *
+      ***nota**: Los ajustes preestablecidos de vídeo inactivos no aparecen en el cuadro de diálogo Opciones de trabajo de carga. *
 
 1. En la esquina inferior derecha de la página, haga clic en **Cerrar**.
 
-### Adición o edición de un ajuste preestablecido de codificación de vídeo {#adding-or-editing-a-video-encoding-preset}
+### Adición o edición de un ajuste preestablecido de codificación de vídeo  {#adding-or-editing-a-video-encoding-preset}
 
 Puede crear sus propios ajustes preestablecidos de codificación única personalizados y añadirlos a la tabla Ajustes preestablecidos de vídeo. También puede realizar cambios en cualquier ajuste preestablecido de codificación de vídeo predefinido que se incluye con Dynamic Media Classic, siempre que guarde el ajuste preestablecido editado con un nombre nuevo.
 
@@ -340,14 +340,14 @@ Dynamic Media Classic ha establecido límites máximos en la velocidad de datos 
 
 **Para añadir o editar un ajuste preestablecido de codificación de vídeo**
 
-1. En Dynamic Media Classic, haga clic en **Ajustes** > Ajustes **** de aplicación > Ajustes preestablecidos **** de vídeo.
+1. En Dynamic Media Classic, haga clic en **Ajustes** > **Ajustes de aplicación** > **Ajustes preestablecidos de vídeo**.
 1. Haga clic en **Ajustes preestablecidos de codificación única** para abrir la página Ajustes preestablecidos de vídeo.
 1. En la página Ajustes preestablecidos de vídeo, realice una de las acciones siguientes:
 
    * En la barra de herramientas de Ajustes preestablecidos de vídeo, haga clic en **Agregar** para agregar un nuevo ajuste preestablecido de vídeo.
    * Seleccione un ajuste preestablecido de vídeo. En la barra de herramientas, haga clic en **Editar**.
 
-      You cannot edit Dynamic Media Classic predefined presets; you can only create a preset from an existing one by choosing **Save As**.
+      No se pueden editar los ajustes preestablecidos predefinidos de Dynamic Media Classic; sólo puede crear un ajuste preestablecido a partir de uno existente seleccionando **Guardar como**.
 
 1. En la página Agregar ajuste preestablecido de vídeo o la página Editar ajuste preestablecido de vídeo, establezca las opciones de ajustes preestablecidos de vídeo que desee.
 
@@ -369,13 +369,13 @@ Dynamic Media Classic ha establecido límites máximos en la velocidad de datos 
    * Haga clic en **Guardar** si ha agregado o editado un ajuste preestablecido de vídeo.
    * Haga clic en **Guardar como** si ha agregado un ajuste preestablecido de vídeo a partir de uno existente.
 
-### Eliminación de un ajuste preestablecido de codificación de vídeo. {#deleting-a-video-encoding-preset}
+### Eliminación de un ajuste preestablecido de codificación de vídeo.  {#deleting-a-video-encoding-preset}
 
 Los administradores pueden eliminar ajustes preestablecidos de vídeo personalizados. Los ajustes preestablecidos de vídeo que se incluyen con Dynamic Media Classic no se pueden eliminar.
 
 **Para eliminar un ajuste preestablecido de codificación de vídeo**
 
-1. En Dynamic Media Classic, haga clic en **Ajustes** > Ajustes **** de aplicación > Ajustes preestablecidos **** de vídeo.
+1. En Dynamic Media Classic, haga clic en **Ajustes** > **Ajustes de aplicación** > **Ajustes preestablecidos de vídeo**.
 1. Haga clic en **Ajustes preestablecidos de codificación única** para abrir la página Ajustes preestablecidos de vídeo.
 1. En la página Ajustes preestablecidos de vídeo, seleccione un ajuste preestablecido de vídeo de la tabla que ya no desee o necesite.
 1. En la barra de herramientas de ajustes preestablecidos de vídeo, haga clic en **Eliminar**.
