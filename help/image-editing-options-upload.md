@@ -35,17 +35,23 @@ Estas opciones se encuentran en la pantalla Cargar, en Opciones de edición de i
 
 Para recortar automáticamente píxeles de espacio en blanco de una imagen, seleccione el menú Recortar y elija Recortar. Elija a continuación estas opciones:
 
-* **Recortar basándose en** elija si recortar según el color o la transparencia:
+* **Recortar según**
+OnElija si desea recortar según el color o la transparencia:
 
-* **Color** Elija la opción Color. A continuación, en la lista desplegable Esquina, seleccione la esquina de la imagen que mejor represente el color de espacio en blanco que desea recortar.
+* ****
+ColorElija la opción Color. A continuación, en la lista desplegable Esquina, seleccione la esquina de la imagen que mejor represente el color de espacio en blanco que desea recortar.
 
-* **Transparencia** Elija la opción Transparencia.
+* ****
+TransparenciaElija la opción Transparencia.
 
-* **Tolerancia** Arrastre el control deslizante para especificar una tolerancia de 0 a 1:
+* ****
+ToleranciaArrastre el control deslizante para especificar una tolerancia de 0 a 1:
 
-* **Recorte basado en color** Especifique 0 para recortar píxeles solo si coinciden exactamente con el color seleccionado en la esquina de la imagen. Los números más cercanos a 1 permiten una mayor diferencia de color.
+* **Recorte basado en**
+colorEspecifique 0 para recortar píxeles solo si coinciden exactamente con el color seleccionado en la esquina de la imagen. Los números más cercanos a 1 permiten una mayor diferencia de color.
 
-* **Recorte basado en transparencia** Especifique 0 para recortar píxeles solo si son totalmente transparentes; los números más cercanos a 1 permiten una mayor transparencia.
+* **Recorte basado en**
+transparenciaEspecifique 0 para recortar píxeles solo si son totalmente transparentes; los números más cercanos a 1 permiten una mayor transparencia.
 
 **Recorte manual de los lados de imágenes**
 
@@ -55,11 +61,14 @@ Para recortar manualmente de los lados de una imagen, seleccione el menú Recort
 
 Elija una opción Perfil de color para seleccionar un espacio de color para la imagen:
 
-* **Convertir a sRGB** se convierte a sRGB (Standard Red Green Blue). SRGB es el espacio de color que se recomienda para mostrar imágenes en páginas web.
+* **Convertir a**
+sRGBConvertidos a sRGB (Standard Red Green Blue). SRGB es el espacio de color que se recomienda para mostrar imágenes en páginas web.
 
-* **Mantener espacio** de color original Conserva el espacio de color original.
+* **Mantener**
+espacio de color originalConserva el espacio de color original.
 
-* **Personalizado de > Para** abre los menús para que pueda elegir un espacio de color Convertir de y Convertir en. Puede elegir un espacio de color estándar de Photoshop o un espacio de color que haya cargado en Dynamic Media Classic.
+* **Personalizado de >**
+AAbre los menús para que pueda elegir un espacio de color Convertir de y Convertir a. Puede elegir un espacio de color estándar de Photoshop o un espacio de color que haya cargado en Dynamic Media Classic.
 
 Consulte [Perfiles ICC](icc-profiles.md#icc_profiles).
 
@@ -84,7 +93,7 @@ En Máscara de enfoque, establezca las opciones que desee. Las opciones de confi
 
 Consulte también [Enfoque de imágenes](sharpening-image.md#sharpening_an_image).
 
-Consulte también [Enfoque de imágenes en Scene7 Publishing System y en el servidor](/help/assets/s7_sharpening_images.pdf)de imágenes.
+Consulte también [Enfoque de imágenes en Scene7 Publishing System y en Image Server](/help/assets/s7_sharpening_images.pdf).
 
 **Fondo de cobertura**
 
