@@ -27,8 +27,8 @@ Para crear un ajuste preestablecido de visor de conjuntos de giros, siga estos p
 1. Haga clic en **Ajustes** > **Ajustes preestablecidos de visor**.
 1. Realice una de las siguientes acciones:
 
-   * To create a new preset, click **Add**, then in the Add Viewer Preset dialog box, choose a platform, and click **Spin Set Viewer**.
-   * To edit an existing Spin Set Viewer preset, select the preset and click **Edit**.
+   * Para crear un nuevo ajuste preestablecido, haga clic en **Añadir** y, en el cuadro de diálogo Añadir ajuste preestablecido de visor, elija una plataforma y haga clic en **Visor de conjuntos de giros**.
+   * Para editar un ajuste preestablecido de visor de conjuntos de giros existente, selecciónelo y haga clic en **Editar**.
 
    Se abrirá la pantalla Configurar visor.
 
