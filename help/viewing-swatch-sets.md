@@ -31,8 +31,8 @@ Puede crear y personalizar ajustes preestablecidos de visor de acuerdo con sus n
 1. Haga clic en **Ajustes** > **Ajustes preestablecidos de visor**.
 1. Realice una de las siguientes acciones:
 
-   * To create a new preset, click **Add**. In the Add Viewer Preset dialog box, choose a platform, choose Swatch Set Viewer, then click **Add**.
-   * To edit an existing Swatch Set Viewer preset, select the preset, then click **Edit**.
+   * Para crear un nuevo ajuste preestablecido, haga clic en **Añadir**. En el cuadro de diálogo Añadir ajuste preestablecido de visor, elija una plataforma, seleccione Visor de conjuntos de muestras y haga clic en **Añadir**.
+   * Para editar un ajuste preestablecido de visor de conjuntos de muestras existente, selecciónelo y haga clic en **Editar**.
 
 1. Escriba un nombre en el cuadro Nombre de ajuste preestablecido para el ajuste preestablecido del visor de conjuntos de muestras.
 1. Elija las opciones deseadas en la pantalla Configurar visor. 
@@ -54,7 +54,7 @@ Utilice Vista previa para comprobar cómo se muestra un recurso en una plataform
    * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en **Vista de lista**. En la ventana Recursos, pase el cursor por un recurso y, a continuación, haga clic en **Vista previa**.
    * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en **Vista de cuadrícula**. En la ventana Recursos, en la ventana de una miniatura de un recurso, haga clic en **Vista previa**.
    * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en **Vista de detalles**. En la misma barra de herramientas, haga clic en **Vista previa**.
-   * En la ventana Recursos, seleccione un recurso. On the toolbar, click **File** > **Preview**.
+   * En la ventana Recursos, seleccione un recurso. En la barra de herramientas, haga clic en **Archivo** > **Previsualización**.
 
 1. (Opcional) En la lista desplegable de la parte inferior de la ventana Vista previa, seleccione la codificación de URL que desee aplicar a la dirección URL del recurso cuando se copie.
 1. Haga clic en el vínculo de un visor para obtener la vista previa del recurso en el visor seleccionado.
