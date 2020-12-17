@@ -26,9 +26,9 @@ Al publicar la plantilla, ésta se coloca en los servidores de imágenes de Dyna
 >
 >Para usar la plantilla, publique todo el contenido utilizado para crearla, incluidas fuentes e imágenes. Si no incluye todos los campos requeridos, aparecerá un mensaje de error durante la publicación.
 
-## Marcado de plantillas para publicación {#marking-templates-for-publish}
+## Marcado de plantillas para publicación  {#marking-templates-for-publish}
 
-Las plantillas y todos sus archivos de compatibilidad deben marcarse para la publicación para que se puedan colocar en los servidores de imágenes de Dynamic Media. You can mark these items for publish in the Browse Panel by clicking the **Mark for Publish** icon.
+Las plantillas y todos sus archivos de compatibilidad deben marcarse para la publicación para que se puedan colocar en los servidores de imágenes de Dynamic Media. Puede marcar estos elementos para publicación en el panel Examinar haciendo clic en el icono **Marcar para publicación**.
 
 ## Publicación de la plantilla {#publishing-your-template}
 
