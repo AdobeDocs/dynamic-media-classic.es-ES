@@ -24,23 +24,23 @@ Los ajustes de estilo de Media Portal le permiten aplicar un estilo de marca a l
 
 Para acceder a los ajustes de estilo, elija **Ajustes** > **Configuración de Media Portal** > **Configuración de estilo**. Asegúrese de hacer clic en **Guardar** para guardar la configuración después de realizarla. Puede hacer clic en **Restaurar** para recuperar la configuración predeterminada. A medida que vaya seleccionando, el panel Vista previa irá mostrando cómo quedan las opciones que vaya eligiendo.
 
-**Logotipo** Haga clic en Examinar y elija un gráfico en la ventana Seleccionar imagen de logotipo.
+**** LogotipoHaga clic en Examinar y elija un gráfico en la ventana Seleccionar imagen de logotipo.
 
-**Aplicación** Cree una mezcla de colores de degradado mediante las opciones de los menús Colores de degradado de fondo.
+**** AplicaciónCree una mezcla de colores de degradado mediante las opciones de los menús Colores de degradado de fondo.
 
-**Árbol** Elija un color de rollover (el color que aparece al mover el puntero sobre un elemento) y un color de selección (el color que aparece al seleccionar un elemento).
+**** ÁrbolElija un color de rollover (el color que aparece al mover el puntero sobre un elemento) y un color de selección (el color que aparece al seleccionar un elemento).
 
-**Acordeón** Elija colores de fondo, un estilo de borde y colores de rollover y seleccionados para el acordeón que aparece en la parte derecha de la pantalla en la vista Detalles.
+**** AcordeónElija colores de fondo, un estilo de borde y colores de rollover y seleccionados para el acordeón que aparece a la derecha de la pantalla en la vista Detalles.
 
-**Encabezado** de acordeón Elija si desea que el texto del encabezado de acordeón aparezca en negrita.
+**Encabezado** de acordeónElija si desea que el texto del encabezado de acordeón aparezca en negrita.
 
-**Cuadrícula de datos** Elija colores para la fila de encabezado en las cuadrículas de datos.
+**Barra** de datosElija colores para la fila de encabezado en las cuadrículas de datos.
 
-**Alerta** Elija un color de fondo para los cuadros de mensaje de alerta.
+**** AlertaElija un color de fondo para los cuadros de mensaje de alerta.
 
-**Barra** de progreso Elija un color para la barra que indique el progreso de las cargas y descargas.
+**Barra** de progresoElija un color para la barra que indique el progreso de las cargas y descargas.
 
-For Media Portal users to see the style settings you choose, they must append `?company=(company name)` to the URL with which they access Media Portal. Por ejemplo, para ver los ajustes de estilo, los usuarios de Media Portal que accedan a la empresa PortalCo mediante la siguiente URL:
+Para que los usuarios de Media Portal puedan ver la configuración de estilo que elija, deben anexar `?company=(company name)` a la URL con la que acceden a Media Portal. Por ejemplo, para ver los ajustes de estilo, los usuarios de Media Portal que accedan a la empresa PortalCo mediante la siguiente URL:
 
 `https://s7sps1.scene7.com/MediaPortal`
 
