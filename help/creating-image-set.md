@@ -22,7 +22,7 @@ ht-degree: 89%
 
 Para crear un conjunto de imágenes con varias vistas, necesita imágenes que muestren un elemento desde distintos puntos de vista o que muestren distintos aspectos del mismo elemento. El objetivo es que las imágenes del elemento que vean los usuarios les den una idea clara de cuál es su aspecto y función.
 
-## Creación de un conjunto de imágenes {#create}
+## Creación de un conjunto de imágenes  {#create}
 
 Al crear un conjunto, la opción **Publicar después de guardar** afecta al conjunto y a los miembros del conjunto de las siguientes formas:
 
@@ -37,16 +37,16 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 1. Realice una de las siguientes acciones:
 
-   **Seleccione las imágenes primero** En el panel Examinar, seleccione las imágenes que desee para el conjunto de imágenes y haga clic en Generar > Conjuntos de imágenes.
+   **Seleccione las imágenes** primeroEn el panel Examinar, seleccione las imágenes que desee para el conjunto de imágenes y haga clic en Generar > Conjuntos de imágenes.
 
-   **Inicio en la pantalla** Conjunto de imágenes Haga clic en Generar > Conjuntos de imágenes. Aparecerá la pantalla Conjunto de imágenes. Seleccione una carpeta en la biblioteca de recursos y arrastre las imágenes que desea agregar al conjunto de imágenes a la pantalla Conjunto de imágenes.
+   **Inicio desde la** pantalla Conjunto de imágenesHaga clic en Generar > Conjuntos de imágenes. Aparecerá la pantalla Conjunto de imágenes. Seleccione una carpeta en la biblioteca de recursos y arrastre las imágenes que desea agregar al conjunto de imágenes a la pantalla Conjunto de imágenes.
 
 1. Para cambiar el orden de las imágenes, arrastre cada una a su nueva ubicación.
 1. Asegúrese de que esté seleccionada la opción **Publicar después de guardar** (predeterminada), cerca de la esquina inferior derecha de la página.
 1. Haga clic en **Guardar**, seleccione una carpeta para almacenar su conjunto de imágenes, escriba un nombre para el conjunto y haga clic en **Guardar**.
 1. Para ver su conjunto de imágenes en el visor de conjuntos de imágenes, haga clic en **Vista previa** en la pantalla Conjunto de imágenes. Puede hacer clic en las muestras de miniaturas del visor de conjuntos de imágenes para ver el resultado.
 
-## Edición de un conjunto de imágenes {#editing-an-image-set}
+## Edición de un conjunto de imágenes  {#editing-an-image-set}
 
 Según si edita un conjunto publicado o sin publicar, la opción **Publicar después de guardar** afecta al conjunto y a los miembros del conjunto de las siguientes formas:
 
@@ -71,7 +71,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 1. Cuando haya terminado de editar el conjunto, asegúrese de que esté seleccionada la opción **Publicar después de guardar** (predeterminada), cerca de la esquina inferior derecha de la página.
 1. Haga clic en **Guardar**, seleccione una carpeta para almacenar el conjunto, escriba un nombre para el conjunto y haga clic en **Guardar**.
 
-## Eliminación de un conjunto de imágenes {#deleting-an-image-set}
+## Eliminación de un conjunto de imágenes  {#deleting-an-image-set}
 
 Cuando se elimina un conjunto, el conjunto en sí se mueve a la papelera. Sin embargo, los miembros (o “elementos secundarios”) dentro de dicho conjunto no se verán afectados; cada uno mantendrá su estado existente de publicación o no.
 
