@@ -2,7 +2,7 @@
 title: Uso de archivos de PostScript e Illustrator
 seo-title: Uso de archivos de PostScript e Illustrator
 description: nulo
-seo-description: Aprenda a trabajar con archivos PostScript e Illustrator.
+seo-description: Aprenda a trabajar con archivos PostScript y Illustrator.
 uuid: 36dee172-8bd4-45a9-820b-c2ca319edf20
 contentOwner: admin
 content-type: reference
@@ -20,22 +20,30 @@ ht-degree: 45%
 
 # Uso de archivos de PostScript e Illustrator{#working-with-postscript-and-illustrator-files}
 
-Puede utilizar archivos de Adobe® PostScript® (EPS) y Adobe® Illustrator® (AI) en Dynamic Media Classic. Dynamic Media Classic oferta comandos para configurar estos archivos al cargarlos.
+Puede utilizar archivos PostScript® (EPS) y Adobe® Illustrator® (AI) de Adobe® en Dynamic Media Classic. Dynamic Media Classic oferta comandos para configurar estos archivos al cargarlos.
 
 Al cargar archivos de imagen PostScript (EPS) o Illustrator (AI), se les puede dar formato de varias formas. Puede rasterizar los archivos, convertirlos a FXG para la publicación de plantillas, mantener el fondo transparente, seleccionar una resolución y elegir un espacio de color. Las opciones para dar formato a archivos de PostScript e Illustrator están disponibles en la pantalla Cargar, en Opciones de PostScript y Opciones de Illustrator del cuadro de diálogo Opciones de trabajo de carga.
 
-* **Procesamiento** Seleccione Rasterizar para convertir los gráficos vectoriales del archivo al formato de mapa de bits.
+* ****
+ProcesamientoSeleccione Rasterizar para convertir los gráficos vectoriales del archivo al formato de mapa de bits.
 
-* **Mantener fondo transparente en imagen** procesada Mantiene la transparencia del fondo del archivo.
+* **Mantener fondo transparente en**
+imagen procesadaMantiene la transparencia de fondo del archivo.
 
-* **Resolución** Determina la configuración de resolución. Este valor determina cuántos píxeles se muestran por pulgada en el archivo.
+* ****
+ResoluciónDetermina la configuración de resolución. Este valor determina cuántos píxeles se muestran por pulgada en el archivo.
 
-* **Espacio** de color Seleccione el menú Espacio de color y elija un espacio de color:
+* **Espacio**
+de colorSeleccione el menú Espacio de color y elija un espacio de color:
 
-* **Detectar automáticamente** conserva el espacio de color del archivo.
+* **Detectar**
+automáticamenteConserva el espacio de color del archivo.
 
-* **Forzar RGB** se convierte al espacio de color RGB.
+* **Forzar como**
+RGBConvierte al espacio de color RGB.
 
-* **Forzar como CMYK** convierte al espacio de color CMYK.
+* **Forzar como**
+CMYKConvierte al espacio de color CMYK.
 
-* **Forzar como escala de grises** se convierte al espacio de color de escala de grises.
+* **Forzar**
+escala de grisesConvierte al espacio de color de escala de grises.
