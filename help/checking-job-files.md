@@ -28,31 +28,31 @@ Cuando carga recursos, aparece un icono que gira junto al menú Trabajos que ind
 >
 >También puede acceder a la lista con las publicaciones recientes desde la página Actividad reciente. Haga clic en Reciente en la barra de navegación global para abrir esta página.
 
-## Acerca de la página Trabajos {#about-the-jobs-page}
+## Acerca de la página Trabajos  {#about-the-jobs-page}
 
 Seleccione el botón Trabajos en la barra de navegación global para abrir la página Trabajos. De forma predeterminada, la lista de trabajos empieza por los trabajos más recientes.
 
 En la ficha Historial de la página Trabajos, los trabajos se clasifican según estas categorías:
 
-**Tipo** de trabajo Un icono indica el tipo de trabajo: Cargar y publicar son los tipos de trabajo más comunes.
+**Tipo** de trabajoUn icono indica el tipo de trabajo: Cargar y publicar son los tipos de trabajo más comunes.
 
-**Nombre** del trabajo El nombre del trabajo. El nombre está formado por la parte introducida por el usuario y el sello de fecha y hora.
+**Nombre** del trabajoNombre del trabajo. El nombre está formado por la parte introducida por el usuario y el sello de fecha y hora.
 
-**Iniciado** Cuando se inició el trabajo.
+**** IniciadoAl iniciar el trabajo.
 
-**Total** El número de archivos transferidos.
+**** TotalEl número de archivos transferidos.
 
 **W (advertencias)** El número de advertencias en el trabajo (si las hay). Las advertencias indican los problemas sobre el trabajo que no afectan a la finalización del mismo. Normalmente, estas advertencias pueden omitirse porque se refieren a archivos ocultos. Por ejemplo, los archivos .DS_store (Macintosh) y Thumbs.db (Windows) contienen información sobre la manera en que los usuarios finales ven los archivos de imagen. Sin embargo, las entradas de advertencia relativas a estos archivos se pueden ignorar porque no se refieren a cómo se utilizan estos archivos en Dynamic Media Classic. Si desea obtener información detallada sobre las advertencias, puede hacer doble clic en el nombre de trabajo.
 
 **E (errores)** Lista el número de errores en el trabajo (si los hay). Si desea obtener información detallada sobre los errores, puede hacer doble clic en el nombre de trabajo.
 
-**Duración** Cuánto tiempo lleva completar el trabajo.
+**** DuraciónTiempo que se tarda en completar el trabajo.
 
-**Estado** Muestra el estado del trabajo.
+**** EstadoMuestra el estado del trabajo.
 
-**Destino** Para los trabajos de carga, el nombre de la compañía y la carpeta en la que se cargaron los archivos. Esta categoría no se aplica a los trabajos de publicación.
+**** DestinoPara los trabajos de carga, el nombre de la compañía y la carpeta en la que se cargaron los archivos. Esta categoría no se aplica a los trabajos de publicación.
 
-**Enviado por** Listas que cargaron los recursos.
+**Enviado** porListas que cargaron los recursos.
 
 ***Nota **: Puede cancelar los trabajos de publicación y carga en curso haciendo clic en el botón Cancelar situado junto a la barra de progreso.*
 
@@ -60,13 +60,13 @@ En la ficha Historial de la página Trabajos, los trabajos se clasifican según 
 
 Para ordenar trabajos o cambiar la vista de la ficha Historial en la página Trabajos, utilice estas técnicas:
 
-**Clasificación** Seleccione un nombre de columna para ordenar la lista por una columna concreta. Para cambiar entre el orden ascendente o descendente, seleccione la flecha que aparece al lado del nombre de la columna.
+**** ClasificaciónSeleccione un nombre de columna para ordenar la lista por una columna concreta. Para cambiar entre el orden ascendente o descendente, seleccione la flecha que aparece al lado del nombre de la columna.
 
-**Intervalo** de fechas Seleccione el menú Intervalo de fechas y elija una opción para reducir la lista de trabajos a la fecha actual, a la semana anterior o al mes anterior. Elija Intervalo de fechas personalizado para introducir un intervalo de fechas específico.
+**Intervalo de** fechasSeleccione el menú Intervalo de fechas y elija una opción para reducir la lista de trabajos a la fecha actual, a la semana anterior o al mes anterior. Elija Intervalo de fechas personalizado para introducir un intervalo de fechas específico.
 
-**Tipo** de trabajo Seleccione el menú Tipo de trabajo y elija Publicar o Cargar para reducir la lista de publicación de trabajos o carga de trabajos. Elija Todo para ver ambos tipos de trabajo.
+**Tipo** de trabajoSeleccione el menú Tipo de trabajo y elija Publicar o Cargar para reducir la lista de publicación de trabajos o de carga. Elija Todo para ver ambos tipos de trabajo.
 
-**Mostrar** Seleccione Mostrar > Mis trabajos o Mostrar > Todos los trabajos para reducir la lista a los trabajos que ha pedido o a los trabajos que han pedido las personas de la compañía.
+**** MostrarSeleccione Mostrar > Mis trabajos o Mostrar > Todos los trabajos para reducir la lista a los trabajos que ha pedido o a los trabajos que han pedido las personas de la compañía.
 
 ## Ver, copiar o imprimir un informe de Detalles del trabajo {#viewing-copying-or-printing-a-job-details-report}
 
@@ -88,17 +88,17 @@ Seleccione el botón Trabajos en la barra de navegación global y, una vez en la
 >
 >La lista de trabajos de esta ficha puede filtrarse con los menús Tipo de trabajo y Mostrar. Elija un tipo de trabajo para reducir la lista a trabajos de publicación de un tipo específico. Elija la opción Mostrar para mostrar los trabajos creados por usted o los trabajos creados por todos los empleados de su empresa.
 
-### Edición, eliminación, pausa y reanudación de trabajos recurrentes {#editing-deleting-pausing-and-resuming-recurring-jobs}
+### Edición, eliminación, pausa y reanudación de trabajos recurrentes  {#editing-deleting-pausing-and-resuming-recurring-jobs}
 
 Seleccione un trabajo recurrente en la página Trabajos y siga estas instrucciones para editarlo o eliminarlo:
 
-**Edición de un trabajo** recurrente Seleccione el botón Editar e introduzca la información de programación en el cuadro de diálogo Editar trabajo programado. Si desea que el trabajo se repita según un intervalo personalizado, elija Repetir > Personalizar. 
+**Edición de un** trabajo recurrenteSeleccione el botón Editar e introduzca la información de programación en el cuadro de diálogo Editar trabajo programado. Si desea que el trabajo se repita según un intervalo personalizado, elija Repetir > Personalizar. 
 
 Consulte [Creación de un intervalo personalizado para un trabajo de carga o publicación](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
 
-**Eliminación de un trabajo** recurrente Seleccione el botón Eliminar.
+**Eliminación de un** trabajo recurrenteSeleccione el botón Eliminar.
 
-**Pausa (y reanudación) de un trabajo** recurrente En la columna Activo, anule la selección de una casilla de verificación para pausar un trabajo; seleccione una casilla de verificación para reanudar un trabajo en pausa.
+**Pausa (y reanudación) de un** trabajo recurrenteEn la columna Activo, anule la selección de una casilla de verificación para pausar un trabajo; seleccione una casilla de verificación para reanudar un trabajo en pausa.
 
 ### Creación de un intervalo personalizado para un trabajo de carga o publicación {#creating-a-custom-upload-or-publish-job-time-interval}
 
@@ -108,7 +108,7 @@ La sintaxis con que se describen los intervalos para los trabajos de carga y pub
 
 `[seconds]` `[minutes]` `[hour of day]` `[day of month]` `[month]` `[day of week]`
 
-For example, `0 15 10 * * ?` schedules a job at 10:15.00 every day.
+Por ejemplo, `0 15 10 * * ?` programa un trabajo a las 10:15.00 todos los días.
 
 En las tablas y la lista siguientes se explica cómo se describe un intervalo en el cuadro Regla.
 
@@ -151,7 +151,7 @@ En esta lista se pueden ver ejemplos de cómo se describen los intervalos de tie
 * 0 15 10 ? * 6L: a las 10:15 el último sábado de cada mes
 * 0 15 10 * * 5#3: a las 10:15 el tercer viernes de cada mes
 
-## Uso de un trabajo de carga o publicación como desencadenador {#using-an-upload-or-publish-job-as-a-trigger}
+## Uso de un trabajo de carga o publicación como desencadenador  {#using-an-upload-or-publish-job-as-a-trigger}
 
 Al cargar recursos por medio de FTP o al ejecutar un trabajo de publicación, se programa un trabajo posterior que se iniciará en cuanto finalice la carga. (Si hay otros trabajos programados para ese mismo momento, el trabajo que programe aquí se colocará detrás de ellos). El nuevo trabajo envía una notificación a la dirección especificada para activar el código de esa ubicación. Este trabajo de carga que sigue recibe el mismo nombre que el trabajo de carga actual, pero se le añade el prefijo _Pub.
 
