@@ -26,7 +26,7 @@ Se puede crear cualquiera de los siguientes tipos de conjuntos de ofertas:
 * Plantilla parametrizada
 * Imagen
 
-For templates, click **Add and Preview**, then set the parameters you choose. Los otros tipos de conjuntos de ofertas no incluyen parámetros pero, aun así, se pueden personalizar haciendo clic en **Vista previa** y cambiando los ajustes preestablecidos disponibles.
+Para las plantillas, haga clic en **Añadir y Previsualización** y, a continuación, defina los parámetros que elija. Los otros tipos de conjuntos de ofertas no incluyen parámetros pero, aun así, se pueden personalizar haciendo clic en **Vista previa** y cambiando los ajustes preestablecidos disponibles.
 
 Dynamic Media Classic oferta herramientas para la edición y la creación de conjuntos de ofertas.
 
@@ -38,11 +38,14 @@ Dynamic Media Classic oferta herramientas para la edición y la creación de con
 
 Se puede crear un conjunto de ofertas de cualquiera de los siguientes tipos:
 
-* **Imágenes** Puede montar imágenes para un conjunto de ofertas. Cada imagen incluye una oferta diferente en el conjunto.
+* ****
+ImágenesPuede montar imágenes para un conjunto de ofertas. Cada imagen incluye una oferta diferente en el conjunto.
 
-* **Plantilla** de imagen Puede parametrizar plantillas de imagen en Dynamic Media Classic con el comando Generar > Funciones básicas de plantilla. Mediante parámetros, se pueden intercambiar y personalizar los componentes de la plantilla como el texto de los cuadros de texto y las distintas imágenes. Para un conjunto de ofertas, puede utilizar parámetros de plantilla para crear variaciones de la misma imagen en el conjunto de ofertas, por ejemplo. Para obtener más información sobre la creación y la parametrización de plantillas de imagen, consulte Creación de parámetros de plantilla.
+* **Plantilla**
+de imagenPuede parametrizar plantillas de imagen en Dynamic Media Classic con el comando Generar > Funciones básicas de plantilla. Mediante parámetros, se pueden intercambiar y personalizar los componentes de la plantilla como el texto de los cuadros de texto y las distintas imágenes. Para un conjunto de ofertas, puede utilizar parámetros de plantilla para crear variaciones de la misma imagen en el conjunto de ofertas, por ejemplo. Para obtener más información sobre la creación y la parametrización de plantillas de imagen, consulte Creación de parámetros de plantilla.
 
-* **Vídeo** Puede montar vídeo para un conjunto de ofertas. Cada vídeo conforma una oferta distinta en el conjunto.
+* ****
+VídeoPuede montar vídeo para un conjunto de ofertas. Cada vídeo conforma una oferta distinta en el conjunto.
 
 ## Creación de un conjunto de ofertas con una plantilla parametrizada {#creating-an-offer-set-with-a-parameterized-template}
 
@@ -72,12 +75,12 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
    La página Conjunto de Ofertas de Test&amp;Destinatario lista las ofertas creadas.
 
 1. Repita los pasos del 3 al 5 para crear más ofertas para el conjunto.
-1. When you finish, near the lower-right corner of the page, ensure that **Publish after save** is selected (default).
-1. Click **Close**, enter a name for the offer set, and then click **Save**.
+1. Cuando termine, asegúrese de que **Publicar después de guardar** esté seleccionado (predeterminado) cerca de la esquina inferior derecha de la página.
+1. Haga clic en **Cerrar**, escriba un nombre para el conjunto de ofertas y, a continuación, haga clic en **Guardar**.
 
 Antes de cerrar la página Conjunto de Ofertas de Test&amp;Destinatario, inserte el conjunto de ofertas en Target Standard/Premium. Consulte [Transferencia de conjuntos de ofertas a Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
-## Creating an offer set with images or videos {#creating-an-offer-set-with-images-or-videos}
+## Creación de un conjunto de ofertas con imágenes o vídeos {#creating-an-offer-set-with-images-or-videos}
 
 Al crear un conjunto de ofertas, la opción **Publicar después de guardar** afecta al conjunto y a los miembros del conjunto de las siguientes formas:
 
@@ -92,9 +95,11 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 1. Monte imágenes o vídeos para el conjunto de ofertas. Inicio en la pantalla Conjunto de Ofertas de Test&amp;Destinatario o en la Vista de Lista o Vista de cuadrícula y utilice uno de los siguientes métodos:
 
-   * **Pantalla** Conjunto de Ofertas de Test&amp;Destinatario Haga clic en **[!UICONTROL Generar > Conjunto]** de Ofertas de Test&amp;Destinatario. Arrastre las imágenes o los vídeos a la pantalla. Para crear vídeos o imágenes de distintos tamaños, arrastre varias copias de la imagen o del vídeo y defina cada tamaño de manera individual.
+   * **Conjunto de Ofertas de Test&amp;Destinatario,**
+pantallaHaga clic en  **[!UICONTROL Generar > Conjunto]** de Ofertas de Test&amp;Destinatario. Arrastre las imágenes o los vídeos a la pantalla. Para crear vídeos o imágenes de distintos tamaños, arrastre varias copias de la imagen o del vídeo y defina cada tamaño de manera individual.
 
-   * **Vista** de cuadrícula o Lista Seleccione las imágenes o los vídeos y, a continuación, haga clic en **[!UICONTROL Generar > Conjunto]** de Ofertas de Test&amp;Destinatario.
+   * **Vista de cuadrícula o**
+de ListaSeleccione las imágenes o los vídeos y, a continuación, haga clic en  **[!UICONTROL Generar > Conjunto]** de Ofertas de Test&amp;Destinatario.
 
 1. Si lo desea, seleccione una imagen o un vídeo y haga clic en **Vista previa**. En la página Ofertas de Previsualización, puede cambiar el tamaño y el aspecto de la imagen o el vídeo que ha seleccionado. O bien, puede cambiar todas las imágenes o vídeos del conjunto de ofertas.
 
@@ -103,12 +108,12 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
    Haga clic en **Guardar** para guardar los cambios en la oferta de imagen o vídeo. A continuación, haga clic en **Cerrar** para volver a la pantalla Conjuntos de ofertas de Test&amp;Target.
 
-1. After you finish creating offers for the offer set and choosing Image Presets for different images, ensure that **Publish after save** is selected (default).
+1. Una vez que haya terminado de crear ofertas para el conjunto de ofertas y de elegir ajustes preestablecidos de imagen para distintas imágenes, asegúrese de que **Publicar después de guardar** está seleccionado (predeterminado).
 1. Haga clic en **Guardar**, especifique un nombre para el conjunto de ofertas y haga clic en **Guardar**.
 
 Antes de cerrar la página Conjunto de Ofertas de Test&amp;Destinatario, inserte el conjunto de ofertas en Target Standard/Premium. Consulte [Transferencia de conjuntos de ofertas a Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
-## Edición de un conjunto de ofertas {#editing-an-offer-set}
+## Edición de un conjunto de ofertas  {#editing-an-offer-set}
 
 Según si edita un conjunto publicado o sin publicar, la opción **Publicar después de guardar** afecta al conjunto y a los miembros del conjunto de las siguientes formas:
 
@@ -123,23 +128,27 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 **Para editar un conjunto de ofertas**
 
-1. To edit an offer set, display the offer set in Grid view or List view, and then click its **Edit** rollover button.
+1. Para editar un conjunto de ofertas, muestre el conjunto de ofertas en la vista de cuadrícula o en la vista de Lista y, a continuación, haga clic en su botón de rollover **Editar**.
 1. En la página Conjunto de Ofertas de Test&amp;Destinatario, realice una de las siguientes acciones:
 
-   * **Eliminación de una oferta** Seleccione la oferta y, a continuación, haga clic en 
-**Elimine** para eliminar una oferta del conjunto.
-   * **Añadir una oferta** La forma de agregar una oferta depende del tipo de conjunto de ofertas con el que esté trabajando:
-   * **Plantillas** Clic 
+   * **Eliminación de una**
+ofertaSeleccione la oferta y, a continuación, haga clic en 
+**** Elimine para quitar una oferta del conjunto.
+   * **Añadir una**
+ofertaEl modo de agregar una oferta depende del tipo de conjunto de ofertas con el que esté trabajando:
+   * ****
+TemplatesClick 
 **Añadir y Previsualización**, y en la página Añadir y Ofertas de Previsualización, cree otra oferta.
-   * **Imágenes y vídeos** Arrastre una imagen o un vídeo a la página Conjunto de Ofertas de Test&amp;Destinatario.
+   * **Imágenes y**
+vídeosArrastre una imagen o un vídeo a la página Conjunto de Ofertas de Test&amp;Destinatario.
    >[!NOTE]
    >
    >No puede eliminar un conjunto de ofertas que esté asociado a una campaña. Para eliminar un conjunto de ofertas asociado a una campaña, inicie sesión en Target Standard/Premium y elimine primero las asociaciones de campañas. Incluso después de anular la asociación de una campaña, el recurso solo se puede eliminar de Dyanmic Media Classic, lo que requiere iniciar sesión en Target Standard/Premium y no desde Target Standard/Premium.
 
-1. When you finish editing, near the lower-right corner of the page, ensure that **Publish after save** is selected (default).
+1. Cuando termine de editar, asegúrese de que **Publicar después de guardar** esté seleccionado (predeterminado) cerca de la esquina inferior derecha de la página.
 1. Haga clic en **Guardar**, seleccione una carpeta de almacenamiento, especifique un nombre para el conjunto y haga clic en **Guardar**.
 
-## Eliminación de un conjunto de ofertas {#deleting-an-offer-set}
+## Eliminación de un conjunto de ofertas  {#deleting-an-offer-set}
 
 Cuando se elimina un conjunto de ofertas, el conjunto en sí se mueve a la papelera. Sin embargo, los miembros (o “elementos secundarios”) dentro de dicho conjunto no se verán afectados; cada uno mantendrá su estado existente de publicación o no.
 
