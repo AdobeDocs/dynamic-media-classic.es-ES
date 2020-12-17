@@ -26,13 +26,13 @@ En la parte de reproducción del visor, se detecta de forma automática la funci
 
 Al combinar en un solo reproductor la capacidad para diseñar los componentes reproducción mediante HTML5 y CSS, tener la reproducción incorporada y usar flujo adaptable y progresivo en función de la capacidad del navegador, se amplía el alcance del contenido de medios enriquecidos para los usuarios móviles y escritorio y se garantiza una experiencia optimizada de vídeo.
 
-Consulte también [Acerca de los visores](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html) HTML5 en la Guía de referencia de visores de Adobe.
+Consulte también [Acerca de los visores HTML5](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html) en la Guía de referencia de visores de Adobe.
 
 ## Reproducción de vídeo en equipos de escritorio y dispositivos móviles mediante el visor de vídeo Dynamic Media Classic {#playback-of-video-on-desktop-computers-and-mobile-devices-using-the-scene-video-viewer}
 
 Para el flujo continuo de vídeo adaptable móvil y de escritorio, los vídeos utilizados para el cambio de velocidad de bits se basan en todos los vídeos MP4 del conjunto de vídeos adaptable.
 
-La reproducción de vídeo se produce mediante HLS o vídeo progresivo. HLS (HTTP Live Streaming) es un estándar de Apple para el flujo de vídeo adaptable que ajusta automáticamente la reproducción en función de la capacidad de ancho de banda de la red. También permite al cliente &quot;buscar&quot; en cualquier punto del vídeo sin necesidad de esperar a que se descargue el resto del vídeo. Consulte también Flujo [HTTP en directo](https://developer.apple.com/streaming/). El vídeo progresivo se entrega descargando y almacenando el vídeo localmente en la pantalla de escritorio o en el dispositivo móvil del usuario.
+La reproducción de vídeo se produce mediante HLS o vídeo progresivo. HLS (HTTP Live Streaming) es un estándar de Apple para el flujo de vídeo adaptable que ajusta automáticamente la reproducción en función de la capacidad de ancho de banda de la red. También permite al cliente &quot;buscar&quot; en cualquier punto del vídeo sin necesidad de esperar a que se descargue el resto del vídeo. Consulte también [HTTP Live Streaming](https://developer.apple.com/streaming/). El vídeo progresivo se entrega descargando y almacenando el vídeo localmente en la pantalla de escritorio o en el dispositivo móvil del usuario.
 
 En la tabla siguiente se describe el dispositivo, el navegador y el método de reproducción de vídeos en equipos de escritorio y dispositivos móviles que utilizan el visor de vídeo Dynamic Media Classic.
 
