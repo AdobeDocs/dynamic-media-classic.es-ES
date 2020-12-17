@@ -30,9 +30,9 @@ Las opciones de carga de archivos PSD están disponibles en Opciones de Photosho
 
 Estas opciones están disponibles al cargar archivos PSD:
 
-**Recortar** (en Opciones de recorte). Elija Recortar para recortar automáticamente espacio en blanco de los bordes de un archivo PSD; elija Manual para recortar los lados del archivo PSD:
+**Recortar**  (en Opciones de recorte). Elija Recortar para recortar automáticamente espacio en blanco de los bordes de un archivo PSD; elija Manual para recortar los lados del archivo PSD:
 
-**Recortar** Seleccione el menú Recortar basándose en y elija Color o Transparencia.
+**** RecortarSeleccione el menú Recortar basándose en y elija Color o Transparencia.
 
 Si selecciona la opción Color, seleccione el menú Esquina y elija la esquina del PSD que mejor represente el color de espacio en blanco que desea recortar.
 
@@ -42,35 +42,35 @@ Para un recorte basado en color, especifique 0 para recortar píxeles solo si co
 
 Para un recorte basado en transparencia, especifique 0 para recortar píxeles solo si son totalmente transparentes; los números más cercanos a 1 permiten una mayor transparencia.
 
-**Manual** Introduzca el número de píxeles que desea recortar de cualquier lado o de cada lado de la imagen. La cantidad de imagen que se recorte dependerá del valor ppp (píxeles por pulgada) en el archivo de imagen. Por ejemplo, si la imagen muestra 150 ppp y se introduce 75 en los cuadros de texto Superior, Derecha, Inferior e Izquierda, se recortará media pulgada de cada lado de la imagen.
+**** ManualIntroduzca el número de píxeles que desea recortar de cualquier lado o de cada lado de la imagen. La cantidad de imagen que se recorte dependerá del valor ppp (píxeles por pulgada) en el archivo de imagen. Por ejemplo, si la imagen muestra 150 ppp y se introduce 75 en los cuadros de texto Superior, Derecha, Inferior e Izquierda, se recortará media pulgada de cada lado de la imagen.
 
-**Perfil** de color (en Opciones de Perfil de color). Elija una opción:
+**Perfil**  de color (situado en Opciones de Perfil de color). Elija una opción:
 
-**Convertir a sRGB (predeterminado)** convierte a sRGB (estándar rojo verde azul). SRGB es el espacio de color que se recomienda para mostrar imágenes en páginas web.
+**Convertir a sRGB (predeterminado)** Convierte a sRGB (Standard Red Green Blue). SRGB es el espacio de color que se recomienda para mostrar imágenes en páginas web.
 
-**Mantener espacio** de color original Conserva el espacio de color original de la imagen.
+**Mantener** espacio de color originalConserva el espacio de color original de la imagen.
 
-**Personalizado de > Para** abre los menús para que pueda elegir un espacio de color Convertir de y Convertir en. Puede elegir un espacio de color estándar de Photoshop o un espacio de color que haya cargado en Dynamic Media Classic. Consulte Perfiles ICC.
+**Personalizado de >** AAbre los menús para que pueda elegir un espacio de color Convertir de y Convertir a. Puede elegir un espacio de color estándar de Photoshop o un espacio de color que haya cargado en Dynamic Media Classic. Consulte Perfiles ICC.
 
-**Mantener capas** Extrae las capas del archivo PSD, si las hay, en recursos individuales. Las capas de recursos permanecen asociadas al PSD. Para verlas, abra el archivo PSD en la vista de detalles y seleccione el panel de capas. Consulte Visualización y edición de capas de archivos PSD.
+**Mantener** capasExtrae las capas del archivo PSD, si las hay, en recursos individuales. Las capas de recursos permanecen asociadas al PSD. Para verlas, abra el archivo PSD en la vista de detalles y seleccione el panel de capas. Consulte Visualización y edición de capas de archivos PSD.
 
-**Crear plantilla** Crea una plantilla a partir de las capas del archivo PSD.
+**Crear** plantillaCrea una plantilla a partir de las capas del archivo PSD.
 
-**Extraer texto** Extrae el texto para que los usuarios puedan buscar texto en un visor.
+**Extraer** textoExtrae el texto para que los usuarios puedan buscar texto en un visor.
 
-**Ampliar capas a tamaño** de fondo Extiende el tamaño de las capas de imagen extraídas al tamaño de la capa de fondo.
+**Ampliar capas a** tamaño de fondoAmplía el tamaño de las capas de imagen extraídas al tamaño de la capa de fondo.
 
-**Las capas de nombres** de capas del archivo PSD se cargan como imágenes independientes. Elija una opción para asignar un nombre a estas imágenes en Dynamic Media Classic:
+**Nombres de** capasLas capas del archivo PSD se cargan como imágenes independientes. Elija una opción para asignar un nombre a estas imágenes en Dynamic Media Classic:
 
-**Nombre** de la capaAsigna un nombre a las imágenes después de los nombres de sus capas en el archivo PSD. Por ejemplo, una capa con el nombre Etiqueta de precio en el archivo PSD original se convierte en una imagen con el nombre Etiqueta de precio. Sin embargo, si los nombres de capa en el archivo PSD son de forma predeterminada nombres de capa de Photoshop (Fondo, Capa 1, Capa 2, etc), las imágenes recibirán como nombre su número de capa en el archivo PSD, no su nombre de capa predeterminado.
+**Nombre de** capaAsigne un nombre a las imágenes después de los nombres de sus capas en el archivo PSD. Por ejemplo, una capa con el nombre Etiqueta de precio en el archivo PSD original se convierte en una imagen con el nombre Etiqueta de precio. Sin embargo, si los nombres de capa en el archivo PSD son de forma predeterminada nombres de capa de Photoshop (Fondo, Capa 1, Capa 2, etc), las imágenes recibirán como nombre su número de capa en el archivo PSD, no su nombre de capa predeterminado.
 
-**Photoshop y Número** de capaAsigna un nombre a las imágenes después de los números de capa en el archivo PSD, omitiendo los nombres de capa originales. Las imágenes reciben el nombre del archivo de Photoshop y un sufijo de número de capa. Por ejemplo, la segunda capa de un archivo con el nombre Anuncio primavera.psd recibirá el nombre Anuncio primavera_2 aunque tenga un nombre no predeterminado en Photoshop.
+**Photoshop y** Número de capaAsigne un nombre a las imágenes después de sus números de capa en el archivo PSD, omitiendo los nombres de capa originales. Las imágenes reciben el nombre del archivo de Photoshop y un sufijo de número de capa. Por ejemplo, la segunda capa de un archivo con el nombre Anuncio primavera.psd recibirá el nombre Anuncio primavera_2 aunque tenga un nombre no predeterminado en Photoshop.
 
-**Nombre** de capa y PhotoshopNombre las imágenes después del archivo PSD seguido del nombre o el número de capa. El número de capa se utiliza si los nombres de capa en el archivo PSD son nombres de capa predeterminados de Photoshop. Por ejemplo, una capa con el nombre Etiqueta de precio en un archivo PSD con el nombre Anuncio primavera se llamará Anuncio primavera_Etiqueta de precio. Una capa con el nombre predeterminado Capa 2 se llamará Anuncio primavera_2.
+**Photoshop y** Nombre de capaAsigne un nombre a las imágenes después del archivo PSD seguido del nombre o el número de capa. El número de capa se utiliza si los nombres de capa en el archivo PSD son nombres de capa predeterminados de Photoshop. Por ejemplo, una capa con el nombre Etiqueta de precio en un archivo PSD con el nombre Anuncio primavera se llamará Anuncio primavera_Etiqueta de precio. Una capa con el nombre predeterminado Capa 2 se llamará Anuncio primavera_2.
 
-**Anclaje** Especifique cómo se anclan las imágenes en plantillas generadas a partir de la composición por capas producida a partir del archivo PSD. De forma predeterminada, el anclaje es al centro. Un anclaje central permite la sustitución de imágenes para rellenar mejor el mismo espacio, independientemente de la proporción de la imagen de sustitución. Las imágenes con una proporción diferente que sustituyan esta imagen, al hacer referencia a la plantilla y usar la sustitución paramétrica, ocuparán el mismo espacio. Cambie a otra configuración si la aplicación requiere que las imágenes de sustitución rellenen el espacio asignado en la plantilla.
+**** AnclajeEspecifique cómo se anclan las imágenes en plantillas que se generan a partir de la composición por capas generada a partir del archivo PSD. De forma predeterminada, el anclaje es al centro. Un anclaje central permite la sustitución de imágenes para rellenar mejor el mismo espacio, independientemente de la proporción de la imagen de sustitución. Las imágenes con una proporción diferente que sustituyan esta imagen, al hacer referencia a la plantilla y usar la sustitución paramétrica, ocuparán el mismo espacio. Cambie a otra configuración si la aplicación requiere que las imágenes de sustitución rellenen el espacio asignado en la plantilla.
 
-## Visualización y edición de capas de archivos PSD {#viewing-and-editing-layers-in-a-psd-file}
+## Visualización y edición de capas de archivos PSD  {#viewing-and-editing-layers-in-a-psd-file}
 
 Si seleccionó la opción Mantener capas al cargar el archivo PSD, Dynamic Media Classic copió las capas individuales en recursos. Puede visualizar y editar las capas de recurso pertenecientes a un archivo PSD abriendo el archivo en el panel Examinar, en la vista de detalles.
 
