@@ -18,7 +18,7 @@ ht-degree: 49%
 ---
 
 
-# Uploading Zoom images{#uploading-zoom-images}
+# Carga de imágenes de zoom{#uploading-zoom-images}
 
 Las imágenes de zoom deben tener una cantidad elevada de píxeles. Se requiere un número elevado de píxeles para poder ver claramente los detalles de las imágenes al aplicar zoom en éstas. Asegúrese de que las imágenes que utiliza tienen el tamaño adecuado antes de cargarlas en Dynamic Media Classic.
 
@@ -30,11 +30,14 @@ Para obtener instrucciones detalladas sobre cómo cargar imágenes, consulte [Ca
 
 Para aprovechar al máximo las funciones de zoom clásico de Dynamic Media, prepare los archivos de imagen de zoom antes de cargarlos:
 
-* **Tamaño** de imagen Dynamic Media Classic recomienda el uso de archivos de imágenes que tengan como mínimo 2000 píxeles en la dimensión más larga. De este modo, las imágenes se verán con claridad cuando los usuarios apliquen zoom en las mismas.
+* **Tamaño**
+de imagenDynamic Media Classic recomienda el uso de archivos de imágenes que tengan, como mínimo, 2000 píxeles en la dimensión más larga. De este modo, las imágenes se verán con claridad cuando los usuarios apliquen zoom en las mismas.
 
-* **Formatos** de archivo Dynamic Media Classic admite todos los formatos de archivo de imagen estándar, incluidos TIFF, BMP, JPEG, PSD, GIF y EPS. Se recomiendan los formatos de imagen sin pérdida (TIFF y PNG). Si usa una imagen JPEG, utilice los valores más altos de calidad.
+* **Formatos**
+de archivoDynamic Media Classic admite todos los formatos de archivo de imagen estándar, incluidos TIFF, BMP, JPEG, PSD, GIF y EPS. Se recomiendan los formatos de imagen sin pérdida (TIFF y PNG). Si usa una imagen JPEG, utilice los valores más altos de calidad.
 
-* **Espacio** de color RGB es el espacio de color para presentaciones de imágenes web; Las imágenes CMYK se convierten automáticamente a RGB al cargarlas. Se recomienda cargar imágenes CMYK con un perfil de color ICC incrustado para la conversión a RGB. Consulte también Perfiles ICC.
+* **Espacio de**
+colorRGB es el espacio de color para presentaciones de imágenes web; Las imágenes CMYK se convierten automáticamente a RGB al cargarlas. Se recomienda cargar imágenes CMYK con un perfil de color ICC incrustado para la conversión a RGB. Consulte también Perfiles ICC.
 
 >[!MORELIKETHIS]
 >
