@@ -1,8 +1,6 @@
 ---
-title: Inicio y cierre de sesión
-seo-title: Inicio y cierre de sesión
-description: nulo
-seo-description: Obtenga información sobre cómo iniciar y cerrar sesión en Dynamic Media Classic
+title: Inicio y cierre de sesión en Adobe Dynamic Media Classic
+description: Obtenga información sobre cómo iniciar y salir de Adobe Dynamic Media Classic y conectarse a un servidor de entorno de producción en Norteamérica (NA) o Europa, Oriente Medio, África (EMEA) o Asia-Pacífico (APAC).
 uuid: eaf51ab7-d17a-4b7b-b6a4-1ec78bfee36b
 contentOwner: admin
 content-type: reference
@@ -10,24 +8,24 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: ad418881-ff31-43b1-bbb6-ab2fbcf89bea
 translation-type: tm+mt
-source-git-commit: 436717a3a5326477b5507db0893892342c54dcef
+source-git-commit: d3c9b805f5d17c130fe5b4590bd7864351dc9d24
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 6%
+source-wordcount: '496'
+ht-degree: 4%
 
 ---
 
 
 <!-- UPDATE THIS TOPIC AFTER DECEMBER 31, 2020!!!!! -->
 
-# Inicio de sesión en Dynamic Media Classic {#sign-in}
+# Inicio de sesión en Adobe Dynamic Media Classic {#sign-in}
 
-El modo en que inicia sesión en Dynamic Media Classic y cierra sesión se basa en si utiliza la aplicación de escritorio o el navegador web.
+El modo en que inicia sesión en Dynamic Media Classic y cierra sesión se basa en si utiliza la [aplicación de escritorio](#sign-in-dmc-app) o el [explorador Web](#sign-out).
 
 Independientemente de cómo inicie sesión, asegúrese de que dispone de lo siguiente antes de utilizar Dynamic Media Classic:
 
 * **Nombre de**
-inicio de sesiónSu dirección de correo electrónico se utiliza como nombre de inicio de sesión.
+usuarioSu dirección de correo electrónico se utiliza como nombre de inicio de sesión.
 
 * ****
 ContraseñaPuede obtener la contraseña temporal en un correo electrónico de bienvenida de Dynamic Media Classic o de su administrador de Dynamic Media Classic. Al iniciar sesión por primera vez, se indica al usuario que puede cambiar esa contraseña temporal.
