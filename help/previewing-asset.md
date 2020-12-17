@@ -26,7 +26,7 @@ Consulte [Configuración de los visores predeterminados](application-setup.md#co
 
 Si se muestra la vista previa de un recurso de plantilla con capas de parámetros, puede realizar cambios en los parámetros o cambiar el ajuste preestablecido de imagen. Debido a que los cambios se realizan en línea, los resultados pueden verse inmediatamente desde la propia ventana de vista previa.
 
-Consulte también Ejemplos [de la biblioteca de referencia de visores de](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)Adobe.
+Consulte también [Ejemplos de la biblioteca de referencia de visores de Adobe](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 **Para obtener la vista previa de un recurso**
 
@@ -42,7 +42,7 @@ Consulte también Ejemplos [de la biblioteca de referencia de visores de](https:
    * En la ventana Recurso de la Vista de cuadrícula o la Vista de lista, seleccione un único recurso y, a continuación, haga clic en Vista previa junto a la imagen en miniatura.
    * En la barra de herramientas que hay encima de la ventana Recursos de la Vista de cuadrícula, la Vista de lista o la Vista de detalles, haga clic en Vista previa.
 
-## Vista previa de un recurso en función del tipo de plataforma de visor {#previewing-an-asset-based-on-viewer-platform-type}
+## Vista previa de un recurso en función del tipo de plataforma de visor  {#previewing-an-asset-based-on-viewer-platform-type}
 
 Utilice la Lista del visor para previsualizar cómo se muestra un recurso en una plataforma de visor concreta como HTML5. Según el tipo de recurso y el visor asociado cuya vista previa haya seleccionado, no todas las plataformas se encuentran disponibles en Lista del visor.
 
@@ -79,7 +79,7 @@ Para una plataforma de visor específica, la ventana Lista del visor le permite 
 
 1. En la esquina inferior derecha de la ventana Lista del visor, haga clic en Cerrar para volver a la pantalla Recurso.
 
-## Vista previa de un recurso de imagen en su ajuste preestablecido de imagen {#previewing-an-image-asset-based-on-its-image-preset}
+## Vista previa de un recurso de imagen en su ajuste preestablecido de imagen  {#previewing-an-image-asset-based-on-its-image-preset}
 
 Puede previsualizar un recurso de imagen basándose en su ajuste preestablecido de imagen para ver el aspecto que tendrá la imagen al distribuirse dinámicamente y con distintos tamaños en su aplicación o sitio web.
 
