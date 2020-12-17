@@ -28,7 +28,7 @@ Con parámetros de capa de texto, la cadena de texto también puede ser un campo
 
 Puede hacer referencia a un parámetro más de una vez. Use el cuadro combinado de cada comando del cuadro de diálogo de parámetros para seleccionar cualquier parámetro que coincida con el comando en cuestión. (Por ejemplo, están disponibles todos los parámetros de tamaño para el comando size=). Puede reasignar la referencia de parámetro a cualquier parámetro que ya esté en el cuadro combinado y cambiar su nombre por otro que no aparezca. Si se realiza esta última acción, el nombre debe ser único. Si no, aparece un error que indica que ya existe ese parámetro. Si elimina una referencia de parámetro, éste se elimina de la URL en caso de que no aparezca en ningún sitio ninguna otra referencia a él. Si cambia el valor predeterminado de un parámetro de texto, se actualizan todas las referencias a dicho parámetro. Puede ver la actualización en la tabla de capas, en el procesamiento de la plantilla y en la URL. Si cambia un atributo de capa manipulando los selectores de cambio de tamaño o escribiendo los valores oportunos en el panel de propiedades, se actualiza tanto el valor del parámetro como todas las referencias a él. Por ejemplo, si ha parametrizado el tamaño de dos capas con un solo parámetro, se actualiza el tamaño de ambas capas al cambiar cualquiera de ellas. Si obtiene la vista previa de una plantilla y modifica un parámetro, se actualizan todas las referencias a dicho parámetro.
 
-## Parametrización de una capa {#parameterizing-a-layer}
+## Parametrización de una capa  {#parameterizing-a-layer}
 
 Siga estos pasos con cada capa de la plantilla para crear parámetros de plantilla:
 
@@ -42,7 +42,7 @@ Siga estos pasos con cada capa de la plantilla para crear parámetros de plantil
 
 Para ver una lista de los parámetros que ha creado para la plantilla, seleccione el botón Resumen de parámetros en la pantalla Plantilla. Aparecerá la pantalla Resumen de parámetros. Aquí aparecen los nombres de las capas y, si ha creado parámetros para alguna de ellas, los nombres y valores de los parámetros.
 
-## Creación de parámetros de texto dinámico {#creating-dynamic-text-parameters}
+## Creación de parámetros de texto dinámico  {#creating-dynamic-text-parameters}
 
 Para capas de texto, puede convertir la cadena de texto en campo dinámico vinculado a un valor de base de datos. Siga estos pasos:
 
