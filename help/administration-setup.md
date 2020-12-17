@@ -23,21 +23,21 @@ ht-degree: 64%
 
 Las pantallas Ajustes de administración sirven para administrar usuarios de Dynamic Media Classic. Utilice estas pantallas para permitir a los usuarios trabajar en Dynamic Media Classic y comunicarse por correo electrónico con los usuarios.
 
-1. To access Administration Setup options, click **Setup** > **Personal Setup** > **Administration Setup**.
+1. Para acceder a las opciones de Ajustes de administración, haga clic en **Ajustes** > **Ajustes personales** > **Ajustes de administración**.
 
 ## Administración de usuarios {#user-administration}
 
 A todos los usuarios de Dynamic Media Classic se les asigna una función que determina sus privilegios y derechos de acceso a las funciones de Dynamic Media Classic. Los administradores determinan las distintas funciones y responsabilidades para sus empresas.
 
-Normalmente, Dynamic Media Classic configura el primer conjunto de compañías y asigna un administrador de compañías. A continuación, el administrador de compañía configura y administra los usuarios de Dynamic Media Classic.
+Normalmente, Dynamic Media Classic configura el primer conjunto de compañías y asigna un administrador de compañías. A continuación, el administrador de compañías configura y administra los usuarios de Dynamic Media Classic.
 
 Dynamic Media Classic admite varias funciones de usuario. Estas funciones pueden acceder a las compañías configuradas para Dynamic Media Classic:
 
 <!-- **Adobe Dynamic Media Classic Administrator** Can view and administer all features in Dynamic Media Classic, as well as set up companies and add administrators and users. -->
 
-**Usuario** de Adobe Dynamic Media Classic Puede acceder a las compañías a las que se les ha asignado; no puede realizar ninguna tarea administrativa.
+**Adobe Dynamic Media Classic** UserPuede acceder a compañías a las que se les ha asignado; no puede realizar ninguna tarea administrativa.
 
-**Administrador** de Compañías de Adobe Dynamic Media ClassicPuede realizar vistas y administrar solo sus propias compañías. También puede realizar todas las funciones de administración (incluida la adición de administradores y usuarios). Un administrador de Compañías puede agregar un usuario a las cuentas de administrador de compañías DMC. (Esta función es la función de usuario predeterminada).
+**Adobe Dynamic Media Classic Compañía** AdminPuede vista y administrar solo sus propias compañías. También puede realizar todas las funciones de administración (incluida la adición de administradores y usuarios). Un administrador de Compañías puede agregar un usuario a las cuentas de administrador de compañías DMC. (Esta función es la función de usuario predeterminada).
 
 Después de agregar un usuario, Dynamic Media Classic envía un mensaje de correo electrónico de bienvenida al usuario. El mensaje incluye una contraseña y la URL de Dynamic Media Classic.
 
@@ -53,7 +53,7 @@ Después de agregar un usuario, Dynamic Media Classic envía un mensaje de corre
 
 1. Elija la función que desea asignar al usuario.
 
-   Consulte Funciones de usuario y privilegios [de](administration-setup.md#user_administration)Dynamic Media Classic.
+   Consulte [Privilegios y funciones de usuario de Dynamic Media Classic](administration-setup.md#user_administration).
 
 1. Seleccione un nombre de empresa para agregar un usuario a una empresa.
 1. Si desea agregar el usuario a un grupo (si está agregando un usuario o colaborador de Media Portal), haga clic en Siguiente y agregue el usuario.
@@ -69,7 +69,7 @@ Después de agregar un usuario, Dynamic Media Classic envía un mensaje de corre
 
    Al agregar nuevos usuarios del Media Portal, también puede ir a Ajustes > Ajustes de aplicación > Administración de usuarios y, a continuación, hacer clic en Cargar lista de usuarios y seleccionar un archivo .csv con un máximo de 500 usuarios.
 
-### Eliminación de un usuario {#deleting-a-user}
+### Eliminación de un usuario  {#deleting-a-user}
 
 Puede eliminar usuarios de Dynamic Media Classic haciéndolos no válidos. Los usuarios no válidos se eliminan del sistema y de todas las cuentas.
 
@@ -78,14 +78,14 @@ Puede eliminar usuarios de Dynamic Media Classic haciéndolos no válidos. Los u
 1. Anule la selección de Válido.
 1. Haga clic en **Guardar**.
 
-### Activación o desactivación de usuarios {#activating-or-deactivating-users}
+### Activación o desactivación de usuarios  {#activating-or-deactivating-users}
 
 Los usuarios desactivados dejan de tener permiso para acceder a una cuenta que aparezca en la parte superior del menú para seleccionar cuentas a las que acceder.
 
 1. Haga clic en **Ajustes** > **Ajustes de aplicación** > **Ajustes de administración** > **Administración de usuarios**.
 1. En la lista de usuarios, seleccione o anule la selección de la opción Activar que aparece junto al nombre del usuario.
 
-### Edición de la información de usuario {#editing-user-information}
+### Edición de la información de usuario  {#editing-user-information}
 
 La información de usuario que puede modificar depende de su función como administrador y de la función que tenga asignada el usuario cuya información se desea editar. Las opciones que aparecen atenuadas (no disponibles) no son editables.
 
@@ -96,21 +96,21 @@ La información de usuario que puede modificar depende de su función como admin
 1. Si desea cambiar la membresía del grupo del usuario (si está editando o agregando un usuario o colaborador de Media Portal), haga clic en Siguiente y edite la membresía del grupo.
 1. Haga clic en **Guardar**.
 
-### Filtrado y ordenación de la lista de usuarios {#filtering-and-sorting-the-user-list}
+### Filtrado y ordenación de la lista de usuarios  {#filtering-and-sorting-the-user-list}
 
 Puede filtrar y ordenar la lista para buscar usuarios. Todos los usuarios de las cuentas que administra aparecen en la lista de los usuarios independientemente de la cuenta seleccionada en el menú de selección de cuenta a la que acceder.
 
 Puede utilizar las siguientes técnicas de filtrado en la lista usuarios:
 
-**Filtrar por grupo** Seleccione el menú Por grupo y elija una opción para reducir la lista a los usuarios de un grupo.
+**Filtrar por** grupoSeleccione el menú Por grupo y elija una opción para reducir la lista a los usuarios de un grupo.
 
-**Filtrar por función** de usuario Seleccione el menú Por función de usuario y elija una opción para reducir la lista a usuarios o administradores de distintos tipos.
+**Filtrar por** función de usuarioSeleccione el menú Por función de usuario y elija una opción para reducir la lista a usuarios o administradores de distintos tipos.
 
-**Filtrar por nombre** de campo Seleccione la opción Activar filtro por campo. A continuación, en el menú Por nombre de campo, seleccione la columna con la que desea filtrar la lista y elija una letra en el menú de caracteres de filtro. La lista se filtrará en una de las columnas según la letra elegida. Para volver a ver la lista completa desactive la opción Activar filtración por campos.
+**Filtrar por** nombre de campoSeleccione la opción Activar filtro por campo. A continuación, en el menú Por nombre de campo, seleccione la columna con la que desea filtrar la lista y elija una letra en el menú de caracteres de filtro. La lista se filtrará en una de las columnas según la letra elegida. Para volver a ver la lista completa desactive la opción Activar filtración por campos.
 
-**Filtrar usuarios** no válidos Anule la selección de la opción Incluir no válidos. En los resultados de búsqueda aparecerán solo los usuarios que están en el sistema. Los usuarios no válidos se han eliminado del sistema y las cuentas que administra.
+**Filtrar** usuarios no válidosAnule la selección de la opción Incluir no válidos. En los resultados de búsqueda aparecerán solo los usuarios que están en el sistema. Los usuarios no válidos se han eliminado del sistema y las cuentas que administra.
 
-**Ordenar por encabezado** de columna Haga clic en un encabezado para ordenar todos los usuarios por su estado, alfabéticamente por nombre, apellidos o correo electrónico, por función de usuario o por estado válido o no válido.
+**Ordenar por** encabezado de columnaHaga clic en un encabezado para ordenar todos los usuarios por su estado, alfabéticamente por nombre, apellidos o correo electrónico, por función de usuario o por estado válido o no válido.
 
 Si tiene muchos usuarios, puede limitar el tamaño de la lista seleccionando un número en el menú Tamaño máximo de lista.
 
@@ -142,13 +142,13 @@ You can link an Adobe IMS user identity to a Dynamic Media Classic IPS user acco
       Replace “N” in the above path with the number for your IPS company region. That is, N = 1 for North America; 3 for EMEA; or 5 for JAPAC.
  -->
 
-## Ancho de banda y almacenamiento {#bandwidth-storage}
+## Ancho de banda y almacenamiento  {#bandwidth-storage}
 
 Los administradores de Dynamic Media Classic pueden generar informes de ancho de banda, almacenamientos y otros tipos de informes para las compañías que administran. Los informes están disponibles en la pantalla Ancho de banda y almacenamiento.
 
 Para abrir esta pantalla, haga clic en Ajustes > Ajustes personales. Expanda Ajustes de administración y, a continuación, haga clic en Ancho de banda y almacenamiento.
 
-### Tipos de informes {#types-of-reports}
+### Tipos de informes  {#types-of-reports}
 
 La tabla siguiente describe los informes que se pueden generar en la pantalla Ancho de banda y almacenamiento:
 
@@ -164,23 +164,23 @@ La tabla siguiente describe los informes que se pueden generar en la pantalla An
 
 El informe de contenido de imagen proporciona información acerca de las solicitudes para estos tipos de imágenes:
 
-**Solicitudes** de imagen para imágenes.
+**Solicitudes de** imagenSolicitudes de imágenes.
 
-**Solicitudes** de miniaturas para muestras o imágenes alternativas en los visores.
+**Solicitud de** miniaturaSolicitudes de muestras o imágenes alternativas en visores.
 
-**Solicitud** de máscara Solicitudes a imágenes que devuelven máscaras de escala de grises.
+**Máscara** SolicitudSolicitudes a imágenes que devuelven máscaras en escala de grises.
 
-**Solicitudes de imagen de solicitud** de mosaico de visor cargadas por un visor.
+**Solicitudes** de imagen de mosaico de visor cargadas por un visor.
 
-**Solicitud** de objeto Vnt Solicitudes de imagen que devuelven una imagen con objetos especificados en las viñetas solicitadas.
+**Solicitudes de** solicitud de objeto VntImage que devuelven una imagen con objetos especificados en las viñetas solicitadas.
 
-**Solicitud** de información de Vnt Solicitudes de representación de imágenes que devuelven información relativa a las viñetas solicitadas.
+**Solicitud** de Vnt InfoSolicitudes de representación de imagen que devuelven información relativa a las viñetas solicitadas.
 
 >[!NOTE]
 >
 >El informe de flujo continuo de vídeo solo se aplica al flujo continuo de vídeos. No registra la visualización de vídeos progresivos.
 
-### Generación de un informe {#generating-a-report}
+### Generación de un informe  {#generating-a-report}
 
 Siga estos pasos para generar un informe de ancho de banda, almacenamiento, contenido de imágenes, dominio, flujo continuo de vídeo o contenido de vídeo:
 
@@ -190,19 +190,19 @@ Siga estos pasos para generar un informe de ancho de banda, almacenamiento, cont
 
    Consulte [Tipos de informes](administration-setup.md#types_of_reports).
 
-### Visualización de datos con distintos métodos {#viewing-data-in-different-ways}
+### Visualización de datos con distintos métodos  {#viewing-data-in-different-ways}
 
 Después de generar un informe en la página Ancho de banda y almacenamiento, puede elegir opciones para ver la información. Puede elegir cómo se presenta la información, ver la información en un diagrama o en una cuadrícula de datos, así como especificar un período de tiempo para la recopilación de información. En la vista Datos, también puede ordenar la información y reorganizar las columnas.
 
-**Visualización de datos en un gráfico o una cuadrícula** de datos Haga clic en la opción Vista del gráfico para vista de datos en un gráfico; haga clic en la opción Vista de datos para vista de datos en una cuadrícula de datos.
+**Visualización de datos en un gráfico o** cuadrícula de datosHaga clic en la opción Vista del gráfico para vista de datos en un gráfico; haga clic en la opción Vista de datos para vista de datos en una cuadrícula de datos.
 
-**Selección de un tipo** de presentación de informe En el menú Tipo de informe, elija Resumen, Diario o Mensual para organizar los datos en forma de resumen, por día o por mes. No todos los informes ofrecen esta opción.
+**Selección de un** tipo de presentación de informeEn el menú Tipo de informe, elija Resumen, Diario o Mensual para organizar los datos en forma de resumen, por día o por mes. No todos los informes ofrecen esta opción.
 
-**Especificación de un período** de tiempo Elija las opciones para definir un período de tiempo para el informe y, a continuación, haga clic en Actualizar después de definir un período de tiempo:
+**Especificación de un** período de tiempoElija las opciones para definir un período de tiempo para el informe y, a continuación, haga clic en Actualizar después de definir un período de tiempo:
 
-**Período** de tiempo predefinido En el menú Informe predefinido, elija una opción. Por ejemplo, elija Último mes para recopilar los datos del mes anterior.
+**Período** de tiempo predefinidoEn el menú Informe predefinido, elija una opción. Por ejemplo, elija Último mes para recopilar los datos del mes anterior.
 
-**Período** de tiempo personalizado En el menú Informe predefinido, elija Personalizar. A continuación, elija una fecha en el menú Mes de inicio (o Fecha de inicio) y otra fecha en el menú N.º de meses (o N.º de días). En el caso de informes de dominio y de contenido de vídeo, puede elegir una fecha inicial y final específica para capturar los datos del informe.
+**Período** de tiempo personalizadoEn el menú Informe predefinido, elija Personalizar. A continuación, elija una fecha en el menú Mes de inicio (o Fecha de inicio) y otra fecha en el menú N.º de meses (o N.º de días). En el caso de informes de dominio y de contenido de vídeo, puede elegir una fecha inicial y final específica para capturar los datos del informe.
 
 **Clasificación de datos (solo vista de datos)** Para ordenar la información en una columna, haga clic en el encabezado de la columna. Haga clic de nuevo para cambiar al orden descendente.
 
@@ -212,9 +212,9 @@ Después de generar un informe en la página Ancho de banda y almacenamiento, pu
 
 Después de generar un informe, puede exportar sus datos para utilizarlos en hojas de cálculo y en otras aplicaciones. También puede imprimir los informes.
 
-**Exportación de datos** de informes En vista de datos, ordene y organice los datos según sea necesario. A continuación, abra el menú Exportar y elija un formato: Delimitado por tabuladores, Separado por comas o HTML formateado. Los datos se copian en el portapapeles con el formato que elija. Ahora puede pegarlos en una hoja de cálculo o en una aplicación.
+**Exportación de** datos de informesEn vista de datos, ordene y organice los datos según sea necesario. A continuación, abra el menú Exportar y elija un formato: Delimitado por tabuladores, Separado por comas o HTML formateado. Los datos se copian en el portapapeles con el formato que elija. Ahora puede pegarlos en una hoja de cálculo o en una aplicación.
 
-**Impresión de un informe** Haga clic en Imprimir, elija las opciones que desee en el cuadro de diálogo Imprimir y, a continuación, haga clic en Aceptar.
+**Impresión de un** informeHaga clic en Imprimir, elija las opciones que desee en el cuadro de diálogo Imprimir y, a continuación, haga clic en Aceptar.
 
 ## Errores de imagen {#image-errors}
 
@@ -232,16 +232,16 @@ Los administradores de Dynamic Media Classic pueden generar informes de errores 
 
 Los errores mostrados pertenecen a la empresa en la que haya iniciado sesión en ese momento. Cada error incluye la siguiente información:
 
-**ID** de imagen de la imagen que ocasiona el problema.
+**ID de imagen** para la imagen ofensiva.
 
-**Tiempo** El intervalo de tiempo de la primera vez que se informó del error hasta la última vez que se informó del error, en las últimas 24 horas.
+**** TiempoEl intervalo de tiempo de la primera vez que se informó del error hasta la última vez que se informó del error, en las últimas 24 horas.
 
-**Recuento** El número de errores notificados en la imagen.
+**** RecuentoEl número de errores notificados en la imagen.
 
-**Respuesta** El mensaje de error específico. Los errores son 4xx o 5xx.
+**** RespuestaMensaje de error específico. Los errores son 4xx o 5xx.
 
-**Las direcciones URL** Lista la dirección URL a la imagen en Scene7.
+**** Direcciones URLMuestra la dirección URL de la imagen en Scene7.
 
-**Remitente del reenvío** Especifica la dirección URL del sitio web del que procede la solicitud inicial. La referencia puede ser cualquier sitio web que tenga un vínculo a la imagen.
+**** ReferenteEspecifica la dirección URL del sitio web del que procede la solicitud inicial. La referencia puede ser cualquier sitio web que tenga un vínculo a la imagen.
 
 Las columnas URL y Referencia tienen asociada la opción Copiar URL para simplificar el proceso de prueba.
