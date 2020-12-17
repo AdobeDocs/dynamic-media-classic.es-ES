@@ -1,6 +1,6 @@
 ---
-title: Descripción general de la plataforma Adobe Dynamic Media Classic
-seo-title: Descripción general de la plataforma Adobe Dynamic Media Classic
+title: Descripción general de la plataforma de Adobe Dynamic Media Classic
+seo-title: Descripción general de la plataforma de Adobe Dynamic Media Classic
 description: nulo
 seo-description: Información general sobre la plataforma y el proceso de flujo de trabajo de Dynamic Media Classic.
 uuid: e7d3bfb3-1cfe-43ea-b862-aae3b3928c71
@@ -18,21 +18,25 @@ ht-degree: 32%
 ---
 
 
-# Descripción general de la plataforma Adobe Dynamic Media Classic{#adobe-scene-platform-overview}
+# Descripción general de la plataforma Dynamic Media Classic de Adobe{#adobe-scene-platform-overview}
 
 Dynamic Media Classic es un entorno integrado de administración, publicación y servicio de medios enriquecidos. Los medios enriquecidos se pueden distribuir a través de todo tipo de canales de marketing y ventas: la Web, material impreso, campañas por correo electrónico, portales web, ordenadores de sobremesa y dispositivos.
 
-## Flujo de trabajo {#workflow-process}
+## Flujo de trabajo  {#workflow-process}
 
 Los pasos clave del flujo de trabajo de Dynamic Media Classic son:
 
-* **Cargue y gestione sus recursos** Cargue sus recursos de medios en Dynamic Media Classic. Puede organizar, examinar y buscar recursos en el sistema. También puede aplicar metadatos a recursos.
+* **Cargue y gestione**
+los recursosCargue los recursos multimedia en Dynamic Media Classic. Puede organizar, examinar y buscar recursos en el sistema. También puede aplicar metadatos a recursos.
 
-* **Crear medios** enriquecidos Cree diferentes configuraciones de los recursos, como catálogos electrónicos, conjuntos de imágenes, conjuntos de giros, conjuntos de muestras, conjuntos de medios mixtos, plantillas básicas y plantillas FXG. Para obtener más información, consulte Acerca de los medios enriquecidos.
+* **Crear**
+medios enriquecidosCree diferentes configuraciones de los recursos, como catálogos electrónicos, conjuntos de imágenes, conjuntos de giros, conjuntos de muestras, conjuntos de medios mixtos, plantillas básicas y plantillas FXG. Para obtener más información, consulte Acerca de los medios enriquecidos.
 
-* **Publique y administre** recursos en la red Dynamic Media Classic Saas, supervise el estado de los recursos cuando se publiquen, administre derechos de usuario y mantenga la seguridad.
+* **Publicar y**
+administrarPublicar recursos en la red Dynamic Media Classic Saas, así como supervisar el estado de los recursos cuando se publican, administrar los derechos de usuario y mantener la seguridad.
 
-* **Proporcionar** medios desde la red SaaS de Dynamic Media Classic a páginas web, aplicaciones y dispositivos móviles; los medios están optimizados para el rendimiento y se entregan con almacenamiento en caché CDN. Dynamic Media Classic le proporciona una URL para cada recurso. La URL se activará una vez publique el recurso.
+* ****
+Proporcionar medios de la red SaaS de Dynamic Media Classic a páginas web, aplicaciones y dispositivos móviles; los medios están optimizados para el rendimiento y se entregan con almacenamiento en caché CDN. Dynamic Media Classic le proporciona una URL para cada recurso. La URL se activará una vez publique el recurso.
 
 ![El proceso de flujo de trabajo de Dynamic Media Classic](/help/assets/gs_workflow.png)
 
