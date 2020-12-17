@@ -31,7 +31,7 @@ En el panel Examinar, puede mover recursos a carpetas diferentes.
    * Busque la carpeta a la que desea mover los recursos en la biblioteca de recursos y arrastre los recursos a esta carpeta.
    * Elija Archivo > Mover, seleccione una carpeta en la ventana Mover recursos y seleccione Mover.
 
-## Cambio de nombre de un recurso {#rename-assets}
+## Cambio de nombre de un recurso  {#rename-assets}
 
 Para cambiar el nombre de un recurso:
 
@@ -55,7 +55,7 @@ Al eliminar un recurso, todos los derivados de dicho recurso se eliminarán con 
 1. Realice una de las siguientes acciones:
 
    * Para eliminar uno o más recursos, selecciónelos en el panel Examinar y pulse Suprimir o seleccione Archivo > Eliminar.
-   * To delete a folder, select the folder in the Asset Library, and click **Remove Folder**.
+   * Para eliminar una carpeta, selecciónela en la biblioteca de recursos y haga clic en **Eliminar carpeta**.
 
       Al eliminar una carpeta se eliminarán la carpeta, los recursos que contenga y los recursos que haya en las subcarpetas.
 
@@ -67,7 +67,7 @@ Al eliminar un recurso, todos los derivados de dicho recurso se eliminarán con 
 
 Para eliminar varios recursos a la vez en toda la biblioteca de recursos, puede realizar la lista de los recursos que desee eliminar en un archivo de texto y enviar la lista a Dynamic Media Classic.
 
-Cree la lista de los ID de Dynamic Media Classic y guárdela como un archivo de texto (.txt). Cada ID de Dynamic Media Classic debe estar en su propia línea (seguido de un salto de línea).
+Cree la lista de Dynamic Media Classic ID y guárdela como archivo de texto (.txt). Cada ID de Dynamic Media Classic debe estar en su propia línea (seguido de un salto de línea).
 
 Después de crear la lista, siga estos pasos para eliminar los recursos:
 
