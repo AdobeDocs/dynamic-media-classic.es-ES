@@ -57,7 +57,7 @@ Consulte también [Creación de un alias para una imagen](adjusting-image.md#cre
 
       Haga clic en **Guardar**.
 
-## Creación de un alias para una imagen {#creating-an-alias-for-an-image}
+## Creación de un alias para una imagen  {#creating-an-alias-for-an-image}
 
 Cuando haya ajustado una imagen, puede ser que desee guardarla como vista adicional de la imagen principal. Para ello, puede crear un alias para la imagen con la función **Guardar como vista adicional de imagen principal**.
 
