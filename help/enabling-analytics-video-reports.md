@@ -2,7 +2,7 @@
 title: Activación de los informes de vídeo de Adobe Analytics
 seo-title: Activación de los informes de vídeo de Adobe Analytics
 description: nulo
-seo-description: Obtenga información sobre cómo activar los informes de vídeo de Adobe Analytics.
+seo-description: Obtenga información sobre cómo habilitar los informes de vídeo de Adobe Analytics.
 uuid: 078594b2-7d53-4714-8128-ff3b5c3a5e36
 contentOwner: admin
 content-type: reference
@@ -24,7 +24,7 @@ Al utilizar el sistema de informes de vídeo basado en Adobe Analytics Heartbeat
 
 * La integración de los informes de vídeo de Adobe Analytics con Dynamic Media Classic admite variables de solución, pero no variables personalizadas.
 
-   Consulte [Configurar Analytics Video Sistema de informes](https://microsite.omniture.com/t2/help/en_US/sc/appmeasurement/hbvideo/video_analytics_config.html) para obtener más información sobre variables de solución y variables personalizadas.
+   Consulte [Configuración del Sistema de informes de vídeo de Analytics](https://microsite.omniture.com/t2/help/en_US/sc/appmeasurement/hbvideo/video_analytics_config.html) para obtener más información sobre variables de solución y variables personalizadas.
 
 * Se admiten los segmentos listos para usar en incrementos de un minuto. Sin embargo, no se admiten los informes de segmento personalizados, como hitos definidos por el usuario basados en períodos temporales, % de hitos o hitos de desplazamiento.
 
