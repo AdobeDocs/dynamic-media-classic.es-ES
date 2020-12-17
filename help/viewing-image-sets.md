@@ -31,9 +31,9 @@ Puede crear y personalizar ajustes preestablecidos de visor de acuerdo con sus n
 1. Haga clic en **Ajustes** > **Ajustes preestablecidos de visor**.
 1. Cree o edite el ajuste preestablecido de visor en la pantalla Ajustes preestablecidos de visor realizando una de las acciones siguientes:
 
-   **Creación** Haga clic en Añadir. En el cuadro de diálogo Añadir ajuste preestablecido de visor, elija una plataforma, seleccione Visor de zoom: Personalizado y, a continuación, haga clic en Agregar. También puede crear un ajuste preestablecido de visor de zoom a partir de un ajuste preestablecido existente. Muestre el nombre del ajuste preestablecido, selecciónelo, y a continuación seleccione el botón Editar. En la pantalla Configurar visor, introduzca un nombre para el ajuste preestablecido de visor.
+   **** CreaciónHaga clic en Añadir. En el cuadro de diálogo Añadir ajuste preestablecido de visor, elija una plataforma, seleccione Visor de zoom: Personalizado y, a continuación, haga clic en Agregar. También puede crear un ajuste preestablecido de visor de zoom a partir de un ajuste preestablecido existente. Muestre el nombre del ajuste preestablecido, selecciónelo, y a continuación seleccione el botón Editar. En la pantalla Configurar visor, introduzca un nombre para el ajuste preestablecido de visor.
 
-   **Edición** Muestre el nombre de un ajuste preestablecido, selecciónelo y haga clic en **Editar**.
+   **** EdiciónMuestre el nombre de un ajuste preestablecido, selecciónelo y haga clic en  **Editar**.
 
 1. Elija las opciones deseadas en la pantalla Configurar visor. 
 
@@ -51,10 +51,10 @@ Utilice Vista previa para comprobar cómo se muestra un recurso en una plataform
 1. En el panel Biblioteca de recursos del lado izquierdo, navegue por las carpetas de recursos para seleccionar el conjunto de imágenes cuya vista previa desee obtener.
 1. Realice una de las acciones siguientes:
 
-   * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en **Vista de lista**. In the Asset window, hover on an asset, then click **Preview**.
+   * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en **Vista de lista**. En la ventana Recurso, pase el ratón por un recurso y haga clic en **Previsualización**.
    * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en **Vista de cuadrícula**. En la ventana Recursos, en la ventana de una miniatura de un recurso, haga clic en **Vista previa**.
    * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en **Vista de detalles**. En la misma barra de herramientas, haga clic en **Vista previa**.
-   * En la ventana Recursos, seleccione un recurso. On the toolbar, click **File** > **Preview**.
+   * En la ventana Recursos, seleccione un recurso. En la barra de herramientas, haga clic en **Archivo** > **Previsualización**.
 
 1. (Opcional) En la lista desplegable de la parte inferior de la ventana Vista previa, seleccione la codificación de URL que desee aplicar a la dirección URL del recurso cuando se copie.
 1. Haga clic en el vínculo de un visor para obtener la vista previa del recurso en el visor seleccionado.
