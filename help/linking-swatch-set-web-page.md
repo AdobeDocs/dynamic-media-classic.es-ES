@@ -45,11 +45,11 @@ Una vez que haya publicado un conjunto de muestras, puede usar su URL o código 
 
       En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Copiar URL**.
 
-## Adición de direcciones URL de conjuntos de muestras a una página web {#adding-swatch-set-urls-to-your-web-page}
+## Adición de direcciones URL de conjuntos de muestras a una página web  {#adding-swatch-set-urls-to-your-web-page}
 
 La manera más común de distribuir conjuntos de muestras consiste en colocar un vínculo (por medio de un icono de navegación) en la página web. Si se selecciona este icono, se inicia una página web dinámica (ASP o JSP) que muestra el conjunto de muestras en una ventana emergente con zoom. El vínculo de zoom abre una ventana emergente que contiene la función de zoom.
 
-Para obtener más información y ejemplos de código, consulte [Incrustación del visor de zoom HTML5 en la Guía](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html)de referencia de visores de Adobe.
+Para obtener más información y ejemplos de código, consulte [Incrustación del visor de zoom HTML5 en la Guía de referencia de visores de Adobe](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html).
 
 ## Copia del código incrustado de un visor de conjuntos de muestras {#copying-the-embed-code-of-a-swatch-set-viewer}
 
