@@ -22,7 +22,7 @@ ht-degree: 79%
 
 En el panel Examinar, los vídeos de origen tienen la etiqueta “Vídeo principal”. Los vídeos codificados tienen la etiqueta “Vídeo”. Es posible exportar tanto los vídeos de origen como los vídeos principales. Para exportar los archivos de vídeo, selecciónelos en el panel Examinar y elija Archivo > Exportar. 
 
-Consulte [Exportación de recursos de Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from-dmc).
+Consulte [Exportación de recursos desde Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from-dmc).
 
 >[!MORELIKETHIS]
 >
