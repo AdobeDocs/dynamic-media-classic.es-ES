@@ -20,13 +20,13 @@ ht-degree: 87%
 
 # Vinculación de un catálogo electrónico a una página web{#linking-an-ecatalog-to-a-web-page}
 
-Los sitios web y las aplicaciones acceden al contenido del servidor de imágenes de Dynamic Media, incluidos los catálogos electrónicos, a través de cadenas URL o código incrustado. Estas cadenas URL se activan durante el proceso de publicación. Para colocar la cadena URL o el código incrustado del catálogo electrónico en las páginas web y las aplicaciones, debe copiar esta cadena desde Dynamic Media Classic.
+Los sitios web y las aplicaciones acceden al contenido de Dynamic Media Image Server, incluidos los catálogos electrónicos, a través de cadenas URL o código incrustado. Estas cadenas URL se activan durante el proceso de publicación. Para colocar la cadena URL o el código incrustado del catálogo electrónico en las páginas web y las aplicaciones, debe copiar esta cadena desde Dynamic Media Classic.
 
 >[!NOTE]
 >
 >La URL no se activa hasta que publique el recurso.
 
-## Copia de la URL de un catálogo electrónico {#copying-an-ecatalog-url}
+## Copia de la URL de un catálogo electrónico  {#copying-an-ecatalog-url}
 
 1. En la lista desplegable Mostrar del panel de exploración de recursos, haga clic en **Catálogo**.
 1. En el panel Biblioteca de recursos del lado izquierdo, navegue a la carpeta de recursos que contenga el catálogo electrónico cuyo código incrustado desee copiar.
@@ -45,11 +45,11 @@ Los sitios web y las aplicaciones acceden al contenido del servidor de imágenes
 
       En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Copiar URL**.
 
-## Adición de direcciones URL de catálogo electrónico a la página web {#adding-ecatalog-urls-to-your-web-page}
+## Adición de direcciones URL de catálogo electrónico a la página web  {#adding-ecatalog-urls-to-your-web-page}
 
 La manera más común de distribuir el catálogo electrónico consiste en colocar en la página web un vínculo representado por una miniatura de la portada del catálogo electrónico. Trabaje con su grupo de TI para que el catálogo electrónico se abra en una ventana emergente centrada y bien visible. Solicite al grupo de TI que no se muestren la barra de herramientas ni la de dirección del explorador.
 
-Para obtener más información y ejemplos de código, consulte [Incrustación del visor de catálogos electrónicos HTML5 en la Guía](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html)de referencia de visores de Adobe.
+Para obtener más información y ejemplos de código, consulte [Incrustación del visor de catálogos electrónicos HTML5 en la Guía de referencia de visores de Adobe](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html).
 
 ## Copia del código incrustado de un visor de catálogos electrónicos {#copying-the-embed-code-of-an-ecatalog-viewer}
 
