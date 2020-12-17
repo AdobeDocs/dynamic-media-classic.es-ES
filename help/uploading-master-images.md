@@ -28,8 +28,11 @@ Para obtener más información sobre la carga de imágenes, consulte [Carga de a
 
 Prepare los archivos de imagen principales antes de cargarlos en Dynamic Media Classic:
 
-* **Tamaño** de imagen Cree las imágenes de mayor tamaño que desee utilizar. Los tamaños estándar están entre 1.500 y 2.500 píxeles (a lo largo). Si desea utilizar la función Zoom, Dynamic Media Classic recomienda el uso de imágenes que tengan al menos 2000 píxeles en la dimensión más larga para obtener un nivel de detalle óptimo del zoom. Dynamic Media Classic puede procesar imágenes de hasta 25 megapíxeles cada una. Por ejemplo, puede usar una imagen de 5000 x 5000 megapíxeles o cualquier otra combinación de tamaño de hasta 25 megapíxeles.
+* **Tamaño**
+de imagenCree las imágenes de mayor tamaño que desee utilizar. Los tamaños estándar están entre 1.500 y 2.500 píxeles (a lo largo). Si desea utilizar la función Zoom, Dynamic Media Classic recomienda el uso de imágenes que tengan al menos 2000 píxeles en la dimensión más larga para obtener un detalle de zoom óptimo. Dynamic Media Classic puede procesar imágenes de hasta 25 megapíxeles cada una. Por ejemplo, puede usar una imagen de 5000 x 5000 megapíxeles o cualquier otra combinación de tamaño de hasta 25 megapíxeles.
 
-* **Formatos** de archivo Dynamic Media Classic admite todos los formatos de archivo de imagen estándar, incluidos TIFF, BMP, JPEG, PSD, GIF y EPS. Se recomiendan los formatos de imagen sin pérdida (TIFF y PNG). Si usa una imagen JPEG, utilice los valores más altos de calidad.
+* **Formatos**
+de archivoDynamic Media Classic admite todos los formatos de archivo de imagen estándar, incluidos TIFF, BMP, JPEG, PSD, GIF y EPS. Se recomiendan los formatos de imagen sin pérdida (TIFF y PNG). Si usa una imagen JPEG, utilice los valores más altos de calidad.
 
-* **Espacio** de color RGB es el espacio de color para presentaciones de imágenes web; Las imágenes CMYK que se utilizan habitualmente para imprimir se convierten automáticamente a RGB al cargarlas. Se recomienda cargar imágenes CMYK con un perfil de color ICC incrustado para la conversión a RGB. Consulte también Perfiles ICC.
+* **Espacio de**
+colorRGB es el espacio de color para presentaciones de imágenes web; Las imágenes CMYK que se utilizan habitualmente para imprimir se convierten automáticamente a RGB al cargarlas. Se recomienda cargar imágenes CMYK con un perfil de color ICC incrustado para la conversión a RGB. Consulte también Perfiles ICC.
