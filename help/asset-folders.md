@@ -28,13 +28,17 @@ Asegúrese de establecer una estructura de carpetas y una organización para alm
 
 En la biblioteca de recursos se muestran los archivos que contiene el árbol de carpetas. Al seleccionar una carpeta en la biblioteca de recursos, su contenido aparecerá en el panel Examinar. Utilice estas técnicas para localizar carpetas en el árbol de carpetas:
 
-* **Visualización de subcarpetas** Seleccione el icono Expandir carpeta para mostrar las subcarpetas de una carpeta. Este icono se encuentra a la izquierda del nombre de cada carpeta.
+* **Visualización de**
+subcarpetasSeleccione el icono Expandir carpeta para mostrar las subcarpetas de una carpeta. Este icono se encuentra a la izquierda del nombre de cada carpeta.
 
-* **Desplazamiento de una carpeta** Puede moverla arrastrándola y soltándola en su nueva ubicación, o bien seleccionando Archivo > Mover carpeta.
+* **Desplazamiento de una**
+carpetaPuede mover una carpeta arrastrándola y soltándola en su nueva ubicación, o bien seleccionando Archivo > Mover carpeta.
 
-* **Ocultar carpetas** Seleccione el icono Contraer carpeta para contraer subcarpetas. Este icono se encuentra a la izquierda del nombre de cada carpeta.
+* **Ocultar**
+carpetasSeleccione el icono Contraer carpeta para contraer subcarpetas. Este icono se encuentra a la izquierda del nombre de cada carpeta.
 
-* **Apertura de una carpeta** Seleccione una carpeta para mostrar su contenido en el panel Examinar.
+* **Apertura de una**
+carpetaSeleccione una carpeta para mostrar su contenido en el panel Examinar.
 
 ***Sugerencia **: Puede ocultar o mostrar la biblioteca de recursos haciendo clic en el control Expandir/Contraer de la parte izquierda. Oculte el panel de la biblioteca de recursos si necesita más espacio de trabajo en el panel Examinar.*
 
@@ -50,13 +54,15 @@ Para crear una carpeta, siga estos pasos:
    >
    >También puede crear carpetas en Dynamic Media Classic al cargar archivos mediante FTP. Si selecciona la opción Incluir subcarpetas al cargar archivos por medio de FTP, se reproducirá la estructura de carpetas del sistema de su ordenador. Las carpetas y subcarpetas del ordenador o la red se reproducirán en la biblioteca de recursos, y los recursos cargados se colocarán en estas carpetas.
 
-## Eliminación y cambio de nombre de las carpetas {#deleting-and-renaming-folders}
+## Eliminación y cambio de nombre de las carpetas  {#deleting-and-renaming-folders}
 
 Seleccione una carpeta y utilice estas técnicas para eliminarla o cambiar su nombre:
 
-* **Eliminación** Seleccione el botón Eliminar carpeta . Los recursos que se encuentren en una carpeta eliminada se colocarán en la carpeta Papelera. Podrá recuperarlos desde esta carpeta.
+* ****
+EliminaciónSeleccione el botón Eliminar carpeta . Los recursos que se encuentren en una carpeta eliminada se colocarán en la carpeta Papelera. Podrá recuperarlos desde esta carpeta.
 
-* **Al cambiar el nombre del** Doble, haga clic en el nombre e introduzca un nuevo nombre.
+* ****
+Cambio de nombreHaga doble clic en el nombre e introduzca un nuevo nombre.
 
 >[!NOTE]
 >
