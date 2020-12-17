@@ -52,7 +52,7 @@ Consulte [Previsualización de un recurso](previewing-asset.md#previewing-an-ass
 
 Al publicar un conjunto de muestras, éste se coloca en los servidores de Dynamic Media Classic y se activa la cadena URL.
 
-Click the **Mark For Publish** icon to the left of its name in the Browse Panel. Then, click **Publish**. On the Publish screen, click **Start Publish**.
+Haga clic en el icono **Marcar para publicación** a la izquierda del nombre en el panel Examinar. A continuación, haga clic en **Publicar**. En la pantalla Publicar, haga clic en **Publicación de Inicio**.
 
 Consulte [Publicación](publishing-files.md#publishing-files).
 
