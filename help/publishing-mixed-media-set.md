@@ -22,7 +22,7 @@ ht-degree: 60%
 
 Cree un trabajo de publicación para publicar un conjunto de medios mixtos que haya marcado para su publicación en el servidor de vídeo e imágenes de Dynamic Media Classic. Dynamic Media Classic oferta opciones de publicación avanzadas para publicar en servidores específicos y opciones para volver a publicar recursos que ya se han publicado.
 
-***nota **: Los conjuntos de medios mixtos requieren que se publique en el servidor**de vídeo **y también en el servidor**de imágenes **. El**Servidor de vídeo **se utiliza para publicar los vídeos reales que se han marcado para publicación. Además, se utiliza**Image Server **para publicar recursos relacionados, como las miniaturas de vídeo, y establecer información para cualquier conjunto de vídeos adaptable.*
+***nota **: Los conjuntos de medios mixtos requieren que se publique en**el **servidor de vídeo y también en el servidor**de imágenes **. El**Servidor de vídeo **se utiliza para publicar los vídeos reales que se han marcado para publicación. Además, se utiliza**Image Server **para publicar recursos relacionados, como miniaturas de vídeo, y establecer información para cualquier conjunto de vídeos adaptable.*
 
 Dynamic Media Classic realiza un seguimiento de los trabajos de publicación en la pantalla Trabajos.
 
