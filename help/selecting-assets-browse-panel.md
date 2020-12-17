@@ -18,14 +18,18 @@ ht-degree: 30%
 ---
 
 
-# Selecting assets in the Browse panel{#selecting-assets-in-the-browse-panel}
+# Selección de recursos en el panel Examinar{#selecting-assets-in-the-browse-panel}
 
 Para trabajar con un recurso, selecciónelo en el panel Examinar. Para seleccionar recursos, utilice estas técnicas:
 
-* **Un único recurso** Haga clic en el recurso (al hacer clic en el doble se abre el recurso en la vista de detalles).
+* **Un solo**
+recursoHaga clic en el recurso (al hacer clic con el doble se abre el recurso en la vista de detalles).
 
-* **Varios recursos** Ctrl+clic (Windows) o Comando+clic (Macintosh) para seleccionar recursos en diferentes lugares del panel Examinar. Pulse la tecla Mayús mientras hace clic (haga clic en un recurso y haga clic en otro manteniendo la tecla Mayús pulsada) para seleccionar recursos adyacentes.
+* **Varios**
+recursosCtrl+clic (Windows) o Comando+clic (Macintosh) para seleccionar recursos en diferentes lugares del panel Examinar. Pulse la tecla Mayús mientras hace clic (haga clic en un recurso y haga clic en otro manteniendo la tecla Mayús pulsada) para seleccionar recursos adyacentes.
 
-* **Todos los recursos del panel** Examinar Haga clic en Seleccionar > Todo.
+* **Todos los recursos del**
+panel ExaminarHaga clic en Seleccionar > Todo.
 
-* **Sin recursos** Haga clic en Seleccionar > Ninguno.
+* **Sin**
+recursosHaga clic en Seleccionar > Ninguno.
