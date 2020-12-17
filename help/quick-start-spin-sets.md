@@ -90,7 +90,7 @@ Consulte [Vista previa de un conjunto de giros](previewing-spin-set.md#previewin
 
 Al publicar un conjunto de giros, éste se coloca en los servidores de Dynamic Media Classic para que se pueda distribuir dinámicamente en el sitio web o la aplicación. También activa la cadena URL que llama al conjunto de giros desde los servidores de imágenes de Dynamic Media a su sitio web o aplicación.
 
-To publish a Spin Set, mark it for publish by selecting the **Mark for Publish** icon beside its name in the Browse Panel. Click **Publish** on the Global Navigation bar to initiate a publish. On the Publish screen, click **Start Publish**.
+Para publicar un conjunto de giros, márquelo para la publicación seleccionando el icono **Marcar para publicación** junto a su nombre en el panel Examinar. Haga clic en **Publicar** en la barra de navegación global para iniciar una publicación. En la pantalla Publicar, haga clic en **Publicación de Inicio**.
 
 Consulte [Publicación de un conjunto de giros](publishing-spin-set.md#publishing-a-spin-set).
 
