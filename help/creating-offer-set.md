@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_integration
 discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: 4819803428adee539e46498c73e5f2ba6a952693
 workflow-type: tm+mt
 source-wordcount: '1220'
 ht-degree: 57%
@@ -95,11 +95,9 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 1. Monte imágenes o vídeos para el conjunto de ofertas. Inicio en la pantalla Conjunto de Ofertas de Test&amp;Destinatario o en la Vista de Lista o Vista de cuadrícula y utilice uno de los siguientes métodos:
 
-   * **Conjunto de Ofertas de Test&amp;Destinatario,**
-pantallaHaga clic en  **[!UICONTROL Generar > Conjunto]** de Ofertas de Test&amp;Destinatario. Arrastre las imágenes o los vídeos a la pantalla. Para crear vídeos o imágenes de distintos tamaños, arrastre varias copias de la imagen o del vídeo y defina cada tamaño de manera individual.
+   * **Conjunto de Ofertas de Test&amp;Destinatario,** pantallaHaga clic en  **[!UICONTROL Generar > Conjunto]** de Ofertas de Test&amp;Destinatario. Arrastre las imágenes o los vídeos a la pantalla. Para crear vídeos o imágenes de distintos tamaños, arrastre varias copias de la imagen o del vídeo y defina cada tamaño de manera individual.
 
-   * **Vista de cuadrícula o**
-de ListaSeleccione las imágenes o los vídeos y, a continuación, haga clic en  **[!UICONTROL Generar > Conjunto]** de Ofertas de Test&amp;Destinatario.
+   * **Vista de cuadrícula o** de ListaSeleccione las imágenes o los vídeos y, a continuación, haga clic en  **[!UICONTROL Generar > Conjunto]** de Ofertas de Test&amp;Destinatario.
 
 1. Si lo desea, seleccione una imagen o un vídeo y haga clic en **Vista previa**. En la página Ofertas de Previsualización, puede cambiar el tamaño y el aspecto de la imagen o el vídeo que ha seleccionado. O bien, puede cambiar todas las imágenes o vídeos del conjunto de ofertas.
 
