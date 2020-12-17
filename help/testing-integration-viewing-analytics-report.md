@@ -20,15 +20,15 @@ ht-degree: 42%
 
 # Prueba de integración mediante la visualización de un informe de Adobe Analytics{#testing-the-integration-by-viewing-an-adobe-analytics-report}
 
-Después de crear las variables necesarias en Adobe Analytics, vincularlas a eventos de Dynamic Media Classic y completar los pasos de implementación necesarios, debe probar la configuración. Puede probar y verificar que se están capturando datos desde Adobe Analytics. Si la configuración funciona en SiteCatalyst, no serán necesarios más pasos. Si ha seguido los pasos anteriores y ha vinculado los datos de evento de Dynamic Media Classic a una o varias variables de tráfico personalizadas, siga este flujo de trabajo para probar los datos dentro de Adobe Analytics.
+Después de crear las variables necesarias en Adobe Analytics, vincularlas a los eventos de Dynamic Media Classic y completar los pasos de implementación necesarios, debe probar la configuración. Puede probar y verificar que se están capturando datos desde Adobe Analytics. Si la configuración funciona en SiteCatalyst, no serán necesarios más pasos. Si ha seguido los pasos anteriores y ha vinculado los datos de evento de Dynamic Media Classic a una o varias variables de tráfico personalizadas, siga este flujo de trabajo para probar los datos dentro de Adobe Analytics.
 
 **Prueba de la integración de mediante la visualización de un informe de Adobe Analytics**
 
-1. Inicie un visor de Dynamic Media Classic desde su cuenta, en particular uno que retransmite la métrica que desee capturar e interactúe con él para crear algunos datos de evento.
+1. Inicie un visor de Dynamic Media Classic desde su cuenta, en particular uno que difunda la métrica que desee capturar e interactúe con él para crear datos de evento.
 
    Por ejemplo, si desea medir las vistas alternativas más populares de un conjunto de imágenes, previsualice un conjunto de imágenes y haga clic en las distintas imágenes de miniaturas.
 
-1. Inside Adobe Analytics, go to Custom Traffic > Custom Traffic 1-10 > [Name of prop], selecting your traffic prop name from the menu choices.
+1. Dentro de Adobe Analytics, vaya a Tráfico personalizado > Tráfico personalizado 1-10 > [Nombre de prop] y seleccione el nombre de la propiedad de tráfico en las opciones de menú.
 
    Por ejemplo, para acceder a la propiedad LoadAsset de la cuenta de muestra, la opción de menú correcta sería Tráfico personalizado > Tráfico personalizado 1-10 > LoadAsset. Si tiene más de diez propiedades personalizadas, verá opciones adicionales del menú .
 
