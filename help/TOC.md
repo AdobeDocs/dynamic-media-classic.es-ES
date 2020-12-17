@@ -10,19 +10,19 @@ translation-type: tm+mt
 source-git-commit: 98d5363c1a692cff234903b9ab0417ca803b5f96
 workflow-type: tm+mt
 source-wordcount: '750'
-ht-degree: 76%
+ht-degree: 77%
 
 ---
 
 
-# Guía de Adobe Dynamic Media Classic {#using}
+# Guía de Adobe Dynamic Media Classic  {#using}
 
 + [Guía de Adobe Dynamic Media Classic](home.md)
 + [Tutorial de optimizaciones](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [La nueva experiencia de inicio de sesión de Dynamic Media Classic ya está disponible](new-ui-2020.md)
++ [NUEVA experiencia de inicio de sesión en Dynamic Media Classic ahora disponible](new-ui-2020.md)
 + [Boletín de Dynamic Media de Experience League](dynamic-media-newsletter.md)
 + Presentación de Adobe Dynamic Media Classic {#intro}
-   + [Aplicación de escritorio de Adobe Dynamic Media Classic: ahora disponible](dynamic-media-classic-desktop-app.md)
+   + [Aplicación de escritorio de Adobe Dynamic Media Classic - Ya disponible](dynamic-media-classic-desktop-app.md)
    + [Acerca de la Ayuda de Dynamic Media Classic](introduction.md)
    + [Recursos para desarrolladores](developer-resources.md)
    + [Novedades](whats-new.md)
@@ -33,7 +33,7 @@ ht-degree: 76%
    + [Recursos habituales](popular-resources.md)
    + [Videos de capacitación](training-videos.md)
 + Introducción {#getting-started}
-   + [Descripción general de la plataforma Adobe Dynamic Media Classic](dmc-platform-overview.md)
+   + [Descripción general de la plataforma de Adobe Dynamic Media Classic](dmc-platform-overview.md)
    + [Media Portal](media-portal.md)
    + [Inicio y cierre de sesión](signing-out.md)
    + [Nociones básicas de navegación](navigation-basics.md)
@@ -124,7 +124,7 @@ ht-degree: 76%
    + [Publicación de un conjunto de giros](publishing-spin-set.md)
    + [Configuración de ajustes preestablecidos del visor de conjunto de giros](setting-spin-set-viewer-presets.md)
    + [Vinculación de un conjunto de giros a una página web](linking-spin-set-web-page.md)
-+ Template basics {#template-basics}
++ Aspectos básicos de la plantilla {#template-basics}
    + [Inicio rápido: Funciones básicas de plantilla](quick-start-template-basics.md)
    + [Carga de archivos de plantilla](uploading-template-files.md)
    + [Crear una plantilla](creating-template.md)
@@ -141,13 +141,13 @@ ht-degree: 76%
    + [Adición de marcadores de capítulo a vídeos](adding-chapter-markers-video.md)
    + [Distribución de vídeos en sitios web y sitios móviles](deploying-video-websites-mobile-sites.md)
    + [Exportación de vídeos de origen y codificados](exporting-source-encoded-videos.md)
-+ Mixed media sets {#mixed-media-sets}
++ Conjuntos de medios mixtos {#mixed-media-sets}
    + [Inicio rápido: Conjuntos de medios mixtos](quick-start-mixed-media-sets.md)
    + [Configuración de un ajuste preestablecido de visor de conjuntos de medios mixtos](setting-mixed-media-set-viewer.md)
    + [Creación de un conjunto de medios mixtos](creating-mixed-media-set.md)
    + [Publicación de un conjunto de medios mixtos](publishing-mixed-media-set.md)
    + [Vinculación de un conjunto de medios mixtos a una página web](linking-mixed-media-set-web.md)
-+ Adobe Analytics instrumentation kit {#analytics-kit}
++ Kit de instrumentación de Adobe Analytics {#analytics-kit}
    + [Inicio rápido: Integración de Dynamic Media Classic con Adobe Analytics](quick-start-integrating-dmc-analytics.md)
    + [Inicio de sesión en Adobe Analytics](log-analytics.md)
    + [Configuración de informes de Adobe Analytics](configuring-analytics-reports.md)
