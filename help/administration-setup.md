@@ -9,10 +9,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: 3a8283196c9c99a5709cf4995c426da7e4f6c83b
 workflow-type: tm+mt
-source-wordcount: '1945'
-ht-degree: 64%
+source-wordcount: '1947'
+ht-degree: 63%
 
 ---
 
@@ -61,9 +61,9 @@ Después de agregar un usuario, Dynamic Media Classic envía un mensaje de corre
 
    Después de guardar, se le preguntará si desea agregar un usuario a otra empresa. Haga clic en Agregar si desea agregar el usuario a una empresa.
 
-   Todos los usuarios nuevos reciben una contraseña generada al azar; los usuarios deben cambiar las contraseñas la primera vez que inicien sesión en Dynamic Media Classic.
+   Todos los usuarios nuevos reciben una contraseña generada al azar; los usuarios deben cambiar sus contraseñas la primera vez que inicien sesión en la aplicación de escritorio Dynamic Media Classic.
 
-   Los nuevos usuarios reciben un correo electrónico de bienvenida una vez que se han agregado al sistema. El correo electrónico proporciona una contraseña temporal y explica cómo se debe iniciar sesión en Scene7 Publishing System.
+   Los nuevos usuarios reciben un correo electrónico de bienvenida una vez que se han agregado al sistema. El correo electrónico proporciona una contraseña temporal y explica cómo iniciar sesión en Dynamic Media Classic.
 
    Si el usuario no recibe el correo electrónico de bienvenida, pídale que vaya a la página de inicio de sesión de Dynamic Media Classic (https://s7sps1.scene7.com) y haga clic en Olvidé mi contraseña. La contraseña se restablece y se envía un nuevo mensaje de correo electrónico. Si el usuario no recibe el correo electrónico y no se encuentra en su carpeta de correo no deseado, póngase en contacto con el servicio de asistencia técnica.
 
