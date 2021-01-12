@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: ca7c8a7f-76f4-4a25-8c36-617a029e55be
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 3a8283196c9c99a5709cf4995c426da7e4f6c83b
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 83%
+source-wordcount: '279'
+ht-degree: 71%
 
 ---
 
@@ -29,9 +29,9 @@ Con varias copias de Dynamic Media Classic ejecutándose en uno o más equipos d
 * Carga de uno o más recursos (tanto escritorio como FTP)
 * Creación, eliminación o cambio de nombre de una carpeta
 
-Una vez que se realiza un cambio en el cliente de origen, se actualizan con dicho cambio todos los clientes de iguales de la misma empresa. Estos cambios no se notifican a los iguales a menos que estén editando el recurso cambiado en cualquiera de los generadores o editores de imágenes.
+Después de realizar un cambio en el cliente de origen, todos los clientes del mismo nivel que iniciaron sesión en la misma compañía se actualizan con el cambio. Estos cambios no se notifican a los iguales a menos que estén editando el recurso cambiado en cualquiera de los generadores o editores de imágenes.
 
-Al iniciar la sesión, Flash Player pregunta si desea permitir o rechazar las actualizaciones de iguales. Puede especificar que se &quot;recuerde&quot; la selección para que solo se le pregunte una vez. Para borrar la opción elegida, elimine el sitio oportuno del panel Redes asistidas por pares de Configuración global.
+Al iniciar sesión, se le pedirá que permita o deniegue las actualizaciones de iguales. Puede especificar que se &quot;recuerde&quot; la selección para que solo se le pregunte una vez. Para borrar la opción elegida, elimine el sitio oportuno del panel Redes asistidas por pares de Configuración global.
 
 Si está editando un recurso cambiado por un igual, se le pedirá que inserte el cambio en el generador o editor. Al elegir Sí, el generador o editor elimina los cambios realizados en el recurso e importa el recurso actualizado. Si elige No, no se cambia el recurso en el generador o editor sino que los cambios realizados se mantienen en la sesión.
 
