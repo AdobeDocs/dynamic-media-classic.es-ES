@@ -1,8 +1,6 @@
 ---
 title: Publicación de plantillas
-seo-title: Publicación de plantillas
-description: nulo
-seo-description: Obtenga información sobre cómo publicar plantillas.
+description: Obtenga información sobre cómo publicar plantillas.
 uuid: 9b8e5b94-6958-4725-bcbc-5e6a9c4d1b02
 contentOwner: admin
 content-type: reference
@@ -10,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 87a5a25e-210b-4359-821a-7dfe8c304f9b
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 41%
+source-wordcount: '172'
+ht-degree: 40%
 
 ---
 
