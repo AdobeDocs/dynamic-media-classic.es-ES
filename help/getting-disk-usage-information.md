@@ -1,18 +1,16 @@
 ---
 title: Obtención de información sobre el uso del disco
-seo-title: Obtención de información sobre el uso del disco
-description: nulo
-seo-description: Obtenga información sobre el uso del disco.
+description: Obtenga información sobre el uso del disco.
 uuid: 01361693-53d0-4072-b7c3-f284631d28cf
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 6763546d-83c4-42dc-879f-6bbfc8b56482
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 92%
+source-wordcount: '85'
+ht-degree: 91%
 
 ---
 
