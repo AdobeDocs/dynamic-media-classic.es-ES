@@ -1,17 +1,15 @@
 ---
 title: Ajuste de publicación
-seo-title: Ajuste de publicación
-description: nulo
-seo-description: La configuración de la pantalla Ajustes de publicación determina cómo se envían los recursos de forma predeterminada de los servidores de Dynamic Media Classic a los sitios web o las aplicaciones.
+description: La configuración de la pantalla Ajustes de publicación determina cómo se envían los recursos de forma predeterminada de los servidores de Dynamic Media Classic a los sitios web o las aplicaciones.
 uuid: 196f25c8-abf5-4c5d-8f6f-bc70007a0301
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: cba59093-28b6-4490-b838-d942b72ad1ec
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '2421'
+source-wordcount: '2418'
 ht-degree: 64%
 
 ---
