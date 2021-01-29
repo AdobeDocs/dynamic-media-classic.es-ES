@@ -1,8 +1,6 @@
 ---
-title: '"Práctica recomendada: Uso del visor de vídeo HTML5"'
-seo-title: '"Práctica recomendada: Uso del visor de vídeo HTML5"'
-description: nulo
-seo-description: Obtenga información sobre las prácticas recomendadas para utilizar el visor de vídeo HTML5.
+title: Práctica recomendada para utilizar el visor de vídeo HTML5
+description: Obtenga información sobre las prácticas recomendadas para utilizar el visor de vídeo HTML5.
 uuid: 3c8924dc-7bea-4c25-b77b-005f57b71b64
 contentOwner: admin
 content-type: reference
@@ -10,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 30%
+source-wordcount: '422'
+ht-degree: 26%
 
 ---
 
 
-# Práctica recomendada: Uso del visor de vídeo HTML5{#best-practice-using-the-html-video-viewer}
+# Prácticas recomendadas para utilizar el visor de vídeo HTML5{#best-practice-using-the-html-video-viewer}
 
 Los ajustes preestablecidos del visor de vídeo HTML5 de Dynamic Media Classic son reproductores de vídeo sólidos. En el lado de diseño del reproductor, puede crear toda la funcionalidad del reproductor de vídeo con herramientas de desarrollo web estándar. Por ejemplo, se pueden diseñar los botones, controles y el fondo de imagen de póster personalizado utilizando HTML5 y CSS para ayudarle a captar clientes con un aspecto personalizado.
 
