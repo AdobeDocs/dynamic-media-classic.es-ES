@@ -1,8 +1,6 @@
 ---
 title: Nociones básicas de ajuste
-seo-title: Nociones básicas de ajuste
-description: nulo
-seo-description: Aprenda a utilizar la pantalla Ajustes para introducir su configuración personal. Si es un administrador, configure los ajustes de su empresa.
+description: Aprenda a utilizar la pantalla Ajustes para introducir su configuración personal. Si es un administrador, configure los ajustes de su empresa.
 uuid: 38f487d7-33f2-4a9e-a32e-bb08f3dd3284
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '193'
 ht-degree: 66%
 
 ---
