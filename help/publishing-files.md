@@ -1,8 +1,6 @@
 ---
 title: 'Publicar archivos '
-seo-title: 'Publicar archivos '
-description: nulo
-seo-description: Obtenga información sobre cómo publicar archivos.
+description: Obtenga información sobre cómo publicar archivos.
 uuid: cdcf519b-4c1e-430b-b43a-2f20f75071b1
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 39099bc0-9228-46f0-9bee-3542059f4695
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1654'
 ht-degree: 76%
 
 ---
@@ -104,7 +102,7 @@ PublicarDe forma predeterminada, Dynamic Media Classic solo publica recursos nue
 * **Ejecutar trabajo**
 comoElija un nombre de usuario en la lista. Desde la página Trabajos, puede ordenar los trabajos por nombre de usuario. Si elige un nombre, asociará el trabajo de publicación con un usuario.
 
-**Notificación HTTPIntroduzca una dirección URL para activar los trabajos de publicación posteriores.**
+**Notificación HTTPIntroduzca una dirección URL para el déclencheur de los trabajos de publicación posteriores.**
 
 
 (Consulte [Uso de un trabajo de carga o publicación como desencadenador](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)).
