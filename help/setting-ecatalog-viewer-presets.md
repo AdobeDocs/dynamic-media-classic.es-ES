@@ -1,18 +1,16 @@
 ---
 title: Configuración de ajustes preestablecidos del visor de catálogos electrónicos
-seo-title: Configuración de ajustes preestablecidos del visor de catálogos electrónicos
-description: nulo
-seo-description: Obtenga información sobre cómo configurar los ajustes preestablecidos de visor de catálogos electrónicos.
+description: Obtenga información sobre cómo configurar los ajustes preestablecidos de visor de catálogos electrónicos.
 uuid: aca66bc5-8491-4d81-9a06-1d3531860a14
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 67%
+source-wordcount: '473'
+ht-degree: 66%
 
 ---
 
