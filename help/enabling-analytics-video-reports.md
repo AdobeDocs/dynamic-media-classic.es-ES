@@ -1,8 +1,6 @@
 ---
 title: Activación de los informes de vídeo de Adobe Analytics
-seo-title: Activación de los informes de vídeo de Adobe Analytics
-description: nulo
-seo-description: Obtenga información sobre cómo habilitar los informes de vídeo de Adobe Analytics.
+description: Obtenga información sobre cómo habilitar los informes de vídeo de Adobe Analytics.
 uuid: 078594b2-7d53-4714-8128-ff3b5c3a5e36
 contentOwner: admin
 content-type: reference
@@ -10,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: 18644a53-92da-40ab-b961-318d8332c54d
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 26%
+source-wordcount: '209'
+ht-degree: 23%
 
 ---
 
