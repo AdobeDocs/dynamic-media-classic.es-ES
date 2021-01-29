@@ -1,8 +1,6 @@
 ---
 title: Personalización de la pantalla de Media Portal
-seo-title: Personalización de la pantalla de Media Portal
-description: nulo
-seo-description: Obtenga información sobre cómo personalizar la pantalla de Media Portal.
+description: Obtenga información sobre cómo personalizar la pantalla de Media Portal.
 uuid: bd1a65a6-723b-49d0-8eac-849da00e0e1a
 contentOwner: admin
 content-type: reference
@@ -10,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 8b000c25-c9c3-481e-9b25-96257471571f
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 53%
+source-wordcount: '341'
+ht-degree: 52%
 
 ---
 
