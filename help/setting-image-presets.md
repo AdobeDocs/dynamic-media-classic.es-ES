@@ -1,8 +1,6 @@
 ---
 title: Configuración de ajustes preestablecidos de imagen
-seo-title: Configuración de ajustes preestablecidos de imagen
-description: nulo
-seo-description: Obtenga información sobre cómo configurar ajustes preestablecidos de imagen.
+description: Obtenga información sobre cómo configurar ajustes preestablecidos de imagen.
 uuid: 90530948-dee9-41bd-b39e-684140446abc
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 1ec39fe5-7b2a-4034-9570-6b5595f97052
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '649'
 ht-degree: 65%
 
 ---
@@ -65,7 +63,7 @@ Introduzca la configuración que se muestra aquí:
    |--- |--- |--- |--- |--- |
    | Venta cruzada (miniatura mini) | 75 x 75 | 1,5 | 0,8 | 5 |
    | Miniatura | 150 x 150 | 1,1 | 1 | 5 |
-   | Principal | 350 x 350 | 1 | 1 | 6 |
+   | Principal | 350 x 350 | 3 | 3 | 6 |
    | Ampliación | 500 x 500 | 1,2 | 1,2 | 5 |
 
 1. Haga clic en **Guardar**.
