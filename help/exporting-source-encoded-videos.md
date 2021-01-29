@@ -1,8 +1,6 @@
 ---
 title: Exportación de vídeos de origen y codificados
-seo-title: Exportación de vídeos de origen y codificados
-description: nulo
-seo-description: Obtenga información sobre cómo exportar vídeos de origen y codificados.
+description: Obtenga información sobre cómo exportar vídeos de origen y codificados.
 uuid: 17511bdf-27b7-41e1-bf39-a5e39f55f5d8
 contentOwner: admin
 content-type: reference
@@ -10,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: f6a2dc19-7eb5-41f7-b6f2-de1979ed1d4e
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 79%
+source-wordcount: '68'
+ht-degree: 77%
 
 ---
 
