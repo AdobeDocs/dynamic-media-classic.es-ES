@@ -1,8 +1,6 @@
 ---
 title: '"Inicio rápido: Integración de Target Standard/Premium"'
-seo-title: '"Inicio rápido: Integración de Target Standard/Premium"'
-description: nulo
-seo-description: Introducción y Inicio rápido a Adobe Target Standard/Premium para ayudarle en el uso inicial de las técnicas de integración de Target Standard/Premium.
+description: Introducción y Inicio rápido a Adobe Target Standard/Premium para ayudarle en el uso inicial de las técnicas de integración de Target Standard/Premium.
 uuid: d8f79fbf-8be1-44fa-8058-3508060fcd70
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_classic_integration
 discoiquuid: f8c25768-cf59-45ec-8193-522404191d57
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '474'
 ht-degree: 19%
 
 ---
