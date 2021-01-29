@@ -1,8 +1,6 @@
 ---
 title: Generación automatizada de conjuntos de imágenes
-seo-title: Generación automatizada de conjuntos de imágenes
-description: nulo
-seo-description: 'Aprenda a automatizar la generación de conjuntos de imágenes. '
+description: 'Aprenda a automatizar la generación de conjuntos de imágenes. '
 uuid: bd4b3252-3e77-4230-9684-cd6d28b8eecb
 contentOwner: admin
 content-type: reference
@@ -10,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 1a9b525e-6120-44c7-b11a-e56bfb7cd017
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 91%
+source-wordcount: '95'
+ht-degree: 90%
 
 ---
 
