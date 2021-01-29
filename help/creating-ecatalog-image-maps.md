@@ -1,8 +1,6 @@
 ---
 title: Creación de mapas de imagen de catálogos electrónicos
-seo-title: Creación de mapas de imagen de catálogos electrónicos
-description: nulo
-seo-description: Obtenga información sobre cómo crear mapas de imagen de catálogos electrónicos.
+description: Obtenga información sobre cómo crear mapas de imagen de catálogos electrónicos.
 uuid: 943ad3f7-a885-4bc2-88cb-77083384bdf8
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '1496'
+source-wordcount: '1491'
 ht-degree: 77%
 
 ---
@@ -46,7 +44,7 @@ Al hacer clic, Dynamic Media Classic dibuja los bordes del mapa de imagen.
    Consulte [Uso de plantillas para introducir elementos de JavaScript y direcciones URL](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls).
 
 1. (Opcional) En la lista desplegable Mostrar, haga clic en **Texto de rollover** y, a continuación, escriba el texto que desea que vean los usuarios en pantalla cuando muevan sus punteros sobre el mapa de imagen.
-1. (Opcional) En la lista desplegable Mostrar, haga clic en **Otras acciones** e introduzca un atributo para activar una acción de enfoque o desenfoque cuando los usuarios muevan el puntero sobre un mapa de imagen.
+1. (Opcional) En la lista desplegable Mostrar, haga clic en **Otras acciones** e introduzca un atributo para déclencheur de una acción de enfoque o desenfoque cuando los usuarios muevan el puntero sobre un mapa de imagen.
 
    Consulte [Definición de otras acciones para los mapas de imagen](creating-image-maps.md#defining_other_actions_for_image_maps).
 
