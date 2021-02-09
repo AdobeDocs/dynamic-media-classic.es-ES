@@ -1,18 +1,14 @@
 ---
 title: Ajustes de aplicación
-seo-title: Ajustes de aplicación
 description: Obtenga información sobre cómo configurar el área de aplicación de Dynamic Media Classic.
-seo-description: Obtenga información sobre cómo configurar el área de aplicación de Dynamic Media Classic.
-uuid: 3e2f1d30-8f33-4a9d-bbe4-e8c3dbc968f8
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
-discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '10979'
+source-wordcount: '10914'
 ht-degree: 68%
 
 ---
@@ -160,7 +156,7 @@ Los administradores pueden crear ajustes preestablecidos para exportar recursos.
 
 Para abrir la pantalla Ajustes preestablecidos de imagen, en la barra de navegación global, haga clic en **Ajustes** > **Ajustes preestablecidos de imagen**.
 
-Consulte [Imágenes inteligentes](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html).
+Consulte [Imágenes inteligentes](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic).
 
 ### Creación y edición de ajustes preestablecidos de imagen {#creating-and-editing-image-presets}
 
@@ -393,12 +389,12 @@ Para obtener más información sobre los parámetros de las opciones de codifica
 
 |  | Nombre de ajuste preestablecido de codificación/Texto de información sobre herramientas | Velocidad de conexión de destino (kbps) | Sufijo de archivo codificado | Velocidad de datos de vídeo (kbps) | Anchura/Altura (píxeles) | Fps | Velocidad de bits de audio (kbps) | Recomendaciones |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | 16:9, 480x270 (400 Kbps) | 500 | _480x270_400K | 400 | 480x270 | Igual que el origen | 64 | Pantalla ancha de baja resolución |
+| 3 | 16:9, 480x270 (400 Kbps) | 500 | _480x270_400K | 400 | 480x270 | Igual que el origen | 64 | Pantalla ancha de baja resolución |
 | 2 | 16:9, 640x360 (800 Kbps) | 900 | _640x360_800K | 600 | 640 x 360 | Igual que el origen | 80 | Resolución media para pantalla ancha |
 | 3 | 16:9, 800x450 (1200 Kbps) | 1,5 Mbps | _800x450_1200K | 1200 | 800x450 | Igual que el origen | 96 | Resolución media/alta |
 | 4 | 16:9, 1280x720 (2000 Kbps) | 3,0 Mbps | _1280x720_2000K | 2000 | 1280 x 720 | Igual que el origen | 128 | Pantalla ancha de alta definición |
 | 5 | 4:3, 320x240 (400 Kbps) | 500 | _320X240_400K | 400 | 320 x 240 | Igual que el origen | 64 | Baja resolución |
-| 6 | 4:3, 480x360 (800 Kbps) | 900 | _480x360_800K | 600 | 480x360 | Igual que el origen | 80 | Resolución media |
+| 6 | 4:3, 480x360 (800 Kbps) | 900 | _480x360_800K | 800 | 480x360 | Igual que el origen | 80 | Resolución media |
 | 7 | 4:3, 640x480 (1200 Kbps) | 1,5 Mbps | _640x480_1200K | 1200 | 640 x 480 | Igual que el origen | 96 | Resolución media/alta |
 | 8 | 4:3, 1280x960 (2000 Kbps) | 3,0 Mbps | _1280x960_2000K | 2000 | 1280 x 960 | Igual que el origen | 128 | Alta definición |
 
@@ -407,11 +403,11 @@ Para obtener más información sobre los parámetros de las opciones de codifica
 |  | Nombre de ajuste preestablecido de codificación/Texto de información sobre herramientas | Velocidad de conexión de destino (kbps) | Sufijo de archivo codificado | Velocidad de datos de vídeo (kbps) | Anchura/Altura (píxeles) | Fps | Velocidad de bits de audio (kbps) | Recomendaciones |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 16:9, 480x270 (400 Kbps), OGG | 500 | _OGG_480x270_400K | 400 | 480 x 270 | Igual que el origen | 64 | Pantalla ancha de baja resolución |
-| 2 | 16:9, 640 x 360 (800 kbps), OGG | 900 | _OGG_640x360_800K | 600 | 640 x 360 | Igual que el origen | 80 | Resolución media para pantalla ancha |
+| 2 | 16:9, 640 x 360 (800 kbps), OGG | 900 | _OGG_640x360_800K | 800 | 640 x 360 | Igual que el origen | 80 | Resolución media para pantalla ancha |
 | 1 | 16:9, 800 x 450 (1200 kbps), OGG | 1,5 Mbps | _OGG_800x450_1200K | 1200 | 800 x 450 | Igual que el origen | 96 | Resolución media/alta |
 | 4 | 16:9, 1280 x 720 (2000 kbps), OGG | 3,0 Mbps | _OGG_1280x720_2000K | 2000 | 1280 x 720 | Igual que el origen | 128 | Pantalla ancha de alta definición |
 | 5 | 4:3, 320 x 240 (400 kbps), OGG | 500 | _OGG_320X240_400K | 400 | 320 x 240 | Igual que el origen | 64 | Baja resolución |
-| 6 | 4:3, 480 x 360 (800 kbps), OGG | 900 | _OGG_480x360_800K | 600 | 480 x 360 | Igual que el origen | 80 | Resolución media |
+| 6 | 4:3, 480 x 360 (800 kbps), OGG | 900 | _OGG_480x360_800K | 800 | 480 x 360 | Igual que el origen | 80 | Resolución media |
 | 7 | 4:3, 640 x 480 (1200 kbps), OGG | 1,5 Mbps | _OGG_640x480_1200K | 1200 | 640 x 480 | Igual que el origen | 96 | Resolución media/alta |
 | 8 | 4:3, 1280 x 960 (2000 kbps), OGG | 3,0 Mbps | _OGG_1280x960_2000K | 2000 | 1280 x 960 | Igual que el origen | 128 | Alta definición |
 
@@ -425,9 +421,9 @@ Para obtener más información sobre los parámetros de opciones de codificació
 
 |  | Nombre de ajuste preestablecido de codificación/Texto de información sobre herramientas | Velocidad de conexión de destino (kbps) | Sufijo de archivo codificado | Velocidad de bits de vídeo (Kbps) | Anchura y altura en píxeles | Fps | Velocidad de bits de audio (kbps) | Recomendaciones |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | 16:9, 512 x 288 , Móvil (400 kbps) | 500 | _Mobile_512x288_400K | 400 | 512 x 288 | Igual que el origen | 64 | Baja resolución, 3G |
+| 3 | 16:9, 512 x 288 , Móvil (400 kbps) | 500 | _Mobile_512x288_400K | 400 | 512 x 288 | Igual que el origen | 64 | Baja resolución, 3G |
 | 2 | 16:9, 512 x 288 , Móvil (600 kbps) | 700 | _Mobile_512x288_600K | 800 | 512 x 288 | Igual que el origen | 64 | Resolución media, 3G |
-| 3 | 16:9, 512 x 288 , Móvil (800 kbps) | 900 | _Mobile_512x288_800K | 800 | 512 x 288 | Igual que el origen | 80 | Resolución media, Wi-Fi |
+| 1 | 16:9, 512 x 288 , Móvil (800 kbps) | 900 | _Mobile_512x288_800K | 800 | 512 x 288 | Igual que el origen | 80 | Resolución media, Wi-Fi |
 | 4 | 16:9, 512 x 288 , Móvil (1000 kbps) | 1,2 Mbps | _Mobile_512x288_1000K | 1.000 | 512 x 288 | Igual que el origen | 80 | Alta resolución, Wi-Fi |
 | 5 | 16:9, 512 x 288 , Móvil (1200 kbps) | 1,5 Mbps | _Mobile_512x288_1200K | 1200 | 512 x 288 | Igual que el origen | 96 | Alta resolución, Wi-Fi |
 | 6 | 4:3, 384 x 288 , Móvil (400 kbps) | 500 | _Mobile_384x288_400K | 400 | 384 x 288 | Igual que el origen | 64 | Baja resolución, 3G |
@@ -440,13 +436,13 @@ Para obtener más información sobre los parámetros de opciones de codificació
 
 >[!NOTE]
 >
->**Aviso**  de fin de vida útil de los visores de Flash: a partir del 31 de enero de 2017, Adobe Dynamic Media Classic finalizó oficialmente la compatibilidad con la plataforma de visor de Flash. Para obtener más información sobre este cambio importante, consulte el siguiente sitio web de preguntas más frecuentes: [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
+>**Aviso**  de fin de vida útil de los visores de Flash: a partir del 31 de enero de 2017, Adobe Dynamic Media Classic finalizó oficialmente la compatibilidad con la plataforma de visor de Flash.
 
 Un *ajuste preestablecido de visor* es una serie de opciones que determinan la manera en que los usuarios verán los recursos de medios enriquecidos en la pantalla de su ordenador y dispositivos móviles. Como administrador, puede crear ajustes preestablecidos de visor. Se pueden configurar varias opciones de configuración para los visores. Por ejemplo, puede cambiar el tamaño, el comportamiento del zoom, las combinaciones de colores, los bordes y las fuentes del visor.
 
 Se recomienda utilizar los visores de vídeo HTML5 de Dynamic Media Classic. Los ajustes preestablecidos utilizados en los visores de vídeo HTML5 son reproductores de vídeo sólidos. Al combinar en un solo reproductor la capacidad para diseñar los componentes de reproducción mediante HTML5 y CSS, tener la reproducción incorporada y usar flujo adaptable y progresivo en función de la capacidad del explorador, se amplía el alcance del contenido de medios enriquecidos para los usuarios de móviles, tablets y de escritorio y se garantiza una experiencia optimizada de vídeo.
 
-Consulte [Acerca de los visores HTML5](hhttps://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html) en la Guía de referencia de visores de Adobe.
+Consulte [Acerca de los visores HTML5](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only) en la Guía de referencia de visores de Adobe.
 
 Consulte [Matriz de compatibilidad de ajustes preestablecidos de visor Dynamic Media Classic](application-setup.md#scene7_viewer_preset_compatibility_matrix).
 
@@ -490,15 +486,13 @@ Por ejemplo, si el tamaño de la imagen principal es 350 x 350 píxeles, con un 
 
 **Aviso** de fin de vida útil de los visores de Flash: A partir del 31 de enero de 2017, Adobe Dynamic Media Classic dejó de ofrecer asistencia técnica para la plataforma de visor de Flash.
 
-Para obtener más información sobre este cambio importante, consulte el siguiente sitio web de preguntas más frecuentes: [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
-
 La siguiente tabla identifica los ajustes preestablecidos de visor Dynamic Media Classic disponibles actualmente. En la tabla también se especifica la compatibilidad del visor con los ordenadores y los dispositivos móviles, así como la tecnología empleada para cada visor.
 
 Consulte también [Ejemplos de la biblioteca de referencia de visores de Adobe](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 Para obtener información sobre las versiones de sistema operativo y navegador web admitidas para los visores, consulte las notas de la versión de los visores.
 
-Consulte [Notas de la versión de referencia de visores de Adobe](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
+Consulte [Notas de la versión de referencia de visores de Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html).
 
 |  | Tecnología de visor | Ordenador | Apple iPhone | Apple iPad | Smartphone Android | Tablet Android |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -630,7 +624,7 @@ Consulte [Exportación de un ajuste preestablecido de visor HTML5](application-s
    >
    >Seleccione Igual que el origen para ajustar automáticamente el tamaño del visor de vídeos al tamaño de resolución del vídeo codificado. Si elige esta opción, no puede introducir la anchura ni la altura del escenario sino que estas opciones proceden del propio vídeo. Si selecciona Igual que el origen, configure la opción de tamaño de margen para que refleje las dimensiones de aspecto fuera del área de reproducción de vídeo. Este tamaño de margen es la altura y anchura de píxel de los controles de vídeo. La siguiente ilustración le ayuda a determinar los tamaños de margen que se deben utilizar.*
 
-   ![](assets/vs_video_viewer_configure_margin.png)
+   ![Configuración de márgenes del visor de vídeo](assets/vs_video_viewer_configure_margin.png)
 
 1. Realice una de las siguientes acciones:
 
