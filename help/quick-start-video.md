@@ -1,16 +1,14 @@
 ---
 title: '"Inicio rápido: Vídeo"'
-description: Introducción y Inicio rápido de vídeo para ayudarle en el uso inicial.
-uuid: bf0ecf87-a1f2-4e83-8041-df5192dd26a1
+description: Introducción y Inicio rápido a Adobe Dynamic Media Classic Video para ayudarle en el uso inicial.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
-discoiquuid: 6cef541b-e9df-48eb-9a16-ca3e1f07238e
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '1439'
+source-wordcount: '1441'
 ht-degree: 65%
 
 ---
@@ -53,7 +51,7 @@ Para administrar un solo vídeo y conjuntos de vídeos adaptables, Dynamic Media
 
    El flujo de vídeo adaptable se admite en numerosas plataformas de iOS.
 
-   Consulte la compatibilidad más reciente en la [Guía de referencia de visores de Adobe](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
+   Consulte la compatibilidad más reciente en la [Guía de referencia de visores de Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html).
 
    Dynamic Media Classic admite la reproducción de vídeo móvil para vídeo MP4 H.264. Puede consultar los dispositivos BlackBerry compatibles con este formato de vídeo en este sitio web:
 
