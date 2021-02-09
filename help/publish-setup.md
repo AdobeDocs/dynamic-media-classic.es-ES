@@ -1,13 +1,11 @@
 ---
 title: Ajuste de publicación
 description: La configuración de la pantalla Ajustes de publicación determina cómo se envían los recursos de forma predeterminada de los servidores de Dynamic Media Classic a los sitios web o las aplicaciones.
-uuid: 196f25c8-abf5-4c5d-8f6f-bc70007a0301
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: cba59093-28b6-4490-b838-d942b72ad1ec
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
 source-wordcount: '2418'
 ht-degree: 64%
@@ -21,7 +19,7 @@ La configuración de la pantalla Ajustes de publicación determina cómo se env�
 
 Los administradores pueden cambiar la configuración predeterminada de las pantallas Servidor de imágenes, Procesador de imágenes y Viñeta para establecer la configuración predeterminada a la hora de enviar recursos desde los servidores.
 
-Para abrir las pantallas de Ajuste de publicación, haga clic en Ajustes > Ajustes de aplicación > Ajuste de publicación.
+Para abrir las pantallas de Ajuste de publicación, haga clic en **Ajustes** > **Ajustes de aplicación** > **Ajustes de publicación**.
 
 >[!NOTE]
 >
