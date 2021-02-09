@@ -6,9 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 84a36e45ecf5fb027645e0f9da40b00ad3ce29e0
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '1584'
 ht-degree: 0%
 
 ---
@@ -183,7 +183,7 @@ Para descargar y *silenciar* instalar la versión más reciente de la aplicació
 
 ## Recorrido de vídeo sobre el uso de Dynamic Media Classic Desktop App {#dmc-app-video-walk-through}
 
-Vea un [vídeo explicativo sobre el uso de Dynamic Media Classic Desktop App](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html) (Duración: 2 minutos 36 segundos).
+Vea un [vídeo explicativo sobre el uso de Dynamic Media Classic Desktop App](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html#dynamic-media) (Duración: 2 minutos 36 segundos).
 
 ## Borrado de la caché de imágenes y la caché de recursos de su equipo mediante la aplicación de escritorio
 
