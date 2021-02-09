@@ -7,9 +7,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a802ead0-401e-4600-aedf-e6414f7983e1
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '282'
 ht-degree: 39%
 
 ---
@@ -41,13 +41,13 @@ Las guías de referencia para el servicio de imágenes y el procesamiento de im�
 
 | Documento | Dirección web |
 |--- |--- |
-| Guía de referencia de API | [https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/home.html](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/home.html) |
+| Guía de referencia de API | [https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html?lang=en) |
 
 **Visores**
 
 | Documento | Dirección web |
 |--- |--- |
-| Guía de referencia de visores y notas de la versión | [https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html) |
+| Guía de referencia de visores y notas de la versión | [https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en) |
 | Ejemplos de la biblioteca de visores | [https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) |
 
 
