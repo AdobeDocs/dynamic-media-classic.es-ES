@@ -1,17 +1,15 @@
 ---
 title: 'Publicar archivos '
-description: Obtenga información sobre cómo publicar archivos.
-uuid: cdcf519b-4c1e-430b-b43a-2f20f75071b1
+description: Los recursos se publican en los servidores de imágenes de Dynamic Media. Puede publicar recursos una sola vez o organizar que Dynamic Media Classic publique los recursos de forma periódica. Después de publicarse, tiene los recursos disponibles para su entrega. Puede copiar las llamadas mediante URL desde Dynamic Media Classic y agregarlas a su sitio Web o aplicación.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
-discoiquuid: 39099bc0-9228-46f0-9bee-3542059f4695
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '1654'
-ht-degree: 76%
+source-wordcount: '1706'
+ht-degree: 75%
 
 ---
 
@@ -20,7 +18,7 @@ ht-degree: 76%
 
 Los recursos se publican en los servidores de imágenes de Dynamic Media. Puede publicar recursos una sola vez o organizar que Dynamic Media Classic publique los recursos de forma periódica. Después de publicarse, tiene los recursos disponibles para su entrega. Puede copiar las llamadas mediante URL desde Dynamic Media Classic y agregarlas a su sitio Web o aplicación.
 
-Dynamic Media Classic ahora admite el envío de todas las imágenes y vídeos a través de HTTP/2. Es decir, una URL publicada o código incrustado para la imagen o el vídeo está disponible para integrarse con cualquier aplicación que acepte un recurso alojado. Ese recurso publicado se entrega a través del protocolo HTTP/2. Este método de envío mejora la forma en que se comunican los exploradores y los servidores, lo que permite una mejor respuesta y tiempos de carga de todos los recursos de Dynamic Media Classic. Consulte [Preguntas más frecuentes sobre el Envío HTTP2](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html).
+Dynamic Media Classic ahora admite el envío de todas las imágenes y vídeos a través de HTTP/2. Es decir, una URL publicada o código incrustado para la imagen o el vídeo está disponible para integrarse con cualquier aplicación que acepte un recurso alojado. Ese recurso publicado se entrega a través del protocolo HTTP/2. Este método de envío mejora la forma en que se comunican los exploradores y los servidores, lo que permite una mejor respuesta y tiempos de carga de todos los recursos de Dynamic Media Classic. Consulte [Preguntas más frecuentes sobre el Envío HTTP2](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
 
 ## Publicar tras la carga {#publish-after-uploading}
 
