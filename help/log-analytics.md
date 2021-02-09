@@ -8,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 36%
+source-wordcount: '354'
+ht-degree: 35%
 
 ---
 
@@ -33,7 +33,7 @@ Al iniciar sesión, tiene la opción de introducir el ID de organización de Mar
 1. En la página Configuración de Adobe Analytics, toque **[!UICONTROL Inicio de sesión de Adobe Analytics]**.
 1. En el cuadro de diálogo **[!UICONTROL Inicio de sesión de Adobe Analytics]**, introduzca el nombre de la compañía, el ID de organización de Marketing Cloud (opcional), el nombre de usuario y la clave *clave secreta compartida* en el campo de texto **[!UICONTROL Contraseña]**.
 
-   Puede recuperar la clave *secreta compartida* desde la consola de administración de Analytics. Consulte [Cómo obtener las credenciales de API para cuentas de usuario](https://helpx.adobe.com/analytics/kb/how-to-get-api-credentials-for-user-accounts-.html).
+   Puede recuperar la clave *secreta compartida* desde la consola de administración de Analytics. Consulte [Cómo obtener las credenciales de API para cuentas de usuario](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/create-oauth-client.md).
 
 1. Haga clic en **[!UICONTROL Inicio de sesión]**.
 1. En el menú desplegable **[!UICONTROL Grupo de informes]**, elija un grupo de informes y haga clic en **[!UICONTROL Aceptar]**.
