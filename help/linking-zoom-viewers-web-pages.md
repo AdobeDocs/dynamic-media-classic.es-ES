@@ -1,17 +1,15 @@
 ---
 title: Vinculación de visores de zoom a páginas web
 description: Descubra cómo vincular los visores de zoom a sus páginas web.
-uuid: cd350ea4-267e-4a8a-aed8-7553df86b438
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
-discoiquuid: df5471c1-ccda-4dd4-a7f1-5b9193b41f98
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 86%
+source-wordcount: '674'
+ht-degree: 85%
 
 ---
 
@@ -46,7 +44,7 @@ Los sitios web y las aplicaciones acceden al contenido de Dynamic Media Image Se
 
 Normalmente, los visitantes de un sitio web aplican zoom en las imágenes seleccionando primero un icono de zoom (representado por un icono de lupa, por lo general). Si se selecciona este icono, se inicia una página web dinámica (ASP o JSP) que muestra la imagen en una ventana emergente. Es en esta ventana emergente donde los visitantes aplican zoom en la imagen.
 
-Para obtener más información y ejemplos de código, consulte [Incrustación del visor de zoom básico HTML5 en la Guía de referencia de visores de Adobe](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html).
+Para obtener más información y ejemplos de código, consulte [Incrustación del visor de zoom básico HTML5 en la Guía de referencia de visores de Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copia de la copia incrustada de un visor de zoom {#copying-the-embed-copy-of-a-zoom-viewer}
 
@@ -74,5 +72,4 @@ El uso de la función de código incrustado permite revisar el código del visor
 
    No se permite la edición del código en el cuadro de diálogo Código incrustado.
 
-1. Haga clic en Cerrar.
-
+1. Haga clic en **Cerrar**.
