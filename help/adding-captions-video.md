@@ -6,9 +6,9 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '905'
 ht-degree: 63%
 
 ---
@@ -34,7 +34,7 @@ Consulte también [Adición y edición de ajustes preestablecidos de visor](appl
 
 Dynamic Media Classic tiene la capacidad de convertir archivos de subtítulos al formato JSON (JavaScript Object Notation). Esta conversión significa que puede incrustar el texto de JSON en una página web como una transcripción completa pero oculta del vídeo. Los motores de búsqueda pueden buscar e indexar el contenido para que los vídeos se detecten más fácilmente y para proporcionar a los clientes detalles adicionales sobre el contenido de vídeo.
 
-Consulte [Servicio de contenido estático (no de imagen)](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents.html) en la *Ayuda de la API de servicio de imágenes de Adobe* para obtener más información sobre el uso de la función JSON en una dirección URL.
+Consulte [Servicio de contenido estático (no de imagen)](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents.html?lang=en#image-serving-api) en la *Ayuda de la API de servicio de imágenes de Adobe* para obtener más información sobre el uso de la función JSON en una dirección URL.
 
 **Para agregar subtítulos a vídeos**
 
