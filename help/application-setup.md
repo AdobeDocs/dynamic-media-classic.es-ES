@@ -6,9 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: c6160315007fa1658f88a857589ec11ac3f0d5ae
 workflow-type: tm+mt
-source-wordcount: '10914'
+source-wordcount: '10925'
 ht-degree: 68%
 
 ---
@@ -371,8 +371,8 @@ Para obtener más información sobre los parámetros de las opciones de codifica
 | 1 | 16:9, 51 2 x 288, Móvil (iPhone, iPad, Android), (400 Kbps) | 500 | _Mobile_512x288_400K | 400 | 512 x 288 | Igual que el origen | 64 | Baja resolución, 3G |
 | 2 | 4:3, 384 x 288 px, Móvil (iPhone, iPad, Android), (400 Kbps) | 500 | _Mobile_384x288_400K | 400 | 384 x 288 | Igual que el origen | 64 | Baja resolución, 3G |
 | 1 | 16:9, 512 x 288, Móvil (iPhone, iPad, Android), (600 Kbps) | 700 | _Mobile_512x288_600K | 600 | 512 x 288 | Igual que el origen | 64 | Resolución media, 3G |
-| 4 | 4:3, 384 x 288, Móvil (iPhone, iPad, Android), (600 Kbps) | 700 | _Mobile_384x288_600 | 600 | 384 x 288 | Igual que el origen | 64 | Resolución media, 3G |
-| 5 | 16:9, 640 x 360, Tablet (iPad, Android), (800 Kbps) | 900 | _iPad_640x360_800K | 800 | 640 x 360 | Igual que el origen | 80 | Resolución media, WiFi |
+| 4 | 4:3, 384 x 288, Móvil (iPhone, iPad, Android), (600 Kbps) | 700 | _Mobile_384x288_600 | 800 | 384 x 288 | Igual que el origen | 64 | Resolución media, 3G |
+| 5 | 16:9, 640 x 360, Tablet (iPad, Android), (800 Kbps) | 900 | _iPad_640x360_800K | 600 | 640 x 360 | Igual que el origen | 80 | Resolución media, WiFi |
 | 6 | 4:3, 640 x 480, Tablet (iPad, Android), (800 Kbps) | 900 | _iPad_640x480_800K | 800 | 640 x 480 | Igual que el origen | 80 | Resolución media, WiFi |
 | 7 | 16:9, 768 x 432, Tablet (iPad, Android), (1200 Kbps) | 1,5 Mbps | _iPad_768x432_1200K | 1200 | 768 x 432 | Igual que el origen | 96 | Alta resolución, WiFi |
 | 8 | 4:3, 768 x 576, Tablet (iPad, Android), (1200 Kbps) | 1,5 Mbps | _iPad_768x576_1200K | 1200 | 768 x 576 | Igual que el origen | 96 | Alta resolución, WiFi |
@@ -389,9 +389,9 @@ Para obtener más información sobre los parámetros de las opciones de codifica
 
 |  | Nombre de ajuste preestablecido de codificación/Texto de información sobre herramientas | Velocidad de conexión de destino (kbps) | Sufijo de archivo codificado | Velocidad de datos de vídeo (kbps) | Anchura/Altura (píxeles) | Fps | Velocidad de bits de audio (kbps) | Recomendaciones |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 3 | 16:9, 480x270 (400 Kbps) | 500 | _480x270_400K | 400 | 480x270 | Igual que el origen | 64 | Pantalla ancha de baja resolución |
-| 2 | 16:9, 640x360 (800 Kbps) | 900 | _640x360_800K | 600 | 640 x 360 | Igual que el origen | 80 | Resolución media para pantalla ancha |
-| 3 | 16:9, 800x450 (1200 Kbps) | 1,5 Mbps | _800x450_1200K | 1200 | 800x450 | Igual que el origen | 96 | Resolución media/alta |
+| 1 | 16:9, 480x270 (400 Kbps) | 500 | _480x270_400K | 400 | 480x270 | Igual que el origen | 64 | Pantalla ancha de baja resolución |
+| 2 | 16:9, 640x360 (800 Kbps) | 900 | _640x360_800K | 800 | 640 x 360 | Igual que el origen | 80 | Resolución media para pantalla ancha |
+| 1 | 16:9, 800x450 (1200 Kbps) | 1,5 Mbps | _800x450_1200K | 1200 | 800x450 | Igual que el origen | 96 | Resolución media/alta |
 | 4 | 16:9, 1280x720 (2000 Kbps) | 3,0 Mbps | _1280x720_2000K | 2000 | 1280 x 720 | Igual que el origen | 128 | Pantalla ancha de alta definición |
 | 5 | 4:3, 320x240 (400 Kbps) | 500 | _320X240_400K | 400 | 320 x 240 | Igual que el origen | 64 | Baja resolución |
 | 6 | 4:3, 480x360 (800 Kbps) | 900 | _480x360_800K | 800 | 480x360 | Igual que el origen | 80 | Resolución media |
@@ -407,7 +407,7 @@ Para obtener más información sobre los parámetros de las opciones de codifica
 | 1 | 16:9, 800 x 450 (1200 kbps), OGG | 1,5 Mbps | _OGG_800x450_1200K | 1200 | 800 x 450 | Igual que el origen | 96 | Resolución media/alta |
 | 4 | 16:9, 1280 x 720 (2000 kbps), OGG | 3,0 Mbps | _OGG_1280x720_2000K | 2000 | 1280 x 720 | Igual que el origen | 128 | Pantalla ancha de alta definición |
 | 5 | 4:3, 320 x 240 (400 kbps), OGG | 500 | _OGG_320X240_400K | 400 | 320 x 240 | Igual que el origen | 64 | Baja resolución |
-| 6 | 4:3, 480 x 360 (800 kbps), OGG | 900 | _OGG_480x360_800K | 800 | 480 x 360 | Igual que el origen | 80 | Resolución media |
+| 6 | 4:3, 480 x 360 (800 kbps), OGG | 900 | _OGG_480x360_800K | 600 | 480 x 360 | Igual que el origen | 80 | Resolución media |
 | 7 | 4:3, 640 x 480 (1200 kbps), OGG | 1,5 Mbps | _OGG_640x480_1200K | 1200 | 640 x 480 | Igual que el origen | 96 | Resolución media/alta |
 | 8 | 4:3, 1280 x 960 (2000 kbps), OGG | 3,0 Mbps | _OGG_1280x960_2000K | 2000 | 1280 x 960 | Igual que el origen | 128 | Alta definición |
 
@@ -421,13 +421,13 @@ Para obtener más información sobre los parámetros de opciones de codificació
 
 |  | Nombre de ajuste preestablecido de codificación/Texto de información sobre herramientas | Velocidad de conexión de destino (kbps) | Sufijo de archivo codificado | Velocidad de bits de vídeo (Kbps) | Anchura y altura en píxeles | Fps | Velocidad de bits de audio (kbps) | Recomendaciones |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 3 | 16:9, 512 x 288 , Móvil (400 kbps) | 500 | _Mobile_512x288_400K | 400 | 512 x 288 | Igual que el origen | 64 | Baja resolución, 3G |
-| 2 | 16:9, 512 x 288 , Móvil (600 kbps) | 700 | _Mobile_512x288_600K | 800 | 512 x 288 | Igual que el origen | 64 | Resolución media, 3G |
+| 1 | 16:9, 512 x 288 , Móvil (400 kbps) | 500 | _Mobile_512x288_400K | 400 | 512 x 288 | Igual que el origen | 64 | Baja resolución, 3G |
+| 2 | 16:9, 512 x 288 , Móvil (600 kbps) | 700 | _Mobile_512x288_600K | 600 | 512 x 288 | Igual que el origen | 64 | Resolución media, 3G |
 | 1 | 16:9, 512 x 288 , Móvil (800 kbps) | 900 | _Mobile_512x288_800K | 800 | 512 x 288 | Igual que el origen | 80 | Resolución media, Wi-Fi |
 | 4 | 16:9, 512 x 288 , Móvil (1000 kbps) | 1,2 Mbps | _Mobile_512x288_1000K | 1.000 | 512 x 288 | Igual que el origen | 80 | Alta resolución, Wi-Fi |
 | 5 | 16:9, 512 x 288 , Móvil (1200 kbps) | 1,5 Mbps | _Mobile_512x288_1200K | 1200 | 512 x 288 | Igual que el origen | 96 | Alta resolución, Wi-Fi |
 | 6 | 4:3, 384 x 288 , Móvil (400 kbps) | 500 | _Mobile_384x288_400K | 400 | 384 x 288 | Igual que el origen | 64 | Baja resolución, 3G |
-| 7 | 4:3, 384 x 288 , Móvil (600 kbps) | 700 | _Mobile_384x288_600K | 600 | 384 x 288 | Igual que el origen | 64 | Resolución media, 3G |
+| 7 | 4:3, 384 x 288 , Móvil (600 kbps) | 700 | _Mobile_384x288_600K | 800 | 384 x 288 | Igual que el origen | 64 | Resolución media, 3G |
 | 8 | 4:3, 448 x 336 , Móvil (800 kbps) | 900 | _Mobile_448x336_800K | 800 | 448 x 336 | Igual que el origen | 80 | Resolución media, Wi-Fi |
 | 9 | 4:3, 448 x 336 , Móvil (1000 kbps) | 1,2 Mbps | _Mobile_448x336_1000K | 1.000 | 448 x 336 | Igual que el origen | 80 | Alta resolución, Wi-Fi |
 | 10 | 4:3, 448 x 336 , Móvil (1200 kbps) | 1,5 Mbps | _Mobile_448x336_1200K | 1200 | 448 x 336 | Igual que el origen | 96 | Alta resolución, Wi-Fi |
@@ -456,7 +456,7 @@ Consulte también [Ejemplos de la biblioteca de referencia de visores de Adobe](
 
 Diferentes páginas Web tienen diferentes necesidades. A veces deseará que la página web proporcione un vínculo que abra el visor HTML5 en otra ventana del explorador. En otros casos, puede ser necesario incrustar el visor HTML5 directamente en la página de alojamiento. En este último caso, la página web puede tener un diseño estático. O bien, puede ser “interactiva” y mostrarse de forma diferente en diferentes dispositivos o diferentes tamaños de ventana de explorador. Para satisfacer estas necesidades, los visores HTML5 que vienen con Dynamic Media Classic admiten tanto páginas web estáticas como páginas web diseñadas interactivas.
 
-Consulte [Biblioteca de imágenes estáticas interactivas](https://marketing.adobe.com.com/resources/help/en_US/s7/is_ir_api/is_api/c_about_responsive_static_image_library.html)en la *Ayuda de la API de servicio de imágenes de Adobe* para obtener más información sobre cómo incrustar visores interactivos en sus páginas web.
+Para obtener más información sobre cómo incrustar visores interactivos en sus páginas web, consulte [Acerca de la biblioteca de imágenes interactivas](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library.html#image-serving-api), [Uso de la biblioteca de imágenes interactivas](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library.html#image-serving-api) y [Referencia de comandos - Atributos de comando](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library.html#responsive-static-image-library).
 
 ### Tipos de ajustes preestablecidos {#viewer-preset-types}
 
