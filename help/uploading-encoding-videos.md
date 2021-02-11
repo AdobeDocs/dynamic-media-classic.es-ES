@@ -246,7 +246,7 @@ Como ejemplo, suponga que el vídeo de origen es de 1920 x 1080. En la tabla sig
 
 | Tipo de vídeo | Anchura x altura | Proporción de anchura | Proporción de altura |
 |--- |--- |--- |--- |
-| Origen | 1920 x 1080 | 1 | 3 |
+| Origen | 1920 x 1080 | 1 | 1 |
 | Codificado | 960 x 540 | 2 | 2 |
 | Codificado | 640 x 360 | 3 | 1 |
 | Codificado | 480 x 270 | 4 | 4 |
