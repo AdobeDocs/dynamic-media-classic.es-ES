@@ -1,13 +1,13 @@
 ---
 description: 'El boletín informativo de Dynamic Media de Experience League es un boletín mensual. Está diseñado para ayudarle a ponerse al día con Dynamic Media y Dynamic Media Classic, de modo que pueda obtener un inicio de valor de inmediato. En este boletín de noticias de una sola empresa encontrará valiosos recursos para la creación de conocimientos, entre los que se incluyen vídeos, descripciones generales de soluciones e presentaciones de algunas de las funciones y funciones clave, como ajustes preestablecidos de imagen, ajustes preestablecidos de visor, perfiles de vídeo y mucho más. '
-keywords: dynamic media;newsletter;product updates;tips and tricks;events;customer success;blog;blogs;images;videos;features;capabilities
+keywords: medios dinámicos;newsletter;actualizaciones de productos;sugerencias y trucos;eventos;éxito del cliente;blog;blogs;imágenes;videos;funciones;funciones
 seo-description: Los recursos para la creación de conocimientos están disponibles en este boletín de noticias de una sola vez, que incluye información sobre vídeos, descripciones generales de soluciones e introducción a algunas de las funciones y funciones clave, como ajustes preestablecidos de imagen, ajustes preestablecidos de visor, perfiles de vídeo y mucho más.
 seo-title: 'Boletín de Dynamic Media de Adobe '
 title: Boletín de Dynamic Media
 translation-type: tm+mt
 source-git-commit: 23b9846eaeaacf3eaa46b1467e5f7e6419827f4e
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ En este boletín informativo de una sola publicación, descubra los valiosos rec
 
    * Explore las valiosas funciones disponibles solo cuando actualice a Dynamic Media.
    * Obtenga información sobre una serie de seminarios web diseñados para ayudarle en Adobe Experience Manager Assets y Dynamic Media.
-   * Inicio tu viaje obteniendo valor de Dynamic Media en Experience League.
+   * Inicio que tu recorrido obtenga valor de Dynamic Media en Experience League.
    * Eche un vistazo a la poderosa integración que se producirá en septiembre y que le permitirá analizar cómo interactúan los visitantes con sus medios enriquecidos.
    * Conozca a PieterJan Pieper, técnico de Dynamic Media con asistencia técnica.
 
