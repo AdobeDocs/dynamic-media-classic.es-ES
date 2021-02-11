@@ -63,7 +63,7 @@ Introduzca la configuración que se muestra aquí:
    |--- |--- |--- |--- |--- |
    | Venta cruzada (miniatura mini) | 75 x 75 | 1,5 | 0,8 | 5 |
    | Miniatura | 150 x 150 | 1,1 | 1 | 5 |
-   | Principal | 350 x 350 | 3 | 3 | 6 |
+   | Principal | 350 x 350 | 1 | 1 | 6 |
    | Ampliación | 500 x 500 | 1,2 | 1,2 | 5 |
 
 1. Haga clic en **Guardar**.
