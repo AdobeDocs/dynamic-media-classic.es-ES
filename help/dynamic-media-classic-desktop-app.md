@@ -6,9 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: 0aad46c6fd3c520e0e40e177be0bd0cb25188719
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1658'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ La aplicación de escritorio de Adobe Dynamic Media Classic es compatible con lo
 * Problemas de inicio de sesión debido al tiempo de espera que dan como resultado el siguiente mensaje: *Este usuario puede asignarse al grupo o grupos sin permiso. Póngase en contacto con el administrador.*
 * Los ajustes preestablecidos de visor se duplican con cada intento de contraseña incorrecto.
 * La aplicación de escritorio deja de responder debido a que hay muchos recursos en la carpeta raíz. (Corregido en Windows; trabajar como desee en macOS).
+* jlkjlkj
 
 ## Correcciones en la versión anterior (20.20.2) {#previous-version-fixes-desktop-app}
 
@@ -189,11 +190,11 @@ Vea un [vídeo explicativo sobre el uso de Dynamic Media Classic Desktop App](ht
 
 1. En la aplicación de escritorio de Dynamic Media Classic, cerca de la esquina superior derecha, toque **[!UICONTROL Ajustes]** > **[!UICONTROL Ajustes personales]**.
 1. En la página **[!UICONTROL Ajustes personales]**, bajo el encabezado **[!UICONTROL Escritorio]**, realice una de las siguientes acciones:
-   * Toque **[!UICONTROL Borrar caché de imagen]** para quitar todos los archivos de imagen en caché de Dynamic Media de Adobe de su equipo. Toque **[!UICONTROL Aceptar]**.
-   * Toque **[!UICONTROL Borrar caché de recursos]** para quitar todos los archivos de recursos en caché de Dynamic Media de Adobe de su equipo. Toque **[!UICONTROL Aceptar]**.
+   * Para quitar todos los archivos de imagen en caché de Dynamic Media de Adobe del equipo, toque **[!UICONTROL Borrar caché de imagen]** y luego toque **[!UICONTROL Aceptar]**.
+   * Para quitar todos los archivos de recursos en caché de Dynamic Media de Adobe de su equipo, toque **[!UICONTROL Borrar caché de recursos]** y luego toque **[!UICONTROL Aceptar]**.
 1. En la esquina inferior derecha de la página, toque **[!UICONTROL Cerrar]**.
 
-### Borrado manual de la caché de imágenes y la caché de recursos
+### Borrado manual de la caché de imágenes y la caché de recursos {#clear-cache}
 
 Además de borrar la imagen y la caché de recursos mediante la aplicación de escritorio, puede borrar manualmente la caché directamente desde el sistema de archivos.
 
@@ -201,6 +202,10 @@ Además de borrar la imagen y la caché de recursos mediante la aplicación de e
 
    * macOS: `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
    * Windows: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
+
+## Limitación conocida en Dynamic Media Classic 2021.1
+
+* La lista desplegable **[!UICONTROL Servidor]** está vacía después de actualizar a la aplicación de escritorio Dynamic Media Classic 20.21.1 - Escenario: Instale e inicie sesión en Dynamic Media Classic 20.20.1 o 20.20.2 y, a continuación, cierre la aplicación. A continuación, actualice a Dynamic Media Classic 20.21.1. Al intentar iniciar sesión, la lista desplegable **[!UICONTROL Servidor]** del cuadro de diálogo **[!UICONTROL Iniciar sesión en su cuenta]** está vacía. Para solucionar este problema, [borre manualmente la caché](#clear-cache).
 
 ## Limitaciones conocidas en Dynamic Media Classic 20.20.1 (corregidas en 20.20.2)
 
@@ -210,7 +215,8 @@ Además de borrar la imagen y la caché de recursos mediante la aplicación de e
 * En la aplicación Dynamic Media Classic, seleccione la nueva compañía en la lista desplegable compañía.
 * Cuando aparezca la ventana emergente, toque **[!UICONTROL Aceptar]** para cerrar sesión y cerrar la aplicación.
 
-   ![Reinicie la aplicación para utilizar la nueva compañía](/help/assets/dmclassic-new-company1.png)
+   ![Para utilizar la nueva compañía, reinicie la aplicación](/help/assets/dmclassic-new-company1.png)
+
 * Reinicie Dynamic Media Classic e inicie sesión como de costumbre para trabajar con la nueva compañía.
 
 ## Sugerencias y trucos
