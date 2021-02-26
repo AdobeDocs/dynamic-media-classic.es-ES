@@ -6,7 +6,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 556deae011dd82e847b72c00981a84190f9a5805
+source-git-commit: 5b9529a03e6d3c84b81088493be00a8063163f42
 workflow-type: tm+mt
 source-wordcount: '1664'
 ht-degree: 0%
@@ -203,7 +203,7 @@ Además de borrar la imagen y la caché de recursos mediante la aplicación de e
    * macOS: `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
    * Windows: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
-## Limitación conocida en Dynamic Media Classic 2021.1
+## Limitaciones conocidas en Dynamic Media Classic 20.21.1
 
 * La lista desplegable **[!UICONTROL Servidor]** está vacía después de actualizar a la aplicación de escritorio Dynamic Media Classic 20.21.1 - Escenario: Instale e inicie sesión en Dynamic Media Classic 20.20.1 o 20.20.2 y, a continuación, cierre la aplicación. A continuación, actualice a Dynamic Media Classic 20.21.1. Al intentar iniciar sesión, la lista desplegable **[!UICONTROL Servidor]** del cuadro de diálogo **[!UICONTROL Iniciar sesión en su cuenta]** está vacía. Para solucionar este problema, debe [borrar manualmente la caché](#clear-cache) (vea los pasos anteriores).
 
