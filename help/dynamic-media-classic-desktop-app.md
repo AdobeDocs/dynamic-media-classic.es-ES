@@ -6,7 +6,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 077f6cc18f6cd88ef18a7555e7df49a975b6f229
+source-git-commit: 556deae011dd82e847b72c00981a84190f9a5805
 workflow-type: tm+mt
 source-wordcount: '1664'
 ht-degree: 0%
@@ -186,7 +186,7 @@ Para descargar y *silenciar* instalar la versión más reciente de la aplicació
 
 Vea un [vídeo explicativo sobre el uso de Dynamic Media Classic Desktop App](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html#dynamic-media) (Duración: 2 minutos 36 segundos).
 
-## Borrado de la caché de imágenes y la caché de recursos de su equipo mediante la aplicación de escritorio
+## Borrado de la caché de imágenes y la caché de recursos de su equipo mediante la aplicación de escritorio {#clear-cache}
 
 1. En la aplicación de escritorio de Dynamic Media Classic, cerca de la esquina superior derecha, toque **[!UICONTROL Ajustes]** > **[!UICONTROL Ajustes personales]**.
 1. En la página **[!UICONTROL Ajustes personales]**, bajo el encabezado **[!UICONTROL Escritorio]**, realice una de las siguientes acciones:
@@ -194,7 +194,7 @@ Vea un [vídeo explicativo sobre el uso de Dynamic Media Classic Desktop App](ht
    * Para quitar todos los archivos de recursos en caché de Dynamic Media de Adobe de su equipo, toque **[!UICONTROL Borrar caché de recursos]** y luego toque **[!UICONTROL Aceptar]**.
 1. En la esquina inferior derecha de la página, toque **[!UICONTROL Cerrar]**.
 
-### Borrado manual de la caché de imágenes y la caché de recursos {#clear-cache}
+### Borrado manual de la caché de imágenes y la caché de recursos
 
 Además de borrar la imagen y la caché de recursos mediante la aplicación de escritorio, puede borrar manualmente la caché directamente desde el sistema de archivos.
 
