@@ -1,13 +1,11 @@
 ---
-description: 'El boletín informativo de Dynamic Media de Experience League es un boletín mensual. Está diseñado para ayudarle a ponerse al día con Dynamic Media y Dynamic Media Classic, de modo que pueda obtener un inicio de valor de inmediato. En este boletín de noticias de una sola empresa encontrará valiosos recursos para la creación de conocimientos, entre los que se incluyen vídeos, descripciones generales de soluciones e presentaciones de algunas de las funciones y funciones clave, como ajustes preestablecidos de imagen, ajustes preestablecidos de visor, perfiles de vídeo y mucho más. '
+description: 'El boletín informativo de Dynamic Media de Experience League es un boletín mensual. Está diseñado para ayudarle a ponerse al día con Dynamic Media y Dynamic Media Classic, de modo que pueda obtener un gran valor de inmediato. En este boletín de noticias de una sola empresa encontrará valiosos recursos para la creación de conocimientos. Incluye información general sobre vídeos y soluciones. También se han introducido funciones y funciones clave como ajustes preestablecidos de imagen, ajustes preestablecidos de visor y perfiles de vídeo. '
 keywords: medios dinámicos;newsletter;actualizaciones de productos;sugerencias y trucos;eventos;éxito del cliente;blog;blogs;imágenes;videos;funciones;funciones
-seo-description: Los recursos para la creación de conocimientos están disponibles en este boletín de noticias de una sola vez, que incluye información sobre vídeos, descripciones generales de soluciones e introducción a algunas de las funciones y funciones clave, como ajustes preestablecidos de imagen, ajustes preestablecidos de visor, perfiles de vídeo y mucho más.
-seo-title: 'Boletín de Dynamic Media de Adobe '
 title: Boletín de Dynamic Media
 translation-type: tm+mt
-source-git-commit: 23b9846eaeaacf3eaa46b1467e5f7e6419827f4e
+source-git-commit: 416ac66db1cbe60a2cac80f72db1e3e0354f9e0a
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1166'
 ht-degree: 0%
 
 ---
@@ -17,7 +15,7 @@ ht-degree: 0%
 
 El boletín informativo mensual de Dynamic Media de Experience League está diseñado para ayudarle a ponerse al día con Dynamic Media y Dynamic Media Classic, de modo que pueda inicio para obtener valor de inmediato.
 
-En este boletín informativo de una sola publicación, descubra los valiosos recursos para la creación de conocimientos, como vídeos explicativos, descripción general de la solución e introducción a algunas de las funciones y funciones clave de la solución, como ajustes preestablecidos de imagen, ajustes preestablecidos de visor, perfiles de vídeo, etc.
+En este boletín informativo de una sola tienda, encontrará recursos valiosos para la creación de conocimientos, como vídeos explicativos y descripciones generales de soluciones. También se han introducido funciones y funciones clave como ajustes preestablecidos de imagen, ajustes preestablecidos de visor y perfiles de vídeo.
 
 ## Siéntase inspirado. Manténgase informado.
 
@@ -44,16 +42,16 @@ En este boletín informativo de una sola publicación, descubra los valiosos rec
 
    En este número:
 
-   * Descubra tres maneras en que su inversión en medios enriquecidos puede ayudar en estos tiempos difíciles.
+   * Explore tres maneras en que su inversión en medios enriquecidos puede ayudar en estos tiempos difíciles.
    * Regístrese en el seminario web para aprender a aligerar la carga de la página con imágenes inteligentes.
    * Vea los seminarios web a petición del generador de habilidades para Dynamic Media Classic.
    * Vista de las sesiones de Dynamic Media de la Cumbre de Adobe en línea 2020.
-   * Obtenga más información sobre nuestras auditorías gratuitas de Dynamic Media Classic.
+   * Obtenga más información sobre las auditorías gratuitas de Dynamic Media Classic de Adobe.
    * Conozca a John Monroe, Director de Programa sénior para Servicios de Éxito de Clientes.
 
-   >[!IMPORTANT]
-   >
-   >Queremos asegurarnos de que sólo enviaremos el boletín de Dynamic Media a aquellos que deseen recibirlo. Para continuar recibiendo la newsletter después de este número, regístrese [aquí](https://nam04.safelinks.protection.outlook.com/?url=http%3A%2F%2Ft.messages.adobe.com%2Fr%2F%3Fid%3Dha6c66e%2C266d7ba%2C26edbee&amp;data=02%7C01%7Crbrough%40adobe.com%7Ce0ec0f8dde0f4eb03d9c08d7e2173fd3%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C637226461801398160&amp;sdata=3c1oREsqy%2FeDPKC3dd4IO9dXomQ1XbokaBAYQl8obrk%3D&amp;reserved=0).
+      >[!IMPORTANT]
+      >
+      >Adobe desea asegurarse de que sólo está enviando el boletín de Dynamic Media a las personas que deseen recibirlo. Para continuar recibiendo la newsletter después de este número, regístrese [aquí](https://nam04.safelinks.protection.outlook.com/?url=http%3A%2F%2Ft.messages.adobe.com%2Fr%2F%3Fid%3Dha6c66e%2C266d7ba%2C26edbee&amp;data=02%7C01%7Crbrough%40adobe.com%7Ce0ec0f8dde0f4eb03d9c08d7e2173fd3%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C637226461801398160&amp;sdata=3c1oREsqy%2FeDPKC3dd4IO9dXomQ1XbokaBAYQl8obrk%3D&amp;reserved=0).
 
 * **[Febrero de 2020, número 2](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_02_2020_Feb.html)**
 
@@ -61,8 +59,8 @@ En este boletín informativo de una sola publicación, descubra los valiosos rec
 
    * Asista a nuevos seminarios web del generador de habilidades y conviértase en un experto de Dynamic Media Classic.
    * Vea dónde encontrará Dynamic Media en la Cumbre de Adobe 2020.
-   * Descubra cómo usar la magia de recorte de Dynamic Media.
-   * Aproveche una auditoría gratuita para obtener más valor de Dynamic Media Classic.
+   * Explore cómo usar la magia de recorte de Dynamic Media.
+   * Para ayudarle a obtener más valor de Dynamic Media Classic, aproveche la auditoría gratuita de Adobe.
    * Obtenga información sobre la nueva interfaz de usuario de Dynamic Media Classic.
    * Conozca a Georgia Myers, Gerente de Éxito de Clientes para Adobe Experience Cloud.
 
@@ -72,7 +70,7 @@ En este boletín informativo de una sola publicación, descubra los valiosos rec
 
    * Cinco nuevos seminarios web del generador de habilidades para perfeccionar sus habilidades con Dynamic Media Classic.
    * Una auditoría gratuita para ayudarle a obtener más valor de Dynamic Media Classic.
-   * Una temporada de compras festivas récord para nuestros clientes de medios enriquecidos.
+   * Una temporada de compras festivas récord para los clientes de medios enriquecidos de Adobe.
    * Su guía práctica para seleccionar un DAM (Digital Asset Manager) que satisfaga sus necesidades de hoy y le prepara para las novedades de los medios enriquecidos de mañana.
    * Conozca a Mark Dean, especialista en medios digitales.
 
@@ -82,7 +80,7 @@ En este boletín informativo de una sola publicación, descubra los valiosos rec
 
    * Actualización de la interfaz de usuario de Dynamic Media Classic.
    * Nuevas y potentes funciones de seguridad.
-   * Cómo nos estamos preparando para que tengas una temporada de fiestas exitosa.
+   * Cómo se prepara el Adobe para que tengas una temporada de fiestas exitosa.
    * Comparta la newsletter con sus colegas para desarrollar la experiencia del equipo.
    * Conozca a Apoorva Gupta, Gerente Principal de Productos de Dynamic Media.
 
@@ -91,7 +89,7 @@ En este boletín informativo de una sola publicación, descubra los valiosos rec
    En este número:
 
    * Cómo obtener análisis avanzados sobre las acciones que los visitantes realizan en los visores de Dynamic Media.
-   * Una infografía con sugerencias para el asombro resulta de la entrega de imágenes y vídeos de alta calidad.
+   * Una infografía con sugerencias para la colocación de imágenes resulta de la entrega de imágenes y vídeos de alta calidad.
    * Un artículo de CMSwire que le ayuda a comprender cómo actualizar su estrategia de medios enriquecidos para satisfacer las expectativas de los clientes actuales.
    * Acceso al seminario web a petición en Dynamic Media de la serie Skill Builder.
    * Conozca a Nick Peters, Director, Ingeniería de Fiabilidad del Sitio, Adobe Experience Manager.
@@ -119,7 +117,6 @@ En este boletín informativo de una sola publicación, descubra los valiosos rec
    * Eche un vistazo a la poderosa integración que se producirá en septiembre y que le permitirá analizar cómo interactúan los visitantes con sus medios enriquecidos.
    * Conozca a PieterJan Pieper, técnico de Dynamic Media con asistencia técnica.
 
-
 * **[Julio de 2019, número 07](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_07_2019_July.html)**
 
    En este número:
@@ -146,18 +143,19 @@ En este boletín informativo de una sola publicación, descubra los valiosos rec
 
    En este número:
 
-   * Descubra las 10 principales funciones ocultas de Dynamic Media Classic en una publicación de blog.
+   * Explore las diez principales funciones ocultas de Dynamic Media Classic en una entrada de blog.
    * Vea vídeos explicativos en Experience League.
    * Obtenga información sobre el próximo Adobe Insider Tour.
-   * Lea una serie de blogs en tres partes para actualizar su estrategia de medios enriquecidos.
+   * Para actualizar su estrategia de medios enriquecidos, lea una serie de blogs en tres partes.
    * Obtenga más información sobre el recorte inteligente de vídeo impulsado por AI.
 
 * **[Abril de 2019, número 04](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_04_2019_April.html)**
 
-   Bienvenido al número de inauguración del boletín informativo de Dynamic Media, nuestro nuevo boletín mensual lleno de noticias, eventos y recursos para los usuarios de Dynamic Media dentro de Adobe Experience Manager Assets y Adobe Dynamic Media Classic.
+   Bienvenido al número de inauguración del boletín informativo de Dynamic Media, el nuevo boletín mensual del Adobe, que contiene noticias, eventos y recursos para los usuarios de Dynamic Media dentro de Adobe Experience Manager Assets y Adobe Dynamic Media Classic.
 
    En este número:
-   * Regístrese en nuestro seminario web sobre las funciones ocultas de Dynamic Media Classic.
-   * Conozca nuestra serie de seminarios web a petición para ayudarle a desarrollar su estrategia de medios enriquecidos.
-   * Obtenga información sobre los casos clave de uso de medios enriquecidos y nuestras soluciones para ellos.
+
+   * Regístrese en el seminario web de funciones ocultas de Dynamic Media Classic.
+   * Para ayudarle a desarrollar su estrategia de medios enriquecidos, conozca la serie de seminarios web a petición del Adobe.
+   * Obtenga información sobre los casos clave de uso de medios enriquecidos y las soluciones de Adobe para ellos.
    * ... y mucho más!
