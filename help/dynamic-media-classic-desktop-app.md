@@ -6,7 +6,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 9f93993fe1d3a94e3dcf23b5a151432346b09726
+source-git-commit: 22536021ff68704173b5c1fc7eb9018b9e19f2aa
 workflow-type: tm+mt
 source-wordcount: '1663'
 ht-degree: 0%
@@ -44,7 +44,7 @@ La aplicación de escritorio Adobe Dynamic Media Classic es compatible con los s
 * No hay limitación en el número de archivos que se pueden cargar a través de la interfaz de usuario de la aplicación de escritorio tanto para macOS como para Windows.
 * No es necesario cerrar sesión en la aplicación de escritorio para cambiar entre empresas.
 * Ctrl+V para la operación de pegado ahora funciona en Windows.
-* En el futuro, cuando se publique una nueva versión de la aplicación de escritorio, se notificará a los usuarios desde la propia aplicación de escritorio. —>
+* En el futuro, cuando se publique una nueva versión de la aplicación de escritorio, se notificará a los usuarios desde la propia aplicación de escritorio.
 
 ## Descargue e instale la última aplicación de escritorio de Adobe Dynamic Media Classic en macOS o Windows {#installation-dmc-app}
 
