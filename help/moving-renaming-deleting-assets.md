@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
+feature: Dynamic Media Classic,Administración de recursos
+role: Profesional empresarial
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 66%
+source-wordcount: '574'
+ht-degree: 65%
 
 ---
 
@@ -53,7 +55,7 @@ Al eliminar un recurso, todos los derivados de dicho recurso se eliminarán con 
 1. Realice una de las siguientes acciones:
 
    * Para eliminar uno o más recursos, selecciónelos en el panel Examinar y pulse Suprimir o seleccione Archivo > Eliminar.
-   * Para eliminar una carpeta, selecciónela en la biblioteca de recursos y haga clic en **Eliminar carpeta**.
+   * Para eliminar una carpeta, selecciónela en la biblioteca de recursos y haga clic en **Quitar carpeta**.
 
       Al eliminar una carpeta se eliminarán la carpeta, los recursos que contenga y los recursos que haya en las subcarpetas.
 
@@ -63,9 +65,9 @@ Al eliminar un recurso, todos los derivados de dicho recurso se eliminarán con 
 
 ## Eliminación de varios recursos con un archivo de texto {#delete-multiple-assets-with-a-text-file}
 
-Para eliminar varios recursos a la vez en toda la biblioteca de recursos, puede realizar la lista de los recursos que desee eliminar en un archivo de texto y enviar la lista a Dynamic Media Classic.
+Para eliminar muchos recursos a la vez en toda la biblioteca de recursos, puede enumerar los recursos que desea eliminar en un archivo de texto y enviar la lista a Dynamic Media Classic.
 
-Cree la lista de Dynamic Media Classic ID y guárdela como archivo de texto (.txt). Cada ID de Dynamic Media Classic debe estar en su propia línea (seguido de un salto de línea).
+Cree la lista de Dynamic Media Classic ID y guárdela como un archivo de texto (.txt). Cada ID de Dynamic Media Classic debe estar en su propia línea (seguido de un retorno grave).
 
 Después de crear la lista, siga estos pasos para eliminar los recursos:
 
@@ -73,7 +75,7 @@ Después de crear la lista, siga estos pasos para eliminar los recursos:
 1. En el cuadro de diálogo Lista de recursos para eliminar, busque el archivo de texto (o escriba la ruta) con la lista de recursos que desea eliminar.
 1. Haga clic en el botón Eliminar.
 
-Al eliminar recursos con un archivo de texto, si no hay ningún ID de Dynamic Media Classic en la lista, se muestra un mensaje que le permite saber que Dynamic Media Classic es &quot;No se pueden validar estas entradas en la lista:&quot; junto con la lista de entradas. Sin embargo, Dynamic Media Classic no generará un error en la pantalla Trabajo.
+Cuando elimina recursos con un archivo de texto, si algún Dynamic Media Classic ID no está en la lista, aparece un mensaje que le permite saber que Dynamic Media Classic es &quot;No se pueden validar estas entradas en la lista&quot; junto con la lista de entradas. Sin embargo, Dynamic Media Classic no generará ningún error en la pantalla Trabajo.
 
 >[!MORELIKETHIS]
 >
