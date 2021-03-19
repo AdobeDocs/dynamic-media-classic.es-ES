@@ -1,16 +1,18 @@
 ---
 title: Creación de mapas de imagen de catálogos electrónicos
-description: Obtenga información sobre cómo crear mapas de imagen de catálogos electrónicos.
+description: Aprenda a crear mapas de imágenes de catálogos electrónicos.
 uuid: 943ad3f7-a885-4bc2-88cb-77083384bdf8
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
+feature: Dynamic Media Classic,Visualizadores,Catálogo electrónico
+role: Profesional empresarial
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1498'
 ht-degree: 77%
 
 ---
@@ -25,16 +27,16 @@ Un mapa de imagen es una región dentro de una página del catálogo electrónic
 Los mapas de imagen de los catálogos electrónicos se dibujan en la ficha Páginas de mapa, que se encuentra en la pantalla Catálogo electrónico. En esta pantalla aparece el área del mapa de imagen en la que se muestran las páginas del catálogo electrónico y, a la derecha, la lista de mapas de imagen. A medida que cree los mapas de imagen, sus nombres se añadirán a la lista de mapas de imagen.
 
 1. Haga clic en el botón de rollover Editar del catálogo electrónico.
-1. Haga clic en **Páginas de mapa**.
+1. Haga clic en **Asignar páginas**.
 1. En la parte izquierda de la pantalla Páginas de mapa, seleccione la página que desee.
 1. En el área del mapa de imagen, dibuje un mapa de imagen rectangular o poligonal (con varios lados):
 
-   * **Mapa rectangular**
-Seleccione la herramienta Mapa de imagen rectangular y arrastre la página para crear el rectángulo.
+   * **Mapa**
+rectangularSeleccione la herramienta Mapa de imagen rectangular y arrastre la página para crear el rectángulo.
 
-   * **Mapa poligonalSeleccione la herramienta Mapa de imagen poligonal y haga clic tantas veces como sea necesario alrededor del perímetro de la imagen.**
-Al hacer clic, Dynamic Media Classic dibuja los bordes del mapa de imagen.
-   Después de dibujar un mapa de imagen, Dynamic Media Classic le asigna un nombre en la lista de mapa de imagen. Para formar el nombre, Dynamic Media Classic anexa un número secuencial al nombre de la página del catálogo electrónico en la que está trabajando.
+   * **Mapa poligonal**
+Seleccione la herramienta Mapa de imagen poligonal y haga clic tantas veces como sea necesario alrededor del perímetro de la imagen. Al hacer clic, Dynamic Media Classic dibuja los bordes del mapa de imagen.
+   Después de dibujar un mapa de imagen, Dynamic Media Classic le asigna un nombre en la lista Mapa de imagen. Para formar el nombre, Dynamic Media Classic añade un número secuencial al nombre de la página del catálogo electrónico en la que está trabajando.
 
 1. (Opcional) En el panel de lista de mapas de imagen, en la columna Nombre, introduzca un nuevo nombre para el mapa de imagen. No incluya espacios en blanco en el nombre.
 1. Puede hacer que los visores abran una página web nueva cuando se haga clic en el mapa de imagen. En el panel de lista de mapas de imagen, introduzca la dirección URL de la página web en la columna URL.
@@ -43,13 +45,13 @@ Al hacer clic, Dynamic Media Classic dibuja los bordes del mapa de imagen.
 
    Consulte [Uso de plantillas para introducir elementos de JavaScript y direcciones URL](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls).
 
-1. (Opcional) En la lista desplegable Mostrar, haga clic en **Texto de rollover** y, a continuación, escriba el texto que desea que vean los usuarios en pantalla cuando muevan sus punteros sobre el mapa de imagen.
-1. (Opcional) En la lista desplegable Mostrar, haga clic en **Otras acciones** e introduzca un atributo para déclencheur de una acción de enfoque o desenfoque cuando los usuarios muevan el puntero sobre un mapa de imagen.
+1. (Opcional) En la lista desplegable Mostrar , haga clic en **Texto de sustitución** e introduzca el texto que desea que vean los usuarios en pantalla cuando desplacen sus punteros por el mapa de imagen.
+1. (Opcional) En la lista desplegable Mostrar , haga clic en **Otras acciones** e introduzca un atributo para crear un déclencheur de una acción de enfoque o desenfoque cuando los usuarios muevan sus punteros sobre un mapa de imagen.
 
    Consulte [Definición de otras acciones para los mapas de imagen](creating-image-maps.md#defining_other_actions_for_image_maps).
 
 1. Haga clic en **Guardar**.
-1. (Opcional) Haga clic en **Previsualización** para vista del catálogo electrónico con el ajuste preestablecido de visor de catálogos electrónicos predeterminado.
+1. (Opcional) Haga clic en **Vista previa** para ver el catálogo electrónico con el ajuste preestablecido predeterminado del visor de catálogos electrónicos.
 
 Si desea eliminar un mapa de imagen, seleccione su nombre en la lista de mapas de imagen y haga clic en Eliminar. Si desea eliminar de forma temporal un mapa de imagen dentro de la página y no borrarlo definitivamente, desactive la opción Activado del mapa de imagen en la lista de mapas de imagen.
 
@@ -76,28 +78,28 @@ Opcionalmente, también puede mostrar texto de información sobre herramientas c
 En la pantalla Catálogo electrónico, vaya a la ficha Páginas de mapa, desde donde podrá utilizar estas técnicas para editar los mapas de imagen del catálogo electrónico:
 
 * **Ajuste de la**
-posiciónSeleccione la herramienta de desplazamiento y mueva el puntero cerca del borde del mapa, pero no sobre él. Cuando el puntero se convierta en una flecha con cuatro puntas, arrastre el mapa completo de imagen a una nueva ubicación.
+posiciónSeleccione la herramienta Panorámica y mueva el puntero cerca del borde del mapa, pero no más allá de él. Cuando el puntero se convierta en una flecha con cuatro puntas, arrastre el mapa completo de imagen a una nueva ubicación.
 
    Consulte [Ajuste de la posición, la forma y el tamaño de los mapas de imagen](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
-* **Cambio de la forma y el**
-tamañoPara cambiar el tamaño de un mapa de imagen rectangular, seleccione la herramienta de desplazamiento. A continuación, mueva el puntero sobre un lado o una esquina y, cuando vea la flecha con dos puntas, arrastre el ratón. Para cambiar el tamaño de un mapa de imagen poligonal, arrastre el ratón para crear un tirador de selección cuadrada. Para crear un tirador de selección, haga clic en el borde del mapa de imagen y arrastre el ratón.
+* **Cambiar la forma y el**
+tamañoPara cambiar el tamaño de un mapa de imagen rectangular, seleccione la herramienta Panorámica. A continuación, mueva el puntero sobre un lado o una esquina y, cuando vea la flecha con dos puntas, arrastre el ratón. Para cambiar el tamaño de un mapa de imagen poligonal, arrastre el ratón para crear un tirador de selección cuadrada. Para crear un tirador de selección, haga clic en el borde del mapa de imagen y arrastre el ratón.
 
    Consulte [Ajuste de la posición, la forma y el tamaño de los mapas de imagen](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
 * **Eliminación de**
-mapas de imagenSeleccione la herramienta de desplazamiento, haga clic en el mapa de imagen para seleccionarlo y, a continuación, haga clic en 
+mapas de imagenSeleccione la herramienta Panorámica, haga clic en el mapa de imagen para seleccionarlo y, a continuación, haga clic en 
 **Eliminar**.
 
    Para eliminar todos los mapas de imagen de un catálogo electrónico, haga clic en la ficha **Ordenar páginas** y, a continuación, haga clic en **Borrar mapas**.
 
 * **Gestión de**
-mapas de imagen superpuestosArrastre para cambiar el orden de los mapas de imagen en la lista de mapa de imagen.
+mapas de imagen superpuestosArrastre para cambiar el orden de los mapas de imagen en la lista de mapas de imagen.
 
    Consulte [Control de superposición de mapas de imagen](creating-image-maps.md#handling_overlapping_image_maps).
 
 * **Copia de mapas de imagen a otras**
-páginasSeleccione el botón Copiar mapas a (asegúrese de que está en la ficha Páginas de mapa). En la pantalla Seleccionar imágenes, seleccione la página o páginas en las que quiere copiar los mapas de imagen y haga clic en el botón Seleccionar.
+páginasSeleccione el botón Copiar asignaciones a (asegúrese de que está en la ficha Páginas de mapa). En la pantalla Seleccionar imágenes, seleccione la página o páginas en las que quiere copiar los mapas de imagen y haga clic en el botón Seleccionar.
 
    Consulte [Copia de mapas de imagen a otras imágenes](creating-image-maps.md#copying_image_maps).
 
@@ -137,7 +139,7 @@ Vaya a la pantalla Resumen de mapas y siga estos pasos para importar los datos d
 
 ## Copia de mapas de imagen entre catálogos electrónicos  {#copying-image-maps-between-ecatalogs}
 
-Puede copiar todos los mapas de imagen de un catálogo electrónico a otro. La copia de mapas de imagen con este método es una forma cómoda de copiar los mapas de imagen entre las distintas traducciones en otros idiomas del mismo catálogo electrónico. Para que la copia sea correcta, Dynamic Media Classic recomienda copiar entre catálogos electrónicos con el mismo número de páginas y las mismas imágenes.
+Puede copiar todos los mapas de imagen de un catálogo electrónico a otro. La copia de mapas de imagen con este método es una forma cómoda de copiar los mapas de imagen entre las distintas traducciones en otros idiomas del mismo catálogo electrónico. Para que la copia sea correcta, Dynamic Media Classic recomienda copiar entre catálogos electrónicos con el mismo número de páginas e imágenes.
 
 >[!NOTE]
 >
@@ -149,4 +151,4 @@ Siga estos pasos para copiar todos los mapas de imagen de un catálogo electrón
 1. En la ficha Ordenar páginas, haga clic en Copiar mapas.
 1. En el cuadro de diálogo Seleccionar recurso, elija el catálogo electrónico en el que desea copiar los mapas de imagen y haga clic en Seleccionar.
 
-Dynamic Media Classic muestra un mensaje de advertencia si el catálogo electrónico de destinatario (el catálogo electrónico al que se copian los mapas de imagen) tiene un número diferente de páginas o imágenes con un tamaño diferente. Puede hacer clic en Continuar si desea copiar los mapas de imagen a pesar de la advertencia.
+Dynamic Media Classic muestra un mensaje de advertencia si el catálogo electrónico de destino (el catálogo electrónico al que copia mapas de imagen) tiene un número diferente de páginas o imágenes de un tamaño diferente. Puede hacer clic en Continuar si desea copiar los mapas de imagen a pesar de la advertencia.
