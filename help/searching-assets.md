@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
+feature: Dynamic Media Classic,Administración de recursos,Buscar
+role: Profesional empresarial
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1412'
 ht-degree: 77%
 
 ---
@@ -18,7 +20,7 @@ ht-degree: 77%
 
 # Búsqueda de recursos{#searching-assets}
 
-Para localizar recursos de archivos en Dynamic Media Classic, puede realizar vistas de recursos por tipo, ordenarlos en el panel Examinar, realizar una búsqueda sencilla, avanzada y filtrar por recursos.
+Para localizar recursos de archivos en Dynamic Media Classic, puede ver los recursos por tipo, ordenarlos en el panel Examinar, realizar una búsqueda sencilla, avanzada y filtrar por recursos.
 
 >[!NOTE]
 >
@@ -51,7 +53,7 @@ Para realizar una búsqueda sencilla:
 
 >[!NOTE]
 >
->Dynamic Media Classic realiza un seguimiento de las búsquedas. Para volver a ejecutar una búsqueda, seleccione el botón de búsqueda y elija el nombre de la búsqueda deseada en la parte inferior del menú de búsqueda.
+>Dynamic Media Classic realiza el seguimiento de las búsquedas. Para volver a ejecutar una búsqueda, seleccione el botón de búsqueda y elija el nombre de la búsqueda deseada en la parte inferior del menú de búsqueda.
 
 ## Búsqueda avanzada  {#conducting-an-advanced-search}
 
@@ -61,13 +63,13 @@ Especifique uno de los siguientes criterios de búsqueda:
 
 **Filtrar por** tipo de recursoReduzca la búsqueda a un solo tipo de recurso seleccionando un tipo de recurso en el menú.
 
-**Archivos y** carpetasElija dónde desea buscar: En todos los archivos y carpetas, En la carpeta seleccionada o En carpetas y subcarpetas seleccionadas.
+**Archivos y** carpetasElija dónde desea buscar: Dentro de todos los archivos y carpetas, dentro de la carpeta seleccionada o dentro de la carpeta y subcarpetas seleccionadas.
 
-**Todos los** estados de publicaciónBusque los archivos marcados como listos para la publicación, no se marcan como listos para la publicación o todos los archivos.
+**Todos los** estados de publicaciónBusque archivos que estén marcados como listos para publicarse, no estén marcados como listos para publicarse o todos los archivos.
 
-**** CondicionesSi especifica criterios de metadatos para la búsqueda, seleccione si la búsqueda debe coincidir con todas las condiciones (una búsqueda TODAS) o con cualquier condición (una búsqueda OR).
+**** CondicionesSi especifica criterios de metadatos para la búsqueda, seleccione si la búsqueda debe coincidir con todas las condiciones (una búsqueda ALL) o con cualquier condición (una búsqueda OR).
 
-**Especificar** criterios de búsqueda de metadatosCree uno o varios campos de búsqueda para buscar metadatos. Para crear campos de búsqueda:
+**Especificar** criterios de búsqueda de metadatosCrear uno o más campos de búsqueda para buscar metadatos. Para crear campos de búsqueda:
 
 1. Abra la lista Vistas de metadatos (a la izquierda del menú Agregar un campo) y elija una vista de metadatos. Puede elegir mostrar una vista compacta, IPTC, XMP, o bien, una vista que su administrador haya configurado.
 1. Seleccione el menú Agregar un campo y elija un nombre de campo en la lista desplegable.
@@ -109,11 +111,11 @@ Siga estos pasos para localizar recursos mediante filtros con sus valores de met
 
    **Selección de un** campo de metadatosSeleccione el nombre del campo en el menú de filtrado.
 
-   ***nota **: En el menú de filtrado solo aparecen los nombres de los campos de metadatos de la Vista de metadatos predeterminada.*
+   ***nota **: En el menú de filtrado solo aparecen los nombres de los campos de metadatos en la vista de metadatos predeterminada.*
 
    Consulte [Vistas de metadatos](application-setup.md#metadata_views).
 
-   **Añadir un** campo de metadatosElija Añadir un panel. Cuando éste aparezca en el panel Filtros, haga clic en el botón Campo y seleccione el nombre de un campo de metadatos en el menú de filtrado.
+   **Adición de un** campo de metadatosElija Agregar un panel. Cuando éste aparezca en el panel Filtros, haga clic en el botón Campo y seleccione el nombre de un campo de metadatos en el menú de filtrado.
 
    **Eliminación de un** campo de metadatosElija Quitar este panel en el menú de filtrado.
 
@@ -137,11 +139,11 @@ Siga estos pasos para localizar recursos mediante filtros con sus valores de met
 
 Siga estas instrucciones en la ficha Filtros para guardar, repetir y eliminar las operaciones de filtrado:
 
-**Guardar una** operación de filtradoHaga clic en el botón Seleccionar ajuste preestablecido, elija Guardar ajustes preestablecidos actuales como nuevos e introduzca un nombre en el cuadro de diálogo Guardar.
+**Guardar una** operación de filtroHaga clic en el botón Seleccionar ajuste preestablecido, elija Guardar actual como nuevos ajustes preestablecidos e introduzca un nombre en el cuadro de diálogo Guardar.
 
-**Repetir una** operación de filtradoHaga clic en el botón Seleccionar ajuste preestablecido y elija el nombre de una operación de filtrado en el menú. El menú muestra las operaciones de filtrado guardadas.
+**Repetición de una** operación de filtroHaga clic en el botón Seleccionar ajuste preestablecido y elija el nombre de una operación de filtro en el menú. El menú muestra las operaciones de filtrado guardadas.
 
-**Eliminación de una operación de filtrado desde el** menú Seleccionar ajuste preestablecidoEjecute la operación de filtrado. A continuación, haga clic en el botón Seleccionar ajuste preestablecido y seleccione Eliminar ajuste preestablecido en el menú.
+**Eliminación de una operación de filtro del** menú Seleccionar ajustes preestablecidosEjecute la operación de filtro. A continuación, haga clic en el botón Seleccionar ajuste preestablecido y seleccione Eliminar ajuste preestablecido en el menú.
 
 ## Uso del servidor de metadatos  {#using-the-metadata-server}
 
@@ -151,15 +153,15 @@ Para configurar el servidor de metadatos, haga clic en Ajustes > Ajustes de apli
 
 Se abre la pantalla Publicación en el servidor de metadatos. Esta pantalla permite definir las siguientes opciones:
 
-**Publicación instantánea** inserta automáticamente cualquier cambio de metadatos cuando se realiza, incluidos nuevos recursos, cambios de palabras clave, etc.
+**Publicación instantánea: inserta automáticamente** cualquier cambio de metadatos cuando se realice, incluidos nuevos recursos, cambios de palabras clave, etc.
 
-**XMP** paquetePublica el paquete XMP. Este paquete no se utiliza en las búsquedas, pero proporciona el XMP más actualizado.
+**XMP** PaquetePublica el paquete de XMP. Este paquete no se utiliza en las búsquedas, pero proporciona el XMP más actualizado.
 
-**Palabras** clavePublica las palabras clave en el servidor de metadatos para utilizarlas en las búsquedas.
+**** Palabras clavePublica sus palabras clave en el servidor de metadatos para usarlas en búsquedas.
 
-**Campos de publicación del servidor de metadatosSeleccione los** campos que desea incluir en los metadatos. Permite determinar cuánta información sobre los recursos está a disposición pública. Estos campos también se muestran en Vistas de metadatos, pero solo se pueden modificar en el servidor de metadatos.
+**Campos** de publicación del servidor de metadatosSeleccione los campos que desea incluir en los metadatos. Permite determinar cuánta información sobre los recursos está a disposición pública. Estos campos también se muestran en Vistas de metadatos, pero solo se pueden modificar en el servidor de metadatos.
 
-Haga clic en **Publicar ahora** para inicio del trabajo. Aparece una confirmación de que el trabajo se ha iniciado.
+Haga clic en **Publicar ahora** para iniciar el trabajo. Aparece una confirmación de que el trabajo se ha iniciado.
 
 >[!MORELIKETHIS]
 >
