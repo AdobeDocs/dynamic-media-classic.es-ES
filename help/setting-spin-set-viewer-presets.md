@@ -1,32 +1,34 @@
 ---
 title: Configuración de ajustes preestablecidos del visor de conjunto de giros
-description: Obtenga información sobre cómo configurar los ajustes preestablecidos de visor de conjuntos de giros.
+description: Aprenda a configurar los ajustes preestablecidos del visualizador de conjuntos de giros.
 uuid: e095f989-f3df-46ea-be62-812922805dc0
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 9dfaa37a-59ab-46ae-94c3-c0ab9f940023
+feature: Dynamic Media Classic,Visualizadores,Conjuntos de giros,Ajustes preestablecidos de visualizador
+role: Profesional empresarial
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 75%
+source-wordcount: '240'
+ht-degree: 72%
 
 ---
 
 
 # Configuración de ajustes preestablecidos del visor de conjunto de giros{#setting-up-spin-set-viewer-presets}
 
-Los ajustes preestablecidos de visor de conjuntos de giros determinan el estilo, el comportamiento y el aspecto de los visores. Dynamic Media Classic incluye ajustes preestablecidos de visor de conjuntos de giros predeterminados. Si es un administrador, también puede crear su propio ajuste preestablecido de visor de conjuntos de giros. Los ajustes preestablecidos de visor de conjuntos de giros se pueden configurar con diferentes colores, bordes, fuentes y parámetros de imagen.
+Los ajustes preestablecidos de visor de conjuntos de giros determinan el estilo, el comportamiento y el aspecto de los visores. Dynamic Media Classic incluye ajustes preestablecidos de visualizador de conjuntos de giros predeterminados. Si es un administrador, también puede crear su propio ajuste preestablecido de visor de conjuntos de giros. Los ajustes preestablecidos de visor de conjuntos de giros se pueden configurar con diferentes colores, bordes, fuentes y parámetros de imagen.
 
 Para crear un ajuste preestablecido de visor de conjuntos de giros, siga estos pasos:
 
 1. Haga clic en **Ajustes** > **Ajustes preestablecidos de visor**.
 1. Realice una de las siguientes acciones:
 
-   * Para crear un nuevo ajuste preestablecido, haga clic en **Añadir** y, en el cuadro de diálogo Añadir ajuste preestablecido de visor, elija una plataforma y haga clic en **Visor de conjuntos de giros**.
-   * Para editar un ajuste preestablecido de visor de conjuntos de giros existente, selecciónelo y haga clic en **Editar**.
+   * Para crear un nuevo ajuste preestablecido, haga clic en **Agregar** y, en el cuadro de diálogo Agregar ajuste preestablecido de visualizador, elija una plataforma y haga clic en **Visualizador de conjuntos de giros**.
+   * Para editar un ajuste preestablecido de visualizador de conjuntos de giros existente, seleccione el ajuste preestablecido y haga clic en **Editar**.
 
    Se abrirá la pantalla Configurar visor.
 
