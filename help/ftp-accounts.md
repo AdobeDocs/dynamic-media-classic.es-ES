@@ -1,24 +1,26 @@
 ---
 title: Administración de cuentas de FTP
-description: Obtenga información sobre cómo administrar las cuentas de FTP.
+description: Obtenga información sobre cómo administrar cuentas de FTP.
 uuid: c9410f44-14bf-4f55-a199-f0f0de459219
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: d592f0a7-1c27-4463-998a-07351147da1d
+feature: Dynamic Media Classic,Colaboración,Administración de activos
+role: Administrador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 89%
+source-wordcount: '240'
+ht-degree: 85%
 
 ---
 
 
 # Administración de cuentas de FTP{#managing-ftp-accounts}
 
-Solo los administradores de Media Portal pueden administrar y gestionar las cuentas de FTP. Además, solo los usuarios con la función *Usuario colaborador de Media Portal *o *Colaborador de Media Portal* pueden cargar recursos digitales.
+Solo los administradores de Media Portal pueden administrar y gestionar las cuentas de FTP. Además, solo los usuarios con la función *Colaborador-Usuario de Media Portal *o *Colaborador de Media Portal* pueden cargar recursos digitales.
 
 Recuerde que puede activar o desactivar los usuarios de Media Portal existentes a través de la página Administración de usuarios en Ajuste de administración.
 
