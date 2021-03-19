@@ -7,18 +7,20 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 825b8949-f961-4ef9-828c-07349013d40d
+feature: Dynamic Media Classic
+role: Administrador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 52%
+source-wordcount: '615'
+ht-degree: 51%
 
 ---
 
 
 # Nociones básicas de navegación{#navigation-basics}
 
-La pantalla de Dynamic Media Classic incluye tres áreas principales: Barra de navegación global, biblioteca de recursos y panel Examinar/Generar.
+La pantalla de Dynamic Media Classic incluye tres áreas principales: Barra de navegación global, biblioteca de recursos y panel Examinar/crear panel.
 
 ![Nociones básicas de navegación](/help/assets/gs_navigation_basics_popup_popup.png)
 
@@ -26,33 +28,33 @@ La pantalla de Dynamic Media Classic incluye tres áreas principales: Barra de n
 
 La barra de navegación global, situada en la parte superior de la pantalla, contiene botones para realizar diversas tareas:
 
-**Seleccione** EmpresaElija la compañía a la que desea acceder desde el menú. Este botón no está disponible cuando solo se trabaja con una empresa.
+**Seleccione** EmpresaElija la empresa a la que desee acceder desde el menú. Este botón no está disponible cuando solo se trabaja con una empresa.
 
-**** CargarAbre la pantalla Cargar para poder cargar archivos de su ordenador o red en Dynamic Media Classic. Es posible cargar archivos desde el escritorio o por medio de FTP. Consulte Carga de archivos.
+**** CargarAbre la pantalla Cargar para que pueda cargar archivos de su equipo o red a Dynamic Media Classic. Es posible cargar archivos desde el escritorio o por medio de FTP. Consulte Carga de archivos.
 
 **** GenerarElija una tarea de compilación en el menú. Se abrirá el panel de generación, donde podrá crear un tipo de recurso.
 
-**** PublicarAbre la pantalla Publicar para publicar recursos de medios enriquecidos en los servidores de imágenes de Dynamic Media y en el resto de la infraestructura de Dynamic Media Classic SAAS. Consulte Publicación.
+**** PublicarAbre la pantalla Publicar para que pueda publicar recursos de medios enriquecidos en los servidores de imágenes de Dynamic Media y en el resto de la infraestructura SAAS de Dynamic Media Classic. Consulte Publicación.
 
 **** TrabajosAbre la pantalla Trabajos para que pueda examinar los registros de los trabajos de carga y publicación.
 
-**** RecienteAbre la pantalla Actividad reciente para que pueda realizar la vista de los nombres de los recursos modificados recientemente y de los trabajos de carga y publicación recientes.
+**** RecienteAbre la pantalla Actividad reciente para que pueda ver los nombres de los recursos modificados recientemente y de los trabajos de carga y publicación recientes.
 
-**** ConfiguraciónAbre la pantalla Ajustes para que pueda elegir opciones de configuración o administración para optimizar el uso de Dynamic Media Classic. Consulte Ajuste.
+**** ConfiguraciónAbre la pantalla Configuración para que pueda elegir las opciones de configuración o administración con el fin de optimizar el uso de Dynamic Media Classic. Consulte Ajuste.
 
 **** AyudaElija una opción de ayuda:
 
-**Ayuda > Ayuda sobre este** temaAbre el sistema de ayuda en una página con información sobre la tarea que está realizando.
+**Ayuda > Ayuda sobre este** temaAbre el sistema de Ayuda en una página con información sobre la tarea que está realizando.
 
-**Ayuda >** Tutorial de vídeoAccede a vídeos sobre temas específicos para mostrar cómo empezar a trabajar con cada flujo de trabajo de publicación de medios enriquecidos.
+**Ayuda >** Tutorial de vídeoAccede a vídeos sobre temas específicos para demostrar cómo empezar con cada flujo de trabajo de publicación de medios enriquecidos.
 
-**Ayuda >** Contenido de la ayudaAbre el sistema de ayuda en la página de introducción. Haga clic en los temas de la tabla de contenido para buscar y ver temas diferentes.
+**Ayuda >** Contenido de la ayudaAbre el sistema de ayuda a la página Introducción. Haga clic en los temas de la tabla de contenido para buscar y ver temas diferentes.
 
-**Ayuda >** Acerca deLe indica la versión de Dynamic Media Classic que está ejecutando.
+**Ayuda >** Acerca de le indica qué versión de Dynamic Media Classic está ejecutando.
 
-**Ayuda >** Asistencia técnicaIndica cómo obtener asistencia técnica de Dynamic Media Classic.
+**Ayuda >** Asistencia técnicaLe indica cómo obtener asistencia técnica de Dynamic Media Classic.
 
-**Cerrar sesiónSale** de Dynamic Media Classic.
+**Cerrar sesión:** sale de Dynamic Media Classic.
 
 ## Biblioteca de recursos {#asset-library}
 
@@ -68,9 +70,9 @@ En la parte superior del panel Biblioteca de recursos hay comandos de búsqueda 
 
 La mayor parte del trabajo se realiza en el panel Examinar/generación. El contenido mostrado en el panel depende del modo recurso:
 
-**Modo de exploraciónSeleccione una carpeta en la biblioteca de recursos para la vista y trabajar con su contenido en el panel Examinar.** Este panel ofrece menús Archivo, Vista previa, Seleccionar todo, No seleccionar nada y Ordenar para trabajar con los recursos. Los recursos se pueden mostrar de varias formas, moviendo el control deslizante o haciendo clic en el botón correspondiente a una de las vistas: de cuadrícula , de lista  o de detalles . Al hacer clic en el botón de vista de detalles o hacer doble clic en un recurso, éste se abre en una vista de detalles que permite realizar operaciones de archivo según el recurso.
+**Modo Examinar** Seleccione una carpeta en la biblioteca de recursos para ver y trabajar con su contenido en el panel Examinar. Este panel ofrece menús Archivo, Vista previa, Seleccionar todo, No seleccionar nada y Ordenar para trabajar con los recursos. Los recursos se pueden mostrar de varias formas, moviendo el control deslizante o haciendo clic en el botón correspondiente a una de las vistas: de cuadrícula , de lista  o de detalles . Al hacer clic en el botón de vista de detalles o hacer doble clic en un recurso, éste se abre en una vista de detalles que permite realizar operaciones de archivo según el recurso.
 
-**Modo** de generaciónHaga clic en Generar y, a continuación, elija una opción para crear un catálogo electrónico, un conjunto de imágenes, un conjunto de giros o uno de los otros elementos disponibles en el menú Generar. Se abrirá la pantalla Generar. La selección de recursos con los que trabajar se puede realizar antes o después de activar el modo de generación.
+**Generar** modoHaga clic en Generar y, a continuación, elija una opción para comenzar a crear un catálogo electrónico, conjunto de imágenes, conjunto de giros o uno de los otros elementos disponibles en el menú Generar. Se abrirá la pantalla Generar. La selección de recursos con los que trabajar se puede realizar antes o después de activar el modo de generación.
 
 >[!MORELIKETHIS]
 >
