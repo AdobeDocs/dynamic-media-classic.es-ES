@@ -1,16 +1,18 @@
 ---
-title: Especificación de opciones de exportación disponibles para los usuarios de Media Portal
+title: Especificación de las opciones de exportación disponibles para los usuarios de Media Portal
 description: Obtenga información sobre cómo especificar las opciones de exportación disponibles para los usuarios de Media Portal.
 uuid: 5258b8a4-0704-43cd-97d1-c9af2e4e298b
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
+feature: Dynamic Media Classic,Colaboración,Administración de activos
+role: Administrador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 83%
+source-wordcount: '377'
+ht-degree: 81%
 
 ---
 
@@ -24,7 +26,7 @@ Las dos restricciones siguientes se aplican si exporta recursos de imagen por me
 * El archivo ZIP comprimido de exportación tiene un tamaño máximo de 1 GB para el trabajo de exportación.
 * Puede tener un máximo de 500 recursos en total por trabajo de exportación.
 
-Consulte también [Exportación de recursos de Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from_dmc).
+Consulte también [Exportación de recursos desde Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from_dmc).
 
 **Para especificar las opciones de exportación disponibles para los usuarios de Media Portal**
 
@@ -32,14 +34,14 @@ Consulte también [Exportación de recursos de Dynamic Media Classic](exporting-
 1. En la ventana Ajustes preestablecidos de imagen, seleccione una de las siguientes opciones:
 
    * **Activar**
-conversión definida por el usuarioCuando se selecciona, esta opción permite a los usuarios elegir otro en la lista desplegable Tamaño de la ventana Exportar recursos seleccionados. A continuación, los usuarios pueden elegir una unidad de medida como, por ejemplo, píxeles o centímetros, y especificar la anchura y la altura deseadas. Al exportar o descargar estos archivos, se cambia el formato de los archivos de imagen.
+conversión definida por el usuarioCuando esté seleccionada, esta opción permite a los usuarios elegir otra opción de la lista desplegable Tamaño de la ventana Exportar recursos seleccionados. A continuación, los usuarios pueden elegir una unidad de medida como, por ejemplo, píxeles o centímetros, y especificar la anchura y la altura deseadas. Al exportar o descargar estos archivos, se cambia el formato de los archivos de imagen.
 
       Cuando se eligen **píxeles** de la lista desplegable **Tamaño**, la anchura x la altura de la imagen resultante no puede superar los 100 millones de píxeles. Este tamaño equivale a 10.000 x 10.000 píxeles para una imagen cuadrada, o aproximadamente 8.000 x 12.000 píxeles para una imagen con una proporción de aspecto 2x3. Esta restricción de tamaño no se aplica si exporta imágenes principales originales.
 
       Anule la selección de esta opción si desea que los usuarios descarguen archivos sin cambiar el formato al descargarlos.
 
-   * **Activar Exportar**
-originalPermite exportar imágenes principales originales. En el cuadro de diálogo Exportar recursos seleccionados, los usuarios pueden abrir el menú desplegable Conversión y elegir Exportar original para exportar los archivos originales. Anule la selección de esta opción si desea obligar a los usuarios a seleccionar un ajuste preestablecido de imagen o sus propias opciones de conversión al exportar imágenes.
+   * **Habilitar Exportar**
+originalPermite exportar imágenes maestras originales. En el cuadro de diálogo Exportar recursos seleccionados, los usuarios pueden abrir el menú desplegable Conversión y elegir Exportar original para exportar los archivos originales. Anule la selección de esta opción si desea obligar a los usuarios a seleccionar un ajuste preestablecido de imagen o sus propias opciones de conversión al exportar imágenes.
 
 >[!MORELIKETHIS]
 >
