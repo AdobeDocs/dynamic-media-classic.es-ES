@@ -1,24 +1,26 @@
 ---
 title: Vinculación de un catálogo electrónico a una página web
-description: Obtenga información sobre cómo vincular un catálogo electrónico a una página web.
+description: Aprenda a vincular un catálogo electrónico a una página web.
 uuid: 90098a90-180b-477a-8533-24a52a93200b
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
+feature: Dynamic Media Classic,Visualizadores,Catálogo electrónico
+role: Profesional empresarial
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 86%
+source-wordcount: '686'
+ht-degree: 85%
 
 ---
 
 
 # Vinculación de un catálogo electrónico a una página web{#linking-an-ecatalog-to-a-web-page}
 
-Los sitios web y las aplicaciones acceden al contenido de Dynamic Media Image Server, incluidos los catálogos electrónicos, a través de cadenas URL o código incrustado. Estas cadenas URL se activan durante el proceso de publicación. Para colocar la cadena URL o el código incrustado del catálogo electrónico en las páginas web y las aplicaciones, debe copiar esta cadena desde Dynamic Media Classic.
+Los sitios web y las aplicaciones acceden al contenido de Dynamic Media Image Server, incluidos los catálogos electrónicos, mediante cadenas URL o código incrustado. Estas cadenas URL se activan durante el proceso de publicación. Para colocar la cadena URL o el código incrustado del catálogo electrónico en las páginas web y las aplicaciones, debe copiarla desde Dynamic Media Classic.
 
 >[!NOTE]
 >
