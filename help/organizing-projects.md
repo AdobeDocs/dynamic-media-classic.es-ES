@@ -1,17 +1,19 @@
 ---
 title: Organización del trabajo con proyectos
-description: Aprenda a organizar su trabajo con proyectos.
+description: Aprenda a organizar su trabajo con Proyectos.
 uuid: bd2b1792-e2d9-4a15-90c1-8ef2cf632867
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 036dfc1f-8317-4887-a6e1-d8f2cb61819c
+feature: Dynamic Media Classic,Administración de recursos
+role: Profesional empresarial
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 59%
+source-wordcount: '488'
+ht-degree: 58%
 
 ---
 
@@ -26,7 +28,7 @@ Los proyectos pueden crearse al cargar archivos o desde el panel de la bibliotec
 
 >[!NOTE]
 >
->Dynamic Media Classic recomienda organizar recursos con metadatos en lugar de con proyectos. Consulte [Visualización, adición y exportación de metadatos](viewing-adding-exporting-metadata.md).
+>Dynamic Media Classic recomienda organizar los recursos con metadatos en lugar de con proyectos. Consulte [Visualización, adición y exportación de metadatos](viewing-adding-exporting-metadata.md).
 
 >[!NOTE]
 >
@@ -34,13 +36,13 @@ Los proyectos pueden crearse al cargar archivos o desde el panel de la bibliotec
 
 ## Creación de una carpeta de proyecto  {#creating-a-project-folder}
 
-Puede crear una carpeta de proyecto desde la biblioteca de recursos o al cargar archivos a Dynamic Media Classic:
+Puede crear una carpeta de proyecto a partir de la biblioteca de recursos o al cargar archivos en Dynamic Media Classic:
 
 * **En la**
-biblioteca de recursos, desplácese hasta la parte inferior de la biblioteca de recursos, hasta la sección Proyectos, y seleccione el botón Añadir proyecto . A continuación, escriba un nombre para el proyecto.
+biblioteca de recursos, desplácese hasta la parte inferior de la biblioteca de recursos, hasta la sección Proyectos y seleccione el botón Agregar proyecto . A continuación, escriba un nombre para el proyecto.
 
 * **Al cargar**
-archivosEn la pantalla Cargar, seleccione el menú Añadir al proyecto y elija Crear proyecto. A continuación, escriba un nombre para el proyecto.
+archivosEn la pantalla Cargar, seleccione el menú Agregar a proyecto y elija Crear proyecto. A continuación, escriba un nombre para el proyecto.
 
 >[!NOTE]
 >
@@ -50,21 +52,21 @@ archivosEn la pantalla Cargar, seleccione el menú Añadir al proyecto y elija C
 
 Si desea mostrar o eliminar una carpeta de proyecto, o cambiarle el nombre, siga estas instrucciones:
 
-* **Exploración de**
+* **Examinar el**
 contenidoSeleccione el nombre de la carpeta en la biblioteca de recursos. Los recursos que contiene aparecen en el panel Examinar.
 
 * **Eliminación de**
-carpetas de proyectoSeleccione la carpeta de proyecto y, a continuación, el botón Eliminar proyecto . La eliminación de recursos de una carpeta de proyecto no los elimina de Dynamic Media Classic; los recursos permanecen en las carpetas originales en las que se almacenan.
+carpetas del proyectoSeleccione la carpeta del proyecto y, a continuación, el botón Quitar proyecto . Al eliminar recursos de una carpeta de Project , estos no se eliminan de Dynamic Media Classic; los recursos permanecen en las carpetas originales en las que se almacenan.
 
-* **Cambio del nombre de**
-las carpetas de proyectoHaga doble clic en el nombre de la carpeta en el panel de recursos y, a continuación, introduzca un nuevo nombre.
+* **Cambiar el nombre de las**
+carpetas del proyectoHaga doble clic en el nombre de la carpeta en el panel de recursos y, a continuación, introduzca un nuevo nombre.
 
 ## Adición de recursos a una carpeta de proyecto {#adding-assets-to-a-project-folder}
 
 Puede agregar imágenes a una carpeta de proyecto desde el panel Examinar o al cargar archivos a Dynamic Media Classic:
 
-* **Desde el**
-panel ExaminarSeleccione los recursos y arrástrelos a una carpeta de proyecto. También puede elegir Archivo > Agregar al proyecto, seleccionar el nombre de la carpeta de proyecto en el cuadro de diálogo Seleccionar proyecto y seleccionar el botón Enviar.
+* **En el**
+panel Examinar, seleccione los recursos y arrástrelos a una carpeta de proyecto. También puede elegir Archivo > Agregar al proyecto, seleccionar el nombre de la carpeta de proyecto en el cuadro de diálogo Seleccionar proyecto y seleccionar el botón Enviar.
 
 * **Al cargar**
 archivosEn la pantalla Cargar, haga clic en el botón Opciones de trabajo. En el cuadro de diálogo Opciones de trabajo de carga, elija Proyectos y seleccione un nombre de proyecto.
