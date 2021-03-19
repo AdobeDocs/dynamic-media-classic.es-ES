@@ -7,18 +7,20 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
+feature: Dynamic Media Classic,Administración de recursos
+role: Profesional empresarial
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 95%
+source-wordcount: '557'
+ht-degree: 94%
 
 ---
 
 
 # Ajuste de imágenes{#adjusting-an-image}
 
-Dynamic Media Classic oferta varios comandos para ajustar el aspecto de una imagen. Puede voltear, rotar, desenfocar, colorear o alterar el equilibrio de color de una imagen. Al experimentar con estos comandos, puede ver sus efectos en la imagen con que trabaje.
+Dynamic Media Classic ofrece varios comandos para ajustar el aspecto de una imagen. Puede voltear, rotar, desenfocar, colorear o alterar el equilibrio de color de una imagen. Al experimentar con estos comandos, puede ver sus efectos en la imagen con que trabaje.
 
 Consulte también [Creación de un alias para una imagen](adjusting-image.md#creating_an_alias_for_an_image).
 
@@ -30,7 +32,7 @@ Consulte también [Creación de un alias para una imagen](adjusting-image.md#cre
    * Use el control deslizante de rotación para rotar la imagen. Puede introducir valores en el campo Rotar para rotar una imagen. Los valores positivos la rotan hacia la derecha; los negativos, hacia la izquierda.
    * Use el control deslizante Desenfocar o su cuadro correspondiente para desenfocar una imagen. Cuanto más alto sea el valor, más desenfocada quedará la imagen.
    * Use las opciones Contraste, Brillo, Saturación, Tono y Equilibrio de color para ajustar el color y el brillo. Estos efectos son acumulativos. Por ejemplo, los cambios en el valor Magenta/Verde se agregan a los realizados en el valor Tono.
-   * Use las opciones de Colorear para colorear una imagen a la vez que conserva las sombras y los resaltes. Los cambios en la opción Colorear también son acumulativos. Elija el menú Brillo y seleccione Sin compensación para desactivar la compensación automática de brillo. Establezca el valor de contraste en 0 para conservar el rango de contraste de la imagen original, o especifique un rango de contraste con un valor superior a 0. Un valor de 100 maximiza el contraste. Los valores típicos están en el rango 30-70.
+   * Use las opciones de Colorear para colorear una imagen a la vez que conserva las sombras y los resaltes. Los cambios en la opción Colorear también son acumulativos. Elija el menú Brillo y seleccione Sin compensación para desactivar la compensación automática de brillo. Establezca el valor de contraste en 0 para conservar el rango de contraste de la imagen original, o especifique un rango de contraste con un valor superior a 0. Un valor de 100 maximiza el contraste. Los valores típicos se encuentran en el rango 30-70.
 
 1. Cuando termine de ajustar la imagen, realice una de las acciones siguientes:
 
