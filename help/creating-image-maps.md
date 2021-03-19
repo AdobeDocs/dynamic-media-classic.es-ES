@@ -1,16 +1,18 @@
 ---
 title: Creación de mapas de imagen
-description: Aprenda a crear mapas de imagen.
+description: Aprenda a crear mapas de imágenes.
 uuid: 0dcc4956-006e-4a74-9d6a-6d4bb23790ce
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
+feature: Dynamic Media Classic,Administración de recursos
+role: Profesional empresarial
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '2440'
+source-wordcount: '2447'
 ht-degree: 75%
 
 ---
@@ -37,21 +39,21 @@ Al crear mapas de imagen, puede realizar cualquiera de las siguientes acciones:
 
 1. Realice una de las siguientes acciones:
 
-   * Si está trabajando con una imagen en la Vista de Lista o Vista de cuadrícula, en la lista desplegable Editar haga clic en **Mapa de imagen**. O bien, ábralo en la Vista de detalles y, a continuación, haga clic en **Mapa de imagen** encima de la imagen.
-   * Si está trabajando con un conjunto de giros en la Vista de Lista o Vista de cuadrícula, haga clic en **Editar**. O bien, ábralo en la Vista de detalles y haga clic en **Editar**. Seleccione un recurso de imagen y haga clic en **Mapa de imagen**.
-   * Si está trabajando con un catálogo electrónico, en la Vista de cuadrícula, la Vista de Lista y la Vista de detalles, haga clic en **Editar**. Haga clic en la ficha **Páginas de mapa**.
+   * Si está trabajando con una imagen en la vista de cuadrícula o de lista, en la lista desplegable Editar haga clic en **Mapa de imagen**. O bien, ábrala en la Vista de detalles y, a continuación, haga clic en **Mapa de imágenes** encima de la imagen.
+   * Si está trabajando con un conjunto de giros en la vista de cuadrícula o de lista, haga clic en **Editar**. O bien, ábrala en la Vista de detalles y haga clic en **Editar**. Seleccione un recurso de imagen y haga clic en **Mapa de imagen**.
+   * Si está trabajando con un catálogo electrónico, en la vista de cuadrícula, de lista o de detalles, haga clic en **Editar**. Haga clic en la pestaña **Map Pages**.
 
    ![](assets/ma_image_map.png)
 
 1. Dibuje un mapa de imagen rectangular o poligonal (de varios lados):
 
-   **Mapa rectangular** Seleccione la herramienta Mapa de imagen rectangular y arrastre la página para crear el rectángulo. Para añadir un punto a un mapa rectangular (y, por lo tanto, cambiarlo a un mapa poligonal), pulse Ctrl y, a continuación, coloque la herramienta de inserción en el lugar deseado y haga clic.
+   **Mapa** rectangularSeleccione la herramienta Mapa de imagen rectangular y arrastre la página para crear el rectángulo. Para añadir un punto a un mapa rectangular (y, por lo tanto, cambiarlo a un mapa poligonal), pulse Ctrl y, a continuación, coloque la herramienta de inserción en el lugar deseado y haga clic.
 
-   **Mapa poligonalSeleccione la herramienta Mapa de imagen poligonal y haga clic en los puntos del perímetro del área de la imagen que desee encerrar.** Use el control deslizante de densidad del polígono para modificar la densidad de punto del polígono. Se recuerda la densidad original al seleccionar otros mapas. Si se añade, elimina o mueve cualquier punto del polígono, se pierde la densidad original y se restablece el valor máximo del control deslizante.
+   **Mapa poligonal** Seleccione la herramienta Mapa de imagen poligonal y haga clic en los puntos del perímetro del área de la imagen que desea incluir. Use el control deslizante de densidad del polígono para modificar la densidad de punto del polígono. Se recuerda la densidad original al seleccionar otros mapas. Si se añade, elimina o mueve cualquier punto del polígono, se pierde la densidad original y se restablece el valor máximo del control deslizante.
 
 1. Si lo desea, asigne un nombre al mapa de imagen en la lista de mapas de imagen. Después de dibujar un mapa de imagen, Dynamic Media Classic le asigna un nombre.
 
-   Para crear el nombre, Dynamic Media Classic anexa un número secuencial al nombre de la imagen o página de catálogo electrónico con la que está trabajando. Puede introducir el nombre que desee.
+   Para crear el nombre, Dynamic Media Classic añade un número secuencial al nombre de la imagen o página de catálogo electrónico con la que está trabajando. Puede introducir el nombre que desee.
 
 1. Si desea que se abra una nueva página web cuando los usuarios hagan clic en el mapa de imagen, introduzca la URL en la lista de mapas de imagen. 
 
@@ -72,17 +74,17 @@ Al crear mapas de imagen, puede realizar cualquiera de las siguientes acciones:
 
 ### Ajuste de la posición, la forma y el tamaño de los mapas de imagen  {#adjusting-the-position-shape-and-size-of-image-maps}
 
-Para cambiar la posición, la forma y el tamaño de un mapa de imagen, seleccione el botón Mapa de imagen . A continuación, seleccione la herramienta de desplazamiento y siga estas instrucciones:
+Para cambiar la posición, la forma y el tamaño de un mapa de imagen, seleccione el botón Mapa de imagen . A continuación, seleccione la herramienta Panorámica y siga estas instrucciones:
 
-**Cambio de** posiciónMueva el puntero cerca del borde del mapa de imagen pero no sobre él. Cuando vea el icono de flecha con cuatro puntas, arrastre el mapa a una nueva ubicación.
+**Cambiar** posiciónMueva el puntero cerca del borde del mapa de imagen, pero no sobre él. Cuando vea el icono de flecha con cuatro puntas, arrastre el mapa a una nueva ubicación.
 
-**Cambiar el tamaño y la** formaEl modo de cambiar la forma y el tamaño de un mapa de imagen depende de si está trabajando con un mapa de imagen rectangular o poligonal:
+**Cambiar el tamaño y la** formaLa forma y el tamaño de un mapa de imagen depende de si está trabajando con un mapa de imagen rectangular o poligonal:
 
-***Sugerencia **: Puede arrastrar el control deslizante Tamaño en la parte inferior de la pantalla para cambiar las vistas y ver mejor el mapa de imagen.*
+***Sugerencia **: Puede arrastrar el control deslizante Tamaño en la parte inferior de la pantalla para cambiar las vistas y obtener una mejor vista del mapa de imagen.*
 
-**Mapa de imagen rectangular** Mueva el puntero sobre un lado o una esquina del mapa de imagen. Al ver el icono de flecha con dos puntas, comience a arrastrar. Mantenga pulsada la tecla Mayús mientras arrastra para cambiar el tamaño pero manteniendo la proporción de aspecto (la forma).
+**Mapa** de imagen rectangularMueva el puntero sobre un lado o una esquina del mapa de imagen. Al ver el icono de flecha con dos puntas, comience a arrastrar. Mantenga pulsada la tecla Mayús mientras arrastra para cambiar el tamaño pero manteniendo la proporción de aspecto (la forma).
 
-**Mapa de imagen poligonal** Arrastre un tirador de selección cuadrada. Para crear un tirador de selección, haga clic en el borde del mapa de imagen y arrastre el ratón.
+**Mapa de imagen** poligonalArrastre un control de selección cuadrado. Para crear un tirador de selección, haga clic en el borde del mapa de imagen y arrastre el ratón.
 
 ### Control de superposición de mapas de imagen {#handling-overlapping-image-maps}
 
@@ -122,7 +124,7 @@ Por ejemplo, copiar mapas de imagen en un catálogo electrónico es una forma c�
 
 ## Uso de plantillas para introducir elementos de JavaScript y direcciones URL  {#using-a-template-to-enter-javascript-and-urls}
 
-Puede definir una plantilla URL (conocida también como plantilla Href) para introducir direcciones URL de mapa de imagen con mayor facilidad y eficiencia. Defina una plantilla URL si la mayoría de las URL de mapa de imagen comparten un formato común, fijo. Al introducir la parte de la URL que es fija como plantilla de URL, no tiene que introducir esta parte de la URL cada vez que cree un mapa de imagen. La plantilla URL también puede contener comandos JavaScript, nombres de ruta y parámetros. De forma predeterminada, la plantilla URL contiene un controlador JavaScript exclusivo de Dynamic Media Classic, denominado `loadProduct`, que abre la imagen en una ventana nueva.
+Puede definir una plantilla URL (conocida también como plantilla Href) para introducir direcciones URL de mapa de imagen con mayor facilidad y eficiencia. Defina una plantilla URL si la mayoría de las URL de mapa de imagen comparten un formato común, fijo. Al introducir la parte de la URL que es fija como plantilla de URL, no tiene que introducir esta parte de la URL cada vez que cree un mapa de imagen. La plantilla URL también puede contener comandos JavaScript, nombres de ruta y parámetros. De forma predeterminada, la plantilla URL contiene un controlador JavaScript Dynamic Media Classic propietario llamado `loadProduct` que abre la imagen en una nueva ventana.
 
 >[!NOTE]
 >
@@ -140,9 +142,9 @@ Deberá colocar todos los valores que no cambian entre los mapas de imagen en la
 
 * Plantilla URL: j `avascript:loadProduct(‘https://www.examplesitehere.com/$$’);void(0);`
 * Valor de URL: `product.htm`
-* Dirección URL real generada: `javascript:loadProduct(‘https://www.examplesitehere.com/product.html);void(0);`
+* URL real generada: `javascript:loadProduct(‘https://www.examplesitehere.com/product.html);void(0);`
 
-De forma predeterminada, la plantilla URL incluye un controlador JavaScript exclusivo de Dynamic Media Classic, denominado `loadProduct`, que abre una nueva ventana con el destino URL. Sin embargo, puede utilizar cualquier código JavaScript para reemplazar este controlador JavaScript o uno de los siguientes controladores de Dynamic Media Classic:
+De forma predeterminada, la plantilla URL incluye un controlador JavaScript Dynamic Media Classic propietario llamado `loadProduct` que abre una nueva ventana con el destino URL. Sin embargo, puede utilizar cualquier código JavaScript para reemplazar este controlador JavaScript o utilizar uno de los siguientes controladores de Dynamic Media Classic:
 
 * `loadProductCW`
 
@@ -152,7 +154,7 @@ De forma predeterminada, la plantilla URL incluye un controlador JavaScript excl
 
    muestra el destino URL especificado en la columna URL en la ventana principal (la página que abrió la activa). La ventana activa permanece abierta, pero la principal cambia para mostrar el destino URL.
 
-   ***nota **: El controlador  `loadProductPW` no admite visores DHTML y HTML5.*
+   ***nota **: El controlador no  `loadProductPW` admite visores DHTML y HTML5.*
 
 ### Creación de una plantilla URL {#creating-a-url-template}
 
@@ -166,9 +168,9 @@ Para crear una plantilla de URL:
 
 La página Editor de mapas (imágenes y conjuntos de giros) y la ficha Páginas de mapa de la pantalla Catálogo electrónico (catálogos electrónicos) ofrecen los siguientes comandos para el trabajo con plantillas URL:
 
-**Plantilla URL,** opción Seleccione la opción Plantilla URL para aplicar la plantilla URL a todos los mapas de imagen de una imagen o página de catálogo electrónico.
+**Opción Plantilla URL** Seleccione la opción Plantilla URL para aplicar la plantilla URL a todos los mapas de imagen de una imagen o página de catálogo electrónico.
 
-**Plantilla,** opciónAnule la selección de una opción de plantilla en la lista de mapa de imagen URL si no desea que un mapa de imagen individual utilice la plantilla URL.
+**Plantilla** opciónAnule la selección de una opción Plantilla en la lista Mapa de imagen de URL si no desea que un Mapa de imagen individual utilice la plantilla URL.
 
 ## Definición de otras acciones para los mapas de imagen {#defining-other-actions-for-image-maps}
 
@@ -176,9 +178,9 @@ Puede seleccionar el menú Mostrar y elegir Otras acciones para activar acciones
 
 **** acceskeyActiva una acción cuando el usuario pulsa una tecla designada en el teclado.
 
-**** onfocusActiva un evento cuando el mapa de imagen recibe el foco (por el cursor, mediante tabulación o pulsando una tecla de acceso). Por ejemplo, puede abrir una página web cuando el mapa de imagen recibe atención y cerrarla cuando pierde dicha atención.
+**** onfocusActiva un evento cuando el mapa de imagen recibe el foco (por el cursor, por tabulación o presionando una clave de acceso). Por ejemplo, puede abrir una página web cuando el mapa de imagen recibe atención y cerrarla cuando pierde dicha atención.
 
-**** onblurActiva un evento cuando el mapa de imagen pierde el foco, ya sea por el cursor o mediante la tabulación.
+**** onblurActiva un evento cuando el mapa de imagen pierde el foco, ya sea por el cursor o mediante tabulación.
 
 **Para definir otras acciones para los mapas de imagen**
 
@@ -192,7 +194,7 @@ Seleccione el menú Mostrar y elija Ambos si desea que un mapa de imagen tenga t
 
 Puede crear mapas de imagen mientras diseña su catálogo electrónico en Adobe Acrobat o en Adobe InDesign.
 
-En Acrobat o InDesign, cree referencias de hipervínculo donde desee que aparezcan los mapas de imagen y especifique ubicaciones de URL para el mapa de imagen. Al seleccionar la opción Extraer vínculos al cargar el archivo PDF en Dynamic Media Classic, los vínculos se convierten automáticamente en mapas de imagen.
+En Acrobat o InDesign, cree referencias de hipervínculo donde desee que aparezcan los mapas de imagen y especifique ubicaciones de URL para el mapa de imagen. Al seleccionar la opción Extraer vínculos al cargar el archivo PDF en Dynamic Media Classic, los vínculos se convierten automáticamente en mapas de imágenes.
 
 Para obtener más información, consulte la Ayuda de InDesign o Acrobat.
 
@@ -202,7 +204,7 @@ Para obtener más información, consulte la Ayuda de InDesign o Acrobat.
 1. Seleccione el texto, fotograma o gráfico que desea que aparezca en el mapa de imagen.
 1. En el panel de hipervínculos, haga clic en Nuevo hipervínculo en el menú del panel.
 1. En el cuadro de diálogo Nuevo Hipervínculo, elija URL en el menú Vincular a.
-1. Escriba o pegue la ID de producto en el cuadro URL y haga clic en Aceptar. (Dynamic Media Classic completa la URL con la plantilla de URL de mapa de imagen).
+1. Escriba o pegue la ID de producto en el cuadro URL y haga clic en Aceptar. (Dynamic Media Classic completa la dirección URL usando la plantilla de dirección URL del mapa de imagen ).
 
    >[!NOTE]
    >
@@ -210,7 +212,7 @@ Para obtener más información, consulte la Ayuda de InDesign o Acrobat.
 
 1. Repita los pasos 2 a 5 para todos los mapas de imágenes que desee crear.
 1. Exporte el archivo como PDF.
-1. Cargue el PDF a Dynamic Media Classic y seleccione Extraer vínculos en Opciones de PDF.
+1. Cargue el PDF a Dynamic Media Classic y seleccione Extraer vínculos en las Opciones de PDF.
 
 ### Para crear mapas de imagen en Adobe Acrobat {#to-create-image-maps-in-adobe-acrobat}
 
@@ -218,12 +220,12 @@ Para obtener más información, consulte la Ayuda de InDesign o Acrobat.
 1. Arrastre para crear el mapa de imagen. Se abre el cuadro Crear vínculo.
 1. Seleccione Vínculo personalizado y haga clic en Siguiente.
 
-   ***nota **: No es necesario definir las opciones de apariencia en Acrobat. Puede especificar la apariencia en Dynamic Media Classic.*
+   ***nota **: No es necesario que configure las opciones de aspecto en Acrobat. Puede especificar la apariencia en Dynamic Media Classic.*
 
 1. En el cuadro Propiedades del Vínculo, haga clic en Acciones.
 1. Seleccione Abrir un vínculo web en el menú Seleccionar acción y haga clic en Agregar.
-1. Escriba la ID del producto para el mapa de imagen en el cuadro Editar URL y haga clic en Aceptar. (Dynamic Media Classic completa la dirección URL con la plantilla URL de mapa de imagen).
+1. Escriba la ID del producto para el mapa de imagen en el cuadro Editar URL y haga clic en Aceptar. (Dynamic Media Classic completa la dirección URL usando la plantilla URL de mapa de imagen).
 1. Repita los pasos 1 a 7 para todos los mapas de imágenes que desee crear.
 1. Guarde el archivo.
-1. Cargue el PDF a Dynamic Media Classic y seleccione Extraer vínculos en Opciones de PDF.
+1. Cargue el PDF a Dynamic Media Classic y seleccione Extraer vínculos en las Opciones de PDF.
 
