@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 11cd5362-d90a-4c1e-bfbd-46a65a554409
+feature: Dynamic Media Classic,Administración de recursos
+role: Profesional empresarial
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '2155'
+source-wordcount: '2162'
 ht-degree: 73%
 
 ---
@@ -20,29 +22,29 @@ ht-degree: 73%
 
 El enfoque es una técnica de manipulación de imágenes para hacer más nítidos los contornos de una imagen digital. El enfoque aumenta el contraste entre los píxeles del borde y subraya la transición entre las áreas oscuras y claras. El enfoque aumenta el contraste local y resalta el detalle fino. No existe una fórmula estricta para enfocar correctamente todas las imágenes. Muy poco enfoque puede suavizar una imagen, pero demasiado añadirá halos, artefactos y ruido.
 
-Dynamic Media Classic recomienda encarecidamente el uso de ajustes preestablecidos de imagen para todas las imágenes. Esto garantiza un tamaño uniforme y el enfoque se aplica a cualquier imagen llamada con un ajuste preestablecido de imagen. Además, puede editar y cambiar los parámetros de enfoque de un ajuste preestablecido de imagen con bastante facilidad. La siguiente vez que publique, todas las imágenes invocadas con dicho ajuste preestablecido reciben los nuevos valores.
+Dynamic Media Classic recomienda encarecidamente usar ajustes preestablecidos de imagen para todas las imágenes. Esto garantiza un tamaño uniforme y el enfoque se aplica a cualquier imagen llamada con un ajuste preestablecido de imagen. Además, puede editar y cambiar los parámetros de enfoque de un ajuste preestablecido de imagen con bastante facilidad. La siguiente vez que publique, todas las imágenes invocadas con dicho ajuste preestablecido reciben los nuevos valores.
 
-Dynamic Media Classic también recomienda añadir enfoque a los ajustes preestablecidos de visor y, a continuación, llamar a un visor con ese ajuste preestablecido. Esto garantiza que las imágenes de los visores sean nítidas y atractivas.
+Dynamic Media Classic también recomienda añadir nitidez a los ajustes preestablecidos de visualizador y, a continuación, llamar a un visualizador con ese ajuste preestablecido. Esto garantiza que las imágenes de los visores sean nítidas y atractivas.
 
 Sin embargo, tanto si utiliza los ajustes preestablecidos de imagen y de visor o un método alternativo de enfoque, deberá enfocar las imágenes. Si no, las imágenes (y el sitio web) podrían tener un aspecto suave y borroso.
 
 >[!NOTE]
 >
->los comandos de Enfocar anulan los valores de Ajuste preestablecido, incluidos sus efectos de enfoque. Un ajuste preestablecido de imagen determina el tamaño y el formato con los que se entregan las imágenes desde los servidores de imágenes de Dynamic Media. Dynamic Media Classic recomienda encarecidamente el uso de ajustes preestablecidos de imagen para distribuir todas las imágenes y asegurarse de que las imágenes se distribuyen con un tamaño y enfoque uniformes. Una vez que se cambian los valores de enfoque de una imagen individual, sin embargo, los valores de enfoque del ajuste preestablecido de imagen dejarán de aplicarse a la imagen. Se distribuye sin los valores de enfoque del ajuste preestablecido de imagen.
+>los comandos de Enfocar anulan los valores de Ajuste preestablecido, incluidos sus efectos de enfoque. Los ajustes preestablecidos de imagen rigen el tamaño y el formato con que se entregan las imágenes desde los servidores de imágenes de Dynamic Media. Dynamic Media Classic recomienda encarecidamente utilizar ajustes preestablecidos de imagen para entregar todas las imágenes con el fin de garantizar que se entreguen a un tamaño y un enfoque uniformes. Una vez que se cambian los valores de enfoque de una imagen individual, sin embargo, los valores de enfoque del ajuste preestablecido de imagen dejarán de aplicarse a la imagen. Se distribuye sin los valores de enfoque del ajuste preestablecido de imagen.
 
-A menudo es necesario enfocar imágenes. Dynamic Media Classic y los servidores de imágenes oferta varias opciones de enfoque. Es importante entender cómo afecta el enfoque a una imagen y el grado de enfoque que necesita. La mayoría de las imágenes necesitan algo de enfoque pero la cantidad necesaria depende de la imagen.
+A menudo es necesario enfocar imágenes. Los servidores de imágenes y Dynamic Media Classic ofrecen varias opciones de enfoque. Es importante entender cómo afecta el enfoque a una imagen y el grado de enfoque que necesita. La mayoría de las imágenes necesitan algo de enfoque pero la cantidad necesaria depende de la imagen.
 
 El enfoque de imágenes aumenta el contraste de los píxeles para crear el efecto de bordes acentuados. Los seres humanos perciben esta mejora del contraste de los bordes como un enfoque. Si bien es fácil mejorar una imagen mediante filtros de enfoque aplicados a la imagen, también es fácil enfocar una imagen demasiado.
 
 Al enfocar una imagen demasiado se crea un efecto de halo o bandas de las líneas del borde.
 
-Existen prácticas recomendadas que puede seguir para optimizar el enfoque de sus imágenes en Dynamic Media Classic y en Dynamic Media Image Server.
+Puede seguir algunas prácticas recomendadas para optimizar el enfoque de las imágenes en Dynamic Media Classic y en Dynamic Media Image Server.
 
 Consulte [Prácticas recomendadas para enfocar imágenes en Dynamic Media Classic y en Dynamic Media Image Server](/help/assets/s7_sharpening_images.pdf).
 
 **Para enfocar una imagen**
 
-Para enfocar una imagen, haga clic en el botón de rollover **Editar** y elija Enfocar, o bien ábrala en el panel Examinar de la vista de detalles y, a continuación, haga clic en **Enfocar**. Se abrirá la pantalla Editor de enfoque con comandos de enfoque. Elija comandos y haga clic en **Guardar**.
+Para enfocar una imagen, haga clic en su botón de rollover **Editar** y seleccione Enfoque, o ábrala en el panel Examinar de la vista Detalle y, a continuación, haga clic en **Enfocar**. Se abrirá la pantalla Editor de enfoque con comandos de enfoque. Seleccione los comandos y haga clic en **Save**.
 
 >[!NOTE]
 >
@@ -56,33 +58,33 @@ La siguiente tabla muestra las opciones de enfoque del servidor de imágenes.
 |--- |--- |--- |--- |
 | Enfoque simple | op_sharpen | `0 | 1` | op_sharpen=1 |
 | Modo de remuestreo | resMode | `bilin | bicub | sharp2 | trilin`<br><br>bilin: selecciona la interpolación bilineal estándar. Método de remuestreo más rápido; pueden verse algunos defectos de solapamiento.<br>bicub: selecciona la interpolación bicúbica. Aumenta el uso de CPU con respecto a bilin, pero genera imágenes más enfocadas en las que los defectos de solapamiento son menos evidentes.<br><br>sharp2: selecciona una función de ventana Lanczos modificada como un algoritmo de interpolación. Puede producir unos resultados algo más enfocados que la opción bicúbica con un uso mayor de CPU.<br><br>trilin: selecciona una interpolación trilineal modificada, que utiliza tanto resoluciones mayores como menores, si están disponibles. Solo se recomienda su uso cuando el solapamiento suponga un problema. Reducirá los tamaños de JPEG debido a la disminución de datos de alta frecuencia. | resMode=sharp2 |
-| Máscara de enfoque | op_usm | cantidad, radio, umbral, monocromo<br><br>cantidad: factor de intensidad del filtro (real 0...5)<br><br>radio: radio del núcleo del filtro en píxeles (real 0...250) <br><br>umbral: nivel de umbral de filtro (int 0...255)<br><br>monocromo: definido en 0 para aplicar máscara de enfoque a cada componente de color por separado, definido en 1 para aplicar máscara de enfoque al brillo (intensidad) de la imagen | op_usm=1,1,10,0 |
+| Máscara de enfoque | op_usm | cantidad, radio, umbral, monocromo<br><br>cantidad: factor de intensidad del filtro (real 0...5)<br><br>radio: filtro radio del núcleo en píxeles (real 0...250) <br><br>umbral: nivel de umbral de filtro (int 0...255)<br><br>monocromo: se establece en 0 para aplicar máscara de enfoque a cada componente de color por separado, se establece en 1 para aplicar máscara de enfoque al brillo (intensidad) de la imagen | op_usm=1,1,10,0 |
 
 Seleccione el menú Enfoque y elija una opción:
 
 **** NoneDesactiva el enfoque.
 
-**** EnfocarEjecuta un enfoque simple en el archivo después de cambiarlo de tamaño. Es similar al filtro &quot;Enfocar&quot; de Photoshop y no admite ningún parámetro de usuario. Normalmente, utilizaría este filtro o Máscara de enfoque pero no ambos. Como práctica recomendada, no se recomienda utilizar este método, pero puede ayudar a compensar el desenfoque. (URL: op_sharpen)
+**** EnfoqueEjecuta un paso de enfoque simple en el archivo después de cambiar su tamaño. Es similar al filtro &quot;Enfocar&quot; de Photoshop y no admite ningún parámetro de usuario. Normalmente, utilizaría este filtro o Máscara de enfoque pero no ambos. Como práctica recomendada, no se recomienda utilizar este método, pero puede ayudar a compensar el desenfoque. (URL: op_sharpen)
 
-**Máscara** de enfoquePermite ajustar un efecto de filtro de enfoque en la imagen final con disminución de resolución. Puede controlar la intensidad del efecto, el radio del efecto (medido en píxeles) y un umbral de contraste que se ignorará. Este efecto utiliza las mismas opciones que el filtro “Máscara de enfoque” de Photoshop. (URL: op_usm)
+**Máscara de** enfoquePermite ajustar un efecto de filtro de enfoque en la imagen final con disminución de resolución. Puede controlar la intensidad del efecto, el radio del efecto (medido en píxeles) y un umbral de contraste que se ignorará. Este efecto utiliza las mismas opciones que el filtro “Máscara de enfoque” de Photoshop. (URL: op_usm)
 
 Elija estas opciones para precisar el enfoque con Máscara de enfoque:
 
-**** AmountControla la cantidad de contraste aplicado a los píxeles del borde. El valor predeterminado es 0,0. En las imágenes de alta resolución, puede aumentarse hasta 5,0. La cantidad equivaldría a la medida de la intensidad del filtro. Tenga en cuenta que la configuración Cantidad de Dynamic Media Classic no es la misma que la configuración Cantidad de Photoshop. Photoshop utiliza una cantidad en el rango de 1% a 500%, mientras que Dynamic Media Classic escala de 0,0 a 5,0. (5,0 equivale aproximadamente al 500% en Photoshop, 0,9 es similar al 90 % y así sucesivamente).
+**** AmountControla la cantidad de contraste aplicada a los píxeles de borde. El valor predeterminado es 0,0. En las imágenes de alta resolución, puede aumentarse hasta 5,0. La cantidad equivaldría a la medida de la intensidad del filtro. Tenga en cuenta que la configuración Cantidad de Dynamic Media Classic no es la misma que la configuración Cantidad de Photoshop. Photoshop utiliza una cantidad del rango del 1 % al 500 %, mientras que Dynamic Media Classic escala de 0,0 a 5,0. (5,0 equivale aproximadamente al 500% en Photoshop, 0,9 es similar al 90 % y así sucesivamente).
 
-**** RadioDetermina el número de píxeles que rodean los píxeles del borde que afectan al enfoque. El efecto se ejecuta en todos los píxeles de la imagen e irradia en todas las direcciones. 
+**** RadioDetermina el número de píxeles que rodean los píxeles de borde que afectan al enfoque. El efecto se ejecuta en todos los píxeles de la imagen e irradia en todas las direcciones. 
 
 El valor de radio óptimo depende del tamaño de la imagen. Un valor bajo enfoca sólo los píxeles del borde. Un valor alto enfoca una banda más ancha de píxeles. 
 
 Por ejemplo, para obtener un efecto de enfoque similar para una imagen de 2000 x 2000 píxeles y una imagen de 500 x 500 píxeles, podría establecer un valor de radio de dos píxeles en la imagen de 2000 x 2000 píxeles. A continuación, defina un valor de radio de un píxel en la imagen de 500 x 500 píxeles (un valor mayor para una imagen con más píxeles).
 
-**** UmbralDetermina el rango de contraste que se debe ignorar cuando se aplica el filtro de máscara de enfoque. Esta opción determina cómo deben ser de distintos los píxeles enfocados del área que los rodea para poder considerarse píxeles de borde y por tanto enfocarse.
+**** UmbralDetermina el intervalo de contraste que se debe ignorar cuando se aplica el filtro de máscara de enfoque. Esta opción determina cómo deben ser de distintos los píxeles enfocados del área que los rodea para poder considerarse píxeles de borde y por tanto enfocarse.
 
 El umbral utiliza un valor entre 0 y 255, que es el número de pasos de brillo de una imagen en escala de grises. 0 = negro, 128 = 50% gris y 255 = blanco. Por ejemplo, el valor de umbral 12 ignora las ligeras variaciones de brillo en el tono de la piel para no agregar ruido, al mismo tiempo que agrega contraste del borde a las áreas contrastadas, por ejemplo, donde las pestañas tocan la piel. 
 
-Como ejemplo, supongamos que tiene una fotografía de una cara. La máscara de enfoque afecta a las partes de la imagen con mayor contraste y a la piel lisa. Incluso la piel más suave presenta cambios sutiles en los valores de brillo. Si no usa un valor de umbral, el filtro acentúa estos cambios sutiles en los píxeles de la piel, lo que crea un efecto de ruido (algo probablemente no deseable) y aumenta el contraste en las pestañas, mejorando el enfoque (algo probablemente deseable). Para evitarlo, utilice un valor de umbral que indique al filtro que ignore los píxeles que no cambian de contraste considerablemente, como la piel lisa. Para evitar la introducción de ruido o posterización (en imágenes con tonos de carne, por ejemplo), intente experimentar con valores de umbral entre 2 y 20. El valor de umbral predeterminado 0 enfoca todos los píxeles de la imagen.
+Como ejemplo, supongamos que tiene una fotografía de una cara. La máscara de enfoque afecta a las partes de la imagen con mayor contraste y a la piel lisa. Incluso la piel más suave presenta cambios sutiles en los valores de brillo. Si no usa un valor de umbral, el filtro acentúa estos cambios sutiles en los píxeles de la piel, lo que crea un efecto de ruido (algo probablemente no deseable) y aumenta el contraste en las pestañas, mejorando el enfoque (algo probablemente deseable). Para evitarlo, utilice un valor de umbral que indique al filtro que ignore los píxeles que no cambian de contraste considerablemente, como la piel lisa. Para evitar introducir ruido o posterización (en imágenes con tonos de carne, por ejemplo), intente experimentar con valores de umbral entre 2 y 20. El valor de umbral predeterminado de 0 enfoca todos los píxeles de la imagen.
 
-**Aplicar** aElegir cada color para aplicar enfoque por separado a cada componente de color; elija Brillo para aplicar enfoque a las áreas de brillo de la imagen.
+**Aplicar** aElegir cada color para aplicar enfoque por separado a cada componente de color; elija Brillo para aplicar a la nitidez a las áreas de brillo de la imagen.
 
 **Remuestreo**
 
@@ -90,17 +92,17 @@ Seleccione el menú Remuestreo y elija una opción. Estas opciones pueden enfoca
 
 **** NoneDesactiva el remuestreo.
 
-**** BilinealMétodo de remuestreo más rápido; se pueden apreciar algunos artefactos de solapamiento.
+**** BilinearMétodo de remuestreo más rápido; se pueden apreciar algunos artefactos de aliasing.
 
-**** BicúbicoAumenta el uso de CPU en el servidor de imágenes, pero genera imágenes más nítidas con artefactos de solapamiento menos evidentes.
+**** BicubicAumenta el uso de CPU en el servidor de imágenes, pero genera imágenes más nítidas con artefactos de alias menos visibles.
 
-**Enfocar2** Puede producir resultados ligeramente más enfocados que la opción Bicúbico, pero con un costo de CPU aún mayor en el servidor de imágenes.
+**Enfoque2** Puede producir resultados ligeramente más nítidos que la opción Bicúbico, pero con un costo de CPU aún mayor en el servidor de imágenes.
 
-**** TrilinearUtiliza tanto resoluciones altas como resoluciones inferiores si están disponibles; solo se recomienda cuando el solapamiento sea un problema. Este método reduce el tamaño JPEG debido a la reducción de datos de alta frecuencia.
+**** TrilinearUtiliza resoluciones más altas y más bajas si están disponibles; recomendado solo cuando el alias sea un problema. Este método reduce el tamaño JPEG debido a la reducción de datos de alta frecuencia.
 
 **Enfoque y ajustes preestablecidos de imagen**
 
-Puede mezclar los tres efectos de enfoque para obtener el resultado final. Sin embargo, esto no es recomendable. Dynamic Media Classic recomienda guardar los efectos de enfoque como parte de un ajuste preestablecido de imagen. Los ajustes preestablecidos de imagen le permiten empaquetar los modificadores de imagen más utilizados para crear una imagen cuyo tamaño cambia dinámicamente en una pequeña cadena de texto. Un ajuste preestablecido de imagen contiene valores para el formato de archivo (por lo general, JPEG para la Web), recuento de píxeles y enfoque de imagen. En lugar de agregar la URL con cada modificador de imagen necesario para crear un tipo específico de tamaño de imagen, cree un ajuste preestablecido de imagen con un nombre como “miniatura”, configure el ajuste preestablecido de imagen de la miniatura con el tamaño, el formato de archivo y las opciones de enfoque adecuados y, a continuación, invoque la imagen mediante el nombre del ajuste preestablecido de imagen. Los ajustes preestablecidos de imagen reducen la longitud total de la URL. Estas dos URL producen la misma imagen JPEG de 350 x 350 con enfoque:
+Puede mezclar los tres efectos de enfoque para obtener el resultado final. Sin embargo, esto no es recomendable. Dynamic Media Classic recomienda guardar los efectos de nitidez como parte de un ajuste preestablecido de imagen. Los ajustes preestablecidos de imagen le permiten empaquetar los modificadores de imagen más utilizados para crear una imagen con un tamaño dinámico en una pequeña cadena de texto. Un ajuste preestablecido de imagen contiene valores para el formato de archivo (por lo general, JPEG para la Web), recuento de píxeles y enfoque de imagen. En lugar de agregar la URL con cada modificador de imagen necesario para crear un tipo específico de tamaño de imagen, cree un ajuste preestablecido de imagen con un nombre como “miniatura”, configure el ajuste preestablecido de imagen de la miniatura con el tamaño, el formato de archivo y las opciones de enfoque adecuados y, a continuación, invoque la imagen mediante el nombre del ajuste preestablecido de imagen. Los ajustes preestablecidos de imagen reducen la longitud total de la URL. Estas dos URL producen la misma imagen JPEG de 350 x 350 con enfoque:
 
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?wid=350&hei=350&fmt=jpeg&qlt=85,0&resMode=sharp2&op_usm=0.9,1.0,8,0`
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?$!_s7product$`
@@ -113,11 +115,11 @@ Si utiliza un ajuste preestablecido para cada imagen de una categoría de tamañ
 
 Las opciones de Calidad JPG controlan el nivel de compresión JPG:
 
-**Calidad** de JPGSeleccione esta opción si desea controlar los niveles de compresión y la disminución de resolución de crominancia.
+**Calidad JPG:** seleccione esta opción si desea controlar los niveles de compresión y la disminución de resolución de crominancia.
 
-**** Control deslizanteDetermina el nivel de compresión JPG. Esta configuración afecta tanto al tamaño como a la calidad de la imagen. La escala de calidad JPG es de 1 a 100.
+**** ReguladorDetermina el nivel de compresión JPG. Esta configuración afecta tanto al tamaño como a la calidad de la imagen. La escala de calidad JPG es de 1 a 100.
 
-**Activar la** disminución de resolución de crominancia JPGsComo el ojo es menos sensible a la información de color de alta frecuencia que la luminancia de alta frecuencia, las imágenes JPEG dividen la información de la imagen en componentes de color y luminancia. Al comprimir una imagen JPEG, el componente de luminancia conserva la totalidad de su resolución, mientras que la resolución de los componentes de color se disminuye mediante promedios de grupos de píxeles. La disminución de resolución le resta una mitad o un tercio al volumen de los datos sin tener casi ningún impacto en la calidad percibida. La disminución de resolución no se aplica a las imágenes en escala de grises. Esta técnica reduce la cantidad de compresión, lo cual resulta útil para las imágenes de mayor contraste (por ejemplo, las imágenes con texto superpuesto).
+**Activar el** muestreo descendente de crominancia JPGsDado que el ojo es menos sensible a la información de color de alta frecuencia que la luminancia de alta frecuencia, las imágenes JPEG dividen la información de la imagen en componentes de luminancia y color. Al comprimir una imagen JPEG, el componente de luminancia conserva la totalidad de su resolución, mientras que la resolución de los componentes de color se disminuye mediante promedios de grupos de píxeles. La disminución de resolución le resta una mitad o un tercio al volumen de los datos sin tener casi ningún impacto en la calidad percibida. La disminución de resolución no se aplica a las imágenes en escala de grises. Esta técnica reduce la cantidad de compresión, lo cual resulta útil para las imágenes de mayor contraste (por ejemplo, las imágenes con texto superpuesto).
 
 **Configuración de las opciones de enfoque en toda la empresa**
 
@@ -129,7 +131,7 @@ Para definir las opciones de enfoque predeterminadas de la empresa, vaya a Ajust
 
 A no ser que se agreguen modificadores de imagen de enfoque al ajuste preestablecido, la pequeña imagen inicial de carga puede parecer suave porque se ha disminuido su resolución para que se ajuste a la ventana del visor sin enfocarla.
 
-En Dynamic Media Classic, los ajustes preestablecidos de visor (como los ajustes preestablecidos de imagen) permiten centralizar muchas opciones en una ubicación, incluida la selección de opciones de apariencia y visor (como incluir un botón de impresión o controlar la velocidad de la animación de zoom). Los ajustes preestablecidos de visor se encuentran en la misma sección que los ajustes preestablecidos de imagen, en Ajustes > Ajustes de la aplicación > Ajustes preestablecidos de visor.
+En Dynamic Media Classic, los ajustes preestablecidos de visor (como los ajustes preestablecidos de imagen) le permiten centralizar muchas opciones en una ubicación, incluida la elección de la piel y las opciones de visor (como incluir un botón de impresión o controlar la velocidad de la animación de zoom). Los ajustes preestablecidos de visor se encuentran en la misma sección que los ajustes preestablecidos de imagen, en Ajustes > Ajustes de la aplicación > Ajustes preestablecidos de visor.
 
 La opción Modificadores se encuentra en la sección Configuración básica de todos los ajustes preestablecidos de visor de catálogos electrónicos, de conjunto de giros y de zoom personalizado. Al agregar comandos de enfoque de URL al cuadro Modificadores, se agrega enfoque cada vez que se llama a ese visor con ese ajuste preestablecido de visor.
 
@@ -143,4 +145,4 @@ El ajuste preestablecido enfoca y cambia la apariencia predeterminada del visor.
 
 El último método de enfoque (y el menos recomendado) consiste en crear anulaciones de enfoque imagen por imagen. Esto anula el enfoque en un ajuste preestablecido de imagen con sus propios valores específicos. Sin embargo, anula todos los demás métodos de enfoque en cualquier tamaño. El mejor caso de uso de este método es si algunas de las imágenes no son de alta resolución y los valores de los ajustes preestablecidos de imagen son demasiado altos para estas imágenes pequeñas. En este caso, podría ser necesario aplicar algo de enfoque por imagen.
 
-En Dynamic Media Classic, seleccione cualquier imagen, vaya a la Vista de detalles (haciendo clic con el doble o pulsando el botón Vista de detalles) y haga clic en Enfocar. Cambie cualquier parámetro y, a continuación, haga clic en Guardar. Esto indica al servidor de imágenes que utilice estos parámetros de enfoque en lugar de cualquier comando al que se llame en la URL, como un modificador de enfoque o un ajuste preestablecido de imagen. Debe publicar para que los cambios surtan efecto.
+En Dynamic Media Classic, seleccione cualquier imagen, vaya a la Vista de detalles (haciendo doble clic o pulsando el botón Vista de detalles) y haga clic en Enfocar. Cambie cualquier parámetro y, a continuación, haga clic en Guardar. Esto indica al servidor de imágenes que utilice estos parámetros de enfoque en lugar de cualquier comando al que se llame en la URL, como un modificador de enfoque o un ajuste preestablecido de imagen. Debe publicar para que los cambios surtan efecto.
