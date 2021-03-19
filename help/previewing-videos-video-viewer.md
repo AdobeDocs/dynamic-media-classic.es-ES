@@ -1,17 +1,19 @@
 ---
 title: Previsualización de vídeos en un visor de vídeos
-description: Obtenga información sobre cómo previsualización de vídeos en un visor de vídeo.
+description: Obtenga información sobre cómo previsualizar vídeos en un visualizador de vídeo.
 uuid: 7ab4e805-6e5d-461b-bd99-5e09b9ced950
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
+feature: Dynamic Media Classic,Visualizadores,Vídeo
+role: Profesional empresarial
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 84%
+source-wordcount: '774'
+ht-degree: 83%
 
 ---
 
@@ -40,13 +42,13 @@ Consulte [Adición y edición de ajustes preestablecidos de visor](application-s
 
 >[!NOTE]
 >
->Dynamic Media Classic proporciona un método cómodo para obtener una vista previa del vídeo MP4 en el escritorio. Utilice este método para obtener una vista previa del contenido móvil en el escritorio sin probarlo físicamente en dispositivos móviles. Sin embargo, tenga en cuenta que lo que ve en la vista previa de escritorio no muestra de forma realista el aspecto de la reproducción en el dispositivo móvil. Para obtener una vista previa del aspecto y reproducción del vídeo en un dispositivo móvil, vaya a la pantalla Vista previa, seleccione la opción de Copiar URL e introduzca la URL en el explorador web de un dispositivo móvil. Para obtener más información, consulte [Distribución de vídeo en sitios web y sitios móviles](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
+>Dynamic Media Classic proporciona un método práctico para previsualizar vídeo MP4 en el escritorio. Utilice este método para obtener una vista previa del contenido móvil en el escritorio sin probarlo físicamente en dispositivos móviles. Sin embargo, tenga en cuenta que lo que ve en la vista previa de escritorio no muestra de forma realista el aspecto de la reproducción en el dispositivo móvil. Para obtener una vista previa del aspecto y reproducción del vídeo en un dispositivo móvil, vaya a la pantalla Vista previa, seleccione la opción de Copiar URL e introduzca la URL en el explorador web de un dispositivo móvil. Para obtener más información, consulte [Distribución de vídeo en sitios web y sitios móviles](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
 ## Uso de ajustes preestablecidos de visor de vídeo {#working-with-video-viewer-presets}
 
 Los usuarios ven vídeos en el visor de vídeo. La manera de comportarse del visor de vídeo, su aspecto y el funcionamiento de los controles de reproducción dependerán del ajuste preestablecido de visor que elija para reproducir el vídeo. Puede seleccionar un ajuste preestablecido de vídeo en la pantalla Vista previa. Después de seleccionar un ajuste preestablecido, puede obtener la URL o el código incrustado para reproducir el vídeo con el ajuste preestablecido de visor seleccionado.
 
-Dynamic Media Classic incluye muchos ajustes preestablecidos de visor predefinidos para reproducir vídeo y, si es un administrador, puede crear ajustes preestablecidos de visor personalizados. Hay más de una docena de opciones de configuración diferentes para personalizar el visor de vídeo. Puede configurar el tamaño, el color, los controles de audio y vídeo, la barra de progreso, la apariencia de la interfaz del usuario y las funciones sociales del visor.
+Dynamic Media Classic incluye muchos ajustes preestablecidos de visor predefinidos para reproducir vídeo. Si es administrador, puede crear ajustes preestablecidos de visor personalizados. Hay más de una docena de opciones de configuración diferentes para personalizar el visor de vídeo. Puede configurar el tamaño, el color, los controles de audio y vídeo, la barra de progreso, la apariencia de la interfaz del usuario y las funciones sociales del visor.
 
 Consulte también [ Previsualización de vídeos en un visor de vídeos](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
 
@@ -60,21 +62,21 @@ Consulte [Ajustes preestablecidos de visor](application-setup.md#viewer_presets)
 
 **Para añadir o editar un ajuste preestablecido de visor de vídeo**
 
-1. Cerca de la esquina superior derecha de Dynamic Media Classic, haga clic en **Ajustes** > **Ajustes preestablecidos de visor**.
+1. Cerca de la esquina superior derecha de Dynamic Media Classic, haga clic en **Configuración** > **Ajustes preestablecidos de visor**.
 
    Para ver solo los ajustes preestablecidos para los visores de vídeos, seleccione Visor de vídeos en la lista desplegable de visores que hay en la barra de herramientas, justo encima de la tabla.
 
 1. Agregue o edite un ajuste preestablecido de visor para mostrar vídeo:
 
-   **** AgregarHaga clic en Añadir en la barra de herramientas. En el cuadro de diálogo Añadir ajuste preestablecido de visor, elija una plataforma y un visor en las listas desplegables correspondientes y, a continuación, haga clic en Agregar.
+   **** AgregarHaga clic en Agregar en la barra de herramientas. En el cuadro de diálogo Añadir ajuste preestablecido de visor, elija una plataforma y un visor en las listas desplegables correspondientes y, a continuación, haga clic en Agregar.
 
    Consulte también [Adición y edición de ajustes preestablecidos de visor](application-setup.md#adding_and_editing_viewer_presets).
 
-   **Añadir a partir de un** ajuste preestablecido de visor existenteEn la tabla, seleccione un ajuste preestablecido de visor de vídeo y, a continuación, haga clic en Editar en la barra de herramientas.
+   **Añadir empezando por un** ajuste preestablecido de visualizador existenteEn la tabla, seleccione un ajuste preestablecido de visualizador de vídeo y, a continuación, haga clic en Editar en la barra de herramientas.
 
    Después de volver a configurar el visor de vídeo, haga clic en **Guardar como** para guardar el ajuste preestablecido con otro nombre en el campo de texto Nombre de ajuste preestablecido.
 
-   **** EdiciónSeleccione un ajuste preestablecido de visor de vídeo y, a continuación, haga clic en Editar.
+   **** EdiciónSeleccione un ajuste preestablecido de visualizador de vídeo y, a continuación, haga clic en Editar.
 
 1. En la pantalla Configurar visor, en el campo Nombre de ajuste preestablecido, escriba o edite el nombre.
 1. Defina las opciones restantes que desee.
