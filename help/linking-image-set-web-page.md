@@ -1,17 +1,19 @@
 ---
 title: Vinculación de un conjunto de imágenes a una página web
-description: Descubra cómo vincular un conjunto de imágenes a una página web.
+description: Aprenda a vincular un conjunto de imágenes a una página web.
 uuid: 8153a228-b2ec-4bc2-8996-266113a83df5
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 40f4abab-9059-4d92-a761-f6d573b42e00
+feature: Dynamic Media Classic,Visualizadores,Conjuntos de imágenes
+role: Profesional empresarial
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 90%
+source-wordcount: '688'
+ht-degree: 89%
 
 ---
 
@@ -45,7 +47,7 @@ Una vez haya publicado un conjunto de imágenes, podrá copiar la URL o código 
 
 ## Adición de direcciones URL de conjuntos de imágenes a una página web  {#adding-image-set-urls-to-your-web-page}
 
-La manera más común de distribuir conjuntos de imágenes consiste en colocar un vínculo (por medio de un icono de navegación) en la página web. Al hacer clic en él, se inicia una página dinámica (JSP) que muestra el conjunto de imágenes en una ventana emergente de zoom. El vínculo de zoom abre una ventana emergente que contiene la función de zoom.
+La manera más común de distribuir conjuntos de imágenes consiste en colocar un vínculo (por medio de un icono de navegación) en la página web. Cuando se hace clic en el vínculo, se inicia una página dinámica (JSP) que muestra el conjunto de imágenes en una ventana de zoom emergente. El vínculo de zoom abre una ventana emergente que contiene la función de zoom.
 
 Para obtener más información y ejemplos de código, consulte [Incrustación del visor de zoom HTML5 en la Guía de referencia de visores de Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
