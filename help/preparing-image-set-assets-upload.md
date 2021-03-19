@@ -1,24 +1,26 @@
 ---
 title: Preparación de recursos de conjunto de imágenes para cargar
-description: Obtenga información sobre cómo preparar recursos de conjuntos de imágenes para la carga.
+description: Obtenga información sobre cómo preparar los recursos de conjuntos de imágenes para la carga.
 uuid: ea90643f-f52f-43cd-8a74-ebffc78ab717
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: c341f5ea-aa7b-4749-975d-68a45c6fa77c
+feature: Dynamic Media Classic,Visualizadores,Conjuntos de imágenes
+role: Profesional empresarial
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 67%
+source-wordcount: '161'
+ht-degree: 63%
 
 ---
 
 
 # Preparación de recursos de conjunto de imágenes para cargar{#preparing-image-set-assets-for-upload}
 
-Antes de cargar las imágenes que necesita para los conjuntos de imágenes en Dynamic Media Classic, asegúrese de que las imágenes tienen el tamaño y el formato adecuados.
+Antes de cargar las imágenes que necesita para los conjuntos de imágenes en Dynamic Media Classic, asegúrese de que las imágenes tengan el tamaño y el formato adecuados.
 
 Para crear un conjunto de imágenes con varias vistas, necesita imágenes que muestren un elemento desde distintos puntos de vista o que muestren distintos aspectos del mismo elemento. El objetivo es resaltar las características importantes del elemento para que los usuarios tengan una visión completa de su aspecto o función.
 
