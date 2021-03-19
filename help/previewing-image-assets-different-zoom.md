@@ -1,17 +1,19 @@
 ---
 title: Vista previa de recursos de imagen con diferentes visores de zoom
-description: Aprenda a previsualización de recursos de imagen con diferentes visores de zoom.
+description: Obtenga información sobre cómo previsualizar recursos de imagen con distintos visores de zoom.
 uuid: 244c0faa-2a33-416f-8987-bdc0c85f5c2e
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: b072d3b7-0d30-4903-9c87-5fbbcc89bd51
+feature: Dynamic Media Classic,Visualizadores,Zoom
+role: Profesional empresarial
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 90%
+source-wordcount: '254'
+ht-degree: 87%
 
 ---
 
