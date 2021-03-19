@@ -1,17 +1,19 @@
 ---
 title: Publicación de imágenes de zoom
-description: Obtenga información sobre cómo publicar imágenes de zoom.
+description: Aprenda a publicar imágenes de zoom.
 uuid: d7e7a474-8af5-46a7-94df-063396f67554
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 34a99fd0-8148-41d4-843a-909637542dd9
+feature: Dynamic Media Classic,Visualizadores,Zoom
+role: Profesional empresarial
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 26%
+source-wordcount: '157'
+ht-degree: 25%
 
 ---
 
@@ -22,11 +24,11 @@ La publicación coloca las imágenes de zoom en los servidores de imágenes de D
 
 ## Marcado de imágenes para publicación {#marking-images-for-publish}
 
-Las imágenes se deben marcar para publicación para que se puedan copiar en los servidores de imágenes de Dynamic Media. Puede marcar las imágenes para publicación en el panel Examinar seleccionando el icono **Marcar para publicación**. También se pueden marcar imágenes para publicación al cargarlas.
+Las imágenes deben marcarse para publicarse para que se copien en los servidores de imágenes de Dynamic Media. Puede marcar las imágenes para publicarlas en el panel Examinar seleccionando el icono **Marcar para publicación**. También se pueden marcar imágenes para publicación al cargarlas.
 
 ## Publicación de las imágenes  {#publishing-the-images}
 
-Para publicar imágenes con zoom, haga clic en el inicio **Publicar** en la barra de navegación global. A continuación, seleccione una opción **Cuando (Una vez o Recurrente)**, introduzca de forma opcional un nombre para el trabajo de publicación y haga clic en **Publicación de Inicio**.
+Para publicar imágenes con zoom, comience haciendo clic en **Publicar** en la barra de navegación global. A continuación, seleccione una opción **When (One-Time or Recurring)**, si lo desea, introduzca un nombre para el trabajo de publicación y haga clic en **Start Publish**.
 
 >[!MORELIKETHIS]
 >
