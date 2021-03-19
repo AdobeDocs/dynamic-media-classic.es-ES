@@ -1,16 +1,18 @@
 ---
 title: Creación de un conjunto de medios mixtos
-description: Obtenga información sobre cómo crear un conjunto de medios mixtos.
+description: Aprenda a crear un conjunto de medios mixtos.
 uuid: a0c6e5fa-7a85-4376-b9a3-b72ae63d3d95
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0ff9e763-897c-4ba5-b606-a95d5e45f35e
+feature: Dynamic Media Classic,Visualizadores,Conjuntos de medios mixtos
+role: Profesional empresarial
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 95%
+source-wordcount: '628'
+ht-degree: 93%
 
 ---
 
@@ -61,7 +63,7 @@ Según si edita un conjunto publicado o sin publicar, la opción **Publicar desp
 | ¿Ya se ha publicado el conjunto? | ¿Se ha seleccionado la opción “Publicar después de Guardar” antes de guardar la edición? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
 |--- |--- |--- |--- |
 | Sí | Sí | Publicado | Publicado |
-| Sí | No | Publicado | Los miembros existentes del conjunto conservan su estado publicado.Los nuevos miembros del conjunto que haya agregado durante la edición conservarán su estado publicado o sin publicar. |
+| Sí | No | Publicado | Los miembros del conjunto existente conservan su estado publicado. Los miembros del conjunto nuevos que haya agregado durante la edición conservarán su estado publicado o no publicado. |
 | No | Sí | Publicado | Publicado |
 | No | No | Sin publicar | Los miembros existentes del conjunto y cualquier nuevo miembro que añada al conjunto durante la edición conservarán su estado publicado o no publicado. |
 
