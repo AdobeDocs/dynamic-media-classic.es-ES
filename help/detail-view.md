@@ -1,17 +1,19 @@
 ---
 title: 'Trabajar en la Vista de detalles '
-description: Aprenda a trabajar en la vista de detalles.
+description: Aprenda a trabajar en la Vista de detalles.
 uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
+feature: Dynamic Media Classic,Administración de recursos
+role: Profesional empresarial
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 79%
+source-wordcount: '590'
+ht-degree: 78%
 
 ---
 
@@ -52,7 +54,7 @@ Para examinar un recurso, obtener una vista previa o trabajar con él, puede uti
 
 ## Obtener información en la Vista de detalles {#getting-information-in-detail-view}
 
-La vista de detalles proporciona información sobre un archivo o recurso. Muestra esta información sobre un elemento: la carpeta en la que se almacena, el nombre de archivo, la fecha en la que se cargó el elemento a Dynamic Media Classic y el historial de publicación. También puede ver y editar metadatos, y agregar palabras clave para un recurso en la vista de detalles. 
+La vista de detalles proporciona información sobre un archivo o recurso. Muestra esta información sobre un elemento: la carpeta en la que se almacena, su nombre de archivo, la fecha en la que se cargó el elemento en Dynamic Media Classic y su historial de publicación. También puede ver y editar metadatos, y agregar palabras clave para un recurso en la vista de detalles. 
 
 Puede obtener la dirección URL de un recurso en la vista de detalles; sin embargo, la dirección no estará activa hasta que se publique el recurso. En el caso de las imágenes, la vista de detalles también proporciona una lista de recursos generados y derivados, así como metadatos (por ejemplo destinos de zoom y conjuntos de imágenes).
 
@@ -60,10 +62,10 @@ Puede obtener la dirección URL de un recurso en la vista de detalles; sin embar
 
 En la vista de detalles encontrará herramientas para trabajar con el recurso seleccionado. Las herramientas disponibles dependerán del tipo de recurso con el que esté trabajando; las siguientes funciones siempre están disponibles en la vista de detalles:
 
-* **elementos para la**
-publicaciónHaga clic en el icono  **** Publicación a la izquierda del nombre o en  **[!UICONTROL Archivo >]** Archivo  **[!UICONTROL de publicación > Cancelar la publicación]**.
+* **elementos para**
+publicaciónHaga clic en el  **** icono Publicar a la izquierda del nombre o haga clic en  **[!UICONTROL Archivo >]** Archivo  **[!UICONTROL del editor > Cancelar publicación]**.
 
-* **Cambio de nombre del**
+* **Cambiar el nombre del**
 recursoSeleccione el nombre e introduzca un nuevo nombre.
 
 * **Edición y adición de**
@@ -81,7 +83,7 @@ En esta tabla se muestran las opciones adicionales que la vista de detalles ofre
 
 | Tipo de recurso | Edición/Ajustes | Vista previa |
 |--- |--- |--- |
-| Imágenes | Agregar mapas de imagen Añadir destinatarios de zoom Enfocar recorte Crear vistas ajustadas | Sí; ajustes preestablecidos de zoom e imagen. |
+| Imágenes | Agregar mapas de imagen Agregar destinos de zoom Recortar enfoque Crear vistas ajustadas | Sí; ajustes preestablecidos de zoom e imagen. |
 | Imágenes de cobertura de ventana y armario | No | Miniatura. |
 | Catálogos electrónicos | Editar | Sí; panel de información también disponible. |
 | Fuentes | Editar información de fuente | No. |
