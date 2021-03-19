@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 8b000c25-c9c3-481e-9b25-96257471571f
+feature: Dynamic Media Classic,Colaboración,Administración de activos
+role: Administrador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 52%
+source-wordcount: '350'
+ht-degree: 51%
 
 ---
 
@@ -22,23 +24,23 @@ Los ajustes de estilo de Media Portal le permiten aplicar un estilo de marca a l
 
 Para acceder a los ajustes de estilo, elija **Ajustes** > **Configuración de Media Portal** > **Configuración de estilo**. Asegúrese de hacer clic en **Guardar** para guardar la configuración después de realizarla. Puede hacer clic en **Restaurar** para recuperar la configuración predeterminada. A medida que vaya seleccionando, el panel Vista previa irá mostrando cómo quedan las opciones que vaya eligiendo.
 
-**** LogotipoHaga clic en Examinar y elija un gráfico en la ventana Seleccionar imagen de logotipo.
+**** LogotipoHaga clic en Examinar y seleccione un gráfico en la ventana Seleccionar imagen de logotipo.
 
-**** AplicaciónCree una mezcla de colores de degradado mediante las opciones de los menús Colores de degradado de fondo.
+**** AplicaciónCree una mezcla de colores de degradado eligiendo opciones en los menús Colores de degradado de fondo .
 
-**** ÁrbolElija un color de rollover (el color que aparece al mover el puntero sobre un elemento) y un color de selección (el color que aparece al seleccionar un elemento).
+**** ÁrbolElija un color de sustitución (el color que aparece cuando mueve el puntero sobre un elemento) y un color de selección (el color que aparece cuando selecciona un elemento).
 
-**** AcordeónElija colores de fondo, un estilo de borde y colores de rollover y seleccionados para el acordeón que aparece a la derecha de la pantalla en la vista Detalles.
+**** AcordeónElija los colores de fondo, un estilo de borde y los colores de rollover y seleccionados para el acordeón que aparece a la derecha de la pantalla en la vista Detalles.
 
-**Encabezado** de acordeónElija si desea que el texto del encabezado de acordeón aparezca en negrita.
+**Encabezado** de acordeónElija si desea que el texto del encabezado del acordeón aparezca en negrita.
 
-**Barra** de datosElija colores para la fila de encabezado en las cuadrículas de datos.
+**** DatagridElija colores para la fila de encabezado de las cuadrículas de datos.
 
 **** AlertaElija un color de fondo para los cuadros de mensaje de alerta.
 
 **Barra** de progresoElija un color para la barra que indique el progreso de las cargas y descargas.
 
-Para que los usuarios de Media Portal puedan ver la configuración de estilo que elija, deben anexar `?company=(company name)` a la URL con la que acceden a Media Portal. Por ejemplo, para ver los ajustes de estilo, los usuarios de Media Portal que accedan a la empresa PortalCo mediante la siguiente URL:
+Para que los usuarios de Media Portal puedan ver la configuración de estilo que usted elija, deben adjuntar `?company=(company name)` a la dirección URL con la que acceden a Media Portal. Por ejemplo, para ver los ajustes de estilo, los usuarios de Media Portal que accedan a la empresa PortalCo mediante la siguiente URL:
 
 `https://s7sps1.scene7.com/MediaPortal`
 
