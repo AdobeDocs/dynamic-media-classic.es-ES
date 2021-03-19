@@ -1,17 +1,19 @@
 ---
 title: Vinculación de un conjunto de medios mixtos a una página web
-description: Obtenga información sobre cómo vincular un conjunto de medios mixtos a una página web.
+description: Aprenda a vincular un conjunto de medios mixtos a una página web.
 uuid: 120326a2-77e9-4d6f-9b02-0a00fa9cbab1
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: b33dacc4-509d-4878-a769-76642bfaeb4e
+feature: Dynamic Media Classic,Visualizadores,Conjuntos de medios mixtos
+role: Profesional empresarial
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 98%
+source-wordcount: '647'
+ht-degree: 96%
 
 ---
 
