@@ -7,22 +7,24 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
+feature: Dynamic Media Classic,Administración de recursos
+role: Profesional empresarial
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 70%
+source-wordcount: '431'
+ht-degree: 69%
 
 ---
 
 
-# Exportación de recursos de Dynamic Media Classic{#exporting-assets-from-dmc}
+# Exportación de recursos desde Dynamic Media Classic{#exporting-assets-from-dmc}
 
 Puede guardar los recursos que haya editado en Dynamic Media Classic en una unidad de red local. Los recursos exportados se incluyen en un archivo ZIP que se puede descargar o enviar por correo electrónico.
 
 El archivo ZIP comprimido tiene un tamaño máximo de 1 GB para el trabajo de exportación. Asimismo, tenga en cuenta que se permite un máximo de 500 recursos en total por trabajo de exportación.
 
-Dynamic Media Classic mantiene un registro de los trabajos de exportación en la pantalla Trabajos.
+Dynamic Media Classic lleva un registro de los trabajos de exportación en la pantalla Trabajos .
 
 **Para exportar recursos desde Dynamic Media Classic**
 
@@ -30,7 +32,7 @@ Dynamic Media Classic mantiene un registro de los trabajos de exportación en la
 1. En la ventana Exportar recursos seleccionados, haga clic en **Opciones de imagen** y especifique cualquiera de las siguientes opciones (los administradores determinan las opciones que están disponibles para los usuarios):
 
    * ****
-Ajustes preestablecidosSi lo desea, puede elegir un ajuste preestablecido de imagen para dar formato al recurso al exportarlo. Si elige un ajuste preestablecido de imagen, las otras opciones de formato no estarán disponibles, ya que el recurso adopta los formatos definidos en el ajuste preestablecido de imagen.
+Ajustes preestablecidosOpcionalmente, elija un ajuste preestablecido de imagen para dar formato al recurso cuando lo exporte. Si elige un ajuste preestablecido de imagen, las otras opciones de formato no estarán disponibles, ya que el recurso adopta los formatos definidos en el ajuste preestablecido de imagen.
 
    * ****
 ConversiónConvierta el archivo de recurso o la imagen original.
@@ -47,10 +49,10 @@ FormatoElija un formato de imagen.
 ColorElija RGB, CMYK o Gris.
 
    * ****
-ResoluciónElija 72, 150 o 300 ppp.
+SoluciónElija 72, 150 o 300 ppp.
 
-   * **Nombre del**
-trabajoPuede asignar un nombre de trabajo a la exportación.
+   * **Nombre de**
+TrabajoPuede asignar un nombre de trabajo a la exportación.
 
    * **Enviar correo electrónico**
 aOpcionalmente, introduzca una dirección de correo electrónico para enviar los recursos por correo electrónico. Este mensaje de correo electrónico contiene una URL a la que el destinatario puede ir para descargar los recursos.
