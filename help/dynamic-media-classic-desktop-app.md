@@ -5,10 +5,12 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
+feature: Dynamic Media Classic
+role: Administrador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: 22536021ff68704173b5c1fc7eb9018b9e19f2aa
+source-git-commit: 24f8d9f6e997269d879562d777199d3d86d8114a
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1669'
 ht-degree: 0%
 
 ---
@@ -16,19 +18,19 @@ ht-degree: 0%
 
 # Ya disponible: Aplicación de escritorio de Adobe Dynamic Media Classic {#dynamic-media-classic-desktop-app}
 
-Los usuarios de Dynamic Media Classic ahora tienen acceso a una nueva experiencia de aplicación de escritorio que ya no depende de la tecnología Adobe Flash en el explorador.
+Los usuarios de Dynamic Media Classic ahora tienen acceso a una nueva experiencia de aplicación de escritorio que ya no depende de la tecnología de Flash de Adobe del navegador.
 
 Esta nueva aplicación ya está disponible para Windows y MacOS.
 
 >[!IMPORTANT]
 >
->Adobe recomienda instalar la nueva aplicación de escritorio de Adobe Dynamic Media Classic antes del 1 de octubre de 2020. Al hacerlo, se asegurará de que tenga una transición sin problemas antes de que Adobe Flash Player quede obsoleto el 31 de diciembre de 2020. Después de esta fecha, no podrá iniciar sesión en la versión del explorador de la interfaz de usuario de Adobe Dynamic Media Classic, etiquetada como Dynamic Media Classic en el producto.
+>Adobe recomienda instalar la nueva aplicación de escritorio de Adobe Dynamic Media Classic antes del 1 de octubre de 2020. Al hacerlo, se asegurará de que la transición sea fluida antes de que el Flash Player del Adobe quede obsoleto el 31 de diciembre de 2020. Después de esta fecha, no podrá iniciar sesión en la versión del navegador de la interfaz de usuario de Adobe Dynamic Media Classic, etiquetada como Dynamic Media Classic en el producto.
 
-Consulte las preguntas más frecuentes para el [inicio de sesión de Dynamic Media Classic ahora disponible.](/help/new-ui-2020.md)
+Consulte las preguntas más frecuentes para la [Nueva experiencia de inicio de sesión de Dynamic Media Classic ahora disponible.](/help/new-ui-2020.md)
 
 ## Requisitos del sistema para la aplicación de escritorio de Adobe Dynamic Media Classic {#system-requirements-dmc-app}
 
-La aplicación de escritorio Adobe Dynamic Media Classic es compatible con los siguientes sistemas operativos:
+La aplicación de escritorio Dynamic Media Classic de Adobe es compatible con los siguientes sistemas operativos:
 
 * macOS 10.10 o posterior.
 * Windows 7 o posterior.
@@ -50,7 +52,7 @@ La aplicación de escritorio Adobe Dynamic Media Classic es compatible con los s
 
 Véase también:
 
-* [Descargue e instale silenciosamente la última aplicación de escritorio de Adobe Dynamic Media Classic en Mac](#install-silent-mac-dmc-app)
+* [Descargue y silencie instale la última aplicación de escritorio de Adobe Dynamic Media Classic en Mac](#install-silent-mac-dmc-app)
 * [Descargue e instale silenciosamente la última aplicación de escritorio de Adobe Dynamic Media Classic en Windows](#install-silent-windows-dmc-app)
 
 1. Desinstale cualquier versión anterior de la aplicación de escritorio de Dynamic Media Classic en su sistema.
@@ -70,20 +72,20 @@ Véase también:
 
 1. Realice una de las siguientes acciones en función del instalador que descargó.
 
-   * **Para macOS** : en el cuadro de diálogo  **[!UICONTROL Arrastrar y soltar a]** instalación , arrastre  **[!UICONTROL Adobe Dynamic Media]** Classic y suéltelo en  **[!UICONTROL Aplicaciones]**.
+   * **Para macOS** : en el cuadro de diálogo  **[!UICONTROL Arrastrar y soltar a la]** instalación, arrastre  **[!UICONTROL Adobe Dynamic Media]** Classic y suéltelo en  **[!UICONTROL Aplicaciones]**.
 
       ![Arrastre y suelte la instalación en macOS](/help/assets/dragondrop-install1.png)
 
-   * En la carpeta **[!UICONTROL Aplicaciones]**, pulse el icono de Adobe Dynamic Media Classic.
+   * En la carpeta **[!UICONTROL Applications]** , pulse el icono de Adobe Dynamic Media Classic .
    * En el cuadro de diálogo, pulse **[!UICONTROL Abrir]** para abrir la aplicación de escritorio de Adobe Dynamic Media Classic.
 
       ![Abrir aplicación descargada](/help/assets/open-dmclassicapp1.png)
 
    * **Para Windows** : ejecute el binario del instalador y siga las instrucciones que aparecen en la pantalla para instalar la aplicación de escritorio.
 
-1. Al abrir la aplicación, se muestra la nueva página de inicio de sesión de Adobe Dynamic Media Classic:
+1. Cuando abre la aplicación, se muestra la nueva página de inicio de sesión de Dynamic Media Classic de Adobe:
 
-   ![Inicio de sesión de Dynamic Media Classic](/help/assets/dmclassic-login1.png)
+   ![Inicio de sesión en Dynamic Media Classic](/help/assets/dmclassic-login1.png)
 
 1. Para iniciar sesión en la aplicación de escritorio de Adobe Dynamic Media Classic, utilice las mismas credenciales que utilizó para iniciar sesión en Dynamic Media Classic en el explorador.
 
@@ -101,10 +103,10 @@ Véase también:
 
 Véase también:
 
-* [Descargue e instale la última aplicación de escritorio de Adobe Dynamic Media Classic en Mac o Windows](#installation-dmc-app)
+* [Descargue e instale la aplicación de escritorio más reciente de Adobe Dynamic Media Classic en Mac o Windows](#installation-dmc-app)
 * [Descargue e instale silenciosamente la última aplicación de escritorio de Adobe Dynamic Media Classic en Windows](#install-silent-windows-dmc-app)
 
-Para descargar y *silenciar* instalar la versión más reciente de la aplicación de escritorio de Adobe Dynamic Media Classic en macOS:
+Para descargar y *silencioso* instalar la versión más reciente de la aplicación de escritorio de Adobe Dynamic Media Classic en macOS:
 
 1. Desinstale cualquier versión anterior de la aplicación de escritorio de Dynamic Media Classic en su sistema.
 
@@ -121,9 +123,9 @@ Para descargar y *silenciar* instalar la versión más reciente de la aplicació
    `rsync -a <mount_point_path>/Adobe\ Dynamic\ Media\ Classic.app /Applications/
 Unmount DMG - hdiutil detach <mount_point_path>`
 
-1. Al abrir la aplicación, se muestra la nueva página de inicio de sesión de Adobe Dynamic Media Classic:
+1. Cuando abre la aplicación, se muestra la nueva página de inicio de sesión de Dynamic Media Classic de Adobe:
 
-   ![Inicio de sesión de Dynamic Media Classic](/help/assets/dmclassic-login1.png)
+   ![Inicio de sesión en Dynamic Media Classic](/help/assets/dmclassic-login1.png)
 
 1. Para iniciar sesión en la aplicación de escritorio de Adobe Dynamic Media Classic, utilice las mismas credenciales que utilizó para iniciar sesión en Dynamic Media Classic en el explorador.
 
@@ -141,7 +143,7 @@ El comando que utiliza es para una instalación silenciosa básica de MSI. Sin e
 
 Véase también:
 
-* [Descargue e instale la última aplicación de escritorio de Adobe Dynamic Media Classic en Mac o Windows](#installation-dmc-app)
+* [Descargue e instale la aplicación de escritorio más reciente de Adobe Dynamic Media Classic en Mac o Windows](#installation-dmc-app)
 * [Descargue e instale silenciosamente la última aplicación de escritorio de Adobe Dynamic Media Classic en macOS](#install-silent-mac-dmc-app)
 
 Para descargar y *silencioso* instalar la versión más reciente de la aplicación de escritorio de Adobe Dynamic Media Classic en Windows:
@@ -166,9 +168,9 @@ Para descargar y *silencioso* instalar la versión más reciente de la aplicaci�
 
    Los detalles sobre los parámetros de línea de comandos están disponibles en [Parámetros de línea de comandos de Setup.exe y Update.exe.](https://docs.flexera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
 
-1. Al abrir la aplicación, se muestra la nueva página de inicio de sesión de Adobe Dynamic Media Classic:
+1. Cuando abre la aplicación, se muestra la nueva página de inicio de sesión de Dynamic Media Classic de Adobe:
 
-   ![Inicio de sesión de Dynamic Media Classic](/help/assets/dmclassic-login1.png)
+   ![Inicio de sesión en Dynamic Media Classic](/help/assets/dmclassic-login1.png)
 
 1. Para iniciar sesión en la aplicación de escritorio de Adobe Dynamic Media Classic, utilice las mismas credenciales que utilizó para iniciar sesión en Dynamic Media Classic en el explorador.
 
@@ -189,8 +191,8 @@ Vea un tutorial de vídeo [sobre el uso de Dynamic Media Classic Desktop App](ht
 
 1. En la aplicación de escritorio de Dynamic Media Classic, cerca de la esquina superior derecha, pulse **[!UICONTROL Configuración]** > **[!UICONTROL Configuración personal]**.
 1. En la página **[!UICONTROL Configuración personal]**, en el encabezado **[!UICONTROL Escritorio]**, realice una de las acciones siguientes:
-   * Para eliminar todos los archivos de imagen en caché de Adobe Dynamic Media del equipo, pulse **[!UICONTROL Borrar caché de imágenes]** y, a continuación, pulse **[!UICONTROL Aceptar]**.
-   * Para eliminar todos los archivos de recursos en caché de Adobe Dynamic Media del equipo, pulse **[!UICONTROL Borrar caché de recursos]** y, a continuación, pulse **[!UICONTROL Aceptar]**.
+   * Para quitar todos los archivos de imagen en caché de Dynamic Media de Adobe del equipo, pulse **[!UICONTROL Borrar caché de imágenes]** y, a continuación, pulse **[!UICONTROL Aceptar]**.
+   * Para quitar todos los archivos de recursos en caché de Dynamic Media de Adobe del equipo, pulse **[!UICONTROL Borrar caché de recursos]** y, a continuación, pulse **[!UICONTROL Aceptar]**.
 1. En la esquina inferior derecha de la página, pulse **[!UICONTROL Cerrar]**.
 
 ### Borrado manual de la caché de imágenes y la caché de recursos
@@ -204,7 +206,7 @@ Además de borrar la imagen y la caché de recursos mediante la aplicación de e
 
 ## Limitación conocida en Dynamic Media Classic 20.21.1
 
-* La lista desplegable **[!UICONTROL Server]** está vacía después de actualizar a la aplicación de escritorio de Dynamic Media Classic 20.21.1 - Situación: Instale e inicie sesión en Dynamic Media Classic 20.20.1 o 20.20.2 y, a continuación, cierre la aplicación. A continuación, actualice a Dynamic Media Classic 20.21.1. Cuando intente iniciar sesión, la lista desplegable **[!UICONTROL Servidor]** del cuadro de diálogo **[!UICONTROL Iniciar sesión en su cuenta]** estará vacía. Para solucionar este problema, debe [borrar manualmente la caché](#clear-cache) (vea los pasos anteriores).
+* La lista desplegable **[!UICONTROL Server]** está vacía después de actualizar a la aplicación de escritorio de Dynamic Media Classic 20.21.1 - Situación: Instale e inicie sesión en Dynamic Media Classic 20.20.1 o 20.20.2 y, a continuación, cierre la aplicación. A continuación, actualice a Dynamic Media Classic 20.21.1. Cuando intente iniciar sesión, la lista desplegable **[!UICONTROL Servidor]** del cuadro de diálogo **[!UICONTROL Iniciar sesión en la cuenta]** estará vacía. Para solucionar este problema, debe [borrar manualmente la caché](#clear-cache) (vea los pasos anteriores).
 
 ## Limitaciones conocidas en Dynamic Media Classic 20.20.1 (corregido en 20.20.2)
 
