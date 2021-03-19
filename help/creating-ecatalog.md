@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
+feature: Dynamic Media Classic,Visualizadores,Catálogo electrónico
+role: Profesional empresarial
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1008'
 ht-degree: 78%
 
 ---
@@ -39,19 +41,19 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
    **Seleccione los archivos** primeroEn el panel Examinar, seleccione los archivos y, a continuación, haga clic en Generar > Catálogos electrónicos.
 
-   **Inicio desde la** pantalla Catálogo electrónicoHaga clic en Generar > Catálogos electrónicos. Seleccione una carpeta en la biblioteca de recursos y arrastre los archivos deseados a la ficha Ordenar páginas que se encuentra en la página Catálogo electrónico.
+   **Inicie desde la** pantalla Catálogo electrónicoHaga clic en Generar > Catálogos electrónicos. Seleccione una carpeta en la biblioteca de recursos y arrastre los archivos deseados a la ficha Ordenar páginas que se encuentra en la página Catálogo electrónico.
 
-   ***nota**: Para vista de los elementos de la biblioteca de recursos por nombre en lugar de por miniatura, seleccione la opción Nombre de la Vista predeterminada de la biblioteca de recursos en Ajustes personales. *
+   ***nota**: Para ver los elementos de la biblioteca de recursos por su nombre en lugar de por su miniatura, seleccione la opción Nombre para la vista predeterminada de la biblioteca de recursos en Ajustes personales. *
 
-1. Seleccione la presentación general que tendrá el catálogo electrónico. Haga clic en el botón 1 vertical  para mostrar una sola página, en el botón 2 verticales  para mostrar dos páginas, o en el botón Personalizar  para mostrar más de dos páginas. Aparecerá el cuadro de diálogo Cambiar la presentación del catálogo electrónico. Seleccione las opciones Todas las distribuciones y haga clic en **Aceptar**.
-1. También puede cambiar la presentación de las páginas o distribuciones de páginas individuales seleccionándolas y eligiendo a continuación el botón 1 vertical, 2 verticales o Personalizar. Aparecerá el cuadro de diálogo Cambiar la presentación del catálogo electrónico. Seleccione las opciones Distribuciones seleccionadas y haga clic en **Aceptar**.
+1. Seleccione la presentación general que tendrá el catálogo electrónico. Haga clic en el botón 1 vertical  para mostrar una sola página, en el botón 2 verticales  para mostrar dos páginas, o en el botón Personalizar  para mostrar más de dos páginas. Aparecerá el cuadro de diálogo Cambiar la presentación del catálogo electrónico. Seleccione las opciones de Todas las distribuciones y haga clic en **Aceptar**.
+1. También puede cambiar la presentación de las páginas o distribuciones de páginas individuales seleccionándolas y eligiendo a continuación el botón 1 vertical, 2 verticales o Personalizar. Aparecerá el cuadro de diálogo Cambiar la presentación del catálogo electrónico. Seleccione las opciones de Distribuciones seleccionadas y haga clic en **Aceptar**.
 1. Reordene las páginas según sea necesario con una de estas técnicas:
 
-   **** ArrastrarArrastre una página o un conjunto de páginas a una nueva ubicación. La barra vertical muestra el lugar al que se ha movido la página.
+   **** ArrastrarArrastrar una página o página a una nueva ubicación. La barra vertical muestra el lugar al que se ha movido la página.
 
-   **Botón Mover aSeleccione una página o un** pliego de páginas, haga clic en el botón Mover a y elija la página en el menú que desea que la página aparezca antes.
+   **Botón Mover a** Seleccione una página o un pliego de páginas, haga clic en el botón Mover a y elija la página en el menú que desea que su página aparezca antes.
 
-   **Secuencia #** En Vista de Lista, introduzca los números de página en los campos Nº de secuencia.
+   **Secuencia #** En Vista de lista, introduzca los números de página en los campos Número de secuencia.
 
 1. Cuando haya terminado, asegúrese de que esté seleccionada la opción **Publicar después de guardar** (predeterminada), cerca de la esquina inferior derecha de la página.
 1. Haga clic en **Guardar**.
@@ -67,7 +69,7 @@ Según si edita un conjunto publicado o sin publicar, la opción **Publicar desp
 | ¿Ya se ha publicado el conjunto? | ¿Se ha seleccionado la opción “Publicar después de Guardar” antes de guardar la edición? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
 |--- |--- |--- |--- |
 | Sí | Sí | Publicado | Publicado |
-| Sí | No | Publicado | Los miembros existentes del conjunto conservan su estado publicado.Los nuevos miembros del conjunto que haya agregado durante la edición conservarán su estado publicado o sin publicar. |
+| Sí | No | Publicado | Los miembros del conjunto existente conservan su estado publicado. Los miembros del conjunto nuevos que haya agregado durante la edición conservarán su estado publicado o no publicado. |
 | No | Sí | Publicado | Publicado |
 | No | No | Sin publicar | Los miembros existentes del conjunto y cualquier nuevo miembro que añada al conjunto durante la edición conservarán su estado publicado o no publicado. |
 
@@ -93,7 +95,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 ## Personalización de la tabla de contenido (TOC)  {#customizing-the-table-of-contents-toc}
 
-Dynamic Media Classic proporciona números de página predeterminados en el catálogo electrónico en la ficha Ordenar páginas de la pantalla Catálogo electrónico. Si desea personalizar el nombre de las páginas, puede cambiar las etiquetas de las páginas que forman la tabla de contenido (TOC). Se recomienda cambiar el nombre de la portada y la contraportada. Por ejemplo: la portada principal puede ser &quot;Portada&quot; en lugar de &quot;Página 0-1&quot;.
+Dynamic Media Classic proporciona números de página predeterminados en el catálogo electrónico en la ficha Ordenar páginas de la pantalla Catálogo electrónico. Si desea personalizar el nombre de las páginas, puede cambiar las etiquetas de las páginas que forman la tabla de contenido (TOC). Se recomienda cambiar el nombre de la portada y la contraportada. Por ejemplo, la portada puede decir &quot;Portada&quot; en lugar de &quot;Página 0-1&quot;.
 
 Puede crear una tabla de contenido (TOC) personalizada para el catálogo electrónico manualmente o importando los nombres de las páginas de un archivo CSV (solo Mac) o XML.
 
@@ -109,7 +111,7 @@ Para introducir manualmente nombres de página uno por uno, vaya a la ficha Orde
 
 Se recomienda la importación de nombres de página si se trabaja con un catálogo electrónico de muchas páginas. También puede importar los nombres de un archivo delimitado por tabuladores o XML.
 
-La etiqueta TDC se almacena en el campo Datos de usuario de una imagen; formatee estos datos como una lista de `name=<value>` ` pairs separated by two question marks “??” `. Por ejemplo, para establecer una etiqueta para un campo de TDC denominado tocEN &quot;, establezca los datos de usuario de la imagen en:
+La etiqueta TOC se almacena en el campo Datos de usuario de una imagen; formatee estos datos como una lista de `name=<value>` ` pairs separated by two question marks “??” `. Por ejemplo, para establecer una etiqueta para un campo de TDC denominado tocEN &quot;, establezca los datos de usuario de la imagen en:
 
 tocEN=&lt;EN_page_label>
 
