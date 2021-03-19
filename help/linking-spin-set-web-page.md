@@ -1,24 +1,26 @@
 ---
 title: Vinculación de un conjunto de giros a una página web
-description: Descubra cómo vincular un conjunto de giros a una página web.
+description: Aprenda a vincular un conjunto de giros a una página web.
 uuid: d3c5773e-60c4-4e8b-9c48-e1e3eb8028d0
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 651b21ef-e322-4e6d-8e37-45ffd56f7a58
+feature: Dynamic Media Classic,Visualizadores,Conjuntos de giros
+role: Profesional empresarial
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 88%
+source-wordcount: '722'
+ht-degree: 87%
 
 ---
 
 
 # Vinculación de un conjunto de giros a una página web{#linking-a-spin-set-to-a-web-page}
 
-Los sitios web y las aplicaciones acceden al contenido de Dynamic Media Image Server, incluidos los conjuntos de giros, a través de cadenas URL o código incrustado. Estas cadenas URL se activan durante el proceso de publicación. Para colocar la cadena URL o el código incrustado del conjunto de giros en las páginas web y las aplicaciones, debe copiar esta cadena desde Dynamic Media Classic.
+Los sitios web y las aplicaciones acceden al contenido de Dynamic Media Image Server, incluidos los conjuntos de giros, mediante cadenas URL o código incrustado. Estas cadenas URL se activan durante el proceso de publicación. Para colocar la cadena URL o el código incrustado del conjunto de giros en las páginas web y aplicaciones, debe copiarlo desde Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -45,7 +47,7 @@ Los sitios web y las aplicaciones acceden al contenido de Dynamic Media Image Se
 
 ## Adición de direcciones URL de conjuntos de giros a una página web  {#adding-spin-set-urls-to-your-web-page}
 
-Los conjuntos de giros se distribuyen como todos los visores de zoom, a través de una página dinámica (ASP o JSP) que muestra el conjunto de giros en una ventana de zoom. La llamada mediante URL a la plataforma Dynamic Media Classic sigue el mismo protocolo en el visor de zoom. Sin embargo, el nombre del ajuste preestablecido de visor depende del ajuste preestablecido que el administrador haya definido como ajuste preestablecido de visor de conjuntos de giros predeterminado. Por ejemplo, el siguiente ejemplo de sintaxis de URL desactivada incluye un nombre de ajuste preestablecido denominado `viewer.jsp` y el parámetro de SKU es ahora el nombre de conjunto de giros:
+Los conjuntos de giros se distribuyen como todos los visores de zoom, a través de una página dinámica (ASP o JSP) que muestra el conjunto de giros en una ventana de zoom. La llamada de URL a la plataforma Dynamic Media Classic sigue el mismo protocolo en el visor de zoom. Sin embargo, el nombre del ajuste preestablecido de visor depende del ajuste preestablecido que el administrador haya definido como ajuste preestablecido de visor de conjuntos de giros predeterminado. Por ejemplo, el siguiente ejemplo de sintaxis de URL desactivada incluye un nombre de ajuste preestablecido denominado `viewer.jsp` y el parámetro de SKU es ahora el nombre de conjunto de giros:
 
 ```as3
 https://sample.scene7.com/s7ondemand/spin/viewer.jsp?company=S7Web&sku=backpack_spin
