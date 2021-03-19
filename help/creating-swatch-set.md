@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 631d2b2d-9e69-4b96-8392-17e00a1a8de0
+feature: Dynamic Media Classic,Visualizadores
+role: Profesional empresarial
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '707'
 ht-degree: 84%
 
 ---
@@ -24,11 +26,11 @@ Por ejemplo, supongamos que desea ofrecer imágenes de gorras con viseras de dis
 
 ## Creación de un conjunto de muestras  {#create}
 
-Al crear un conjunto, la opción **Publicar después de guardar** afecta al conjunto y a los miembros del conjunto de las siguientes formas:
-|¿Se ha seleccionado la opción &quot;Publicar después de guardar&quot; antes de guardar?|Estado del conjunto después de guardar|Estado de los miembros del conjunto después de guardar|
+Cuando crea un conjunto, la opción **Publicar después de guardar** afecta a los miembros del conjunto y del conjunto de las siguientes maneras:
+| Opción &quot;Publicar después de guardar&quot; seleccionada antes de guardar?|Estado del conjunto después de guardar|Estado de los miembros del conjunto después de guardar|
 |— |— |— |
 |Sí|Publicado|Publicado|
-|No|No publicado|Los miembros del conjunto conservan su estado publicado o sin publicar.|
+|No|No publicado|Los miembros del conjunto conservan su estado publicado o no publicado.|
 
 Consulte también [Publicación manual de recursos](publishing-files.md#manually_publishing_assets) y [Cancelación manual de la publicación de recursos](publishing-files.md#manually_unpublishing_assets).
 
@@ -38,7 +40,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
    **Seleccione las imágenes** primeroEn el panel Examinar, seleccione las imágenes y, a continuación, haga clic en Generar > Conjuntos de muestras.
 
-   **Inicio en la** pantalla Conjunto de muestrasHaga clic en Generar > Conjuntos de muestras. Seleccione una carpeta en la biblioteca de recursos y arrastre las imágenes a la sección Vistas de la página Conjunto de muestras.
+   **Comience desde la** pantalla Conjunto de muestrasHaga clic en Generar > Conjuntos de muestras. Seleccione una carpeta en la biblioteca de recursos y arrastre las imágenes a la sección Vistas de la página Conjunto de muestras.
 
 1. Arrastre los colores, patrones o acabados de muestra al cuadro de marcador de posición Muestras de la página Conjunto de muestras.
 
@@ -56,7 +58,7 @@ Según si edita un conjunto publicado o sin publicar, la opción **Publicar desp
 | ¿Ya se ha publicado el conjunto? | ¿Se ha seleccionado la opción “Publicar después de Guardar” antes de guardar la edición? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
 |--- |--- |--- |--- |
 | Sí | Sí | Publicado | Publicado |
-| Sí | No | Publicado | Los miembros existentes del conjunto conservan su estado publicado.Los nuevos miembros del conjunto que haya agregado durante la edición conservarán su estado publicado o sin publicar. |
+| Sí | No | Publicado | Los miembros del conjunto existente conservan su estado publicado. Los miembros del conjunto nuevos que haya agregado durante la edición conservarán su estado publicado o no publicado. |
 | No | Sí | Publicado | Publicado |
 | No | No | Sin publicar | Los miembros existentes del conjunto y cualquier nuevo miembro que añada al conjunto durante la edición conservarán su estado publicado o no publicado. |
 
