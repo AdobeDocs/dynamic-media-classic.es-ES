@@ -7,18 +7,20 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 87a5a25e-210b-4359-821a-7dfe8c304f9b
+feature: Dynamic Media Classic
+role: Profesional empresarial
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 40%
+source-wordcount: '177'
+ht-degree: 38%
 
 ---
 
 
 # Publicación de plantillas{#publishing-templates}
 
-Al publicar la plantilla, ésta se coloca en los servidores de imágenes de Dynamic Media, donde está disponible para el sitio web y la aplicación. Durante el proceso de publicación, Dynamic Media Classic activa las direcciones URL necesarias para la aplicación y el sitio web.
+Al publicar la plantilla, esta se coloca en los servidores de imágenes de Dynamic Media, donde está disponible para el sitio web y la aplicación. Durante el proceso de publicación, Dynamic Media Classic activa las direcciones URL que necesita para el sitio web y la aplicación.
 
 >[!NOTE]
 >
@@ -26,11 +28,11 @@ Al publicar la plantilla, ésta se coloca en los servidores de imágenes de Dyna
 
 ## Marcado de plantillas para publicación  {#marking-templates-for-publish}
 
-Las plantillas y todos sus archivos de compatibilidad deben marcarse para la publicación para que se puedan colocar en los servidores de imágenes de Dynamic Media. Puede marcar estos elementos para publicación en el panel Examinar haciendo clic en el icono **Marcar para publicación**.
+Las plantillas y todos sus archivos de soporte deben marcarse para publicarse para que se puedan colocar en los servidores de imágenes de Dynamic Media. Puede marcar estos elementos para publicarlos en el panel Examinar haciendo clic en el icono **Marcar para publicación**.
 
 ## Publicación de la plantilla {#publishing-your-template}
 
-Para publicar plantillas en los servidores de imágenes de Dynamic Media, seleccione el botón Publicar en la barra de navegación global para inicio. Seleccione a continuación una opción Cuándo, introduzca si lo desea un nombre para el trabajo de publicación, y seleccione el botón Iniciar publicación.
+Para publicar plantillas en los servidores de imágenes de Dynamic Media, comience por seleccionar el botón Publicar en la barra de navegación global. Seleccione a continuación una opción Cuándo, introduzca si lo desea un nombre para el trabajo de publicación, y seleccione el botón Iniciar publicación.
 
 >[!MORELIKETHIS]
 >
