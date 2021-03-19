@@ -1,13 +1,15 @@
 ---
 title: Carga de recursos de imagen o recursos de vector
-description: Obtenga información sobre cómo cargar un recurso de imagen o un recurso de vector.
+description: Obtenga información sobre cómo cargar un recurso de imagen o un recurso vectorial.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+feature: Dynamic Media Classic
+role: Profesional empresarial
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: 5efad4fff11c9818d43d46ebbbce5335ee1e72b8
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1532'
 ht-degree: 84%
 
 ---
@@ -19,9 +21,9 @@ Para poder cargar un recurso de imagen, primero debe solicitar una clave secreta
 
 ## Solicitud de la clave secreta compartida  {#requesting-a-shared-secret-key}
 
-Solicite una *clave secreta compartida* [mediante el Admin Console para crear un caso de soporte.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) En el caso de soporte, solicite una clave secreta compartida.
+Solicite una *clave secreta compartida* [utilizando el Admin Console para crear un caso de soporte.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) En su caso de asistencia, solicite una clave secreta compartida.
 
-En el mensaje, proporcione el nombre de empresa que desee utilizar para cargar los recursos de imagen. Después de recibir la clave de Dynamic Media Classic, guárdela de forma local para usarla en el futuro.
+En el mensaje, proporcione el nombre de empresa que desee utilizar para cargar los recursos de imagen. Cuando reciba la clave de Dynamic Media Classic, guárdela localmente para usarlo más adelante.
 
 ## Recuperación del distintivo de carga {#retrieving-the-upload-token}
 
@@ -121,8 +123,8 @@ El siguiente formulario HTML permite al usuario cargar un recurso. En el formula
 * Distintivo de carga.
 * Límite de tamaño de archivo.
 * Lista de extensiones de nombre de archivo.
-* Indica si se debe conservar o no el perfil de color y el nombre de archivo asociados al recurso.
-* Indica si se utiliza o no el fondo de cobertura. Si activa Fondo de cobertura, defina la esquina, la tolerancia y el método de relleno. Consulte Fondo de cobertura en [Opciones de edición de imágenes al cargar](image-editing-options-upload.md#image-editing-options-at-upload).
+* Conservar o no el perfil de color y el nombre de archivo asociados al recurso.
+* Indica si se utiliza o no el fondo de Knockout. Si activa Fondo de Knockout, defina la Esquina, Tolerancia y Método de Relleno. Consulte Contexto de Knockout en [Opciones de edición de imágenes al cargar](image-editing-options-upload.md#image-editing-options-at-upload).
 * Nombre del archivo que se debe cargar
 
 <!-- 
@@ -137,13 +139,13 @@ Last Modified Date:
 
 ![]()
 
-Puede vista del código fuente HTML asociado con el formulario anterior haciendo clic en el siguiente vínculo:
+Puede ver el código fuente HTML asociado al formulario anterior haciendo clic en el siguiente vínculo:
 
 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-En Firefox, haga clic con el botón secundario en la ventana del explorador y, a continuación, haga clic en **Origen de página de Vista**. El código muestra la cadena de consulta URL y el método POST oportunos que se ejecutan cuando el usuario hace clic en **Enviar**.
+En Firefox, haga clic con el botón secundario en la ventana del explorador y, a continuación, haga clic en **Ver origen de página**. El código muestra la cadena de consulta URL y el método POST oportunos que se ejecutan cuando el usuario hace clic en **Enviar**.
 
-Para ver la respuesta en XML en Internet Explorer, haga clic en **Ver > Código fuente**. Para vista de respuestas XML en Firefox, haga clic en **Herramientas > Desarrollador web > Origen de página**. Se recomienda utilizar Firefox para ver las respuestas en XML.
+Para ver la respuesta en XML en Internet Explorer, haga clic en **Ver > Código fuente**. Para ver la respuesta XML en Firefox, haga clic en **Tools > Web Developer > Page Source**. Se recomienda utilizar Firefox para ver las respuestas en XML.
 
 A continuación se muestra una respuesta de carga correcta de ejemplo:
 
@@ -284,8 +286,8 @@ El siguiente formulario HTML permite al usuario cargar un recurso. En el formula
 * Distintivo de carga.
 * Límite de tamaño de archivo.
 * Lista de extensiones de nombre de archivo.
-* Indica si se debe conservar o no el perfil de color y el nombre de archivo asociados al recurso.
-* Indica si se utiliza o no el fondo de cobertura. Si activa Fondo de cobertura, defina la esquina, la tolerancia y el método de relleno. Consulte Fondo de cobertura en [Opciones de edición de imágenes al cargar](image-editing-options-upload.md#image-editing-options-at-upload).
+* Conservar o no el perfil de color y el nombre de archivo asociados al recurso.
+* Indica si se utiliza o no el fondo de Knockout. Si activa Fondo de Knockout, defina la Esquina, Tolerancia y Método de Relleno. Consulte Contexto de Knockout en [Opciones de edición de imágenes al cargar](image-editing-options-upload.md#image-editing-options-at-upload).
 * Nombre del archivo que se debe cargar
 
 <!-- 
@@ -376,7 +378,7 @@ Envíe el recurso para la carga como una publicación de varias partes o formula
 |--- |--- |--- |
 | op | Obligatorio | cargar |
 | upload_token | Obligatorio | Distintivo de carga para la clave secreta compartida asociada a la empresa. |
-| compañía_nombre | Obligatorio | Nombre de la empresa que realiza la carga. |
+| company_name | Obligatorio | Nombre de la empresa que realiza la carga. |
 | file_limit | Opcional | Límite de tamaño de archivo, en bytes, del recurso. |
 | file_exts | Opcional | Lista de extensiones admitidas para el archivo de recurso. |
 
