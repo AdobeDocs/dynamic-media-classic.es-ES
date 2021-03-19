@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 91524d36-b77a-4dc4-acba-a7bd85297e98
+feature: Dynamic Media Classic,Colaboración,Administración de activos
+role: Administrador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 96%
+source-wordcount: '831'
+ht-degree: 95%
 
 ---
 
@@ -95,7 +97,7 @@ Consulte también [Especificación de opciones de exportación disponibles para 
 1. Haga clic en **Ajustes** > **Configuración de Media Portal** > **Grupos**.
 1. En la página de lista de grupos, seleccione un grupo y edítelo o elimínelo.
 
-   **Edición de un** grupoHaga clic en Editar y, a continuación, elija las opciones en el cuadro de diálogo Editar grupo.
+   **Edición de un** grupoHaga clic en Editar y, a continuación, elija opciones en el cuadro de diálogo Editar grupo.
 
    **Eliminación de un** grupoHaga clic en Eliminar.
 
