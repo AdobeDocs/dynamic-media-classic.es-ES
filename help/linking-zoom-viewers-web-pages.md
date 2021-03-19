@@ -1,22 +1,24 @@
 ---
 title: Vinculación de visores de zoom a páginas web
-description: Descubra cómo vincular los visores de zoom a sus páginas web.
+description: Aprenda a vincular visores de zoom a sus páginas web.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
+feature: Dynamic Media Classic,Visualizadores,Zoom
+role: Profesional empresarial
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 85%
+source-wordcount: '681'
+ht-degree: 84%
 
 ---
 
 
 # Vinculación de visores de zoom a páginas web{#linking-zoom-viewers-to-your-web-pages}
 
-Los sitios web y las aplicaciones acceden al contenido de Dynamic Media Image Server, incluidas las imágenes principales y los destinatarios de zoom asociados, así como a los ajustes preestablecidos de visor de zoom, a través de cadenas URL o código incrustado. Estas cadenas URL se activan durante el proceso de publicación. Para colocar estas cadenas URL o el código incrustado en las páginas web y las aplicaciones, debe copiarlas desde Dynamic Media Classic.
+Los sitios web y las aplicaciones acceden al contenido de Dynamic Media Image Server, incluidas las imágenes principales y los destinos de zoom asociados, y los ajustes preestablecidos de visor de zoom, mediante cadenas URL o código incrustado. Estas cadenas URL se activan durante el proceso de publicación. Para colocar estas cadenas URL o el código incrustado en sus páginas web y aplicaciones, debe copiarlas desde Dynamic Media Classic.
 
 >[!NOTE]
 >
