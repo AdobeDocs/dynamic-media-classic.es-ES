@@ -1,17 +1,19 @@
 ---
 title: Configuración de un ajuste preestablecido de visor de conjuntos de medios mixtos
-description: Obtenga información sobre cómo configurar un ajuste preestablecido de visor de conjuntos de medios mixtos.
+description: Aprenda a configurar un ajuste preestablecido de visualizador de conjuntos de medios mixtos.
 uuid: d5bf1840-e453-445d-bebc-84889b29f3c8
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 8029aad8-d696-4d7c-99e2-3b08edb68181
+feature: Dynamic Media Classic,Visualizadores,Conjuntos de medios mixtos
+role: Profesional empresarial
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 82%
+source-wordcount: '611'
+ht-degree: 81%
 
 ---
 
@@ -25,8 +27,8 @@ Puede elegir incluir todas o algunas de las funciones de comunidad en el visor d
 1. Haga clic en **Ajustes** > **Ajustes preestablecidos de visor**.
 1. En la página Ajustes preestablecidos de visor, realice una de las acciones siguientes:
 
-   * Para crear un nuevo ajuste preestablecido, haga clic en **Añadir**. En el cuadro de diálogo Añadir ajuste preestablecido de visor, elija una plataforma, seleccione Visor de conjuntos de medios mixtos y, a continuación, haga clic en **Añadir**.
-   * Para editar un ajuste preestablecido de visor de conjuntos de medios mixtos, selecciónelo y haga clic en **Editar**.
+   * Para crear un nuevo ajuste preestablecido, haga clic en **Agregar**. En el cuadro de diálogo Agregar ajuste preestablecido de visualizador, seleccione una plataforma, elija Visualizador de conjuntos de medios mixtos y haga clic en **Agregar**.
+   * Para editar un ajuste preestablecido de visualizador de conjuntos de medios mixtos, selecciónelo y haga clic en **Editar**.
 
    Se abrirá la pantalla Configurar visor.
 
@@ -54,14 +56,14 @@ Puede elegir incluir todas o algunas de las funciones de comunidad en el visor d
 1. Para agregar funciones de comunidad (Incrustar, Vínculo, Visita) al visor, especifique las opciones para cualquiera de lo siguiente:
 
    * ****
-EmailHaga clic en para activar un botón Correo electrónico en el visor. Cuando se visualiza el conjunto y el usuario hace clic en el botón Correo electrónico, se abre un menaje que contiene un vínculo a este conjunto.
+EmailClick On para habilitar un botón de correo electrónico en el visor. Cuando se visualiza el conjunto y el usuario hace clic en el botón Correo electrónico, se abre un menaje que contiene un vínculo a este conjunto.
 
    * ****
 EmbedClick Live. En el cuadro Etiqueta de botón de incrustación, escriba el nombre que desea ver en el visor del botón Incrustar. Si lo desea, haga clic en 
 **** Busque y seleccione un aspecto personalizado para el botón.
 
    * ****
-VínculoHaga clic en directo. En el cuadro Etiqueta de botón de vínculo, escriba el nombre que desea ver en el visor del botón Vínculo. Si lo desea, haga clic en 
+LinkClick Live. En el cuadro Etiqueta de botón de vínculo, escriba el nombre que desea ver en el visor del botón Vínculo. Si lo desea, haga clic en 
 **** Busque y seleccione un aspecto personalizado para el botón.
 
    * ****
