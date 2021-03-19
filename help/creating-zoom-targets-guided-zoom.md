@@ -1,16 +1,18 @@
 ---
 title: Creación de destinos de zoom para zoom guiado
-description: Aprenda a crear destinatarios de zoom para zoom guiado.
+description: Aprenda a crear destinos de zoom para zoom guiado.
 uuid: 501ea37b-adc5-4290-87eb-52a3501e5d26
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: e7b4673c-8681-4741-912e-9a31cf106449
+feature: Dynamic Media Classic,Visualizadores,Zoom
+role: Profesional empresarial
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '738'
 ht-degree: 68%
 
 ---
@@ -37,26 +39,26 @@ Puede cambiar el tamaño del visor de zoom para que corresponda al que se usa en
 
 Cree y edite destinos de zoom en la pantalla Editor de destinos de zoom. Para abrir esta pantalla, seleccione una imagen y realice una de las acciones siguientes:
 
-* Haga clic en el botón de rollover **[!UICONTROL Editar]** y elija Destinatarios de zoom.
-* En el panel Examinar, muestre la imagen en **[!UICONTROL Vista de detalles]** y haga clic en **[!UICONTROL Destinatarios de zoom]**.
+* Haga clic en el botón **[!UICONTROL Edit]** y seleccione Destinos de zoom.
+* En el panel Examinar, muestre la imagen en **[!UICONTROL Vista de detalles]** y haga clic en **[!UICONTROL Destinos de zoom]**.
 
-En la pantalla Editor de Destinatarios de zoom, haga clic en el botón **[!UICONTROL Seleccionar Destinatario]** (flecha) para seleccionar un destinatario antes de cambiar su tamaño o posición. Haga clic en **[!UICONTROL Añadir Destinatarios]** (rectángulo) para crear un destinatario de zoom en la imagen. La pantalla Editor de destinos de zoom también proporciona herramientas para eliminar, copiar y asignar nombre a los destinos de zoom.
+En la pantalla Editor de destinos de zoom, haga clic en el botón **[!UICONTROL Seleccionar destino]** (flecha) para seleccionar un objetivo antes de cambiar su tamaño o posición. Haga clic en **[!UICONTROL Add Targets]** (rectángulo) para crear un objetivo de zoom en la imagen. La pantalla Editor de destinos de zoom también proporciona herramientas para eliminar, copiar y asignar nombre a los destinos de zoom.
 
 ### Creación de un destino de zoom  {#creating-a-zoom-target}
 
 Abra la pantalla Editor de destinos de zoom y siga estos pasos para crear un destino de zoom:
 
-1. Haga clic en **[!UICONTROL Añadir Destinatarios]** (rectángulo), mueva el puntero sobre la imagen y haga clic donde desee que esté el destinatario de zoom.
+1. Haga clic en **[!UICONTROL Add Targets]** (rectángulo), mueva el puntero sobre la imagen y haga clic donde desee que se muestre el objetivo de zoom.
 
    Aparece una imagen de miniatura del destino de zoom en el panel de la derecha de la pantalla.
 
-1. Haga clic en **[!UICONTROL Seleccionar Destinatario]** (flecha), haga clic para seleccionar el destinatario de zoom que creó y ajuste el tamaño y la posición del destinatario.
+1. Haga clic en **[!UICONTROL Seleccionar destino]** (flecha), haga clic en para seleccionar el objetivo de zoom que ha creado y ajuste el tamaño y la posición del objetivo.
 
    * ****
-Cambiar tamañoMueva el puntero sobre una esquina del destinatario de zoom y arrastre para aumentar o reducir el destinatario.
+Cambiar tamañoMueva el puntero sobre una esquina del destino de zoom y arrástrelo para ampliar o reducir el destino.
 
    * ****
-ColocaciónMueva el puntero sobre el destinatario de zoom y arrástrelo a una ubicación diferente.
+ColocaciónMueva el puntero sobre el destino de zoom y arrástrelo a una ubicación diferente.
 
 1. Escriba un nombre para el destino de zoom en el cuadro Nombre. 
 
@@ -78,22 +80,22 @@ ColocaciónMueva el puntero sobre el destinatario de zoom y arrástrelo a una ub
 Utilice estas técnicas en la pantalla Editor de destinos de zoom para editar destinos de zoom:
 
 * ****
-Cambio de posiciónCon el botón Seleccionar Destinatario (la flecha), haga clic en el destinatario para seleccionarlo. A continuación, arrastre el destino a otra ubicación.
+Cambio de posiciónCon el botón Seleccionar destino (la flecha), haga clic en el destino para seleccionarlo. A continuación, arrastre el destino a otra ubicación.
 
 * ****
-Cambiar tamañoCon el botón Seleccionar Destinatario (la flecha), haga clic en el destinatario para seleccionarlo. A continuación, mueva el puntero por la esquina del destino de zoom y arrastre para ampliar o reducir el destino.
+Cambiar tamañoCon el botón Seleccionar destino (la flecha), haga clic en el destino para seleccionarlo. A continuación, mueva el puntero por la esquina del destino de zoom y arrastre para ampliar o reducir el destino.
 
 * ****
-EliminaciónHaga clic en la imagen en miniatura del destinatario en la parte derecha de la pantalla. A continuación, haga clic en **[!UICONTROL Eliminar Destinatario]**.
+EliminaciónHaga clic en la imagen en miniatura del destino en la parte derecha de la pantalla. A continuación, haga clic en **[!UICONTROL Eliminar destino]**.
 
 * ****
-Cambio de nombreHaga clic en la imagen en miniatura del destinatario en la parte derecha de la pantalla. A continuación, introduzca un nombre en el campo de texto **[!UICONTROL Nombre]** y haga clic en **[!UICONTROL Guardar]**.
+Cambio de nombreHaga clic en la imagen en miniatura del destino en la parte derecha de la pantalla. A continuación, introduzca un nombre en el campo de texto **[!UICONTROL Name]** y haga clic en **[!UICONTROL Save]**.
 
 ### Copia de destinos de zoom {#copying-zoom-targets}
 
 Puede copiar destinos de zoom de una imagen a otra. Copie los destinos cuando dos imágenes presenten un contenido similar y sus destinos de zoom pertenezcan a las mismas ubicaciones. Siga estos pasos para copiar los destinos de zoom a otra imagen:
 
 1. Abra la imagen con los destinos de zoom que desea copiar en la pantalla Editor de destinos de zoom.
-1. Haga clic en **[!UICONTROL Copiar Destinatarios a]**.
+1. Haga clic en **[!UICONTROL Copiar destinos a]**.
 1. En el cuadro de diálogo Seleccionar imágenes, seleccione una imagen y haga clic en **[!UICONTROL Seleccionar]**.
 
