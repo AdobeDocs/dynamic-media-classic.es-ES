@@ -1,34 +1,36 @@
 ---
 title: '"Inicio rápido: Conjuntos de muestras"'
-description: Introducción y Inicio rápido del conjunto de muestras para ayudarle en el uso inicial.
+description: Introducción e Inicio rápido al conjunto de muestras para ayudarle a empezar a utilizarlo rápidamente.
 uuid: 6f8a95e8-e82a-477f-9f21-d2b7b511f8ae
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
+feature: Dynamic Media Classic,Visualizadores
+role: Profesional empresarial
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 63%
+source-wordcount: '391'
+ht-degree: 62%
 
 ---
 
 
 # Inicio rápido: Conjuntos de muestras{#quick-start-swatch-sets}
 
-Los conjuntos de muestras de Dynamic Media Classic ofrecen a los usuarios una visualización integrada. En el visor dinámico de conjuntos de muestras, los usuarios pueden ver un elemento con distintos colores, materiales, texturas, acabados o telas simplemente haciendo clic en una miniatura.
+Los conjuntos de muestras de Dynamic Media Classic proporcionan a los usuarios una experiencia de visualización integrada. En el visor dinámico de conjuntos de muestras, los usuarios pueden ver un elemento con distintos colores, materiales, texturas, acabados o telas simplemente haciendo clic en una miniatura.
 
 **Inicio rápido**
 
-Este Inicio rápido sobre los conjuntos de muestras se ha diseñado para ayudarle en el uso inicial de las técnicas de conjuntos de muestras en Dynamic Media Classic.
+Este inicio rápido de conjuntos de muestras está diseñado para ponerse en marcha rápidamente con las técnicas de conjuntos de muestras de Dynamic Media Classic.
 
 **1. Carga de las imágenes y los archivos de muestra**
 
 Comience el proceso cargando las imágenes y los archivos de muestra para los conjuntos de muestras.
 
-Haga clic en Cargar en la barra de navegación global para cargar archivos del equipo en una carpeta de Dynamic Media Classic. Consulte [Preparación de recursos de conjunto de muestras para cargar](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) y [Carga de archivos](uploading-files.md#uploading-your-files).
+Haga clic en Cargar en la barra de navegación global para cargar archivos del equipo a una carpeta de Dynamic Media Classic. Consulte [Preparación de recursos de conjunto de muestras para cargar](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) y [Carga de archivos](uploading-files.md#uploading-your-files).
 
 **2. Creación de un conjunto de muestras**
 
@@ -36,7 +38,7 @@ Para crear un conjunto de muestras, haga clic en Generar > Conjuntos de muestras
 
 **3. Configuración de ajustes preestablecidos de visor de conjunto de muestras**
 
-Los administradores pueden crear o modificar los ajustes preestablecidos de visor de conjuntos de imágenes. Dynamic Media Classic incluye ajustes preestablecidos de visor predeterminados para cada tipo de medio enriquecido. Utilice el Visor de zoom: Personalizar > ajustes preestablecidos de Conjuntos de imágenes/Muestras de color para ver sus conjuntos de muestras.
+Los administradores pueden crear o modificar los ajustes preestablecidos de visor de conjuntos de imágenes. Dynamic Media Classic incluye ajustes preestablecidos de visor predeterminados para cada tipo de medios enriquecidos. Utilice el Visor de zoom: Personalizar > ajustes preestablecidos de Conjuntos de imágenes/Muestras de color para ver sus conjuntos de muestras.
 
 Consulte [Creación y edición de ajustes preestablecidos de visor](application-setup.md#adding-and-editing-viewer-presets).
 
@@ -48,14 +50,14 @@ Consulte [Previsualización de un recurso](previewing-asset.md#previewing-an-ass
 
 **5. Publicación de un conjunto de muestras**
 
-Al publicar un conjunto de muestras, éste se coloca en los servidores de Dynamic Media Classic y se activa la cadena URL.
+Al publicar un conjunto de muestras, este se coloca en los servidores de Dynamic Media Classic y se activa la cadena URL.
 
-Haga clic en el icono **Marcar para publicación** a la izquierda del nombre en el panel Examinar. A continuación, haga clic en **Publicar**. En la pantalla Publicar, haga clic en **Publicación de Inicio**.
+Haga clic en el icono **Marcar para publicación** que aparece a la izquierda de su nombre en el panel Examinar. A continuación, haga clic en **Publicar**. En la pantalla Publicar, haga clic en **Iniciar publicación**.
 
 Consulte [Publicación](publishing-files.md#publishing-files).
 
 **6. Vinculación de un conjunto de muestras a una página web**
 
-Dynamic Media Classic crea llamadas mediante URL para conjuntos de muestras y las activa después de la publicación. Puede copiar estas direcciones URL desde la pantalla Vista previa.
+Dynamic Media Classic crea llamadas de URL para conjuntos de muestras y los activa después de publicarlos. Puede copiar estas direcciones URL desde la pantalla Vista previa.
 
 Seleccione el conjunto de muestras y, a continuación, seleccione el botón Vista previa. Se abre la pantalla Vista previa. Seleccione un ajuste preestablecido de visor de conjuntos de muestras y seleccione el botón Copiar URL. Consulte [Vinculación de un conjunto de muestras a una página web](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page).
