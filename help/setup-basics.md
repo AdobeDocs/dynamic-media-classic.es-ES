@@ -1,17 +1,19 @@
 ---
 title: Nociones básicas de ajuste
-description: Aprenda a utilizar la pantalla Ajustes para introducir su configuración personal. Si es un administrador, configure los ajustes de su empresa.
+description: Aprenda a utilizar la pantalla Configuración para introducir su configuración personal. Si es un administrador, configure los ajustes de su empresa.
 uuid: 38f487d7-33f2-4a9e-a32e-bb08f3dd3284
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
+feature: Dynamic Media Classic
+role: Administrador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 66%
+source-wordcount: '199'
+ht-degree: 64%
 
 ---
 
@@ -28,14 +30,14 @@ Los ajustes de configuración disponibles en esta pantalla dependen de si el est
 Los administradores también pueden configurar ajustes preestablecidos de imágenes y de visores en la pantalla Ajustes.
 
 * **Ajustes**
-preestablecidos de imagenLos ajustes preestablecidos de imagen son formatos guardados para mostrar imágenes principales en diferentes tamaños y formatos.
+preestablecidos de imagenLos ajustes preestablecidos de imagen son formatos guardados para mostrar imágenes maestras en diferentes tamaños y formatos.
 
 * **Ajustes**
-preestablecidos de visorLos ajustes preestablecidos de visor determinan cómo se ven los medios enriquecidos cuando se ven en un visor.
+preestablecidos de visualizadorLos ajustes preestablecidos de visualizador determinan cómo se ven los medios enriquecidos cuando se ven en un visualizador.
 
 >[!MORELIKETHIS]
 >
->* [Funciones de usuario y privilegios de Dynamic Media Classic](administration-setup.md#user_administration)
+>* [Roles y privilegios de usuario de Dynamic Media Classic](administration-setup.md#user_administration)
 >* [Ajustes preestablecidos de imagen](application-setup.md#image_presets)
 >* [Ajustes preestablecidos de visor](application-setup.md#viewer_presets)
 
