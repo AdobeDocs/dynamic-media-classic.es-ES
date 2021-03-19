@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/support_files
 discoiquuid: 97cecd6a-30aa-44fe-a611-fd71b02fd5ae
+feature: Dynamic Media Classic
+role: Profesional empresarial
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 40%
+source-wordcount: '432'
+ht-degree: 39%
 
 ---
 
@@ -23,16 +25,16 @@ En algunos casos, Dynamic Media Classic requiere que cargue un archivo de fuente
 Dynamic Media Classic admite estos tipos de fuentes:
 
 * Todas las fuentes TrueType
-* PostScript®
+* fuentes de PostScript®
 * Fuentes OpenType/TrueType
 * Fuentes OpenType/PostScript
 * PhotoFonts
 
-Después de cargar un archivo de fuente, puede cambiar su ID de Dynamic Media Classic, el nombre de la fuente y la información de tipo en la pantalla Editar información.
+Una vez cargado un archivo de fuente, puede cambiar su ID de Dynamic Media Classic, su nombre y la información de tipo en la pantalla Editar información.
 
 >[!NOTE]
 >
->Dynamic Media Classic recomienda cargar todos los estilos de fuente (negrita, cursiva, negrita/cursiva y normal) si desea utilizar fuentes en las capas de plantilla. Dynamic Media Classic necesita estos estilos de fuente para procesar solicitudes. También se recomienda cargar todos los archivos Type 1 de PostScript/Adobe que estén asociados con la fuente, ya que algunas de estas fuentes contienen información detallada de espaciado.
+>Dynamic Media Classic recomienda cargar todos los estilos de fuente (negrita, cursiva, negrita/cursiva y normal) si planea utilizar fuentes en las capas de plantilla. Dynamic Media Classic necesita estos estilos de fuente para procesar las solicitudes. También se recomienda cargar todos los archivos Type 1 de PostScript/Adobe que estén asociados con la fuente, ya que algunas de estas fuentes contienen información detallada de espaciado.
 
 ## Carga de archivos de fuente  {#uploading-font-files}
 
@@ -44,24 +46,24 @@ Puede cambiar el nombre del ID y la información de tipo de las fuentes. Editar 
 
 En el panel Examinar, acceda al archivo de fuente que desea editar en la vista de detalles y elija Archivo > Editar información. Se abrirá la pantalla Editar información. Elija las siguientes opciones y seleccione el botón Enviar.
 
-**Nombre** de fuenteEste nombre identifica la fuente cuando se publica.
+**Nombre de** fuenteEste nombre identifica la fuente cuando se publica.
 
-**PostScript** NameEste nombre es el nombre completo de PostScript para la fuente. Suele referirse al grosor o el estilo.
+**Nombre de** PostScriptEste nombre es el nombre completo de PostScript para la fuente. Suele referirse al grosor o el estilo.
 
 **Nombre RTF** Este nombre aparece en un menú emergente del editor RTF donde se crean las capas de texto de la plantilla.
 
-**Nombre de la familia de fuentesEste nombre lista el nombre de la fuente sin el estilo, el peso o el indicador de tipo de fuente.** 
+**Nombre de la familia de** fuentesEste nombre enumera el nombre de la fuente sin el indicador de estilo, peso o tipo de fuente.
 
 **Estilo** de fuenteLas opciones son Normal, Negrita, Cursiva y Negrita-Cursiva.
 
 **Tipo** de fuenteLas opciones son TrueType y Adobe Type 1. Si utiliza otro nombre para denominar estas fuentes, puede introducirlo.
 
-**Abreviación** del tipo de fuenteLas opciones son las siguientes:
+**Abreviación de tipo** de fuenteLas opciones son las siguientes:
 
-**Archivos de** fuente TTFTrueType utilizados para el procesamiento y el servicio de imágenes en PDF/PostScript.
+**** Archivos de fuente TTFTrueType utilizados para el procesamiento de PDF/PostScript y el servicio de imágenes.
 
-**Archivos de** fuente AFMAdobe PostScript que contienen información de las métricas de fuentes de Adobe y se utilizan para el servicio de imágenes.
+**** Archivos de fuentes de AFMAdobe PostScript que contienen información de métricas de fuentes de Adobe y se utilizan para el servicio de imágenes.
 
-**Archivos de** fuente PostScript de PFMAdobe que contienen información de métrica de fuente binaria.
+**** Archivos de fuente PostScript de PFMAdobe que contienen información de métricas de fuentes binarias.
 
-**Archivos de** fuente PostScript de PFBAdobe que contienen información binaria de contorno de fuente y se utilizan para el procesamiento y el servicio de imágenes en PDF/PostScript.
+**** Archivos de fuente PostScript de PFBAdobe que contienen información binaria sobre el contorno de la fuente y que se utilizan para el procesamiento y el servicio de imágenes de PDF/PostScript.
