@@ -1,17 +1,19 @@
 ---
 title: Visualización de conjuntos de muestras
-description: Obtenga información sobre cómo vista de conjuntos de muestras.
+description: Obtenga información sobre cómo ver los conjuntos de muestras.
 uuid: 80df403b-b03f-428f-9784-c3f774567bd0
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 48de8604-2bb4-4862-82ee-0c7847f0d0e7
+feature: Dynamic Media Classic,Visualizadores
+role: Profesional empresarial
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 86%
+source-wordcount: '436'
+ht-degree: 85%
 
 ---
 
@@ -29,8 +31,8 @@ Puede crear y personalizar ajustes preestablecidos de visor de acuerdo con sus n
 1. Haga clic en **Ajustes** > **Ajustes preestablecidos de visor**.
 1. Realice una de las siguientes acciones:
 
-   * Para crear un nuevo ajuste preestablecido, haga clic en **Añadir**. En el cuadro de diálogo Añadir ajuste preestablecido de visor, elija una plataforma, seleccione Visor de conjuntos de muestras y haga clic en **Añadir**.
-   * Para editar un ajuste preestablecido de visor de conjuntos de muestras existente, selecciónelo y haga clic en **Editar**.
+   * Para crear un nuevo ajuste preestablecido, haga clic en **Agregar**. En el cuadro de diálogo Agregar ajuste preestablecido de visualizador, seleccione una plataforma, elija Visualizador de conjuntos de muestras y haga clic en **Agregar**.
+   * Para editar un ajuste preestablecido de visualizador de conjuntos de muestras existente, seleccione el ajuste preestablecido y haga clic en **Editar**.
 
 1. Escriba un nombre en el cuadro Nombre de ajuste preestablecido para el ajuste preestablecido del visor de conjuntos de muestras.
 1. Elija las opciones deseadas en la pantalla Configurar visor. 
@@ -52,7 +54,7 @@ Utilice Vista previa para comprobar cómo se muestra un recurso en una plataform
    * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en **Vista de lista**. En la ventana Recursos, pase el cursor por un recurso y, a continuación, haga clic en **Vista previa**.
    * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en **Vista de cuadrícula**. En la ventana Recursos, en la ventana de una miniatura de un recurso, haga clic en **Vista previa**.
    * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en **Vista de detalles**. En la misma barra de herramientas, haga clic en **Vista previa**.
-   * En la ventana Recursos, seleccione un recurso. En la barra de herramientas, haga clic en **Archivo** > **Previsualización**.
+   * En la ventana Recursos, seleccione un recurso. En la barra de herramientas, haga clic en **Archivo** > **Vista previa**.
 
 1. (Opcional) En la lista desplegable de la parte inferior de la ventana Vista previa, seleccione la codificación de URL que desee aplicar a la dirección URL del recurso cuando se copie.
 1. Haga clic en el vínculo de un visor para obtener la vista previa del recurso en el visor seleccionado.
