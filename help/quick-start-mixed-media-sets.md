@@ -1,17 +1,19 @@
 ---
 title: '"Inicio rápido: Conjuntos de medios mixtos"'
-description: Introducción y Inicio rápido a los conjuntos de medios mixtos para ayudarle en el uso inicial.
+description: Introducción y inicio rápido a los conjuntos de medios mixtos para ayudarle a empezar a utilizarlos rápidamente.
 uuid: 0ef033d5-b053-4d7c-b1e1-1980f899fd88
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 2708d077-94fc-4045-8992-ad3589ed9cfd
+feature: Dynamic Media Classic,Visualizadores,Conjuntos de medios mixtos
+role: Profesional empresarial
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 80%
+source-wordcount: '652'
+ht-degree: 79%
 
 ---
 
@@ -24,13 +26,13 @@ Los ajustes preestablecidos del visor de conjuntos de medios mixtos incluyen opc
 
 **Inicio rápido**
 
-Este Inicio rápido de conjuntos de medios mixtos está diseñado para ayudarle en el uso inicial de las técnicas de conjuntos de medios mixtos en Dynamic Media Classic.
+Este inicio rápido de conjuntos de medios mixtos está diseñado para ponerse en marcha rápidamente con las técnicas de conjuntos de medios mixtos en Dynamic Media Classic.
 
 **1. Carga de imágenes, archivos de muestras y vídeos**
 
 Comience por cargar las imágenes, los archivos de muestras, y los vídeos para sus conjuntos de medios mixtos. Dado que los usuarios pueden aplicar zoom a las imágenes en el visualizador de conjuntos de medios mixtos, tenga en cuenta el zoom al elegir las imágenes. Compruebe que las imágenes tengan al menos 2000 píxeles en la dimensión más grande.
 
-Haga clic en Cargar en la barra de navegación global para cargar archivos del equipo en una carpeta de Dynamic Media Classic.
+Haga clic en Cargar en la barra de navegación global para cargar archivos del equipo a una carpeta de Dynamic Media Classic.
 
 Consulte [Carga de los archivos](uploading-files.md#uploading-your-files).
 
@@ -62,14 +64,14 @@ Consulte [Previsualización de un recurso](previewing-asset.md#previewing-an-ass
 
 **6. Publicación de un conjunto de medios mixtos**
 
-Al publicar un conjunto de medios mixtos, éste se coloca en los servidores de Dynamic Media Classic y se activa la cadena URL.
+Al publicar un conjunto de medios mixtos, se coloca en los servidores de Dynamic Media Classic y se activa la cadena URL.
 
-Los conjuntos de vídeo adaptables requieren que se publique en el **Servidor de vídeo** y también en el **Servidor de imágenes**. El **Servidor de vídeo** se utiliza para publicar los vídeos reales que se han marcado para publicación. Además, se utiliza **Image Server** para publicar recursos relacionados, como las miniaturas de vídeo, y establecer información para cualquier conjunto de vídeos adaptable.
+Los conjuntos de vídeo adaptables requieren que se publique en el **Servidor de vídeo** y también en el **Servidor de imágenes**. El **Servidor de vídeo** se utiliza para publicar los vídeos reales que se han marcado para publicación. Además, utiliza **Image Server** para publicar recursos relacionados, como miniaturas de vídeo, y establecer información para cualquier conjunto de vídeos adaptables.
 
 Consulte [Publicación de un conjunto de medios mixtos](publishing-mixed-media-set.md#publishing-a-mixed-media-set)
 
 **7. Vinculación de un conjunto de medios mixtos a una página web**
 
-Dynamic Media Classic activa las llamadas mediante URL para los conjuntos de medios mixtos después de publicarlos. Puede copiar estas direcciones URL desde la pantalla Vista previa.
+Dynamic Media Classic activa las llamadas URL para conjuntos de medios mixtos después de publicarlos. Puede copiar estas direcciones URL desde la pantalla Vista previa.
 
 Seleccione el conjunto de medios mixtos y haga clic en Vista previa. En la pantalla Vista previa, seleccione un ajuste predeterminado del visor de conjuntos de medios mixtos y haga clic en el botón Copiar URL. Consulte [Vinculación de conjuntos de medios mixtos a páginas web](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page).
