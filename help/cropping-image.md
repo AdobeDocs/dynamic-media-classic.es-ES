@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
+feature: Dynamic Media Classic,Administración de recursos
+role: Profesional empresarial
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 86%
+source-wordcount: '559'
+ht-degree: 85%
 
 ---
 
@@ -44,9 +46,9 @@ Puede recortar los píxeles transparentes o de color sólido del borde de una im
 
 ## Selección de áreas que recortar  {#select-an-area-to-crop}
 
-1. Para recortar una imagen, haga clic en su botón de rollover Editar y elija **Recortar**, o bien muéstrela en el panel Examinar de la vista de detalles y haga clic en **Recortar**.
+1. Para recortar una imagen, haga clic en su botón de rollover Editar y seleccione **Recortar**, o muéstrela en el panel Examinar de la vista de detalles y haga clic en **Recortar**.
 
-1. En la ventana Editor de recorte, coloque la parte de la imagen que no desee recortar en el cuadro de recorte. Lo que aparece dentro del cuadro permanece al hacer clic en **Guardar** y recortar la imagen.
+1. En la ventana Editor de recorte, coloque la parte de la imagen que no desea recortar en el cuadro de recorte. Lo que aparece dentro del cuadro permanece al hacer clic en **Guardar** y recortar la imagen.
 1. Para ajustar el área de recorte, siga uno de estos procedimientos:
 
    * Arrastre un lado o una esquina del recuadro. Mantenga pulsada la tecla Mayús mientras arrastra para cambiar el tamaño manteniendo la proporción de aspecto (la forma) del área de recorte.
