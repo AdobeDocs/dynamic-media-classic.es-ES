@@ -7,22 +7,24 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 4e8694f7-c1b5-4d45-a18b-2b9494db1757
+feature: Dynamic Media Classic,Visualizadores,Conjuntos de medios mixtos
+role: Profesional empresarial
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 59%
+source-wordcount: '261'
+ht-degree: 57%
 
 ---
 
 
 # Publicación de un conjunto de medios mixtos{#publishing-a-mixed-media-set}
 
-Cree un trabajo de publicación para publicar un conjunto de medios mixtos que haya marcado para su publicación en el servidor de vídeo e imágenes de Dynamic Media Classic. Dynamic Media Classic oferta opciones de publicación avanzadas para publicar en servidores específicos y opciones para volver a publicar recursos que ya se han publicado.
+Cree un trabajo de publicación para publicar un conjunto de medios mixtos que haya marcado para publicarlos en Dynamic Media Classic Video Server y Image Server. Dynamic Media Classic ofrece opciones de publicación avanzadas para publicar en servidores específicos y opciones para volver a publicar recursos que ya se han publicado.
 
-***nota **: Los conjuntos de medios mixtos requieren que se publique en**el **servidor de vídeo y también en el servidor**de imágenes **. El**Servidor de vídeo **se utiliza para publicar los vídeos reales que se han marcado para publicación. Además, se utiliza**Image Server **para publicar recursos relacionados, como miniaturas de vídeo, y establecer información para cualquier conjunto de vídeos adaptable.*
+***nota **: Los conjuntos de medios mixtos requieren que publique en el**servidor de **vídeo y también en el servidor de**imágenes **. El**Servidor de vídeo **se utiliza para publicar los vídeos reales que se han marcado para publicación. Además, utiliza**Image Server **para publicar recursos relacionados, como miniaturas de vídeo, y establece información para cualquier conjunto de vídeos adaptables.*
 
-Dynamic Media Classic realiza un seguimiento de los trabajos de publicación en la pantalla Trabajos.
+Dynamic Media Classic realiza el seguimiento de los trabajos de publicación en la pantalla Trabajos .
 
 Consulte [Publicación](publishing-files.md#publishing_files).
 
