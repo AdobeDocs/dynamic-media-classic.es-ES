@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_integration
 discoiquuid: 39a05654-4f66-4f1e-aec5-ebe6d174353f
+feature: Dynamic Media Classic
+role: Ingeniero de datos, administrador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '287'
 ht-degree: 5%
 
 ---
@@ -20,10 +22,10 @@ ht-degree: 5%
 
 Después de crear o editar un conjunto de ofertas, introdúzcalo en Target Standard/Premium siguiendo estos pasos:
 
-1. En la pantalla Conjunto de Ofertas de Test&amp;Destinatario, haga clic en **[!UICONTROL Ofertas push]**.
+1. En la pantalla Conjunto de ofertas de Test&amp;Target, haga clic en **[!UICONTROL Ofertas push]**.
 1. Introduzca el código de cliente y las credenciales de inicio de sesión.
 1. Haga clic en **[!UICONTROL Inicio de sesión]**.
 
-Durante la transferencia a Target Standard/Premium, el prefijo S7_ se adjunta automáticamente al inicio de nombres de ofertas. Este prefijo se adjunta para garantizar que pueda encontrar fácilmente ofertas de Dynamic Media Classic en la lista de oferta de Test&amp;Destinatario. Por ejemplo, la oferta aparece como S7_&lt;nombre_conjunto_ofertas>_&lt;nombre_oferta>.
+Durante la transferencia a Target Standard/Premium, el prefijo S7_ se adjunta automáticamente al inicio de los nombres de las ofertas. Este prefijo se adjunta para garantizar que pueda encontrar fácilmente ofertas de Dynamic Media Classic en la lista de ofertas de Test&amp;Target. Por ejemplo, la oferta aparece como S7_&lt;nombre_conjunto_ofertas>_&lt;nombre_oferta>.
 
-Dynamic Media Classic introduce ofertas de utilidades de Target Standard/Premium. Puede utilizar ofertas en utilidades para alojar su propio contenido de oferta fuera de Target Standard/Premium. Las ofertas de utilidades son similares a una oferta estándar alojada fuera de Target Standard/Premium. Permiten que Target Standard/Premium implemente contenido de oferta almacenado en el servidor, lo que permite un uso más sofisticado y dinámico. Las ofertas en utilidades recuperan contenido de una URL, lo almacenan en la caché y lo ofrecen durante aproximadamente dos horas. Las ofertas de utilidades proporcionan algunas funciones de generación de contenido dinámico que otras ofertas fuera de Target Standard/Premium no proporcionan. Si el mbox que proporciona la oferta contiene parámetros de mbox como `mboxProductID` y `mbox.offerId`, los parámetros de URL `productId=[PRODUCT_ID]`y `offerID=[OFFERID]` se anexan a la dirección URL solicitada. Estos parámetros los puede utilizar un servicio disponible en la dirección URL de la oferta de utilidades para devolver contenido fuera de Target Standard/Premium que utilice información de productos o pedidos de los mboxes. También se puede acceder a la oferta Widget a través de la API para crear ofertas mediante programación fuera de Target Standard/Premium.
+Dynamic Media Classic incorpora las ofertas de utilidades de Target Standard/Premium. Puede usar ofertas en utilidades para alojar su propio contenido de ofertas fuera de Target Standard/Premium. Las ofertas en utilidades son similares a una oferta estándar alojada fuera de Target Standard/Premium. Permiten a Target Standard/Premium implementar contenido de ofertas almacenado en el servidor, lo que permite un uso más sofisticado y dinámico. Las ofertas en utilidades recuperan contenido de una dirección URL, lo almacenan en la caché y lo sirven durante aproximadamente dos horas. Las ofertas en utilidades proporcionan algunas funciones de generación de contenido dinámico que otras ofertas fuera de Target Standard/Premium no proporcionan. Si el mbox que sirve la oferta contiene parámetros de mbox como `mboxProductID` y `mbox.offerId`, los parámetros de URL `productId=[PRODUCT_ID]`y `offerID=[OFFERID]` se agregan a la dirección URL solicitada. Estos parámetros puede utilizarlos un servicio disponible en la dirección URL de la oferta en utilidades para devolver contenido fuera de Target Standard/Premium que use información de productos o pedidos de sus mboxes. También se puede acceder a la oferta en utilidades a través de la API para crear ofertas mediante programación fuera de Target Standard/Premium.
