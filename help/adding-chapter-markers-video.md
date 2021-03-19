@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
+feature: Dynamic Media Classic,Visualizadores,Vídeo
+role: Profesional empresarial
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 87%
+source-wordcount: '626'
+ht-degree: 86%
 
 ---
 
@@ -48,15 +50,15 @@ Chapter 4
 Cost-efficient access to rapidly evolving technology.
 ```
 
-En el ejemplo anterior, `Chapter 1` es el identificador de señal y es opcional. La hora de señal `00:00:000 --> 01:04:364` especifica el tiempo de inicio y final del capítulo, en formato 00:00:000. Los tres últimos dígitos son milisegundos y pueden dejarse como 000, si se prefiere. El título del capítulo de `The bicycle store behind it all` es la descripción real del contenido del capítulo. El identificador de señal, el tiempo de señal de inicio y el título del capítulo aparecen en una ventana emergente en el reproductor de vídeo cuando un usuario desliza el puntero sobre un punto de señal visual en la línea de tiempo de vídeo.
+En el ejemplo anterior, `Chapter 1` es el identificador de referencia y es opcional. La hora de señal `00:00:000 --> 01:04:364` especifica el tiempo de inicio y final del capítulo, en formato 00:00:000. Los tres últimos dígitos son milisegundos y pueden dejarse como 000, si se prefiere. El título del capítulo de `The bicycle store behind it all` es la descripción real del contenido del capítulo. El identificador de señal, el tiempo de señal de inicio y el título del capítulo aparecen en una ventana emergente en el reproductor de vídeo cuando un usuario desliza el puntero sobre un punto de señal visual en la línea de tiempo de vídeo.
 
 Como está utilizando un visor de vídeo HTML5, asegúrese de que el archivo de capítulos que cree siga el estándar de WebVTT (Web Video Text Tracks). La extensión de nombre de archivo de capítulos es .vtt. Puede obtener más información sobre el estándar de subtítulos WebVTT.
 
-Consulte [WebVTT: Formato de seguimiento de texto de vídeo web](https://dev.w3.org/html5/webvtt/).
+Consulte [WebVTT: El formato de seguimiento de texto de vídeo web](https://dev.w3.org/html5/webvtt/).
 
 **Para agregar marcadores de capítulo a vídeos**
 
-1. Con un editor de texto sencillo fuera de Dynamic Media Classic, cree el archivo de capítulos de vídeo.
+1. Con un editor de texto simple fuera de Dynamic Media Classic, cree su archivo de capítulo de vídeo.
 
    >[!NOTE]
    >
@@ -66,7 +68,7 @@ Consulte [WebVTT: Formato de seguimiento de texto de vídeo web](https://dev.w3.
 
    Lo normal es que desee nombrar al archivo de capítulos VTT con el mismo nombre que el archivo de vídeo y le añada la palabra `chapters`. Esto puede ayudarle a automatizar la generación de URL de vídeo mediante el sistema de administración de contenido web.
 
-1. En Dynamic Media Classic, cargue el archivo de capítulos WebVTT.
+1. En Dynamic Media Classic, cargue el archivo de capítulo WebVTT.
 
    Consulte [Carga de archivos](uploading-files.md#uploading_files).
 
