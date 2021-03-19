@@ -1,16 +1,18 @@
 ---
 title: Carga de archivos PDF
-description: Obtenga información sobre cómo cargar los archivos PDF asociados a un catálogo electrónico.
+description: Aprenda a cargar los archivos PDF asociados a un catálogo electrónico.
 uuid: 9e178bb2-ac09-427a-b61a-aad4e87a5837
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
+feature: Dynamic Media Classic,Visualizadores,Catálogo electrónico
+role: Profesional empresarial
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 71%
+source-wordcount: '703'
+ht-degree: 70%
 
 ---
 
@@ -44,30 +46,30 @@ RecortarSeleccione el menú Recortar y elija Manual si las páginas contienen ma
 ProcesamientoSeleccione el menú Procesamiento y elija Rasterizar. Para que todas las páginas y las imágenes se muestren en el catálogo electrónico, debe rasterizar el archivo PDF.
 
 * **Extraer palabras de búsqueda (opcional)**
-Seleccione esta opción si desea que los visores puedan buscar por palabra clave en el catálogo electrónico.
+Seleccione esta opción si desea que los visualizadores puedan buscar por palabra clave en el catálogo electrónico.
 
-* **Generar catálogo electrónico automáticamente a partir de PDF de varias páginas (opcional)**
+* **Generar catálogo electrónico automáticamente desde PDF de varias páginas (opcional)**
 Seleccione esta opción para crear automáticamente un catálogo electrónico al cargar. Puede ir directamente a la pantalla del catálogo electrónico y comenzar a trabajar en el catálogo electrónico sin necesidad de seleccionar primero los archivos PDF y el comando Generar. El catálogo electrónico recibe el mismo nombre que el archivo PDF.
 
 * ****
-ResoluciónDynamic Media Classic recomienda 150 píxeles por pulgada.
+SoluciónDynamic Media Classic recomienda 150 píxeles por pulgada.
 
 * ****
 ColorspaceDynamic Media Classic recomienda elegir Detectar automáticamente. Los archivos PDF creados para imprimirse suelen estar en modo CMYK, mientras que los diseñados para visualizarse en línea están en modo RGB. Si un archivo PDF utiliza ambos espacios de color, puede seleccionar un espacio específico si elige Forzar RGB o Forzar CMYK. Los archivos PDF pueden utilizar ambos espacios de color, por ejemplo, cuando los gráficos utilizan un espacio de color CMYK pero las imágenes utilizan RGB. Si ha cargado un perfil ICC, su nombre aparecerá en el menú Espacio de color, desde donde lo podrá elegir.
 
    Consulte [Perfiles ICC](icc-profiles.md#icc_profiles).
 
-* **Perfil**
-de colorElija una opción de Perfil de color:
+* **Perfil de**
+colorElija una opción de Perfil de color:
 
 * **Convertir a**
-SRGBConvertidos a SRGB (Standard Red Green Blue). SRGB es el espacio de color que se recomienda para mostrar imágenes en páginas web.
+SRGBConverts a SRGB (estándar rojo azul verde). SRGB es el espacio de color que se recomienda para mostrar imágenes en páginas web.
 
 * **Mantener**
 espacio de color originalConserva el espacio de color original.
 
-* **Personalizado de >**
-AAbre los menús para que pueda elegir un espacio de color Convertir de y Convertir a. Puede elegir un espacio de color estándar de Photoshop o un espacio de color que haya cargado en Dynamic Media Classic.
+* **Personalizar de >**
+ParaAbre los menús para que pueda elegir un espacio de color Convertir de y Convertir en. Puede elegir un espacio de color estándar de Photoshop o un espacio de color que haya cargado en Dynamic Media Classic.
 
 Consulte [Perfiles ICC](icc-profiles.md#icc_profiles).
 
