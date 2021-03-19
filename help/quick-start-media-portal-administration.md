@@ -1,24 +1,26 @@
 ---
 title: '"Inicio rápido: Media Portal"'
-description: Introducción y Inicio rápido a Media Portal para ayudarle en el uso inicial de las técnicas y la administración de Media Portal.
+description: Introducción y inicio rápido de Media Portal para ayudarle a poner en marcha rápidamente las técnicas y la administración de Media Portal.
 uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
+feature: Dynamic Media Classic,Colaboración,Administración de activos
+role: Administrador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 84%
+source-wordcount: '713'
+ht-degree: 83%
 
 ---
 
 
 # Inicio rápido: Media Portal{#quick-start-media-portal}
 
-Media Portal permite a las compañías adquirir, controlar y distribuir fácilmente recursos creativos aprobados a socios y canales externos, así como a usuarios empresariales internos. Este entorno de &quot;autoservicio&quot; basado en explorador proporciona a los usuarios de Media Portal &quot;vistas&quot; controladas por el administrador en los recursos de Dynamic Media Classic para facilitar el acceso, la exploración, la búsqueda, la previsualización y la exportación de recursos en formatos aprobados por la empresa.
+Media Portal permite a las empresas adquirir, controlar y distribuir fácilmente recursos creativos aprobados a socios y canales externos, así como a usuarios empresariales internos. Este entorno de &quot;autoservicio&quot; basado en navegador proporciona a los usuarios de Media Portal &quot;vistas&quot; controladas por el administrador de los recursos de Dynamic Media Classic para acceder, examinar, buscar, previsualizar y exportar fácilmente recursos en formatos aprobados por la empresa.
 
 Como administrador, podrá controlar la forma en la que los usuarios ven los recursos en Media Portal, cómo acceden a ellos y cómo los utilizan. Es más, podrá personalizar la interfaz de Media Portal según el estilo de su sitio web y su marca. Puede especificar la fuente, su color y su tamaño, además de que también puede incorporar a la interfaz de Media Portal elementos de marcas, como por ejemplo logotipos.
 
@@ -46,7 +48,7 @@ Consulte [Adición y administración de usuarios de Media Portal](adding-media-p
 
 **4. Administración de cuentas de FTP**
 
-Puede tener cuentas de FTP independientes que estén asociadas con Media Portal y asignadas a una carpeta específica de su cuenta de Dynamic Media Classic. Este tipo de funcionalidad significa que puede permitir a los usuarios cargar recursos digitales en la cuenta a través de cuentas de FTP independientes.
+Puede tener cuentas de FTP independientes asociadas a Media Portal y asignadas a una carpeta específica de su cuenta de Dynamic Media Classic. Este tipo de funcionalidad significa que puede permitir a los usuarios cargar recursos digitales en la cuenta a través de cuentas de FTP independientes.
 
 Consulte [Administración de cuentas de FTP](ftp-accounts.md#managing_ftp_accounts).
 
