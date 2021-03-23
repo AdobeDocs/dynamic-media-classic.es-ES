@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_k
 feature: Dynamic Media Classic
 role: Ingeniero de datos, administrador, profesional empresarial
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 19%
+source-wordcount: '248'
+ht-degree: 16%
 
 ---
 
@@ -26,7 +26,7 @@ Al usar los informes de vídeo basados en Adobe Analytics Heartbeat, ya no es ne
 
    Consulte [Parámetros de audio y vídeo](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#metrics-and-metadata) para obtener más información sobre variables de solución y variables personalizadas.
 
-* Se admiten los segmentos listos para usar en incrementos de un minuto. Sin embargo, no se admiten los informes de segmento personalizados, como hitos definidos por el usuario basados en períodos temporales, % de hitos o hitos de desplazamiento.
+* Se admiten segmentos predeterminados de incrementos de un minuto. Sin embargo, no se admiten los informes de segmento personalizados, como hitos definidos por el usuario basados en períodos temporales, % de hitos o hitos de desplazamiento.
 
    Para obtener más información sobre los requisitos y la configuración de los medios de transmisión, consulte [Medición de medios de transmisión en Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
 
@@ -34,5 +34,5 @@ Al usar los informes de vídeo basados en Adobe Analytics Heartbeat, ya no es ne
 
 >[!NOTE]
 >
->Si la solución de Adobe Analytics con licencia no incluye Video Heartbeat, deberá seguir utilizando los pasos descritos en este capítulo para asignar variables de Adobe Analytics a eventos y variables de visor de Dynamic Media Classic.
+>Si la solución de Adobe Analytics con licencia no incluye Video Heartbeat, debe seguir utilizando los pasos descritos en este capítulo para asignar variables de Adobe Analytics a eventos y variables de visores de Dynamic Media Classic.
 
