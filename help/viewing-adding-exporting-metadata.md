@@ -10,10 +10,10 @@ discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
 feature: Dynamic Media Classic,Administración de recursos,Metadatos
 role: Profesional empresarial
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
-source-wordcount: '2264'
-ht-degree: 78%
+source-wordcount: '2250'
+ht-degree: 63%
 
 ---
 
@@ -30,7 +30,7 @@ Para obtener más información sobre los metadatos incrustados, consulte [www.ad
 
 ## Visualización de metadatos {#view-metadata}
 
-Para ver los metadatos de un recurso, abra el recurso en la vista de detalles y seleccione el panel Metadatos. A continuación, seleccione una opción en el menú Vista de metadatos para seleccionar un conjunto de campos de metadatos. Dynamic Media Classic ofrece estas vistas de metadatos:
+Para ver los metadatos de un recurso, abra el recurso en la vista de detalles y pulse el panel Metadatos . Para seleccionar un conjunto de campos de metadatos, elija una opción en el menú Vista de metadatos. Dynamic Media Classic ofrece estas vistas de metadatos:
 
 * **Vista compacta**
 Una lista básica de valores.
@@ -59,7 +59,7 @@ Los administradores pueden crear vistas de metadatos. Estas vistas también apar
 
 ## Adición o edición de palabras clave  {#add-or-edit-keywords}
 
-Además de los metadatos, las palabras clave también le pueden servir para buscar y gestionar sus recursos.
+Además de los metadatos, puede utilizar palabras clave para ayudarle a buscar y administrar sus recursos.
 
 Si durante la sesión ha agregado palabras clave para otros archivos, o si las ha eliminado de su lista, aparecerán todas en la tabla Sugerencias de palabras clave.
 
@@ -97,21 +97,21 @@ Puede encontrar más información sobre las propiedades estandarizadas en: https
 
 Tenga en cuenta lo siguiente al identificar diferentes tipos de metadatos para su importación:
 
-* Los campos personalizables se identifican por su nombre según se crearon en Ajustes > Ajustes de aplicación > Metadatos > Campos personalizables. Utilice la función de Generar archivo para obtener una lista de todos los campos personalizables definidos con el formato correcto de importación.
-* Las propiedades de metadatos XMP deben tener el prefijo XMP correspondiente antes que el nombre (propiedad- ). Dos puntos separan el prefijo y el nombre. El prefijo XMP se puede encontrar en Ajustes > Ajustes de aplicación > Metadatos > Editor de esquemas de metadatos. Los nombres técnicos se pueden encontrar en la documentación del esquema de XMP correspondiente. Tenga en cuenta que los nombres de propiedades XMP no aparecen en la función Generar archivo.
-* Las propiedades del esquema de metadatos deben tener el prefijo correspondiente antes del nombre (propiedad- ). Dos puntos separan el prefijo y el nombre. El prefijo y los nombres de propiedad se definen en el editor de esquemas de metadatos. Tenga en cuenta que los nombres de propiedades de los esquemas de metadatos no aparecen en la función Generar archivo.
+* Los campos definidos por el usuario se identifican por su nombre tal y como se crean en Ajustes > Ajustes de aplicación > Metadatos > Campos definidos por el usuario. Utilice la función de Generar archivo para obtener una lista de todos los campos personalizables definidos con el formato correcto de importación.
+* Las propiedades de metadatos XMP deben tener el prefijo XMP correspondiente antes que el nombre (propiedad- ). Dos puntos separan el prefijo y el nombre. El prefijo XMP se puede encontrar en Ajustes > Ajustes de aplicación > Metadatos > Editor de esquemas de metadatos. Los nombres técnicos se pueden encontrar en la documentación del esquema de XMP correspondiente. XMP nombres de propiedades no aparecen en la función Generar archivo.
+* Las propiedades del esquema de metadatos deben tener el prefijo correspondiente antes del nombre (propiedad- ). Dos puntos separan el prefijo y el nombre. El prefijo y los nombres de propiedad se definen en el editor de esquemas de metadatos. Los nombres de las propiedades del esquema de metadatos no aparecen en la función Generar archivo .
 
-Por ejemplo: la propiedad XMP para las palabras clave es el esquema de XMP &quot;Dublin Core&quot; con el prefijo &quot;dc&quot; y &quot;subject&quot; es el nombre técnico de XMP. El prefijo y nombre XMP técnico se combinan en el nombre de propiedad completo &quot;dc:subject&quot;. En el formato importación de metadatos XML, &quot;dc.subject&quot; debe ser el nombre de la propiedad. En el formato de importación delimitado por tabuladores, ése debe ser el encabezado de columna.
+Por ejemplo: la propiedad XMP para las palabras clave es el esquema de XMP &quot;Dublin Core&quot; con el prefijo &quot;dc&quot; y &quot;subject&quot; es el nombre técnico de XMP. El prefijo y nombre XMP técnico se combinan en el nombre de propiedad completo &quot;dc:subject&quot;. En el formato importación de metadatos XML, &quot;dc.subject&quot; debe ser el nombre de la propiedad. En el formato de importación delimitado por tabuladores, debe ser el encabezado de columna.
 
 **Importación de palabras clave**
 
-Las palabras clave se pueden importar como listas separadas por comas. Si una coma aparece en cualquiera de los valores individuales, necesita una barra invertida (\) como carácter de escape. Una barra invertida literal es la barra invertida doble habitual (\\).
+Las palabras clave se pueden importar como lista separada por comas. Si aparece una coma en cualquiera de los valores individuales, debe separarse con una barra invertida (\). Una barra invertida literal es la barra invertida doble habitual (\\).
 
 Por ejemplo, un archivo de importación de metadatos que contenga el valor &quot;Hello\, World!,barra\\invertida,foo&quot; para &quot;dc:subject&quot; presenta tres palabras clave XMP en el recurso: &quot;Hello, World!&quot; &quot;barra\invertida&quot; y &quot;foo&quot;.
 
 **Importación de archivos XMP de metadatos de esquemas de metadatos y XMP**
 
-La importación de XML solo acepta XML válido. Al importar los campos de esquemas de metadatos o XMP, se agrega el prefijo de espacio de nombre y se comporta como un espacio de nombre XMP. Este espacio de nombre se debe declarar, por ejemplo, en la etiqueta de nivel superior.
+La importación de XML solo acepta XML válido. Al importar XMP o campos de Esquema de metadatos, el prefijo de espacio de nombres se agrega y se comporta aquí como un espacio de nombres de XMP. Este espacio de nombres debe declararse. Por ejemplo, en la etiqueta de nivel superior.
 
 Por ejemplo:
 
@@ -131,9 +131,9 @@ Para importar metadatos para varios archivos, introduzca los metadatos en un arc
 
 Asegúrese de que los datos del archivo XML o delimitado por tabuladores tienen el formato correcto. En la primera fila, introduzca el campo de ID seguido de los nombres de los campos de metadatos que desea modificar. En cada fila posterior, introduzca un nombre de ID de recurso seguido de los valores de los metadatos. Los campos que no se incluyen en el archivo XML o delimitado por tabuladores no se modificarán.
 
-Haga clic en el botón Cargar en la barra de navegación global y, en la pantalla Trabajos, elija la ficha Por medio de FTP para importar los metadatos. A continuación, haga clic en Opciones de trabajo. En el cuadro de diálogo Opciones de trabajo de carga, elija Procesar archivos de metadatos.
+Haga clic en el botón Cargar de la barra de navegación global. Para importar los metadatos, en la pantalla Trabajos, seleccione la pestaña **[!UICONTROL Via FTP]** y haga clic en **[!UICONTROL Opciones de trabajo]**. En el cuadro de diálogo Opciones de carga de trabajo, seleccione Procesar archivos de metadatos.
 
-## Cambio de nombre de ID por lotes con metadatos  {#batch-rename-ids-using-metadata}
+## Cambio de nombre de ID por lotes con metadatos {#batch-rename-ids-using-metadata}
 
 Con los metadatos importados desde un archivo delimitado por tabuladores o un archivo XML, puede cambiar el nombre de los Dynamic Media ID Classic. Los metadatos importados solo se aplican a las imágenes que se especifican en el archivo de metadatos. No importa si las imágenes están seleccionadas en el panel Examinar.
 
@@ -146,12 +146,11 @@ Por ejemplo:
 | pruebachaqueta_1 | Prueba_chaqueta_1 |
 | pruebachaqueta_azul | Prueba_chaqueta_2 |
 
+El registro de trabajos del trabajo de metadatos muestra qué ID se renombraron correctamente y cuáles no.
 
-El registro de trabajos para el trabajo de metadatos muestra qué ID se han cambiado correctamente y cuáles no.
+## Creación de una plantilla para la introducción y carga de metadatos {#create-a-template-for-entering-metadata-to-upload}
 
-## Creación de una plantilla para la introducción y carga de metadatos  {#create-a-template-for-entering-metadata-to-upload}
-
-Dynamic Media Classic ofrece un comando para crear una plantilla para registrar metadatos. El uso de la plantilla garantiza que los metadatos se introducen en el formato correcto para que se puedan cargar correctamente en Dynamic Media Classic. Siga estos pasos para crear una plantilla y utilizarla en la grabación e importación de metadatos en Dynamic Media Classic:
+Dynamic Media Classic ofrece un comando para crear una plantilla para registrar metadatos. El uso de la plantilla garantiza que los metadatos se introducen en el formato correcto para que se puedan cargar correctamente en Dynamic Media Classic. Para crear una plantilla y utilizarla en la grabación e importación de metadatos en Dynamic Media Classic, siga estos pasos:
 
 1. Seleccione recursos de imagen con los campos de metadatos que desee incluir en la plantilla.
 1. Elija Archivo > Importar metadatos.
@@ -164,21 +163,21 @@ Dynamic Media Classic ofrece un comando para crear una plantilla para registrar 
 
 Un administrador de empresa puede ver una lista de todos los esquemas disponibles. Abra Ajustes de aplicación > Metadatos > Esquema de metadatos.
 
-Inicialmente, en la lista, los esquemas de estándares globales como XMP se encuentran ocultos. Para verlos, use la casilla de verificación de la parte inferior de la lista.
+Inicialmente, la lista de esquemas estándar globales como XMP está oculta. Para verlos, use la casilla de verificación de la parte inferior de la lista.
 
-Los administradores de empresa pueden crear un nuevo esquema personalizado o editar un esquema personalizado existente.
+El administrador de la empresa puede crear un esquema personalizado o editar uno existente.
 
 Puede utilizar el editor de esquemas de metadatos para realizar las siguientes acciones:
 
 | Acción | Descripción |
 |--- |--- |
-| Agregar | Añade una nueva propiedad al esquema. Un cuadro de diálogo modal recopila la siguiente información: ID, etiqueta, estructura y tipo de datos. |
-| Agregar valor de opción | Agrega una nueva opción seleccionable a una propiedad con estructura Opción abierta u Opción cerrada. Todos los valores de opción son del mismo tipo. Debe seleccionar la propiedad para activar el botón. |
+| Agregar | Agrega una propiedad al esquema. Un cuadro de diálogo modal recopila la información: ID, etiqueta, estructura y tipo de datos. |
+| Agregar valor de opción | Agrega una nueva opción seleccionable a una propiedad con estructura Opción abierta u Opción cerrada. Todos los valores de opción son del mismo tipo. Seleccione la propiedad misma para activar el botón. |
 | Editar | Permite editar la etiqueta de una propiedad o valor de opción. Solo se puede cambiar la etiqueta, ID, y la información de tipo es inmutable. |
-| Mover hacia arriba/Mover hacia abajo | El orden en el esquema se refleja en la interfaz de usuario. Para cambiar el orden, seleccione una propiedad o un valor de opción, y muévalos con los botones. La función de arrastrar y soltar no se admite en este momento. |
-| Eliminar | Elimina una propiedad o un valor de opción del esquema. No elimina los valores del bloque XMP ni la base de datos. La propiedad ya no está disponible para vistas de metadatos y se elimina de la vista de detalles del recurso. Si la propiedad se ha publicado en el servidor de metadatos, fuerce la publicación para eliminar los datos del servidor de metadatos público. |
+| Mover hacia arriba/Mover hacia abajo | El orden en el esquema se refleja en la interfaz de usuario. Para cambiar el orden, seleccione una propiedad o un valor de opción, y muévalos con los botones. Arrastrar y soltar no es compatible actualmente. |
+| Eliminar | Elimina una propiedad o un valor de opción del esquema. No elimina valores del bloque XMP o de la base de datos. La propiedad ya no está disponible para las vistas de metadatos y se elimina de la vista de detalles del recurso. Si la propiedad se publicó en el servidor de metadatos, realice una publicación forzada para eliminar los datos del servidor de metadatos público. |
 
-El sistema genera automáticamente un esquema personalizado para los campos definidos por el usuario con el prefijo &quot;s7udf&quot;. Éstos son los campos definidos por el usuario existentes y se editan en su propia sección de ajustes.
+El sistema genera automáticamente un esquema personalizado para los campos definidos por el usuario con el prefijo &quot;s7udf&quot;. Son campos definidos por el usuario y se editan en su propia sección de configuración.
 
 >[!NOTE]
 >
@@ -192,7 +191,7 @@ El Editor de esquemas de metadatos ofrece una forma gráfica de agregar o editar
 
 * Prefijo
 
-   Identificador técnico exclusivo para el esquema. Limitado a las letras a-z y A-Z. El prefijo no está visible en la interfaz de usuario de Dynamic Media Classic, pero se utiliza cuando los metadatos de un recurso se almacenan en el bloque XMP y en nuestra base de datos. El prefijo se usa para identificar de forma exclusiva los campos de metadatos en las consultas de búsqueda de metadatos en el servidor de metadatos o durante la importación.
+   Identificador técnico exclusivo para el esquema. Limitado a las letras a-z y A-Z. El prefijo no está visible en la interfaz de usuario de Dynamic Media Classic, pero se utiliza cuando los metadatos de un recurso se almacenan en el bloque XMP y en la base de datos. El prefijo se usa para identificar de forma exclusiva los campos de metadatos en las consultas de búsqueda de metadatos en el servidor de metadatos o durante la importación.
 
 * Espacio de nombre
 
@@ -210,7 +209,7 @@ Las propiedades describen los metadatos que se pueden almacenar con este esquema
 
 | Propiedad | Descripción |
 |--- |--- |
-| ID | Identificador técnico para esta propiedad. El ID no está visible en la interfaz de usuario de Dynamic Media Classic, pero se utiliza cuando los metadatos de un recurso se almacenan en el bloque XMP y en nuestra base de datos. Este código se utiliza para crear consultas de búsqueda en el servidor de metadatos. El ID tiene algunas limitaciones, por ejemplo: <ul><li>No puede contener espacios</li><li>No &quot;.&quot;, &quot;:&quot;, &quot;$&quot;</li><li>No puede contener un número como primer carácter</li><li>Lo mejor es utilizar una letra de a-z o A-Z como primer carácter</li></ul> <br>Una vez creado, el ID no se puede modificar. |
+| ID | Identificador técnico para esta propiedad. El ID no está visible en la interfaz de usuario de Dynamic Media Classic, pero se utiliza cuando los metadatos de un recurso se almacenan en el bloque XMP y en la base de datos. Este código se utiliza para crear consultas de búsqueda en el servidor de metadatos. El ID tiene algunas limitaciones, por ejemplo: <ul><li>No puede contener espacios</li><li>No &quot;.&quot;, &quot;:&quot;, &quot;$&quot;</li><li>No puede contener un número como primer carácter</li><li>Lo mejor es utilizar una letra de a-z o A-Z como primer carácter</li></ul> <br>Una vez creado, el ID no se puede modificar. |
 | Etiqueta | Nombre de interfaz de usuario para esta propiedad. |
 | Estructura | Determina el tipo de la propiedad junto con el tipo de datos. La estructura puede ser uno de los siguientes valores:<ul><li>Tipo simple: solo el valor del tipo de datos.</li><li>Secuencia: una lista de valores del mismo tipo de datos.</li><li>Opción abierta: seleccione un elemento de la lista de valores predefinidos, o introduzca texto libre. El tipo de datos solo puede ser Cadena o Entero.</li><li>Opción cerrada: seleccione un elemento de la lista de valores predefinidos (una ventana emergente o un cuadro combinado).</li></ul> |
 | Tipo de datos | Seleccione uno de estos tipos disponibles: <ul><li>Cadena</li><li>Entero</li><li>Flotante</li><li>Sí/No (booleano)</li><li>Fecha</li></ul> |
