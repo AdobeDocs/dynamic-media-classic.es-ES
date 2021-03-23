@@ -10,10 +10,10 @@ discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
 feature: Dynamic Media Classic,Visualizadores,Vídeo
 role: Profesional empresarial
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 25%
+source-wordcount: '427'
+ht-degree: 13%
 
 ---
 
@@ -24,7 +24,13 @@ Los ajustes preestablecidos del visor de vídeo HTML5 de Dynamic Media Classic s
 
 En la parte de reproducción del visor, se detecta de forma automática la funcionalidad de vídeo del navegador. A continuación, sirve el vídeo utilizando HLS (flujo de vídeo adaptable). O, si ese método de envío no está presente, se utiliza HTML5 progresiva en su lugar.
 
-Al combinar en un solo reproductor la capacidad para diseñar los componentes reproducción mediante HTML5 y CSS, tener la reproducción incorporada y usar flujo adaptable y progresivo en función de la capacidad del navegador, se amplía el alcance del contenido de medios enriquecidos para los usuarios móviles y escritorio y se garantiza una experiencia optimizada de vídeo.
+Combinando en un solo reproductor las siguientes capacidades:
+
+* Componentes de reproducción diseñados con HTML5 y CSS
+* Reproducción incrustada
+* Uso de flujo adaptable y progresivo basado en la capacidad del explorador
+
+Puede ampliar el alcance del contenido multimedia enriquecido a los usuarios de escritorio y móviles. También garantiza una experiencia de vídeo optimizada.
 
 Consulte también [Acerca de los visores HTML5](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only) en la Guía de referencia de visores de Adobe.
 
@@ -38,15 +44,15 @@ En la tabla siguiente se describe el dispositivo, el navegador y el método de r
 
 | Dispositivo | Explorador | Modo de reproducción de vídeo |
 |--- |--- |--- |
-| Deskop | Internet Explorer 9 y 10 | Descarga progresiva. |
+| Ordenador | Internet Explorer 9 y 10 | Descarga progresiva. |
 | Ordenador | Internet Explorer 11+ | Flujo continuo de vídeo HLS. |
 | Ordenador | Firefox 23-44 | Descarga progresiva. |
 | Ordenador | Firefox 45 o posterior | Flujo continuo de vídeo HLS. |
 | Ordenador | Chrome | Flujo continuo de vídeo HLS. |
 | Ordenador | Safari (Mac) | Flujo continuo de vídeo HLS. |
-| Dispositivos portátiles | Chrome (Android 6 o anterior) | Descarga progresiva. |
-| Dispositivos portátiles | Chrome (Android 7 o posterior) | Flujo continuo de vídeo HLS. |
-| Dispositivos portátiles | Android (explorador predeterminado) | Descarga progresiva. |
+| Dispositivos portátiles | Chrome (Android™ 6 o anterior) | Descarga progresiva. |
+| Dispositivos portátiles | Chrome (Android™ 7 o posterior) | Flujo continuo de vídeo HLS. |
+| Dispositivos portátiles | Android™ (navegador predeterminado) | Descarga progresiva. |
 | Dispositivos portátiles | Safari (iOS) | Flujo continuo de vídeo HLS. |
 | Dispositivos portátiles | Chrome (iOS) | Flujo continuo de vídeo HLS. |
-| Dispositivos portátiles | Blackberry | Flujo continuo de vídeo HLS. |
+| Dispositivos portátiles | Blackberry® | Flujo continuo de vídeo HLS. |
