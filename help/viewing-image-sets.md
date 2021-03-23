@@ -10,10 +10,10 @@ discoiquuid: 027aa3e0-f085-48ae-aff9-7b805bbdf8ab
 feature: Dynamic Media Classic,Visualizadores,Conjuntos de imágenes
 role: Profesional empresarial
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 88%
+ht-degree: 80%
 
 ---
 
@@ -37,7 +37,7 @@ Puede crear y personalizar ajustes preestablecidos de visor de acuerdo con sus n
 
 1. Elija las opciones deseadas en la pantalla Configurar visor. 
 
-   Para ver una descripción de una opción, haga clic en el icono de información  que aparece junto a ella.
+   Para ver una descripción de una opción, haga clic en el icono Información junto a la opción.
 
    La pantalla Vista previa muestra el visor mientras actualiza y cambia la configuración.
 
@@ -57,11 +57,11 @@ Utilice Vista previa para comprobar cómo se muestra un recurso en una plataform
    * En la ventana Recursos, seleccione un recurso. En la barra de herramientas, haga clic en **Archivo** > **Vista previa**.
 
 1. (Opcional) En la lista desplegable de la parte inferior de la ventana Vista previa, seleccione la codificación de URL que desee aplicar a la dirección URL del recurso cuando se copie.
-1. Haga clic en el vínculo de un visor para obtener la vista previa del recurso en el visor seleccionado.
+1. Para obtener una vista previa del recurso en el visor seleccionado, haga clic en un vínculo del visor.
 
    Al hacer clic en un vínculo de visor determinado, se copia la URL asociada en el portapapeles automáticamente.
 
-1. Cierre el visor mostrado para volver a la pantalla Vista previa.
+1. Para volver a la pantalla Vista previa, cierre el visor mostrado.
 1. Haga clic en **Cerrar** para volver a la pantalla Recursos.
 
 >[!MORELIKETHIS]
