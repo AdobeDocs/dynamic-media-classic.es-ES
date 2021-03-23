@@ -10,10 +10,10 @@ discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
 feature: Dynamic Media Classic,Administración de recursos
 role: Profesional empresarial
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
-source-wordcount: '1605'
-ht-degree: 71%
+source-wordcount: '1586'
+ht-degree: 60%
 
 ---
 
@@ -26,23 +26,23 @@ Cuando carga recursos, aparece un icono que gira junto al menú Trabajos que ind
 
 >[!NOTE]
 >
->También puede acceder a la lista con las publicaciones recientes desde la página Actividad reciente. Haga clic en Reciente en la barra de navegación global para abrir esta página.
+>También puede acceder a la lista con las publicaciones recientes desde la página Actividad reciente. Haga clic en **[!UICONTROL Reciente]** en la barra de navegación global para abrir esta página.
 
-## Acerca de la página Trabajos  {#about-the-jobs-page}
+## Acerca de la página Trabajos {#about-the-jobs-page}
 
-Seleccione el botón Trabajos en la barra de navegación global para abrir la página Trabajos. De forma predeterminada, la lista de trabajos empieza por los trabajos más recientes.
+Seleccione **[!UICONTROL Jobs]** en la barra de navegación global para abrir la página Trabajos. De forma predeterminada, la lista de trabajos empieza por los trabajos más recientes.
 
 En la ficha Historial de la página Trabajos, los trabajos se clasifican según estas categorías:
 
 **Tipo de** trabajoUn icono indica el tipo de trabajo: Cargar y publicar son los tipos de trabajo más comunes.
 
-**Nombre** del trabajoEl nombre del trabajo. El nombre está formado por la parte introducida por el usuario y el sello de fecha y hora.
+**Nombre** del trabajoEl nombre del trabajo. El nombre incluye la parte introducida por el usuario del nombre y la fecha y hora.
 
 **** ComenzadoCuando se inició el trabajo.
 
 **** Total: el número de archivos transferidos.
 
-**W (advertencias)** El número de advertencias en el trabajo (si las hay). Las advertencias indican los problemas sobre el trabajo que no afectan a la finalización del mismo. Normalmente, estas advertencias pueden omitirse porque se refieren a archivos ocultos. Por ejemplo, los archivos .DS_store (Macintosh) y Thumbs.db (Windows) contienen información sobre la manera en que los usuarios finales ven los archivos de imagen. Sin embargo, las entradas de advertencia relativas a estos archivos se pueden ignorar porque no se refieren a cómo se utilizan estos archivos en Dynamic Media Classic. Si desea obtener información detallada sobre las advertencias, puede hacer doble clic en el nombre de trabajo.
+**W (advertencias)** El número de advertencias en el trabajo (si las hay). Las advertencias indican los problemas sobre el trabajo que no afectan a la finalización del mismo. Normalmente, estas advertencias pueden omitirse porque se refieren a archivos ocultos. Por ejemplo, los archivos `.DS_store` (Macintosh) y Thumbs.db (Windows®) contienen información sobre cómo mostrar los archivos de imagen a los usuarios. Sin embargo, las entradas de advertencia relativas a estos archivos se pueden ignorar porque no se refieren a cómo se utilizan estos archivos en Dynamic Media Classic. Si desea obtener información detallada sobre las advertencias, puede hacer doble clic en el nombre de trabajo.
 
 **E (errores)** Muestra el número de errores en el trabajo (si los hay). Si desea obtener información detallada sobre los errores, puede hacer doble clic en el nombre de trabajo.
 
@@ -50,7 +50,7 @@ En la ficha Historial de la página Trabajos, los trabajos se clasifican según 
 
 **** StatusMuestra el estado del trabajo.
 
-**** DestinoPara los trabajos de carga, el nombre de la empresa y la carpeta a la que se cargaron los archivos. Esta categoría no se aplica a los trabajos de publicación.
+**** DestinoPara los trabajos de carga, el nombre de la empresa y la carpeta en la que se cargaron los archivos. Esta categoría no se aplica a los trabajos de publicación.
 
 **Enviado** porListas que cargaron los recursos.
 
@@ -62,7 +62,7 @@ Para ordenar trabajos o cambiar la vista de la ficha Historial en la página Tra
 
 **** SortingSeleccione un nombre de columna para ordenar la lista por una columna concreta. Para cambiar entre el orden ascendente o descendente, seleccione la flecha que aparece al lado del nombre de la columna.
 
-**Intervalo de** fechasSeleccione el menú Intervalo de fechas y elija una opción para reducir la lista de trabajos a la fecha actual, a la semana anterior o al mes anterior. Elija Intervalo de fechas personalizado para introducir un intervalo de fechas específico.
+**Intervalo de** fechasSeleccione el menú Intervalo de fechas y elija una opción para reducir la lista de trabajos a la fecha actual, a la semana anterior o al mes anterior. Elija Intervalo de fechas personalizado e introduzca un intervalo de fechas específico.
 
 **Tipo de** trabajoSeleccione el menú Tipo de trabajo y elija Publicar o Cargar para reducir la lista para publicar trabajos o cargar trabajos. Elija Todo para ver ambos tipos de trabajo.
 
@@ -116,27 +116,27 @@ En esta tabla se muestran los períodos temporales, los valores permitidos y los
 
 | Períodos temporales | Valores permitidos | Comentarios | Comodines admitidos |
 |--- |--- |--- |--- |
-| Segundos | 0-59 |  | , - * / |
-| Minutos | 0-59 |  | , - * / |
-| Horas | 0-23 | Tenga en cuenta que se utiliza un reloj de 24 horas. | , - * / |
-| Día del mes | 1-31 | No puede especificar un valor numérico tanto para &quot;día del mes&quot; como para &quot;día de la semana&quot;. Uno de estos campos debe usar el símbolo ?, que actúa como comodín. | , - * / ? L C |
-| Mes | 1-12 o Ene, Feb, Mar, Abr, Mayo, Jun, Julio, Ago, Sep, Sep, Oct, Nov, Dic | Los valores distinguen entre mayúsculas y minúsculas. | , - * / |
-| Día de la semana | lun, mar, mié, jue, vie, sáb, dom | Los valores distinguen entre mayúsculas y minúsculas. No puede especificar un valor numérico tanto para &quot;día del mes&quot; como para &quot;día de la semana&quot;. Uno de estos campos debe usar el símbolo ?, que actúa como comodín. | , - * / ? L C # |
-| Año (opcional) | Vacío o 1970-2099 |  | , - * / |
+| Segundos | 0-59 |  | `, - * /` |
+| Minutos | 0-59 |  | `, - * /` |
+| Horas | 0-23 | Tenga en cuenta que se utiliza un reloj de 24 horas. | `, - * /` |
+| Día del mes | 1-31 | No puede especificar un valor numérico tanto para &quot;día del mes&quot; como para &quot;día de la semana&quot;. Uno de estos campos debe utilizar un carácter comodín `?` . | `, - * / ? L C` |
+| Mes | 1-12 o Ene, Feb, Mar, Abr, Mayo, Jun, Julio, Ago, Sep, Sep, Oct, Nov, Dic | Los valores distinguen entre mayúsculas y minúsculas. | `, - * /` |
+| Día de la semana | lun, mar, mié, jue, vie, sáb, dom | Los valores distinguen entre mayúsculas y minúsculas. No puede especificar un valor numérico tanto para &quot;día del mes&quot; como para &quot;día de la semana&quot;. Uno de estos campos debe usar el símbolo ?, que actúa como comodín. | `, - * / ? L C #` |
+| Año (opcional) | Vacío o 1970-2099 |  | `, - * /` |
 
 
 En esta tabla se muestran los caracteres comodín que se admiten en el cuadro Regla y cómo se utilizan estos caracteres:
 
 | Carácter comodín | Nombre | Qué describe |
 |--- |--- |--- |
-| * | Asterisco | Todos los valores (por ejemplo, &quot;cada minuto&quot;). |
-| ? | Signo de interrogación | Ningún valor específico (por ejemplo, &quot;cualquier minuto dentro de la hora especificada&quot;). |
-| , | Coma | Valores adicionales (por ejemplo, &quot;lunes y miércoles&quot;). |
-| - | Guión | Intervalo de valores (por ejemplo, &quot;de lunes a viernes&quot;). |
-| / | Barra diagonal | Períodos (por ejemplo, &quot;cada 15 minutos&quot;). |
-| L | L mayúscula | Último &quot;día del mes&quot; o &quot;día de la semana&quot; (solo disponible para estos campos). Por ejemplo, si el mes es enero y se escribe el valor L en el campo &quot;día del mes&quot; el trabajo se programa para el 31 de enero.En el campo &quot;día de la semana&quot;, puede introducir este carácter si desea programar el trabajo para que se ejecute los sábados. Puede usarlo con un número (por ejemplo, 6L) para especificar el último viernes del mes. No especifique L con los caracteres comodín de coma o guión. |
-| # | Almohadilla | Número del día de la semana dentro del mes (solo disponible para el campo &quot;día de la semana&quot;).Por ejemplo, si introduce 5#3 en el campo &quot;día de la semana&quot; el trabajo se ejecutará en tercer viernes del mes. El 5 representa el &quot;viernes&quot; (el quinto día de la semana) y el 3 equivale a la tercera vez que se da en el mes. |
-| C | # C mayúscula | Primer &quot;día del mes&quot; o &quot;día de la semana&quot; en el calendario (solo disponible para estos campos). Por ejemplo, si se especifica un valor de 1C para &quot;día del mes&quot;, se programará el primer día del calendario que se produzca en el quinto día o después de él. Para el campo &quot;día de la semana&quot;, si se especifica 1C, se programará el primer día del calendario que se produzca el domingo o después de él |
+| `*` | Asterisco | Todos los valores (por ejemplo, &quot;cada minuto&quot;). |
+| `?` | Signo de interrogación | Ningún valor específico (por ejemplo, &quot;cualquier minuto dentro de la hora especificada&quot;). |
+| `,` | Coma | Otros valores (por ejemplo, &quot;lunes y miércoles&quot;). |
+| `-` | Guión | Intervalo de valores (por ejemplo, &quot;de lunes a viernes&quot;). |
+| `/` | Barra diagonal | Períodos (por ejemplo, &quot;cada 15 minutos&quot;). |
+| `L` | L mayúscula | Último &quot;día del mes&quot; o &quot;día de la semana&quot; (solo disponible para estos campos). Por ejemplo, si el mes es enero y se escribe el valor L en el campo &quot;día del mes&quot; el trabajo se programa para el 31 de enero. En el campo &quot;día de la semana&quot;, puede introducir este carácter si desea programar el trabajo para que se ejecute los sábados. Puede usarlo con un número (por ejemplo, `6L`) para especificar el último viernes del mes. No especifique `L` con los caracteres comodín de coma o guión. |
+| `#` | Almohadilla | Número del día de la semana dentro del mes (solo disponible para el campo &quot;día de la semana&quot;). Por ejemplo, `6#3` en el campo &quot;día de la semana&quot; especifica el tercer viernes del mes. El `6` indica &quot;viernes&quot; (sexto día de la semana) y el `3` indica la tercera incidencia del mes. |
+| `C` | # C mayúscula | Primer &quot;día del mes&quot; o &quot;día de la semana&quot; en el calendario (solo disponible para estos campos). Por ejemplo, si se especifica un valor de `1C` para &quot;día del mes&quot;, se programará el primer día del calendario que se produzca en o después del quinto día. Para el campo &quot;día de la semana&quot;, al especificar `1C` se programará el primer día del calendario que se produzca el domingo o después de él |
 
 En esta lista se pueden ver ejemplos de cómo se describen los intervalos de tiempo en el cuadro Regla:
 
@@ -153,6 +153,6 @@ En esta lista se pueden ver ejemplos de cómo se describen los intervalos de tie
 
 ## Uso de un trabajo de carga o publicación como desencadenador  {#using-an-upload-or-publish-job-as-a-trigger}
 
-Al cargar recursos por medio de FTP o al ejecutar un trabajo de publicación, se programa un trabajo posterior que se iniciará en cuanto finalice la carga. (Si hay otros trabajos programados para ese mismo momento, el trabajo que programe aquí se colocará detrás de ellos). El nuevo trabajo envía una notificación a la dirección especificada para activar el código de esa ubicación. Este trabajo de carga que sigue recibe el mismo nombre que el trabajo de carga actual, pero se le añade el prefijo _Pub.
+Cuando se cargan recursos a través de FTP o se ejecuta un trabajo de publicación, se puede programar el inicio de un trabajo posterior una vez finalizada la carga. (Si hay otros trabajos programados para empezar, el trabajo que programe aquí se colocará detrás de ellos). El nuevo trabajo envía una notificación a la dirección especificada para activar el código de esa ubicación. Este trabajo de carga que sigue recibe el mismo nombre que el trabajo de carga actual, pero se le añade el prefijo _Pub.
 
 Para hacer que un trabajo de carga o publicación desencadene otro trabajo, seleccione Avanzada en la página de carga o publicación. A continuación, introduzca la URL en el campo de texto Notificación http.
