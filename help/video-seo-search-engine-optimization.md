@@ -10,10 +10,10 @@ discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 feature: Dynamic Media Classic
 role: Administrador
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
 source-wordcount: '982'
-ht-degree: 66%
+ht-degree: 62%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 66%
 
 La optimización para motores de búsqueda de vídeos es el proceso que consiste en mejorar el volumen del tráfico a un sitio web desde motores de búsqueda. Aunque los motores de búsqueda destacan por reunir información sobre el contenido basado en texto, no consiguen adquirir de forma adecuada información sobre vídeos a menos que se les proporcione.
 
-Con Dynamic Media Classic Video SEO, puede aprovechar los metadatos de vídeo para ofrecer a los motores de búsqueda descripciones de los vídeos. Dynamic Media Classic proporciona la capacidad de crear mapas del sitio de vídeo y fuentes mRSS. que son archivos XML estándar para enviar información sobre los vídeos a los motores de búsqueda:
+Con Dynamic Media Classic Video SEO, puede aplicar metadatos de vídeo para proporcionar a los motores de búsqueda descripciones de los vídeos. Dynamic Media Classic le permite crear mapas del sitio de vídeo y fuentes mRSS. Estos archivos XML estándar se utilizan para enviar información de vídeo a los motores de búsqueda:
 
-**Video** SitemapInforma a Google exactamente dónde y qué contenido del vídeo se encuentra en un sitio. Por consiguiente, es posible buscar los vídeos en Google. Por ejemplo, un mapa de vídeos puede especificar el tiempo de reproducción y las categorías de los vídeos. Para obtener más información sobre los mapas del sitio de vídeo, consulte https://www.google.com/support/webmasters/bin/answer.py?answer=80471.
+**Video** SitemapInforma a Google exactamente dónde y qué contenido del vídeo se encuentra en un sitio. Por lo tanto, los vídeos se pueden buscar completamente en Google. Por ejemplo, un mapa de vídeos puede especificar el tiempo de reproducción y las categorías de los vídeos. Para obtener más información sobre los mapas del sitio de vídeo, consulte https://www.google.com/support/webmasters/bin/answer.py?answer=80471.
 
 **Fuente mRSS (Media Realmente Simple Syndication)** Utilizada por los editores de contenido para enviar archivos multimedia a Yahoo! búsqueda de vídeos de Yahoo!. Para obtener información sobre las fuentes mRSS, consulte https://www.rssboard.org/media-rss.
 
@@ -62,7 +62,7 @@ En la lista desplegable Modo de creación, elija un modo de informe:
 
 **** AmbosCree ambos tipos de archivos XML.
 
-**** OffElija esta opción para dejar de generar mapas de vídeos y fuentes RSS (mRSS).
+**** OffPara detener la generación de mapas de vídeos y fuentes RSS de medios (mRSS), elija esta opción.
 
 En la lista desplegable Modo automático/manual, elija si la creación se realiza de manera automática o manual:
 
@@ -93,7 +93,7 @@ En el área Configuración de creación se muestran los campos de entrada del ma
 
 >[!NOTE]
 >
->Es preciso publicar los mapas de vídeos o los recursos mRSS para poder enviarlos a los motores de búsqueda. Los archivos de mapas de vídeos y de recursos mRSS se almacenan en la carpeta raíz de la empresa. Si es necesario, marque estos archivos XML para su publicación y haga clic en Publicar.
+>Publique el mapa del sitio del vídeo o la fuente mRSS para poder enviarlo a los motores de búsqueda. Los archivos de mapas de vídeos y de recursos mRSS se almacenan en la carpeta raíz de la empresa. Si es necesario, marque estos archivos XML para su publicación y haga clic en Publicar.
 
 ## Envío de archivos de mapas de vídeos y recursos mRSS a los motores de búsqueda  {#submitting-video-sitemap-and-mrss-feed-files-to-search-engines}
 
