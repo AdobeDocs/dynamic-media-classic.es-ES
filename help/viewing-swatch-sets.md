@@ -10,10 +10,10 @@ discoiquuid: 48de8604-2bb4-4862-82ee-0c7847f0d0e7
 feature: Dynamic Media Classic,Visualizadores
 role: Profesional empresarial
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 85%
+source-wordcount: '435'
+ht-degree: 71%
 
 ---
 
@@ -31,13 +31,13 @@ Puede crear y personalizar ajustes preestablecidos de visor de acuerdo con sus n
 1. Haga clic en **Ajustes** > **Ajustes preestablecidos de visor**.
 1. Realice una de las siguientes acciones:
 
-   * Para crear un nuevo ajuste preestablecido, haga clic en **Agregar**. En el cuadro de diálogo Agregar ajuste preestablecido de visualizador, seleccione una plataforma, elija Visualizador de conjuntos de muestras y haga clic en **Agregar**.
+   * Para crear un ajuste preestablecido, haga clic en **Add**. En el cuadro de diálogo Agregar ajuste preestablecido de visualizador, seleccione una plataforma, elija Visualizador de conjuntos de muestras y haga clic en **Agregar**.
    * Para editar un ajuste preestablecido de visualizador de conjuntos de muestras existente, seleccione el ajuste preestablecido y haga clic en **Editar**.
 
 1. Escriba un nombre en el cuadro Nombre de ajuste preestablecido para el ajuste preestablecido del visor de conjuntos de muestras.
 1. Elija las opciones deseadas en la pantalla Configurar visor. 
 
-   Para ver una descripción de una opción, haga clic en el icono de información  que aparece junto a ella.
+   Para ver una descripción de una opción, haga clic en el icono Información junto a la opción.
 
    La pantalla Vista previa muestra el visor mientras actualiza y cambia la configuración.
 
@@ -47,7 +47,7 @@ Puede crear y personalizar ajustes preestablecidos de visor de acuerdo con sus n
 
 Utilice Vista previa para comprobar cómo se muestra un recurso en una plataforma de visor concreta como HTML5. Según el tipo de recurso y el visor asociado cuya vista previa haya seleccionado, no todas las plataformas se encuentran disponibles en Vista previa.
 
-1. En la lista desplegable Mostrar del panel Biblioteca de recursos del lado izquierdo, seleccione un tipo de recurso basado en conjuntos de muestras como Conjunto de muestras.
+1. En el panel Biblioteca de recursos del lado izquierdo, en la lista desplegable Mostrar , seleccione un tipo de recurso basado en conjuntos de muestras, como Conjunto de muestras.
 1. En el panel Biblioteca de recursos del lado izquierdo, navegue a las carpetas de recursos que contengan el conjunto de muestras cuya vista previa desee obtener con un visor.
 1. Realice una de las acciones siguientes:
 
@@ -57,11 +57,11 @@ Utilice Vista previa para comprobar cómo se muestra un recurso en una plataform
    * En la ventana Recursos, seleccione un recurso. En la barra de herramientas, haga clic en **Archivo** > **Vista previa**.
 
 1. (Opcional) En la lista desplegable de la parte inferior de la ventana Vista previa, seleccione la codificación de URL que desee aplicar a la dirección URL del recurso cuando se copie.
-1. Haga clic en el vínculo de un visor para obtener la vista previa del recurso en el visor seleccionado.
+1. Para obtener una vista previa del recurso en el visor seleccionado, haga clic en un vínculo del visor.
 
    Al hacer clic en un vínculo de visor determinado, se copia la URL asociada en el portapapeles automáticamente.
 
-1. Cierre el visor mostrado para volver a la pantalla Vista previa.
+1. Para volver a la pantalla Vista previa, cierre el visor mostrado.
 1. Haga clic en **Cerrar** para volver a la pantalla Recursos.
 
 >[!MORELIKETHIS]
