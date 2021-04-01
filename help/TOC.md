@@ -1,5 +1,5 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: Adobe Dynamic Media Classic
 audience: end-user
 user-guide-title: Guía de Adobe Dynamic Media Classic
@@ -7,7 +7,7 @@ breadcrumb-title: Guía de Dynamic Media Classic
 user-guide-description: Más información sobre el uso de Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: 94f0166a975b681eef355ada47750a33f2d2e65f
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 77%
@@ -18,11 +18,11 @@ ht-degree: 77%
 # Guía de Adobe Dynamic Media Classic  {#using}
 
 + [Guía de Adobe Dynamic Media Classic](home.md)
-+ [Tutorial de optimizaciones](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [NUEVA experiencia de inicio de sesión en Dynamic Media Classic ahora disponible](new-ui-2020.md)
-+ [Boletín de Dynamic Media de Experience League](dynamic-media-newsletter.md)
++ [Tutorial de prácticas recomendadas](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
++ [La nueva experiencia de inicio de sesión de Dynamic Media Classic ya está disponible](new-ui-2020.md)
++ [Newsletter de Dynamic Media para Experience League](dynamic-media-newsletter.md)
 + Presentación de Adobe Dynamic Media Classic {#intro}
-   + [Aplicación de escritorio de Adobe Dynamic Media Classic - Ya disponible](dynamic-media-classic-desktop-app.md)
+   + [Adobe Aplicación de escritorio Dynamic Media Classic: ya disponible](dynamic-media-classic-desktop-app.md)
    + [Acerca de la Ayuda de Dynamic Media Classic](introduction.md)
    + [Recursos para desarrolladores](developer-resources.md)
    + [Novedades](whats-new.md)
@@ -33,7 +33,7 @@ ht-degree: 77%
    + [Recursos habituales](popular-resources.md)
    + [Videos de capacitación](training-videos.md)
 + Introducción {#getting-started}
-   + [Descripción general de la plataforma de Adobe Dynamic Media Classic](dmc-platform-overview.md)
+   + [Información general sobre la plataforma de Adobe Dynamic Media Classic](dmc-platform-overview.md)
    + [Media Portal](media-portal.md)
    + [Inicio y cierre de sesión](signing-out.md)
    + [Nociones básicas de navegación](navigation-basics.md)
@@ -47,7 +47,7 @@ ht-degree: 77%
    + [Ajustes de administración](administration-setup.md)
 + Media Portal {#media-portal}
    + [Requisitos del sistema](system-requirements-1.md)
-   + [Inicio rápido: Media Portal](quick-start-media-portal-administration.md)
+   + [Inicio rápido: Portal de medios](quick-start-media-portal-administration.md)
    + [Funciones de usuario en Media Portal](media-portal-user-roles.md)
    + [Creación y administración de grupos de Media Portal](creating-media-portal-groups.md)
    + [Adición y administración de usuarios de Media Portal](adding-media-portal-users.md)
@@ -63,7 +63,7 @@ ht-degree: 77%
    + [Prueba de los recursos antes de hacerlos públicos](testing-assets-making-them-public.md)
    + [Comprobación de archivos de trabajo](checking-job-files.md)
 + Administración de recursos {#managing-assets}
-   + [Acerca de la administración de recursos](about-managing-assets.md)
+   + [Acerca de la gestión de recursos](about-managing-assets.md)
    + [Uso de carpetas de recursos](asset-folders.md)
    + [Visualización de recursos en el panel Examinar](viewing-assets-browse-panel.md)
    + [Selección de recursos en el panel Examinar](selecting-assets-browse-panel.md)
@@ -96,7 +96,7 @@ ht-degree: 77%
    + [Carga de archivos PDF](uploading-pdf-files.md)
    + [Creación de un catálogo electrónico](creating-ecatalog.md)
    + [Creación de mapas de imagen de catálogos electrónicos](creating-ecatalog-image-maps.md)
-   + [Administración del contenido del panel de información en catálogos electrónicos](info-panel-content.md)
+   + [Administración del contenido del panel de información en los catálogos electrónicos](info-panel-content.md)
    + [Configuración de ajustes preestablecidos del visor de catálogos electrónicos](setting-ecatalog-viewer-presets.md)
    + [Vista previa de catálogos electrónicos en el visor de catálogos electrónicos](previewing-ecatalogs-ecatalog-viewer.md)
    + [Publicación de catálogos electrónicos y archivos PDF asociados](publishing-ecatalogs-associated-pdfs.md)
@@ -106,7 +106,7 @@ ht-degree: 77%
    + [Preparación de recursos de conjunto de imágenes para cargar](preparing-image-set-assets-upload.md)
    + [Creación de un conjunto de imágenes](creating-image-set.md)
    + [Inclusión de destinos de zoom y mapas de imagen en conjuntos de imágenes](including-zoom-targets-image-maps.md)
-   + [Gestión del contenido del panel de información en los conjuntos de imágenes](info-panel-content-1.md)
+   + [Administración del contenido del panel de información en conjuntos de imágenes](info-panel-content-1.md)
    + [Visualización de conjuntos de imágenes](viewing-image-sets.md)
    + [Generación automatizada de conjuntos de imágenes](automated-image-set-generation.md)
    + [Vinculación de un conjunto de imágenes a una página web](linking-image-set-web-page.md)
@@ -124,7 +124,7 @@ ht-degree: 77%
    + [Publicación de un conjunto de giros](publishing-spin-set.md)
    + [Configuración de ajustes preestablecidos del visor de conjunto de giros](setting-spin-set-viewer-presets.md)
    + [Vinculación de un conjunto de giros a una página web](linking-spin-set-web-page.md)
-+ Aspectos básicos de la plantilla {#template-basics}
++ Conceptos básicos de plantilla {#template-basics}
    + [Inicio rápido: Funciones básicas de plantilla](quick-start-template-basics.md)
    + [Carga de archivos de plantilla](uploading-template-files.md)
    + [Crear una plantilla](creating-template.md)
@@ -156,7 +156,7 @@ ht-degree: 77%
    + [Prueba de integración mediante la visualización de un informe de Adobe Analytics](testing-integration-viewing-analytics-report.md)
    + [Activación de los informes de vídeo de Adobe Analytics](enabling-analytics-video-reports.md)
    + [Publicación de la información de configuración de Adobe Analytics](publishing-analytics-configuration-information.md)
-+ Integración con Adobe Target Standard/Premium {#target-classic}
++ Integración de Adobe Target Standard/Premium {#target-classic}
    + [Inicio rápido: Integración con Adobe Target Standard/Premium](quick-start-target-integration.md)
    + [Integración de Dynamic Media Classic con Adobe Target Standard/Premium](integrating-dmc-with-target.md)
    + [Creación de un conjunto de ofertas](creating-offer-set.md)
