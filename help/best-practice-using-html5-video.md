@@ -8,21 +8,21 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
 feature: Dynamic Media Classic,Visualizadores,Vídeo
-role: Profesional empresarial
+role: Business Practitioner
+exl-id: ce49e4ce-8dc0-41e1-865a-249f23757553
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '431'
 ht-degree: 13%
 
 ---
-
 
 # Prácticas recomendadas para usar el visor de vídeo HTML5{#best-practice-using-the-html-video-viewer}
 
 Los ajustes preestablecidos del visor de vídeo HTML5 de Dynamic Media Classic son reproductores de vídeo sólidos. En el lado de diseño del reproductor, puede crear toda la funcionalidad del reproductor de vídeo con herramientas de desarrollo web estándar. Por ejemplo, se pueden diseñar los botones, controles y el fondo de imagen de póster personalizado utilizando HTML5 y CSS para ayudarle a captar clientes con un aspecto personalizado.
 
-En la parte de reproducción del visor, se detecta de forma automática la funcionalidad de vídeo del navegador. A continuación, sirve el vídeo utilizando HLS (flujo de vídeo adaptable). O, si ese método de envío no está presente, se utiliza HTML5 progresiva en su lugar.
+En la parte de reproducción del visor, se detecta de forma automática la funcionalidad de vídeo del navegador. A continuación, sirve el vídeo utilizando HLS (HTTP Live Streaming), también conocido como flujo de vídeo adaptable. O, si ese método de envío no está presente, se utiliza HTML5 progresiva en su lugar.
 
 Combinando en un solo reproductor las siguientes capacidades:
 
