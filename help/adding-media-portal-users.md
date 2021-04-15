@@ -8,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
 feature: Dynamic Media Classic,Colaboración,Administración de activos
-role: Administrador, profesional empresarial
+role: Administrator,Business Practitioner
+exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 82%
+source-wordcount: '1009'
+ht-degree: 81%
 
 ---
-
 
 # Adición y administración de usuarios de Media Portal{#adding-and-managing-media-portal-users}
 
@@ -83,8 +83,8 @@ La siguiente hoja de cálculo de ejemplo muestra cómo diseñar un archivo CSV:
 
 | Nombre | Apellidos | Correo electrónico | Contraseña | Función de usuario | Grupos |
 |--- |--- |--- |--- |--- |--- |
-| Pedro | Pérez | `petep@company.com` | bienvenido | Administrador de Media Portal | CoPortal/TI,CoPortal/Admin |
-| Javier | Gómez | `kevinm@myco.com` | bienvenido | Usuario de Media Portal | PortalCo/GrupoMarketing, PortalCo/prueba |
+| Prairie | Kat | `prairiek@company.com` | bienvenido | Administrador de Media Portal | CoPortal/TI,CoPortal/Admin |
+| Rick | Abandonos | `rickb@myco.com` | bienvenido | Usuario de Media Portal | PortalCo/GrupoMarketing, PortalCo/prueba |
 
 
 ### Carga del archivo CSV  {#uploading-the-csv-file}
@@ -105,9 +105,9 @@ Puede ver los nombres y las direcciones de correo electrónico de los usuarios d
 
 1. Haga clic en **[!UICONTROL Ajustes]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Ajustes de administración]** > **[!UICONTROL Administración de usuarios]**.
 1. En la lista desplegable **[!UICONTROL Por función de usuario]**, elija el nombre de una función de usuario de Media Portal y haga clic en **[!UICONTROL Actualizar]** para mostrar los nombres de una clase de usuario de Media Portal.
-1. Haga clic en el botón **[!UICONTROL Lista emergente]** para abrir la ventana emergente. Esta lista se puede copiar y pegar.
+1. Haga clic en el botón **[!UICONTROL Lista emergente]** para abrir la ventana emergente. Copie y pegue esta lista.
 
-## Configuración del mensaje de correo electrónico de bienvenida para los usuarios de Media Portal  {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
+## Configuración del mensaje de correo electrónico de bienvenida para los usuarios de Media Portal {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
 
 Puede enviar un mensaje de correo de bienvenida cuando agregue usuarios, colaboradores y usuarios colaboradores de Media Portal. Puede configurar este mensaje de correo electrónico o indicar a Dynamic Media Classic que no lo envíe.
 
@@ -115,24 +115,24 @@ Puede enviar un mensaje de correo de bienvenida cuando agregue usuarios, colabor
 1. En la pantalla Configuración de administración de usuarios, haga clic en **[!UICONTROL Configuración de correo electrónico]**.
 1. En el cuadro de diálogo Config. correo, especifique una de estas configuraciones:
 
-   **[!UICONTROL Enviar]** correo electrónicoAnule la selección de esta opción si no desea informar a los nuevos usuarios por correo electrónico de que los ha suscrito.
+   * **[!UICONTROL Enviar correo electrónico]** : anule la selección de esta opción si no desea informar a los nuevos usuarios por correo electrónico de que los ha suscrito.
 
-   **[!UICONTROL Contraseña]** predeterminadaIntroduzca una contraseña temporal para nuevos usuarios o deje el campo vacío para que Dynamic Media Classic genere contraseñas aleatorias. Se pide a los usuarios que cambien sus contraseñas la primera vez que inicien sesión.
+   * **[!UICONTROL Contraseña predeterminada]** : introduzca una contraseña temporal para nuevos usuarios o deje vacío el campo para que Dynamic Media Classic genere contraseñas aleatorias. Se pide a los usuarios que cambien sus contraseñas la primera vez que inicien sesión.
 
-   **[!UICONTROL URL de]** reemplazoIntroduzca una URL diferente de la predeterminada si los usuarios acceden a Dynamic Media Classic a través de una URL diferente.
+   * **[!UICONTROL URL de reemplazo]** : introduzca una URL diferente del predeterminada si los usuarios acceden a Dynamic Media Classic a través de una URL diferente.
 
 ## Otras tareas de administración de usuarios {#other-user-management-tasks}
 
 También puede realizar las siguientes tareas desde la pantalla de ajuste Administración de usuarios:
 
-**[!UICONTROL Filtrar y ordenar la]** lista de usuariosFiltre la lista de usuarios de Media Portal para localizar usuarios. Consulte Filtrado y ordenación de la lista de usuarios.
+* **[!UICONTROL Filtrar y ordenar la lista de usuarios]** : filtre la lista de usuarios de Media Portal para localizar usuarios.
 
-**[!UICONTROL Eliminar]** usuariosEliminar un usuario de la lista. Consulte Eliminación de un usuario.
+* **[!UICONTROL Eliminar usuarios]** : eliminar un usuario de la lista.
 
-**[!UICONTROL Activar y desactivar]** usuariosSuspender el acceso de un usuario a las carpetas. Consulte Activación y desactivación de usuarios.
+* **[!UICONTROL Activar y desactivar usuarios]** : impedir que un usuario acceda a carpetas.
 
-**[!UICONTROL Editar]** información de usuarioIntroduzca información actualizada sobre un usuario. Consulte Edición de información de usuario.
+* **[!UICONTROL Editar información de usuario]** : introduzca información actualizada sobre un usuario.
 
-**[!UICONTROL Crear]** campos definidos por el usuarioCrear campos de metadatos personalizados definidos por el usuario para ayudar a organizar los recursos en Dynamic Media Classic. Los campos también pueden activarse o desactivarse según sea necesario.
+* **[!UICONTROL Crear campos definidos por el usuario]** : cree campos de metadatos personalizados y definidos por el usuario para ayudar a organizar los recursos en Dynamic Media Classic. Los campos también pueden activarse o desactivarse según sea necesario.
 
 Consulte [Campos personalizables](application-setup.md#user_defined_fields).
