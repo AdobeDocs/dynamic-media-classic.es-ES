@@ -7,15 +7,15 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 feature: Dynamic Media Classic
-role: Administrador
+role: Administrator
+exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '1948'
-ht-degree: 62%
+source-wordcount: '1946'
+ht-degree: 61%
 
 ---
-
 
 <!-- UPDATE TOPIC AFTER DECEMBER 31, 2020!!!! -->
 
@@ -89,7 +89,7 @@ Los usuarios desactivados dejan de tener permiso para acceder a una cuenta que a
 
 La información de usuario que puede modificar depende de su función como administrador y de la función que tenga asignada el usuario cuya información se desea editar. Las opciones que aparecen atenuadas (no disponibles) no son editables.
 
-1. Vaya a **Ajustes** > **Ajustes de aplicación** > **Ajustes de administración** > **Administración de usuarios**.
+1. Vaya a **Configuración** > **Configuración de la aplicación** > **Configuración de la administración** > **Administración de usuarios**.
 1. Seleccione el usuario y haga clic en **Editar**.
 1. Seleccione la entrada en la tabla que muestra la empresa para la que está intentando modificar los permisos o acceso y, a continuación, haga clic en el vínculo Gestionar empresa.
 1. Seleccione la función de usuario.
@@ -102,15 +102,15 @@ Puede filtrar y ordenar la lista para buscar usuarios. Todos los usuarios de las
 
 Puede utilizar las siguientes técnicas de filtrado en la lista usuarios:
 
-**Filtrar por** grupoSeleccione el menú Por grupo y elija una opción para restringir la lista a los usuarios de un grupo.
+* **Filtrar por grupo** : seleccione el menú Por grupo y elija una opción para restringir la lista a los usuarios de un grupo.
 
-**Filtrar por** función de usuarioSeleccione el menú Por función de usuario y elija una opción para restringir la lista a usuarios o administradores de distintos tipos.
+* **Filtrar por función de usuario** : seleccione el menú Por función de usuario y elija una opción para restringir la lista a usuarios o administradores de distintos tipos.
 
-**Filtrar por** nombre de campoSeleccione la opción Activar filtro por campo. A continuación, en el menú Por nombre de campo, seleccione la columna con la que desea filtrar la lista y elija una letra en el menú de caracteres de filtro. La lista se filtrará en una de las columnas según la letra elegida. Para volver a ver la lista completa desactive la opción Activar filtración por campos.
+* **Filtrar por nombre de campo** : seleccione la opción Activar filtro por campo. A continuación, en el menú Por nombre de campo, seleccione la columna con la que desea filtrar la lista y elija una letra en el menú de caracteres de filtro. La lista se filtrará en una de las columnas según la letra elegida. Para volver a ver la lista completa desactive la opción Activar filtración por campos.
 
-**Filtrar** usuarios no válidosAnule la selección de la opción Incluir no válido. En los resultados de búsqueda aparecerán solo los usuarios que están en el sistema. Los usuarios no válidos se han eliminado del sistema y las cuentas que administra.
+* **Filtrar usuarios no válidos** : anule la selección de la opción Incluir no válido . En los resultados de búsqueda aparecerán solo los usuarios que están en el sistema. Los usuarios no válidos se han eliminado del sistema y las cuentas que administra.
 
-**Ordenar por** encabezado de columnaHaga clic en un encabezado para ordenar todos los usuarios por su estado, alfabéticamente por nombre, apellido o correo electrónico, por función de usuario o por estado válido/no válido.
+* **Ordenar por encabezado de columna** : haga clic en un encabezado para ordenar todos los usuarios por su estado, alfabéticamente por nombre, apellido o correo electrónico, por función de usuario o por estado válido/no válido.
 
 Si tiene muchos usuarios, puede limitar el tamaño de la lista seleccionando un número en el menú Tamaño máximo de lista.
 
@@ -161,20 +161,19 @@ La tabla siguiente describe los informes que se pueden generar en la pantalla An
 | Flujo continuo de vídeo | Uso del ancho de banda para el flujo continuo de vídeo | Lleve un seguimiento del uso del flujo continuo de vídeo por empresa a lo largo de intervalos de fechas específicos para determinar patrones de tráfico. |
 | Contenido de vídeo | Tiempo de reproducción de distintos vídeos | Determine cuáles son los vídeos más vistos y menos vistos. |
 
-
 El informe de contenido de imagen proporciona información acerca de las solicitudes para estos tipos de imágenes:
 
-**Solicitudes de** imagen para imágenes.
+* **Solicitud de imagen** : solicitudes para imágenes.
 
-**Solicitudes** de miniaturas para muestras o imágenes alternativas en los visualizadores.
+* **Solicitud de miniaturas** : solicitudes de muestras o imágenes alternativas en los visualizadores.
 
-**Enmascarar** solicitudesSolicitudes a imágenes que devuelven máscaras de escala gris.
+* **Solicitud de máscara** : solicitudes para imágenes que devuelven máscaras de escala gris.
 
-**Solicitudes** RequestImage del mosaico del visualizador cargadas por un visualizador.
+* **Solicitud de mosaico del visualizador** : solicitudes de imagen cargadas por un visualizador.
 
-**Solicitudes de representación de** RequestImage de objeto Vnt que devuelven una imagen con objetos especificados en las viñetas solicitadas.
+* **Solicitud de objeto Vnt** : solicitudes de renderización de imágenes que devuelven una imagen con objetos especificados en las viñetas solicitadas.
 
-**Solicitudes de procesamiento** RequestImage de Información de Vnt que devuelven información sobre las viñetas solicitadas.
+* **Solicitud de información de Vnt** : solicitudes de procesamiento de imágenes que devuelven información sobre las viñetas solicitadas.
 
 >[!NOTE]
 >
@@ -194,27 +193,27 @@ Siga estos pasos para generar un informe de ancho de banda, almacenamiento, cont
 
 Después de generar un informe en la página Ancho de banda y almacenamiento, puede elegir opciones para ver la información. Puede elegir cómo se presenta la información, ver la información en un diagrama o en una cuadrícula de datos, así como especificar un período de tiempo para la recopilación de información. En la vista Datos, también puede ordenar la información y reorganizar las columnas.
 
-**Visualización de datos en un gráfico o** cuadrícula de datosHaga clic en la opción Vista de gráfico para ver los datos en un gráfico; haga clic en la opción Vista de datos para ver los datos en una cuadrícula de datos.
+* **Visualización de datos en un gráfico o cuadrícula**  de datos: haga clic en la opción Vista de gráfico para ver los datos en un gráfico; haga clic en la opción Vista de datos para ver los datos en una cuadrícula de datos.
 
-**Selección de un** tipo de presentación de informeEn el menú Tipo de informe, seleccione Resumen, Diario o Mensual para organizar los datos en forma de resumen, por día o por mes. No todos los informes ofrecen esta opción.
+* **Selección de un tipo de presentación de informe** : en el menú Tipo de informe, seleccione Resumen, Diario o Mensual para organizar los datos en forma de resumen, por día o por mes. No todos los informes ofrecen esta opción.
 
-**Especificación de un** período de tiempoElija opciones para definir un período de tiempo para el informe y, después, haga clic en Actualizar después de definir un período de tiempo:
+* **Especificación de un período de tiempo** : elija opciones para definir un período de tiempo para el informe y, a continuación, haga clic en Actualizar después de definir un período de tiempo:
 
-**Período de tiempo** predefinidoEn el menú Informe predefinido, elija una opción. Por ejemplo, elija Último mes para recopilar los datos del mes anterior.
+* **Período de tiempo predefinido** : en el menú Informe predefinido, elija una opción. Por ejemplo, elija Último mes para recopilar los datos del mes anterior.
 
-**Período de** tiempo personalizadoEn el menú Informe predefinido, seleccione Personalizado. A continuación, elija una fecha en el menú Mes de inicio (o Fecha de inicio) y otra fecha en el menú N.º de meses (o N.º de días). En el caso de informes de dominio y de contenido de vídeo, puede elegir una fecha inicial y final específica para capturar los datos del informe.
+* **Período de tiempo personalizado** : en el menú Informe predefinido, seleccione Personalizado. A continuación, elija una fecha en el menú Mes de inicio (o Fecha de inicio) y otra fecha en el menú N.º de meses (o N.º de días). En el caso de informes de dominio y de contenido de vídeo, puede elegir una fecha inicial y final específica para capturar los datos del informe.
 
-**Clasificación de datos (solo vista de datos)** Para ordenar la información en una columna, haga clic en el encabezado de la columna. Haga clic de nuevo para cambiar al orden descendente.
+* **Clasificación de datos (solo vista de datos)** : para ordenar la información en una columna, haga clic en el encabezado de la columna. Haga clic de nuevo para cambiar al orden descendente.
 
-**Reorganización de columnas (solo vista de datos)** Para mover una columna a una ubicación diferente de la cuadrícula de datos, arrastre su encabezado.
+* **Reorganización de columnas (solo vista de datos)** : para mover una columna a una ubicación diferente de la cuadrícula de datos, arrastre su encabezado.
 
 ### Exportación e impresión de informes {#exporting-and-printing-reports}
 
 Después de generar un informe, puede exportar sus datos para utilizarlos en hojas de cálculo y en otras aplicaciones. También puede imprimir los informes.
 
-**Exportación de** datos del informeEn la vista Datos, ordene y organice los datos según sea necesario. A continuación, abra el menú Exportar y elija un formato: Delimitado por tabuladores, Separado por comas o HTML formateado. Los datos se copian en el portapapeles con el formato que elija. Ahora puede pegarlos en una hoja de cálculo o en una aplicación.
+* **Exportación de datos de informes** : en la vista de datos, ordene y organice los datos según sea necesario. A continuación, abra el menú Exportar y elija un formato: Delimitado por tabuladores, Separado por comas o HTML formateado. Los datos se copian en el portapapeles con el formato que elija. Ahora puede pegarlos en una hoja de cálculo o en una aplicación.
 
-**Imprimir un** informeHaga clic en Imprimir, elija las opciones que desee en el cuadro de diálogo Imprimir y, a continuación, haga clic en Aceptar.
+* **Imprimir un informe** : haga clic en  **[!UICONTROL Imprimir]**, elija las opciones que desee en el cuadro de diálogo Imprimir y, a continuación, haga clic en  **[!UICONTROL Aceptar]**.
 
 ## Errores de imagen {#image-errors}
 
@@ -227,21 +226,21 @@ Los administradores de Dynamic Media Classic pueden generar informes de errores 
    * Haga clic en un encabezado para ordenar los errores según la información del encabezado. De manera predeterminada, los errores se ordenan, de mayor a menor, según el número de veces que aparecen.
    * Mueva el cursor sobre el campo Respuesta de un determinado error para ver el mensaje de error específico.
    * Mueva el cursor sobre el campo URL o el campo Referencia para ver el vínculo de la imagen o la página web de referencia.
-   * Haga clic en Copiar URL de la columna URL para copiar el vínculo a la imagen real. Puede pegar este vínculo en una ventana del explorador para acceder a la imagen e investigar el error.
-   * Haga clic en Copiar URL de la columna Referencia para copiar el vínculo a la página web de referencia.
+   * Haga clic en **[!UICONTROL URL Copy URL]** para copiar el vínculo a la imagen real. Puede pegar este vínculo en una ventana del explorador para acceder a la imagen e investigar el error.
+   * Haga clic en **[!UICONTROL Referrer Copy URL]** para copiar el vínculo a la página web del referente.
 
 Los errores mostrados pertenecen a la empresa en la que haya iniciado sesión en ese momento. Cada error incluye la siguiente información:
 
-**Imagen** ID de la imagen ofensiva.
+* **ID de imagen** : ID de la imagen ofensiva.
 
-**** Intervalo de tiempo de la primera vez que se informó del error hasta la última vez que se informó, en las últimas 24 horas.
+* **Hora** : intervalo de tiempo de la primera vez que se informó del error hasta la última vez que se notificó, en las últimas 24 horas.
 
-**** RecuentoEl número de errores notificados en la imagen.
+* **Recuento** : el número de errores notificados en la imagen.
 
-**** Respuesta: el mensaje de error específico. Los errores son 4xx o 5xx.
+* **Respuesta** : el mensaje de error específico. Los errores son 4xx o 5xx.
 
-**** URLsMuestra la dirección URL de la imagen en Scene7.
+* **URL** : muestra la dirección URL de la imagen en Dynamic Media Classic.
 
-**** ReferenteEspecifica la dirección URL del sitio web desde el que proviene la solicitud inicial. La referencia puede ser cualquier sitio web que tenga un vínculo a la imagen.
+* **Referente** : especifica la dirección URL del sitio web del que provino la solicitud inicial. La referencia puede ser cualquier sitio web que tenga un vínculo a la imagen.
 
 Las columnas URL y Referencia tienen asociada la opción Copiar URL para simplificar el proceso de prueba.
