@@ -6,15 +6,15 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic,Administración de recursos
-role: Profesional empresarial
+role: Business Practitioner
+exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '1481'
-ht-degree: 60%
+source-wordcount: '1465'
+ht-degree: 54%
 
 ---
-
 
 # Prácticas recomendadas para optimizar la calidad de las imágenes{#best-practices-for-optimizing-the-quality-of-your-images}
 
@@ -28,7 +28,7 @@ Consulte también [Imágenes inteligentes](https://experienceleague.adobe.com/do
 
 * Los formatos JPG o PNG son las mejores opciones para distribuir imágenes con una buena calidad y con un tamaño y peso manejables.
 * Si no se proporciona ningún comando de formato en la URL, Dynamic Media Image Serving utiliza de forma predeterminada JPG para la entrega.
-* JPG comprime en una proporción de 10:1 y generalmente ofrece tamaños de archivo de imagen más pequeños. PNG se comprime a una proporción de aproximadamente 2:1, excepto en algunos casos, como cuando las imágenes contienen un fondo vacío. Normalmente, los tamaños de archivo PNG son mayores que los archivos JPG.
+* JPG comprime en una proporción de 10:1 y generalmente ofrece tamaños de archivo de imagen más pequeños. PNG se comprime a una proporción de aproximadamente 2:1, excepto a veces cuando las imágenes contienen un fondo vacío. Normalmente, los tamaños de archivo PNG son mayores que los archivos JPG.
 * JPG utiliza compresión con pérdidas, lo que significa que elementos de la imagen (píxeles) se eliminan durante la compresión. PNG utiliza la compresión sin pérdidas.
 * JPG a menudo comprime imágenes fotográficas con una mejor fidelidad que las imágenes sintéticas con contraste y bordes y nítidos.
 * Si las imágenes contienen transparencias, utilice PNG porque JPG no admite transparencias.
@@ -52,7 +52,7 @@ Documento técnico de prácticas recomendadas [Enfoque de imágenes en Adobe Dyn
 
 <!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
-Con Dynamic Media Classic, puede enfocar las imágenes en la ingesta, en la entrega o en ambos. En la mayoría de los casos, no obstante, deberá enfocar las imágenes con un método u otro, pero no ambos. Normalmente, el enfoque de imágenes durante la distribución, en una URL, ofrece los mejores resultados.
+Con Dynamic Media Classic, puede enfocar las imágenes en la ingesta, en la entrega o en ambos. Por lo general, sin embargo, las imágenes se afilan utilizando solo un método o el otro, pero no ambos. Normalmente, el enfoque de imágenes durante la distribución, en una URL, ofrece los mejores resultados.
 
 Puede utilizar dos métodos de enfoque de imágenes:
 
@@ -100,7 +100,7 @@ La práctica recomendada de compresión JPG es `&qlt=85,0`.
 
 ## Prácticas recomendadas para el tamaño JPEG (&amp;jpegSize=) {#best-practices-for-jpeg-sizing-jpegsize}
 
-`jpegSize` es un parámetro muy útil si desea asegurarse de que una imagen no supere un determinado tamaño para la distribución en dispositivos con memoria limitada.
+El parámetro `jpegSize` es útil si desea garantizar que una imagen no supere un tamaño determinado para su envío a dispositivos que tengan memoria limitada.
 
 * Este parámetro se establece en kilobytes ( `jpegSize=<size_in_kilobytes>`). Define el tamaño máximo permitido para la distribución de imágenes.
 * `&jpegSize=` interactúa con el parámetro de compresión JPG  `&qlt=`. Si la respuesta JPG con el parámetro de compresión JPG especificado ( `&qlt=`) no supera el valor `jpegSize`, la imagen se devuelve con `&qlt=` como se ha definido. De lo contrario, `&qlt=` se reduce gradualmente hasta que la imagen se ajusta al tamaño máximo permitido, o hasta que el sistema determine que no se puede ajustar y devuelva un error.
@@ -119,8 +119,8 @@ Si necesita optimizar la imagen aún más, ajuste gradualmente los parámetros d
 
 Si los resultados de enfoque aún no son satisfactorios, aumente el radio en incrementos decimales. Tras cada incremento decimal, vuelva a ajustar la cantidad en 1,75 y auméntela gradualmente a 4. Repita este proceso hasta lograr el resultado deseado. Aunque los valores anteriores son un método validado por los estudios creativos, recuerde que puede empezar con otros valores y seguir otras estrategias. Si los resultados son satisfactorios o no es una cuestión subjetiva y, por lo tanto, la clave es la experimentación estructurada.
 
-Al experimentar, también puede encontrar las sugerencias generales siguientes útiles para optimizar el flujo de trabajo:
+A medida que experimenta, las siguientes sugerencias generales son útiles para optimizar el flujo de trabajo:
 
-* Pruebe y pruebe distintos parámetros en tiempo real, ya sea directamente en una URL de Dynamic Media Classic o utilizando la funcionalidad de ajuste de imagen de Dynamic Media Classic, que proporciona vistas previas en tiempo real para operaciones de ajuste.
-* Como práctica recomendada, recuerde que puede agrupar los comandos de Dynamic Media Image Serving en un ajuste preestablecido de imagen. Un ajuste preestablecido de imagen es básicamente macros de comandos de URL con nombres preestablecidos personalizados como `$thumb_low$` y `&product_high$`. El nombre del ajuste preestablecido personalizado en una ruta URL invoca estos ajustes preestablecidos. Esta funcionalidad le ayudará a administrar comandos y ajustes de calidad para diferentes modelos de uso de imágenes en su sitio web y reducirá la longitud total de la URL.
-* Dynamic Media Classic también proporciona formas más avanzadas de ajustar la calidad de imagen, como la aplicación de imágenes de nitidez durante la ingesta. En el caso de usos avanzados, en los que es necesaria esta opción para perfeccionar y optimizar aún más los resultados del procesamiento, Adobe Professional Service puede ayudarle con prácticas recomendadas y sugerencias personalizadas.
+* Pruebe y pruebe distintos parámetros en tiempo real, ya sea directamente en una URL de Dynamic Media Classic o utilizando la funcionalidad de ajuste de imagen de Dynamic Media Classic. Este último proporciona previsualizaciones en tiempo real para operaciones de ajuste.
+* Como práctica recomendada, recuerde que puede agrupar los comandos de Dynamic Media Image Serving en un ajuste preestablecido de imagen. Un ajuste preestablecido de imagen es básicamente macros de comandos de URL con nombres preestablecidos personalizados como `$thumb_low$` y `&product_high$`. El nombre de ajuste preestablecido personalizado en una ruta de URL llama a estos ajustes preestablecidos. Esta funcionalidad le ayudará a administrar comandos y ajustes de calidad para diferentes modelos de uso de imágenes en su sitio web y reducirá la longitud total de la URL.
+* Dynamic Media Classic también proporciona formas más avanzadas de ajustar la calidad de imagen, como la aplicación de nitidez de imagen al ingerirla. En los casos de uso avanzado en los que la opción de ajustar y optimizar los resultados procesados es seguir, Adobe Professional Services puede ayudarle con las prácticas recomendadas y la perspectiva personalizada.
