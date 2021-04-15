@@ -5,15 +5,15 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic,Visualizadores,Vídeo
-role: Profesional empresarial
+role: Business Practitioner
+exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '897'
 ht-degree: 51%
 
 ---
-
 
 # Adición de subtítulos a vídeos{#adding-captions-to-video}
 
@@ -25,11 +25,13 @@ Los subtítulos también permiten una mayor accesibilidad gracias al uso de rót
 >
 >El reproductor de vídeo que se utiliza debe admitir la visualización de rótulos.
 
-Consulte [Adición y edición de ajustes preestablecidos de visor de vídeo](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) para configurar el efecto de subtítulo y editar el propio menú de subtítulo, incluido el texto del menú para cualquiera de los visores siguientes:
+Para configurar el efecto Rótulo y editar el propio menú Rótulo, incluido el texto del menú para cualquiera de los siguientes visores:
 
-* `Universal_HTML5_Video` visor.
-* `Universal_HTML5_MixedMedia_dark` visor.
-* `Universal_HTML5_MixedMedia_light` visor.
+* `Universal_HTML5_Video` visor
+* `Universal_HTML5_MixedMedia_dark` visor
+* `Universal_HTML5_MixedMedia_light` visor
+
+consulte [Adición o edición de un ajuste preestablecido de visor de vídeo](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
 Consulte también [Adición y edición de ajustes preestablecidos de visor](application-setup.md#adding_and_editing_viewer_presets).
 
@@ -43,7 +45,7 @@ Consulte [Servicio de contenido estático (no de imagen)](https://experienceleag
 
    | Tipo de visor | Archivo de subtítulos |
    |--- |--- |
-   | HTML5 | Si utiliza un visor de vídeo HTML5, asegúrese de que el archivo de subtítulos que cree sigue el estándar de WebVTT (Web Video Text Tracks). La extensión de nombre de archivo de subtítulos es .vtt. Puede obtener más información sobre el estándar de subtítulos WebVTT.<br><br>[Consulte WebVTT](https://dev.w3.org/html5/webvtt/): Formato de seguimiento de texto de vídeo web. <br><br>Existen herramientas y servicios gratuitos y de pago que puede utilizar para crear archivos de subtítulos fuera de Dynamic Media Classic. Por ejemplo, para crear un archivo de subtítulos de vídeo sencillo sin estilo, puede utilizar la siguiente herramienta gratuita de edición y creación de subtítulos en línea: <br><br>[Creador de subtítulos WebVTT](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html) <br><br>Para obtener mejores resultados, utilice la herramienta en Internet Explorer 9 o superior, Google Chrome o Safari. <br><br>En la herramienta, pegue la URL del archivo de vídeo en el campo <b>Escribir dirección URL del archivo de vídeo</b> y haga clic en <b>Cargar</b>. <br><br>Por ejemplo, si utiliza una URL de Dynamic Media Classic para el archivo de vídeo, haga doble clic en un recurso de vídeo individual (no en un conjunto de vídeos adaptables ni en un vídeo maestro) para abrirlo en la vista de detalles. En el panel derecho de la vista de detalles, amplíe URL y código incrustado. A continuación, en el grupo Móvil, a la derecha de Móvil (progresivo), haga clic en Copiar URL. Este proceso le da la dirección URL del propio archivo de vídeo, que puede pegar en el campo <b>Enter URL of video file</b>. Internet Explorer, Chrome o Safari pueden reproducir el vídeo de forma predeterminada. Siga las instrucciones en pantalla del sitio para crear y guardar el archivo WebVTT. Cuando haya terminado, copie el contenido del archivo de rótulo y péguelo en un editor de texto sin formato y guárdelo con la extensión de nombre de archivo .VTT. <br><br><b>Nota:</b> Para que los subtítulos de vídeo sean compatibles con todo el mundo en idiomas distintos del inglés, el estándar WebVTT requiere que cree archivos .vtt y llamadas independientes para cada idioma que desee admitir. <br><br>Lo normal es que desee nombrar al archivo de subtítulos VTT con el mismo nombre que el archivo de vídeo y le añada la palabra captions. Esto puede ayudarle a automatizar la generación de URL de vídeo mediante el sistema de administración de contenido web. |
+   | HTML5 | Si utiliza un visor de vídeo HTML5, asegúrese de que el archivo de subtítulos que cree sigue el estándar de WebVTT (Web Video Text Tracks). La extensión de nombre de archivo de subtítulos es .vtt. Puede obtener más información sobre el estándar de subtítulos WebVTT.<br><br>[Consulte WebVTT](https://w3c.github.io/webvtt/): Formato de seguimiento de texto de vídeo web. <br><br>Existen herramientas y servicios gratuitos y de pago que puede utilizar para crear archivos de subtítulos fuera de Dynamic Media Classic. Por ejemplo, para crear un archivo de subtítulos de vídeo sencillo sin estilo, puede utilizar la siguiente herramienta gratuita de edición y creación de subtítulos en línea: <br><br>[Creador de subtítulos WebVTT](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html) <br><br>Para obtener mejores resultados, utilice la herramienta en Internet Explorer 9 o superior, Google Chrome o Safari. <br><br>En la herramienta, pegue la URL del archivo de vídeo en el campo <b>Escribir dirección URL del archivo de vídeo</b> y haga clic en <b>Cargar</b>. <br><br>Por ejemplo, si utiliza una URL de Dynamic Media Classic para el archivo de vídeo, haga doble clic en un recurso de vídeo individual (no en un conjunto de vídeos adaptables ni en un vídeo maestro) para abrirlo en la vista de detalles. En el panel derecho de la vista de detalles, amplíe URL y código incrustado. A continuación, en el grupo Móvil, a la derecha de Móvil (progresivo), haga clic en Copiar URL. Este proceso le da la dirección URL del propio archivo de vídeo, que puede pegar en el campo <b>Enter URL of video file</b>. Internet Explorer, Chrome o Safari pueden reproducir el vídeo de forma predeterminada. Siga las instrucciones en pantalla del sitio para crear y guardar el archivo WebVTT. Cuando haya terminado, copie el contenido del archivo de subtítulos, péguelo en un editor de texto sin formato y guárdelo con una extensión de nombre de archivo .vtt. <br><br><b>Nota:</b> Para que los subtítulos de vídeo sean compatibles con todo el mundo en idiomas distintos del inglés, el estándar WebVTT requiere que cree archivos .vtt y llamadas independientes para cada idioma que desee admitir. <br><br>Lo normal es que desee nombrar al archivo de subtítulos VTT con el mismo nombre que el archivo de vídeo y le añada la palabra captions. Esto puede ayudarle a automatizar la generación de URL de vídeo mediante el sistema de administración de contenido web. |
 
 1. En Dynamic Media Classic, cargue el archivo de subtítulos XML WebVTT, DFXP o SMPTE.
 
@@ -59,7 +61,7 @@ Consulte [Servicio de contenido estático (no de imagen)](https://experienceleag
 
       `&caption=<full Copy URL path to the caption file .vtt>,1`
 
-      Observe el `,1` al final de la ruta URL del rótulo. Inmediatamente después de la extensión de nombre de archivo .VTT en la ruta, puede activar o desactivar el botón de subtítulos en la barra del reproductor de vídeo configurando en `1` o `0`, respectivamente.
+      Observe el `,1` al final de la ruta URL del rótulo. Inmediatamente después de la extensión de nombre de archivo .vtt en la ruta, puede activar o desactivar el botón de subtítulos opcionalmente en la barra del reproductor de vídeo estableciendo en `1` o `0`, respectivamente.
 
    * Para obtener un visor de vídeo incorporado, haga clic en **[!UICONTROL Código Incrustado]** a la derecha del nombre.
 
@@ -69,5 +71,4 @@ Consulte [Servicio de contenido estático (no de imagen)](https://experienceleag
 
       `videoViewer.setParam("caption","<full Copy URL path to the caption file .vtt>,1”`
 
-      Observe el `,1` al final de la ruta de URL. Inmediatamente después de la extensión de nombre de archivo .VTT en la ruta URL, puede activar o desactivar el botón de rótulo en la barra del reproductor de vídeo estableciendo en `1` o `0`, respectivamente.
-
+      Observe el `,1` al final de la ruta de URL. Inmediatamente después de la extensión de nombre de archivo .vtt en la ruta URL, puede activar o desactivar el botón de rótulo en la barra del reproductor de vídeo estableciendo en `1` o `0`, respectivamente.
