@@ -8,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
 feature: Dynamic Media Classic,Administración de recursos
-role: Profesional empresarial
+role: Business Practitioner
+exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 54%
+source-wordcount: '442'
+ht-degree: 49%
 
 ---
-
 
 # Uso de carpetas de recursos{#working-with-asset-folders}
 
@@ -28,26 +28,22 @@ Asegúrese de establecer una estructura de carpetas y una organización para alm
 
 En la biblioteca de recursos se muestran los archivos que contiene el árbol de carpetas. Al seleccionar una carpeta en la biblioteca de recursos, su contenido aparecerá en el panel Examinar. Utilice estas técnicas para localizar carpetas en el árbol de carpetas:
 
-* **Visualización de**
-subcarpetasSeleccione el icono Expandir carpeta para mostrar las subcarpetas en una carpeta. Este icono se encuentra a la izquierda del nombre de cada carpeta.
+* **Visualización de subcarpetas** : seleccione el icono Expandir carpeta para mostrar las subcarpetas en una carpeta. Este icono se encuentra a la izquierda del nombre de cada carpeta.
 
-* **Mover una**
-carpetaPuede mover una carpeta arrastrándola y soltándola en su nueva ubicación, o bien seleccionando Archivo > Mover carpeta.
+* **Mover una carpeta** : puede mover una carpeta arrastrándola y soltándola en su nueva ubicación, o seleccionando Archivo > Mover carpeta.
 
-* **Ocultar**
-carpetasSeleccione el icono Contraer carpeta para contraer subcarpetas. Este icono se encuentra a la izquierda del nombre de cada carpeta.
+* **Ocultar carpetas** : seleccione el icono Contraer carpeta para contraer subcarpetas. Este icono se encuentra a la izquierda del nombre de cada carpeta.
 
-* **Abrir una**
-carpetaSeleccione una carpeta para mostrar su contenido en el panel Examinar.
+* **Apertura de una carpeta** : seleccione una carpeta para mostrar su contenido en el panel Examinar.
 
 ***Sugerencia **: Puede ocultar o mostrar la biblioteca de recursos haciendo clic en el control Expandir/Contraer de la parte izquierda. Oculte el panel de la biblioteca de recursos si necesita más espacio de trabajo en el panel Examinar.*
 
 ## Creación de carpetas {#creating-folders}
 
-Para crear una carpeta, siga estos pasos:
+Para crear carpetas, siga estos pasos:
 
 1. En la biblioteca de recursos, seleccione la carpeta dentro de la que desea crear una carpeta.
-1. Seleccione el botón Agregar carpeta . Este icono se encuentra en la parte superior de la lista de carpetas.
+1. Seleccione el botón **[!UICONTROL Add Folder]**. Este icono se encuentra en la parte superior de la lista de carpetas.
 1. Escriba un nombre descriptivo para la carpeta o subcarpeta en el campo situado junto al icono de la carpeta.
 
    >[!NOTE]
@@ -58,11 +54,9 @@ Para crear una carpeta, siga estos pasos:
 
 Seleccione una carpeta y utilice estas técnicas para eliminarla o cambiar su nombre:
 
-* ****
-EliminaciónSeleccione el botón Quitar carpeta . Los recursos que se encuentren en una carpeta eliminada se colocarán en la carpeta Papelera. Podrá recuperarlos desde esta carpeta.
+* **Eliminación** : seleccione el botón Quitar carpeta . Los recursos que se encuentren en una carpeta eliminada se colocarán en la carpeta Papelera. Podrá recuperarlos desde esta carpeta.
 
-* ****
-Cambio de nombreHaga doble clic en el nombre e introduzca un nuevo nombre.
+* **Cambio de nombre** : haga doble clic en el nombre e introduzca un nuevo nombre.
 
 >[!NOTE]
 >
