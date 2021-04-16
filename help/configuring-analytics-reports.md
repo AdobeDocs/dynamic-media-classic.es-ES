@@ -8,21 +8,21 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: f4c8c2b3-cc95-416f-9a5d-da81c231dfc2
 feature: Dynamic Media Classic
-role: Ingeniero de datos, administrador, profesional empresarial
+role: Data Engineer,Administrator,Business Practitioner
+exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 98463dbc24e141547d01bd3f71b1b9fe3a692c14
 workflow-type: tm+mt
-source-wordcount: '1207'
-ht-degree: 50%
+source-wordcount: '1196'
+ht-degree: 46%
 
 ---
-
 
 # Configuración de informes de Adobe Analytics{#configuring-adobe-analytics-reports}
 
 Para indicar a Adobe Analytics la información que desea incluir en los informes de Adobe Analytics, vaya a la pantalla de configuración de Adobe Analytics. Después de configurar los informes, esta pantalla muestra, para cada evento de visor del que desee obtener información, una variable de Adobe Analytics y una variable de Dynamic Media Classic correspondientes. Estas combinaciones de variables de visor (variable Adobe Analytics) y variables de Dynamic Media Classic determinan qué información se incluye en los informes.
 
-Además de asociar eventos de visor con variables, la pantalla de configuración de Adobe Analytics ofrece herramientas para activar, editar y eliminar eventos de visor.
+Además de asociar eventos de visor con variables, la pantalla Configuración de Adobe Analytics ofrece herramientas para activar, editar y eliminar eventos de visor.
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ Utilice la pantalla Configuración de Adobe Analytics para asociar eventos de vi
 
 **Para asignar variables de Adobe Analytics a eventos y variables del visor de Dynamic Media Classic**
 
-1. Después de iniciar sesión en Adobe Analytics desde Dynamic Media Classic y seleccionar un grupo de informes, en la página Configuración de Adobe Analytics , en la columna de la derecha de la tabla, active un evento de visor haciendo clic en **Habilitar**.
+1. Después de iniciar sesión en Adobe Analytics desde Dynamic Media Classic y seleccionar un grupo de informes, en la página Configuración de Adobe Analytics , en la columna de la tabla derecha, active un evento de visor haciendo clic en **[!UICONTROL Habilitar]**.
 1. En la columna Variables, muestre el selector de pares de variables haciendo clic en el botón de flecha del evento de visor deseado.
 
    Consulte [Eventos de visor](configuring-analytics-reports.md#viewer_events).
@@ -60,7 +60,7 @@ Utilice la pantalla Configuración de Adobe Analytics para asociar eventos de vi
 
 ### Eventos de visor {#viewer-events}
 
-Los eventos del visor describen las acciones que los usuarios realizan con los visores de Dynamic Media Classic. Cuando un usuario inicia una acción, como hacer clic en una miniatura o iniciar o detener un vídeo, el visor “difunde” un evento en la página Web, junto con los datos asociados con dicho evento.
+Los eventos del visor describen las acciones que los usuarios realizan con los visores de Dynamic Media Classic. Cuando un usuario inicia una acción determinada, como hacer clic en una miniatura o iniciar o detener un vídeo, el visor &quot;transmite&quot; un evento a la página web, junto con los datos asociados con ese evento.
 
 La tabla siguiente describe los eventos de visor que puede añadir a la pantalla de configuración de Adobe Analytics.
 
