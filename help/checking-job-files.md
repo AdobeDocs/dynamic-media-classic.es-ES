@@ -8,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
 feature: Dynamic Media Classic,Administración de recursos
-role: Profesional empresarial
+role: Business Practitioner
+exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: 98463dbc24e141547d01bd3f71b1b9fe3a692c14
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1584'
 ht-degree: 60%
 
 ---
-
 
 # Comprobación de archivos de trabajo{#checking-job-files}
 
@@ -121,7 +121,7 @@ En esta tabla se muestran los períodos temporales, los valores permitidos y los
 | Horas | 0-23 | Tenga en cuenta que se utiliza un reloj de 24 horas. | `, - * /` |
 | Día del mes | 1-31 | No puede especificar un valor numérico tanto para &quot;día del mes&quot; como para &quot;día de la semana&quot;. Uno de estos campos debe utilizar un carácter comodín `?` . | `, - * / ? L C` |
 | Mes | 1-12 o Ene, Feb, Mar, Abr, Mayo, Jun, Julio, Ago, Sep, Sep, Oct, Nov, Dic | Los valores distinguen entre mayúsculas y minúsculas. | `, - * /` |
-| Día de la semana | lun, mar, mié, jue, vie, sáb, dom | Los valores distinguen entre mayúsculas y minúsculas. No puede especificar un valor numérico tanto para &quot;día del mes&quot; como para &quot;día de la semana&quot;. Uno de estos campos debe usar el símbolo ?, que actúa como comodín. | `, - * / ? L C #` |
+| Día de la semana | lun, mar, mié, jue, vie, sáb, dom | Los valores distinguen entre mayúsculas y minúsculas. No puede especificar un valor numérico tanto para &quot;día del mes&quot; como para &quot;día de la semana&quot;. Uno de estos campos debe utilizar un carácter comodín `?` . | `, - * / ? L C #` |
 | Año (opcional) | Vacío o 1970-2099 |  | `, - * /` |
 
 
