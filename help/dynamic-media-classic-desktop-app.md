@@ -9,10 +9,10 @@ feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 translation-type: tm+mt
-source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
+source-git-commit: 8427c3ea6ca3083fd0868286e634a5569c62f7ab
 workflow-type: tm+mt
-source-wordcount: '1666'
-ht-degree: 0%
+source-wordcount: '1845'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Los usuarios de Dynamic Media Classic ahora tienen acceso a una nueva experiencia de aplicación de escritorio que ya no depende de la tecnología de Flash de Adobe del navegador.
 
-Esta nueva aplicación ya está disponible para Windows y MacOS.
+Esta nueva aplicación ya está disponible para Windows® y MacOS.
 
 >[!IMPORTANT]
 >
@@ -33,41 +33,57 @@ Consulte las preguntas más frecuentes para la [Nueva experiencia de inicio de s
 La aplicación de escritorio Dynamic Media Classic de Adobe es compatible con los siguientes sistemas operativos:
 
 * macOS 10.10 o posterior.
-* Windows 7 o posterior.
+* Windows® 7 o posterior.
+
+>[!NOTE]
+>
+>La notificación de actualización dentro de la aplicación de escritorio de Dynamic Media Classic no se genera para las versiones *minor*. Los clientes que se benefician de las correcciones en una versión menor pueden actualizarse.
+
+## Correcciones en la versión menor (20.21.2) {#minor-release}
+
+* Limitación conocida en 20.21.1 de que el menú desplegable Servidor esté vacío.
+* En **[!UICONTROL Cargar opciones de trabajo]**, el valor predeterminado de nomenclatura de capa en **[!UICONTROL Opciones de Photoshop]** es ahora **[!UICONTROL Photoshop y nombre de capa]**. Las capas en el archivo PSD se cargan como imágenes independientes.
+   * El valor predeterminado anterior de **[!UICONTROL Layer name]**, es decir, el nombre de las imágenes por su nombre de capa o número de capa en el archivo PSD. El número de capa se utilizó si los nombres de capa del archivo PSD eran nombres de capa predeterminados de Photoshop.
+   * El nuevo valor predeterminado de **[!UICONTROL Photoshop y Nombre de capa]** nombra las imágenes después del archivo PSD seguido del nombre de capa o número de capa. El número de capa se utiliza si los nombres de capa en el archivo PSD son nombres de capa predeterminados de Photoshop.
+   * Dado que las imágenes de capa en Dynamic Media Classic ahora tienen nombres únicos, no se producirán actualizaciones de PSD o plantillas existentes (que comparten nombres de capa en los archivos PSD originales).
+* Miniaturas de recursos rotas.
 
 ## Correcciones en la versión más reciente (20.21.1) {#latest-fixes-desktop-app}
 
 * Problemas de inicio de sesión debido al tiempo de espera que dan como resultado el siguiente mensaje: *Este usuario puede asignarse al grupo o grupos sin permiso. Póngase en contacto con el administrador.*
 * Los ajustes preestablecidos de visor se duplican con cada intento de contraseña incorrecto.
-* La aplicación de escritorio deja de responder debido a muchos recursos en la carpeta raíz. (Fijo en Windows; trabajando como desee en macOS).
+* La aplicación de escritorio deja de responder debido a muchos recursos en la carpeta raíz. (Fijo en Windows®; trabajando como desee en macOS).
 
 ## Correcciones en la versión anterior (20.20.2) {#previous-version-fixes-desktop-app}
 
-* No hay limitación en el número de archivos que se pueden cargar a través de la interfaz de usuario de la aplicación de escritorio tanto para macOS como para Windows.
+* No hay limitación en el número de archivos que puede cargar a través de la interfaz de usuario de la aplicación de escritorio tanto para macOS como para Windows®.
 * No es necesario cerrar sesión en la aplicación de escritorio para cambiar entre empresas.
-* Ctrl+V para la operación de pegado ahora funciona en Windows.
+* Ctrl+V para pegar ahora funciona en Windows®.
 * En el futuro, cuando se publique una nueva versión de la aplicación de escritorio, se notificará a los usuarios desde la propia aplicación de escritorio.
 
-## Descargue e instale la última aplicación de escritorio de Adobe Dynamic Media Classic en macOS o Windows {#installation-dmc-app}
+## Descargue e instale la última aplicación de escritorio de Adobe Dynamic Media Classic en macOS o Windows® {#installation-dmc-app}
 
 Véase también:
 
 * [Descargue y silencie instale la última aplicación de escritorio de Adobe Dynamic Media Classic en Mac](#install-silent-mac-dmc-app)
-* [Descargue e instale silenciosamente la última aplicación de escritorio de Adobe Dynamic Media Classic en Windows](#install-silent-windows-dmc-app)
+* [Descargue e instale silenciosamente la última aplicación de escritorio de Adobe Dynamic Media Classic en Windows®](#install-silent-windows-dmc-app)
 
 1. Desinstale cualquier versión anterior de la aplicación de escritorio de Dynamic Media Classic en su sistema.
 
 1. Descargue el último instalador de la aplicación de escritorio de Adobe Dynamic Media Classic.
 
-   * La versión más reciente (20.21.1) está disponible en:
+   * La versión más reciente (20.21.2) está disponible en:
 
-      * [macOS (.DMG): Descargar.](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
-      * [Windows (.EXE): descargar.](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
-   * La versión anterior (20.20.2) está disponible en:
+      * [macOS (.DMG): Descargar](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
+      * [Windows® (.EXE) - Descargar](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe)
+   * La versión anterior (20.21.1) está disponible en:
 
-      * [macOS (.DMG): Descargar.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
-      * [Windows (.EXE): descargar.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
+      * [macOS (.DMG): Descargar](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
+      * [Windows® (.EXE) - Descargar](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
 
+
+<!--         * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
+        * [Windows (.EXE) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) -->
 
 
 1. Realice una de las siguientes acciones en función del instalador que descargó.
@@ -103,8 +119,8 @@ Véase también:
 
 Véase también:
 
-* [Descargue e instale la aplicación de escritorio más reciente de Adobe Dynamic Media Classic en Mac o Windows](#installation-dmc-app)
-* [Descargue e instale silenciosamente la última aplicación de escritorio de Adobe Dynamic Media Classic en Windows](#install-silent-windows-dmc-app)
+* [Descargue e instale la aplicación de escritorio Dynamic Media Classic de Adobe más reciente en Mac o Windows®](#installation-dmc-app)
+* [Descargue e instale silenciosamente la última aplicación de escritorio de Adobe Dynamic Media Classic en Windows®](#install-silent-windows-dmc-app)
 
 Para descargar y *silencioso* instalar la versión más reciente de la aplicación de escritorio de Adobe Dynamic Media Classic en macOS:
 
@@ -112,11 +128,11 @@ Para descargar y *silencioso* instalar la versión más reciente de la aplicaci�
 
 1. Descargue el último instalador de la aplicación de escritorio de Adobe Dynamic Media Classic para macOS.
 
-   * [macOS (.DMG): Descargar.](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
+   * [macOS (.DMG): Descargar](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
 
 1. Monte la imagen de disco descargada (.DMG) en una ubicación de punto de montaje mediante el siguiente comando:
 
-   `hdiutil attach adobe-dynamic-media-classic-20.21.1.dmg -mountpoint <mount_point_path>`
+   `hdiutil attach adobe-dynamic-media-classic-20.21.2.dmg -mountpoint <mount_point_path>`
 
 1. Copie el archivo .APP a **[!UICONTROL Applications]** mediante el siguiente comando:
 
@@ -137,36 +153,36 @@ Unmount DMG - hdiutil detach <mount_point_path>`
    | https://s7sps3.scene7.com/ | Producción de EMEA (Europa, Oriente Medio y África) |
    | https://s7sps5.scene7.com/ | Producción de APAC (Asia-Pacífico) |
 
-## Descargue y *silencioso* instale la última aplicación de escritorio de Adobe Dynamic Media Classic en Windows {#install-silent-windows-dmc-app}
+## Descargue y *silencioso* instale la última aplicación de escritorio de Adobe Dynamic Media Classic en Windows® {#install-silent-windows-dmc-app}
 
-El comando que utiliza es para una instalación silenciosa básica de MSI. Sin embargo, el instalador de la aplicación de escritorio de Dynamic Media Classic es un instalador de InstallScript MSI creado con InstallShield. Cuando ejecuta el instalador en modo de registro, cualquier interacción del usuario se registra en un archivo de respuesta. Este archivo de respuesta se utiliza para una instalación silenciosa como se describe en [Ejecución de instalaciones en modo silencioso.](https://docs.flexera.com/installshield19helplib/helplibrary/SilentInstall.htm)
+El comando que utiliza es para una instalación silenciosa básica de MSI. Sin embargo, el instalador de la aplicación de escritorio de Dynamic Media Classic es un instalador de InstallScript MSI creado con InstallShield. Cuando ejecuta el instalador en modo de registro, cualquier interacción del usuario se registra en un archivo de respuesta. Este archivo de respuesta se utiliza para una instalación silenciosa como se describe en [Ejecución de instalaciones en modo silencioso.](https://docs.revenera.com/installshield19helplib/helplibrary/SilentInstall.htm)
 
 Véase también:
 
-* [Descargue e instale la aplicación de escritorio más reciente de Adobe Dynamic Media Classic en Mac o Windows](#installation-dmc-app)
+* [Descargue e instale la aplicación de escritorio Dynamic Media Classic de Adobe más reciente en Mac o Windows®](#installation-dmc-app)
 * [Descargue e instale silenciosamente la última aplicación de escritorio de Adobe Dynamic Media Classic en macOS](#install-silent-mac-dmc-app)
 
-Para descargar y *silencioso* instalar la versión más reciente de la aplicación de escritorio de Adobe Dynamic Media Classic en Windows:
+Para descargar y *silencioso* instalar la versión más reciente de la aplicación de escritorio de Adobe Dynamic Media Classic en Windows®:
 
 1. Desinstale cualquier versión anterior de la aplicación de escritorio de Dynamic Media Classic en su sistema.
 
 1. Descargue el último instalador de la aplicación de escritorio de Adobe Dynamic Media Classic.
 
-   * [Windows (.EXE): descargar.](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
+   * [Windows® (.EXE) - Descargar](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe)
 
 1. Ejecute el instalador en modo de registro mediante el siguiente comando:
 
-   `adobe-dynamic-media-classic-20.21.1.exe /r /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.21.2.exe /r /f1"C:\Setup.iss"`
 
 1. En la ventana del instalador de GUI, siga los pasos para instalar de modo que las interacciones/entradas, como la ubicación de instalación, se registren en el archivo `Setup.iss`.
 
-1. Copie el archivo `Setup.iss` creado y `adobe-dynamic-media-classic-20.21.1.exe` en otro equipo.
+1. Copie el archivo `Setup.iss` creado y `adobe-dynamic-media-classic-20.21.2.exe` en otro equipo.
 
 1. Ejecute el siguiente comando para una instalación silenciosa:
 
-   `adobe-dynamic-media-classic-20.21.1.exe /s /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.21.2.exe /s /f1"C:\Setup.iss"`
 
-   Los detalles sobre los parámetros de línea de comandos están disponibles en [Parámetros de línea de comandos de Setup.exe y Update.exe.](https://docs.flexera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
+   Los detalles sobre los parámetros de línea de comandos están disponibles en [Parámetros de línea de comandos de Setup.exe y Update.exe.](https://docs.revenera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
 
 1. Cuando abre la aplicación, se muestra la nueva página de inicio de sesión de Dynamic Media Classic de Adobe:
 
@@ -202,7 +218,7 @@ Además de borrar la imagen y la caché de recursos mediante la aplicación de e
 1. En función del sistema operativo, vaya a lo siguiente:
 
    * macOS: `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
-   * Windows: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
+   * Windows®: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
 ## Limitación conocida en Dynamic Media Classic 20.21.1
 
@@ -210,9 +226,10 @@ Además de borrar la imagen y la caché de recursos mediante la aplicación de e
 
 ## Limitaciones conocidas en Dynamic Media Classic 20.20.1 (corregido en 20.20.2)
 
-**_Solo se aplica a Windows. ¿Existe alguna limitación en el número de archivos que se pueden cargar a través de la interfaz de usuario de la aplicación de escritorio?_**<br>Sí, se puede cargar un máximo de 150 archivos a la vez mediante la interfaz de usuario de la aplicación de escritorio.
+**_Solo se aplica a Windows®. ¿Existe alguna limitación en el número de archivos que se pueden cargar a través de la interfaz de usuario de la aplicación de escritorio?_**<br>Sí, se puede cargar un máximo de 150 archivos a la vez mediante la interfaz de usuario de la aplicación de escritorio.
 
-**_Se aplica a Windows y macOS: ¿cómo puedo cambiar entre empresas?_**<br>Para cambiar entre empresas, haga lo siguiente:
+**_Se aplica a Windows® y MacOS. ¿Cómo puedo cambiar entre empresas?_**<br>Para cambiar entre empresas, haga lo siguiente:
+
 * En la aplicación de Dynamic Media Classic, seleccione la nueva empresa en la lista desplegable de la empresa.
 * Cuando aparezca la ventana emergente, pulse **[!UICONTROL OK]** para cerrar la sesión y cerrar la aplicación.
 
