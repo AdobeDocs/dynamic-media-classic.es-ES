@@ -8,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 feature: Dynamic Media Classic,Visualizadores,Catálogo electrónico
-role: Profesional empresarial
+role: Business Practitioner
+exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 98463dbc24e141547d01bd3f71b1b9fe3a692c14
 workflow-type: tm+mt
-source-wordcount: '1498'
-ht-degree: 77%
+source-wordcount: '1488'
+ht-degree: 60%
 
 ---
-
 
 # Creación de mapas de imagen de catálogos electrónicos{#creating-ecatalog-image-maps}
 
@@ -27,7 +27,7 @@ Un mapa de imagen es una región dentro de una página del catálogo electrónic
 Los mapas de imagen de los catálogos electrónicos se dibujan en la ficha Páginas de mapa, que se encuentra en la pantalla Catálogo electrónico. En esta pantalla aparece el área del mapa de imagen en la que se muestran las páginas del catálogo electrónico y, a la derecha, la lista de mapas de imagen. A medida que cree los mapas de imagen, sus nombres se añadirán a la lista de mapas de imagen.
 
 1. Haga clic en el botón de rollover Editar del catálogo electrónico.
-1. Haga clic en **Asignar páginas**.
+1. Haga clic en **[!UICONTROL Asignar páginas]**.
 1. En la parte izquierda de la pantalla Páginas de mapa, seleccione la página que desee.
 1. En el área del mapa de imagen, dibuje un mapa de imagen rectangular o poligonal (con varios lados):
 
@@ -41,25 +41,25 @@ Seleccione la herramienta Mapa de imagen poligonal y haga clic tantas veces como
 1. (Opcional) En el panel de lista de mapas de imagen, en la columna Nombre, introduzca un nuevo nombre para el mapa de imagen. No incluya espacios en blanco en el nombre.
 1. Puede hacer que los visores abran una página web nueva cuando se haga clic en el mapa de imagen. En el panel de lista de mapas de imagen, introduzca la dirección URL de la página web en la columna URL.
 
-   Haga clic en Editar e introduzca una plantilla para facilitar la introducción de direcciones URL (plantillas href).
+   Haga clic en **[!UICONTROL Editar]** e introduzca una plantilla para facilitar la introducción de direcciones URL (plantillas Href).
 
-   Consulte [Uso de plantillas para introducir elementos de JavaScript y direcciones URL](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls).
+   Consulte [Uso de una plantilla para introducir JavaScript™ y direcciones URL](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls).
 
-1. (Opcional) En la lista desplegable Mostrar , haga clic en **Texto de sustitución** e introduzca el texto que desea que vean los usuarios en pantalla cuando desplacen sus punteros por el mapa de imagen.
-1. (Opcional) En la lista desplegable Mostrar , haga clic en **Otras acciones** e introduzca un atributo para crear un déclencheur de una acción de enfoque o desenfoque cuando los usuarios muevan sus punteros sobre un mapa de imagen.
+1. (Opcional) En la lista desplegable Mostrar , haga clic en **[!UICONTROL Texto de sustitución]** e introduzca el texto que desea que vean los usuarios en pantalla cuando desplacen sus punteros por el mapa de imagen.
+1. (Opcional) En la lista desplegable Mostrar , haga clic en **[!UICONTROL Otras acciones]** e introduzca un atributo para crear un déclencheur de una acción de enfoque o desenfoque cuando los usuarios muevan sus punteros sobre un mapa de imagen.
 
    Consulte [Definición de otras acciones para los mapas de imagen](creating-image-maps.md#defining_other_actions_for_image_maps).
 
-1. Haga clic en **Guardar**.
-1. (Opcional) Haga clic en **Vista previa** para ver el catálogo electrónico con el ajuste preestablecido predeterminado del visor de catálogos electrónicos.
+1. Haga clic en **[!UICONTROL Guardar]**.
+1. (Opcional) Haga clic en **[!UICONTROL Vista previa]** para ver el catálogo electrónico con el ajuste preestablecido predeterminado del visor de catálogos electrónicos.
 
-Si desea eliminar un mapa de imagen, seleccione su nombre en la lista de mapas de imagen y haga clic en Eliminar. Si desea eliminar de forma temporal un mapa de imagen dentro de la página y no borrarlo definitivamente, desactive la opción Activado del mapa de imagen en la lista de mapas de imagen.
+Para eliminar un mapa de imagen, seleccione su nombre en la lista Mapa de imagen y haga clic en **[!UICONTROL Eliminar]**. Si desea eliminar de forma temporal un mapa de imagen dentro de la página y no borrarlo definitivamente, desactive la opción Activado del mapa de imagen en la lista de mapas de imagen.
 
 ## Incrustación de medios enriquecidos en un catálogo electrónico  {#embedding-rich-media-in-an-ecatalog}
 
 Puede utilizar la opción de medios enriquecidos de catálogo electrónico para agregar vídeos en formato MP4 o conjuntos de giros a mapas de imagen que se hayan añadido a un catálogo electrónico. Cuando un usuario hace clic en el área de mapa de imagen en el catálogo electrónico, se abre el vídeo o conjunto de giros asociado. Esta funcionalidad es especialmente útil si desea que los clientes vean un elemento en uso o vean un elemento desde diferentes ángulos y perspectivas.
 
-Opcionalmente, también puede mostrar texto de información sobre herramientas cuando los clientes muevan el cursor sobre el mapa de imagen para que puedan saber en qué elemento están haciendo clic.
+Si lo desea, también puede mostrar información sobre herramientas cuando los clientes muevan sus punteros sobre el mapa de imagen para que sepan en qué están haciendo clic.
 
 **Para incrustar medios enriquecidos en un catálogo electrónico**
 
@@ -71,7 +71,7 @@ Opcionalmente, también puede mostrar texto de información sobre herramientas c
 1. En el panel Agregar recursos en la parte izquierda, navegue hasta la carpeta que contenga el conjunto de giros o el vídeo (formato MP4) que desee incrustar.
 1. Arrastre el recurso al mapa de imagen.
 1. (Opcional) En el panel de lista de mapas de imagen, en el encabezado de columna Información sobre herramientas, introduzca el texto que desee que vean en pantalla los usuarios cuando muevan el puntero sobre el mapa de imagen.
-1. Haga clic en Guardar.
+1. Haga clic en **[!UICONTROL Guardar]**.
 
 ## Edición de mapas de imagen de catálogos electrónicos {#editing-ecatalog-image-maps}
 
@@ -88,10 +88,9 @@ tamañoPara cambiar el tamaño de un mapa de imagen rectangular, seleccione la h
    Consulte [Ajuste de la posición, la forma y el tamaño de los mapas de imagen](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
 * **Eliminación de**
-mapas de imagenSeleccione la herramienta Panorámica, haga clic en el mapa de imagen para seleccionarlo y, a continuación, haga clic en 
-**Eliminar**.
+mapas de imagenSeleccione la herramienta Panorámica, haga clic en el mapa de imagen para seleccionarlo y, a continuación, haga clic en  **[!UICONTROL Eliminar]**.
 
-   Para eliminar todos los mapas de imagen de un catálogo electrónico, haga clic en la ficha **Ordenar páginas** y, a continuación, haga clic en **Borrar mapas**.
+   Para eliminar todos los mapas de imagen de un catálogo electrónico, haga clic en la ficha **[!UICONTROL Ordenar páginas]** y, a continuación, haga clic en **[!UICONTROL Borrar mapas]**.
 
 * **Gestión de**
 mapas de imagen superpuestosArrastre para cambiar el orden de los mapas de imagen en la lista de mapas de imagen.
@@ -99,13 +98,13 @@ mapas de imagen superpuestosArrastre para cambiar el orden de los mapas de image
    Consulte [Control de superposición de mapas de imagen](creating-image-maps.md#handling_overlapping_image_maps).
 
 * **Copia de mapas de imagen a otras**
-páginasSeleccione el botón Copiar asignaciones a (asegúrese de que está en la ficha Páginas de mapa). En la pantalla Seleccionar imágenes, seleccione la página o páginas en las que quiere copiar los mapas de imagen y haga clic en el botón Seleccionar.
+páginasSeleccione el botón Copiar asignaciones a (asegúrese de que está en la ficha Páginas de mapa). En la pantalla Seleccionar imágenes, seleccione la página o páginas donde desee copiar los mapas de imagen y haga clic en el botón **[!UICONTROL Seleccionar]**.
 
    Consulte [Copia de mapas de imagen a otras imágenes](creating-image-maps.md#copying_image_maps).
 
 >[!NOTE]
 >
->Además de copiar mapas de imagen a otras páginas del catálogo electrónico, puede copiar todos los mapas de imagen de un catálogo electrónico a otro. Consulte [Copia de mapas de imagen entre catálogos electrónicos](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs).
+>Además de copiar mapas de imagen en diferentes páginas de un catálogo electrónico, puede copiar todos los mapas de imagen de un catálogo electrónico en otro. Consulte [Copia de mapas de imagen entre catálogos electrónicos](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs).
 
 ## Revisión e importación de datos de mapa de imagen  {#reviewing-and-importing-image-map-data}
 
@@ -115,14 +114,14 @@ Para ver la pantalla Resumen de mapas, en la ficha Páginas de mapa de la pantal
 
 ### Visualización del resumen de datos de mapas de imagen  {#review-image-map-data-summary}
 
-1. En la pantalla Páginas de mapa, haga clic en Resumen.
+1. En la pantalla Páginas de mapa, haga clic en **[!UICONTROL Resumen]**.
 
    En la pantalla Resumen de mapas, se puede ver la cantidad de mapas de imagen, direcciones URL, textos descriptivos de rollover y otras acciones que hay en el catálogo electrónico.
 
-1. Si hay errores de tecla de rollover, haga clic en el error en la columna de error Rollover_Key para ver qué se debe cambiar en la hoja de cálculo y corregir el error. Puede seleccionar y copiar el texto de este mensaje, y pegarlo en la hoja de cálculo.
-1. Haga clic en Vista previa para examinar la página en el visor de catálogos electrónicos, haga clic en X para cerrar la pantalla Resumen y volver a la pantalla Páginas de mapa o haga clic en Cerrar para volver a Examinar.
+1. Si hay errores de teclas de prórroga, haga clic en el error de la columna Error Rollover_Key para ver qué debe cambiar en la hoja de cálculo para corregir el error. Puede seleccionar y copiar el texto de este mensaje, y pegarlo en la hoja de cálculo.
+1. Haga clic en **[!UICONTROL Preview]** para examinar una página en el visor del catálogo electrónico, haga clic en la X para cerrar la pantalla Resumen y volver a la pantalla Páginas de mapa, o haga clic en **[!UICONTROL Close]** para volver a **[!UICONTROL Browse]**.
 
-### Importación de datos de mapa de imagen  {#import-image-map-data}
+### Importación de datos de mapa de imagen {#import-image-map-data}
 
 En lugar de introducir datos de mapa de imagen en cada página, puede importar los datos de todo el catálogo desde la pantalla Resumen de mapas. Los datos de mapa de imagen se importan como un archivo delimitado por tabuladores o DTD de XML. Los campos del archivo deben tener el orden que se muestra en la pantalla Resumen de mapas: Nombre, Etiquetas de tabla de contenido, Mapas, Direcciones URL, Texto de rollover, Otras acciones y Cadenas de búsqueda. Si importa los datos de mapa de imagen, no tendrá que introducir los datos en la lista de mapas de imagen cada vez que crea un mapa de imagen.
 
@@ -132,12 +131,13 @@ En lugar de introducir datos de mapa de imagen en cada página, puede importar l
 
 Vaya a la pantalla Resumen de mapas y siga estos pasos para importar los datos de mapa de imagen para los mapas de imagen creados:
 
-1. Haga clic en Importar datos de mapa.
-1. En el cuadro de diálogo Importar metadatos, haga clic en Examinar y, a continuación, seleccione el archivo DTD de XML o delimitado por tabuladores.
+1. Haga clic en **[!UICONTROL Importar datos de mapa]**.
+1. En el cuadro de diálogo Importar metadatos, haga clic en **[!UICONTROL Examinar]**.
+1. Seleccione el archivo DTD XML o delimitado por tabuladores.
 1. Escriba el nombre que desea asignar al archivo (mantenga la extensión) en el campo Nombre de trabajo.
-1. Haga clic en Cargar.
+1. Haga clic en **[!UICONTROL Cargar]**.
 
-## Copia de mapas de imagen entre catálogos electrónicos  {#copying-image-maps-between-ecatalogs}
+## Copia de mapas de imagen entre catálogos electrónicos {#copying-image-maps-between-ecatalogs}
 
 Puede copiar todos los mapas de imagen de un catálogo electrónico a otro. La copia de mapas de imagen con este método es una forma cómoda de copiar los mapas de imagen entre las distintas traducciones en otros idiomas del mismo catálogo electrónico. Para que la copia sea correcta, Dynamic Media Classic recomienda copiar entre catálogos electrónicos con el mismo número de páginas e imágenes.
 
@@ -147,8 +147,8 @@ Puede copiar todos los mapas de imagen de un catálogo electrónico a otro. La c
 
 Siga estos pasos para copiar todos los mapas de imagen de un catálogo electrónico a otro:
 
-1. Seleccione el catálogo electrónico que contenga los mapas de imagen que desea copiar y haga clic en el botón de rollover Editar del catálogo electrónico.
-1. En la ficha Ordenar páginas, haga clic en Copiar mapas.
-1. En el cuadro de diálogo Seleccionar recurso, elija el catálogo electrónico en el que desea copiar los mapas de imagen y haga clic en Seleccionar.
+1. Seleccione el catálogo electrónico con los mapas de imagen que desea copiar y haga clic en el botón de rollover **[!UICONTROL Edit]** del catálogo electrónico.
+1. En la ficha Ordenar páginas, haga clic en **[!UICONTROL Copiar mapas]**.
+1. En el cuadro de diálogo Seleccionar recurso, seleccione el catálogo electrónico en el que desea copiar los mapas de imagen y, a continuación, haga clic en **[!UICONTROL Seleccionar]**.
 
-Dynamic Media Classic muestra un mensaje de advertencia si el catálogo electrónico de destino (el catálogo electrónico al que copia mapas de imagen) tiene un número diferente de páginas o imágenes de un tamaño diferente. Puede hacer clic en Continuar si desea copiar los mapas de imagen a pesar de la advertencia.
+Dynamic Media Classic muestra un mensaje de advertencia si el catálogo electrónico de destino (el catálogo electrónico al que copia mapas de imagen) tiene un número diferente de páginas o imágenes de un tamaño diferente. Puede hacer clic en **[!UICONTROL Continuar]** para copiar los mapas de imagen a pesar de la advertencia.
