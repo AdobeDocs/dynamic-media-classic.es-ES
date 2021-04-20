@@ -5,7 +5,7 @@ description: Información general de Dynamic Media Classic
 seo-description: Información general de Dynamic Media Classic
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
-role: Administrador, profesional empresarial
+role: Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: 'El boletín Dynamic Media de Experience League es un boletín mens
 keywords: dynamic media;newsletter;actualizaciones de productos;sugerencias y trucos;eventos;éxito del cliente;blog;blogs;imágenes;vídeos;funciones;funciones
 title: Newsletter de Dynamic Media
 feature: Dynamic Media Classic
-role: Administrador, profesional empresarial
+role: Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt

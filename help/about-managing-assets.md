@@ -4,8 +4,8 @@ description: Introducción a la administración de recursos en Dynamic Media Cla
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-feature: Dynamic Media Classic,Administración de recursos
-role: Profesional empresarial
+feature: Dynamic Media Classic,Asset Management
+role: Business Practitioner
 translation-type: tm+mt
 source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt

@@ -2,7 +2,7 @@
 title: Vídeos de formación de Dynamic Media Classic
 description: Vídeos de formación de Dynamic Media Classic sobre introducción, imágenes dinámicas, vídeo, portal de medios, plantillas y creación y renderización de imágenes.
 feature: Dynamic Media Classic
-role: Administrador, profesional empresarial
+role: Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
