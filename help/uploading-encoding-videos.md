@@ -8,16 +8,16 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a0941823-850c-4373-9e37-f32032de3805
-feature: Dynamic Media Classic,Viewers,Video
+feature: Dynamic Media Classic,Visualizadores,Vídeo
 role: Business Practitioner
+exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '3945'
-ht-degree: 81%
+source-wordcount: '3942'
+ht-degree: 82%
 
 ---
-
 
 # Carga y codificación de vídeo{#uploading-and-encoding-videos}
 
@@ -248,7 +248,7 @@ Como ejemplo, suponga que el vídeo de origen es de 1920 x 1080. En la tabla sig
 
 | Tipo de vídeo | Anchura x altura | Proporción de anchura | Proporción de altura |
 |--- |--- |--- |--- |
-| Origen | 1920 x 1080 | 1 | 3 |
+| Origen | 1920 x 1080 | 1 | 1 |
 | Codificado | 960 x 540 | 2 | 2 |
 | Codificado | 640 x 360 | 3 | 1 |
 | Codificado | 480 x 270 | 4 | 4 |
@@ -313,22 +313,24 @@ También puede filtrar en función de una opción de dispositivo de reproducció
 
 Los ajustes preestablecidos de vídeo activados aparecen en el cuadro de diálogo Opciones de trabajo de carga. Se trata del cuadro de diálogo que aparece cuando un usuario carga archivos de vídeo durante el proceso de carga. Puede elegir de una lista de todos los ajustes preestablecidos de codificación activados.
 
-**Para activar o desactivar ajustes preestablecidos de codificación de vídeo**
+**Para activar o desactivar ajustes preestablecidos de codificación de vídeo:**
 
-1. En Dynamic Media Classic, haga clic en **Configuración** > **Configuración de la aplicación** > **Ajustes preestablecidos de vídeo**.
+1. En Dynamic Media Classic, haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Ajustes preestablecidos de vídeo]**.
 1. Realice una de las siguientes acciones:
 
-   * Haga clic en **Ajustes preestablecidos de vídeo adaptables**.
-   * Haga clic en **Ajustes preestablecidos de codificación única**.
+   * Haga clic en **[!UICONTROL Ajustes preestablecidos de vídeo adaptables]**.
+   * Haga clic en **[!UICONTROL Ajustes preestablecidos de codificación única]**.
 
 1. Realice una de las siguientes acciones:
 
    * Para activar un ajuste preestablecido de vídeo, en la columna Activo de la página de ajustes preestablecidos, seleccione la casilla junto a un nombre de ajuste preestablecido.
    * Para desactivar un ajuste preestablecido de vídeo, desactive la casilla junto a los que desea hacer inactivos.
 
-      ***nota**: Los ajustes preestablecidos de vídeo inactivos no aparecen en el cuadro de diálogo Opciones de carga de trabajo . *
+      >[!NOTE]
+      >
+      >Los ajustes preestablecidos de vídeo inactivos no aparecen en el cuadro de diálogo Opciones de trabajo de carga.
 
-1. En la esquina inferior derecha de la página, haga clic en **Cerrar**.
+1. En la esquina inferior derecha de la página, haga clic en **[!UICONTROL Cerrar]**.
 
 ### Adición o edición de un ajuste preestablecido de codificación de vídeo  {#adding-or-editing-a-video-encoding-preset}
 
