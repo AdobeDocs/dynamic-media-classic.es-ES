@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Administración de recursos
 role: Business Practitioner
+exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 54%
+source-wordcount: '1100'
+ht-degree: 55%
 
 ---
-
 
 # Prueba de los recursos antes de hacerlos públicos {#testing-assets-before-making-them-public}
 
@@ -46,7 +46,9 @@ Como se debe confirmar la ubicación de la solicitud original, el tráfico del s
 
 Los recursos no publicados están disponibles inmediatamente desde los servicios de Secure Testing, sin necesidad de publicarlos. Esto permite ejecutar una vista previa antes de que los recursos se publiquen en un servidor de imágenes público.
 
-***nota **: Los servicios de Secure Testing aprovechan el servidor de catálogo configurado con un contexto de publicación interno. Por lo tanto, si su empresa está configurada para publicar en Secure Testing, tenga en cuenta que cualquier recurso cargado en Dynamic Media Classic estará disponible inmediatamente en los servicios de Secure Testing. Esta funcionalidad es cierta independientemente de si los recursos están marcados para la publicación o para la carga.*
+>[!NOTE]
+>
+>Los servicios de Secure Testing aprovechan el servidor de catálogos configurado con un contexto de publicación interna. Por lo tanto, si su empresa está configurada para publicar en Secure Testing, tenga en cuenta que cualquier recurso cargado en Dynamic Media Classic estará disponible inmediatamente en los servicios de Secure Testing. Esta funcionalidad es cierta independientemente de si los recursos están marcados para la publicación o para la carga.
 
 Los servicios de Secure Testing admiten actualmente los siguientes tipos de activos y funcionalidades:
 
@@ -145,4 +147,3 @@ Realice las siguientes pruebas:
    Acceda a la red desde fuera (por ejemplo, desde su ordenador personal o a través de una conexión 3G) y, a continuación, compruebe que la versión pública del sitio muestra todos los recursos publicados pero ninguno del contenido sin publicar.
 
    Compruebe que la versión de ensayo no muestra ningún recurso, ya que está accediendo al servicio Secure Testing desde una dirección IP no autorizada.
-
