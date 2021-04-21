@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 84257b2a-681c-4fe9-a6e5-3633c1d61d8c
-feature: Dynamic Media Classic,Collaboration,Image Presets,Asset Management
+feature: Dynamic Media Classic,Colaboración,Ajustes preestablecidos de imagen,Administración de recursos
 role: Administrator,Business Practitioner
+exl-id: 94c6c388-226b-4172-a6c7-a8dcf9c0f0cf
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 85%
+source-wordcount: '260'
+ht-degree: 81%
 
 ---
-
 
 # Creación y activación de ajustes preestablecidos de imagen{#creating-and-enabling-image-presets}
 
@@ -27,7 +27,7 @@ Los administradores de Media Portal pueden crear ajustes preestablecidos de imag
 Las siguientes restricciones se aplican al exportar recursos de imagen:
 
 * La anchura x altura debe ser menor o igual que 100 MB por imagen. Por ejemplo, la imagen no puede superar 10 000 x 10 000 o cualquier variación de aspecto inferior, como 8000 x 12 000.
-* El tamaño total del archivo no puede superar 1 GB por trabajo de exportación.
+* Existe un máximo de 1 GB de tamaño total de archivo por trabajo de exportación.
 * Puede tener un máximo de 500 recursos en total por trabajo de exportación.
 
 >[!NOTE]
