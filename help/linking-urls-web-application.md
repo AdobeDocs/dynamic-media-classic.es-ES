@@ -9,14 +9,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 71299640-676d-49b7-841d-6118f31044e8
 feature: Dynamic Media Classic
 role: Business Practitioner
+exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 72%
+source-wordcount: '836'
+ht-degree: 73%
 
 ---
-
 
 # Vinculación de direcciones URL al sitio web{#linking-urls-to-your-web-application}
 
@@ -28,9 +28,11 @@ Para colocar estas cadenas URL en sus páginas web y aplicaciones, cópielas des
 
 Puede obtener una cadena URL generada por un ajuste preestablecido de imagen en la Vista previa o en Vista de detalles. Una vez copiada, la URL queda disponible en el portapapeles para que pueda pegarla cuando lo necesite.
 
-***Nota **: La URL no estará activa hasta que publique el recurso.*
+>[!NOTE]
+>
+>La URL no se activa hasta que publique el recurso.
 
-### Obtención de una URL de ajuste preestablecido de imagen desde Vista previa {#obtaining-an-image-preset-url-from-preview}
+### Obtención de una URL de ajuste preestablecido de imagen desde Vista previa  {#obtaining-an-image-preset-url-from-preview}
 
 1. En el panel Biblioteca de recursos del lado izquierdo, navegue a las carpetas de recursos que contienen el recurso de imagen cuya vista previa desea obtener.
 1. Realice una de las acciones siguientes:
