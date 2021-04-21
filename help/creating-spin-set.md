@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
-feature: Dynamic Media Classic,Viewers,Spin Sets
+feature: Dynamic Media Classic,Visualizadores,Conjuntos de giros
 role: Business Practitioner
+exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 73%
+source-wordcount: '902'
+ht-degree: 66%
 
 ---
-
 
 # Creación de un conjunto de giros{#creating-a-spin-set}
 
@@ -34,15 +34,15 @@ Por normal general, cuantas más imágenes tenga un conjunto de giros, mejor ser
 * Utilice un formato sin pérdida; se recomiendan TIFF y PNG.
 * Aplique máscara a todas las imágenes para que el elemento aparezca en un fondo blanco puro o con otro color de alto contraste. Si lo desea, agregue sombras.
 * Asegúrese de que los detalles del producto están bien iluminados y enfocados.
-* Tome las imágenes de giro para las prendas de ropa con un maniquí o una persona. El maniquí suele ocultarse por completo (mediante el uso de un maniquí de cristal); también se puede mostrar un maniquí o busto estilizado en la imagen. Puede crear un conjunto de giros con persona definiendo el número de ángulos. Marque cada ángulo en el suelo con cinta adhesiva para indicar a la persona dónde debe colocarse y hacia dónde debe mirar en cada toma. 
+* Tome las imágenes de giro para las prendas de ropa con un maniquí o una persona. A menudo el maniquí está enmascarado (usando un maniquí de vidrio) o un maniquí estilizado/forma de vestir se muestra en la imagen. Puede crear un conjunto de giros con persona definiendo el número de ángulos. Marque cada ángulo en el suelo con cinta adhesiva para indicar a la persona dónde debe colocarse y hacia dónde debe mirar en cada toma. 
 
 ## Creación de un conjunto de giros  {#create}
 
-Tenga en cuenta que es importante el orden en que se crea o crea el conjunto de giros en Dynamic Media Classic. Dependiendo del orden de los recursos al arrastrar y colocar imágenes en la cuadrícula de la pantalla Conjunto de giros, el conjunto girará en una dirección determinada. Por consiguiente, el orden en que se ve en el generador es la forma en que el recurso gira cuando un usuario mueve el puntero del ratón o mueve el dedo, de izquierda a derecha.
+Es importante el orden en que se crea o crea el conjunto de giros en Dynamic Media Classic. Dependiendo del orden de los recursos al arrastrar y colocar imágenes en la cuadrícula de la pantalla Conjunto de giros, el conjunto girará en una dirección determinada. Por lo tanto, el orden en el que se muestra visualmente en el generador es el modo en que se envía el recurso cuando un usuario mueve el puntero del ratón o mueve el dedo, de izquierda a derecha.
 
-Al crear un conjunto, la opción **Publicar después de guardar** afecta al conjunto y a los miembros del conjunto de las siguientes formas:
+Al crear un conjunto, la opción **[!UICONTROL Publicar después de guardar]** afecta al conjunto y a los miembros del conjunto de las siguientes formas:
 
-| ¿Se ha seleccionado la opción “Publicar después de guardar” antes de guardar? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
+| **[!UICONTROL ¿Publicar después de]** guardar está seleccionada la opción antes de guardar? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
 |--- |--- |--- |
 | Sí | Publicado | Publicado |
 | No | Sin publicar | Los miembros del conjunto conservan su estado publicado o no. |
@@ -51,56 +51,50 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 Después de guardar un conjunto de giros, use la opción Vista previa de la página Generar: Conjunto de giros para comprobar el aspecto del conjunto de giros en el visor predeterminado.
 
-**Para crear un conjunto de giros**
+**Para crear un conjunto de giros:**
 
-1. En el menú desplegable **Generar**, haga clic en **Conjuntos de giros**.
+1. En el menú desplegable **[!UICONTROL Generar]**, haga clic en **[!UICONTROL Conjuntos de giros]**.
 1. En el cuadro de diálogo Tamaño del conjunto de giros, defina el número de filas y celdas que desee.
 
    Para crear un conjunto de giros de una dimensión, seleccione solo una fila.
 
    Para crear un conjunto de giros de dos dimensiones, seleccione dos filas o más.
 
-1. Haga clic en **Aceptar**.
+1. Haga clic en **[!UICONTROL Aceptar]**.
 1. Arrastre las imágenes y suéltelas en la cuadrícula de la pantalla Conjunto de giros.
 1. Cuando haya terminado, asegúrese de que esté seleccionada la opción **Publicar después de guardar** (predeterminada), cerca de la esquina inferior derecha de la página.
-1. Haga clic en **Guardar**.
+1. Haga clic en **[!UICONTROL Guardar]**.
 1. En el cuadro de diálogo Guardar, seleccione la carpeta en la que desee almacenar el conjunto de giros. En el campo Nombre de archivo, escriba el nombre del conjunto de giros.
-1. Haga clic en **Guardar**.
+1. Haga clic en **[!UICONTROL Guardar]**.
 
 ## Edición de un conjunto de giros  {#editing-a-spin-set}
 
-Según si edita un conjunto publicado o sin publicar, la opción **Publicar después de guardar** afecta al conjunto y a los miembros del conjunto de las siguientes formas:
+Tanto si edita un conjunto publicado como un conjunto sin publicar, la opción **[!UICONTROL Publicar después de guardar]** afecta a los miembros del conjunto y del conjunto de las siguientes maneras:
 
-| ¿Ya se ha publicado el conjunto? | ¿Se ha seleccionado la opción “Publicar después de Guardar” antes de guardar la edición? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
+| ¿Ya se ha publicado el conjunto? | **[!UICONTROL ¿Publicar después de]** guardar una opción seleccionada antes de guardar la edición? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
 |--- |--- |--- |--- |
 | Sí | Sí | Publicado | Publicado |
-| Sí | No | Publicado | Los miembros del conjunto existente conservan su estado publicado. Los miembros del conjunto nuevos que haya agregado durante la edición conservarán su estado publicado o no publicado. |
+| Sí | No | Publicado | Los miembros existentes del conjunto conservarán su estado publicado. Cualquier nuevo miembro que añada al conjunto durante la edición conservará su estado publicado o no publicado. |
 | No | Sí | Publicado | Publicado |
 | No | No | Sin publicar | Los miembros existentes del conjunto y cualquier nuevo miembro que añada al conjunto durante la edición conservarán su estado publicado o no publicado. |
 
 Consulte también [Publicación manual de recursos](publishing-files.md#manually-publishing-assets) y [Cancelación manual de la publicación de recursos](publishing-files.md#manually-unpublishing-assets).
 
-**Para editar un conjunto de giros**
+**Para editar un conjunto de giros:**
 
-1. Haga clic en el botón de rollover **Editar** del conjunto de giros.
+1. Haga clic en el botón de rollover **[!UICONTROL Editar]** del conjunto de giros.
 1. Realice una de las siguientes acciones:
 
-   * **Eliminación de**
-imágenesSeleccione la imagen y haga clic en 
-**Eliminar**.
+   * **Eliminación de imágenes** : seleccione la imagen y, a continuación, haga clic en  **[!UICONTROL Eliminar]**.
 
-   * **Adición de**
-imágenesArrastre la imagen a una celda.
+   * **Adición de imágenes** : arrastre la imagen a una celda.
 
-   * **Reorganización de filas (conjuntos de giros bidimensionales)**
- Haga clic en un cuadro de selector de filas (a la izquierda de la fila) y, a continuación, haga clic en 
-**Mover fila** o  **Subir fila**.
+   * **Reordenación de filas (conjuntos de giros bidimensionales)** : haga clic en un cuadro de selector de filas (a la izquierda de la fila) y, a continuación, haga clic en  **[!UICONTROL Mover fila]** desfila  **[!UICONTROL Subir fila]**.
 
-   * **Adición de filas y**
-celdasIntroduzca un número en el cuadro Filas y en el cuadro Celdas para determinar el número de filas y el número de celdas en cada fila.
+   * **Adición de filas y celdas** : introduzca un número en el cuadro Filas y el cuadro Celdas para determinar el número de filas y el número de celdas en cada fila.
 
-1. Cuando haya terminado con su edición, asegúrese de que esté seleccionada la opción **Publicar después de guardar** (predeterminada), cerca de la esquina inferior derecha de la página.
-1. Haga clic en **Guardar**, seleccione una carpeta de almacenamiento, especifique un nombre para el conjunto y haga clic en **Guardar**.
+1. Cuando haya terminado con su edición, asegúrese de que esté seleccionada la opción **[!UICONTROL Publicar después de guardar]** (predeterminada), cerca de la esquina inferior derecha de la página.
+1. Haga clic en **[!UICONTROL Guardar]**, seleccione una carpeta de almacenamiento, especifique un nombre para el conjunto y haga clic en **[!UICONTROL Guardar]**.
 
 ## Eliminación de un conjunto de giros  {#deleting-a-spin-set}
 
@@ -108,8 +102,7 @@ Cuando se elimina un conjunto, el conjunto en sí se mueve a la papelera. Sin em
 
 Consulte también [Publicación manual de recursos](publishing-files.md#manually-publishing-assets) y [Cancelación manual de la publicación de recursos](publishing-files.md#manually-unpublishing-assets).
 
-**Para eliminar un conjunto de giros**
+**Para eliminar un conjunto de giros:**
 
 1. En la vista de cuadrícula, la vista de lista o la vista de detalles, seleccione uno o varios conjuntos de giros.
-1. En la barra de navegación global, haga clic en **Archivo** > **Eliminar** > **Eliminar**.
-
+1. En la barra de navegación global, haga clic en **[!UICONTROL Archivo]** > **[!UICONTROL Eliminar]** > **[!UICONTROL Eliminar]**.
