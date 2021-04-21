@@ -7,14 +7,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Administración de recursos
 role: Business Practitioner
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 translation-type: tm+mt
-source-git-commit: 98463dbc24e141547d01bd3f71b1b9fe3a692c14
+source-git-commit: bd0659c015f259e25d6d07b620f5b1e948cabcbf
 workflow-type: tm+mt
-source-wordcount: '1584'
-ht-degree: 60%
+source-wordcount: '1583'
+ht-degree: 61%
 
 ---
 
@@ -54,9 +54,11 @@ En la ficha Historial de la página Trabajos, los trabajos se clasifican según 
 
 **Enviado** porListas que cargaron los recursos.
 
-***Nota **: Para cancelar los trabajos de publicación y carga en curso, haga clic en el botón Cancelar situado junto a la barra de progreso.*
+>[!NOTE]
+>
+>Si desea cancelar algún trabajo de publicación o carga que esté en curso, haga clic en el botón Cancelar situado junto a la barra de progreso.
 
-## Cambio de vistas en la página Trabajos {#changing-views-on-the-jobs-page}
+## Cambio de vistas en la página Trabajos  {#changing-views-on-the-jobs-page}
 
 Para ordenar trabajos o cambiar la vista de la ficha Historial en la página Trabajos, utilice estas técnicas:
 
