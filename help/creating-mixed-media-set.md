@@ -6,16 +6,16 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0ff9e763-897c-4ba5-b606-a95d5e45f35e
-feature: Dynamic Media Classic,Viewers,Mix Media Sets
+feature: Dynamic Media Classic,Visualizadores,Conjuntos de medios mixtos
 role: Business Practitioner
+exl-id: 18669c65-a1c4-4012-8587-cd5095f4bd4e
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 93%
+source-wordcount: '625'
+ht-degree: 91%
 
 ---
-
 
 # Creación de un conjunto de medios mixtos{#creating-a-mixed-media-set}
 
@@ -34,14 +34,14 @@ Al crear un conjunto, la opción **Publicar después de guardar** afecta al conj
 
 Consulte también [Publicación manual de recursos](publishing-files.md#manually_publishing_assets) y [Cancelación manual de la publicación de recursos](publishing-files.md#manually_unpublishing_assets).
 
-**Para crear un conjunto de medios mixtos**
+**Para crear un conjunto de medios mixtos:**
 
-1. Haga clic en **Generar** > **Conjuntos de medios mixtos**.
+1. Haga clic en **[!UICONTROL Generar]** > **[!UICONTROL Conjuntos de medios mixtos]**.
 1. Arrastre los vídeos, los conjuntos de imágenes, los conjuntos de giros y las muestras de la biblioteca de recursos a la pantalla del conjunto de medios mixtos.
 
    >[!NOTE]
    >
-   >Los conjuntos de medios mixtos no admiten recursos con nombre de archivo que contengan alguno de los siguientes caracteres: ( ) { }.
+   >Los conjuntos de medios mixtos no admiten recursos con nombre de archivo que contengan alguno de los siguientes caracteres: `( ) { }`.
 
 1. Realice una de las siguientes acciones:
 
@@ -49,36 +49,36 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
    * Para cambiar el orden de los conjuntos, arrástrelos a nuevas ubicaciones en la pantalla Conjunto de medios mixtos. El orden de los conjuntos en la pantalla determina el orden de izquierda a derecha en que los usuarios verán los conjuntos en el visor de conjuntos de medios mixtos.
    * (Opcional) Para añadir una miniatura personalizada que represente el vídeo en el visor, arrastre el archivo de imagen desde la biblioteca de recursos hasta el cuadro de posición de miniaturas.
 
-1. Asegúrese de que esté seleccionada la opción **Publicar después de guardar** (predeterminada), cerca de la esquina inferior derecha de la página.
-1. Haga clic en **Guardar**, seleccione una carpeta para almacenar su conjunto de medios mixtos, escriba un nombre para el conjunto y haga clic en **Guardar**.
+1. Asegúrese de que esté seleccionada la opción **[!UICONTROL Publicar después de guardar]** (predeterminada), cerca de la esquina inferior derecha de la página.
+1. Haga clic en **[!UICONTROL Guardar]**, seleccione una carpeta para almacenar su conjunto de medios mixtos, escriba un nombre para el conjunto y haga clic en **[!UICONTROL Guardar]**.
 
-   Si desea ver el aspecto que tendrá el conjunto de imágenes combinado en un visor de conjuntos de imágenes, seleccione el botón **Vista previa**.
+   Para ver el aspecto del conjunto de imágenes combinado en un visualizador de conjuntos de imágenes, haga clic en **[!UICONTROL Vista previa]**.
 
-## Edición de un conjunto de medios mixtos  {#edit-a-mixed-media-set}
+## Edición de un conjunto de medios mixtos {#edit-a-mixed-media-set}
 
 Puede editar un conjunto de medios mixtos. Si desea editar un conjunto dentro de un conjunto de medios mixtos, abra el conjunto por separado, edítelo y guárdelo. Los cambios aparecen en el conjunto de medios mixtos.
 
-Según si edita un conjunto publicado o sin publicar, la opción **Publicar después de guardar** afecta al conjunto y a los miembros del conjunto de las siguientes formas:
+Tanto si edita un conjunto publicado como si no, la opción **[!UICONTROL Publicar después de guardar]** afecta a los miembros del conjunto y del conjunto de las siguientes maneras:
 
 | ¿Ya se ha publicado el conjunto? | ¿Se ha seleccionado la opción “Publicar después de Guardar” antes de guardar la edición? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
 |--- |--- |--- |--- |
 | Sí | Sí | Publicado | Publicado |
-| Sí | No | Publicado | Los miembros del conjunto existente conservan su estado publicado. Los miembros del conjunto nuevos que haya agregado durante la edición conservarán su estado publicado o no publicado. |
+| Sí | No | Publicado | Los miembros existentes del conjunto conservarán su estado publicado. Cualquier nuevo miembro que añada al conjunto durante la edición conservará su estado publicado o no publicado. |
 | No | Sí | Publicado | Publicado |
 | No | No | Sin publicar | Los miembros existentes del conjunto y cualquier nuevo miembro que añada al conjunto durante la edición conservarán su estado publicado o no publicado. |
 
 Consulte también [Publicación manual de recursos](publishing-files.md#manually_publishing_assets) y [Cancelación manual de la publicación de recursos](publishing-files.md#manually_unpublishing_assets).
 
-**Para editar un conjunto de medios mixtos**
+**Para editar un conjunto de medios mixtos:**
 
-1. Haga clic en el botón de rollover **Editar** del conjunto de medios mixtos.
+1. Haga clic en el botón de rollover **[!UICONTROL Editar]** del conjunto de medios mixtos.
 1. Realice una de las siguientes acciones:
 
-   * Para eliminar elementos, selecciónelos y haga clic en **Eliminar**.
+   * Para eliminar elementos, selecciónelos y haga clic en **[!UICONTROL Eliminar]**.
    * Para reordenar elementos, arrástrelos a sus nuevas ubicaciones.
 
-1. Cuando haya terminado de editar el conjunto, asegúrese de que esté seleccionada la opción **Publicar después de guardar** (predeterminada), cerca de la esquina inferior derecha de la página.
-1. Haga clic en **Guardar** o **Guardar como**.
+1. Cuando haya terminado de editar el conjunto, asegúrese de que esté seleccionada la opción **[!UICONTROL Publicar después de guardar]** (predeterminada), cerca de la esquina inferior derecha de la página.
+1. Haga clic en **[!UICONTROL Guardar]** o **[!UICONTROL Guardar como]**.
 
 ## Eliminación de un conjunto de medios mixtos  {#deleting-a-mixed-media-set}
 
@@ -86,8 +86,7 @@ Cuando se elimina un conjunto, el conjunto en sí se mueve a la papelera. Sin em
 
 Consulte también [Publicación manual de recursos](publishing-files.md#manually_publishing_assets) y [Cancelación manual de la publicación de recursos](publishing-files.md#manually_unpublishing_assets).
 
-**Para eliminar un conjunto de medios mixtos**
+**Para eliminar un conjunto de medios mixtos:**
 
 1. En la vista de cuadrícula, la vista de lista o la vista de detalles, seleccione uno o varios conjuntos de medios mixtos.
-1. En la barra de navegación global, haga clic en **Archivo** > **Eliminar** > **Eliminar**.
-
+1. En la barra de navegación global, haga clic en **[!UICONTROL Archivo]** > **[!UICONTROL Eliminar]** > **[!UICONTROL Eliminar]**.
