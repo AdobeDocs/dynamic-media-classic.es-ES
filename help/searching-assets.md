@@ -7,13 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Administración de recursos
 role: Business Practitioner
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 translation-type: tm+mt
-source-git-commit: a5a6596213e273d806fbc012e2c63bf3458127b0
+source-git-commit: bd0659c015f259e25d6d07b620f5b1e948cabcbf
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1402'
 ht-degree: 77%
 
 ---
@@ -109,23 +109,26 @@ Siga estos pasos para localizar recursos mediante filtros con sus valores de met
 
 1. Haga clic en el botón Campo  de un panel y siga estas instrucciones para mostrar el menú de filtrado y crear la operación correspondiente:
 
-   **Selección de un** campo de metadatosSeleccione el nombre del campo en el menú de filtrado.
+   * **Selección de un campo de metadatos** : seleccione el nombre del campo en el menú de filtrado.
 
-   ***nota **: En el menú de filtrado solo aparecen los nombres de los campos de metadatos en la vista de metadatos predeterminada.*
+      >[!NOTE]
+      >
+      >En el menú de filtrado solo aparecen los nombres de los campos de metadatos de la vista de metadatos predeterminada.
 
-   Consulte [Vistas de metadatos](application-setup.md#metadata_views).
+      Consulte [Vistas de metadatos](application-setup.md#metadata_views).
 
-   **Adición de un** campo de metadatosElija Agregar un panel. Cuando éste aparezca en el panel Filtros, haga clic en el botón Campo y seleccione el nombre de un campo de metadatos en el menú de filtrado.
+   * **Adición de un campo de metadatos** : elija Agregar un panel. Cuando éste aparezca en el panel Filtros, haga clic en el botón Campo y seleccione el nombre de un campo de metadatos en el menú de filtrado.
 
-   **Eliminación de un** campo de metadatosElija Quitar este panel en el menú de filtrado.
+   * **Eliminación de un campo**  de metadatos: seleccione  **[!UICONTROL Quitar este]** panel en el menú de filtrado.
 
    Si selecciona un campo de metadatos, su panel muestra:
 
    * Todos los valores de metadatos introducidos en el campo.
    * Para cada valor de metadatos, el número de recursos a los que se les ha dado el valor.
 
+
 1. Repita el paso 2 tantas veces como sea necesario para mostrar en los paneles todos los campos de metadatos para la operación de filtrado.
-1. En cada panel, seleccione un valor de metadatos con el que realizar la operación de filtrado. No puede seleccionar más de un valor de metadatos en cada panel.
+1. En cada panel, seleccione un valor de metadatos con el que realizar la operación de filtrado. No se puede seleccionar más de un valor de metadatos en cada panel.
 
    Los recursos que coincidan con todos los valores seleccionados aparecerán en el panel Examinar.
 
@@ -139,13 +142,13 @@ Siga estos pasos para localizar recursos mediante filtros con sus valores de met
 
 Siga estas instrucciones en la ficha Filtros para guardar, repetir y eliminar las operaciones de filtrado:
 
-**Guardar una** operación de filtroHaga clic en el botón Seleccionar ajuste preestablecido, elija Guardar actual como nuevos ajustes preestablecidos e introduzca un nombre en el cuadro de diálogo Guardar.
+* **Guardar una operación de filtro** : haga clic en  **[!UICONTROL Seleccionar ajuste preestablecido]**, seleccione  **[!UICONTROL Guardar actual como nuevos ajustes preestablecidos]** e introduzca un nombre en el cuadro de diálogo Guardar.
 
-**Repetición de una** operación de filtroHaga clic en el botón Seleccionar ajuste preestablecido y elija el nombre de una operación de filtro en el menú. El menú muestra las operaciones de filtrado guardadas.
+* **Repetido de una operación de filtro** : haga clic en  **[!UICONTROL Seleccionar]** ajuste preestablecido y elija el nombre de una operación de filtro en el menú. El menú muestra las operaciones de filtrado guardadas.
 
-**Eliminación de una operación de filtro del** menú Seleccionar ajustes preestablecidosEjecute la operación de filtro. A continuación, haga clic en el botón Seleccionar ajuste preestablecido y seleccione Eliminar ajuste preestablecido en el menú.
+* **Eliminación de una operación de filtro del menú Seleccionar ajuste preestablecido** : ejecute la operación de filtro. A continuación, haga clic en **[!UICONTROL Seleccionar ajuste preestablecido]** y seleccione Eliminar ajuste preestablecido en el menú.
 
-## Uso del servidor de metadatos  {#using-the-metadata-server}
+## Uso del servidor de metadatos {#using-the-metadata-server}
 
 El servidor de metadatos es una API pública que permite buscar recursos por metadatos mediante solicitudes HTTP.
 
@@ -153,15 +156,15 @@ Para configurar el servidor de metadatos, haga clic en Ajustes > Ajustes de apli
 
 Se abre la pantalla Publicación en el servidor de metadatos. Esta pantalla permite definir las siguientes opciones:
 
-**Publicación instantánea: inserta automáticamente** cualquier cambio de metadatos cuando se realice, incluidos nuevos recursos, cambios de palabras clave, etc.
+* **Publicación instantánea** : inserta automáticamente cualquier cambio en los metadatos cuando se realice, incluidos nuevos recursos, cambios en las palabras clave, etc.
 
-**XMP** PaquetePublica el paquete de XMP. Este paquete no se utiliza en las búsquedas, pero proporciona el XMP más actualizado.
+* **XMP paquete** : publica el paquete de XMP. Este paquete no se utiliza en las búsquedas, pero proporciona el XMP más actualizado.
 
-**** Palabras clavePublica sus palabras clave en el servidor de metadatos para usarlas en búsquedas.
+* **Palabras clave** : publica sus palabras clave en el servidor de metadatos para usarlas en búsquedas.
 
-**Campos** de publicación del servidor de metadatosSeleccione los campos que desea incluir en los metadatos. Permite determinar cuánta información sobre los recursos está a disposición pública. Estos campos también se muestran en Vistas de metadatos, pero solo se pueden modificar en el servidor de metadatos.
+* **Campos de publicación del servidor de metadatos** : seleccione los campos que desea incluir en los metadatos. Permite determinar cuánta información sobre los recursos está a disposición pública. Estos campos también se muestran en Vistas de metadatos, pero solo se pueden modificar en el servidor de metadatos.
 
-Haga clic en **Publicar ahora** para iniciar el trabajo. Aparece una confirmación de que el trabajo se ha iniciado.
+Haga clic en **[!UICONTROL Publicar ahora]** para iniciar el trabajo. Aparece una confirmación de que el trabajo se ha iniciado.
 
 >[!MORELIKETHIS]
 >
