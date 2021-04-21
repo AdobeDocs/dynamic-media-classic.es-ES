@@ -7,11 +7,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Administración de recursos
 role: Business Practitioner
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 translation-type: tm+mt
-source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 49%
@@ -36,9 +36,11 @@ En la biblioteca de recursos se muestran los archivos que contiene el árbol de 
 
 * **Apertura de una carpeta** : seleccione una carpeta para mostrar su contenido en el panel Examinar.
 
-***Sugerencia **: Puede ocultar o mostrar la biblioteca de recursos haciendo clic en el control Expandir/Contraer de la parte izquierda. Oculte el panel de la biblioteca de recursos si necesita más espacio de trabajo en el panel Examinar.*
+>[!TIP]
+>
+>Puede ocultar o mostrar la biblioteca de recursos haciendo clic en el control **[!UICONTROL Expand]** o **[!UICONTROL Collapse]** de la izquierda. Oculte el panel de la biblioteca de recursos si necesita más espacio de trabajo en el panel Examinar.
 
-## Creación de carpetas {#creating-folders}
+## Creación de carpetas  {#creating-folders}
 
 Para crear carpetas, siga estos pasos:
 
