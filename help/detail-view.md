@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Administración de recursos
 role: Business Practitioner
+exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 78%
+source-wordcount: '587'
+ht-degree: 69%
 
 ---
-
 
 # Trabajar en la Vista de detalles {#working-in-detail-view}
 
@@ -46,11 +46,11 @@ Para examinar un recurso, obtener una vista previa o trabajar con él, puede uti
 
    * Haga doble clic en el recurso.
    * Seleccione el recurso y haga clic en **[!UICONTROL Vista de detalles]**.
-   * Seleccione el recurso y haga clic en **[!UICONTROL Archivo > Detalles]**.
+   * Seleccione el recurso y haga clic en **[!UICONTROL Archivo]** > **[!UICONTROL Detalles]**.
 
 >[!NOTE]
 >
->En la vista de detalles, puede cambiar de recurso dentro de la misma carpeta si selecciona los botones Recurso anterior o Siguiente recurso. Estos botones se encuentran en la esquina superior derecha de la vista de detalles.
+>En la vista de detalles, puede cambiar de recurso dentro de la misma carpeta si selecciona los botones Recurso anterior o Siguiente recurso. Estos botones se encuentran en la esquina superior derecha de la Vista de detalles.
 
 ## Obtener información en la Vista de detalles {#getting-information-in-detail-view}
 
@@ -62,45 +62,40 @@ Puede obtener la dirección URL de un recurso en la vista de detalles; sin embar
 
 En la vista de detalles encontrará herramientas para trabajar con el recurso seleccionado. Las herramientas disponibles dependerán del tipo de recurso con el que esté trabajando; las siguientes funciones siempre están disponibles en la vista de detalles:
 
-* **elementos para**
-publicaciónHaga clic en el  **** icono Publicar a la izquierda del nombre o haga clic en  **[!UICONTROL Archivo >]** Archivo  **[!UICONTROL del editor > Cancelar publicación]**.
+* **elementos para publicación** : haga clic en el icono  **** Publicar a la izquierda del nombre o haga clic en  **[!UICONTROL Archivo >]** Archivo  **[!UICONTROL del editor > Cancelar publicación]**.
 
-* **Cambiar el nombre del**
-recursoSeleccione el nombre e introduzca un nuevo nombre.
+* **Cambio del nombre del recurso** : seleccione el nombre e introduzca un nuevo nombre.
 
-* **Edición y adición de**
-metadatosSeleccione el panel Metadatos y realice los cambios que desee. Consulte [Visualización, adición y exportación de metadatos](/help/viewing-adding-exporting-metadata.md).
+* **Edición y adición de metadatos** : seleccione el panel Metadatos y cambie como desee. Consulte [Visualización, adición y exportación de metadatos](/help/viewing-adding-exporting-metadata.md).
 
-* **Edición y adición de**
-palabras claveSeleccione Palabras clave y agréguelas o elimínelas como desee. Consulte [Adición o edición de palabras clave](/help/viewing-adding-exporting-metadata.md).
+* **Edición y adición de palabras clave** : seleccione Palabras clave y agréguelas o elimínelas como desee. Consulte [Adición o edición de palabras clave](/help/viewing-adding-exporting-metadata.md).
 
-* **Eliminación del**
-recursoHaga clic en  **[!UICONTROL Archivo > Eliminar]**.
+* **Eliminación del recurso** : haga clic en  **[!UICONTROL Archivo]**  >  **[!UICONTROL Eliminar]**.
 
 En el caso de los archivos discretos (por ejemplo imágenes, conjuntos de imágenes y fuentes) la vista de detalles le ofrece la posibilidad de ver el historial de publicación y edición y de consultar los detalles del trabajo.
 
-En esta tabla se muestran las opciones adicionales que la vista de detalles ofrece para los diferentes tipos de recursos.
+Esta tabla muestra qué otras opciones están disponibles con distintos tipos de recursos en la vista de detalles.
 
 | Tipo de recurso | Edición/Ajustes | Vista previa |
 |--- |--- |--- |
-| Imágenes | Agregar mapas de imagen Agregar destinos de zoom Recortar enfoque Crear vistas ajustadas | Sí; ajustes preestablecidos de zoom e imagen. |
-| Imágenes de cobertura de ventana y armario | No | Miniatura. |
-| Catálogos electrónicos | Editar | Sí; panel de información también disponible. |
-| Fuentes | Editar información de fuente | No. |
-| Archivos FXG | Editar | Sí. |
-| Perfiles ICC | Editar información de perfil | No. |
-| Archivos de Illustrator | No (a menos que se convierta a FXG) | No. |
-| Conjuntos de imágenes | Editar | Sí. |
-| Archivos de InDesign | No (a menos que se convierta a FXG) | No. |
-| Archivos PDF | No | No. |
-| Archivos PSD | Sí, para capas individuales | Sí, para capas individuales. |
-| Conjuntos de giros | Editar | Sí. |
-| Archivos SVG | No | No. |
-| Plantillas | Editar | Sí. |
-| Vídeos | No | Sí. |
-| Viñetas y viñetas procesadas | No | Se muestra la imagen; puede ver el contenido y la estructura de los elementos procesables de la viñeta en formato XML. |
-| Archivos XML | No | Se muestra el contenido. |
-| Archivos ZIP | No | El contenido no se muestra. |
+| Imágenes | Agregar mapas de imagen<br>Agregar <br><br><br>destinos de zoomRecortarEnfoqueCrear vistas ajustadas | Sí; ajustes preestablecidos de zoom e imagen |
+| Imágenes de cobertura de ventana y armario | No | Miniatura |
+| Catálogos electrónicos | Editar | Sí<br>El panel de información también está disponible |
+| Fuentes | Editar información de fuente | No |
+| Archivos FXG | Editar | Sí |
+| Perfiles ICC | Editar información de perfil | No |
+| Archivos de Illustrator | No (a menos que se convierta a FXG) | No |
+| Conjuntos de imágenes | Editar | Sí |
+| Archivos de InDesign | No (a menos que se convierta a FXG) | No |
+| Archivos PDF | No | No |
+| Archivos PSD | Sí, para capas individuales | Sí, para capas individuales |
+| Conjuntos de giros | Editar | Sí |
+| Archivos SVG | No | No |
+| Plantillas | Editar | Sí |
+| Vídeos | No | Sí |
+| Viñetas y viñetas procesadas | No | La imagen se muestra<br>Puede ver el contenido y la estructura de los elementos procesables de la viñeta en formato XML |
+| Archivos XML | No | Se muestra el contenido |
+| Archivos ZIP | No | El contenido no se muestra |
 
 >[!MORELIKETHIS]
 >
