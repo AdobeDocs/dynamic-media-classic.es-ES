@@ -7,20 +7,20 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: f6a2dc19-7eb5-41f7-b6f2-de1979ed1d4e
-feature: Dynamic Media Classic,Viewers,Video
+feature: Dynamic Media Classic,Visualizadores,Vídeo
 role: Business Practitioner
+exl-id: fab1f618-5370-4049-b6e0-69264afa933c
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 70%
+source-wordcount: '71'
+ht-degree: 40%
 
 ---
 
-
 # Exportación de vídeos de origen y codificados{#exporting-source-and-encoded-videos}
 
-En el panel Examinar, los vídeos de origen tienen la etiqueta “Vídeo principal”. Los vídeos codificados tienen la etiqueta “Vídeo”. Es posible exportar tanto los vídeos de origen como los vídeos principales. Para exportar los archivos de vídeo, selecciónelos en el panel Examinar y elija Archivo > Exportar. 
+En el panel Examinar, los vídeos de origen tienen la etiqueta “Vídeo principal”. Los vídeos codificados tienen la etiqueta “Vídeo”. Puede exportar vídeos de origen y vídeos maestros. Para exportar archivos de vídeo, selecciónelos en el panel Examinar y haga clic en **[!UICONTROL Archivo]** > **[!UICONTROL Exportar]**.
 
 Consulte [Exportación de recursos desde Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from-dmc).
 
