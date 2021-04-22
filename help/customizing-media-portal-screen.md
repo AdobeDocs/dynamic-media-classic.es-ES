@@ -7,44 +7,44 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 8b000c25-c9c3-481e-9b25-96257471571f
-feature: Dynamic Media Classic,Collaboration,Asset Management
+feature: Dynamic Media Classic,Colaboración,Administración de activos
 role: Administrator,Business Practitioner
+exl-id: b0c5f70a-2388-42aa-a1ed-fd745ff90518
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 51%
+source-wordcount: '347'
+ht-degree: 46%
 
 ---
 
-
 # Personalización de la pantalla de Media Portal{#customizing-the-media-portal-screen}
 
-Los ajustes de estilo de Media Portal le permiten aplicar un estilo de marca a la pantalla de Media Portal, con los colores y el logotipo de su empresa. Utilice los ajustes de estilo para poner el sello de su empresa en Media Portal.
+Los ajustes de estilo de Media Portal le permiten aplicar un estilo de marca a la pantalla de Media Portal, con los colores y el logotipo de su empresa. Utilice la configuración de estilo para colocar la marca de su empresa en Media Portal.
 
-Para acceder a los ajustes de estilo, elija **Ajustes** > **Configuración de Media Portal** > **Configuración de estilo**. Asegúrese de hacer clic en **Guardar** para guardar la configuración después de realizarla. Puede hacer clic en **Restaurar** para recuperar la configuración predeterminada. A medida que vaya seleccionando, el panel Vista previa irá mostrando cómo quedan las opciones que vaya eligiendo.
+Para acceder a los ajustes de estilo, elija **[!UICONTROL Ajustes]** > **[!UICONTROL Configuración de Media Portal]** > **[!UICONTROL Configuración de estilo]**. Asegúrese de hacer clic en **[!UICONTROL Guardar]** para guardar la configuración después de realizarla. Puede hacer clic en **[!UICONTROL Restaurar]** para recuperar la configuración predeterminada. A medida que vaya seleccionando, el panel Vista previa irá mostrando cómo quedan las opciones que vaya eligiendo.
 
-**** LogotipoHaga clic en Examinar y seleccione un gráfico en la ventana Seleccionar imagen de logotipo.
+* **Logotipo** : haga clic en  **** Explorar y elija un gráfico en la ventana Seleccionar imagen de logotipo .
 
-**** AplicaciónCree una mezcla de colores de degradado eligiendo opciones en los menús Colores de degradado de fondo .
+* **Aplicación** : cree una mezcla de colores de degradado eligiendo opciones en los menús Colores de degradado de fondo .
 
-**** ÁrbolElija un color de sustitución (el color que aparece cuando mueve el puntero sobre un elemento) y un color de selección (el color que aparece cuando selecciona un elemento).
+* **Árbol** : elija un color de sustitución (el color que aparece cuando mueve el puntero sobre un elemento) y un color de selección (el color que aparece cuando selecciona un elemento).
 
-**** AcordeónElija los colores de fondo, un estilo de borde y los colores de rollover y seleccionados para el acordeón que aparece a la derecha de la pantalla en la vista Detalles.
+* **Acordeón** : elija colores de fondo, un estilo de borde y colores de sustitución y seleccionados para el acordeón que aparece en la parte derecha de la pantalla en la vista Detalles.
 
-**Encabezado** de acordeónElija si desea que el texto del encabezado del acordeón aparezca en negrita.
+* **Encabezado de acordeón** : elija si quiere que el texto del encabezado del acordeón aparezca en negrita.
 
-**** DatagridElija colores para la fila de encabezado de las cuadrículas de datos.
+* **Datagrid** : elija colores para la fila de encabezado de las cuadrículas de datos.
 
-**** AlertaElija un color de fondo para los cuadros de mensaje de alerta.
+* **Alerta** : elija un color de fondo para los cuadros de mensaje de alerta.
 
-**Barra** de progresoElija un color para la barra que indique el progreso de las cargas y descargas.
+* **Barra de progreso** : elija un color para la barra que indique el progreso de las cargas y descargas.
 
-Para que los usuarios de Media Portal puedan ver la configuración de estilo que usted elija, deben adjuntar `?company=(company name)` a la dirección URL con la que acceden a Media Portal. Por ejemplo, para ver los ajustes de estilo, los usuarios de Media Portal que accedan a la empresa PortalCo mediante la siguiente URL:
+Para que los usuarios de Media Portal puedan ver la configuración de estilo que ha elegido, deben adjuntar `?company=(company name)` a la URL con la que acceden a Media Portal. Por ejemplo, para ver los ajustes de estilo, los usuarios de Media Portal que accedan a la empresa PortalCo mediante la siguiente URL:
 
 `https://s7sps1.scene7.com/MediaPortal`
 
-utilizarían la siguiente URL:
+En su lugar, utilice la siguiente URL:
 
 `https://s7sps1.scene7.com/MediaPortal?company=PortalCo`
 
