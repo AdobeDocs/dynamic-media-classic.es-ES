@@ -7,14 +7,14 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 feature: Dynamic Media Classic
 role: Data Engineer,Administrator,Business Practitioner
+exl-id: 9d017742-1ed2-411d-a8a6-438102bf1557
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 16%
+source-wordcount: '244'
+ht-degree: 17%
 
 ---
-
 
 # Activación de los informes de vídeo de Adobe Analytics{#enabling-adobe-analytics-video-reports}
 
@@ -35,4 +35,3 @@ Al usar los informes de vídeo basados en Adobe Analytics Heartbeat, ya no es ne
 >[!NOTE]
 >
 >Si la solución de Adobe Analytics con licencia no incluye Video Heartbeat, debe seguir utilizando los pasos descritos en este capítulo para asignar variables de Adobe Analytics a eventos y variables de visores de Dynamic Media Classic.
-
