@@ -9,9 +9,9 @@ feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 translation-type: tm+mt
-source-git-commit: 8427c3ea6ca3083fd0868286e634a5569c62f7ab
+source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1849'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ La aplicación de escritorio Dynamic Media Classic de Adobe es compatible con lo
 * En **[!UICONTROL Cargar opciones de trabajo]**, el valor predeterminado de nomenclatura de capa en **[!UICONTROL Opciones de Photoshop]** es ahora **[!UICONTROL Photoshop y nombre de capa]**. Las capas en el archivo PSD se cargan como imágenes independientes.
    * El valor predeterminado anterior de **[!UICONTROL Layer name]**, es decir, el nombre de las imágenes por su nombre de capa o número de capa en el archivo PSD. El número de capa se utilizó si los nombres de capa del archivo PSD eran nombres de capa predeterminados de Photoshop.
    * El nuevo valor predeterminado de **[!UICONTROL Photoshop y Nombre de capa]** nombra las imágenes después del archivo PSD seguido del nombre de capa o número de capa. El número de capa se utiliza si los nombres de capa en el archivo PSD son nombres de capa predeterminados de Photoshop.
-   * Dado que las imágenes de capa en Dynamic Media Classic ahora tienen nombres únicos, no se producirán actualizaciones de PSD o plantillas existentes (que comparten nombres de capa en los archivos PSD originales).
+   * Dado que las imágenes de capa en Dynamic Media Classic ahora tienen nombres únicos, no se van a producir actualizaciones de PSD ni de las plantillas existentes (que comparten nombres de capa en los archivos PSD originales).
 * Miniaturas de recursos rotas.
 
 ## Correcciones en la versión más reciente (20.21.1) {#latest-fixes-desktop-app}
