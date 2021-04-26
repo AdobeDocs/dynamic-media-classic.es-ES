@@ -11,10 +11,10 @@ feature: Dynamic Media Classic
 role: Business Practitioner
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 translation-type: tm+mt
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 73%
+source-wordcount: '832'
+ht-degree: 53%
 
 ---
 
@@ -37,23 +37,23 @@ Puede obtener una cadena URL generada por un ajuste preestablecido de imagen en 
 1. En el panel Biblioteca de recursos del lado izquierdo, navegue a las carpetas de recursos que contienen el recurso de imagen cuya vista previa desea obtener.
 1. Realice una de las acciones siguientes:
 
-   * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en Vista de cuadrícula. En la ventana Recurso, seleccione un único recurso de imagen y, a continuación, haga clic en Vista previa > Lista de ajustes preestablecidos de imagen debajo de la imagen en miniatura.
-   * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en Vista de lista. En la ventana Recurso, seleccione un único recurso de imagen y, a continuación, haga clic en Vista previa > Lista de ajustes preestablecidos de imagen a la derecha de la imagen en miniatura.
-   * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en Vista de detalles. En la misma barra de herramientas, haga clic en Vista previa > Lista de ajustes preestablecidos de imagen.
+   * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en **[!UICONTROL Vista de cuadrícula]**. En la ventana Recurso, seleccione un recurso de imagen única y, a continuación, debajo de la imagen en miniatura, haga clic en **[!UICONTROL Vista previa]** > **[!UICONTROL Lista de ajustes preestablecidos de imagen]**.
+   * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en **[!UICONTROL Vista de lista]**. En la ventana Recurso, seleccione un recurso de imagen única y, a continuación, a la derecha de la imagen en miniatura, haga clic en **[!UICONTROL Vista previa]** > **[!UICONTROL Lista de ajustes preestablecidos de imagen]**.
+   * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en **[!UICONTROL Vista de detalles]**. En la misma barra de herramientas, haga clic en **[!UICONTROL Vista previa]** > **[!UICONTROL Lista de ajustes preestablecidos de imagen]**.
 
-1. (Opcional) En la ventana Lista de ajustes preestablecidos de imagen, en la lista desplegable inferior Codificación URL para la creación de copias URL, seleccione la codificación de URL que desee aplicar a la dirección URL del recurso de imagen cuando se copie.
-1. En la ventana Lista de ajustes preestablecidos de imagen, en la parte superior derecha del panel de vista previa, haga clic en Copiar URL para el tipo de ajuste preestablecido seleccionado.
-1. En la esquina inferior derecha de la ventana Lista de ajustes preestablecidos de imagen, haga clic en Cerrar para volver a la pantalla Recurso.
+1. (Opcional) En la Lista de ajustes preestablecidos de imagen, en la lista desplegable Codificación de URL para la generación de copias de URL , seleccione la codificación de URL que desee aplicar a la URL del recurso de imagen cuando se copie.
+1. En la ventana Lista de ajustes preestablecidos de imagen, en el área superior derecha del panel de vista previa, haga clic en **[!UICONTROL Copiar URL]** para el tipo de ajuste preestablecido seleccionado.
+1. En la esquina inferior derecha de la ventana Lista de ajustes preestablecidos de imagen, haga clic en **[!UICONTROL Cerrar]** para volver a la pantalla Recursos.
 
-### Obtención de una URL de ajustes preestablecidos de imagen desde el panel Examinar  {#obtaining-an-image-preset-url-from-the-browse-panel}
+### Obtención de una URL de ajustes preestablecidos de imagen desde el panel Examinar {#obtaining-an-image-preset-url-from-the-browse-panel}
 
 1. En el panel Biblioteca de recursos del lado izquierdo, navegue a las carpetas de recursos que contienen el recurso de imagen cuya vista previa desea obtener.
-1. Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en Vista de cuadrícula. En la ventana Recurso, seleccione un único recurso de imagen.
-1. Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en Vista de detalles. 
-1. Haga clic en Direcciones URL en el panel de la derecha para desplegar la lista de ajustes preestablecidos de imagen.
-1. Haga clic en el vínculo Copiar URL junto al nombre del ajuste preestablecido cuya URL quiera copiar en el portapapeles.
+1. Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en **[!UICONTROL Vista de cuadrícula]**. En la ventana Recurso, seleccione un único recurso de imagen.
+1. Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en **[!UICONTROL Vista de detalles]**.
+1. Haga clic en **[!UICONTROL URL]** en el panel de la derecha de la pantalla para desplegar la lista de ajustes preestablecidos de imagen.
+1. Haga clic en el enlace **[!UICONTROL Copiar URL]** junto al nombre del ajuste preestablecido de imagen con la URL que desea copiar en el portapapeles.
 
-## Acerca de las cadenas URL de ajustes preestablecidos de imagen  {#about-image-preset-url-strings}
+## Acerca de las cadenas URL de ajustes preestablecidos de imagen {#about-image-preset-url-strings}
 
 Una llamada de URL para cambiar el tamaño de la imagen a los servidores de imágenes de Dynamic Media tiene la siguiente sintaxis básica:
 
@@ -89,7 +89,7 @@ Por ejemplo, en lugar de la típica llamada para abrir una imagen estática:
 img src="/company_images/products/backpack_thumbnail.jpg"
 ```
 
-ahora utilice la etiqueta `<IMG>`para reemplazar la referencia a una imagen estática por una llamada de ajuste preestablecido de imagen a la plataforma de Dynamic Media Classic. Ejemplo de llamada:
+Ahora, se utiliza la etiqueta `<IMG>`para reemplazar la referencia a una imagen estática por una llamada de ajuste preestablecido de imagen a la plataforma de Dynamic Media Classic. Ejemplo de llamada:
 
 ```as3
 img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$”
