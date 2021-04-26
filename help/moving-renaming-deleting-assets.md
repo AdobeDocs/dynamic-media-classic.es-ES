@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Administración de recursos
 role: Business Practitioner
+exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 65%
+source-wordcount: '553'
+ht-degree: 44%
 
 ---
-
 
 # Desplazamiento, cambio de nombre y eliminación de recursos{#moving-renaming-and-deleting-assets}
 
@@ -29,22 +29,20 @@ En el panel Examinar, puede mover recursos a carpetas diferentes.
 1. Seleccione los recursos en el panel Examinar y realice una de las siguientes acciones:
 
    * Busque la carpeta a la que desea mover los recursos en la biblioteca de recursos y arrastre los recursos a esta carpeta.
-   * Elija Archivo > Mover, seleccione una carpeta en la ventana Mover recursos y seleccione Mover.
+   * Haga clic en **[!UICONTROL Archivo]** > **[!UICONTROL Mover]**, seleccione una carpeta en la ventana Mover recursos y seleccione **[!UICONTROL Mover]**.
 
-## Cambio de nombre de un recurso  {#rename-assets}
-
-Para cambiar el nombre de un recurso:
+## Cambio de nombre de un recurso {#rename-assets}
 
 1. Seleccione el recurso en el panel Examinar y realice una de las siguientes acciones:
 
-   * Seleccione el nombre, escriba un nombre nuevo y pulse Intro o haga clic fuera del nombre.
-   * Elija Archivo > Cambiar nombre. Se resaltará el nombre del archivo. Introduzca un nuevo nombre y pulse Intro.
+   * Seleccione el nombre, escriba un nuevo nombre y pulse **[!UICONTROL Enter]** o haga clic fuera del nombre.
+   * Haga clic en **[!UICONTROL Archivo]** > **[!UICONTROL Cambiar nombre]**. Se resaltará el nombre del archivo. Introduzca un nuevo nombre y pulse **[!UICONTROL Enter]**.
 
 Asegúrese de no introducir el nombre de un recurso de Dynamic Media Classic existente.
 
 ## Eliminación de recursos {#delete-assets}
 
-Puede eliminar los recursos que seleccione desde el panel Examinar, así como carpetas enteras. Los recursos y carpetas eliminados se mueven a la carpeta Papelera, donde permanecerán durante 7 días antes de ser eliminados de forma permanente.
+Puede eliminar los recursos seleccionados en el panel Examinar y eliminar carpetas enteras. Los recursos y carpetas eliminados se mueven a la carpeta Papelera, donde permanecerán durante 7 días antes de ser eliminados de forma permanente.
 
 Al eliminar un recurso, todos los derivados de dicho recurso se eliminarán con él. Por ejemplo, si elimina una imagen para la cual ha creado destinos de zoom, se eliminarán tanto la imagen como los destinos de zoom.
 
@@ -54,10 +52,10 @@ Al eliminar un recurso, todos los derivados de dicho recurso se eliminarán con 
 
 1. Realice una de las siguientes acciones:
 
-   * Para eliminar uno o más recursos, selecciónelos en el panel Examinar y pulse Suprimir o seleccione Archivo > Eliminar.
-   * Para eliminar una carpeta, selecciónela en la biblioteca de recursos y haga clic en **Quitar carpeta**.
+   * Para eliminar uno o varios recursos, seleccione los recursos en el panel Examinar y pulse **[!UICONTROL Eliminar]** o haga clic en **[!UICONTROL Archivo]** > **[!UICONTROL Eliminar]**.
+   * Para eliminar una carpeta, selecciónela en la biblioteca de recursos y haga clic en **[!UICONTROL Quitar carpeta]**.
 
-      Al eliminar una carpeta se eliminarán la carpeta, los recursos que contenga y los recursos que haya en las subcarpetas.
+      Al eliminar una carpeta, se eliminan la carpeta, todos los recursos de la carpeta y todos los recursos de las subcarpetas.
 
 >[!NOTE]
 >
@@ -71,11 +69,11 @@ Cree la lista de Dynamic Media Classic ID y guárdela como un archivo de texto (
 
 Después de crear la lista, siga estos pasos para eliminar los recursos:
 
-1. Seleccione Archivo > Lista de recursos para eliminar.
-1. En el cuadro de diálogo Lista de recursos para eliminar, busque el archivo de texto (o escriba la ruta) con la lista de recursos que desea eliminar.
-1. Haga clic en el botón Eliminar.
+1. Haga clic en **[!UICONTROL Archivo]** > **[!UICONTROL Eliminar lista de activos]**.
+1. En el cuadro de diálogo Eliminar lista de recursos, busque o escriba la ruta al archivo de texto con la lista de recursos que desee eliminar.
+1. Haga clic en **[!UICONTROL Eliminar]**.
 
-Cuando elimina recursos con un archivo de texto, si algún Dynamic Media Classic ID no está en la lista, aparece un mensaje que le permite saber que Dynamic Media Classic es &quot;No se pueden validar estas entradas en la lista&quot; junto con la lista de entradas. Sin embargo, Dynamic Media Classic no generará ningún error en la pantalla Trabajo.
+Cuando elimina recursos con un archivo de texto, si algún Dynamic Media Classic ID no está en la lista, se muestra el mensaje &quot;No se pueden validar estas entradas en la lista:&quot; y la lista de entradas. Sin embargo, Dynamic Media Classic no genera un error en la página Trabajo.
 
 >[!MORELIKETHIS]
 >
