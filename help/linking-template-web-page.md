@@ -9,18 +9,18 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 989dba07-448a-45b1-b157-af50abb5359a
 feature: Dynamic Media Classic
 role: Business Practitioner
+exl-id: 6305c287-360f-48c2-b456-58be0791c7af
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 68%
+source-wordcount: '331'
+ht-degree: 50%
 
 ---
 
-
 # Vinculación de una plantilla a una página web{#linking-a-template-to-a-web-page}
 
-Los sitios web y las aplicaciones acceden al contenido de Dynamic Media Image Server a través de cadenas URL. Después de publicar una plantilla, Dynamic Media Classic activa una cadena URL que hace referencia a la plantilla en los servidores de imágenes de Dynamic Media. Puede pegar esta URL en un explorador web para probar su funcionamiento.
+Los sitios web y las aplicaciones acceden al contenido de Dynamic Media Image Server mediante cadenas URL. Después de publicar una plantilla, Dynamic Media Classic activa una cadena URL que hace referencia a la plantilla en los servidores de imágenes de Dynamic Media. Puede pegar esta URL en un explorador web para probar su funcionamiento.
 
 Para colocar cadenas URL en sus páginas web y aplicaciones, cópielas desde Dynamic Media Classic. Para obtener una URL de plantilla generada con un ajuste preestablecido de imagen, abra la pantalla Vista previa o el panel Examinar (en vista de detalles). A continuación, seleccione un ajuste preestablecido de imagen y seleccione el botón Copiar URL.
 
@@ -30,15 +30,15 @@ Para colocar cadenas URL en sus páginas web y aplicaciones, cópielas desde Dyn
 
 ## Obtención de una URL de plantilla  {#obtaining-a-template-url}
 
-Puede obtener una cadena URL de plantilla generada por un ajuste preestablecido de imagen en la pantalla Vista previa de plantilla. Una vez copiada la URL, ésta queda disponible en el portapapeles para que pueda pegarla cuando lo necesite. Siga estos pasos para obtener una cadena URL de plantilla generada con un ajuste preestablecido de imagen en la pantalla Vista previa de plantilla:
+Puede obtener una cadena URL de plantilla generada por un ajuste preestablecido de imagen en la pantalla Vista previa de plantilla. Una vez copiada la URL, ésta queda disponible en el portapapeles para que pueda pegarla cuando lo necesite. Para obtener una cadena URL de plantilla generada con un ajuste preestablecido de imagen desde la página Vista previa de plantilla, haga lo siguiente:
 
-1. Haga clic en el botón de rollover de vista previa de la plantilla o elija Archivo > Vista previa. Se abre la pantalla Vista previa.
-1. En los menús de Ajuste preestablecido, elija el Ajuste preestablecido de imagen que desee aplicar para enviar la imagen de plantilla. La pantalla Vista previa muestra el aspecto que tendrá la plantilla procedente del servidor.
-1. Haga clic en el botón Copiar URL para copiar la URL en el portapapeles.
+1. Haga clic en el botón **[!UICONTROL Preview]** de sustitución de la plantilla o seleccione **[!UICONTROL File]** > **[!UICONTROL Preview]**.
+1. En los menús de Ajuste preestablecido, elija el Ajuste preestablecido de imagen que desee aplicar para enviar la imagen de plantilla. La página Vista previa muestra el aspecto de la plantilla cuando se envía desde el servidor.
+1. Haga clic en **[!UICONTROL Copiar URL]** para copiar la URL en el portapapeles.
 
-## Adición de direcciones URL de plantilla a la página web  {#adding-template-urls-to-your-web-page}
+## Adición de direcciones URL de plantilla a la página web {#adding-template-urls-to-your-web-page}
 
-Para añadir una plantilla a la página web, consulte con el equipo de desarrollo de la página web para modificar la etiqueta `<IMG>` en el código de la página web HTML mediante la cadena URL de Dynamic Media Classic para realizar una solicitud a los servidores de imágenes de Dynamic Media. El motor comercial o el código de página web dinámico inserta la imagen de plantilla con el tamaño y el formato definidos por el ajuste preestablecido elegido para la plantilla.
+Para agregar una plantilla a la página web, consulte con el equipo de desarrollo de la página web para modificar la etiqueta `<IMG>` en el código de la página web HTML. Utilice la cadena URL de Dynamic Media Classic para realizar una solicitud a los servidores de imágenes de Dynamic Media. El motor comercial o el código de página web dinámico inserta la imagen de plantilla con el tamaño y el formato definidos por el ajuste preestablecido elegido para la plantilla.
 
 >[!MORELIKETHIS]
 >
