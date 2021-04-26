@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
-feature: Dynamic Media Classic,Viewers,eCatalog
+feature: Dynamic Media Classic,Visualizadores,Catálogo electrónico
 role: Business Practitioner
+exl-id: aee72576-1e3e-401c-953d-cc2be27f7dfd
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '684'
 ht-degree: 85%
 
 ---
-
 
 # Vinculación de un catálogo electrónico a una página web{#linking-an-ecatalog-to-a-web-page}
 
@@ -28,20 +28,20 @@ Los sitios web y las aplicaciones acceden al contenido de Dynamic Media Image Se
 
 ## Copia de la URL de un catálogo electrónico  {#copying-an-ecatalog-url}
 
-1. En la lista desplegable Mostrar del panel de exploración de recursos, haga clic en **Catálogo**.
+1. En la lista desplegable Mostrar del panel de exploración de recursos, haga clic en **[!UICONTROL Catálogo]**.
 1. En el panel Biblioteca de recursos del lado izquierdo, navegue a la carpeta de recursos que contenga el catálogo electrónico cuyo código incrustado desee copiar.
 1. Encima del panel de exploración de recursos, en la parte derecha de la barra de herramientas, realice una de las siguientes acciones:
 
-   * Haga clic en **Vista de cuadrícula**. En el panel de exploración de recursos, haga doble clic en un único recurso para abrirlo en la vista de detalles. En el panel URL y código incrustado de la derecha, haga clic en **Copiar URL** a la derecha del visor que desee.
-   * Haga clic en **Vista de cuadrícula**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **Vista previa** > **Lista del visor** debajo de la imagen en miniatura.
+   * Haga clic en **[!UICONTROL Vista de cuadrícula]**. En el panel de exploración de recursos, haga doble clic en un único recurso para abrirlo en la vista de detalles. En el panel URL y código incrustado de la derecha, haga clic en **[!UICONTROL Copiar URL]** a la derecha del visor que desee.
+   * Haga clic en **[!UICONTROL Vista de cuadrícula]**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **[!UICONTROL Vista previa]** > **[!UICONTROL Lista del visor]** debajo de la imagen en miniatura.
 
-      En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Copiar URL**.
+      En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **[!UICONTROL Copiar URL]**.
 
-   * Haga clic en **Vista de lista**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **Vista previa** > **Lista del visor** a la derecha de la imagen en miniatura.
+   * Haga clic en **[!UICONTROL Vista de lista]**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **[!UICONTROL Vista previa]** > **[!UICONTROL Lista del visor]** a la derecha de la imagen en miniatura.
 
-      En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Copiar URL**.
+      En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **[!UICONTROL Copiar URL]**.
 
-   * Haga clic en **Vista de cuadrícula**, **Vista de lista** o **Vista de detalles**. En la misma barra de herramientas, haga clic en **Vista previa** > **Lista del visor**.
+   * Haga clic en **[!UICONTROL Vista de cuadrícula]**, **[!UICONTROL Vista de lista]** o **[!UICONTROL Vista de detalles]**. En la misma barra de herramientas, haga clic en **[!UICONTROL Vista previa]** > **[!UICONTROL Lista del visor]**.
 
       En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Copiar URL**.
 
@@ -55,28 +55,27 @@ Para obtener más información y ejemplos de código, consulte [Incrustación de
 
 El uso de la función de código incrustado permite revisar el código del visor del catálogo electrónico seleccionado. También puede copiar el código en el portapapeles para pegarlo en sus páginas web para la implementación del visor. No se permite la edición del código en el cuadro de diálogo Código incrustado.
 
-**Para copiar el código incrustado de un visor de catálogos electrónicos**
+**Para copiar el código incrustado de un visor de catálogos electrónicos:**
 
-1. En la lista desplegable Mostrar del panel de exploración de recursos, haga clic en **Catálogo**.
+1. En la lista desplegable Mostrar del panel de exploración de recursos, haga clic en **[!UICONTROL Catálogo]**.
 1. En el panel Biblioteca de recursos del lado izquierdo, navegue a la carpeta de recursos que contenga el catálogo electrónico cuyo código incrustado desee copiar.
 1. Encima del panel de exploración de recursos, en la parte derecha de la barra de herramientas, realice una de las siguientes acciones:
 
-   * Haga clic en **Vista de cuadrícula**. En el panel de exploración de recursos, haga doble clic en un único recurso para abrirlo en la vista de detalles. En el panel Direcciones URL de la derecha, haga clic en **Código incrustado**.
-   * Haga clic en **Vista de cuadrícula**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **Vista previa** > **Lista del visor** debajo de la imagen en miniatura.
+   * Haga clic en **[!UICONTROL Vista de cuadrícula]**. En el panel de exploración de recursos, haga doble clic en un único recurso para abrirlo en la vista de detalles. En el panel Direcciones URL de la derecha, haga clic en **[!UICONTROL Código incrustado]**.
+   * Haga clic en **[!UICONTROL Vista de cuadrícula]**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **[!UICONTROL Vista previa]** > **[!UICONTROL Lista del visor]** debajo de la imagen en miniatura.
 
-      En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Código incrustado**.
+      En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **[!UICONTROL Código incrustado]**.
 
-   * Haga clic en **Vista de lista**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **Vista previa** > **Lista del visor** a la derecha de la imagen en miniatura.
+   * Haga clic en **[!UICONTROL Vista de lista]**. En el panel de exploración de recursos, seleccione un único recurso y, a continuación, haga clic en **[!UICONTROL Vista previa]** > **[!UICONTROL Lista del visor]** a la derecha de la imagen en miniatura.
 
-      En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Código incrustado**.
+      En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **[!UICONTROL Código incrustado]**.
 
-   * Haga clic en **Vista de cuadrícula**, **Vista de lista** o **Vista de detalles**. En la misma barra de herramientas, haga clic en **Vista previa** > **Lista del visor**.
+   * Haga clic en **[!UICONTROL Vista de cuadrícula]**, **[!UICONTROL Vista de lista]** o **[!UICONTROL Vista de detalles]**. En la misma barra de herramientas, haga clic en **[!UICONTROL Vista previa]** > **[!UICONTROL Lista del visor]**.
 
-      En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Código incrustado**.
+      En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **[!UICONTROL Código incrustado]**.
 
-1. En el cuadro de diálogo Código incrustado, haga clic en **Copiar al portapapeles**.
+1. En el cuadro de diálogo Código incrustado, haga clic en **[!UICONTROL Copiar al portapapeles]**.
 
    No se permite la edición del código en el cuadro de diálogo Código incrustado.
 
-1. Haga clic en Cerrar.
-
+1. Haga clic en **[!UICONTROL Cerrar]**.
