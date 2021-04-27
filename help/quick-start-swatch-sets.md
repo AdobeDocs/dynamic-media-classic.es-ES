@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
-feature: Dynamic Media Classic,Viewers
+feature: Dynamic Media Classic,Visualizadores
 role: Business Practitioner
+exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '389'
 ht-degree: 62%
 
 ---
-
 
 # Inicio rápido: Conjuntos de muestras{#quick-start-swatch-sets}
 
@@ -52,7 +52,7 @@ Consulte [Previsualización de un recurso](previewing-asset.md#previewing-an-ass
 
 Al publicar un conjunto de muestras, este se coloca en los servidores de Dynamic Media Classic y se activa la cadena URL.
 
-Haga clic en el icono **Marcar para publicación** que aparece a la izquierda de su nombre en el panel Examinar. A continuación, haga clic en **Publicar**. En la pantalla Publicar, haga clic en **Iniciar publicación**.
+Haga clic en el icono **Marcar para publicación** que aparece a la izquierda de su nombre en el panel Examinar. A continuación, haga clic en **Publicar**. En la pantalla Publicar, haga clic en **Enviar publicación**.
 
 Consulte [Publicación](publishing-files.md#publishing-files).
 
