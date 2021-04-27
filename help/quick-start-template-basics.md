@@ -9,14 +9,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: dd0fbb39-3f6a-496b-a9b6-63b11dcb823a
 feature: Dynamic Media Classic
 role: Business Practitioner
+exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 71%
+source-wordcount: '785'
+ht-degree: 70%
 
 ---
-
 
 # Inicio rápido: Funciones básicas de plantilla{#quick-start-template-basics}
 
@@ -64,7 +64,7 @@ Al publicar la plantilla, esta se coloca en los servidores de imágenes de Dynam
 
 Debe publicar todas las imágenes asociadas a su plantilla.
 
-Para publicar una plantilla, márquela para publicación y seleccione el botón Publicar en la barra de navegación global. A continuación, seleccione el botón Iniciar publicación. Consulte [Publicación de plantillas](publishing-templates.md#publishing_templates).
+Para publicar una plantilla, márquela para publicación y seleccione el botón Publicar en la barra de navegación global. A continuación, haga clic en **[!UICONTROL Enviar publicación]**. Consulte [Publicación de plantillas](publishing-templates.md#publishing_templates).
 
 **5. Vinculación de una plantilla a una página web**
 
