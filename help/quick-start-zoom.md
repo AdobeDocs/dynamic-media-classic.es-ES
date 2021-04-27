@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 559c986d-313d-46df-a5ff-0b49316ad3a7
-feature: Dynamic Media Classic,Viewers,Zoom
+feature: Dynamic Media Classic,Visualizadores,Zoom
 role: Business Practitioner
+exl-id: eae35207-000c-4ced-b9ab-714c2384a9e7
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 64%
+source-wordcount: '835'
+ht-degree: 63%
 
 ---
-
 
 # Inicio rápido: Zoom{#quick-start-zoom}
 
@@ -62,7 +62,7 @@ Aparecerán los botones Zoom. Puede ver el aspecto de las imágenes de zoom en e
 
 Al publicar las imágenes de zoom, estas se colocan en los servidores de imágenes de Dynamic Media para que se puedan enviar al sitio web y a la aplicación. Como parte del proceso de publicación, Dynamic Media Classic activa las cadenas URL. Estas cadenas URL llaman a hacer zoom de imágenes desde servidores de imágenes de Dynamic Media a su sitio web o aplicación.
 
-Seleccione el botón Publicar en la barra de navegación global para iniciar una publicación. En la pantalla Publicar, seleccione el botón Iniciar publicación. Consulte [Publicación de imágenes de zoom](publishing-zoom-images.md#publishing_zoom_images).
+En la barra de navegación global, haga clic en **[!UICONTROL Publicar]**. En el cuadro de diálogo Publicar, haga clic en Enviar publicación. Consulte [Publicación de imágenes de zoom](publishing-zoom-images.md#publishing_zoom_images).
 
 **6. Vinculación de visores de zoom al sitio web**
 
