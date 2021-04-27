@@ -9,14 +9,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
+exl-id: a019f973-7647-466f-8af3-5312e9225e89
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '1197'
-ht-degree: 78%
+source-wordcount: '819'
+ht-degree: 28%
 
 ---
-
 
 # Ajustes personales {#personal-setup}
 
@@ -32,95 +32,86 @@ La configuración de Ajustes personales determina el comportamiento predetermina
 
 Identifica el nombre de la cuenta, el nombre, el nombre de usuario (dirección de correo electrónico) y la función de usuario asignada.
 
-### Versión de escritorio
+## Ordenador
 
-Haga clic en Instalar ahora para instalar la versión de escritorio de Dynamic Media Classic en el disco duro local. También puede hacer clic en Volver a instalar ahora para instalar la versión de escritorio de nuevo.
+* **Borrar caché de imágenes** : quita de su equipo todos los archivos de imagen en caché de Dynamic Media de Adobe.
+* **Borrar caché de recursos** : Quita de su equipo todos los archivos de recursos almacenados en caché de Dynamic Media de Adobe.
 
-## Para instalar el plugin en la unidad de disco duro local
+Además de borrar la imagen y la caché de recursos mediante la aplicación de escritorio, puede borrar manualmente la caché directamente desde el sistema de archivos. En función del sistema operativo, vaya a lo siguiente:
 
-1. En la página Configuración personal de Dynamic Media Classic, en Complemento de Illustrator para impresión virtual, haga clic en **Descargar ahora** para descargar el archivo **Complemento de Illustrator para impresión virtual.zip**.
-1. Descomprima el archivo ZIP en una carpeta temporal.
+* macOS: `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
+* Windows®: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
-   Se incluye un archivo Léame en la raíz del archivo descomprimido que le proporcionará información adicional sobre el plugin.
+## Creative Suite Extension
 
-1. Según el sistema operativo instalado, realice una de las acciones siguientes:
+**Para instalar la extensión del Creative Suite Dynamic Media de Adobe:**
 
-### Windows
+1. En Dynamic Media Classic, en la barra de herramientas, haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Configuración personal]**, en Extensión de Creative Suite, haga clic en **[!UICONTROL Descargar ahora]** para descargar el archivo `s7csxs.zxp`.
+1. Haga clic en los vínculos **[!UICONTROL Installation]** y **[!UICONTROL System Requirements]** para obtener información adicional sobre la extensión.
 
-| Si dispone de | Haga lo siguiente |
+<!--    A readme file is included at the root of the unzipped file to provide you with additional information about the extension.
+
+1. Depending on your installed operating system, do one of the following: -->
+
+<!-- #### Windows
+
+|If you are running|Do this|
 |--- |--- |
-| Adobe Illustrator 18 en Adobe Creative Cloud 2014 | <ul><li>Desde la raíz de la carpeta sin comprimir, haga clic en CC-2014.</li><li>Según la versión de bits Adobe Illustrator que esté utilizando, haga clic en win32 o win64.</li><li>Haga clic en Bibliotecas > flame y copie `aflame.dll` en la carpeta ejecutable de Adobe Illustrator. Por ejemplo, `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Support Files\Contents\Windows`. </li></ul><br/>**Nota**: Esta ruta de ejemplo es para la ubicación de 64 bits; la ubicación de 32 bits puede caer en Archivos de programa (x86).  <br/><ul><li>Vuelva a la misma carpeta Bibliotecas, haga clic en Flamingo y copie `aflamingo.dll` en la misma carpeta ejecutable de Adobe Illustrator que haya utilizado en el paso anterior. </li><li>Vuelva a la carpeta win32 o win64 seleccionada en el paso 2 y copie `AdobeS7FXGFileFormat.aip` en la carpeta de plugins de Adobe Illustrator. Por ejemplo, `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Plug-ins\Illustrator Formats`. </li></ul> <br/>**Nota**: Esta ruta de ejemplo es para la ubicación de 64 bits; la ubicación de 32 bits puede caer en Archivos de programa (x86). |
-| Adobe Illustrator 17 en Adobe Creative Cloud | <ul><li>Desde la raíz de la carpeta sin comprimir, haga clic en CC. </li><li>Según la versión de bits Adobe Illustrator que esté utilizando, haga clic en win32 o win64.</li><li> Copie `AdobeS7FXGFileFormat.aip` en la carpeta de complementos de Adobe Illustrator. Por ejemplo, `C:\Program Files\Adobe\Adobe Illustrator CC (64 Bit)\Plug-ins\Illustrator Formats`.</li></ul><br/>**Nota**: Esta ruta de ejemplo es para la ubicación de 64 bits; la ubicación de 32 bits puede caer en Archivos de programa (x86). |
-| Adobe Illustrator 16 en Adobe Creative Suite 6 | <ul><li>Desde la raíz de la carpeta sin comprimir, haga clic en 6.0. </li><li>Según la versión de bits Adobe Illustrator que esté utilizando, haga clic en win32 o win64. </li><li>Copie·AdobeS7FXGFileFormat.aip en la carpeta de plugins de Adobe Illustrator. Por ejemplo, `C:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Plug-ins\Illustrator Formats`.</li></ul><br/>**Nota**: Esta ruta de ejemplo es para la ubicación de 64 bits; la ubicación de 32 bits puede caer en Archivos de programa (x86). |
+|Adobe Illustrator 18 in Adobe Creative Cloud 2014|<ul><li>From the root of the unzipped folder, click CC-2014.</li><li>Depending on the bit version of Adobe Illustrator that you are using, click win32 or win64.</li><li>Click libraries > flame, and then copy `aflame.dll` to Adobe Illustrator's executable folder. For example, `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Support Files\Contents\Windows`. </li></ul><br/>**Note**: This example path is for the 64-bit location; the 32-bit location may fall under Program Files (x86) instead. <br/><ul><li>Return to the same libraries folder, click flamingo, and then copy `aflamingo.dll` to the same Adobe Illustrator executable folder that you used in the previous step. </li><li>Return to the win32 or win64 folder that you selected in step 2, and then copy `AdobeS7FXGFileFormat.aip` to Adobe Illustrator's plug-ins folder. For example, `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Plug-ins\Illustrator Formats`. </li></ul> <br/>**Note**: This example path is for the 64-bit location; the 32-bit location may fall under Program Files (x86) instead.|
+|Adobe Illustrator 17 in Adobe Creative Cloud|<ul><li>From the root of the unzipped folder, click CC. </li><li>Depending on the bit version of Adobe Illustrator that you are using, click win32 or win64.</li><li> Copy `AdobeS7FXGFileFormat.aip` to Adobe Illustrator's plug-ins folder. For example, `C:\Program Files\Adobe\Adobe Illustrator CC (64 Bit)\Plug-ins\Illustrator Formats`.</li></ul><br/>**Note**: This example path is for the 64-bit location; the 32-bit location may fall under Program Files (x86) instead.|
+|Adobe Illustrator 16 in Adobe Creative Suite 6|<ul><li>From the root of the unzipped folder, click 6.0. </li><li>Depending on the bit version of Adobe Illustrator that you are using, click win32 or win64. </li><li>Copy AdobeS7FXGFileFormat.aip to Adobe Illustrator's plug-ins folder. For example, `C:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Plug-ins\Illustrator Formats`.</li></ul><br/>**Note**: This example path is for the 64-bit location; the 32-bit location may fall under Program Files (x86) instead.|
 
-### Mac
+#### Mac
 
-| Si dispone de | Haga lo siguiente |
+|If you are running|Do this|
 |--- |--- |
-| Adobe Illustrator 18 en Adobe Creative Cloud 2014 | <ul><li>Desde la raíz de la carpeta sin comprimir, haga clic en CC-2014 > mac64.</li><li>Haga clic en Bibliotecas > flame y copie la carpeta `aflame.framework` en la carpeta de contenido del paquete de Adobe Illustrator. Por ejemplo, `/Applications/Adobe Illustrator CC 2014/ Illustrator.app/Contents/Frameworks/`. (Para abrir la carpeta de contenido del paquete de Adobe Illustrator, haga clic con el botón derecho en el icono del ilustrador de Adobe CC 2014 y haga clic en Mostrar contenido del paquete desde el menú contextual).</li><li>Vuelva a la misma carpeta Bibliotecas, haga clic en `flamingo` y copie la carpeta `aflamingo.framework` en la misma carpeta de contenido del paquete de Adobe Illustrator que haya utilizado en el paso anterior.</li><li>Vuelva a la carpeta mac64 seleccionada en el paso 1 y copie la carpeta `AdobeS7FXGFileFormat.aip` en la carpeta de plugins de Adobe Illustrator. Por ejemplo, `/Applications/Adobe Illustrator CC 2014/Plug-ins/Illustrator Formats/`.</li></ul><br/> |
-| Adobe Illustrator 17 en Adobe Creative Cloud | <ul><li>Desde la raíz de la carpeta sin comprimir, haga clic en CC > mac64</li><li>Copie la carpeta `AdobeS7FXGFileFormat.aip` en la carpeta de complementos de Adobe Illustrator. Por ejemplo, `/Applications/Adobe Illustrator CC/Plug-ins/Illustrator Formats/`.</li></ul><br/> |
-| Adobe Illustrator 16 en Adobe Creative Suite 6 | <ul><li>Desde la raíz de la carpeta sin comprimir, haga clic en 6.0 > mac64</li><li>Copie la carpeta `AdobeS7FXGFileFormat.aip` en la carpeta de complementos de Adobe Illustrator. Por ejemplo, `/Applications/Adobe Illustrator CS6/Plug-ins/Illustrator Formats/`.</li></ul> |
+|Adobe Illustrator 18 in Adobe Creative Cloud 2014|<ul><li>From the root of the unzipped folder, click CC-2014 > mac64.</li><li>Click libraries > flame, and then copy the `aflame.framework` folder to Adobe Illustrator package contents folder. For example, `/Applications/Adobe Illustrator CC 2014/ Illustrator.app/Contents/Frameworks/`. (To open Adobe Illustrator’s package contents folder, right-click on the Adobe illustrator CC 2014 icon and click Show Package Contents from context menu).</li><li>Return to the same libraries folder, click `flamingo`, and then copy the `aflamingo.framework` folder to the same Adobe Illustrator package contents folder that you used in the previous step.</li><li>Return to the mac64 folder that you selected in step 1, and then copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator’s plug-in folder. For example, `/Applications/Adobe Illustrator CC 2014/Plug-ins/Illustrator Formats/`.</li></ul><br/>|
+|Adobe Illustrator 17 in Adobe Creative Cloud|<ul><li>From the root of the unzipped folder, click CC > mac64</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator’s plug-in folder. For example, `/Applications/Adobe Illustrator CC/Plug-ins/Illustrator Formats/`.</li></ul><br/>|
+|Adobe Illustrator 16 in Adobe Creative Suite 6|<ul><li>From the root of the unzipped folder, click 6.0 > mac64</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator’s plug-in folder. For example, `/Applications/Adobe Illustrator CS6/Plug-ins/Illustrator Formats/`.</li></ul>|
 
-El plugin está ahora disponible para utilizarlo en Adobe Illustrator.
+The plug-in is now available for you to use in Adobe Illustrator. -->
 
-### Explorador
+## Explorador
 
-* **Tamaño de miniatura**
-   * Determina el tamaño predeterminado de las imágenes en miniatura en la vista de cuadrícula del panel Examinar.
-* **Vista de biblioteca de recursos predeterminada**
-   * Determina si los recursos de la biblioteca de recursos para crear conjuntos aparecen por nombre o como miniaturas. Si trabaja con numerosos recursos de la biblioteca de recursos, puede visualizarlos por nombre. Por ejemplo, si va a crear un catálogo electrónico con muchos archivos PDF, puede ver los recursos por nombre para que la lista sea más pequeña.
-* **Orden de exploración predeterminado**
-   * Determina el orden predeterminado en que los recursos aparecen en el panel Examinar. Elija un criterio de orden en el menú y seleccione si desea un orden ascendente o descendente.
-* **Ubicación de exploración predeterminada**
-   * Permite definir la ubicación de exploración en la ubicación predeterminada, la última carpeta explorada o la ubicación concreta que busque e identifique. También puede definir que los archivos y las carpetas aparezcan por orden ascendente o descendente en la ubicación de exploración.
-* **Vista de exploración predeterminada**
-   * Determina la vista predeterminada al abrir el panel Examinar por primera vez: vista de cuadrícula o de lista.
-* **Presentación de pantalla de bienvenida**
-   * Determina si se mostrarán las pantallas de bienvenida.
-* **Mostrar información de objetos**
-   * Determina si se mostrará la información sobre herramientas al mover el puntero sobre botones, menús y vínculos de navegación. La información de objeto describe los elementos en pantalla.
-* **Fondo de tablero de ajedrez**
-   * Muestra una capa de tablero de ajedrez detrás de las imágenes, de modo que resulta más fácil distinguir las áreas transparentes de imágenes con un canal alfa.
-* **Mostrar tamaño del archivo**
-   * Muestra el tamaño de archivo del recurso mientras explora.
-* **Incluir UDF en la búsqueda**
-   * Se anula la selección de forma predeterminada para mejorar el rendimiento del sistema para la mayoría de las búsquedas de metadatos.
+* **Tamaño de las miniaturas** : determina el tamaño predeterminado de las imágenes en miniatura en la vista Cuadrícula del panel Examinar.
+* **Vista predeterminada de la biblioteca de recursos** : determina si los recursos de la biblioteca de recursos para conjuntos de versiones aparecen como miniaturas o por nombre. Si trabaja con numerosos recursos de la biblioteca de recursos, puede visualizarlos por nombre. Por ejemplo, si va a crear un catálogo electrónico con muchos archivos PDF, puede ver los recursos por nombre para que la lista sea más pequeña.
+* **Orden de exploración predeterminado** : determina el orden en que aparecen los recursos de forma predeterminada en el panel Examinar. Elija un criterio de orden en el menú y seleccione si desea un orden ascendente o descendente.
+* **Ubicación de exploración predeterminada** : le permite establecer la ubicación de exploración en la ubicación predeterminada, en la última carpeta explorada o en una ubicación específica a la que vaya e identifique. También puede definir que los archivos y las carpetas aparezcan por orden ascendente o descendente en la ubicación de exploración.
+* **Vista de exploración predeterminada** : determina si la vista de cuadrícula o la vista de lista es la vista predeterminada que se ve al abrir el panel Examinar por primera vez.
+* **Pantalla de bienvenida** : determina si se ve alguna pantalla de inicio, incluida la pantalla de bienvenida.
+* **Mostrar información del objeto** : determina si la información del objeto aparece al mover el puntero sobre botones, menús y vínculos de navegación. Las informaciones de objeto describen los elementos de la interfaz de usuario en pantalla.
+* **Fondo de tablero de ajedrez** : muestra una capa de tablero de ajedrez detrás de las imágenes, lo que permite ver fácilmente las áreas transparentes de una imagen que tiene un canal alfa.
+* **Mostrar tamaño de archivo** : muestra el tamaño de archivo de un recurso cuando está explorando.
+* **Incluir UDF en la búsqueda** : para mejorar el rendimiento del sistema en la mayoría de las búsquedas de metadatos que ejecute, anule la selección (predeterminado).
 
-Si necesita incluir los campos personalizables en la mayoría de sus búsquedas de metadatos, puede seleccionar esta opción para activarla. Si lo prefiere, puede utilizar la búsqueda avanzada para permitir una búsqueda más rápida y directa sin incluir todos los campos personalizables.
+   Si necesita incluir los campos personalizables en la mayoría de sus búsquedas de metadatos, puede seleccionar esta opción para activarla. Si lo prefiere, puede utilizar la búsqueda avanzada para permitir una búsqueda más rápida y directa sin incluir todos los campos personalizables.
 
-Consulte [Búsqueda avanzada](searching-assets.md#conducting_an_advanced_search).
+   Consulte [Búsqueda avanzada](searching-assets.md#conducting_an_advanced_search).
 
-Consulte también [Campos personalizables](application-setup.md#user_defined_fields).
+   Consulte también [Campos personalizables](application-setup.md#user_defined_fields).
 
-* **Tipo de búsqueda básica**
-   * Seleccione un tipo de búsqueda predeterminado, Contiene o Empieza por.
-* **Mostrar funciones de Media Portal**
-   * Seleccione esta opción para acceder a las funciones de Media Portal, como puede ser Carro Multimedia.
-* **Mostrar comentarios de comando**
-   * Muestra las solicitudes de comando al servidor.
-* **Mostrar cuadro de diálogo al exportar**
-   * Muestra un cuadro de diálogo cuando se realiza una exportación. Aunque anule la selección de esta opción, puede recuperar los resultados de la exportación desde a la página Trabajos.
+* **Tipo de búsqueda básica** : puede seleccionar entre dos opciones:  **** Contiene busca en la cadena completa el valor especificado;  **** StartsWithSearch desde el principio de la cadena y devuelve los resultados más rápido que  **[!UICONTROL Contains]**. Cualquiera de las opciones anula el valor predeterminado que el administrador establece en **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Configuración general de la aplicación]**.
+* **Mostrar comentarios del comando** : seleccione esta opción para activar la visualización de las solicitudes de comando al servidor; anule la selección para desactivarla.
+* **Mostrar cuadro de diálogo durante la exportación** : seleccione esta opción para mostrar un cuadro de diálogo emergente durante una exportación. Si anula la selección (desactiva) de esta opción, aún puede ir a la página Trabajos para recuperar los resultados de la exportación.
 
 ## Correo electrónico
 
-* **Opciones de correo electrónico**
-   * Elija cómo desea que Dynamic Media Classic le informe por correo electrónico cuando se completen los trabajos de carga y publicación. Puede recibir notificaciones sobre la finalización de un trabajo solo cuando aparezcan advertencias o se produzcan errores.
-* **Ámbito de correo electrónico**
-   * Determina si recibirá correos electrónicos para todos los trabajos de su empresa o si solo para los trabajos de carga y publicación que usted haya iniciado.
-* **Tipos de correos electrónicos**
-   * Determina si recibe una notificación al completarse los trabajos de carga y publicación.
-* **Idioma**
-* **Idioma preferido**
-   * Determina el idioma de la interfaz.
-* **Contraseña**
-* **Nueva contraseña**
-   * Escriba una contraseña nueva y válida. La contraseña debe cumplir los siguientes requisitos:
-      * Tener entre 8 y 25 caracteres
-      * Incluir al menos una letra minúscula
-      * Incluir al menos una letra en mayúsculas
-      * Incluir al menos un número
-      * Incluir al menos uno de los siguientes caracteres especiales: #$&amp;-_:{}
-* **Vuelva a escribir la contraseña**
-   * Vuelva a introducir la nueva contraseña para asegurarse de que la ha introducido correctamente.
-* **Caducidad de contraseña**
-   * Determina si la contraseña caducará a los 72 días, como medida de seguridad. Si selecciona Sí, se le pedirá que cree una nueva contraseña dentro de 72 días.
+* **Opciones de correo electrónico** : elija cómo desea que Dynamic Media Classic le informe por correo electrónico cuando se completen los trabajos de carga y publicación. Puede recibir notificaciones sobre la finalización de un trabajo solo cuando aparezcan advertencias o se produzcan errores.
+* **Ámbito de correo electrónico** : determina si recibe todo el correo electrónico del trabajo de su empresa o solo el correo electrónico sobre los trabajos de carga y publicación que inicie.
+* **Tipos de correo electrónico** : determina si se le informa cuando se completan los trabajos de carga y publicación.
+
+## Idioma
+
+* **Idioma preferido** : determina el idioma que desea utilizar para la interfaz.
+
+## Contraseña
+
+* **Contraseña actual** : introduzca la contraseña de su contraseña actual.
+* **Nueva contraseña** : introduzca una contraseña nueva y válida. La contraseña debe cumplir los siguientes requisitos:
+   * Tener entre 8 y 25 caracteres.
+   * Incluir al menos una letra minúscula.
+   * Incluir al menos una letra en mayúsculas.
+   * Incluir al menos un número.
+   * Incluir al menos uno de los siguientes caracteres especiales: `# $ & - _ : { }`
+* **Volver a escribir la contraseña** : vuelva a introducir la nueva contraseña para confirmar que la ha introducido correctamente.
+* **Caducidad de la contraseña** : determina si la contraseña caduca después de 72 días como medida de seguridad. Si selecciona Sí, se le pedirá que cree una contraseña dentro de 72 días.
