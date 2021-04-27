@@ -5,16 +5,16 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Administración de recursos
 role: Business Practitioner
+exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '1715'
-ht-degree: 74%
+source-wordcount: '1712'
+ht-degree: 59%
 
 ---
-
 
 # Publicar archivos {#publishing-files}
 
@@ -30,11 +30,9 @@ Para obtener más información, consulte el [Aviso de publicación instantánea 
 
 Para marcar recursos para la publicación, siga estas técnicas:
 
-* **Publicar después de la**
-cargaEn la página Cargar, cerca de la parte inferior, seleccione Publicar después de la carga. El valor predeterminado es un estado seleccionado.
+* **Publicar después de la carga** : en la página Cargar, cerca de la parte inferior, seleccione Publicar después de la carga. El valor predeterminado es un estado seleccionado.
 
-* **Publicar después de**
-cargarEn el cuadro de diálogo Opciones de trabajo, seleccione Publicar después de cargar. El valor predeterminado es un estado seleccionado.
+* **Publicar después de la carga** : en el cuadro de diálogo Opciones de trabajo, seleccione Publicar después de la carga. El valor predeterminado es un estado seleccionado.
 
 Algunos recursos &quot;secundarios&quot; se marcan para la publicación de forma automática al marcarse para publicación los recursos principales. En esta tabla se muestran los recursos que se marcan para la publicación de forma automática.
 
@@ -49,11 +47,11 @@ Las imágenes derivadas también se marcan para la publicación de forma automá
 
 ## Creación de un trabajo de publicación  {#creating-a-publish-job}
 
-Cree un trabajo de publicación para publicar los recursos que ha cargado en los servidores de Dynamic Media Classic, pero aún no lo ha hecho de forma automática. Puede llevar a cabo un trabajo de publicación único o programar trabajos para que se repitan de forma regular. Dynamic Media Classic ofrece opciones de publicación avanzadas para publicar en servidores específicos y opciones para volver a publicar recursos que ya se han publicado.
+Cree un trabajo de publicación para publicar los recursos que ha cargado en los servidores de Dynamic Media Classic, pero elija no publicarlos aún de forma automática. Puede realizar un trabajo de publicación única o programar trabajos para que se repitan con regularidad. Dynamic Media Classic ofrece opciones de publicación avanzadas para publicar en servidores específicos y opciones para volver a publicar recursos que ya se han publicado.
 
-**Para crear un trabajo de publicación**
+**Para crear un trabajo de publicación:**
 
-1. En la barra de navegación global, haga clic en **Publicar**.
+1. En la barra de navegación global, haga clic en **[!UICONTROL Publicar]**.
 1. En el cuadro de diálogo Publicar, seleccione si desea crear un trabajo de publicación de una sola vez o recurrente.
 
    Consulte [Creación de un trabajo de publicación único](publishing-files.md#creating_a_one_time_publish_job) y [Creación de un trabajo de publicación recurrente](publishing-files.md#creating_a_recurring_publish_job).
@@ -63,7 +61,7 @@ Cree un trabajo de publicación para publicar los recursos que ha cargado en los
 
    Consulte [Opciones avanzadas de publicación](publishing-files.md#advanced_publish_options).
 
-1. Haga clic en **Enviar publ.**.
+1. Haga clic en **[!UICONTROL Enviar publ.]**.
 
 Dynamic Media Classic realiza el seguimiento de los trabajos de publicación en la página Trabajos . Puede revisar los trabajos de publicación en esta página.
 
@@ -75,13 +73,13 @@ Dynamic Media Classic realiza el seguimiento de los trabajos de publicación en 
 
 Para crear un trabajo de publicación único seleccione la opción Una vez en la página Publicar.
 
-Si desea iniciar el trabajo de publicación más tarde, seleccione el menú Cuándo y elija Programar para más tarde. A continuación utilice el control deslizante de calendario y hora para seleccionar el día y la hora en que desea ejecutar el trabajo de publicación.
+Si desea que el trabajo de publicación se produzca más adelante, en la página Publicar, seleccione **[!UICONTROL One-Time]** y, a continuación, haga clic en la lista desplegable **[!UICONTROL Programar para después]**. Utilice el deslizador Calendario y Hora para seleccionar un día y una hora para ejecutar el trabajo de publicación.
 
-### Creación de un trabajo de publicación recurrente  {#creating-a-recurring-publish-job}
+### Creación de un trabajo de publicación recurrente {#creating-a-recurring-publish-job}
 
-Para crear un trabajo de publicación recurrente seleccione la opción Recurrente en la página Publicar.
+Cree un trabajo de publicación recurrente seleccionando **[!UICONTROL Recurring]** en la página Publicar.
 
-A continuación, elija una opción de repetición (A diario, Cada semana, Cada mes o Personalizar) según la frecuencia con que desee que se realice el trabajo. Dynamic Media Classic presenta herramientas de calendario para programar el trabajo de publicación recurrente. Puede elegir la opción Personalizar e introducir una regla en el cuadro Regla para describir un intervalo de trabajos personalizado. 
+A continuación, elija una opción de repetición de **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** o **[!UICONTROL Personalizado]** y, a continuación, especifique cuándo desea que se repita el trabajo de publicación. Dynamic Media Classic presenta herramientas de calendario para programar el trabajo de publicación recurrente. Puede hacer clic en la opción **[!UICONTROL Personalizado]** e introducir una regla en el campo de texto Regla para describir un intervalo de trabajo personalizado.
 
 Consulte [Creación de un intervalo personalizado para un trabajo de carga o publicación](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
 
@@ -93,17 +91,13 @@ Consulte [Creación de un intervalo personalizado para un trabajo de carga o pub
 
 Puede acceder a las opciones avanzadas desde la página Publicar y especificar estas opciones para controlar un trabajo de publicación:
 
-* **Publicar**
-ParaElija un tipo de servidor para publicar recursos solo en un servidor específico, no en todos los servidores.
+* **Publicar en** : para publicar recursos solo en un servidor específico, elija un tipo de servidor.
 
-* ****
-PublicarDe forma predeterminada, Dynamic Media Classic publica solo los recursos que son nuevos y no se han publicado previamente (la opción Nuevo desde la última publicación). Sin embargo, puede elegir Publicación completa y publicar los recursos que se hayan actualizado o cambiado desde su última publicación. Elija Completa con datos de búsqueda si va a publicar un catálogo electrónico y desea que los lectores puedan realizar búsquedas por palabra clave.
+* **Publicar** : de forma predeterminada, Dynamic Media Classic publica solo los recursos que son nuevos y no se han publicado antes (opción Nuevo desde la última publicación). Sin embargo, puede hacer clic en **[!UICONTROL Publicación completa]** para publicar también los recursos que se han actualizado o modificado desde la última publicación. Seleccione **[!UICONTROL Completa con datos de búsqueda]** si está publicando un catálogo electrónico y desea que los lectores puedan buscarlo por palabra clave.
 
-* **Ejecutar trabajo**
-comoElija un nombre de usuario de la lista. Desde la página Trabajos, puede ordenar los trabajos por nombre de usuario. Si elige un nombre, asociará el trabajo de publicación con un usuario.
+* **Ejecutar trabajo como** : elija un nombre de usuario en la lista. Desde la página Trabajos, puede ordenar los trabajos por nombre de usuario. Si elige un nombre, asociará el trabajo de publicación con un usuario.
 
-**Notificación HTTPIntroduzca una dirección URL para almacenar en déclencheur los trabajos de publicación posteriores.**
-
+**Notificación HTTP** : introduzca una dirección URL para almacenar en déclencheur los trabajos de publicación posteriores.
 
 (Consulte [Uso de un trabajo de carga o publicación como desencadenador](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)).
 
@@ -111,7 +105,7 @@ comoElija un nombre de usuario de la lista. Desde la página Trabajos, puede ord
 
 Puede cancelar los trabajos de publicación que están en curso. Además, si es administrador, puede cancelar un trabajo de publicación en curso desde la página Trabajos de la empresa.
 
-Para cancelar un trabajo de publicación, vaya a la página Trabajos y haga clic en Cancelar. En la ficha Programados de la página Trabajos, puede pausar o reanudar un trabajo mediante la casilla de verificación de la columna Activo.
+Para cancelar un trabajo de publicación, vaya a la página Trabajos y haga clic en **[!UICONTROL Cancelar]**. En la ficha Programados de la página Trabajos, puede pausar o reanudar un trabajo mediante la casilla de verificación de la columna Activo.
 
 >[!NOTE]
 >
@@ -121,31 +115,31 @@ Para cancelar un trabajo de publicación, vaya a la página Trabajos y haga clic
 
 Puede publicar recursos individuales manualmente en lugar de crear un trabajo de publicación. Cuando publica conjuntos, como un conjunto de imágenes o un conjunto de vídeos adaptable, se publican el conjunto (o “elemento principal”) y todos los miembros (o “elementos secundarios”) dentro de dicho conjunto.
 
-Los recursos sin publicar se indican en la interfaz de usuario con un icono gris redondeado con una barra diagonal (estado sin publicar) a la izquierda del nombre del recurso. Tras publicar un recurso, el icono cambia a verde y tiene una marca de comprobación blanca en el centro (estado publicado).
+Los recursos no publicados se indican en la interfaz de usuario mediante un icono gris redondo con una barra diagonal (estado sin publicar) a la izquierda del nombre del recurso. Tras publicar un recurso, el icono cambia a verde y tiene una marca de comprobación blanca en el centro (estado publicado).
 
-**Para publicar recursos manualmente**
+**Para publicar recursos manualmente:**
 
 1. Realice una de las siguientes acciones:
 
    * En la vista de cuadrícula, la vista de lista o la vista de detalles, utilice los métodos tradicionales de selección de archivos para seleccionar uno o más recursos sin publicar.
 
-      En la barra de navegación global, haga clic en **Archivo > Publicar**.
+      En la barra de navegación global, haga clic en **[!UICONTROL Archivo]** > **[!UICONTROL Publicar]**.
 
-   * En la vista de cuadrícula, la vista de lista o la vista de detalles, haga clic en el icono gris redondeado con una barra diagonal a la izquierda del nombre del recurso.
+   * En la vista de cuadrícula, la vista de lista o la vista de detalles, haga clic en el icono gris redondo con una barra diagonal a la izquierda del nombre del recurso.
 
-## Cancelación manual de la publicación de recursos  {#manually-unpublishing-assets}
+## Cancelación manual de la publicación de recursos {#manually-unpublishing-assets}
 
 Puede cancelar la publicación de los recursos individuales manualmente. Al cancelar la publicación de conjuntos, como un conjunto de muestras o un catálogo electrónico, el conjunto (o “elemento principal”) pasa a un estado no publicado. Sin embargo, los miembros (o “elementos secundarios”) dentro de dicho conjunto no se verán afectados; cada uno mantendrá su estado existente de publicación o no.
 
-Los recursos publicados aparecen en la interfaz de usuario con un icono verde redondeado con una marca de comprobación blanca en el centro (estado publicado) a la izquierda del nombre del recurso. Después de cancelar la publicación de un recurso, el icono se vuelve gris con una barra diagonal (estado sin publicar).
+Los recursos publicados aparecen en la interfaz de usuario con un icono verde redondeado con una marca de comprobación blanca en el centro (estado publicado) a la izquierda del nombre del recurso. Una vez cancelado la publicación de un recurso, el icono se vuelve gris con una barra diagonal (estado sin publicar),
 
-**Para cancelar la publicación de recursos manualmente**
+**Para cancelar la publicación de recursos manualmente:**
 
 1. Realice una de las siguientes acciones:
 
    * En la vista de cuadrícula, la vista de lista o la vista de detalles, seleccione uno o varios recursos publicados.
 
-      En la barra de navegación global, haga clic en **Archivo > **Cancelar publicación**.
+      En la barra de navegación global, haga clic en **[!UICONTROL Archivo]** > **[!UICONTROL Cancelar publicación]**.
 
    * En la vista de cuadrícula, la vista de lista o la vista de detalles, haga clic en el icono verde redondeado a la izquierda del nombre del recurso.
 
@@ -155,15 +149,15 @@ La última fecha de publicación de los recursos se muestra en la vista de detal
 
 ## Segunda publicación de recursos y retrasos de CDN {#republished-assets-and-cdn-delays}
 
-Los recursos de Dynamic Media Classic se distribuyen en la red de entrega de contenido (CDN). CDN es un sistema de servidores de ordenador conectados entre sí que cooperan con transparencia para entregar contenido, especialmente de medios de gran tamaño, a los usuarios finales. En el sistema CDN, el contenido web se almacena en memorias caché web que se encuentran en Internet (red de cachés de Edge). El contenido web se distribuye a los usuarios finales desde estas memorias caché web para agilizar la distribución.
+Los recursos de Dynamic Media Classic se distribuyen en la red de entrega de contenido (CDN). CDN es un sistema de servidores de ordenador conectados entre sí que cooperan con transparencia para entregar contenido, especialmente de medios de gran tamaño, a los usuarios finales. En el sistema CDN, el contenido web se almacena en memorias caché web que se encuentran en Internet (red de cachés de Edge). El contenido web se entrega desde las cachés web a los usuarios finales para realizar envíos más rápidos.
 
 La primera vez que alguien descarga una página web, los recursos se envían a un servidor web de almacenamiento en caché de CDN. Se almacenan en este servidor para que la próxima vez que alguien que se encuentre en la misma zona acceda a la página web, se pueda agilizar la entrega del mismo contenido almacenado en la caché. El contenido se entrega con mayor rapidez porque se encuentra más cerca del usuario final. CDN agiliza la visualización de páginas web. Disminuye la necesidad de banda ancha del servidor central porque el contenido se entrega desde la red de borde de almacenamiento en caché, y no desde un servidor central en cada caso.
 
-El contenido de Dynamic Media Classic recién publicado está disponible inmediatamente para el usuario final y rellena rápidamente la red de caché perimetral. Pero el nuevo contenido que se vuelve a publicar (las imágenes que tienen el mismo nombre que otras imágenes publicadas en un servidor de imágenes) no se actualiza en CDN hasta pasadas diez horas. En lugar de ver este contenido, los usuarios ven el de la memoria caché web de la red CDN. Por este motivo, es posible que los recursos republicados de Dynamic Media Classic no aparezcan para los usuarios finales durante diez horas.
+El contenido de Dynamic Media Classic recién publicado está disponible inmediatamente para el usuario final y rellena rápidamente la red de caché perimetral. Pero el nuevo contenido que se vuelve a publicar (las imágenes que tienen el mismo nombre que otras imágenes publicadas en un servidor de imágenes) no se actualiza en CDN hasta pasadas diez horas. En lugar de ver este contenido, los usuarios ven el de la memoria caché web de la red CDN. Por este motivo, los recursos republicados de Dynamic Media Classic no aparecen para los usuarios finales durante diez horas.
 
 Si desea que los recursos de imagen que se vuelven a publicar estén disponibles antes de ese plazo, puede vaciar las cachés web de CDN. Al vaciar estas memorias se eliminará el contenido antiguo de las cachés web de CDN y será sustituido por los recursos que se han publicado recientemente.
 
-Para vaciar la caché, haga clic en Archivo > Inutilizar en CDN. Se eliminan todos los archivos seleccionados de la caché. Si no hay ningún recurso para publicar o no es administrador de empresa, la opción Quitar de CDN no se encuentra disponible.
+Para vaciar la caché, en la barra de navegación global, haga clic en **[!UICONTROL Archivo]** > **[!UICONTROL Invalidar CDN]**. Se eliminan todos los archivos seleccionados de la caché. Si no hay ningún recurso para publicar o no es administrador de empresa, la opción Quitar de CDN no se encuentra disponible.
 
 >[!MORELIKETHIS]
 >
