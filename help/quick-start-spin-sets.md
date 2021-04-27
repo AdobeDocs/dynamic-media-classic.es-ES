@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
-feature: Dynamic Media Classic,Viewers,Spin Sets
+feature: Dynamic Media Classic,Visualizadores,Conjuntos de giros
 role: Business Practitioner
+exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '758'
 ht-degree: 67%
 
 ---
-
 
 # Inicio rápido: Conjuntos de giros{#quick-start-spin-sets}
 
@@ -90,7 +90,7 @@ Consulte [Vista previa de un conjunto de giros](previewing-spin-set.md#previewin
 
 Al publicar un conjunto de giros, este se coloca en los servidores de Dynamic Media Classic para que se pueda enviar de forma dinámica a su sitio web o aplicación. También activa la cadena URL que llama al conjunto de giros desde los servidores de imágenes de Dynamic Media a su sitio web o aplicación.
 
-Para publicar un conjunto de giros, marque para publicar seleccionando el icono **Marcar para publicación** junto a su nombre en el panel Examinar. Haga clic en **Publicar** en la barra de navegación global para iniciar una publicación. En la pantalla Publicar, haga clic en **Iniciar publicación**.
+Para publicar un conjunto de giros, marque para publicar seleccionando el icono **Marcar para publicación** junto a su nombre en el panel Examinar. Haga clic en **Publicar** en la barra de navegación global para iniciar una publicación. En la pantalla Publicar, haga clic en **Enviar publicación**.
 
 Consulte [Publicación de un conjunto de giros](publishing-spin-set.md#publishing-a-spin-set).
 
