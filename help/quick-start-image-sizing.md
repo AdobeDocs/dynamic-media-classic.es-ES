@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: dcaa9b21-b925-4dbb-865e-7918cdbda50c
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Administración de recursos
 role: Business Practitioner
+exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 56%
+source-wordcount: '850'
+ht-degree: 55%
 
 ---
-
 
 # Inicio rápido: Cambio de tamaño de imagen{#quick-start-image-sizing}
 
@@ -63,9 +63,9 @@ La publicación de archivos de imágenes principales tiene dos finalidades:
 * Publicación de las imágenes principales en los servidores de imágenes de Dynamic Media para que las imágenes se puedan enviar de forma dinámica al sitio web y a la aplicación.
 * La publicación activa las cadenas URL para llamar a imágenes desde servidores de imágenes de Dynamic Media a su sitio web o aplicación. Después de la publicación, puede copiar y colocar las URL generadas por Dynamic Media Classic donde sea necesario en su sitio web o aplicación.
 
-Seleccione el botón Publicar en la barra de navegación global para iniciar una publicación. En la pantalla Publicar, seleccione el botón Iniciar publicación. Consulte [Publicación de imágenes principales](publishing-master-images.md#publishing_master_images).
+Seleccione el botón Publicar en la barra de navegación global para iniciar una publicación. En el cuadro de diálogo Publicar, haga clic en **[!UICONTROL Enviar publicación]**. Consulte [Publicación de imágenes principales](publishing-master-images.md#publishing_master_images).
 
-**5. Vinculación de direcciones URL al sitio web**
+**5. Vinculación de direcciones URL al sitio web:**
 
 Dynamic Media Classic crea cadenas de llamada de URL para imágenes. Cuando publica imágenes en los servidores de imágenes de Dynamic Media, las direcciones URL se activan. Puede copiar estas cadenas URL desde el panel Examinar (en vista de detalles) o desde la pantalla Vista previa. Cuando haya copiado las cadenas URL, podrá usarlas en sus sitios web y en sus aplicaciones. La URL de cambio de tamaño de imagen sustituye a la referencia a un nombre de imagen estática en el código de página web dinámico. La URL hace referencia al nombre de una imagen principal, que la base de datos sustituye por cada nueva imagen que mostrar.
 
