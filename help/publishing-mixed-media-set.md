@@ -11,16 +11,16 @@ feature: Dynamic Media Classic,Visualizadores,Conjuntos de medios mixtos
 role: Business Practitioner
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
 translation-type: tm+mt
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 63%
+ht-degree: 55%
 
 ---
 
 # Publicación de un conjunto de medios mixtos{#publishing-a-mixed-media-set}
 
-Cree un trabajo de publicación para publicar un conjunto de medios mixtos que haya marcado para publicarlos en Dynamic Media Classic Video Server y Image Server. Dynamic Media Classic ofrece opciones de publicación avanzadas para publicar en servidores específicos y opciones para volver a publicar recursos que ya se han publicado.
+Cree un trabajo de publicación para publicar un conjunto de medios mixtos que haya marcado para publicarlo en el servidor de vídeo e imágenes de Dynamic Media Classic. Dynamic Media Classic ofrece opciones de publicación avanzadas para publicar en servidores específicos y opciones para volver a publicar recursos que ya se han publicado.
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ Last Modified Date:
 
  -->
 
-**Para publicar un conjunto de medios mixtos**
+**Para publicar un conjunto de medios mixtos:**
 
 1. Realice una de las siguientes acciones:
 
@@ -52,12 +52,12 @@ Last Modified Date:
 1. (Opcional) En el campo **[!UICONTROL Nombre del trabajo]**, especifique un nombre para la tarea de publicación.
 1. En las opciones **[!UICONTROL Avanzado]**, lista desplegable **[!UICONTROL Publicar en]**, seleccione **[!UICONTROL Servidor de vídeo]**.
 
-   Consulte [Opciones avanzadas de publicación](publishing-files.md#advanced_publish_options) para ver las opciones adicionales que se pueden definir.
+   Consulte [Opciones de publicación avanzadas](publishing-files.md#advanced_publish_options) para obtener más opciones que puede configurar.
 
 1. Haga clic en **[!UICONTROL Enviar publ.]**.
 1. Repita los pasos anteriores 2 al 4.
 1. En las opciones **[!UICONTROL Avanzado]**, en la lista desplegable **[!UICONTROL Publicar en]**, seleccione **[!UICONTROL Servidor de imágenes]**.
 
-   Consulte [Opciones avanzadas de publicación](publishing-files.md#advanced_publish_options) para ver las opciones adicionales que se pueden definir.
+   Consulte [Opciones de publicación avanzadas](publishing-files.md#advanced_publish_options) para obtener más opciones que puede configurar.
 
 1. Haga clic en **[!UICONTROL Enviar publ.]**.
