@@ -7,22 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: e4a2a5b8-a074-4f0e-a607-0c47acbb81b4
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Administración de recursos
 role: Business Practitioner
+exl-id: 23d6727b-0b48-4dac-be9f-f284d8d10de1
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 81%
+source-wordcount: '50'
+ht-degree: 34%
 
 ---
 
-
 # Impresión de recursos{#printing-assets}
 
-Para imprimir un recurso, siga estos pasos:
-
 1. En el panel Examinar, seleccione el recurso o los recursos que desea imprimir.
-1. Elija Archivo > Imprimir o pulse Ctrl+P (Windows) o Comando+P (Macintosh).
-1. En el cuadro de diálogo Imprimir, elija cuántas copias desea imprimir y a continuación seleccione el botón Imprimir.
-
+1. Haga clic en **[!UICONTROL Archivo]** > **[!UICONTROL Imprimir]** o presione `Ctrl+P` (Windows®) o `Command+P` (Macintosh).
+1. En el cuadro de diálogo Imprimir, elija cuántas copias desea imprimir y haga clic en **[!UICONTROL Imprimir]**.
