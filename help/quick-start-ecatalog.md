@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
-feature: Dynamic Media Classic,Viewers,eCatalog
+feature: Dynamic Media Classic,Visualizadores,Catálogo electrónico
 role: Business Practitioner
+exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 63%
+source-wordcount: '1429'
+ht-degree: 50%
 
 ---
-
 
 # Inicio rápido: Catálogos electrónicos{#quick-start-ecatalogs}
 
@@ -27,14 +27,14 @@ Un catálogo electrónico es una versión web digital de material impreso: por e
 * Compartir el catálogo a través de los medios sociales; descargar el catálogo para verlo sin conexión; active Favoritos para marcar los elementos a los que desee regresar rápidamente o imprimir el catálogo.
 * Navegar por el catálogo utilizando la tabla de contenido o la vista de cuadrícula de página; hacia delante o hacia atrás haciendo clic en el borde medio de una página.
 * Acercar o alejar la página, y desplazarse por ella para examinar sus elementos.
-* Pasar el puntero por encima de una región de la página (denominada mapa de imagen) para ver una ventana emergente con información sobre un producto.
-* Hacer clic en una región de la página para abrir una nueva página web con más información sobre un determinado producto.
+* Mueva el puntero sobre una región de la página (denominada mapa de imagen) para que pueda ver una ventana emergente con información sobre un elemento.
+* Haga clic en una región de página para abrir una nueva página web con más información sobre un elemento.
 * Escribir una nota adhesiva y adjuntarla a una página del catálogo electrónico.
-* Tocar los iconos del mapa de imagen para iniciar las páginas web relacionadas o los paneles de información en contexto.
+* Pulse los iconos de mapa de imagen si desea iniciar páginas web relacionadas o paneles de información en contexto.
 * Usar interacciones de gestos como pellizcar para ampliar y reducir la imagen o arrastrar para pasar de página.
 * Buscar elementos por palabras clave.
 
-![Catálogo electrónico que ven los usuarios. A) página de apertura del catálogo electrónico. B)Catálogo electrónico convertido a la página 2.](/help/assets/ec_cat_viewer_popup.png)
+![Catálogo electrónico tal como aparece para los usuarios. A) página de apertura del catálogo electrónico. B)Catálogo electrónico convertido a la página 2.](/help/assets/ec_cat_viewer_popup.png)
 
 Para crear un catálogo electrónico, suelen utilizarse archivos PDF de alta resolución creados en Adobe® Acrobat® o en otro programa de impresión, aunque también pueden crearse catálogos electrónicos a partir de archivos de imagen.
 
@@ -42,47 +42,47 @@ Al crear el catálogo electrónico, tiene la posibilidad de ordenar como desee p
 
 >[!NOTE]
 >
->Si es un usuario AEM en modo Dynamic Media - Scene7 y desea utilizar catálogos electrónicos, deberá editar el valor `pdfbrochure` en CRXDE Lite. Para ello, en AEM, haga clic en **[!UICONTROL Tools > General > CRXDE Lite]**. En el árbol de navegación del panel izquierdo, vaya a `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
+>Si es usuario del modo Dynamic Media - Scene7 y desea utilizar catálogos electrónicos, debe editar el valor `pdfbrochure` en CRXDE Lite. Para ello, en Adobe Experience Manager, haga clic en **[!UICONTROL Tools]** > **[!UICONTROL General]** > **[!UICONTROL CRXDE Lite]**. En el árbol de navegación del panel izquierdo, vaya a `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
 >
 >En el panel inferior derecho, en la pestaña **[!UICONTROL Properties]**, seleccione la fila `jobParam`. Establezca el valor para `pdfbrochure` de `false` a `true`. Como en `pdfbrochure=true`
 >
 >En la esquina superior izquierda de la página CRXDE Lite, haga clic en **[!UICONTROL Guardar todo]**.
 >
->Ahora podrá crear catálogos electrónicos en Dynamic Media Classic.
+>Ahora puede crear catálogos electrónicos en Dynamic Media Classic.
 
-**Inicio rápido**
+## Inicio rápido
 
 Este inicio rápido de catálogos electrónicos se ha diseñado para ayudarle en el uso inicial de catálogos electrónicos. Siga los pasos del 1 al 7. Después de cada paso hay una referencia cruzada a un encabezado de tema en el que podrá encontrar más información.
 
-**1. Carga de archivos PDF**
+### 1. Carga de los archivos PDF
 
-Los catálogos electrónicos suelen crearse a partir de archivos PDF. Puesto que están diseñados para imprimirse, los archivos PDF suelen contener imágenes en CMYK. Dynamic Media Classic detecta estas imágenes y las convierte mediante un perfil de color CMYK estándar. Sin embargo, quizás debe cargar y usar un perfil de color personalizado.
+Los catálogos electrónicos suelen crearse a partir de archivos PDF. Puesto que están diseñados para imprimirse, los archivos PDF suelen contener imágenes en CMYK. Dynamic Media Classic detecta estas imágenes y las convierte mediante un perfil de color CMYK estándar. Sin embargo, debe cargar y usar un perfil de color personalizado.
 
-Haga clic en Cargar en la barra de navegación global para comenzar a cargar archivos PDF o imágenes para su catálogo electrónico. Puede cargar archivos desde el escritorio o por medio de FTP; se recomienda usar FTP si va a cargar muchos archivos o archivos cuyo tamaño es superior a 100 MB.
+En la barra de navegación global, haga clic en **[!UICONTROL Cargar]** para iniciar la carga de archivos PDF o imágenes para su catálogo electrónico. Puede cargar archivos desde el escritorio o por medio de FTP; se recomienda usar FTP si va a cargar muchos archivos o archivos cuyo tamaño es superior a 100 MB.
 
 En la pantalla de carga, Opciones de PDF le ofrece las opciones necesarias para cargar los archivos PDF con la resolución adecuada y el espacio de color correcto. Se recomienda utilizar una resolución de 150 píxeles por pulgada. Puede seleccionar la opción Generar catálogo electrónico automáticamente y crear un catálogo electrónico al cargar un archivo PDF. 
 
 Consulte [Carga de archivos PDF](uploading-pdf-files.md#uploading_the_pdf_files).
 
-**2. Creación de un catálogo electrónico**
+### 2. Creación de un catálogo electrónico
 
-Para crear un catálogo electrónico, seleccione los archivos PDF o archivos de imagen en el panel Examinar, haga clic en el botón Generar y elija Catálogos electrónicos. Se abre la pantalla Catálogo electrónico. 
+Cree su catálogo electrónico seleccionando archivos PDF o de imagen en el panel Examinar. Haga clic en **[!UICONTROL Generar]** y, a continuación, elija **[!UICONTROL Catálogos electrónicos]**.
 
-En la ficha Ordenar páginas, seleccione uno de los botones de presentación (1 vertical, 2 verticales o personalizado) para elegir si desea que se muestre una página individual, una doble o si desea personalizar la presentación. Puede reorganizar las páginas o los conjuntos de páginas arrastrándolos o, en el caso de los catálogos electrónicos de mayor tamaño, eligiendo un nombre de página en el menú Mover a.
+En la página Catálogo electrónico, en la ficha **[!UICONTROL Ordenar páginas]**, seleccione una opción Diseño: **[!UICONTROL 1 Up]**, **[!UICONTROL 2 Up]** o **[!UICONTROL Custom]**. Puede reorganizar las páginas o los conjuntos de páginas arrastrándolos o, en el caso de los catálogos electrónicos de mayor tamaño, eligiendo un nombre de página en el menú Mover a.
 
-Para agregar páginas, seleccione una carpeta en la biblioteca de recursos y arrastre los archivos PDF o de imagen a la pantalla Ordenar páginas. Si no desea utilizar la numeración de páginas predeterminada, puede proporcionar nombres de página personalizados o importar varios nombres de página.
+Para agregar páginas, seleccione una carpeta en la biblioteca de recursos y arrastre los archivos PDF o de imagen a la pantalla Ordenar páginas. En lugar de los números de página predeterminados, puede proporcionar nombres de página personalizados o importar muchos nombres de página.
 
 Haga clic en **[!UICONTROL Guardar]**, introduzca un nombre para el catálogo electrónico, elija una carpeta de Dynamic Media Classic para almacenarla y haga clic en **[!UICONTROL Guardar]**. Cada vez que cambie el orden de la página o edite el catálogo electrónico, guarde los cambios haciendo clic en **[!UICONTROL Guardar]**.
 
 Consulte [Creación de un catálogo electrónico](creating-ecatalog.md).
 
-**3. Creación de mapas de imagen**
+### 3. Creación de mapas de imagen
 
-Los mapas de imagen agregan otra dimensión a las páginas del catálogo electrónico. Un mapa de imagen es una región de la página que ofrece más información sobre un elemento determinado. Al pasar el puntero sobre el mapa de imagen, los usuarios verán una descripción del elemento. Al hacer clic en el mapa de imagen se activa una referencia externa, que abre una nueva página web donde hay más información sobre el elemento seleccionado.
+Los mapas de imagen añaden otro aspecto a las páginas del catálogo electrónico. Un mapa de imagen es una región de la página que ofrece más información sobre un elemento determinado. Al pasar el puntero sobre el mapa de imagen, los usuarios verán una descripción del elemento. Al hacer clic en el mapa de imagen se activa una referencia externa, que abre una nueva página web donde hay más información sobre el elemento seleccionado.
 
-Para crear un mapa de imagen, abra la pantalla Catálogo electrónico. A continuación, vaya a la pestaña **[!UICONTROL Páginas de mapa]** de la pantalla del catálogo electrónico y dibuje el mapa con la herramienta Rectángulo de mapa de imagen o la herramienta Polígono de mapa de imagen. Si desea ajustar la posición y el tamaño de los mapas de imagen, arrastre los bordes del mapa con la Herramienta de desplazamiento .
+Para crear un mapa de imagen, abra la pantalla Catálogo electrónico. A continuación, vaya a la pestaña **[!UICONTROL Páginas de mapa]** de la pantalla del catálogo electrónico y enmarque el mapa con la herramienta Rectángulo de mapa de imagen o la herramienta Polígono de mapa de imagen. Si desea ajustar la posición y el tamaño de los mapas de imagen, arrastre los bordes del mapa con la Herramienta de desplazamiento .
 
-Tras dibujar el mapa de imagen, introduzca la dirección URL a la que desea ir al hacer clic en el mapa de imagen. También puede escribir el texto de rollover que aparecerá al mover el puntero sobre el mapa de imagen. 
+Después de enmarcar el mapa de imagen, introduzca la dirección URL a la que desea dirigirse cuando haga clic en el mapa de imagen. También puede escribir el texto de rollover que aparecerá al mover el puntero sobre el mapa de imagen. 
 
 Consulte [Creación de mapas de imagen de catálogos electrónicos](creating-ecatalog-image-maps.md#creating-ecatalog-image-maps).
 
@@ -92,7 +92,7 @@ Puede configurar y gestionar el texto del mapa de imagen mediante la configuraci
 
 Consulte [Gestión del contenido del panel de información](info-panel-content.md#managing-info-panel-content).
 
-**4. Configuración de ajustes preestablecidos del visor de catálogos electrónicos**
+### 4. Configuración de ajustes preestablecidos del visor de catálogos electrónicos
 
 Los usuarios finales ven el catálogo electrónico en el visor de catálogos electrónicos. Si es un administrador, puede configurar el visor de catálogos electrónicos. Puede cambiar el color del contorno y seleccionar una nueva “apariencia” para personalizar el catálogo electrónico. Dynamic Media Classic incluye varios ajustes preestablecidos de visualizador de catálogos electrónicos &quot;recomendados&quot;. Puede elegir uno de estos ajustes preestablecidos para mostrar los catálogos electrónicos. También puede crear un ajuste preestablecido de visor de catálogos electrónicos propio si es administrador.
 
@@ -100,7 +100,7 @@ Para crear un ajuste preestablecido de visualizador de catálogos electrónicos,
 
 Consulte [Configuración de ajustes preestablecidos del visor de catálogos electrónicos](setting-ecatalog-viewer-presets.md#setting-up-ecatalog-viewer-presets).
 
-**5. Vista previa de catálogos electrónicos en el visor de catálogos electrónicos**
+### 5. Vista previa de catálogos electrónicos en el visor de catálogos electrónicos
 
 Los ajustes preestablecidos de visor de catálogos electrónicos determinan el estilo y comportamiento de los visores de catálogos electrónicos.
 
@@ -110,15 +110,15 @@ Fíjese en la orientación, la combinación de colores, el aspecto de los contro
 
 Consulte [Vista previa de catálogos electrónicos en el visor de catálogos electrónicos](previewing-ecatalogs-ecatalog-viewer.md#previewing-ecatalogs-in-the-ecatalog-viewer).
 
-**6. Publicación del catálogo electrónico y los PDF asociados**
+### 6. Publicación de catálogos electrónicos y archivos PDF asociados
 
 Al publicar el catálogo electrónico y el PDF asociado, se coloca en los servidores de imágenes de Dynamic Media para que se pueda enviar al sitio web y a la aplicación. Como parte del proceso de publicación, Dynamic Media Classic activa la cadena URL del catálogo electrónico. Utilice esta URL para llamar al catálogo electrónico desde los servidores de imágenes de Dynamic Media a su sitio web o aplicación.
 
-Después de marcar el catálogo electrónico y el PDF para su publicación en el panel Examinar, seleccione el botón Publicar en la barra de navegación global para iniciar una publicación. En la pantalla Publicar, haga clic en **[!UICONTROL Iniciar publicación]**.
+Después de marcar el catálogo electrónico y el PDF para su publicación en el panel Examinar, seleccione el botón Publicar en la barra de navegación global para iniciar una publicación. En la pantalla Publicar, haga clic en **[!UICONTROL Enviar publicación]**.
 
 Consulte [Publicación de catálogos electrónicos y archivos PDF asociados](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
 
-**7. Vinculación de un catálogo electrónico a una página web**
+### 7. Vinculación de un catálogo electrónico a una página web
 
 Dynamic Media Classic activa la cadena de llamada URL necesaria para mostrar el catálogo electrónico cuando se publica en los servidores de imágenes de Dynamic Media. Puede copiar esta cadena URL desde la pantalla Vista previa o desde la vista de detalles del panel Examinar si selecciona Direcciones URL en el panel. Cuando haya copiado la cadena URL, estará disponible para los sitios web y las aplicaciones.
 
