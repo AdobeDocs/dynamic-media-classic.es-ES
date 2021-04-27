@@ -11,10 +11,10 @@ feature: Dynamic Media Classic,Administración de recursos
 role: Business Practitioner
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
 translation-type: tm+mt
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 55%
+source-wordcount: '663'
+ht-degree: 45%
 
 ---
 
@@ -26,70 +26,66 @@ Los archivos PDF (Portable Document Format) se usan con mayor frecuencia en Dyna
 
 Al cargar un archivo PDF, puede darle formato de varios modos. Puede recortar sus páginas, extraer palabras de búsqueda, introducir una resolución de píxeles por pulgada y elegir un espacio de color. Los archivos PDF muchas veces contienen un margen y marcas de recorte, marcas de registro y otras marcas de impresión. Estas marcas se pueden recortar de los lados de las páginas al cargar un archivo PDF.
 
-Las opciones para cargar archivos PDF se encuentran en la pantalla Cargar, en Opciones de PDF.
+Las opciones para cargar archivos PDF se encuentran en la página Cargar, en Opciones de PDF.
 
-**Procesamiento**
+### Opciones de procesamiento
 
-Las opciones de Procesamiento son:
+**Rasterizar** : (predeterminado) arrastra las páginas del archivo PDF y convierte los gráficos vectoriales en imágenes de mapa de bits. Para crear un catálogo electrónico, seleccione esta opción.
 
-**Rasterizar**  (predeterminado) quita las páginas del archivo PDF y convierte los gráficos vectoriales en imágenes de mapa de bits. Elija esta opción para crear un catálogo electrónico. 
+**Extraer palabras de búsqueda** : extrae palabras del archivo PDF para que el archivo se pueda buscar por palabra clave en un visualizador de catálogos electrónicos.
 
-**Extraer** palabras de búsquedaExtrae palabras del archivo PDF para que el archivo se pueda buscar por palabra clave en un visualizador de catálogos electrónicos.
+**Extraer vínculos** : extrae vínculos de los archivos PDF y los convierte en mapas de imágenes que se utilizan en un visor de catálogos electrónicos.
 
-**Extraer** vínculosExtrae vínculos de los archivos PDF y los convierte en mapas de imágenes que se utilizan en un visor de catálogos electrónicos.
+**Generación automática de catálogos electrónicos con PDF de varias páginas** : crea automáticamente un catálogo electrónico a partir del archivo PDF. El catálogo electrónico recibe el mismo nombre que el archivo PDF cargado. (Esta opción solo está disponible si rasteriza el archivo PDF al cargarlo).
 
-**Generación automática de catálogos electrónicos con** PDFA de varias páginas crea automáticamente un catálogo electrónico a partir del archivo PDF. El catálogo electrónico recibe el mismo nombre que el archivo PDF cargado. (Esta opción solo está disponible si rasteriza el archivo PDF al cargarlo).
-
-**Resolución**
+### Resolución
 
 Determina el valor de la resolución. Este valor determina cuántos píxeles se muestran por pulgada en el archivo PDF. El valor predeterminado es 150.
 
-**Espacio de color**
+### Espacio de color opciones
 
 Seleccione el menú Espacio de color y elija un espacio de color para el archivo PDF. La mayoría de los archivos PDF tienen imágenes de color RGB y CMYK. El espacio de color RGB es preferible para la visualización en línea.
 
-**Detectar** automáticamenteConserva el espacio de color del archivo PDF.
+* **Detectar automáticamente** : conserva el espacio de color del archivo PDF.
 
-**Forzar como** RGBCondea en el espacio de color RGB.
+* **Forzar como RGB** : Convierte al espacio de color RGB.
 
-**Forzar como** CMYKConvierte al espacio de color CMYK.
+* **Forzar como CMYK** : convierte al espacio de color CMYK.
 
-**Forzar como escala de** grisesConvierte al espacio de color de escala de grises.
+* **Forzar como escala de grises** : se convierte al espacio de color de escala de grises.
 
-**Perfil de color**
+### Opciones de perfiles de color
 
-Elija una opción de Perfil de color:
+* **Convertir a sRGB** : convierte a sRGB (azul verde rojo estándar). SRGB es el espacio de color que se recomienda para mostrar imágenes en páginas web.
 
-**Convertir a** sRGBConverts a sRGB (azul verde rojo estándar). SRGB es el espacio de color que se recomienda para mostrar imágenes en páginas web.
+* **Mantener espacio de color original** : conserva el espacio de color original.
 
-**Mantener** espacio de color originalConserva el espacio de color original.
+* **Personalizar de > A** : abre los menús para que pueda elegir los espacios de color Convertir en y Convertir en. Puede elegir un espacio de color estándar de Photoshop o un espacio de color que haya cargado en Dynamic Media Classic.
 
-**Personalizar de >** ParaAbre los menús para que pueda elegir un espacio de color Convertir de y Convertir en. Puede elegir un espacio de color estándar de Photoshop o un espacio de color que haya cargado en Dynamic Media Classic.
+Consulte también [Perfiles ICC](/help/icc-profiles.md#icc_profiles).
 
-Consulte [Perfiles ICC](icc-profiles.md#icc_profiles).
-
-## Recorte de espacio en blanco de un archivo PDF  {#cropping-white-space-from-a-pdf-file}
+## Recorte de espacio en blanco de un archivo PDF {#cropping-white-space-from-a-pdf-file}
 
 1. Para recortar automáticamente píxeles de espacio en blanco de un archivo PDF al cargarlo, seleccione el menú Recortar y elija Recortar.
 1. Especifique las opciones siguientes:
 
-   **Recortar según** elElija si desea recortar según el color o la transparencia:
+   * **Separar en función de** : elija si recortar en función del color o la transparencia:
 
-   **** ColorElija la opción Color. A continuación, seleccione el menú Esquina y elija la esquina del PDF que mejor represente el color de espacio en blanco que desea recortar.
+   * **Color** : elija la opción Color. A continuación, seleccione el menú Esquina y elija la esquina del PDF que mejor represente el color de espacio en blanco que desea recortar.
 
-   **** TransparenciaElija la opción Transparencia.
+   * **Transparencia** : elija la opción Transparencia.
 
-   **** ToleranciaArrastre el control deslizante para especificar una tolerancia de 0 a 1:
+   * **Tolerancia** : arrastre el control deslizante para especificar una tolerancia de 0 a 1.
 
-   **Recorte basado en el** colorEspecifique 0 para recortar píxeles solo si coinciden exactamente con el color seleccionado en la esquina del PDF. Los números más cercanos a 1 permiten una mayor diferencia de color.
+   * **Recorte basado en el color** : especifique 0 para recortar píxeles solo si coinciden exactamente con el color seleccionado en la esquina del PDF. Los números más cercanos a 1 permiten una mayor diferencia de color.
 
-   **Recorte basado en la** transparenciaEspecifique 0 para recortar píxeles solo si son totalmente transparentes; los números más cercanos a 1 permiten una mayor transparencia.
+   * **Recorte basado en la transparencia** : especifique 0 para recortar píxeles solo si son transparentes; los números más cercanos a 1 permiten una mayor transparencia.
 
 ## Recorte de los lados de páginas PDF {#cropping-from-the-sides-of-pdf-pages}
 
 Se pueden quitar manualmente las marcas de impresión de los lados de páginas en un archivo PDF al cargarlo.
 
-1. Seleccione el menú Recortar y elija Manual.
+1. En el menú Recortar, haga clic en **[!UICONTROL Manual]**.
 1. Introduzca valores de píxeles en los cuadros de texto Superior, Derecha, Inferior e Izquierda para recortar de las partes superior e inferior, así como los lados, de las páginas.
 
-La cantidad que se recorte de la página dependerá del valor de resolución en píxeles/pulgada que se introduzca para el archivo PDF. Por ejemplo, si se introduce 150 (valor predeterminado) como valor de resolución en píxeles/pulgada y se recortan 75 píxeles de los lados de las páginas, se recortará media pulgada, ya que, a 150 píxeles por pulgada, 75 píxeles equivalen a media pulgada.
+La cantidad que se recorte de la página dependerá del valor de resolución en píxeles/pulgada que se introduzca para el archivo PDF. Por ejemplo, si introduce 150 (el valor predeterminado) como ajuste Resolución PX/Pulgada y recorta 75 píxeles de los lados de las páginas, se recortará media pulgada; a 150 píxeles por pulgada, 75 píxeles equivalen a media pulgada.
