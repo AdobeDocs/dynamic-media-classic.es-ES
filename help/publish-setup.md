@@ -6,55 +6,55 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Administrator
+exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 translation-type: tm+mt
-source-git-commit: 5efad4fff11c9818d43d46ebbbce5335ee1e72b8
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '2422'
-ht-degree: 64%
+source-wordcount: '2403'
+ht-degree: 47%
 
 ---
 
-
 # Ajuste de publicación {#publish-setup}
 
-La configuración de la pantalla Ajustes de publicación determina cómo se envían los recursos de forma predeterminada de los servidores de Dynamic Media Classic a los sitios web o aplicaciones. Si no se especifica ninguna configuración, el servidor de Dynamic Media Classic envía un recurso de acuerdo con la configuración predeterminada de la pantalla Ajustes de publicación . Por ejemplo, si se solicita una imagen que no incluye un atributo de resolución se enviará una imagen con la configuración de Resolución de objeto predeterminada que se encuentra en la pantalla del servidor de imágenes.
+La configuración de la página Configuración de publicación determina cómo se envían los recursos de forma predeterminada desde los servidores de Dynamic Media Classic a los sitios web o aplicaciones. Si no se especifica ninguna configuración, el servidor de Dynamic Media Classic envía un recurso de acuerdo con la configuración predeterminada de una página de configuración de publicación. Por ejemplo, una solicitud para enviar una imagen que no incluya un atributo de resolución genera una imagen con la configuración Resolución de objeto predeterminada en la página Servidor de imágenes.
 
-Los administradores pueden cambiar la configuración predeterminada de las pantallas Servidor de imágenes, Procesador de imágenes y Viñeta para establecer la configuración predeterminada a la hora de enviar recursos desde los servidores.
+Los administradores pueden cambiar la configuración predeterminada de las páginas Servidor de imágenes, Procesador de imágenes y viñeta para establecer la configuración predeterminada para enviar recursos desde servidores.
 
-Para abrir las pantallas de Configuración de publicación, haga clic en **Configuración** > **Configuración de aplicación** > **Configuración de publicación**.
+Para abrir las páginas Configuración de publicación , haga clic en **Configuración** > **Configuración de aplicación** > **Configuración de publicación**.
 
 >[!NOTE]
 >
->las pantallas de Ajuste de publicación están reservadas a los desarrolladores y programadores web experimentados. Dynamic Media Classic supone que los usuarios que cambian la configuración en estas pantallas están familiarizados con Dynamic Media Classic, las normas y convenciones del protocolo HTTP y la tecnología básica de imágenes.
+>Las páginas Configuración de publicación están destinadas a los programadores y desarrolladores de sitios web experimentados. Dynamic Media Classic supone que los usuarios que cambian la configuración de estas páginas están familiarizados con Dynamic Media Classic, las normas y convenciones del protocolo HTTP y la tecnología básica de creación de imágenes.
 
 ## Servidor de imágenes {#image-server}
 
-La pantalla del servidor de imágenes establece la configuración predeterminada a la hora de enviar imágenes desde los servidores de imágenes. Las opciones de configuración se dividen en estas cinco categorías (consulte la pantalla del servidor de imágenes para ver una descripción detallada de las opciones).
+La página Servidor de imágenes establece la configuración predeterminada para enviar imágenes desde los servidores de imágenes. La configuración está disponible en estas cinco categorías (consulte la página Servidor de imágenes para obtener descripciones detalladas de la configuración).
 
 Cambie esta configuración solo con la ayuda de una persona de asistencia técnica de Dynamic Media Classic.
 
-**Administración** de catálogosEsta configuración determina cómo interactúan Dynamic Media Classic y el catálogo. A diferencia de la mayoría de los servidores web, las llamadas URL del servidor de imágenes de Dynamic Media se dirigen a un archivo de manifiesto o catálogo en lugar de a un archivo de imagen en sí. El archivo de catálogo (que no debe confundirse con un catálogo electrónico) contiene una lista del contenido que se ha publicado en el servidor de imágenes además de la ruta de cada imagen. Si tiene un ID de Digimarc, introduzca su información de usuario en la sección Información de usuario de Digimarc.
+* **Administración de catálogos** : esta configuración determina cómo interactúan Dynamic Media Classic y el catálogo. A diferencia de la mayoría de los servidores web, las llamadas URL del servidor de imágenes de Dynamic Media se dirigen a un archivo de manifiesto o catálogo en lugar de a un archivo de imagen en sí. El archivo de catálogo (que no debe confundirse con un catálogo electrónico) contiene una lista del contenido que se ha publicado en el servidor de imágenes además de la ruta de cada imagen. Si tiene un ID de Digimarc, introduzca su información de usuario en la sección Información de usuario de Digimarc.
 
-**Solicitar** atributosEsta configuración impone límites a las imágenes que se pueden enviar desde el servidor. Por ejemplo, el *máximo* **[!UICONTROL Límite de tamaño de imagen de respuesta]** es **[!UICONTROL Anchura]** 5000 y **[!UICONTROL Altura]** 5000.
+* **Atributos de solicitud** : esta configuración impone límites a las imágenes que se pueden enviar desde el servidor. Por ejemplo, el *máximo* **[!UICONTROL Límite de tamaño de imagen de respuesta]** es **[!UICONTROL Anchura]** 5000 y **[!UICONTROL Altura]** 5000.
 
-**Atributos de solicitud** predeterminadosEsta configuración se refiere al aspecto predeterminado de las imágenes.
+* **Atributos de solicitud predeterminados** : esta configuración está relacionada con el aspecto predeterminado de las imágenes.
 
-**Atributos comunes de** miniaturasEsta configuración se refiere al aspecto y la alineación predeterminados de las imágenes en miniatura.
+* **Atributos de miniatura comunes** : esta configuración se relaciona con la apariencia y alineación predeterminadas de las imágenes en miniatura.
 
-**Predeterminados para los** campos del catálogoEsta configuración se refiere a la resolución y al tipo de miniatura predeterminado de las imágenes.
+* **Predeterminados para los campos del catálogo** : estos ajustes pertenecen a la resolución y al tipo de miniatura predeterminado de las imágenes.
 
-**Atributos de gestión de** colorEsta configuración determina qué perfiles de color ICC se utilizan.
+* **Atributos de administración de color** : esta configuración determina qué perfiles de color ICC se utilizan.
 
-**Atributos de compatibilidadEsta configuración permite que los párrafos iniciales y finales de las capas de texto se traten como lo eran en la versión 3.6 para la compatibilidad con versiones anteriores.** 
+* **Atributos de compatibilidad** : esta configuración permite que los párrafos iniciales y finales de las capas de texto se traten como en la versión 3.6 para la compatibilidad con versiones anteriores.
 
-**Localization** SupportEsta configuración le permite administrar varios atributos de configuración regional. También permite especificar una cadena de asignación de configuración regional, de forma que puede definir los idiomas que desee admitir para los distintos consejos de herramientas en los visores.
+* **Compatibilidad con la localización** : Esta configuración le permite administrar varios atributos de configuración regional. También permite especificar una cadena de asignación de configuración regional, de forma que puede definir los idiomas que desee admitir para los distintos consejos de herramientas en los visores.
 
-Por ejemplo, si es una marca multinacional que vende en distintos países, puede asegurarse de que cada país tiene su propio visor con su propia configuración regional específica. Para llevar a cabo esta funcionalidad, puede especificar una cadena de asignación de configuración regional. A continuación, puede editar el texto de información sobre herramientas en un ajuste preestablecido del visor, agregando las cadenas de texto traducidas del visor para el idioma que desee.
+   Por ejemplo, si es una marca multinacional que vende en distintos países, puede asegurarse de que cada país tiene su propio visor con su propia configuración regional específica. Para llevar a cabo esta funcionalidad, puede especificar una cadena de asignación de configuración regional. A continuación, puede editar el texto de información sobre herramientas en un ajuste preestablecido del visor, agregando las cadenas de texto traducidas del visor para el idioma que desee.
 
->[!NOTE]
-> Para configurar las opciones de Compatibilidad con localización, [utilice el Admin Console para crear un caso de soporte.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) En su caso de asistencia, solicite ayuda para la configuración.
+   >[!NOTE]
+   > Para configurar las opciones de Compatibilidad con localización, [utilice el Admin Console para crear un caso de soporte.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) En su caso de asistencia, solicite ayuda para la configuración.
 
-Para más información sobre la configuración de la **Asistencia para la localización**, consulte [Consideraciones al configurar la localización de recursos](publish-setup.md#considerations_when_setting_up_localization_of_assets).
+   Para más información sobre la configuración de la **Asistencia para la localización**, consulte [Consideraciones al configurar la localización de recursos](publish-setup.md#considerations_when_setting_up_localization_of_assets).
 
 ### Consideraciones al configurar la localización de recursos {#considerations-when-setting-up-localization-of-assets}
 
@@ -62,9 +62,9 @@ Para más información sobre la configuración de la **Asistencia para la locali
 >
 >Si desea configurar las opciones de Compatibilidad con localización en Dynamic Media Classic, como el campo Mapa de configuración regional , [utilice el Admin Console para crear un caso de asistencia.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) En su caso de asistencia, solicite ayuda para la configuración.
 
-Una forma habitual de utilizar Dynamic Media Classic es administrar las imágenes de los productos en los sitios web de comercio electrónico. Las empresas internacionales se enfrentan a un reto importante, ya que los recursos para productos similares tienen un aspecto distinto según el país. Normalmente, las diferencias constituyen una pequeña parte de todo el medio. Copiar todos los recursos para cada uno de los países y sobrescribir solo las diferencias es un enorme esfuerzo y contradice el principio de un solo recurso maestro. Dichas diferencias en los recursos pueden ser numerosas, desde vídeos para cada país con diferentes pistas de audio hasta diferencias pequeñas pero importantes en el cable de alimentación que se utiliza con el producto. Dynamic Media Classic utiliza un mecanismo de búsqueda básico. Puede definir el orden de los sufijos de los recursos en que busca el servidor de imágenes, empezando por la configuración regional requerida.
+Una forma habitual de utilizar Dynamic Media Classic es administrar las imágenes de los productos en los sitios web de comercio electrónico. Las empresas internacionales se enfrentan a un reto importante, ya que los recursos para productos similares tienen un aspecto distinto según el país. Por lo general, las diferencias son para algunas partes de los medios generales. Copiar todos los recursos para cada uno de los países y sobrescribir solo las diferencias es un enorme esfuerzo y contradice el principio de un solo recurso maestro. Dichas diferencias en los recursos pueden ser numerosas, desde vídeos para cada país con diferentes pistas de audio hasta diferencias pequeñas pero importantes en el cable de alimentación que se utiliza con el producto. Dynamic Media Classic utiliza un mecanismo de búsqueda básico. Puede definir el orden de los sufijos de los recursos en que busca el servidor de imágenes, empezando por la configuración regional requerida.
 
-**Búsqueda de recursos**
+#### Búsqueda de recursos
 
 La configuración regional de un servicio de imágenes (IS) se identifica con el comando siguiente para IS/IR (procesamiento de imágenes):
 
@@ -81,22 +81,22 @@ Algunas de las ventajas de utilizar `locale=` y `attribute::DefaultLocale` son l
 * Uso compartido de contenido para varias configuraciones regionales.
 * Acceso a contenido de una configuración regional específica con identificadores genéricos.
 * Flexibilidad en las convenciones de nombre y la administración del contenido de una configuración regional específica, tal como prefijo de configuración regional en vez de sufijo o contenido para una configuración regional concreta en un catálogo independiente.
-* Acceso directo a versiones de una configuración regional específica.
-* Los objetos agregados, como conjuntos de imágenes, puede contener referencias genéricas a contenido potencialmente específico para una configuración regional.
-* Admite todo el contenido administrado por los catálogos que deban localizarse, incluyendo imágenes, conjuntos de imágenes, ilustraciones, materiales y registros de configuración del visor.
+* Admite el acceso a versiones específicas de la configuración regional.
+* Los objetos agregados, como los conjuntos de imágenes, a veces pueden contener referencias genéricas a contenido potencialmente específico de una configuración regional.
+* Admite todo el contenido gestionado por catálogos que necesitan localización, incluidas imágenes, conjuntos de imágenes, viñetas, materiales y registros de configuración del visor.
 * Minimice los cambios de la base de datos de IPS y los mecanismos IS aparentes.
-* Se añadirá compatibilidad con contenido estático como vídeos y apariencias cuando se implemente RFC IS-63.
+* Cuando se implementa RFC IS-63, se agrega compatibilidad con contenido estático como vídeos y máscaras.
 * Se puede configurar la configuración regional predeterminada.
 
-**Situaciones de aplicación**
+#### Situaciones de aplicación
 
 | Aplicación | Situación |
 |--- |--- |
 | Localización de un visor | Tras implementar los catálogos de contenido estático, el parámetro locale= añadido a todas las solicitudes a IS controla la localización completamente. Los registros de configuración, las apariencias, pantallas de bienvenida, etc., pueden tener o no variantes regionales. IS proporciona el contenido correcto sin que el visor necesite saber qué parte del contenido se ha localizado y cuáles son sus ID. |
 | Imágenes y vídeo | Las compañías multinacionales suelen tener una mezcla de contenido genérico y regional. Con este mecanismo, una referencia a una imagen o un vídeo puede ser genérica, e IS muestra el contenido regional si está disponible. |
-| Conjuntos de imágenes y conjuntos de medios | El conjunto de imágenes completo puede ser diferente para algunas configuraciones regionales (como cuando un catálogo electrónico es completamente diferente), con la traducción de un conjunto de imágenes genérico a uno específico para una configuración regional gestionado por el visor. Más comúnmente, los ID individuales de un conjunto genérico pueden hacer referencia a contenido localizado. Por ejemplo, la mayoría de las fotografías de un dispositivo pueden ser iguales en todos los idiomas, excepto la fotografía del panel de control. IS traduce automáticamente los identificadores, por lo que no es necesario generar conjuntos de imágenes regionales. |
+| Conjuntos de imágenes y conjuntos de medios | El conjunto completo de imágenes puede ser diferente para algunas configuraciones regionales (como cuando un catálogo electrónico es diferente), con la traducción de una imagen genérica a una configuración regional específica gestionada por el visor. Con más frecuencia, los ID individuales de un conjunto genérico pueden hacer referencia a contenido localizado. Por ejemplo, la mayoría de las fotos de un dispositivo pueden ser las mismas en todos los idiomas, excepto la foto del Panel de control de Campaign. IS traduce automáticamente los identificadores, por lo que no es necesario generar conjuntos de imágenes regionales. |
 
-**Implementación de la localización de recursos**
+#### Implementación de la localización de recursos
 
 Dynamic Media Classic y Image Serving tienen una interfaz que permite localizar imágenes y contenido estático.
 
@@ -108,39 +108,39 @@ Con la localización, una URL de Image Server agrega el parámetro `locale=` a l
 
 `https://server/is/image/company/image?locale=de_DE`
 
-Cuando el servidor de imágenes recibe la llamada http, el parámetro `locale=` se analiza a través del campo localeMap que se encuentra en el grupo **Setup** > **Application Setup** > **Publish Setup** > **Image Server** > **Localization Support**.
+Cuando el servidor de imágenes recibe la llamada http, el parámetro `locale=` se analiza a través del campo localeMap que se encuentra en el grupo ****[!UICONTROL Setup]**** > ****[!UICONTROL Application Setup]**** > ****[!UICONTROL Publish Setup]**** > ****[!UICONTROL Image Server]**** > ****[!UICONTROL Localization Support]****.
 
 El campo de asignación de configuración regional contiene una lista de entradas separadas por barras verticales (|).
 
-Cada entrada consta de una lista de valores separados por comas. El primer valor es el valor de búsqueda que pasa el parámetro `locale=`. Los valores restantes son sufijos o valores de sustitución que se prueban posteriormente hasta que uno resulta en una imagen existente.
+Cada entrada consta de una lista de valores separados por comas. El primer valor es el valor de búsqueda que pasa el parámetro `locale=`. Los valores restantes son valores de sufijo o de reemplazo que se intentan utilizar hasta que uno de ellos se traduce en una imagen existente.
 
-La aplicación de un sufijo o un valor de sustitución depende del ajuste de la configuración regional global en el grupo **Ajustes** > **Ajustes de aplicación** > **Ajustes de publicación** > **Servidor de imágenes** > **Asistencia para la localización** .
+La aplicación de un sufijo o un valor de sustitución depende del ajuste de la configuración regional global en el grupo ****[!UICONTROL Ajustes]**** > ****[!UICONTROL Ajustes de aplicación]**** > ****[!UICONTROL Ajustes de publicación]**** > ****[!UICONTROL Servidor de imágenes]**** > ****[!UICONTROL Asistencia para la localización]**** .
 
 >[!NOTE]
 >
->Actualmente, la configuración regional global solo es posible cuando se establece a través de la API, no dentro de la interfaz de Dynamic Media Classic.
+>La configuración regional global solo es posible cuando se establece a través de la API, no dentro de la interfaz de Dynamic Media Classic.
 
-**Ejemplo de sufijo**
+**Ejemplo de sufijo:**
 
 | URL | ID de localeMap | Resultado |
 |--- |--- |--- |
 | `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | Observe que no se ha definido GlobalLocale. El parámetro de configuración regional de_DE se compara con la primera entrada de localeMap. El primer valor correspondiente _DE se añade como sufijo al recurso image_DE y se intenta encontrarlo en el servidor de imágenes. Si se encuentra en el servidor, se devuelve. De lo contrario, se utiliza como sufijo el segundo valor “”, con lo que se devuelve la propia imagen. |
 
-**Ejemplo de sustitución**
+**Ejemplo de sustitución:**
 
 | URL | ID de GlobalLocale y de localeMap | Resultado |
 |--- |--- |--- |
-| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | En el ejemplo de sustitución superior, GlobalLocale se define en main. El parámetro de configuración regional de_DE se compara con la primera entrada de localeMap. Se busca la subcadena GlobalLocale y se sustituye por el primer valor correspondiente de localeMap: image-de-01. Si se encuentra en el servidor de imágenes, se devuelve. De lo contrario, se sustituye el segundo valor, lo que resulta en image-main-01. |
+| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | En el ejemplo de sustitución superior, GlobalLocale se define en main. El parámetro de configuración regional de_DE se compara con la primera entrada de localeMap. La subcadena GlobalLocale se encuentra y se reemplaza por el primer valor correspondiente `de` en localeMap: `image-de-01`. Si se encuentra en el servidor de imágenes, se devuelve. De lo contrario, se sustituye el segundo valor, lo que resulta en `image-main-01`. |
 
 Si no se define ninguna configuración regional en la URL, el servidor de imágenes toma el valor de DefaultLocale, si se ha definido, y lo aplica a la URL.
 
-Si se proporciona un parámetro de configuración regional desconocido o vacío con `locale=`, se analiza el valor vacío &quot;comenzando con&quot; en localeMap. Es importante configurar esta opción para tener una configuración regional predeterminada para configuraciones regionales desconocidas.
+Si se proporciona un parámetro de configuración regional desconocido o vacío con `locale=`, se analiza el valor vacío &quot;comenzando con&quot; en localeMap. Es importante aplicar una configuración regional predeterminada a configuraciones regionales desconocidas.
 
-**Acerca de defaultImage**
+#### Acerca de defaultImage
 
-El servidor de imágenes prueba las opciones de la configuración regional solicitada, una tras otra. Si no coincide ninguna, se aplican las opciones de configuración regional a defaultImage y se devuelve la versión coincidente. Por lo tanto, cada configuración regional debe incluir una opción para la imagen sin localización, o las versiones localizadas defaultImage deben estar disponibles en Dynamic Media Classic.
+El servidor de imágenes prueba las opciones de la configuración regional solicitada, una tras otra. Si no se encuentra ninguna coincidencia, las opciones de configuración regional se aplican a defaultImage y se devuelve la versión coincidente. Por lo tanto, cada configuración regional debe incluir una opción para la imagen sin localización, o las versiones localizadas defaultImage están disponibles en Dynamic Media Classic.
 
-**Situaciones de búsqueda de localeMap**
+#### Situaciones de búsqueda de localeMap
 
 Supongamos que desee admitir las siguientes configuraciones regionales:
 
@@ -148,7 +148,7 @@ Supongamos que desee admitir las siguientes configuraciones regionales:
 
 Estas configuraciones regionales se asignan a los sufijos `_E`, `_G` y `_F` para inglés, alemán y francés, respectivamente. En todos los ejemplos, el ID de imagen de entrada genérico es `myImg`.
 
-*Comportamiento estándar de búsqueda de localeMap*
+##### Comportamiento estándar de búsqueda de localeMap
 
 Los ID de configuración regional se asignan a los sufijos correspondientes. Si no se encuentra ningún ID de configuración regional en el catálogo, se prueba un ID genérico. Observe los valores vacíos de locSuffix que se asignan al ID genérico.
 
@@ -161,9 +161,9 @@ Los ID de configuración regional se asignan a los sufijos correspondientes. Si 
 | fr | myImg_F,myImg |
 | Todos los demás | - |
 
-*Búsqueda de localeMap cuando la configuración regional es desconocida*
+##### Búsqueda de localeMap cuando la configuración regional es desconocida
 
-Puede asignar configuraciones regionales desconocidas a ID específicos o genéricos. Para este ejemplo, puede asignar configuraciones regionales desconocidas a ID ingleses o, si no existen, a los ID genéricos.
+Puede asignar configuraciones regionales desconocidas a ID específicos o genéricos. Por ejemplo, puede asignar configuraciones regionales desconocidas a los ID en inglés, o si no existen, a los ID genéricos.
 
 `attribute::LocaleMap=en,_E,|en_us,_E,|en_uk,_E,|fr,_F,|de,_D,|de_at,_D,|de_de,_D,|,_E,`
 
@@ -181,7 +181,7 @@ O bien, puede asignarse directamente al ID genérico, como se muestra a continua
 
 `attribute::LocaleMap=en,_E,|en_us,_E,|en_uk,_E,|fr,_F,|de,_D,|de_at,_D,|de_de,_D,|,`
 
-*Búsqueda de localeMap mediante una búsqueda con varios niveles*
+##### Búsqueda de localeMap mediante una búsqueda con varios niveles
 
 Suele ser conveniente agrupar las configuraciones regionales, como Europa, Oriente Medio y Norteamérica, para tratar estándares regionales, como la exposición de la piel. Puede conseguir este efecto con una búsqueda con varios niveles.
 
@@ -197,11 +197,11 @@ Para este ejemplo, supongamos que desee admitir colecciones para su aplicación 
 | m2 | myImg-M2, myImg-M, myImg |
 | Todos los demás | mylmg |
 
-*Búsqueda de localeMap en ID específicos*
+##### Búsqueda de localeMap en ID específicos
 
-Algunas convenciones de nombre no admiten ID de imágenes genéricos. Los ID genéricos de la solicitud deben asignarse a un ID específico del catálogo. Sin embargo, puede haber casos en los que no se conoce el ID específico exacto.
+Algunas convenciones de nomenclatura de imágenes no admiten ID de imagen genéricos. Los ID genéricos de la solicitud deben asignarse a un ID específico del catálogo. Sin embargo, hay casos en los que no se conoce exactamente el ID específico.
 
-Utilizando el primer ejemplo como base, las imágenes para todos los idiomas pueden tener los sufijos `_1`, `_2` o `_3`. Las imágenes específicas de las configuraciones regionales francesas pueden tener los sufijos `_22` o `_23` . Y las imágenes específicas de las configuraciones regionales alemanas pueden tener los sufijos `_470` o `_480`.
+Utilizando el primer ejemplo como base, las imágenes para todos los idiomas podrían tener los sufijos `_1`, `_2` o `_3`. Las imágenes específicas de las configuraciones regionales francesas pueden tener los sufijos `_22` o `_23` . Y las imágenes específicas de las configuraciones regionales alemanas podrían tener los sufijos `_470` o `_480`.
 
 `attribute::LocaleMap=,_1,_2,_3|fr,_22,_23,_1,_2,_3|de,_470,_480,_1,_2,_3|de_at,_470,_480,_1,_2,_3|de_de,_470,_480,_1,_2,_3`
 
@@ -211,26 +211,26 @@ Utilizando el primer ejemplo como base, las imágenes para todos los idiomas pue
 | de, de_at, de_de | myImg_470, myImg_480, myImg_1, myImg_2,myImg_3 |
 | Todos los demás | myImg_1, myImg_2, myImg_3 |
 
-**Consideraciones importantes al implementar la asistencia para la localización**
+##### Consideraciones importantes al implementar la asistencia para la localización
 
-* La localización se limita a las llamadas de recursos basados en ID y no puede usarse en llamadas de recursos basados en rutas. Por consiguiente, al llamar a vídeos con configuraciones locales, debe llamarse como ID de empresa/recurso; no con la ruta completa del vídeo. Esto significa que no puede utilizar RTMP con la localización porque este método solo se utiliza con llamadas de vídeo basadas en ruta.
-* No puede utilizar conjuntos de medios mixtos que contengan un solo vídeo cuando localeMap está activo; si no, se producirá un error de la llamada al contenido. Para solucionar este problema, puede añadir un solo vídeo a un conjunto de vídeos adaptable. A continuación, añada el conjunto de vídeos adaptable a un conjunto de medios mixtos.
-* Algunas solicitudes no se localizan, como las solicitudes de contenido de un conjunto de vídeos adaptable. Por tanto, si desea utilizar conjuntos de vídeos adaptables con la localización, debe poner el conjunto de vídeos adaptable dentro de un conjunto de medios mixtos. A continuación, llame al conjunto en un visualizador de medios mixtos con el parámetro `locale=`.
+* La localización se limita a las llamadas de recursos basados en ID y no puede usarse en llamadas de recursos basados en rutas. Por consiguiente, al llamar a vídeos con configuraciones locales, debe llamarse como ID de empresa/recurso; no con la ruta completa del vídeo. No puede usar rtmp con localización porque ese método solo se usa con llamadas de vídeo basadas en rutas.
+* No puede utilizar conjuntos de medios mixtos que contengan un solo vídeo cuando localeMap está activo; si no, se producirá un error de la llamada al contenido. Para solucionar este problema, puede agregar un solo vídeo a un conjunto de vídeos adaptables. A continuación, añada el conjunto de vídeos adaptable a un conjunto de medios mixtos.
+* Algunas solicitudes no se localizan, como las solicitudes de contenido de un conjunto de vídeos adaptable. Por lo tanto, si tiene intención de utilizar conjuntos de vídeos adaptables con localización, coloque el conjunto de vídeos adaptables dentro de un conjunto de medios mixtos. A continuación, llame al conjunto en un visualizador de medios mixtos con el parámetro `locale=`.
 
 ## Procesador de imágenes {#image-renderer}
 
-La pantalla del procesador de imágenes establece la configuración predeterminada a la hora de enviar conjuntos de imágenes desde los servidores de procesamiento de imágenes. Las opciones de configuración se dividen en estas cinco categorías (consulte la pantalla del servidor de imágenes para ver una descripción detallada de las opciones):
+La página Procesador de imágenes establece la configuración predeterminada para enviar conjuntos de imágenes desde los servidores de renderización de imágenes. La configuración está disponible en estas cinco categorías (consulte la página Servidor de imágenes para obtener descripciones detalladas de la configuración):
 
-**Administración** de catálogosEsta configuración determina cómo interactúan Dynamic Media Classic y el archivo de catálogo. Las llamadas URL al servidor de procesamiento de Dynamic Media Classic se realizan en el catálogo, que a su vez llama para enviar imágenes desde el servidor. Cambie esta configuración solo con la ayuda de una persona de asistencia técnica de Dynamic Media Classic.
+* **Administración de catálogos** : esta configuración determina cómo interactúan Dynamic Media Classic y el archivo de catálogo. Las llamadas URL al servidor de procesamiento de Dynamic Media Classic se realizan en el catálogo, que a su vez llama para enviar imágenes desde el servidor. Cambie esta configuración solo con la ayuda de una persona de asistencia técnica de Dynamic Media Classic.
 
-**Atributos de** sesiónEsta configuración establece parámetros de error, la dirección URL de direcciones URL de imágenes relativas y si se permite la superposición de objetos.
+* **Atributos de sesión** : esta configuración establece parámetros de error, la dirección URL de direcciones URL de imagen relativas y si se permite la superposición de objetos.
 
-**Atributos de material** predeterminadosEsta configuración establece la resolución predeterminada y la configuración de nitidez de las imágenes.
+* **Atributos de material predeterminados** : estos ajustes establecen la resolución predeterminada y la configuración de nitidez de las imágenes.
 
-**Atributos de imagen de** respuestaEsta configuración se refiere al aspecto predeterminado de las imágenes.
+* **Atributos de imagen de respuesta** : estos ajustes se refieren al aspecto predeterminado de las imágenes.
 
-**Atributos de gestión de** colorEsta configuración se refiere a la configuración de color predeterminada de las imágenes.
+* **Atributos de gestión de color** : esta configuración se refiere a la configuración de color predeterminada de las imágenes.
 
 ## Viñeta {#vignette}
 
-En la pantalla Viñeta se puede establecer la apariencia predeterminada de las viñetas (consulte la pantalla para ver una descripción detallada de las opciones).
+La página Viñeta ofrece una configuración para establecer el aspecto predeterminado de las viñetas (consulte la propia página para obtener descripciones detalladas de las opciones).
