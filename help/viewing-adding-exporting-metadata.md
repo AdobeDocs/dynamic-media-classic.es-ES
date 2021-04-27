@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
-feature: Dynamic Media Classic,Asset Management,Metadata
+feature: Dynamic Media Classic,Administración de recursos,Metadatos
 role: Business Practitioner
+exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '2250'
+source-wordcount: '2248'
 ht-degree: 63%
 
 ---
-
 
 # Visualización, adición y exportación de metadatos{#viewing-adding-and-exporting-metadata}
 
@@ -181,7 +181,7 @@ El sistema genera automáticamente un esquema personalizado para los campos defi
 
 >[!NOTE]
 >
->Los cambios en el esquema nunca cambian los metadatos del recurso. Sin embargo, no son visibles para todas las funciones de Dynamic Media Classic y del servidor de metadatos y no se puede acceder a ellas después de cambiar. Del mismo modo, si existen metadatos para un recurso, la creación del esquema coincidente hace que los metadatos se puedan utilizar en Dynamic Media Classic y en el servidor de metadatos.
+>Los cambios en el esquema nunca cambian los metadatos del recurso. Sin embargo, no son visibles para todas las funciones de Dynamic Media Classic y del servidor de metadatos y no se puede acceder a ellas después de cambiarlas. Del mismo modo, si existen metadatos para un recurso, la creación del esquema coincidente hace que los metadatos se puedan utilizar en Dynamic Media Classic y en el servidor de metadatos.
 
 El Editor de esquemas de metadatos ofrece una forma gráfica de agregar o editar un esquema de empresa personalizado dentro de Dynamic Media Classic. Un esquema se define por un prefijo, un espacio de nombre y una lista de propiedades.
 
