@@ -9,31 +9,29 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
+exl-id: 7e99de68-a5de-4b42-9754-c394e9b41369
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 9d73e74ffc4a1e7e31c84720a9bae105b6afb1ae
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 64%
+source-wordcount: '192'
+ht-degree: 23%
 
 ---
 
-
 # Nociones básicas de ajuste{#setup-basics}
 
-Utilice la pantalla de configuración de Dynamic Media Classic para introducir su configuración personal. Si es un administrador, configure los ajustes de su empresa. Para abrir una pantalla de ajustes, haga clic en el botón Ajustes en la barra de navegación global.
+Utilice la página Configuración de Dynamic Media Classic para introducir su configuración personal. Si es un administrador, configure los ajustes de su empresa. Para abrir una página Configuración , en la barra de navegación global, haga clic en **[!UICONTROL Configuración]**.
 
-Los ajustes de configuración disponibles en esta pantalla dependen de si el estado es usuario o administrador:
+La configuración disponible en esta página depende de su estado como usuario o administrador:
 
-* Los usuarios solo podrán acceder a los ajustes personales y cuentas de las empresas de las que sean miembros; no podrán realizar tareas administrativas.
-* Los administradores pueden acceder a los ajustes personales, así como ver y administrar las cuentas de su propia empresa. Además, pueden realizar todas las funciones de configuración de la aplicación y todas las funciones de administración, incluyendo agregar administradores y usuarios.
+* Los usuarios solo pueden acceder a **[!UICONTROL Personal Setup]** y a las cuentas de las empresas de las que son miembros; no pueden realizar ninguna tarea administrativa.
+* Los administradores pueden acceder a **[!UICONTROL Configuración personal]** y ver y administrar sus propias cuentas de empresa. Además, pueden realizar todas las funciones de configuración de la aplicación y todas las funciones de administración, incluyendo agregar administradores y usuarios.
 
-Los administradores también pueden configurar ajustes preestablecidos de imágenes y de visores en la pantalla Ajustes.
+Los administradores también pueden configurar ajustes preestablecidos de imagen y ajustes preestablecidos de visualizador en la página **[!UICONTROL Configuración]**:
 
-* **Ajustes**
-preestablecidos de imagenLos ajustes preestablecidos de imagen son formatos guardados para mostrar imágenes maestras en diferentes tamaños y formatos.
+* **Ajustes preestablecidos de imagen** : los ajustes preestablecidos de imagen son formatos guardados para mostrar imágenes maestras en diferentes tamaños y formatos.
 
-* **Ajustes**
-preestablecidos de visualizadorLos ajustes preestablecidos de visualizador determinan cómo se ven los medios enriquecidos cuando se ven en un visualizador.
+* **Ajustes preestablecidos de visor** : los ajustes preestablecidos de visor determinan cómo se ven los medios enriquecidos cuando se ven en un visor.
 
 >[!MORELIKETHIS]
 >
