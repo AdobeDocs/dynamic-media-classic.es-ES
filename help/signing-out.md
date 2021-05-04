@@ -7,14 +7,14 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
+exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 6%
+source-wordcount: '228'
+ht-degree: 7%
 
 ---
-
 
 <!-- UPDATE THIS TOPIC AFTER DECEMBER 31, 2020!!!!! -->
 
@@ -22,11 +22,9 @@ ht-degree: 6%
 
 Asegúrese de lo siguiente antes de utilizar la aplicación de escritorio Dynamic Media Classic:
 
-* **Nombre de**
-usuarioUse su dirección de correo electrónico como nombre de inicio de sesión.
+* **Nombre de usuario** : utiliza su dirección de correo electrónico como nombre de inicio de sesión.
 
-* ****
-ContraseñaObtenga su contraseña temporal en un correo electrónico de bienvenida de Dynamic Media Classic o de su administrador de Dynamic Media Classic. Al iniciar sesión por primera vez, se indica al usuario que puede cambiar esa contraseña temporal.
+* **Contraseña** : obtiene su contraseña temporal en un mensaje de correo electrónico de bienvenida de Dynamic Media Classic o de su administrador de Dynamic Media Classic. Al iniciar sesión por primera vez, se indica al usuario que puede cambiar esa contraseña temporal.
 
 1. Abra la aplicación de escritorio de Adobe Dynamic Media Classic.
 
