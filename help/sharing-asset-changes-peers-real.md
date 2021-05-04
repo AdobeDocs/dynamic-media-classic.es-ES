@@ -7,22 +7,22 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: ca7c8a7f-76f4-4a25-8c36-617a029e55be
-feature: Dynamic Media Classic,Asset Management,Collaboration
+feature: Dynamic Media Classic,Administración de activos,Colaboración
 role: Administrator,Business Practitioner
+exl-id: d74b4966-fe43-4349-bbe1-3a379c49bf1f
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 9d73e74ffc4a1e7e31c84720a9bae105b6afb1ae
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 68%
+source-wordcount: '280'
+ht-degree: 50%
 
 ---
-
 
 # Uso compartido de cambios de recursos con iguales en tiempo real{#sharing-asset-changes-with-peers-in-real-time}
 
 Con varias copias de Dynamic Media Classic ejecutándose en uno o más equipos de la misma empresa, las siguientes acciones de cualquier cliente de Dynamic Media Classic se actualizan en tiempo real con todos los clientes del mismo nivel:
 
-* Edición de un recurso (generador, editor de imágenes, etc.)
+* Editar un recurso (generador, editor de imágenes, etc.)
 * Cambio de nombre de un recurso
 * Eliminación de un recurso
 * Movimiento de un recurso
@@ -33,6 +33,6 @@ Después de realizar un cambio en el cliente de origen, todos los clientes del m
 
 Cuando inicie sesión, se le pedirá que permita o rechace las actualizaciones del mismo nivel. Puede especificar que se &quot;recuerde&quot; la selección para que solo se le pregunte una vez. Para borrar la opción elegida, elimine el sitio oportuno del panel Redes asistidas por pares de Configuración global.
 
-Si está editando un recurso cambiado por un igual, se le pedirá que inserte el cambio en el generador o editor. Al elegir Sí, el generador o editor elimina los cambios realizados en el recurso e importa el recurso actualizado. Si elige No, no se cambia el recurso en el generador o editor sino que los cambios realizados se mantienen en la sesión.
+Si está editando un recurso cambiado por un igual, se le pedirá que inserte el cambio en el generador o editor. Si elige **[!UICONTROL Yes]**, el generador o el editor descarta los cambios realizados en el recurso e importa el recurso actualizado. Si elige **[!UICONTROL No]**, el recurso no cambiará en el generador o editor y los cambios que haya realizado persistirán en esa sesión.
 
 Cuando guarde el recurso, se le notificará la existencia de una versión más reciente y se le preguntará si desea sobrescribir el recurso con sus cambios.
