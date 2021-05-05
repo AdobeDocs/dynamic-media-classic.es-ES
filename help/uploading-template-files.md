@@ -9,14 +9,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 75658717-5c39-473e-9d32-718d00706310
 feature: Dynamic Media Classic
 role: Business Practitioner
+exl-id: a105c18a-7e06-43cb-938c-a3bcdc3e9d22
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 69%
+source-wordcount: '236'
+ht-degree: 48%
 
 ---
-
 
 # Carga de archivos de plantilla{#uploading-template-files}
 
@@ -30,8 +30,11 @@ Las plantillas pueden crearse a partir de archivos PSD de Adobe Photoshop o arch
 
 Para obtener instrucciones detalladas sobre cómo cargar archivos, consulte [Carga de archivos](uploading-files.md#uploading_files). Tenga en cuenta lo siguiente al cargar archivos de plantilla:
 
-* Si carga un archivo PSD, puede crear una plantilla a partir de él. Dynamic Media Classic crea una imagen independiente para cada capa en el PSD. En el cuadro de diálogo Opciones de trabajo de carga, seleccione Opciones de Photoshop, luego Mantener capas y, por último, Crear plantilla. A continuación, elija una opción en el menú Nomenclatura de capas para nombrar las imágenes que Dynamic Media Classic crea a partir de las capas del PSD. Consulte [Opciones de carga de archivos PSD](psd-files.md#psd_upload_options).
-* Si carga imágenes, puede crear una máscara a partir de su trazado de recorte. Esta opción es aplicable a imágenes creadas con aplicaciones de edición de imágenes en que se ha creado una ruta de recorte. En el cuadro de diálogo Opciones de trabajo de carga, seleccione Opciones de edición de imágenes y, a continuación, Crear máscara a partir de ruta de recorte. Consulte [Opciones de edición de imágenes al cargarlas](image-editing-options-upload.md#image-editing-options-at-upload).
+* Si está cargando un archivo PSD, puede crear una plantilla a partir de él. Dynamic Media Classic crea una imagen independiente para cada capa en el PSD. En el cuadro de diálogo Opciones de carga de trabajo, haga clic en **[!UICONTROL Opciones de Photoshop]** y seleccione **[!UICONTROL Mantener capas]** y **[!UICONTROL Crear plantilla]**. A continuación, elija una opción en la lista desplegable **[!UICONTROL Layer Naming]** para asignar un nombre a las imágenes que Dynamic Media Classic crea a partir de las capas del PSD.
+Consulte [Opciones de carga de archivos PSD](psd-files.md#psd_upload_options).
+
+<!-- THERE IS NO LONGER AN IMAGE EDITING OPTIONS MENU * If you are uploading images, you can create a mask from its clipping path. This option applies to images created with image-editing applications in which a clipping path was created. In the Upload Job Options dialog box, select Image Editing Options and select the Create Mask From Clipping Path option. 
+See [Image editing options at upload](image-editing-options-upload.md#image-editing-options-at-upload). -->
 
 >[!MORELIKETHIS]
 >
