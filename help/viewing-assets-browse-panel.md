@@ -7,29 +7,26 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: feab1194-a98c-4a18-812c-7e2e537ca488
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Administración de recursos
 role: Business Practitioner
+exl-id: 4d38a224-5e06-4932-a801-5dcc32fe4b31
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 65%
+source-wordcount: '245'
+ht-degree: 40%
 
 ---
-
 
 # Visualización de recursos en el panel Examinar{#viewing-assets-in-the-browse-panel}
 
 Puede cambiar la manera en que se muestran los recursos en el panel Examinar si selecciona un botón de vista:
 
-* **Vista de**
-cuadrículaSeleccione el botón Vista de cuadrícula para ver los recursos en forma de miniatura en una cuadrícula. En la vista de cuadrícula, puede arrastrar el control deslizante para cambiar el tamaño de las imágenes en miniatura.
+* **Vista de cuadrícula** : cerca de la esquina superior derecha de la pantalla de Dynamic Media Classic, haga clic en el icono  **[!UICONTROL Vista de]** cuadrícula para ver los recursos en forma de miniatura en una cuadrícula. En la vista de cuadrícula, puede arrastrar el control deslizante para cambiar el tamaño de las imágenes en miniatura.
 
-* **Vista**
-de listaSeleccione el botón Vista de lista para ver los recursos en una lista. En la lista se muestra el nombre, el tipo, la fecha de creación y la fecha de la última modificación de cada recurso. Según el recurso con el que esté trabajando, puede que obtenga más información. Por ejemplo, si está trabajando con una imagen, puede ver las dimensiones y el tamaño del archivo.
+* **Vista de lista** : cerca de la esquina superior derecha de la pantalla de Dynamic Media Classic, haga clic en  **[!UICONTROL el icono]** Vista de lista para ver los recursos en una lista. En la lista se muestra el nombre, el tipo, la fecha de creación y la fecha de la última modificación de cada recurso. Según el recurso con el que esté trabajando, puede que obtenga más información. Por ejemplo, si está trabajando con una imagen, puede ver las dimensiones y el tamaño del archivo.
 
-* **Vista de**
-detallesSeleccione un recurso y, a continuación, seleccione el botón Vista de detalles para examinar el recurso en la vista de detalles. También puede hacer doble clic en el recurso o seleccionarlo y elegir Archivo > Detalles para acceder a la vista de detalles. Si el administrador ha especificado la preferencia Mostrar URL, las direcciones URL aparecen para todos los recursos en la vista de detalles; sin embargo, las URL solo se activan una vez que se publica el recurso.
+* **Vista de detalles** : seleccione un recurso. Cerca de la esquina superior derecha de la pantalla de Dynamic Media Classic, haga clic en el icono **[!UICONTROL Vista de detalles]** para examinar el recurso en la vista de detalles. También puede hacer doble clic en un recurso o seleccionarlo y hacer clic en **[!UICONTROL Archivo]** > **[!UICONTROL Detalles]** para verlo en la vista de detalles. Si el administrador ha especificado la preferencia Mostrar URL , las URL aparecerán para todos los recursos en la Vista de detalles; sin embargo, las direcciones URL solo están activas después de publicar el recurso.
 
 >[!TIP]
 >
