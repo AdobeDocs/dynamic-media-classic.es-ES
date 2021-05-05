@@ -11,10 +11,10 @@ feature: Dynamic Media Classic,Administración de recursos
 role: Business Practitioner
 exl-id: 2d9fc6d8-973f-4aaa-bc2c-b49cda2cde58
 translation-type: tm+mt
-source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
+source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 61%
+source-wordcount: '1160'
+ht-degree: 59%
 
 ---
 
@@ -33,19 +33,19 @@ Estas opciones se encuentran en la página Cargar , en Opciones de edición de i
 
 ## Recorte de espacio en blanco de imágenes
 
-Para recortar automáticamente píxeles de espacio en blanco de una imagen, seleccione el menú Recortar y elija Recortar. Elija a continuación estas opciones:
+Para recortar automáticamente píxeles de espacio en blanco de una imagen, en el cuadro de diálogo Opciones de carga de trabajo, haga clic en **[!UICONTROL Opciones de recorte]**. En la lista desplegable **[!UICONTROL Recortar]**, elija **[!UICONTROL Recortar]**. Elija a continuación estas opciones:
 
-* **Separar en función de** : elija si recortar en función del color o la transparencia:
+* **Recortar según** : en esta lista desplegable, elija si recortar según el color o la transparencia:
 
-* **Color** : elija la opción  **** Color. A continuación, en la lista desplegable **[!UICONTROL Esquina]**, seleccione la esquina de la imagen con el color que mejor represente el color del espacio en blanco que desea recortar.
+   * **Color** : elija la opción  **** Color. A continuación, en la lista desplegable **[!UICONTROL Esquina]**, seleccione la esquina de la imagen con el color que mejor represente el color del espacio en blanco que desea recortar.
 
-* **Transparencia** : elija la opción Transparencia.
+   * **Transparencia** : elija la opción Transparencia.
 
 * **Tolerancia** : arrastre el control deslizante para especificar una tolerancia de 0 a 1:
 
-* **Recorte basado en el color** : especifique 0 para recortar píxeles solo si coinciden exactamente con el color seleccionado en la esquina de la imagen. Los números más cercanos a 1 permiten una mayor diferencia de color.
+   * **Recorte basado en el color** : especifique 0 para recortar píxeles solo si coinciden exactamente con el color seleccionado en la esquina de la imagen. Los números más cercanos a 1 permiten una mayor diferencia de color.
 
-* **Recorte basado en la transparencia** : especifique 0 para recortar píxeles solo si son transparentes; los números más cercanos a 1 permiten una mayor transparencia.
+   * **Recorte basado en la transparencia** : especifique 0 para recortar píxeles solo si son transparentes; los números más cercanos a 1 permiten una mayor transparencia.
 
 ## Recorte manual de los lados de imágenes
 
