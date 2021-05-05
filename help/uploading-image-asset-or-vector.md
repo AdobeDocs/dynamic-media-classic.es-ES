@@ -6,14 +6,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Business Practitioner
+exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 translation-type: tm+mt
-source-git-commit: 5efad4fff11c9818d43d46ebbbce5335ee1e72b8
+source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
-source-wordcount: '1532'
-ht-degree: 84%
+source-wordcount: '1497'
+ht-degree: 78%
 
 ---
-
 
 # Carga de recursos de imagen o recursos de vector{#uploading-an-image-asset-or-a-vector-asset}
 
@@ -29,7 +29,7 @@ En el mensaje, proporcione el nombre de empresa que desee utilizar para cargar l
 
 El *distintivo de carga* garantiza que nadie más use la misma clave secreta compartida para cargar recursos. Garantiza que la carga sea legítima y que proceda de una fuente de confianza.
 
-El distintivo de carga es una cadena alfanumérica que solo se encuentra disponible durante un tiempo concreto. Use las siguientes URL (sustituyendo la clave secreta compartida por la suya) para recuperar el distintivo de carga.
+El distintivo de carga es una cadena alfanumérica que solo se encuentra disponible durante un tiempo concreto. Utilice las siguientes direcciones URL, sustituyendo la clave secreta compartida, para poder recuperar el token de carga.
 
 * Imagen
    `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`En este ejemplo, la clave secreta compartida es  `fece4b21-87ee-47fc-9b99-2e29b78b602`
@@ -43,7 +43,7 @@ De manera predeterminada, el distintivo de carga caduca en 5 minutos (300 segund
 https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=1800
 ```
 
-Éste es un ejemplo de respuesta correcta para imágenes:
+La respuesta correcta para las imágenes es similar a la siguiente:
 
 ```as3
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
@@ -82,7 +82,8 @@ Se pueden usar los campos siguientes en la cadena de consulta URL para recuperar
 
 `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000`
 
-**Métodos HTTP permitidos:** GET y POST
+**Métodos HTTP permitidos:**
+`GET` y  `POST`
 
 Ya puede cargar un recurso de imagen.
 
@@ -123,9 +124,10 @@ El siguiente formulario HTML permite al usuario cargar un recurso. En el formula
 * Distintivo de carga.
 * Límite de tamaño de archivo.
 * Lista de extensiones de nombre de archivo.
-* Conservar o no el perfil de color y el nombre de archivo asociados al recurso.
-* Indica si se utiliza o no el fondo de Knockout. Si activa Fondo de Knockout, defina la Esquina, Tolerancia y Método de Relleno. Consulte Contexto de Knockout en [Opciones de edición de imágenes al cargar](image-editing-options-upload.md#image-editing-options-at-upload).
-* Nombre del archivo que se debe cargar
+* Si se desea conservar el perfil de color y el nombre de archivo asociados al recurso.
+* Si se utiliza el fondo de Knockout. Si activa Fondo de Knockout, defina la Esquina, Tolerancia y Método de Relleno.
+Consulte Contexto de Knockout en [Opciones de edición de imágenes al cargar](image-editing-options-upload.md#image-editing-options-at-upload).
+* Nombre del archivo que se debe cargar.
 
 <!-- 
 
@@ -137,15 +139,11 @@ Last Modified Date:
 
  -->
 
-![]()
+Puede ver el código fuente HTML asociado con el formulario anterior haciendo clic en [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-Puede ver el código fuente HTML asociado al formulario anterior haciendo clic en el siguiente vínculo:
+En Firefox, haga clic con el botón secundario en la ventana del explorador y, a continuación, haga clic en **[!UICONTROL Ver origen de página]**. El código muestra la cadena de consulta URL y el método POST oportunos que se ejecutan cuando el usuario hace clic en **[!UICONTROL Enviar]**.
 
-[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
-
-En Firefox, haga clic con el botón secundario en la ventana del explorador y, a continuación, haga clic en **Ver origen de página**. El código muestra la cadena de consulta URL y el método POST oportunos que se ejecutan cuando el usuario hace clic en **Enviar**.
-
-Para ver la respuesta en XML en Internet Explorer, haga clic en **Ver > Código fuente**. Para ver la respuesta XML en Firefox, haga clic en **Tools > Web Developer > Page Source**. Se recomienda utilizar Firefox para ver las respuestas en XML.
+Para ver la respuesta en XML en Internet Explorer, haga clic en **[!UICONTROL Ver]** > **[!UICONTROL Código fuente]**. Para ver la respuesta XML en Firefox, haga clic en **[!UICONTROL Tools]** > **[!UICONTROL Browser Tools]** > **[!UICONTROL Web Developer Tools]**. Se recomienda utilizar Firefox para ver las respuestas en XML.
 
 A continuación se muestra una respuesta de carga correcta de ejemplo:
 
@@ -183,13 +181,13 @@ Envíe el recurso para la carga como una publicación de varias partes o formula
 
 | Parámetro de URL | Obligatorio u opcional | Valor |
 |--- |--- |--- |
-| op | Obligatorio | cargar |
-| upload_token | Obligatorio | Distintivo de carga para la clave secreta compartida asociada a la empresa. |
-| company_name | Obligatorio | Nombre de la empresa que realiza la carga. |
-| file_limit | Opcional | Límite de tamaño de archivo, en bytes, del recurso. |
-| file_exts | Opcional | Lista de extensiones admitidas para el archivo de recurso de imagen. |
-| preserve_colorprofile | Opcional | Conserva el perfil de color incrustado al convertir el archivo cargado a formato PTIFF. Los valores posibles son true y false. El valor predeterminado es false. |
-| preserve_filename | Opcional | Conserva el nombre de archivo del recurso cargado. Los valores posibles son true y false. El valor predeterminado es false. |
+| `op` | Obligatorio | cargar |
+| `upload_token` | Obligatorio | Distintivo de carga para la clave secreta compartida asociada a la empresa. |
+| `company_name` | Obligatorio | Nombre de la empresa que realiza la carga. |
+| `file_limit` | Opcional | Límite de tamaño de archivo, en bytes, del recurso. |
+| `file_exts` | Opcional | Lista de extensiones admitidas para el archivo de recurso de imagen. |
+| `preserve_colorprofile` | Opcional | Conserva el perfil de color incrustado al convertir el archivo cargado a formato PTIFF. Los valores posibles son true y false. El valor predeterminado es false. |
+| `preserve_filename` | Opcional | Conserva el nombre de archivo del recurso cargado. Los valores posibles son true y false. El valor predeterminado es false. |
 
 >[!NOTE]
 >
@@ -211,7 +209,7 @@ Se puede usar `image_info` para recuperar los metadatos de cualquier recurso car
 https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif
 ```
 
-Éste es un ejemplo de respuesta correcta:
+Un ejemplo de respuesta correcta es similar al siguiente:
 
 ```as3
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
@@ -239,9 +237,9 @@ Se pueden usar los campos siguientes en la cadena de consulta URL para solicitar
 
 | Parámetro de URL | Obligatorio u opcional | Valor |
 |--- |--- |--- |
-| op | Obligatorio | image_info |
-| shared_secret | Obligatorio | Clave secreta compartida de la empresa. |
-| image_name | Obligatorio | Nombre de la imagen. |
+| `op` | Obligatorio | image_info |
+| `shared_secret` | Obligatorio | Clave secreta compartida de la empresa. |
+| `image_name` | Obligatorio | Nombre de la imagen. |
 
 **URL de ejemplo:**
 
@@ -286,9 +284,10 @@ El siguiente formulario HTML permite al usuario cargar un recurso. En el formula
 * Distintivo de carga.
 * Límite de tamaño de archivo.
 * Lista de extensiones de nombre de archivo.
-* Conservar o no el perfil de color y el nombre de archivo asociados al recurso.
-* Indica si se utiliza o no el fondo de Knockout. Si activa Fondo de Knockout, defina la Esquina, Tolerancia y Método de Relleno. Consulte Contexto de Knockout en [Opciones de edición de imágenes al cargar](image-editing-options-upload.md#image-editing-options-at-upload).
-* Nombre del archivo que se debe cargar
+* Si se desea conservar el perfil de color y el nombre de archivo asociados al recurso.
+* Si se utiliza el fondo de Knockout. Si activa Fondo de Knockout, defina la Esquina, Tolerancia y Método de Relleno.
+Consulte Contexto de Knockout en [Opciones de edición de imágenes al cargar](image-editing-options-upload.md#image-editing-options-at-upload).
+* Nombre del archivo que se debe cargar.
 
 <!-- 
 
@@ -300,9 +299,7 @@ Last Modified Date:
 
  -->
 
-![]()
-
-Al hacer clic con el botón derecho en la ventana del explorador y, luego, hacer clic en **Ver código fuente**, aparece el siguiente código, que corresponde al formulario mostrado en la ilustración. El código muestra la cadena de consulta URL y el método POST oportunos que se ejecutan cuando el usuario hace clic en **Enviar**.
+El siguiente código HTML se muestra al hacer clic con el botón derecho en la ventana del explorador y, a continuación, hacer clic en **[!UICONTROL Ver origen]** para ver el formulario que se muestra en el ejemplo. El código muestra la cadena de consulta URL y el método POST oportunos que se ejecutan cuando el usuario hace clic en **[!UICONTROL Enviar]**.
 
 ```as3
 <body> 
@@ -336,7 +333,7 @@ return true;
 </body>
 ```
 
-Para ver la respuesta en XML en Internet Explorer, haga clic en **Ver** > **Código fuente**. Para ver la respuesta en XML en Firefox, haga clic en **Ver** > **Código fuente de la página**. Se recomienda utilizar Firefox para ver las respuestas en XML.
+Para ver la respuesta en XML en Internet Explorer, haga clic en **[!UICONTROL Ver]** > **[!UICONTROL Código fuente]**. Para ver la respuesta XML en Firefox, haga clic en **[!UICONTROL Tools]** > **[!UICONTROL Browser Tools]** > **[!UICONTROL Page Source]**. Se recomienda utilizar Firefox para ver las respuestas en XML.
 
 A continuación se muestra una respuesta de carga correcta de ejemplo:
 
@@ -366,7 +363,7 @@ A continuación se muestra una respuesta de carga correcta de ejemplo:
 >
 >El recurso cargado (AI, EPS, PDF, etc.) se convierte al formato FXG y la respuesta envía un vínculo directo a ese recurso FXG.
 
-El recurso es igual que cualquier otro recurso de impresión virtual, es decir, se le pueden aplicar consultas de procesamiento. Por ejemplo, la siguiente URL convierte un recurso FXG en una imagen PNG de 500 x 500.
+El recurso es como cualquier otro recurso de impresión virtual; se le aplican consultas de procesamiento. Por ejemplo, la siguiente URL convierte un recurso FXG en una imagen PNG de 500 x 500.
 
 ```as3
 https://s7w2p1.scene7.com/is/agm/W2PTest/ugc/8875744.fxg?fmt=png&wid=500&hei=500
@@ -376,11 +373,11 @@ Envíe el recurso para la carga como una publicación de varias partes o formula
 
 | Parámetro de URL | Obligatorio u opcional | Valor |
 |--- |--- |--- |
-| op | Obligatorio | cargar |
-| upload_token | Obligatorio | Distintivo de carga para la clave secreta compartida asociada a la empresa. |
-| company_name | Obligatorio | Nombre de la empresa que realiza la carga. |
-| file_limit | Opcional | Límite de tamaño de archivo, en bytes, del recurso. |
-| file_exts | Opcional | Lista de extensiones admitidas para el archivo de recurso. |
+| `op` | Obligatorio | cargar |
+| `upload_token` | Obligatorio | Distintivo de carga para la clave secreta compartida asociada a la empresa. |
+| `company_name` | Obligatorio | Nombre de la empresa que realiza la carga. |
+| `file_limit` | Opcional | Límite de tamaño de archivo, en bytes, del recurso. |
+| `file_exts` | Opcional | Lista de extensiones admitidas para el archivo de recurso. |
 
 >[!NOTE]
 >
