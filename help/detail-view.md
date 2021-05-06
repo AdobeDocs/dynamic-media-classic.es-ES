@@ -11,10 +11,10 @@ feature: Dynamic Media Classic,Administración de recursos
 role: Business Practitioner
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 translation-type: tm+mt
-source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
+source-git-commit: eb37440a2917094aae8f32e9337b4c187ec6c1c2
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 69%
+source-wordcount: '612'
+ht-degree: 65%
 
 ---
 
@@ -32,7 +32,8 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
  -->
 
-![Vista de detalles](/help/assets/image_0.img.png)
+![Vista de ](/help/assets/image_0.img.png)
+*detalles detallada Vista de detalles con el panel Biblioteca de recursos oculto en la vista del lado izquierdo.*
 
 >[!NOTE]
 >
@@ -42,10 +43,10 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 Para examinar un recurso, obtener una vista previa o trabajar con él, puede utilizar la vista de detalles. 
 
-1. En el panel Examinar, realice una de las siguientes acciones:
+1. En el panel Examinar, realice una de las acciones siguientes:
 
+   * Seleccione el recurso. Cerca de la esquina superior derecha de Dynamic Media Classic, haga clic en el icono **[!UICONTROL Vista de detalles]** .
    * Haga doble clic en el recurso.
-   * Seleccione el recurso y haga clic en **[!UICONTROL Vista de detalles]**.
    * Seleccione el recurso y haga clic en **[!UICONTROL Archivo]** > **[!UICONTROL Detalles]**.
 
 >[!NOTE]
