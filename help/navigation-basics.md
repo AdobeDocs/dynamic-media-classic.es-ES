@@ -11,18 +11,20 @@ feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
 translation-type: tm+mt
-source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
+source-git-commit: eb37440a2917094aae8f32e9337b4c187ec6c1c2
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 27%
+source-wordcount: '644'
+ht-degree: 25%
 
 ---
 
 # Nociones básicas de navegación{#navigation-basics}
 
-La pantalla de Dynamic Media Classic incluye tres áreas principales: Barra de navegación global, biblioteca de recursos y panel Examinar/crear panel.
+La pantalla de Dynamic Media Classic incluye tres áreas principales: Barra de navegación global, Biblioteca de recursos, pestaña Filtros de recursos, Panel de exploración/compilación y Carro de medios (solo Media Portal).
 
-![Nociones básicas de navegación](/help/assets/gs_navigation_basics_popup_popup.png)
+![Conceptos básicos de ](/help/assets/gs_navigation_basics_popup_popup.png)
+*navegaciónPrincipales*
+*áreas de Dynamic Media ClassicA) Barra de navegación global B) Panel Biblioteca de recursos C) Pestaña Filtros de recursos D) Panel Examinar E) Carro de medios (solo Media Portal)*
 
 ## Barra de navegación global {#global-navigation-bar}
 
