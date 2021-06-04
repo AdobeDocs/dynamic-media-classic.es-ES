@@ -7,8 +7,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Administrator
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
-translation-type: tm+mt
-source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
+source-git-commit: 35c62fb1f4f136c06ccfbfd80f918462e839d931
 workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 47%
@@ -21,7 +20,7 @@ La configuración de la página Configuración de publicación determina cómo s
 
 Los administradores pueden cambiar la configuración predeterminada de las páginas Servidor de imágenes, Procesador de imágenes y viñeta para establecer la configuración predeterminada para enviar recursos desde servidores.
 
-Para abrir las páginas Configuración de publicación , haga clic en **Configuración** > **Configuración de aplicación** > **Configuración de publicación**.
+Para abrir las páginas Configuración de publicación , haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de aplicación]** > **[!UICONTROL Configuración de publicación]**.
 
 >[!NOTE]
 >
@@ -108,13 +107,13 @@ Con la localización, una URL de Image Server agrega el parámetro `locale=` a l
 
 `https://server/is/image/company/image?locale=de_DE`
 
-Cuando el servidor de imágenes recibe la llamada http, el parámetro `locale=` se analiza a través del campo localeMap que se encuentra en el grupo ****[!UICONTROL Setup]**** > ****[!UICONTROL Application Setup]**** > ****[!UICONTROL Publish Setup]**** > ****[!UICONTROL Image Server]**** > ****[!UICONTROL Localization Support]****.
+Cuando el servidor de imágenes recibe la llamada http, el parámetro `locale=` se analiza a través del campo localeMap que se encuentra en el grupo **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Localization Support]**.
 
 El campo de asignación de configuración regional contiene una lista de entradas separadas por barras verticales (|).
 
 Cada entrada consta de una lista de valores separados por comas. El primer valor es el valor de búsqueda que pasa el parámetro `locale=`. Los valores restantes son valores de sufijo o de reemplazo que se intentan utilizar hasta que uno de ellos se traduce en una imagen existente.
 
-La aplicación de un sufijo o un valor de sustitución depende del ajuste de la configuración regional global en el grupo ****[!UICONTROL Ajustes]**** > ****[!UICONTROL Ajustes de aplicación]**** > ****[!UICONTROL Ajustes de publicación]**** > ****[!UICONTROL Servidor de imágenes]**** > ****[!UICONTROL Asistencia para la localización]**** .
+La aplicación de un sufijo o un valor de sustitución depende del ajuste de la configuración regional global en el grupo **[!UICONTROL Ajustes]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Ajustes de publicación]** > **[!UICONTROL Servidor de imágenes]** > **[!UICONTROL Asistencia para la localización]** .
 
 >[!NOTE]
 >
