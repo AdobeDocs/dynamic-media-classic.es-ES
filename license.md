@@ -1,23 +1,16 @@
 ---
-source-git-commit: f5c296566dba4ea1a01ce74a537b7a94c92eef15
-translation-type: tm+mt
+source-git-commit: 23660fd17351c68027a79ce21a913fd19e7abc3f
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 1%
 
 ---
-# Licencia de MIT
+# Licencia MIT
 
-© Copyright 2018 Adobe. Todos los derechos reservados.
+© Copyright 2021 Adobe. Todos los derechos reservados.
 
-El permiso se concede, de forma gratuita, a cualquier persona que obtenga una copia
-de este software y a los archivos de documentación asociados (el «Software»),
-para tratar
-en el Software sin restricciones, incluso sin limitación de los derechos
-para utilizar, copiar, modificar, combinar, publicar, distribuir, combinar, publicar, distribuir, sublicenciar y/o vender
-copias del Software. hágalo, sujeta a las condiciones siguientes:
+Se concede permiso, de forma gratuita, a cualquier persona que obtenga una copia de este software y de los archivos de documentación asociados (el &quot;Software&quot;), para trabajar en el Software sin restricciones, incluidos, sin limitación, los derechos de uso, copia, modificación, fusión, publicación, distribución, sublicencia y/o venta de copias del Software, y para permitir que las personas a las que se proporcione el Software lo hagan, con sujeción a las siguientes condiciones:
 
-El aviso de copyright anterior y este aviso de permiso se incluirán en todas
-las copias o partes considerables del Software.
+El aviso de copyright anterior y este aviso de permiso se incluirán en todas las copias o partes importantes del Software.
 
-EL SOFTWARE SE PROPORCIONA "TAL Y COMO ESTÁ", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O
-IMPLÍCITA, INCLUSO LAS GARANTÍAS DE COMERCIABILIDAD,
-ADECUACIÓN PARA UN FIN PARTICULAR Y NO CONTRAVENCIÓN. EN NINGÚN CASO LOS AUTORES O TITULARES DE COPYRIGHT SE HARÁN RESPONSABLES DE RECLAMOS, DAÑOS U OTRA
-RESPONSABILIDAD, YA SEA EN UNA ACCIÓN CONTRACTUAL, TORT O DE OTRA MANERA, ORIGINADA, FUERA O EN CONEXIÓN CON EL SOFTWARE O CON EL USO U OTROS OPERADORES DEL SOFTWARE.
+EL SOFTWARE SE PROPORCIONA &quot;TAL CUAL&quot;, SIN GARANTÍAS DE NINGÚN TIPO, EXPRESAS O IMPLÍCITAS, INCLUIDAS, SIN LIMITARSE A ELLAS, LAS GARANTÍAS DE COMERCIABILIDAD, IDONEIDAD PARA UN FIN DETERMINADO Y NO INFRACCIÓN. EN NINGÚN CASO LOS AUTORES O TITULARES DE LOS DERECHOS DE AUTOR SERÁN RESPONSABLES DE CUALQUIER RECLAMACIÓN, DAÑOS U OTRA RESPONSABILIDAD, YA SEA EN UNA ACCIÓN CONTRACTA, TORT O DE OTRA MANERA, DERIVADA, FUERA O EN RELACIÓN CON EL SOFTWARE O EL USO U OTRAS ACCIONES DEL SOFTWARE.
