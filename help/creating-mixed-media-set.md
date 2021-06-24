@@ -9,7 +9,6 @@ discoiquuid: 0ff9e763-897c-4ba5-b606-a95d5e45f35e
 feature: Dynamic Media Classic,Visualizadores,Conjuntos de medios mixtos
 role: Business Practitioner
 exl-id: 18669c65-a1c4-4012-8587-cd5095f4bd4e
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '625'
@@ -80,7 +79,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 1. Cuando haya terminado de editar el conjunto, asegúrese de que esté seleccionada la opción **[!UICONTROL Publicar después de guardar]** (predeterminada), cerca de la esquina inferior derecha de la página.
 1. Haga clic en **[!UICONTROL Guardar]** o **[!UICONTROL Guardar como]**.
 
-## Eliminación de un conjunto de medios mixtos  {#deleting-a-mixed-media-set}
+## Eliminación de un conjunto de medios mixtos {#deleting-a-mixed-media-set}
 
 Cuando se elimina un conjunto, el conjunto en sí se mueve a la papelera. Sin embargo, los miembros (o “elementos secundarios”) dentro de dicho conjunto no se verán afectados; cada uno mantendrá su estado existente de publicación o no.
 
