@@ -6,7 +6,6 @@ user-guide-title: Guía de Adobe Dynamic Media Classic
 breadcrumb-title: Guía de Dynamic Media Classic
 user-guide-description: Más información sobre el uso de Dynamic Media Classic
 index: y
-translation-type: tm+mt
 source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '748'
@@ -15,22 +14,22 @@ ht-degree: 77%
 ---
 
 
-# Guía de Adobe Dynamic Media Classic  {#using}
+# Guía de Adobe Dynamic Media Classic {#using}
 
 + [Guía de Adobe Dynamic Media Classic](home.md)
 + [Tutorial de prácticas recomendadas](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 + [La nueva experiencia de inicio de sesión de Dynamic Media Classic ya está disponible](new-ui-2020.md)
-+ [Newsletter de Dynamic Media para Experience League](dynamic-media-newsletter.md)
++ [Boletín de Dynamic Media del Experience League](dynamic-media-newsletter.md)
 + Presentación de Adobe Dynamic Media Classic {#intro}
    + [Adobe Aplicación de escritorio Dynamic Media Classic: ya disponible](dynamic-media-classic-desktop-app.md)
    + [Acerca de la Ayuda de Dynamic Media Classic](introduction.md)
-   + [Recursos para desarrolladores](developer-resources.md)
+   + [Recursos para el desarrollador](developer-resources.md)
    + [Novedades](whats-new.md)
    + [Requisitos del sistema](system-requirements.md)
-   + [Soporte técnico](support.md)
+   + [Asistencia técnica](support.md)
    + [Ayuda de Dynamic Media Classic Media Portal](help-dmc-media-portal.md)
    + [Servicios de formación de Adobe](training-services.md)
-   + [Recursos habituales](popular-resources.md)
+   + [Recursos populares](popular-resources.md)
    + [Videos de capacitación](training-videos.md)
 + Introducción {#getting-started}
    + [Descripción general del programa de Adobe Dynamic Media Classic](dmc-platform-overview.md)
