@@ -10,7 +10,6 @@ discoiquuid: 44f1b4c4-6d7f-4e0f-84ce-11d26745e0f0
 feature: Dynamic Media Classic
 role: Business Practitioner
 exl-id: 989f2761-f5d0-4ece-b2a6-f7b4577aa8a2
-translation-type: tm+mt
 source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
 source-wordcount: '442'
@@ -28,13 +27,13 @@ Consulte [Opciones de edición de imágenes al cargarlas](image-editing-options-
 
 Además de utilizar los perfiles ICC predeterminados, puede cargar otros perfiles ICC en Dynamic Media Classic y ponerlos a disposición para la conversión de espacio de color. Cambie a la vista de detalles en el panel Examinar para investigar la clase de perfil, el tipo de espacio de color y el tipo de PCS de un perfil ICC.
 
-## Carga de perfiles ICC  {#uploading-icc-profiles}
+## Carga de perfiles ICC {#uploading-icc-profiles}
 
 Cargue perfiles ICC utilizando las mismas técnicas que usa para cargar otros archivos. Puede almacenar perfiles ICC en cualquier carpeta de Dynamic Media Classic.
 
 Consulte [Carga de los archivos](uploading-files.md#uploading_your_files).
 
-## Examen de un perfil ICC  {#examining-an-icc-profile}
+## Examen de un perfil ICC {#examining-an-icc-profile}
 
 Para examinar un perfil ICC, selecciónelo en el panel Examinar y acceda a la vista de detalles. La vista de detalles le ofrece esta información sobre los perfiles ICC:
 
