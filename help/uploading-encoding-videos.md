@@ -11,7 +11,6 @@ discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 feature: Dynamic Media Classic,Visualizadores,Vídeo
 role: Business Practitioner
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
-translation-type: tm+mt
 source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '3882'
@@ -124,7 +123,7 @@ En la siguiente tabla se muestran los tipos de archivo de vídeo (con los códec
    >
    >La pantalla Trabajos le avisa si carga e intenta codificar un archivo de vídeo pero este se rechaza porque contiene un códec o contenedor de archivos no compatible. Para obtener más información, consulte [Comprobación de archivos de trabajo](checking-job-files.md).
 
-## Prácticas recomendadas para la codificación de vídeo  {#best-practices-for-video-encoding}
+## Prácticas recomendadas para la codificación de vídeo {#best-practices-for-video-encoding}
 
 A continuación se indican las prácticas recomendadas para codificar archivos de vídeo de origen en Dynamic Media Classic.
 
@@ -146,7 +145,7 @@ En la tabla siguiente se describe el tamaño recomendado, la proporción de aspe
 | 1280 X 720 | 16:9 | 3000 - 6000 kbps, dependiendo de la cantidad de movimiento del vídeo. |
 | 1920 X 1080 | 16:9 | 6000 - 8000 kbps, dependiendo de la cantidad de movimiento del vídeo. |
 
-### Obtención de los metadatos de un archivo  {#obtaining-a-file-s-metadata}
+### Obtención de los metadatos de un archivo {#obtaining-a-file-s-metadata}
 
 Puede obtener los metadatos de un archivo consultando sus metadatos en Dynamic Media Classic, utilizando una herramienta de edición de vídeo o utilizando una aplicación diseñada para obtener metadatos. A continuación se muestran instrucciones para el uso de MediaInfo, una aplicación de terceros, para obtener los metadatos de un archivo de vídeo:
 
@@ -154,7 +153,7 @@ Puede obtener los metadatos de un archivo consultando sus metadatos en Dynamic M
 1. Seleccione y descargue el instalador para la versión de interfaz gráfica de usuario y siga las instrucciones de instalación.
 1. Después de la instalación, haga clic con el botón derecho en el archivo de vídeo (solo Windows®) y seleccione MediaInfo, o abra MediaInfo y arrastre el archivo de vídeo a la aplicación. Se ven todos los metadatos asociados al archivo de vídeo, incluida su anchura, su altura y los fotogramas por segundo.
 
-### Proporción de aspecto  {#aspect-ratio}
+### Proporción de aspecto {#aspect-ratio}
 
 Al elegir o crear un ajuste preestablecido de codificación de vídeo para el archivo de vídeo principal, asegúrese de que dicho ajuste tenga la misma proporción de aspecto que el archivo de vídeo principal. La *proporción de aspecto* es la proporción de anchura y altura del vídeo.
 
@@ -192,7 +191,7 @@ En esta tabla se describe la velocidad de datos de las velocidades de conexión 
 | 2000 | Conexión de escritorio de ancho de banda habitual. Para esta conexión, establezca como objetivo una velocidad de datos en el rango de 800 a 2000 Kbps, con la mayoría de objetivos que promedien entre 1200 y 1500 Kbps. |
 | 5000 | Conexión de gran ancho de banda habitual. La codificación en este rango superior no se recomienda, porque la mayoría de los usuarios no pueden recibir el vídeo a esta velocidad. |
 
-### Resolución  {#resolution}
+### Resolución {#resolution}
 
 Con *resolución* se describe la altura y la anchura de un vídeo en píxeles. La mayoría de vídeos de origen se almacenan con una resolución alta (por ejemplo, 1920 x 1080). Para el flujo continuo, el vídeo de origen se comprime con una resolución menor (640 x 480 o inferior).
 
@@ -225,13 +224,13 @@ Cuando elija (o cree) un ajuste preestablecido de codificación de vídeo para e
 | 720p | 720 | Pantalla grande |
 | 1080p | 1080 | Pantalla grande de alta definición |
 
-### Fotogramas por segundo (fps)  {#fps-frames-per-second}
+### Fotogramas por segundo (fps) {#fps-frames-per-second}
 
 En Estados Unidos y Japón, la mayoría de los vídeos se graban a 29,97 fotogramas por segundo (fps); en Europa, la mayoría se graba a 25 fps. Las películas se graban a 24 fps.
 
 Elija un ajuste preestablecido de codificación de vídeo que coincida con la velocidad de fps del archivo de vídeo principal. Por ejemplo, si el vídeo principal tiene una resolución de 25 fps, elija un ajuste preestablecido de codificación de 25 fps. De manera predeterminada, toda la codificación personalizada utiliza el valor de fps del archivo de vídeo principal. Por este motivo, no es necesario que especifique explícitamente el ajuste de fps al crear un ajuste preestablecido de codificación de vídeo.
 
-### Dimensiones de codificación de vídeo  {#video-encoding-dimensions}
+### Dimensiones de codificación de vídeo {#video-encoding-dimensions}
 
 Para obtener resultados óptimos, seleccione unas dimensiones de codificación de forma que el vídeo de origen sea un múltiplo entero de todos los vídeos codificados.
 
@@ -248,11 +247,11 @@ Como ejemplo, suponga que el vídeo de origen es de 1920 x 1080. En la tabla sig
 | Codificado | 640 x 360 | 3 | 1 |
 | Codificado | 480 x 270 | 4 | 4 |
 
-### Formato de archivo de vídeo codificado  {#encoded-video-file-format}
+### Formato de archivo de vídeo codificado {#encoded-video-file-format}
 
 Adobe Dynamic Media Classic recomienda utilizar ajustes preestablecidos de codificación de vídeo MP4 H.264. Dado que los archivos MP4 usan el códec de vídeo H.264, proporcionan vídeo de alta calidad pero con un tamaño de archivo comprimido.
 
-## Uso de ajustes preestablecidos de codificación de vídeo  {#working-with-video-encoding-presets}
+## Uso de ajustes preestablecidos de codificación de vídeo {#working-with-video-encoding-presets}
 
 Los archivos de vídeo principales creados con un equipo de producción de vídeo y software de edición de vídeo suelen ser demasiado grandes y no tienen el formato correcto para la publicación en destinos en línea. Para convertir vídeo digital al formato y especificaciones correctos para la reproducción en distintas pantallas, puede *transcodificar* archivos de vídeo (un proceso que también se denomina *codificación*). Durante el proceso de codificación, el vídeo se comprime a un tamaño de archivo eficaz más pequeño, óptimo para la publicación en la web y en dispositivos móviles.
 
@@ -285,7 +284,7 @@ Para los recursos de vídeo que se cargan y codifican en Dynamic Media Classic, 
 
 Cualquier otro formato de vídeo y códec se trata como un &quot;Vídeo maestro&quot;. Esta clasificación de los recursos implica que el vídeo es un archivo de origen y no se puede utilizar para su reproducción en escritorios ni dispositivos móviles. Por ejemplo, no puede previsualizar estos tipos de vídeos en Dynamic Media Classic. Tampoco puede generar las opciones Copiar URL ni Código incrustado para su uso en los reproductores de vídeo, en los sitios web, etc.
 
-### Filtrado de la lista de ajustes preestablecidos de codificación de vídeo  {#filtering-the-list-of-video-encoding-presets}
+### Filtrado de la lista de ajustes preestablecidos de codificación de vídeo {#filtering-the-list-of-video-encoding-presets}
 
 La página Ajustes preestablecidos de vídeo y la página Ajustes preestablecidos de vídeo adaptables constan de una tabla que muestra el estado activo, el nombre del ajuste preestablecido, el dispositivo de reproducción previsto, el tamaño de vídeo y la velocidad de datos de cada ajuste preestablecido de vídeo.
 
@@ -304,7 +303,7 @@ También puede filtrar en función de una opción de dispositivo de reproducció
    * En el primer campo, con una lista desplegable más estrecha, elija **[!UICONTROL Ambos]** para ver todos los ajustes preestablecidos de vídeo o elija **[!UICONTROL Activo]** o **[!UICONTROL Inactivo]** para reducir la lista a los que están activos o inactivos.
    * En la segunda lista desplegable, más amplia, elija una opción de dispositivo de reproducción para reducir la lista a los ajustes preestablecidos de vídeo diseñados para reproducir vídeos en equipos de escritorio o para reproducir vídeos en dispositivos móviles o tablets.
 
-### Activación o desactivación de ajustes preestablecidos de codificación de vídeo  {#activating-or-deactivating-video-encoding-presets}
+### Activación o desactivación de ajustes preestablecidos de codificación de vídeo {#activating-or-deactivating-video-encoding-presets}
 
 Los ajustes preestablecidos de vídeo activados aparecen en el cuadro de diálogo Opciones de trabajo de carga. El cuadro de diálogo aparece cuando un usuario carga archivos de vídeo durante el proceso de carga. Puede elegir de una lista de todos los ajustes preestablecidos de codificación activados.
 
@@ -325,7 +324,7 @@ Los ajustes preestablecidos de vídeo activados aparecen en el cuadro de diálog
 
 1. En la esquina inferior derecha de la página, haga clic en **[!UICONTROL Cerrar]**.
 
-### Adición o edición de un ajuste preestablecido de codificación de vídeo  {#adding-or-editing-a-video-encoding-preset}
+### Adición o edición de un ajuste preestablecido de codificación de vídeo {#adding-or-editing-a-video-encoding-preset}
 
 Puede crear sus propios ajustes preestablecidos de codificación única personalizados y añadirlos a la tabla Ajustes preestablecidos de vídeo. También puede cambiar cualquier ajuste preestablecido de codificación de vídeo predefinido que se incluya con Dynamic Media Classic, siempre que guarde el ajuste preestablecido editado con un nombre nuevo.
 
@@ -366,7 +365,7 @@ Dynamic Media Classic ha establecido límites máximos en la velocidad de datos,
    * Haga clic en **[!UICONTROL Guardar]** si ha agregado o editado un ajuste preestablecido de vídeo.
    * Haga clic en **[!UICONTROL Guardar como]** si ha agregado un ajuste preestablecido de vídeo a partir de uno existente.
 
-### Eliminación de un ajuste preestablecido de codificación de vídeo.  {#deleting-a-video-encoding-preset}
+### Eliminación de un ajuste preestablecido de codificación de vídeo. {#deleting-a-video-encoding-preset}
 
 Los administradores pueden eliminar ajustes preestablecidos de vídeo personalizados. Los ajustes preestablecidos de vídeo que se incluyen con Dynamic Media Classic no se pueden eliminar.
 
@@ -379,6 +378,6 @@ Los administradores pueden eliminar ajustes preestablecidos de vídeo personaliz
 >[!MORELIKETHIS]
 >
 >* [Inicio rápido: Vídeo](quick-start-video.md#quick-start-video)
->* [Carga y codificación de vídeo](uploading-encoding-videos.md#uploading-and-encoding-videos)
->* [Uso de ajustes preestablecidos de visor de vídeo](previewing-videos-video-viewer.md#working-with-video-viewer-presets)
+* [Carga y codificación de vídeo](uploading-encoding-videos.md#uploading-and-encoding-videos)
+* [Uso de ajustes preestablecidos de visor de vídeo](previewing-videos-video-viewer.md#working-with-video-viewer-presets)
 
