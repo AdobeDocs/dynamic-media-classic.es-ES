@@ -7,10 +7,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
-feature: Dynamic Media Classic,Collaboration,Asset Management
+feature: Dynamic Media Classic,Colaboración,Administración de activos
 role: Administrator,Business Practitioner
 exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
-translation-type: tm+mt
 source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
 source-wordcount: '1009'
@@ -26,7 +25,7 @@ Como administrador puede añadir y administrar a los usuarios, decidir si pueden
 >
 >antes de agregar usuarios tendrá que configurar grupos para administrarlos. Media Portal no permite agregar un usuario sin asignarlo a uno o varios grupos. Para obtener más información, consulte [Creación y administración de grupos de Media Portal](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
 
-## Administración de las contraseñas de Media Portal  {#handling-media-portal-passwords}
+## Administración de las contraseñas de Media Portal {#handling-media-portal-passwords}
 
 A los usuarios, colaboradores y usuarios colaboradores de Media Portal se les envía un mensaje de correo electrónico de bienvenida con una contraseña cuando usted los registra. Los administradores pueden decidir si los usuarios de Media Portal pueden cambiar esta contraseña.
 
@@ -38,7 +37,7 @@ A los usuarios, colaboradores y usuarios colaboradores de Media Portal se les en
 >
 >Los usuarios de Media Portal con permiso para cambiar su contraseña pueden hacerlo haciendo clic en **[!UICONTROL Ajustes]** > **[!UICONTROL Ajustes personales]** y cambiando la contraseña en la pantalla Ajustes personales.
 
-## Adición de un usuario de Media Portal  {#adding-a-media-portal-user}
+## Adición de un usuario de Media Portal {#adding-a-media-portal-user}
 
 1. Haga clic en **[!UICONTROL Ajustes]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Ajustes de administración]** > **[!UICONTROL Administración de usuarios]**.
 1. En la página Administración de usuarios, haga clic en **Agregar**.
@@ -60,13 +59,13 @@ A los usuarios, colaboradores y usuarios colaboradores de Media Portal se les en
 
 Tras añadir un usuario, Media Portal envía al usuario un mensaje de correo electrónico de bienvenida. El mensaje incluye una contraseña temporal y la dirección URL de Media Portal.
 
-## Carga de una lista de usuarios de Media Portal  {#uploading-a-media-portal-user-list}
+## Carga de una lista de usuarios de Media Portal {#uploading-a-media-portal-user-list}
 
 Si desea agregar varios usuarios, puede cargar una lista de usuarios. Los usuarios se añaden automáticamente a la cuenta seleccionada.
 
 Cree una lista de usuarios en un archivo CSV (valores separados por comas) que contenga la información de usuario. Una vez se haya cargado el archivo, los usuarios de la lista se añaden automáticamente a la cuenta con las asignaciones de grupo que se han especificado. Todos los usuarios nuevos reciben un mensaje de correo electrónico de bienvenida. En este mensaje se incluye un vínculo a Media Portal y una contraseña temporal.
 
-### Creación de un archivo CSV  {#creating-the-csv-file}
+### Creación de un archivo CSV {#creating-the-csv-file}
 
 Cree un archivo CSV (nombrearchivo.csv) conforme al formato y los campos que se indican a continuación. La primera fila debe contener los encabezados de columna que aparecen en esta tabla. Puede ordenar las columnas como desee. Todas las columnas son obligatorias.
 
@@ -87,7 +86,7 @@ La siguiente hoja de cálculo de ejemplo muestra cómo diseñar un archivo CSV:
 | Rick | Abandonos | `rickb@myco.com` | bienvenido | Usuario de Media Portal | PortalCo/GrupoMarketing, PortalCo/prueba |
 
 
-### Carga del archivo CSV  {#uploading-the-csv-file}
+### Carga del archivo CSV {#uploading-the-csv-file}
 
 1. Abra la pantalla de ajuste Administración de usuarios.
 1. Haga clic en **[!UICONTROL Cargar lista de usuarios]**.
@@ -99,7 +98,7 @@ Se añaden automáticamente los usuarios de la lista a los grupos especificados 
 >
 >Si el archivo CSV no tiene el formato correcto, aparece el mensaje de error &quot;Se ha producido un error al procesar el archivo CSV cargado. Compruebe si los datos del archivo son válidos&quot;. Además, si el archivo CSV contiene un usuario de IP o IPS existente, éste no se añade a la lista de usuarios.
 
-## Generación de una lista seleccionable de usuarios de Media Portal  {#generating-a-selectable-list-of-media-portal-users}
+## Generación de una lista seleccionable de usuarios de Media Portal {#generating-a-selectable-list-of-media-portal-users}
 
 Puede ver los nombres y las direcciones de correo electrónico de los usuarios de Media Portal en una ventana emergente. Esta lista resulta útil para cortar y pegar nombres y direcciones de correo electrónico de usuarios y usarlos en otra aplicación distinta a Media Portal.
 
