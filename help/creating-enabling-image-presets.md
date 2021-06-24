@@ -10,7 +10,6 @@ discoiquuid: 84257b2a-681c-4fe9-a6e5-3633c1d61d8c
 feature: Dynamic Media Classic,Colaboración,Ajustes preestablecidos de imagen,Administración de recursos
 role: Administrator,Business Practitioner
 exl-id: 94c6c388-226b-4172-a6c7-a8dcf9c0f0cf
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '260'
