@@ -10,7 +10,6 @@ discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 feature: Dynamic Media Classic,Visualizadores,Conjuntos de imágenes
 role: Business Practitioner
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '586'
@@ -22,7 +21,7 @@ ht-degree: 86%
 
 Para crear un conjunto de imágenes con varias vistas, necesita imágenes que muestren un elemento desde distintos puntos de vista o que muestren distintos aspectos del mismo elemento. El objetivo es que las imágenes del elemento que vean los usuarios les den una idea clara de cuál es su aspecto y función.
 
-## Creación de un conjunto de imágenes  {#create}
+## Creación de un conjunto de imágenes {#create}
 
 Al crear un conjunto, la opción **Publicar después de guardar** afecta al conjunto y a los miembros del conjunto de las siguientes formas:
 
@@ -46,7 +45,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 1. Haga clic en **[!UICONTROL Guardar]**, seleccione una carpeta para almacenar su conjunto de imágenes, escriba un nombre para el conjunto y haga clic en **[!UICONTROL Guardar]**.
 1. Para ver su conjunto de imágenes en el visor de conjuntos de imágenes, haga clic en **[!UICONTROL Vista previa]** en la pantalla Conjunto de imágenes. Puede hacer clic en las muestras de miniaturas del visor de conjuntos de imágenes para ver el resultado.
 
-## Edición de un conjunto de imágenes  {#editing-an-image-set}
+## Edición de un conjunto de imágenes {#editing-an-image-set}
 
 Tanto si edita un conjunto publicado como si no, la opción **[!UICONTROL Publicar después de guardar]** afecta a los miembros del conjunto y del conjunto de las siguientes maneras:
 
@@ -71,7 +70,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 1. Cuando haya terminado de editar el conjunto, asegúrese de que esté seleccionada la opción **[!UICONTROL Publicar después de guardar]** (predeterminada), cerca de la esquina inferior derecha de la página.
 1. Haga clic en **[!UICONTROL Guardar]**, seleccione una carpeta para almacenar el conjunto, escriba un nombre para el conjunto y haga clic en **[!UICONTROL Guardar]**.
 
-## Eliminación de un conjunto de imágenes  {#deleting-an-image-set}
+## Eliminación de un conjunto de imágenes {#deleting-an-image-set}
 
 Cuando se elimina un conjunto, el conjunto en sí se mueve a la papelera. Sin embargo, los miembros (o “elementos secundarios”) dentro de dicho conjunto no se verán afectados; cada uno mantendrá su estado existente de publicación o no.
 
