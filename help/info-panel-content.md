@@ -10,7 +10,6 @@ discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
 feature: Dynamic Media Classic,Visualizadores,Catálogo electrónico
 role: Business Practitioner
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
-translation-type: tm+mt
 source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
 source-wordcount: '862'
@@ -18,7 +17,7 @@ ht-degree: 67%
 
 ---
 
-# Administración del contenido del panel de información en catálogos electrónicos{#managing-info-panel-content-in-ecatalogs}
+# Administración del contenido del panel de información en los catálogos electrónicos{#managing-info-panel-content-in-ecatalogs}
 
 Además de utilizar el texto del mapa de imagen para sus rollover en los catálogos electrónicos, puede utilizar un panel de información para agregar grandes cantidades de texto rollover, incluyendo los vínculos. También puede gestionar el panel de información mediante el uso de almacenamiento en caché programado y actualizaciones de contenido planificadas.
 
@@ -64,7 +63,7 @@ Cuando dé formato al contenido de origen, tenga en cuenta las siguientes pautas
 * Asegúrese de que el primer elemento o columna de datos es el identificador de rollover (asociado con el valor rollover_key de las URL de mapas de imagen).
 * Asegúrese de que cada elemento delimitado por tabulaciones o comas después del identificador sea el elemento que desea sustituir en la plantilla de respuesta. Por lo tanto, la primera columna es sustituida por $1$, la segunda columna por $2$, y así sucesivamente.
 
-### Importar contenido CSV en catálogos electrónicos desde una ubicación alojada externamente {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}
+### Importar contenido CSV en catálogos electrónicos desde una ubicación alojada de forma externa {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}
 
 1. Haga doble clic en el catálogo electrónico para abrirlo en la vista de detalles.
 1. Haga clic en el panel de fuente de datos del panel de información.
@@ -72,7 +71,7 @@ Cuando dé formato al contenido de origen, tenga en cuenta las siguientes pautas
 1. (Opcional) Especifique un tiempo para la actualización del contenido mediante los menús Actualiz. de la progr. y haga clic en Agregar. Puede seleccionar varios tiempos de actualización. Cada tiempo de actualización aparece en el cuadro de tiempos de actualización. (Para eliminar un tiempo, selecciónelo y haga clic en Eliminar).
 1. (Opcional) Haga clic en el botón de ejecución de la actualización para actualizar los contenidos inmediatamente.
 
-### Importación de un archivo CSV o delimitado por tabuladores  {#import-a-tab-delimited-or-csv-file}
+### Importación de un archivo CSV o delimitado por tabuladores {#import-a-tab-delimited-or-csv-file}
 
 <!-- 
 
