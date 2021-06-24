@@ -10,7 +10,6 @@ discoiquuid: 97cecd6a-30aa-44fe-a611-fd71b02fd5ae
 feature: Dynamic Media Classic
 role: Business Practitioner
 exl-id: 186f4c7f-16f6-42f5-bc0e-55362c55e794
-translation-type: tm+mt
 source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
 source-wordcount: '426'
@@ -36,11 +35,11 @@ Una vez cargado un archivo de fuente, puede cambiar su ID de Dynamic Media Class
 >
 >Dynamic Media Classic recomienda cargar todos los estilos de fuente (negrita, cursiva, negrita/cursiva y normal) si planea utilizar fuentes en las capas de plantilla. Dynamic Media Classic necesita estos estilos de fuente para procesar las solicitudes. También se recomienda cargar todos los archivos Type 1 de PostScript/Adobe que estén asociados con la fuente, ya que algunas de estas fuentes contienen información detallada de espaciado.
 
-## Carga de archivos de fuente  {#uploading-font-files}
+## Carga de archivos de fuente {#uploading-font-files}
 
 Cargue archivos de fuente utilizando las mismas técnicas que usa para cargar otros archivos. Puede almacenar archivos de fuente en cualquier carpeta de Dynamic Media Classic. Consulte [Carga de los archivos](uploading-files.md#uploading_your_files).
 
-## Edición de información sobre archivos de fuente  {#editing-font-file-information}
+## Edición de información sobre archivos de fuente {#editing-font-file-information}
 
 Puede cambiar el nombre de ID de una fuente y su información de tipo. Editar una fuente puede resultar útil en las búsquedas y facilitar la identificación de fuentes.
 
