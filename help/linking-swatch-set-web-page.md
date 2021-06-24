@@ -8,7 +8,6 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 feature: Dynamic Media Classic,Visualizadores
 role: Business Practitioner
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '692'
@@ -43,7 +42,7 @@ Una vez que haya publicado un conjunto de muestras, puede usar su URL o código 
 
       En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **[!UICONTROL Copiar URL]**.
 
-## Adición de direcciones URL de conjuntos de muestras a una página web  {#adding-swatch-set-urls-to-your-web-page}
+## Adición de direcciones URL de conjuntos de muestras a una página web {#adding-swatch-set-urls-to-your-web-page}
 
 La manera más común de distribuir conjuntos de muestras consiste en colocar un vínculo (por medio de un icono de navegación) en la página web. Si se selecciona este icono, se inicia una página web dinámica (ASP o JSP) que muestra el conjunto de muestras en una ventana emergente con zoom. El vínculo de zoom abre una ventana emergente que contiene la función de zoom.
 
