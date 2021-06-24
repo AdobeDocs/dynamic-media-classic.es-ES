@@ -10,7 +10,6 @@ discoiquuid: 989dba07-448a-45b1-b157-af50abb5359a
 feature: Dynamic Media Classic
 role: Business Practitioner
 exl-id: 6305c287-360f-48c2-b456-58be0791c7af
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '331'
@@ -28,7 +27,7 @@ Para colocar cadenas URL en sus páginas web y aplicaciones, cópielas desde Dyn
 >
 >La URL no se activa hasta que publique el recurso.
 
-## Obtención de una URL de plantilla  {#obtaining-a-template-url}
+## Obtención de una URL de plantilla {#obtaining-a-template-url}
 
 Puede obtener una cadena URL de plantilla generada por un ajuste preestablecido de imagen en la pantalla Vista previa de plantilla. Una vez copiada la URL, ésta queda disponible en el portapapeles para que pueda pegarla cuando lo necesite. Para obtener una cadena URL de plantilla generada con un ajuste preestablecido de imagen desde la página Vista previa de plantilla, haga lo siguiente:
 
