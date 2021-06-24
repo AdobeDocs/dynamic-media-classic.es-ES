@@ -10,7 +10,6 @@ discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
 feature: Dynamic Media Classic,Visualizadores,Vídeo
 role: Business Practitioner
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
-translation-type: tm+mt
 source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '766'
@@ -52,7 +51,7 @@ Dynamic Media Classic incluye muchos ajustes preestablecidos de visor predefinid
 
 Consulte también [ Previsualización de vídeos en un visor de vídeos](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
 
-### Adición o edición de un ajuste preestablecido de visor de vídeo  {#adding-or-editing-a-video-viewer-preset}
+### Adición o edición de un ajuste preestablecido de visor de vídeo {#adding-or-editing-a-video-viewer-preset}
 
 Puede usar Ajustes preestablecidos de visor para ver los diversos tipos de visor y su configuración predefinida. También puede añadir y editar sus propios ajustes preestablecidos de visor personalizados o editar los ajustes preestablecidos de visor existentes que se incluyen con Dynamic Media Classic.
 
@@ -91,5 +90,5 @@ Consulte [Ajustes preestablecidos de visor](application-setup.md#viewer_presets)
 >[!MORELIKETHIS]
 >
 >* [Prácticas recomendadas para la codificación de vídeo](uploading-encoding-videos.md#best_practices_for_video_encoding)
->* [Uso de ajustes preestablecidos de codificación de vídeo](uploading-encoding-videos.md#working_with_video_encoding_presets)
+* [Uso de ajustes preestablecidos de codificación de vídeo](uploading-encoding-videos.md#working_with_video_encoding_presets)
 
