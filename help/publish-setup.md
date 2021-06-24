@@ -26,7 +26,7 @@ Para abrir las páginas Configuración de publicación , haga clic en **[!UICONT
 >
 >Las páginas Configuración de publicación están destinadas a los programadores y desarrolladores de sitios web experimentados. Dynamic Media Classic supone que los usuarios que cambian la configuración de estas páginas están familiarizados con Dynamic Media Classic, las normas y convenciones del protocolo HTTP y la tecnología básica de creación de imágenes.
 
-## Servidor de imágenes {#image-server}
+## Image Server {#image-server}
 
 La página Servidor de imágenes establece la configuración predeterminada para enviar imágenes desde los servidores de imágenes. La configuración está disponible en estas cinco categorías (consulte la página Servidor de imágenes para obtener descripciones detalladas de la configuración).
 
