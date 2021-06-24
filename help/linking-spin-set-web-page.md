@@ -10,7 +10,6 @@ discoiquuid: 651b21ef-e322-4e6d-8e37-45ffd56f7a58
 feature: Dynamic Media Classic,Visualizadores,Conjuntos de giros
 role: Business Practitioner
 exl-id: af75547e-20e8-44c2-b165-01532d6e21d0
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '720'
@@ -26,7 +25,7 @@ Los sitios web y las aplicaciones acceden al contenido de Dynamic Media Image Se
 >
 >La URL no se activa hasta que publique el recurso.
 
-## Copia de una URL de conjunto de giros  {#copying-a-spin-set-url}
+## Copia de una URL de conjunto de giros {#copying-a-spin-set-url}
 
 1. En la lista desplegable Mostrar del panel de exploración de recursos, haga clic en **[!UICONTROL Conjunto de giros]**.
 1. En el panel Biblioteca de recursos del lado izquierdo, navegue a la carpeta de recursos que contenga el conjunto de giros cuyo código incrustado desee copiar.
@@ -45,7 +44,7 @@ Los sitios web y las aplicaciones acceden al contenido de Dynamic Media Image Se
 
       En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **[!UICONTROL Copiar URL]**.
 
-## Adición de direcciones URL de conjuntos de giros a una página web  {#adding-spin-set-urls-to-your-web-page}
+## Adición de direcciones URL de conjuntos de giros a una página web {#adding-spin-set-urls-to-your-web-page}
 
 Los conjuntos de giros se distribuyen como todos los visores de zoom, a través de una página dinámica (ASP o JSP) que muestra el conjunto de giros en una ventana de zoom. La llamada de URL a la plataforma Dynamic Media Classic sigue el mismo protocolo en el visor de zoom. Sin embargo, el nombre del ajuste preestablecido de visor depende del ajuste preestablecido que el administrador haya definido como ajuste preestablecido de visor de conjuntos de giros predeterminado. Por ejemplo, el siguiente ejemplo de sintaxis de URL desactivada incluye un nombre de ajuste preestablecido denominado `viewer.jsp` y el parámetro de SKU es ahora el nombre de conjunto de giros:
 
