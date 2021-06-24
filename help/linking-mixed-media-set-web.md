@@ -10,7 +10,6 @@ discoiquuid: b33dacc4-509d-4878-a769-76642bfaeb4e
 feature: Dynamic Media Classic,Visualizadores,Conjuntos de medios mixtos
 role: Business Practitioner
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '645'
@@ -41,11 +40,11 @@ Una vez que haya publicado un conjunto de medios mixtos, puede obtener su URL pa
 
       En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **[!UICONTROL Copiar URL]**.
 
-## Adición de direcciones URL de conjuntos de medios mixtos a una página web  {#add-mixed-media-set-urls-to-your-web-page}
+## Adición de direcciones URL de conjuntos de medios mixtos a una página web {#add-mixed-media-set-urls-to-your-web-page}
 
 La manera más común de distribuir conjuntos de medios mixtos consiste en colocar un vínculo (por medio de un icono de navegación) en la página web. Si se selecciona este icono, se inicia una página web dinámica (ASP o JSP) que muestra el conjunto de medios mixtos en un visor de conjuntos de medios mixtos.
 
-## Copia del código incrustado de un visor de conjuntos de medios mixtos  {#copying-the-embed-code-of-a-mixed-media-set-viewer}
+## Copia del código incrustado de un visor de conjuntos de medios mixtos {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
 El uso de la función de código incrustado permite revisar el código del visor del conjunto de medios mixtos seleccionado. También puede copiar el código en el portapapeles para pegarlo en sus páginas web para la implementación del visor. No se permite la edición del código en el cuadro de diálogo Código incrustado.
 
