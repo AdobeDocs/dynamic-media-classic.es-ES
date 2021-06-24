@@ -10,7 +10,6 @@ discoiquuid: d263f041-5a0d-4c4f-9266-aeff51a5a7e2
 feature: Dynamic Media Classic
 role: Business Practitioner
 exl-id: 118806ea-c8a7-4aaf-9ae3-739c6b04ea77
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '784'
@@ -28,7 +27,7 @@ Con parámetros de capa de texto, la cadena de texto también puede ser un campo
 
 Puede hacer referencia a un parámetro más de una vez. Use el cuadro combinado de cada comando del cuadro de diálogo de parámetros para seleccionar cualquier parámetro que coincida con el comando en cuestión. (Por ejemplo, todos los parámetros de tamaño están disponibles para el comando `size=`, etc.). Puede reasignar la referencia de parámetro a cualquier parámetro que ya esté en el cuadro combinado y cambiar su nombre por otro que no aparezca. En este último caso, el nombre debe ser único. De lo contrario, se muestra un error que indica que el parámetro existe. Al eliminar una referencia de parámetro, este se elimina de la dirección URL si no se hace referencia a él en ninguna otra parte. Cuando se cambia el valor predeterminado de un parámetro de texto, todas las referencias a ese parámetro se actualizan. Puede ver la actualización en la tabla de capas, en la renderización de la plantilla y en la dirección URL. Cuando se cambia un atributo de capa manipulando los controladores de cambio de tamaño o escribiendo valores en el panel de propiedad, el valor del parámetro se actualiza y todas las referencias al parámetro se actualizan. Por ejemplo, si ha parametrizado el tamaño de dos capas con un solo parámetro, se actualiza el tamaño de ambas capas al cambiar cualquiera de ellas. Si obtiene la vista previa de una plantilla y modifica un parámetro, se actualizan todas las referencias a dicho parámetro.
 
-## Parametrización de una capa  {#parameterizing-a-layer}
+## Parametrización de una capa {#parameterizing-a-layer}
 
 Siga estos pasos con cada capa de la plantilla para crear parámetros de plantilla:
 
@@ -42,7 +41,7 @@ Siga estos pasos con cada capa de la plantilla para crear parámetros de plantil
 
 Para ver una lista de los parámetros que ha creado para la plantilla, seleccione el botón Resumen de parámetros en la pantalla Plantilla. Aparecerá la pantalla Resumen de parámetros. Aquí aparecen los nombres de las capas y, si ha creado parámetros para alguna de ellas, los nombres y valores de los parámetros.
 
-## Creación de parámetros de texto dinámico  {#creating-dynamic-text-parameters}
+## Creación de parámetros de texto dinámico {#creating-dynamic-text-parameters}
 
 Para las capas de texto, también puede convertir la cadena de texto en un campo dinámico vinculado a un valor de base de datos. Siga estos pasos:
 
