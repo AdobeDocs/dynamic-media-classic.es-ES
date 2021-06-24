@@ -7,16 +7,15 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: c341f5ea-aa7b-4749-975d-68a45c6fa77c
-feature: Dynamic Media Classic,Viewers,Image Sets
+feature: Dynamic Media Classic,Visualizadores,Conjuntos de imágenes
 role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+exl-id: 63bc3b37-7d5f-4707-a743-ec4192c88f0b
+source-git-commit: 217e5bf81cc2108e4bf283f585dfd83d319ff7c9
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 63%
+source-wordcount: '159'
+ht-degree: 64%
 
 ---
-
 
 # Preparación de recursos de conjunto de imágenes para cargar{#preparing-image-set-assets-for-upload}
 
@@ -31,5 +30,5 @@ Para obtener instrucciones detalladas sobre la carga de recursos, consulte [Carg
 >[!MORELIKETHIS]
 >
 >* [Carga de los archivos](uploading-files.md#uploading_your_files)
->* [Uso de archivos de viñeta, cobertura de ventana y armario](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
+* [Uso de archivos de viñeta, cobertura de ventana y armario](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
 
