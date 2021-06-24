@@ -7,7 +7,6 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '1121'
@@ -15,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Adobe Aplicación de escritorio Dynamic Media Classic: ahora disponible {#new-ui-2020}
+# Adobe Aplicación de escritorio Dynamic Media Classic: ya disponible {#new-ui-2020}
 
 Consulte [Aplicación de escritorio de Dynamic Media Classic de Adobe](/help/dynamic-media-classic-desktop-app.md) para revisar los requisitos del sistema, descargar e instalar la nueva aplicación y, a continuación, iniciar sesión en ella.
 
@@ -104,7 +103,7 @@ Para obtener más información sobre las ventajas de actualizar a la siguiente g
 >[!MORELIKETHIS]
 >
 >* [Inicio y cierre de sesión en la aplicación de escritorio de Dynamic Media Classic](/help/signing-out.md)
->* [Descarga e instalación de la aplicación de escritorio Dynamic Media Classic](/help/dynamic-media-classic-desktop-app.md)
+* [Descarga e instalación de la aplicación de escritorio Dynamic Media Classic](/help/dynamic-media-classic-desktop-app.md)
 
 
 
