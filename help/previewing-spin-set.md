@@ -10,7 +10,6 @@ discoiquuid: 4b32ffff-4387-4699-9ba9-c3b23a2c3607
 feature: Dynamic Media Classic,Visualizadores,Conjuntos de giros
 role: Business Practitioner
 exl-id: 6231a29e-d1b9-47d3-a23a-1940e91ebbc5
-translation-type: tm+mt
 source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '253'
