@@ -8,14 +8,13 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/user_generated_content
 discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+exl-id: 14729192-7b9d-4f42-99da-6564a3f35959
+source-git-commit: 217e5bf81cc2108e4bf283f585dfd83d319ff7c9
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 55%
+source-wordcount: '138'
+ht-degree: 56%
 
 ---
-
 
 # Acerca del contenido generado por el usuario{#about-user-generated-content}
 
@@ -34,4 +33,3 @@ Tras recuperar una clave secreta compartida y un distintivo de carga, se pueden 
 * Obtenga los metadatos de un recurso de imagen.
 * Eliminar un recurso cargado.
 * Obtener información sobre el uso de espacio en disco de una empresa.
-
