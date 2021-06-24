@@ -9,7 +9,6 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Visualizadores,Catálogo electrónico
 role: Business Practitioner
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-translation-type: tm+mt
 source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
 source-wordcount: '769'
@@ -33,7 +32,7 @@ Prepare sus archivos PDF antes de cargarlos en Dynamic Media Classic:
 
    Consulte [Perfiles ICC](icc-profiles.md#icc_profiles).
 
-## Prácticas recomendadas para cargar PDF  {#best-practice-pdf-upload-options}
+## Prácticas recomendadas para cargar PDF {#best-practice-pdf-upload-options}
 
 Para obtener información más detallada sobre los diferentes métodos de carga, consulte [Carga de archivos](uploading-files.md#uploading_your_files).
 
