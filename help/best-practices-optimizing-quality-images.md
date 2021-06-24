@@ -5,10 +5,9 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Administración de recursos
 role: Business Practitioner
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-translation-type: tm+mt
 source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
 source-wordcount: '1465'
@@ -85,7 +84,7 @@ Aumente gradualmente la cantidad de 1,75 a 4. Si el enfoque aún no aparece como
 
 Deje la configuración del parámetro monocromo en 0.
 
-## Prácticas recomendadas para la compresión de JPEG (&amp;qlt=)  {#best-practices-for-jpeg-compression-qlt}
+## Prácticas recomendadas para la compresión de JPEG (&amp;qlt=) {#best-practices-for-jpeg-compression-qlt}
 
 * Este parámetro controla la calidad de codificación de JPG. Un valor más alto significa una mejor calidad de imagen pero un tamaño mayor de archivo; por lo contrario, un valor inferior significa una imagen de menor calidad pero un tamaño de archivo más pequeño. El rango de este parámetro es 0-100.
 * Para optimizar la calidad, no defina el valor del parámetro a 100. La diferencia entre un ajuste de 90 o 95 y 100 es casi imperceptible, pero 100 aumenta innecesariamente el tamaño de archivo de la imagen. Por lo tanto, para optimizar la calidad pero evitar que los archivos de imagen sean demasiado grandes, establezca el valor `qlt=` en 90 o 95.
