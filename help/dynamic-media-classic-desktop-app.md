@@ -8,7 +8,6 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-translation-type: tm+mt
 source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '1850'
@@ -61,7 +60,7 @@ La aplicación de escritorio Dynamic Media Classic de Adobe es compatible con lo
 * Ctrl+V para pegar ahora funciona en Windows®.
 * En el futuro, cuando se publique una nueva versión de la aplicación de escritorio, se notificará a los usuarios desde la propia aplicación de escritorio.
 
-## Descargue e instale la última aplicación de escritorio de Adobe Dynamic Media Classic en macOS o Windows® {#installation-dmc-app}
+## Descargue e instale la aplicación de escritorio Dynamic Media Classic de Adobe más reciente en macOS o Windows® {#installation-dmc-app}
 
 Véase también:
 
@@ -203,7 +202,7 @@ Para descargar y *silencioso* instalar la versión más reciente de la aplicaci�
 
 Vea un tutorial de vídeo [sobre el uso de Dynamic Media Classic Desktop App](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html#dynamic-media) (Longitud: 2 minutos y 36 segundos).
 
-## Borrado de la caché de imágenes y la caché de recursos en el equipo mediante la aplicación de escritorio {#clear-cache}
+## Borrado de la caché de imágenes y la caché de recursos del equipo mediante la aplicación de escritorio {#clear-cache}
 
 1. En la aplicación de escritorio de Dynamic Media Classic, cerca de la esquina superior derecha, pulse **[!UICONTROL Configuración]** > **[!UICONTROL Configuración personal]**.
 1. En la página **[!UICONTROL Configuración personal]**, en el encabezado **[!UICONTROL Escritorio]**, realice una de las acciones siguientes:
