@@ -10,7 +10,6 @@ discoiquuid: e84b7b0e-527a-4c64-bc2a-e5e64d47b2d6
 feature: Dynamic Media Classic,Visualizadores,Zoom
 role: Business Practitioner
 exl-id: 44a82437-7592-484f-b45f-17ed1f6efbec
-translation-type: tm+mt
 source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
 source-wordcount: '216'
