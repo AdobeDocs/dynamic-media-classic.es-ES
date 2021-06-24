@@ -3,16 +3,15 @@ title: Vídeos de formación de Dynamic Media Classic
 description: Vídeos de formación de Dynamic Media Classic sobre introducción, imágenes dinámicas, vídeo, portal de medios, plantillas y creación y renderización de imágenes.
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+exl-id: 21e67a41-16a2-4f41-8cfe-a5d7941c73a0
+source-git-commit: 217e5bf81cc2108e4bf283f585dfd83d319ff7c9
 workflow-type: tm+mt
-source-wordcount: '6550'
+source-wordcount: '6547'
 ht-degree: 0%
 
 ---
 
-
-# Vídeos de capacitación de Adobe Dynamic Media Classic {#training-videos}
+# Vídeos de formación de Adobe Dynamic Media Classic {#training-videos}
 
 Vídeos de formación de Dynamic Media Classic sobre introducción, imágenes dinámicas, vídeo, portal de medios, plantillas y creación y renderización de imágenes.
 
@@ -236,7 +235,7 @@ Volver a [Creación y renderización de imágenes](#image-authoring-rendering-tr
 
 * [Introducción a los objetos superpuestos](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/610_IA005-Intro-Overlap_ia_05overlap-AVS)
 
-### Escenas de salas 3D {#three-dimensional-room-scenes}
+### Escenas de habitación 3D {#three-dimensional-room-scenes}
 
 Volver a [Creación y renderización de imágenes](#image-authoring-rendering-training)
 
@@ -301,7 +300,3 @@ Volver a [Creación y renderización de imágenes](#image-authoring-rendering-tr
 * [Modificadores de URL de renderización](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/640_904_rendering_url_modifiers_ia_09rendering-AVS)
 
 * [Introducción a la renderización](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/642_IA009-Intro-Rendering_ia_09rendering-AVS)\
-
-
-
-
