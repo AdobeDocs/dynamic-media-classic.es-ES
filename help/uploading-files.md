@@ -9,7 +9,6 @@ discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Administración de recursos
 role: Business Practitioner
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-translation-type: tm+mt
 source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '3833'
@@ -25,7 +24,7 @@ Antes de cargar archivos de recursos en Dynamic Media Classic, asegúrese de que
 
 Antes de cargar recursos a Dynamic Media Classic, asegúrese de que tengan el formato y el tamaño adecuados. También debe observar las reglas de Dynamic Media Classic para asignar nombres a los recursos. La creación de una estructura de carpetas para los archivos facilita la búsqueda y el uso de éstos.
 
-### Formatos de archivo de recurso admitidos  {#supported-asset-file-formats}
+### Formatos de archivo de recurso admitidos {#supported-asset-file-formats}
 
 En esta tabla se muestran los formatos de archivo de recursos que admite Dynamic Media Classic. Para obtener información sobre los archivos Camera Raw admitidos, consulte [https://www.adobe.com/go/learn_s7_cameraraw_en](https://www.adobe.com/go/learn_s7_cameraraw_en).
 
@@ -133,7 +132,7 @@ Normalmente, un nombre de archivo de recurso puede ser el mismo que su número d
 | 896649 | 896649.jpg | 896649 |
 | 48A3_2X | 48A3_2X.tif | 48A3_2X |
 
-### Organización y estructura de carpetas  {#folder-organization-and-structure}
+### Organización y estructura de carpetas {#folder-organization-and-structure}
 
 Organice y estructura carpetas y subcarpetas para su contenido en Dynamic Media Classic antes de cargar el contenido en el sistema. Esto aporta dos ventajas:
 
@@ -158,7 +157,7 @@ Dynamic Media Classic le envía un mensaje de correo electrónico para confirmar
 
 Durante (o inmediatamente después) un trabajo de carga grande, algunos elementos nuevos podrían mostrar el mensaje &quot;Imagen aún no optimizada&quot;. Este mensaje aparece porque los archivos aún no se han procesado y agregado completamente a Dynamic Media Classic. Puede optimizar estos archivos posteriormente. Consulte [Optimizar archivos](application-setup.md#optimize_files).
 
-### Carga de archivos mediante la pestaña Desde escritorio {#upload-files-using-sps-desktop-application}
+### Carga de archivos mediante la ficha Desde escritorio {#upload-files-using-sps-desktop-application}
 
 La aplicación de escritorio Dynamic Media Classic permite cargar archivos y carpetas arrastrando.
 
@@ -179,7 +178,7 @@ El nombre de esta opción puede ser diferente, dependiendo de la configuración 
 1. En la esquina inferior derecha de la página Cargar, haga clic en **[!UICONTROL Enviar carga]**.
 Para ver el progreso de la carga, haga clic en **[!UICONTROL Trabajos]** en la barra de navegación global. Puede seguir trabajando en Dynamic Media Classic y volver a la página Trabajos en cualquier momento para revisar un trabajo en curso. Para cancelar un trabajo de carga que se encuentre en curso, seleccione **[!UICONTROL Cancelar]** junto al tiempo de duración.
 
-### Carga de archivos mediante la pestaña VIA FTP {#upload-files-using-via-ftp}
+### Carga de archivos mediante la ficha VIA FTP {#upload-files-using-via-ftp}
 
 1. Inicie sesión en el sitio FTP de Dynamic Media Classic que sea específico de su región en particular. Utilice el nombre de usuario y la contraseña FTP que ha recibido del administrador.
 1. En Dynamic Media Classic, en la barra de navegación global, haga clic en **[!UICONTROL Cargar]**.
@@ -203,7 +202,7 @@ El nombre de esta opción puede ser diferente, dependiendo de la configuración 
 
 Para cancelar un trabajo de carga que se encuentre en curso, haga clic en **[!UICONTROL Cancelar]** junto al tiempo de duración.
 
-## Cuadro de diálogo Opciones de carga de trabajo {#upload-options}
+## Cuadro de diálogo Cargar opciones de trabajo {#upload-options}
 
 Al cargar archivos, puede elegir entre las siguientes opciones del cuadro de diálogo Opciones de carga de trabajo:
 
@@ -303,6 +302,6 @@ El nuevo trabajo envía una notificación a la dirección especificada para acti
 >[!MORELIKETHIS]
 >
 >* [Uso de carpetas de recursos](asset-folders.md#working_with_asset_folders)
->* [Gestión de trabajos recurrentes de carga y publicación](checking-job-files.md#handling_recurring_upload_and_publish_jobs)
->* [Uso de un trabajo de carga o publicación como desencadenador](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)
+* [Gestión de trabajos recurrentes de carga y publicación](checking-job-files.md#handling_recurring_upload_and_publish_jobs)
+* [Uso de un trabajo de carga o publicación como desencadenador](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)
 
