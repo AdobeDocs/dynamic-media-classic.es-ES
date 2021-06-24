@@ -10,7 +10,6 @@ discoiquuid: 1ec39fe5-7b2a-4034-9570-6b5595f97052
 feature: Dynamic Media Classic,Ajustes preestablecidos de imagen
 role: Business Practitioner
 exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '654'
@@ -26,7 +25,7 @@ Dynamic Media Classic incluye varios ajustes preestablecidos de imagen &quot;rec
 
 Téngase en cuenta que las imágenes de tamaño reducido pueden sufrir pérdidas de enfoque y detalles al distribuirse dinámicamente desde un servidor. Por esta razón, cada ajuste preestablecido de imagen contiene controles de formato para optimizar una imagen cuando se distribuye con un tamaño concreto. Estos controles garantizan la nitidez de las imágenes al llegar al sitio web o la aplicación de destino.
 
-## Creación de un ajuste preestablecido de imagen  {#creating-an-image-preset}
+## Creación de un ajuste preestablecido de imagen {#creating-an-image-preset}
 
 Los administradores pueden crear ajustes preestablecidos de imagen. Puede crear nuevos ajustes preestablecidos de imagen o empezar con un ajuste preestablecido de imagen predeterminado que proporciona Dynamic Media Classic, editarlo y guardarlo con un nuevo nombre.
 
@@ -65,7 +64,7 @@ Introduzca la configuración que se muestra aquí:
    |--- |--- |--- |--- |--- |
    | Venta cruzada (miniatura mini) | 75 x 75 | 1,5 | 0,8 | 5 |
    | Miniatura | 150 x 150 | 1,1 | 1 | 5 |
-   | Principal | 350 x 350 | 1 | 1 | 6 |
+   | Principal | 350 x 350 | 1 | 3 | 6 |
    | Ampliación | 500 x 500 | 1,2 | 1,2 | 5 |
 
 1. Haga clic en **Guardar**.
@@ -86,6 +85,6 @@ Para eliminar un ajuste preestablecido de imagen, selecciónelo en la pantalla A
 >[!MORELIKETHIS]
 >
 >* [Creación y edición de ajustes preestablecidos de imagen](application-setup.md#creating_and_editing_image_presets)
->* [Opciones de ajuste preestablecido de imagen](application-setup.md#image_preset_options)
->* [Vista previa de un recurso de imagen en su ajuste preestablecido de imagen](previewing-asset.md#previewing_an_image_asset_based_on_its_image_preset)
+* [Opciones de ajuste preestablecido de imagen](application-setup.md#image_preset_options)
+* [Vista previa de un recurso de imagen en su ajuste preestablecido de imagen](previewing-asset.md#previewing_an_image_asset_based_on_its_image_preset)
 
