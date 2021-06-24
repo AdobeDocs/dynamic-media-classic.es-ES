@@ -10,11 +10,10 @@ discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 feature: Dynamic Media Classic
 role: Data Engineer,Administrator,Business Practitioner
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '1223'
-ht-degree: 51%
+ht-degree: 52%
 
 ---
 
@@ -108,7 +107,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 Antes de cerrar la página de conjunto de ofertas de Test&amp;Target, inserte el conjunto de ofertas en Adobe Target Standard/Premium. Consulte [Transferencia de conjuntos de ofertas a Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
-## Edición de un conjunto de ofertas  {#editing-an-offer-set}
+## Edición de un conjunto de ofertas {#editing-an-offer-set}
 
 Tanto si edita un conjunto publicado como un conjunto sin publicar, la opción **[!UICONTROL Publicar después de guardar]** afecta a los miembros del conjunto y del conjunto de las siguientes maneras:
 
@@ -138,7 +137,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 1. Cuando termine de editar, cerca de la esquina inferior derecha de la página, asegúrese de que **[!UICONTROL Publicar después de guardar]** esté seleccionado (predeterminado).
 1. Haga clic en **[!UICONTROL Guardar]**, seleccione una carpeta de almacenamiento, especifique un nombre para el conjunto y haga clic en **[!UICONTROL Guardar]**.
 
-## Eliminación de un conjunto de ofertas  {#deleting-an-offer-set}
+## Eliminación de un conjunto de ofertas {#deleting-an-offer-set}
 
 Cuando se elimina un conjunto de ofertas, el conjunto en sí se mueve a la papelera. Sin embargo, los miembros (o “elementos secundarios”) dentro de dicho conjunto no se verán afectados; cada uno mantendrá su estado existente de publicación o no.
 
