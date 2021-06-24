@@ -10,7 +10,6 @@ discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 feature: Dynamic Media Classic
 role: Business Practitioner
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
-translation-type: tm+mt
 source-git-commit: 223bbacab2f244b91763de2ea324a5c8d777feb9
 workflow-type: tm+mt
 source-wordcount: '3382'
@@ -75,7 +74,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 1. Cuando haya terminado con su edición, asegúrese de que esté seleccionada la opción **[!UICONTROL Publicar después de guardar]** (predeterminada), cerca de la esquina inferior derecha de la página.
 1. Haga clic en **[!UICONTROL Guardar]**, seleccione una carpeta de almacenamiento, especifique un nombre para el conjunto y haga clic en **[!UICONTROL Guardar]**.
 
-## Eliminación de una plantilla  {#deleting-a-template}
+## Eliminación de una plantilla {#deleting-a-template}
 
 Cuando se elimina un conjunto de plantillas, el conjunto en sí se mueve a la papelera. Sin embargo, los miembros (o “elementos secundarios”) dentro de dicho conjunto no se verán afectados; cada uno mantendrá su estado existente de publicación o no.
 
@@ -114,7 +113,7 @@ Use estas herramientas en la pantalla Plantilla para crear plantillas:
 
 * **Área Propiedades de capa** : ofrece herramientas para cambiar el color de fondo, la opacidad, el tamaño y la posición de una capa, así como el color de fondo, la opacidad y el tamaño del lienzo. También es posible ajustar efectos de sombra y resplandor. Consulte [Uso de capas](#working-with-layers).
 
-## Creación de capas de imagen  {#creating-image-layers}
+## Creación de capas de imagen {#creating-image-layers}
 
 1. Arrastre la imagen desde la biblioteca de recursos al lienzo.
 
@@ -230,7 +229,7 @@ Use la lista de capas y el área Propiedades de la capa para trabajar con capas.
 
 También es posible modificar el tamaño del lienzo y especificar su color de fondo y opacidad.
 
-### Reordenación de las capas  {#reordering-layers}
+### Reordenación de las capas {#reordering-layers}
 
 Cambiar el orden de las capas puede afectar al aspecto, especialmente cuando se trata de transparencia o sobreimpresión. Asegúrese de comprobar el resultado mediante una vista previa antes de confirmar los cambios.
 
@@ -239,7 +238,7 @@ Cambiar el orden de las capas puede afectar al aspecto, especialmente cuando se 
    * Seleccione una capa en la lista de capas. A continuación, haga clic **[!UICONTROL Up]** o **[!UICONTROL Down]** tantas veces como sea necesario para colocarlo en la posición correcta de la lista.
    * Arrastre una capa a una posición superior o inferior en la lista.
 
-### Cambio del tamaño y la posición de las capas y el lienzo  {#changing-the-size-and-position-of-layers-and-the-canvas}
+### Cambio del tamaño y la posición de las capas y el lienzo {#changing-the-size-and-position-of-layers-and-the-canvas}
 
 El tamaño de las capas no debe superar las restricciones del lienzo. Puede modificar el tamaño de una capa o el del lienzo manualmente o introduciendo las medidas requeridas. Puede modificar la posición de una capa manualmente o introduciendo los valores de desfase requeridos. También puede rotar una capa.
 
@@ -287,13 +286,13 @@ Para definir el color de fondo, la opacidad y el modo de fusión de una capa o d
 
 * **Modo de fusión** : para simular uno de los modos de mezcla disponibles en Photoshop, elija una opción. Las opciones son Normal, Disolver, Aclarar, Oscurecer, Multiplicar y Pantalla. Estas opciones están disponibles para capas únicamente, no son aplicables a lienzos.
 
-## Utilización de efectos de sombra y resplandor en las capas  {#using-shadow-and-glow-effects-on-layers}
+## Utilización de efectos de sombra y resplandor en las capas {#using-shadow-and-glow-effects-on-layers}
 
 Puede aplicar una sombra o un resplandor a una capa. La sombra o el resplandor se aplican al perímetro de la capa y se extienden hacia dentro o hacia fuera, según la opción elegida. Si la plantilla se originó con un archivo PSD con efectos de sombra y resplandor, puede ajustar estos efectos en Dynamic Media Classic.
 
 Después de aplicar un efecto de sombra o resplandor, puede ajustar su tamaño, color, opacidad y posición en el área Propiedades de la capa, en la pantalla Plantilla.
 
-### Aplicación de un efecto de sombra o resplandor a una capa  {#applying-a-shadow-or-glow-effect-to-a-layer}
+### Aplicación de un efecto de sombra o resplandor a una capa {#applying-a-shadow-or-glow-effect-to-a-layer}
 
 1. Seleccione una capa en la lista de capas.
 1. Seleccione el menú Agregar efecto y elija una opción:
@@ -328,7 +327,7 @@ Para ajustar un efecto de sombra o resplandor, seleccione el nombre correspondie
 
 * **Desenfoque** : arrastre el control deslizante para controlar el desvanecimiento en los bordes del efecto. Cuanto mayor sea el desenfoque, mayor será el calado.
 
-## Creación de máscaras en capas  {#masking-layers}
+## Creación de máscaras en capas {#masking-layers}
 
 El botón Máscara, disponible en la lista de capas, permite especificar el uso de la máscara o el canal alfa de una capa. Con este botón puede aplicar el efecto de una capa de fondo a una capa concreta, o a toda la capa principal de la plantilla. Seleccione una capa en la lista Capas y haga clic en **[!UICONTROL Máscara]** para recorrer estos estados:
 
