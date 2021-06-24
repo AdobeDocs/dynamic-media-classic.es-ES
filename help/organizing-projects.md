@@ -10,7 +10,6 @@ discoiquuid: 036dfc1f-8317-4887-a6e1-d8f2cb61819c
 feature: Dynamic Media Classic,Administración de recursos
 role: Business Practitioner
 exl-id: 69aabf4a-21bc-4bd8-8aad-33c2cfb9cf57
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '477'
@@ -34,7 +33,7 @@ Los proyectos pueden crearse al cargar archivos o desde el panel de la bibliotec
 >
 >Para poder organizar los recursos por proyectos, es necesario tener permiso del administrador. Si no ve una sección para las carpetas de proyectos en la parte inferior de la biblioteca de recursos, significa que no puede acceder a este método de organización de recursos. Consulte [Configuración general de la aplicación](application-setup.md#general-settings).
 
-## Creación de una carpeta de proyecto  {#creating-a-project-folder}
+## Creación de una carpeta de proyecto {#creating-a-project-folder}
 
 Puede crear una carpeta de proyecto a partir de la biblioteca de recursos o al cargar archivos en Dynamic Media Classic:
 
