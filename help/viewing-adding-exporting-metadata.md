@@ -10,7 +10,6 @@ discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
 feature: Dynamic Media Classic,Administración de recursos,Metadatos
 role: Business Practitioner
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
-translation-type: tm+mt
 source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
 source-wordcount: '2254'
@@ -56,7 +55,7 @@ Consulte [Vistas de metadatos](application-setup.md#metadata_views) para obtener
 >
 >Para editar los metadatos de varios recursos a la vez, seleccione los recursos y haga clic en **[!UICONTROL Archivo]** > **[!UICONTROL Editar información]**. Los cambios que se hagan en la ventana Editar información se aplicarán a todos los recursos seleccionados.
 
-## Adición o edición de palabras clave  {#add-or-edit-keywords}
+## Adición o edición de palabras clave {#add-or-edit-keywords}
 
 Además de los metadatos, puede utilizar palabras clave para ayudarle a buscar y administrar sus recursos.
 
@@ -76,7 +75,7 @@ Si ha agregado palabras clave a otros archivos durante esta sesión o si ha elim
 >Puede agregar palabras clave a los archivos al cargarlos en Dynamic Media Classic. En el cuadro de diálogo Opciones de carga de trabajo, seleccione **[!UICONTROL Metadatos adicionales]** e introduzca palabras clave.
 >Consulte [Opciones de carga](uploading-files.md#upload_options).
 
-## Importación de metadatos  {#import-metadata}
+## Importación de metadatos {#import-metadata}
 
 En lugar de introducir los metadatos manualmente de uno en uno, puede importar los metadatos para varios recursos diferentes desde un archivo delimitado por tabuladores o XML. Introducir los metadatos en un archivo delimitado por tabuladores o XML e importar este archivo requiere menos tiempo que si se introducen estos metadatos en recursos individuales. En la primera fila del archivo delimitado por tabuladores, introduzca el ID y los nombres de los campos para los que desea grabar los metadatos. En cada fila posterior, introduzca un nombre de ID de recurso seguido de los valores de los metadatos. Los campos que no se incluyen en el archivo XML o delimitado por tabuladores no se modificarán. Para importar metadatos desde un archivo XML, asegúrese de que cumple con el archivo DTD.
 
@@ -126,7 +125,7 @@ Por ejemplo:
 
 El prefijo debe agregarse en el encabezado de la columna correspondiente del campo de importación.
 
-## Importación de metadatos (mediante FTP)  {#import-metadata-via-ftp}
+## Importación de metadatos (mediante FTP) {#import-metadata-via-ftp}
 
 Puede importar metadatos de varios archivos introduciendo los metadatos en un archivo XML o delimitado por tabuladores y seleccionando **[!UICONTROL Procesar archivos de metadatos]** en la página Opciones de carga de trabajo (ficha FTP).
 
@@ -217,5 +216,5 @@ Si la propiedad tiene la estructura Opción abierta u Opción cerrada, debe prop
 >[!MORELIKETHIS]
 >
 >* [Ajustes preestablecidos de visor](application-setup.md#viewer_presets)
->* [Ajustes preestablecidos de metadatos](application-setup.md#metadata_presets)
+* [Ajustes preestablecidos de metadatos](application-setup.md#metadata_presets)
 
