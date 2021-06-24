@@ -9,7 +9,6 @@ discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 feature: Dynamic Media Classic
 role: Administrator
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '1935'
@@ -78,7 +77,7 @@ Puede eliminar usuarios de Dynamic Media Classic invalidándolos. Los usuarios n
 1. Anule la selección de Válido.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-### Activación o desactivación de usuarios  {#activating-or-deactivating-users}
+### Activación o desactivación de usuarios {#activating-or-deactivating-users}
 
 Los usuarios desactivados dejan de tener permiso para acceder a una cuenta que aparezca en la parte superior del menú para seleccionar cuentas a las que acceder.
 
@@ -96,7 +95,7 @@ La información de usuario que puede modificar depende de su función como admin
 1. Si desea cambiar la pertenencia al grupo del usuario (si está editando o agregando un usuario o colaborador de Media Portal), haga clic en **[!UICONTROL Siguiente]** y edite la pertenencia al grupo.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-### Filtrado y ordenación de la lista de usuarios  {#filtering-and-sorting-the-user-list}
+### Filtrado y ordenación de la lista de usuarios {#filtering-and-sorting-the-user-list}
 
 Puede filtrar y ordenar la lista para buscar usuarios. Todos los usuarios de las cuentas que administra aparecen en la lista de los usuarios independientemente de la cuenta seleccionada en el menú de selección de cuenta a la que acceder.
 
@@ -142,7 +141,7 @@ You can link an Adobe IMS user identity to a Dynamic Media Classic IPS user acco
       Replace “N” in the above path with the number for your IPS company region. That is, N = 1 for North America; 3 for EMEA; or 5 for JAPAC.
  -->
 
-## Ancho de banda y almacenamiento  {#bandwidth-storage}
+## Ancho de banda y almacenamiento {#bandwidth-storage}
 
 Los administradores de Dynamic Media Classic pueden generar informes de ancho de banda, almacenamiento y otros tipos para las empresas que administran. Estos informes están disponibles en la página Ancho de banda y almacenamiento .
 
@@ -179,7 +178,7 @@ El informe de contenido de imagen proporciona información acerca de las solicit
 >
 >El informe de flujo continuo de vídeo solo se aplica al flujo continuo de vídeos. No registra la visualización de vídeos progresivos.
 
-### Generación de un informe  {#generating-a-report}
+### Generación de un informe {#generating-a-report}
 
 Siga estos pasos para generar un informe de ancho de banda, almacenamiento, contenido de imágenes, dominio, flujo continuo de vídeo o contenido de vídeo:
 
@@ -189,7 +188,7 @@ Siga estos pasos para generar un informe de ancho de banda, almacenamiento, cont
 
    Consulte [Tipos de informes](administration-setup.md#types_of_reports).
 
-### Visualización de datos con distintos métodos  {#viewing-data-in-different-ways}
+### Visualización de datos con distintos métodos {#viewing-data-in-different-ways}
 
 Después de generar un informe en la página Ancho de banda y almacenamiento, puede elegir opciones para ver la información. Puede elegir cómo se presenta la información, ver la información en un diagrama o en una cuadrícula de datos, así como especificar un período de tiempo para la recopilación de información. En la vista Datos, también puede ordenar la información y reorganizar las columnas.
 
