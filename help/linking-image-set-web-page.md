@@ -10,7 +10,6 @@ discoiquuid: 40f4abab-9059-4d92-a761-f6d573b42e00
 feature: Dynamic Media Classic,Visualizadores,Conjuntos de imágenes
 role: Business Practitioner
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '686'
@@ -45,7 +44,7 @@ Una vez haya publicado un conjunto de imágenes, podrá copiar la URL o código 
 
       En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **[!UICONTROL Copiar URL]**.
 
-## Adición de direcciones URL de conjuntos de imágenes a una página web  {#adding-image-set-urls-to-your-web-page}
+## Adición de direcciones URL de conjuntos de imágenes a una página web {#adding-image-set-urls-to-your-web-page}
 
 La manera más común de distribuir conjuntos de imágenes consiste en colocar un vínculo (por medio de un icono de navegación) en la página web. Cuando se hace clic en el vínculo, se inicia una página dinámica (JSP) que muestra el conjunto de imágenes en una ventana de zoom emergente. El vínculo de zoom abre una ventana emergente que contiene la función de zoom.
 
