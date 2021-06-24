@@ -10,7 +10,6 @@ discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 feature: Dynamic Media Classic,Visualizadores,Conjuntos de giros
 role: Business Practitioner
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '902'
@@ -36,7 +35,7 @@ Por normal general, cuantas más imágenes tenga un conjunto de giros, mejor ser
 * Asegúrese de que los detalles del producto están bien iluminados y enfocados.
 * Tome las imágenes de giro para las prendas de ropa con un maniquí o una persona. A menudo el maniquí está enmascarado (usando un maniquí de vidrio) o un maniquí estilizado/forma de vestir se muestra en la imagen. Puede crear un conjunto de giros con persona definiendo el número de ángulos. Marque cada ángulo en el suelo con cinta adhesiva para indicar a la persona dónde debe colocarse y hacia dónde debe mirar en cada toma. 
 
-## Creación de un conjunto de giros  {#create}
+## Creación de un conjunto de giros {#create}
 
 Es importante el orden en que se crea o crea el conjunto de giros en Dynamic Media Classic. Dependiendo del orden de los recursos al arrastrar y colocar imágenes en la cuadrícula de la pantalla Conjunto de giros, el conjunto girará en una dirección determinada. Por lo tanto, el orden en el que se muestra visualmente en el generador es el modo en que se envía el recurso cuando un usuario mueve el puntero del ratón o mueve el dedo, de izquierda a derecha.
 
@@ -67,7 +66,7 @@ Después de guardar un conjunto de giros, use la opción Vista previa de la pág
 1. En el cuadro de diálogo Guardar, seleccione la carpeta en la que desee almacenar el conjunto de giros. En el campo Nombre de archivo, escriba el nombre del conjunto de giros.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-## Edición de un conjunto de giros  {#editing-a-spin-set}
+## Edición de un conjunto de giros {#editing-a-spin-set}
 
 Tanto si edita un conjunto publicado como un conjunto sin publicar, la opción **[!UICONTROL Publicar después de guardar]** afecta a los miembros del conjunto y del conjunto de las siguientes maneras:
 
@@ -96,7 +95,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 1. Cuando haya terminado con su edición, asegúrese de que esté seleccionada la opción **[!UICONTROL Publicar después de guardar]** (predeterminada), cerca de la esquina inferior derecha de la página.
 1. Haga clic en **[!UICONTROL Guardar]**, seleccione una carpeta de almacenamiento, especifique un nombre para el conjunto y haga clic en **[!UICONTROL Guardar]**.
 
-## Eliminación de un conjunto de giros  {#deleting-a-spin-set}
+## Eliminación de un conjunto de giros {#deleting-a-spin-set}
 
 Cuando se elimina un conjunto, el conjunto en sí se mueve a la papelera. Sin embargo, los miembros (o “elementos secundarios”) dentro de dicho conjunto no se verán afectados; cada uno mantendrá su estado existente de publicación o no.
 
