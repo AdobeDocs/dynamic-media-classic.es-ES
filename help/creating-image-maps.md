@@ -10,7 +10,6 @@ discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 feature: Dynamic Media Classic,Administración de recursos
 role: Business Practitioner
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '2427'
@@ -35,7 +34,7 @@ Al crear mapas de imagen, puede realizar cualquiera de las siguientes acciones:
 * Definir otras acciones determinadas por el consorcio World Wide Web.
 * Obtener una vista previa de mapas de imagen.
 
-## Dibujo y ajuste de mapas de imagen  {#drawing-and-adjusting-an-image-map}
+## Dibujo y ajuste de mapas de imagen {#drawing-and-adjusting-an-image-map}
 
 1. Realice una de las siguientes acciones:
 
@@ -92,7 +91,7 @@ Para cambiar la posición, la forma y el tamaño de un mapa de imagen, seleccion
 
 Si la imagen o página de catálogo electrónico incluye más de un mapa de imagen y estos se superponen, puede determinar cómo lo hacen. Para ello, cambie el orden de los mapas en la lista de mapas de imagen. Arrastre sus nombres hacia la parte superior o inferior de la lista. La posición de un nombre en la lista determina si su mapa de imagen se superpone sobre otros.
 
-### Importación de datos de mapa de imagen  {#importing-image-map-data}
+### Importación de datos de mapa de imagen {#importing-image-map-data}
 
 En lugar de introducir datos de mapa de imagen en cada página, puede importar los datos de su conjunto de giros o catálogo electrónico desde la pantalla Resumen de mapas. Los datos de mapa de imagen se importan como un archivo delimitado por tabuladores o DTD de XML. Los campos del archivo deben tener el orden que se muestra en la pantalla Resumen de mapas: Nombre, Etiquetas de tabla de contenido, Mapas, Direcciones URL, Texto de rollover, Otras acciones y Cadenas de búsqueda. Si importa los datos de mapa de imagen, no tendrá que introducir los datos en la lista de mapas de imagen cada vez que crea un mapa de imagen.
 
@@ -107,7 +106,7 @@ En lugar de introducir datos de mapa de imagen en cada página, puede importar l
 1. (Opcional) En el campo Nombre del trabajo, especifique un nombre para el trabajo de carga de metadatos.
 1. Haga clic en Cargar.
 
-### Copia de mapas de imagen  {#copying-image-maps}
+### Copia de mapas de imagen {#copying-image-maps}
 
 Puede copiar mapas de imagen de una imagen o página de catálogo electrónico a otra. Utilice **[!UICONTROL Copiar mapa de imagen]** para obtener una idea de cómo empezar a crearlos. También puede copiar mapas de imagen para volver a crearlos en imágenes o páginas que compartan el mismo diseño o la misma estructura de mapas. 
 
@@ -168,7 +167,7 @@ Para crear una plantilla de URL:
 1. Introduzca el código JavaScript™ y la dirección URL completa (con la parte de variable reemplazada por los signos de dólar [$$]). Puede pegar el código si hace clic con el botón derecho y elige Pegar.
 1. Seleccione el botón Guardar.
 
-### Trabajo con plantillas URL  {#handling-url-templates}
+### Trabajo con plantillas URL {#handling-url-templates}
 
 La página Editor de mapas (imágenes y conjuntos de giros) y la ficha Páginas de mapa de la pantalla Catálogo electrónico (catálogos electrónicos) ofrecen los siguientes comandos para el trabajo con plantillas URL:
 
