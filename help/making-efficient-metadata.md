@@ -7,16 +7,15 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: b399c2b2-3e59-43e7-aa7d-dd4fdf4e9bad
-feature: Dynamic Media Classic,Collaboration,Metadata,Asset Management
+feature: Dynamic Media Classic,Colaboración,Metadatos,Administración de activos
 role: Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+exl-id: e6a5af61-37be-4152-9ea3-8868f054783c
+source-git-commit: 217e5bf81cc2108e4bf283f585dfd83d319ff7c9
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 84%
+source-wordcount: '169'
+ht-degree: 85%
 
 ---
-
 
 # Uso eficaz de los metadatos{#making-more-efficient-use-of-metadata}
 
