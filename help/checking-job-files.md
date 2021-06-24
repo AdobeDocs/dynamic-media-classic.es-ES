@@ -10,7 +10,6 @@ discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
 feature: Dynamic Media Classic,Administración de recursos
 role: Business Practitioner
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
-translation-type: tm+mt
 source-git-commit: bd0659c015f259e25d6d07b620f5b1e948cabcbf
 workflow-type: tm+mt
 source-wordcount: '1583'
@@ -58,7 +57,7 @@ En la ficha Historial de la página Trabajos, los trabajos se clasifican según 
 >
 >Si desea cancelar algún trabajo de publicación o carga que esté en curso, haga clic en el botón Cancelar situado junto a la barra de progreso.
 
-## Cambio de vistas en la página Trabajos  {#changing-views-on-the-jobs-page}
+## Cambio de vistas en la página Trabajos {#changing-views-on-the-jobs-page}
 
 Para ordenar trabajos o cambiar la vista de la ficha Historial en la página Trabajos, utilice estas técnicas:
 
@@ -90,7 +89,7 @@ Seleccione el botón Trabajos en la barra de navegación global y, una vez en la
 >
 >La lista de trabajos de esta ficha puede filtrarse con los menús Tipo de trabajo y Mostrar. Elija un tipo de trabajo para reducir la lista a trabajos de publicación de un tipo específico. Elija la opción Mostrar para mostrar los trabajos creados por usted o los trabajos creados por todos los empleados de su empresa.
 
-### Edición, eliminación, pausa y reanudación de trabajos recurrentes  {#editing-deleting-pausing-and-resuming-recurring-jobs}
+### Edición, eliminación, pausa y reanudación de trabajos recurrentes {#editing-deleting-pausing-and-resuming-recurring-jobs}
 
 Seleccione un trabajo recurrente en la página Trabajos y siga estas instrucciones para editarlo o eliminarlo:
 
@@ -153,7 +152,7 @@ En esta lista se pueden ver ejemplos de cómo se describen los intervalos de tie
 * 0 15 10 ? * 6L: a las 10:15 el último sábado de cada mes
 * 0 15 10 * * 5#3: a las 10:15 el tercer viernes de cada mes
 
-## Uso de un trabajo de carga o publicación como desencadenador  {#using-an-upload-or-publish-job-as-a-trigger}
+## Uso de un trabajo de carga o publicación como desencadenador {#using-an-upload-or-publish-job-as-a-trigger}
 
 Cuando se cargan recursos a través de FTP o se ejecuta un trabajo de publicación, se puede programar el inicio de un trabajo posterior una vez finalizada la carga. (Si hay otros trabajos programados para empezar, el trabajo que programe aquí se colocará detrás de ellos). El nuevo trabajo envía una notificación a la dirección especificada para activar el código de esa ubicación. Este trabajo de carga que sigue recibe el mismo nombre que el trabajo de carga actual, pero se le añade el prefijo _Pub.
 
