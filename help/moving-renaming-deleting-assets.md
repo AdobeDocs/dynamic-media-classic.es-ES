@@ -10,7 +10,6 @@ discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 feature: Dynamic Media Classic,Administración de recursos
 role: Business Practitioner
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '553'
@@ -78,6 +77,6 @@ Cuando elimina recursos con un archivo de texto, si algún Dynamic Media Classic
 >[!MORELIKETHIS]
 >
 >* [Selección de recursos en el panel Examinar](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
->* [Preparación de los recursos y las carpetas para la carga](uploading-files.md#preparing_your_assets_and_folders_for_uploading)
->* [Restauración de recursos desde la carpeta Papelera](trash-folder.md#restoring_assets_from_the_trash_folder)
+* [Preparación de los recursos y las carpetas para la carga](uploading-files.md#preparing_your_assets_and_folders_for_uploading)
+* [Restauración de recursos desde la carpeta Papelera](trash-folder.md#restoring_assets_from_the_trash_folder)
 
