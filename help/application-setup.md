@@ -8,7 +8,6 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 feature: Dynamic Media Classic
 role: Administrator
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
-translation-type: tm+mt
 source-git-commit: 223bbacab2f244b91763de2ea324a5c8d777feb9
 workflow-type: tm+mt
 source-wordcount: '10917'
@@ -150,7 +149,7 @@ Los ID de Dynamic Media Classic que se utilizan para acceder a imágenes de los 
 
 Al anular la selección de esta opción, todas las imágenes que tengan los mismos nombres de archivo como imágenes existentes se tratan como duplicados y, por consiguiente, no se agregan.
 
-## Ajustes preestablecidos de imagen  {#image-presets}
+## Ajustes preestablecidos de imagen {#image-presets}
 
 En la pantalla Ajustes preestablecidos de imagen se pueden crear y editar ajustes preestablecidos de imagen. Los ajustes preestablecidos permiten a Dynamic Media Classic entregar imágenes de forma dinámica en diferentes tamaños desde la misma imagen maestra. Cada ajuste preestablecido de imagen representa una serie de comandos predefinidos de formato y tamaño que determinan la presentación de las imágenes. Cuando se crea un ajuste preestablecido de imagen, debe elegir un tamaño para la distribución de imágenes. También se deben escoger los comandos de formato para que se optimice el aspecto de la imagen al distribuirla para su visualización.
 
@@ -178,7 +177,7 @@ Consulte [Imágenes inteligentes](https://experienceleague.adobe.com/docs/experi
 
 Puede editar un ajuste preestablecido de imagen si selecciona su nombre en la pantalla Ajustes preestablecidos de imagen y luego hace clic en Editar. Para eliminar un ajuste preestablecido de imagen, selecciónelo y, a continuación, haga clic en Eliminar.
 
-### Opciones de ajuste preestablecido de imagen  {#image-preset-options}
+### Opciones de ajuste preestablecido de imagen {#image-preset-options}
 
 En las pantallas de adición y edición de ajustes preestablecidos, encontrará las siguientes opciones de creación y edición de ajustes preestablecidos de imagen:
 
@@ -250,7 +249,7 @@ En las pantallas de adición y edición de ajustes preestablecidos, encontrará 
 
 * **URL de imagen de** ejemploMuestra la cadena URL &quot;sin procesar&quot; que utiliza el servidor de imágenes de Dynamic Media para enviar imágenes con el ajuste preestablecido de imagen que está agregando o editando. Esta cadena URL codifica la configuración de formato seleccionada en las pantallas de adición o de edición de ajustes preestablecidos.
 
-### Edición, eliminación o desactivación de un ajuste preestablecido de imagen  {#editing-removing-or-deactivating-an-image-preset}
+### Edición, eliminación o desactivación de un ajuste preestablecido de imagen {#editing-removing-or-deactivating-an-image-preset}
 
 1. Haga clic en **[!UICONTROL Ajustes]** > **[!UICONTROL Ajustes preestablecidos de imagen]**.
 1. En la pantalla Ajustes preestablecidos de imagen, seleccione un ajuste preestablecido de la tabla y, a continuación, realice una de las siguientes acciones:
@@ -273,7 +272,7 @@ Consulte [Carga y codificación de vídeo](uploading-encoding-videos.md#uploadin
 1. En la página Ajustes preestablecidos de vídeo, anule la selección de la casilla de verificación situada junto al nombre de un ajuste preestablecido para quitarlo de la lista Opciones de eVideo del cuadro de diálogo Opciones de trabajo de carga.
 1. Haga clic en **[!UICONTROL Cerrar]**.
 
-## Ajustes preestablecidos de vídeo para la codificación de archivos de vídeo  {#video-presets-for-encoding-video-files}
+## Ajustes preestablecidos de vídeo para la codificación de archivos de vídeo {#video-presets-for-encoding-video-files}
 
 Para seleccionar un ajuste preestablecido de codificación, haga clic en Opc. de trabajo en la esquina inferior derecha de la página de carga. En el cuadro de diálogo Opciones de trabajo de carga, expanda Opciones de eVideo y elija los ajustes preestablecidos de codificación de vídeo que desee.
 
@@ -309,7 +308,7 @@ Para seleccionar un ajuste preestablecido de codificación, haga clic en Opc. de
 
 Después de hacer clic en **[!UICONTROL Iniciar carga]**, se carga el archivo de vídeo maestro original y se generan a partir de él los archivos codificados.
 
-### Acerca de las opciones de ajustes preestablecidos de codificación  {#about-encoding-preset-options}
+### Acerca de las opciones de ajustes preestablecidos de codificación {#about-encoding-preset-options}
 
 Los parámetros de las opciones de ajustes preestablecidos de codificación son los siguientes:
 
@@ -327,7 +326,7 @@ Los parámetros de las opciones de ajustes preestablecidos de codificación son 
 
 En las siguientes tablas se muestran las mejores prácticas recomendadas para seleccionar ajustes preestablecidos de vídeo y las convenciones de designación que se utilizan para dar nombre a los archivos codificados.
 
-### Vídeo adaptable (predeterminado)  {#adaptive-video-default}
+### Vídeo adaptable (predeterminado) {#adaptive-video-default}
 
 Un ajuste preestablecido de codificación que funciona con cualquier proporción de aspecto para crear vídeos para su distribución en teléfonos móviles, tablets y equipos de escritorio. Los vídeos originales cargados que se codifiquen con este ajuste preestablecido (valor predeterminado y una práctica recomendada) se definen con una altura fija, mientras que la anchura se escala automáticamente para mantener la proporción de aspecto del vídeo.
 
@@ -339,7 +338,7 @@ Un ajuste preestablecido de codificación que funciona con cualquier proporción
 | 2 | Automático x 480, 1400 kbps | _Tablet_Autox480p_1400K | 1400 | Autox480 | Igual que el origen | 96 | Para tablet (iPad, Android™) |
 | 3 | Automático x 720, 2600 kbps | _Desktop_Autox720p_2600K | 2600 | Autox720 | Igual que el origen | 128 | Para escritorio |
 
-### Ajustes preestablecidos de vídeo de codificación de vídeo adaptable (16:9 o 4:3){#adaptive-video-encoding-or-video-presets}
+### Ajustes preestablecidos de vídeo de codificación de vídeo adaptable (16:9 o 4:3) {#adaptive-video-encoding-or-video-presets}
 
 Estos ajustes preestablecidos de codificación de vídeo adaptable combinan una serie de ajustes preestablecidos de codificación individuales que se seleccionan automáticamente en función de la proporción de vídeo que cargue. Por ejemplo, si carga un vídeo de 4:3, se codificará automáticamente con los cinco ajustes preestablecidos de 4:3 de la lista maestra de ajustes preestablecidos en la opción **Codificación de vídeo adaptable (16:9 o 4:3)** .
 
@@ -349,7 +348,7 @@ Para obtener más información sobre los parámetros de las opciones de codifica
 
 |  | Nombre de ajuste preestablecido de codificación/Texto de información sobre herramientas | Velocidad de conexión de destino (kbps) | Sufijo de archivo codificado | Velocidad de datos de vídeo (kbps) | Anchura/Altura (píxeles) | Fps | Velocidad de bits de audio (kbps) | Recomendaciones |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | 16:9, 512 x 288, móvil (iPhone, iPad, Android™), (400 Kbps) | 500 | _Mobile_512x288_400K | 400 | 512 x 288 | Igual que el origen | 64 | Baja resolución, 3G |
+| 3 | 16:9, 512 x 288, móvil (iPhone, iPad, Android™), (400 Kbps) | 500 | _Mobile_512x288_400K | 400 | 512 x 288 | Igual que el origen | 64 | Baja resolución, 3G |
 | 2 | 4:3, 384 x 288 píxeles, móvil (iPhone, iPad, Android™), (400 Kbps) | 500 | _Mobile_384x288_400K | 400 | 384 x 288 | Igual que el origen | 64 | Baja resolución, 3G |
 | 1 | 16:9, 512 x 288, móvil (iPhone, iPad, Android™), (600 Kbps) | 700 | _Mobile_512x288_600K | 600 | 512 x 288 | Igual que el origen | 64 | Resolución media, 3G |
 | 4 | 4:3, 384x288, Móvil (iPhone, iPad, Android™), (600 Kbps) | 700 | _Mobile_384x288_600 | 800 | 384 x 288 | Igual que el origen | 64 | Resolución media, 3G |
@@ -360,7 +359,7 @@ Para obtener más información sobre los parámetros de las opciones de codifica
 | 9 | 16:9, 1280x720, escritorio, (2000 Kbps) | 3,0 Mbps | _1280x720_2000K | 2000 | 1280 x 720 | Igual que el origen | 128 | Pantalla ancha de alta definición |
 | 10 | 4:3, 1280x960, escritorio, (2000 Kbps) | 3,0 Mbps | _1280x960_2000K | 2000 Kbps | 1280 x 960 | Igual que el origen | 128 | Alta definición |
 
-### Ajustes preestablecidos de codificación de vídeo para equipos de escritorio  {#desktop-video-encoding-presets}
+### Ajustes preestablecidos de codificación de vídeo para equipos de escritorio {#desktop-video-encoding-presets}
 
 Ajustes preestablecidos de codificación de vídeo para MP4 y OGV en ordenadores de escritorio.
 
@@ -385,7 +384,7 @@ Para obtener más información sobre los parámetros de las opciones de codifica
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 16:9, 480x270 (400 Kbps), OGG | 500 | _OGG_480x270_400K | 400 | 480x270 | Igual que el origen | 64 | Pantalla ancha de baja resolución |
 | 2 | 16:9, 640 x 360 (800 Kbps), OGG | 900 | _OGG_640x360_800K | 800 | 640 x 360 | Igual que el origen | 80 | Resolución media para pantalla ancha |
-| 1 | 16:9, 800x450 (1200 Kbps), OGG | 1,5 Mbps | _OGG_800x450_1200K | 1200 | 800x450 | Igual que el origen | 96 | Resolución media/alta |
+| 3 | 16:9, 800x450 (1200 Kbps), OGG | 1,5 Mbps | _OGG_800x450_1200K | 1200 | 800x450 | Igual que el origen | 96 | Resolución media/alta |
 | 4 | 16:9, 1280x720 (2000 Kbps), OGG | 3,0 Mbps | _OGG_1280x720_2000K | 2000 | 1280 x 720 | Igual que el origen | 128 | Pantalla ancha de alta definición |
 | 5 | 4:3, 320 x 240 (400 Kbps), OGG | 500 | _OGG_320X240_400K | 400 | 320 x 240 | Igual que el origen | 64 | Baja resolución |
 | 6 | 4:3, 480x360 (800 Kbps), OGG | 900 | _OGG_480x360_800K | 800 | 480x360 | Igual que el origen | 80 | Resolución media |
@@ -402,8 +401,8 @@ Para obtener más información sobre los parámetros de las opciones de codifica
 
 |  | Nombre de ajuste preestablecido de codificación/Texto de información sobre herramientas | Velocidad de conexión de destino (kbps) | Sufijo de archivo codificado | Velocidad de bits de vídeo (Kbps) | Anchura y altura en píxeles | Fps | Velocidad de bits de audio (kbps) | Recomendaciones |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | 16:9, 512 x 288 , Móvil (400 kbps) | 500 | _Mobile_512x288_400K | 400 | 512 x 288 | Igual que el origen | 64 | Baja resolución, 3G |
-| 2 | 16:9, 512 x 288 , Móvil (600 kbps) | 700 | _Mobile_512x288_600K | 800 | 512 x 288 | Igual que el origen | 64 | Resolución media, 3G |
+| 3 | 16:9, 512 x 288 , Móvil (400 kbps) | 500 | _Mobile_512x288_400K | 400 | 512 x 288 | Igual que el origen | 64 | Baja resolución, 3G |
+| 2 | 16:9, 512 x 288 , Móvil (600 kbps) | 700 | _Mobile_512x288_600K | 600 | 512 x 288 | Igual que el origen | 64 | Resolución media, 3G |
 | 1 | 16:9, 512 x 288 , Móvil (800 kbps) | 900 | _Mobile_512x288_800K | 800 | 512 x 288 | Igual que el origen | 80 | Resolución media, Wi-Fi |
 | 4 | 16:9, 512 x 288 , Móvil (1000 kbps) | 1,2 Mbps | _Mobile_512x288_1000K | 1.000 | 512 x 288 | Igual que el origen | 80 | Alta resolución, Wi-Fi |
 | 5 | 16:9, 512 x 288 , Móvil (1200 kbps) | 1,5 Mbps | _Mobile_512x288_1200K | 1200 | 512 x 288 | Igual que el origen | 96 | Alta resolución, Wi-Fi |
@@ -413,7 +412,7 @@ Para obtener más información sobre los parámetros de las opciones de codifica
 | 9 | 4:3, 448 x 336 , Móvil (1000 kbps) | 1,2 Mbps | _Mobile_448x336_1000K | 1.000 | 448 x 336 | Igual que el origen | 80 | Alta resolución, Wi-Fi |
 | 10 | 4:3, 448 x 336 , Móvil (1200 kbps) | 1,5 Mbps | _Mobile_448x336_1200K | 1200 | 448 x 336 | Igual que el origen | 96 | Alta resolución, Wi-Fi |
 
-## Ajustes preestablecidos de visor  {#viewer-presets}
+## Ajustes preestablecidos de visor {#viewer-presets}
 
 >[!NOTE]
 >
@@ -655,7 +654,7 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
 
    Consulte [Adición y edición de ajustes preestablecidos de visor](application-setup.md#adding_and_editing_viewer_presets).
 
-### Activación o desactivación de ajustes preestablecidos de visor  {#activating-or-deactivating-viewer-presets}
+### Activación o desactivación de ajustes preestablecidos de visor {#activating-or-deactivating-viewer-presets}
 
 Para crear una URL y mostrar los recursos, los usuarios deben abrir la lista desplegable Ajustes preestablecidos del cuadro de diálogo Vista previa, seleccionar un Ajuste preestablecido de visor y hacer clic en Copiar URL (consulte [Copia de la dirección URL de un ajuste preestablecido de visor](application-setup.md#copying_the_url_of_a_viewer_preset)). La lista Ajustes preestablecidos contiene unos ajustes que los administradores pueden agregar y gestionar desde la pantalla Ajustes preestablecidos de visor. Por ejemplo, cuando un usuario obtiene una vista previa de un catálogo electrónico, todos los ajustes preestablecidos de visor del catálogo activo aparecen en la lista desplegable Ajustes preestablecidos, en el cuadro de diálogo Vista previa.
 
@@ -688,7 +687,7 @@ La URL se copiará en el portapapeles. Podrá utilizarla como sea necesario en e
    * Haga clic en **[!UICONTROL Vista de cuadrícula]**, **[!UICONTROL Vista de lista]** o **[!UICONTROL Vista de detalles]**. En la misma barra de herramientas, haga clic en **[!UICONTROL Vista previa]** > **[!UICONTROL Lista del visor]**.
    En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **[!UICONTROL Copiar URL]**.
 
-### Copia del código incrustado de un ajuste preestablecido de visor   {#copying-the-embed-code-of-a-viewer-preset}
+### Copia del código incrustado de un ajuste preestablecido de visor  {#copying-the-embed-code-of-a-viewer-preset}
 
 El uso de la función de código incrustado permite revisar el código del ajuste preestablecido de visor seleccionado. También puede copiar el código en el portapapeles para pegarlo en sus páginas web para la implementación del visor. 
 
@@ -713,7 +712,7 @@ No se permite la edición del código en el cuadro de diálogo Código incrustad
 1. En el cuadro de diálogo Código incrustado, haga clic en **[!UICONTROL Copiar al portapapeles]**.
 1. Haga clic en **[!UICONTROL Cerrar]**.
 
-## Configuración de los visores predeterminados  {#configuring-default-viewers}
+## Configuración de los visores predeterminados {#configuring-default-viewers}
 
 Puede utilizar Visualizadores predeterminados para configurar el visualizador predeterminado asociado a un recurso cuando utilice Vista previa en Dynamic Media Classic. Puede configurar la experiencia de previsualización por defecto para los siguientes tipos de recursos:
 
@@ -752,7 +751,7 @@ Dynamic Media Classic incluye vistas de metadatos predefinidas y los administrad
 
    Las categorías y los campos seleccionados de la vista aparecen en el panel Vista previa.
 
-### Gestión de vistas de metadatos  {#managing-metadata-views}
+### Gestión de vistas de metadatos {#managing-metadata-views}
 
 1. Haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Metadatos]** > **[!UICONTROL Vistas de metadatos]**.
 1. Realice una de las siguientes acciones:
@@ -762,7 +761,7 @@ Dynamic Media Classic incluye vistas de metadatos predefinidas y los administrad
    * Para eliminar una vista, selecciónela y haga clic en **[!UICONTROL Eliminar]**.
    * Para que una vista sea la predeterminada, selecciónela y haga clic en **[!UICONTROL Establecer como predeterminada]**. La vista predeterminada es aquella que ven los usuarios cuando abren un recurso en la vista de detalles y acceden al panel Metadatos.
 
-## Ajustes preestablecidos de metadatos  {#metadata-presets}
+## Ajustes preestablecidos de metadatos {#metadata-presets}
 
 Los ajustes preestablecidos ofrecen a los administradores un método para controlar y regular metadatos que se asignan a los recursos. En la vista de detalles, un usuario puede introducir metadatos sobre un recurso en los campos que se proporcionan para ese propósito. Por ejemplo, un usuario puede introducir el nombre de un propietario, la descripción de derechos de autor y la dirección. Para asegurarse de que los usuarios introducen esta información de un modo preciso y completo, puede crear ajustes preestablecidos de metadatos. La elección de un ajuste preestablecido de metadatos en la Vista de detalles rellena los campos de metadatos con valores predefinidos. Por ejemplo, el nombre de un propietario, la descripción de derechos de autor y la dirección se rellenan de forma automática.
 
@@ -781,7 +780,7 @@ Cree un ajuste preestablecido de metadatos para cada conjunto de valores de meta
 
    Las categorías y los campos seleccionados para el ajuste preestablecido aparecen en el panel Vista previa.
 
-### Gestión de ajustes preestablecidos de metadatos  {#managing-metadata-presets}
+### Gestión de ajustes preestablecidos de metadatos {#managing-metadata-presets}
 
 1. Haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Metadatos]** > **[!UICONTROL Ajustes preestablecidos de metadatos]**.
 1. Realice una de las siguientes acciones:
@@ -803,7 +802,7 @@ Un uso efectivo de los campos de metadatos personalizables es retardar el tiempo
 >
 >Para buscar recursos utilizando los campos personalizados o personalizables, haga clic en **[!UICONTROL Ajustes]** > **[!UICONTROL Ajustes personales]** y seleccione **[!UICONTROL Incluir UDF en la búsqueda]**. Consulte [Ajustes personales](personal-setup.md#personal_setup).
 
-### Creación de un campo de metadatos definido por el usuario  {#creating-a-user-defined-metadata-field}
+### Creación de un campo de metadatos definido por el usuario {#creating-a-user-defined-metadata-field}
 
 1. Haga clic en **[!UICONTROL Ajustes]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Metadatos]** > **[!UICONTROL Campos personalizables]**.
 1. Haga clic en **[!UICONTROL Agregar]**.
@@ -841,7 +840,7 @@ Un uso efectivo de los campos de metadatos personalizables es retardar el tiempo
 
 1. Haga clic en **[!UICONTROL Guardar]** cuando termine de crear el campo de metadatos.
 
-### Gestión de campos personalizables  {#manage-user-defined-fields}
+### Gestión de campos personalizables {#manage-user-defined-fields}
 
 La pantalla Campos personalizables ofrece comandos para gestionar campos de metadatos personalizados definidos por el usuario.
 
@@ -897,7 +896,7 @@ También puede usar la visualización de código sin campos de formulario dispon
 
 Hay dos elementos disponibles para la definición: la coincidencia y el nombre base. Estos campos le permiten definir todos los elementos de una convención de nombre e identificar la parte de la convención utilizada para dar nombre al conjunto que los contiene. La convención de nombres individual de una empresa podría utilizar una o más líneas de definición para cada uno de estos elementos. Puede utilizar tantas líneas como necesite para su definición única y agruparlas en distintos elementos, como imagen principal, elemento de color, elemento de vista alternativa y elemento de muestra.
 
-### Creación de un ajuste preestablecido de conjunto de lotes  {#creating-a-batch-set-preset}
+### Creación de un ajuste preestablecido de conjunto de lotes {#creating-a-batch-set-preset}
 
 Dynamic Media Classic utiliza ajustes preestablecidos de conjuntos de lotes para organizar los recursos que comparten información o contenido común en conjuntos de imágenes para mostrarlos en los visualizadores. Las fórmulas preestablecidas de conjuntos de lotes se ejecutan automáticamente junto con los trabajos de importación de recursos programados en Dynamic Media Classic.
 
@@ -928,7 +927,7 @@ Consulte también [Creación de un ajuste preestablecido de conjunto de lotes pa
 
 1. Haga clic en **[!UICONTROL Guardar]** en el panel Detalles.
 
-### Creación de un ajuste preestablecido de conjunto de lotes para la generación automática de conjuntos de giros 2D  {#creating-a-batch-set-preset-for-the-auto-generation-of-a-d-spin-set}
+### Creación de un ajuste preestablecido de conjunto de lotes para la generación automática de conjuntos de giros 2D {#creating-a-batch-set-preset-for-the-auto-generation-of-a-d-spin-set}
 
 Puede utilizar el Tipo de conjunto de lotes **Conjunto de giros con varios ejes** para crear una “fórmula” que automatizará la creación de conjuntos de giros 2D. La agrupación de imágenes utiliza expresiones regulares de fila y columna para alinear los recursos de imagen correctamente en la ubicación correspondiente de la matriz multidimensional.
 
@@ -1006,7 +1005,7 @@ Cuando se carga y publica el conjunto de giros, se activa el nombre de la fórmu
 >[!MORELIKETHIS]
 >
 >* [Previsualización de un recurso](previewing-asset.md#previewing_an_asset)
->* [Configuración de ajustes preestablecidos de imagen](setting-image-presets.md#setting_up_image_presets)
->* [Visualización, adición y exportación de metadatos](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
->* [Comprobación de archivos de trabajo](checking-job-files.md#checking_job_files)
+* [Configuración de ajustes preestablecidos de imagen](setting-image-presets.md#setting_up_image_presets)
+* [Visualización, adición y exportación de metadatos](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
+* [Comprobación de archivos de trabajo](checking-job-files.md#checking_job_files)
 
