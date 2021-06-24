@@ -10,11 +10,10 @@ discoiquuid: 631d2b2d-9e69-4b96-8392-17e00a1a8de0
 feature: Dynamic Media Classic,Visualizadores
 role: Business Practitioner
 exl-id: 426b6e6b-daed-4ca6-b095-99bb06604b07
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '704'
-ht-degree: 82%
+ht-degree: 85%
 
 ---
 
@@ -24,9 +23,9 @@ Gracias a los conjuntos de muestras, los usuarios pueden ver un elemento en dife
 
 Por ejemplo, supongamos que desea ofrecer imágenes de gorras con viseras de distintos colores; las viseras son de color rojo, verde y azul. En este caso, necesita tres tomas de la misma gorra. Necesitará una toma para la visera roja, otra para la verde y una tercera para la azul. También necesitará muestras de color en rojo, verde y azul. Las muestras de color serán las miniaturas en las que los usuarios harán clic en el visor de conjuntos de muestras para ver la gorra con la visera roja, verde o azul.
 
-## Creación de un conjunto de muestras  {#create}
+## Creación de un conjunto de muestras {#create}
 
-Cuando crea un conjunto, la opción **Publicar después de guardar** afecta a los miembros del conjunto y del conjunto de las siguientes maneras:
+Al crear un conjunto, la opción **Publicar después de guardar** afecta al conjunto y a los miembros del conjunto de las siguientes formas:
 |**[!UICONTROL Publish after save]** opción seleccionada antes de guardar?|Estado del conjunto después de guardar|Estado de los miembros del conjunto después de guardar|
 |— |— |— |
 |Sí|Publicado|Publicado|
@@ -51,7 +50,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 1. Haga clic en **[!UICONTROL Guardar]****[!UICONTROL , seleccione una carpeta para almacenar su conjunto de muestras de color, escriba un nombre para el conjunto y haga clic en Enviar]**.
 1. Para ver su conjunto de muestras en el visor de conjuntos de muestras, haga clic en **[!UICONTROL Vista previa]** en la pantalla Conjunto de muestras. Puede hacer clic en las miniaturas de las muestras en el visor de conjuntos de muestras para ver el resultado.
 
-## Edición de un conjunto de muestras  {#editing-a-swatch-set}
+## Edición de un conjunto de muestras {#editing-a-swatch-set}
 
 Tanto si edita un conjunto publicado como si no, la opción **[!UICONTROL Publicar después de guardar]** afecta a los miembros del conjunto y del conjunto de las siguientes maneras:
 
@@ -76,7 +75,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 1. Cuando haya terminado de editar el conjunto, asegúrese de que esté seleccionada la opción **[!UICONTROL Publicar después de guardar]** (predeterminada), cerca de la esquina inferior derecha de la página.
 1. Haga clic en **[!UICONTROL Guardar]**, seleccione una carpeta de almacenamiento, especifique un nombre para el conjunto y haga clic en **[!UICONTROL Guardar]**.
 
-## Eliminación de un conjunto de muestras  {#deleting-a-swatch-set}
+## Eliminación de un conjunto de muestras {#deleting-a-swatch-set}
 
 Cuando se elimina un conjunto, el conjunto en sí se mueve a la papelera. Sin embargo, los miembros (o “elementos secundarios”) dentro de dicho conjunto no se verán afectados; cada uno mantendrá su estado existente de publicación o no.
 
