@@ -10,7 +10,6 @@ discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 feature: Dynamic Media Classic
 role: Administrator
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
-translation-type: tm+mt
 source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
 source-wordcount: '1021'
@@ -78,7 +77,7 @@ En la lista desplegable **[!UICONTROL Automatic/Manual Mode]**, elija si generar
 
    * **Permitir generación parcial** : los motores de búsqueda pueden rechazar un archivo XML si no contiene información de metadatos completa para todos los vídeos. Con esta opción, se crea el archivo XML aunque no haya metadatos disponibles para algunos vídeos. Se registra un aviso en la pantalla del informe. Elija esta opción si pretende exportar el archivo XML y procesar la información que falta manualmente.
 
-### Selección de la configuración de creación  {#choosing-generation-settings}
+### Selección de la configuración de creación {#choosing-generation-settings}
 
 El área Configuración de generación enumera los campos de entrada para el mapa del sitio de vídeo, la fuente mRSS o ambos, y en el panel Metadatos, los nombres de los campos de metadatos. Use el área Configuración general para asignar los campos de entrada a los campos de metadatos. Al hacerlo, indica a Dynamic Media Classic dónde obtener metadatos para el mapa del sitio del vídeo y/o la fuente mRSS.
 
@@ -110,7 +109,7 @@ Los archivos de mapas de vídeos y de recursos mRSS se almacenan en la carpeta r
 
 Copie una de estas URL en las herramientas del webmaster del motor de búsqueda para enviar el archivo de mapa de vídeos o de recurso mRSS a los motores de búsqueda.
 
-## Visualización de informes de la optimización para motores de búsqueda de vídeos  {#viewing-video-seo-reports}
+## Visualización de informes de la optimización para motores de búsqueda de vídeos {#viewing-video-seo-reports}
 
 Vea los informes de SEO de vídeo en la página Informe de optimización del motor de búsqueda de vídeo . Para abrir esta página, en la barra de navegación global, haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Video SEO]** > **[!UICONTROL Informes]**.
 
