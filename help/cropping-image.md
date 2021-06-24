@@ -10,7 +10,6 @@ discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
 feature: Dynamic Media Classic,Administración de recursos
 role: Business Practitioner
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
-translation-type: tm+mt
 source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
 workflow-type: tm+mt
 source-wordcount: '543'
@@ -64,6 +63,6 @@ Puede recortar los píxeles transparentes o de color sólido del borde de una im
 >[!MORELIKETHIS]
 >
 >* [Opciones de edición de imágenes al cargarlas](image-editing-options-upload.md#image-editing-options-at-upload)
->* [Recorte de espacio en blanco de un archivo PDF](pdfs.md#cropping_white_space_from_a_pdf_file)
->* [Recorte de los lados de páginas PDF](pdfs.md#cropping_from_the_sides_of_pdf_pages)
+* [Recorte de espacio en blanco de un archivo PDF](pdfs.md#cropping_white_space_from_a_pdf_file)
+* [Recorte de los lados de páginas PDF](pdfs.md#cropping_from_the_sides_of_pdf_pages)
 
