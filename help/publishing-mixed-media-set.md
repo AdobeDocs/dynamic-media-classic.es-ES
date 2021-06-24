@@ -10,7 +10,6 @@ discoiquuid: 4e8694f7-c1b5-4d45-a18b-2b9494db1757
 feature: Dynamic Media Classic,Visualizadores,Conjuntos de medios mixtos
 role: Business Practitioner
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
-translation-type: tm+mt
 source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '258'
