@@ -10,7 +10,6 @@ discoiquuid: f4c8c2b3-cc95-416f-9a5d-da81c231dfc2
 feature: Dynamic Media Classic
 role: Data Engineer,Administrator,Business Practitioner
 exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
-translation-type: tm+mt
 source-git-commit: 98463dbc24e141547d01bd3f71b1b9fe3a692c14
 workflow-type: tm+mt
 source-wordcount: '1196'
@@ -32,7 +31,7 @@ Consulte [Inicio de sesión en Adobe Analytics](log-analytics.md#log_in_to_adobe
 
 Consulte [Publicación de la información de configuración](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
 
-## Asignación de variables de Adobe Analytics a eventos y variables de visor de Dynamic Media Classic {#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables}
+## Asignación de variables de Adobe Analytics a eventos y variables del visor de Dynamic Media Classic {#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables}
 
 Utilice la pantalla Configuración de Adobe Analytics para asociar eventos de visor con variables de Adobe Analytics y variables de Dynamic Media Classic. Para cada evento de visor, elija una variable de Adobe Analytics y una variable de Dynamic Media Classic. Si precisa instrucciones para acceder a la pantalla de configuración de Adobe Analytics, consulte [Inicio de sesión en Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 
@@ -103,7 +102,7 @@ En la tabla siguiente se describen las variables de Dynamic Media Classic.
 | progress | Porcentaje de un evento de hito que se ha finalizado. |
 | targetId | El valor del identificador (un número). |
 
-## Activación, edición y eliminación de eventos de visor  {#activating-editing-and-deleting-viewer-events}
+## Activación, edición y eliminación de eventos de visor {#activating-editing-and-deleting-viewer-events}
 
 En la pantalla de configuración de Adobe Analytics puede activar, editar y eliminar eventos de visor:
 
