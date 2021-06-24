@@ -10,7 +10,6 @@ discoiquuid: f8c25768-cf59-45ec-8193-522404191d57
 feature: Dynamic Media Classic
 role: Data Engineer,Administrator,Business Practitioner
 exl-id: 4745ace5-7825-468e-8a82-bfbbcf1b0440
-translation-type: tm+mt
 source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
 workflow-type: tm+mt
 source-wordcount: '505'
@@ -18,7 +17,7 @@ ht-degree: 12%
 
 ---
 
-# Inicio rápido: Integración de Adobe Target Standard/Premium{#quick-start-target-integration}
+# Inicio rápido: Integración con Adobe Target Standard/Premium{#quick-start-target-integration}
 
 Adobe Target Standard/Premium pone el control directamente en manos de los especialistas en marketing para ejecutar rápida y continuamente varias pruebas A/B y multivariable, medir la eficacia y aumentar la relevancia del contenido en línea mediante la segmentación, el direccionamiento y la personalización automatizada.
 
