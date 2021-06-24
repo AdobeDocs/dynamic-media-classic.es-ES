@@ -10,7 +10,6 @@ discoiquuid: 87a5a25e-210b-4359-821a-7dfe8c304f9b
 feature: Dynamic Media Classic
 role: Business Practitioner
 exl-id: d4315312-195c-453d-a3aa-c5e9f9365fc7
-translation-type: tm+mt
 source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '171'
@@ -37,5 +36,5 @@ Para publicar plantillas en servidores de imágenes de Dynamic Media, en la barr
 >[!MORELIKETHIS]
 >
 >* [Marcado de recursos para publicación](publishing-files.md#publish_after_uploading)
->* [Creación de un trabajo de publicación](publishing-files.md#creating_a_publish_job)
+* [Creación de un trabajo de publicación](publishing-files.md#creating_a_publish_job)
 
