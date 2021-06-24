@@ -10,7 +10,6 @@ discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
 feature: Dynamic Media Classic,Visualizadores,Catálogo electrónico
 role: Business Practitioner
 exl-id: aee72576-1e3e-401c-953d-cc2be27f7dfd
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '684'
@@ -26,7 +25,7 @@ Los sitios web y las aplicaciones acceden al contenido de Dynamic Media Image Se
 >
 >La URL no se activa hasta que publique el recurso.
 
-## Copia de la URL de un catálogo electrónico  {#copying-an-ecatalog-url}
+## Copia de la URL de un catálogo electrónico {#copying-an-ecatalog-url}
 
 1. En la lista desplegable Mostrar del panel de exploración de recursos, haga clic en **[!UICONTROL Catálogo]**.
 1. En el panel Biblioteca de recursos del lado izquierdo, navegue a la carpeta de recursos que contenga el catálogo electrónico cuyo código incrustado desee copiar.
@@ -45,7 +44,7 @@ Los sitios web y las aplicaciones acceden al contenido de Dynamic Media Image Se
 
       En la página Lista del visor, en la columna Acciones de la tabla, haga clic en **Copiar URL**.
 
-## Adición de direcciones URL de catálogo electrónico a la página web  {#adding-ecatalog-urls-to-your-web-page}
+## Adición de direcciones URL de catálogo electrónico a la página web {#adding-ecatalog-urls-to-your-web-page}
 
 La manera más común de distribuir el catálogo electrónico consiste en colocar en la página web un vínculo representado por una miniatura de la portada del catálogo electrónico. Trabaje con su grupo de TI para que el catálogo electrónico se abra en una ventana emergente centrada y bien visible. Solicite al grupo de TI que no se muestren la barra de herramientas ni la de dirección del explorador.
 
