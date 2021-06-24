@@ -8,7 +8,6 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 feature: Dynamic Media Classic,Administración de recursos
 role: Business Practitioner
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
-translation-type: tm+mt
 source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '1712'
@@ -45,7 +44,7 @@ Algunos recursos &quot;secundarios&quot; se marcan para la publicación de forma
 
 Las imágenes derivadas también se marcan para la publicación de forma automática cuando se están publicando las imágenes principales. Las imágenes derivadas son imágenes que se han ajustado con las opciones de edición de imágenes. Puede ver estas imágenes derivadas en la vista de detalles si selecciona Creación y derivados.
 
-## Creación de un trabajo de publicación  {#creating-a-publish-job}
+## Creación de un trabajo de publicación {#creating-a-publish-job}
 
 Cree un trabajo de publicación para publicar los recursos que ha cargado en los servidores de Dynamic Media Classic, pero elija no publicarlos aún de forma automática. Puede realizar un trabajo de publicación única o programar trabajos para que se repitan con regularidad. Dynamic Media Classic ofrece opciones de publicación avanzadas para publicar en servidores específicos y opciones para volver a publicar recursos que ya se han publicado.
 
@@ -101,7 +100,7 @@ Puede acceder a las opciones avanzadas desde la página Publicar y especificar e
 
 (Consulte [Uso de un trabajo de carga o publicación como desencadenador](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)).
 
-## Cancelación de un trabajo de publicación  {#canceling-a-publish-job}
+## Cancelación de un trabajo de publicación {#canceling-a-publish-job}
 
 Puede cancelar los trabajos de publicación que están en curso. Además, si es administrador, puede cancelar un trabajo de publicación en curso desde la página Trabajos de la empresa.
 
@@ -111,7 +110,7 @@ Para cancelar un trabajo de publicación, vaya a la página Trabajos y haga clic
 >
 >Al cancelar un trabajo de publicación, su estado se cambia a &quot;deteniendo&quot; hasta que el trabajo se pueda detener de forma segura. Si el trabajo de publicación está obteniendo datos de la base de datos, puede que tarde un tiempo en detenerse.
 
-## Publicación manual de recursos  {#manually-publishing-assets}
+## Publicación manual de recursos {#manually-publishing-assets}
 
 Puede publicar recursos individuales manualmente en lugar de crear un trabajo de publicación. Cuando publica conjuntos, como un conjunto de imágenes o un conjunto de vídeos adaptable, se publican el conjunto (o “elemento principal”) y todos los miembros (o “elementos secundarios”) dentro de dicho conjunto.
 
@@ -143,7 +142,7 @@ Los recursos publicados aparecen en la interfaz de usuario con un icono verde re
 
    * En la vista de cuadrícula, la vista de lista o la vista de detalles, haga clic en el icono verde redondeado a la izquierda del nombre del recurso.
 
-## Obtención del historial de publicación de un recurso  {#getting-an-asset-s-publish-history}
+## Obtención del historial de publicación de un recurso {#getting-an-asset-s-publish-history}
 
 La última fecha de publicación de los recursos se muestra en la vista de detalles, en la parte superior del panel. Puede obtener más detalles sobre el historial de publicación si abre el panel Historial y servidores publicados en la vista de detalles. En este panel, podrá ver cuándo se publicó el recurso y los servidores en los que se publicó.
 
@@ -162,5 +161,5 @@ Para vaciar la caché, en la barra de navegación global, haga clic en **[!UICON
 >[!MORELIKETHIS]
 >
 >* [Comprobación de archivos de trabajo](checking-job-files.md)
->* [Edición, eliminación, pausa y reanudación de trabajos recurrentes](checking-job-files.md#editing-deleting-pausing-and-resuming-recurring-jobs)
+* [Edición, eliminación, pausa y reanudación de trabajos recurrentes](checking-job-files.md#editing-deleting-pausing-and-resuming-recurring-jobs)
 
