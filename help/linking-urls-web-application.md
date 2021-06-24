@@ -10,7 +10,6 @@ discoiquuid: 71299640-676d-49b7-841d-6118f31044e8
 feature: Dynamic Media Classic
 role: Business Practitioner
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '832'
@@ -24,7 +23,7 @@ Los sitios web y las aplicaciones acceden al contenido de Dynamic Media Image Se
 
 Para colocar estas cadenas URL en sus páginas web y aplicaciones, cópielas desde Dynamic Media Classic. Para obtener una cadena URL generada con un ajuste preestablecido de imagen, abra la pantalla Vista previa o el panel Examinar (en vista de detalles).
 
-## Obtención de una URL de ajuste preestablecido de imagen  {#obtaining-an-image-preset-url}
+## Obtención de una URL de ajuste preestablecido de imagen {#obtaining-an-image-preset-url}
 
 Puede obtener una cadena URL generada por un ajuste preestablecido de imagen en la Vista previa o en Vista de detalles. Una vez copiada, la URL queda disponible en el portapapeles para que pueda pegarla cuando lo necesite.
 
@@ -32,7 +31,7 @@ Puede obtener una cadena URL generada por un ajuste preestablecido de imagen en 
 >
 >La URL no se activa hasta que publique el recurso.
 
-### Obtención de una URL de ajuste preestablecido de imagen desde Vista previa  {#obtaining-an-image-preset-url-from-preview}
+### Obtención de una URL de ajuste preestablecido de imagen desde Vista previa {#obtaining-an-image-preset-url-from-preview}
 
 1. En el panel Biblioteca de recursos del lado izquierdo, navegue a las carpetas de recursos que contienen el recurso de imagen cuya vista previa desea obtener.
 1. Realice una de las acciones siguientes:
