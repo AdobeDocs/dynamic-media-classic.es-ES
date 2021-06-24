@@ -10,7 +10,6 @@ discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: 7e99de68-a5de-4b42-9754-c394e9b41369
-translation-type: tm+mt
 source-git-commit: 9d73e74ffc4a1e7e31c84720a9bae105b6afb1ae
 workflow-type: tm+mt
 source-wordcount: '192'
@@ -36,6 +35,6 @@ Los administradores también pueden configurar ajustes preestablecidos de imagen
 >[!MORELIKETHIS]
 >
 >* [Roles y privilegios de usuario de Dynamic Media Classic](administration-setup.md#user_administration)
->* [Ajustes preestablecidos de imagen](application-setup.md#image_presets)
->* [Ajustes preestablecidos de visor](application-setup.md#viewer_presets)
+* [Ajustes preestablecidos de imagen](application-setup.md#image_presets)
+* [Ajustes preestablecidos de visor](application-setup.md#viewer_presets)
 
