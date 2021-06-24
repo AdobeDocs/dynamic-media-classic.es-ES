@@ -10,7 +10,6 @@ discoiquuid: e7b4673c-8681-4741-912e-9a31cf106449
 feature: Dynamic Media Classic,Visualizadores,Zoom
 role: Business Practitioner
 exl-id: ffb799ba-1cf1-48e0-91a8-dea758139140
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '734'
@@ -35,7 +34,7 @@ El valor máximo de zoom en los destinos de zoom es 100%. El porcentaje mínimo 
 
 Puede cambiar el tamaño del visor de zoom para que corresponda al que se usa en la página web. Para modificar este valor de forma definitiva, puede cambiar el tamaño del visor en la pantalla Ajustes (si es administrador). Consulte [Configuración de ajustes preestablecidos de visor de zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
 
-## Creación y edición de destinos de zoom  {#creating-and-editing-zoom-targets}
+## Creación y edición de destinos de zoom {#creating-and-editing-zoom-targets}
 
 Cree y edite destinos de zoom en la pantalla Editor de destinos de zoom. Para abrir esta pantalla, seleccione una imagen y realice una de las acciones siguientes:
 
@@ -73,7 +72,7 @@ Para crear un objetivo de zoom, abra la página Editor de destinos de zoom y hag
 >
 >Para ver el aspecto de los destinos de zoom en un visor de zoom, haga clic en el botón Vista previa en la pantalla Editor de destinos de zoom y seleccione un visor de zoom en la pantalla Vista previa. Para obtener más información sobre esta pantalla, consulte [Vista previa de imágenes con distintos visores de zoom](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
 
-### Edición de destinos de zoom  {#editing-zoom-targets}
+### Edición de destinos de zoom {#editing-zoom-targets}
 
 Para editar destinos de zoom, utilice las siguientes técnicas en la página Editor de destinos de zoom :
 
