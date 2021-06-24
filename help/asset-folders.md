@@ -10,7 +10,6 @@ discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
 feature: Dynamic Media Classic,Administración de recursos
 role: Business Practitioner
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '442'
@@ -40,7 +39,7 @@ En la biblioteca de recursos se muestran los archivos que contiene el árbol de 
 >
 >Puede ocultar o mostrar la biblioteca de recursos haciendo clic en el control **[!UICONTROL Expand]** o **[!UICONTROL Collapse]** de la izquierda. Oculte el panel de la biblioteca de recursos si necesita más espacio de trabajo en el panel Examinar.
 
-## Creación de carpetas  {#creating-folders}
+## Creación de carpetas {#creating-folders}
 
 Para crear carpetas, siga estos pasos:
 
@@ -52,7 +51,7 @@ Para crear carpetas, siga estos pasos:
    >
    >También puede crear carpetas en Dynamic Media Classic al cargar archivos mediante FTP. Si selecciona la opción Incluir subcarpetas al cargar archivos por medio de FTP, se reproducirá la estructura de carpetas del sistema de su ordenador. Las carpetas y subcarpetas del ordenador o la red se reproducirán en la biblioteca de recursos, y los recursos cargados se colocarán en estas carpetas.
 
-## Eliminación y cambio de nombre de las carpetas  {#deleting-and-renaming-folders}
+## Eliminación y cambio de nombre de las carpetas {#deleting-and-renaming-folders}
 
 Seleccione una carpeta y utilice estas técnicas para eliminarla o cambiar su nombre:
 
