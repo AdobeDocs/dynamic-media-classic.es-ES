@@ -10,7 +10,6 @@ discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
 feature: Dynamic Media Classic,Administración de recursos
 role: Business Practitioner
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
-translation-type: tm+mt
 source-git-commit: 6f3801a71dd2a5f162acacf7d8199dbf8c3520f7
 workflow-type: tm+mt
 source-wordcount: '1494'
@@ -42,7 +41,7 @@ También puede elegir **[!UICONTROL Ascending]** o **[!UICONTROL Descending]** p
 
 En la vista de lista, puede ordenar haciendo clic en el nombre de una columna.
 
-## Búsqueda simple  {#conducting-a-simple-search}
+## Búsqueda simple {#conducting-a-simple-search}
 
 Utilice el campo Buscar de la biblioteca de recursos para realizar búsquedas sencillas. Puede buscar elementos por nombre o buscar los elementos cuyos metadatos contengan una palabra clave determinada. 
 
@@ -172,5 +171,5 @@ Haga clic en **[!UICONTROL Publicar ahora]** para iniciar el trabajo. Aparece un
 >[!MORELIKETHIS]
 >
 >* [Nociones básicas de navegación](navigation-basics.md#navigation_basics)
->* [Visualización, adición y exportación de metadatos](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
+* [Visualización, adición y exportación de metadatos](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
 
