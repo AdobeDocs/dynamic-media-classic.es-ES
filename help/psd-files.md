@@ -10,7 +10,6 @@ discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
 feature: Dynamic Media Classic,Administración de recursos
 role: Business Practitioner
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
-translation-type: tm+mt
 source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '989'
@@ -70,7 +69,7 @@ Estas opciones están disponibles al cargar archivos PSD:
    * **Anclaje** : especifique cómo se anclan las imágenes en plantillas generadas a partir de la composición en capas producida a partir del archivo PSD. De forma predeterminada, el anclaje es al centro. Un anclaje central permite la sustitución de imágenes para rellenar mejor el mismo espacio, independientemente de la proporción de la imagen de sustitución. Las imágenes con una proporción diferente que sustituyan esta imagen, al hacer referencia a la plantilla y usar la sustitución paramétrica, ocuparán el mismo espacio. Cambie a otra configuración si la aplicación requiere que las imágenes de sustitución rellenen el espacio asignado en la plantilla.
 
 
-## Visualización y edición de capas de archivos PSD  {#viewing-and-editing-layers-in-a-psd-file}
+## Visualización y edición de capas de archivos PSD {#viewing-and-editing-layers-in-a-psd-file}
 
 Si seleccionó la opción Mantener capas al cargar el PSD, Dynamic Media Classic dividió las capas individuales en recursos. Puede visualizar y editar las capas de recurso pertenecientes a un archivo PSD abriendo el archivo en el panel Examinar, en la vista de detalles.
 
