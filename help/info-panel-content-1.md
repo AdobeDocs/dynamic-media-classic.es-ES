@@ -10,7 +10,6 @@ discoiquuid: ba5d1fb1-af54-471c-a471-853ace7f72fd
 feature: Dynamic Media Classic,Visualizadores,Conjuntos de imágenes
 role: Business Practitioner
 exl-id: 09fafdb4-51e2-4719-83b6-056f79d1ba9e
-translation-type: tm+mt
 source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
 source-wordcount: '763'
@@ -28,7 +27,7 @@ Puede administrar la configuración y los datos del panel de información median
 * El panel de fuente de datos del panel de información le permite especificar un archivo CSV que contenga el texto que desea que aparezca en el texto de sustitución del panel de información y programar tiempos para actualizar la información.
 * El cuadro de diálogo Importación de metadatos le permite importar un archivo TXT delimitado por tabuladores con la información del texto rollover. Puede utilizar esta opción TXT o el panel de fuente de datos del panel de información con la opción de archivo CSV para el texto de sustitución.
 
-## Configurar una plantilla de respuesta para conjuntos de imágenes {#set-up-a-response-template-for-image-sets}
+## Configuración de una plantilla de respuesta para conjuntos de imágenes {#set-up-a-response-template-for-image-sets}
 
 Puede seleccionar una de las tres plantillas de respuesta preestablecidas para mostrar el texto en un panel de información. Estas plantillas de respuesta preestablecidas determinan cómo se presenta la información en el panel de información: el número de columnas y filas, el tamaño del tipo de letra, la fuente, etc. Puede seleccionar una plantilla de respuesta preestablecida o crear una propia.
 
@@ -54,7 +53,7 @@ Puede seleccionar una de las tres plantillas de respuesta preestablecidas para m
 
 1. En el panel Configuración del panel de información, haga clic en **[!UICONTROL Publicar]**.
 
-## Importar contenido de origen para el panel Información en conjuntos de imágenes {#import-source-content-for-the-info-panel-in-image-sets}
+## Importación de contenido de origen para el panel Información en conjuntos de imágenes {#import-source-content-for-the-info-panel-in-image-sets}
 
 Puede utilizar un archivo CSV (valores delimitados por comas) con codificación ASCII (los caracteres no ASCII deben tener codificación HTML) o un archivo delimitado por tabuladores para el texto de origen del panel de información de un conjunto de imágenes. Los archivos delimitados por tabuladores deben usar la codificación UTF-16 (Unicode). Puede importar los distintos tipos de archivos mediante diferentes métodos.
 
@@ -64,7 +63,7 @@ Cuando dé formato al contenido de origen, tenga en cuenta las siguientes pautas
 * El primer elemento o columna de datos es el identificador de sustitución (asociado con el valor rollover_key de las URL de mapa de imagen).
 * Asegúrese de que cada elemento delimitado por tabulaciones o comas después del identificador sea el elemento que desea sustituir en la plantilla de respuesta. Por lo tanto, la primera columna se sustituye por $1$, la segunda columna por $2$, y así sucesivamente).
 
-### Importar contenido CSV en conjuntos de imágenes desde una ubicación alojada externamente {#import-csv-content-into-image-sets-from-an-externally-hosted-location}
+### Importar contenido CSV en conjuntos de imágenes desde una ubicación alojada de forma externa {#import-csv-content-into-image-sets-from-an-externally-hosted-location}
 
 1. Haga doble clic en el conjunto de imágenes para abrirlo en la vista de detalles.
 1. Haga clic en **[!UICONTROL InfoPanel Datafeed]**.
