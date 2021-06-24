@@ -10,7 +10,6 @@ discoiquuid: 553c95fc-0a41-4f06-af50-a62bc1438149
 feature: Dynamic Media Classic,Administración de recursos
 role: Business Practitioner
 exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
-translation-type: tm+mt
 source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '545'
@@ -38,7 +37,7 @@ Si elimina un recurso en una carpeta, éste se colocará en la carpeta Papelera.
 * El elemento no se puede publicar. Aunque el elemento estuviera marcado para la publicación al eliminarlo, no se publicará.
 * El elemento permanece en la carpeta Papelera hasta que se restaura, pasan siete días o alguien elige el comando **[!UICONTROL Vacíe la papelera]**. Pasados siete días, se produce una operación de limpieza automática y el elemento se elimina de forma permanente.
 
-## Restauración de recursos desde la carpeta Papelera  {#restoring-assets-from-the-trash-folder}
+## Restauración de recursos desde la carpeta Papelera {#restoring-assets-from-the-trash-folder}
 
 La persona que eliminó el recurso no tiene por qué ser la misma que lo restaure; cualquier usuario puede restaurar recursos desde la carpeta Papelera. Los recursos restaurados se colocan en las carpetas de donde se eliminaron. Si estas carpetas ya no existen, Dynamic Media Classic las vuelve a crear y los recursos restaurados se colocan en las carpetas creadas de nuevo.
 
