@@ -7,7 +7,6 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Business Practitioner
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-translation-type: tm+mt
 source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
 source-wordcount: '1497'
@@ -19,7 +18,7 @@ ht-degree: 78%
 
 Para poder cargar un recurso de imagen, primero debe solicitar una clave secreta compartida. Esta clave permite recuperar un distintivo de carga. Este distintivo de carga se emplea para cargar recursos de imagen o vector.
 
-## Solicitud de la clave secreta compartida  {#requesting-a-shared-secret-key}
+## Solicitud de la clave secreta compartida {#requesting-a-shared-secret-key}
 
 Solicite una *clave secreta compartida* [utilizando el Admin Console para crear un caso de soporte.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) En su caso de asistencia, solicite una clave secreta compartida.
 
@@ -89,7 +88,7 @@ Ya puede cargar un recurso de imagen.
 
 Consulte [Carga de recursos de imagen](uploading-image-asset-or-vector.md#uploading_an_image_asset).
 
-## Carga de recursos de imagen  {#uploading-an-image-asset}
+## Carga de recursos de imagen {#uploading-an-image-asset}
 
 Después de recuperar un distintivo de carga válido durante un tiempo determinado, ya se puede cargar un recurso de imagen. El recurso se carga como una publicación de varias partes o formularios mientras que el resto de los valores se envía en forma de cadena de consulta URL, tal como se muestra en este ejemplo:
 
@@ -201,7 +200,7 @@ Envíe el recurso para la carga como una publicación de varias partes o formula
 
 POST
 
-### Obtención de los metadatos de los recursos de imagen  {#getting-asset-metadata-for-images}
+### Obtención de los metadatos de los recursos de imagen {#getting-asset-metadata-for-images}
 
 Se puede usar `image_info` para recuperar los metadatos de cualquier recurso cargado, tal como se muestra en el siguiente ejemplo:
 
@@ -249,7 +248,7 @@ Se pueden usar los campos siguientes en la cadena de consulta URL para solicitar
 
 GET y POST
 
-## Carga de recursos de vector  {#uploading-a-vector-asset}
+## Carga de recursos de vector {#uploading-a-vector-asset}
 
 Después de recuperar un distintivo de carga válido durante un tiempo determinado, ya se puede cargar un recurso de vector. El recurso se carga como una publicación de varias partes o formularios mientras que el resto de los valores se envía en forma de cadena de consulta URL, tal como se muestra en este ejemplo:
 
