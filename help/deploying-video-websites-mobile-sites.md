@@ -10,7 +10,6 @@ discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 feature: Dynamic Media Classic,Visualizadores,Vídeo
 role: Business Practitioner
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
-translation-type: tm+mt
 source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
 workflow-type: tm+mt
 source-wordcount: '1683'
@@ -26,7 +25,7 @@ Los sitios web, los sitios móviles y las aplicaciones de escritorio acceden al 
 >
 >La URL o el código incrustado no se activan hasta que publique el recurso.
 
-## Publicación de vídeo  {#publishing-video}
+## Publicación de vídeo {#publishing-video}
 
 La publicación de un vídeo permite a los servidores de Dynamic Media Classic entregar vídeo a su sitio web, sitio móvil o aplicación.
 
@@ -74,7 +73,7 @@ Consulte también [ Incrustación del visor de vídeo en páginas web](deploying
 
 1. Coloque el vínculo a la URL del vídeo HTML5 en el sitio web y el sitio de dispositivos móviles.
 
-## Incrustación del visor de vídeo en páginas web  {#embedding-the-video-viewer-on-a-web-page}
+## Incrustación del visor de vídeo en páginas web {#embedding-the-video-viewer-on-a-web-page}
 
 Utilice la función de código incrustado si desea reproducir el vídeo incrustado en la página web. El código incrustado se copia en el portapapeles para pegarlo en las páginas web. No se permite la edición del código en el cuadro de diálogo Código incrustado.
 
@@ -106,7 +105,7 @@ Consulte también [Vinculación de una URL de vídeo a sitios web o de dispositi
 1. Haga clic en **[!UICONTROL Cerrar]**.
 1. Pegue el código incrustado en las páginas web.
 
-### Implementación del código incrustado para usar vídeo HTML5 con activos de vídeo MP4 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
+### Implementación del código incrustado para usar vídeo HTML5 con recursos de vídeo MP4 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
 Si no utiliza el reproductor de vídeo HTML5 de Dynamic Media Classic, sino que desea utilizar la etiqueta HTML5 `<video>` nativa con recursos de vídeo MP4, puede utilizar el siguiente ejemplo de código incrustado:
 
@@ -130,7 +129,7 @@ Si no utiliza el reproductor de vídeo HTML5 de Dynamic Media Classic, sino que 
 
    Consulte [Vinculación de una URL de vídeo a sitios web o de dispositivos móviles](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
-## Implementación de vídeo con un reproductor de vídeo de terceros  {#deploying-video-using-a-third-party-video-player}
+## Implementación de vídeo con un reproductor de vídeo de terceros {#deploying-video-using-a-third-party-video-player}
 
 Si utiliza un reproductor de vídeo de terceros o un reproductor de vídeo personalizado en lugar de un visor de vídeo de Dynamic Media Classic, puede obtener la URL de vídeo directa que funcione para el flujo de vídeo de varias bits HLS o la descarga progresiva.
 
