@@ -10,7 +10,6 @@ discoiquuid: 2b134cfa-7f46-4f5f-959e-b30aae610bb9
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
-translation-type: tm+mt
 source-git-commit: eb37440a2917094aae8f32e9337b4c187ec6c1c2
 workflow-type: tm+mt
 source-wordcount: '454'
@@ -22,7 +21,7 @@ ht-degree: 30%
 
 Dynamic Media Classic es un entorno integrado y rico de administración de medios, publicación y servicio. Los medios enriquecidos se pueden distribuir a través de todo tipo de canales de marketing y ventas: la Web, material impreso, campañas por correo electrónico, portales web, ordenadores de sobremesa y dispositivos.
 
-## Flujo de trabajo  {#workflow-process}
+## Flujo de trabajo {#workflow-process}
 
 Los pasos clave del flujo de trabajo de Dynamic Media Classic son:
 
