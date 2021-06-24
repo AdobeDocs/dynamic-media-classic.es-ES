@@ -10,7 +10,6 @@ discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
 feature: Dynamic Media Classic,Visualizadores,Catálogo electrónico
 role: Business Practitioner
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '986'
@@ -22,7 +21,7 @@ ht-degree: 79%
 
 Al crear un catálogo electrónico es preciso ordenar las páginas, elegir su presentación y vincular las páginas mediante mapas de imagen y datos de vínculos de hipertexto y de rollover. Si lo desea, también puede personalizar la tabla de contenido para que los usuarios vean nombres de página en lugar de números en el visor de catálogos electrónicos.
 
-## Creación de un catálogo electrónico  {#create}
+## Creación de un catálogo electrónico {#create}
 
 Puede incluir archivos de imagen y archivos PDF en el catálogo electrónico.
 
@@ -64,7 +63,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
    Una vez que haya guardado el catálogo electrónico, podrá acceder a la vista previa de este si hace clic en **[!UICONTROL Vista previa]**.
 
-## Edición de un catálogo electrónico  {#editing-an-ecatalog}
+## Edición de un catálogo electrónico {#editing-an-ecatalog}
 
 Según si edita un conjunto publicado o sin publicar, la opción **[!UICONTROL Publicar después de guardar]** afecta al conjunto y a los miembros del conjunto de las siguientes formas:
 
@@ -84,7 +83,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 1. Cuando haya terminado con su edición, asegúrese de que esté seleccionada la opción **Publicar después de guardar** (predeterminada), cerca de la esquina inferior derecha de la página.
 1. Haga clic en **Guardar**, seleccione una carpeta de almacenamiento, especifique un nombre para el conjunto y haga clic en **Guardar**.
 
-## Eliminación de un catálogo electrónico  {#deleting-an-ecatalog}
+## Eliminación de un catálogo electrónico {#deleting-an-ecatalog}
 
 Cuando se elimina un conjunto, el conjunto en sí se mueve a la papelera. Sin embargo, los miembros (o “elementos secundarios”) dentro de dicho conjunto no se verán afectados; cada uno mantendrá su estado existente de publicación o no.
 
@@ -95,7 +94,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 1. En la vista de cuadrícula, la vista de lista o la vista de detalles, seleccione uno o varios catálogos electrónicos.
 1. En la barra de navegación global, haga clic en **Archivo** > **Eliminar** > **Eliminar**.
 
-## Personalización de la tabla de contenido (TOC)  {#customizing-the-table-of-contents-toc}
+## Personalización de la tabla de contenido (TOC) {#customizing-the-table-of-contents-toc}
 
 Dynamic Media Classic proporciona números de página predeterminados en el catálogo electrónico en la ficha Ordenar páginas de la pantalla Catálogo electrónico. Si desea personalizar el nombre de las páginas, puede cambiar las etiquetas de las páginas que forman la tabla de contenido (TOC). Se recomienda cambiar el nombre de la portada y la contraportada. Por ejemplo, la portada puede decir &quot;Portada&quot; en lugar de &quot;Página 0-1&quot;.
 
@@ -105,11 +104,11 @@ Puede crear una tabla de contenido (TOC) personalizada para el catálogo electr�
 >
 >Para restaurar los títulos de página predeterminados, haga clic en el botón Etiquetas de tabla de contenido en la ficha Ordenar páginas y elija Restaurar valores (todos).
 
-### Introducción manual de nombres de página  {#manually-entering-page-names}
+### Introducción manual de nombres de página {#manually-entering-page-names}
 
 Para introducir manualmente nombres de página uno por uno, vaya a la ficha Ordenar páginas de la pantalla Catálogo electrónico. Haga clic en el campo del número de página e introduzca un nombre. Introduzca un nombre para cada página si lo desea.
 
-### Importación de nombres de página  {#importing-page-names}
+### Importación de nombres de página {#importing-page-names}
 
 Se recomienda la importación de nombres de página si se trabaja con un catálogo electrónico de muchas páginas. También puede importar los nombres de un archivo delimitado por tabuladores o XML.
 
