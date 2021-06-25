@@ -135,8 +135,7 @@ Para descargar y *silencioso* instalar la versión más reciente de la aplicaci�
 
 1. Copie el archivo .APP a **[!UICONTROL Applications]** mediante el siguiente comando:
 
-   `rsync -a <mount_point_path>/Adobe\ Dynamic\ Media\ Classic.app /Applications/
-Unmount DMG - hdiutil detach <mount_point_path>`
+   `rsync -a <mount_point_path>/Adobe\ Dynamic\ Media\ Classic.app /Applications/ Unmount DMG - hdiutil detach <mount_point_path>`
 
 1. Cuando abre la aplicación, se muestra la nueva página de inicio de sesión de Dynamic Media Classic de Adobe:
 
