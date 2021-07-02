@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
+source-git-commit: cba2c0ff2478b480d51b3c0f132003e14463a08a
 workflow-type: tm+mt
 source-wordcount: '1850'
 ht-degree: 1%
@@ -135,7 +135,10 @@ Para descargar y *silencioso* instalar la versión más reciente de la aplicaci�
 
 1. Copie el archivo .APP a **[!UICONTROL Applications]** mediante el siguiente comando:
 
-   `rsync -a <mount_point_path>/Adobe\ Dynamic\ Media\ Classic.app /Applications/ Unmount DMG - hdiutil detach <mount_point_path>`
+   ```
+   rsync -a <mount_point_path>/Adobe\ Dynamic\ Media\ Classic.app /Applications/
+   Unmount DMG - hdiutil detach <mount_point_path>
+   ```
 
 1. Cuando abre la aplicación, se muestra la nueva página de inicio de sesión de Dynamic Media Classic de Adobe:
 
