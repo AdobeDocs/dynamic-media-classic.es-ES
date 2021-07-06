@@ -8,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 86f72d31-19aa-4077-a746-2badb53b02ec
 feature: Dynamic Media Classic
-role: Administrator,Business Practitioner
+role: Admin,User
 exl-id: 52937d52-92a6-4310-a363-d3c8a266e9ef
-source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 48%
@@ -33,7 +33,7 @@ Consulte [Inicio rápido: Cambio de tamaño de imagen](/help/quick-start-image-s
 * **Conjuntos de imágenes** : ofrezca una experiencia de compra interactiva en la que los usuarios puedan ver los productos en varias vistas. Puede combinar zoom, vistas múltiples y muestras de color para una visualización integrada.
 Consulte [Inicio rápido: Conjuntos de imágenes](/help/quick-start-image-sets.md).
 
-* **Conjuntos de medios mixtos** : combine conjuntos de imágenes, conjuntos de giros, conjuntos de muestras, destinos de zoom, vídeo y audio en una presentación. Puede configurar los conjuntos de medios mixtos con fichas para separar los vídeos de las imágenes. También puede especificar dónde y cómo visualizar las muestras y destinos de zoom, y ofrecer a los usuarios una vista multimedia completa de sus productos o servicios.
+* **Conjuntos de medios mixtos** : proporcione una mezcla de conjuntos de imágenes, conjuntos de giros, conjuntos de muestras, destinos de zoom, vídeo y audio en una presentación. Puede configurar los conjuntos de medios mixtos con fichas para separar los vídeos de las imágenes. También puede especificar dónde y cómo visualizar las muestras y destinos de zoom, y ofrecer a los usuarios una vista multimedia completa de sus productos o servicios.
 Consulte [Inicio rápido: Conjuntos de medios mixtos](/help/quick-start-mixed-media-sets.md).
 
 * **Conjuntos de giros** : Secuencie imágenes para girarlas horizontalmente. Los conjuntos de giros permiten a los visitantes de un sitio web convertir productos y verlos desde diferentes lados. Los conjuntos de giros se pueden crear de forma monodimensional o bidimensional.
