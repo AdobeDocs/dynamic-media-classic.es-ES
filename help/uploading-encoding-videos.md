@@ -9,9 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 feature: Dynamic Media Classic,Visualizadores,Vídeo
-role: Business Practitioner
+role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
-source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '3882'
 ht-degree: 69%
@@ -242,9 +242,9 @@ Como ejemplo, suponga que el vídeo de origen es de 1920 x 1080. En la tabla sig
 
 | Tipo de vídeo | Anchura x altura | Proporción de anchura | Proporción de altura |
 |--- |--- |--- |--- |
-| Origen | 1920 x 1080 | 1 | 1 |
+| Origen | 1920 x 1080 | 1 | 3 |
 | Codificado | 960 x 540 | 2 | 2 |
-| Codificado | 640 x 360 | 3 | 1 |
+| Codificado | 640 x 360 | 3 | 3 |
 | Codificado | 480 x 270 | 4 | 4 |
 
 ### Formato de archivo de vídeo codificado {#encoded-video-file-format}
