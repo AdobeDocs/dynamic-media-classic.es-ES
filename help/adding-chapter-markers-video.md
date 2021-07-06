@@ -10,22 +10,22 @@ discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 feature: Dynamic Media Classic,Visualizadores,Vídeo
 role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 885fcd16559d31d3b9bad88705b4b6bec18515ee
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 83%
+source-wordcount: '627'
+ht-degree: 54%
 
 ---
 
 # Adición de marcadores de capítulo a vídeos{#adding-chapter-markers-to-video}
 
-Para facilitar la visualización y navegación en vídeos de larga duración, agregue marcadores de capítulo a vídeos individuales o a conjuntos de vídeos adaptables. Cuando un usuario reproduce el vídeo, puede hacer clic en los marcadores de capítulo en la línea de tiempo de vídeo (también conocido como selección manual de vídeo) para navegar con facilidad hasta su punto de interés o para pasar inmediatamente a contenido nuevo, demostraciones, tutoriales, y así sucesivamente.
+Para facilitar la visualización y navegación en vídeos de larga duración, agregue marcadores de capítulo a vídeos individuales o a conjuntos de vídeos adaptables. Cuando un usuario reproduce el vídeo, puede hacer clic en los marcadores de capítulo en la cronología del vídeo (también conocida como la barra de desplazamiento del vídeo). Al hacerlo, pueden navegar fácilmente hasta su punto de interés o ir inmediatamente a contenido, demostraciones, tutoriales, etc. nuevos.
 
 >[!NOTE]
 >
 >El reproductor de vídeo que se utilice debe admitir los marcadores de capítulo.
 
-Consulte [Adición y edición de ajustes preestablecidos de visor de vídeo](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) para configurar los puntos de señal de navegación por capítulos y el texto emergente de títulos de capítulos para el visor `Universal_HTML5_Video` (HTML5).
+Consulte [Adición o edición de un ajuste preestablecido de visualizador de vídeo](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) si desea configurar los puntos de referencia de navegación del capítulo y el texto emergente del título del capítulo para el visualizador `Universal_HTML5_Video` (HTML5).
 
 Consulte también [Adición y edición de ajustes preestablecidos de visor](application-setup.md#adding_and_editing_viewer_presets).
 
@@ -49,21 +49,21 @@ Chapter 4
 Cost-efficient access to rapidly evolving technology.
 ```
 
-En el ejemplo anterior, `Chapter 1` es el identificador de referencia y es opcional. El tiempo de referencia de `00:00:000 --> 01:04:364` especifica la hora de inicio y la hora de finalización del capítulo, en formato 00:00:000. Los tres últimos dígitos son milisegundos y pueden dejarse como 000, si se prefiere. El título del capítulo de `The bicycle store behind it all` es la descripción real del contenido del capítulo. El identificador de señal, el tiempo de señal de inicio y el título del capítulo aparecen en una ventana emergente en el reproductor de vídeo cuando un usuario desliza el puntero sobre un punto de señal visual en la línea de tiempo de vídeo.
+En el ejemplo anterior, `Chapter 1` es el identificador de referencia y es opcional. El tiempo de referencia de `00:00:000 --> 01:04:364` especifica la hora de inicio y la hora de finalización del capítulo, en formato 00:00:000. Los tres últimos dígitos son milisegundos y pueden dejarse como 000, si se prefiere. El título del capítulo de `The bicycle store behind it all` es la descripción real del contenido del capítulo. El identificador de referencia, el tiempo de referencia de inicio y el título del capítulo aparecen en una ventana emergente del reproductor de vídeo cuando el puntero se sitúa sobre un punto de referencia visual en la cronología del vídeo.
 
-Como está utilizando un visor de vídeo HTML5, asegúrese de que el archivo de capítulos que cree siga el estándar de WebVTT (Web Video Text Tracks). La extensión de nombre de archivo de capítulos es .vtt. Puede obtener más información sobre el estándar de subtítulos WebVTT.
+Como está utilizando un visor de vídeo HTML5, asegúrese de que el archivo de capítulos que cree siga el estándar de WebVTT (Web Video Text Tracks). La extensión del nombre del archivo del capítulo es .VTT. Puede obtener más información sobre el estándar de subtítulos WebVTT.
 
-Consulte [WebVTT: El formato de seguimiento de texto de vídeo web](https://dev.w3.org/html5/webvtt/).
+Consulte [WebVTT: El formato de seguimiento de texto de vídeo web](https://w3c.github.io/webvtt/).
 
-**Para agregar marcadores de capítulo a vídeos**
+**Para agregar marcadores de capítulo a vídeos:**
 
 1. Con un editor de texto simple fuera de Dynamic Media Classic, cree su archivo de capítulo de vídeo.
 
    >[!NOTE]
    >
-   >Para obtener compatibilidad global con capítulos de vídeo en idiomas distintos al inglés, el estándar WebVTT requiere crear llamadas y archivos .vtt independientes para cada idioma.
+   >Para la compatibilidad global con capítulos de vídeo en idiomas distintos del inglés, el estándar WebVTT requiere que cree archivos .vtt y llamadas independientes para cada idioma que desee admitir.
 
-1. Guarde el archivo .vtt con una codificación UTF8 para evitar problemas de representación de caracteres en el texto del título del capítulo.
+1. Guarde el archivo VTT con codificación UTF8 para evitar problemas con la representación de caracteres en el texto del título del capítulo.
 
    Lo normal es que desee nombrar al archivo de capítulos VTT con el mismo nombre que el archivo de vídeo y le añada la palabra `chapters`. Esto puede ayudarle a automatizar la generación de URL de vídeo mediante el sistema de administración de contenido web.
 
@@ -77,7 +77,7 @@ Consulte [WebVTT: El formato de seguimiento de texto de vídeo web](https://dev.
 
    * Para obtener un visor de vídeo emergente, haga clic en **[!UICONTROL Copiar URL]** a la derecha del nombre.
 
-      Añada la URL copiada del vídeo con la siguiente sintaxis para asociarla con la URL copiada en el archivo de subtítulos:
+      Añada la URL copiada del vídeo con la siguiente sintaxis para poder asociarla con la URL copiada al archivo de rótulo:
 
       `&navigation=*<full Copy URL path to the chapter navigation file .vtt>*`
 
