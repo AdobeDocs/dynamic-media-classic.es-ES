@@ -7,13 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: b33dacc4-509d-4878-a769-76642bfaeb4e
-feature: Dynamic Media Classic,Visualizadores,Conjuntos de medios mixtos
-role: Business Practitioner
+feature: Dynamic Media Classic,Visualizadores,Conjunto de medios mixtos
+role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
-source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
+source-git-commit: f99832bc9660a16b06e63b19f9ead1267dab0f35
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 97%
+source-wordcount: '648'
+ht-degree: 93%
 
 ---
 
@@ -42,7 +42,7 @@ Una vez que haya publicado un conjunto de medios mixtos, puede obtener su URL pa
 
 ## Adición de direcciones URL de conjuntos de medios mixtos a una página web {#add-mixed-media-set-urls-to-your-web-page}
 
-La manera más común de distribuir conjuntos de medios mixtos consiste en colocar un vínculo (por medio de un icono de navegación) en la página web. Si se selecciona este icono, se inicia una página web dinámica (ASP o JSP) que muestra el conjunto de medios mixtos en un visor de conjuntos de medios mixtos.
+La forma más habitual de implementar un conjunto de medios mixtos es colocar un vínculo (mediante un icono de navegación) en la página web. Si se selecciona este icono, se inicia una página web dinámica (ASP o JSP) que muestra el conjunto de medios mixtos en un visor de conjuntos de medios mixtos.
 
 ## Copia del código incrustado de un visor de conjuntos de medios mixtos {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
