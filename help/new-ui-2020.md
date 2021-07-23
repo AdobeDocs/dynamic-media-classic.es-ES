@@ -7,9 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 7663cca62046a334c4ab9852df3a9ae64f4ca2ef
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ Consulte [Aplicación de escritorio de Dynamic Media Classic de Adobe](/help/dyn
 
 ## _Última actualización: 30 de junio de 2020_
 
-Los usuarios de Dynamic Media Classic ahora tienen acceso a una nueva experiencia de inicio de sesión que ya no depende de la tecnología de Flash de Adobe del navegador.
+Los usuarios de Dynamic Media Classic ahora tienen acceso a una nueva experiencia de inicio de sesión que ya no depende de la tecnología de Flash de Adobe del explorador.
 
 ### **_Cuando los navegadores dejen de admitir el Flash de Adobe el 31 de diciembre de 2020, ¿se verá afectado en Dynamic Media Classic (anteriormente Scene7)?_**
 
-El Flash Player de Adobe era un complemento del explorador web que permitía a los navegadores utilizar contenido desarrollado en Adobe Flash Platform. La interfaz de usuario web de Dynamic Media Classic (actualmente etiquetada como [!DNL Scene7 Publishing System] o [!DNL SPS] en el producto) requería el Flash Player de Adobe. Cuando el Flash de Adobe está obsoleto el 31 de diciembre de 2020, los clientes de Dynamic Media Classic ya no podrán iniciar sesión en la interfaz de usuario web. Debido a este cambio, Adobe ha proporcionado a los clientes una aplicación de escritorio que sustituye la experiencia del explorador.
+El Flash Player de Adobe era un complemento del navegador web que permitía a los navegadores web utilizar contenido desarrollado en Adobe Flash Platform. La interfaz de usuario web de Dynamic Media Classic (actualmente etiquetada como [!DNL Scene7 Publishing System] o [!DNL SPS] en el producto) requería el Flash Player de Adobe. Cuando el Flash de Adobe está obsoleto el 31 de diciembre de 2020, los clientes de Dynamic Media Classic ya no podrán iniciar sesión en la interfaz de usuario web. Debido a este cambio, Adobe ha proporcionado a los clientes una aplicación de escritorio que sustituye la experiencia del explorador.
 
 ### **_¿Cómo puedo acceder a la nueva aplicación de escritorio?_**
 
@@ -36,7 +36,7 @@ Los vínculos de descarga también están disponibles a través de la página de
 
 ### **_¿Cómo funciona la nueva aplicación de escritorio?_**
 
-Después de descargar, instalar e iniciar la aplicación de escritorio, se le presentará un inicio de sesión actualizado. Al introducir su nombre de usuario y contraseña existentes y seleccionar el servidor apropiado en función de su región, puede iniciar sesión en Dynamic Media Classic. La experiencia general es la misma que la versión familiar del explorador web a la que está acostumbrado. Desde la aplicación de escritorio, puede acceder a los entornos de producción y ensayo de Dynamic Media Classic. También puede acceder a Media Portal si tiene credenciales para esta capacidad.
+Después de descargar, instalar e iniciar la aplicación de escritorio, se le presentará una experiencia de inicio de sesión actualizada. Al introducir su nombre de usuario y contraseña existentes y seleccionar el servidor apropiado en función de su región, puede iniciar sesión en Dynamic Media Classic. La experiencia general es la misma que la versión familiar del explorador web a la que está acostumbrado. Desde la aplicación de escritorio, puede acceder a los entornos de producción y ensayo de Dynamic Media Classic. También puede acceder a Media Portal si tiene credenciales para esta capacidad.
 
 >[!IMPORTANT]
 >
@@ -98,7 +98,7 @@ Además, [suscríbase al boletín de Dynamic Media](https://www.adobe.com/subscr
 
 ### **_Estoy interesado en aprender más sobre la actualización a Dynamic Media con AEM Assets. ¿Dónde puedo encontrar más información?_**
 
-Para obtener más información sobre las ventajas de actualizar a la siguiente generación de creación, publicación y envío dinámico de medios enriquecidos, visite el [portal de actualización de Dynamic Media](http://exploreadobe.com/dynamic-media-upgrade/).
+Para obtener más información sobre las ventajas de actualizar a la siguiente generación de creación, publicación y envío dinámico de medios enriquecidos, visite el [portal de actualización de Dynamic Media](https://exploreadobe.com/dynamic-media-upgrade/).
 
 >[!MORELIKETHIS]
 >
