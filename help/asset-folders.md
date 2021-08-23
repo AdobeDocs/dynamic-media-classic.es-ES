@@ -1,6 +1,6 @@
 ---
-title: Uso de carpetas de recursos
-description: Aprenda a trabajar con carpetas de recursos.
+title: Trabajar con carpetas de recursos
+description: Aprenda a trabajar con carpetas de recursos en Dynamic Media Classic.
 uuid: 3bd83701-e2c2-4e39-b225-c2d27ad836c2
 contentOwner: admin
 content-type: reference
@@ -10,38 +10,36 @@ discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
 feature: Dynamic Media Classic,Administración de recursos
 role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 49%
+source-wordcount: '450'
+ht-degree: 39%
 
 ---
 
-# Uso de carpetas de recursos{#working-with-asset-folders}
+# Trabajar con carpetas de recursos{#working-with-asset-folders}
 
 Los recursos de archivo de Dynamic Media Classic se guardan en carpetas. Estas carpetas aparecen en orden alfabético en el panel de la biblioteca de recursos. Antes de cargar archivos desde el equipo o la red a Dynamic Media Classic, se le pedirá que nombre una carpeta para almacenar los archivos. Cree estas carpetas antes de cargar ningún archivo.
 
 Asegúrese de establecer una estructura de carpetas y una organización para almacenar los archivos en Dynamic Media Classic antes de cargar los archivos.
 
-## Visualización, movimiento, ocultación y apertura de carpetas {#displaying-moving-hiding-and-opening-folders}
+## Mostrar, mover, ocultar y abrir carpetas {#displaying-moving-hiding-and-opening-folders}
 
 En la biblioteca de recursos se muestran los archivos que contiene el árbol de carpetas. Al seleccionar una carpeta en la biblioteca de recursos, su contenido aparecerá en el panel Examinar. Utilice estas técnicas para localizar carpetas en el árbol de carpetas:
 
-* **Visualización de subcarpetas** : seleccione el icono Expandir carpeta para mostrar las subcarpetas en una carpeta. Este icono se encuentra a la izquierda del nombre de cada carpeta.
+* **Mostrar subcarpetas** : seleccione el icono  **[!UICONTROL Expandir]** carpeta para mostrar las subcarpetas en una carpeta. Este icono se encuentra a la izquierda del nombre de cada carpeta.
 
-* **Mover una carpeta** : puede mover una carpeta arrastrándola y soltándola en su nueva ubicación, o seleccionando Archivo > Mover carpeta.
+* **Mover una carpeta** : puede mover una carpeta arrastrándola y soltándola en su nueva ubicación, o seleccionando  **[!UICONTROL Archivo]**  >  **[!UICONTROL Mover carpeta]**.
 
-* **Ocultar carpetas** : seleccione el icono Contraer carpeta para contraer subcarpetas. Este icono se encuentra a la izquierda del nombre de cada carpeta.
+* **Ocultar carpetas** : seleccione el  **[!UICONTROL icono]** Contraer carpeta si desea contraer subcarpetas para ocultarlas de la vista. Este icono se encuentra a la izquierda del nombre de cada carpeta.
 
-* **Apertura de una carpeta** : seleccione una carpeta para mostrar su contenido en el panel Examinar.
+* **Abrir una carpeta** : seleccione una carpeta si desea mostrar su contenido en el panel Examinar.
 
 >[!TIP]
 >
->Puede ocultar o mostrar la biblioteca de recursos haciendo clic en el control **[!UICONTROL Expand]** o **[!UICONTROL Collapse]** de la izquierda. Oculte el panel de la biblioteca de recursos si necesita más espacio de trabajo en el panel Examinar.
+>Puede ocultar o mostrar la biblioteca de recursos seleccionando **[!UICONTROL Expandir]** o **[!UICONTROL Contraer]** control en el lado izquierdo. Oculte el panel de la biblioteca de recursos si necesita más espacio de trabajo en el panel Examinar.
 
-## Creación de carpetas {#creating-folders}
-
-Para crear carpetas, siga estos pasos:
+## Crear carpetas {#creating-folders}
 
 1. En la biblioteca de recursos, seleccione la carpeta dentro de la que desea crear una carpeta.
 1. Seleccione el botón **[!UICONTROL Add Folder]**. Este icono se encuentra en la parte superior de la lista de carpetas.
@@ -49,15 +47,15 @@ Para crear carpetas, siga estos pasos:
 
    >[!NOTE]
    >
-   >También puede crear carpetas en Dynamic Media Classic al cargar archivos mediante FTP. Si selecciona la opción Incluir subcarpetas al cargar archivos por medio de FTP, se reproducirá la estructura de carpetas del sistema de su ordenador. Las carpetas y subcarpetas del ordenador o la red se reproducirán en la biblioteca de recursos, y los recursos cargados se colocarán en estas carpetas.
+   >También puede crear carpetas en Dynamic Media Classic al cargar archivos mediante FTP. Al seleccionar la opción **[!UICONTROL Incluir subcarpetas]** al cargar mediante FTP, se duplica la estructura de carpetas del equipo del sistema. Las carpetas y subcarpetas del ordenador o la red se reproducirán en la biblioteca de recursos, y los recursos cargados se colocarán en estas carpetas.
 
-## Eliminación y cambio de nombre de las carpetas {#deleting-and-renaming-folders}
+## Eliminar y cambiar el nombre de las carpetas {#deleting-and-renaming-folders}
 
 Seleccione una carpeta y utilice estas técnicas para eliminarla o cambiar su nombre:
 
-* **Eliminación** : seleccione el botón Quitar carpeta . Los recursos que se encuentren en una carpeta eliminada se colocarán en la carpeta Papelera. Podrá recuperarlos desde esta carpeta.
+* **Eliminar** : seleccione el botón  **[!UICONTROL Quitar]** carpeta . Los recursos que se encuentren en una carpeta eliminada se colocarán en la carpeta Papelera. Podrá recuperarlos desde esta carpeta.
 
-* **Cambio de nombre** : haga doble clic en el nombre e introduzca un nuevo nombre.
+* **Cambiar nombre** : haga doble clic en el nombre e introduzca un nuevo nombre.
 
 >[!NOTE]
 >
