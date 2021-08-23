@@ -5,7 +5,7 @@ title: Archivo de newsletter de Dynamic Media
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
-source-git-commit: ca42d0167f72adc1b22f1e6e65b7026b6f6897a3
+source-git-commit: 0b0556cdd05b6155e5e72b3cb40021589b232101
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 0%
@@ -21,6 +21,8 @@ ht-degree: 0%
 El boletín Dynamic Media de Experience League se ha diseñado para ayudarle a ponerse al día con Dynamic Media y Dynamic Media Classic, de modo que pueda obtener ventajas de inmediato.
 
 En este boletín archivado de una sola tienda, puede encontrar recursos valiosos para la creación de conocimientos, como vídeos explicativos y descripciones generales de soluciones. También hay introducciones a funciones y capacidades clave como ajustes preestablecidos de imagen, ajustes preestablecidos de visor y perfiles de vídeo.
+
+<!-- microsite demo page https://experienceleague.adobe.com/tools/dynamic-media-demo/index.html -->
 
 <!-- ## Get inspired. Stay informed.
 
