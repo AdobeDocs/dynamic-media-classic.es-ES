@@ -1,5 +1,5 @@
 ---
-title: Ajustes de administración
+title: Configuración de administración
 description: Obtenga información sobre cómo configurar el área de administración de Dynamic Media Classic.
 uuid: 16ba9fed-b5c6-4991-83b3-8d7d7129013a
 contentOwner: admin
@@ -9,10 +9,10 @@ discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
 workflow-type: tm+mt
-source-wordcount: '1935'
-ht-degree: 41%
+source-wordcount: '1948'
+ht-degree: 37%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 41%
 
 Las pantallas de Configuración de administración están destinadas a administrar usuarios de Dynamic Media Classic. Utilice estas pantallas para permitir a los usuarios trabajar en Dynamic Media Classic y comunicarse por correo electrónico con los usuarios.
 
-1. Para acceder a las opciones de Configuración de administración, haga clic en **Configuración** > **Configuración personal** > **Configuración de administración**.
+1. Para acceder a las opciones de configuración de administración, vaya a **Configuración** > **Configuración personal** > **Configuración de administración**.
 
 ## Administración de usuarios {#user-administration}
 
@@ -40,11 +40,11 @@ Dynamic Media Classic admite varias funciones de usuario. Estas funciones pueden
 
 Después de agregar un usuario, Dynamic Media Classic envía un mensaje de correo electrónico de bienvenida al usuario. El mensaje incluye una contraseña y la URL de Dynamic Media Classic.
 
-### Adición de un usuario o administrador {#adding-a-user-or-administrator}
+### Agregar un usuario o administrador {#adding-a-user-or-administrator}
 
-1. Haga clic en **[!UICONTROL Ajustes]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Ajustes de administración]** > **[!UICONTROL Administración de usuarios]**.
-1. Haga clic en **[!UICONTROL Agregar]**.
-1. Introduzca el nombre y la dirección de correo electrónico del usuario o administrador que desea añadir y, a continuación, haga clic en **[!UICONTROL Next]**.
+1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Configuración de la administración]** > **[!UICONTROL Administración de usuarios]**.
+1. Seleccione **[!UICONTROL Add]**.
+1. Introduzca el nombre y la dirección de correo electrónico del usuario o administrador que desea añadir y, a continuación, seleccione **[!UICONTROL Next]**.
 
    >[!NOTE]
    >
@@ -55,45 +55,45 @@ Después de agregar un usuario, Dynamic Media Classic envía un mensaje de corre
    Consulte [Funciones de usuario y privilegios de Dynamic Media Classic](administration-setup.md#user_administration).
 
 1. Para agregar un usuario a una empresa, seleccione un nombre de empresa.
-1. Si desea agregar el usuario a un grupo (si está agregando un usuario o colaborador de Media Portal), haga clic en **[!UICONTROL Siguiente]** y agregue el usuario.
-1. Haga clic en **[!UICONTROL Guardar]** para completar la configuración del usuario.
+1. Si desea agregar el usuario a un grupo (si está agregando un usuario o colaborador de Media Portal), seleccione **[!UICONTROL Siguiente]** y agregue el usuario.
+1. Seleccione **[!UICONTROL Guardar]** para completar la configuración del usuario.
 
-   Después de guardar, se le preguntará si desea agregar un usuario a otra empresa. Haga clic en **[!UICONTROL Agregar]** si desea agregar el usuario a una empresa.
+   Después de guardar, se le preguntará si desea agregar un usuario a otra empresa. Seleccione **[!UICONTROL Agregar]** si desea agregar el usuario a una empresa.
 
    A todos los usuarios nuevos se les asigna una contraseña generada aleatoriamente; es necesario que los usuarios cambien sus contraseñas la primera vez que inicien sesión en la aplicación de escritorio de Dynamic Media Classic.
 
    Los nuevos usuarios reciben un correo electrónico de bienvenida una vez que se han agregado al sistema. El correo electrónico proporciona una contraseña temporal y explica cómo iniciar sesión en Dynamic Media Classic.
 
-   Si el usuario no recibe el correo electrónico de bienvenida, pídale que vaya a la página de inicio de sesión de Dynamic Media Classic (https://s7sps1.scene7.com) y haga clic en Olvidé mi contraseña. La contraseña se restablece y se envía un nuevo mensaje de correo electrónico. Si el usuario no recibe el correo electrónico y no se encuentra en su carpeta de correo no deseado, póngase en contacto con el servicio de asistencia técnica.
+   Si el usuario no recibe el correo electrónico de bienvenida, pídale que vaya a la página de inicio de sesión de Dynamic Media Classic (https://s7sps1.scene7.com) y seleccione **[!UICONTROL Olvidé mi contraseña]**. La contraseña se restablece y se envía un nuevo mensaje de correo electrónico. Si el usuario no recibe el correo electrónico y no se encuentra en su carpeta de correo no deseado, póngase en contacto con el servicio de asistencia técnica.
 
-   Al agregar nuevos usuarios de Media Portal, también puede ir a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Administración de usuarios]**, luego hacer clic en **[!UICONTROL Cargar lista de usuarios]** y seleccionar un archivo .csv que no contenga más de 500 usuarios.
+   Al agregar nuevos usuarios de Media Portal, también puede ir a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Administración de usuarios]**, seleccionar **[!UICONTROL Cargar lista de usuarios]** y seleccionar un archivo .csv que no contenga más de 500 usuarios.
 
 ### Eliminación de un usuario {#deleting-a-user}
 
 Puede eliminar usuarios de Dynamic Media Classic invalidándolos. Los usuarios no válidos se eliminan del sistema y de todas las cuentas.
 
-1. Haga clic en **[!UICONTROL Ajustes]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Ajustes de administración]** > **[!UICONTROL Administración de usuarios]**.
-1. Seleccione un usuario de la lista y haga clic en **[!UICONTROL Editar]**.
+1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Configuración de la administración]** > **[!UICONTROL Administración de usuarios]**.
+1. Seleccione un usuario de la lista y, a continuación, seleccione **[!UICONTROL Editar]**.
 1. Anule la selección de Válido.
-1. Haga clic en **[!UICONTROL Guardar]**.
+1. Seleccione **[!UICONTROL Guardar]**.
 
-### Activación o desactivación de usuarios {#activating-or-deactivating-users}
+### Activar o desactivar usuarios {#activating-or-deactivating-users}
 
 Los usuarios desactivados dejan de tener permiso para acceder a una cuenta que aparezca en la parte superior del menú para seleccionar cuentas a las que acceder.
 
-1. Haga clic en **[!UICONTROL Ajustes]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Ajustes de administración]** > **[!UICONTROL Administración de usuarios]**.
+1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Configuración de la administración]** > **[!UICONTROL Administración de usuarios]**.
 1. En la lista de usuarios, seleccione o anule la selección de la opción **[!UICONTROL Active]** junto al nombre del usuario.
 
-### Edición de la información de usuario {#editing-user-information}
+### Edición de información de usuario {#editing-user-information}
 
 La información de usuario que puede modificar depende de su función como administrador y de la función que tenga asignada el usuario cuya información se desea editar. Las opciones que aparecen atenuadas (no disponibles) no son editables.
 
-1. Haga clic en **[!UICONTROL Ajustes]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Ajustes de administración]** > **[!UICONTROL Administración de usuarios]**.
-1. Seleccione el usuario y haga clic en **[!UICONTROL Editar]**.
-1. Seleccione la entrada en la tabla que muestra la empresa para la que intenta modificar permisos o acceso y haga clic en **[!UICONTROL Administrar empresa]**.
+1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Configuración de la administración]** > **[!UICONTROL Administración de usuarios]**.
+1. Seleccione un usuario de la lista y, a continuación, seleccione **[!UICONTROL Editar]**.
+1. Seleccione la entrada en la tabla que muestra la empresa para la que intenta modificar permisos o acceso y, a continuación, seleccione **[!UICONTROL Administrar empresa]**.
 1. Seleccione la función de usuario.
-1. Si desea cambiar la pertenencia al grupo del usuario (si está editando o agregando un usuario o colaborador de Media Portal), haga clic en **[!UICONTROL Siguiente]** y edite la pertenencia al grupo.
-1. Haga clic en **[!UICONTROL Guardar]**.
+1. Si desea cambiar la pertenencia al grupo del usuario (si está editando o agregando un usuario o colaborador de Media Portal), seleccione **[!UICONTROL Siguiente]** y edite la pertenencia al grupo.
+1. Seleccione **[!UICONTROL Guardar]**.
 
 ### Filtrado y ordenación de la lista de usuarios {#filtering-and-sorting-the-user-list}
 
@@ -109,7 +109,7 @@ Puede utilizar las siguientes técnicas de filtrado en la lista usuarios:
 
 * **Filtrar usuarios**  no válidos: Anule la selección de  **[!UICONTROL Incluir no válido]**. En los resultados de búsqueda aparecerán solo los usuarios que están en el sistema. Los usuarios no válidos se han eliminado del sistema y las cuentas que administra.
 
-* **Ordenar por encabezado de columna** : haga clic en un encabezado para ordenar todos los usuarios por su estado, alfabéticamente por nombre, apellido o correo electrónico, por función de usuario o por estado válido/no válido.
+* **Ordenar por encabezado de columna** : seleccione un encabezado para ordenar todos los usuarios por su estado, alfabéticamente por nombre, apellido o correo electrónico, por función de usuario o por estado válido/no válido.
 
 Si tiene muchos usuarios, puede limitar el tamaño de la lista seleccionando un número en el menú Tamaño máximo de lista.
 
@@ -122,18 +122,18 @@ You can link an Adobe IMS user identity to a Dynamic Media Classic IPS user acco
    When the setup is complete, you can can log on to Adobe Marketing Cloud and link your Adobe Marketing Cloud identity to your Dynamic Media Classic user account by doing the following.
 
 1. In Adobe Marketing Cloud, navigate to your account settings.
-1. Click **Manage Organizations**.
-1. Click **Link Account** or **Get Access**.
+1. Select **Manage Organizations**.
+1. Select **Link Account** or **Get Access**.
 1. Select **Experience Manager**, and then type your credentials.
 
    Your credentials include your IPS company region, email address, and password.
 
-1. Click **Link**.
+1. Select **Link**.
 1. When the link is set, you can launch Scene7 Publishing System from within Adobe Marketing Cloud, or you can launch it directly.
 
    Do one of the following:
 
-    * To launch Dynamic Media Classic from within Adobe Marketing Cloud, in the left rail of Adobe Marketing Cloud, click **Solutions** > **Experience Manager**. Under the Dynamic Media Classic card, click **Launch**.
+    * To launch Dynamic Media Classic from within Adobe Marketing Cloud, in the left rail of Adobe Marketing Cloud, select **Solutions** > **Experience Manager**. Under the Dynamic Media Classic card, select **Launch**.
     * To log on to Scene7 Publishing System directly using your IMS credentials, use the following website:
 
       https://s7spsN.scene7.com/IpsWeb?ims=1
@@ -145,7 +145,7 @@ You can link an Adobe IMS user identity to a Dynamic Media Classic IPS user acco
 
 Los administradores de Dynamic Media Classic pueden generar informes de ancho de banda, almacenamiento y otros tipos para las empresas que administran. Estos informes están disponibles en la página Ancho de banda y almacenamiento .
 
-Para abrir esta página, haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Configuración personal]**. Expanda **[!UICONTROL Administration Setup]** y, a continuación, haga clic en **[!UICONTROL Bandwidth &amp; Storage]**.
+Para abrir esta página, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración personal]**. Expanda **[!UICONTROL Administration Setup]** y, a continuación, seleccione **[!UICONTROL Bandwidth &amp; Storage]**.
 
 ### Tipos de informes {#types-of-reports}
 
@@ -178,55 +178,55 @@ El informe de contenido de imagen proporciona información acerca de las solicit
 >
 >El informe de flujo continuo de vídeo solo se aplica al flujo continuo de vídeos. No registra la visualización de vídeos progresivos.
 
-### Generación de un informe {#generating-a-report}
+### Generar un informe {#generating-a-report}
 
 Siga estos pasos para generar un informe de ancho de banda, almacenamiento, contenido de imágenes, dominio, flujo continuo de vídeo o contenido de vídeo:
 
-1. Seleccione **[!UICONTROL Configuración]** > **[!UICONTROL Configuración personal]**.
-1. Expanda Configuración de administración y, a continuación, haga clic en **[!UICONTROL Ancho de banda y almacenamiento]**.
-1. Haga clic en una ficha: **[!UICONTROL Ancho de banda]**, **[!UICONTROL Almacenamiento]**, **[!UICONTROL Contenido de imagen]**, **[!UICONTROL Dominio]**, **[!UICONTROL Flujo de vídeo]** o **[!UICONTROL Contenido de vídeo]**.
+1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración personal]**.
+1. Expanda Configuración de administración y, a continuación, seleccione **[!UICONTROL Ancho de banda y almacenamiento]**.
+1. Seleccione una pestaña: **[!UICONTROL Ancho de banda]**, **[!UICONTROL Almacenamiento]**, **[!UICONTROL Contenido de imagen]**, **[!UICONTROL Dominio]**, **[!UICONTROL Flujo de vídeo]** o **[!UICONTROL Contenido de vídeo]**.
 
    Consulte [Tipos de informes](administration-setup.md#types_of_reports).
 
-### Visualización de datos con distintos métodos {#viewing-data-in-different-ways}
+### Ver datos de diferentes maneras {#viewing-data-in-different-ways}
 
 Después de generar un informe en la página Ancho de banda y almacenamiento, puede elegir opciones para ver la información. Puede elegir cómo se presenta la información, ver la información en un diagrama o en una cuadrícula de datos, así como especificar un período de tiempo para la recopilación de información. En la vista Datos, también puede ordenar la información y reorganizar las columnas.
 
-* **Visualización de datos en un gráfico o cuadrícula**  de datos: haga clic en  **[!UICONTROL Vista]** de gráfico para ver los datos en un gráfico; haga clic en  **[!UICONTROL Vista]** de datos para ver los datos en una cuadrícula de datos.
+* **Ver datos en un gráfico o cuadrícula**  de datos: seleccione  **[!UICONTROL Vista]** de gráfico para ver los datos en un gráfico; seleccione  **[!UICONTROL Vista]** de datos para ver los datos en una cuadrícula de datos.
 
-* **Selección de un tipo de presentación de informe** : en el menú Tipo de informe, haga clic en  **[!UICONTROL Resumen]**,  **[!UICONTROL Diario]** o  **** Mes para organizar los datos en forma de resumen, por día o por mes. No todos los informes ofrecen esta opción.
+* **Elija un tipo de presentación de informe** : en el menú Tipo de informe, seleccione  **[!UICONTROL Resumen]**,  **[!UICONTROL Diario]** o  **** Mes para organizar los datos en forma de resumen, por día o por mes. No todos los informes ofrecen esta opción.
 
-* **Especificación de un período de tiempo** : elija opciones para definir un período de tiempo para el informe y, a continuación, haga clic en  **** Actualizar después de definir un período de tiempo:
+* **Especifique un período de tiempo** : elija opciones para definir un período de tiempo para el informe y, a continuación, seleccione  **** Actualizar después de definir un período de tiempo:
 
 * **Período de tiempo predefinido** : en el menú Informe predefinido, elija una opción. Por ejemplo, elija Último mes para recopilar los datos del mes anterior.
 
-* **Período de tiempo personalizado** : en el menú Informe predefinido, haga clic en  **[!UICONTROL Personalizado]**. A continuación, elija una fecha en el menú **[!UICONTROL Mes de inicio]** (o **[!UICONTROL Fecha de inicio]**) y una fecha en el menú N.º de meses (o N.º de días). En el caso de informes de dominio y de contenido de vídeo, puede elegir una fecha inicial y final específica para capturar los datos del informe.
+* **Período de tiempo personalizado** : en el menú Informe predefinido, seleccione  **[!UICONTROL Personalizado]**. A continuación, elija una fecha en el menú **[!UICONTROL Mes de inicio]** (o **[!UICONTROL Fecha de inicio]**) y una fecha en el menú N.º de meses (o N.º de días). En el caso de informes de dominio y de contenido de vídeo, puede elegir una fecha inicial y final específica para capturar los datos del informe.
 
-* **Clasificación de datos (solo vista de datos)** : para ordenar la información en una columna, haga clic en el encabezado de la columna. Haga clic de nuevo para cambiar al orden descendente.
+* **Ordenar datos (solo vista de datos)** : para ordenar la información en una columna, seleccione el encabezado de la columna. Seleccione de nuevo para ordenar en orden descendente.
 
-* **Reorganización de columnas (solo vista de datos)** : para mover una columna a una ubicación diferente de la cuadrícula de datos, arrastre su encabezado.
+* **Reorganizar columnas (solo vista de datos)** : para mover una columna a una ubicación diferente de la cuadrícula de datos, arrastre su encabezado.
 
 ### Exportación e impresión de informes {#exporting-and-printing-reports}
 
 Después de generar un informe, puede exportar sus datos para utilizarlos en hojas de cálculo y en otras aplicaciones. También puede imprimir los informes.
 
-* **Exportación de datos de informes** : en la vista de datos, ordene y organice los datos según sea necesario. A continuación, abra el menú **[!UICONTROL Export]** y elija un formato: **[!UICONTROL Delimitado por tabulaciones]**, **[!UICONTROL Separado por comas]** o **[!UICONTROL HTML con formato]**. Los datos se copian en el portapapeles con el formato que elija. Ahora puede pegarlos en una hoja de cálculo o en una aplicación.
+* **Exportar datos del informe** : en la vista Datos, ordene y organice los datos según sea necesario. A continuación, abra el menú **[!UICONTROL Export]** y elija un formato: **[!UICONTROL Delimitado por tabulaciones]**, **[!UICONTROL Separado por comas]** o **[!UICONTROL HTML con formato]**. Los datos se copian en el portapapeles con el formato que elija. Ahora puede pegarlos en una hoja de cálculo o en una aplicación.
 
-* **Imprimir un informe** : haga clic en  **[!UICONTROL Imprimir]**, elija las opciones que desee en el cuadro de diálogo Imprimir y, a continuación, haga clic en  **[!UICONTROL Aceptar]**.
+* **Imprimir un informe** : seleccione  **[!UICONTROL Imprimir]**, elija las opciones que desee en el cuadro de diálogo Imprimir y, a continuación, seleccione  **[!UICONTROL Aceptar]**.
 
 ## Errores de imagen {#image-errors}
 
 Los administradores de Dynamic Media Classic pueden generar informes de errores de imagen. Estos informes proporcionan una lista de los 20 errores de imagen más frecuentes, en las últimas 24 horas, de la empresa en la que haya iniciado sesión en ese momento. Para generar un informe de error de imagen, haga lo siguiente:
 
-1. Haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Configuración personal]**.
-1. Expanda Configuración de administración y, a continuación, haga clic en **[!UICONTROL Errores de imagen]**.
+1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración personal]**.
+1. Expanda Configuración de administración y, a continuación, seleccione **[!UICONTROL Errores de imagen]**.
 1. (Opcional) Lleve a cabo uno de los procedimientos siguientes:
 
-   * Para ordenar los errores por la información del encabezado, haga clic en un encabezado. De manera predeterminada, los errores se ordenan, de mayor a menor, según el número de veces que aparecen.
+   * Para ordenar los errores por la información del encabezado, seleccione un encabezado. De manera predeterminada, los errores se ordenan, de mayor a menor, según el número de veces que aparecen.
    * Mueva el cursor sobre el campo Respuesta de un determinado error para ver el mensaje de error específico.
    * Para ver el vínculo a la página web de la imagen o del referente, mueva el cursor sobre el campo URL o el campo Referente .
-   * Para copiar el vínculo a la imagen real, haga clic en **[!UICONTROL URL Copiar URL]**. Puede pegar este vínculo en una ventana del explorador para acceder a la imagen e investigar el error.
-   * Para copiar el vínculo a la página web del referente, haga clic en **[!UICONTROL URL de copia del referente]**.
+   * Para copiar el vínculo a la imagen real, seleccione **[!UICONTROL URL Copy URL]**. Puede pegar este vínculo en una ventana del explorador para acceder a la imagen e investigar el error.
+   * Para copiar el vínculo a la página web del referente, seleccione **[!UICONTROL URL de copia del referente]**.
 
 Los errores mostrados pertenecen a la empresa en la que haya iniciado sesión en ese momento. Cada error incluye la siguiente información:
 
