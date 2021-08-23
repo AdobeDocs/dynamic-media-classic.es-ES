@@ -1,5 +1,5 @@
 ---
-title: Acerca de la gestión de recursos
+title: Acerca de la administración de recursos en Dynamic Media Classic
 description: Introducción a la administración de recursos en Dynamic Media Classic
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -7,14 +7,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 feature: Dynamic Media Classic,Administración de recursos
 role: User
 exl-id: d15aaa18-123d-442e-928f-8e71fa266a64
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 80%
+source-wordcount: '165'
+ht-degree: 76%
 
 ---
 
-# Acerca de la gestión de recursos{#about-managing-assets}
+# Acerca de la administración de recursos en Dynamic Media Classic {#about-managing-assets}
 
 Dynamic Media Classic ofrece la biblioteca de recursos para administrar recursos. La biblioteca de recursos contiene las carpetas donde se almacenan los archivos de recursos. Si se selecciona una carpeta en la biblioteca de recursos, se muestra el contenido de dicha carpeta en el panel Examinar. Los elementos del panel Examinar se pueden visualizar en vistas de cuadrícula, lista o detalles. Cuando desee centrarse en un solo recurso, haga doble clic en él dentro del panel Examinar para mostrarlo en la vista de detalles.
 
