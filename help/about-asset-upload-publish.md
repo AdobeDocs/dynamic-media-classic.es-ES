@@ -8,14 +8,14 @@ discoiquuid: 47dcbb26-b90f-40d7-964e-f08fe98fcdbb
 feature: Dynamic Media Classic,Administración de recursos
 role: User
 exl-id: 98b12031-f88b-47ea-a95b-31d71eaf22c2
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 25%
 
 ---
 
-# Acerca de la carga y publicación de recursos{#about-uploading-and-publishing-assets}
+# Acerca de la carga y publicación de recursos {#about-uploading-and-publishing-assets}
 
 El trabajo en Dynamic Media Classic se divide en tres áreas básicas:
 
