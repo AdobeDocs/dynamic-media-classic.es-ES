@@ -1,6 +1,6 @@
 ---
-title: Adición de marcadores de capítulo a vídeos
-description: Aprenda a añadir marcadores de capítulo a un vídeo.
+title: Agregar marcadores de capítulo a vídeo
+description: Aprenda a añadir marcadores de capítulo a un vídeo en Dynamic Media Classic.
 uuid: 4e1e6daf-afc6-49d9-ac90-183fe2a903b2
 contentOwner: admin
 content-type: reference
@@ -10,24 +10,24 @@ discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 feature: Dynamic Media Classic,Visualizadores,Vídeo
 role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
-source-git-commit: 885fcd16559d31d3b9bad88705b4b6bec18515ee
+source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 54%
+source-wordcount: '631'
+ht-degree: 40%
 
 ---
 
-# Adición de marcadores de capítulo a vídeos{#adding-chapter-markers-to-video}
+# Agregar marcadores de capítulo a vídeo {#adding-chapter-markers-to-video}
 
-Para facilitar la visualización y navegación en vídeos de larga duración, agregue marcadores de capítulo a vídeos individuales o a conjuntos de vídeos adaptables. Cuando un usuario reproduce el vídeo, puede hacer clic en los marcadores de capítulo en la cronología del vídeo (también conocida como la barra de desplazamiento del vídeo). Al hacerlo, pueden navegar fácilmente hasta su punto de interés o ir inmediatamente a contenido, demostraciones, tutoriales, etc. nuevos.
+Para facilitar la visualización y navegación en vídeos de larga duración, agregue marcadores de capítulo a vídeos individuales o a conjuntos de vídeos adaptables. Cuando un usuario reproduce el vídeo, puede seleccionar los marcadores de capítulo en la cronología del vídeo (también conocido como la barra de desplazamiento del vídeo). Al hacerlo, pueden navegar fácilmente hasta su punto de interés o ir inmediatamente a contenido, demostraciones, tutoriales, etc. nuevos.
 
 >[!NOTE]
 >
 >El reproductor de vídeo que se utilice debe admitir los marcadores de capítulo.
 
-Consulte [Adición o edición de un ajuste preestablecido de visualizador de vídeo](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) si desea configurar los puntos de referencia de navegación del capítulo y el texto emergente del título del capítulo para el visualizador `Universal_HTML5_Video` (HTML5).
+Consulte [Agregar o editar un ajuste preestablecido de visualizador de vídeo](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) si desea configurar los puntos de referencia de navegación del capítulo y el texto emergente del título del capítulo para el visualizador `Universal_HTML5_Video` (HTML5).
 
-Consulte también [Adición y edición de ajustes preestablecidos de visor](application-setup.md#adding_and_editing_viewer_presets).
+Consulte también [Agregar y editar ajustes preestablecidos de visor](application-setup.md#adding_and_editing_viewer_presets).
 
 Puede crear una lista de capítulos del vídeo más o menos del mismo modo en que se crean los subtítulos. Es decir, se crea un archivo WebVTT. Tenga en cuenta, no obstante, que este archivo debe ser independiente de cualquier otro archivo WebVTT de subtítulo que utilice; no puede combinar subtítulos y capítulos en un archivo WebVTT.
 
@@ -69,21 +69,21 @@ Consulte [WebVTT: El formato de seguimiento de texto de vídeo web](https://w3c.
 
 1. En Dynamic Media Classic, cargue el archivo de capítulo WebVTT.
 
-   Consulte [Carga de archivos](uploading-files.md#uploading_files).
+   Consulte [Cargar archivos](uploading-files.md#uploading_files).
 
 1. En el panel Biblioteca de recursos del lado izquierdo, navegue a la carpeta de recursos que contenga el archivo de vídeo que desee asociar al archivo de capítulos que haya cargado.
-1. En el panel de exploración de recursos, seleccione un único recurso de vídeo y, a continuación, haga clic en **[!UICONTROL Vista previa]** > **[!UICONTROL Lista del visor]** debajo de la imagen en miniatura del recurso.
+1. En el panel Examinar recursos, seleccione un único recurso de vídeo y, a continuación, debajo de la imagen en miniatura del recurso, seleccione **[!UICONTROL Vista previa]** > **[!UICONTROL Lista del visor]**.
 1. En la tabla Lista de visores, busque el visor HTML5 con el nombre **Universal_HTML5_Video** y, a continuación, realice una de las siguientes acciones:
 
-   * Para obtener un visor de vídeo emergente, haga clic en **[!UICONTROL Copiar URL]** a la derecha del nombre.
+   * Para una experiencia con el visor de vídeo emergente, seleccione **[!UICONTROL Copiar URL]** en el extremo derecho del nombre.
 
       Añada la URL copiada del vídeo con la siguiente sintaxis para poder asociarla con la URL copiada al archivo de rótulo:
 
       `&navigation=*<full Copy URL path to the chapter navigation file .vtt>*`
 
-   * Para obtener un visor de vídeo incorporado, haga clic en **[!UICONTROL Código Incrustado]** a la derecha del nombre.
+   * Para una experiencia con el visor de vídeo incrustado, seleccione **[!UICONTROL Código incrustado]** a la derecha del nombre.
 
-      En el cuadro de diálogo Código incrustado, haga clic en **[!UICONTROL Copiar al portapapeles]**.
+      En el cuadro de diálogo Código incrustado, seleccione **[!UICONTROL Copiar al portapapeles]**.
 
       Para el visor HTML5 `Universal_HTML5_Video`, añada el código incrustado copiado con lo siguiente:
 
