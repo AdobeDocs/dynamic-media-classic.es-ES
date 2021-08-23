@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic,Administración de recursos
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1c7900b2807e6b67e9802e6361e42cce893b0217
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 54%
@@ -47,7 +47,7 @@ Como práctica recomendada para el tamaño de la imagen, utilice `&wid=<value>&h
 
 El enfoque de imágenes es el aspecto más complejo del control de imágenes en su sitio Web y en el que se producen muchos errores. Tómese el tiempo para obtener más información sobre cómo funciona la máscara de enfoque y enfoque en Dynamic Media Classic, consulte los siguientes recursos útiles:
 
-Documento técnico de prácticas recomendadas [Enfoque de imágenes en Adobe Dynamic Media Classic y en Image Server](/help/assets/s7_sharpening_images.pdf).
+Documento técnico de prácticas recomendadas [Enfocar imágenes en Adobe Dynamic Media Classic y en Image Server](/help/assets/s7_sharpening_images.pdf).
 
 <!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
@@ -69,7 +69,7 @@ Puede utilizar dos métodos de enfoque de imágenes:
 
          Este parámetro determina la diferencia entre los píxeles enfocados y el área circundante antes de que se consideren píxeles de borde y el filtro los enfoque. El umbral ayuda a evitar el exceso de áreas de enfoque con colores similares, como los tonos de piel. Por ejemplo, un valor de umbral de 12 ignora las ligeras variaciones en el brillo del tono de la piel para evitar agregar “ruido”, mientras que al mismo tiempo agrega contraste al borde de las áreas de alto contraste, como cuando las pestañas tocan la piel.
 
-         Para obtener más información sobre cómo configurar estos tres parámetros, incluidas las prácticas recomendadas para usar con el filtro, consulte [Enfoque de imágenes en Adobe Scene7 Publishing System y en Image Server](/help/assets/s7_sharpening_images.pdf).
+         Para obtener más información sobre cómo configurar estos tres parámetros, incluidas las prácticas recomendadas para usar con el filtro, consulte [Enfocar imágenes en Adobe Dynamic Media Classic y en Image Server](/help/assets/s7_sharpening_images.pdf).
 
       * Dynamic Media Classic también le permite controlar un cuarto parámetro: monocromo ( `0,1`). Este parámetro determina si la máscara de enfoque se aplica a cada componente de color por separado mediante el valor `0` o al brillo o la intensidad de la imagen con el valor `1`.
 
