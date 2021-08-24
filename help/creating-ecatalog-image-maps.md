@@ -1,6 +1,6 @@
 ---
 title: Creación de mapas de imagen de catálogos electrónicos
-description: Aprenda a crear mapas de imágenes de catálogos electrónicos.
+description: Aprenda a crear mapas de imágenes de catálogos electrónicos en Dynamic Media Classic.
 uuid: 943ad3f7-a885-4bc2-88cb-77083384bdf8
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 feature: Dynamic Media Classic,Visualizadores,Catálogo electrónico
 role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
 workflow-type: tm+mt
-source-wordcount: '1487'
-ht-degree: 46%
+source-wordcount: '1491'
+ht-degree: 40%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 46%
 
 Un mapa de imagen es una región de una página de catálogo electrónico que puede pasar el ratón o seleccionar para almacenar en déclencheur acciones de varios tipos. Al mover el puntero sobre un mapa de imagen, por ejemplo, se ve una descripción de un elemento con texto de sustitución. Al seleccionar un mapa de imagen, se inicia otra acción. Por ejemplo, se puede abrir una página web para que los usuarios que la vean puedan obtener más información sobre un elemento o adquirirlo, o bien puede iniciar un vídeo para ver un elemento en uso.
 
-## Dibujo de mapas de imagen de catálogos electrónicos {#drawing-ecatalog-image-maps}
+## Dibujar mapas de imagen del catálogo electrónico {#drawing-ecatalog-image-maps}
 
 Los mapas de imagen de los catálogos electrónicos se dibujan en la ficha Páginas de mapa, que se encuentra en la pantalla Catálogo electrónico. En esta pantalla aparece el área del mapa de imagen en la que se muestran las páginas del catálogo electrónico y, a la derecha, la lista de mapas de imagen. A medida que cree los mapas de imagen, sus nombres se añadirán a la lista de mapas de imagen.
 
@@ -41,19 +41,19 @@ Los mapas de imagen de los catálogos electrónicos se dibujan en la ficha Pági
 
    Para facilitar la introducción de direcciones URL (plantillas Href), seleccione **[!UICONTROL Editar]** e introduzca una plantilla.
 
-Consulte [Uso de plantillas para introducir elementos de JavaScript y direcciones URL](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls).
+Consulte [Uso de una plantilla para introducir JavaScript y direcciones URL](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls).
 
 1. (Opcional) En la lista desplegable Mostrar , seleccione **[!UICONTROL Texto de sustitución]** e introduzca el texto que desea que vean los usuarios en pantalla cuando desplacen sus punteros por el mapa de imagen.
 1. (Opcional) En la lista desplegable Mostrar , seleccione **[!UICONTROL Otras acciones]** e introduzca un atributo para crear un déclencheur de una acción de enfoque o desenfoque cuando los usuarios muevan sus punteros sobre un mapa de imagen.
 
-   Consulte [Definición de otras acciones para los mapas de imagen](creating-image-maps.md#defining_other_actions_for_image_maps).
+   Consulte [Definir otras acciones para mapas de imágenes](creating-image-maps.md#defining_other_actions_for_image_maps).
 
 1. Seleccione **[!UICONTROL Guardar]**.
 1. (Opcional) Seleccione **[!UICONTROL Preview]** para ver el catálogo electrónico con el ajuste preestablecido predeterminado del visor de catálogos electrónicos.
 
 Para eliminar un mapa de imagen, seleccione su nombre en la lista Mapa de imagen y seleccione **[!UICONTROL Eliminar]**. Si desea eliminar de forma temporal un mapa de imagen dentro de la página y no borrarlo definitivamente, desactive la opción Activado del mapa de imagen en la lista de mapas de imagen.
 
-## Incrustación de medios enriquecidos en un catálogo electrónico {#embedding-rich-media-in-an-ecatalog}
+## Incrustar medios enriquecidos en un catálogo electrónico {#embedding-rich-media-in-an-ecatalog}
 
 Puede utilizar la opción de medios enriquecidos de catálogo electrónico para agregar vídeos en formato MP4 o conjuntos de giros a mapas de imagen que se hayan añadido a un catálogo electrónico. Cuando un usuario selecciona el área de mapa de imagen en el catálogo electrónico, se muestra el conjunto de giros o vídeo asociado. Esta funcionalidad es especialmente útil si desea que los clientes vean un elemento en uso o vean un elemento desde diferentes ángulos y perspectivas.
 
@@ -63,7 +63,7 @@ También puede mostrar de forma opcional información sobre herramientas cuando 
 
 1. Dibuje un mapa de imagen de catálogo electrónico.
 
-   Consulte [Dibujo de mapas de imagen de catálogos electrónicos](creating-ecatalog-image-maps.md#drawing_ecatalog_image_maps).
+   Consulte [Dibujar mapas de imagen del catálogo electrónico](creating-ecatalog-image-maps.md#drawing_ecatalog_image_maps).
 
 1. En la lista desplegable Mostrar , seleccione **[!UICONTROL Medios enriquecidos]**.
 1. En el panel Agregar recursos en la parte izquierda, navegue hasta la carpeta que contenga el conjunto de giros o el vídeo (formato MP4) que desee incrustar.
@@ -75,7 +75,7 @@ También puede mostrar de forma opcional información sobre herramientas cuando 
 
 En la pantalla Catálogo electrónico, vaya a la ficha Páginas de mapa, desde donde podrá utilizar estas técnicas para editar los mapas de imagen del catálogo electrónico:
 
-* **Ajuste de la posición** : seleccione la herramienta Panorámica y mueva el puntero cerca del borde del mapa, pero no más allá de él. Cuando el puntero se convierta en una flecha con cuatro puntas, arrastre el mapa completo de imagen a una nueva ubicación.
+* **Ajustar la posición** : seleccione la herramienta Panorámica y mueva el puntero cerca del borde del mapa, pero no más allá de él. Cuando el puntero se convierta en una flecha con cuatro puntas, arrastre el mapa completo de imagen a una nueva ubicación.
 
    Consulte [Ajuste de la posición, la forma y el tamaño de los mapas de imagen](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
@@ -89,17 +89,17 @@ En la pantalla Catálogo electrónico, vaya a la ficha Páginas de mapa, desde d
 
 * **Gestión de mapas de imagen superpuestos** : arrastre para cambiar el orden de los mapas de imagen en la lista de mapas de imagen.
 
-   Consulte [Control de superposición de mapas de imagen](creating-image-maps.md#handling_overlapping_image_maps).
+   Consulte [Gestión de mapas de imagen superpuestos](creating-image-maps.md#handling_overlapping_image_maps).
 
 * **Copia de mapas de imagen a otras páginas** : seleccione  **[!UICONTROL Copiar asignaciones a]**  (asegúrese de que está en la ficha Páginas de mapa). En la pantalla Seleccionar imágenes, seleccione la página o páginas donde desee copiar los mapas de imagen y seleccione **[!UICONTROL Seleccionar]**.
 
-   Consulte [Copia de mapas de imagen a otras imágenes](creating-image-maps.md#copying_image_maps).
+   Consulte [Copiar mapas de imagen a otras imágenes](creating-image-maps.md#copying_image_maps).
 
 >[!NOTE]
 >
->Además de copiar mapas de imagen en diferentes páginas de un catálogo electrónico, puede copiar todos los mapas de imagen de un catálogo electrónico en otro. Consulte [Copia de mapas de imagen entre catálogos electrónicos](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs).
+>Además de copiar mapas de imagen en diferentes páginas de un catálogo electrónico, puede copiar todos los mapas de imagen de un catálogo electrónico en otro. Consulte [Copiar mapas de imagen entre catálogos electrónicos](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs).
 
-## Revisión e importación de datos de mapa de imagen {#reviewing-and-importing-image-map-data}
+## Revisar e importar datos de mapa de imagen {#reviewing-and-importing-image-map-data}
 
 En la pantalla Resumen de mapas se pueden ver los metadatos del catálogo electrónico. Desde esta pantalla, también puede importar datos de mapas de imagen por lotes para el catálogo electrónico. Si se importan datos de mapas de imagen de esta forma, será más fácil introducir direcciones URL y texto de rollover para los mapas de imagen.
 
