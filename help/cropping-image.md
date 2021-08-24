@@ -10,10 +10,10 @@ discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
 feature: Dynamic Media Classic,Administración de recursos
 role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
-source-git-commit: 885fcd16559d31d3b9bad88705b4b6bec18515ee
+source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 43%
+source-wordcount: '548'
+ht-degree: 39%
 
 ---
 
@@ -34,8 +34,8 @@ Puede recortar los píxeles transparentes o de color sólido del borde de una im
 1. Para recortar una imagen, seleccione su botón de rollover **[!UICONTROL Editar]** y elija **[!UICONTROL Recortar]**, o muéstrela en el panel Examinar en la vista de detalles y seleccione el botón **[!UICONTROL Recortar]**.
 1. En la página Editor de recorte, realice una de las siguientes acciones:
 
-   * Para recortar los píxeles de color, vaya a **[!UICONTROL Recortar]** > **[!UICONTROL Color]**. Aparecerá el cuadro de diálogo Recorte automático por color. Seleccione el menú **[!UICONTROL Corner]** y elija una esquina con el color de fondo que desea recortar. A continuación, introduzca una configuración de **[!UICONTROL Tolerancia]** de 0 a 1. El valor 0 recorta píxeles solo si coinciden exactamente con el color seleccionado en la esquina de la imagen. Los números más cercanos a 1 permiten una mayor diferencia de color. Seleccione **[!UICONTROL Recortar]**.
-   * Para recortar píxeles transparentes, vaya a **[!UICONTROL Recortar]** > **[!UICONTROL Transparente]**. Aparecerá el cuadro de diálogo Recorte automático por transparencia. Introduzca un valor de Tolerancia de 0 a 1. El ajuste 0 recorta píxeles solo si son transparentes. Los números más cercanos a 1 permiten una mayor transparencia. Seleccione **[!UICONTROL Recortar]**.
+   * Para recortar los píxeles de color, vaya a **[!UICONTROL Recortar]** > **[!UICONTROL Color]**. En el cuadro de diálogo **[!UICONTROL Recortar automáticamente por color]**, seleccione el menú **[!UICONTROL Esquina]** y elija una esquina con el color de fondo que desea recortar. A continuación, introduzca una configuración de **[!UICONTROL Tolerancia]** de 0 a 1. El valor 0 recorta píxeles solo si coinciden exactamente con el color seleccionado en la esquina de la imagen. Los números más cercanos a 1 permiten una mayor diferencia de color. Seleccione **[!UICONTROL Recortar]**.
+   * Para recortar píxeles transparentes, vaya a **[!UICONTROL Recortar]** > **[!UICONTROL Transparente]**. En el cuadro de diálogo **[!UICONTROL Recorte automático por transparencia]**, introduzca un ajuste de tolerancia de 0 a 1. El ajuste 0 recorta píxeles solo si son transparentes. Los números más cercanos a 1 permiten una mayor transparencia. Seleccione **[!UICONTROL Recortar]**.
 
 1. Seleccione **[!UICONTROL Guardar]**.
 
