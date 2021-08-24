@@ -1,6 +1,6 @@
 ---
-title: Gestión de variaciones de contenido
-description: Aprenda a administrar las variaciones de contenido.
+title: Administrar variaciones de contenido
+description: Aprenda a administrar las variaciones de contenido en Dynamic Media Classic.
 uuid: 1e40a526-02f8-41d9-886f-6d094546bc13
 contentOwner: admin
 content-type: reference
@@ -10,14 +10,14 @@ discoiquuid: aa129b0e-fc73-4fc2-a894-4560b3f46c4f
 feature: Dynamic Media Classic
 role: User
 exl-id: 65b8c314-7ec1-417f-8a7b-aa13762072a1
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 59%
+source-wordcount: '250'
+ht-degree: 54%
 
 ---
 
-# Gestión de variaciones de contenido{#managing-content-variations}
+# Administrar variaciones de contenido{#managing-content-variations}
 
 Use conjuntos de plantillas para gestionar la forma en que se publican las variaciones de recursos.
 
@@ -27,10 +27,10 @@ Las direcciones URL universales se utilizan para mostrar la variación de planti
 
 Puede utilizar cualquier URL de ajuste preestablecido de imagen de la lista. Las URL de ajustes preestablecidos de imagen son como las URL universales. Puede haber más de una URL de ajuste preestablecido de imagen.
 
-1. Haga clic en **[!UICONTROL Generar]** > **[!UICONTROL Conjuntos de plantillas]**. El generador se abre.
-1. Seleccione una plantilla y haga clic en **[!UICONTROL Agregar/Vista previa]**.
-1. Modifique las propiedades de la plantilla y haga clic en **[!UICONTROL Guardar como]** para crear otra versión.
-1. Escriba un nombre y haga clic en **[!UICONTROL Guardar]**.
+1. Vaya a **[!UICONTROL Generar]** > **[!UICONTROL Conjuntos de plantillas]**.
+1. En el generador, seleccione una plantilla y, a continuación, seleccione **[!UICONTROL Agregar/Vista previa]**.
+1. Modifique las propiedades de la plantilla y seleccione **[!UICONTROL Guardar como]** para crear otra versión.
+1. Escriba un nombre y seleccione **[!UICONTROL Guardar]**.
 
    Tanto el recurso como la plantilla deben publicarse.
 
