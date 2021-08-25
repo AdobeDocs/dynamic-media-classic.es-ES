@@ -1,6 +1,6 @@
 ---
-title: Eliminación de recursos cargados
-description: Obtenga información sobre cómo eliminar un recurso cargado.
+title: Eliminar un recurso cargado
+description: Obtenga información sobre cómo eliminar un recurso cargado en Dynamic Media Classic.
 uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
 contentOwner: admin
 content-type: reference
@@ -9,14 +9,14 @@ discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 85%
+source-wordcount: '95'
+ht-degree: 84%
 
 ---
 
-# Eliminación de recursos cargados{#deleting-an-uploaded-asset}
+# Eliminar un recurso cargado{#deleting-an-uploaded-asset}
 
 Se puede usar el parámetro `delete` con este formato para eliminar un recurso:
 
@@ -45,9 +45,9 @@ A continuación se muestra un ejemplo de respuesta después de haber eliminado u
 Se pueden usar los campos siguientes en la cadena de consulta URL para eliminar un recurso:
 
 | Parámetro de URL | Obligatorio u opcional | Valor |
-|--- |--- |--- |
-| op | Obligatorio | eliminar |
-| shared_secret | Obligatorio | Clave secreta compartida de la empresa. |
+| --- | --- | --- |
+| `op` | Obligatorio | eliminar |
+| `shared_secret` | Obligatorio | Clave secreta compartida de la empresa. |
 | <ul><li>Para imágenes:image_name</li><li>Para el vector:fxg_name</li></ul> | Obligatorio | Nombre del recurso que se debe eliminar. |
 
 **URL de imagen de muestra:**
