@@ -1,16 +1,17 @@
 ---
+title: Archivo de newsletter de Dynamic Media
 description: 'El boletín Dynamic Media archivado por Experience League era un boletín mensual. Se ha diseñado para ayudarle a ponerse al día con Dynamic Media y Dynamic Media Classic, de modo que pueda obtener ventajas de inmediato. Los boletines archivados contienen valiosos recursos para la creación de conocimientos que estaban disponibles en este boletín informativo de una sola ventanilla, que ya no se incluye. Los boletines archivados incluyen vídeos explicativos y descripciones generales de soluciones. También hay introducciones a funciones y capacidades clave como ajustes preestablecidos de imagen, ajustes preestablecidos de visor y perfiles de vídeo. '
 keywords: dynamic media;newsletter;actualizaciones de productos;sugerencias y trucos;eventos;éxito del cliente;blog;blogs;imágenes;vídeos;funciones;funciones
-title: Archivo de newsletter de Dynamic Media
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
-source-git-commit: 0b0556cdd05b6155e5e72b3cb40021589b232101
+source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
+
 
 # ![Logotipo de Dynamic Media Newsletter](/help/assets/dynamic-media-newsletter-logo.png)
 
