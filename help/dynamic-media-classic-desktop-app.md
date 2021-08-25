@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 9ff171590c65f55cef8c9e5a2b4e77ddbbfa6895
+source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
 workflow-type: tm+mt
-source-wordcount: '1850'
+source-wordcount: '1841'
 ht-degree: 1%
 
 ---
@@ -87,7 +87,7 @@ Véase también:
 
 1. Realice una de las siguientes acciones en función del instalador que descargó.
 
-   * **Para macOS** : en el cuadro de diálogo  **[!UICONTROL Arrastrar y soltar a la]** instalación, arrastre  **[!UICONTROL Adobe Dynamic Media]** Classic y suéltelo en  **[!UICONTROL Aplicaciones]**.
+   * **macOS** : en el cuadro de diálogo  **[!UICONTROL Arrastrar y soltar a la]** instalación, arrastre el  **[!UICONTROL Adobe Dynamic Media]** Classic y suéltelo en  **[!UICONTROL Aplicaciones]**.
 
       ![Arrastre y suelte la instalación en macOS](/help/assets/dragondrop-install1.png)
 
@@ -96,7 +96,7 @@ Véase también:
 
       ![Abrir aplicación descargada](/help/assets/open-dmclassicapp1.png)
 
-   * **Para Windows** : ejecute el binario del instalador y siga las instrucciones que aparecen en la pantalla para instalar la aplicación de escritorio.
+   * **Windows** : ejecute el archivo binario del instalador y siga las instrucciones que aparecen en la pantalla para instalar la aplicación de escritorio.
 
 1. Cuando abre la aplicación, se muestra la nueva página de inicio de sesión de Dynamic Media Classic de Adobe:
 
@@ -107,7 +107,7 @@ Véase también:
    Para que **[!UICONTROL Server]** se utilice, consulte la siguiente asignación para el entorno de producción:
 
    | URL del explorador | Nombre del servidor de aplicaciones de escritorio |
-   |---|---|
+   | --- | --- |
    | https://s7sps1.scene7.com/ | Producción de NA (Norteamérica) |
    | https://s7sps3.scene7.com/ | Producción de EMEA (Europa, Oriente Medio y África) |
    | https://s7sps5.scene7.com/ | Producción de APAC (Asia-Pacífico) |
@@ -149,7 +149,7 @@ Para descargar y *silencioso* instalar la versión más reciente de la aplicaci�
    Para que **[!UICONTROL Server]** se utilice, consulte la siguiente asignación para el entorno de producción:
 
    | URL del explorador | Nombre del servidor de aplicaciones de escritorio |
-   |---|---|
+   | --- | --- |
    | https://s7sps1.scene7.com/ | Producción de NA (Norteamérica) |
    | https://s7sps3.scene7.com/ | Producción de EMEA (Europa, Oriente Medio y África) |
    | https://s7sps5.scene7.com/ | Producción de APAC (Asia-Pacífico) |
@@ -194,7 +194,7 @@ Para descargar y *silencioso* instalar la versión más reciente de la aplicaci�
    Para que **[!UICONTROL Server]** se utilice, consulte la siguiente asignación para el entorno de producción:
 
    | URL del explorador | Nombre del servidor de aplicaciones de escritorio |
-   |---|---|
+   | --- | --- |
    | https://s7sps1.scene7.com/ | Producción de NA (Norteamérica) |
    | https://s7sps3.scene7.com/ | Producción de EMEA (Europa, Oriente Medio y África) |
    | https://s7sps5.scene7.com/ | Producción de APAC (Asia-Pacífico) |
