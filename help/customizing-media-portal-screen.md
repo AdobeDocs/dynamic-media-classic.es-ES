@@ -1,19 +1,19 @@
 ---
 title: Personalización de la pantalla de Media Portal
-description: Obtenga información sobre cómo personalizar la pantalla de Media Portal.
+description: Obtenga información sobre cómo personalizar la pantalla de Media Portal en Dynamic Media Classic.
 uuid: bd1a65a6-723b-49d0-8eac-849da00e0e1a
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 8b000c25-c9c3-481e-9b25-96257471571f
-feature: Dynamic Media Classic,Colaboración,Administración de activos
+feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: b0c5f70a-2388-42aa-a1ed-fd745ff90518
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 46%
+source-wordcount: '345'
+ht-degree: 32%
 
 ---
 
@@ -21,23 +21,23 @@ ht-degree: 46%
 
 Los ajustes de estilo de Media Portal le permiten aplicar un estilo de marca a la pantalla de Media Portal, con los colores y el logotipo de su empresa. Utilice la configuración de estilo para colocar la marca de su empresa en Media Portal.
 
-Para acceder a los ajustes de estilo, elija **[!UICONTROL Ajustes]** > **[!UICONTROL Configuración de Media Portal]** > **[!UICONTROL Configuración de estilo]**. Asegúrese de hacer clic en **[!UICONTROL Guardar]** para guardar la configuración después de realizarla. Puede hacer clic en **[!UICONTROL Restaurar]** para recuperar la configuración predeterminada. A medida que vaya seleccionando, el panel Vista previa irá mostrando cómo quedan las opciones que vaya eligiendo.
+Para acceder a la configuración de estilo, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de Media Portal]** > **[!UICONTROL Configuración de estilo]**. Asegúrese de seleccionar **[!UICONTROL Guardar]** para guardar la configuración después de realizarla. Puede seleccionar **[!UICONTROL Restaurar]** para recuperar la configuración predeterminada. A medida que elige, el panel Vista previa le muestra cómo aparecen.
 
-* **Logotipo** : haga clic en  **** Explorar y elija un gráfico en la ventana Seleccionar imagen de logotipo .
+* **[!UICONTROL Logotipo]** : seleccione  **[!UICONTROL Examinar]** y, a continuación, elija un gráfico en la ventana Seleccionar imagen de logotipo.
 
-* **Aplicación** : cree una mezcla de colores de degradado eligiendo opciones en los menús Colores de degradado de fondo .
+* **[!UICONTROL Aplicación]** : cree una mezcla de colores de degradado eligiendo opciones en los menús Colores de degradado de fondo .
 
-* **Árbol** : elija un color de sustitución (el color que aparece cuando mueve el puntero sobre un elemento) y un color de selección (el color que aparece cuando selecciona un elemento).
+* **[!UICONTROL Árbol]** : elija un color de sustitución (el color que aparece cuando mueve el puntero sobre un elemento) y un color de selección (el color que aparece cuando selecciona un elemento).
 
-* **Acordeón** : elija colores de fondo, un estilo de borde y colores de sustitución y seleccionados para el acordeón que aparece en la parte derecha de la pantalla en la vista Detalles.
+* **[!UICONTROL Acordeón]** : elija colores de fondo, un estilo de borde y colores de sustitución y seleccionados para el acordeón que aparece en la parte derecha de la pantalla en la vista Detalles.
 
-* **Encabezado de acordeón** : elija si quiere que el texto del encabezado del acordeón aparezca en negrita.
+* **[!UICONTROL Encabezado de acordeón]** : elija si quiere que el texto del encabezado del acordeón aparezca en negrita.
 
-* **Datagrid** : elija colores para la fila de encabezado de las cuadrículas de datos.
+* **[!UICONTROL Datagrid]** : elija colores para la fila de encabezado de las cuadrículas de datos.
 
-* **Alerta** : elija un color de fondo para los cuadros de mensaje de alerta.
+* **[!UICONTROL Alerta]** : elija un color de fondo para los cuadros de mensaje de alerta.
 
-* **Barra de progreso** : elija un color para la barra que indique el progreso de las cargas y descargas.
+* **[!UICONTROL Barra de progreso]** : elija un color para la barra que indique el progreso de las cargas y descargas.
 
 Para que los usuarios de Media Portal puedan ver la configuración de estilo que ha elegido, deben adjuntar `?company=(company name)` a la URL con la que acceden a Media Portal. Por ejemplo, para ver los ajustes de estilo, los usuarios de Media Portal que accedan a la empresa PortalCo mediante la siguiente URL:
 
