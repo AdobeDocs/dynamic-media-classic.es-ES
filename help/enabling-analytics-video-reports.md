@@ -1,6 +1,6 @@
 ---
-title: Activación de los informes de vídeo de Adobe Analytics
-description: Obtenga información sobre cómo habilitar los informes de vídeo de Adobe Analytics.
+title: Habilitar los informes de vídeo de Adobe Analytics
+description: Obtenga información sobre cómo habilitar los informes de vídeo de Adobe Analytics en Dynamic Media Classic.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -8,14 +8,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_k
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 9d017742-1ed2-411d-a8a6-438102bf1557
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 17%
+source-wordcount: '245'
+ht-degree: 13%
 
 ---
 
-# Activación de los informes de vídeo de Adobe Analytics{#enabling-adobe-analytics-video-reports}
+# Habilitar los informes de vídeo de Adobe Analytics{#enabling-adobe-analytics-video-reports}
 
 Al usar los informes de vídeo basados en Adobe Analytics Heartbeat, ya no es necesario habilitar los cuatro eventos del visor de vídeo (Reproducir, Pausa, Detener, Milestone) al configurar Adobe Analytics en Dynamic Media Classic. Video Heartbeat funciona con los visores de medios mixtos y de vídeo HTML5 predeterminados de Dynamic Media Classic. El reproductor de vídeo genera el seguimiento de datos para visualizarlos dentro de los informes de vídeo de Adobe Analytics.
 
@@ -27,7 +27,7 @@ Al usar los informes de vídeo basados en Adobe Analytics Heartbeat, ya no es ne
 
 * Se admiten segmentos predeterminados de incrementos de un minuto. Sin embargo, no se admiten los informes de segmento personalizados, como hitos definidos por el usuario basados en períodos temporales, % de hitos o hitos de desplazamiento.
 
-   Para obtener más información sobre los requisitos y la configuración de los medios de transmisión, consulte [Medición de medios de transmisión en Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
+   Para obtener más información sobre los requisitos y la configuración de los medios de transmisión, consulte [Medir medios de transmisión en Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
 
 * Para obtener información sobre variables personalizadas y de solución, consulte [Habilitación de informes de medios](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html?lang=en#media-reports).
 

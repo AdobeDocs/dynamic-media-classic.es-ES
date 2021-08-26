@@ -1,6 +1,6 @@
 ---
-title: Obtención de información sobre el uso del disco
-description: Aprenda a obtener información sobre el uso del disco.
+title: Obtener información de uso del disco
+description: Obtenga información sobre el uso del disco en Dynamic Media Classic.
 uuid: 01361693-53d0-4072-b7c3-f284631d28cf
 contentOwner: admin
 content-type: reference
@@ -9,14 +9,14 @@ discoiquuid: 6763546d-83c4-42dc-879f-6bbfc8b56482
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 337a4681-ac9a-40d9-82e8-1999bbed980c
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 88%
+source-wordcount: '89'
+ht-degree: 78%
 
 ---
 
-# Obtención de información sobre el uso del disco {#getting-disk-usage-information}
+# Obtener información de uso del disco {#getting-disk-usage-information}
 
 El parámetro `disk_info` se puede usar para recuperar información sobre el uso del espacio en disco de la empresa, tal como se muestra en este ejemplo:
 
@@ -45,7 +45,7 @@ https://s7ugc1.scene7.com/ugc/image?op=disk_info&shared_secret=d03b7e0b-c9dc-4c6
 Se pueden usar los campos siguientes en la cadena de consulta URL para obtener información sobre el uso del disco:
 
 | Parámetro de URL | Obligatorio u opcional | Valor |
-|--- |--- |--- |
+| --- | --- | --- |
 | op | Obligatorio | disk_info |
 | shared_secret | Obligatorio | Clave secreta compartida de la empresa |
 

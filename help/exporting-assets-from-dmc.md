@@ -7,13 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
-feature: Dynamic Media Classic,Administración de recursos
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 63%
+source-wordcount: '425'
+ht-degree: 52%
 
 ---
 
@@ -27,28 +27,28 @@ Dynamic Media Classic lleva un registro de los trabajos de exportación en la pa
 
 **Para exportar recursos desde Dynamic Media Classic:**
 
-1. Seleccione los recursos que desea exportar y haga clic en **[!UICONTROL Archivo]** > **[!UICONTROL Exportar]**.
-1. En la ventana Exportar recursos seleccionados, haga clic en **Opciones de imagen** y especifique cualquiera de las siguientes opciones (los administradores determinan las opciones que están disponibles para los usuarios):
+1. Seleccione los recursos que desea exportar y, a continuación, vaya a **[!UICONTROL File]** > **[!UICONTROL Export]**.
+1. En la ventana Exportar recursos seleccionados, haga clic en **[!UICONTROL Opciones de imagen]** y especifique cualquiera de las siguientes opciones (los administradores determinan las opciones que están disponibles para los usuarios):
 
-   * **Ajustes preestablecidos** : también puede elegir un ajuste preestablecido de imagen para dar formato al recurso cuando lo exporte. Si elige un ajuste preestablecido de imagen, las otras opciones de formato no estarán disponibles, ya que el recurso adopta los formatos definidos en el ajuste preestablecido de imagen.
+   * **[!UICONTROL Ajustes preestablecidos]** : también puede elegir un ajuste preestablecido de imagen para dar formato al recurso cuando lo exporte. Si elige un ajuste preestablecido de imagen, las otras opciones de formato no estarán disponibles, ya que el recurso adopta los formatos definidos en el ajuste preestablecido de imagen.
 
-   * **Conversión** : convierta el archivo de recurso o la imagen original.
+   * **[!UICONTROL Conversión]** : convierta el archivo de recurso o la imagen original.
 
-   * **Tamaño** : puede seleccionar un tamaño estándar. O bien, puede hacer clic en **[!UICONTROL Otro]** en la lista desplegable Tamaño, elegir la unidad de medida que desee y, a continuación, especificar la anchura y la altura.****
+   * **[!UICONTROL Tamaño]** : puede seleccionar un tamaño estándar. O bien, puede seleccionar **[!UICONTROL Other]** en la lista desplegable **[!UICONTROL Size]**, elegir la unidad de medida deseada y especificar la anchura y la altura.
 
-      Consulte también [Especificación de opciones de exportación disponibles para los usuarios de Media Portal](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
+      Consulte también [Especificar las opciones de exportación disponibles para los usuarios de Media Portal](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
-   * **Formato** : elija un formato de imagen.
+   * **[!UICONTROL Formato]** : elija un formato de imagen.
 
-   * **Color** : elija RGB, CMYK o Gris.
+   * **[!UICONTROL Color]** : elija RGB, CMYK o Gris.
 
-   * **Resolución** : elija 72 ppi, 150 ppi o 300 ppi.
+   * **[!UICONTROL Resolución]** : elija 72 ppi, 150 ppi o 300 ppi.
 
-   * **Nombre de trabajo** : puede asignar un nombre de trabajo a la exportación.
+   * **[!UICONTROL Nombre de trabajo]** : puede asignar un nombre de trabajo a la exportación.
 
-   * **Enviar correo electrónico a** : también puede introducir una dirección de correo electrónico para enviar los recursos por correo electrónico. Este mensaje de correo electrónico contiene una URL a la que el destinatario puede ir para descargar los recursos.
+   * **[!UICONTROL Enviar correo electrónico a]** : también puede introducir una dirección de correo electrónico si desea enviar los recursos por correo electrónico. Este mensaje de correo electrónico contiene una URL a la que el destinatario puede ir para descargar los recursos.
 
-1. Haga clic en **[!UICONTROL Exportar]**.
+1. Seleccione **[!UICONTROL Export]**.
 
 Se admiten tres acciones de exportación básicas:
 

@@ -7,12 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
-feature: Dynamic Media Classic,Visualizadores,Catálogo electrónico
+feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1f3a110e8d795e766c37e43ea7f878cc0eec2ec2
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1424'
 ht-degree: 50%
 
 ---
@@ -87,7 +87,7 @@ Consulte [Uso de mapas de imagen para incrustar medios enriquecidos en catálogo
 
 Puede configurar y gestionar el texto del mapa de imagen mediante la configuración del panel de información en la pantalla del catálogo electrónico.
 
-Consulte [Gestión del contenido del panel de información](info-panel-content.md#managing-info-panel-content).
+Consulte [Administrar contenido del panel de información en catálogos electrónicos](/help/info-panel-content-ecatalog.md).
 
 ## 4. Configuración de ajustes preestablecidos del visor de catálogos electrónicos
 
