@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
-feature: Dynamic Media Classic,Colaboración,Administración de activos
+feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '688'
 ht-degree: 73%
 
 ---
 
 # Inicio rápido: Portal de medios{#quick-start-media-portal}
 
-Media Portal permite que las empresas adquieran, controlen y distribuyan fácilmente recursos aprobados a socios y canales externos, así como a usuarios internos de una empresa. Este entorno de &quot;autoservicio&quot; basado en navegador proporciona a los usuarios de Media Portal &quot;vistas&quot; controladas por el administrador de los recursos de Dynamic Media Classic para acceder, examinar, buscar, previsualizar y exportar fácilmente recursos en formatos aprobados por la empresa.
+Media Portal permite que las empresas adquieran, controlen y distribuyan fácilmente recursos aprobados a socios y canales externos, así como a usuarios internos de una empresa. Este entorno de &quot;autoservicio&quot; basado en navegador proporciona a los usuarios de Media Portal &quot;vistas&quot; controladas por el administrador de los recursos de Adobe Dynamic Media Classic para facilitar el acceso, la navegación, la búsqueda, la vista previa y la exportación de recursos en formatos aprobados por la empresa.
 
 Como administrador, podrá controlar la forma en la que los usuarios ven los recursos en Media Portal, cómo acceden a ellos y cómo los utilizan. Es más, podrá personalizar la interfaz de Media Portal según el estilo de su sitio web y su marca. Puede especificar la fuente, el color de la fuente, el tamaño de la fuente e incorporar elementos de marca como logotipos en la interfaz de Media Portal.
 
@@ -45,7 +45,7 @@ Consulte [Adición y administración de usuarios de Media Portal](adding-media-p
 
 ## 4. Administración de cuentas de FTP
 
-Puede tener cuentas de FTP independientes asociadas a Media Portal y asignadas a una carpeta específica de su cuenta de Dynamic Media Classic. Este tipo de funcionalidad significa que puede permitir a los usuarios cargar recursos digitales en la cuenta a través de cuentas de FTP independientes.
+Puede tener cuentas de FTP independientes asociadas a Media Portal y asignadas a una carpeta específica de su cuenta de Adobe Dynamic Media Classic. Este tipo de funcionalidad significa que puede permitir a los usuarios cargar recursos digitales en la cuenta a través de cuentas de FTP independientes.
 
 Consulte [Administración de cuentas de FTP](ftp-accounts.md#managing_ftp_accounts).
 

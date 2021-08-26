@@ -1,27 +1,27 @@
 ---
 title: Trabajar con carpetas de recursos
-description: Aprenda a trabajar con carpetas de recursos en Dynamic Media Classic.
+description: Aprenda a trabajar con carpetas de recursos en Adobe Dynamic Media Classic.
 uuid: 3bd83701-e2c2-4e39-b225-c2d27ad836c2
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
-feature: Dynamic Media Classic,Administración de recursos
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '451'
 ht-degree: 39%
 
 ---
 
 # Trabajar con carpetas de recursos{#working-with-asset-folders}
 
-Los recursos de archivo de Dynamic Media Classic se guardan en carpetas. Estas carpetas aparecen en orden alfabético en el panel de la biblioteca de recursos. Antes de cargar archivos desde el equipo o la red a Dynamic Media Classic, se le pedirá que nombre una carpeta para almacenar los archivos. Cree estas carpetas antes de cargar ningún archivo.
+Los recursos de archivos de Adobe Dynamic Media Classic se guardan en carpetas. Estas carpetas aparecen en orden alfabético en el panel de la biblioteca de recursos. Antes de cargar archivos desde el equipo o la red a Adobe Dynamic Media Classic, se le pedirá que nombre una carpeta para almacenar los archivos. Cree estas carpetas antes de cargar ningún archivo.
 
-Asegúrese de establecer una estructura de carpetas y una organización para almacenar los archivos en Dynamic Media Classic antes de cargar los archivos.
+Asegúrese de establecer una estructura y organización de carpetas para almacenar los archivos en Adobe Dynamic Media Classic antes de cargar los archivos.
 
 ## Mostrar, mover, ocultar y abrir carpetas {#displaying-moving-hiding-and-opening-folders}
 
@@ -47,7 +47,7 @@ En la biblioteca de recursos se muestran los archivos que contiene el árbol de 
 
    >[!NOTE]
    >
-   >También puede crear carpetas en Dynamic Media Classic al cargar archivos mediante FTP. Al seleccionar la opción **[!UICONTROL Incluir subcarpetas]** al cargar mediante FTP, se duplica la estructura de carpetas del equipo del sistema. Las carpetas y subcarpetas del ordenador o la red se reproducirán en la biblioteca de recursos, y los recursos cargados se colocarán en estas carpetas.
+   >También puede crear carpetas en Adobe Dynamic Media Classic al cargar archivos mediante FTP. Al seleccionar la opción **[!UICONTROL Incluir subcarpetas]** al cargar mediante FTP, se duplica la estructura de carpetas del equipo del sistema. Las carpetas y subcarpetas del ordenador o la red se reproducirán en la biblioteca de recursos, y los recursos cargados se colocarán en estas carpetas.
 
 ## Eliminar y cambiar el nombre de las carpetas {#deleting-and-renaming-folders}
 
@@ -59,4 +59,4 @@ Seleccione una carpeta y utilice estas técnicas para eliminarla o cambiar su no
 
 >[!NOTE]
 >
->No puede copiar carpetas o recursos porque, de hacerlo, se crearían carpetas y recursos duplicados en Dynamic Media Classic, y no se permiten duplicados.
+>No puede copiar carpetas o recursos porque, de hacerlo, se crearían carpetas y recursos duplicados en Adobe Dynamic Media Classic, y no se permiten duplicados.

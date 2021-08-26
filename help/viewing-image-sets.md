@@ -7,12 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 027aa3e0-f085-48ae-aff9-7b805bbdf8ab
-feature: Dynamic Media Classic,Visualizadores,Conjuntos de imágenes
+feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: c8d742a4-a1a1-4b5f-bcfd-6a1972edf9bc
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '491'
 ht-degree: 33%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 33%
 
 Puede ver los conjuntos de imágenes en la ventana Vista previa con los ajustes preestablecidos disponibles. Para usar un visor de zoom: Ajuste preestablecido de visor personalizado para conjuntos de imágenes.
 
-Dynamic Media Classic incluye ajustes preestablecidos de visor predeterminados. Los administradores pueden crear o modificar los ajustes preestablecidos de visor.
+Adobe Dynamic Media Classic incluye ajustes preestablecidos de visor predeterminados. Los administradores pueden crear o modificar los ajustes preestablecidos de visor.
 
 ## Configuración de ajustes preestablecidos de visor de zoom para conjuntos de imágenes {#setting-up-zoom-viewer-presets-for-image-sets}
 
@@ -51,9 +51,9 @@ Puede utilizar Vista previa para ver cómo aparece un recurso en un tipo de viso
 1. En el panel Biblioteca de recursos del lado izquierdo, navegue por las carpetas de recursos para seleccionar el conjunto de imágenes cuya vista previa desee obtener.
 1. Realice una de las acciones siguientes:
 
-   * Cerca de la esquina superior derecha de la ventana de Dynamic Media Classic, haga clic en el icono **[!UICONTROL Vista de lista]**. En la ventana Recurso, pase el cursor sobre un recurso y, a continuación, haga clic en **[!UICONTROL Vista previa]** (no en la lista desplegable Vista previa).
-   * Cerca de la esquina superior derecha de la ventana de Dynamic Media Classic, haga clic en el icono **[!UICONTROL Vista de cuadrícula]**. En la ventana Recurso, en una ventana de miniaturas de recursos, haga clic en **[!UICONTROL Vista previa]** (no en la lista desplegable Vista previa).
-   * Cerca de la esquina superior derecha de la ventana de Dynamic Media Classic, haga clic en el icono **[!UICONTROL Vista de detalles]**. En la misma barra de herramientas, haga clic en **[!UICONTROL Preview]** (no en la lista desplegable Vista previa).
+   * Cerca de la esquina superior derecha de la ventana de Adobe Dynamic Media Classic, haga clic en el icono **[!UICONTROL Vista de lista]**. En la ventana Recurso, pase el cursor sobre un recurso y, a continuación, haga clic en **[!UICONTROL Vista previa]** (no en la lista desplegable Vista previa).
+   * Cerca de la esquina superior derecha de la ventana de Adobe Dynamic Media Classic, haga clic en el icono **[!UICONTROL Vista de cuadrícula]**. En la ventana Recurso, en una ventana de miniaturas de recursos, haga clic en **[!UICONTROL Vista previa]** (no en la lista desplegable Vista previa).
+   * Cerca de la esquina superior derecha de la ventana Adobe de Dynamic Media Classic, haga clic en el icono **[!UICONTROL Vista de detalles]**. En la misma barra de herramientas, haga clic en **[!UICONTROL Preview]** (no en la lista desplegable Vista previa).
 
 1. (Opcional) En la lista desplegable de la parte inferior de la ventana Vista previa, seleccione la codificación de URL que desee aplicar a la dirección URL del recurso cuando se copie.
 1. Para obtener una vista previa del recurso en el visor seleccionado, haga clic en un vínculo del visor.

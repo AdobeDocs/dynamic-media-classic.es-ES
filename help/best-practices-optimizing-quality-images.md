@@ -5,12 +5,12 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-feature: Dynamic Media Classic,Administración de recursos
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: 1c7900b2807e6b67e9802e6361e42cce893b0217
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1467'
 ht-degree: 54%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 54%
 
 La optimización de la calidad de las imágenes puede ser un proceso lento, ya que intervienen muchos factores para conseguir resultados aceptables. El resultado es en parte subjetivo porque distintas personas perciben la calidad de las imágenes de forma distinta. La clave es la experimentación estructurada.
 
-Dynamic Media Classic incluye más de 100 comandos de servicio de imágenes para ajustar y optimizar imágenes y procesar resultados. Las directrices siguientes pueden ayudarle a agilizar el proceso y a obtener buenos resultados con rapidez utilizando ciertos comandos esenciales y prácticas recomendadas.
+Adobe Dynamic Media Classic incluye más de 100 comandos de servicio de imágenes para ajustar y optimizar imágenes y procesar resultados. Las directrices siguientes pueden ayudarle a agilizar el proceso y a obtener buenos resultados con rapidez utilizando ciertos comandos esenciales y prácticas recomendadas.
 
 Consulte también [Imágenes inteligentes](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic).
 
@@ -45,13 +45,13 @@ Como práctica recomendada para el tamaño de la imagen, utilice `&wid=<value>&h
 
 ## Prácticas recomendadas para el enfoque de imágenes {#best-practices-for-image-sharpening}
 
-El enfoque de imágenes es el aspecto más complejo del control de imágenes en su sitio Web y en el que se producen muchos errores. Tómese el tiempo para obtener más información sobre cómo funciona la máscara de enfoque y enfoque en Dynamic Media Classic, consulte los siguientes recursos útiles:
+El enfoque de imágenes es el aspecto más complejo del control de imágenes en su sitio Web y en el que se producen muchos errores. Tómese el tiempo para obtener más información sobre cómo funciona la máscara de enfoque y enfoque en Adobe Dynamic Media Classic haciendo referencia a los siguientes recursos útiles:
 
 Documento técnico de prácticas recomendadas [Enfocar imágenes en Adobe Dynamic Media Classic y en Image Server](/help/assets/s7_sharpening_images.pdf).
 
 <!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
-Con Dynamic Media Classic, puede enfocar las imágenes en la ingesta, en la entrega o en ambos. Por lo general, sin embargo, las imágenes se afilan utilizando solo un método o el otro, pero no ambos. Normalmente, el enfoque de imágenes durante la distribución, en una URL, ofrece los mejores resultados.
+Con Adobe Dynamic Media Classic, puede enfocar las imágenes sobre la ingesta, la entrega o ambos. Por lo general, sin embargo, las imágenes se afilan utilizando solo un método o el otro, pero no ambos. Normalmente, el enfoque de imágenes durante la distribución, en una URL, ofrece los mejores resultados.
 
 Puede utilizar dos métodos de enfoque de imágenes:
 
@@ -71,7 +71,7 @@ Puede utilizar dos métodos de enfoque de imágenes:
 
          Para obtener más información sobre cómo configurar estos tres parámetros, incluidas las prácticas recomendadas para usar con el filtro, consulte [Enfocar imágenes en Adobe Dynamic Media Classic y en Image Server](/help/assets/s7_sharpening_images.pdf).
 
-      * Dynamic Media Classic también le permite controlar un cuarto parámetro: monocromo ( `0,1`). Este parámetro determina si la máscara de enfoque se aplica a cada componente de color por separado mediante el valor `0` o al brillo o la intensidad de la imagen con el valor `1`.
+      * Adobe Dynamic Media Classic también le permite controlar un cuarto parámetro: monocromo ( `0,1`). Este parámetro determina si la máscara de enfoque se aplica a cada componente de color por separado mediante el valor `0` o al brillo o la intensidad de la imagen con el valor `1`.
 
 La práctica recomendada es comenzar con el parámetro de radio de máscara de enfoque. Puede comenzar con las configuraciones de radio siguientes:
 
@@ -120,6 +120,6 @@ Si los resultados de enfoque aún no son satisfactorios, aumente el radio en inc
 
 A medida que experimenta, las siguientes sugerencias generales son útiles para optimizar el flujo de trabajo:
 
-* Pruebe y pruebe distintos parámetros en tiempo real, ya sea directamente en una URL de Dynamic Media Classic o utilizando la funcionalidad de ajuste de imagen de Dynamic Media Classic. Este último proporciona previsualizaciones en tiempo real para operaciones de ajuste.
+* Pruebe y pruebe diferentes parámetros en tiempo real, ya sea directamente en una URL de Dynamic Media Classic de Adobe o utilizando la funcionalidad de ajuste de imagen de Dynamic Media Classic de Adobe. Este último proporciona previsualizaciones en tiempo real para operaciones de ajuste.
 * Como práctica recomendada, recuerde que puede agrupar los comandos de Dynamic Media Image Serving en un ajuste preestablecido de imagen. Un ajuste preestablecido de imagen es básicamente macros de comandos de URL con nombres preestablecidos personalizados como `$thumb_low$` y `&product_high$`. El nombre de ajuste preestablecido personalizado en una ruta de URL llama a estos ajustes preestablecidos. Esta funcionalidad le ayudará a administrar comandos y ajustes de calidad para diferentes modelos de uso de imágenes en su sitio web y reducirá la longitud total de la URL.
-* Dynamic Media Classic también proporciona formas más avanzadas de ajustar la calidad de imagen, como la aplicación de nitidez de imagen al ingerirla. En los casos de uso avanzado en los que la opción de ajustar y optimizar los resultados procesados es seguir, Adobe Professional Services puede ayudarle con las prácticas recomendadas y la perspectiva personalizada.
+* Adobe Dynamic Media Classic también proporciona formas más avanzadas de ajustar la calidad de imagen, como la aplicación de nitidez de imagen al ingerirla. En los casos de uso avanzado en los que la opción de ajustar y optimizar los resultados procesados es seguir, Adobe Professional Services puede ayudarle con las prácticas recomendadas y la perspectiva personalizada.

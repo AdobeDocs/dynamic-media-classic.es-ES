@@ -10,10 +10,10 @@ discoiquuid: 2bccf91d-ec27-4cdf-a322-55804b6ba0d3
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: e2840200-246e-4c68-b10f-a66461f2a118
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 52%
+source-wordcount: '162'
+ht-degree: 53%
 
 ---
 
@@ -29,12 +29,12 @@ Consulte [Servicios de formación de Adobe](https://learning.adobe.com/)
 
 ## Demostraciones
 
-Vea demostraciones de las funciones del visor de Dynamic Media Classic.
+Vea demostraciones de las funciones del visor de Adobe Dynamic Media Classic.
 
 Consulte [Demostraciones](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 ## Capítulo Introducción de la Ayuda
 
-La sección Introducción del sistema de ayuda presenta instrucciones para los usuarios que son nuevos en Dynamic Media Classic. Explica los conceptos básicos del programa, la navegación, la configuración, la administración de recursos y la creación de medios enriquecidos.
+La sección Introducción del sistema de ayuda presenta instrucciones para los usuarios que son nuevos en Adobe Dynamic Media Classic. Explica los conceptos básicos del programa, la navegación, la configuración, la administración de recursos y la creación de medios enriquecidos.
 
 Consulte [Procedimientos iniciales](dmc-platform-overview.md).

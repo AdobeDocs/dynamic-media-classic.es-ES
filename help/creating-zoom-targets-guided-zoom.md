@@ -1,6 +1,6 @@
 ---
 title: Crear destinos de zoom para zoom guiado
-description: Aprenda a crear destinos de zoom para el zoom guiado en Dynamic Media Classic.
+description: Aprenda a crear destinos de zoom para la zoom guiada en Adobe Dynamic Media Classic.
 uuid: 501ea37b-adc5-4290-87eb-52a3501e5d26
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: e7b4673c-8681-4741-912e-9a31cf106449
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: ffb799ba-1cf1-48e0-91a8-dea758139140
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '728'
 ht-degree: 44%
 
 ---
@@ -38,7 +38,7 @@ Puede cambiar el tamaño del visor de zoom para que corresponda al que se usa en
 
 Cree y edite destinos de zoom en la pantalla Editor de destinos de zoom. Para abrir esta pantalla, seleccione una imagen y realice una de las acciones siguientes:
 
-* seleccione el botón de rollover **[!UICONTROL Edit]** y elija Destinos de zoom.
+* Seleccione el botón de rollover **[!UICONTROL Edit]** y elija Destinos de zoom.
 * En el panel Examinar, muestre la imagen en **[!UICONTROL Vista de detalles]** y, a continuación, seleccione **[!UICONTROL Destinos de zoom]**.
 
 En la pantalla Editor de destinos de zoom, seleccione el botón **[!UICONTROL Select Target]** (flecha) para seleccionar un objetivo antes de cambiar su tamaño o posición. Para crear un objetivo de zoom en la imagen, seleccione **[!UICONTROL Add Targets]** (rectángulo). La página Editor de destinos de zoom también ofrece herramientas para eliminar, copiar y dar nombre a los destinos de zoom.

@@ -10,16 +10,16 @@ discoiquuid: 87a5a25e-210b-4359-821a-7dfe8c304f9b
 feature: Dynamic Media Classic
 role: User
 exl-id: d4315312-195c-453d-a3aa-c5e9f9365fc7
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '169'
 ht-degree: 22%
 
 ---
 
 # Publicación de plantillas{#publishing-templates}
 
-Al publicar la plantilla, esta se coloca en los servidores de imágenes de Dynamic Media, donde está disponible para el sitio web y la aplicación. Durante el proceso de publicación, Dynamic Media Classic activa las direcciones URL que necesita para el sitio web y la aplicación.
+Al publicar la plantilla, esta se coloca en los servidores de imágenes de Dynamic Media, donde está disponible para el sitio web y la aplicación. Durante el proceso de publicación, Adobe Dynamic Media Classic activa las direcciones URL que necesita para el sitio web y la aplicación.
 
 >[!NOTE]
 >
@@ -36,5 +36,5 @@ Para publicar plantillas en servidores de imágenes de Dynamic Media, en la barr
 >[!MORELIKETHIS]
 >
 >* [Marcado de recursos para publicación](publishing-files.md#publish_after_uploading)
-* [Creación de un trabajo de publicación](publishing-files.md#creating_a_publish_job)
+>* [Creación de un trabajo de publicación](publishing-files.md#creating_a_publish_job)
 

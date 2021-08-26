@@ -1,6 +1,6 @@
 ---
 title: Administrar contenido del panel de información en conjuntos de imágenes
-description: Obtenga información sobre cómo administrar el contenido del panel de información en conjuntos de imágenes en Dynamic Media Classic.
+description: Obtenga información sobre cómo administrar el contenido del panel de información en conjuntos de imágenes en Adobe Dynamic Media Classic.
 uuid: ed7b4344-f180-41fc-a95a-62a9767dc056
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,9 +10,9 @@ discoiquuid: ba5d1fb1-af54-471c-a471-853ace7f72fd
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 09fafdb4-51e2-4719-83b6-056f79d1ba9e
-source-git-commit: bb387446f294cf1e90d26ae1df4422879ad29db7
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '767'
 ht-degree: 51%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 51%
 
 Además de utilizar el texto del mapa de imagen para sus rollover en los conjuntos de imágenes, puede utilizar un panel de información para agregar grandes cantidades de texto rollover, incluyendo los vínculos. También puede gestionar el panel de información mediante el uso de almacenamiento en caché programado y actualizaciones de contenido planificadas.
 
-Puede administrar la configuración y los datos del panel de información mediante las siguientes funciones en Dynamic Media Classic:
+Puede administrar la configuración y los datos del panel de información mediante las siguientes funciones en Adobe Dynamic Media Classic:
 
 * El panel de configuración del panel de información le permite especificar la plantilla que desea usar para mostrar el texto del panel de información, una respuesta predeterminada para los errores y el número de horas del almacenamiento de la información en caché. Además, puede especificar si desea publicar automáticamente el conjunto de imágenes.
 * El panel de fuente de datos del panel de información le permite especificar un archivo CSV que contenga el texto que desea que aparezca en el texto de sustitución del panel de información y programar tiempos para actualizar la información.
@@ -40,7 +40,7 @@ Puede seleccionar una de las tres plantillas de respuesta preestablecidas para m
    * Para utilizar la respuesta predeterminada, seleccione **[!UICONTROL Default]**. El XML para el diseño de la plantilla aparece atenuado en el cuadro de texto Plantilla del usuario.
    * Para crear su propia plantilla de respuesta, seleccione **[!UICONTROL Personalizado]**. En el cuadro de texto Plantilla del usuario, escriba la definición XML de la plantilla. Como base para su propia respuesta, puede utilizar la plantilla predeterminada que ya está definida en el cuadro de texto.
 
-1. (Opcional) En el cuadro Respuesta predeterminada, escriba el texto que desea que aparezca si Dynamic Media Classic encuentra un error al recuperar información para un mapa de imagen. Por ejemplo, si el sistema recibe un nombre de empresa y un nombre de conjunto de imágenes, pero ningún identificador rollover, aparecerá este mensaje para el usuario.
+1. (Opcional) En el cuadro Respuesta predeterminada, escriba el texto que desea que aparezca si Adobe Dynamic Media Classic encuentra un error al recuperar información para un mapa de imagen. Por ejemplo, si el sistema recibe un nombre de empresa y un nombre de conjunto de imágenes, pero ningún identificador rollover, aparecerá este mensaje para el usuario.
 1. En el campo de texto Tiempo de respuesta, escriba el número de horas que desea esperar antes de almacenar los datos en caché.
 
    * Establezca un número más bajo si los datos se actualizan frecuentemente a lo largo del día.

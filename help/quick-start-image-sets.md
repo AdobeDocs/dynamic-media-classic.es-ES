@@ -10,26 +10,26 @@ discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
-source-git-commit: 1f3a110e8d795e766c37e43ea7f878cc0eec2ec2
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '554'
 ht-degree: 41%
 
 ---
 
 # Inicio rápido: Conjuntos de imágenes{#quick-start-image-sets}
 
-Los conjuntos de imágenes de Dynamic Media Classic proporcionan a los usuarios una experiencia de visualización integrada. En el visor de conjuntos de imágenes dinámico los usuarios pueden acceder a diversas vistas de un elemento haciendo clic en una imagen de miniatura. Conjuntos de imágenes permite presentar vistas de alta resolución alternativas de un elemento.
+Los conjuntos de imágenes de Adobe Dynamic Media Classic proporcionan a los usuarios una experiencia de visualización integrada. En el visor de conjuntos de imágenes dinámico los usuarios pueden acceder a diversas vistas de un elemento haciendo clic en una imagen de miniatura. Conjuntos de imágenes permite presentar vistas de alta resolución alternativas de un elemento.
 
 El visor de conjuntos de imágenes ofrece herramientas de zoom para examinar las imágenes de cerca. Si lo desea, puede crear destinos de zoom guiado y mapas de imagen para que formen parte del conjunto de imágenes. Los conjuntos de imágenes permiten una visualización completa y coordinada.
 
-Este inicio rápido de los conjuntos de imágenes está diseñado para ponerse en marcha rápidamente con las técnicas de conjuntos de imágenes de Dynamic Media Classic.
+Este inicio rápido de conjuntos de imágenes está diseñado para ponerse en marcha rápidamente con las técnicas de conjuntos de imágenes en Adobe Dynamic Media Classic.
 
 ## 1. Carga de las imágenes principales para varias vistas y muestras
 
-Comience el proceso cargando las imágenes para los conjuntos de imágenes. Dado que los usuarios pueden hacer zoom en las imágenes en el visualizador de conjuntos de imágenes, asegúrese de tener en cuenta esta capacidad al elegir imágenes. Asegúrese de que las imágenes tengan al menos 2000 píxeles en el tamaño más grande. Dynamic Media Classic admite muchos formatos de archivo de imagen, pero se recomiendan las imágenes TIFF, PNG y EPS sin pérdida.
+Comience el proceso cargando las imágenes para los conjuntos de imágenes. Dado que los usuarios pueden hacer zoom en las imágenes en el visualizador de conjuntos de imágenes, asegúrese de tener en cuenta esta capacidad al elegir imágenes. Asegúrese de que las imágenes tengan al menos 2000 píxeles en el tamaño más grande. Adobe Dynamic Media Classic admite muchos formatos de archivo de imagen, pero se recomiendan las imágenes TIFF, PNG y EPS sin pérdida.
 
-En la barra de navegación global, haga clic en **[!UICONTROL Cargar]** para cargar archivos del equipo a una carpeta de Dynamic Media Classic.
+En la barra de navegación global, haga clic en **[!UICONTROL Cargar]** para cargar archivos del equipo a una carpeta de Adobe Dynamic Media Classic.
 
 Consulte [Preparación de recursos de conjunto de imágenes para cargar](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload) y [Carga de archivos](uploading-files.md#uploading-your-files).
 
@@ -45,7 +45,7 @@ Consulte también [Inclusión de destinos de zoom y mapas de imagen en conjuntos
 
 ## 3. Configuración de ajustes preestablecidos de visualizador de conjuntos de imágenes, según sea necesario
 
-Los administradores pueden crear o modificar los ajustes preestablecidos de visor de conjuntos de imágenes. Dynamic Media Classic incluye ajustes preestablecidos de visor predeterminados para cada tipo de medios enriquecidos. Use el Visor de zoom: Personalizar > Imágenes o ajustes preestablecidos de Conjuntos de imágenes/Múltiples vistas para ver los conjuntos de imágenes.
+Los administradores pueden crear o modificar los ajustes preestablecidos de visor de conjuntos de imágenes. Adobe Dynamic Media Classic incluye ajustes preestablecidos de visor predeterminados para cada tipo de medios enriquecidos. Use el Visor de zoom: Personalizar > Imágenes o ajustes preestablecidos de Conjuntos de imágenes/Múltiples vistas para ver los conjuntos de imágenes.
 
 Puede añadir o editar los ajustes preestablecidos del visor desde la pantalla Ajustes de aplicación.
 
@@ -59,7 +59,7 @@ Consulte [Previsualización de un recurso](previewing-asset.md#previewing-an-ass
 
 ## 5. Publicación de un conjunto de imágenes
 
-Al publicar un conjunto de imágenes, este se coloca en los servidores de Dynamic Media Classic y se activa la cadena URL.
+Al publicar un conjunto de imágenes, este se coloca en los servidores de Dynamic Media Classic de Adobe y se activa la cadena URL.
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Consulte [Publicación](publishing-files.md#publishing-files).
 
 ## 6. Vinculación de un conjunto de imágenes al sitio web
 
-Dynamic Media Classic crea llamadas de URL para conjuntos de imágenes y los activa después de publicarlos. Puede copiar estas direcciones URL desde la pantalla Vista previa.
+Adobe Dynamic Media Classic crea llamadas de URL para conjuntos de imágenes y los activa después de publicar. Puede copiar estas direcciones URL desde la pantalla Vista previa.
 
 Seleccione el conjunto de imágenes y, a continuación, haga clic en **[!UICONTROL Vista previa]**. A continuación, seleccione un ajuste preestablecido de visualizador de conjuntos de imágenes y haga clic en **[!UICONTROL Copiar URL]**.
 

@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: ca7c8a7f-76f4-4a25-8c36-617a029e55be
-feature: Dynamic Media Classic,Administración de activos,Colaboración
+feature: Dynamic Media Classic,Asset Management,Collaboration
 role: Admin,User
 exl-id: d74b4966-fe43-4349-bbe1-3a379c49bf1f
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '276'
 ht-degree: 50%
 
 ---
 
 # Uso compartido de cambios de recursos con iguales en tiempo real{#sharing-asset-changes-with-peers-in-real-time}
 
-Con varias copias de Dynamic Media Classic ejecutándose en uno o más equipos de la misma empresa, las siguientes acciones de cualquier cliente de Dynamic Media Classic se actualizan en tiempo real con todos los clientes del mismo nivel:
+Con varias copias de Adobe Dynamic Media Classic ejecutándose en uno o más equipos de la misma empresa, las siguientes acciones de cualquier cliente de Dynamic Media Classic de Adobe se actualizan en tiempo real con todos los clientes del mismo nivel:
 
 * Editar un recurso (generador, editor de imágenes, etc.)
 * Cambio de nombre de un recurso

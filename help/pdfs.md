@@ -1,25 +1,25 @@
 ---
 title: Uso de archivos PDF
-description: Aprenda a trabajar con archivos PDF en Dynamic Media Classic.
+description: Aprenda a trabajar con archivos PDF en Adobe Dynamic Media Classic.
 uuid: 26d70d28-9393-49b1-9051-d70456deca67
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
-feature: Dynamic Media Classic,Administración de recursos
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '662'
 ht-degree: 45%
 
 ---
 
 # Uso de archivos PDF{#working-with-pdfs}
 
-Los archivos PDF (Portable Document Format) se usan con mayor frecuencia en Dynamic Media Classic para crear catálogos electrónicos. Al cargar un archivo PDF, Dynamic Media Classic rasteriza o desgarra las páginas de forma predeterminada para que se puedan usar las páginas para crear medios enriquecidos.
+Los archivos PDF (Portable Document Format) se usan con mayor frecuencia en Adobe Dynamic Media Classic para crear catálogos electrónicos. Al cargar un archivo PDF, Adobe Dynamic Media Classic rasteriza o quita las páginas de forma predeterminada para que se puedan usar las páginas para crear medios enriquecidos.
 
 ## Opciones de carga de archivos PDF {#pdf-upload-options}
 
@@ -59,7 +59,7 @@ Seleccione el menú Espacio de color y elija un espacio de color para el archivo
 
 * **Mantener espacio de color original** : conserva el espacio de color original.
 
-* **Personalizar de > A** : abre los menús para que pueda elegir los espacios de color Convertir en y Convertir en. Puede elegir un espacio de color estándar de Photoshop o un espacio de color que haya cargado en Dynamic Media Classic.
+* **Personalizar de > A** : abre los menús para que pueda elegir los espacios de color Convertir en y Convertir en. Puede elegir un espacio de color estándar de Photoshop o un espacio de color que haya cargado en Adobe Dynamic Media Classic.
 
 Consulte también [Perfiles ICC](/help/icc-profiles.md#icc_profiles).
 

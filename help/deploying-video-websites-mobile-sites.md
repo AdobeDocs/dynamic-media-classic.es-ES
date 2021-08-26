@@ -1,6 +1,6 @@
 ---
 title: Distribución de vídeo en los sitios web y sitios móviles
-description: Aprenda a implementar vídeo en sus sitios web y sitios móviles desde Dynamic Media Classic.
+description: Aprenda a implementar vídeo en sus sitios web y sitios móviles desde Adobe Dynamic Media Classic.
 uuid: 22bb4402-c0ab-4df0-89b9-99707d111927
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,16 @@ discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
-source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1689'
-ht-degree: 37%
+source-wordcount: '1704'
+ht-degree: 35%
 
 ---
 
 # Distribución de vídeo en los sitios web y sitios móviles{#deploying-video-to-your-websites-and-mobile-sites}
 
-Los sitios web, los sitios móviles y las aplicaciones de escritorio acceden al contenido del servidor de Dynamic Media Classic, incluido el vídeo, mediante cadenas URL o código incrustado. Dynamic Media Classic activa estas cadenas URL durante el proceso de publicación. Para colocar la cadena URL o el código incrustado del vídeo en las páginas web, las páginas móviles y las aplicaciones de escritorio, cópielo desde Dynamic Media Classic.
+Los sitios web, los sitios móviles y las aplicaciones de escritorio acceden al contenido del servidor de Dynamic Media Classic de Adobe, incluido el vídeo, mediante cadenas URL o código incrustado. Adobe Dynamic Media Classic activa estas cadenas URL durante el proceso de publicación. Para colocar la cadena URL o el código incrustado del vídeo en las páginas web, las páginas móviles y las aplicaciones de escritorio, cópielo desde Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -27,15 +27,15 @@ Los sitios web, los sitios móviles y las aplicaciones de escritorio acceden al 
 
 ## Publicación de vídeo {#publishing-video}
 
-La publicación de un vídeo permite a los servidores de Dynamic Media Classic entregar vídeo a su sitio web, sitio móvil o aplicación.
+La publicación de un vídeo permite que los servidores de Adobe Dynamic Media Classic entreguen vídeo a su sitio web, sitio móvil o aplicación.
 
 Existen dos métodos que puede utilizar para publicar vídeos:
 
-* **Publicación automática e instantánea de vídeos durante la carga** : Como parte del proceso de carga de vídeo, Dynamic Media Classic puede publicar vídeos automáticamente cuando se cargan y codifican. Esta capacidad para publicar inmediatamente significa que no es necesario publicar los vídeos por separado posteriormente.
+* **Publicación automática e instantánea de vídeos durante la carga** : Como parte del proceso de carga de vídeo, Adobe Dynamic Media Classic puede publicar vídeos automáticamente cuando se cargan y codifican. Esta capacidad para publicar inmediatamente significa que no es necesario publicar los vídeos por separado posteriormente.
 
 * **Publicación manual de vídeos tras la carga** - Si no desea publicar vídeos inmediatamente, puede publicar los vídeos manualmente en cualquier momento.
 
-Después de publicar vídeos, Dynamic Media Classic activa las cadenas URL de su página HTML o código de aplicación.
+Después de publicar vídeos, Adobe Dynamic Media Classic activa las cadenas URL de su página HTML o código de aplicación.
 
 **Para publicar vídeos:**
 
@@ -107,7 +107,7 @@ Consulte también [Vincular una URL de vídeo a un sitio móvil o sitio web](dep
 
 ### Implementar código incrustado para usar vídeo HTML5 con recursos de vídeo MP4 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
-Si no utiliza el reproductor de vídeo HTML5 de Dynamic Media Classic, sino que desea utilizar la etiqueta HTML5 `<video>` nativa con recursos de vídeo MP4, puede utilizar el siguiente ejemplo de código incrustado:
+Si no utiliza el reproductor de vídeo HTML5 de Adobe Dynamic Media Classic, sino que desea utilizar la etiqueta HTML5 `<video>` nativa con recursos de vídeo MP4, puede utilizar el siguiente ejemplo de código incrustado:
 
 ```as3
 <video poster="S7 video thumbnail URL" controls> 
@@ -131,11 +131,11 @@ Si no utiliza el reproductor de vídeo HTML5 de Dynamic Media Classic, sino que 
 
 ## Implementar vídeo con un reproductor de vídeo de terceros {#deploying-video-using-a-third-party-video-player}
 
-Si utiliza un reproductor de vídeo de terceros o un reproductor de vídeo personalizado en lugar de un visor de vídeo de Dynamic Media Classic, obtiene la URL de vídeo directa que funciona para el flujo de vídeo de varias bits HLS o la descarga progresiva.
+Si utiliza un reproductor de vídeo de terceros o un reproductor de vídeo personalizado en lugar de un visor de vídeo de Dynamic Media Classic de Adobe, obtiene la URL de vídeo directa que funciona para el flujo de vídeo de varias bits HLS o la descarga progresiva.
 
 **Para implementar vídeo con un reproductor de vídeo de terceros:**
 
-1. En Dynamic Media Classic, en la barra de navegación global, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Configuración general]**.
+1. En Adobe Dynamic Media Classic, en la barra de navegación global, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Configuración general]**.
 1. Según el tipo de URL que desee utilizar, realice una de las tareas siguientes:
 
 * Para generar una URL de vídeo de flujo directo HLS (velocidad de bits múltiple)
@@ -165,13 +165,13 @@ Si utiliza un reproductor de vídeo de terceros o un reproductor de vídeo perso
 
 ## Trabajar con miniaturas de vídeo {#working-with-video-thumbnails}
 
-Dynamic Media Classic genera miniaturas para vídeos codificados y vídeos precodificados. Puede utilizar las miniaturas de vídeo como cualquier otro recurso de imagen. Además, puede obtener direcciones URL para las miniaturas de vídeo que Dynamic Media Classic genera e implementar estas direcciones URL fuera de Dynamic Media Classic. Por ejemplo, puede implementar las miniaturas en resultados de búsquedas, listados de vídeos relacionados y listas de reproducción de vídeos en un sitio web.
+Adobe Dynamic Media Classic genera miniaturas de vídeos codificados y vídeos precodificados. Puede utilizar las miniaturas de vídeo como cualquier otro recurso de imagen. Además, puede obtener direcciones URL para las miniaturas de vídeo que genera Adobe Dynamic Media Classic e implementar estas direcciones URL fuera de Adobe Dynamic Media Classic. Por ejemplo, puede implementar las miniaturas en resultados de búsquedas, listados de vídeos relacionados y listas de reproducción de vídeos en un sitio web.
 
 Las miniaturas se generan en función del primer fotograma heterogéneo (no en un fotograma todo negro o todo blanco, etc. ) del vídeo.
 
 ### Obtener direcciones URL de miniaturas de vídeo {#obtaining-video-thumbnail-urls}
 
-Dynamic Media Classic genera miniaturas de vídeo automáticamente durante el proceso de carga. Las miniaturas aparecen en el panel Examinar en la vista de lista y en la vista de cuadrícula.
+Adobe Dynamic Media Classic genera miniaturas de vídeo automáticamente durante el proceso de carga. Las miniaturas aparecen en el panel Examinar de la Vista de lista y la Vista de cuadrícula.
 
 Para generar direcciones URL para miniaturas de vídeo, realice una operación de publicación.
 
@@ -181,7 +181,7 @@ Tras la publicación, puede obtener las URL de las miniaturas de vídeo en la vi
 
 ### Modificación de marcos de póster en los visualizadores de vídeo {#modifying-poster-frames-in-video-viewers}
 
-El *fotograma de póster* es el fotograma inicial que aparece en los visores de vídeo antes de que el vídeo empiece a reproducirse. Dynamic Media Classic utiliza miniaturas de vídeo como marcos de póster.
+El *fotograma de póster* es el fotograma inicial que aparece en los visores de vídeo antes de que el vídeo empiece a reproducirse. Adobe Dynamic Media Classic utiliza miniaturas de vídeo como marcos de póster.
 
 Puede aplicar modificadores de imagen al fotograma de póster. Por ejemplo, puede recortar el fotograma de póster o hacerlo transparente. Para modificar el fotograma de póster, abra la pantalla de configuración del visor de vídeo e introduzca modificadores en la sección Modificadores de imagen de póster. 
 

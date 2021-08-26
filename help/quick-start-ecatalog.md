@@ -10,10 +10,10 @@ discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
-source-git-commit: 1f3a110e8d795e766c37e43ea7f878cc0eec2ec2
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1424'
-ht-degree: 50%
+source-wordcount: '1430'
+ht-degree: 48%
 
 ---
 
@@ -47,13 +47,13 @@ Al crear el catálogo electrónico, tiene la posibilidad de ordenar como desee p
 >
 >En la esquina superior izquierda de la página CRXDE Lite, haga clic en **[!UICONTROL Guardar todo]**.
 >
->Ahora puede crear catálogos electrónicos en Dynamic Media Classic.
+>Ahora puede crear catálogos electrónicos en Adobe Dynamic Media Classic.
 
 Este inicio rápido de catálogos electrónicos se ha diseñado para ayudarle en el uso inicial de catálogos electrónicos. Siga los pasos del 1 al 7. Después de cada paso hay una referencia cruzada a un encabezado de tema en el que podrá encontrar más información.
 
 ## 1. Carga de los archivos PDF
 
-Los catálogos electrónicos suelen crearse a partir de archivos PDF. Puesto que están diseñados para imprimirse, los archivos PDF suelen contener imágenes en CMYK. Dynamic Media Classic detecta estas imágenes y las convierte mediante un perfil de color CMYK estándar. Sin embargo, debe cargar y usar un perfil de color personalizado.
+Los catálogos electrónicos suelen crearse a partir de archivos PDF. Puesto que están diseñados para imprimirse, los archivos PDF suelen contener imágenes en CMYK. Adobe Dynamic Media Classic detecta estas imágenes y las convierte utilizando un perfil de color CMYK estándar. Sin embargo, debe cargar y usar un perfil de color personalizado.
 
 En la barra de navegación global, haga clic en **[!UICONTROL Cargar]** para iniciar la carga de archivos PDF o imágenes para su catálogo electrónico. Puede cargar archivos desde el escritorio o por medio de FTP; se recomienda usar FTP si va a cargar muchos archivos o archivos cuyo tamaño es superior a 100 MB.
 
@@ -69,7 +69,7 @@ En la página Catálogo electrónico, en la ficha **[!UICONTROL Ordenar páginas
 
 Para agregar páginas, seleccione una carpeta en la biblioteca de recursos y arrastre los archivos PDF o de imagen a la pantalla Ordenar páginas. En lugar de los números de página predeterminados, puede proporcionar nombres de página personalizados o importar muchos nombres de página.
 
-Haga clic en **[!UICONTROL Guardar]**, introduzca un nombre para el catálogo electrónico, elija una carpeta de Dynamic Media Classic para almacenarla y haga clic en **[!UICONTROL Guardar]**. Cada vez que cambie el orden de la página o edite el catálogo electrónico, guarde los cambios haciendo clic en **[!UICONTROL Guardar]**.
+Haga clic en **[!UICONTROL Guardar]**, introduzca un nombre para el catálogo electrónico, elija una carpeta de Dynamic Media Classic de Adobe para almacenarla y haga clic en **[!UICONTROL Guardar]**. Cada vez que cambie el orden de la página o edite el catálogo electrónico, guarde los cambios haciendo clic en **[!UICONTROL Guardar]**.
 
 Consulte [Creación de un catálogo electrónico](creating-ecatalog.md).
 
@@ -91,7 +91,7 @@ Consulte [Administrar contenido del panel de información en catálogos electró
 
 ## 4. Configuración de ajustes preestablecidos del visor de catálogos electrónicos
 
-Los usuarios finales ven el catálogo electrónico en el visor de catálogos electrónicos. Si es un administrador, puede configurar el visor de catálogos electrónicos. Puede cambiar el color del contorno y seleccionar una nueva “apariencia” para personalizar el catálogo electrónico. Dynamic Media Classic incluye varios ajustes preestablecidos de visualizador de catálogos electrónicos &quot;recomendados&quot;. Puede elegir uno de estos ajustes preestablecidos para mostrar los catálogos electrónicos. También puede crear un ajuste preestablecido de visor de catálogos electrónicos propio si es administrador.
+Los usuarios finales ven el catálogo electrónico en el visor de catálogos electrónicos. Si es un administrador, puede configurar el visor de catálogos electrónicos. Puede cambiar el color del contorno y seleccionar una nueva “apariencia” para personalizar el catálogo electrónico. Adobe Dynamic Media Classic incluye varios ajustes preestablecidos de visor de catálogos electrónicos &quot;recomendados&quot;. Puede elegir uno de estos ajustes preestablecidos para mostrar los catálogos electrónicos. También puede crear un ajuste preestablecido de visor de catálogos electrónicos propio si es administrador.
 
 Para crear un ajuste preestablecido de visualizador de catálogos electrónicos, en la barra de navegación global, haga clic en **[!UICONTROL Configuración]** y seleccione **[!UICONTROL Ajustes preestablecidos de visualizador]**. A continuación, haga clic en **[!UICONTROL Add]**, elija una plataforma y haga clic en **[!UICONTROL eCatalog > Viewer]**.
 
@@ -109,7 +109,7 @@ Consulte [Vista previa de catálogos electrónicos en el visor de catálogos ele
 
 ## 6. Publicación de catálogos electrónicos y archivos PDF asociados
 
-Al publicar el catálogo electrónico y el PDF asociado, se coloca en los servidores de imágenes de Dynamic Media para que se pueda enviar al sitio web y a la aplicación. Como parte del proceso de publicación, Dynamic Media Classic activa la cadena URL del catálogo electrónico. Utilice esta URL para llamar al catálogo electrónico desde los servidores de imágenes de Dynamic Media a su sitio web o aplicación.
+Al publicar el catálogo electrónico y el PDF asociado, se coloca en los servidores de imágenes de Dynamic Media para que se pueda enviar al sitio web y a la aplicación. Como parte del proceso de publicación, Adobe Dynamic Media Classic activa la cadena URL del catálogo electrónico. Utilice esta URL para llamar al catálogo electrónico desde los servidores de imágenes de Dynamic Media a su sitio web o aplicación.
 
 Después de marcar el catálogo electrónico y el PDF para su publicación en el panel Examinar, seleccione el botón Publicar en la barra de navegación global para iniciar una publicación. En la pantalla Publicar, haga clic en **[!UICONTROL Enviar publicación]**.
 
@@ -117,7 +117,7 @@ Consulte [Publicación de catálogos electrónicos y archivos PDF asociados](pub
 
 ## 7. Vinculación de un catálogo electrónico a una página web
 
-Dynamic Media Classic activa la cadena de llamada URL necesaria para mostrar el catálogo electrónico cuando se publica en los servidores de imágenes de Dynamic Media. Puede copiar esta cadena URL desde la pantalla Vista previa o desde la vista de detalles del panel Examinar si selecciona Direcciones URL en el panel. Cuando haya copiado la cadena URL, estará disponible para los sitios web y las aplicaciones.
+Adobe Dynamic Media Classic activa la cadena de llamada de URL necesaria para mostrar el catálogo electrónico cuando se publica en los servidores de imágenes de Dynamic Media. Puede copiar esta cadena URL desde la pantalla Vista previa y el panel Examinar (en la Vista detallada) seleccionando direcciones URL en el panel. Cuando haya copiado la cadena URL, estará disponible para los sitios web y las aplicaciones.
 
 Decida junto con su grupo de TI cuál es el lugar más apropiado de la página web para colocar el vínculo al catálogo electrónico. Al hacer clic en el vínculo, aparecerá el visor de catálogos electrónicos y los usuarios podrán examinar el catálogo electrónico.
 

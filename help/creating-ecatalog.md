@@ -1,18 +1,18 @@
 ---
 title: Crear un catálogo electrónico
-description: Aprenda a crear un catálogo electrónico en Dynamic Media Classic.
+description: Aprenda a crear un catálogo electrónico en Adobe Dynamic Media Classic.
 uuid: 2aff05c2-7052-426c-b61d-7f9091f7ace8
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
-feature: Dynamic Media Classic,Visualizadores,Catálogo electrónico
+feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
-source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '967'
 ht-degree: 57%
 
 ---
@@ -96,7 +96,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 ## Personalización de la tabla de contenido (TOC) {#customizing-the-table-of-contents-toc}
 
-Dynamic Media Classic proporciona números de página predeterminados en el catálogo electrónico en la ficha Ordenar páginas de la pantalla Catálogo electrónico. Si desea personalizar el nombre de las páginas, puede cambiar las etiquetas de las páginas que forman la tabla de contenido (TOC). Se recomienda cambiar el nombre de la portada y la contraportada. Por ejemplo, la portada puede decir &quot;Portada&quot; en lugar de &quot;Página 0-1&quot;.
+Adobe Dynamic Media Classic proporciona números de página predeterminados en el catálogo electrónico en la ficha Ordenar páginas de la pantalla Catálogo electrónico. Si desea personalizar el nombre de las páginas, puede cambiar las etiquetas de las páginas que forman la tabla de contenido (TOC). Se recomienda cambiar el nombre de la portada y la contraportada. Por ejemplo, la portada puede decir &quot;Portada&quot; en lugar de &quot;Página 0-1&quot;.
 
 Puede crear una tabla de contenido (TOC) personalizada para el catálogo electrónico manualmente o importando los nombres de las páginas de un archivo CSV (solo Mac) o XML.
 

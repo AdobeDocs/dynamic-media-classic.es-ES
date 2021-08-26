@@ -1,6 +1,6 @@
 ---
 title: Creación de una plantilla
-description: Obtenga información sobre cómo crear una plantilla en Dynamic Media Classic.
+description: Obtenga información sobre cómo crear una plantilla en Adobe Dynamic Media Classic.
 uuid: c762224b-7c6c-4434-bada-c26570079645
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 feature: Dynamic Media Classic
 role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '3397'
+source-wordcount: '3405'
 ht-degree: 45%
 
 ---
@@ -23,7 +23,7 @@ Para crear una plantilla, vaya a **[!UICONTROL Build]** > **[!UICONTROL Template
 
 >[!NOTE]
 >
->Si edita una plantilla creada en una versión anterior de Dynamic Media Classic, una solicitud le preguntará al guardar &quot;¿Desea añadir una capa de lienzo?&quot;. Seleccione **[!UICONTROL No]** para evitar añadir una capa base. Si selecciona **[!UICONTROL Yes]** accidentalmente, elimine los modificadores `&allowCanvasPrompt` y `&layer=0` en la dirección URL y pulse **[!UICONTROL Enter]** o **[!UICONTROL Return]**.
+>Si edita una plantilla creada en una versión anterior de Adobe Dynamic Media Classic, una solicitud le preguntará al guardar &quot;¿Desea añadir una capa de lienzo?&quot;. Seleccione **[!UICONTROL No]** para evitar añadir una capa base. Si selecciona **[!UICONTROL Yes]** accidentalmente, elimine los modificadores `&allowCanvasPrompt` y `&layer=0` en la dirección URL y pulse **[!UICONTROL Enter]** o **[!UICONTROL Return]**.
 
 ## Creación de la plantilla inicial {#creating-the-initial-template}
 
@@ -52,7 +52,7 @@ Puede crear una plantilla a partir de una existente. Abra la plantilla, seleccio
 1. Seleccione **[!UICONTROL Guardar]**.
 1. Seleccione una carpeta para almacenar la plantilla, introduzca un nombre para la plantilla y seleccione **[!UICONTROL Submit]**.
 
-   Dynamic Media Classic reduce las imágenes si es necesario para ajustarlas al lienzo, el área de la pantalla Plantilla para definir la plantilla.
+   Adobe Dynamic Media Classic reduce las imágenes si es necesario para ajustarlas al lienzo, el área de la pantalla Plantilla para definir la plantilla.
 
 ## Editar un conjunto de plantillas {#editing-a-template-set}
 
@@ -69,7 +69,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 **Para editar un conjunto de plantillas:**
 
-1. En la vista de cuadrícula, vaya a un conjunto de plantillas y, debajo de la imagen, seleccione **[!UICONTROL Editar]**.
+1. En la vista de cuadrícula, busque un conjunto de plantillas y, debajo de la imagen, seleccione **[!UICONTROL Editar]**.
 1. Cambie la plantilla según sea necesario.
 1. Cuando haya terminado con su edición, asegúrese de que esté seleccionada la opción **[!UICONTROL Publicar después de guardar]** (predeterminada), cerca de la esquina inferior derecha de la página.
 1. Seleccione **[!UICONTROL Guardar]**, seleccione una carpeta de almacenamiento, introduzca un nombre para el conjunto y, a continuación, seleccione **[!UICONTROL Guardar]**.
@@ -103,7 +103,7 @@ Utilice estas herramientas en la pantalla Plantilla para crear plantillas:
 
    >[!NOTE]
    >
-   >La eliminación del Editor de texto v4.2 está planificada como una opción en Dynamic Media Classic, por lo que se recomienda utilizar el Editor de texto 4.3 cuando sea posible. La opción **[!UICONTROL Ajuste de palabras]** se incorporará en una versión futura del Editor de texto.
+   >La eliminación del Editor de texto v4.2 está planificada como una opción en Adobe Dynamic Media Classic, por lo que se recomienda utilizar el Editor de texto 4.3 cuando sea posible. La opción **[!UICONTROL Ajuste de palabras]** se incorporará en una versión futura del Editor de texto.
 
 * **[!UICONTROL Diseñador y desarrollador]** : seleccione la opción que mejor describe su función.
 
@@ -121,7 +121,7 @@ Utilice estas herramientas en la pantalla Plantilla para crear plantillas:
 
    >[!NOTE]
    >
-   >Si es necesario, Dynamic Media Classic reduce las imágenes para ajustarlas al lienzo al crear una capa de imagen.
+   >Si es necesario, Adobe Dynamic Media Classic reduce las imágenes para ajustarlas al lienzo al crear una capa de imagen.
 
 ## Creación de una capa de texto {#creating-a-text-layer}
 
@@ -142,7 +142,7 @@ Para dar formato al texto de una capa de texto, haga lo siguiente:
 1. En el cuadro de texto del Editor de texto, seleccione el texto al que desee dar formato. Puede seleccionar todo el texto, partes del texto o caracteres individuales.
 1. Especifique cualquiera de las siguientes opciones de formato y, a continuación, seleccione **[!UICONTROL Aplicar]**.
 
-   * **[!UICONTROL Fuente]** : elija una fuente en el menú Fuente. Si la fuente que desea no aparece en el menú, puede cargarla en Dynamic Media Classic. Consulte Fuentes.
+   * **[!UICONTROL Fuente]** : elija una fuente en el menú Fuente. Si la fuente que desea no aparece en el menú, puede cargarla en el Adobe Dynamic Media Classic. Consulte Fuentes.
 
    * **[!UICONTROL Tamaño de fuente]** : elija un tamaño de fuente en el menú, escriba un tamaño específico en el cuadro o seleccione las  **** flechas  **** inferiores para aumentar o reducir el tamaño en dos puntos.
 
@@ -244,7 +244,7 @@ El tamaño de las capas no debe superar las restricciones del lienzo. Puede modi
 
 >[!NOTE]
 >
->Dynamic Media Classic recomienda crear un ajuste preestablecido de imagen que sea del tamaño exacto de la plantilla. De este modo se asegura una definición correcta de las opciones de enfoque y el tamaño de salida final de la plantilla. Después de crear este ajuste de imagen preestablecido, está disponible en el menú Ajustes preestablecidos, en la pantalla Vista previa de plantilla. La pantalla muestra el aspecto que tendrá la imagen procedente del servidor. Consulte [Configuración de ajustes preestablecidos de imagen](setting-image-presets.md#setting_up_image_presets).
+>Adobe Dynamic Media Classic recomienda crear un ajuste preestablecido de imagen que sea del tamaño exacto de la plantilla. De este modo se asegura una definición correcta de las opciones de enfoque y el tamaño de salida final de la plantilla. Después de crear este ajuste de imagen preestablecido, está disponible en el menú Ajustes preestablecidos, en la pantalla Vista previa de plantilla. La pantalla muestra el aspecto que tendrá la imagen procedente del servidor. Consulte [Configuración de ajustes preestablecidos de imagen](setting-image-presets.md#setting_up_image_presets).
 
 * **Cambio del tamaño de una capa** : para cambiar el tamaño de una capa o del lienzo, seleccione la capa o el lienzo en la lista Capas y utilice una de estas técnicas:
 
@@ -288,7 +288,7 @@ Para definir el color de fondo, la opacidad y el modo de fusión de una capa o d
 
 ## Utilizar efectos de sombra y resplandor en capas {#using-shadow-and-glow-effects-on-layers}
 
-Puede aplicar una sombra o un resplandor a una capa. La sombra o el resplandor se aplican al perímetro de la capa y se extienden hacia dentro o hacia fuera, según la opción elegida. Si la plantilla se originó con un archivo PSD con efectos de sombra y resplandor, puede ajustar estos efectos en Dynamic Media Classic.
+Puede aplicar una sombra o un resplandor a una capa. La sombra o el resplandor se aplican al perímetro de la capa y se extienden hacia dentro o hacia fuera, según la opción elegida. Si la plantilla se originó con un archivo PSD con efectos de sombra y resplandor, puede ajustar estos efectos en Adobe Dynamic Media Classic.
 
 Después de aplicar un efecto de sombra o resplandor, puede ajustar su tamaño, color, opacidad y posición en el área Propiedades de la capa, en la pantalla Plantilla.
 

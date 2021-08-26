@@ -1,6 +1,6 @@
 ---
-title: Requisitos del sistema
-description: 'Obtenga información sobre los requisitos del sistema para la mejor experiencia con Dynamic Media Classic. '
+title: Requisitos del sistema para la aplicación de escritorio de Adobe Dynamic Media Classic
+description: 'Obtenga información sobre los requisitos del sistema para la mejor experiencia con Adobe Dynamic Media Classic. '
 uuid: 8dfc925b-7350-41af-9207-3b2a743c0998
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,16 @@ discoiquuid: 27278fef-8b0e-41cd-b393-7a4c3625d5c0
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 3460f3bd-1616-44e7-9ddb-fe74ee0c8729
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: a8b5ad338ef8c8b2c50acea5d4c0560820c40ae4
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 34%
+source-wordcount: '108'
+ht-degree: 26%
 
 ---
 
-# Requisitos del sistema {#system-requirements}
+# Requisitos del sistema para la aplicación de escritorio de Adobe Dynamic Media Classic {#system-requirements}
 
-Para disfrutar de la mejor experiencia con la aplicación de escritorio de Dynamic Media Classic, asegúrese de que su sistema cumpla los siguientes requisitos y sugerencias del sistema:
+Para disfrutar de la mejor experiencia con la aplicación de escritorio Adobe Dynamic Media Classic, asegúrese de que su sistema cumpla los siguientes requisitos y sugerencias del sistema:
 
 * Se requiere el procesador Intel® para Microsoft® Windows® 7 o posterior, o macOS X 10.6 o superior para Macintosh.
 * Se requieren 3 GB de RAM o más (se sugieren 4 GB o más).

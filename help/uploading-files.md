@@ -6,27 +6,27 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
-feature: Dynamic Media Classic,Administración de recursos
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '3833'
+source-wordcount: '3863'
 ht-degree: 36%
 
 ---
 
 # Carga de archivos{#uploading-files}
 
-Antes de cargar archivos de recursos en Dynamic Media Classic, asegúrese de que los archivos de recursos tengan los nombres adecuados y de que la estructura de carpetas esté configurada y organizada del modo que desee. Puede cargar archivos desde un sitio FTP proporcionado por Dynamic Media Classic o directamente desde su equipo o red. Dynamic Media Classic ofrece opciones para optimizar archivos a medida que los carga. Si ha instalado la aplicación de escritorio de Adobe Dynamic Media Classic, puede cargar archivos y carpetas arrastrándolos directamente desde el escritorio. Consulte [Configuración general de la aplicación](application-setup.md#general_settings).
+Antes de cargar archivos de recursos en Adobe Dynamic Media Classic, asegúrese de que los archivos de recursos tengan los nombres adecuados y de que la estructura de carpetas esté configurada y organizada del modo que desee. Puede cargar archivos desde un sitio FTP proporcionado por Dynamic Media Classic de Adobe o directamente desde su equipo o red. Adobe Dynamic Media Classic ofrece opciones para optimizar archivos a medida que los carga. Si ha instalado la aplicación de escritorio de Adobe Dynamic Media Classic, puede cargar archivos y carpetas arrastrándolos directamente desde el escritorio. Consulte [Configuración general de la aplicación](application-setup.md#general_settings).
 
 ## Preparación de los recursos y las carpetas para la carga {#preparing-your-assets-and-folders-for-uploading}
 
-Antes de cargar recursos a Dynamic Media Classic, asegúrese de que tengan el formato y el tamaño adecuados. También debe observar las reglas de Dynamic Media Classic para asignar nombres a los recursos. La creación de una estructura de carpetas para los archivos facilita la búsqueda y el uso de éstos.
+Antes de cargar recursos en Adobe Dynamic Media Classic, asegúrese de que tengan el formato y el tamaño adecuados. También debe observar las reglas de Adobe de Dynamic Media Classic para asignar nombres a los recursos. La creación de una estructura de carpetas para los archivos facilita la búsqueda y el uso de éstos.
 
 ### Formatos de archivo de recurso admitidos {#supported-asset-file-formats}
 
-En esta tabla se muestran los formatos de archivo de recursos que admite Dynamic Media Classic. Para obtener información sobre los archivos Camera Raw admitidos, consulte [https://www.adobe.com/go/learn_s7_cameraraw_en](https://www.adobe.com/go/learn_s7_cameraraw_en).
+En esta tabla se enumeran los formatos de archivo de recursos que admite Adobe Dynamic Media Classic. Para obtener información sobre los archivos Camera Raw admitidos, consulte [https://www.adobe.com/go/learn_s7_cameraraw_en](https://www.adobe.com/go/learn_s7_cameraraw_en).
 
 | Formatos de archivo de recurso | Descripción |
 |--- |--- |
@@ -42,7 +42,7 @@ En esta tabla se muestran los formatos de archivo de recursos que admite Dynamic
 | PDF | PDF |
 | Photoshop | PSD, FXG y RAW de cámara |
 | PostScript | EPS, PS |
-| Creación de imágenes de Dynamic Media Classic | VNC, VNT, VNW |
+| Creación de imágenes en Adobe Dynamic Media Classic | VNC, VNT, VNW |
 | SVG | SVG, SVGX |
 | TAR | TAR |
 | Vídeo | 3GP, AVI, M2P, M2T, M2TS, M2V, M4V, MOV, MP4, MPEG, MPG, MTS, OGV, TS, VOB, WMV/ASF |
@@ -66,7 +66,7 @@ Consulte también [Detectar formatos de archivo no compatibles para Dynamic Medi
 
 ### Tipos de recursos {#asset-types}
 
-Para obtener resultados óptimos con el programa Dynamic Media Classic, asegúrese de utilizar los formatos y tamaños de archivo recomendados. Esta tabla muestra los tipos de recursos, algunos con los formatos y tamaños de archivos recomendados para los recursos más comunes.
+Para obtener resultados óptimos con el programa Adobe Dynamic Media Classic, asegúrese de utilizar los formatos y tamaños de archivo recomendados. Esta tabla muestra los tipos de recursos, algunos con los formatos y tamaños de archivos recomendados para los recursos más comunes.
 
 | Tipo de recurso | Descripción/Recomendaciones |
 |--- |--- |
@@ -74,7 +74,7 @@ Para obtener resultados óptimos con el programa Dynamic Media Classic, asegúre
 | Imágenes (para cambio de tamaño de imagen, zoom, conjuntos de imágenes, conjuntos de giros) | Las imágenes deben tener al menos 2000 píxeles con el tamaño más largo; los tamaños de imagen típicos varían de 1500 a 2500 píxeles en el tamaño más largo. Se recomiendan los formatos de imagen sin pérdida (incluidos TIFF y PNG). Con imágenes JPEG, use los valores más altos de calidad. Los archivos GIF animados se gestionan como cualquier otro contenido estático. |
 | Catálogos electrónicos | Use archivos PDF de alta resolución creados en Adobe® Acrobat® o una aplicación de Creative Suite guardados como &quot;listos para publicación&quot;. Los archivos PDF incluyen todas las fuentes, imágenes y máscaras requeridas, así como elementos gráficos a los que se hace referencia, ya sea en formato de página única, doble o multipágina. Asigne un nombre alfanumérico a los archivos para ordenar las páginas. Coloque todos los PDF para el catálogo electrónico en una misma carpeta, para facilitar la tarea de carga. Puede seleccionar opciones de recorte para quitar de los archivos marcas de recorte, destinos de registro o barras de color. La mayoría de archivos PDF listos para imprenta utilizan un espacio de color CMYK, por lo que es importante obtener el perfil de color CMYK ICC utilizado con los archivos. |
 | Plantillas | Las imágenes o los diseños con capas pueden incluir texto, imágenes y capas. Las capas de imagen, las cadenas de texto y los atributos, tales como el color y tamaño, pueden parametrizarse para personalizar los datos variables. Los requisitos de imagen cuando se utilizan plantillas son los mismos que para otros tipos de imagen. Prepare los gráficos en Photoshop u otro programa de edición de imágenes. Guarde cada gráfico como archivo acoplado transparente, en formato TIFF o PNG. Asegúrese de que la resolución de la imagen es apropiada para el uso previsto. Las imágenes para imprimir son de 300 ppi. |
-| Vídeos | Dynamic Media Classic admite archivos de vídeo guardados en los formatos OGV y MP4. Puede transcodificar los archivos a formato MP4 en el momento de realizar la carga. Consulte [Formatos de archivo de recursos admitidos](#supported-static-file-formats) |
+| Vídeos | Adobe Dynamic Media Classic admite archivos de vídeo guardados en los formatos OGV y MP4. Puede transcodificar los archivos a formato MP4 en el momento de realizar la carga. Consulte [Formatos de archivo de recursos admitidos](#supported-static-file-formats) |
 | Fuentes | Fuentes TrueType, Type1 (solo Windows®), OpenType® y PhotoFonts cargados |
 | Imágenes | Imágenes y archivos de imagen con capas. |
 | Conjuntos de imágenes y conjuntos de muestras | Un conjunto de imágenes se compone de imágenes relacionadas que se pueden mostrar en un visor. |
@@ -89,11 +89,11 @@ Para obtener resultados óptimos con el programa Dynamic Media Classic, asegúre
 
 >[!NOTE]
 >
->Cuando se cargan archivos de imagen y archivos PDF en Dynamic Media Classic, el sistema convierte estos archivos de origen en archivos P-TIFF (Pyramid TIFF). Estos P-TIFF son los archivos que se publican posteriormente en los servidores de imágenes de Dynamic Media. Dynamic Media Classic utiliza el formato de archivo Pyramid Tiff porque contiene varias relaciones de zoom que permiten un zoom rápido al visualizarlo con un visor de zoom Dynamic Media Classic.
+>Cuando se cargan archivos de imagen y archivos PDF en Adobe Dynamic Media Classic, el sistema convierte estos archivos de origen en archivos P-TIFF (Pyramid TIFF). Estos P-TIFF son los archivos que se publican posteriormente en los servidores de imágenes de Dynamic Media. Adobe Dynamic Media Classic utiliza el formato de archivo Pyramid Tiff porque contiene varias relaciones de zoom que permiten un zoom rápido al visualizarlo con un visor de zoom Dynamic Media Classic de Adobe.
 
 ### Formatos de archivo estático compatibles {#supported-static-file-formats}
 
-Dynamic Media Classic admite varios formatos de archivo estáticos. El contenido estático es cualquier recurso publicado tal cual, como CSS, PDF, SVG y XML.
+Adobe Dynamic Media Classic admite varios formatos de archivo estáticos. El contenido estático es cualquier recurso publicado tal cual, como CSS, PDF, SVG y XML.
 
 Los siguientes tipos de archivo pueden publicarse:
 
@@ -108,17 +108,17 @@ Los siguientes tipos de archivo pueden publicarse:
 * XML
 * ZIP
 
-Dynamic Media Classic no proporciona la opción de generar una dirección URL de vista previa de contenido estático.
+Adobe Dynamic Media Classic no proporciona la opción de generar una URL de vista previa de contenido estático.
 
 ### Requisitos de nombre de archivo {#filename-requirements}
 
-Dado que las extensiones de nombre de archivo se quitan durante el proceso de carga, el sistema no permite que haya archivos con el mismo nombre raíz. En el sistema de Dynamic Media Classic, el nombre de archivo del recurso menos la extensión del nombre del archivo se convierte en el ID del recurso. Por esta razón no puede haber dos recursos con el mismo nombre.
+Dado que las extensiones de nombre de archivo se quitan durante el proceso de carga, el sistema no permite que haya archivos con el mismo nombre raíz. En el sistema de Adobe Dynamic Media Classic, el nombre de archivo del recurso menos la extensión del nombre del archivo se convierte en el ID del recurso. Por esta razón no puede haber dos recursos con el mismo nombre.
 
 Asegúrese de que todos los usuarios de la empresa entienden las reglas de designación de archivos.
 
 * El sistema no admite identificadores de recurso con un nombre idéntico.
 * Los nombres de los ID de recurso distinguen entre mayúsculas y minúsculas.
-* Como práctica recomendada, compruebe que los ID de recursos no contienen espacios en blanco (por ejemplo, chaqueta negra.tif o chaqueta azul.jpg). Dynamic Media Classic ASCII codifica espacios en blanco en los nombres de recursos cuando utiliza nombres de recursos para construir cadenas de URL. Estos códigos ASCII son difíciles de leer, lo que dificulta la lectura de las direcciones URL.
+* Como práctica recomendada, compruebe que los ID de recursos no contienen espacios en blanco (por ejemplo, chaqueta negra.tif o chaqueta azul.jpg). Adobe Dynamic Media Classic ASCII codifica espacios en blanco en los nombres de recursos cuando utiliza nombres de recursos para construir cadenas de URL. Estos códigos ASCII son difíciles de leer, lo que dificulta la lectura de las direcciones URL.
 * Los caracteres específicos de idioma están permitidos en los nombres de archivo. No obstante, los siguientes caracteres se permiten en los nombres de archivo:
 
    \ ; / ? : @ &amp; = + $ , * &quot; &lt; > | &#39; { } %
@@ -134,12 +134,12 @@ Normalmente, un nombre de archivo de recurso puede ser el mismo que su número d
 
 ### Organización y estructura de carpetas {#folder-organization-and-structure}
 
-Organice y estructura carpetas y subcarpetas para su contenido en Dynamic Media Classic antes de cargar el contenido en el sistema. Esto aporta dos ventajas:
+Organice y estructura carpetas y subcarpetas para su contenido en Adobe Dynamic Media Classic antes de cargar el contenido en el sistema. Esto aporta dos ventajas:
 
-* Al cargar el contenido en Dynamic Media Classic a través de FTP, puede indicar al sistema que duplique la estructura de carpetas durante la carga. De este modo, el contenido se organiza en las mismas carpetas y subcarpetas de Dynamic Media Classic que en su equipo o red. (Para replicar la estructura de carpetas en Dynamic Media Classic, seleccione la opción Incluir subcarpetas al cargar recursos mediante FTP).
+* Al cargar el contenido en Adobe Dynamic Media Classic a través de FTP, puede indicar al sistema que duplique la estructura de carpetas durante la carga. De este modo, el contenido se organiza en las mismas carpetas y subcarpetas de Adobe Dynamic Media Classic que en su equipo o red. (Para replicar la estructura de carpetas en Adobe Dynamic Media Classic, seleccione la opción Incluir subcarpetas al cargar recursos mediante FTP).
 * La reorganización de carpetas dentro del sistema después de cargar los archivos resulta más difícil que un punto de partida con una estructura de carpetas ya probada.
 
-El método de asignación de nombres a carpetas y la estructura que elija para almacenar el contenido en Dynamic Media Classic dependen de las necesidades de su organización. A continuación se citan algunos ejemplos de estructura de carpetas:
+El método de asignación de nombres a carpetas y la estructura que elija para almacenar el contenido en el Adobe Dynamic Media Classic dependen de las necesidades de su organización. A continuación se citan algunos ejemplos de estructura de carpetas:
 
 **Basado en SKU** : los nombres de las carpetas dependen de los SKU o los números de artículo. Por ejemplo, se crean carpetas distintas para las series de números 0-, 20-, 30-, etc.
 
@@ -153,19 +153,19 @@ El método de asignación de nombres a carpetas y la estructura que elija para a
 
 Puede cargar archivos individuales desde el escritorio o cargar carpetas enteras mediante FTP. Si desea cargar más de 100 MB de archivos o cargar carpetas y subcarpetas completas, seleccione la pestaña **VIA FTP**.
 
-Dynamic Media Classic le envía un mensaje de correo electrónico para confirmar cuándo comienza y finaliza el trabajo de carga y para notificarle cualquier problema.
+Adobe Dynamic Media Classic le envía un mensaje de correo electrónico para confirmar cuándo comienza y finaliza el trabajo de carga y para notificarle cualquier problema.
 
-Durante (o inmediatamente después) un trabajo de carga grande, algunos elementos nuevos podrían mostrar el mensaje &quot;Imagen aún no optimizada&quot;. Este mensaje aparece porque los archivos aún no se han procesado y agregado completamente a Dynamic Media Classic. Puede optimizar estos archivos posteriormente. Consulte [Optimizar archivos](application-setup.md#optimize_files).
+Durante (o inmediatamente después) un trabajo de carga grande, algunos elementos nuevos podrían mostrar el mensaje &quot;Imagen aún no optimizada&quot;. Este mensaje aparece porque los archivos aún no se han procesado y agregado completamente a Adobe Dynamic Media Classic. Puede optimizar estos archivos posteriormente. Consulte [Optimizar archivos](application-setup.md#optimize_files).
 
 ### Carga de archivos mediante la ficha Desde escritorio {#upload-files-using-sps-desktop-application}
 
-La aplicación de escritorio Dynamic Media Classic permite cargar archivos y carpetas arrastrando.
+La aplicación de escritorio de Adobe Dynamic Media Classic permite cargar archivos y carpetas arrastrando.
 
-1. En la aplicación de escritorio de Dynamic Media Classic, en la barra de navegación global, haga clic en **[!UICONTROL Cargar]**.
+1. En la aplicación de escritorio de Adobe Dynamic Media Classic, en la barra de navegación global, haga clic en **[!UICONTROL Cargar]**.
 1. En la página Cargar , haga clic en la pestaña **[!UICONTROL Desde escritorio]**.
 1. En el lado izquierdo de la página Cargar, en el área **[!UICONTROL Seleccionar archivos para cargar]**, haga clic en **[!UICONTROL Examinar]** para seleccionar los archivos o carpetas que desea cargar y, a continuación, haga clic en **[!UICONTROL Abrir]**.
 1. En el lado derecho de la página Cargar, en el área **Elegir destino de carpeta**, vaya a la carpeta de destino en la que desee agregar los archivos o carpetas cargados.
-1. (Opcional) Cerca de la parte inferior de la página Cargar, en el campo **[!UICONTROL Nombre del trabajo]**, especifique el nuevo nombre del trabajo de carga. O bien, simplemente puede utilizar el nombre predeterminado generado por el sistema que proporciona Dynamic Media Classic. El trabajo, junto con otros de carga y publicación, se grabará en la página Trabajos, donde puede comprobar el estado de los trabajos. Consulte [Comprobación de archivos de trabajo](checking-job-files.md#checking_job_files).
+1. (Opcional) Cerca de la parte inferior de la página Cargar, en el campo **[!UICONTROL Nombre del trabajo]**, especifique el nuevo nombre del trabajo de carga. O bien, simplemente puede utilizar el nombre predeterminado generado por el sistema que proporciona el Adobe Dynamic Media Classic. El trabajo, junto con otros de carga y publicación, se grabará en la página Trabajos, donde puede comprobar el estado de los trabajos. Consulte [Comprobación de archivos de trabajo](checking-job-files.md#checking_job_files).
 1. (Opcional) Cerca de la parte inferior de la página Cargar, seleccione **[!UICONTROL Publicar después de cargar]** si desea publicar automáticamente los recursos que carga.
 Al publicar archivos, se envían a servidores interactivos. Las URL para estos archivos se pueden utilizar en sitios Web y aplicaciones externas. Esta misma opción también está disponible en el cuadro de diálogo Opciones de trabajo.
 1. (Opcional) Cerca de la parte inferior de la página Cargar, seleccione **[!UICONTROL Sobrescribir en cualquier carpeta, el mismo nombre de recurso base independientemente de la extensión]** si desea que los archivos que cargue reemplacen los archivos existentes con los mismos nombres. Esta misma opción también está disponible en el cuadro de diálogo Opciones de trabajo.
@@ -176,16 +176,16 @@ El nombre de esta opción puede ser diferente, dependiendo de la configuración 
 
 1. En el cuadro de diálogo Opciones de trabajo de carga, haga clic en **[!UICONTROL Guardar]**.
 1. En la esquina inferior derecha de la página Cargar, haga clic en **[!UICONTROL Enviar carga]**.
-Para ver el progreso de la carga, haga clic en **[!UICONTROL Trabajos]** en la barra de navegación global. Puede seguir trabajando en Dynamic Media Classic y volver a la página Trabajos en cualquier momento para revisar un trabajo en curso. Para cancelar un trabajo de carga que se encuentre en curso, seleccione **[!UICONTROL Cancelar]** junto al tiempo de duración.
+Para ver el progreso de la carga, haga clic en **[!UICONTROL Trabajos]** en la barra de navegación global. Puede seguir trabajando en Adobe Dynamic Media Classic y volver a la página Trabajos en cualquier momento para revisar un trabajo en curso. Para cancelar un trabajo de carga que se encuentre en curso, seleccione **[!UICONTROL Cancelar]** junto al tiempo de duración.
 
 ### Carga de archivos mediante la ficha VIA FTP {#upload-files-using-via-ftp}
 
-1. Inicie sesión en el sitio FTP de Dynamic Media Classic que sea específico de su región en particular. Utilice el nombre de usuario y la contraseña FTP que ha recibido del administrador.
-1. En Dynamic Media Classic, en la barra de navegación global, haga clic en **[!UICONTROL Cargar]**.
+1. Inicie sesión en el sitio FTP de Adobe Dynamic Media Classic que sea específico de su región en particular. Utilice el nombre de usuario y la contraseña FTP que ha recibido del administrador.
+1. En Adobe Dynamic Media Classic, en la barra de navegación global, haga clic en **[!UICONTROL Cargar]**.
 1. En la página Cargar , haga clic en la pestaña **[!UICONTROL VIA FTP]**.
 1. En la parte izquierda de la página Cargar, en el área **[!UICONTROL Elegir carpeta FTP para cargar]**, elija una carpeta FTP desde la que cargar los archivos.
-1. En el lado derecho de la página Cargar, en el área **[!UICONTROL Elegir destino de carpeta de Dynamic Media de Adobe]**, elija una carpeta de destino en Dynamic Media Classic.
-1. (Opcional) Cerca de la parte inferior de la página Cargar, en el campo **[!UICONTROL Nombre del trabajo]**, especifique el nuevo nombre del trabajo de carga. O bien, simplemente puede utilizar el nombre predeterminado generado por el sistema que proporciona Dynamic Media Classic. El trabajo, junto con otros de carga y publicación, se grabará en la página Trabajos, donde puede comprobar el estado de los trabajos. Consulte [Comprobación de archivos de trabajo](checking-job-files.md#checking_job_files).
+1. En el lado derecho de la página Cargar, en el área **[!UICONTROL Elegir destino de carpeta de Dynamic Media de Adobe]**, elija una carpeta de destino en Adobe Dynamic Media Classic.
+1. (Opcional) Cerca de la parte inferior de la página Cargar, en el campo **[!UICONTROL Nombre del trabajo]**, especifique el nuevo nombre del trabajo de carga. O bien, simplemente puede utilizar el nombre predeterminado generado por el sistema que proporciona el Adobe Dynamic Media Classic. El trabajo, junto con otros de carga y publicación, se grabará en la página Trabajos, donde puede comprobar el estado de los trabajos. Consulte [Comprobación de archivos de trabajo](checking-job-files.md#checking_job_files).
 1. (Opcional) Cerca de la parte inferior de la página Cargar, seleccione **[!UICONTROL Publicar después de la carga]** si desea publicar automáticamente los recursos que carga.
 Al publicar archivos, se envían a servidores interactivos. Las URL para estos archivos se pueden utilizar en sitios Web y aplicaciones externas. Esta misma opción también está disponible en el cuadro de diálogo Opciones de trabajo.
 1. (Opcional) Cerca de la parte inferior de la página Cargar, seleccione **[!UICONTROL Sobrescribir en cualquier carpeta, el mismo nombre de recurso base independientemente de la extensión]** si desea que los archivos que cargue reemplacen los archivos existentes con los mismos nombres. Esta misma opción también está disponible en el cuadro de diálogo Opciones de trabajo.
@@ -198,7 +198,7 @@ El nombre de esta opción puede ser diferente, dependiendo de la configuración 
 1. En el cuadro de diálogo Opciones de trabajo de carga, haga clic en **[!UICONTROL Guardar]**.
 1. En la esquina inferior derecha de la página Cargar, haga clic en **[!UICONTROL Enviar carga]**.
 
-   Para ver el progreso de la carga, en la barra de navegación global, haga clic en **[!UICONTROL Trabajos]**. La página Trabajos muestra el progreso de la carga. Puede seguir trabajando en Dynamic Media Classic y volver a la página Trabajos en cualquier momento para revisar un trabajo en curso.
+   Para ver el progreso de la carga, en la barra de navegación global, haga clic en **[!UICONTROL Trabajos]**. La página Trabajos muestra el progreso de la carga. Puede seguir trabajando en Adobe Dynamic Media Classic y volver a la página Trabajos en cualquier momento para revisar un trabajo en curso.
 
 Para cancelar un trabajo de carga que se encuentre en curso, haga clic en **[!UICONTROL Cancelar]** junto al tiempo de duración.
 
@@ -227,7 +227,7 @@ Al cargar archivos, puede elegir entre las siguientes opciones del cuadro de di�
 Seleccione esta opción si desea extraer automáticamente todos los archivos de su archivo ZIP o TAR cargado. Esta misma opción también está disponible en el cuadro de diálogo Opciones de trabajo.
 
    * **Incluir subcarpetas** : solo está disponible si ha seleccionado la pestaña  **[!UICONTROL VIA]** FTP.
-Seleccione esta opción si desea cargar subcarpetas de la carpeta que va a cargar. Los nombres de la carpeta y sus subcarpetas que cargue se introducen automáticamente en Dynamic Media Classic.
+Seleccione esta opción si desea cargar subcarpetas de la carpeta que va a cargar. Los nombres de la carpeta y sus subcarpetas que cargue se introducen automáticamente en Adobe Dynamic Media Classic.
 
    * **Procesar archivos de metadatos** : solo está disponible si ha seleccionado la  **[!UICONTROL pestaña]** VIA FTP. Seleccione esta opción si desea cargar un archivo delimitado por tabuladores o XML para agregar metadatos a varios recursos. Consulte [Importación de datos (mediante FTP)](viewing-adding-exporting-metadata.md#import-metadata).
 
@@ -241,10 +241,10 @@ Recorte basado en el color: Especifique 0 para recortar píxeles solo si coincid
 Recorte basado en la transparencia: Especifique 0 para recortar píxeles solo si son transparentes; los números más cercanos a 1 permiten una mayor transparencia.
       * **Tolerancia** : arrastre el control deslizante para especificar una tolerancia de 0 a 1.
 
-* **OPTIONS DEL PERFIL DE COLOR** : elija una conversión de color cuando cree archivos optimizados que se utilicen para la entrega dinámica de Dynamic Media Classic:
+* **OPTIONS DEL PERFIL DE COLOR** : elija una conversión de color cuando cree archivos optimizados que se utilicen para la entrega dinámica de Dynamic Media Classic de Adobe:
 
    * **Conservación de color predeterminada** : mantiene los colores de la imagen de origen siempre que las imágenes contienen información de espacio de color; no hay conversión de color. Casi todas las imágenes actuales ya tienen incrustado el perfil de color adecuado. Sin embargo, si la imagen de origen CMYK no contiene un perfil de color incrustado, los colores se convierten al espacio de color sRGB (Standard Red Green Blue). SRGB es el espacio de color que se recomienda para mostrar imágenes en páginas web.
-   * **Conservar espacio de color original** : conserva los colores originales sin conversión de color alguna en el punto de ingestión en Dynamic Media Classic. En el caso de las imágenes sin un perfil de color incrustado, cualquier conversión de color necesaria para procesar las solicitudes de la imagen se realiza mediante los perfiles de color predeterminados, tal y como se configura en la configuración de publicación . Estos perfiles de color no siempre se alinean con el color en los archivos creados con esta opción. Por lo tanto, se recomienda utilizar la opción Conservación de color predeterminada.
+   * **Conservar espacio de color original** : conserva los colores originales sin conversión de color alguna en el punto de ingesta en Adobe Dynamic Media Classic. En el caso de las imágenes sin un perfil de color incrustado, cualquier conversión de color necesaria para procesar las solicitudes de la imagen se realiza mediante los perfiles de color predeterminados, tal y como se configura en la configuración de publicación . Estos perfiles de color no siempre se alinean con el color en los archivos creados con esta opción. Por lo tanto, se recomienda utilizar la opción Conservación de color predeterminada.
    * **Personalizar de > A** : abre los menús para que pueda elegir un espacio  **[!UICONTROL Convertir]** de y  **[!UICONTROL Convertir]** color de color. Esta opción avanzada sustituye cualquier información de color incrustada en el archivo de origen. Seleccione esta opción solo cuando todas las imágenes que envía contengan datos de perfil de color incorrectos o que falten.
 
 * **OPTIONS**  de EDICIÓN DE IMÁGENES: puede conservar las  &lt;> máscaras de recorte en imágenes y elegir un perfil de color.
@@ -302,6 +302,6 @@ El nuevo trabajo envía una notificación a la dirección especificada para acti
 >[!MORELIKETHIS]
 >
 >* [Uso de carpetas de recursos](asset-folders.md#working_with_asset_folders)
-* [Gestión de trabajos recurrentes de carga y publicación](checking-job-files.md#handling_recurring_upload_and_publish_jobs)
-* [Uso de un trabajo de carga o publicación como desencadenador](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)
+>* [Gestión de trabajos recurrentes de carga y publicación](checking-job-files.md#handling_recurring_upload_and_publish_jobs)
+>* [Uso de un trabajo de carga o publicación como desencadenador](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)
 

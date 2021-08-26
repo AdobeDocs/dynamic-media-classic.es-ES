@@ -7,13 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
-feature: Dynamic Media Classic,Visualizadores,Vídeo
+feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 66%
+source-wordcount: '765'
+ht-degree: 67%
 
 ---
 
@@ -41,19 +41,19 @@ Consulte [Adición y edición de ajustes preestablecidos de visor](application-s
 
 >[!NOTE]
 >
->Dynamic Media Classic proporciona un método práctico para previsualizar vídeo MP4 en el escritorio. Utilice este método para obtener una vista previa del contenido móvil en el escritorio sin probarlo físicamente en dispositivos móviles. Sin embargo, tenga en cuenta que lo que ve en la vista previa de escritorio no muestra de forma realista el aspecto de la reproducción en el dispositivo móvil. Para obtener una vista previa del aspecto y reproducción del vídeo en un dispositivo móvil, vaya a la pantalla Vista previa, haga clic en **[!UICONTROL Copiar URL]** e introduzca esa URL en el explorador web de un dispositivo móvil. Para obtener más información, consulte [Distribución de vídeo en sitios web y sitios móviles](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
+>Adobe Dynamic Media Classic proporciona un método práctico para previsualizar vídeo MP4 en el escritorio. Utilice este método para obtener una vista previa del contenido móvil en el escritorio sin probarlo físicamente en dispositivos móviles. Sin embargo, tenga en cuenta que lo que ve en la vista previa de escritorio no muestra de forma realista el aspecto de la reproducción en el dispositivo móvil. Para obtener una vista previa del aspecto y reproducción del vídeo en un dispositivo móvil, vaya a la pantalla Vista previa, haga clic en **[!UICONTROL Copiar URL]** e introduzca esa URL en el explorador web de un dispositivo móvil. Para obtener más información, consulte [Distribución de vídeo en sitios web y sitios móviles](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
 ## Uso de ajustes preestablecidos de visor de vídeo {#working-with-video-viewer-presets}
 
 Los usuarios ven vídeos en el visor de vídeo. La manera de comportarse del visor de vídeo, su aspecto y el funcionamiento de los controles de reproducción dependerán del ajuste preestablecido de visor que elija para reproducir el vídeo. Puede seleccionar un ajuste preestablecido de vídeo en la pantalla Vista previa. Después de seleccionar un ajuste preestablecido, puede obtener la URL o el código incrustado para reproducir el vídeo con el ajuste preestablecido de visor seleccionado.
 
-Dynamic Media Classic incluye muchos ajustes preestablecidos de visor predefinidos para reproducir vídeo. Si es administrador, puede crear ajustes preestablecidos de visor personalizados. Hay más de una docena de opciones de configuración diferentes para personalizar el visor de vídeo. Puede configurar el tamaño, el color, los controles de audio y vídeo, la barra de progreso, la apariencia de la interfaz del usuario y las funciones sociales del visor.
+Adobe Dynamic Media Classic incluye muchos ajustes preestablecidos de visor predefinidos para reproducir vídeo. Si es administrador, puede crear ajustes preestablecidos de visor personalizados. Hay más de una docena de opciones de configuración diferentes para personalizar el visor de vídeo. Puede configurar el tamaño, el color, los controles de audio y vídeo, la barra de progreso, la apariencia de la interfaz del usuario y las funciones sociales del visor.
 
 Consulte también [ Previsualización de vídeos en un visor de vídeos](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
 
 ### Adición o edición de un ajuste preestablecido de visor de vídeo {#adding-or-editing-a-video-viewer-preset}
 
-Puede usar Ajustes preestablecidos de visor para ver los diversos tipos de visor y su configuración predefinida. También puede añadir y editar sus propios ajustes preestablecidos de visor personalizados o editar los ajustes preestablecidos de visor existentes que se incluyen con Dynamic Media Classic.
+Puede usar Ajustes preestablecidos de visor para ver los diversos tipos de visor y su configuración predefinida. También puede añadir y editar sus propios ajustes preestablecidos de visor personalizados o editar los ajustes preestablecidos de visor existentes que se incluyen con Adobe Dynamic Media Classic.
 
 En Ajustes preestablecidos de visor, puede activar, filtrar y ordenar los ajustes, así como obtener una vista previa de los mismos.
 
@@ -61,7 +61,7 @@ Consulte [Ajustes preestablecidos de visor](application-setup.md#viewer_presets)
 
 **Para añadir o editar un ajuste preestablecido de visor de vídeo:**
 
-1. Cerca de la esquina superior derecha de Dynamic Media Classic, haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Ajustes preestablecidos de visor]**.
+1. Cerca de la esquina superior derecha de Adobe Dynamic Media Classic, haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Ajustes preestablecidos de visor]**.
 
    Para ver solo los ajustes preestablecidos de los visualizadores de vídeo, seleccione Visualizador de vídeo en la lista desplegable Visualizadores de la barra de herramientas directamente sobre la tabla.
 
@@ -90,5 +90,5 @@ Consulte [Ajustes preestablecidos de visor](application-setup.md#viewer_presets)
 >[!MORELIKETHIS]
 >
 >* [Prácticas recomendadas para la codificación de vídeo](uploading-encoding-videos.md#best_practices_for_video_encoding)
-* [Uso de ajustes preestablecidos de codificación de vídeo](uploading-encoding-videos.md#working_with_video_encoding_presets)
+>* [Uso de ajustes preestablecidos de codificación de vídeo](uploading-encoding-videos.md#working_with_video_encoding_presets)
 

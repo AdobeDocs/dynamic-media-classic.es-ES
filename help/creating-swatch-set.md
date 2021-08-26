@@ -1,6 +1,6 @@
 ---
 title: Creación de un conjunto de muestras
-description: Aprenda a crear un conjunto de muestras en Dynamic Media Classic.
+description: Aprenda a crear un conjunto de muestras en Adobe Dynamic Media Classic.
 uuid: 250b3525-310d-4481-b0bc-f9057e823e0b
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 631d2b2d-9e69-4b96-8392-17e00a1a8de0
 feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: 426b6e6b-daed-4ca6-b095-99bb06604b07
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '708'
 ht-degree: 61%
 
 ---
@@ -65,7 +65,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 **Para editar un conjunto de muestras:**
 
-1. En la vista de cuadrícula, vaya a un conjunto de muestras y, debajo de la imagen, seleccione **[!UICONTROL Editar]**.
+1. En la vista de cuadrícula, busque un conjunto de muestras y, debajo de la imagen, seleccione **[!UICONTROL Editar]**.
 1. Realice una de las siguientes acciones:
 
    * Para agregar una imagen (publicada o sin publicar), arrástrela desde una carpeta en Agregar recursos hasta la página **[!UICONTROL Vistas]** del conjunto de muestras.

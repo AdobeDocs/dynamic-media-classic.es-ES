@@ -1,6 +1,6 @@
 ---
 title: Administrar contenido del panel de información en catálogos electrónicos
-description: Obtenga información sobre cómo administrar el contenido del panel de información en catálogos electrónicos en Dynamic Media Classic.
+description: Obtenga información sobre cómo administrar el contenido del panel de información en catálogos electrónicos en Adobe Dynamic Media Classic.
 uuid: 5aa634f9-0874-4bb5-a3d9-8ce4d5577941
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
-source-git-commit: bb387446f294cf1e90d26ae1df4422879ad29db7
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '866'
 ht-degree: 59%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 59%
 
 Además de utilizar el texto del mapa de imagen para sus rollover en los catálogos electrónicos, puede utilizar un panel de información para agregar grandes cantidades de texto rollover, incluyendo los vínculos. También puede gestionar el panel de información mediante el uso de almacenamiento en caché programado y actualizaciones de contenido planificadas.
 
-Puede administrar la configuración y los datos del panel de información mediante las siguientes funciones en Dynamic Media Classic:
+Puede administrar la configuración y los datos del panel de información mediante las siguientes funciones en Adobe Dynamic Media Classic:
 
 * El panel de configuración del panel de información le permite especificar la plantilla que desea usar para mostrar el texto del panel de información, una respuesta predeterminada para los errores y el número de horas del almacenamiento de la información en caché. Además, puede especificar si desea publicar automáticamente los catálogos electrónicos.
 * El panel de fuente de datos del panel de información le permite especificar un archivo CSV que contenga el texto que desea que aparezca en el texto de sustitución del panel de información y programar tiempos para actualizar la información.
@@ -45,7 +45,7 @@ Puede seleccionar una de las tres plantillas de respuesta preestablecidas para m
    * Seleccione un ajuste preestablecido en el menú de la plantilla de respuesta. El XML para el diseño de la plantilla aparece en el cuadro de plantilla de usuario.
    * Para crear su propia plantilla de respuesta, seleccione **[!UICONTROL Personalizado]**. Escriba la definición de la plantilla XML en el cuadro de plantilla de usuario. Puede usar una plantilla preestablecida como base para la suya propia. 
 
-1. (Opcional) En el cuadro Respuesta predeterminada, escriba el texto que desee que aparezca si Dynamic Media Classic encuentra un error al recuperar información para un mapa de imagen. Por ejemplo, si el sistema recibe un nombre de empresa y un nombre de catálogo electrónico, pero ningún identificador rollover, aparecerá este mensaje para el usuario.
+1. (Opcional) En el cuadro Respuesta predeterminada, escriba el texto que desee que aparezca si Adobe Dynamic Media Classic encuentra un error al recuperar información para un mapa de imagen. Por ejemplo, si el sistema recibe un nombre de empresa y un nombre de catálogo electrónico, pero ningún identificador rollover, aparecerá este mensaje para el usuario.
 1. En el cuadro de respuesta TTL, escriba el número de horas que desea esperar antes de almacenar los datos en caché:
 
    * Establezca un número más bajo si los datos se actualizan frecuentemente a lo largo del día.
@@ -89,7 +89,7 @@ Last Modified Date:
 1. Seleccione **[!UICONTROL Browse]**, seleccione el archivo TXT delimitado por tabuladores, el CSV o el archivo SSV que desee utilizar y seleccione **[!UICONTROL Open]**.
 1. Seleccione **[!UICONTROL Upload]**.
 
-Dynamic Media Classic le envía un mensaje de correo electrónico que le informa de si la carga se ha realizado correctamente o no.
+Adobe Dynamic Media Classic le envía un mensaje de correo electrónico que le informa de si la carga se ha realizado correctamente o no.
 
 ## Vista previa de texto de tecla rollover para un mapa de imagen {#preview-rollover-key-text-for-an-image-map}
 

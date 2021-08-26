@@ -7,37 +7,37 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: dcaa9b21-b925-4dbb-865e-7918cdbda50c
-feature: Dynamic Media Classic,Administración de recursos
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 38%
+source-wordcount: '851'
+ht-degree: 35%
 
 ---
 
 # Inicio rápido: Cambio de tamaño de imagen{#quick-start-image-sizing}
 
-El tamaño de la imagen se refiere a la capacidad de Dynamic Media Classic para crear varias imágenes derivadas basadas en una sola imagen de alta resolución. En lugar de crear manualmente varias imágenes (por ejemplo, una miniatura y una imagen de vista ampliada) para el sitio web o la aplicación, proporciona una sola imagen maestra. Dynamic Media Classic genera todas las imágenes modificadas tal como las solicita. La creación dinámica de imágenes a partir de una imagen principal aporta diversas ventajas:
+El tamaño de la imagen se refiere a la capacidad de Adobe Dynamic Media Classic para crear varias imágenes derivadas basadas en una sola imagen de alta resolución. En lugar de crear manualmente varias imágenes (por ejemplo, una miniatura y una imagen de vista ampliada) para el sitio web o la aplicación, proporciona una sola imagen maestra. Adobe Dynamic Media Classic genera todas las imágenes modificadas tal como las solicita. La creación dinámica de imágenes a partir de una imagen principal aporta diversas ventajas:
 
-* Se elimina la necesidad de crear manualmente varias copias de la misma imagen en diferentes tamaños. Suministra una imagen maestra a Dynamic Media Classic, y Dynamic Media Classic genera derivados de diferente tamaño a partir de la imagen maestra.
+* Se elimina la necesidad de crear manualmente varias copias de la misma imagen en diferentes tamaños. Suministra una imagen maestra al Adobe de Dynamic Media Classic, y Adobe Dynamic Media Classic genera derivados de diferente tamaño a partir de la imagen maestra.
 * Se puede cambiar rápidamente el tamaño de un tipo de imagen en toda una aplicación o un sitio web. Por ejemplo, para cambiar todas las miniaturas, puede modificar el ajuste preestablecido de imagen para miniatura. Un ajuste preestablecido de imagen, similar a una macro, se compone de una serie de atributos de formato y tamaño. Puede modificar el ajuste preestablecido de imagen para miniatura para cambiar en una sola operación el tamaño de todas las miniaturas que haya en su aplicación o sitio web.
 * No es necesario que administre los maestros y todos los derivados en ninguno de los sistemas de gestión de recursos o contenido interna o externamente.
 
 ![Puede crear varias imágenes derivadas a un tamaño diferente del mismo archivo maestro de alta resolución.](/help/assets/is_derivative_sizes_popup.png)
 
-Este inicio rápido sobre el tamaño de la imagen está diseñado para ayudarle a poner en marcha rápidamente las técnicas de dimensionado de la imagen en Dynamic Media Classic. Siga los pasos del 1 al 5. Después de cada paso hay una referencia cruzada que proporciona más información relevante.
+Este inicio rápido sobre el tamaño de la imagen está diseñado para ayudarle a poner en marcha rápidamente las técnicas de dimensionado de la imagen en Adobe Dynamic Media Classic. Siga los pasos del 1 al 5. Después de cada paso hay una referencia cruzada que proporciona más información relevante.
 
 ## 1. Carga de imágenes principales
 
-Comience por cargar las imágenes maestras en Dynamic Media Classic. En cuanto al tamaño, Dynamic Media Classic recomienda utilizar imágenes que tengan el tamaño más grande previsto en el sitio web o la aplicación. Por ejemplo, si desea que los espectadores amplíen las imágenes, cargue imágenes que tengan al menos 2000 píxeles de tamaño mayor. Dynamic Media Classic admite muchos formatos de archivo de imagen, pero se recomiendan las imágenes TIFF y PNG sin pérdida.
+Comience por cargar las imágenes maestras en Adobe Dynamic Media Classic. En cuanto al tamaño, Adobe Dynamic Media Classic recomienda utilizar imágenes que tengan el tamaño más grande previsto en el sitio web o la aplicación. Por ejemplo, si desea que los espectadores amplíen las imágenes, cargue imágenes que tengan al menos 2000 píxeles de tamaño mayor. Adobe Dynamic Media Classic admite muchos formatos de archivo de imagen, pero se recomiendan las imágenes TIFF y PNG sin pérdida.
 
-En la barra de navegación global, haga clic en **[!UICONTROL Cargar]** para cargar archivos del equipo a una carpeta de Dynamic Media Classic. Consulte [Carga de imágenes principales](uploading-master-images.md#uploading_master_images).
+En la barra de navegación global, haga clic en **[!UICONTROL Cargar]** para cargar archivos del equipo a una carpeta de Adobe Dynamic Media Classic. Consulte [Carga de imágenes principales](uploading-master-images.md#uploading_master_images).
 
 ## 2. Configuración de ajustes preestablecidos de imagen
 
-Un ajuste preestablecido de imagen se compone de una serie de comandos de formato y tamaño predefinidos, que se guarda con un nombre exclusivo; es similar a una macro. Los ajustes preestablecidos de imagen rigen el tamaño y el formato con que se entregan las imágenes desde los servidores de imágenes de Dynamic Media. Los administradores pueden crear ajustes preestablecidos de imagen. Dynamic Media Classic también incluye ajustes preestablecidos de imagen predeterminados y puede utilizarlos para distribuir imágenes de forma dinámica.
+Un ajuste preestablecido de imagen se compone de una serie de comandos de formato y tamaño predefinidos, que se guarda con un nombre exclusivo; es similar a una macro. Los ajustes preestablecidos de imagen rigen el tamaño y el formato con que se entregan las imágenes desde los servidores de imágenes de Dynamic Media. Los administradores pueden crear ajustes preestablecidos de imagen. Adobe Dynamic Media Classic también incluye ajustes preestablecidos de imagen predeterminados y puede utilizarlos para distribuir imágenes de forma dinámica.
 
 Para crear un ajuste preestablecido de imagen (si es un administrador), en la barra de navegación global, haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Ajustes preestablecidos de imagen]**. A continuación, haga clic en **[!UICONTROL Agregar]** para crear un ajuste preestablecido de imagen o haga clic en **[!UICONTROL Editar]** para cambiar un ajuste preestablecido de imagen existente.
 
@@ -58,12 +58,12 @@ Consulte [Vista previa de un recurso de imagen en su ajuste preestablecido de im
 La publicación de archivos de imágenes principales tiene dos finalidades:
 
 * Publicación de las imágenes principales en los servidores de imágenes de Dynamic Media para que las imágenes se puedan enviar de forma dinámica al sitio web y a la aplicación.
-* La publicación activa las cadenas URL para llamar a imágenes desde servidores de imágenes de Dynamic Media a su sitio web o aplicación. Después de la publicación, puede copiar y colocar las URL generadas por Dynamic Media Classic donde sea necesario en su sitio web o aplicación.
+* La publicación activa las cadenas URL para llamar a imágenes desde servidores de imágenes de Dynamic Media a su sitio web o aplicación. Después de la publicación, puede copiar y colocar las URL generadas por Dynamic Media Classic de Adobe donde sea necesario en su sitio web o aplicación.
 
 En la barra de navegación global, haga clic en **[!UICONTROL Publicar]** para iniciar un trabajo de publicación. En el cuadro de diálogo Publicar, haga clic en **[!UICONTROL Enviar publicación]**. Consulte [Publicación de imágenes principales](publishing-master-images.md#publishing_master_images).
 
 ## 5. Vinculación de URL a la aplicación web
 
-Dynamic Media Classic crea cadenas de llamada de URL para imágenes. Cuando publica imágenes en los servidores de imágenes de Dynamic Media, las direcciones URL se activan. Puede copiar estas cadenas URL desde el panel Examinar (en vista de detalles) o desde la pantalla Vista previa. Cuando haya copiado las cadenas URL, podrá usarlas en sus sitios web y en sus aplicaciones. La URL de cambio de tamaño de imagen sustituye a la referencia a un nombre de imagen estática en el código de página web dinámico. La URL hace referencia al nombre de una imagen principal, que la base de datos sustituye por cada nueva imagen que mostrar.
+Adobe Dynamic Media Classic crea cadenas de llamada de URL para imágenes. Cuando publica imágenes en los servidores de imágenes de Dynamic Media, las direcciones URL se activan. Puede copiar estas cadenas URL desde el panel Examinar (en la Vista de detalles) o la pantalla Vista previa. Cuando haya copiado las cadenas URL, podrá usarlas en sus sitios web y en sus aplicaciones. La URL de cambio de tamaño de imagen sustituye a la referencia a un nombre de imagen estática en el código de página web dinámico. La URL hace referencia al nombre de una imagen principal, que la base de datos sustituye por cada nueva imagen que mostrar.
 
 Las cadenas URL generadas con ajustes preestablecidos de imagen contienen el nombre de un ajuste preestablecido de imagen. Este nombre se indica entre signos de dólar (`$`). Por ejemplo, `$thumbnail$` puede ser el ajuste preestablecido de imagen diseñado para mostrar imágenes principales con tamaño de miniatura. Consulte [Vinculación de direcciones URL al sitio web](linking-urls-web-application.md#linking_urls_to_your_web_application).

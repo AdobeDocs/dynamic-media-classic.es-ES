@@ -1,18 +1,18 @@
 ---
 title: Agregar marcadores de capítulo a vídeo
-description: Aprenda a añadir marcadores de capítulo a un vídeo en Dynamic Media Classic.
+description: Aprenda a añadir marcadores de capítulo a un vídeo en Adobe Dynamic Media Classic.
 uuid: 4e1e6daf-afc6-49d9-ac90-183fe2a903b2
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
-feature: Dynamic Media Classic,Visualizadores,Vídeo
+feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '629'
 ht-degree: 40%
 
 ---
@@ -57,7 +57,7 @@ Consulte [WebVTT: El formato de seguimiento de texto de vídeo web](https://w3c.
 
 **Para agregar marcadores de capítulo a vídeos:**
 
-1. Con un editor de texto simple fuera de Dynamic Media Classic, cree su archivo de capítulo de vídeo.
+1. Con un editor de texto simple fuera de Adobe Dynamic Media Classic, cree su archivo de capítulo de vídeo.
 
    >[!NOTE]
    >
@@ -67,7 +67,7 @@ Consulte [WebVTT: El formato de seguimiento de texto de vídeo web](https://w3c.
 
    Lo normal es que desee nombrar al archivo de capítulos VTT con el mismo nombre que el archivo de vídeo y le añada la palabra `chapters`. Esto puede ayudarle a automatizar la generación de URL de vídeo mediante el sistema de administración de contenido web.
 
-1. En Dynamic Media Classic, cargue el archivo de capítulo WebVTT.
+1. En Adobe Dynamic Media Classic, cargue el archivo de capítulo WebVTT.
 
    Consulte [Cargar archivos](uploading-files.md#uploading_files).
 

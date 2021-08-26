@@ -1,6 +1,6 @@
 ---
 title: Habilitar los informes de vídeo de Adobe Analytics
-description: Obtenga información sobre cómo habilitar los informes de vídeo de Adobe Analytics en Dynamic Media Classic.
+description: Obtenga información sobre cómo habilitar los informes de vídeo de Adobe Analytics en Adobe Dynamic Media Classic.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -8,20 +8,20 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_k
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 9d017742-1ed2-411d-a8a6-438102bf1557
-source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 13%
+source-wordcount: '250'
+ht-degree: 12%
 
 ---
 
 # Habilitar los informes de vídeo de Adobe Analytics{#enabling-adobe-analytics-video-reports}
 
-Al usar los informes de vídeo basados en Adobe Analytics Heartbeat, ya no es necesario habilitar los cuatro eventos del visor de vídeo (Reproducir, Pausa, Detener, Milestone) al configurar Adobe Analytics en Dynamic Media Classic. Video Heartbeat funciona con los visores de medios mixtos y de vídeo HTML5 predeterminados de Dynamic Media Classic. El reproductor de vídeo genera el seguimiento de datos para visualizarlos dentro de los informes de vídeo de Adobe Analytics.
+Al usar los informes de vídeo basados en Adobe Analytics Heartbeat, ya no es necesario habilitar los cuatro eventos del visor de vídeo (Reproducir, Pausa, Detener, Milestone) al configurar Adobe Analytics en Adobe Dynamic Media Classic. Video Heartbeat funciona con los visores de medios mixtos y vídeo HTML5 listos para usar de Adobe Dynamic Media Classic . El reproductor de vídeo genera el seguimiento de datos para visualizarlos dentro de los informes de vídeo de Adobe Analytics.
 
 * Para obtener una introducción a la transmisión por secuencias de contenidos y a la &quot;medición de latidos&quot;, consulte [Acerca de Adobe Analytics para transmisión por secuencias](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html#about-adobe-analytics-for-streaming-media).
 
-* La integración de informes de vídeo de Adobe Analytics con Dynamic Media Classic admite variables de solución, pero no variables personalizadas.
+* La integración de informes de vídeo de Adobe Analytics con Adobe Dynamic Media Classic admite variables de solución, pero no variables personalizadas.
 
    Consulte [Parámetros de audio y vídeo](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#metrics-and-metadata) para obtener más información sobre variables de solución y variables personalizadas.
 
@@ -33,4 +33,4 @@ Al usar los informes de vídeo basados en Adobe Analytics Heartbeat, ya no es ne
 
 >[!NOTE]
 >
->Si la solución de Adobe Analytics con licencia no incluye Video Heartbeat, debe seguir utilizando los pasos descritos en este capítulo para asignar variables de Adobe Analytics a eventos y variables de visores de Dynamic Media Classic.
+>Si la solución de Adobe Analytics con licencia no incluye Video Heartbeat, debe seguir utilizando los pasos descritos en este capítulo para asignar variables de Adobe Analytics a los eventos y variables del visor de Dynamic Media Classic de Adobe.

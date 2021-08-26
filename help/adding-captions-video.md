@@ -1,15 +1,15 @@
 ---
 title: 'Agregar subtítulos a vídeo '
-description: Aprenda a añadir subtítulos a vídeo en Dynamic Media Classic.
+description: Aprenda a añadir subtítulos a vídeo en Adobe Dynamic Media Classic.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-feature: Dynamic Media Classic,Visualizadores,Vídeo
+feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '904'
 ht-degree: 32%
 
 ---
@@ -34,19 +34,19 @@ Consulte [Añadir o editar un ajuste preestablecido de visor de vídeo](previewi
 
 Consulte también [Agregar y editar ajustes preestablecidos de visor](application-setup.md#adding_and_editing_viewer_presets).
 
-Dynamic Media Classic puede convertir archivos de rótulos al formato JSON (JavaScript Object Notation). Esta conversión significa que puede incrustar el texto de JSON en una página web como una transcripción completa pero oculta del vídeo. Los motores de búsqueda pueden rastrear e indexar el contenido para que los vídeos se puedan descubrir más fácilmente y dar a los clientes más detalles sobre el contenido del vídeo.
+Adobe Dynamic Media Classic puede convertir archivos de rótulos al formato JSON (JavaScript Object Notation). Esta conversión significa que puede incrustar el texto de JSON en una página web como una transcripción completa pero oculta del vídeo. Los motores de búsqueda pueden rastrear e indexar el contenido para que los vídeos se puedan descubrir más fácilmente y dar a los clientes más detalles sobre el contenido del vídeo.
 
 Consulte [Proporcionar contenido estático (no de imagen)](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents.html?lang=en#image-serving-api) en la *Ayuda de la API del servicio de imágenes de Adobe* para obtener más información sobre el uso de la función JSON en una URL.
 
 **Para agregar subtítulos a vídeos:**
 
-1. Con una aplicación de terceros fuera de Dynamic Media Classic, cree su archivo de subtítulos de vídeo en función del tipo de visor que esté utilizando.
+1. Con una aplicación de terceros fuera de Adobe Dynamic Media Classic, cree su archivo de subtítulos de vídeo en función del tipo de visor que esté utilizando.
 
    | Tipo de visor | Archivo de subtítulos |
    |--- |--- |
-   | HTML5 | Si utiliza un visor de vídeo HTML5, asegúrese de que el archivo de subtítulos que cree sigue el estándar de WebVTT (Web Video Text Tracks). La extensión de nombre de archivo de subtítulos es .vtt. Puede obtener más información sobre el estándar de subtítulos WebVTT.<br><br>[Consulte WebVTT](https://w3c.github.io/webvtt/): Formato de seguimiento de texto de vídeo web. <br><br>Existen herramientas y servicios gratuitos y de pago que puede utilizar para crear archivos de subtítulos fuera de Dynamic Media Classic. Por ejemplo, para crear un archivo de subtítulos de vídeo sencillo sin estilo, puede utilizar la siguiente herramienta gratuita de edición y creación de subtítulos en línea: <br><br>[Creador de subtítulos WebVTT](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html) <br><br>Para obtener mejores resultados, utilice la herramienta en Internet Explorer 9 o superior, Google Chrome o Safari. <br><br>En la herramienta , en el campo  <b>Introducir URL del </b> archivo de vídeo , pegue la URL del archivo de vídeo y, a continuación, seleccione  <b>Cargar</b>. <br><br>Por ejemplo, si utiliza una URL de Dynamic Media Classic para el archivo de vídeo, haga doble clic en un recurso de vídeo individual (no en un conjunto de vídeos adaptables ni en un vídeo maestro) para abrirlo en la vista de detalles. En el panel derecho de la vista de detalles, amplíe URL y código incrustado. A continuación, en el grupo Móvil, a la derecha de Móvil (progresivo), seleccione <b>Copiar URL</b>. Este proceso le da la dirección URL del propio archivo de vídeo, que puede pegar en el campo <b>Enter URL of video file</b>. Internet Explorer, Chrome o Safari pueden reproducir el vídeo de forma predeterminada. Siga las instrucciones en pantalla del sitio para crear y guardar el archivo WebVTT. Cuando haya terminado, copie el contenido del archivo de rótulo y péguelo en un editor de texto sin formato y guárdelo con una extensión de nombre de archivo VTT. <br><br><b>Nota:</b> Para que los subtítulos de vídeo sean compatibles con todo el mundo en idiomas distintos del inglés, el estándar WebVTT requiere que cree archivos .vtt y llamadas independientes para cada idioma que desee admitir. <br><br>Lo normal es que desee nombrar al archivo de subtítulos VTT con el mismo nombre que el archivo de vídeo y le añada la palabra captions. Esto puede ayudarle a automatizar la generación de URL de vídeo mediante el sistema de administración de contenido web. |
+   | HTML5 | Si utiliza un visor de vídeo HTML5, asegúrese de que el archivo de subtítulos que cree sigue el estándar de WebVTT (Web Video Text Tracks). La extensión de nombre de archivo de subtítulos es .vtt. Puede obtener más información sobre el estándar de subtítulos WebVTT.<br><br>[Consulte WebVTT](https://w3c.github.io/webvtt/): Formato de seguimiento de texto de vídeo web. <br><br>Existen herramientas y servicios gratuitos y de pago que puede utilizar para crear archivos de subtítulos fuera de Adobe Dynamic Media Classic. Por ejemplo, para crear un archivo de subtítulos de vídeo sencillo sin estilo, puede utilizar la siguiente herramienta gratuita de edición y creación de subtítulos en línea: <br><br>[Creador de subtítulos WebVTT](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html) <br><br>Para obtener mejores resultados, utilice la herramienta en Internet Explorer 9 o superior, Google Chrome o Safari. <br><br>En la herramienta , en el campo  <b>Introducir URL del </b> archivo de vídeo , pegue la URL del archivo de vídeo y, a continuación, seleccione  <b>Cargar</b>. <br><br>Por ejemplo, si utiliza una URL de Dynamic Media Classic de Adobe para el archivo de vídeo, haga doble clic en un recurso de vídeo individual (no en un conjunto de vídeos adaptables ni en un vídeo maestro) para abrirlo en la Vista de detalles. En el panel derecho de la vista de detalles, amplíe URL y código incrustado. A continuación, en el grupo Móvil, a la derecha de Móvil (progresivo), seleccione <b>Copiar URL</b>. Este proceso le da la dirección URL del propio archivo de vídeo, que puede pegar en el campo <b>Enter URL of video file</b>. Internet Explorer, Chrome o Safari pueden reproducir el vídeo de forma predeterminada. Siga las instrucciones en pantalla del sitio para crear y guardar el archivo WebVTT. Cuando haya terminado, copie el contenido del archivo de rótulo y péguelo en un editor de texto sin formato y guárdelo con una extensión de nombre de archivo VTT. <br><br><b>Nota:</b> Para que los subtítulos de vídeo sean compatibles con todo el mundo en idiomas distintos del inglés, el estándar WebVTT requiere que cree archivos .vtt y llamadas independientes para cada idioma que desee admitir. <br><br>Lo normal es que desee nombrar al archivo de subtítulos VTT con el mismo nombre que el archivo de vídeo y le añada la palabra captions. Esto puede ayudarle a automatizar la generación de URL de vídeo mediante el sistema de administración de contenido web. |
 
-1. En Dynamic Media Classic, cargue el archivo de subtítulos XML WebVTT, DFXP o SMPTE.
+1. En Adobe Dynamic Media Classic, cargue su archivo de subtítulos WebVTT, DFXP o SMPTE XML.
 
    Consulte [Cargar archivos](uploading-files.md#uploading_files).
 

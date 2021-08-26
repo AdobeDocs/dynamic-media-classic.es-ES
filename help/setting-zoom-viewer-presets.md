@@ -7,25 +7,25 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 5023a933-e229-4d3c-8e91-3ac5e9f4970b
-feature: Dynamic Media Classic,Visualizadores,Zoom
+feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: ddaaff6c-5447-408e-9c92-bcdfd1a0e72e
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '606'
 ht-degree: 52%
 
 ---
 
 # Configuración de ajustes preestablecidos de visor de zoom{#setting-up-zoom-viewer-presets}
 
-Los ajustes preestablecidos de visor de zoom determinan el estilo, el comportamiento y el aspecto de los visores de zoom. Dynamic Media Classic ofrece muchas opciones para personalizar y desollar visualizadores. Dynamic Media Classic incluye ajustes preestablecidos básicos (rápidos), flotantes y de visor de zoom personalizado. Si es administrador, puede crear ajustes preestablecidos de visor de zoom de la empresa o editar un ajuste preestablecido predeterminado y guardarlo con un nuevo nombre.
+Los ajustes preestablecidos de visor de zoom determinan el estilo, el comportamiento y el aspecto de los visores de zoom. Adobe Dynamic Media Classic ofrece muchas opciones para personalizar y desollar visualizadores. Adobe Dynamic Media Classic incluye ajustes preestablecidos básicos (rápidos), de salida rápida y de visor de zoom personalizado. Si es administrador, puede crear ajustes preestablecidos de visor de zoom de la empresa o editar un ajuste preestablecido predeterminado y guardarlo con un nuevo nombre.
 
 Todos los visores de zoom tienen botones para acercar, alejar, desplazar y restablecer la imagen a su estado original tras la aplicación de zoom. El aspecto de estos botones y el modo en que aparece la ventana depende de la elección de ajustes preestablecidos de visor de zoom. Los ajustes preestablecidos de visor de zoom se pueden configurar con diferentes colores, bordes, fuentes y parámetros de imagen. Al configurar un visor de zoom guiado, también puede elegir dónde colocar los destinos de zoom. Los destinos de zoom son miniaturas en las que hacen clic los usuarios para aplicar zoom en áreas que se hayan especificado.
 
 ## Acerca de los ajustes preestablecidos de visor de zoom {#about-zoom-viewer-presets}
 
-Dynamic Media Classic ofrece estos ajustes preestablecidos de visor de zoom:
+Adobe Dynamic Media Classic ofrece estos ajustes preestablecidos de visor de zoom:
 
 * **Visor de zoom: Básico** : proporciona un zoom básico en la imagen original.
 
@@ -35,7 +35,7 @@ Al determinar el uso del ancho de banda completo para este visor, tenga en cuent
 
 Por ejemplo, si el tamaño de la imagen principal es 350 x 350 píxeles, con un factor de zoom de 3, el tamaño de la imagen flotante que resultará será de 1050 x 1050 píxeles. Si el tamaño de la imagen principal es de 300 x 300 píxeles, con un factor de zoom de 4, el tamaño de la imagen flotante será de 1200 x 1200 píxeles. Según el ajuste de calidad JPEG (el recomendado es entre 80 y 90), podrá reducir el tamaño del archivo en gran medida. Los factores de zoom recomendados son de 2,5 a 4, según el tamaño de la imagen principal.
 
-Dynamic Media Classic recomienda los siguientes parámetros para los ajustes preestablecidos del visor de zoom flotante:
+Adobe Dynamic Media Classic recomienda los siguientes parámetros para los ajustes preestablecidos del visor de zoom flotante:
 
 * **Tamaño de imagen ampliado** : aproximadamente 1500 por 1500 píxeles, sin superar los 2000 por 2000 píxeles.
 

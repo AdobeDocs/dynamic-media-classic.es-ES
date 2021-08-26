@@ -10,9 +10,9 @@ discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 feature: Dynamic Media Classic
 role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1027'
 ht-degree: 40%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 40%
 
 La optimización para motores de búsqueda de vídeos es el proceso que consiste en mejorar el volumen del tráfico a un sitio web desde motores de búsqueda. Aunque los motores de búsqueda destacan por reunir información sobre el contenido basado en texto, no consiguen adquirir de forma adecuada información sobre vídeos a menos que se les proporcione.
 
-Con Dynamic Media Classic Video SEO, puede aplicar metadatos de vídeo para proporcionar a los motores de búsqueda descripciones de los vídeos. Dynamic Media Classic le permite crear mapas del sitio de vídeo y fuentes mRSS. Estos archivos XML estándar se utilizan para enviar información de vídeo a los motores de búsqueda:
+Con Adobe Dynamic Media Classic Video SEO, puede aplicar metadatos de vídeo para proporcionar a los motores de búsqueda descripciones de sus vídeos. Adobe Dynamic Media Classic le permite crear mapas del sitio de vídeo y fuentes mRSS. Estos archivos XML estándar se utilizan para enviar información de vídeo a los motores de búsqueda:
 
 * **Mapa del sitio del vídeo** : informa a Google exactamente dónde y qué contenido del vídeo está en un sitio. Por lo tanto, los vídeos se pueden buscar completamente en Google. Por ejemplo, un mapa de vídeos puede especificar el tiempo de reproducción y las categorías de los vídeos. Para obtener información sobre los mapas del sitio de vídeo, consulte [Mapas del sitio de vídeo y alternativas de mapa del sitio de vídeo](https://developers.google.com/search/docs/advanced/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
 
@@ -31,17 +31,17 @@ Con Dynamic Media Classic Video SEO, puede aplicar metadatos de vídeo para prop
 >
 >Google admite los protocolos tanto de mapas de vídeos como de recursos mRSS para enviar información a los motores de búsqueda.
 
-Dynamic Media Classic puede generar mapas del sitio de vídeo y fuentes mRSS a partir de metadatos almacenados con cada vídeo. Al crear los mapas de vídeos y los recursos mRSS, se decide qué campos de metadatos de los archivos de vídeo se incluyen. Así, describe los vídeos a los motores de búsqueda de modo que dirijan el tráfico a los vídeos de su sitio web con más precisión.
+Adobe Dynamic Media Classic puede generar mapas del sitio de vídeo y fuentes mRSS a partir de metadatos almacenados con cada vídeo. Al crear los mapas de vídeos y los recursos mRSS, se decide qué campos de metadatos de los archivos de vídeo se incluyen. Así, describe los vídeos a los motores de búsqueda de modo que dirijan el tráfico a los vídeos de su sitio web con más precisión.
 
 >[!NOTE]
 >
 >antes de crear un mapa de vídeos o un recurso mRSS, averigüe qué campos necesita el motor de búsqueda en el archivo XML y cómo se deben estructurar. Para crear un mapa de vídeos o un recurso mRSS correcto, debe cumplir los requisitos del motor de búsqueda.
 
-Dynamic Media Classic crea informes sobre los mapas del sitio de vídeo y las fuentes mRSS después de generarlos. Estos informes están disponibles en la página Informe de SEO de vídeo .
+Adobe Dynamic Media Classic crea informes sobre los mapas del sitio de vídeo y las fuentes mRSS después de generarlos. Estos informes están disponibles en la página Informe de SEO de vídeo .
 
 >[!NOTE]
 >
->Para los mapas del sitio de vídeo y las fuentes mRSS, Dynamic Media Classic captura los metadatos solo de los vídeos marcados para su publicación. Marque los vídeos para su publicación si desea incluir sus metadatos en los mapas de vídeos y los recursos mRSS.
+>Para los mapas de sitios de vídeo y las fuentes mRSS, Adobe Dynamic Media Classic captura metadatos solo de vídeos que están marcados para su publicación. Marque los vídeos para su publicación si desea incluir sus metadatos en los mapas de vídeos y los recursos mRSS.
 
 ## Selección de la configuración de SEO de vídeo {#choosing-video-seo-settings}
 
@@ -65,11 +65,11 @@ En la lista desplegable **[!UICONTROL Generation Mode]**, elija un modo de infor
 
 En la lista desplegable **[!UICONTROL Automatic/Manual Mode]**, elija si generar automáticamente o manualmente:
 
-* **Modo automático** : Dynamic Media Classic genera automáticamente un mapa del sitio de vídeo, una fuente RSS de medios (mRSS) o ambas, cada día. Elija la opción Marcar para publicación para marcar automáticamente para publicar el archivo XML que Dynamic Media Classic genera.
+* **Modo automático** : Adobe Dynamic Media Classic genera automáticamente un mapa del sitio de vídeo, una fuente RSS de medios (mRSS) o ambas, cada día. Elija la opción Marcar para publicación para marcar automáticamente para publicar el archivo XML que genera el Adobe Dynamic Media Classic.
 
    * **Marcar para** PublishMarks para publicar el archivo XML generado.
 
-* **Modo manual** : Dynamic Media Classic genera el mapa del sitio del vídeo, la fuente RSS de medios (mRSS) o ambos al hacer clic en Generar o Guardar y generar en la pantalla Configuración de optimización de búsqueda de vídeo. Elija también estas opciones:
+* **Modo manual** : Adobe Dynamic Media Classic genera el mapa del sitio del vídeo, la fuente RSS de medios (mRSS) o ambos al hacer clic en Generar o Guardar y generar en la pantalla Configuración de optimización de búsqueda de vídeo. Elija también estas opciones:
 
    * **Sin configuración adicional** : no marca para publicar el archivo XML generado.
 
@@ -79,7 +79,7 @@ En la lista desplegable **[!UICONTROL Automatic/Manual Mode]**, elija si generar
 
 ### Selección de la configuración de creación {#choosing-generation-settings}
 
-El área Configuración de generación enumera los campos de entrada para el mapa del sitio de vídeo, la fuente mRSS o ambos, y en el panel Metadatos, los nombres de los campos de metadatos. Use el área Configuración general para asignar los campos de entrada a los campos de metadatos. Al hacerlo, indica a Dynamic Media Classic dónde obtener metadatos para el mapa del sitio del vídeo y/o la fuente mRSS.
+El área Configuración de generación enumera los campos de entrada para el mapa del sitio de vídeo, la fuente mRSS o ambos, y en el panel Metadatos, los nombres de los campos de metadatos. Use el área Configuración general para asignar los campos de entrada a los campos de metadatos. Al hacerlo, le indica a Adobe Dynamic Media Classic dónde obtener metadatos para el mapa del sitio del vídeo y/o la fuente mRSS.
 
 1. En el menú Vistas de metadatos, elija una vista de metadatos. Una vez seleccionada la vista, los nombres de los campos de metadatos aparecen en el panel Metadatos.
 Consulte [Vistas de metadatos](application-setup.md#metadata_views).

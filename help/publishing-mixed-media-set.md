@@ -7,25 +7,25 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 4e8694f7-c1b5-4d45-a18b-2b9494db1757
-feature: Dynamic Media Classic,Visualizadores,Conjuntos de medios mixtos
+feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
-source-git-commit: 591feb7ee4ac88e39941b429a8aa965d4d919738
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 55%
+source-wordcount: '254'
+ht-degree: 56%
 
 ---
 
 # Publicación de un conjunto de medios mixtos{#publishing-a-mixed-media-set}
 
-Cree un trabajo de publicación para publicar un conjunto de medios mixtos que haya marcado para publicarlo en el servidor de vídeo e imágenes de Dynamic Media Classic. Dynamic Media Classic ofrece opciones de publicación avanzadas para publicar en servidores específicos y opciones para volver a publicar recursos que ya se han publicado.
+Cree un trabajo de publicación para publicar un conjunto de medios mixtos que haya marcado para publicarlo en Adobe Dynamic Media Classic Video Server y Image Server. Adobe Dynamic Media Classic ofrece opciones de publicación avanzadas para publicar en servidores específicos y opciones para volver a publicar recursos que ya se han publicado.
 
 >[!NOTE]
 >
 >Los conjuntos de vídeo adaptables requieren que se publique en el **Servidor de vídeo** y también en el **Servidor de imágenes**. El **Servidor de vídeo** se utiliza para publicar los vídeos reales que se han marcado para publicación. Además, utiliza **Image Server** para publicar recursos relacionados, como miniaturas de vídeo, y establecer información para cualquier conjunto de vídeos adaptables.
 
-Dynamic Media Classic realiza el seguimiento de los trabajos de publicación en la pantalla Trabajos .
+Adobe Dynamic Media Classic realiza el seguimiento de los trabajos de publicación en la pantalla Trabajos .
 
 Consulte [Publicación](publishing-files.md#publishing_files).
 

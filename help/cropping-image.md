@@ -1,6 +1,6 @@
 ---
 title: Recortar una imagen
-description: Aprenda a recortar una imagen en Dynamic Media Classic.
+description: Aprenda a recortar una imagen en Adobe Dynamic Media Classic.
 uuid: 84f199de-cbfc-4d06-877f-6e9148e82e15
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,16 @@ discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '550'
 ht-degree: 35%
 
 ---
 
 # Recortar una imagen{#cropping-an-image}
 
-Puede recortar imágenes en Dynamic Media Classic. El sistema retiene información sobre las imágenes que se recortaron para que pueda restaurar su estado original. También puede recortar una imagen y guardar con otro nombre la versión recortada.
+Puede recortar imágenes en Adobe Dynamic Media Classic. El sistema retiene información sobre las imágenes que se recortaron para que pueda restaurar su estado original. También puede recortar una imagen y guardar con otro nombre la versión recortada.
 
 Al recortar una imagen, puede quitar el espacio en blanco que la rodea o un área concreta de la imagen.
 
@@ -31,7 +31,7 @@ Al recortar una imagen, puede quitar el espacio en blanco que la rodea o un áre
 
 Puede recortar los píxeles transparentes o de color sólido del borde de una imagen.
 
-1. Para recortar una imagen, seleccione su botón de rollover **[!UICONTROL Editar]** y, a continuación, seleccione **[!UICONTROL Recortar]** o muéstrela en el panel Examinar de la vista de detalles y seleccione el botón **[!UICONTROL Recortar]**.
+1. Para recortar una imagen, seleccione su botón de rollover **[!UICONTROL Editar]** y, a continuación, seleccione **[!UICONTROL Recortar]** o muéstrela en el panel Examinar de la Vista de detalles y seleccione el botón **[!UICONTROL Recortar]**.
 1. En la página Editor de recorte, realice una de las siguientes acciones:
 
    * Para recortar los píxeles de color, vaya a **[!UICONTROL Recortar]** > **[!UICONTROL Color]**. En el cuadro de diálogo **[!UICONTROL Recortar automáticamente por color]**, seleccione el menú **[!UICONTROL Esquina]** y elija una esquina con el color de fondo que desea recortar. A continuación, introduzca una configuración de **[!UICONTROL Tolerancia]** de 0 a 1. El valor 0 recorta píxeles solo si coinciden exactamente con el color seleccionado en la esquina de la imagen. Los números más cercanos a 1 permiten una mayor diferencia de color. Seleccione **[!UICONTROL Recortar]**.
@@ -45,7 +45,7 @@ Puede recortar los píxeles transparentes o de color sólido del borde de una im
 
 ## Selección de áreas que recortar {#select-an-area-to-crop}
 
-1. Para recortar una imagen, seleccione su botón de rollover **[!UICONTROL Editar]** y elija **[!UICONTROL Recortar]**, o muéstrela en el panel Examinar de la vista de detalles y seleccione **[!UICONTROL Recortar]**.
+1. Para recortar una imagen, seleccione su botón de rollover **[!UICONTROL Editar]** y elija **[!UICONTROL Recortar]**, o muéstrela en el panel Examinar de la Vista de detalles y seleccione **[!UICONTROL Recortar]**.
 
 1. En la ventana Editor de recorte, coloque la parte de la imagen que no desea recortar en el cuadro de recorte. Lo que aparezca dentro del cuadro es lo que quedará después de seleccionar **[!UICONTROL Guardar]** y recortar la imagen.
 1. Para ajustar el área de recorte, siga uno de estos procedimientos:

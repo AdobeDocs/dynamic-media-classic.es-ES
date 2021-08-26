@@ -7,9 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1497'
+source-wordcount: '1495'
 ht-degree: 78%
 
 ---
@@ -22,7 +22,7 @@ Para poder cargar un recurso de imagen, primero debe solicitar una clave secreta
 
 Solicite una *clave secreta compartida* [utilizando el Admin Console para crear un caso de soporte.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) En su caso de asistencia, solicite una clave secreta compartida.
 
-En el mensaje, proporcione el nombre de empresa que desee utilizar para cargar los recursos de imagen. Cuando reciba la clave de Dynamic Media Classic, guárdela localmente para usarlo más adelante.
+En el mensaje, proporcione el nombre de empresa que desee utilizar para cargar los recursos de imagen. Cuando reciba la clave de Adobe Dynamic Media Classic, guárdela localmente para usarlo más adelante.
 
 ## Recuperación del distintivo de carga {#retrieving-the-upload-token}
 

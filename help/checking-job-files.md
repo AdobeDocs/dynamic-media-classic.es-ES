@@ -1,25 +1,25 @@
 ---
 title: Comprobar archivos de trabajo
-description: Obtenga información sobre cómo comprobar los archivos de trabajo en Dynamic Media Classic.
+description: Obtenga información sobre cómo comprobar los archivos de trabajo en Adobe Dynamic Media Classic.
 uuid: 8241a894-3014-4a5c-96ef-71f3aaa3716a
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
-feature: Dynamic Media Classic,Administración de recursos
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
-source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1590'
+source-wordcount: '1592'
 ht-degree: 40%
 
 ---
 
 # Comprobar archivos de trabajo{#checking-job-files}
 
-Para supervisar las cargas de archivos a Dynamic Media Classic y los archivos que publica en los servidores de Dynamic Media Classic, Dynamic Media Classic ofrece la página Trabajos . Desde este página, puede revisar los trabajos de carga y publicación, comprobar el estado de los trabajos y cancelar trabajos de publicación. También puede programar trabajos de carga y publicación.
+Para monitorizar las cargas de archivos a Dynamic Media Classic de Adobe y los archivos que publica en los servidores de Dynamic Media Classic de Adobe, Dynamic Media Classic ofrece la página Trabajos en Adobe. Desde este página, puede revisar los trabajos de carga y publicación, comprobar el estado de los trabajos y cancelar trabajos de publicación. También puede programar trabajos de carga y publicación.
 
 Cuando carga recursos, aparece un icono que gira junto al menú Trabajos que indica que el trabajo está en curso y el número de archivos que se están procesando. Puede seleccionar el icono para ver más información sobre el trabajo activo.
 
@@ -41,7 +41,7 @@ En la ficha Historial de la página Trabajos, los trabajos se clasifican según 
 
 * **[!UICONTROL Total]** : el número de archivos transferidos.
 
-* **[!UICONTROL W (advertencias)]** : el número de advertencias en el trabajo (si las hay). Las advertencias indican los problemas sobre el trabajo que no afectan a la finalización del mismo. Normalmente, estas advertencias pueden omitirse porque se refieren a archivos ocultos. Por ejemplo, los archivos `.DS_store` (Macintosh) y Thumbs.db (Windows®) contienen información sobre cómo mostrar los archivos de imagen a los usuarios. Sin embargo, las entradas de advertencia relativas a estos archivos se pueden ignorar porque no se refieren a cómo se utilizan estos archivos en Dynamic Media Classic. Si desea obtener información detallada sobre las advertencias, puede hacer doble clic en el nombre de trabajo.
+* **[!UICONTROL W (advertencias)]** : el número de advertencias en el trabajo (si las hay). Las advertencias indican los problemas sobre el trabajo que no afectan a la finalización del mismo. Normalmente, estas advertencias pueden omitirse porque se refieren a archivos ocultos. Por ejemplo, los archivos `.DS_store` (Macintosh) y Thumbs.db (Windows®) contienen información sobre cómo mostrar los archivos de imagen a los usuarios. Sin embargo, las entradas de advertencia relativas a estos archivos se pueden ignorar porque no se refieren a cómo se utilizan estos archivos en Adobe Dynamic Media Classic. Si desea obtener información detallada sobre las advertencias, puede hacer doble clic en el nombre de trabajo.
 
 * **[!UICONTROL E (errores)]** : enumera el número de errores en el trabajo (si los hay). Si desea obtener información detallada sobre los errores, puede hacer doble clic en el nombre de trabajo.
 
@@ -71,7 +71,7 @@ Para ordenar trabajos o cambiar la vista de la ficha Historial en la página Tra
 
 ## Ver, copiar o imprimir un informe Detalles del trabajo {#viewing-copying-or-printing-a-job-details-report}
 
-Haga doble clic en el nombre de un informe en la página Trabajos para que se abra la página Detalles del trabajo . Esta página ofrece un informe resumido acerca de los archivos del trabajo. Seleccione **[!UICONTROL Ver detalle]** para que pueda ver el ID de Dynamic Media Classic de una entrada, la ruta de destino y la información de estado. Si ha cargado un archivo PDF o PostScript que requiere fuentes que no están disponibles en Dynamic Media Classic, el informe enumera las fuentes que faltan.
+Haga doble clic en el nombre de un informe en la página Trabajos para que se abra la página Detalles del trabajo . Esta página ofrece un informe resumido acerca de los archivos del trabajo. Seleccione **[!UICONTROL Ver detalle]** para que pueda ver el Adobe de una entrada, el ID de Dynamic Media Classic, la ruta de destino y la información de estado. Si ha cargado un archivo PDF o PostScript que requiere fuentes que no están disponibles en Adobe Dynamic Media Classic, el informe enumera las fuentes que faltan.
 
 Puede copiar esta información en el portapapeles.
 

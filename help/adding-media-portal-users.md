@@ -1,18 +1,18 @@
 ---
 title: Agregar y administrar usuarios de Media Portal
-description: Aprenda a añadir y administrar usuarios de Media Portal en Dynamic Media Classic.
+description: Obtenga información sobre cómo añadir y administrar usuarios de Media Portal en Adobe Dynamic Media Classic.
 uuid: 96d4103c-6428-4ce1-b9e4-231599304f27
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
-feature: Dynamic Media Classic,Colaboración,Administración de activos
+feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1017'
 ht-degree: 58%
 
 ---
@@ -107,7 +107,7 @@ Puede ver los nombres y las direcciones de correo electrónico de los usuarios d
 
 ## Configuración del mensaje de correo electrónico de bienvenida para los usuarios de Media Portal {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
 
-Puede enviar un mensaje de correo de bienvenida cuando agregue usuarios, colaboradores y usuarios colaboradores de Media Portal. Puede configurar este mensaje de correo electrónico o indicar a Dynamic Media Classic que no lo envíe.
+Puede enviar un mensaje de correo de bienvenida cuando agregue usuarios, colaboradores y usuarios colaboradores de Media Portal. Puede configurar este mensaje de correo electrónico o indicar a Adobe Dynamic Media Classic que no lo envíe.
 
 1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Configuración de administración]** > **[!UICONTROL Administración de usuarios]**.
 1. En la pantalla Configuración de administración de usuarios, seleccione **[!UICONTROL Configuración de correo electrónico]**.
@@ -115,9 +115,9 @@ Puede enviar un mensaje de correo de bienvenida cuando agregue usuarios, colabor
 
    * **[!UICONTROL Enviar correo electrónico]** : anule la selección de esta opción si no desea informar a los nuevos usuarios por correo electrónico de que los ha suscrito.
 
-   * **[!UICONTROL Contraseña predeterminada]** : introduzca una contraseña temporal para nuevos usuarios o deje vacío el campo para que Dynamic Media Classic genere contraseñas aleatorias. Se pide a los usuarios que cambien sus contraseñas la primera vez que inicien sesión.
+   * **[!UICONTROL Contraseña predeterminada]** : introduzca una contraseña temporal para nuevos usuarios o deje vacío el campo para que Adobe Dynamic Media Classic genere contraseñas aleatorias. Se pide a los usuarios que cambien sus contraseñas la primera vez que inicien sesión.
 
-   * **[!UICONTROL URL de reemplazo]** : introduzca una URL diferente del predeterminada si los usuarios acceden a Dynamic Media Classic a través de una URL diferente.
+   * **[!UICONTROL URL de reemplazo]** : introduzca una URL diferente del valor predeterminado si los usuarios acceden a Adobe Dynamic Media Classic a través de una URL diferente.
 
 ## Otras tareas de administración de usuarios {#other-user-management-tasks}
 
@@ -131,6 +131,6 @@ También puede realizar las siguientes tareas desde la pantalla de ajuste Admini
 
 * **[!UICONTROL Editar información de usuario]** : introduzca información actualizada sobre un usuario.
 
-* **[!UICONTROL Crear campos definidos por el usuario]** : cree campos de metadatos personalizados y definidos por el usuario para que puedan ayudarle a organizar los recursos en Dynamic Media Classic. Los campos también pueden activarse o desactivarse según sea necesario.
+* **[!UICONTROL Crear campos definidos por el usuario]** : cree campos de metadatos personalizados y definidos por el usuario para que puedan ayudarle a organizar los recursos en Adobe Dynamic Media Classic. Los campos también pueden activarse o desactivarse según sea necesario.
 
 Consulte [Campos personalizables](application-setup.md#user_defined_fields).

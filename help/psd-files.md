@@ -7,13 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
-feature: Dynamic Media Classic,Administración de recursos
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 46%
+source-wordcount: '990'
+ht-degree: 42%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 46%
 
 <!--   USED TO BE AN OPTION UNDER COLOR PROFILE OPTIONS * **Convert To sRGB (default)** - Converts to sRGB (Standard Red Green Blue). sRGB is the recommended color space for displaying images on web pages. -->
 
-Los PSD (archivos de documento de Photoshop) se usan con mayor frecuencia en Dynamic Media Classic para crear plantillas. Al cargar un archivo PSD, puede crear una plantilla de Dynamic Media Classic automáticamente desde el archivo (seleccione la opción Crear plantilla en la pantalla Cargar ).
+Los PSD (archivos de documento de Photoshop) se usan con mayor frecuencia en Adobe Dynamic Media Classic para crear plantillas. Al cargar un archivo PSD, puede crear una plantilla de Dynamic Media Classic de Adobe automáticamente desde el archivo (seleccione la opción Crear plantilla en la pantalla Cargar ).
 
-Dynamic Media Classic crea varias imágenes de un archivo PSD con capas si utiliza el archivo para crear una plantilla; crea una imagen para cada capa.
+Adobe Dynamic Media Classic crea varias imágenes de un archivo PSD con capas si utiliza el archivo para crear una plantilla; crea una imagen para cada capa.
 
 ## Opciones de carga de archivos PSD {#psd-upload-options}
 
@@ -47,11 +47,11 @@ Estas opciones están disponibles al cargar archivos PSD:
 
    * **Mantener espacio de color original** : conserva el espacio de color original de la imagen.
 
-   * **Personalizar de > A** : abre los menús para que pueda elegir los espacios de color Convertir en y Convertir en. Puede elegir un espacio de color estándar de Photoshop o un espacio de color que haya cargado en Dynamic Media Classic. Consulte [Perfiles ICC](/help/icc-profiles.md).
+   * **Personalizar de > A** : abre los menús para que pueda elegir los espacios de color Convertir en y Convertir en. Puede elegir un espacio de color estándar de Photoshop o un espacio de color que haya cargado en Adobe Dynamic Media Classic. Consulte [Perfiles ICC](/help/icc-profiles.md).
 
 * **Opciones de Photoshop**
 
-   * **Mantener capas** : permite extraer las capas del PSD, si las hay, en recursos individuales. Las capas de recursos permanecen asociadas al PSD. Para verlas, abra el archivo PSD en la vista de detalles y seleccione el panel de capas. Consulte Visualización y edición de capas de archivos PSD.
+   * **Mantener capas** : permite extraer las capas del PSD, si las hay, en recursos individuales. Las capas de recursos permanecen asociadas al PSD. Puede verlos abriendo el archivo PSD en la Vista de detalles y seleccionando el panel de capa. Consulte Visualización y edición de capas de archivos PSD.
 
    * **Crear plantilla** : crea una plantilla a partir de las capas del archivo PSD.
 
@@ -59,7 +59,7 @@ Estas opciones están disponibles al cargar archivos PSD:
 
    * **Ampliar capas a tamaño de fondo** : amplía el tamaño de las capas de imagen arrancadas al tamaño de la capa de fondo.
 
-   * **Nombre de capa** : las capas del archivo PSD se cargan como imágenes independientes. Para asignar un nombre a estas imágenes en Dynamic Media Classic, elija entre las siguientes opciones:
+   * **Nombre de capa** : las capas del archivo PSD se cargan como imágenes independientes. Para asignar un nombre a estas imágenes en Adobe Dynamic Media Classic, elija entre las siguientes opciones:
 
       * **Nombre de capa** : nombra las imágenes después de sus nombres de capa en el archivo PSD. Por ejemplo, una capa con el nombre Etiqueta de precio en el archivo PSD original se convierte en una imagen con el nombre Etiqueta de precio. Sin embargo, si los nombres de capa en el archivo PSD son de forma predeterminada nombres de capa de Photoshop (Fondo, Capa 1, Capa 2, etc), las imágenes recibirán como nombre su número de capa en el archivo PSD, no su nombre de capa predeterminado.
 
@@ -71,7 +71,7 @@ Estas opciones están disponibles al cargar archivos PSD:
 
 ## Visualización y edición de capas de archivos PSD {#viewing-and-editing-layers-in-a-psd-file}
 
-Si seleccionó la opción Mantener capas al cargar el PSD, Dynamic Media Classic dividió las capas individuales en recursos. Puede visualizar y editar las capas de recurso pertenecientes a un archivo PSD abriendo el archivo en el panel Examinar, en la vista de detalles.
+Si seleccionó la opción Mantener capas al cargar el archivo PSD, Adobe Dynamic Media Classic dividió las capas individuales en recursos. Para ver y editar las capas de recursos que pertenecen a un archivo PSD, abra el archivo en el panel Examinar de la Vista de detalles.
 
 1. Haga doble clic en el archivo PSD completo en el panel Examinar. El archivo se abre en la Vista de detalles.
 
@@ -90,4 +90,4 @@ Si seleccionó la opción Mantener capas al cargar el PSD, Dynamic Media Classic
 
 1. Haga clic en **[!UICONTROL Guardar]** o **[!UICONTROL Guardar como]**.
 1. Para ver o editar una capa diferente, haga clic en una de las flechas de la parte inferior de la vista previa de la capa.
-1. Para salir de la vista de detalles de la capa, haga clic en el icono **[!UICONTROL Vista de cuadrícula]**.
+1. Para salir de la Vista de detalles de la capa, haga clic en el icono **[!UICONTROL Vista de cuadrícula]**.

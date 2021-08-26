@@ -1,6 +1,6 @@
 ---
 title: Instrumentación de un visor con el kit de instrumentación de Adobe Analytics
-description: Aprenda a instrumentar un visor con el kit de instrumentación de Adobe Analytics en Dynamic Media Classic.
+description: Aprenda a instrumentar un visor con el kit de instrumentación de Adobe Analytics en Adobe Dynamic Media Classic.
 uuid: cf9a4002-966d-4641-9cd0-2ee8b5454f60
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: a2824244-1755-42de-a167-42af117cf038
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 9ea1546d-e6d1-4ba4-8fa1-26b4e69375ba
-source-git-commit: bb387446f294cf1e90d26ae1df4422879ad29db7
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '304'
 ht-degree: 20%
 
 ---
@@ -21,17 +21,17 @@ ht-degree: 20%
 
 Puede utilizar el kit de instrumentación de Adobe Analytics para integrar un visor HTML5 con Adobe Analytics.
 
-Si utiliza cualquiera de los ajustes preestablecidos del visor HTML5 de Dynamic Media Classic predefinidos, ya contendrán todo el código de implementación para enviar datos a Adobe Analytics; usted no necesita más instrumentación.
+Si utiliza cualquiera de los ajustes preestablecidos de visor HTML5 de Adobe Dynamic Media Classic predefinidos, ya contendrán todo el código de implementación para enviar datos a Adobe Analytics; usted no necesita más instrumentación.
 
-## Configuración del seguimiento de Adobe Analytics desde Dynamic Media Classic {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
+## Configuración del seguimiento de Adobe Analytics desde Adobe Dynamic Media Classic {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
 
 Para todos los visores HTML5, agregue el siguiente JavaScript al contenedor HTML, normalmente en el elemento &lt;head> :
 
 ```as3
-<!-- ***** Adobe Analytics Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
+<!-- ***** Adobe Analytics Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Adobe Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
 ```
 
-Donde `Dynamic Media Classic Company ID` se establece en el nombre de empresa de Dynamic Media Classic. Y `&preset` es opcional a menos que el nombre de ajuste preestablecido de la empresa no sea `companypreset`. En estos casos, podría ser `companypreset-1, companypreset-2`, etc. El número más alto es una instancia más reciente del ajuste preestablecido. Para determinar el nombre de valor preestablecido correcto de la empresa, seleccione **[!UICONTROL Copiar URL]** y, a continuación, observe el parámetro `preset=`para encontrar el nombre de ajuste preestablecido de la empresa.
+Donde `Adobe Dynamic Media Classic Company ID` está configurado con el nombre de empresa de Dynamic Media Classic de Adobe. Y `&preset` es opcional a menos que el nombre de ajuste preestablecido de la empresa no sea `companypreset`. En estos casos, podría ser `companypreset-1, companypreset-2`, etc. El número más alto es una instancia más reciente del ajuste preestablecido. Para determinar el nombre de valor preestablecido correcto de la empresa, seleccione **[!UICONTROL Copiar URL]** y, a continuación, observe el parámetro `preset=`para encontrar el nombre de ajuste preestablecido de la empresa.
 
 A continuación, agregue una función que transmita el evento del visor al código de seguimiento de Adobe Analytics.
 

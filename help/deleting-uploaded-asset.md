@@ -1,6 +1,6 @@
 ---
 title: Eliminar un recurso cargado
-description: Obtenga información sobre cómo eliminar un recurso cargado en Dynamic Media Classic.
+description: Obtenga información sobre cómo eliminar un recurso cargado en Adobe Dynamic Media Classic.
 uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
 contentOwner: admin
 content-type: reference
@@ -9,10 +9,10 @@ discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
-source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 84%
+source-wordcount: '96'
+ht-degree: 83%
 
 ---
 

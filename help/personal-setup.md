@@ -1,6 +1,6 @@
 ---
 title: Ajustes personales
-description: Todos los usuarios pueden cambiar la configuración en la pantalla Ajustes personales de Dynamic Media Classic.
+description: Todos los usuarios pueden cambiar la configuración en la pantalla Ajustes personales de Adobe Dynamic Media Classic.
 uuid: 29cb825a-f158-4a1e-9d5f-7636ee411b6e
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '820'
 ht-degree: 28%
 
 ---
@@ -23,7 +23,7 @@ Todos los usuarios pueden cambiar la configuración de la página Ajustes person
 
 >[!NOTE]
 >
->La pantalla Ajustes personales muestra la función de usuario que tiene en Dynamic Media Classic: Administrador de la empresa, Administrador o Usuario.
+>La pantalla Ajustes personales muestra la función de usuario que tiene en Adobe Dynamic Media Classic: Administrador de la empresa, Administrador o Usuario.
 
 La configuración de Ajustes personales determina el comportamiento predeterminado del panel Examinar, la manera en que se recibe correo electrónico y la configuración de la contraseña. No olvide hacer clic en Guardar después de cambiar la configuración.
 
@@ -45,7 +45,7 @@ Además de borrar la imagen y la caché de recursos mediante la aplicación de e
 
 **Para instalar la extensión del Creative Suite Dynamic Media de Adobe:**
 
-1. En Dynamic Media Classic, en la barra de herramientas, haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Configuración personal]**, en Extensión de Creative Suite, haga clic en **[!UICONTROL Descargar ahora]** para descargar el archivo `s7csxs.zxp`.
+1. En Adobe Dynamic Media Classic, en la barra de herramientas, haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Configuración personal]**, en Extensión de Creative Suite, haga clic en **[!UICONTROL Descargar ahora]** para descargar el archivo `s7csxs.zxp`.
 1. Haga clic en los vínculos **[!UICONTROL Installation]** y **[!UICONTROL System Requirements]** para obtener información adicional sobre la extensión.
 
 <!--    A readme file is included at the root of the unzipped file to provide you with additional information about the extension.
@@ -72,7 +72,7 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 ## Explorador
 
-* **Tamaño de las miniaturas** : determina el tamaño predeterminado de las imágenes en miniatura en la vista Cuadrícula del panel Examinar.
+* **Tamaño de las miniaturas** : determina el tamaño predeterminado de las imágenes en miniatura en la vista de cuadrícula en el panel Examinar.
 * **Vista predeterminada de la biblioteca de recursos** : determina si los recursos de la biblioteca de recursos para conjuntos de versiones aparecen como miniaturas o por nombre. Si trabaja con numerosos recursos de la biblioteca de recursos, puede visualizarlos por nombre. Por ejemplo, si va a crear un catálogo electrónico con muchos archivos PDF, puede ver los recursos por nombre para que la lista sea más pequeña.
 * **Orden de exploración predeterminado** : determina el orden en que aparecen los recursos de forma predeterminada en el panel Examinar. Elija un criterio de orden en el menú y seleccione si desea un orden ascendente o descendente.
 * **Ubicación de exploración predeterminada** : le permite establecer la ubicación de exploración en la ubicación predeterminada, en la última carpeta explorada o en una ubicación específica a la que vaya e identifique. También puede definir que los archivos y las carpetas aparezcan por orden ascendente o descendente en la ubicación de exploración.
@@ -95,7 +95,7 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 ## Correo electrónico
 
-* **Opciones de correo electrónico** : elija cómo desea que Dynamic Media Classic le informe por correo electrónico cuando se completen los trabajos de carga y publicación. Puede recibir notificaciones sobre la finalización de un trabajo solo cuando aparezcan advertencias o se produzcan errores.
+* **Opciones de correo electrónico** : elija cómo desea que Adobe Dynamic Media Classic le informe por correo electrónico cuando se completen los trabajos de carga y publicación. Puede recibir notificaciones sobre la finalización de un trabajo solo cuando aparezcan advertencias o se produzcan errores.
 * **Ámbito de correo electrónico** : determina si recibe todo el correo electrónico del trabajo de su empresa o solo el correo electrónico sobre los trabajos de carga y publicación que inicie.
 * **Tipos de correo electrónico** : determina si se le informa cuando se completan los trabajos de carga y publicación.
 

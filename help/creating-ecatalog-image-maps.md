@@ -1,18 +1,18 @@
 ---
 title: Creación de mapas de imagen de catálogos electrónicos
-description: Aprenda a crear mapas de imágenes de catálogos electrónicos en Dynamic Media Classic.
+description: Aprenda a crear mapas de imágenes de catálogos electrónicos en Adobe Dynamic Media Classic.
 uuid: 943ad3f7-a885-4bc2-88cb-77083384bdf8
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
-feature: Dynamic Media Classic,Visualizadores,Catálogo electrónico
+feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
-source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1493'
 ht-degree: 40%
 
 ---
@@ -32,9 +32,9 @@ Los mapas de imagen de los catálogos electrónicos se dibujan en la ficha Pági
 
    * **Mapa rectangular** : seleccione la herramienta Mapa de imagen rectangular y arrastre la página para crear el rectángulo.
 
-   * **Mapa poligonal** : seleccione la herramienta Mapa de imagen poligonal y, a continuación, seleccione tantas veces como sea necesario alrededor del perímetro de la imagen. A medida que selecciona, Dynamic Media Classic dibuja los bordes del mapa de imagen.
+   * **Mapa poligonal** : seleccione la herramienta Mapa de imagen poligonal y, a continuación, seleccione tantas veces como sea necesario alrededor del perímetro de la imagen. Mientras selecciona, Adobe Dynamic Media Classic dibuja los bordes del mapa de imagen.
 
-      Después de dibujar un mapa de imagen, Dynamic Media Classic le asigna un nombre en la lista Mapa de imagen. Para formar el nombre, Dynamic Media Classic añade un número secuencial al nombre de la página del catálogo electrónico en la que está trabajando.
+      Después de dibujar un mapa de imagen, Adobe Dynamic Media Classic le asigna un nombre en la lista Mapa de imagen. Para formar el nombre, Adobe Dynamic Media Classic añade un número secuencial al nombre de la página del catálogo electrónico en la que está trabajando.
 
 1. (Opcional) En la lista Mapa de imágenes, en la columna [!UICONTROL Nombre], puede introducir un nuevo nombre para el Mapa de imágenes. No incluya espacios en blanco en el nombre.
 1. Puede hacer que los visualizadores abran una nueva página web cuando seleccionen el mapa de imagen. En el panel de lista de mapas de imagen, introduzca la dirección URL de la página web en la columna URL.
@@ -131,7 +131,7 @@ Vaya a la pantalla Resumen de mapas y siga estos pasos para importar los datos d
 
 ## Copia de mapas de imagen entre catálogos electrónicos {#copying-image-maps-between-ecatalogs}
 
-Puede copiar todos los mapas de imagen de un catálogo electrónico a otro. La copia de mapas de imagen con este método es una forma cómoda de copiar los mapas de imagen entre las distintas traducciones en otros idiomas del mismo catálogo electrónico. Para que la copia sea correcta, Dynamic Media Classic recomienda copiar entre catálogos electrónicos con el mismo número de páginas e imágenes.
+Puede copiar todos los mapas de imagen de un catálogo electrónico a otro. La copia de mapas de imagen con este método es una forma cómoda de copiar los mapas de imagen entre las distintas traducciones en otros idiomas del mismo catálogo electrónico. Para que la copia sea correcta, el Adobe de Adobe Dynamic Media Classic recomienda copiar entre catálogos electrónicos con el mismo número de páginas y las mismas imágenes.
 
 >[!NOTE]
 >
@@ -143,4 +143,4 @@ Para copiar todos los mapas de imagen de un catálogo electrónico en otro, haga
 1. En la ficha Ordenar páginas, seleccione **[!UICONTROL Copiar mapas]**.
 1. En el cuadro de diálogo Seleccionar recurso, seleccione el catálogo electrónico en el que desea copiar los mapas de imagen y, a continuación, seleccione **[!UICONTROL Seleccionar]**.
 
-Dynamic Media Classic muestra un mensaje de advertencia si el catálogo electrónico de destino (el catálogo electrónico al que copia mapas de imagen) tiene un número diferente de páginas o imágenes de un tamaño diferente. Seleccione **[!UICONTROL Continue]** para copiar los mapas de imagen a pesar de la advertencia.
+Adobe Dynamic Media Classic muestra un mensaje de advertencia si el Catálogo electrónico de destino (el Catálogo electrónico al que copia los Mapas de imagen) tiene un número diferente de páginas o imágenes con un tamaño diferente. Seleccione **[!UICONTROL Continue]** para copiar los mapas de imagen a pesar de la advertencia.

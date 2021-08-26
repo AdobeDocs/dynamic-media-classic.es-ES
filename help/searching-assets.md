@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
-feature: Dynamic Media Classic,Administración de recursos
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1491'
 ht-degree: 24%
 
 ---
 
 # Búsqueda de recursos{#searching-assets}
 
-Para localizar recursos de archivos en Dynamic Media Classic, puede ver los recursos por tipo, ordenarlos en el panel Examinar, realizar una búsqueda sencilla, avanzada y filtrar por recursos.
+Para localizar recursos de archivos en Adobe Dynamic Media Classic, puede ver los recursos por tipo, ordenarlos en el panel Examinar, realizar una búsqueda sencilla, avanzada y filtrar por recursos.
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Para ver solo archivos de un determinado tipo a medida que navega, en la bibliot
 
 >[!NOTE]
 >
->Si no ve el panel Biblioteca de recursos en el lado izquierdo, haga clic en la flecha de triángulo derecha en el lado izquierdo, a la mitad de la ventana de Dynamic Media Classic, para abrir la Biblioteca de recursos).
+>Si no ve el panel Biblioteca de recursos en el lado izquierdo, haga clic en la flecha de triángulo derecha en el lado izquierdo, a la mitad de la ventana Adobe Dynamic Media Classic, para abrir la Biblioteca de recursos).
 
 ## Ordenación de archivos en el panel Examinar {#sorting-files-in-the-browse-panel}
 
@@ -55,7 +55,7 @@ Utilice el campo Buscar de la biblioteca de recursos para realizar búsquedas se
 
 <!-- Does not appear to be working anymore >[!NOTE]
 >
->Dynamic Media Classic tracks searches. To run a search a second time, click **[!UICONTROL Search]** and choose the name of a search at the bottom of the Search menu. -->
+>Adobe Dynamic Media Classic tracks searches. To run a search a second time, click **[!UICONTROL Search]** and choose the name of a search at the bottom of the Search menu. -->
 
 ## Búsqueda avanzada {#conducting-an-advanced-search}
 
@@ -171,5 +171,5 @@ Haga clic en **[!UICONTROL Publicar ahora]** para iniciar el trabajo. Aparece un
 >[!MORELIKETHIS]
 >
 >* [Nociones básicas de navegación](navigation-basics.md#navigation_basics)
-* [Visualización, adición y exportación de metadatos](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
+>* [Visualización, adición y exportación de metadatos](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
 

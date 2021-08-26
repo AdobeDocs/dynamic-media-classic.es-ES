@@ -1,21 +1,19 @@
 ---
 title: Funciones de usuario en Media Portal
-seo-title: Funciones de usuario en Media Portal
-description: Obtenga información sobre las distintas funciones de usuario disponibles en Media Portal.
-seo-description: Obtenga información sobre las distintas funciones de usuario disponibles en Media Portal.
+description: Obtenga información sobre las distintas funciones de usuario disponibles en Media Portal en Adobe Dynamic Media Classic.
 uuid: 1bf2cc85-3655-428f-81ab-5fdaa1e9401b
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 1bd7cb5d-156c-4dad-a725-e177f05ccedf
-feature: Dynamic Media Classic,Colaboración,Administración de activos
+feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: ce9b5a41-cc3e-4801-8080-607cf7be338b
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 71%
+source-wordcount: '313'
+ht-degree: 74%
 
 ---
 
@@ -23,23 +21,23 @@ ht-degree: 71%
 
 Media Portal incluye las siguientes funciones, cada una con derechos de acceso y permisos diferentes. Cuando se registra a un usuario, se le asigna una de las siguientes funciones:
 
-* **Administrador de Media Portal** : puede agregar y eliminar administradores, colaboradores y usuarios. El administrador también puede establecer derechos de acceso de grupo, administrar cuentas de FTP, asignar formatos de conversión aprobados por la empresa (ajustes preestablecidos), enviar correos electrónicos a los usuarios de Media Portal y ver los informes de almacenamiento y uso del portal.
+* **[!UICONTROL Administrador de Media Portal]** : puede agregar y eliminar administradores, colaboradores y usuarios. El administrador también puede establecer derechos de acceso de grupo, administrar cuentas de FTP, asignar formatos de conversión aprobados por la empresa (ajustes preestablecidos), enviar correos electrónicos a los usuarios de Media Portal y ver los informes de almacenamiento y uso del portal.
 
-* **Usuario de Media Portal** : tiene acceso a carpetas y archivos. Un usuario solo puede examinar, previsualizar y descargar archivos. Esta función es adecuada para socios de canal o de servicio que necesitan acceso a los recursos aprobados de su empresa.
+* **[!UICONTROL Usuario de Media Portal]** : tiene acceso a carpetas y archivos. Un usuario solo puede examinar, previsualizar y descargar archivos. Esta función es adecuada para socios de canal o de servicio que necesitan acceso a los recursos aprobados de su empresa.
 
-* **Colaborador de Media Portal** : puede cargar, previsualizar y examinar archivos y metadatos en áreas en las que un administrador ha concedido permisos. El colaborador no puede descargar archivos. Los colaboradores pueden editar metadatos, cambiar el nombre de los archivos y las carpetas, mover archivos a carpetas diferentes o eliminar archivos.
+* **[!UICONTROL Colaborador de Media Portal]** : puede cargar, previsualizar y examinar archivos y metadatos en áreas en las que un administrador ha concedido permisos. El colaborador no puede descargar archivos. Los colaboradores pueden editar metadatos, cambiar el nombre de los archivos y las carpetas, mover archivos a carpetas diferentes o eliminar archivos.
 
-* **Usuario colaborador de Media Portal** : tiene acceso a carpetas y archivos. Un usuario colaborador puede examinar, descargar y cargar imágenes y metadatos, así como obtener una vista previa de los mismos. Los usuarios colaboradores pueden cambiar el nombre de los archivos, mover archivos a carpetas diferentes o eliminar archivos.
+* **[!UICONTROL Usuario colaborador de Media Portal]** : tiene acceso a carpetas y archivos. Un usuario colaborador puede examinar, descargar y cargar imágenes y metadatos, así como obtener una vista previa de los mismos. Los usuarios colaboradores pueden cambiar el nombre de los archivos, mover archivos a carpetas diferentes o eliminar archivos.
 
 Esta tabla describe las tareas que pueden realizar los usuarios según su función. Los administradores y los usuarios colaboradores pueden realizar todas las tareas incluidas en la tabla:
 
 | Tarea | Usuario | Colaborador | Usuario colaborador |
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 | Examinar carpetas y archivos | X | X | X |
 | Explorar metadatos | X | X | X |
 | Previsualizar archivos | X | X | X |
 | Buscar archivos | X | X | X |
-| Cargar archivos a Dynamic Media Classic |  | X | X |
+| Cargar archivos a Adobe Dynamic Media Classic |  | X | X |
 | Editar e importar metadatos de recursos |  | X | X |
 | Crear, cambiar el nombre y eliminar carpetas |  | X | X |
 | Exportar metadatos de recursos | X |  | X |
@@ -47,4 +45,4 @@ Esta tabla describe las tareas que pueden realizar los usuarios según su funci�
 | Mover archivos a otras carpetas |  | X | X |
 | Cambiar el nombre de los archivos |  | X | X |
 | Eliminar archivos |  | X | X |
-| Exportar (descargar) archivos de Dynamic Media Classic | X |  | X |
+| Exportar (descargar) archivos de Adobe Dynamic Media Classic | X |  | X |

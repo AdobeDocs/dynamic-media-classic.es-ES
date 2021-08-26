@@ -10,20 +10,20 @@ discoiquuid: 1ddc89ff-d2e9-42eb-a442-aa6b9871c991
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 6186fcf0-99b4-447d-ae94-b4124dcb405b
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '335'
 ht-degree: 15%
 
 ---
 
 # Prueba de integración mediante la visualización de un informe de Adobe Analytics{#testing-the-integration-by-viewing-an-adobe-analytics-report}
 
-Después de crear las variables necesarias en Adobe Analytics, vincularlas a eventos de Dynamic Media Classic y completar los pasos de implementación necesarios, puede probar la configuración. Puede probar y verificar que se están capturando datos desde Adobe Analytics. Si la configuración funciona en SiteCatalyst, no serán necesarios más pasos. Suponiendo que haya seguido los pasos anteriores y haya vinculado los datos de evento de Dynamic Media Classic a una o más variables de tráfico personalizadas, siga este flujo de trabajo para probar los datos dentro de Adobe Analytics.
+Después de crear las variables necesarias en Adobe Analytics, vincularlas a eventos de Dynamic Media Classic de Adobe y completar los pasos de implementación necesarios, puede probar la configuración. Puede probar y verificar que se están capturando datos desde Adobe Analytics. Si la configuración funciona en SiteCatalyst, no serán necesarios más pasos. Suponiendo que haya seguido los pasos anteriores y haya vinculado los datos de evento de Dynamic Media Classic de Adobe a una o más variables de tráfico personalizadas, siga este flujo de trabajo para probar los datos dentro de Adobe Analytics.
 
 **Para probar la integración mediante la visualización de un informe de Adobe Analytics:**
 
-1. Inicie un visualizador de Dynamic Media Classic desde su cuenta, especialmente uno que transmita la métrica que desea obtener e interactúe con él para crear algunos datos de evento.
+1. Inicie un visor de Adobe Dynamic Media Classic desde su cuenta, especialmente uno que transmita la métrica que desea obtener e interactúe con él para crear algunos datos de evento.
 
    Por ejemplo, si desea medir las vistas alternativas más populares en un conjunto de imágenes, previsualice un conjunto de imágenes y haga clic en las distintas imágenes de miniaturas.
 
@@ -35,6 +35,6 @@ Después de crear las variables necesarias en Adobe Analytics, vincularlas a eve
 
 >[!NOTE]
 >
->Todos los datos del visor de Dynamic Media Classic se muestran y se incluyen en los informes Tráfico personalizado o Conversión personalizada de Adobe Analytics.
+>Todos los datos del visor de Adobe Dynamic Media Classic se muestran y se incluyen en los informes Tráfico personalizado o Conversión personalizada de Adobe Analytics.
 
 Para obtener más información, consulte [Tutorials de Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html).

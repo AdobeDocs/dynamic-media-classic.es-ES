@@ -1,6 +1,6 @@
 ---
 title: Creación de un conjunto de ofertas
-description: Obtenga información sobre cómo crear un conjunto de ofertas en Dynamic Media Classic.
+description: Obtenga información sobre cómo crear un conjunto de ofertas en Adobe Dynamic Media Classic.
 uuid: 6d6a4af9-70c0-4cfa-9a8f-855d6adfcc8f
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '1232'
 ht-degree: 38%
 
 ---
@@ -27,11 +27,11 @@ Se puede crear cualquiera de los siguientes tipos de conjuntos de ofertas:
 
 Para las plantillas, seleccione **[!UICONTROL Agregar y previsualizar]** y, a continuación, establezca los parámetros que elija. Los demás tipos de conjuntos de ofertas no incluyen parámetros, pero se pueden personalizar seleccionando **[!UICONTROL Preview]** y cambiando los ajustes preestablecidos disponibles.
 
-Dynamic Media Classic ofrece herramientas para editar y crear conjuntos de ofertas.
+Adobe Dynamic Media Classic ofrece herramientas para editar y crear conjuntos de ofertas.
 
 >[!NOTE]
 >
->Antes de crear un conjunto de ofertas, asegúrese de publicar en Dynamic Media Classic todos los recursos que desee utilizar para el conjunto. Consulte [Publicación manual de recursos](publishing-files.md#manually_publishing_assets) y [Cancelación manual de la publicación de recursos](publishing-files.md#manually_unpublishing_assets).
+>Antes de crear un conjunto de ofertas, asegúrese de publicar todos los recursos que desee utilizar para el conjunto en Adobe Dynamic Media Classic. Consulte [Publicación manual de recursos](publishing-files.md#manually_publishing_assets) y [Cancelación manual de la publicación de recursos](publishing-files.md#manually_unpublishing_assets).
 
 ## Tipos de conjuntos de ofertas {#types-of-offer-sets}
 
@@ -39,7 +39,7 @@ Se puede crear un conjunto de ofertas de cualquiera de los siguientes tipos:
 
 * **Imágenes** : puede ensamblar imágenes para un conjunto de ofertas. Cada imagen incluye una oferta diferente en el conjunto.
 
-* **Plantilla de imagen** : puede parametrizar las plantillas de imagen en Dynamic Media Classic con el comando Generar > Conceptos básicos de plantilla. Mediante parámetros, se pueden intercambiar y personalizar los componentes de la plantilla como el texto de los cuadros de texto y las distintas imágenes. Para un conjunto de ofertas, puede utilizar parámetros de plantilla para crear variaciones de la misma imagen en el conjunto de ofertas, por ejemplo. Para obtener más información sobre la creación y la parametrización de plantillas de imagen, consulte Creación de parámetros de plantilla.
+* **Plantilla de imagen** : puede parametrizar las plantillas de imagen en Adobe Dynamic Media Classic con el comando Generar > Conceptos básicos de plantilla. Mediante parámetros, se pueden intercambiar y personalizar los componentes de la plantilla como el texto de los cuadros de texto y las distintas imágenes. Para un conjunto de ofertas, puede utilizar parámetros de plantilla para crear variaciones de la misma imagen en el conjunto de ofertas, por ejemplo. Para obtener más información sobre la creación y la parametrización de plantillas de imagen, consulte Creación de parámetros de plantilla.
 
 * **Vídeo** : puede ensamblar vídeo para un conjunto de ofertas. Cada vídeo conforma una oferta distinta en el conjunto.
 
@@ -93,7 +93,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
    * **Pantalla**  del conjunto de ofertas de Test&amp;Target: vaya a  **[!UICONTROL Generar]**  > Conjunto de ofertas de  **[!UICONTROL Test&amp;Target]**. Arrastre las imágenes o los vídeos a la pantalla. Para crear vídeos o imágenes de distintos tamaños, arrastre varias copias de la imagen o del vídeo y defina cada tamaño de manera individual.
 
-   * **Vista de cuadrícula o vista**  de lista: seleccione las imágenes o los vídeos y, a continuación, vaya a  **[!UICONTROL Generar]**  > Conjunto de ofertas de  **[!UICONTROL Test&amp;Target]**.
+   * **Vista de cuadrícula o Vista de lista** : seleccione las imágenes o los vídeos y, a continuación, vaya a  **[!UICONTROL Generar]**  > Conjunto de ofertas de  **[!UICONTROL Test&amp;Target]**.
 
 1. De forma opcional, seleccione una imagen o un vídeo y seleccione **[!UICONTROL Preview]**. En la página Ofertas de vista previa , puede cambiar el tamaño y el aspecto de la imagen o del vídeo que ha seleccionado. O bien, puede cambiar todas las imágenes o vídeos del conjunto de ofertas.
 
@@ -122,7 +122,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 **Para editar un conjunto de ofertas:**
 
-1. Para editar un conjunto de ofertas, muestre el conjunto de ofertas en la vista de cuadrícula o de lista y, a continuación, seleccione su botón de prórroga **[!UICONTROL Edit]**.
+1. Para editar un conjunto de ofertas, muestre el conjunto de ofertas en la vista de cuadrícula o de lista y, a continuación, seleccione su botón de sustitución **[!UICONTROL Edit]**.
 1. En la página Conjunto de ofertas de Test&amp;Target , realice una de las acciones siguientes:
 
    * **Eliminación de una oferta** : seleccione la oferta y, a continuación, seleccione  **** Eliminar para eliminar una oferta del conjunto.
@@ -132,7 +132,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
    >[!NOTE]
    >
-   >No puede eliminar un conjunto de ofertas que esté asociado a una campaña. Para eliminar un conjunto de ofertas asociado a una campaña, inicie sesión en Adobe Target Standard/Premium y elimine primero las asociaciones de campañas. Incluso después de desasociar de una campaña, el recurso solo se puede eliminar de Dynamic Media Classic, lo que requiere iniciar sesión en Adobe Target Standard/Premium, y no desde Adobe Target Standard/Premium.
+   >No puede eliminar un conjunto de ofertas que esté asociado a una campaña. Para eliminar un conjunto de ofertas asociado a una campaña, inicie sesión en Adobe Target Standard/Premium y elimine primero las asociaciones de campañas. Incluso después de desasociar de una campaña, el recurso solo se puede eliminar de Adobe Dynamic Media Classic, lo que requiere iniciar sesión en Adobe Target Standard/Premium, y no desde Adobe Target Standard/Premium.
 
 1. Cuando termine de editar, cerca de la esquina inferior derecha de la página, asegúrese de que **[!UICONTROL Publicar después de guardar]** esté seleccionado (predeterminado).
 1. Seleccione **[!UICONTROL Guardar]**, seleccione una carpeta de almacenamiento, introduzca un nombre para el conjunto y, a continuación, seleccione **[!UICONTROL Guardar]**.

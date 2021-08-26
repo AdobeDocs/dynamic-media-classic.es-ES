@@ -10,9 +10,9 @@ discoiquuid: dd0fbb39-3f6a-496b-a9b6-63b11dcb823a
 feature: Dynamic Media Classic
 role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '782'
 ht-degree: 34%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 34%
 
 Los conceptos básicos de plantilla son archivos de imagen en capas que se pueden dirigir y crear de forma dinámica, como archivos en capas en aplicaciones de edición de imágenes como Adobe Photoshop. A diferencia de los archivos estáticos que contienen capas (por ejemplo, archivos PSD), una plantilla puede incluir parámetros. A través de parámetros, puede dirigir y personalizar los diferentes aspectos de la imagen.
 
-Una plantilla puede contener un número cualquiera de capas de imagen y capas de texto. Puede convertir un archivo estático que contenga capas, como un archivo PSD en capas, en una plantilla y crear plantillas en Dynamic Media Classic. Puede crear capas de texto en plantillas utilizando las fuentes cargadas en Dynamic Media Classic. Después de agregar texto a una plantilla, puede modificar las fuentes, el tamaño y el color de éstas y la justificación.
+Una plantilla puede contener un número cualquiera de capas de imagen y capas de texto. Puede convertir un archivo estático que contenga capas, como un archivo PSD en capas, en una plantilla y crear plantillas en Adobe Dynamic Media Classic. Puede crear capas de texto en plantillas utilizando las fuentes cargadas en Adobe Dynamic Media Classic. Después de agregar texto a una plantilla, puede modificar las fuentes, el tamaño y el color de éstas y la justificación.
 
 Con la página Parámetros, puede convertir cualquier aspecto de una plantilla en un parámetro accesible. De este modo podrá elegir qué imagen de capa o qué valor de texto usar en la plantilla. Los parámetros se pasan junto a la cadena URL, lo que le permite cambiar cualquier parámetro para personalizar de forma dinámica la imagen de respuesta generada por el servidor de imágenes.
 
@@ -29,13 +29,13 @@ Este inicio rápido se ha diseñado para el uso inicial de Funciones básicas de
 
 ## 1. Cargue los archivos
 
-Empiece por subir el archivo PSD o archivo de imagen para su plantilla. Dynamic Media Classic admite muchos formatos de archivo de imagen además de PSD, pero las imágenes TIFF y PNG sin pérdida se recomiendan para las plantillas porque permiten la transparencia.
+Empiece por subir el archivo PSD o archivo de imagen para su plantilla. Adobe Dynamic Media Classic admite muchos formatos de archivo de imagen además de PSD, pero las imágenes TIFF y PNG sin pérdida se recomiendan para las plantillas porque permiten la transparencia.
 
-Si utiliza un archivo PSD para crear la plantilla, seleccione **[!UICONTROL Crear plantilla]** en el cuadro de diálogo **[!UICONTROL Opciones de carga de trabajo]** al cargar el archivo PSD. Elija también una opción **[!UICONTROL Layer Naming]** para que Dynamic Media Classic sepa cómo asignar nombres a las capas PSD cuando se cargan en Dynamic Media Classic.
+Si utiliza un archivo PSD para crear la plantilla, seleccione **[!UICONTROL Crear plantilla]** en el cuadro de diálogo **[!UICONTROL Opciones de carga de trabajo]** al cargar el archivo PSD. Elija también una opción **[!UICONTROL Layer Naming]** para que Adobe Dynamic Media Classic sepa cómo asignar nombres a las capas PSD cuando se cargan en Adobe Dynamic Media Classic.
 
 Si utiliza archivos de imagen, puede recortar las imágenes y crear una máscara a partir de ruta de recorte al cargar las imágenes.
 
-En la barra de navegación global, haga clic en **[!UICONTROL Cargar]** para cargar un archivo PSD u otros archivos de imagen desde el equipo a una carpeta de Dynamic Media Classic. Consulte [Carga de archivos de plantilla](uploading-template-files.md#uploading_template_files).
+En la barra de navegación global, haga clic en **[!UICONTROL Cargar]** para cargar un archivo PSD u otros archivos de imagen desde el equipo a una carpeta de Adobe Dynamic Media Classic. Consulte [Carga de archivos de plantilla](uploading-template-files.md#uploading_template_files).
 
 ## 2. Crear una plantilla
 

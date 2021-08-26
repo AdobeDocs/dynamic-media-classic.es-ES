@@ -7,12 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 2708d077-94fc-4045-8992-ad3589ed9cfd
-feature: Dynamic Media Classic,Visualizadores,Conjuntos de medios mixtos
+feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
-source-git-commit: 591feb7ee4ac88e39941b429a8aa965d4d919738
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '635'
 ht-degree: 52%
 
 ---
@@ -23,13 +23,13 @@ Los conjuntos de medios mixtos de ofrecen a los usuarios una visualización inte
 
 Los ajustes preestablecidos del visor de conjuntos de medios mixtos incluyen opciones de comunidad para los usuarios finales para incrustar código, copiar URL y crear un vínculo al sitio web principal. Los usuarios pueden utilizar estas opciones para compartir información sobre los productos en sus sitios web personales o en los sitios de redes sociales.
 
-Este inicio rápido de conjuntos de medios mixtos está diseñado para ponerse en marcha rápidamente con las técnicas de conjuntos de medios mixtos en Dynamic Media Classic.
+Este inicio rápido de conjuntos de medios mixtos está diseñado para ponerse en marcha rápidamente con las técnicas de conjuntos de medios mixtos en Adobe Dynamic Media Classic.
 
 ## 1. Carga de imágenes, archivos de muestra y vídeos
 
 Comience por cargar las imágenes, los archivos de muestras, y los vídeos para sus conjuntos de medios mixtos. Dado que los usuarios pueden hacer zoom en las imágenes en el visualizador de conjuntos de medios mixtos, asegúrese de tener en cuenta esta capacidad al elegir imágenes. Asegúrese de que las imágenes tengan al menos 2000 píxeles en el tamaño más grande.
 
-En la barra de navegación global, haga clic en **[!UICONTROL Cargar]** para cargar archivos del equipo a una carpeta de Dynamic Media Classic.
+En la barra de navegación global, haga clic en **[!UICONTROL Cargar]** para cargar archivos del equipo a una carpeta de Adobe Dynamic Media Classic.
 
 Consulte [Carga de los archivos](uploading-files.md#uploading-your-files).
 
@@ -47,7 +47,7 @@ Consulte [Creación de un conjunto de medios mixtos](creating-mixed-media-set.md
 
 ## 4. Configuración de los ajustes preestablecidos del visualizador de medios mixtos
 
-Dynamic Media Classic incluye ajustes preestablecidos de visor predeterminados para conjuntos de medios mixtos. Los administradores pueden crear o modificar los ajustes preestablecidos de visor de conjuntos de medios mixtos.
+Adobe Dynamic Media Classic incluye ajustes preestablecidos de visor predeterminados para conjuntos de medios mixtos. Los administradores pueden crear o modificar los ajustes preestablecidos de visor de conjuntos de medios mixtos.
 
 Al configurar un ajuste preestablecido de visualizador de conjuntos de medios mixtos, agregue los ajustes preestablecidos de visualizador para todos los demás recursos del conjunto. Por ejemplo, si su conjunto de medios mixtos incluye vídeos, será necesario agregar un ajuste preestablecido de visor de vídeo al ajuste preestablecido de visor de conjuntos de medios mixtos. También puede agregar una pista de audio al visor. Esta pista de audio se reproduce mientras el visor está abierto, pero no cuando un vídeo está activo.
 
@@ -61,7 +61,7 @@ Consulte [Previsualización de un recurso](previewing-asset.md#previewing-an-ass
 
 ## 6. Publicación de un conjunto de medios mixtos
 
-Al publicar un conjunto de medios mixtos, este se coloca en los servidores de Dynamic Media Classic y se activa la cadena URL.
+Al publicar un conjunto de medios mixtos, se coloca en los servidores de Dynamic Media Classic de Adobe y se activa la cadena URL.
 
 Los conjuntos de vídeo adaptables requieren que se publique en el **Servidor de vídeo** y también en el **Servidor de imágenes**. El **Servidor de vídeo** se utiliza para publicar los vídeos reales que se han marcado para publicación. Además, utiliza **Image Server** para publicar recursos relacionados, como miniaturas de vídeo, y establecer información para cualquier conjunto de vídeos adaptables.
 
@@ -69,6 +69,6 @@ Consulte [Publicación de un conjunto de medios mixtos](publishing-mixed-media-s
 
 ## 7. Vinculación de un conjunto de medios mixtos a una página web
 
-Dynamic Media Classic activa las llamadas URL para conjuntos de medios mixtos después de publicarlos. Puede copiar estas direcciones URL desde la página Vista previa .
+Adobe Dynamic Media Classic activa las llamadas URL para conjuntos de medios mixtos después de publicarlos. Puede copiar estas direcciones URL desde la página Vista previa .
 
 Seleccione el conjunto de medios mixtos y, a continuación, haga clic en **[!UICONTROL Vista previa]**. En la página Vista previa, seleccione un ajuste preestablecido de visualizador de conjuntos de medios mixtos y haga clic en **[!UICONTROL Copiar URL]**. Consulte [Vinculación de conjuntos de medios mixtos a páginas web](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page).

@@ -7,12 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 11cd5362-d90a-4c1e-bfbd-46a65a554409
-feature: Dynamic Media Classic,Administración de recursos
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '2169'
+source-wordcount: '2174'
 ht-degree: 46%
 
 ---
@@ -21,29 +21,29 @@ ht-degree: 46%
 
 El enfoque es una técnica de manipulación de imágenes para hacer más nítidos los contornos de una imagen digital. El enfoque aumenta el contraste entre los píxeles del borde y subraya la transición entre las áreas oscuras y claras. El enfoque aumenta el contraste local y resalta el detalle fino. No existe una fórmula estricta para enfocar correctamente todas las imágenes. Muy poco enfoque puede suavizar una imagen, pero demasiado añadirá halos, artefactos y ruido.
 
-Dynamic Media Classic recomienda encarecidamente utilizar ajustes preestablecidos de imagen para todas las imágenes. Garantizan un tamaño uniforme y el enfoque se aplica en cualquier imagen llamada con un ajuste preestablecido de imagen. Además, puede editar y cambiar fácilmente los parámetros de nitidez de un ajuste preestablecido de imagen. La siguiente vez que publique, todas las imágenes invocadas con dicho ajuste preestablecido reciben los nuevos valores.
+Adobe Dynamic Media Classic recomienda encarecidamente utilizar ajustes preestablecidos de imagen para todas las imágenes. Garantizan un tamaño uniforme y el enfoque se aplica en cualquier imagen llamada con un ajuste preestablecido de imagen. Además, puede editar y cambiar fácilmente los parámetros de nitidez de un ajuste preestablecido de imagen. La siguiente vez que publique, todas las imágenes invocadas con dicho ajuste preestablecido reciben los nuevos valores.
 
-Dynamic Media Classic también recomienda añadir nitidez a los ajustes preestablecidos de visualizador y, a continuación, llamar a un visualizador con ese ajuste preestablecido. Al hacerlo, se garantiza que las imágenes de los espectadores sean nítidas y atractivas.
+Adobe Dynamic Media Classic también recomienda añadir nitidez a los ajustes preestablecidos de visor y, a continuación, llamar a un visor con ese ajuste preestablecido. Al hacerlo, se garantiza que las imágenes de los espectadores sean nítidas y atractivas.
 
 Sin embargo, tanto si utiliza ajustes preestablecidos de imagen y ajustes preestablecidos de visualizador como si utiliza algún método alternativo de nitidez, la conclusión es que debe enfocar las imágenes. Si no lo hace, las imágenes (y el sitio web) pueden verse suaves y borrosas.
 
 >[!NOTE]
 >
->los comandos de Enfocar anulan los valores de Ajuste preestablecido, incluidos sus efectos de enfoque. Los ajustes preestablecidos de imagen rigen el tamaño y el formato con que se entregan las imágenes desde los servidores de imágenes de Dynamic Media. Dynamic Media Classic recomienda encarecidamente utilizar ajustes preestablecidos de imagen para entregar todas las imágenes con el fin de garantizar que se entreguen a un tamaño y un enfoque uniformes. Una vez que se cambian los valores de enfoque de una imagen individual, sin embargo, los valores de enfoque del ajuste preestablecido de imagen dejarán de aplicarse a la imagen. Se distribuye sin los valores de enfoque del ajuste preestablecido de imagen.
+>los comandos de Enfocar anulan los valores de Ajuste preestablecido, incluidos sus efectos de enfoque. Los ajustes preestablecidos de imagen rigen el tamaño y el formato con que se entregan las imágenes desde los servidores de imágenes de Dynamic Media. Adobe Dynamic Media Classic recomienda encarecidamente utilizar ajustes preestablecidos de imagen para ofrecer todas las imágenes y garantizar que se entreguen a un tamaño y un enfoque uniformes. Una vez que se cambian los valores de enfoque de una imagen individual, sin embargo, los valores de enfoque del ajuste preestablecido de imagen dejarán de aplicarse a la imagen. Se distribuye sin los valores de enfoque del ajuste preestablecido de imagen.
 
-A menudo es necesario enfocar imágenes. Los servidores de imágenes y Dynamic Media Classic ofrecen varias opciones de enfoque. Es importante entender cómo afecta el enfoque a una imagen y el grado de enfoque que necesita. La mayoría de las imágenes necesitan algo de enfoque pero la cantidad necesaria depende de la imagen.
+A menudo es necesario enfocar imágenes. Adobe Dynamic Media Classic y Servidores de imágenes ofrecen varias opciones de enfoque. Es importante entender cómo afecta el enfoque a una imagen y el grado de enfoque que necesita. La mayoría de las imágenes necesitan algo de enfoque pero la cantidad necesaria depende de la imagen.
 
 El enfoque de imágenes aumenta el contraste de los píxeles para crear el efecto de bordes acentuados. Los seres humanos perciben esta mejora del contraste de los bordes como un enfoque. Si bien es fácil mejorar una imagen mediante filtros de enfoque aplicados a la imagen, también es fácil enfocar una imagen demasiado.
 
 Al enfocar una imagen demasiado se crea un efecto de halo o bandas de las líneas del borde.
 
-Puede seguir algunas prácticas recomendadas para optimizar el enfoque de las imágenes en Dynamic Media Classic y en Dynamic Media Image Server.
+Puede seguir algunas prácticas recomendadas para optimizar el enfoque de las imágenes en Adobe Dynamic Media Classic y en Dynamic Media Image Server.
 
-Consulte [Prácticas recomendadas para enfocar imágenes en Dynamic Media Classic y en Dynamic Media Image Server](/help/assets/s7_sharpening_images.pdf).
+Consulte [Prácticas recomendadas para enfocar imágenes en Adobe Dynamic Media Classic y en Dynamic Media Image Server](/help/assets/s7_sharpening_images.pdf).
 
 **Para enfocar una imagen:**
 
-Para enfocar una imagen, haga clic en su botón de rollover **[!UICONTROL Editar]** y elija **[!UICONTROL Enfocar]**, o ábrala en el panel Examinar de la vista de detalles y, a continuación, haga clic en **[!UICONTROL Enfocar]**. Se abre la página Editor de nitidez con comandos de nitidez. Elija los comandos y, a continuación, haga clic en **[!UICONTROL Save]**.
+Para enfocar una imagen, haga clic en su botón de rollover **[!UICONTROL Editar]** y elija **[!UICONTROL Enfocar]**, o ábrala en el panel Examinar de la Vista de detalles y, a continuación, haga clic en **[!UICONTROL Enfocar]**. Se abre la página Editor de nitidez con comandos de nitidez. Elija los comandos y, a continuación, haga clic en **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Seleccione el menú **[!UICONTROL Sharpening]** y elija una opción:
 
 Elija estas opciones para ajustar el enfoque con Máscara de enfoque:
 
-* **Cantidad** : controla la cantidad de contraste aplicado a los píxeles de borde. El valor predeterminado es 0,0. En las imágenes de alta resolución, puede aumentarse hasta 5,0. La cantidad equivaldría a la medida de la intensidad del filtro. La configuración **[!UICONTROL Amount]** de Dynamic Media Classic no es la misma que la configuración de Amount de Adobe Photoshop. Adobe Photoshop utiliza una cantidad del rango del 1 % al 500 %, mientras que Dynamic Media Classic escala de 0,0 a 5,0. (5,0 equivale aproximadamente al 500% en Photoshop, 0,9 es similar al 90 % y así sucesivamente).
+* **Cantidad** : controla la cantidad de contraste aplicado a los píxeles de borde. El valor predeterminado es 0,0. En las imágenes de alta resolución, puede aumentarse hasta 5,0. La cantidad equivaldría a la medida de la intensidad del filtro. La configuración **[!UICONTROL Amount]** de Adobe Dynamic Media Classic no es la misma que la configuración Cantidad de Adobe Photoshop. Adobe Photoshop utiliza una cantidad del rango del 1 % al 500 %, mientras que Adobe Dynamic Media Classic escala de 0,0 a 5,0. (5,0 equivale aproximadamente al 500% en Photoshop, 0,9 es similar al 90 % y así sucesivamente).
 
 * **Radio** : determina el número de píxeles que rodean los píxeles de borde que afectan al enfoque. El efecto se ejecuta en todos los píxeles de la imagen e irradia en todas las direcciones. 
 
@@ -101,7 +101,7 @@ Haga clic en el menú **[!UICONTROL Remuestreo]** y seleccione una opción. Esta
 
 **Enfoque y ajustes preestablecidos de imagen**
 
-Puede incorporar los tres efectos de nitidez para lograr su resultado final. Sin embargo, no se recomienda este método. Dynamic Media Classic recomienda guardar los efectos de enfoque como parte de un ajuste preestablecido de imagen. Los ajustes preestablecidos de imagen le permiten empaquetar los modificadores de imagen más utilizados para crear una imagen cuyo tamaño se ha cambiado dinámicamente en una pequeña cadena de texto. Un ajuste preestablecido de imagen contiene valores para el formato de archivo (normalmente JPEG para la Web), el recuento de píxeles y el enfoque de la imagen. En lugar de anexar la URL con cada modificador de imagen que debe utilizar para crear un tipo específico de tamaño de imagen, cree un ajuste preestablecido de imagen con nombre, como &quot;miniatura&quot;. A continuación, configure el ajuste preestablecido de imagen en miniatura con el tamaño, el formato de archivo y las opciones de nitidez adecuados. Llame a la imagen con el nombre del ajuste preestablecido de imagen. Los ajustes preestablecidos de imagen acortan la longitud de la dirección URL general. Estas dos direcciones URL producen la misma imagen JPEG de 350 x 350 con nitidez:
+Puede incorporar los tres efectos de nitidez para lograr su resultado final. Sin embargo, no se recomienda este método. Adobe Dynamic Media Classic recomienda guardar los efectos de enfoque como parte de un ajuste preestablecido de imagen. Los ajustes preestablecidos de imagen le permiten empaquetar los modificadores de imagen más utilizados para crear una imagen cuyo tamaño se ha cambiado dinámicamente en una pequeña cadena de texto. Un ajuste preestablecido de imagen contiene valores para el formato de archivo (normalmente JPEG para la Web), el recuento de píxeles y el enfoque de la imagen. En lugar de anexar la URL con cada modificador de imagen que debe utilizar para crear un tipo específico de tamaño de imagen, cree un ajuste preestablecido de imagen con nombre, como &quot;miniatura&quot;. A continuación, configure el ajuste preestablecido de imagen en miniatura con el tamaño, el formato de archivo y las opciones de nitidez adecuados. Llame a la imagen con el nombre del ajuste preestablecido de imagen. Los ajustes preestablecidos de imagen acortan la longitud de la dirección URL general. Estas dos direcciones URL producen la misma imagen JPEG de 350 x 350 con nitidez:
 
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?wid=350&hei=350&fmt=jpeg&qlt=85,0&resMode=sharp2&op_usm=0.9,1.0,8,0`
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?$!_s7product$`
@@ -144,4 +144,4 @@ El ajuste preestablecido enfoca y cambia la apariencia predeterminada del visor.
 
 El último método de enfoque (y el menos recomendado) consiste en crear anulaciones de enfoque imagen por imagen. Este método anula el enfoque en un ajuste preestablecido de imagen con sus propios valores específicos. Sin embargo, este método también anula todos los demás métodos de nitidez a cualquier tamaño. El mejor caso de uso de este método es si algunas de las imágenes no son de alta resolución y los valores de los ajustes preestablecidos de imagen son demasiado altos para estas imágenes pequeñas. En este caso, es posible que se necesite un cierto enfoque por imagen.
 
-En Dynamic Media Classic, seleccione cualquier imagen, vaya a la Vista de detalles (haciendo doble clic o pulsando el botón **[!UICONTROL Vista de detalles]**) y haga clic en **[!UICONTROL Enfocar]**. Cambie cualquier parámetro y haga clic en **[!UICONTROL Guardar]**. Este proceso indica al servidor de imágenes que utilice estos parámetros de nitidez en lugar de cualquier comando al que llame en la URL, como un modificador de nitidez o un ajuste preestablecido de imagen. Asegúrese de publicar para ver que los cambios surten efecto.
+En Adobe Dynamic Media Classic, seleccione cualquier imagen, vaya a la Vista de detalles (haciendo doble clic o pulsando el botón **[!UICONTROL Vista de detalles]**) y haga clic en **[!UICONTROL Enfocar]**. Cambie cualquier parámetro y haga clic en **[!UICONTROL Guardar]**. Este proceso indica al servidor de imágenes que utilice estos parámetros de nitidez en lugar de cualquier comando al que llame en la URL, como un modificador de nitidez o un ajuste preestablecido de imagen. Asegúrese de publicar para ver que los cambios surten efecto.

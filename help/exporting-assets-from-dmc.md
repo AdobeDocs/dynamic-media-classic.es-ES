@@ -1,6 +1,6 @@
 ---
-title: Exportación de recursos desde Dynamic Media Classic
-description: Obtenga información sobre cómo exportar recursos desde Dynamic Media Classic.
+title: Exportar recursos de Adobe Dynamic Media Classic
+description: Obtenga información sobre cómo exportar recursos desde Adobe Dynamic Media Classic.
 uuid: d42b7a73-80c0-4a9a-a04e-7ef53e6fcf22
 contentOwner: admin
 content-type: reference
@@ -10,22 +10,22 @@ discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
-source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '431'
 ht-degree: 52%
 
 ---
 
-# Exportación de recursos desde Dynamic Media Classic{#exporting-assets-from-dmc}
+# Exportar recursos de Adobe Dynamic Media Classic{#exporting-assets-from-dmc}
 
-Puede guardar los recursos que haya editado en Dynamic Media Classic en una unidad de red local. Los recursos exportados se incluyen en un archivo ZIP que se puede descargar o enviar por correo electrónico.
+Puede guardar los recursos que haya editado en Adobe Dynamic Media Classic en una unidad de red local. Los recursos exportados se incluyen en un archivo ZIP que se puede descargar o enviar por correo electrónico.
 
 El archivo ZIP comprimido tiene un tamaño máximo de 1 GB para el trabajo de exportación. Además, se le permite un máximo de 500 activos totales por trabajo de exportación.
 
-Dynamic Media Classic lleva un registro de los trabajos de exportación en la pantalla Trabajos .
+Adobe Dynamic Media Classic mantiene un registro de los trabajos de exportación en la pantalla Trabajos .
 
-**Para exportar recursos desde Dynamic Media Classic:**
+**Para exportar recursos desde Adobe Dynamic Media Classic:**
 
 1. Seleccione los recursos que desea exportar y, a continuación, vaya a **[!UICONTROL File]** > **[!UICONTROL Export]**.
 1. En la ventana Exportar recursos seleccionados, haga clic en **[!UICONTROL Opciones de imagen]** y especifique cualquiera de las siguientes opciones (los administradores determinan las opciones que están disponibles para los usuarios):

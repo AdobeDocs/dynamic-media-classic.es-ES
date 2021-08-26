@@ -1,6 +1,6 @@
 ---
-title: Vinculación de direcciones URL al sitio web
-description: Aprenda a vincular direcciones URL a la aplicación web.
+title: Vincular URL a la aplicación web
+description: Obtenga información sobre cómo vincular direcciones URL a la aplicación web desde Adobe Dynamic Media Classic.
 uuid: 1179bdd3-9b39-47f9-945d-1c1ca186bf96
 contentOwner: admin
 content-type: reference
@@ -10,20 +10,20 @@ discoiquuid: 71299640-676d-49b7-841d-6118f31044e8
 feature: Dynamic Media Classic
 role: User
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 53%
+source-wordcount: '843'
+ht-degree: 37%
 
 ---
 
-# Vinculación de direcciones URL al sitio web{#linking-urls-to-your-web-application}
+# Vincular URL a la aplicación web{#linking-urls-to-your-web-application}
 
-Los sitios web y las aplicaciones acceden al contenido de Dynamic Media Image Server a través de cadenas URL. Después de publicar una imagen, Dynamic Media Classic activa una cadena URL que hace referencia al ajuste preestablecido de imagen en los servidores de imágenes de Dynamic Media. Puede probar el funcionamiento de estas cadenas URL pegándolas en un explorador web.
+Los sitios web y las aplicaciones acceden al contenido de Dynamic Media Image Server a través de cadenas URL. Después de publicar una imagen, Adobe Dynamic Media Classic activa una cadena URL que hace referencia al ajuste preestablecido de imagen en los servidores de imágenes de Dynamic Media. Puede probar el funcionamiento de estas cadenas URL pegándolas en un explorador web.
 
-Para colocar estas cadenas URL en sus páginas web y aplicaciones, cópielas desde Dynamic Media Classic. Para obtener una cadena URL generada con un ajuste preestablecido de imagen, abra la pantalla Vista previa o el panel Examinar (en vista de detalles).
+Para colocar estas cadenas URL en sus páginas web y aplicaciones, cópielas desde Adobe Dynamic Media Classic. Para obtener una cadena URL generada con un ajuste preestablecido de imagen, vaya a la pantalla Vista previa o al panel Examinar (en la vista de detalles).
 
-## Obtención de una URL de ajuste preestablecido de imagen {#obtaining-an-image-preset-url}
+## Obtener una URL de ajuste preestablecido de imagen {#obtaining-an-image-preset-url}
 
 Puede obtener una cadena URL generada por un ajuste preestablecido de imagen en la Vista previa o en Vista de detalles. Una vez copiada, la URL queda disponible en el portapapeles para que pueda pegarla cuando lo necesite.
 
@@ -31,26 +31,26 @@ Puede obtener una cadena URL generada por un ajuste preestablecido de imagen en 
 >
 >La URL no se activa hasta que publique el recurso.
 
-### Obtención de una URL de ajuste preestablecido de imagen desde Vista previa {#obtaining-an-image-preset-url-from-preview}
+### Obtener una URL de ajuste preestablecido de imagen de la vista previa {#obtaining-an-image-preset-url-from-preview}
 
 1. En el panel Biblioteca de recursos del lado izquierdo, navegue a las carpetas de recursos que contienen el recurso de imagen cuya vista previa desea obtener.
 1. Realice una de las acciones siguientes:
 
-   * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en **[!UICONTROL Vista de cuadrícula]**. En la ventana Recurso, seleccione un recurso de imagen única y, a continuación, debajo de la imagen en miniatura, haga clic en **[!UICONTROL Vista previa]** > **[!UICONTROL Lista de ajustes preestablecidos de imagen]**.
-   * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en **[!UICONTROL Vista de lista]**. En la ventana Recurso, seleccione un recurso de imagen única y, a continuación, a la derecha de la imagen en miniatura, haga clic en **[!UICONTROL Vista previa]** > **[!UICONTROL Lista de ajustes preestablecidos de imagen]**.
-   * Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en **[!UICONTROL Vista de detalles]**. En la misma barra de herramientas, haga clic en **[!UICONTROL Vista previa]** > **[!UICONTROL Lista de ajustes preestablecidos de imagen]**.
+   * Sobre la ventana Recursos, en el lado derecho de la barra de herramientas, seleccione **[!UICONTROL Vista de cuadrícula]**. En la ventana Recurso, seleccione un recurso de imagen única y, a continuación, debajo de la imagen en miniatura, vaya a **[!UICONTROL Vista previa]** > **[!UICONTROL Lista de ajustes preestablecidos de imagen]**.
+   * Sobre la ventana Recursos, en el lado derecho de la barra de herramientas, seleccione **[!UICONTROL Vista de lista]**. En la ventana Recurso, seleccione un recurso de imagen única y, a continuación, a la derecha de la imagen en miniatura, vaya a **[!UICONTROL Vista previa]** > **[!UICONTROL Lista de ajustes preestablecidos de imagen]**.
+   * Sobre la ventana Recursos, en la parte derecha de la barra de herramientas, seleccione **[!UICONTROL Vista de detalles]**. En la misma barra de herramientas, vaya a **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]**.
 
 1. (Opcional) En la Lista de ajustes preestablecidos de imagen, en la lista desplegable Codificación de URL para la generación de copias de URL , seleccione la codificación de URL que desee aplicar a la URL del recurso de imagen cuando se copie.
-1. En la ventana Lista de ajustes preestablecidos de imagen, en el área superior derecha del panel de vista previa, haga clic en **[!UICONTROL Copiar URL]** para el tipo de ajuste preestablecido seleccionado.
-1. En la esquina inferior derecha de la ventana Lista de ajustes preestablecidos de imagen, haga clic en **[!UICONTROL Cerrar]** para volver a la pantalla Recursos.
+1. En la ventana Lista de ajustes preestablecidos de imagen, en el área superior derecha del panel de vista previa, seleccione **[!UICONTROL Copiar URL]** para el tipo de ajuste preestablecido seleccionado.
+1. En la esquina inferior derecha de la ventana Lista de ajustes preestablecidos de imagen, seleccione **[!UICONTROL Cerrar]** para volver a la pantalla Recursos.
 
-### Obtención de una URL de ajustes preestablecidos de imagen desde el panel Examinar {#obtaining-an-image-preset-url-from-the-browse-panel}
+### Obtener una URL de ajuste preestablecido de imagen desde el panel Examinar {#obtaining-an-image-preset-url-from-the-browse-panel}
 
 1. En el panel Biblioteca de recursos del lado izquierdo, navegue a las carpetas de recursos que contienen el recurso de imagen cuya vista previa desea obtener.
-1. Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en **[!UICONTROL Vista de cuadrícula]**. En la ventana Recurso, seleccione un único recurso de imagen.
-1. Por encima de la ventana Recursos, en la parte derecha de la barra de herramientas, haga clic en **[!UICONTROL Vista de detalles]**.
-1. Haga clic en **[!UICONTROL URL]** en el panel de la derecha de la pantalla para desplegar la lista de ajustes preestablecidos de imagen.
-1. Haga clic en el enlace **[!UICONTROL Copiar URL]** junto al nombre del ajuste preestablecido de imagen con la URL que desea copiar en el portapapeles.
+1. Sobre la ventana Recursos, en el lado derecho de la barra de herramientas, seleccione **[!UICONTROL Vista de cuadrícula]**. En la ventana Recurso, seleccione un único recurso de imagen.
+1. Sobre la ventana Recursos, en la parte derecha de la barra de herramientas, seleccione **[!UICONTROL Vista de detalles]**.
+1. Seleccione **[!UICONTROL URLs]** en el panel de la derecha de la pantalla para poder desplegar la lista de ajustes preestablecidos de imagen.
+1. Seleccione el enlace **[!UICONTROL Copiar URL]** junto al nombre del ajuste preestablecido de imagen con la URL que desea copiar en el portapapeles.
 
 ## Acerca de las cadenas URL de ajustes preestablecidos de imagen {#about-image-preset-url-strings}
 
@@ -78,9 +78,9 @@ https://s7d1.scene7.com/is/image/S7learn/backpack?$Large$
 
 Los nombres de ajuste preestablecido de imagen en direcciones URL se incluyen entre signos de dólar ($). Cuando un servidor de imágenes de Dynamic Media encuentra la parte de ajuste preestablecido de imagen de la URL (el `Large` en este caso), utilizando las instrucciones de tamaño y formato definidas por el ajuste preestablecido de imagen &quot;Grande&quot;.
 
-## Adición de imágenes dinámicas a la página web {#adding-dynamic-images-to-your-web-page}
+## Añadir imágenes dinámicas a la página web {#adding-dynamic-images-to-your-web-page}
 
-Para añadir imágenes dinámicas a la página web, la etiqueta `<IMG>` del código de la página web HTML se suele modificar utilizando la cadena URL de Dynamic Media Classic para realizar una solicitud a los servidores de imágenes de Dynamic Media. Esta cadena produce una imagen con las especificaciones de formato y tamaño definidas por el ajuste preestablecido de imagen.
+Para añadir imágenes dinámicas a la página web, la etiqueta `<IMG>` del código de la página web HTML se modifica normalmente con la cadena URL de Adobe Dynamic Media Classic para realizar una solicitud a los servidores de imágenes de Dynamic Media. Esta cadena produce una imagen con las especificaciones de formato y tamaño definidas por el ajuste preestablecido de imagen.
 
 Por ejemplo, en lugar de la típica llamada para abrir una imagen estática:
 
@@ -88,7 +88,7 @@ Por ejemplo, en lugar de la típica llamada para abrir una imagen estática:
 img src="/company_images/products/backpack_thumbnail.jpg"
 ```
 
-Ahora, se utiliza la etiqueta `<IMG>`para reemplazar la referencia a una imagen estática por una llamada de ajuste preestablecido de imagen a la plataforma de Dynamic Media Classic. Ejemplo de llamada:
+Ahora, se utiliza la etiqueta `<IMG>`para reemplazar la referencia a una imagen estática por una llamada de ajuste preestablecido de imagen a la plataforma Dynamic Media Classic de Adobe. Ejemplo de llamada:
 
 ```as3
 img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$”

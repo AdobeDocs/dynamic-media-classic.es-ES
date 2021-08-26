@@ -1,26 +1,24 @@
 ---
-title: Ayuda de Dynamic Media Classic
-seo-title: Adobe Dynamic Media Classic
-description: Información general de Dynamic Media Classic
-seo-description: Dynamic Media Classic overview
+title: Ayuda de Adobe Dynamic Media Classic
+description: Información general sobre Adobe Dynamic Media Classic
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7bf94d8c-23ff-4a43-83cc-7e6879a7cded
-source-git-commit: bb387446f294cf1e90d26ae1df4422879ad29db7
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 32%
+source-wordcount: '244'
+ht-degree: 33%
 
 ---
 
-# Ayuda de Dynamic Media Classic {#scene7-overview}
+# Ayuda de Adobe Dynamic Media Classic {#scene7-overview}
 
-Le damos la bienvenida a Adobe Dynamic Media Classic, el sistema líder de publicación multimedios bajo demanda para cargar, administrar, mejorar y publicar contenido enriquecido dinámico a todos los dispositivos y pantallas. Entre las soluciones de Adobe de Dynamic Media Classic se incluyen las siguientes:
+Bienvenido al Adobe de Adobe Dynamic Media Classic, el sistema líder de publicación multimedios bajo demanda para cargar, administrar, mejorar y publicar contenido enriquecido dinámico en todos los dispositivos y pantallas. Entre las soluciones de Adobe de Dynamic Media Classic se incluyen las siguientes:
 
 * Imágenes dinámicas: edición en tiempo real, con cambio de formatos y tamaños, zoom y desplazamiento interactivo, muestras de colores y texturas, giros de 360º, plantillas de imágenes y visores multimedia.
 * Catálogos electrónicos: Creación, vinculación de zonas interactivas, búsqueda habilitada, publicación y entrega de catálogos en línea suministrados dinámicamente en visualizadores configurables.
-* Media Portal: Entorno de autoservicio que proporciona a los usuarios del portal &quot;vistas&quot; controladas por el administrador de los recursos de Dynamic Media Classic para facilitar el acceso a la carga, navegación, búsqueda, vista previa y exportación de recursos.
+* Media Portal: Entorno de autoservicio que proporciona a los usuarios del portal &quot;vistas&quot; controladas por el administrador de los recursos de Adobe Dynamic Media Classic para facilitar el acceso a la carga, navegación, búsqueda, vista previa y exportación de recursos.
 * eVideo: Cargue vídeos finales en cualquier formato, administre, edite, cree zonas interactivas y plantillas de vídeo, publique y transmita en visualizadores de vídeo configurables
 * Configuradores visuales: tecnología de procesamiento en tiempo real para poder hacer configuraciones visuales en línea y personalizar efectos. Por ejemplo, procesar en tiempo real texturas y colores, superficies, motivos, monogramas y grabados en escenas o en imágenes de productos.
 * Impresión y correo electrónico de destino: distribución de campañas de correo electrónico personalizadas visualmente, vinculadas a perfiles de cliente, a productos y a bases de datos de canales.
@@ -28,10 +26,10 @@ Le damos la bienvenida a Adobe Dynamic Media Classic, el sistema líder de publi
 ## Recursos clave
 
 * [Introducción y descripción general](/help/dmc-platform-overview.md)
-* [Inicio rápido: Ecatalog](/help/quick-start-ecatalog.md)
+* [Inicio rápido: Catálogo electrónico](/help/quick-start-ecatalog.md)
 * [Inicio rápido: Conjuntos de imágenes](/help/quick-start-image-sets.md)
 * [Inicio rápido: Tamaño de imagen](/help/quick-start-image-sizing.md)
-* [Inicio rápido: Integración de Dynamic Media Classic Analytics](/help/quick-start-integrating-dmc-analytics.md)
+* [Inicio rápido: Integración de Adobe Dynamic Media Classic Analytics](/help/quick-start-integrating-dmc-analytics.md)
 * [Inicio rápido: Portal de medios](/help/quick-start-media-portal-administration.md)
 * [Inicio rápido: Conjuntos de medios mixtos](/help/quick-start-mixed-media-sets.md)
 * [Inicio rápido: Conjuntos de giros](/help/quick-start-spin-sets.md)

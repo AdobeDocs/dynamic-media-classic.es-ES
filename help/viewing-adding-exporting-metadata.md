@@ -7,29 +7,29 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
-feature: Dynamic Media Classic,Administración de recursos,Metadatos
+feature: Dynamic Media Classic,Asset Management,Metadata
 role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '2254'
-ht-degree: 49%
+source-wordcount: '2268'
+ht-degree: 48%
 
 ---
 
 # Visualización, adición y exportación de metadatos{#viewing-adding-and-exporting-metadata}
 
-Puede almacenar información específica de los archivos con los que trabaja en Dynamic Media Classic; esta información se denomina *metadata*. Puede utilizar metadatos en Dynamic Media Classic para organizar, buscar, filtrar y ordenar sus recursos.
+Puede almacenar información específica de los archivos con los que trabaja en Adobe Dynamic Media Classic; esta información se denomina *metadata*. Puede utilizar metadatos en Adobe Dynamic Media Classic para organizar, buscar, filtrar y ordenar sus recursos.
 
-Los metadatos aparecen en la Vista de detalles junto con la información generada por Dynamic Media Classic, como la fecha de creación del archivo, la fecha de publicación y las palabras clave. Para ver los metadatos, abra el recurso en la vista de detalles y, a continuación, seleccione el panel Metadatos . Puede introducir y editar metadatos en la vista de detalles.
+Los metadatos aparecen en la Vista de detalles junto con la información generada por Dynamic Media Classic de Adobe, como la fecha de creación del archivo, la fecha de publicación y las palabras clave. Para ver los metadatos, abra el recurso en la Vista de detalles y, a continuación, seleccione el panel Metadatos . Puede introducir y editar metadatos en la vista de detalles.
 
-Algunos metadatos están incrustados directamente en un archivo. Si un archivo contiene estos metadatos, Dynamic Media Classic los carga automáticamente con el archivo . Puede incrustar metadatos en recursos de origen en Adobe Photoshop, InDesign, Illustrator y otras aplicaciones. Dynamic Media Classic reconoce estos metadatos. También puede añadir metadatos a archivos individuales en el panel de metadatos, en la vista de detalles. Para mantener la coherencia entre los recursos, los administradores de empresa pueden crear plantillas de metadatos que proporcionen los campos de metadatos que se pueden rellenar.
+Algunos metadatos están incrustados directamente en un archivo. Si un archivo contiene estos metadatos, Adobe Dynamic Media Classic los carga automáticamente con el archivo . Puede incrustar metadatos en recursos de origen en Adobe Photoshop, InDesign, Illustrator y otras aplicaciones. Adobe Dynamic Media Classic reconoce estos metadatos. También puede agregar metadatos a archivos individuales en el panel Metadatos de la Vista de detalles. Para mantener la coherencia entre los recursos, los administradores de empresa pueden crear plantillas de metadatos que proporcionen los campos de metadatos que se pueden rellenar.
 
 Para obtener más información sobre los metadatos incrustados, consulte [www.adobe.com/go/learn_s7_xmp_en](https://www.adobe.com/go/learn_s7_xmp_en).
 
 ## Visualización de metadatos {#view-metadata}
 
-Para ver los metadatos de un recurso, abra el recurso en la vista de detalles y pulse el panel Metadatos . Para seleccionar un conjunto de campos de metadatos, elija una opción en el menú Vista de metadatos. Dynamic Media Classic ofrece estas vistas de metadatos:
+Para ver los metadatos de un recurso, ábralo en la Vista de detalles y pulse el panel Metadatos . Para seleccionar un conjunto de campos de metadatos, elija una opción en el menú Vista de metadatos. Adobe Dynamic Media Classic ofrece estas vistas de metadatos:
 
 * **Vista compacta** : una lista básica de valores.
 
@@ -43,7 +43,7 @@ Consulte [Vistas de metadatos](application-setup.md#metadata_views) para obtener
 
 ## Introducción manual de metadatos para un recurso {#manually-enter-metadata-for-an-asset}
 
-1. Abra el recurso en la vista de detalles.
+1. Abra el recurso en la Vista de detalles.
 1. Abra el panel Metadatos y realice una de estas acciones o ambas:
 
    * Elija una vista de metadatos para determinar qué campos de metadatos aparecen en el panel.
@@ -72,7 +72,7 @@ Si ha agregado palabras clave a otros archivos durante esta sesión o si ha elim
 
 >[!NOTE]
 >
->Puede agregar palabras clave a los archivos al cargarlos en Dynamic Media Classic. En el cuadro de diálogo Opciones de carga de trabajo, seleccione **[!UICONTROL Metadatos adicionales]** e introduzca palabras clave.
+>Puede agregar palabras clave a los archivos al cargarlos en Adobe Dynamic Media Classic. En el cuadro de diálogo Opciones de carga de trabajo, seleccione **[!UICONTROL Metadatos adicionales]** e introduzca palabras clave.
 >Consulte [Opciones de carga](uploading-files.md#upload_options).
 
 ## Importación de metadatos {#import-metadata}
@@ -81,7 +81,7 @@ En lugar de introducir los metadatos manualmente de uno en uno, puede importar l
 
 >[!NOTE]
 >
->Puede crear una plantilla para introducir metadatos de modo que se pueda importar correctamente a Dynamic Media Classic. Una vez creada la plantilla, puede utilizarla para introducir los metadatos.
+>Puede crear una plantilla para introducir metadatos de modo que se pueda importar correctamente a Adobe Dynamic Media Classic. Una vez creada la plantilla, puede utilizarla para introducir los metadatos.
 >Consulte [Creación de una plantilla para la introducción y carga de metadatos](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload).
 
 Puede encontrar más información sobre las propiedades estandarizadas en [Adobe XMP Developer Center](https://www.adobe.com/devnet/xmp.html).
@@ -135,9 +135,9 @@ En la barra de navegación global, haga clic en **[!UICONTROL Cargar]**. Para im
 
 ## Cambio de nombre de ID por lotes con metadatos {#batch-rename-ids-using-metadata}
 
-Con los metadatos importados desde un archivo delimitado por tabuladores o un archivo XML, puede cambiar el nombre de los Dynamic Media ID Classic. Los metadatos importados solo se aplican a las imágenes que se especifican en el archivo de metadatos. No importa si las imágenes están seleccionadas en el panel Examinar.
+Con los metadatos importados desde un archivo delimitado por tabuladores o un archivo XML, puede cambiar el nombre de los ID de Dynamic Media Classic de Adobe. Los metadatos importados solo se aplican a las imágenes que se especifican en el archivo de metadatos. No importa si las imágenes están seleccionadas en el panel Examinar.
 
-Para cambiar el nombre del Dynamic Media Classic ID de una imagen, añada una columna etiquetada como *newipsid* al archivo delimitado por tabuladores o agregue un campo denominado `new_vc_objectname` a los datos XML.
+Para cambiar el nombre del Adobe de una imagen con Dynamic Media Classic ID, agregue una columna con la etiqueta *newipsid* al archivo delimitado por tabuladores o agregue un campo denominado `new_vc_objectname` a los datos XML.
 
 Por ejemplo:
 
@@ -150,7 +150,7 @@ El registro de trabajos del trabajo de metadatos muestra qué ID se renombraron 
 
 ## Creación de una plantilla para la introducción y carga de metadatos {#create-a-template-for-entering-metadata-to-upload}
 
-Dynamic Media Classic ofrece un comando para crear una plantilla para registrar metadatos. El uso de la plantilla garantiza que los metadatos se introducen en el formato correcto para que se puedan cargar correctamente en Dynamic Media Classic. Para crear una plantilla y utilizarla en la grabación e importación de metadatos en Dynamic Media Classic, siga estos pasos:
+Adobe Dynamic Media Classic ofrece un comando para crear una plantilla para registrar metadatos. El uso de la plantilla garantiza que los metadatos se introducen en el formato correcto para que se puedan cargar correctamente en Adobe Dynamic Media Classic. Para crear una plantilla y utilizarla en la grabación e importación de metadatos en Adobe Dynamic Media Classic, siga estos pasos:
 
 1. Seleccione recursos de imagen con los campos de metadatos que desee incluir en la plantilla.
 1. Haga clic en **[!UICONTROL Archivo]** > **[!UICONTROL Importar metadatos]**.
@@ -181,15 +181,15 @@ El sistema genera automáticamente un esquema personalizado para los campos defi
 
 >[!NOTE]
 >
->Los cambios en el esquema nunca cambian los metadatos del recurso. Sin embargo, no son visibles para todas las funciones de Dynamic Media Classic y del servidor de metadatos y no se puede acceder a ellas después de cambiarlas. Del mismo modo, si existen metadatos para un recurso, la creación del esquema coincidente hace que los metadatos se puedan utilizar en Dynamic Media Classic y en el servidor de metadatos.
+>Los cambios en el esquema nunca cambian los metadatos del recurso. Sin embargo, no son visibles para todas las funciones de Adobe Dynamic Media Classic y del servidor de metadatos y no se puede acceder a ellas después de cambiar. Del mismo modo, si existen metadatos para un recurso, la creación del esquema coincidente hace que los metadatos se puedan utilizar en Adobe Dynamic Media Classic y en el servidor de metadatos.
 
-El Editor de esquemas de metadatos ofrece una forma gráfica de agregar o editar un esquema de empresa personalizado dentro de Dynamic Media Classic. Un esquema se define por un prefijo, un espacio de nombre y una lista de propiedades.
+El Editor de esquemas de metadatos ofrece una forma gráfica de agregar o editar un esquema de empresa personalizado dentro de Adobe Dynamic Media Classic. Un esquema se define por un prefijo, un espacio de nombre y una lista de propiedades.
 
 * **Nombre** : IU-Name para el esquema. Se utiliza para identificar las propiedades en las vistas de metadatos y la búsqueda avanzada. Similar a las secciones XMP como Basic, IPTC, PDF.
 
-* **Prefijo** : identificador único técnico para el esquema. Limitado a las letras a-z y A-Z. El prefijo no está visible en la interfaz de usuario de Dynamic Media Classic, pero se utiliza cuando los metadatos de un recurso se almacenan en el bloque XMP y en la base de datos. El prefijo se usa para identificar de forma exclusiva los campos de metadatos en las consultas de búsqueda de metadatos en el servidor de metadatos o durante la importación.
+* **Prefijo** : identificador único técnico para el esquema. Limitado a las letras a-z y A-Z. El prefijo no está visible en la interfaz de usuario de Dynamic Media Classic de Adobe, pero se utiliza cuando los metadatos de un recurso se almacenan en el bloque XMP y en la base de datos. El prefijo se usa para identificar de forma exclusiva los campos de metadatos en las consultas de búsqueda de metadatos en el servidor de metadatos o durante la importación.
 
-* **Área de nombres** : identificador único técnico para el esquema, normalmente una URL en el formulario  `https://your.company.com/name/version/`. Consulte ejemplos en la lista de esquemas de estándares. El espacio de nombres no está visible en la interfaz de usuario de Dynamic Media Classic, pero se utiliza para almacenar metadatos en el bloque XMP.
+* **Área de nombres** : identificador único técnico para el esquema, normalmente una URL en el formulario  `https://your.company.com/name/version/`. Consulte ejemplos en la lista de esquemas de estándares. El espacio de nombres no está visible en la interfaz de usuario de Dynamic Media Classic de Adobe, pero se utiliza para almacenar metadatos en el bloque XMP.
 
 * **Descripción** : Descripción del esquema de forma libre.
 
@@ -201,7 +201,7 @@ Las propiedades describen los metadatos que se pueden almacenar con este esquema
 
 | Propiedad | Descripción |
 |--- |--- |
-| ID | Identificador técnico para esta propiedad. El ID no está visible en la interfaz de usuario de Dynamic Media Classic, pero se utiliza cuando los metadatos de un recurso se almacenan en el bloque XMP y en la base de datos. Este código se utiliza para crear consultas de búsqueda en el servidor de metadatos. El ID tiene algunas limitaciones, por ejemplo: <ul><li>No puede contener espacios</li><li>No &quot;.&quot;, &quot;:&quot;, &quot;$&quot;</li><li>No puede contener un número como primer carácter</li><li>Lo mejor es utilizar una letra de a-z o A-Z como primer carácter</li></ul> <br>Una vez creado, el ID no se puede modificar. |
+| ID | Identificador técnico para esta propiedad. El ID no está visible en la interfaz de usuario de Dynamic Media Classic de Adobe, pero se utiliza cuando los metadatos de un recurso se almacenan en el bloque XMP y en la base de datos. Este código se utiliza para crear consultas de búsqueda en el servidor de metadatos. El ID tiene algunas limitaciones, por ejemplo: <ul><li>No puede contener espacios</li><li>No &quot;.&quot;, &quot;:&quot;, &quot;$&quot;</li><li>No puede contener un número como primer carácter</li><li>Lo mejor es utilizar una letra de a-z o A-Z como primer carácter</li></ul> <br>Una vez creado, el ID no se puede modificar. |
 | Etiqueta | Nombre de interfaz de usuario para esta propiedad. |
 | Estructura | Determina el tipo de la propiedad junto con el tipo de datos. La estructura puede ser uno de los siguientes valores:<ul><li>Tipo simple: solo el valor del tipo de datos.</li><li>Secuencia: una lista de valores del mismo tipo de datos.</li><li>Opción abierta: seleccione un elemento de la lista de valores predefinidos, o introduzca texto libre. El tipo de datos solo puede ser Cadena o Entero.</li><li>Opción cerrada: seleccione un elemento de la lista de valores predefinidos (una ventana emergente o un cuadro combinado).</li></ul> |
 | Tipo de datos | Seleccione uno de estos tipos disponibles: <ul><li>Cadena</li><li>Entero</li><li>Flotante</li><li>Sí/No (booleano)</li><li>Fecha</li></ul> |
@@ -210,11 +210,11 @@ Si la propiedad tiene la estructura Opción abierta u Opción cerrada, debe prop
 
 | Propiedad | Descripción |
 |--- |--- |
-| ID | Identificador técnico para este valor. El ID no está visible en la interfaz de usuario de Dynamic Media Classic, pero se utiliza cuando los metadatos de un recurso se almacenan en el bloque XMP y en la base de datos. Este ID se utiliza en las consultas de búsquedas del servidor de metadatos. El ID no puede contener espacios. Una vez creado, el ID no se puede modificar. |
+| ID | Identificador técnico para este valor. El ID no está visible en la interfaz de usuario de Dynamic Media Classic de Adobe, pero se utiliza cuando los metadatos de un recurso se almacenan en el bloque XMP y en la base de datos. Este ID se utiliza en las consultas de búsquedas del servidor de metadatos. El ID no puede contener espacios. Una vez creado, el ID no se puede modificar. |
 | Etiqueta | Nombre de interfaz de usuario para este valor. |
 
 >[!MORELIKETHIS]
 >
 >* [Ajustes preestablecidos de visor](application-setup.md#viewer_presets)
-* [Ajustes preestablecidos de metadatos](application-setup.md#metadata_presets)
+>* [Ajustes preestablecidos de metadatos](application-setup.md#metadata_presets)
 

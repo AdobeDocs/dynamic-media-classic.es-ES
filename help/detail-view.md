@@ -1,6 +1,6 @@
 ---
 title: Trabajar en la Vista de detalles
-description: Aprenda a trabajar en la Vista de detalles en Dynamic Media Classic.
+description: Aprenda a trabajar en la Vista de detalles en Adobe Dynamic Media Classic.
 uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
-source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '615'
 ht-degree: 25%
 
 ---
@@ -44,7 +44,7 @@ Para examinar, previsualizar o trabajar de cerca un recurso, puede mostrarlo en 
 
 1. En el panel Examinar, realice una de las acciones siguientes:
 
-   * Seleccione el recurso. Cerca de la esquina superior derecha de Dynamic Media Classic, seleccione el icono **[!UICONTROL Vista de detalles]** .
+   * Seleccione el recurso. Cerca de la esquina superior derecha del Adobe Dynamic Media Classic, seleccione el icono **[!UICONTROL Vista de detalles]** .
    * Haga doble clic en el recurso.
    * Seleccione el recurso y vaya a **[!UICONTROL File]** > **[!UICONTROL Details]**.
 
@@ -54,7 +54,7 @@ Para examinar, previsualizar o trabajar de cerca un recurso, puede mostrarlo en 
 
 ## Obtener información en la Vista de detalles {#getting-information-in-detail-view}
 
-La Vista de detalles proporciona información sobre un recurso o archivo. Muestra esta información sobre un elemento: la carpeta en la que se almacena, su nombre de archivo, la fecha en la que se cargó el elemento en Dynamic Media Classic y su historial de publicación. También puede ver y editar metadatos y agregar palabras clave para un recurso en la Vista de detalles.
+La Vista de detalles proporciona información sobre un recurso o archivo. Muestra esta información sobre un elemento: la carpeta en la que se almacena, su nombre de archivo, la fecha en la que se cargó el elemento en Adobe Dynamic Media Classic y su historial de publicación. También puede ver y editar metadatos y agregar palabras clave para un recurso en la Vista de detalles.
 
 Puede obtener una URL de recurso en la Vista de detalles; sin embargo, la dirección URL no estará activa hasta que publique el recurso. En el caso de las imágenes, la Vista de detalles también proporciona una lista de recursos y metadatos generados y derivados, como destinos de zoom y conjuntos de imágenes.
 

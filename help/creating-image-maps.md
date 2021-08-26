@@ -1,6 +1,6 @@
 ---
 title: Crear mapas de imagen
-description: Aprenda a crear mapas de imágenes en Dynamic Media Classic.
+description: Aprenda a crear mapas de imágenes en Adobe Dynamic Media Classic.
 uuid: 0dcc4956-006e-4a74-9d6a-6d4bb23790ce
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '2408'
+source-wordcount: '2422'
 ht-degree: 52%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 52%
 
 Un mapa de imagen es una zona de una imagen, una página del catálogo electrónico o una imagen del Conjunto de giros, que muestra un panel de rollover con texto. Cuando el usuario selecciona un mapa de imagen, se activa una acción de algún tipo. Por ejemplo, se abre una página web para que el usuario pueda obtener más información sobre un producto. Un contorno aparece alrededor de un mapa de imagen cuando el usuario mueve el puntero sobre él.
 
-Además de la capacidad de crear mapas de imágenes en Dynamic Media Classic, también puede crear mapas de imágenes al diseñar un catálogo en Adobe Acrobat o Adobe InDesign.
+Además de la capacidad de crear mapas de imágenes en Adobe Dynamic Media Classic, también puede crear mapas de imágenes al diseñar un catálogo en Adobe Acrobat o Adobe InDesign.
 
 Al crear mapas de imagen, puede realizar cualquiera de las siguientes acciones:
 
@@ -50,9 +50,9 @@ Al crear mapas de imagen, puede realizar cualquiera de las siguientes acciones:
 
    * **Mapa poligonal** : seleccione la herramienta Mapa de imagen poligonal y seleccione puntos en el perímetro del área de la imagen que desea encerrar. Use el control deslizante de densidad del polígono para modificar la densidad de punto del polígono. Se recuerda la densidad original al seleccionar otros mapas. Si se añade, elimina o mueve cualquier punto del polígono, se pierde la densidad original y se restablece el valor máximo del control deslizante.
 
-1. Si lo desea, asigne un nombre al mapa de imagen en la lista de mapas de imagen. Después de dibujar un mapa de imagen, Dynamic Media Classic le asigna un nombre.
+1. Si lo desea, asigne un nombre al mapa de imagen en la lista de mapas de imagen. Después de dibujar un mapa de imagen, Adobe Dynamic Media Classic le asigna un nombre.
 
-   Para crear el nombre, Dynamic Media Classic añade un número secuencial al nombre de la imagen o página de catálogo electrónico con la que está trabajando. Puede introducir el nombre que desee.
+   Para crear el nombre, Adobe Dynamic Media Classic añade un número secuencial al nombre de la imagen o página de catálogo electrónico con la que está trabajando. Puede introducir el nombre que desee.
 
 1. Si desea que los usuarios abran una nueva página web cuando seleccionen el mapa de imagen, introduzca la URL en la lista Mapa de imagen.
 
@@ -126,7 +126,7 @@ Por ejemplo, copiar mapas de imagen en un catálogo electrónico es una forma c�
 
 ## Uso de una plantilla para introducir JavaScript y direcciones URL {#using-a-template-to-enter-javascript-and-urls}
 
-Puede definir una plantilla URL (conocida también como plantilla Href) para introducir direcciones URL de mapa de imagen con mayor facilidad y eficiencia. Defina una plantilla URL si la mayoría de las URL de mapa de imagen comparten un formato común, fijo. Al introducir la parte de la URL que es fija como plantilla de URL, no tiene que introducir esta parte de la URL cada vez que cree un mapa de imagen. La plantilla URL también puede contener comandos JavaScript, nombres de ruta y parámetros. De forma predeterminada, la plantilla URL contiene un controlador JavaScript Dynamic Media Classic propietario llamado `loadProduct` que abre la imagen en una nueva ventana.
+Puede definir una plantilla URL (conocida también como plantilla Href) para introducir direcciones URL de mapa de imagen con mayor facilidad y eficiencia. Defina una plantilla URL si la mayoría de las URL de mapa de imagen comparten un formato común, fijo. Al introducir la parte de la URL que es fija como plantilla de URL, no tiene que introducir esta parte de la URL cada vez que cree un mapa de imagen. La plantilla URL también puede contener comandos JavaScript, nombres de ruta y parámetros. De forma predeterminada, la plantilla URL contiene un controlador JavaScript Dynamic Media Classic de Adobe propietario llamado `loadProduct` que abre la imagen en una nueva ventana.
 
 >[!NOTE]
 >
@@ -146,7 +146,7 @@ Se colocan todos los valores que no cambian entre los mapas de imagen en la plan
 * Valor de URL - `product.htm`
 * URL real generada: `javascript:loadProduct(‘https://www.examplesitehere.com/product.html);void(0);`
 
-De forma predeterminada, la plantilla URL incluye un controlador JavaScript Dynamic Media Classic propietario llamado `loadProduct` que abre una nueva ventana con el destino URL. Sin embargo, puede utilizar cualquier código JavaScript para reemplazar este controlador JavaScript o utilizar uno de los siguientes controladores de Dynamic Media Classic:
+De forma predeterminada, la plantilla URL incluye un controlador JavaScript Dynamic Media Classic de Adobe propietario llamado `loadProduct` que abre una nueva ventana con el destino URL. Sin embargo, puede utilizar cualquier código JavaScript para reemplazar este controlador JavaScript o utilizar uno de los siguientes controladores de Adobe Dynamic Media Classic:
 
 * `loadProductCW` - muestra el destino URL especificado en la columna URL en la ventana activa. Este controlador es fundamentalmente para catálogos electrónicos que se integran en una página dentro de un sitio Web.
 
@@ -192,7 +192,7 @@ Seleccione el menú **[!UICONTROL Mostrar]** y seleccione **[!UICONTROL Ambos]**
 
 Puede crear mapas de imagen mientras diseña su catálogo electrónico en Adobe Acrobat o en Adobe InDesign.
 
-En Acrobat o InDesign, cree referencias de hipervínculo donde desee que aparezcan los mapas de imagen y especifique ubicaciones de URL para el mapa de imagen. Al seleccionar la opción Extraer vínculos al cargar el archivo PDF en Dynamic Media Classic, los vínculos se convierten automáticamente en mapas de imágenes.
+En Acrobat o InDesign, cree referencias de hipervínculo donde desee que aparezcan los mapas de imagen y especifique ubicaciones de URL para el mapa de imagen. Al seleccionar la opción Extraer vínculos al cargar el archivo PDF en Adobe, Dynamic Media Classic convierte automáticamente los vínculos a Mapas de imágenes.
 
 Para obtener más información, consulte la Ayuda de Adobe InDesign o la Ayuda de Adobe Acrobat.
 
@@ -203,15 +203,15 @@ Para obtener más información, consulte la Ayuda de Adobe InDesign o la Ayuda d
 1. Seleccione **[!UICONTROL Nuevo hipervínculo]** en el menú del panel.
 1. En el cuadro de diálogo Nuevo hipervínculo, en el menú **[!UICONTROL Vincular a]**, elija **[!UICONTROL URL]**.
 1. Escriba o pegue el ID del producto en el cuadro URL.
-1. Seleccione **[!UICONTROL OK]**. (Dynamic Media Classic completa la dirección URL usando la plantilla de dirección URL del mapa de imagen ).
+1. Seleccione **[!UICONTROL OK]**. (Adobe Dynamic Media Classic completa la dirección URL usando la plantilla de dirección URL de mapa de imagen).
 
    >[!NOTE]
    >
-   >No es necesario que configure las opciones de aspecto en Adobe InDesign. Puede especificar la apariencia en Dynamic Media Classic.
+   >No es necesario que configure las opciones de aspecto en Adobe InDesign. Puede especificar la apariencia en Adobe Dynamic Media Classic.
 
 1. Repita los pasos 2 a 6 para todos los mapas de imágenes que desee crear.
 1. Exporte el archivo como PDF.
-1. Cargue el PDF a Dynamic Media Classic.
+1. Cargue el PDF en Adobe Dynamic Media Classic.
 1. En **[!UICONTROL Opciones de PDF]**, seleccione **[!UICONTROL Extraer vínculos]**.
 
 ### Para crear mapas de imagen en Adobe Acrobat {#to-create-image-maps-in-adobe-acrobat}
@@ -222,11 +222,11 @@ Para obtener más información, consulte la Ayuda de Adobe InDesign o la Ayuda d
 
 >[!NOTE]
 >
->No es necesario que configure las opciones de aspecto en Adobe Acrobat. Puede especificar la apariencia en Dynamic Media Classic.
+>No es necesario que configure las opciones de aspecto en Adobe Acrobat. Puede especificar la apariencia en Adobe Dynamic Media Classic.
 
 1. En el cuadro Propiedades del vínculo, seleccione **[!UICONTROL Acciones]**.
 1. Seleccione **[!UICONTROL Abrir un vínculo web]** en el menú Seleccionar acción y, a continuación, seleccione **[!UICONTROL Agregar]**.
-1. Escriba el ID del producto para el mapa de imagen en el cuadro Editar URL y seleccione **[!UICONTROL Aceptar]**. (Dynamic Media Classic completa la dirección URL usando la plantilla URL de mapa de imagen).
+1. Escriba el ID del producto para el mapa de imagen en el cuadro Editar URL y seleccione **[!UICONTROL Aceptar]**. (Adobe Dynamic Media Classic completa la URL usando la plantilla de URL de mapa de imagen).
 1. Repita los pasos 1 a 7 para todos los mapas de imágenes que desee crear.
 1. Guarde el archivo.
-1. Cargue el PDF a Dynamic Media Classic y seleccione Extraer vínculos en las Opciones de PDF.
+1. Cargue el PDF en Adobe Dynamic Media Classic y seleccione Extraer vínculos en las Opciones de PDF.
