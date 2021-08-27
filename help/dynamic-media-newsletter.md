@@ -5,7 +5,7 @@ keywords: dynamic media;newsletter;actualizaciones de productos;sugerencias y tr
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 0%
@@ -61,7 +61,7 @@ En este boletín archivado de una sola tienda, puede encontrar recursos valiosos
 
    En este número:
 
-   * Asista a los nuevos seminarios web de Skills Builder y conviértase en un experto de Adobe Dynamic Media Classic.
+   * Asista a nuevos seminarios web de Skills Builder y conviértase en un experto de Adobe Dynamic Media Classic.
    * Consulte dónde puede encontrar Dynamic Media en el Adobe Summit 2020.
    * Descubra cómo usar la magia de recorte de Dynamic Media.
    * Para ayudarle a obtener más valor de Adobe Dynamic Media Classic, aproveche una auditoría gratuita de Adobe.

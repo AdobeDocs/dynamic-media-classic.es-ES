@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_k
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: a8fa2414-af01-4a58-bb33-dfd12c1056cc
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '687'
 ht-degree: 39%
 
 ---
@@ -37,7 +37,7 @@ Este inicio rápido se ha diseñado para ayudarle en el uso inicial del kit de i
 >
 >Antes de configurar los informes de Adobe Analytics y hacer coincidir las variables de informes de Adobe Analytics con los eventos de Adobe Dynamic Media Classic, compruebe que se ha agregado como miembro del grupo Acceso a servicios web en Adobe Analytics. Los miembros de este grupo pueden acceder a todos los informes de los grupos de informes especificados mediante la API de servicios web de Marketing Cloud independientemente de los permisos establecidos en la interfaz. Para agregar un miembro al grupo, en Adobe Analytics, haga clic en **[!UICONTROL Herramientas de administración]** > **[!UICONTROL Administración de usuario]** > **[!UICONTROL Editar grupos]**.
 
-Después de comprobar que es miembro del grupo Acceso a servicio Web, en Adobe Dynamic Media Classic, haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Adobe Analytics]**. En la página de configuración de Adobe Analytics, haga clic en **[!UICONTROL Inicio de sesión de Adobe Analytics]**.
+Después de comprobar que es miembro del grupo Acceso a servicio Web, en Adobe Dynamic Media Classic, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Adobe Analytics]**. En la página de configuración de Adobe Analytics, haga clic en **[!UICONTROL Inicio de sesión de Adobe Analytics]**.
 
 Consulte [Inicio de sesión en Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 

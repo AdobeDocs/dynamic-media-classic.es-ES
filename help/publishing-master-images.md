@@ -1,6 +1,6 @@
 ---
-title: Publicación de imágenes principales
-description: Aprenda a publicar imágenes maestras.
+title: Publicar imágenes principales
+description: Aprenda a publicar imágenes maestras desde Adobe Dynamic Media Classic.
 uuid: b56ba79a-f89a-45f1-a8bb-c73a22eab8d4
 contentOwner: admin
 content-type: reference
@@ -10,26 +10,26 @@ discoiquuid: 815e2a19-c64d-45c7-96bc-7f955e54f56e
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: b0010107-248c-4ebc-955c-7514462f351d
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 22%
+source-wordcount: '163'
+ht-degree: 6%
 
 ---
 
-# Publicación de imágenes principales{#publishing-master-images}
+# Publicar imágenes principales{#publishing-master-images}
 
 Al publicar los archivos de imagen, estos se publican en los servidores de imágenes de Dynamic Media, donde están disponibles para el sitio web y la aplicación. Además, durante el proceso de publicación, Adobe Dynamic Media Classic activa las cadenas URL que necesita para el sitio web y la aplicación.
 
-## Marcado de imágenes principales para publicación {#marking-master-images-for-publish}
+## Marcar imágenes principales para publicación {#marking-master-images-for-publish}
 
 Las imágenes principales deben marcarse para publicarse para que se copien en los servidores de imágenes de Dynamic Media. Puede marcar las imágenes principales para publicarlas en el panel Examinar haciendo clic en el icono **[!UICONTROL Marcar para publicación]**. También puede marcar imágenes para publicarlas al cargarlas en Adobe Dynamic Media Classic.
 
-## Publicación de imágenes principales {#publishing-your-master-images}
+## Publicación de las imágenes principales {#publishing-your-master-images}
 
-1. En la barra de navegación global, haga clic en **[!UICONTROL Publicar]**. En el cuadro de diálogo Publicar, seleccione una opción Cuándo (**[!UICONTROL Una vez]** o **[!UICONTROL Recurring]**) y, opcionalmente, introduzca un nombre para el trabajo de publicación
+1. En la barra de navegación global, seleccione **[!UICONTROL Publicar]**. En el cuadro de diálogo Publicar, seleccione una opción Cuándo (**[!UICONTROL Una vez]** o **[!UICONTROL Recurring]**) y, opcionalmente, introduzca un nombre para el trabajo de publicación
 
-1. Haga clic en **[!UICONTROL Enviar publ.]**.
+1. Seleccione **[!UICONTROL Enviar publicación]**.
 
 >[!NOTE]
 >
@@ -37,5 +37,5 @@ Las imágenes principales deben marcarse para publicarse para que se copien en l
 
 >[!MORELIKETHIS]
 >
->* [Publicación](publishing-files.md#publishing_files)
+>* [Publicar archivos](publishing-files.md#publishing_files)
 

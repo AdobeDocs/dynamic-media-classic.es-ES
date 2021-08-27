@@ -1,6 +1,6 @@
 ---
 title: Publicación de plantillas
-description: Obtenga información sobre cómo publicar plantillas.
+description: Obtenga información sobre cómo publicar plantillas desde Adobe Dynamic Media Classic.
 uuid: 9b8e5b94-6958-4725-bcbc-5e6a9c4d1b02
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 87a5a25e-210b-4359-821a-7dfe8c304f9b
 feature: Dynamic Media Classic
 role: User
 exl-id: d4315312-195c-453d-a3aa-c5e9f9365fc7
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 22%
+source-wordcount: '172'
+ht-degree: 13%
 
 ---
 
@@ -25,16 +25,16 @@ Al publicar la plantilla, esta se coloca en los servidores de imágenes de Dynam
 >
 >Para usar la plantilla, publique todo el contenido utilizado para crearla, incluidas fuentes e imágenes. Si no incluye todos los archivos necesarios, aparecerá un mensaje de error al publicar.
 
-## Marcado de plantillas para publicación {#marking-templates-for-publish}
+## Marcado de plantillas  para publicación {#marking-templates-for-publish}
 
-Las plantillas y todos sus archivos de soporte deben marcarse para publicarse para que se puedan colocar en los servidores de imágenes de Dynamic Media. Puede marcar estos elementos para publicarlos en el panel Examinar haciendo clic en el icono **[!UICONTROL Marcar para publicación]**.
+Las plantillas y todos sus archivos de soporte deben marcarse para publicarse para que se coloquen en los servidores de imágenes de Dynamic Media. Puede marcar estos elementos para publicarlos en el panel Examinar seleccionando el icono **[!UICONTROL Marcar para publicación]**.
 
 ## Publicación de la plantilla {#publishing-your-template}
 
-Para publicar plantillas en servidores de imágenes de Dynamic Media, en la barra de navegación global, haga clic en **[!UICONTROL Publicar]** y, a continuación, seleccione una opción **[!UICONTROL Cuando]**. Si lo desea, puede introducir un nombre para el trabajo de publicación. Haga clic en **[!UICONTROL Enviar publ.]**.
+Para publicar plantillas en servidores de imágenes de Dynamic Media, en la barra de navegación global, seleccione **[!UICONTROL Publicar]** y, a continuación, seleccione una opción **[!UICONTROL Cuando]**. Si lo desea, puede introducir un nombre para el trabajo de publicación. Seleccione **[!UICONTROL Enviar publicación]**.
 
 >[!MORELIKETHIS]
 >
->* [Marcado de recursos para publicación](publishing-files.md#publish_after_uploading)
->* [Creación de un trabajo de publicación](publishing-files.md#creating_a_publish_job)
+>* [Marcar recursos para publicación](publishing-files.md#publish_after_uploading)
+>* [Crear un trabajo de publicación](publishing-files.md#creating_a_publish_job)
 

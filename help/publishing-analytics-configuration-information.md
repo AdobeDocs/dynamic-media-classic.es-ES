@@ -1,6 +1,6 @@
 ---
-title: Publicación de la información de configuración de Adobe Analytics
-description: Obtenga información sobre cómo publicar la información de configuración de Adobe Analytics.
+title: Publicar información de configuración de Adobe Analytics
+description: Obtenga información sobre cómo publicar la información de configuración de Adobe Analytics desde Adobe Dynamic Media Classic.
 uuid: 39b1c2bd-8eb8-43a8-9482-9623115c5374
 contentOwner: admin
 content-type: reference
@@ -10,14 +10,14 @@ discoiquuid: deeb9fed-ef27-4d58-af98-f381de33c431
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 02782dc0-601f-453a-98d1-1fdd7267df3b
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 37%
+source-wordcount: '152'
+ht-degree: 21%
 
 ---
 
-# Publicación de la información de configuración de Adobe Analytics{#publishing-adobe-analytics-configuration-information}
+# Publicar información de configuración de Adobe Analytics{#publishing-adobe-analytics-configuration-information}
 
 Publique los visores de Dynamic Media Classic de Adobe para que la información sobre cómo configurar los informes de Adobe Analytics se envíe a los servidores de Dynamic Media Classic de Adobe. Esta información se incrusta en los visores. La publicación es necesaria para que la información contenida en los visores esté disponible en los servidores de Adobe Dynamic Media Classic. Desde los servidores, se puede retransmitir a Adobe Analytics cuando los usuarios realizan alguna actividad en los visores.
 
@@ -31,5 +31,5 @@ Consulte [Configuración de informes de Adobe Analytics](configuring-analytics-r
 
 **Para publicar información de configuración:**
 
-1. En la barra de navegación global, haga clic en **[!UICONTROL Publicar]**.
-1. En el cuadro de diálogo Publicar, haga clic en **[!UICONTROL Enviar publicación]**.
+1. En la barra de navegación global, seleccione **[!UICONTROL Publicar]**.
+1. En el cuadro de diálogo Publicar, seleccione **[!UICONTROL Enviar publicación]**.

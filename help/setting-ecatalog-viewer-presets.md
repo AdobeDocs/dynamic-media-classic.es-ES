@@ -9,7 +9,7 @@ discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
 feature: Dynamic Media Classic,Viewers,Viewer Presets,eCatalog
 role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 42%
@@ -31,7 +31,7 @@ Siga estos pasos para crear un ajuste preestablecido de visualizador de catálog
 
    * **Creación de un ajuste preestablecido de visualizador de catálogos electrónicos** : haga clic en  **[!UICONTROL Agregar]**. En el cuadro de diálogo Agregar ajuste preestablecido de visualizador, seleccione una plataforma, elija Visualizador de catálogos electrónicos y haga clic en **[!UICONTROL Agregar]**.
 
-   * **Edición de un ajuste preestablecido de visualizador de catálogos electrónicos** : seleccione un ajuste preestablecido de visualizador de catálogos electrónicos y haga clic en Editar. Haga clic en **[!UICONTROL Guardar como]** después de terminar de crear el ajuste preestablecido.
+   * **Edición de un ajuste preestablecido de visualizador de catálogos electrónicos** : seleccione un ajuste preestablecido de visualizador de catálogos electrónicos y haga clic en  **[!UICONTROL Editar]**. Haga clic en **[!UICONTROL Guardar como]** después de terminar de crear el ajuste preestablecido.
 
 1. En la pantalla Configurar visor, introduzca un nombre para el ajuste preestablecido de visor de catálogos electrónicos.
 1. En la pantalla de Configurar visor, establezca las opciones que desee.

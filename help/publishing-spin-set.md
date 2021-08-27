@@ -1,6 +1,6 @@
 ---
-title: Publicación de un conjunto de giros
-description: Obtenga información sobre cómo publicar un conjunto de giros.
+title: Publicar un conjunto de giros
+description: Obtenga información sobre cómo publicar un conjunto de giros desde Adobe Dynamic Media Classic.
 uuid: 3b21ee5c-e494-48d0-8ccf-cb7670d11f5b
 contentOwner: admin
 content-type: reference
@@ -10,26 +10,26 @@ discoiquuid: 38efb70d-e17e-4cef-8af1-be748f66f3ea
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: b085f7ea-4623-402e-97f5-ed8ad5f368c7
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 23%
+source-wordcount: '178'
+ht-degree: 10%
 
 ---
 
-# Publicación de un conjunto de giros{#publishing-a-spin-set}
+# Publicar un conjunto de giros{#publishing-a-spin-set}
 
 Al publicar un conjunto de giros, las imágenes del conjunto se colocan en los servidores de imágenes de Dynamic Media, donde están disponibles para el sitio web o la aplicación. Además, durante el proceso de publicación, Adobe Dynamic Media Classic activa las cadenas URL del conjunto de giros que necesita para su sitio web o aplicación.
 
-## Marcado de un conjunto de giros para la publicación {#marking-a-spin-set-for-publish}
+## Marcar un conjunto de giros para publicación {#marking-a-spin-set-for-publish}
 
 Marque el conjunto de giros para publicarlo para que se copie en los servidores de imágenes de Dynamic Media Classic de Adobe. Puede marcar el conjunto de giros para publicarlo en el panel Examinar haciendo clic en el icono **[!UICONTROL Marcar para publicación]** que aparece a la izquierda del nombre. Al marcar el conjunto de giros, todas las imágenes del conjunto se marcarán para la publicación.
 
-## Publicación del conjunto de giros {#publishing-the-spin-set}
+## Publicar el conjunto de giros {#publishing-the-spin-set}
 
-Para publicar un conjunto de giros en servidores de imágenes de Dynamic Media, en la barra de navegación global, haga clic en **[!UICONTROL Publicar]**. A continuación, seleccione una opción **[!UICONTROL When]**. Si lo desea, puede introducir un nombre para el trabajo de publicación. Haga clic en **[!UICONTROL Enviar publ.]**.
+Para publicar un conjunto de giros en servidores de imágenes de Dynamic Media, en la barra de navegación global, seleccione **[!UICONTROL Publicar]**. A continuación, seleccione una opción **[!UICONTROL When]**. Si lo desea, puede introducir un nombre para el trabajo de publicación. Seleccione **[!UICONTROL Enviar publicación]**.
 
 >[!MORELIKETHIS]
 >
->* [Publicación](publishing-files.md#publishing_files)
+>* [Publicar archivos](publishing-files.md#publishing_files)
 
