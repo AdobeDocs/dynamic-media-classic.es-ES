@@ -1,14 +1,14 @@
 ---
 title: Recursos populares
-description: Vínculos a seminarios web, vídeos de formación, información sobre prácticas recomendadas y recursos para desarrolladores.
+description: Vínculos a seminarios web, vídeos de formación, información sobre prácticas recomendadas y recursos para desarrolladores para Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: f67a0645-a37d-4791-a0da-69d844fea40e
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 16%
+source-wordcount: '578'
+ht-degree: 15%
 
 ---
 
@@ -25,14 +25,15 @@ ht-degree: 16%
 * [Ejemplos de la biblioteca de visores](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 * [API de servicio y renderización de imágenes](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html)
 
-## Seminarios web y Tutorials de Adobe Dynamic Media Classic
+## Newsletters, Tutorials y seminarios web de Adobe Dynamic Media Classic
 
+* [Archivo de los boletines de Adobe Dynamic Media Classic](/help/dynamic-media-newsletter.md)
 * [Prácticas recomendadas para enfocar imágenes](/help/assets/s7_sharpening_images.pdf)
 * [Maximice el ROI de sus recursos](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true) : Conozca las prácticas recomendadas del sector para ofrecer medios enriquecidos en sus sitios y aplicaciones móviles. En este seminario web, algunos ejemplos y demostraciones muestran cómo distribuir vídeo de forma eficaz entre dispositivos, ofrecer elementos creativos dinámicos en las campañas de marketing y aumentar la conversión mediante la realización de cualquier imagen, guía de estilo o libro de búsqueda que se pueda comprar.
 * [Acelerar el ciclo de vida de la entrega de contenido](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/) : este seminario web le ofrece una introducción y una demostración de Recursos Adobe Experience Manager, On Demand, el programa de próxima generación para la administración y entrega de medios enriquecidos. Aprenda a colaborar y compartir recursos entre equipos creativos y de marketing para optimizar los procesos de revisión de recursos. Conozca las prácticas recomendadas para administrar los metadatos de recursos de forma eficaz con el fin de facilitar la búsqueda, el uso, la reutilización y el uso compartido de los recursos. Aprenda a ofrecer experiencias de medios enriquecidos interactivas en varios canales.
 * [Diseño para la optimización móvil](https://adobecustomersuccess.adobeconnect.com/p6oqd3wydif/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true) : use Adobe Dynamic Media Classic para ofrecer medios enriquecidos de destino de forma eficaz en todos los dispositivos. En este seminario web, aprenderá a diseñar y ofrecer experiencias de visualización de imágenes y vídeos que sean efectivas en todas las aplicaciones móviles y sitios adaptables.
 * [Cómo admite Adobe Dynamic Media Classic SEO](/help/assets/s7_seo.pdf) : los motores de búsqueda permiten actualmente la búsqueda de sitios web e imágenes. Adobe Dynamic Media Classic admite los esfuerzos por hacer que las imágenes sean más fáciles de usar en los motores de búsqueda, de modo que se conduzca más tráfico al sitio web del usuario de Dynamic Media Classic de Adobe. Este PDF le proporciona información general y directrices de implementación para que esto suceda.
-* [Uso de Adobe Dynamic Media Classic para maximizar la conversión de festivos](https://adobecustomersuccess.adobeconnect.com/p32n1yr85c9/?proto=true) : Este seminario web le enseña a configurar flujos de trabajo automatizados para obtener contenido de carpetas visualizadas y crear conjuntos de giros y vídeos automáticamente. También aprenderá cómo gestionar cambios y actualizar imágenes con rapidez.
+* [Utilice Adobe Dynamic Media Classic para maximizar la conversión de festivos](https://adobecustomersuccess.adobeconnect.com/p32n1yr85c9/?proto=true) : Este seminario web le enseña a configurar flujos de trabajo automatizados para obtener contenido de carpetas vigiladas y crear automáticamente conjuntos de giros y vídeos. También aprenderá cómo gestionar cambios y actualizar imágenes con rapidez.
 * [Prácticas recomendadas para ofrecer experiencias interactivas con Adobe Dynamic Media Classic](https://seminars.adobeconnect.com/p7wb8ej3u6d/) : este seminario web le enseña cómo introducir y sacar contenido de Adobe Dynamic Media Classic. Aprenda a configurar ajustes preestablecidos de imagen para obtener un rendimiento óptimo y una experiencia óptima. También aprenderá a utilizar ajustes preestablecidos de visor y almacenar configuraciones en caché.
 * [Prácticas recomendadas para el diseño interactivo](https://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html) : este seminario web le enseña consejos prácticos sobre cómo mejorar su estrategia móvil. Vea en acción ejemplos reales de diseño interactivo. Cree un recurso principal que funcione en distintos dispositivos y mejore el rendimiento móvil al cambiar de forma dinámica la resolución o la orientación de las imágenes para que se muestren en vertical u horizontal. Aprenda también a recortar, escalar o cambiar el tamaño de las imágenes de forma dinámica.
 
