@@ -9,9 +9,9 @@ discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
 feature: Dynamic Media Classic,Viewers,Viewer Presets,eCatalog
 role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
-source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
+source-git-commit: fa0a3992e02f70e5fb4a54e770e2fe2b4f0371e1
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '489'
 ht-degree: 34%
 
 ---
@@ -46,7 +46,7 @@ Siga estos pasos para crear un ajuste preestablecido de visualizador de catálog
    | --- | --- | --- |
    | `$1$` | valor rollover_key | Identificador de elemento del elemento `<area>` del mapa. |
    | `$2$` | frame | El número de secuencia del cuadro que se muestra actualmente en el conjunto de imágenes. |
-   | `$3$` | imageroot | El primer elemento de ruta del primer elemento especificado en el comando de imagen (normalmente el ID del catálogo de imágenes de la entrada del catálogo en la que se especifica el conjunto de imágenes). |
+   | `$3$` | raíz de imagen | El primer elemento de ruta del primer elemento especificado en el comando de imagen (normalmente el ID del catálogo de imágenes de la entrada del catálogo en la que se especifica el conjunto de imágenes). |
 
 1. (Opcional) En **[!UICONTROL Configuración del panel de información]**, en el cuadro **[!UICONTROL Plantilla de respuesta]**, escriba el texto que desee que aparezca si Adobe Dynamic Media Classic encuentra un error al recuperar información para un mapa de imagen. Por ejemplo, si el sistema recibe un nombre de empresa y un nombre de catálogo electrónico, pero ningún identificador rollover, aparecerá este mensaje para el usuario.
 
