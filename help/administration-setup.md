@@ -9,9 +9,9 @@ discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
 workflow-type: tm+mt
-source-wordcount: '1966'
+source-wordcount: '1965'
 ht-degree: 36%
 
 ---
@@ -70,7 +70,7 @@ Después de agregar un usuario, Adobe Dynamic Media Classic envía un mensaje de
 
 ### Eliminación de un usuario {#deleting-a-user}
 
-Puede eliminar usuarios del Adobe de Adobe Dynamic Media Classic invalidándolos. Los usuarios no válidos se eliminan del sistema y de todas las cuentas.
+Puede eliminar usuarios de Adobe Dynamic Media Classic invalidándolos. Los usuarios no válidos se eliminan del sistema y de todas las cuentas.
 
 1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Configuración de la administración]** > **[!UICONTROL Administración de usuarios]**.
 1. Seleccione un usuario de la lista y, a continuación, seleccione **[!UICONTROL Editar]**.

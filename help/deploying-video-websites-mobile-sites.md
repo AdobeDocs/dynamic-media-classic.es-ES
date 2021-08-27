@@ -10,9 +10,9 @@ discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
 workflow-type: tm+mt
-source-wordcount: '1704'
+source-wordcount: '1703'
 ht-degree: 35%
 
 ---
@@ -131,7 +131,7 @@ Si no utiliza el reproductor de vídeo HTML5 de Adobe Dynamic Media Classic, sin
 
 ## Implementar vídeo con un reproductor de vídeo de terceros {#deploying-video-using-a-third-party-video-player}
 
-Si utiliza un reproductor de vídeo de terceros o un reproductor de vídeo personalizado en lugar de un visor de vídeo de Dynamic Media Classic de Adobe, obtiene la URL de vídeo directa que funciona para el flujo de vídeo de varias bits HLS o la descarga progresiva.
+Si utiliza un reproductor de vídeo de terceros o un reproductor de vídeo personalizado en lugar de un visor de vídeo de Dynamic Media Classic, obtiene la URL de vídeo directa que funciona para el flujo de vídeo de varias bits HLS o la descarga progresiva.
 
 **Para implementar vídeo con un reproductor de vídeo de terceros:**
 

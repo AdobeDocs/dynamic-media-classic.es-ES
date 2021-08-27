@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
 workflow-type: tm+mt
-source-wordcount: '1467'
+source-wordcount: '1463'
 ht-degree: 54%
 
 ---
@@ -120,6 +120,6 @@ Si los resultados de enfoque aún no son satisfactorios, aumente el radio en inc
 
 A medida que experimenta, las siguientes sugerencias generales son útiles para optimizar el flujo de trabajo:
 
-* Pruebe y pruebe diferentes parámetros en tiempo real, ya sea directamente en una URL de Dynamic Media Classic de Adobe o utilizando la funcionalidad de ajuste de imagen de Dynamic Media Classic de Adobe. Este último proporciona previsualizaciones en tiempo real para operaciones de ajuste.
+* Pruebe diferentes parámetros en tiempo real, ya sea directamente en una URL o utilizando la funcionalidad de ajuste de imagen de Dynamic Media Classic de Adobe. Este último proporciona previsualizaciones en tiempo real para operaciones de ajuste.
 * Como práctica recomendada, recuerde que puede agrupar los comandos de Dynamic Media Image Serving en un ajuste preestablecido de imagen. Un ajuste preestablecido de imagen es básicamente macros de comandos de URL con nombres preestablecidos personalizados como `$thumb_low$` y `&product_high$`. El nombre de ajuste preestablecido personalizado en una ruta de URL llama a estos ajustes preestablecidos. Esta funcionalidad le ayudará a administrar comandos y ajustes de calidad para diferentes modelos de uso de imágenes en su sitio web y reducirá la longitud total de la URL.
 * Adobe Dynamic Media Classic también proporciona formas más avanzadas de ajustar la calidad de imagen, como la aplicación de nitidez de imagen al ingerirla. En los casos de uso avanzado en los que la opción de ajustar y optimizar los resultados procesados es seguir, Adobe Professional Services puede ayudarle con las prácticas recomendadas y la perspectiva personalizada.
