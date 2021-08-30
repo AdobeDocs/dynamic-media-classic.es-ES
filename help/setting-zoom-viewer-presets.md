@@ -1,6 +1,6 @@
 ---
-title: Configuración de ajustes preestablecidos de visor de zoom
-description: Aprenda a configurar los ajustes preestablecidos del visor de zoom.
+title: Configuración de ajustes preestablecidos del visor de zoom
+description: Aprenda a configurar ajustes preestablecidos de visor de zoom en Adobe Dynamic Media Classic.
 uuid: 202d80cb-8282-45d4-89e8-942c8677aa93
 contentOwner: admin
 content-type: reference
@@ -10,14 +10,14 @@ discoiquuid: 5023a933-e229-4d3c-8e91-3ac5e9f4970b
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: ddaaff6c-5447-408e-9c92-bcdfd1a0e72e
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 52%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Configuración de ajustes preestablecidos de visor de zoom{#setting-up-zoom-viewer-presets}
+# Configuración de ajustes preestablecidos del visor de zoom{#setting-up-zoom-viewer-presets}
 
 Los ajustes preestablecidos de visor de zoom determinan el estilo, el comportamiento y el aspecto de los visores de zoom. Adobe Dynamic Media Classic ofrece muchas opciones para personalizar y desollar visualizadores. Adobe Dynamic Media Classic incluye ajustes preestablecidos básicos (rápidos), de salida rápida y de visor de zoom personalizado. Si es administrador, puede crear ajustes preestablecidos de visor de zoom de la empresa o editar un ajuste preestablecido predeterminado y guardarlo con un nuevo nombre.
 
@@ -43,27 +43,27 @@ Adobe Dynamic Media Classic recomienda los siguientes parámetros para los ajust
 
 * **Visor de zoom: Personalizado** : proporciona zoom guiado o no guiado con imágenes, conjuntos de imágenes con varias vistas o conjuntos de muestras de color.
 
-## Creación y edición de ajustes preestablecidos de visor de zoom {#creating-and-editing-zoom-viewer-presets}
+## Crear y editar ajustes preestablecidos de visor de zoom {#creating-and-editing-zoom-viewer-presets}
 
-1. En la barra de navegación global, haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Ajustes preestablecidos de visor]**.
+1. En la barra de navegación global, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Ajustes preestablecidos de visor]**.
 1. Realice una de las siguientes acciones:
 
-   * **Creación de un ajuste preestablecido** : haga clic en  **[!UICONTROL Agregar]**. En el cuadro de diálogo Agregar ajuste preestablecido de visualizador, seleccione una plataforma, elija un visualizador de zoom y haga clic en **[!UICONTROL Agregar]**. Introduzca un nombre para el ajuste preestablecido en el cuadro Nombre del ajuste preestablecido.
+   * **Crear un ajuste preestablecido** : seleccione  **[!UICONTROL Agregar]**. En el cuadro de diálogo Agregar ajuste preestablecido de visualizador, elija una plataforma, elija un visualizador de zoom y, a continuación, seleccione **[!UICONTROL Agregar]**. Introduzca un nombre para el ajuste preestablecido en el cuadro Nombre del ajuste preestablecido.
 
-   * **Edición de un ajuste preestablecido** : seleccione un ajuste preestablecido de visor de zoom y haga clic en  **[!UICONTROL Editar]**.
+   * **Editar un ajuste preestablecido** : seleccione un ajuste preestablecido de visor de zoom y, a continuación, seleccione  **[!UICONTROL Editar]**.
 
 1. Especifique los ajustes que desee.
 
-   Para ver una descripción de una opción, haga clic en el icono **[!UICONTROL Info Tip]** situado junto a la opción.
+   Para ver una descripción de una opción, seleccione el icono **[!UICONTROL Info Tip]** situado junto a la opción.
 
    La página Vista previa muestra el visor mientras actualiza y cambia la configuración.
 
-1. Haga clic en **[!UICONTROL Guardar]** o **[!UICONTROL Guardar como]**.
-1. En la página Ajustes preestablecidos de visor , examine el ajuste preestablecido de visor de zoom o el ajuste preestablecido de visor de zoom guiado que ha creado. Si es necesario realizar ajustes, haga clic en **[!UICONTROL Editar]**, cambie la configuración en la página Configurar visor y haga clic en ****[!UICONTROL Guardar]****.
+1. Seleccione **[!UICONTROL Guardar]** o **[!UICONTROL Guardar como]**.
+1. En la página Ajustes preestablecidos de visor , examine el ajuste preestablecido de visor de zoom o el ajuste preestablecido de visor de zoom guiado que ha creado. Si es necesario realizar ajustes, seleccione **[!UICONTROL Editar]**, cambie la configuración en la página Configurar visor y, a continuación, seleccione **[!UICONTROL Guardar]**.
 
 Para obtener más información sobre la gestión de valores preestablecidos de visor en la pantalla Ajustes preestablecidos de visor, consulte [Ajustes preestablecidos de visor](application-setup.md#viewer_presets).
 
 >[!MORELIKETHIS]
 >
->* [Creación y edición de ajustes preestablecidos de visor](application-setup.md#adding_and_editing_viewer_presets)
+>* [Crear y editar ajustes preestablecidos de visor](application-setup.md#adding_and_editing_viewer_presets)
 

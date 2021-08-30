@@ -10,10 +10,10 @@ discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
-source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 25%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -95,9 +95,9 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 ## Correo electrónico
 
-* ****[!UICONTROL Opciones de correo electrónico]**** : elija cómo desea que Adobe Dynamic Media Classic le informe por correo electrónico cuando se completen los trabajos de carga y publicación. Puede recibir notificaciones sobre la finalización de un trabajo solo cuando aparezcan advertencias o se produzcan errores.
-* ****[!UICONTROL Ámbito de correo electrónico]**** : determina si recibe todo el correo electrónico del trabajo de su empresa o solo el correo electrónico sobre los trabajos de carga y publicación que inicie.
-* ****[!UICONTROL Tipos de correo electrónico]**** : determina si se le informa cuando se completan los trabajos de carga y publicación.
+* **[!UICONTROL Opciones de correo electrónico]** : elija cómo desea que Adobe Dynamic Media Classic le informe por correo electrónico cuando se completen los trabajos de carga y publicación. Puede recibir notificaciones sobre la finalización de un trabajo solo cuando aparezcan advertencias o se produzcan errores.
+* **[!UICONTROL Ámbito de correo electrónico]** : determina si recibe todo el correo electrónico del trabajo de su empresa o solo el correo electrónico sobre los trabajos de carga y publicación que inicie.
+* **[!UICONTROL Tipos de correo electrónico]** : determina si se le informa cuando se completan los trabajos de carga y publicación.
 
 ## Idioma
 

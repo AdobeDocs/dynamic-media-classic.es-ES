@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,16 +35,16 @@ Asegúrese de lo siguiente antes de utilizar la aplicación de escritorio de Ado
 Utilice la siguiente asignación para seleccionar el entorno de producción que desee utilizar.
 
    | URL del explorador | Nombre del servidor de aplicaciones de escritorio |
-   |---|---|
+   | --- | --- |
    | https://s7sps1.scene7.com/ | Producción de NA (Norteamérica) |
    | https://s7sps3.scene7.com/ | Producción de EMEA (Europa, Oriente Medio y África) |
    | https://s7sps5.scene7.com/ | Producción de APAC (Asia-Pacífico) |
 
-1. Toque **[!UICONTROL Iniciar sesión]**.
+1. Seleccione **[!UICONTROL Iniciar sesión]**.
 
 ## Cerrar sesión en Adobe Dynamic Media Classic {#dmc-sign-out}
 
-1. En la esquina superior derecha de la aplicación de escritorio de Dynamic Media Classic de Adobe, pulse **[!UICONTROL Cerrar sesión]** y, a continuación, pulse **[!UICONTROL Cerrar sesión]** de nuevo.
+1. En la esquina superior derecha de la aplicación de escritorio de Dynamic Media Classic de Adobe, seleccione **[!UICONTROL Cerrar sesión]** y, a continuación, seleccione **[!UICONTROL Cerrar sesión]** de nuevo.
 
 >[!MORELIKETHIS]
 >

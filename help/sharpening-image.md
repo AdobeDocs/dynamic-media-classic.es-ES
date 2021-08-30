@@ -1,6 +1,6 @@
 ---
-title: Enfoque de imágenes
-description: Aprenda a enfocar una imagen.
+title: Enfocar una imagen
+description: Aprenda a enfocar una imagen en Adobe Dynamic Media Classic.
 uuid: d86af74a-89c5-4f2b-96ba-f2e7da600bca
 contentOwner: admin
 content-type: reference
@@ -10,14 +10,14 @@ discoiquuid: 11cd5362-d90a-4c1e-bfbd-46a65a554409
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '2174'
-ht-degree: 46%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Enfoque de imágenes {#sharpening-an-image}
+# Enfocar una imagen {#sharpening-an-image}
 
 El enfoque es una técnica de manipulación de imágenes para hacer más nítidos los contornos de una imagen digital. El enfoque aumenta el contraste entre los píxeles del borde y subraya la transición entre las áreas oscuras y claras. El enfoque aumenta el contraste local y resalta el detalle fino. No existe una fórmula estricta para enfocar correctamente todas las imágenes. Muy poco enfoque puede suavizar una imagen, pero demasiado añadirá halos, artefactos y ruido.
 
@@ -43,7 +43,7 @@ Consulte [Prácticas recomendadas para enfocar imágenes en Adobe Dynamic Media 
 
 **Para enfocar una imagen:**
 
-Para enfocar una imagen, haga clic en su botón de rollover **[!UICONTROL Editar]** y elija **[!UICONTROL Enfocar]**, o ábrala en el panel Examinar de la Vista de detalles y, a continuación, haga clic en **[!UICONTROL Enfocar]**. Se abre la página Editor de nitidez con comandos de nitidez. Elija los comandos y, a continuación, haga clic en **[!UICONTROL Save]**.
+Para enfocar una imagen, seleccione su botón de rollover **[!UICONTROL Editar]** y elija **[!UICONTROL Enfocar]**, o ábrala en el panel Examinar de la Vista de detalles y, a continuación, seleccione **[!UICONTROL Enfocar]**. Se abre la página Editor de nitidez con comandos de nitidez. Elija comandos y, a continuación, seleccione **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
@@ -54,10 +54,10 @@ Para enfocar una imagen, haga clic en su botón de rollover **[!UICONTROL Editar
 La siguiente tabla muestra las opciones de enfoque del servidor de imágenes.
 
 | Nombre | Protocolo de URL | Valores | Ejemplo |
-|--- |--- |--- |--- |
-| Enfoque simple | op_sharpen | `0 | 1` | op_sharpen=1 |
-| Modo de remuestreo | resMode | `bilin | bicub | sharp2 | trilin`<br><br>bilin: selecciona la interpolación bilineal estándar. Método de remuestreo más rápido; a menudo se pueden apreciar algunos artefactos de aliasing.<br>bicub: selecciona la interpolación bicúbica. Aumenta el uso de CPU con respecto a bilin, pero genera imágenes más enfocadas en las que los defectos de solapamiento son menos evidentes.<br><br>agudo2: Selecciona una función Windows® de Lanczos modificada como algoritmo de interpolación. Puede producir resultados ligeramente más nítidos que los bicúbicos a un mayor costo de CPU.<br><br>trilin: selecciona una interpolación trilineal modificada, que utiliza tanto resoluciones mayores como menores, si están disponibles. Solo se recomienda su uso cuando el solapamiento suponga un problema. Reducirá los tamaños de JPEG debido a la disminución de datos de alta frecuencia. | resMode=sharp2 |
-| Máscara de enfoque | op_usm | cantidad, radio, umbral, monocromo<br><br>cantidad: factor de intensidad del filtro (real 0...5)<br><br>radio: filtro radio del núcleo en píxeles (real 0...250) <br><br>umbral: nivel de umbral de filtro (int 0...255)<br><br>monocromo: se establece en 0 para aplicar máscara de enfoque a cada componente de color por separado, se establece en 1 para aplicar máscara de enfoque al brillo (intensidad) de la imagen | op_usm=1,1,10,0 |
+| --- | --- | --- | --- |
+| Enfoque simple | `op_sharpen` | `0` o `1` | `op_sharpen=1` |
+| Modo de remuestreo | `resMode` | `bilin`,  `bicub`,  `sharp2`,  `trilin`<br><br>`bilin`: Selecciona la interpolación bilineal estándar. Método de remuestreo más rápido; a menudo se pueden apreciar algunos artefactos de aliasing.<br>`bicub`: Selecciona la interpolación bicúbica. Aumenta el uso de CPU con respecto a bilin, pero genera imágenes más enfocadas en las que los defectos de solapamiento son menos evidentes.<br><br>`sharp2`: Selecciona una función Windows® de Lanczos modificada como algoritmo de interpolación. Puede producir resultados ligeramente más nítidos que los bicúbicos a un mayor costo de CPU.<br><br>`trilin`: selecciona una interpolación trilineal modificada, que utiliza tanto resoluciones mayores como menores, si están disponibles. Solo se recomienda su uso cuando el solapamiento suponga un problema. Reducirá los tamaños de JPEG debido a la disminución de datos de alta frecuencia. | `resMode=sharp2` |
+| Máscara de enfoque | `op_usm` | `amount`,  `radius`,  `threshold`,  `monochrome`<br><br>`amount`: factor de intensidad del filtro (real 0...5)<br><br>`radius`: filtro radio del núcleo en píxeles (real 0...250)  <br><br>`threshold`: nivel de umbral de filtro (int 0...255)<br><br>`monochrome`: esté configurado  `0` para aplicar máscaras de enfoque a cada componente de color por separado, ajustado  `1` para aplicar máscara de enfoque al brillo (intensidad) de la imagen | `op_usm=1,1,10,0` |
 
 Seleccione el menú **[!UICONTROL Sharpening]** y elija una opción:
 
@@ -77,9 +77,9 @@ El valor de radio óptimo depende del tamaño de la imagen. Un valor bajo enfoca
 
 Por ejemplo, para obtener un efecto de nitidez similar para una imagen de 2000 x 2000 píxeles y una imagen de 500 x 500 píxeles, puede establecer un valor de radio de dos píxeles en la imagen de 2000 x 2000 píxeles. A continuación, defina un valor de radio de un píxel en la imagen de 500 x 500 píxeles (un valor mayor para una imagen con más píxeles).
 
-* **** UmbralDetermina el intervalo de contraste que se debe ignorar cuando se aplica el filtro de máscara de enfoque. Esta opción determina cómo deben ser de distintos los píxeles enfocados del área que los rodea para poder considerarse píxeles de borde y por tanto enfocarse.
+* **Umbral** : Determina el intervalo de contraste que se debe ignorar cuando se aplica el filtro de máscara de enfoque. Esta opción determina cómo deben ser de distintos los píxeles enfocados del área que los rodea para poder considerarse píxeles de borde y por tanto enfocarse.
 
-El umbral utiliza un valor entre 0 y 255, que es el número de pasos de brillo de una imagen en escala de grises. 0 = negro, 128 = 50% gris y 255 = blanco. Por ejemplo, el valor de umbral 12 ignora las ligeras variaciones de brillo en el tono de la piel para no agregar ruido, al mismo tiempo que agrega contraste del borde a las áreas contrastadas, por ejemplo, donde las pestañas tocan la piel. 
+El umbral utiliza un valor entre 0 y 255, que es el número de pasos de brillo en una imagen en escala de grises. 0 = negro, 128 = 50% gris y 255 = blanco. Por ejemplo, el valor de umbral 12 ignora las ligeras variaciones de brillo en el tono de la piel para no agregar ruido, al mismo tiempo que agrega contraste del borde a las áreas contrastadas, por ejemplo, donde las pestañas tocan la piel. 
 
 Como ejemplo, supongamos que tiene una fotografía de una cara. La máscara de enfoque afecta a las partes de la imagen con mayor contraste y a la piel lisa. Incluso la piel más suave presenta cambios sutiles en los valores de brillo. Si no usa un valor de umbral, el filtro acentúa estos cambios sutiles en los píxeles de la piel, lo que crea un efecto de ruido (algo probablemente no deseable) y aumenta el contraste en las pestañas, mejorando el enfoque (algo probablemente deseable). Para evitarlo, utilice un valor de umbral que indique al filtro que ignore los píxeles que no cambian de contraste considerablemente, como la piel lisa. Para evitar la introducción de ruido o poserización en imágenes con tonos de carne, por ejemplo, intente experimentar con los valores **[!UICONTROL Umbral]** de dos a 20. El valor predeterminado **[!UICONTROL Umbral]** de 0 enfoca todos los píxeles de la imagen.
 
@@ -87,19 +87,19 @@ Como ejemplo, supongamos que tiene una fotografía de una cara. La máscara de e
 
 **Remuestreo**
 
-Haga clic en el menú **[!UICONTROL Remuestreo]** y seleccione una opción. Estas opciones pueden enfocar la imagen cuando se disminuye su resolución:
+Seleccione el menú **[!UICONTROL Resampling]** y elija una opción. Estas opciones pueden enfocar la imagen cuando se disminuye su resolución:
 
-* **Ninguno** : desactiva el remuestreo.
+* **[!UICONTROL Ninguno]** : desactiva el remuestreo.
 
-* **Bilinear** : el método de remuestreo más rápido; se pueden apreciar algunos artefactos de aliasing.
+* **[!UICONTROL Bilinear]** : el método de remuestreo más rápido; se pueden apreciar algunos artefactos de aliasing.
 
-* **Bicúbico** : Aumenta el uso de CPU en el servidor de imágenes, pero genera imágenes más nítidas con artefactos de alias menos visibles.
+* **[!UICONTROL Bicúbico]** : Aumenta el uso de CPU en el servidor de imágenes, pero genera imágenes más nítidas con artefactos de alias menos visibles.
 
-* **Enfoque2** : produce resultados ligeramente más nítidos que los de  **[!UICONTROL Bicúbico]**, pero a un costo de CPU aún mayor en el servidor de imágenes.
+* **[!UICONTROL Enfoque2]** : produce resultados ligeramente más nítidos que los de  **[!UICONTROL Bicúbico]**, pero a un costo de CPU aún mayor en el servidor de imágenes.
 
-* **Trilineal** : utiliza resoluciones más altas y más bajas si están disponibles; recomendado solo cuando el alias sea un problema. Este método reduce el tamaño JPEG debido a la reducción de datos de alta frecuencia.
+* **[!UICONTROL Trilineal]** : utiliza resoluciones más altas y más bajas si están disponibles; recomendado solo cuando el alias sea un problema. Este método reduce el tamaño JPEG debido a la reducción de datos de alta frecuencia.
 
-**Enfoque y ajustes preestablecidos de imagen**
+**Ajustes preestablecidos de enfoque e imagen**
 
 Puede incorporar los tres efectos de nitidez para lograr su resultado final. Sin embargo, no se recomienda este método. Adobe Dynamic Media Classic recomienda guardar los efectos de enfoque como parte de un ajuste preestablecido de imagen. Los ajustes preestablecidos de imagen le permiten empaquetar los modificadores de imagen más utilizados para crear una imagen cuyo tamaño se ha cambiado dinámicamente en una pequeña cadena de texto. Un ajuste preestablecido de imagen contiene valores para el formato de archivo (normalmente JPEG para la Web), el recuento de píxeles y el enfoque de la imagen. En lugar de anexar la URL con cada modificador de imagen que debe utilizar para crear un tipo específico de tamaño de imagen, cree un ajuste preestablecido de imagen con nombre, como &quot;miniatura&quot;. A continuación, configure el ajuste preestablecido de imagen en miniatura con el tamaño, el formato de archivo y las opciones de nitidez adecuados. Llame a la imagen con el nombre del ajuste preestablecido de imagen. Los ajustes preestablecidos de imagen acortan la longitud de la dirección URL general. Estas dos direcciones URL producen la misma imagen JPEG de 350 x 350 con nitidez:
 
@@ -108,7 +108,7 @@ Puede incorporar los tres efectos de nitidez para lograr su resultado final. Sin
 
 Los ajustes preestablecidos de imagen se pueden cambiar y actualizar en cualquier momento. Verá los resultados de un cambio en un ajuste preestablecido de imagen después de publicar y después de que se borre la caché de la URL.
 
-Si utiliza un ajuste preestablecido para cada imagen de una categoría de tamaño, cualquier administrador de empresa puede actualizar la definición de dicho ajuste preestablecido de imagen, volver a publicar y aplicar cambios a todas las imágenes con ese formato sin necesidad de cambiar ningún código web. La práctica recomendada es utilizar un ajuste preestablecido de imagen para cada tamaño único en el sitio. Para agregar un ajuste preestablecido de imagen, en la barra de navegación global, haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Ajustes preestablecidos de imagen]**. A continuación, haga clic en **[!UICONTROL Agregar]** o haga clic en **[!UICONTROL Editar]** para cambiar un ajuste preestablecido existente. El único campo requerido es el nombre del ajuste preestablecido. Sin embargo, es mejor incluir algún nivel de nitidez en cada ajuste preestablecido.
+Si utiliza un ajuste preestablecido para cada imagen de una categoría de tamaño, cualquier administrador de empresa puede actualizar la definición de dicho ajuste preestablecido de imagen, volver a publicar y aplicar cambios a todas las imágenes con ese formato sin necesidad de cambiar ningún código web. La práctica recomendada es utilizar un ajuste preestablecido de imagen para cada tamaño único en el sitio. Para añadir un ajuste preestablecido de imagen, en la barra de navegación global, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Ajustes preestablecidos de imagen]**. A continuación, seleccione **[!UICONTROL Add]** o **[!UICONTROL Edit]** para cambiar un ajuste preestablecido existente. El único campo requerido es el nombre del ajuste preestablecido. Sin embargo, es mejor incluir algún nivel de nitidez en cada ajuste preestablecido.
 
 **Calidad JPG**
 
@@ -120,13 +120,13 @@ Las opciones de Calidad JPG controlan el nivel de compresión JPG:
 
 * **Activar el muestreo descendente de crominancia JPG** : como el ojo es menos sensible a la información de color de alta frecuencia que la luminancia de alta frecuencia, las imágenes JPEG dividen la información de la imagen en componentes de luminancia y color. Al comprimir una imagen JPEG, el componente de luminancia conserva la totalidad de su resolución, mientras que la resolución de los componentes de color se disminuye mediante promedios de grupos de píxeles. La disminución de resolución le resta una mitad o un tercio al volumen de los datos sin tener casi ningún impacto en la calidad percibida. La disminución de resolución no se aplica a las imágenes en escala de grises. Esta técnica reduce la cantidad de compresión, lo cual resulta útil para las imágenes de mayor contraste (por ejemplo, las imágenes con texto superpuesto).
 
-**Configuración de las opciones de enfoque en toda la empresa**
+**Establecer opciones de enfoque para toda la compañía**
 
 Si no utiliza un ajuste preestablecido de imagen o transfiere protocolos de enfoque específicos del servidor de imagen junto con la cadena URL, la imagen no se enfocará cuando disminuya su resolución. Sin embargo, si se produce esta falta de nitidez, puede establecer valores de nitidez predeterminados y, a continuación, cualquier imagen siempre tiene un enfoque.
 
-Para establecer las opciones de enfoque predeterminadas de su empresa, haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Configuración de publicación]** > **[!UICONTROL Servidor de imágenes]**. Si establece el modo de remuestreo predeterminado en **[!UICONTROL Sharp2]**, siempre afilará la imagen al reducirla.
+Para establecer las opciones de enfoque predeterminadas de su empresa, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Configuración de publicación]** > **[!UICONTROL Servidor de imágenes]**. Si establece el modo de remuestreo predeterminado en **[!UICONTROL Sharp2]**, siempre afilará la imagen al reducirla.
 
-**Adición de enfoque a ajustes preestablecidos de visor**
+**Adición de nitidez a los ajustes preestablecidos de visor**
 
 A no ser que se agreguen modificadores de imagen de enfoque al ajuste preestablecido, la pequeña imagen inicial de carga puede parecer suave porque se ha disminuido su resolución para que se ajuste a la ventana del visor sin enfocarla.
 
@@ -140,8 +140,8 @@ Para llamar al ajuste preestablecido de visualizador, utilice el comando `config
 
 El ajuste preestablecido enfoca y cambia la apariencia predeterminada del visor.
 
-**Creación de anulaciones específicas de la imagen**
+**Crear anulaciones específicas de la imagen**
 
 El último método de enfoque (y el menos recomendado) consiste en crear anulaciones de enfoque imagen por imagen. Este método anula el enfoque en un ajuste preestablecido de imagen con sus propios valores específicos. Sin embargo, este método también anula todos los demás métodos de nitidez a cualquier tamaño. El mejor caso de uso de este método es si algunas de las imágenes no son de alta resolución y los valores de los ajustes preestablecidos de imagen son demasiado altos para estas imágenes pequeñas. En este caso, es posible que se necesite un cierto enfoque por imagen.
 
-En Adobe Dynamic Media Classic, seleccione cualquier imagen, vaya a la Vista de detalles (haciendo doble clic o pulsando el botón **[!UICONTROL Vista de detalles]**) y haga clic en **[!UICONTROL Enfocar]**. Cambie cualquier parámetro y haga clic en **[!UICONTROL Guardar]**. Este proceso indica al servidor de imágenes que utilice estos parámetros de nitidez en lugar de cualquier comando al que llame en la URL, como un modificador de nitidez o un ajuste preestablecido de imagen. Asegúrese de publicar para ver que los cambios surten efecto.
+En Adobe Dynamic Media Classic, seleccione cualquier imagen, vaya a la Vista de detalles (haciendo doble clic o pulsando el botón **[!UICONTROL Vista de detalles]**) y seleccione **[!UICONTROL Enfocar]**. Cambie cualquier parámetro y seleccione **[!UICONTROL Guardar]**. Este proceso indica al servidor de imágenes que utilice estos parámetros de nitidez en lugar de cualquier comando al que llame en la URL, como un modificador de nitidez o un ajuste preestablecido de imagen. Asegúrese de publicar para ver que los cambios surten efecto.

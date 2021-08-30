@@ -11,10 +11,10 @@ discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 6ed77dbc14b0b1f62f119b7ceb0ada21679781c1
 workflow-type: tm+mt
-source-wordcount: '3893'
-ht-degree: 69%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -84,9 +84,9 @@ Consulte [Ajustes preestablecidos de codificación de vídeo para equipos de esc
 1. En el cuadro de diálogo Volver a procesar activos, expanda **[!UICONTROL Opciones de eVideo]** y, a continuación, realice una de las siguientes acciones:
    * La práctica recomendada es utilizar el método siguiente. Seleccione **Vídeo adaptable**.
 Consulte [Vídeo adaptable (predeterminado)](application-setup.md#adaptive-video-default).
-   * Opcional. Si desea utilizar ajustes de codificación individuales, expanda ****[!UICONTROL Ajustes preestablecidos de codificación única]**** y, a continuación, seleccione las opciones de codificación que desee para equipos de escritorio, móviles y tableta.
+   * Opcional. Si desea utilizar ajustes de codificación individuales, expanda **[!UICONTROL Ajustes preestablecidos de codificación única]** y, a continuación, seleccione las opciones de codificación que desee para equipos de escritorio, móviles y tableta.
 Consulte [Ajustes preestablecidos de codificación de vídeo para equipos de escritorio](application-setup.md#desktop-video-encoding-presets), [Ajustes preestablecidos de codificación de vídeo para dispositivos móviles](application-setup.md#mobile-video-encoding-presets), [Ajustes preestablecidos de codificación de vídeo para tablets](application-setup.md#tablet-video-encoding-presets).
-1. En el cuadro de diálogo Volver a procesar los recursos, haga clic en **[!UICONTROL Enviar]**.
+1. En el cuadro de diálogo Volver a procesar activos, seleccione **[!UICONTROL Enviar]**.
 
 Cuando se utiliza un ajuste preestablecido de codificación de vídeo adaptable o varios ajustes preestablecidos de codificación individuales, el resultado es un conjunto de vídeos adaptables que se crea automáticamente con varias codificaciones de vídeo. También puede crear manualmente un conjunto de vídeos adaptables seleccionando los vídeos individuales.
 
@@ -140,7 +140,7 @@ Al codificar un archivo de vídeo, utilice el archivo de vídeo de origen de la 
 En la tabla siguiente se describe el tamaño recomendado, la proporción de aspecto y la velocidad de bits mínima que deben tener los archivos de vídeo de origen al codificarlos:
 
 | Tamaño | Proporción de aspecto | Velocidad de bits mínima |
-|--- |--- |--- |
+| --- | --- | --- |
 | 1024 X 768 | 4:3 | 4500 Kbps para la mayoría de vídeos. |
 | 1280 X 720 | 16:9 | 3000 - 6000 kbps, dependiendo de la cantidad de movimiento del vídeo. |
 | 1920 X 1080 | 16:9 | 6000 - 8000 kbps, dependiendo de la cantidad de movimiento del vídeo. |
@@ -149,7 +149,7 @@ En la tabla siguiente se describe el tamaño recomendado, la proporción de aspe
 
 Puede obtener los metadatos de un archivo consultando sus metadatos en Adobe Dynamic Media Classic, utilizando una herramienta de edición de vídeo o utilizando una aplicación diseñada para obtener metadatos. A continuación se muestran instrucciones para el uso de MediaInfo, una aplicación de terceros, para obtener los metadatos de un archivo de vídeo:
 
-1. Vaya a esta página web: [https://mediainfo.sourceforge.net/en/Download](https://mediainfo.sourceforge.net/en/Download).
+1. Vaya a esta página web: [https://mediaarea.net/en/MediaInfo](https://mediaarea.net/en/MediaInfo).
 1. Seleccione y descargue el instalador para la versión de interfaz gráfica de usuario y siga las instrucciones de instalación.
 1. Después de la instalación, haga clic con el botón derecho en el archivo de vídeo (solo Windows®) y seleccione MediaInfo, o abra MediaInfo y arrastre el archivo de vídeo a la aplicación. Se ven todos los metadatos asociados al archivo de vídeo, incluida su anchura, su altura y los fotogramas por segundo.
 
