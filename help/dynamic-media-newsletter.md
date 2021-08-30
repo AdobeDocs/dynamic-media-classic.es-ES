@@ -5,9 +5,9 @@ keywords: dynamic media;newsletter;actualizaciones de productos;sugerencias y tr
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ En este boletín archivado de una sola tienda, puede encontrar recursos valiosos
    * Obtenga información sobre un próximo seminario web sobre la protección de recursos digitales.
    * A continuación, se detiene en el Adobe Insider Tour, lleno de información.
    * Funciones interesantes disponibles cuando tiene Dynamic Media en Recursos de Experience Manager (Recursos de Experience Manager).
-   * Agregar vídeos de 360 grados y miniaturas de vídeo personalizadas al sitio web.
+   * Agregar vídeos de 360° y miniaturas de vídeo personalizadas al sitio web.
    * Conozca a `Andrew Hathaway`, consultor de soluciones principales para Dynamic Media dentro de Recursos de Experience Manager.
 
 * **[Junio de 2019, número 06](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_06_2019_June.html)**

@@ -1,6 +1,6 @@
 ---
 title: '"Inicio rápido: Media Portal"'
-description: Introducción y inicio rápido de Media Portal para ayudarle a poner en marcha rápidamente las técnicas y la administración de Media Portal.
+description: Introducción y inicio rápido de Media Portal para ayudarle a poner en marcha rápidamente las técnicas y la administración de Media Portal en Adobe Dynamic Media Classic.
 uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 73%
+source-wordcount: '693'
+ht-degree: 68%
 
 ---
 
@@ -23,7 +23,7 @@ Media Portal permite que las empresas adquieran, controlen y distribuyan fácilm
 
 Como administrador, podrá controlar la forma en la que los usuarios ven los recursos en Media Portal, cómo acceden a ellos y cómo los utilizan. Es más, podrá personalizar la interfaz de Media Portal según el estilo de su sitio web y su marca. Puede especificar la fuente, el color de la fuente, el tamaño de la fuente e incorporar elementos de marca como logotipos en la interfaz de Media Portal.
 
-Esta sección de inicio rápido se ha diseñado para que se familiarice rápidamente con el proceso de administración de Media Portal. Al final de cada paso, haga clic en el vínculo del tema para obtener más información.
+Esta sección de inicio rápido se ha diseñado para que se familiarice rápidamente con el proceso de administración de Media Portal. Al final de cada paso, seleccione el vínculo del tema para obtener más información.
 
 ## 1. Comprensión del funcionamiento de las funciones de usuario en Media Portal
 
@@ -35,13 +35,13 @@ Consulte [Funciones de usuario en Media Portal](media-portal-user-roles.md#media
 
 Los grupos determinan las carpetas y los archivos a los que los usuarios tienen acceso, las acciones que pueden realizar los usuarios en dichas carpetas y en dichos archivos, así como los ajustes preestablecidos de imágenes disponibles. Como administrador, su primera tarea será la de crear grupos. Para cada grupo, deberá decidir a qué carpetas, a qué archivos y a qué ajustes preestablecidos de imágenes pueden acceder los miembros de dicho grupo. También tendrá que otorgar permisos de lectura, escritura y eliminación a los miembros del grupo. Estos permisos determinan si los miembros del grupo pueden explorar, editar o eliminar las carpetas y los archivos a los que tengan acceso, o cambiarles el nombre.
 
-Consulte [Creación y administración de grupos de Media Portal](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
+Consulte [Crear y administrar grupos de Media Portal](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
 
 ## 3. Adición de usuarios
 
 Cuando se agrega un usuario, se le asigna una función (usuario, colaborador o usuario colaborador). También tendrá que asignar el usuario a un grupo o a varios. Para acelerar el proceso de adición de usuarios, puede cargar una lista de usuarios en forma de archivo CSV. Los usuarios nuevos recibirán un mensaje de correo electrónico de bienvenida con instrucciones acerca de cómo iniciar sesión en Media Portal.
 
-Consulte [Adición y administración de usuarios de Media Portal](adding-media-portal-users.md#adding_and_managing_media_portal_users).
+Consulte [Agregar y administrar usuarios de Media Portal](adding-media-portal-users.md#adding_and_managing_media_portal_users).
 
 ## 4. Administración de cuentas de FTP
 
@@ -59,13 +59,13 @@ Consulte [Funciones de usuario en Media Portal](media-portal-user-roles.md#media
 
 Si les da permiso para ello, los usuarios de Media Portal pueden cambiar el formato de los archivos al exportarlos, así como pueden exportar los archivos principales originales. Como administrador, usted decidirá cómo deben exportar los archivos los usuarios. 
 
-Consulte [Especificación de opciones de exportación disponibles para los usuarios de Media Portal](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
+Consulte [Especificar las opciones de exportación disponibles para los usuarios de Media Portal](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
 ## 6. Creación de ajustes preestablecidos de imagen
 
 Un ajuste preestablecido de imagen es una recopilación de ajustes predefinidos para cambiar el tamaño, la calidad de la imagen, el formato, la resolución y otros aspectos visuales de una imagen al exportarse. Puede crear ajustes preestablecidos de imágenes para controlar el modo en el que se cambiará el formato de las imágenes cuando los usuarios las exporten. 
 
-Consulte [Creación y activación de ajustes preestablecidos de imagen](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
+Consulte [Crear y habilitar ajustes preestablecidos de imagen](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
 
 ## 7. Creación de ajustes preestablecidos de metadatos y campos de metadatos personalizables
 
@@ -77,4 +77,4 @@ Consulte [Uso eficaz de los metadatos](making-efficient-metadata.md#making_more_
 
 La configuración de estilo de Media Portal le permite personalizar la marca de la página de Media Portal con el logotipo y los colores de su empresa. Utilice la configuración de estilo para colocar la marca de su empresa en Media Portal.
 
-Consulte [Personalización de la página de Media Portal](customizing-media-portal-screen.md#customizing_the_media_portal_screen).
+Consulte [Personalizar la página de Media Portal](customizing-media-portal-screen.md#customizing_the_media_portal_screen).
