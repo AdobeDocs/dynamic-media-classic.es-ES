@@ -1,30 +1,30 @@
 ---
-title: Carga de recursos de imagen o recursos de vector
-description: Obtenga información sobre cómo cargar un recurso de imagen o un recurso vectorial.
+title: Cargar un recurso de imagen o un recurso vectorial
+description: Obtenga información sobre cómo cargar un recurso de imagen o un recurso vectorial en Adobe Dynamic Media Classic
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '1495'
-ht-degree: 78%
+source-wordcount: '1504'
+ht-degree: 70%
 
 ---
 
-# Carga de recursos de imagen o recursos de vector{#uploading-an-image-asset-or-a-vector-asset}
+# Cargar un recurso de imagen o un recurso vectorial{#uploading-an-image-asset-or-a-vector-asset}
 
 Para poder cargar un recurso de imagen, primero debe solicitar una clave secreta compartida. Esta clave permite recuperar un distintivo de carga. Este distintivo de carga se emplea para cargar recursos de imagen o vector.
 
-## Solicitud de la clave secreta compartida {#requesting-a-shared-secret-key}
+## Solicitar una clave secreta compartida {#requesting-a-shared-secret-key}
 
 Solicite una *clave secreta compartida* [utilizando el Admin Console para crear un caso de soporte.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) En su caso de asistencia, solicite una clave secreta compartida.
 
 En el mensaje, proporcione el nombre de empresa que desee utilizar para cargar los recursos de imagen. Cuando reciba la clave de Adobe Dynamic Media Classic, guárdela localmente para usarlo más adelante.
 
-## Recuperación del distintivo de carga {#retrieving-the-upload-token}
+## Recuperar el token de carga {#retrieving-the-upload-token}
 
 El *distintivo de carga* garantiza que nadie más use la misma clave secreta compartida para cargar recursos. Garantiza que la carga sea legítima y que proceda de una fuente de confianza.
 
@@ -68,7 +68,7 @@ Guarde el distintivo de carga en el equipo local para utilizarlo en las futuras 
 Se pueden usar los campos siguientes en la cadena de consulta URL para recuperar un distintivo de carga:
 
 | Parámetro de URL | Obligatorio u opcional | Valor |
-|--- |--- |--- |
+| --- | --- | --- |
 | op | Obligatorio | get_uploadtoken |
 | shared_secret | Obligatorio | Clave secreta compartida de la empresa que realiza la carga. |
 | expires | Opcional | Número de segundos durante los que es válido el distintivo de carga. Si no se especifica, el valor predeterminado es 300 segundos. |
@@ -86,9 +86,9 @@ Se pueden usar los campos siguientes en la cadena de consulta URL para recuperar
 
 Ya puede cargar un recurso de imagen.
 
-Consulte [Carga de recursos de imagen](uploading-image-asset-or-vector.md#uploading_an_image_asset).
+Consulte [Cargar un recurso de imagen](uploading-image-asset-or-vector.md#uploading_an_image_asset).
 
-## Carga de recursos de imagen {#uploading-an-image-asset}
+## Cargar un recurso de imagen {#uploading-an-image-asset}
 
 Después de recuperar un distintivo de carga válido durante un tiempo determinado, ya se puede cargar un recurso de imagen. El recurso se carga como una publicación de varias partes o formularios mientras que el resto de los valores se envía en forma de cadena de consulta URL, tal como se muestra en este ejemplo:
 
@@ -98,9 +98,9 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 Los campos `upload_token` y `company_name` son obligatorios.
 
-Consulte [Recuperación del distintivo de carga](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
+Consulte [Recuperar el token de carga](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
-Consulte [Recuperación de la clave secreta compartida](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
+Consulte [Recuperar una clave secreta compartida](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
 
 También se pueden enviar otros valores opcionales en forma de cadenas de consulta URL, como en este ejemplo:
 
@@ -113,7 +113,7 @@ El parámetro `file_limit` especifica el límite de tamaño de archivo en bytes.
 En la aplicación se definen límites globales tanto para el límite de tamaño de los archivos como para las extensiones de nombre de archivo permitidas. Todo lo incluido en la solicitud se acepta si es un subconjunto de los límites globales. Éstos son los límites globales:
 
 | Límite global | Valor |
-|--- |--- |
+| --- | --- |
 | Tamaño de archivo para todos los clientes | 20 MB |
 | Formatos de archivo de imagen admitidos para la carga | BMP, GIF, JPG, PNG y PSD |
 
@@ -125,7 +125,7 @@ El siguiente formulario HTML permite al usuario cargar un recurso. En el formula
 * Lista de extensiones de nombre de archivo.
 * Si se desea conservar el perfil de color y el nombre de archivo asociados al recurso.
 * Si se utiliza el fondo de Knockout. Si activa Fondo de Knockout, defina la Esquina, Tolerancia y Método de Relleno.
-Consulte Contexto de Knockout en [Opciones de edición de imágenes al cargar](image-editing-options-upload.md#image-editing-options-at-upload).
+Consulte Contexto de Knockout en [Opciones de ajuste de imágenes en upload](image-editing-options-upload.md#image-editing-options-at-upload).
 * Nombre del archivo que se debe cargar.
 
 <!-- 
@@ -138,11 +138,11 @@ Last Modified Date:
 
  -->
 
-Puede ver el código fuente HTML asociado con el formulario anterior haciendo clic en [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
+Puede ver el código fuente HTML asociado con el formulario anterior seleccionando [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-En Firefox, haga clic con el botón secundario en la ventana del explorador y, a continuación, haga clic en **[!UICONTROL Ver origen de página]**. El código muestra la cadena de consulta URL y el método POST oportunos que se ejecutan cuando el usuario hace clic en **[!UICONTROL Enviar]**.
+En Firefox, haga clic con el botón derecho en la ventana del explorador y, a continuación, seleccione **[!UICONTROL Ver origen de página]**. El código muestra la cadena de consulta URL y el método POST oportunos que se ejecutan cuando el usuario hace clic en **[!UICONTROL Enviar]**.
 
-Para ver la respuesta en XML en Internet Explorer, haga clic en **[!UICONTROL Ver]** > **[!UICONTROL Código fuente]**. Para ver la respuesta XML en Firefox, haga clic en **[!UICONTROL Tools]** > **[!UICONTROL Browser Tools]** > **[!UICONTROL Web Developer Tools]**. Se recomienda utilizar Firefox para ver las respuestas en XML.
+Para ver la respuesta XML en Internet Explorer, vaya a **[!UICONTROL View]** > **[!UICONTROL Source]**. Para ver la respuesta XML en Firefox, vaya a **[!UICONTROL Tools]** > **[!UICONTROL Browser Tools]** > **[!UICONTROL Web Developer Tools]**. Se recomienda utilizar Firefox para ver las respuestas en XML.
 
 A continuación se muestra una respuesta de carga correcta de ejemplo:
 
@@ -179,7 +179,7 @@ https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit
 Envíe el recurso para la carga como una publicación de varias partes o formularios y el resto de los valores en forma de cadena de consulta URL. Se pueden usar los campos siguientes en la cadena de consulta URL para cargar un recurso:
 
 | Parámetro de URL | Obligatorio u opcional | Valor |
-|--- |--- |--- |
+| --- | --- | --- |
 | `op` | Obligatorio | cargar |
 | `upload_token` | Obligatorio | Distintivo de carga para la clave secreta compartida asociada a la empresa. |
 | `company_name` | Obligatorio | Nombre de la empresa que realiza la carga. |
@@ -200,7 +200,7 @@ Envíe el recurso para la carga como una publicación de varias partes o formula
 
 POST
 
-### Obtención de los metadatos de los recursos de imagen {#getting-asset-metadata-for-images}
+### Obtener metadatos de recursos para imágenes {#getting-asset-metadata-for-images}
 
 Se puede usar `image_info` para recuperar los metadatos de cualquier recurso cargado, tal como se muestra en el siguiente ejemplo:
 
@@ -235,7 +235,7 @@ Un ejemplo de respuesta correcta es similar al siguiente:
 Se pueden usar los campos siguientes en la cadena de consulta URL para solicitar información de un recurso:
 
 | Parámetro de URL | Obligatorio u opcional | Valor |
-|--- |--- |--- |
+| --- | --- | --- |
 | `op` | Obligatorio | image_info |
 | `shared_secret` | Obligatorio | Clave secreta compartida de la empresa. |
 | `image_name` | Obligatorio | Nombre de la imagen. |
@@ -248,7 +248,7 @@ Se pueden usar los campos siguientes en la cadena de consulta URL para solicitar
 
 GET y POST
 
-## Carga de recursos de vector {#uploading-a-vector-asset}
+## Cargar un recurso vectorial {#uploading-a-vector-asset}
 
 Después de recuperar un distintivo de carga válido durante un tiempo determinado, ya se puede cargar un recurso de vector. El recurso se carga como una publicación de varias partes o formularios mientras que el resto de los valores se envía en forma de cadena de consulta URL, tal como se muestra en este ejemplo:
 
@@ -258,9 +258,9 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 Los campos `upload_token` y `company_name` son obligatorios.
 
-Consulte [Recuperación del distintivo de carga](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
+Consulte [Recuperar el token de carga](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
-Consulte [Recuperación de la clave secreta compartida](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
+Consulte [Recuperar una clave secreta compartida](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
 
 También se pueden enviar otros valores opcionales en forma de cadenas de consulta URL, como en este ejemplo:
 
@@ -273,7 +273,7 @@ El parámetro `file_limit` especifica el límite de tamaño de archivo en bytes.
 En la aplicación se definen límites globales tanto para el límite de tamaño de los archivos como para las extensiones de nombre de archivo permitidas. Todo lo incluido en la solicitud se acepta si es un subconjunto de los límites globales. Éstos son los límites globales:
 
 | Límite global | Valor |
-|--- |--- |
+| --- | --- |
 | Tamaño de archivo para todos los clientes | 20 MB |
 | Formatos de archivo de vector admitidos para la carga | AI, EPS, PDF (solo cuando el archivo PDF se haya abierto y guardado en Adobe Illustrator CS6) |
 
@@ -285,7 +285,7 @@ El siguiente formulario HTML permite al usuario cargar un recurso. En el formula
 * Lista de extensiones de nombre de archivo.
 * Si se desea conservar el perfil de color y el nombre de archivo asociados al recurso.
 * Si se utiliza el fondo de Knockout. Si activa Fondo de Knockout, defina la Esquina, Tolerancia y Método de Relleno.
-Consulte Contexto de Knockout en [Opciones de edición de imágenes al cargar](image-editing-options-upload.md#image-editing-options-at-upload).
+Consulte Contexto de Knockout en [Opciones de ajuste de imágenes en upload](image-editing-options-upload.md#image-editing-options-at-upload).
 * Nombre del archivo que se debe cargar.
 
 <!-- 
@@ -298,7 +298,7 @@ Last Modified Date:
 
  -->
 
-El siguiente código HTML se muestra al hacer clic con el botón derecho en la ventana del explorador y, a continuación, hacer clic en **[!UICONTROL Ver origen]** para ver el formulario que se muestra en el ejemplo. El código muestra la cadena de consulta URL y el método POST oportunos que se ejecutan cuando el usuario hace clic en **[!UICONTROL Enviar]**.
+El siguiente código HTML se muestra al hacer clic con el botón derecho en la ventana del explorador y, a continuación, seleccionar **[!UICONTROL Ver origen]** para el formulario que se muestra en el ejemplo. El código muestra la cadena de consulta URL correspondiente y el método de POST que se ejecutan cuando el usuario selecciona **[!UICONTROL Submit]**.
 
 ```as3
 <body> 
@@ -324,7 +324,7 @@ return true;
 </tr> 
 <tr><td colspan="2"></td></tr> 
 <tr> 
-<td><strong>Click Submit to upload your Vector: </strong></td> 
+<td><strong>Select Submit to upload your Vector: </strong></td> 
 <td><input type="submit" value="Submit"></td> 
 </tr> 
 </table> 
@@ -332,7 +332,7 @@ return true;
 </body>
 ```
 
-Para ver la respuesta en XML en Internet Explorer, haga clic en **[!UICONTROL Ver]** > **[!UICONTROL Código fuente]**. Para ver la respuesta XML en Firefox, haga clic en **[!UICONTROL Tools]** > **[!UICONTROL Browser Tools]** > **[!UICONTROL Page Source]**. Se recomienda utilizar Firefox para ver las respuestas en XML.
+Para ver la respuesta XML en Internet Explorer, vaya a **[!UICONTROL View]** > **[!UICONTROL Source]**. Para ver la respuesta XML en Firefox, vaya a **[!UICONTROL Tools]** > **[!UICONTROL Browser Tools]** > **[!UICONTROL Page Source]**. Se recomienda utilizar Firefox para ver las respuestas en XML.
 
 A continuación se muestra una respuesta de carga correcta de ejemplo:
 
@@ -371,7 +371,7 @@ https://s7w2p1.scene7.com/is/agm/W2PTest/ugc/8875744.fxg?fmt=png&wid=500&hei=500
 Envíe el recurso para la carga como una publicación de varias partes o formularios y el resto de los valores en forma de cadena de consulta URL. Se pueden usar los campos siguientes en la cadena de consulta URL para cargar un recurso:
 
 | Parámetro de URL | Obligatorio u opcional | Valor |
-|--- |--- |--- |
+| --- | --- | --- |
 | `op` | Obligatorio | cargar |
 | `upload_token` | Obligatorio | Distintivo de carga para la clave secreta compartida asociada a la empresa. |
 | `company_name` | Obligatorio | Nombre de la empresa que realiza la carga. |

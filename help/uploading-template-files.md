@@ -1,6 +1,6 @@
 ---
-title: Carga de archivos de plantilla
-description: Obtenga información sobre cómo cargar archivos de plantilla.
+title: Cargar archivos de plantilla
+description: Obtenga información sobre cómo cargar archivos de plantilla en Adobe Dynamic Media Classic.
 uuid: e19979b5-3f41-49c5-99aa-107ede3be98c
 contentOwner: admin
 content-type: reference
@@ -10,14 +10,14 @@ discoiquuid: 75658717-5c39-473e-9d32-718d00706310
 feature: Dynamic Media Classic
 role: User
 exl-id: a105c18a-7e06-43cb-938c-a3bcdc3e9d22
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 48%
+source-wordcount: '242'
+ht-degree: 38%
 
 ---
 
-# Carga de archivos de plantilla{#uploading-template-files}
+# Cargar archivos de plantilla{#uploading-template-files}
 
 Cargue los archivos que necesita para la plantilla en Adobe Dynamic Media Classic antes de comenzar a crear la plantilla. Puede generar plantillas a partir de un archivo PSD de Adobe® Photoshop® o un archivo de imagen. Se recomienda usar imágenes TIFF y PNG, ya que permiten transparencia.
 
@@ -27,9 +27,9 @@ Cargue los archivos que necesita para la plantilla en Adobe Dynamic Media Classi
 
 Las plantillas pueden crearse a partir de archivos PSD de Adobe Photoshop o archivos de imagen. 
 
-Para obtener instrucciones detalladas sobre cómo cargar archivos, consulte [Carga de archivos](uploading-files.md#uploading_files). Tenga en cuenta lo siguiente al cargar archivos de plantilla:
+Para obtener instrucciones detalladas sobre la carga de archivos, consulte [Cargar archivos](uploading-files.md#uploading_files). Tenga en cuenta lo siguiente al cargar archivos de plantilla:
 
-* Si está cargando un archivo PSD, puede crear una plantilla a partir de él. Adobe Dynamic Media Classic crea una imagen independiente para cada capa en el PSD. En el cuadro de diálogo Opciones de carga de trabajo, haga clic en **[!UICONTROL Opciones de Photoshop]** y seleccione **[!UICONTROL Mantener capas]** y **[!UICONTROL Crear plantilla]**. A continuación, elija una opción en la lista desplegable **[!UICONTROL Layer Naming]** para asignar un nombre a las imágenes que Adobe Dynamic Media Classic crea a partir de las capas del PSD.
+* Si está cargando un archivo PSD, puede crear una plantilla a partir de él. Adobe Dynamic Media Classic crea una imagen independiente para cada capa en el PSD. En el cuadro de diálogo Opciones de carga de trabajo, seleccione **[!UICONTROL Opciones de Photoshop]** y **[!UICONTROL Mantener capas]** y **[!UICONTROL Crear plantilla]**. A continuación, elija una opción en la lista desplegable **[!UICONTROL Layer Naming]** para asignar un nombre a las imágenes que Adobe Dynamic Media Classic crea a partir de las capas del PSD.
 Consulte [Opciones de carga de archivos PSD](psd-files.md#psd_upload_options).
 
 <!-- THERE IS NO LONGER AN IMAGE EDITING OPTIONS MENU * If you are uploading images, you can create a mask from its clipping path. This option applies to images created with image-editing applications in which a clipping path was created. In the Upload Job Options dialog box, select Image Editing Options and select the Create Mask From Clipping Path option. 
@@ -37,6 +37,6 @@ See [Image editing options at upload](image-editing-options-upload.md#image-edit
 
 >[!MORELIKETHIS]
 >
->* [Carga de los archivos](uploading-files.md#uploading_your_files)
->* [Uso de archivos PSD ](psd-files.md#working_with_psd_files)
+>* [Cargar los archivos](uploading-files.md#uploading_your_files)
+>* [Trabajo con archivos PSD](psd-files.md#working_with_psd_files)
 

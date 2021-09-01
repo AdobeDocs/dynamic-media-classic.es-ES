@@ -1,6 +1,6 @@
 ---
-title: Visualización, adición y exportación de metadatos
-description: Obtenga información sobre cómo ver, agregar y exportar metadatos.
+title: Ver, agregar y exportar metadatos
+description: Obtenga información sobre cómo ver, agregar y exportar metadatos en Adobe Dynamic Media Classic.
 uuid: a5254c51-9e04-45ae-8236-3eab2925e5fc
 contentOwner: admin
 content-type: reference
@@ -10,14 +10,14 @@ discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
 feature: Dynamic Media Classic,Asset Management,Metadata
 role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '2268'
-ht-degree: 48%
+source-wordcount: '2259'
+ht-degree: 46%
 
 ---
 
-# Visualización, adición y exportación de metadatos{#viewing-adding-and-exporting-metadata}
+# Ver, agregar y exportar metadatos{#viewing-adding-and-exporting-metadata}
 
 Puede almacenar información específica de los archivos con los que trabaja en Adobe Dynamic Media Classic; esta información se denomina *metadata*. Puede utilizar metadatos en Adobe Dynamic Media Classic para organizar, buscar, filtrar y ordenar sus recursos.
 
@@ -25,7 +25,7 @@ Los metadatos aparecen en la Vista de detalles junto con la información generad
 
 Algunos metadatos están incrustados directamente en un archivo. Si un archivo contiene estos metadatos, Adobe Dynamic Media Classic los carga automáticamente con el archivo . Puede incrustar metadatos en recursos de origen en Adobe Photoshop, InDesign, Illustrator y otras aplicaciones. Adobe Dynamic Media Classic reconoce estos metadatos. También puede agregar metadatos a archivos individuales en el panel Metadatos de la Vista de detalles. Para mantener la coherencia entre los recursos, los administradores de empresa pueden crear plantillas de metadatos que proporcionen los campos de metadatos que se pueden rellenar.
 
-Para obtener más información sobre los metadatos incrustados, consulte [www.adobe.com/go/learn_s7_xmp_en](https://www.adobe.com/go/learn_s7_xmp_en).
+Para obtener más información sobre los metadatos incrustados, consulte [Plataforma de metadatos extensible](https://www.adobe.com/products/xmp.html).
 
 ## Visualización de metadatos {#view-metadata}
 
@@ -47,13 +47,13 @@ Consulte [Vistas de metadatos](application-setup.md#metadata_views) para obtener
 1. Abra el panel Metadatos y realice una de estas acciones o ambas:
 
    * Elija una vista de metadatos para determinar qué campos de metadatos aparecen en el panel.
-   * Elija un valor preestablecido y, a continuación, haga clic en **[!UICONTROL Aplicar]** para rellenar los campos de metadatos con valores preestablecidos. Los administradores de empresas son los encargados de crear estos valores de ajustes preestablecidos.
+   * Elija un valor preestablecido y, a continuación, seleccione **[!UICONTROL Aplicar]** para rellenar los campos de metadatos con valores preestablecidos. Los administradores de empresas son los encargados de crear estos valores de ajustes preestablecidos.
 
 1. Introduzca los valores en el panel Metadatos.
 
 >[!NOTE]
 >
->Para editar los metadatos de varios recursos a la vez, seleccione los recursos y haga clic en **[!UICONTROL Archivo]** > **[!UICONTROL Editar información]**. Los cambios que se hagan en la ventana Editar información se aplicarán a todos los recursos seleccionados.
+>Para editar los metadatos de varios recursos a la vez, seleccione los recursos y vaya a **[!UICONTROL File]** > **[!UICONTROL Edit Info]**. Los cambios que se hagan en la ventana Editar información se aplicarán a todos los recursos seleccionados.
 
 ## Adición o edición de palabras clave {#add-or-edit-keywords}
 
@@ -62,13 +62,13 @@ Además de los metadatos, puede utilizar palabras clave para ayudarle a buscar y
 Si ha agregado palabras clave a otros archivos durante esta sesión o si ha eliminado palabras clave de la lista, estas aparecerán en la tabla Sugerencias de palabras clave.
 
 1. Abra el archivo en la vista de detalles.
-1. Haga clic en **[!UICONTROL Palabras clave]**.
+1. Seleccione **[!UICONTROL Palabras clave]**.
 1. Para agregar palabras clave, realice lo siguiente:
 
-   * Escriba una palabra clave en el cuadro de texto y haga clic en **[!UICONTROL Agregar]**.
-   * Haga clic en una palabra clave de la tabla **[!UICONTROL Sugerencias de palabras clave]**.
+   * Escriba una palabra clave en el cuadro de texto y seleccione **[!UICONTROL Agregar]**.
+   * Seleccione una palabra clave en la tabla **[!UICONTROL Sugerencias de palabras clave]**.
 
-1. Para eliminar una palabra clave, selecciónela y haga clic en **[!UICONTROL Quitar]**. Pasará a incluirse en la tabla Sugerencias de palabras clave.
+1. Para eliminar una palabra clave, selecciónela y seleccione **[!UICONTROL Quitar]**. Pasará a incluirse en la tabla Sugerencias de palabras clave.
 
 >[!NOTE]
 >
@@ -87,13 +87,13 @@ En lugar de introducir los metadatos manualmente de uno en uno, puede importar l
 Puede encontrar más información sobre las propiedades estandarizadas en [Adobe XMP Developer Center](https://www.adobe.com/devnet/xmp.html).
 
 1. En el panel Examinar, seleccione las imágenes a las que quiera agregar metadatos a partir del archivo delimitado por tabuladores o XML.
-1. Haga clic en **[!UICONTROL Archivo]** > **[!UICONTROL Importar metadatos]**.
-1. En el cuadro de diálogo **[!UICONTROL Cargar metadatos]**, haga clic en **[!UICONTROL Examinar]**.
+1. Vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Importar metadatos]**.
+1. En el cuadro de diálogo **[!UICONTROL Cargar metadatos]**, seleccione **[!UICONTROL Examinar]**.
 1. En el cuadro de diálogo **[!UICONTROL Seleccionar archivos para cargar]**, seleccione el archivo XML o delimitado por tabuladores que contenga los metadatos.
 1. Introduzca un nombre de trabajo.
-1. Haga clic en **[!UICONTROL Cargar]**.
+1. Seleccione **[!UICONTROL Upload]**.
 
-### Identificación de los distintos tipos de metadatos en la importación
+### Identificar diferentes tipos de metadatos en la importación
 
 Tenga en cuenta lo siguiente al identificar diferentes tipos de metadatos para su importación:
 
@@ -107,7 +107,7 @@ Por ejemplo: La propiedad XMP de las palabras clave es el esquema XMP &quot;Dubl
 
 Las palabras clave se pueden importar como lista separada por comas. Si aparece una coma en cualquiera de los valores individuales, debe separarse con una barra invertida (\). Una barra invertida literal es la barra invertida doble habitual (\\).
 
-Por ejemplo, un archivo de importación de metadatos que contiene el valor &quot;Hello\, World!,back\\slash,foo&quot; para `dc:subject` establece tres palabras clave XMP en el recurso: &quot;Hola, mundo&quot;, &quot;atrás\slash&quot; y &quot;foo&quot;.
+Por ejemplo, un archivo de importación de metadatos que contiene el valor `Hello\, World!,back\\slash,foo` para `dc:subject` establece tres palabras clave XMP en el recurso: `Hello, World!,` `back\slash,` y `foo`.
 
 ### Importación de archivos XMP de metadatos de esquemas de metadatos y XMP
 
@@ -131,7 +131,7 @@ Puede importar metadatos de varios archivos introduciendo los metadatos en un ar
 
 Asegúrese de que los datos del archivo XML o delimitado por tabuladores tienen el formato correcto. En la primera fila, introduzca el campo de ID seguido de los nombres de los campos de metadatos que desea modificar. En cada fila posterior, introduzca un nombre de ID de recurso seguido de los valores de los metadatos. Los campos que no se incluyen en el archivo XML o delimitado por tabuladores no se modificarán.
 
-En la barra de navegación global, haga clic en **[!UICONTROL Cargar]**. Para importar los metadatos, en la página Cargar, haga clic en la pestaña **[!UICONTROL Via FTP]** y, a continuación, haga clic en **[!UICONTROL Opciones de trabajo]**. En el cuadro de diálogo Opciones de carga de trabajo, haga clic en **[!UICONTROL Trabajo]** y, a continuación, active la casilla **[!UICONTROL Procesar archivos de metadatos]**.
+En la barra de navegación global, seleccione **[!UICONTROL Cargar]**. Para importar los metadatos, en la página Cargar, seleccione la pestaña **[!UICONTROL Via FTP]** y, a continuación, seleccione **[!UICONTROL Opciones de trabajo]**. En el cuadro de diálogo Opciones de carga de trabajo, seleccione **[!UICONTROL Trabajo]** y, a continuación, active la casilla **[!UICONTROL Procesar archivos de metadatos]**.
 
 ## Cambio de nombre de ID por lotes con metadatos {#batch-rename-ids-using-metadata}
 
@@ -141,8 +141,8 @@ Para cambiar el nombre del Adobe de una imagen con Dynamic Media Classic ID, agr
 
 Por ejemplo:
 
-| ipsid | newipsid |
-|--- |--- |
+|  | newipsid |
+| --- | --- |
 | pruebachaqueta_1 | Prueba_chaqueta_1 |
 | pruebachaqueta_azul | Prueba_chaqueta_2 |
 
@@ -153,15 +153,15 @@ El registro de trabajos del trabajo de metadatos muestra qué ID se renombraron 
 Adobe Dynamic Media Classic ofrece un comando para crear una plantilla para registrar metadatos. El uso de la plantilla garantiza que los metadatos se introducen en el formato correcto para que se puedan cargar correctamente en Adobe Dynamic Media Classic. Para crear una plantilla y utilizarla en la grabación e importación de metadatos en Adobe Dynamic Media Classic, siga estos pasos:
 
 1. Seleccione recursos de imagen con los campos de metadatos que desee incluir en la plantilla.
-1. Haga clic en **[!UICONTROL Archivo]** > **[!UICONTROL Importar metadatos]**.
+1. Vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Importar metadatos]**.
 1. Para el **[!UICONTROL Tipo de propiedades del recurso]**, seleccione **[!UICONTROL Imagen]**.
-1. En la lista desplegable **[!UICONTROL Generar archivo]**, elija **[!UICONTROL Plantilla delimitada por pestañas]**, **[!UICONTROL Metadatos XML de los recursos]** o **[!UICONTROL XML DTD]**.
-1. Haga clic en **[!UICONTROL Generate]**.
+1. En la lista desplegable **[!UICONTROL Generar archivo]**, elija **[!UICONTROL Plantilla delimitada por tabuladores]**, **[!UICONTROL Metadatos XML de los recursos]** o **[!UICONTROL XML DTD]**.
+1. Seleccione **[!UICONTROL Generate]**.
 1. Copie los datos en el cuadro de diálogo que aparece. Utilice estos datos para construir la plantilla.
 
 ## Trabajo con esquemas de metadatos {#working-with-metadata-schemas}
 
-Un administrador de empresa puede ver una lista de todos los esquemas disponibles. En la barra de navegación global, haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Metadatos]** > **[!UICONTROL Esquema de metadatos]**.
+Un administrador de empresa puede ver una lista de todos los esquemas disponibles. En la barra de navegación global, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Metadatos]** > **[!UICONTROL Esquema de metadatos]**.
 
 Inicialmente, la lista de esquemas estándar globales como XMP está oculta. Para verlos, use la casilla de verificación de la parte inferior de la lista.
 
@@ -170,7 +170,7 @@ El administrador de la empresa puede crear un esquema personalizado o editar uno
 Puede utilizar el editor de esquemas de metadatos para realizar las siguientes acciones:
 
 | Acción | Descripción |
-|--- |--- |
+| --- | --- |
 | Agregar | Agrega una propiedad al esquema. Un cuadro de diálogo modal recopila la información: ID, etiqueta, estructura y tipo de datos. |
 | Agregar valor de opción | Agrega una nueva opción seleccionable a una propiedad con estructura Opción abierta u Opción cerrada. Todos los valores de opción son del mismo tipo. Seleccione la propiedad misma para activar el botón. |
 | Editar | Permite editar la etiqueta de una propiedad o valor de opción. Solo se puede cambiar la etiqueta, ID, y la información de tipo es inmutable. |
@@ -185,13 +185,13 @@ El sistema genera automáticamente un esquema personalizado para los campos defi
 
 El Editor de esquemas de metadatos ofrece una forma gráfica de agregar o editar un esquema de empresa personalizado dentro de Adobe Dynamic Media Classic. Un esquema se define por un prefijo, un espacio de nombre y una lista de propiedades.
 
-* **Nombre** : IU-Name para el esquema. Se utiliza para identificar las propiedades en las vistas de metadatos y la búsqueda avanzada. Similar a las secciones XMP como Basic, IPTC, PDF.
+* **[!UICONTROL Nombre]** : IU-Name para el esquema. Se utiliza para identificar las propiedades en las vistas de metadatos y la búsqueda avanzada. Similar a las secciones XMP como Basic, IPTC, PDF.
 
-* **Prefijo** : identificador único técnico para el esquema. Limitado a las letras a-z y A-Z. El prefijo no está visible en la interfaz de usuario de Dynamic Media Classic de Adobe, pero se utiliza cuando los metadatos de un recurso se almacenan en el bloque XMP y en la base de datos. El prefijo se usa para identificar de forma exclusiva los campos de metadatos en las consultas de búsqueda de metadatos en el servidor de metadatos o durante la importación.
+* **[!UICONTROL Prefijo]** : identificador único técnico para el esquema. Limitado a las letras a-z y A-Z. El prefijo no está visible en la interfaz de usuario de Dynamic Media Classic de Adobe, pero se utiliza cuando los metadatos de un recurso se almacenan en el bloque XMP y en la base de datos. El prefijo se usa para identificar de forma exclusiva los campos de metadatos en las consultas de búsqueda de metadatos en el servidor de metadatos o durante la importación.
 
-* **Área de nombres** : identificador único técnico para el esquema, normalmente una URL en el formulario  `https://your.company.com/name/version/`. Consulte ejemplos en la lista de esquemas de estándares. El espacio de nombres no está visible en la interfaz de usuario de Dynamic Media Classic de Adobe, pero se utiliza para almacenar metadatos en el bloque XMP.
+* **[!UICONTROL Área de nombres]** : identificador único técnico para el esquema, normalmente una URL en el formulario  `https://your.company.com/name/version/`. Consulte ejemplos en la lista de esquemas de estándares. El espacio de nombres no está visible en la interfaz de usuario de Dynamic Media Classic de Adobe, pero se utiliza para almacenar metadatos en el bloque XMP.
 
-* **Descripción** : Descripción del esquema de forma libre.
+* **[!UICONTROL Descripción]** : Descripción del esquema de forma libre.
 
 >[!NOTE]
 >
@@ -200,7 +200,7 @@ El Editor de esquemas de metadatos ofrece una forma gráfica de agregar o editar
 Las propiedades describen los metadatos que se pueden almacenar con este esquema en el bloque XMP. Una propiedad consta de lo siguiente:
 
 | Propiedad | Descripción |
-|--- |--- |
+| --- | --- |
 | ID | Identificador técnico para esta propiedad. El ID no está visible en la interfaz de usuario de Dynamic Media Classic de Adobe, pero se utiliza cuando los metadatos de un recurso se almacenan en el bloque XMP y en la base de datos. Este código se utiliza para crear consultas de búsqueda en el servidor de metadatos. El ID tiene algunas limitaciones, por ejemplo: <ul><li>No puede contener espacios</li><li>No &quot;.&quot;, &quot;:&quot;, &quot;$&quot;</li><li>No puede contener un número como primer carácter</li><li>Lo mejor es utilizar una letra de a-z o A-Z como primer carácter</li></ul> <br>Una vez creado, el ID no se puede modificar. |
 | Etiqueta | Nombre de interfaz de usuario para esta propiedad. |
 | Estructura | Determina el tipo de la propiedad junto con el tipo de datos. La estructura puede ser uno de los siguientes valores:<ul><li>Tipo simple: solo el valor del tipo de datos.</li><li>Secuencia: una lista de valores del mismo tipo de datos.</li><li>Opción abierta: seleccione un elemento de la lista de valores predefinidos, o introduzca texto libre. El tipo de datos solo puede ser Cadena o Entero.</li><li>Opción cerrada: seleccione un elemento de la lista de valores predefinidos (una ventana emergente o un cuadro combinado).</li></ul> |
@@ -209,7 +209,7 @@ Las propiedades describen los metadatos que se pueden almacenar con este esquema
 Si la propiedad tiene la estructura Opción abierta u Opción cerrada, debe proporcionar al menos un valor de opción. La Opción abierta se puede cambiar. La Opción cerrada no se puede cambiar. Todos los valores de opción tienen el tipo de datos de la propiedad.
 
 | Propiedad | Descripción |
-|--- |--- |
+| --- | --- |
 | ID | Identificador técnico para este valor. El ID no está visible en la interfaz de usuario de Dynamic Media Classic de Adobe, pero se utiliza cuando los metadatos de un recurso se almacenan en el bloque XMP y en la base de datos. Este ID se utiliza en las consultas de búsquedas del servidor de metadatos. El ID no puede contener espacios. Una vez creado, el ID no se puede modificar. |
 | Etiqueta | Nombre de interfaz de usuario para este valor. |
 

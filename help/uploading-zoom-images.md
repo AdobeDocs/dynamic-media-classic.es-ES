@@ -1,6 +1,6 @@
 ---
-title: Carga de imágenes de zoom
-description: Aprenda a cargar imágenes de zoom.
+title: Cargar imágenes de zoom
+description: Aprenda a cargar imágenes de zoom en Adobe Dynamic Media Classic.
 uuid: 5814ec28-3a06-4b92-b70e-0aa5b83e7b0e
 contentOwner: admin
 content-type: reference
@@ -10,22 +10,22 @@ discoiquuid: e84b7b0e-527a-4c64-bc2a-e5e64d47b2d6
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: 44a82437-7592-484f-b45f-17ed1f6efbec
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 28%
+source-wordcount: '220'
+ht-degree: 21%
 
 ---
 
-# Carga de imágenes de zoom{#uploading-zoom-images}
+# Cargar imágenes de zoom{#uploading-zoom-images}
 
 Las imágenes de zoom deben tener una cantidad elevada de píxeles. Se necesita un número elevado de píxeles para que los espectadores puedan ver claramente los detalles de la imagen cuando hacen zoom en las imágenes. Asegúrese de que las imágenes que utiliza tengan el tamaño adecuado antes de cargarlas en Adobe Dynamic Media Classic.
 
-En la barra de navegación global, haga clic en **[!UICONTROL Cargar]** para comenzar a cargar imágenes.
+En la barra de navegación global, seleccione **[!UICONTROL Upload]** para comenzar a cargar imágenes.
 
-Para obtener instrucciones detalladas sobre cómo cargar imágenes, consulte [Carga de archivos](uploading-files.md#uploading_files).
+Para obtener instrucciones detalladas sobre la carga de imágenes, consulte [Cargar archivos](uploading-files.md#uploading_files).
 
-**Preparación de imágenes para aplicarles zoom:**
+**Prepare sus imágenes para el zoom:**
 
 Para aprovechar al máximo las funciones de zoom de Adobe Dynamic Media Classic, prepare sus archivos de imagen de zoom antes de cargarlos:
 

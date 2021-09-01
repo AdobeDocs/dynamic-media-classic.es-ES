@@ -9,7 +9,7 @@ discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
 source-wordcount: '3866'
 ht-degree: 33%
@@ -128,7 +128,7 @@ Asegúrese de que todos los usuarios de la empresa entienden las reglas de desig
 Normalmente, un nombre de archivo de recurso puede ser el mismo que su número de artículo, SKU de producto u otro nombre que en el siguiente ejemplo:
 
 | Elemento | Nombre de archivo | ID de recurso |
-|--- |--- |--- |
+| --- | --- | --- |
 | 896649 | 896649.jpg | 896649 |
 | 48A3_2X | 48A3_2X.tif | 48A3_2X |
 
@@ -232,7 +232,7 @@ Seleccione esta opción si desea cargar subcarpetas de la carpeta que va a carga
    * **[!UICONTROL Procesar archivos de metadatos]** : solo está disponible si ha seleccionado la  **[!UICONTROL pestaña]** VIA FTP. Seleccione esta opción si desea cargar un archivo delimitado por tabuladores o XML para agregar metadatos a varios recursos. Consulte [Importación de datos (mediante FTP)](viewing-adding-exporting-metadata.md#import-metadata).
 
 
-* **OPTIONS CROP** : para recortar automáticamente píxeles de espacio en blanco de una imagen, abra el  **** menú Recortar, seleccione  **[!UICONTROL Manual]** e introduzca medidas de píxeles en los campos de texto Superior, Derecha, Inferior e Izquierda para recortar desde los lados. También puede seleccionar **[!UICONTROL Recortar]** en el menú Recortar y elegir estas opciones:
+* **Opciones de recorte** : para recortar automáticamente píxeles de espacio en blanco de una imagen, abra el  **** menú Recortar, seleccione  **[!UICONTROL Manual]** e introduzca medidas de píxeles en los campos de texto Superior, Derecha, Inferior e Izquierda para recortar desde los lados. También puede seleccionar **[!UICONTROL Recortar]** en el menú Recortar y elegir estas opciones:
 
    * **[!UICONTROL Separar en función de]** : elija si recortar en función del color o la transparencia:
       * **[!UICONTROL Color]** : elija la opción Color. A continuación, seleccione el menú Esquina y elija la esquina de la imagen que mejor represente el color de espacio en blanco que desea recortar.
@@ -241,7 +241,7 @@ Recorte basado en el color: Especifique 0 para recortar píxeles solo si coincid
 Recorte basado en la transparencia: Especifique 0 para recortar píxeles solo si son transparentes; los números más cercanos a 1 permiten una mayor transparencia.
       * **[!UICONTROL Tolerancia]** : arrastre el control deslizante para especificar una tolerancia de 0 a 1.
 
-* **OPTIONS DEL PERFIL DE COLOR** : elija una conversión de color cuando cree archivos optimizados que se utilicen para la entrega dinámica de Dynamic Media Classic de Adobe:
+* **Opciones de perfil de color** : elija una conversión de color al crear archivos optimizados que se utilicen para la entrega dinámica de Adobe Dynamic Media Classic:
 
    * **[!UICONTROL Conservación de color predeterminada]** : mantiene los colores de la imagen de origen siempre que las imágenes contienen información de espacio de color; no hay conversión de color. Casi todas las imágenes actuales ya tienen incrustado el perfil de color adecuado. Sin embargo, si la imagen de origen CMYK no contiene un perfil de color incrustado, los colores se convierten al espacio de color sRGB (Standard Red Green Blue). SRGB es el espacio de color que se recomienda para mostrar imágenes en páginas web.
    * **[!UICONTROL Conservar espacio de color original]** : conserva los colores originales sin conversión de color alguna en el punto de ingesta en Adobe Dynamic Media Classic. En el caso de las imágenes sin un perfil de color incrustado, cualquier conversión de color necesaria para procesar las solicitudes de la imagen se realiza mediante los perfiles de color predeterminados, tal y como se configura en la configuración de publicación . Estos perfiles de color no siempre se alinean con el color en los archivos creados con esta opción. Por lo tanto, se recomienda utilizar la opción Conservación de color predeterminada.

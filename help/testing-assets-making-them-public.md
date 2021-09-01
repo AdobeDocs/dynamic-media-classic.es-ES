@@ -1,6 +1,6 @@
 ---
-title: Prueba de los recursos antes de hacerlos públicos
-description: Aprenda a probar los recursos antes de hacerlos públicos.
+title: Probar recursos antes de hacerlos públicos
+description: Obtenga información sobre cómo probar recursos en Adobe Dynamic Media Classic antes de hacerlos públicos.
 uuid: 5e8f3bec-6cf1-408e-8ea1-aebde0012a70
 contentOwner: admin
 content-type: reference
@@ -10,14 +10,14 @@ discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '1036'
-ht-degree: 37%
+source-wordcount: '1047'
+ht-degree: 32%
 
 ---
 
-# Prueba de los recursos antes de hacerlos públicos {#testing-assets-before-making-them-public}
+# Probar recursos antes de hacerlos públicos {#testing-assets-before-making-them-public}
 
 Secure Testing le ayuda a definir un entorno de prueba seguro y a crear una solución B2B sólida, basada en un conjunto configurable de direcciones IP e intervalos. Esta funcionalidad le permite hacer coincidir las implementaciones de Dynamic Media Classic de Adobe con la arquitectura de su sistema empresarial y de administración de contenido.
 
@@ -37,7 +37,7 @@ Si lo desea, cree un entorno de ensayo en lugar de publicar los recursos por los
 
 Las mayoría de las empresas ejecutan Internet detrás de un firewall. El acceso a Internet se lleva a cabo a través de ciertas rutas y normalmente desde un rango limitado de direcciones IP públicas.
 
-Desde su red corporativa, puede averiguar su dirección IP pública utilizando sitios web como https://whatismyip.com o solicitar esta información a su organización de TI corporativa.
+Desde su red corporativa, puede averiguar su dirección IP pública utilizando sitios web como [https://www.whatismyip.com](https://www.whatismyip.com/) o solicitar esta información a su organización de TI corporativa.
 
 Con Secure Testing, Adobe Dynamic Media Classic crea un servidor de imágenes dedicado para entornos de ensayo o aplicaciones internas. Cualquier solicitud a este servidor comprueba la dirección IP de origen. Si la solicitud entrante no está en la lista aprobada de direcciones IP, se devuelve una respuesta de error. El administrador de la empresa de Adobe Dynamic Media Classic configura la lista aprobada de direcciones IP para el entorno Secure Testing de su empresa.
 
@@ -78,7 +78,7 @@ Las siguientes funciones y tipos de recursos no se admiten actualmente:
 * Impresión virtual
 * Adobe Búsqueda de Dynamic Media Classic Info o Catálogo electrónico
 
-## Prueba del servicio Secure Testing {#testing-the-secure-testing-service}
+## Probar el servicio Secure Testing {#testing-the-secure-testing-service}
 
 Pruebe el servicio Secure Testing para asegurarse de que funciona según lo esperado.
 
@@ -99,9 +99,9 @@ Last Modified Date:
  -->
 
 1. Póngase en contacto con el Servicio de atención al cliente de Adobe y solicite que habiliten Secure Testing en su cuenta.
-1. En Adobe Dynamic Media Classic, en la barra de navegación global, haga clic en **[!UICONTROL Configuración]** > **[!UICONTROL Publicar configuración]** > **[!UICONTROL Image Server]**.
+1. En Adobe Dynamic Media Classic, en la barra de navegación global, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Publicar configuración]** > **[!UICONTROL Image Server]**.
 1. En la página Publicación del servidor de imágenes , en la lista desplegable **[!UICONTROL Publicar contexto]**, seleccione **[!UICONTROL Probar servicio de imágenes]**.
-1. En el filtro de direcciones de clientes, haga clic en **[!UICONTROL Agregar]**.
+1. Para el filtro de direcciones de cliente, seleccione **[!UICONTROL Agregar]**.
 1. Seleccione la casilla de verificación para que la dirección esté habilitada (activada) y, a continuación, escriba una dirección IP y una máscara de red en los campos de texto correspondientes.
 
    >[!NOTE]
@@ -111,16 +111,16 @@ Last Modified Date:
 1. Realice una de las siguientes acciones:
    * Repita los dos pasos anteriores si debe agregar más direcciones IP.
    * Continúe con el paso siguiente.
-1. En la parte inferior izquierda de la página Publicación del servidor de imágenes, haga clic en **[!UICONTROL Guardar]**
+1. En la parte inferior izquierda de la página Publicación del servidor de imágenes, seleccione **[!UICONTROL Guardar]**
 1. Cargue las imágenes que desee en su cuenta de Adobe Dynamic Media Classic.
 
-   Consulte [Carga de archivos](uploading-files.md#uploading_files).
+   Consulte [Cargar archivos](uploading-files.md#uploading_files).
 
 1. Asegúrese de que algunas imágenes se han marcado para publicación y otros están sin marcar y, a continuación, envíe el trabajo de publicación.
 
-   Consulte [Publicación](publishing-files.md#publishing_files).
+   Consulte [Publicar archivos](publishing-files.md#publishing_files).
 
-1. Para determinar el nombre de su servicio Secure Testing, haga clic en **[!UICONTROL Ajustes]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Configuración general]**.
+1. Determine el nombre del servicio Secure Testing en **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Configuración general]**.
 1. En el grupo de servidores de la página Configuración general de la aplicación, busque el nombre a la derecha de la opción **[!UICONTROL Nombre del servidor del contexto de publicación de prueba]**.
 
 Póngase en contacto con el servicio de atención al Adobe si falta el nombre del servidor o si las direcciones URL del servidor no funcionan.
