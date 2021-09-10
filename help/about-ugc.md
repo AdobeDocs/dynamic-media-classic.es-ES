@@ -9,10 +9,10 @@ discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 14729192-7b9d-4f42-99da-6564a3f35959
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 53%
+source-wordcount: '164'
+ht-degree: 47%
 
 ---
 
@@ -24,6 +24,10 @@ El contenido generado por usuarios admite los siguientes formatos de archivo:
 
 * Rasterizado: JPG, PNG, TIFF
 * Vector: AI, EPS (no se admiten los archivos EPS de Adobe Illustrator 2018), PDF (solo cuando el archivo PDF se ha abierto y guardado previamente en Adobe Illustrator CS6)
+
+>[!IMPORTANT]
+>
+>La compatibilidad con los recursos de imagen vectoriales UGC nuevos o existentes en Adobe Dynamic Media Classic finalizará el 30 de septiembre de 2021.
 
 Antes de cargar los recursos, es preciso obtener una clave secreta compartida. Esta clave permite recuperar un distintivo de carga. El distintivo de carga se envía al cargar recursos y al realizar otras tareas con el contenido generado por usuarios.
 

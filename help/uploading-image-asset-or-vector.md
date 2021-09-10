@@ -7,16 +7,20 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
+source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
 workflow-type: tm+mt
-source-wordcount: '1504'
-ht-degree: 70%
+source-wordcount: '1540'
+ht-degree: 69%
 
 ---
 
 # Cargar un recurso de imagen o un recurso vectorial{#uploading-an-image-asset-or-a-vector-asset}
 
 Para poder cargar un recurso de imagen, primero debe solicitar una clave secreta compartida. Esta clave permite recuperar un distintivo de carga. Este distintivo de carga se emplea para cargar recursos de imagen o vector.
+
+>[!IMPORTANT]
+>
+>La compatibilidad con los recursos de imagen vectoriales UGC nuevos o existentes en Adobe Dynamic Media Classic finalizará el 30 de septiembre de 2021.
 
 ## Solicitar una clave secreta compartida {#requesting-a-shared-secret-key}
 
@@ -249,6 +253,10 @@ Se pueden usar los campos siguientes en la cadena de consulta URL para solicitar
 GET y POST
 
 ## Cargar un recurso vectorial {#uploading-a-vector-asset}
+
+>[!IMPORTANT]
+>
+>La compatibilidad con los recursos de imagen vectoriales UGC nuevos o existentes en Adobe Dynamic Media Classic finalizará el 30 de septiembre de 2021.
 
 Después de recuperar un distintivo de carga válido durante un tiempo determinado, ya se puede cargar un recurso de vector. El recurso se carga como una publicación de varias partes o formularios mientras que el resto de los valores se envía en forma de cadena de consulta URL, tal como se muestra en este ejemplo:
 

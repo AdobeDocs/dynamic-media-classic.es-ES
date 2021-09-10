@@ -9,10 +9,10 @@ discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 83%
+source-wordcount: '114'
+ht-degree: 70%
 
 ---
 
@@ -49,6 +49,10 @@ Se pueden usar los campos siguientes en la cadena de consulta URL para eliminar 
 | `op` | Obligatorio | eliminar |
 | `shared_secret` | Obligatorio | Clave secreta compartida de la empresa. |
 | <ul><li>Para imágenes:image_name</li><li>Para el vector:fxg_name</li></ul> | Obligatorio | Nombre del recurso que se debe eliminar. |
+
+>[!IMPORTANT]
+>
+>La compatibilidad con los recursos de imagen vectoriales UGC nuevos o existentes en Adobe Dynamic Media Classic finalizará el 30 de septiembre de 2021.
 
 **URL de imagen de muestra:**
 
