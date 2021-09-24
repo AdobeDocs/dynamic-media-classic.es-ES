@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 474fc6022557a1eee782a22cb40d39f2ad9aa01d
 workflow-type: tm+mt
-source-wordcount: '1870'
+source-wordcount: '1834'
 ht-degree: 1%
 
 ---
@@ -106,11 +106,11 @@ Véase también:
 
    Para que **[!UICONTROL Server]** se utilice, consulte la siguiente asignación para el entorno de producción:
 
-   | URL del explorador | Nombre del servidor de aplicaciones de escritorio |
+   | Nombre del servidor de aplicaciones de escritorio | URL del explorador |
    | --- | --- |
-   | https://s7sps1.scene7.com/ | Producción de NA (Norteamérica) |
-   | https://s7sps3.scene7.com/ | Producción de EMEA (Europa, Oriente Medio y África) |
-   | https://s7sps5.scene7.com/ | Producción de APAC (Asia-Pacífico) |
+   | Producción de NA (Norteamérica) | `https://s7sps1.scene7.com/` |
+   | Producción de EMEA (Europa, Oriente Medio y África) | `https://s7sps3.scene7.com/` |
+   | Producción de APAC (Asia-Pacífico) | `https://s7sps5.scene7.com/` |
 
 1. Tras iniciar sesión, observe la experiencia familiar de la interfaz de usuario del explorador. Puede continuar su actividad diaria de Adobe de Dynamic Media Classic como de costumbre en la aplicación de escritorio.
 
@@ -123,7 +123,7 @@ Véase también:
 
 Para descargar y *silencioso* instalar la versión más reciente de la aplicación de escritorio de Adobe Dynamic Media Classic en macOS:
 
-1. Desinstale en su sistema cualquier versión anterior de la aplicación de escritorio de Dynamic Media Classic de Adobe.
+1. Desinstale cualquier versión anterior de la aplicación de escritorio de Dynamic Media Classic de Adobe en su sistema moviendo el Adobe Dynamic Media Classic.app a Papelera.
 
 1. Descargue el último instalador de la aplicación de escritorio de Adobe Dynamic Media Classic para macOS.
 
@@ -148,11 +148,11 @@ Para descargar y *silencioso* instalar la versión más reciente de la aplicaci�
 
    Para que **[!UICONTROL Server]** se utilice, consulte la siguiente asignación para el entorno de producción:
 
-   | URL del explorador | Nombre del servidor de aplicaciones de escritorio |
+   | Nombre del servidor de aplicaciones de escritorio | URL del explorador |
    | --- | --- |
-   | https://s7sps1.scene7.com/ | Producción de NA (Norteamérica) |
-   | https://s7sps3.scene7.com/ | Producción de EMEA (Europa, Oriente Medio y África) |
-   | https://s7sps5.scene7.com/ | Producción de APAC (Asia-Pacífico) |
+   | Producción de NA (Norteamérica) | `https://s7sps1.scene7.com/` |
+   | Producción de EMEA (Europa, Oriente Medio y África) | `https://s7sps3.scene7.com/` |
+   | Producción de APAC (Asia-Pacífico) | `https://s7sps5.scene7.com/` |
 
 ## Descargue y *silencioso* instale la última aplicación de escritorio de Adobe Dynamic Media Classic en Windows® {#install-silent-windows-dmc-app}
 
@@ -193,12 +193,11 @@ Para descargar y *silencioso* instalar la versión más reciente de la aplicaci�
 
    Para que **[!UICONTROL Server]** se utilice, consulte la siguiente asignación para el entorno de producción:
 
-   | URL del explorador | Nombre del servidor de aplicaciones de escritorio |
+   | Nombre del servidor de aplicaciones de escritorio | URL del explorador |
    | --- | --- |
-   | https://s7sps1.scene7.com/ | Producción de NA (Norteamérica) |
-   | https://s7sps3.scene7.com/ | Producción de EMEA (Europa, Oriente Medio y África) |
-   | https://s7sps5.scene7.com/ | Producción de APAC (Asia-Pacífico) |
-
+   | Producción de NA (Norteamérica) | `https://s7sps1.scene7.com/` |
+   | Producción de EMEA (Europa, Oriente Medio y África) | `https://s7sps3.scene7.com/` |
+   | Producción de APAC (Asia-Pacífico) | `https://s7sps5.scene7.com/` |
 
 ## Tutorial de vídeo sobre el uso de la aplicación de escritorio Adobe Dynamic Media Classic {#dmc-app-video-walk-through}
 
