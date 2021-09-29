@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: e3c2dcaa245e486ada62edd554db5a39d495483e
+source-git-commit: 4e42d90747af895d27c64fa3fb5830f73e3a0a95
 workflow-type: tm+mt
-source-wordcount: '1870'
+source-wordcount: '1937'
 ht-degree: 1%
 
 ---
@@ -38,22 +38,34 @@ La aplicación de escritorio Dynamic Media Classic de Adobe es compatible con lo
 >
 >La notificación de actualización dentro de la aplicación de escritorio de Adobe Dynamic Media Classic no se genera para las versiones *minor*. Los clientes que se benefician de las correcciones en una versión menor pueden actualizarse.
 
-## Correcciones en la versión menor (20.21.2) {#minor-release}
+## Correcciones en la última versión (20.21.3) {#release-sept2021}
 
-* Limitación conocida en 20.21.1 de que el menú desplegable Servidor esté vacío.
+* Miniaturas rotas de los recursos que se ven después de un período de inactividad en la aplicación de escritorio.
+* La aplicación de escritorio deja de responder, normalmente después de las operaciones Set.
+* Solicitar confusión y modo de bloqueo se habilitan automáticamente en **[!UICONTROL Probar servicio de imágenes]**.
+
+   Consulte [Probar el servicio Secure Testing](/help/testing-assets-making-them-public.md#testing-the-secure-testing-service).
+
+* Se ha actualizado el mecanismo de autenticación con Adobe Analytics. Relevante para nuevas integraciones o si algunas variables de Analytics deben actualizarse desde la aplicación de escritorio de Dynamic Media Classic.
+
+   Consulte [Inicio de sesión en Adobe Analytics](/help/log-analytics.md) para conocer los pasos actualizados.
+
+## Correcciones en la versión 20.21.2 {#minor-release}
+
+* Limitación conocida en 20.21.1: la lista desplegable **[!UICONTROL Server]** de la pantalla Inicio de sesión estaba vacía.
 * En **[!UICONTROL Cargar opciones de trabajo]**, el valor predeterminado de nomenclatura de capa en **[!UICONTROL Opciones de Photoshop]** es ahora **[!UICONTROL Photoshop y nombre de capa]**. Las capas en el archivo PSD se cargan como imágenes independientes.
    * El valor predeterminado anterior de **[!UICONTROL Layer name]**, es decir, el nombre de las imágenes por su nombre de capa o número de capa en el archivo PSD. El número de capa se utilizó si los nombres de capa del archivo PSD eran nombres de capa predeterminados de Photoshop.
    * El nuevo valor predeterminado de **[!UICONTROL Photoshop y Nombre de capa]** nombra las imágenes después del archivo PSD seguido del nombre de capa o número de capa. El número de capa se utiliza si los nombres de capa en el archivo PSD son nombres de capa predeterminados de Photoshop.
    * Dado que las imágenes de capa en Adobe Dynamic Media Classic ahora tienen nombres únicos, no se van a producir actualizaciones de PSD o Plantillas existentes (que comparten nombres de capa en los archivos PSD originales).
 * Miniaturas de recursos rotas.
 
-## Correcciones en la versión más reciente (20.21.1) {#latest-fixes-desktop-app}
+## Correcciones en la versión 20.21.1 {#latest-fixes-desktop-app}
 
 * Problemas de inicio de sesión debido al tiempo de espera que dan como resultado el siguiente mensaje: *Este usuario puede asignarse al grupo o grupos sin permiso. Póngase en contacto con el administrador.*
 * Los ajustes preestablecidos de visor se duplican con cada intento de contraseña incorrecto.
 * La aplicación de escritorio deja de responder debido a muchos recursos en la carpeta raíz. (Fijo en Windows®; trabajando como desee en macOS).
 
-## Correcciones en la versión anterior (20.20.2) {#previous-version-fixes-desktop-app}
+## Correcciones en la versión 20.20.2 {#previous-version-fixes-desktop-app}
 
 * No hay limitación en el número de archivos que puede cargar a través de la interfaz de usuario de la aplicación de escritorio tanto para macOS como para Windows®.
 * No es necesario cerrar sesión en la aplicación de escritorio para cambiar entre empresas.
@@ -71,14 +83,14 @@ Véase también:
 
 1. Descargue el último instalador de la aplicación de escritorio de Adobe Dynamic Media Classic.
 
-   * La versión más reciente (20.21.2) está disponible en:
+   * La versión más reciente (20.21.3) está disponible en:
+
+      * [macOS (.DMG): Descargar](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg)
+      * [Windows® (.EXE) - Descargar](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
+   * La versión anterior (20.21.2) está disponible en:
 
       * [macOS (.DMG): Descargar](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
       * [Windows® (.EXE) - Descargar](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe)
-   * La versión anterior (20.21.1) está disponible en:
-
-      * [macOS (.DMG): Descargar](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
-      * [Windows® (.EXE) - Descargar](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
 
 
 <!--         * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
@@ -106,11 +118,11 @@ Véase también:
 
    Para que **[!UICONTROL Server]** se utilice, consulte la siguiente asignación para el entorno de producción:
 
-   | URL del explorador | Nombre del servidor de aplicaciones de escritorio |
+   | Servidores | URL del explorador |
    | --- | --- |
-   | https://s7sps1.scene7.com/ | Producción de NA (Norteamérica) |
-   | https://s7sps3.scene7.com/ | Producción de EMEA (Europa, Oriente Medio y África) |
-   | https://s7sps5.scene7.com/ | Producción de APAC (Asia-Pacífico) |
+   | Producción de NA (América del Norte) | https://s7sps1.scene7.com/ |
+   | Producción de EMEA (Europa, Oriente Medio y África) | https://s7sps3.scene7.com/ |
+   | Producción APAC (Asia-Pacífico) | https://s7sps5.scene7.com/ |
 
 1. Tras iniciar sesión, observe la experiencia familiar de la interfaz de usuario del explorador. Puede continuar su actividad diaria de Adobe de Dynamic Media Classic como de costumbre en la aplicación de escritorio.
 
@@ -127,11 +139,11 @@ Para descargar y *silencioso* instalar la versión más reciente de la aplicaci�
 
 1. Descargue el último instalador de la aplicación de escritorio de Adobe Dynamic Media Classic para macOS.
 
-   * [macOS (.DMG): Descargar](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
+   * [macOS (.DMG): Descargar](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg)
 
 1. Monte la imagen de disco descargada (.DMG) en una ubicación de punto de montaje mediante el siguiente comando:
 
-   `hdiutil attach adobe-dynamic-media-classic-20.21.2.dmg -mountpoint <mount_point_path>`
+   `hdiutil attach adobe-dynamic-media-classic-20.21.3.dmg -mountpoint <mount_point_path>`
 
 1. Copie el archivo .APP a **[!UICONTROL Applications]** mediante el siguiente comando:
 
@@ -148,11 +160,11 @@ Para descargar y *silencioso* instalar la versión más reciente de la aplicaci�
 
    Para que **[!UICONTROL Server]** se utilice, consulte la siguiente asignación para el entorno de producción:
 
-   | URL del explorador | Nombre del servidor de aplicaciones de escritorio |
+   | Servidores | URL del explorador |
    | --- | --- |
-   | https://s7sps1.scene7.com/ | Producción de NA (Norteamérica) |
-   | https://s7sps3.scene7.com/ | Producción de EMEA (Europa, Oriente Medio y África) |
-   | https://s7sps5.scene7.com/ | Producción de APAC (Asia-Pacífico) |
+   | Producción de NA (América del Norte) | https://s7sps1.scene7.com/ |
+   | Producción de EMEA (Europa, Oriente Medio y África) | https://s7sps3.scene7.com/ |
+   | Producción APAC (Asia-Pacífico) | https://s7sps5.scene7.com/ |
 
 ## Descargue y *silencioso* instale la última aplicación de escritorio de Adobe Dynamic Media Classic en Windows® {#install-silent-windows-dmc-app}
 
@@ -169,19 +181,19 @@ Para descargar y *silencioso* instalar la versión más reciente de la aplicaci�
 
 1. Descargue el último instalador de la aplicación de escritorio de Adobe Dynamic Media Classic.
 
-   * [Windows® (.EXE) - Descargar](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe)
+   * [Windows® (.EXE) - Descargar](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
 
 1. Ejecute el instalador en modo de registro mediante el siguiente comando:
 
-   `adobe-dynamic-media-classic-20.21.2.exe /r /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.21.3.exe /r /f1"C:\Setup.iss"`
 
 1. En la ventana del instalador de GUI, siga los pasos para instalar de modo que las interacciones/entradas, como la ubicación de instalación, se registren en el archivo `Setup.iss`.
 
-1. Copie el archivo `Setup.iss` creado y `adobe-dynamic-media-classic-20.21.2.exe` en otro equipo.
+1. Copie el archivo `Setup.iss` creado y `adobe-dynamic-media-classic-20.21.3.exe` en otro equipo.
 
 1. Ejecute el siguiente comando para una instalación silenciosa:
 
-   `adobe-dynamic-media-classic-20.21.2.exe /s /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.21.3.exe /s /f1"C:\Setup.iss"`
 
    Los detalles sobre los parámetros de línea de comandos están disponibles en [Parámetros de línea de comandos de Setup.exe y Update.exe.](https://docs.revenera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
 
@@ -193,12 +205,11 @@ Para descargar y *silencioso* instalar la versión más reciente de la aplicaci�
 
    Para que **[!UICONTROL Server]** se utilice, consulte la siguiente asignación para el entorno de producción:
 
-   | URL del explorador | Nombre del servidor de aplicaciones de escritorio |
+   | Servidores | URL del explorador |
    | --- | --- |
-   | https://s7sps1.scene7.com/ | Producción de NA (Norteamérica) |
-   | https://s7sps3.scene7.com/ | Producción de EMEA (Europa, Oriente Medio y África) |
-   | https://s7sps5.scene7.com/ | Producción de APAC (Asia-Pacífico) |
-
+   | Producción de NA (América del Norte) | https://s7sps1.scene7.com/ |
+   | Producción de EMEA (Europa, Oriente Medio y África) | https://s7sps3.scene7.com/ |
+   | Producción APAC (Asia-Pacífico) | https://s7sps5.scene7.com/ |
 
 ## Tutorial de vídeo sobre el uso de la aplicación de escritorio Adobe Dynamic Media Classic {#dmc-app-video-walk-through}
 

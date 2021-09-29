@@ -10,9 +10,9 @@ discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 0e2271924f49edd6ac424bb7cbd56af1e6afd817
 workflow-type: tm+mt
-source-wordcount: '2422'
+source-wordcount: '2425'
 ht-degree: 52%
 
 ---
@@ -42,7 +42,7 @@ Al crear mapas de imagen, puede realizar cualquiera de las siguientes acciones:
    * Si está trabajando con un conjunto de giros en la vista de cuadrícula o de lista, seleccione **[!UICONTROL Editar]**. O bien, ábrala en la Vista de detalles y, a continuación, seleccione **[!UICONTROL Editar]**. Seleccione un recurso de imagen y, a continuación, seleccione **[!UICONTROL Mapa de imagen]**.
    * Si está trabajando con un catálogo electrónico, en la vista de cuadrícula, de lista o de detalles, seleccione **[!UICONTROL Editar]**. Seleccione la pestaña **[!UICONTROL Map Pages]**.
 
-   ![](assets/ma_image_map.png)
+   ![Imagen de mapa de imagen](assets/ma_image_map.png)
 
 1. Dibuje un mapa de imagen rectangular o poligonal (de varios lados):
 
