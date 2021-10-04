@@ -9,10 +9,10 @@ discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
-source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
+source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 70%
+source-wordcount: '102'
+ht-degree: 71%
 
 ---
 
@@ -48,16 +48,18 @@ Se pueden usar los campos siguientes en la cadena de consulta URL para eliminar 
 | --- | --- | --- |
 | `op` | Obligatorio | eliminar |
 | `shared_secret` | Obligatorio | Clave secreta compartida de la empresa. |
-| <ul><li>Para imágenes:image_name</li><li>Para el vector:fxg_name</li></ul> | Obligatorio | Nombre del recurso que se debe eliminar. |
+| `image_name` | Obligatorio | Nombre del recurso que se debe eliminar. |
+
+<!-- <li>For Vector:fxg_name</li> -->
 
 >[!IMPORTANT]
 >
->La compatibilidad con los recursos de imagen vectoriales UGC nuevos o existentes en Adobe Dynamic Media Classic finalizará el 30 de septiembre de 2021.
+>La compatibilidad con recursos de imagen vectoriales UGC nuevos o existentes en Adobe Dynamic Media Classic finalizó el 30 de septiembre de 2021.
 
 **URL de imagen de muestra:**
 
 `https://s7ugc1.scene7.com/ugc/image?op=delete&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif`
 
-**URL de vector de prueba:**
+<!-- **Sample vector URL:**
 
-`https://s7ugc1.scene7.com/ugc/vector?op=delete&shared_secret=2160a8fa-cec6-45ba-8d59- ca595f6d2b47& &fxg_name=8875744.fxg`
+`https://s7ugc1.scene7.com/ugc/vector?op=delete&shared_secret=2160a8fa-cec6-45ba-8d59- ca595f6d2b47& &fxg_name=8875744.fxg` -->
