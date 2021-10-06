@@ -4,11 +4,11 @@ product: adobe dynamic media classic
 audience: end-user
 user-guide-title: Guía de Adobe Dynamic Media Classic
 breadcrumb-title: Guía de Dynamic Media Classic
-user-guide-description: Obtenga más información sobre el uso de Adobe Dynamic Media Classic
+user-guide-description: Más información sobre el uso de Adobe Dynamic Media Classic
 index: y
-source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '776'
 ht-degree: 30%
 
 ---
@@ -18,10 +18,10 @@ ht-degree: 30%
 
 + [Guía de Adobe Dynamic Media Classic](home.md)
 + [Tutorial de prácticas recomendadas de clase de Dynamic Media de Adobe](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [Ya está disponible la NUEVA experiencia de inicio de sesión de Adobe Dynamic Media Classic](new-ui-2020.md)
++ [NUEVA experiencia de inicio de sesión en Adobe Dynamic Media Classic ya disponible](new-ui-2020.md)
 + [Archivo de newsletter de Dynamic Media de Adobe por Experience League](dynamic-media-newsletter.md)
 + Presentación de Adobe Dynamic Media Classic {#intro}
-   + [Adobe Aplicación de escritorio Dynamic Media Classic: ya disponible](dynamic-media-classic-desktop-app.md)
+   + [Aplicación de escritorio de Adobe Dynamic Media Classic: ya disponible](dynamic-media-classic-desktop-app.md)
    + [Acerca de la Ayuda de Adobe Dynamic Media Classic](introduction.md)
    + [Recursos para el desarrollador](developer-resources.md)
    + [Novedades](whats-new.md)
@@ -29,10 +29,10 @@ ht-degree: 30%
    + [Asistencia técnica](support.md)
    + [Ayuda de Adobe Dynamic Media Classic Media Portal](help-dmc-media-portal.md)
    + [Servicios de formación de Adobe](training-services.md)
-   + [Recursos populares](popular-resources.md)
+   + [Recursos de aprendizaje habituales](popular-resources.md)
    + [Videos de capacitación](training-videos.md)
 + Introducción {#getting-started}
-   + [Descripción general del programa de Adobe Dynamic Media Classic](dmc-platform-overview.md)
+   + [Información general del programa de Adobe Dynamic Media Classic](dmc-platform-overview.md)
    + [Media Portal](media-portal.md)
    + [Inicio de sesión y cierre](signing-out.md)
    + [Nociones básicas de navegación](navigation-basics.md)
@@ -92,13 +92,13 @@ ht-degree: 30%
    + [Vincular visualizadores de zoom a las páginas web](linking-zoom-viewers-web-pages.md)
 + Catálogos electrónicos {#ecatalogs}
    + [Inicio rápido: Catálogos electrónicos](quick-start-ecatalog.md)
-   + [Cargar los archivos PDF](uploading-pdf-files.md)
+   + [Carga de los archivos del PDF](uploading-pdf-files.md)
    + [Crear un catálogo electrónico](creating-ecatalog.md)
    + [Creación de mapas de imagen de catálogos electrónicos](creating-ecatalog-image-maps.md)
    + [Administrar contenido del panel de información en catálogos electrónicos](info-panel-content-ecatalog.md)
    + [Configuración de ajustes preestablecidos del visualizador de catálogos electrónicos](setting-ecatalog-viewer-presets.md)
    + [Vista previa de catálogos electrónicos en el visor de catálogos electrónicos](previewing-ecatalogs-ecatalog-viewer.md)
-   + [Publicar catálogos electrónicos y archivos PDF asociados](publishing-ecatalogs-associated-pdfs.md)
+   + [Publicar catálogos electrónicos y PDF asociados](publishing-ecatalogs-associated-pdfs.md)
    + [Vincular un catálogo electrónico a una página web](linking-ecatalog-web-page.md)
 + Conjuntos de imágenes {#image-sets}
    + [Inicio rápido: Conjuntos de imágenes](quick-start-image-sets.md)
@@ -174,7 +174,7 @@ ht-degree: 30%
    + [Ajustar una imagen](adjusting-image.md)
    + [Opciones de edición de ajuste de imagen al cargar](image-editing-options-upload.md)
    + [Trabajar con PDF](pdfs.md)
-   + [Trabajo con archivos PSD](psd-files.md)
+   + [Trabajar con archivos de PSD](psd-files.md)
    + [Trabajar con archivos PostScript y Illustrator](postscript-illustrator-files.md)
    + [Trabaje con viñetas, coberturas de ventanas y archivos .CAB](vignette-window-covering-cabinet-files.md)
 + Archivos de compatibilidad {#support-files}

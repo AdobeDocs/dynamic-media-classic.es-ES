@@ -10,10 +10,10 @@ discoiquuid: d263f041-5a0d-4c4f-9266-aeff51a5a7e2
 feature: Dynamic Media Classic
 role: User
 exl-id: 118806ea-c8a7-4aaf-9ae3-739c6b04ea77
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 64%
+source-wordcount: '844'
+ht-degree: 59%
 
 ---
 
@@ -26,6 +26,8 @@ La creación de parámetros de plantilla implica la definición de las partes de
 Con parámetros de capa de texto, la cadena de texto también puede ser un campo dinámico vinculado a valores en una base de datos. La vinculación de texto a una base de datos puede ser útil en casos como las promociones, por ejemplo. Puede personalizar imágenes de plantilla para que muestren nombres de clientes. También puede vincular un parámetro de capa de texto a una base de datos de precios para mostrar el precio de un elemento en una imagen de plantilla.
 
 Puede hacer referencia a un parámetro más de una vez. Use el cuadro combinado de cada comando del cuadro de diálogo de parámetros para seleccionar cualquier parámetro que coincida con el comando en cuestión. Por ejemplo, todos los parámetros de tamaño están disponibles para el comando `size=`. Puede reasignar la referencia de parámetro a cualquier parámetro que ya esté en el cuadro combinado y cambiar su nombre por otro que no aparezca. En este último caso, el nombre debe ser único. De lo contrario, se muestra un error que indica que el parámetro existe. Al eliminar una referencia de parámetro, este se elimina de la dirección URL si no se hace referencia a él en ninguna otra parte. Cuando se cambia el valor predeterminado de un parámetro de texto, todas las referencias a ese parámetro se actualizan. Puede ver la actualización en la tabla de capas, en la renderización de la plantilla y en la dirección URL. Cuando se cambia un atributo de capa manipulando los controladores de cambio de tamaño o escribiendo valores en el panel de propiedad, el valor del parámetro se actualiza y todas las referencias al parámetro se actualizan. Por ejemplo, si ha parametrizado el tamaño de dos capas con un solo parámetro, se actualiza el tamaño de ambas capas al cambiar cualquiera de ellas. Si obtiene la vista previa de una plantilla y modifica un parámetro, se actualizan todas las referencias a dicho parámetro.
+
+Consulte también el vídeo de capacitación [Conceptos básicos de plantilla](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS).
 
 ## Parametrizar una capa {#parameterizing-a-layer}
 

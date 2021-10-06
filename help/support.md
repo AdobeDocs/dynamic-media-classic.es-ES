@@ -8,16 +8,16 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 708f32f1-fdbb-4a32-a1b7-836c99b458be
-source-git-commit: 523d6e82a5410d8b1ae1a69b4ea2c0a0a4793fc7
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '192'
+ht-degree: 24%
 
 ---
 
 # Asistencia técnica {#support}
 
-La asistencia técnica está pensada para empresas de cualquier tamaño. En la tabla siguiente se describen las ofertas del Servicio de atención al cliente de Dynamic Media Classic de Adobe:
+La asistencia técnica está pensada para empresas de cualquier tamaño. En la tabla siguiente se describen las ofertas del Servicio de atención al cliente de Adobe Dynamic Media Classic:
 
 | Asistencia técnica | Suscripción |
 | --- | --- |
@@ -34,9 +34,9 @@ La asistencia técnica está pensada para empresas de cualquier tamaño. En la t
 
 Al notificar algún problema al personal de asistencia técnica, tendrá que suministrar estos datos:
 
-* Adobe Nombre de la empresa de Dynamic Media Classic.
+* Nombre de la empresa de Adobe Dynamic Media Classic.
 * Su nombre, número de teléfono y dirección de correo electrónico.
-* Adobe aplicación, plataforma y versión de Dynamic Media Classic.
+* Aplicación, plataforma y versión de Adobe Dynamic Media Classic.
 * Descripción del problema y los pasos requeridos para reproducirlo.
 * Mensaje de error, si lo hay.
 * Tipo de explorador y versión, si corresponde.

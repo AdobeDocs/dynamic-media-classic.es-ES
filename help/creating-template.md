@@ -10,16 +10,18 @@ discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 feature: Dynamic Media Classic
 role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '3405'
-ht-degree: 45%
+source-wordcount: '3466'
+ht-degree: 44%
 
 ---
 
 # Creación de una plantilla {#creating-a-template}
 
 Para crear una plantilla, vaya a **[!UICONTROL Build]** > **[!UICONTROL Template Basics]**. Seleccione Diseñador o Desarrollador. En esta página puede añadir capas de imagen y de texto. También puede cambiar el orden de las capas, modificar el tamaño y la posición de éstas y aplicarles efectos de sombra y resplandor.
+
+Consulte también el vídeo de capacitación [Conceptos básicos de plantilla](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS).
 
 >[!NOTE]
 >
@@ -42,7 +44,7 @@ Puede crear una plantilla a partir de una existente. Abra la plantilla, seleccio
 
 1. Para crear la plantilla inicial, utilice uno de los siguientes métodos:
 
-   * **Seleccione primero**  el PSD o las imágenes: en el panel Examinar, seleccione el archivo PSD o las imágenes que desee para la plantilla y vaya a  **[!UICONTROL Generar]**  > Conceptos básicos de  **[!UICONTROL plantilla]**.
+   * **Seleccione el PSD o las imágenes primero** : en el panel Examinar, seleccione el archivo PSD o las imágenes que desee para la plantilla y vaya a  **[!UICONTROL Generar]**  > Conceptos básicos de  **[!UICONTROL plantilla]**.
 
    * **Comenzar desde la pantalla**  Plantilla: vaya a  **[!UICONTROL Generar]**  > Conceptos básicos  **[!UICONTROL de plantilla]**. Seleccione Diseñador o Desarrollador.
 
@@ -103,7 +105,7 @@ Utilice estas herramientas en la pantalla Plantilla para crear plantillas:
 
    >[!NOTE]
    >
-   >La eliminación del Editor de texto v4.2 está planificada como una opción en Adobe Dynamic Media Classic, por lo que se recomienda utilizar el Editor de texto 4.3 cuando sea posible. La opción **[!UICONTROL Ajuste de palabras]** se incorporará en una versión futura del Editor de texto.
+   >La eliminación del Editor de texto v4.2 está planificada como una opción en Adobe Dynamic Media Classic, por lo que se recomienda usar el Editor de texto 4.3 cuando sea posible. La opción **[!UICONTROL Ajuste de palabras]** se incorporará en una versión futura del Editor de texto.
 
 * **[!UICONTROL Diseñador y desarrollador]** : seleccione la opción que mejor describe su función.
 
@@ -142,7 +144,7 @@ Para dar formato al texto de una capa de texto, haga lo siguiente:
 1. En el cuadro de texto del Editor de texto, seleccione el texto al que desee dar formato. Puede seleccionar todo el texto, partes del texto o caracteres individuales.
 1. Especifique cualquiera de las siguientes opciones de formato y, a continuación, seleccione **[!UICONTROL Aplicar]**.
 
-   * **[!UICONTROL Fuente]** : elija una fuente en el menú Fuente. Si la fuente que desea no aparece en el menú, puede cargarla en el Adobe Dynamic Media Classic. Consulte Fuentes.
+   * **[!UICONTROL Fuente]** : elija una fuente en el menú Fuente. Si la fuente que desea no aparece en el menú, puede cargarla en Adobe Dynamic Media Classic. Consulte Fuentes.
 
    * **[!UICONTROL Tamaño de fuente]** : elija un tamaño de fuente en el menú, escriba un tamaño específico en el cuadro o seleccione las  **** flechas  **** inferiores para aumentar o reducir el tamaño en dos puntos.
 

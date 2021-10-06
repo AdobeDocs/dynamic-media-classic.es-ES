@@ -10,10 +10,10 @@ discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
-source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 34%
+source-wordcount: '883'
+ht-degree: 29%
 
 ---
 
@@ -49,7 +49,9 @@ Los usuarios ven vídeos en el visor de vídeo. La manera de comportarse del vis
 
 Adobe Dynamic Media Classic incluye muchos ajustes preestablecidos de visor predefinidos para reproducir vídeo. Si es administrador, puede crear ajustes preestablecidos de visor personalizados. Hay más de una docena de opciones de configuración diferentes para personalizar el visor de vídeo. Puede configurar el tamaño, el color, los controles de audio y vídeo, la barra de progreso, la apariencia de la interfaz del usuario y las funciones sociales del visor.
 
-Consulte también [Vista previa de vídeos en un visor de vídeo](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
+Consulte [Vista previa de vídeos en un visor de vídeo](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
+
+Consulte también el vídeo de formación [Ajustes preestablecidos de vídeo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS).
 
 ### Añadir o editar un ajuste preestablecido de visualizador de vídeo {#adding-or-editing-a-video-viewer-preset}
 
@@ -58,6 +60,8 @@ Puede usar Ajustes preestablecidos de visor para ver los diversos tipos de visor
 En Ajustes preestablecidos de visor, puede activar, filtrar y ordenar los ajustes, así como obtener una vista previa de los mismos.
 
 Consulte [Ajustes preestablecidos de visor](application-setup.md#viewer_presets).
+
+Consulte también el vídeo de formación [Ajustes preestablecidos de vídeo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS).
 
 **Para añadir o editar un ajuste preestablecido de visor de vídeo:**
 

@@ -10,10 +10,10 @@ discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 38%
+source-wordcount: '1293'
+ht-degree: 35%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Dynamic Media Classic ofrece herramientas para editar y crear conjuntos de
 
 >[!NOTE]
 >
->Antes de crear un conjunto de ofertas, asegúrese de publicar todos los recursos que desee utilizar para el conjunto en Adobe Dynamic Media Classic. Consulte [Publicación manual de recursos](publishing-files.md#manually_publishing_assets) y [Cancelación manual de la publicación de recursos](publishing-files.md#manually_unpublishing_assets).
+>Antes de crear un conjunto de ofertas, asegúrese de publicar en Adobe Dynamic Media Classic todos los recursos que desee utilizar para el conjunto. Consulte [Publicación manual de recursos](publishing-files.md#manually_publishing_assets) y [Cancelación manual de la publicación de recursos](publishing-files.md#manually_unpublishing_assets).
 
 ## Tipos de conjuntos de ofertas {#types-of-offer-sets}
 
@@ -39,7 +39,9 @@ Se puede crear un conjunto de ofertas de cualquiera de los siguientes tipos:
 
 * **Imágenes** : puede ensamblar imágenes para un conjunto de ofertas. Cada imagen incluye una oferta diferente en el conjunto.
 
-* **Plantilla de imagen** : puede parametrizar las plantillas de imagen en Adobe Dynamic Media Classic con el comando Generar > Conceptos básicos de plantilla. Mediante parámetros, se pueden intercambiar y personalizar los componentes de la plantilla como el texto de los cuadros de texto y las distintas imágenes. Para un conjunto de ofertas, puede utilizar parámetros de plantilla para crear variaciones de la misma imagen en el conjunto de ofertas, por ejemplo. Para obtener más información sobre la creación y la parametrización de plantillas de imagen, consulte Creación de parámetros de plantilla.
+* **Plantilla de imagen** : puede parametrizar las plantillas de imagen en Adobe Dynamic Media Classic con el comando  **[!UICONTROL Generar]**  > Conceptos básicos de plantilla . Mediante parámetros, se pueden intercambiar y personalizar los componentes de la plantilla como el texto de los cuadros de texto y las distintas imágenes. Para un conjunto de ofertas, puede utilizar parámetros de plantilla para crear variaciones de la misma imagen en el conjunto de ofertas, por ejemplo. Para obtener información sobre la creación y parametrización de plantillas de imagen, consulte [Creación de parámetros de plantilla](creating-template-parameters.md#creating_template_parameters).
+
+Consulte también el vídeo de capacitación [Conceptos básicos de plantilla](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS).
 
 * **Vídeo** : puede ensamblar vídeo para un conjunto de ofertas. Cada vídeo conforma una oferta distinta en el conjunto.
 

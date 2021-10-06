@@ -10,16 +10,16 @@ discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7e99de68-a5de-4b42-9754-c394e9b41369
-source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '255'
+ht-degree: 17%
 
 ---
 
 # Nociones básicas de ajuste{#setup-basics}
 
-Utilice la página Configuración de Dynamic Media Classic de Adobe para introducir su configuración personal. Si es un administrador, configure los ajustes de su empresa. Para abrir una página Configuración, en la barra de navegación global, seleccione **[!UICONTROL Configuración]**.
+Utilice la página Configuración de Adobe Dynamic Media Classic para introducir su configuración personal. Si es un administrador, configure los ajustes de su empresa. Para abrir una página Configuración, en la barra de navegación global, seleccione **[!UICONTROL Configuración]**.
 
 La configuración disponible en esta página depende de su estado como usuario o administrador:
 
@@ -28,13 +28,14 @@ La configuración disponible en esta página depende de su estado como usuario o
 
 Los administradores también pueden configurar ajustes preestablecidos de imagen y ajustes preestablecidos de visualizador en la página **[!UICONTROL Configuración]**:
 
-* **Ajustes preestablecidos de imagen** : los ajustes preestablecidos de imagen son formatos guardados para mostrar imágenes maestras en diferentes tamaños y formatos.
+* **Ajustes preestablecidos de imagen** : los ajustes preestablecidos de imagen son formatos guardados para mostrar imágenes principales en diferentes tamaños y formatos.
 
 * **Ajustes preestablecidos de visor** : los ajustes preestablecidos de visor determinan cómo se ven los medios enriquecidos cuando se ven en un visor.
 
 >[!MORELIKETHIS]
 >
->* [Adobe Funciones y privilegios de usuario de Dynamic Media Classic](administration-setup.md#user_administration)
+>* [Vídeo de formación sobre conceptos básicos de configuración](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/573_Setup%20Basics_converted%20renamed_Getting%20Started-AVS)
+>* [Roles y privilegios de usuario de Adobe Dynamic Media Classic](administration-setup.md#user_administration)
 >* [Ajustes preestablecidos de imagen](application-setup.md#image_presets)
 >* [Ajustes preestablecidos de visor](application-setup.md#viewer_presets)
 

@@ -10,10 +10,10 @@ discoiquuid: 2708d077-94fc-4045-8992-ad3589ed9cfd
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 38%
+source-wordcount: '701'
+ht-degree: 34%
 
 ---
 
@@ -23,7 +23,7 @@ Los conjuntos de medios mixtos de ofrecen a los usuarios una visualización inte
 
 Los ajustes preestablecidos del visor de conjuntos de medios mixtos incluyen opciones de comunidad para los usuarios finales para incrustar código, copiar URL y crear un vínculo al sitio web principal. Los usuarios pueden utilizar estas opciones para compartir información sobre los productos en sus sitios web personales o en los sitios de redes sociales.
 
-Este inicio rápido de conjuntos de medios mixtos está diseñado para ponerse en marcha rápidamente con las técnicas de conjuntos de medios mixtos en Adobe Dynamic Media Classic.
+Este inicio rápido de conjuntos de medios mixtos está diseñado para ayudarle a poner en marcha rápidamente las técnicas de conjuntos de medios mixtos en Adobe Dynamic Media Classic.
 
 ## 1. Cargue las imágenes, los archivos de muestra y los vídeos
 
@@ -53,6 +53,8 @@ Al configurar un ajuste preestablecido de visualizador de conjuntos de medios mi
 
 Consulte [Configuración de un ajuste preestablecido de visualizador de conjuntos de medios mixtos](setting-mixed-media-set-viewer.md#setting-up-a-mixed-media-set-viewer-preset) y [Creación y edición de ajustes preestablecidos de visualizador](application-setup.md#adding-and-editing-viewer-presets).
 
+Consulte también el vídeo de formación [Ajustes preestablecidos de visor](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS).
+
 ## 5. Obtener una vista previa de un conjunto de medios mixtos
 
 Seleccione el botón **[!UICONTROL Preview]** del conjunto de medios mixtos. Puede seleccionar los iconos de miniatura y muestra para examinar el conjunto de medios mixtos en el visor de conjuntos de medios mixtos. Puede elegir distintos visores en el menú Ajustes preestablecidos.
@@ -61,7 +63,7 @@ Consulte [Vista previa de un recurso](previewing-asset.md#previewing-an-asset).
 
 ## 6. Publicar un conjunto de medios mixtos
 
-Al publicar un conjunto de medios mixtos, se coloca en los servidores de Dynamic Media Classic de Adobe y se activa la cadena URL.
+Al publicar un conjunto de medios mixtos, se coloca en servidores de Adobe Dynamic Media Classic y se activa la cadena URL.
 
 Los conjuntos de vídeo adaptables requieren que se publique en el **Servidor de vídeo** y también en el **Servidor de imágenes**. El **Servidor de vídeo** se utiliza para publicar los vídeos reales que se han marcado para publicación. Además, utiliza **Image Server** para publicar recursos relacionados, como miniaturas de vídeo, y establecer información para cualquier conjunto de vídeos adaptables.
 

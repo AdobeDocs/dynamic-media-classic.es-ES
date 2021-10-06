@@ -1,6 +1,6 @@
 ---
 title: '"Inicio rápido: Conjuntos de giros"'
-description: Introducción y inicio rápido del conjunto de giros para ayudarle a ponerse en marcha rápidamente en Adobe Dynamic Media Classic.
+description: Introducción y rápido inicio del conjunto de giros para ayudarle a poner en marcha Adobe Dynamic Media Classic rápidamente.
 uuid: d0af9db6-cb6f-48f0-89f6-f3ab2da0659f
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 25%
+source-wordcount: '796'
+ht-degree: 23%
 
 ---
 
@@ -27,13 +27,15 @@ Los conjuntos de giros también aceptan mapas de imagen. Un mapa de imagen es un
 
 Consulte [Crear mapas de imagen](creating-image-maps.md).
 
-Este inicio rápido de los conjuntos de giros está diseñado para ponerse en marcha rápidamente con las técnicas de conjuntos de giros de Adobe Dynamic Media Classic. Siga los pasos del 1 al 7. Al final de cada paso, puede seleccionar un vínculo de tema para obtener más información.
+Consulte [Conjuntos de imágenes y giros: Vídeo de formación del Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS).
+
+Este inicio rápido de los conjuntos de giros está diseñado para ayudarle a poner en marcha rápidamente las técnicas de conjuntos de giros en Adobe Dynamic Media Classic. Siga los pasos del 1 al 7. Al final de cada paso, puede seleccionar un vínculo de tema para obtener más información.
 
 ## 1. Crear y cargar las imágenes
 
 Como mínimo, necesitará entre 8 y 12 tomas de un elemento para un conjunto de giros unidimensional y entre 16 y 24 para un conjunto de giros bidimensional. Las tomas deben realizarse siguiendo intervalos regulares para dar la impresión de que se está rotando y volteando el elemento. Por ejemplo, si un conjunto de giros unidimensional incluye 12 tomas, gire el elemento 30° (360°/12) para cada toma.
 
-En la barra de navegación global, seleccione **[!UICONTROL Upload]** para cargar imágenes de giro desde el equipo o la red en Adobe Dynamic Media Classic.
+En la barra de navegación global, seleccione **[!UICONTROL Upload]** para cargar imágenes de giro desde el equipo o la red a Adobe Dynamic Media Classic.
 
 Consulte [Instrucciones para obtener imágenes para conjuntos de giros](creating-spin-set.md#guidelines-for-shooting-spin-set-images).
 
@@ -65,7 +67,7 @@ Consulte [Vista previa de un conjunto de giros](previewing-spin-set.md#previewin
 
 ## 6. Publicar un conjunto de giros
 
-Al publicar un conjunto de giros, este se coloca en los servidores de Dynamic Media Classic de Adobe para que se pueda enviar dinámicamente a su sitio web o aplicación. También activa la cadena URL que llama al conjunto de giros desde los servidores de imágenes de Dynamic Media a su sitio web o aplicación.
+Al publicar un conjunto de giros, este se coloca en los servidores de Adobe Dynamic Media Classic para que se pueda enviar dinámicamente a su sitio web o aplicación. También activa la cadena URL que llama al conjunto de giros desde los servidores de imágenes de Dynamic Media a su sitio web o aplicación.
 
 Para publicar un conjunto de giros, marque para publicar seleccionando el icono **[!UICONTROL Marcar para publicación]** junto a su nombre en el panel Examinar. En la barra de navegación global, seleccione **[!UICONTROL Publicar]** para iniciar una publicación. En la pantalla Publicar, seleccione **[!UICONTROL Enviar publicación]**.
 
@@ -73,7 +75,7 @@ Consulte [Publicar un conjunto de giros](publishing-spin-set.md#publishing-a-spi
 
 ## 7. Vincular un conjunto de giros a una página web
 
-Adobe Dynamic Media Classic crea cadenas de llamadas de URL para conjuntos de giros y las activa después de publicarlas. Puede copiar estas direcciones URL desde la página Vista previa .
+Adobe Dynamic Media Classic crea cadenas de llamada URL para conjuntos de giros y las activa después de publicarlas. Puede copiar estas direcciones URL desde la página Vista previa .
 
 Seleccione el conjunto de giros y, a continuación, seleccione **[!UICONTROL Vista previa]**. Seleccione un ajuste preestablecido de visor de conjuntos de giros. A continuación, seleccione **[!UICONTROL Copiar URL]**.
 

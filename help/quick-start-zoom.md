@@ -10,10 +10,10 @@ discoiquuid: 559c986d-313d-46df-a5ff-0b49316ad3a7
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: eae35207-000c-4ced-b9ab-714c2384a9e7
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 32%
+source-wordcount: '944'
+ht-degree: 28%
 
 ---
 
@@ -21,15 +21,17 @@ ht-degree: 32%
 
 Zoom le permite ver de forma interactiva detalles de alta resolución en imágenes. Por ejemplo, se pueden ver colores, opciones, ángulos y detalles de una imagen en un visor integrado, dinámico y completamente configurable. Este visor puede ser parte de una página web o aparecer en una ventana emergente. Puede auditar las imágenes en un rango cercano y realizar una panorámica de las imágenes en resoluciones altas para examinarlas detenidamente. La aplicación de zoom ofrece a los clientes una visualización interactiva, informativa y atractiva.
 
-Adobe Dynamic Media Classic también ofrece zoom guiado, un medio para resaltar las características importantes de una imagen. Por ejemplo, para centrar la atención en un logotipo, puede crear un destino de zoom para el mismo. Cuando los usuarios seleccionan este objetivo de zoom, hacen zoom en el logotipo.
+Adobe Dynamic Media Classic también ofrece zoom guiado: un medio para resaltar las funciones importantes de una imagen. Por ejemplo, para centrar la atención en un logotipo, puede crear un destino de zoom para el mismo. Cuando los usuarios seleccionan este objetivo de zoom, hacen zoom en el logotipo.
 
 Todas las imágenes de zoom se crean y ofrecen a partir de imágenes principales, gráficos y atributos controlados por base de datos. El zoom de Adobe Dynamic Media Classic reduce considerablemente el tiempo y el coste de producción y entrega de imágenes. Puede usar Visualizadores de zoom para acercar y alejar imágenes. El visor de zoom tiene botones que se pueden seleccionar para hacer zoom y recorrer; también puede realizar la panorámica arrastrando a la pantalla. Mediante ajustes preestablecidos de visor de zoom se puede configurar el visor de zoom dentro del cual se aplicará zoom en las imágenes.
 
-Este inicio rápido de zoom está diseñado para ponerse en marcha rápidamente con las técnicas de zoom en Adobe Dynamic Media Classic. Siga los pasos del 1 al 6. Después de cada paso hay una referencia cruzada a un encabezado de tema en el que podrá encontrar más información.
+Consulte [Destino de zoom: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/559_Zoom%20Target%20Tool_converted%20renamed_Dynamic%20Imaging-AVS) y [Zoom: Vídeos de formación de Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/560_Zoom_converted%20renamed_Dynamic%20Imaging-AVS).
+
+El siguiente inicio rápido de zoom está diseñado para ayudarle a poner en marcha rápidamente las técnicas de zoom en Adobe Dynamic Media Classic. Siga los pasos del 1 al 6. Después de cada paso hay una referencia cruzada a un encabezado de tema en el que podrá encontrar más información.
 
 ## 1. Cargar imágenes de zoom
 
-Comience por cargar las imágenes de zoom en Adobe Dynamic Media Classic. Para lograr un zoom óptimo, Adobe Dynamic Media Classic recomienda que las imágenes tengan al menos 2000 píxeles en el tamaño más largo.
+Comience por cargar las imágenes de zoom en Adobe Dynamic Media Classic. Para lograr un zoom óptimo, Adobe Dynamic Media Classic recomienda que las imágenes tengan al menos 2000 píxeles de tamaño más largo.
 
 En la barra de navegación global, seleccione **[!UICONTROL Upload]** para cargar imágenes de su equipo o red a una carpeta de Adobe Dynamic Media Classic. Consulte [Cargar imágenes de zoom](uploading-zoom-images.md#uploading_zoom_images).
 
@@ -41,11 +43,11 @@ Para crear un objetivo de zoom, seleccione **[!UICONTROL Editar]** y elija Desti
 
 ## 3. Configurar ajustes preestablecidos de visor de zoom
 
-Los ajustes preestablecidos de visor de zoom determinan el estilo y comportamiento de los visores de zoom. Puede configurar ajustes preestablecidos de visor de zoom si es un administrador; Adobe Dynamic Media Classic también incluye ajustes preestablecidos de visor de zoom &quot;prácticas recomendadas&quot; predeterminados.
+Los ajustes preestablecidos de visor de zoom determinan el estilo y comportamiento de los visores de zoom. Puede configurar ajustes preestablecidos de visor de zoom si es un administrador; Adobe Dynamic Media Classic también incluye ajustes preestablecidos de visor de zoom &quot;prácticas recomendadas&quot;.
 
 Para crear un ajuste preestablecido de visor de zoom, en la barra de navegación global, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Ajustes preestablecidos de visor]**. En la página Ajustes preestablecidos de visor, seleccione **[!UICONTROL Agregar]**, elija una plataforma y un visor de zoom y, a continuación, seleccione **[!UICONTROL Agregar]**. A continuación, elija las opciones en la página Configurar visor .
 
-Adobe Dynamic Media Classic ofrece **[!UICONTROL opciones de ajustes preestablecidos de visor de zoom]** que permiten seleccionar el estilo del botón y el aspecto general del visor. También puede personalizar la configuración de zoom para el sitio web. Consulte [Configurar ajustes preestablecidos de visor de zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
+Adobe Dynamic Media Classic ofrece opciones **[!UICONTROL Zoom Viewer Preset]** que permiten seleccionar el estilo del botón y el aspecto general del visor. También puede personalizar la configuración de zoom para el sitio web. Consulte [Configurar ajustes preestablecidos de visor de zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
 
 ## 4. Previsualizar imágenes con el visor de zoom
 
@@ -63,4 +65,4 @@ En la barra de navegación global, seleccione **[!UICONTROL Publicar]**. En el c
 
 ## 6. Vincular visualizadores de zoom a la página web
 
-Adobe Dynamic Media Classic crea las cadenas de llamada de URL necesarias para acercar imágenes y las activa al publicar imágenes en servidores de imágenes de Dynamic Media. Puede copiar estas cadenas URL desde la página **[!UICONTROL Preview]**. Cuando haya copiado las cadenas URL, estarán disponibles para su página web y sus aplicaciones. Consulte [Vincular visores de zoom a la página web](linking-zoom-viewers-web-pages.md#linking_zoom_viewers_to_your_web_pages).
+Adobe Dynamic Media Classic crea las cadenas de llamada de URL necesarias para acercar imágenes y las activa al publicar imágenes en los servidores de imágenes de Dynamic Media. Puede copiar estas cadenas URL desde la página **[!UICONTROL Preview]**. Cuando haya copiado las cadenas URL, estarán disponibles para su página web y sus aplicaciones. Consulte [Vincular visores de zoom a la página web](linking-zoom-viewers-web-pages.md#linking_zoom_viewers_to_your_web_pages).

@@ -1,6 +1,6 @@
 ---
 title: '"Inicio rápido: Catálogos electrónicos"'
-description: Introducción y inicio rápido a los catálogos electrónicos para ayudarle a poner en marcha rápidamente las técnicas del Catálogo electrónico en Adobe Dynamic Media Classic.
+description: Introducción y inicio rápido a los catálogos electrónicos para ayudarle a poner en marcha rápidamente las técnicas del catálogo electrónico en Adobe Dynamic Media Classic.
 uuid: 1ec41927-3df6-4845-8d9d-bb92cf6dca08
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,23 @@ discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '1436'
-ht-degree: 41%
+source-wordcount: '1558'
+ht-degree: 38%
 
 ---
 
 # Inicio rápido: Catálogos electrónicos{#quick-start-ecatalogs}
 
-Un catálogo electrónico es una versión web digital de material impreso: por ejemplo, un catálogo, un folleto, un manual de un producto o una circular publicitaria. Los catálogos electrónicos se muestran en un visor de catálogos electrónicos contenido en un sitio web. Este visor simula la lectura de material impreso. Según la configuración que elija para el catálogo electrónico, el visor puede permitirle hacer lo siguiente:
+Un catálogo electrónico es una versión web digital de material impreso: por ejemplo, un catálogo, un folleto, un manual de un producto o una circular publicitaria. Los catálogos electrónicos se muestran en un visor de catálogos electrónicos contenido en un sitio web. Este visor simula la lectura de material impreso.
+
+Consulte también los siguientes vídeos de formación:
+
+* [Inicio rápido 1: Catálogos electrónicos](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/561_Quick%20Start%20-%20Part%201_converted%20renamed_eCatalogs-AVS)
+* [Inicio rápido 2: Catálogos electrónicos](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/562_Quick%20Start%20-%20Part%202_converted%20renamed_eCatalogs-AVS)
+
+Según la configuración que elija para el catálogo electrónico, el visor puede permitirle hacer lo siguiente:
 
 * Busque en el catálogo una palabra clave o palabras clave. Los resultados de la búsqueda se muestran como una lista de miniaturas en un panel de búsqueda situado en la parte izquierda del catálogo. Cada miniatura en la que se puede hacer clic representa una extensión de catálogo en la que se encontró el término de búsqueda resaltado.
 
@@ -51,11 +58,11 @@ Al crear el catálogo electrónico, tiene la posibilidad de ordenar como desee p
 
 Este inicio rápido de catálogos electrónicos se ha diseñado para ayudarle en el uso inicial de catálogos electrónicos. Siga los pasos del 1 al 7. Después de cada paso hay una referencia cruzada a un encabezado de tema en el que podrá encontrar más información.
 
-## 1. Cargue los archivos PDF
+## 1. Cargue los archivos del PDF
 
 Los catálogos electrónicos suelen crearse a partir de archivos PDF. Puesto que están diseñados para imprimirse, los archivos PDF suelen contener imágenes en CMYK. Adobe Dynamic Media Classic detecta estas imágenes y las convierte utilizando un perfil de color CMYK estándar. Sin embargo, debe cargar y usar un perfil de color personalizado.
 
-En la barra de navegación global, seleccione **[!UICONTROL Upload]** para iniciar la carga de archivos PDF o imágenes para su catálogo electrónico. Puede cargar archivos desde el escritorio o por medio de FTP; se recomienda usar FTP si va a cargar muchos archivos o archivos cuyo tamaño es superior a 100 MB.
+En la barra de navegación global, seleccione **[!UICONTROL Upload]** para iniciar la carga de archivos o imágenes PDF para su catálogo electrónico. Puede cargar archivos desde el escritorio o por medio de FTP; se recomienda usar FTP si va a cargar muchos archivos o archivos cuyo tamaño es superior a 100 MB.
 
 En la pantalla de carga, Opciones de PDF le ofrece las opciones necesarias para cargar los archivos PDF con la resolución adecuada y el espacio de color correcto. Se recomienda utilizar una resolución de 150 píxeles por pulgada. Puede seleccionar la opción Generar catálogo electrónico automáticamente y crear un catálogo electrónico al cargar un archivo PDF. 
 
@@ -63,13 +70,13 @@ Consulte [Cargar los archivos PDF](uploading-pdf-files.md#uploading_the_pdf_file
 
 ## 2. Crear un catálogo electrónico
 
-Cree su catálogo electrónico seleccionando archivos PDF o de imagen en el panel Examinar. Seleccione **[!UICONTROL Generar]** y, a continuación, elija **[!UICONTROL Catálogos electrónicos]**.
+Cree su catálogo electrónico seleccionando archivos de imagen o PDF en el panel Examinar. Seleccione **[!UICONTROL Generar]** y, a continuación, elija **[!UICONTROL Catálogos electrónicos]**.
 
 En la página Catálogo electrónico, en la ficha **[!UICONTROL Ordenar páginas]**, seleccione una opción Diseño: **[!UICONTROL 1 Up]**, **[!UICONTROL 2 Up]** o **[!UICONTROL Custom]**. Puede reorganizar las páginas o los conjuntos de páginas arrastrándolos o, en el caso de los catálogos electrónicos de mayor tamaño, eligiendo un nombre de página en el menú Mover a.
 
 Para agregar páginas, seleccione una carpeta en la biblioteca de recursos y arrastre los archivos PDF o de imagen a la pantalla Ordenar páginas. En lugar de los números de página predeterminados, puede proporcionar nombres de página personalizados o importar muchos nombres de página.
 
-Seleccione **[!UICONTROL Guardar]**, introduzca un nombre para el catálogo electrónico, elija una carpeta de Dynamic Media Classic de Adobe para almacenarla y seleccione **[!UICONTROL Guardar]**. Cada vez que cambie el orden de la página o edite el catálogo electrónico, guarde los cambios haciendo clic en **[!UICONTROL Guardar]**.
+Seleccione **[!UICONTROL Guardar]**, introduzca un nombre para el catálogo electrónico, elija una carpeta de Adobe Dynamic Media Classic para almacenarla y seleccione **[!UICONTROL Guardar]**. Cada vez que cambie el orden de la página o edite el catálogo electrónico, guarde los cambios haciendo clic en **[!UICONTROL Guardar]**.
 
 Consulte [Crear un catálogo electrónico](creating-ecatalog.md).
 
@@ -107,17 +114,17 @@ Fíjese en la orientación, la combinación de colores, el aspecto de los contro
 
 Consulte [Vista previa de catálogos electrónicos en el visor de catálogos electrónicos](previewing-ecatalogs-ecatalog-viewer.md#previewing-ecatalogs-in-the-ecatalog-viewer).
 
-## 6. Publicar catálogo electrónico y archivos PDF asociados
+## 6. Publicar catálogo electrónico y PDF asociados
 
 Al publicar el catálogo electrónico y el PDF asociado, se coloca en los servidores de imágenes de Dynamic Media para que se pueda enviar al sitio web y a la aplicación. Como parte del proceso de publicación, Adobe Dynamic Media Classic activa la cadena URL del catálogo electrónico. Utilice esta URL para llamar al catálogo electrónico desde los servidores de imágenes de Dynamic Media a su sitio web o aplicación.
 
 Después de marcar el catálogo electrónico y el PDF para su publicación en el panel Examinar, seleccione el botón Publicar en la barra de navegación global para iniciar una publicación. En la pantalla Publicar, seleccione **[!UICONTROL Enviar publicación]**.
 
-Consulte [Publicar catálogos electrónicos y archivos PDF asociados](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
+Consulte [Publicar catálogos electrónicos y PDF asociados](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
 
 ## 7. Vincular un catálogo electrónico a una página web
 
-Adobe Dynamic Media Classic activa la cadena de llamada de URL necesaria para mostrar el catálogo electrónico cuando se publica en los servidores de imágenes de Dynamic Media. Puede copiar esta cadena URL desde la pantalla Vista previa y el panel Examinar (en la Vista detallada) seleccionando direcciones URL en el panel. Cuando haya copiado la cadena URL, estará disponible para los sitios web y las aplicaciones.
+Adobe Dynamic Media Classic activa la cadena de llamada URL necesaria para mostrar el catálogo electrónico cuando se publica en los servidores de imágenes de Dynamic Media. Puede copiar esta cadena URL desde la pantalla Vista previa y el panel Examinar (en la Vista detallada) seleccionando direcciones URL en el panel. Cuando haya copiado la cadena URL, estará disponible para los sitios web y las aplicaciones.
 
 Decida junto con su grupo de TI cuál es el lugar más apropiado de la página web para colocar el vínculo al catálogo electrónico. Cuando los usuarios seleccionan el vínculo, aparece el visor de catálogos electrónicos y los usuarios pueden navegar por el catálogo electrónico.
 

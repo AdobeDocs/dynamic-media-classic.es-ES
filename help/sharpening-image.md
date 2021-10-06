@@ -10,10 +10,10 @@ discoiquuid: 11cd5362-d90a-4c1e-bfbd-46a65a554409
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
-source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2276'
+ht-degree: 42%
 
 ---
 
@@ -23,7 +23,7 @@ El enfoque es una técnica de manipulación de imágenes para hacer más nítido
 
 Adobe Dynamic Media Classic recomienda encarecidamente utilizar ajustes preestablecidos de imagen para todas las imágenes. Garantizan un tamaño uniforme y el enfoque se aplica en cualquier imagen llamada con un ajuste preestablecido de imagen. Además, puede editar y cambiar fácilmente los parámetros de nitidez de un ajuste preestablecido de imagen. La siguiente vez que publique, todas las imágenes invocadas con dicho ajuste preestablecido reciben los nuevos valores.
 
-Adobe Dynamic Media Classic también recomienda añadir nitidez a los ajustes preestablecidos de visor y, a continuación, llamar a un visor con ese ajuste preestablecido. Al hacerlo, se garantiza que las imágenes de los espectadores sean nítidas y atractivas.
+Adobe Dynamic Media Classic también recomienda añadir nitidez a los ajustes preestablecidos de visualizador y, a continuación, llamar a un visualizador con ese ajuste preestablecido. Al hacerlo, se garantiza que las imágenes de los espectadores sean nítidas y atractivas.
 
 Sin embargo, tanto si utiliza ajustes preestablecidos de imagen y ajustes preestablecidos de visualizador como si utiliza algún método alternativo de nitidez, la conclusión es que debe enfocar las imágenes. Si no lo hace, las imágenes (y el sitio web) pueden verse suaves y borrosas.
 
@@ -31,7 +31,7 @@ Sin embargo, tanto si utiliza ajustes preestablecidos de imagen y ajustes preest
 >
 >los comandos de Enfocar anulan los valores de Ajuste preestablecido, incluidos sus efectos de enfoque. Los ajustes preestablecidos de imagen rigen el tamaño y el formato con que se entregan las imágenes desde los servidores de imágenes de Dynamic Media. Adobe Dynamic Media Classic recomienda encarecidamente utilizar ajustes preestablecidos de imagen para ofrecer todas las imágenes y garantizar que se entreguen a un tamaño y un enfoque uniformes. Una vez que se cambian los valores de enfoque de una imagen individual, sin embargo, los valores de enfoque del ajuste preestablecido de imagen dejarán de aplicarse a la imagen. Se distribuye sin los valores de enfoque del ajuste preestablecido de imagen.
 
-A menudo es necesario enfocar imágenes. Adobe Dynamic Media Classic y Servidores de imágenes ofrecen varias opciones de enfoque. Es importante entender cómo afecta el enfoque a una imagen y el grado de enfoque que necesita. La mayoría de las imágenes necesitan algo de enfoque pero la cantidad necesaria depende de la imagen.
+A menudo es necesario enfocar imágenes. Adobe Dynamic Media Classic y los servidores de imágenes ofrecen varias opciones de enfoque. Es importante entender cómo afecta el enfoque a una imagen y el grado de enfoque que necesita. La mayoría de las imágenes necesitan algo de enfoque pero la cantidad necesaria depende de la imagen.
 
 El enfoque de imágenes aumenta el contraste de los píxeles para crear el efecto de bordes acentuados. Los seres humanos perciben esta mejora del contraste de los bordes como un enfoque. Si bien es fácil mejorar una imagen mediante filtros de enfoque aplicados a la imagen, también es fácil enfocar una imagen demasiado.
 
@@ -40,6 +40,8 @@ Al enfocar una imagen demasiado se crea un efecto de halo o bandas de las línea
 Puede seguir algunas prácticas recomendadas para optimizar el enfoque de las imágenes en Adobe Dynamic Media Classic y en Dynamic Media Image Server.
 
 Consulte [Prácticas recomendadas para enfocar imágenes en Adobe Dynamic Media Classic y en Dynamic Media Image Server](/help/assets/s7_sharpening_images.pdf).
+
+Consulte también [Enfoque](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS) vídeo de formación.
 
 **Para enfocar una imagen:**
 
@@ -69,7 +71,7 @@ Seleccione el menú **[!UICONTROL Sharpening]** y elija una opción:
 
 Elija estas opciones para ajustar el enfoque con Máscara de enfoque:
 
-* **Cantidad** : controla la cantidad de contraste aplicado a los píxeles de borde. El valor predeterminado es 0,0. En las imágenes de alta resolución, puede aumentarse hasta 5,0. La cantidad equivaldría a la medida de la intensidad del filtro. La configuración **[!UICONTROL Amount]** de Adobe Dynamic Media Classic no es la misma que la configuración Cantidad de Adobe Photoshop. Adobe Photoshop utiliza una cantidad del rango del 1 % al 500 %, mientras que Adobe Dynamic Media Classic escala de 0,0 a 5,0. (5,0 equivale aproximadamente al 500% en Photoshop, 0,9 es similar al 90 % y así sucesivamente).
+* **Cantidad** : controla la cantidad de contraste aplicado a los píxeles de borde. El valor predeterminado es 0,0. En las imágenes de alta resolución, puede aumentarse hasta 5,0. La cantidad equivaldría a la medida de la intensidad del filtro. La configuración **[!UICONTROL Amount]** de Adobe Dynamic Media Classic no es la misma que la configuración de Amount de Adobe Photoshop. Adobe Photoshop utiliza una cantidad en el rango de 1% a 500%, mientras que Adobe Dynamic Media Classic escala de 0,0 a 5,0. (5,0 equivale aproximadamente al 500% en Photoshop, 0,9 es similar al 90 % y así sucesivamente).
 
 * **Radio** : determina el número de píxeles que rodean los píxeles de borde que afectan al enfoque. El efecto se ejecuta en todos los píxeles de la imagen e irradia en todas las direcciones. 
 
@@ -101,7 +103,7 @@ Seleccione el menú **[!UICONTROL Resampling]** y elija una opción. Estas opcio
 
 **Ajustes preestablecidos de enfoque e imagen**
 
-Puede incorporar los tres efectos de nitidez para lograr su resultado final. Sin embargo, no se recomienda este método. Adobe Dynamic Media Classic recomienda guardar los efectos de enfoque como parte de un ajuste preestablecido de imagen. Los ajustes preestablecidos de imagen le permiten empaquetar los modificadores de imagen más utilizados para crear una imagen cuyo tamaño se ha cambiado dinámicamente en una pequeña cadena de texto. Un ajuste preestablecido de imagen contiene valores para el formato de archivo (normalmente JPEG para la Web), el recuento de píxeles y el enfoque de la imagen. En lugar de anexar la URL con cada modificador de imagen que debe utilizar para crear un tipo específico de tamaño de imagen, cree un ajuste preestablecido de imagen con nombre, como &quot;miniatura&quot;. A continuación, configure el ajuste preestablecido de imagen en miniatura con el tamaño, el formato de archivo y las opciones de nitidez adecuados. Llame a la imagen con el nombre del ajuste preestablecido de imagen. Los ajustes preestablecidos de imagen acortan la longitud de la dirección URL general. Estas dos direcciones URL producen la misma imagen JPEG de 350 x 350 con nitidez:
+Puede incorporar los tres efectos de nitidez para lograr su resultado final. Sin embargo, no se recomienda este método. Adobe Dynamic Media Classic recomienda guardar los efectos de enfoque como parte de un ajuste preestablecido de imagen. Los ajustes preestablecidos de imagen le permiten empaquetar los modificadores de imagen más utilizados para crear una imagen cuyo tamaño se ha cambiado dinámicamente en una pequeña cadena de texto. Un ajuste preestablecido de imagen contiene valores para el formato de archivo (normalmente el JPEG de la web), el recuento de píxeles y el enfoque de la imagen. En lugar de anexar la URL con cada modificador de imagen que debe utilizar para crear un tipo específico de tamaño de imagen, cree un ajuste preestablecido de imagen con nombre, como &quot;miniatura&quot;. A continuación, configure el ajuste preestablecido de imagen en miniatura con el tamaño, el formato de archivo y las opciones de nitidez adecuados. Llame a la imagen con el nombre del ajuste preestablecido de imagen. Los ajustes preestablecidos de imagen acortan la longitud de la dirección URL general. Estas dos direcciones URL producen la misma imagen de JPEG de 350 x 350 con nitidez:
 
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?wid=350&hei=350&fmt=jpeg&qlt=85,0&resMode=sharp2&op_usm=0.9,1.0,8,0`
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?$!_s7product$`
@@ -114,11 +116,11 @@ Si utiliza un ajuste preestablecido para cada imagen de una categoría de tamañ
 
 Las opciones de Calidad JPG controlan el nivel de compresión JPG:
 
-* **Calidad JPG** : seleccione esta opción si desea controlar los niveles de compresión y la disminución de resolución de crominancia.
+* **Calidad del JPG** : seleccione esta opción si desea controlar los niveles de compresión y la disminución de resolución de crominancia.
 
-* **Control deslizante** : determina el nivel de compresión JPG. Esta configuración afecta tanto al tamaño como a la calidad de la imagen. La escala de calidad JPG es de 1 a 100.
+* **Control deslizante** : determina el nivel de compresión del JPG. Esta configuración afecta tanto al tamaño como a la calidad de la imagen. La escala de calidad del JPG es de 1 a 100.
 
-* **Activar el muestreo descendente de crominancia JPG** : como el ojo es menos sensible a la información de color de alta frecuencia que la luminancia de alta frecuencia, las imágenes JPEG dividen la información de la imagen en componentes de luminancia y color. Al comprimir una imagen JPEG, el componente de luminancia conserva la totalidad de su resolución, mientras que la resolución de los componentes de color se disminuye mediante promedios de grupos de píxeles. La disminución de resolución le resta una mitad o un tercio al volumen de los datos sin tener casi ningún impacto en la calidad percibida. La disminución de resolución no se aplica a las imágenes en escala de grises. Esta técnica reduce la cantidad de compresión, lo cual resulta útil para las imágenes de mayor contraste (por ejemplo, las imágenes con texto superpuesto).
+* **Activar disminución de resolución de crominancia en JPG** : como el ojo es menos sensible a la información de color de alta frecuencia que la luminancia de alta frecuencia, las imágenes en JPEG dividen la información de la imagen en componentes de luminancia y color. Al comprimir una imagen JPEG, el componente de luminancia conserva la totalidad de su resolución, mientras que la resolución de los componentes de color se disminuye mediante promedios de grupos de píxeles. La disminución de resolución le resta una mitad o un tercio al volumen de los datos sin tener casi ningún impacto en la calidad percibida. La disminución de resolución no se aplica a las imágenes en escala de grises. Esta técnica reduce la cantidad de compresión, lo cual resulta útil para las imágenes de mayor contraste (por ejemplo, las imágenes con texto superpuesto).
 
 **Establecer opciones de enfoque para toda la compañía**
 
@@ -131,6 +133,8 @@ Para establecer las opciones de enfoque predeterminadas de su empresa, vaya a **
 A no ser que se agreguen modificadores de imagen de enfoque al ajuste preestablecido, la pequeña imagen inicial de carga puede parecer suave porque se ha disminuido su resolución para que se ajuste a la ventana del visor sin enfocarla.
 
 Los ajustes preestablecidos de visor (como los ajustes preestablecidos de imagen) permiten centralizar muchas opciones en una ubicación, incluida la selección de opciones de aspecto y visor (como un botón de impresión o el control de la velocidad de la animación de zoom). Los ajustes preestablecidos de visor se encuentran en la misma sección que los ajustes preestablecidos de imagen, en **[!UICONTROL Configuración]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Ajustes preestablecidos de visor]**.
+
+Consulte el vídeo de formación [Ajustes preestablecidos de visor](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS).
 
 La opción Modificadores se encuentra en la sección Configuración básica de todos los ajustes preestablecidos de visor de catálogos electrónicos, de conjunto de giros y de zoom personalizado. Al agregar comandos de enfoque de URL al cuadro Modificadores, se agrega enfoque cada vez que se llama a ese visor con ese ajuste preestablecido de visor.
 

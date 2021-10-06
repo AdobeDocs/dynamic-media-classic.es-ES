@@ -1,6 +1,6 @@
 ---
 title: '"Inicio rápido: Vídeo en Adobe Dynamic Media Classic"'
-description: Introducción y inicio rápido a Adobe de vídeo de Dynamic Media Classic para ayudarle a empezar a utilizarlo rápidamente.
+description: Introducción y Vídeo de inicio rápido de Adobe Dynamic Media Classic para ayudarle a empezar a utilizarlo rápidamente.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '1444'
-ht-degree: 35%
+source-wordcount: '1806'
+ht-degree: 28%
 
 ---
 
@@ -35,13 +35,17 @@ Consulte la lógica del algoritmo en [https://android.googlesource.com/platform/
 
 Para administrar conjuntos de vídeos adaptables y de vídeo único, Adobe Dynamic Media Classic admite lo siguiente:
 
-* Carga de vídeos de varios formatos de vídeo y audio compatibles y codificación de vídeo al formato MP4 H.264 para su reproducción en varias pantallas. Puede utilizar ajustes preestablecidos de vídeo adaptables de Dynamic Media Classic de Adobe predefinidos, ajustes preestablecidos de codificación de vídeo único o personalizar su propia codificación para controlar la calidad y el tamaño del vídeo.
+* Carga de vídeos de varios formatos de vídeo y audio compatibles y codificación de vídeo al formato MP4 H.264 para su reproducción en varias pantallas. Puede utilizar ajustes preestablecidos de vídeo adaptables de Adobe Dynamic Media Classic predefinidos, ajustes preestablecidos de codificación de vídeo único o personalizar su propia codificación para controlar la calidad y el tamaño del vídeo.
 
-   Cuando se genera un conjunto de vídeos adaptables, incluye vídeos MP4.
+Consulte [Activación o desactivación de ajustes preestablecidos de vídeo adaptables](/help/application-setup.md#activating-or-deactivating-adaptive-video-presets)
 
-   >[!NOTE]
-   >
-   >Los vídeos principales/de origen y cualquier otro vídeo de formato de origen se *no* agregan a un conjunto de vídeos adaptables.
+Consulte también el vídeo de formación [Ajustes preestablecidos de vídeo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS).
+
+Cuando se genera un conjunto de vídeos adaptables, incluye vídeos MP4.
+
+>[!NOTE]
+>
+>Los vídeos principales/de origen y cualquier otro vídeo de formato de origen se *no* agregan a un conjunto de vídeos adaptables.
 
 * Subtítulos de vídeo en los visores Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark y Universal_HTML5_MixedMedia_light y navegación de capítulos de vídeo en los visores Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark y Universal_HTML5_MixedMedia_light.
 
@@ -50,9 +54,9 @@ Para administrar conjuntos de vídeos adaptables y de vídeo único, Adobe Dynam
    Consulte [Agregar marcadores de capítulo a vídeo](adding-chapter-markers-video.md).
 
 * Organice, explore o busque vídeos con total compatibilidad de metadatos para gestionar eficazmente sus recursos de vídeo. 
-* Distribuya conjuntos de vídeos adaptables a la web y a los escritorios, así como a los dispositivos móviles, incluidos iPhone, iPad, Android™, BlackBerry® y Windows®.
+* Entregue conjuntos de vídeos adaptables a la Web y a los equipos de escritorio, así como a los dispositivos móviles, incluidos iPhone, iPad, Android™, BlackBerry® y el teléfono Windows®.
 
-   El flujo de vídeo adaptable es compatible con varias plataformas iOS.
+   La transmisión de vídeo adaptable es compatible con varias plataformas de iOS.
 
    Consulte la compatibilidad más reciente en la [Guía de referencia de visores de Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
 
@@ -71,6 +75,15 @@ Para administrar conjuntos de vídeos adaptables y de vídeo único, Adobe Dynam
 
 * Configuración de reproductores de vídeo para cumplir las necesidades de marca.
 * Integración de vídeo en el sitio web, el sitio móvil o la aplicación móvil con una URL o código incrustado.
+
+Consulte los siguientes vídeos de formación:
+* [Información general del vídeo de MP4](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/563_MP4%20Video%20Overview_converted%20renamed_eVideos-AVS)
+
+* [Vista previa de vídeo MP4](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/564_MP4%20Video%20Preview_converted%20renamed_eVideos-AVS)
+
+* [Carga de vídeo MP4](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/565_MP4%20Video%20Upload_converted%20renamed_eVideos-AVS)
+
+* [Información general sobre la transmisión](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/567_Streaming%20Overview_master_eVideos_converted%20renamed_eVideos-AVS)
 
 **Inicio rápido**
 
@@ -109,9 +122,11 @@ Puede reproducir el vídeo en la página Vista previa . También puede elegir di
 
 **Opcional**
 
-Personalización de ajustes preestablecidos de visor : Adobe Dynamic Media Classic ofrece ajustes preestablecidos de visor predefinidos para la entrega de vídeo. Estos ajustes preestablecidos determinan la apariencia del visor y cómo funcionan los controles de reproducción. Para personalizar el visor de vídeo, los administradores pueden agregar y gestionar ajustes preestablecidos de visor desde la página Ajustes preestablecidos de visor. Para abrir esta página, en la esquina superior derecha de Adobe Dynamic Media Classic, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Ajustes preestablecidos de visor]**. La página Ajustes preestablecidos de visor contiene opciones para agregar, editar, eliminar y activar ajustes preestablecidos de visor.
+Personalización de ajustes preestablecidos de visor : Adobe Dynamic Media Classic ofrece ajustes preestablecidos de visor predefinidos para la entrega de vídeo. Estos ajustes preestablecidos determinan la apariencia del visor y cómo funcionan los controles de reproducción. Para personalizar el visor de vídeo, los administradores pueden agregar y gestionar ajustes preestablecidos de visor desde la página Ajustes preestablecidos de visor. Para abrir esta página, en la esquina superior derecha de Adobe Dynamic Media Classic, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Ajustes preestablecidos de visualizador]**. La página Ajustes preestablecidos de visor contiene opciones para agregar, editar, eliminar y activar ajustes preestablecidos de visor.
 
 Consulte [Trabajo con ajustes preestablecidos de visor de vídeo](previewing-videos-video-viewer.md#working_with_video_viewer_presets).
+
+Consulte también el vídeo de formación [Ajustes preestablecidos de vídeo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS).
 
 ## 3. Implemente vídeos en sus sitios web y sitios móviles
 
