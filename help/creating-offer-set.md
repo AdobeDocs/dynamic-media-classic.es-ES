@@ -10,7 +10,7 @@ discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: 53551f938946bb78074127c05f984ae97e9ccca1
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 35%
@@ -76,7 +76,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 1. Cuando termine, cerca de la esquina inferior derecha de la página, asegúrese de que **[!UICONTROL Publish after save*]** esté seleccionado (predeterminado).
 1. Seleccione **[!UICONTROL Close]**, introduzca un nombre para el conjunto de ofertas y, a continuación, seleccione **[!UICONTROL Save]**.
 
-Antes de cerrar la página de conjunto de ofertas de Test&amp;Target , inserte el conjunto de ofertas en Adobe Target Standard/Premium. Consulte [Transferencia de conjuntos de ofertas a Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
+Antes de cerrar la página de conjunto de ofertas de Test&amp;Target , inserte el conjunto de ofertas en Adobe Target Standard/Premium. Consulte [Inserción de conjuntos de ofertas en Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
 ## Creación de un conjunto de ofertas con imágenes o vídeos {#creating-an-offer-set-with-images-or-videos}
 
