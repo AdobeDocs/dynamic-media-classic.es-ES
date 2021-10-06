@@ -10,9 +10,9 @@ discoiquuid: 2b134cfa-7f46-4f5f-959e-b30aae610bb9
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: 2616c067215196e8145043ba57fba1e3a5667cdc
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '527'
 ht-degree: 25%
 
 ---
@@ -31,7 +31,7 @@ Los pasos clave del flujo de trabajo de Adobe Dynamic Media Classic son:
 
 * **Crear medios enriquecidos** : cree distintas configuraciones de los recursos, como catálogos electrónicos, conjuntos de imágenes, conjuntos de giros, conjuntos de muestras, conjuntos de medios mixtos, plantillas básicas y plantillas FXG.
 
-* **Publicar y administrar** : publique recursos en la red SaaS de Adobe Dynamic Media Classic, supervise el estado de los recursos cuando se publiquen, administre derechos de usuario y mantenga la seguridad.
+* **Publicar y administrar** : publique recursos en la red SaaS de Adobe Dynamic Media Classic. Monitorice el estado de los recursos cuando se publiquen. Administrar derechos de usuario y mantener la seguridad.
 
 * **Servir** : Entregar medios de la red SaaS de Adobe Dynamic Media Classic a páginas web, aplicaciones y dispositivos móviles; los medios están optimizados para el rendimiento y se entregan con el almacenamiento en caché de CDN. Adobe Dynamic Media Classic le proporciona una dirección URL para cada recurso. La URL se activará una vez publique el recurso.
 
