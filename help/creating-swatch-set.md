@@ -10,10 +10,10 @@ discoiquuid: 631d2b2d-9e69-4b96-8392-17e00a1a8de0
 feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: 426b6e6b-daed-4ca6-b095-99bb06604b07
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: fe2aef174299366fc88309679ae29cc99e3d7f98
 workflow-type: tm+mt
 source-wordcount: '708'
-ht-degree: 61%
+ht-degree: 67%
 
 ---
 
@@ -25,11 +25,12 @@ Por ejemplo, supongamos que desea ofrecer imágenes de gorras con viseras de dis
 
 ## Creación de un conjunto de muestras {#create}
 
-Cuando crea un conjunto, la opción **Publicar después de guardar** afecta a los miembros del conjunto y del conjunto de las siguientes maneras:
-| Opción **[!UICONTROL Publicar después de guardar]** seleccionada antes de guardar? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
-| — | — | — |
+Al crear un conjunto, la opción **Publicar después de guardar** afecta al conjunto y a los miembros del conjunto de las siguientes formas:
+
+| **[!UICONTROL Publicar después de guardar]** opción seleccionada antes de guardar? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
+| --- | --- | --- |
 | Sí | Publicado | publicado |
-| No | No publicado | Los miembros del conjunto conservan su estado publicado o no publicado. |
+| No | Sin publicar | Los miembros del conjunto conservan su estado publicado o no. |
 
 Consulte también [Publicación manual de recursos](publishing-files.md#manually_publishing_assets) y [Cancelación manual de la publicación de recursos](publishing-files.md#manually_unpublishing_assets).
 
@@ -37,9 +38,9 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 1. Realice una de las siguientes acciones:
 
-   * **Seleccione las imágenes primero** : en el panel Examinar, seleccione las imágenes y, a continuación, vaya a  **[!UICONTROL Generar]**  >  **[!UICONTROL Conjuntos de muestras]**.
+   * **Seleccione primero las imágenes** - En el panel Examinar, seleccione las imágenes y, a continuación, vaya a **[!UICONTROL Generar]** > **[!UICONTROL Conjuntos de muestras]**.
 
-   * **Comience desde la pantalla**  Conjunto de muestras: vaya a  **[!UICONTROL Generar]**  >  **[!UICONTROL Conjuntos de muestras]**. Seleccione una carpeta en la biblioteca de recursos y arrastre las imágenes a la sección Vistas de la página Conjunto de muestras.
+   * **Comenzar desde la pantalla Conjunto de muestras** - Vaya a **[!UICONTROL Generar]** > **[!UICONTROL Conjuntos de muestras]**. Seleccione una carpeta en la biblioteca de recursos y arrastre las imágenes a la sección Vistas de la página Conjunto de muestras.
 
 1. Arrastre los colores, patrones o acabados de muestra al cuadro de marcador de posición Muestras de la página Conjunto de muestras.
 
@@ -47,14 +48,14 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 1. Para cambiar el orden de las imágenes en su conjunto de muestras, arrastre las imágenes a su nueva ubicación.
 1. Asegúrese de que esté seleccionada la opción **[!UICONTROL Publicar después de guardar]** (predeterminada), cerca de la esquina inferior derecha de la página.
-1. Seleccione **[!UICONTROL Guardar]**, seleccione una carpeta para almacenar el conjunto de muestras de color, introduzca un nombre para el conjunto y seleccione **[!UICONTROL Enviar]**.
-1. Para ver el conjunto de muestras en el visor de conjuntos de muestras, seleccione **[!UICONTROL Preview]** en la pantalla Conjunto de muestras. Puede seleccionar miniaturas de muestra en el visor de conjuntos de muestras para ver su comportamiento.
+1. Select **[!UICONTROL Guardar]**, seleccione una carpeta para almacenar el conjunto de muestras de color, introduzca un nombre para el conjunto y seleccione **[!UICONTROL Submit]**.
+1. Para ver el conjunto de muestras en el visor de conjuntos de muestras, seleccione **[!UICONTROL Vista previa]** en la pantalla Conjunto de muestras. Puede seleccionar miniaturas de muestra en el visor de conjuntos de muestras para ver su comportamiento.
 
 ## Edición de un conjunto de muestras {#editing-a-swatch-set}
 
-Tanto si edita un conjunto publicado como si no, la opción **[!UICONTROL Publicar después de guardar]** afecta a los miembros del conjunto y del conjunto de las siguientes maneras:
+Tanto si edita un conjunto publicado como si no, la variable **[!UICONTROL Publicar después de guardar]** afecta a los miembros de conjunto y de conjunto de las siguientes maneras:
 
-| ¿Ya se ha publicado el conjunto? | **[!UICONTROL ¿Ha seleccionado la opción Publicar]** después de guardar antes de guardar la edición? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
+| ¿Ya se ha publicado el conjunto? | **[!UICONTROL Publicar después de]** guardar, opción seleccionada antes de guardar la edición? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
 |--- |--- |--- |--- |
 | Sí | Sí | Publicado | Publicado |
 | Sí | No | Publicado | Los miembros existentes del conjunto conservarán su estado publicado. Cualquier nuevo miembro que añada al conjunto durante la edición conservará su estado publicado o no publicado. |
@@ -73,7 +74,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
    * Para reordenar las imágenes, arrastre cada imagen a una nueva posición.
 
 1. Cuando haya terminado de editar el conjunto, asegúrese de que esté seleccionada la opción **[!UICONTROL Publicar después de guardar]** (predeterminada), cerca de la esquina inferior derecha de la página.
-1. Seleccione **[!UICONTROL Guardar]**, seleccione una carpeta de almacenamiento, introduzca un nombre para el conjunto y, a continuación, seleccione **[!UICONTROL Guardar]**.
+1. Select **[!UICONTROL Guardar]**, seleccione una carpeta de almacenamiento, introduzca un nombre para el conjunto y, a continuación, seleccione **[!UICONTROL Guardar]**.
 
 ## Eliminación de un conjunto de muestras {#deleting-a-swatch-set}
 
