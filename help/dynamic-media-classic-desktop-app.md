@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: df41d69e2fa6e9db806d8ffbb06edc42b70d1011
+source-git-commit: a575c698fec3f85e537ad07f5948e7e65912ca52
 workflow-type: tm+mt
-source-wordcount: '1940'
+source-wordcount: '2002'
 ht-degree: 1%
 
 ---
@@ -40,21 +40,13 @@ La aplicación de escritorio de Adobe Dynamic Media Classic es compatible con lo
 
 ## Correcciones en la última versión (20.22.1) {#release-jan2022}
 
-* 
+Edición de imágenes **[!UICONTROL Guardar]** no funcionaban.
 
-   <!-- CQ-4333853 :  -->Image editing **[!UICONTROL Save]** buttons were non-functional.
-* 
-
-   <!-- CQ-4334638 :  -->In the Set editors, the **[!UICONTROL Close]**, **[!UICONTROL Save]**, and **[!UICONTROL Save As]** buttons become disabled after scrolling assets in the **[!UICONTROL Add Assets]** panel.
-* 
-
-   <!-- CQ-4335992 :  -->**[!UICONTROL Play]** button in Video Detail view did not work.
-* 
-
-   <!-- CQ-4336687 :  -->Could not enter `d` and `e` in **[!UICONTROL Username]** and **[!UICONTROL Password]** fields when running macOS Monterey.
-* 
-
-   <!-- CQ-4334197 :  -->Moved the remaining analytics APIs to version 2.0.
+* Edición de imágenes **[!UICONTROL Guardar]** no funcionaban.
+* En los editores de conjuntos, la variable **[!UICONTROL Cerrar]**, **[!UICONTROL Guardar]** y **[!UICONTROL Guardar como]** los botones se desactivan después de desplazarse por los recursos **[!UICONTROL Agregar recursos]** panel.
+* **[!UICONTROL Play]** no funcionaba.
+* No se pudo introducir `d` y `e` en **[!UICONTROL Nombre de usuario]** y **[!UICONTROL Contraseña]** al ejecutar macOS Monterey.
+* Se han movido las API de análisis restantes a la versión 2.0.
 
 ## Correcciones en la versión (20.21.3) {#release-sept2021}
 
@@ -160,7 +152,7 @@ Para descargar y *silencioso* instale la última versión de la aplicación de e
 
 1. Descargue el último instalador de la aplicación de escritorio de Adobe Dynamic Media Classic para macOS.
 
-   * [macOS (.DMG): Descargar](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg)
+   * [macOS (.DMG): Descargar](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
 
 1. Monte la imagen de disco descargada (.DMG) en una ubicación de punto de montaje mediante el siguiente comando:
 
