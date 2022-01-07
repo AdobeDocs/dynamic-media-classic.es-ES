@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: a575c698fec3f85e537ad07f5948e7e65912ca52
+source-git-commit: 085ff63afc73d120fdc29a93b56e5d926eb93e34
 workflow-type: tm+mt
 source-wordcount: '2002'
 ht-degree: 1%
@@ -48,7 +48,7 @@ Edición de imágenes **[!UICONTROL Guardar]** no funcionaban.
 * No se pudo introducir `d` y `e` en **[!UICONTROL Nombre de usuario]** y **[!UICONTROL Contraseña]** al ejecutar macOS Monterey.
 * Se han movido las API de análisis restantes a la versión 2.0.
 
-## Correcciones en la versión (20.21.3) {#release-sept2021}
+## Correcciones en la versión 20.21.3 {#release-sept2021}
 
 * Miniaturas rotas de los recursos que se ven después de un período de inactividad en la aplicación de escritorio.
 * La aplicación de escritorio deja de responder, normalmente después de las operaciones Set.
