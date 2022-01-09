@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 085ff63afc73d120fdc29a93b56e5d926eb93e34
+source-git-commit: 92c3cccbd03f8e159ca6e1ae90558826a5b1443b
 workflow-type: tm+mt
-source-wordcount: '2002'
+source-wordcount: '1996'
 ht-degree: 1%
 
 ---
@@ -39,8 +39,6 @@ La aplicación de escritorio de Adobe Dynamic Media Classic es compatible con lo
 >La notificación de actualización en la aplicación de escritorio de Adobe Dynamic Media Classic no se genera para *menor* versiones. Los clientes que se benefician de las correcciones en una versión menor pueden actualizarse.
 
 ## Correcciones en la última versión (20.22.1) {#release-jan2022}
-
-Edición de imágenes **[!UICONTROL Guardar]** no funcionaban.
 
 * Edición de imágenes **[!UICONTROL Guardar]** no funcionaban.
 * En los editores de conjuntos, la variable **[!UICONTROL Cerrar]**, **[!UICONTROL Guardar]** y **[!UICONTROL Guardar como]** los botones se desactivan después de desplazarse por los recursos **[!UICONTROL Agregar recursos]** panel.
