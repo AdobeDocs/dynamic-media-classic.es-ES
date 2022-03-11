@@ -9,10 +9,10 @@ discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: ec1a981dd5cfa92ce4ae8e2676dd131d1509216f
 workflow-type: tm+mt
-source-wordcount: '3925'
-ht-degree: 33%
+source-wordcount: '3926'
+ht-degree: 32%
 
 ---
 
@@ -53,7 +53,7 @@ La carga de archivos TAR y ZIP incluye una casilla de verificación para selecci
 
 ### Formatos de imagen no compatibles en Dynamic Media {#unsupported-image-formats-dynamic-media}
 
-La siguiente lista describe los subtipos de formatos de archivo de imagen de trama que *no* son compatibles con Dynamic Media.
+La siguiente lista describe los subtipos de formatos de archivo de imagen de trama que se *not* compatible con Dynamic Media.
 
 Consulte también [Detectar formatos de archivo no compatibles para Dynamic Media](https://helpx.adobe.com/experience-manager/kb/detect-unsupported-assets-for-dynamic-media.html).
 
@@ -72,7 +72,7 @@ Para obtener resultados óptimos con el programa Adobe Dynamic Media Classic, as
 | --- | --- |
 | Audio | Los formatos de recursos de audio de entrada incluyen AAC, HE-AAC, AC3, WAV, WMA, AIFF y MP3. Puede transcodificar audio a los formatos siguientes: MP3, AAC y HE-AAC. |
 | Imágenes (para cambio de tamaño de imagen, zoom, conjuntos de imágenes, conjuntos de giros) | Las imágenes deben tener al menos 2000 píxeles con el tamaño más largo; los tamaños de imagen típicos varían de 1500 a 2500 píxeles en el tamaño más largo. Se recomiendan los formatos de imagen sin pérdida (incluidos TIFF y PNG). Con imágenes JPEG, use los valores más altos de calidad. Los archivos de GIF de animación se gestionan como cualquier otro contenido estático. |
-| Catálogos electrónicos | Use archivos PDF de alta resolución creados en Adobe® Acrobat® o una aplicación de Creative Suite guardados como &quot;listos para publicación&quot;. Los archivos PDF incluyen todas las fuentes, imágenes y máscaras requeridas, así como elementos gráficos a los que se hace referencia, ya sea en formato de página única, doble o multipágina. Asigne un nombre alfanumérico a los archivos para ordenar las páginas. Coloque todos los PDF para el catálogo electrónico en una misma carpeta, para facilitar la tarea de carga. Puede seleccionar opciones de recorte para quitar de los archivos marcas de recorte, destinos de registro o barras de color. La mayoría de archivos PDF listos para imprenta utilizan un espacio de color CMYK, por lo que es importante obtener el perfil de color CMYK ICC utilizado con los archivos. |
+| Catálogos electrónicos | Utilice archivos de PDF de alta resolución creados en Adobe Acrobat o una aplicación de Creative Suite de Adobe guardada como &quot;lista para la prensa&quot;. Los archivos PDF incluyen todas las fuentes, imágenes y máscaras requeridas, así como elementos gráficos a los que se hace referencia, ya sea en formato de página única, doble o multipágina. Asigne un nombre alfanumérico a los archivos para ordenar las páginas. Coloque todos los PDF para el catálogo electrónico en una misma carpeta, para facilitar la tarea de carga. Puede seleccionar opciones de recorte para quitar de los archivos marcas de recorte, destinos de registro o barras de color. La mayoría de archivos PDF listos para imprenta utilizan un espacio de color CMYK, por lo que es importante obtener el perfil de color CMYK ICC utilizado con los archivos. |
 | Plantillas | Las imágenes o los diseños con capas pueden incluir texto, imágenes y capas. Las capas de imagen, las cadenas de texto y los atributos, tales como el color y tamaño, pueden parametrizarse para personalizar los datos variables. Los requisitos de imagen cuando se utilizan plantillas son los mismos que para otros tipos de imagen. Prepare los gráficos en Photoshop u otro programa de edición de imágenes. Guarde cada gráfico como archivo acoplado transparente, en formato TIFF o PNG. Asegúrese de que la resolución de la imagen es apropiada para el uso previsto. Las imágenes para imprimir son de 300 ppi. |
 | Vídeos | Adobe Dynamic Media Classic admite archivos de vídeo guardados en los formatos OGV y MP4. Puede transcodificar los archivos a formato MP4 en el momento de realizar la carga. Consulte [Formatos de archivo de recursos admitidos](#supported-static-file-formats) |
 | Fuentes | Se han cargado las fuentes TrueType, Type1 (sólo Windows®), OpenType® y PhotoFonts. |
@@ -143,54 +143,54 @@ El método de asignación de nombres a carpetas y la estructura que elija para a
 
 **Basado en SKU** : los nombres de las carpetas dependen de los SKU o los números de artículo. Por ejemplo, se crean carpetas distintas para las series de números 0-, 20-, 30-, etc.
 
-**Basado en la marca** : para los fabricantes con varias líneas de marca y los minoristas que comercializan otras marcas de otras empresas, separe los archivos en carpetas de productos con nombres para diferentes marcas.
+**Basado en la marca** - Para los fabricantes con varias líneas de marca y los minoristas que comercializan otras marcas de otras empresas, separe los archivos en carpetas de productos con nombres de diferentes marcas.
 
-**Basado en proyectos** : las carpetas se organizan en función de la fecha de lanzamiento/colocación o el nombre del proyecto. Es el método favorito de los clientes que producen principalmente catálogos electrónicos.
+**Basado en proyectos** - Las carpetas se organizan en función de la fecha de despliegue/colocación o el nombre del proyecto. Es el método favorito de los clientes que producen principalmente catálogos electrónicos.
 
-**Mirror of web site folder hierarchy** : esta estructura de carpetas refleja la estructura de carpetas del sitio web, con las carpetas denominadas, por ejemplo, para categorías de productos.
+**Espejo de la jerarquía de carpetas del sitio web** : esta estructura de carpetas refleja la estructura de carpetas del sitio web, con las carpetas denominadas, por ejemplo, para las categorías de productos.
 
 ## Acerca de la carga de archivos {#uploading-your-files}
 
-Puede cargar archivos individuales desde el escritorio o cargar carpetas enteras mediante FTP. Si desea cargar más de 100 MB de archivos o cargar carpetas y subcarpetas completas, seleccione la pestaña **VIA FTP**.
+Puede cargar archivos individuales desde el escritorio o cargar carpetas enteras mediante FTP. Si desea cargar más de 100 MB de archivos o cargar carpetas y subcarpetas completas, seleccione la opción **MEDIANTE FTP** pestaña .
 
 Adobe Dynamic Media Classic le envía un mensaje de correo electrónico para confirmar cuándo comienza y finaliza el trabajo de carga y para notificarle cualquier problema.
 
-Durante (o inmediatamente después) un trabajo de carga grande, algunos elementos nuevos podrían mostrar el mensaje &quot;Imagen aún no optimizada&quot;. Este mensaje aparece porque los archivos aún no se han procesado y agregado completamente a Adobe Dynamic Media Classic. Puede optimizar estos archivos posteriormente. Consulte [Optimizar archivos](application-setup.md#optimize_files).
+Durante (o inmediatamente después) un trabajo de carga grande, algunos elementos nuevos podrían mostrar el mensaje &quot;Imagen aún no optimizada&quot;. Este mensaje aparece porque los archivos aún no se han procesado y agregado completamente a Adobe Dynamic Media Classic. Puede optimizar estos archivos posteriormente. Consulte [Optimización de archivos](application-setup.md#optimize_files).
 
 ### Cargar archivos con la ficha Desde escritorio {#upload-files-using-sps-desktop-application}
 
 La aplicación Adobe Dynamic Media Classic Desktop permite cargar archivos y carpetas arrastrando.
 
-1. En la aplicación de escritorio de Adobe Dynamic Media Classic, en la barra de navegación global, seleccione **[!UICONTROL Upload]**.
-1. En la página Cargar , seleccione la pestaña **[!UICONTROL From Desktop]**.
-1. En el lado izquierdo de la página Cargar, en el área **[!UICONTROL Seleccionar archivos para cargar]**, seleccione **[!UICONTROL Examinar]** para seleccionar los archivos o carpetas que desea cargar y, a continuación, seleccione **[!UICONTROL Abrir]**.
-1. En el lado derecho de la página Cargar, en el área **Elegir destino de carpeta**, vaya a la carpeta de destino en la que desee agregar los archivos o carpetas cargados.
+1. En la aplicación Adobe Dynamic Media Classic Desktop, en la barra de navegación global, seleccione **[!UICONTROL Cargar]**.
+1. En la página Cargar , seleccione la opción **[!UICONTROL Desde el escritorio]** pestaña .
+1. En el lado izquierdo de la página Cargar, en la sección **[!UICONTROL Seleccionar archivos para cargar]** área, seleccione **[!UICONTROL Examinar]** para seleccionar los archivos o carpetas que desea cargar, seleccione **[!UICONTROL Apertura]**.
+1. A la derecha de la página Cargar , en la **Elegir destino de carpeta** , vaya a la carpeta de destino donde desee agregar los archivos o carpetas cargados.
 1. (Opcional) Cerca de la parte inferior de la página Cargar, en el campo de texto Nombre del trabajo , introduzca el nuevo nombre del trabajo de carga. O bien, simplemente puede utilizar el nombre predeterminado generado por el sistema que proporciona Adobe Dynamic Media Classic. El trabajo, junto con otros de carga y publicación, se grabará en la página Trabajos, donde puede comprobar el estado de los trabajos. Consulte [Comprobación de archivos de trabajo](checking-job-files.md#checking_job_files).
-1. (Opcional) Cerca de la parte inferior de la página Cargar, seleccione **[!UICONTROL Publicar después de cargar]** si desea publicar automáticamente los recursos que carga.
+1. (Opcional) Cerca de la parte inferior de la página Cargar , seleccione **[!UICONTROL Publicar después de la carga]** si desea publicar automáticamente los recursos que carga.
 Al publicar archivos, se envían a servidores interactivos. Las URL para estos archivos se pueden utilizar en sitios Web y aplicaciones externas. Esta misma opción también está disponible en el cuadro de diálogo Opciones de trabajo.
-1. (Opcional) Cerca de la parte inferior de la página Cargar, seleccione **[!UICONTROL Sobrescribir en cualquier carpeta, el mismo nombre de recurso base independientemente de la extensión]** si desea que los archivos que cargue reemplacen los archivos existentes con los mismos nombres. Esta misma opción también está disponible en el cuadro de diálogo Opciones de trabajo.
-El nombre de esta opción puede ser diferente, dependiendo de la configuración en **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Configuración general]** > **[!UICONTROL Cargar a la aplicación]** > **[!UICONTROL Sobrescribir imágenes]**.
+1. (Opcional) Cerca de la parte inferior de la página Cargar , seleccione **[!UICONTROL Sobrescribir en cualquier carpeta, el mismo nombre de recurso base independientemente de la extensión]** si desea que los archivos que cargue reemplacen los archivos existentes con los mismos nombres. Esta misma opción también está disponible en el cuadro de diálogo Opciones de trabajo.
+El nombre de esta opción puede ser diferente, según la configuración de **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Configuración general]** > **[!UICONTROL Cargar a la aplicación]** > **[!UICONTROL Sobrescribir imágenes]**.
 1. Cerca de la esquina inferior derecha de la página Cargar, seleccione **[!UICONTROL Opciones de trabajo]** y, a continuación, especifique las opciones que desee.
 
    Consulte [Opciones de carga](uploading-files.md#upload_options).
 
 1. En el cuadro de diálogo Opciones de carga de trabajo, seleccione **[!UICONTROL Guardar]**.
 1. En la esquina inferior derecha de la página Cargar, seleccione **[!UICONTROL Enviar carga]**.
-Para ver el progreso de la carga, seleccione **[!UICONTROL Jobs]** en la barra de navegación global. Puede seguir trabajando en Adobe Dynamic Media Classic y volver a la página Trabajos en cualquier momento para revisar un trabajo en curso. Para cancelar un trabajo de carga que se encuentre en curso, seleccione **[!UICONTROL Cancelar]** junto al tiempo de duración.
+Para ver el progreso de la carga, seleccione **[!UICONTROL Trabajos]** en la barra de navegación global. Puede seguir trabajando en Adobe Dynamic Media Classic y volver a la página Trabajos en cualquier momento para revisar un trabajo en curso. Para cancelar un trabajo de carga que se encuentre en curso, seleccione **[!UICONTROL Cancelar]** junto al tiempo de duración.
 
 ### Cargar archivos mediante la ficha VIA FTP {#upload-files-using-via-ftp}
 
 1. Inicie sesión en el sitio FTP de Adobe Dynamic Media Classic que sea específico de su región en particular. Utilice el nombre de usuario y la contraseña FTP que ha recibido del administrador.
 1. En Adobe Dynamic Media Classic, en la barra de navegación global, seleccione **[!UICONTROL Cargar]**.
-1. En la página Cargar , seleccione la pestaña **[!UICONTROL VIA FTP]**.
-1. En la parte izquierda de la página Cargar, en el área **[!UICONTROL Elegir carpeta FTP para cargar]**, elija una carpeta FTP desde la que cargar los archivos.
-1. En el lado derecho de la página Cargar, en el área **[!UICONTROL Elegir destino de carpeta de Dynamic Media de Adobe]**, elija una carpeta de destino en Adobe Dynamic Media Classic.
+1. En la página Cargar , seleccione la opción **[!UICONTROL MEDIANTE FTP]** pestaña .
+1. En el lado izquierdo de la página Cargar, en la sección **[!UICONTROL Elija la carpeta FTP para la carga]** , elija una carpeta FTP desde la que cargar los archivos.
+1. A la derecha de la página Cargar , en la **[!UICONTROL Elija el destino de la carpeta Dynamic Media de Adobe]** , seleccione una carpeta de destino en Adobe Dynamic Media Classic.
 1. (Opcional) Cerca de la parte inferior de la página Cargar, en el campo de texto Nombre del trabajo , introduzca el nuevo nombre del trabajo de carga. O bien, simplemente puede utilizar el nombre predeterminado generado por el sistema que proporciona Adobe Dynamic Media Classic. El trabajo, junto con otros de carga y publicación, se grabará en la página Trabajos, donde puede comprobar el estado de los trabajos. Consulte [Comprobación de archivos de trabajo](checking-job-files.md#checking_job_files).
-1. (Opcional) Cerca de la parte inferior de la página Cargar, seleccione **[!UICONTROL Publicar después de la carga]** si desea publicar automáticamente los recursos que carga.
+1. (Opcional) Cerca de la parte inferior de la página Cargar , seleccione **[!UICONTROL Publicar después de la carga]** si desea publicar automáticamente los recursos que carga.
 Al publicar archivos, se envían a servidores interactivos. Las URL para estos archivos se pueden utilizar en sitios Web y aplicaciones externas. Esta misma opción también está disponible en el cuadro de diálogo Opciones de trabajo.
-1. (Opcional) Cerca de la parte inferior de la página Cargar, seleccione **[!UICONTROL Sobrescribir en cualquier carpeta, el mismo nombre de recurso base independientemente de la extensión]** si desea que los archivos que cargue reemplacen los archivos existentes con los mismos nombres. Esta misma opción también está disponible en el cuadro de diálogo Opciones de trabajo.
-El nombre de esta opción puede ser diferente, dependiendo de la configuración en **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Configuración general]** > **[!UICONTROL Cargar a la aplicación]** > **[!UICONTROL Sobrescribir imágenes]**.
-1. Opcional; solo está disponible si ha hecho clic en la pestaña **[!UICONTROL VIA FTP]**. Cerca de la parte inferior de la página Cargar, seleccione **[!UICONTROL Descomprimir archivos comprimidos o tar en la carga]** si desea extraer automáticamente todos los archivos de su archivo ZIP o TAR cargado. Esta misma opción también está disponible en el cuadro de diálogo Opciones de trabajo.
+1. (Opcional) Cerca de la parte inferior de la página Cargar , seleccione **[!UICONTROL Sobrescribir en cualquier carpeta, el mismo nombre de recurso base independientemente de la extensión]** si desea que los archivos que cargue reemplacen los archivos existentes con los mismos nombres. Esta misma opción también está disponible en el cuadro de diálogo Opciones de trabajo.
+El nombre de esta opción puede ser diferente, según la configuración de **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Configuración general]** > **[!UICONTROL Cargar a la aplicación]** > **[!UICONTROL Sobrescribir imágenes]**.
+1. Opcional; solo está disponible si ha hecho clic en la variable **[!UICONTROL MEDIANTE FTP]** pestaña . Cerca de la parte inferior de la página Cargar, seleccione **[!UICONTROL Descomprimir archivos zip o tar al cargar]** si desea extraer automáticamente todos los archivos de su archivo ZIP o TAR cargado. Esta misma opción también está disponible en el cuadro de diálogo Opciones de trabajo.
 1. Cerca de la esquina inferior derecha de la página Cargar, seleccione **[!UICONTROL Opciones de trabajo]** y, a continuación, especifique las opciones que desee.
 
    Consulte [Opciones de carga](uploading-files.md#upload_options).
@@ -206,71 +206,71 @@ Para cancelar un trabajo de carga que se encuentre en curso, seleccione **[!UICO
 
 Al cargar archivos, puede elegir entre las siguientes opciones del cuadro de diálogo Opciones de carga de trabajo:
 
-* **TRABAJO** : seleccione  **** TRABAJO para elegir las opciones que afectan a todo el trabajo de carga.
+* **TRABAJO** - Seleccionar **[!UICONTROL TRABAJO]** para elegir las opciones que afectan a todo el trabajo de carga.
 
-   También puede elegir las opciones *predeterminadas* para cargar trabajos mediante el cuadro de diálogo **[!UICONTROL Opciones de carga predeterminadas]** en Configuración general. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Configuración general]** > **[!UICONTROL Opciones de carga predeterminadas]** y, a continuación, establezca las opciones predeterminadas que desee.
+   También puede elegir *default* opciones para cargar trabajos usando la variable **[!UICONTROL Opciones de carga predeterminadas]** en Configuración general. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Configuración general]** > **[!UICONTROL Opciones de carga predeterminadas]**, luego establezca las opciones predeterminadas que desee.
 
-   * **[!UICONTROL Cuando]** : esta opción solo está disponible si ha seleccionado la pestaña  **[!UICONTROL VIA]** FTP.
-      * **[!UICONTROL Una sola vez]** : especifique un trabajo de carga que se ejecute una vez. Las opciones incluyen las siguientes:
-         * **[!UICONTROL Ahora]** : ejecuta el trabajo de carga inmediatamente después de seleccionar  **** Guardar en el cuadro de diálogo Opciones de carga de trabajo y, a continuación, seleccione  **[!UICONTROL Enviar]** carga en la página Cargar.
-         * **[!UICONTROL Programar para después]** : seleccione el año, el mes, el día y la hora (en incrementos de 15 minutos) en que desea que se ejecute el trabajo de carga.
-      * **[!UICONTROL Recurrente]** : especifique un trabajo de carga que se ejecute de forma diaria, semanal o mensual. O bien, personalice el trabajo de carga según sus propias especificaciones.
-         * **[!UICONTROL Diario]** : configure la hora a la que desea que se ejecute el trabajo todos los días. Si desea que el trabajo se ejecute solo de lunes a viernes, seleccione **[!UICONTROL Solo días de la semana]**.
-         * **[!UICONTROL Semanal]** : elija un día específico de la semana y la hora en que desea que se ejecute el trabajo.
-         * **[!UICONTROL Mensualmente]** : elija un día específico del mes o del día de la semana, incluida la hora de inicio, en el que desea que se ejecute el trabajo.
-         * **[!UICONTROL Personalizado]** : personalice un intervalo de tiempo de trabajo de carga o publicación según sus propias especificaciones. Consulte [Creación de un intervalo personalizado de tiempo de carga o publicación de trabajo](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval).
-   * **[!UICONTROL Publicar después de la carga]** : está disponible si ha seleccionado la pestaña  **[!UICONTROL DESKTOP o]** DESKTOP o la  **[!UICONTROL pestaña]** FTP. Seleccione esta opción para publicar automáticamente los recursos que cargue. Al publicar archivos, se envían a servidores interactivos. Las URL para estos archivos se pueden utilizar en sitios Web y aplicaciones externas. Esta opción también está disponible en la página de carga.
+   * **[!UICONTROL When]** - Esta opción solo está disponible si ha seleccionado la opción **[!UICONTROL MEDIANTE FTP]** pestaña .
+      * **[!UICONTROL Una vez]** - Especifique un trabajo de carga que se ejecute una vez. Las opciones incluyen las siguientes:
+         * **[!UICONTROL Ahora]** - Ejecuta el trabajo de carga inmediatamente después de seleccionar **[!UICONTROL Guardar]** en el cuadro de diálogo Opciones de carga de trabajo, seleccione **[!UICONTROL Enviar carga]** en la página Cargar .
+         * **[!UICONTROL Programar posteriormente]** : seleccione el año, mes, día y hora (en incrementos de 15 minutos) en que desea que se ejecute el trabajo de carga.
+      * **[!UICONTROL Recurrente]** - Especifique un trabajo de carga que se ejecute diariamente, semanalmente o mensualmente. O bien, personalice el trabajo de carga según sus propias especificaciones.
+         * **[!UICONTROL Diario]** - Establezca la hora a la que desea que se ejecute el trabajo todos los días. Si desea que el trabajo se ejecute solo de lunes a viernes, seleccione **[!UICONTROL Solo días de la semana]**.
+         * **[!UICONTROL Semanal]** - Elija un día específico de la semana y la hora a la que desea que se ejecute el trabajo.
+         * **[!UICONTROL Mensual]** - Elija un día específico del mes o día de la semana, incluida la hora de inicio, en el que desea que se ejecute el trabajo.
+         * **[!UICONTROL Personalizado]** : personalice un intervalo de tiempo de carga o publicación de trabajo según sus propias especificaciones. Consulte [Crear un intervalo personalizado de tiempo de carga o publicación de trabajo](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval).
+   * **[!UICONTROL Publicar después de la carga]** - Disponible si ha seleccionado la variable **[!UICONTROL DESDE ESCRITORIO]** o **[!UICONTROL MEDIANTE FTP]** pestaña . Seleccione esta opción para publicar automáticamente los recursos que cargue. Al publicar archivos, se envían a servidores interactivos. Las URL para estos archivos se pueden utilizar en sitios Web y aplicaciones externas. Esta opción también está disponible en la página de carga.
 
-   * **[!UICONTROL Sobrescriba en cualquier carpeta, el mismo nombre de recurso base independientemente de la extensión]** . Está disponible si ha seleccionado la pestaña  **[!UICONTROL DESKTOP o]** DESKTOP o la pestaña  **[!UICONTROL VIA]** FTP. Seleccione esta opción si desea que los archivos que cargue sustituyan archivos existentes con los mismos nombres. Esta opción también está disponible en la página de carga. El nombre de esta opción puede ser diferente, dependiendo de la configuración en **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Configuración general]** > **[!UICONTROL Cargar a la aplicación]** > **[!UICONTROL Sobrescribir imágenes]**.
+   * **[!UICONTROL Sobrescribir en cualquier carpeta, el mismo nombre de recurso base independientemente de la extensión]** - Disponible si ha seleccionado la variable **[!UICONTROL DESDE ESCRITORIO]** o **[!UICONTROL MEDIANTE FTP]** pestaña . Seleccione esta opción si desea que los archivos que cargue sustituyan archivos existentes con los mismos nombres. Esta opción también está disponible en la página de carga. El nombre de esta opción puede ser diferente, según la configuración de **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Configuración general]** > **[!UICONTROL Cargar a la aplicación]** > **[!UICONTROL Sobrescribir imágenes]**.
 
-   * **[!UICONTROL Descomprimir archivos comprimidos o tar al cargar]** : está disponible si ha seleccionado la pestaña  **[!UICONTROL DESKTOP de]** DESKTOP o  **[!UICONTROL VIA]** FTP.
+   * **[!UICONTROL Descomprimir archivos zip o tar al cargar]** - Disponible si ha seleccionado la variable **[!UICONTROL DESDE ESCRITORIO]** o **[!UICONTROL MEDIANTE FTP]** pestaña .
 Seleccione esta opción si desea extraer automáticamente todos los archivos de su archivo ZIP o TAR cargado. Esta misma opción también está disponible en el cuadro de diálogo Opciones de trabajo.
 
-   * **[!UICONTROL Incluir subcarpetas]** : solo está disponible si ha seleccionado la pestaña  **[!UICONTROL VIA]** FTP.
+   * **[!UICONTROL Incluir subcarpetas]** - Disponible solo si ha seleccionado la variable **[!UICONTROL MEDIANTE FTP]** pestaña .
 Seleccione esta opción si desea cargar subcarpetas de la carpeta que va a cargar. Los nombres de la carpeta y sus subcarpetas que cargue se introducen automáticamente en Adobe Dynamic Media Classic.
 
-   * **[!UICONTROL Procesar archivos de metadatos]** : solo está disponible si ha seleccionado la  **[!UICONTROL pestaña]** VIA FTP. Seleccione esta opción si desea cargar un archivo delimitado por tabuladores o XML para agregar metadatos a varios recursos. Consulte [Importación de datos (mediante FTP)](viewing-adding-exporting-metadata.md#import-metadata).
+   * **[!UICONTROL Procesar archivos de metadatos]** - Disponible solo si ha seleccionado **[!UICONTROL MEDIANTE FTP]** pestaña . Seleccione esta opción si desea cargar un archivo delimitado por tabuladores o XML para agregar metadatos a varios recursos. Consulte [Importación de datos (mediante FTP)](viewing-adding-exporting-metadata.md#import-metadata).
 
 
-* **Opciones de recorte** : para recortar automáticamente píxeles de espacio en blanco de una imagen, abra el  **** menú Recortar, seleccione  **[!UICONTROL Manual]** e introduzca medidas de píxeles en los campos de texto Superior, Derecha, Inferior e Izquierda para recortar desde los lados. También puede seleccionar **[!UICONTROL Recortar]** en el menú Recortar y elegir estas opciones:
+* **Opciones de recorte** - Para recortar automáticamente píxeles de espacio en blanco de una imagen, abra la **[!UICONTROL Recortar]** seleccione **[!UICONTROL Manual]** e introduzca medidas de píxeles en los campos de texto Superior, Derecha, Inferior e Izquierda para recortar desde los lados. También puede seleccionar **[!UICONTROL Recortar]** en el menú Recortar y elija estas opciones:
 
-   * **[!UICONTROL Separar en función de]** : elija si recortar en función del color o la transparencia:
-      * **[!UICONTROL Color]** : elija la opción Color. A continuación, seleccione el menú Esquina y elija la esquina de la imagen que mejor represente el color de espacio en blanco que desea recortar.
+   * **[!UICONTROL Separar en función de]** - Elija si desea recortar según el color o la transparencia:
+      * **[!UICONTROL Color]** - Seleccione la opción Color. A continuación, seleccione el menú Esquina y elija la esquina de la imagen que mejor represente el color de espacio en blanco que desea recortar.
 Recorte basado en el color: Especifique 0 para recortar píxeles solo si coinciden exactamente con el color seleccionado en la esquina de la imagen. Los números más cercanos a 1 permiten una mayor diferencia de color.
-      * **[!UICONTROL Transparencia]** : elija la opción  **** Transparencia.
+      * **[!UICONTROL Transparencia]** - Elija el **[!UICONTROL Transparencia]** .
 Recorte basado en la transparencia: Especifique 0 para recortar píxeles solo si son transparentes; los números más cercanos a 1 permiten una mayor transparencia.
-      * **[!UICONTROL Tolerancia]** : arrastre el control deslizante para especificar una tolerancia de 0 a 1.
+      * **[!UICONTROL Tolerancia]** - Arrastre el control deslizante para especificar una tolerancia de 0 a 1.
 
-* **Opciones de perfil de color** : elija una conversión de color al crear archivos optimizados que se utilicen para la entrega dinámica de Adobe Dynamic Media Classic:
+* **Opciones de perfil de color** - Elija una conversión de color al crear archivos optimizados que se utilicen para la entrega dinámica de Adobe Dynamic Media Classic:
 
-   * **[!UICONTROL Conservación de color predeterminada]** : mantiene los colores de la imagen de origen siempre que las imágenes contienen información de espacio de color; no hay conversión de color. Casi todas las imágenes actuales ya tienen incrustado el perfil de color adecuado. Sin embargo, si la imagen de origen CMYK no contiene un perfil de color incrustado, los colores se convierten al espacio de color sRGB (Standard Red Green Blue). SRGB es el espacio de color que se recomienda para mostrar imágenes en páginas web.
-   * **[!UICONTROL Conservar espacio de color original]** : conserva los colores originales sin conversión de color alguna en el punto de ingestión en Adobe Dynamic Media Classic. En el caso de las imágenes sin un perfil de color incrustado, cualquier conversión de color necesaria para procesar las solicitudes de la imagen se realiza mediante los perfiles de color predeterminados, tal y como se configura en la configuración de publicación . Estos perfiles de color no siempre se alinean con el color en los archivos creados con esta opción. Por lo tanto, se recomienda utilizar la opción Conservación de color predeterminada.
-   * **[!UICONTROL Personalizar de]**  >  **[!UICONTROL A]** : abre los menús para que pueda elegir un espacio de  **[!UICONTROL Convertir]** de y  **[!UICONTROL Convertir]** color de color. Esta opción avanzada sustituye cualquier información de color incrustada en el archivo de origen. Seleccione esta opción solo cuando todas las imágenes que envía contengan datos de perfil de color incorrectos o que falten.
+   * **[!UICONTROL Conservación de color predeterminada]** - Mantiene los colores de la imagen de origen siempre que las imágenes contienen información de espacio de color; no hay conversión de color. Casi todas las imágenes actuales ya tienen incrustado el perfil de color adecuado. Sin embargo, si la imagen de origen CMYK no contiene un perfil de color incrustado, los colores se convierten al espacio de color sRGB (Standard Red Green Blue). SRGB es el espacio de color que se recomienda para mostrar imágenes en páginas web.
+   * **[!UICONTROL Mantener espacio de color original]** - Conserva los colores originales sin ninguna conversión de color en el punto de ingestión en Adobe Dynamic Media Classic. En el caso de las imágenes sin un perfil de color incrustado, cualquier conversión de color necesaria para procesar las solicitudes de la imagen se realiza mediante los perfiles de color predeterminados, tal y como se configura en la configuración de publicación . Estos perfiles de color no siempre se alinean con el color en los archivos creados con esta opción. Por lo tanto, se recomienda utilizar la opción Conservación de color predeterminada.
+   * **[!UICONTROL Personalizado desde]** > **[!UICONTROL Hasta]** - Abre los menús para que pueda elegir un **[!UICONTROL Convertir de]** y **[!UICONTROL Convertir en]** espacio de color. Esta opción avanzada sustituye cualquier información de color incrustada en el archivo de origen. Seleccione esta opción solo cuando todas las imágenes que envía contengan datos de perfil de color incorrectos o que falten.
 
-* **Opciones de edición de imágenes** : puede conservar las  &lt;> máscaras de recorte en las imágenes y elegir un perfil de color.
-Consulte [Opciones de ajuste de imagen en upload](image-editing-options-upload.md#image-editing-options-at-upload).
+* **Opciones de edición de imágenes** - Puede conservar las máscaras de recorte &lt;> en las imágenes y elegir un perfil de color.
+Consulte [Opciones de ajuste de imagen al cargar](image-editing-options-upload.md#image-editing-options-at-upload).
 
-* **Opciones de PostScript®** : puede rasterizar archivos de PostScript®, recortar archivos, mantener fondos transparentes, elegir una resolución y elegir un espacio de color.
+* **opciones de PostScript®** - Puede rasterizar archivos de PostScript®, recortar archivos, mantener fondos transparentes, elegir una resolución y elegir un espacio de color.
 Consulte [Trabajar con archivos PostScript y Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
-* **Opciones de Photoshop** : puede crear plantillas a partir de archivos de Adobe® Photoshop®, mantener las capas, especificar cómo se denominan las capas, extraer texto y especificar cómo se anclan las imágenes en las plantillas.
+* **Opciones de Photoshop** - Puede crear plantillas a partir de archivos Photoshop® de Adobe®, mantener las capas, especificar el nombre de las capas, extraer texto y especificar cómo se anclan las imágenes en las plantillas.
 Consulte [Opciones de carga de archivos PSD](psd-files.md#psd_upload_options).
 
-* **Opciones del PDF** : puede rasterizar los archivos, extraer palabras de búsqueda y vínculos, generar automáticamente un catálogo electrónico, establecer la resolución y elegir un espacio de color.
+* **opciones del PDF** - Puede rasterizar los archivos, extraer palabras de búsqueda y vínculos, generar automáticamente un catálogo electrónico, establecer la resolución y elegir un espacio de color.
 Consulte [Opciones de carga de PSD](pdfs.md#pdf_upload_options).
 
-* **Opciones de Illustrator** : puede rasterizar archivos Adobe Illustrator®, mantener fondos transparentes, elegir una resolución y elegir un espacio de color.
+* **Opciones de Illustrator** - Puede rasterizar archivos Adobe Illustrator®, mantener fondos transparentes, elegir una resolución y elegir un espacio de color.
 Consulte [Trabajar con archivos PostScript y Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
-* **Opciones de EVIDEO** : puede transcodificar un archivo de vídeo eligiendo un ajuste preestablecido de vídeo.
+* **Opciones de EVIDEO** - Puede transcodificar un archivo de vídeo eligiendo un ajuste preestablecido de vídeo.
 Consulte [Trabajo con ajustes preestablecidos de codificación de vídeo](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
-* **Metadatos adicionales** : introduzca palabras clave que describan los archivos que desea cargar. Separe las palabras clave con una coma. Las palabras clave facilitan la búsqueda de recursos. Consulte [Realizar una búsqueda avanzada](searching-assets.md#conducting_an_advanced_search). Consulte también [Cargar palabras clave](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) vídeo de capacitación.
+* **Metadatos adicionales** : introduzca palabras clave que describan los archivos que desea cargar. Separe las palabras clave con una coma. Las palabras clave facilitan la búsqueda de recursos. Consulte [Realizar una búsqueda avanzada](searching-assets.md#conducting_an_advanced_search). Consulte también [Cargar palabras clave](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) vídeo de formación.
 
-* **Ajustes preestablecidos de conjuntos de lotes** : si desea crear un conjunto de imágenes, un conjunto de giros o un conjunto de muestras a partir de los archivos cargados, seleccione la  **** columna Activecolumn para el ajuste preestablecido que desea utilizar. Puede seleccionar varios ajustes preestablecidos. Los ajustes preestablecidos se crean en la página Ajustes de aplicación/Valores preestablecidos de conjunto por lotes.
+* **Ajustes preestablecidos de conjunto de lotes** - Si desea crear un conjunto de imágenes, un conjunto de giros o un conjunto de muestras a partir de los archivos cargados, seleccione la opción **[!UICONTROL Activo]** para el ajuste preestablecido que desee utilizar. Puede seleccionar varios ajustes preestablecidos. Los ajustes preestablecidos se crean en la página Ajustes de aplicación/Valores preestablecidos de conjunto por lotes.
 Consulte [Valores preestablecidos de conjunto por lotes](application-setup.md#batch_set_presets).
 
-* **Avanzado** : consulte  [Seguir una carga con otro trabajo](uploading-files.md#follow-an-upload-with-another-job).
+* **Avanzadas** - Consulte [Seguir una carga con otro trabajo](uploading-files.md#follow-an-upload-with-another-job).
 
 ## Ejecución de trabajos a continuación de la carga {#follow-an-upload-with-another-job}
 
@@ -280,10 +280,10 @@ El nuevo trabajo envía una notificación a la dirección especificada para acti
 
 **Para seguir una carga con otro trabajo:**
 
-1. Seleccione **[!UICONTROL Upload]** y, a continuación, seleccione la pestaña **[!UICONTROL VIA FTP]**.
+1. Select **[!UICONTROL Cargar]** y, a continuación, seleccione **[!UICONTROL MEDIANTE FTP]** pestaña .
 1. En la esquina inferior derecha de la página Cargar, seleccione **[!UICONTROL Opciones de trabajo]**.
-1. En el cuadro de diálogo Opciones de carga de trabajo , expanda la sección **[!UICONTROL AVANZADA]**.
-1. Elija una de las siguientes opciones en la lista desplegable **[!UICONTROL Follow Upload with other job]**:
+1. En el cuadro de diálogo Opciones de carga de trabajo , expanda el **[!UICONTROL AVANZADO]** para obtener más información.
+1. Elija una de las siguientes opciones del **[!UICONTROL Siga Cargar con otro trabajo]** lista desplegable:
 
    * Ninguno
    * Solicitud HTTP
