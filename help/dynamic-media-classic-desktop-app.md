@@ -1,16 +1,16 @@
 ---
 title: 'Aplicación de escritorio de Adobe Dynamic Media Classic: ya disponible'
 description: Obtenga más información sobre la aplicación de escritorio de Adobe Dynamic Media Classic.
-contentOwner: admin
+contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 92c3cccbd03f8e159ca6e1ae90558826a5b1443b
+source-git-commit: f0c02d40a1a84e52b25d1c4558958af970859a07
 workflow-type: tm+mt
-source-wordcount: '1996'
+source-wordcount: '2025'
 ht-degree: 1%
 
 ---
@@ -32,11 +32,14 @@ Consulte las preguntas frecuentes para la sección [Ya está disponible la nueva
 La aplicación de escritorio de Adobe Dynamic Media Classic es compatible con los siguientes sistemas operativos:
 
 * macOS 10.10 o posterior.
+
+   >[!NOTE]
+   >
+   >La aplicación de escritorio de Dynamic Media Classic está viendo una funcionalidad degradada cuando se utiliza con macOS Monterrey. Como tal, Adobe está trabajando en la publicación de una nueva versión de la aplicación de escritorio en las próximas semanas.
+
 * Windows® 7 o posterior.
 
->[!NOTE]
->
->La notificación de actualización en la aplicación de escritorio de Adobe Dynamic Media Classic no se genera para *menor* versiones. Los clientes que se benefician de las correcciones en una versión menor pueden actualizarse.
+La notificación de actualización en la aplicación de escritorio de Adobe Dynamic Media Classic no se genera para *menor* versiones. Los clientes que se benefician de las correcciones en una versión menor pueden actualizarse.
 
 ## Correcciones en la última versión (20.22.1) {#release-jan2022}
 
