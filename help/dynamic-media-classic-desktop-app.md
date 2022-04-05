@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: f0c02d40a1a84e52b25d1c4558958af970859a07
+source-git-commit: a53245c3a9c82fb68db1b62798b962dd3283be12
 workflow-type: tm+mt
-source-wordcount: '2025'
+source-wordcount: '2011'
 ht-degree: 1%
 
 ---
@@ -32,14 +32,13 @@ Consulte las preguntas frecuentes para la sección [Ya está disponible la nueva
 La aplicación de escritorio de Adobe Dynamic Media Classic es compatible con los siguientes sistemas operativos:
 
 * macOS 10.10 o posterior.
-
-   >[!NOTE]
-   >
-   >La aplicación de escritorio de Dynamic Media Classic está viendo una funcionalidad degradada cuando se utiliza con macOS Monterrey. Como tal, Adobe está trabajando en la publicación de una nueva versión de la aplicación de escritorio en las próximas semanas.
-
 * Windows® 7 o posterior.
 
 La notificación de actualización en la aplicación de escritorio de Adobe Dynamic Media Classic no se genera para *menor* versiones. Los clientes que se benefician de las correcciones en una versión menor pueden actualizarse.
+
+## Corregido en la última versión (20.22.2): solo macOS {#release-feb2022}
+
+* macOS Monterey : la página de carga de archivos se congeló en cargas posteriores. <!-- https://jira.corp.adobe.com/browse/ASSETS-7948 -->
 
 ## Correcciones en la última versión (20.22.1) {#release-jan2022}
 
@@ -94,15 +93,17 @@ Véase también:
 
 1. Descargue el último instalador de la aplicación de escritorio de Adobe Dynamic Media Classic.
 
-   * La versión más reciente (20.22.1) está disponible en:
+   * La versión más reciente está disponible en:
+
+      * [macOS (.DMG): Descargar](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
+      * [Windows (.EXE): descarga](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
+   * La versión anterior está disponible en:
 
       * [macOS (.DMG): Descargar](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
-      * [Windows (.EXE): descarga](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
-   * La versión anterior (20.21.3) está disponible en:
-
-      * [macOS (.DMG): Descargar](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg)
       * [Windows® (.EXE) - Descargar](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
 
+
+<!--         * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) -->
 
 <!--    * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
         * [Windows® (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) -->
@@ -153,11 +154,11 @@ Para descargar y *silencioso* instale la última versión de la aplicación de e
 
 1. Descargue el último instalador de la aplicación de escritorio de Adobe Dynamic Media Classic para macOS.
 
-   * [macOS (.DMG): Descargar](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
+   * [macOS (.DMG): Descargar](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
 
 1. Monte la imagen de disco descargada (.DMG) en una ubicación de punto de montaje mediante el siguiente comando:
 
-   `hdiutil attach adobe-dynamic-media-classic-20.22.1.dmg -mountpoint <mount_point_path>`
+   `hdiutil attach adobe-dynamic-media-classic-20.22.2.dmg -mountpoint <mount_point_path>`
 
 1. Copie el archivo .APP a **[!UICONTROL Aplicaciones]** mediante el siguiente comando:
 
