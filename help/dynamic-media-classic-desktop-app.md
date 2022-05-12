@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: a53245c3a9c82fb68db1b62798b962dd3283be12
+source-git-commit: 3345861b5d65f46071578a81913e6b0a4eeb6b8d
 workflow-type: tm+mt
-source-wordcount: '2011'
+source-wordcount: '2026'
 ht-degree: 1%
 
 ---
@@ -34,9 +34,11 @@ La aplicación de escritorio de Adobe Dynamic Media Classic es compatible con lo
 * macOS 10.10 o posterior.
 * Windows® 7 o posterior.
 
+Consulte todos los requisitos del sistema en [Requisitos del sistema para la aplicación de escritorio de Adobe Dynamic Media Classic](/help/system-requirements.md).
+
 La notificación de actualización en la aplicación de escritorio de Adobe Dynamic Media Classic no se genera para *menor* versiones. Los clientes que se benefician de las correcciones en una versión menor pueden actualizarse.
 
-## Corregido en la última versión (20.22.2): solo macOS {#release-feb2022}
+## Este problema se corrigió solo en la última versión (20.22.2) de macOS {#release-feb2022}
 
 * macOS Monterey : la página de carga de archivos se congeló en cargas posteriores. <!-- https://jira.corp.adobe.com/browse/ASSETS-7948 -->
 
