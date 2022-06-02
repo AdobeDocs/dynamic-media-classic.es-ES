@@ -1,6 +1,6 @@
 ---
 title: Crear un conjunto de giros
-description: Aprenda a crear un conjunto de giros en Adobe Dynamic Media Classic.
+description: Obtenga información sobre cómo crear un conjunto de giros en Adobe Dynamic Media Classic.
 uuid: 697bd78f-5e39-46bf-aa6d-ad8ab99fe40e
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 55%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,11 +23,11 @@ Si desea crear un conjunto de giros eficaz, asegúrese de tomar las imágenes co
 
 >[!NOTE]
 >
->Las versiones anteriores de Adobe Dynamic Media Classic no ofrecían conjuntos de giros bidimensionales. Si ha creado un conjunto de giros en una versión anterior de Adobe Dynamic Media Classic, no puede guardar el conjunto de giros unidimensional sin guardarlo primero con un nombre diferente. Seleccione **[!UICONTROL Guardar como]** en la pantalla Conjunto de giros e introduzca un nuevo nombre para poder editarlo en Adobe Dynamic Media Classic.
+>Las versiones anteriores de Adobe Dynamic Media Classic no ofrecían conjuntos de giros bidimensionales. Si ha creado un conjunto de giros en una versión anterior de Adobe Dynamic Media Classic, no puede guardar el conjunto de giros unidimensional sin guardarlo primero con un nombre diferente. Select **[!UICONTROL Guardar como]** en la pantalla Conjunto de giros e introduzca un nombre nuevo para que pueda editarlo en Adobe Dynamic Media Classic.
 
 ## Instrucciones para obtener imágenes para conjuntos de giros {#guidelines-for-shooting-spin-set-images}
 
-Por normal general, cuantas más imágenes tenga un conjunto de giros, mejor será el efecto de giro. Sin embargo, si se incluyen muchas imágenes en el conjunto también se aumentará el tiempo que tardan en cargarse las imágenes. Adobe Dynamic Media Classic recomienda estas directrices para la grabación de imágenes para su uso en Conjuntos de giros:
+Por normal general, cuantas más imágenes tenga un conjunto de giros, mejor será el efecto de giro. Sin embargo, si se incluyen muchas imágenes en el conjunto también se aumentará el tiempo que tardan en cargarse las imágenes. Adobe Dynamic Media Classic recomienda estas directrices para la toma de imágenes para su uso en Conjuntos de giros:
 
 * Como mínimo, utilice entre 8 y 12 imágenes en un conjunto de giros unidimensional y entre 16 y 24 imágenes en un conjunto de giros bidimensional.
 * Utilice un formato sin pérdida; se recomiendan TIFF y PNG.
@@ -41,36 +41,46 @@ Es importante el orden en que se crea o crea el conjunto de giros en Adobe Dynam
 
 Al crear un conjunto, la opción **[!UICONTROL Publicar después de guardar]** afecta al conjunto y a los miembros del conjunto de las siguientes formas:
 
-| **[!UICONTROL ¿Publicar después de]** guardar está seleccionada la opción antes de guardar? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
+| **[!UICONTROL Publicar después de guardar]** opción seleccionada antes de guardar? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
 | --- | --- | --- |
 | Sí | Publicado | Publicado |
 | No | Sin publicar | Los miembros del conjunto conservan su estado publicado o no. |
 
 Consulte también [Publicación manual de recursos](publishing-files.md#manually-publishing-assets) y [Cancelación manual de la publicación de recursos](publishing-files.md#manually-unpublishing-assets).
 
+>[!NOTE]
+>
+>Cuando se crea un conjunto de giros, Adobe recomienda la siguiente guía de prácticas recomendadas y límite obligatorio.
+>
+>* Número máximo de filas/columnas por conjunto de giros 2D
+   > 
+   >   * Práctica recomendada: 1000
+   >   * Límite obligatorio: 1000
+
+
 Después de guardar un conjunto de giros, use la opción Vista previa de la página Generar: Conjunto de giros para comprobar el aspecto del conjunto de giros en el visor predeterminado.
 
 **Para crear un conjunto de giros:**
 
-1. En el menú desplegable **[!UICONTROL Build]**, seleccione **[!UICONTROL Conjuntos de giros]**.
+1. En el **[!UICONTROL Generar]** menú desplegable, seleccione **[!UICONTROL Conjuntos de giros]**.
 1. En el cuadro de diálogo Tamaño del conjunto de giros, defina el número de filas y celdas que desee.
 
    Para crear un conjunto de giros de una dimensión, seleccione solo una fila.
 
    Para crear un conjunto de giros de dos dimensiones, seleccione dos filas o más.
 
-1. Seleccione **[!UICONTROL OK]**.
+1. Select **[!UICONTROL OK]**.
 1. Arrastre las imágenes y suéltelas en la cuadrícula de la pantalla Conjunto de giros.
 1. Cuando haya terminado, asegúrese de que esté seleccionada la opción **Publicar después de guardar** (predeterminada), cerca de la esquina inferior derecha de la página.
-1. Seleccione **[!UICONTROL Guardar]**.
+1. Select **[!UICONTROL Guardar]**.
 1. En el cuadro de diálogo Guardar, seleccione la carpeta en la que desee almacenar el conjunto de giros. En el campo Nombre de archivo, escriba el nombre del conjunto de giros.
-1. Seleccione **[!UICONTROL Guardar]**.
+1. Select **[!UICONTROL Guardar]**.
 
 ## Editar un conjunto de giros {#editing-a-spin-set}
 
-Tanto si edita un conjunto publicado como un conjunto sin publicar, la opción **[!UICONTROL Publicar después de guardar]** afecta a los miembros del conjunto y del conjunto de las siguientes maneras:
+Tanto si edita un conjunto publicado como un conjunto sin publicar, la variable **[!UICONTROL Publicar después de guardar]** afecta a los miembros de conjunto y de conjunto de las siguientes maneras:
 
-| ¿Ya se ha publicado el conjunto? | **[!UICONTROL ¿Publicar después de]** guardar una opción seleccionada antes de guardar la edición? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
+| ¿Ya se ha publicado el conjunto? | **[!UICONTROL Publicar después de guardar]** antes de guardar la edición? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
 | --- | --- | --- | --- |
 | Sí | Sí | Publicado | Publicado |
 | Sí | No | Publicado | Los miembros existentes del conjunto conservarán su estado publicado. Cualquier nuevo miembro que añada al conjunto durante la edición conservará su estado publicado o no publicado. |
@@ -81,19 +91,19 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 **Para editar un conjunto de giros:**
 
-1. Seleccione el botón de rollover **[!UICONTROL Editar]** del conjunto de giros.
+1. Seleccione el rollover del conjunto de giros **[!UICONTROL Editar]** botón.
 1. Realice una de las siguientes acciones:
 
-   * **Eliminación de imágenes** : seleccione la imagen y, a continuación, seleccione  **[!UICONTROL Eliminar]**.
+   * **Eliminación de imágenes** - Seleccione la imagen y, a continuación, seleccione **[!UICONTROL Eliminar]**.
 
-   * **Adición de imágenes** : arrastre la imagen a una celda.
+   * **Adición de imágenes** - Arrastre la imagen a una celda.
 
-   * **Reordenación de filas (conjuntos de giros bidimensionales)** : seleccione un cuadro de selector de filas (a la izquierda de la fila) y, a continuación, seleccione  **[!UICONTROL Mover fila]** o  **[!UICONTROL Subir fila]**.
+   * **Reordenación de filas (conjuntos de giros bidimensionales)** - Seleccione un cuadro de selector de filas (a la izquierda de la fila) y, a continuación, seleccione **[!UICONTROL Bajar fila]** o **[!UICONTROL Subir fila]**.
 
-   * **Adición de filas y celdas** : introduzca un número en el cuadro Filas y el cuadro Celdas para determinar el número de filas y el número de celdas en cada fila.
+   * **Adición de filas y celdas** - Introduzca un número en los cuadros Filas y Celdas para determinar el número de filas y el número de celdas de cada fila.
 
 1. Cuando haya terminado con su edición, asegúrese de que esté seleccionada la opción **[!UICONTROL Publicar después de guardar]** (predeterminada), cerca de la esquina inferior derecha de la página.
-1. Seleccione **[!UICONTROL Guardar]**, seleccione una carpeta de almacenamiento, introduzca un nombre para el conjunto y, a continuación, seleccione **[!UICONTROL Guardar]**.
+1. Select **[!UICONTROL Guardar]**, seleccione una carpeta de almacenamiento, introduzca un nombre para el conjunto y, a continuación, seleccione **[!UICONTROL Guardar]**.
 
 ## Eliminar un conjunto de giros {#deleting-a-spin-set}
 

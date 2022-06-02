@@ -10,10 +10,10 @@ discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: 5040b1916794d3b54f952a1df5f060be2f31006a
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 22%
+source-wordcount: '664'
+ht-degree: 21%
 
 ---
 
@@ -23,7 +23,19 @@ Los conjuntos de imágenes de Adobe Dynamic Media Classic proporcionan a los usu
 
 El visor de conjuntos de imágenes ofrece herramientas de zoom para examinar las imágenes de cerca. Si lo desea, puede crear destinos de zoom guiado y mapas de imagen para que formen parte del conjunto de imágenes. Los conjuntos de imágenes permiten una visualización completa y coordinada.
 
-Consulte [Conjuntos de imágenes y giros: Vídeo de formación del Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS).
+Consulte [Conjuntos de giros e imágenes: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) vídeo de formación.
+
+>[!NOTE]
+>
+>Al crear un conjunto de imágenes, Adobe recomienda las siguientes directrices de prácticas recomendadas y límites obligatorios.
+>
+>* Número de recursos duplicados por conjunto de imágenes
+   >   * Práctica recomendada: 20
+   >   * Límite obligatorio: 20
+>* Número máximo de páginas por conjunto de imágenes
+   >   * Práctica recomendada: 1000
+   >   * Límite ampliado: 1000
+
 
 El siguiente Inicio rápido de conjuntos de imágenes está diseñado para ayudarle a poner en marcha rápidamente las técnicas de conjuntos de imágenes en Adobe Dynamic Media Classic.
 
@@ -31,9 +43,9 @@ El siguiente Inicio rápido de conjuntos de imágenes está diseñado para ayuda
 
 Comience el proceso cargando las imágenes para los conjuntos de imágenes. Dado que los usuarios pueden hacer zoom en las imágenes en el visualizador de conjuntos de imágenes, asegúrese de tener en cuenta esta capacidad al elegir imágenes. Asegúrese de que las imágenes tengan al menos 2000 píxeles en el tamaño más grande. Adobe Dynamic Media Classic admite muchos formatos de archivo de imagen, pero se recomiendan las imágenes TIFF, PNG y EPS sin pérdida.
 
-En la barra de navegación global, seleccione **[!UICONTROL Upload]** para cargar archivos del equipo a una carpeta de Adobe Dynamic Media Classic.
+En la barra de navegación global, seleccione **[!UICONTROL Cargar]** para cargar archivos desde el equipo a una carpeta de Adobe Dynamic Media Classic.
 
-Consulte [Preparación de recursos de conjuntos de imágenes para cargar](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload) y [Carga de archivos](uploading-files.md#uploading-your-files).
+Consulte [Preparación de recursos de conjuntos de imágenes para su carga](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload) y [Cargar los archivos](uploading-files.md#uploading-your-files).
 
 ## 2. Crear un conjunto de imágenes
 
@@ -47,7 +59,7 @@ Consulte también [Incluir destinos de zoom y mapas de imagen en conjuntos de im
 
 ## 3. Prepare ajustes preestablecidos del visualizador de conjuntos de imágenes, según sea necesario
 
-Los administradores pueden crear o modificar los ajustes preestablecidos de visor de conjuntos de imágenes. Adobe Dynamic Media Classic incluye ajustes preestablecidos de visor predeterminados para cada tipo de medios enriquecidos. Utilice el visor de zoom: **[!UICONTROL Personalizado]** > **[!UICONTROL Imágenes]** o **[!UICONTROL Conjuntos de imágenes]**/**[!UICONTROL Vistas múltiples]** ajustes preestablecidos para ver los conjuntos de imágenes.
+Los administradores pueden crear o modificar los ajustes preestablecidos de visor de conjuntos de imágenes. Adobe Dynamic Media Classic incluye ajustes preestablecidos de visor predeterminados para cada tipo de medios enriquecidos. Utilice el visor de zoom: **[!UICONTROL Personalizado]** > **[!UICONTROL Imágenes]** o **[!UICONTROL Conjuntos de imágenes]**/**[!UICONTROL Varias vistas]** ajustes preestablecidos para ver los conjuntos de imágenes.
 
 Puede añadir o editar los ajustes preestablecidos del visor desde la pantalla Ajustes de aplicación.
 
@@ -67,7 +79,7 @@ Al publicar un conjunto de imágenes, este se coloca en los servidores de Adobe 
 >
 >Este paso no es necesario si seleccionó la opción **[!UICONTROL Publicar después de guardar]** (predeterminada) al crear y guardar el conjunto de imágenes.
 
-Seleccione el icono **[!UICONTROL Marcar para publicación]** que aparece a la izquierda del nombre en el panel Examinar. A continuación, seleccione **[!UICONTROL Publicar]**. En la página Publicar, seleccione **[!UICONTROL Enviar publicación]**.
+Select **[!UICONTROL Marcar para publicación]** a la izquierda de su nombre en el panel Examinar. A continuación, seleccione **[!UICONTROL Publicación]**. En la página Publicar , seleccione **[!UICONTROL Enviar publicación]**.
 
 Consulte [Publicar archivos](publishing-files.md#publishing-files).
 
@@ -75,6 +87,6 @@ Consulte [Publicar archivos](publishing-files.md#publishing-files).
 
 Adobe Dynamic Media Classic crea llamadas de URL para conjuntos de imágenes y los activa después de publicar. Puede copiar estas direcciones URL desde la pantalla Vista previa.
 
-Seleccione el conjunto de imágenes y, a continuación, seleccione **[!UICONTROL Vista previa]**. Ahora, seleccione un ajuste preestablecido de visualizador de conjuntos de imágenes y, a continuación, seleccione **[!UICONTROL Copiar URL]**.
+Seleccione el conjunto de imágenes y, a continuación, seleccione **[!UICONTROL Vista previa]**. A continuación, seleccione un ajuste preestablecido de visualizador de conjuntos de imágenes y, a continuación, seleccione **[!UICONTROL Copiar URL]**.
 
-Consulte [Vincular un conjunto de imágenes a una página web](linking-image-set-web-page.md#linking-an-image-set-to-a-web-page).
+Consulte [Vinculación de un conjunto de imágenes a una página web](linking-image-set-web-page.md#linking-an-image-set-to-a-web-page).
