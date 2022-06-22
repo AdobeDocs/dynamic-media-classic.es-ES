@@ -6,9 +6,9 @@ user-guide-title: Guía de Adobe Dynamic Media Classic
 breadcrumb-title: Guía de Dynamic Media Classic
 user-guide-description: Más información acerca del uso de Adobe Dynamic Media Classic
 index: y
-source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '779'
 ht-degree: 30%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 30%
    + [Acerca de la carga y publicación de recursos](about-asset-upload-publish.md)
    + [Carga de archivos](uploading-files.md)
    + [Publicar archivos](publishing-files.md)
-   + [Prácticas recomendadas y límites aplicados por Dynamic Media en los tipos de recursos](best-practices-enforced-limits.md)
+   + [Limitaciones de Dynamic Media](limitations.md)
    + [Probar recursos antes de hacerlos públicos](testing-assets-making-them-public.md)
    + [Comprobar archivos de trabajo](checking-job-files.md)
 + Administración de recursos {#managing-assets}

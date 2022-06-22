@@ -9,10 +9,10 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '821'
+ht-degree: 39%
 
 ---
 
@@ -20,14 +20,20 @@ ht-degree: 0%
 
 Normalmente, los archivos Adobe PDF son la fuente de un catálogo electrónico. Estos archivos contienen toda la información de la imagen, las fuentes y los gráficos vectoriales. También puede generar un catálogo electrónico a partir de imágenes. Cuando haya preparado los archivos de PDF para cargarlos, en la barra de navegación global, seleccione **[!UICONTROL Cargar]** para empezar a cargar los PDF.
 
+Cuando se carga un PDF para la extracción de páginas, el Adobe impone el siguiente límite:
+
+| tipo de límite de PDF | Límite implementado | Cambios en el límite 31 de diciembre de 2022 |
+| --- | --- | --- |
+| Número máximo de páginas para un PDF a tener en cuenta para la extracción | 5000 (para nuevas cargas) | 100 |
+
+<!-- 
 >[!NOTE]
 >
->Cuando se carga un PDF para la extracción de páginas, el Adobe impone la siguiente guía de prácticas recomendadas y límite obligatorio.
+>When you upload a PDF for page extraction, Adobe imposes the following best practice guideline and enforced limit.d
 >
->* Número máximo de páginas por PDF que se consideran para la extracción
-   >   * Práctica recomendada: 100
-   >   * Límite obligatorio: 1000 (para actualizar cargas)
-
+>* Maximum page size of a PDF to be considered for extraction
+>   * Best practice: 100
+>   * Enforced limit: 1000 (for refresh uploads) -->
 
 ## Preparar los archivos del PDF {#preparing-your-pdf-files}
 

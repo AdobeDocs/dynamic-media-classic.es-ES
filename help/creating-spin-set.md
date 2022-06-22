@@ -10,10 +10,10 @@ discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
-source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '947'
+ht-degree: 53%
 
 ---
 
@@ -48,15 +48,11 @@ Al crear un conjunto, la opción **[!UICONTROL Publicar después de guardar]** a
 
 Consulte también [Publicación manual de recursos](publishing-files.md#manually-publishing-assets) y [Cancelación manual de la publicación de recursos](publishing-files.md#manually-unpublishing-assets).
 
->[!NOTE]
->
->Cuando se crea un conjunto de giros, Adobe recomienda la siguiente guía de prácticas recomendadas y límite obligatorio.
->
->* Número máximo de filas/columnas por conjunto de giros 2D
-   > 
-   >   * Práctica recomendada: 1000
-   >   * Límite obligatorio: 1000
+Cuando crea un conjunto de giros, Adobe recomienda la siguiente práctica recomendada y aplica el siguiente límite:
 
+| Tipo límite de conjunto de giros | Práctica recomendada | Límite implementado |
+| --- | --- | --- |
+| Número máximo de filas/columnas por conjunto 2D | 12 a 18 imágenes por conjunto | 1.000 |
 
 Después de guardar un conjunto de giros, use la opción Vista previa de la página Generar: Conjunto de giros para comprobar el aspecto del conjunto de giros en el visor predeterminado.
 

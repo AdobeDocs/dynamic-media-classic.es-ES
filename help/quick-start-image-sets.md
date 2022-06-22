@@ -10,9 +10,9 @@ discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
-source-git-commit: 5040b1916794d3b54f952a1df5f060be2f31006a
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '675'
 ht-degree: 21%
 
 ---
@@ -25,17 +25,12 @@ El visor de conjuntos de imágenes ofrece herramientas de zoom para examinar las
 
 Consulte [Conjuntos de giros e imágenes: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) vídeo de formación.
 
->[!NOTE]
->
->Al crear un conjunto de imágenes, Adobe recomienda las siguientes directrices de prácticas recomendadas y límites obligatorios.
->
->* Número de recursos duplicados por conjunto de imágenes
-   >   * Práctica recomendada: 20
-   >   * Límite obligatorio: 20
->* Número máximo de páginas por conjunto de imágenes
-   >   * Práctica recomendada: 1000
-   >   * Límite ampliado: 1000
+Al crear un conjunto de imágenes, Adobe recomienda las siguientes prácticas recomendadas y aplica los límites siguientes:
 
+| Tipo de límite de conjunto de imágenes | Práctica recomendada | Límite implementado | Cambios en el límite 31 de diciembre de 2022 |
+| --- | --- | --- | --- |
+| Número de activos duplicados por conjunto | Sin duplicados | 100 | 20 |
+| Número máximo de imágenes por conjunto | 5 a 10 imágenes por conjunto | 1.000 |
 
 El siguiente Inicio rápido de conjuntos de imágenes está diseñado para ayudarle a poner en marcha rápidamente las técnicas de conjuntos de imágenes en Adobe Dynamic Media Classic.
 

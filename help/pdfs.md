@@ -10,10 +10,10 @@ discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '699'
+ht-degree: 37%
 
 ---
 
@@ -21,14 +21,11 @@ ht-degree: 0%
 
 Los archivos de PDF (Portable Document Format) se usan con mayor frecuencia en Adobe Dynamic Media Classic para crear catálogos electrónicos. Al cargar un archivo de PDF, Adobe Dynamic Media Classic rasteriza o quita las páginas de forma predeterminada para que se puedan usar las páginas para crear medios enriquecidos.
 
->[!NOTE]
->
->Cuando se carga un PDF para la extracción de páginas, el Adobe impone la siguiente guía de prácticas recomendadas y límite obligatorio.
->
->* Número máximo de páginas por PDF que se consideran para la extracción
-   >   * Práctica recomendada: 100
-   >   * Límite obligatorio: 1000 (para actualizar cargas)
+Cuando se carga un PDF para la extracción de páginas, el Adobe impone el siguiente límite:
 
+| tipo de límite de PDF | Límite implementado | Cambios en el límite 31 de diciembre de 2022 |
+| --- | --- | --- |
+| Número máximo de páginas para un PDF a tener en cuenta para la extracción | 5000 (para nuevas cargas) | 100 |
 
 ## Opciones de carga de archivos PDF {#pdf-upload-options}
 
