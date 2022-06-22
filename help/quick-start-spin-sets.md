@@ -10,10 +10,10 @@ discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
-source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
+source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 23%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,6 +34,8 @@ Cuando crea un conjunto de giros, Adobe recomienda la siguiente práctica recome
 | Tipo límite de conjunto de giros | Práctica recomendada | Límite implementado |
 | --- | --- | --- |
 | Número máximo de filas/columnas por conjunto 2D | 12 a 18 imágenes por conjunto | 1.000 |
+
+Consulte también [Limitaciones de Dynamic Media](/help/limitations.md).
 
 Este inicio rápido de los conjuntos de giros está diseñado para ayudarle a poner en marcha rápidamente las técnicas de conjuntos de giros en Adobe Dynamic Media Classic. Siga los pasos del 1 al 7. Al final de cada paso, puede seleccionar un vínculo de tema para obtener más información.
 

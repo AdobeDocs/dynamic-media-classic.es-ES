@@ -10,10 +10,10 @@ discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
-source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
+source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 21%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,6 +31,8 @@ Al crear un conjunto de imágenes, Adobe recomienda las siguientes prácticas re
 | --- | --- | --- | --- |
 | Número de activos duplicados por conjunto | Sin duplicados | 100 | 20 |
 | Número máximo de imágenes por conjunto | 5 a 10 imágenes por conjunto | 1.000 |
+
+Consulte también [Limitaciones de Dynamic Media](/help/limitations.md).
 
 El siguiente Inicio rápido de conjuntos de imágenes está diseñado para ayudarle a poner en marcha rápidamente las técnicas de conjuntos de imágenes en Adobe Dynamic Media Classic.
 

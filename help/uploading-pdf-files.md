@@ -9,10 +9,10 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
+source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 39%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,6 +25,8 @@ Cuando se carga un PDF para la extracción de páginas, el Adobe impone el sigui
 | tipo de límite de PDF | Límite implementado | Cambios en el límite 31 de diciembre de 2022 |
 | --- | --- | --- |
 | Número máximo de páginas para un PDF a tener en cuenta para la extracción | 5000 (para nuevas cargas) | 100 |
+
+Consulte también [Limitaciones de Dynamic Media](/help/limitations.md).
 
 <!-- 
 >[!NOTE]

@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 feature: Dynamic Media Classic,Asset Management,Viewers,Image Sets,Spin Sets,eCatalog
 role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
-source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
+source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,8 @@ En las secciones siguientes se describen las limitaciones de Dynamic Media.
 Este tema incluye las siguientes secciones:
 
 * Prácticas recomendadas y límites aplicados por Dynamic Media en los tipos de recursos
-* Combinaciones de navegador web y sistema operativo no compatibles con los visores de Dynamic Media
+
+<!-- * Unsupported web browser and operating system combinations for Dynamic Media Viewers -->
 
 ## Prácticas recomendadas y límites aplicados por Dynamic Media en los tipos de recursos
 
@@ -36,6 +37,8 @@ Cuando se crea un conjunto de giros o un conjunto de imágenes, o se cargan PDF 
 | **Conjunto de imágenes** - Número máximo de imágenes por conjunto | 5 a 10 imágenes por conjunto | 1.000 |
 | **Conjunto de giros** - Número máximo de filas/columnas por conjunto 2D | 12 a 18 imágenes por conjunto | 1.000 |
 | **PDF** - Número máximo de páginas para un PDF a tener en cuenta para la extracción |  | 5000 (para nuevas cargas) | 100 |
+
+<!-- See also [Dynamic Media limitations](/help/limitations.md) -->
 
 <!-- ## Unsupported web browser and operating system combinations for Dynamic Media Viewers
 
