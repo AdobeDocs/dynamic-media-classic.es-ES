@@ -9,10 +9,10 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '827'
+ht-degree: 38%
 
 ---
 
@@ -22,7 +22,7 @@ Normalmente, los archivos Adobe PDF son la fuente de un catálogo electrónico. 
 
 Cuando se carga un PDF para la extracción de páginas, el Adobe impone el siguiente límite:
 
-| tipo de límite de PDF | Límite implementado | Cambios en el límite 31 de diciembre de 2022 |
+| tipo de límite de PDF | Límite impuesto | Cambio al límite el 31 de diciembre de 2022 |
 | --- | --- | --- |
 | Número máximo de páginas para un PDF a tener en cuenta para la extracción | 5000 (para nuevas cargas) | 100 |
 

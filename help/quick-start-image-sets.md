@@ -10,10 +10,10 @@ discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '673'
+ht-degree: 21%
 
 ---
 
@@ -27,9 +27,9 @@ Consulte [Conjuntos de giros e imágenes: Dynamic Imaging](https://s7d5.scene7.c
 
 Al crear un conjunto de imágenes, Adobe recomienda las siguientes prácticas recomendadas y aplica los límites siguientes:
 
-| Tipo de límite de conjunto de imágenes | Práctica recomendada | Límite implementado | Cambios en el límite 31 de diciembre de 2022 |
-| --- | --- | --- | --- |
-| Número de activos duplicados por conjunto | Sin duplicados | 100 | 20 |
+| Tipo de límite | Práctica recomendada | Límite impuesto |
+| --- | --- | --- |
+| Número de activos duplicados por conjunto | Sin duplicados | 20 |
 | Número máximo de imágenes por conjunto | 5 a 10 imágenes por conjunto | 1.000 |
 
 Consulte también [Limitaciones de Dynamic Media](/help/limitations.md).
