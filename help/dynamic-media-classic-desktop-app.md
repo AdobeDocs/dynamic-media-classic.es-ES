@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 3345861b5d65f46071578a81913e6b0a4eeb6b8d
+source-git-commit: 43e0c03b535d30ffed13e1e389935e34563baa9e
 workflow-type: tm+mt
-source-wordcount: '2026'
+source-wordcount: '2036'
 ht-degree: 1%
 
 ---
@@ -185,11 +185,12 @@ Para descargar y *silencioso* instale la última versión de la aplicación de e
 
 ## Descargar y *silencioso* instalar la aplicación de escritorio Adobe Dynamic Media Classic más reciente en Windows® {#install-silent-windows-dmc-app}
 
-El comando que utiliza es para una instalación silenciosa básica de MSI. Sin embargo, el instalador de la aplicación de escritorio de Adobe Dynamic Media Classic es un instalador de InstallScript MSI creado con InstallShield. Cuando ejecuta el instalador en modo de registro, cualquier interacción del usuario se registra en un archivo de respuesta. A continuación, este archivo de respuesta se utiliza para una instalación silenciosa, tal como se describe en [Ejecución de instalaciones en modo silencioso.](https://docs.revenera.com/installshield19helplib/helplibrary/SilentInstall.htm)
+El comando que utiliza es para una instalación silenciosa básica de MSI. Sin embargo, el instalador de la aplicación de escritorio de Adobe Dynamic Media Classic es un instalador de InstallScript MSI creado con InstallShield. Cuando ejecuta el instalador en modo de registro, cualquier interacción del usuario se registra en un archivo de respuesta. A continuación, este archivo de respuesta se utiliza para una instalación silenciosa, tal como se describe en [Ejecución de instalaciones en modo silencioso](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/SilentInstall.htm).
 
 Véase también:
 
 * [Descargue e instale la última aplicación de escritorio de Adobe Dynamic Media Classic en Mac o Windows®](#installation-dmc-app)
+
 * [Descargue y silencie instale la última aplicación de escritorio de Adobe Dynamic Media Classic en macOS](#install-silent-mac-dmc-app)
 
 Para descargar y *silencioso* instale la última versión de la aplicación de escritorio de Adobe Dynamic Media Classic en Windows®:
@@ -212,7 +213,7 @@ Para descargar y *silencioso* instale la última versión de la aplicación de e
 
    `adobe-dynamic-media-classic-20.22.1.exe /s /f1"C:\Setup.iss"`
 
-   Los detalles sobre los parámetros de la línea de comandos están disponibles en [Parámetros de línea de comandos de Setup.exe y Update.exe.](https://docs.revenera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
+   Los detalles sobre los parámetros de la línea de comandos están disponibles en [Parámetros de línea de comandos de Setup.exe y Update.exe](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/IHelpSetup_EXECmdLine.htm?Highlight=Setup.exe%20and%20Update.exe%20Command-Line%20Parameters).
 
 1. Cuando abre la aplicación, se muestra la nueva página de inicio de sesión de Adobe Dynamic Media Classic:
 
