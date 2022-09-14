@@ -1,17 +1,17 @@
 ---
 title: Publicar archivos
-description: '"Obtenga información sobre cómo publicar sus recursos en servidores de imágenes de Dynamic Media. Puede publicar recursos de una sola vez u organizar que Adobe Dynamic Media Classic publique los recursos de forma periódica. Después de publicarse, tiene los recursos disponibles para su entrega. Puede copiar las llamadas URL desde Adobe Dynamic Media Classic y agregarlas a su sitio web o aplicación."'
-contentOwner: admin
+description: "Obtenga información sobre cómo publicar sus recursos en servidores de imágenes de Dynamic Media. Puede publicar recursos de una sola vez u organizar que Adobe Dynamic Media Classic publique los recursos de forma periódica. Después de publicarse, tiene los recursos disponibles para su entrega. Puede copiar las llamadas URL desde Adobe Dynamic Media Classic y agregarlas a su sitio web o aplicación."
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
-source-git-commit: f0e6d634587500877dbcd9e56bcfca105a6e6b9b
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1729'
+ht-degree: 45%
 
 ---
 
@@ -66,7 +66,7 @@ Adobe Dynamic Media Classic realiza el seguimiento de los trabajos de publicaci�
 
 >[!NOTE]
 >
->los recursos que se vuelven a publicar (ya publicados con anterioridad) no aparecen de inmediato en la página Web debido al mecanismo Web de almacenamiento en caché de la red de entrega de contenido (CDN), Consulte [Segunda publicación de recursos y retrasos de CDN](publishing-files.md#republished_assets_and_cdn_delays).
+>Los recursos que vuelve a publicar (ya los ha publicado anteriormente) no aparecen inmediatamente en el sitio web debido al mecanismo de almacenamiento en caché web de la red de entrega de contenido (CDN). Consulte [Segunda publicación de recursos y retrasos de CDN](publishing-files.md#republished_assets_and_cdn_delays).
 
 ### Crear un trabajo de publicación única {#creating-a-one-time-publish-job}
 
@@ -102,7 +102,7 @@ Consulte [Uso de un trabajo de carga o publicación como déclencheur](checking-
 
 ## Cancelar un trabajo de publicación {#canceling-a-publish-job}
 
-Puede cancelar los trabajos de publicación que están en curso. Además, si es administrador, puede cancelar un trabajo de publicación en curso desde la página Trabajos de la empresa.
+Puede cancelar un trabajo de publicación en curso. Además, si es administrador, puede cancelar un trabajo de publicación en curso desde la página Trabajos de la empresa.
 
 Para cancelar un trabajo de publicación, vaya a la página Trabajos y seleccione **[!UICONTROL Cancelar]**. En la ficha Programados de la página Trabajos, puede pausar o reanudar un trabajo mediante la casilla de verificación de la columna Activo.
 
@@ -144,7 +144,7 @@ Los recursos publicados aparecen en la interfaz de usuario con un icono verde re
 
 ## Obtención del historial de publicación de un recurso {#getting-an-asset-s-publish-history}
 
-La última fecha de publicación de un recurso se muestra en la Vista de detalles en la parte superior del panel. Para obtener más información sobre el historial de publicación, abra el panel Historial y servidores publicados en la Vista de detalles. En este panel, podrá ver cuándo se publicó el recurso y los servidores en los que se publicó.
+La última fecha en que se publicó un recurso se muestra en la Vista de detalles en la parte superior del panel. Para obtener más información sobre el historial de publicación, abra el panel Historial y servidores publicados en la Vista de detalles. En este panel, podrá ver cuándo se publicó el recurso y los servidores en los que se publicó.
 
 ## Segunda publicación de recursos y retrasos de CDN {#republished-assets-and-cdn-delays}
 

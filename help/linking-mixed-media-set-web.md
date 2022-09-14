@@ -2,7 +2,7 @@
 title: Vinculación de un conjunto de medios mixtos a una página web
 description: Aprenda a vincular un conjunto de medios mixtos a una página web en Adobe Dynamic Media Classic.
 uuid: 120326a2-77e9-4d6f-9b02-0a00fa9cbab1
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
@@ -10,7 +10,7 @@ discoiquuid: b33dacc4-509d-4878-a769-76642bfaeb4e
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 50%
@@ -36,7 +36,7 @@ Una vez que haya publicado un conjunto de medios mixtos, puede obtener su URL pa
 
       En la página Lista del visor, en la columna Acciones de la tabla, seleccione **[!UICONTROL Copiar URL]**.
 
-   * Haga clic en **[!UICONTROL Vista de cuadrícula]**, **[!UICONTROL Vista de lista]** o **[!UICONTROL Vista de detalles]**. En la misma barra de herramientas, vaya a **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Haga clic en **[!UICONTROL Vista de cuadrícula]**, **[!UICONTROL Vista de lista]** o **[!UICONTROL Vista de detalles]**. En la misma barra de herramientas, vaya a **[!UICONTROL Vista previa]** > **[!UICONTROL Lista del visor]**.
 
       En la página Lista del visor, en la columna Acciones de la tabla, seleccione **[!UICONTROL Copiar URL]**.
 
@@ -63,7 +63,7 @@ El uso de la función de código incrustado permite revisar el código del visor
 
       En la página Lista del visor, en la columna Acciones de la tabla, seleccione **[!UICONTROL Código incrustado]**.
 
-   * Haga clic en **[!UICONTROL Vista de cuadrícula]**, **[!UICONTROL Vista de lista]** o **[!UICONTROL Vista de detalles]**. En la misma barra de herramientas, vaya a **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Haga clic en **[!UICONTROL Vista de cuadrícula]**, **[!UICONTROL Vista de lista]** o **[!UICONTROL Vista de detalles]**. En la misma barra de herramientas, vaya a **[!UICONTROL Vista previa]** > **[!UICONTROL Lista del visor]**.
 
       En la página Lista del visor, en la columna Acciones de la tabla, seleccione **[!UICONTROL Código incrustado]**.
 

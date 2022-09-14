@@ -2,7 +2,7 @@
 title: Administración de cuentas de FTP
 description: Obtenga información sobre cómo administrar cuentas de FTP en Adobe Dynamic Media Classic.
 uuid: c9410f44-14bf-4f55-a199-f0f0de459219
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
@@ -10,7 +10,7 @@ discoiquuid: d592f0a7-1c27-4463-998a-07351147da1d
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 95c7d403-7206-4158-b8ad-6091b24b5077
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 63%
@@ -25,7 +25,7 @@ Recuerde que puede activar o desactivar los usuarios de Media Portal existentes 
 
 Consulte [Activar o desactivar usuarios](administration-setup.md#activating_or_deactivating_users).
 
-1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Media Portal]** > **[!UICONTROL Cuentas FTP]**.
+1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Portal de medios]** > **[!UICONTROL Cuentas FTP]**.
 1. En la página Agregar cuenta de FTP, en la lista desplegable Usuario de cuentas de FTP, seleccione un usuario.
 
    Si un usuario no aparece en la lista, debe agregarlo como administrador de Media Portal, como colaborador-usuario de Media Portal o como colaborador de Media Portal mediante la configuración de administración. Después de agregar el usuario con la función adecuada, su nombre de usuario está disponible en la lista desplegable.
@@ -33,7 +33,7 @@ Consulte [Activar o desactivar usuarios](administration-setup.md#activating_or_d
    Consulte [Agregar un usuario de Media Portal](adding-media-portal-users.md#adding_a_media_portal_user).
 
 1. En los campos Contraseña y Confirmar, escriba la contraseña de la cuenta de FTP.
-1. Seleccione **[!UICONTROL Guardar]** para agregar la cuenta a la tabla Cuentas existentes.
+1. Select **[!UICONTROL Guardar]** para agregar la cuenta a la tabla Cuentas existentes.
 
    Para cargar recursos de medios, necesita el usuario de la cuenta de FTP que aparece en la tabla Cuentas existentes y la contraseña asignada a la cuenta.
 
@@ -41,6 +41,6 @@ Consulte [Activar o desactivar usuarios](administration-setup.md#activating_or_d
 
 ## Eliminar una cuenta de FTP existente {#deleting-an-existing-ftp-account}
 
-1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Media Portal]** > **[!UICONTROL Cuentas FTP]**.
+1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Portal de medios]** > **[!UICONTROL Cuentas FTP]**.
 1. En la página Agregar cuenta de FTP, en la tabla Cuentas existentes, seleccione la cuenta de FTP que desea quitar.
-1. Seleccione **[!UICONTROL Delete]**.
+1. Select **[!UICONTROL Eliminar]**.

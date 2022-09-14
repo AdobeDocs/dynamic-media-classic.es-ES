@@ -2,7 +2,7 @@
 title: Configuración de un ajuste preestablecido de visualizador de conjuntos de medios mixtos
 description: Aprenda a configurar un ajuste preestablecido de visualizador de conjuntos de medios mixtos en Adobe Dynamic Media Classic.
 uuid: d5bf1840-e453-445d-bebc-84889b29f3c8
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
@@ -10,10 +10,10 @@ discoiquuid: 8029aad8-d696-4d7c-99e2-3b08edb68181
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
-source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '613'
+ht-degree: 44%
 
 ---
 
@@ -26,21 +26,21 @@ Puede elegir incluir todas o algunas de las funciones de comunidad en el visor d
 1. En la barra de navegación global, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Ajustes preestablecidos de visor]**.
 1. En la página Ajustes preestablecidos de visor, realice una de las acciones siguientes:
 
-   * Para crear un ajuste preestablecido, seleccione **[!UICONTROL Add]**. En el cuadro de diálogo Agregar ajuste preestablecido de visualizador, elija una plataforma, elija **[!UICONTROL Visor de conjuntos de medios mixtos]** y, a continuación, seleccione **[!UICONTROL Agregar]**.
+   * Para crear un ajuste preestablecido, seleccione **[!UICONTROL Agregar]**. En el cuadro de diálogo Agregar ajuste preestablecido de visualizador, seleccione una plataforma y elija **[!UICONTROL Visor de conjuntos de medios mixtos]** y, a continuación, seleccione **[!UICONTROL Agregar]**.
    * Para editar un ajuste preestablecido de visualizador de conjuntos de medios mixtos, selecciónelo y seleccione **[!UICONTROL Editar]**.
 
 1. En la página Visor de configuración, escriba un nombre en el cuadro Nombre de ajuste preestablecido para el ajuste preestablecido Visualizador de conjuntos de medios mixtos.
-1. Especifique **[!UICONTROL Pestañas]** o **[!UICONTROL Sin pestañas]**. Las fichas separan los elementos por tipo, como vídeos, muestras y conjuntos de giros. Cuando no especifique ninguna ficha, todos los elementos aparecerán en una fila debajo de la ventana Vista previa.
-1. En el cuadro **[!UICONTROL Name]**, escriba un nombre para el visor que desee agregar.
+1. Especifique **[!UICONTROL Pestañas]** o **[!UICONTROL Sin fichas]**. Las fichas separan los elementos por tipo, como vídeos, muestras y conjuntos de giros. Cuando no especifique ninguna ficha, todos los elementos aparecerán en una fila debajo de la ventana Vista previa.
+1. En el **[!UICONTROL Nombre]** , escriba un nombre para el visor que desee agregar.
 
    Por ejemplo, si está agregando un conjunto de muestras al conjunto de medios mixtos, escriba `Swatch Set A`.
 
 1. En el menú Visor, seleccione el tipo de recurso que desea ver, como Conjuntos de muestras.
 1. En el menú Ajuste preestablecido, elija el ajuste preestablecido para el tipo de recurso elegido.
 
-   Por ejemplo, si está agregando un conjunto de muestras, elija **[!UICONTROL Conjunto de muestras1-Colores]**.
+   Por ejemplo, si está agregando un conjunto de muestras, elija **[!UICONTROL Conjunto de muestras1 - Colores]**.
 
-1. Seleccione **[!UICONTROL Add]**.
+1. Select **[!UICONTROL Agregar]**.
 
    El nuevo ajuste preestablecido del visor aparece en la lista.
 
@@ -48,23 +48,23 @@ Puede elegir incluir todas o algunas de las funciones de comunidad en el visor d
 1. Para editar la lista de ajustes preestablecidos, realice una de las siguientes acciones:
 
    * Para eliminar un ajuste preestablecido de la lista, selecciónelo y, a continuación, seleccione **[!UICONTROL Eliminar]**.
-   * Para reordenar los ajustes preestablecidos en la lista, seleccione un ajuste preestablecido y seleccione la flecha azul **[!UICONTROL Up]** o **[!UICONTROL Down]**.
+   * Para reordenar los ajustes preestablecidos en la lista, seleccione un ajuste preestablecido y, a continuación, seleccione el color azul **[!UICONTROL Up]** o **[!UICONTROL Down]** flecha.
 
 1. Para agregar funciones de comunidad (Incrustar, Vínculo, Visita) al visor, especifique las opciones para cualquiera de lo siguiente:
 
-   * **Correo electrónico** : seleccione  **** Activación para habilitar un botón de correo electrónico en el visor. Cuando los usuarios seleccionan el botón Correo electrónico mientras visualizan el conjunto, se abre un correo electrónico que contiene el vínculo al conjunto.
+   * **Correo electrónico** - Seleccionar **[!UICONTROL Activado]** para activar un botón Correo electrónico en el visor. Cuando los usuarios seleccionan el botón Correo electrónico mientras visualizan el conjunto, se abre un correo electrónico que contiene el vínculo al conjunto.
 
-   * **Incrustar** : seleccione  **[!UICONTROL Activo]**. En el cuadro Etiqueta de botón de incrustación, escriba el nombre que desea ver en el visor del botón Incrustar. Si lo desea, seleccione **[!UICONTROL Browse]** para localizar y seleccionar un aspecto personalizado para el botón.
+   * **Incrustar** - Seleccionar **[!UICONTROL Activo]**. En el cuadro Etiqueta de botón de incrustación, escriba el nombre que desea ver en el visor del botón Incrustar. Si lo desea, seleccione **[!UICONTROL Examinar]** para localizar y seleccionar un aspecto personalizado para el botón.
 
-   * **Vínculo** : seleccione  **[!UICONTROL Activo]**. En el cuadro Etiqueta de botón de vínculo , escriba el nombre que desee que aparezca en el visor del botón Vínculo . Si lo desea, seleccione **[!UICONTROL Browse]** para localizar y seleccionar un aspecto personalizado para el botón.
+   * **Vínculo** - Seleccionar **[!UICONTROL Activo]**. En el cuadro Etiqueta de botón de vínculo , escriba el nombre que desee que aparezca en el visor del botón Vínculo . Si lo desea, seleccione **[!UICONTROL Examinar]** para localizar y seleccionar un aspecto personalizado para el botón.
 
-   * **Visita** : seleccione  **[!UICONTROL Activo]**. En el cuadro Etiqueta de botón de visita , escriba el nombre que desee que aparezca en el visor del botón Visita . En el cuadro URL de visita, escriba la URL del sitio web que desea abrir cuando se haga clic en el vínculo.
+   * **Visita** - Seleccionar **[!UICONTROL Activo]**. En el cuadro Etiqueta de botón de visita , escriba el nombre que desee que aparezca en el visor del botón Visita . En el cuadro URL de visita, escriba la URL del sitio web que desea abrir cuando se haga clic en el vínculo.
 
 1. Especifique otras opciones que desee. Para ver una descripción de una opción, seleccione el icono Información junto a la opción.
 
    La página Vista previa muestra el visor mientras actualiza y cambia la configuración.
 
-1. Seleccione **[!UICONTROL Guardar]**.
+1. Select **[!UICONTROL Guardar]**.
 
 >[!MORELIKETHIS]
 >

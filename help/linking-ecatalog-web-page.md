@@ -2,7 +2,7 @@
 title: Vincular un catálogo electrónico a una página web
 description: Aprenda a vincular un catálogo electrónico a una página web en Adobe Dynamic Media Classic.
 uuid: 90098a90-180b-477a-8533-24a52a93200b
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
@@ -10,7 +10,7 @@ discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: aee72576-1e3e-401c-953d-cc2be27f7dfd
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 38%
@@ -31,16 +31,16 @@ Los sitios web y las aplicaciones acceden al contenido de Dynamic Media Image Se
 1. En el panel Biblioteca de recursos del lado izquierdo, navegue a la carpeta de recursos que contenga el catálogo electrónico cuyo código incrustado desee copiar.
 1. Encima del panel de exploración de recursos, en la parte derecha de la barra de herramientas, realice una de las siguientes acciones:
 
-   * Seleccione **[!UICONTROL Vista de cuadrícula]**. En el panel de exploración de recursos, haga doble clic en un único recurso para abrirlo en la vista de detalles. En el panel URL y código incrustado de la derecha, seleccione **[!UICONTROL Copiar URL]** a la derecha del visor que desee.
-   * Seleccione **[!UICONTROL Vista de cuadrícula]**. En el panel Examinar recursos, seleccione un único recurso y, a continuación, debajo de la imagen en miniatura, vaya a **[!UICONTROL Vista previa]** > **[!UICONTROL Lista del visor]**.
+   * Select **[!UICONTROL Vista de cuadrícula]**. En el panel de exploración de recursos, haga doble clic en un único recurso para abrirlo en la vista de detalles. En el panel URL y código incrustado de la derecha, seleccione **[!UICONTROL Copiar URL]** a la derecha del visor que desee.
+   * Select **[!UICONTROL Vista de cuadrícula]**. En el panel Examinar recursos, seleccione un único recurso y, a continuación, debajo de la imagen en miniatura, vaya a **[!UICONTROL Vista previa]** > **[!UICONTROL Lista del visor]**.
 
       En la página Lista del visor, en la columna Acciones de la tabla, seleccione **[!UICONTROL Copiar URL]**.
 
-   * Seleccione **[!UICONTROL Vista de lista]**. En el panel Examinar recursos, seleccione un único recurso y, a continuación, a la derecha de la imagen en miniatura, vaya a **[!UICONTROL Vista previa]** > **[!UICONTROL Lista del visor]**.
+   * Select **[!UICONTROL Vista de lista]**. En el panel Examinar recursos, seleccione un único recurso y, a continuación, a la derecha de la imagen en miniatura, vaya a **[!UICONTROL Vista previa]** > **[!UICONTROL Lista del visor]**.
 
       En la página Lista del visor, en la columna Acciones de la tabla, seleccione **[!UICONTROL Copiar URL]**.
 
-   * Seleccione **[!UICONTROL Vista de cuadrícula]**, **[!UICONTROL Vista de lista]** o **[!UICONTROL Vista de detalles]**. En la misma barra de herramientas, vaya a **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Select **[!UICONTROL Vista de cuadrícula]**, **[!UICONTROL Vista de lista]** o **[!UICONTROL Vista de detalles]**. En la misma barra de herramientas, vaya a **[!UICONTROL Vista previa]** > **[!UICONTROL Lista del visor]**.
 
       En la página Lista del visor, en la columna Acciones de la tabla, seleccione **Copiar URL**.
 
@@ -48,7 +48,7 @@ Los sitios web y las aplicaciones acceden al contenido de Dynamic Media Image Se
 
 La manera más común de distribuir el catálogo electrónico consiste en colocar en la página web un vínculo representado por una miniatura de la portada del catálogo electrónico. Trabaje con su grupo de TI para que el catálogo electrónico se abra en una ventana emergente centrada y bien visible. Solicite al grupo de TI que no se muestren la barra de herramientas ni la de dirección del explorador.
 
-Para obtener más información y ejemplos de código, consulte [Embed HTML5 eCatalog Viewer in the Adobe Viewers Reference Guide](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Para obtener más información y ejemplos de código, consulte [Incrustar el visor de catálogos electrónicos HTML5 en la Guía de referencia de visores de Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copiar el código incrustado de un visor de catálogos electrónicos {#copying-the-embed-code-of-an-ecatalog-viewer}
 
@@ -60,16 +60,16 @@ El uso de la función de código incrustado permite revisar el código del visor
 1. En el panel Biblioteca de recursos del lado izquierdo, navegue a la carpeta de recursos que contenga el catálogo electrónico cuyo código incrustado desee copiar.
 1. Encima del panel de exploración de recursos, en la parte derecha de la barra de herramientas, realice una de las siguientes acciones:
 
-   * Seleccione **[!UICONTROL Vista de cuadrícula]**. En el panel de exploración de recursos, haga doble clic en un único recurso para abrirlo en la vista de detalles. En el panel URL de la derecha, seleccione **[!UICONTROL Código incrustado]**.
-   * Seleccione **[!UICONTROL Vista de cuadrícula]**. En el panel Examinar recursos, seleccione un único recurso y, a continuación, debajo de la imagen en miniatura, vaya a **[!UICONTROL Vista previa]** > **[!UICONTROL Lista del visor]**.
+   * Select **[!UICONTROL Vista de cuadrícula]**. En el panel de exploración de recursos, haga doble clic en un único recurso para abrirlo en la vista de detalles. En el panel URL de la derecha, seleccione **[!UICONTROL Código incrustado]**.
+   * Select **[!UICONTROL Vista de cuadrícula]**. En el panel Examinar recursos, seleccione un único recurso y, a continuación, debajo de la imagen en miniatura, vaya a **[!UICONTROL Vista previa]** > **[!UICONTROL Lista del visor]**.
 
       En la página Lista del visor, en la columna Acciones de la tabla, seleccione **[!UICONTROL Código incrustado]**.
 
-   * Seleccione **[!UICONTROL Vista de lista]**. En el panel Examinar recursos, seleccione un único recurso y, a continuación, a la derecha de la imagen en miniatura, vaya a **[!UICONTROL Vista previa]** > **[!UICONTROL Lista del visor]**.
+   * Select **[!UICONTROL Vista de lista]**. En el panel Examinar recursos, seleccione un único recurso y, a continuación, a la derecha de la imagen en miniatura, vaya a **[!UICONTROL Vista previa]** > **[!UICONTROL Lista del visor]**.
 
       En la página Lista del visor, en la columna Acciones de la tabla, seleccione **[!UICONTROL Código incrustado]**.
 
-   * Seleccione **[!UICONTROL Vista de cuadrícula]**, **[!UICONTROL Vista de lista]** o **[!UICONTROL Vista de detalles]**. En la misma barra de herramientas, vaya a **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Select **[!UICONTROL Vista de cuadrícula]**, **[!UICONTROL Vista de lista]** o **[!UICONTROL Vista de detalles]**. En la misma barra de herramientas, vaya a **[!UICONTROL Vista previa]** > **[!UICONTROL Lista del visor]**.
 
       En la página Lista del visor, en la columna Acciones de la tabla, seleccione **[!UICONTROL Código incrustado]**.
 
@@ -77,4 +77,4 @@ El uso de la función de código incrustado permite revisar el código del visor
 
    No se permite la edición del código en el cuadro de diálogo Código incrustado.
 
-1. Seleccione **[!UICONTROL Cerrar]**.
+1. Select **[!UICONTROL Cerrar]**.

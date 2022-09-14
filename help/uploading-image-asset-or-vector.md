@@ -1,13 +1,13 @@
 ---
 title: Cargar un recurso de imagen de trama
 description: Obtenga información sobre cómo cargar un recurso de imagen de trama en Adobe Dynamic Media Classic
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 69%
@@ -24,9 +24,9 @@ Para poder cargar un recurso de imagen, primero debe solicitar una clave secreta
 
 ## Solicitar una clave secreta compartida {#requesting-a-shared-secret-key}
 
-Solicite una *clave secreta compartida* [utilizando el Admin Console para crear un caso de soporte.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) En su caso de asistencia, solicite una clave secreta compartida.
+Solicitar un *clave shared-secret* por [uso del Admin Console para crear un caso de asistencia.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) En su caso de asistencia, solicite una clave secreta compartida.
 
-En el mensaje, proporcione el nombre de empresa que desee utilizar para cargar los recursos de imagen. Cuando reciba la clave de Adobe Dynamic Media Classic, guárdela localmente para usarlo más adelante.
+En el mensaje, proporcione el nombre de empresa que desee utilizar para cargar los recursos de imagen. Cuando reciba la clave de Adobe Dynamic Media Classic, guárdela localmente para usarla en el futuro.
 
 ## Recuperar el token de carga {#retrieving-the-upload-token}
 
@@ -35,7 +35,7 @@ El *distintivo de carga* garantiza que nadie más use la misma clave secreta com
 El distintivo de carga es una cadena alfanumérica que solo se encuentra disponible durante un tiempo concreto. Utilice las siguientes direcciones URL, sustituyendo la clave secreta compartida, para poder recuperar el token de carga.
 
 * Imagen rasterizada
-   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`En este ejemplo, la clave secreta compartida es  `fece4b21-87ee-47fc-9b99-2e29b78b602`
+   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`En este ejemplo, la clave secreta compartida es `fece4b21-87ee-47fc-9b99-2e29b78b602`
 
 <!-- * Vector
   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` -->
@@ -86,7 +86,7 @@ Se pueden usar los campos siguientes en la cadena de consulta URL para recuperar
 `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000` -->
 
 **Métodos HTTP permitidos:**
-`GET` y  `POST`
+`GET` y `POST`
 
 Ya puede cargar un recurso de imagen.
 
@@ -100,7 +100,7 @@ Después de recuperar un distintivo de carga válido durante un tiempo determina
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company
 ```
 
-Los campos `upload_token` y `company_name` son obligatorios.
+La variable `upload_token` y `company_name` son obligatorios.
 
 Consulte [Recuperar el token de carga](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
@@ -112,7 +112,7 @@ También se pueden enviar otros valores opcionales en forma de cadenas de consul
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-El parámetro `file_limit` especifica el límite de tamaño de archivo en bytes. El parámetro `file_exts` especifica las extensiones de nombre de archivo permitidas en la carga. Ambos valores son opcionales.
+La variable `file_limit` especifica el límite de tamaño de archivo en bytes. El parámetro `file_exts` especifica las extensiones de nombre de archivo permitidas en la carga. Ambos valores son opcionales.
 
 En la aplicación se definen límites globales tanto para el límite de tamaño de los archivos como para las extensiones de nombre de archivo permitidas. Todo lo incluido en la solicitud se acepta si es un subconjunto de los límites globales. Éstos son los límites globales:
 
@@ -129,14 +129,14 @@ El siguiente formulario HTML permite al usuario cargar un recurso. En el formula
 * Lista de extensiones de nombre de archivo.
 * Si se desea conservar el perfil de color y el nombre de archivo asociados al recurso.
 * Si se utiliza el fondo de Knockout. Si activa Fondo de Knockout, defina la Esquina, Tolerancia y Método de Relleno.
-Consulte Contexto de Knockout en [Opciones de ajuste de imágenes en upload](image-editing-options-upload.md#image-editing-options-at-upload).
+Consulte Contexto de cobertura en [Opciones de ajuste de imagen al cargar](image-editing-options-upload.md#image-editing-options-at-upload).
 * Nombre del archivo que se debe cargar.
 
-Puede ver el código fuente HTML asociado con el formulario anterior seleccionando [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
+Puede ver el código fuente del HTML asociado al formulario anterior seleccionando [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-En Firefox, haga clic con el botón derecho en la ventana del explorador y, a continuación, seleccione **[!UICONTROL Ver origen de página]**. El código muestra la cadena de consulta URL y el método POST oportunos que se ejecutan cuando el usuario hace clic en **[!UICONTROL Enviar]**.
+En Firefox, haga clic con el botón derecho en la ventana del navegador y, a continuación, seleccione **[!UICONTROL Ver origen de página]**. El código muestra la cadena de consulta URL y el método POST oportunos que se ejecutan cuando el usuario hace clic en **[!UICONTROL Enviar]**.
 
-Para ver la respuesta XML en Internet Explorer, vaya a **[!UICONTROL View]** > **[!UICONTROL Source]**. Para ver la respuesta XML en Firefox, vaya a **[!UICONTROL Tools]** > **[!UICONTROL Browser Tools]** > **[!UICONTROL Web Developer Tools]**. Se recomienda utilizar Firefox para ver las respuestas en XML.
+Para ver la respuesta XML en Internet Explorer, vaya a **[!UICONTROL Ver]** > **[!UICONTROL Fuente]**. Para ver la respuesta XML en Firefox, vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Herramientas del explorador]** > **[!UICONTROL Herramientas para desarrolladores web]**. Se recomienda utilizar Firefox para ver las respuestas en XML.
 
 A continuación se muestra una respuesta de carga correcta de ejemplo:
 

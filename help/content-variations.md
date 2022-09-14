@@ -2,7 +2,7 @@
 title: Administrar variaciones de contenido
 description: Aprenda a administrar las variaciones de contenido en Adobe Dynamic Media Classic.
 uuid: 1e40a526-02f8-41d9-886f-6d094546bc13
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
@@ -10,7 +10,7 @@ discoiquuid: aa129b0e-fc73-4fc2-a894-4560b3f46c4f
 feature: Dynamic Media Classic
 role: User
 exl-id: 65b8c314-7ec1-417f-8a7b-aa13762072a1
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 55%
@@ -28,7 +28,7 @@ Las direcciones URL universales se utilizan para mostrar la variación de planti
 Puede utilizar cualquier URL de ajuste preestablecido de imagen de la lista. Las URL de ajustes preestablecidos de imagen son como las URL universales. Puede haber más de una URL de ajuste preestablecido de imagen.
 
 1. Vaya a **[!UICONTROL Generar]** > **[!UICONTROL Conjuntos de plantillas]**.
-1. En el generador, seleccione una plantilla y, a continuación, seleccione **[!UICONTROL Agregar/Vista previa]**.
+1. En el generador, seleccione una plantilla y, a continuación, seleccione **[!UICONTROL Agregar/previsualizar]**.
 1. Modifique las propiedades de la plantilla y seleccione **[!UICONTROL Guardar como]** para crear otra versión.
 1. Escriba un nombre y seleccione **[!UICONTROL Guardar]**.
 

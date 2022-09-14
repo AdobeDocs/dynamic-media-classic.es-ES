@@ -1,8 +1,8 @@
 ---
-title: '"Inicio rápido: Media Portal"'
+title: "Inicio rápido: Media Portal"
 description: Introducción y inicio rápido de Media Portal para ayudarle a poner en marcha rápidamente las técnicas y la administración de Media Portal en Adobe Dynamic Media Classic.
 uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
@@ -10,10 +10,10 @@ discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '872'
-ht-degree: 52%
+ht-degree: 49%
 
 ---
 
@@ -55,7 +55,7 @@ Consulte [Agregar y administrar usuarios de Media Portal](adding-media-portal-us
 
 Puede tener cuentas de FTP independientes asociadas a Media Portal y asignadas a una carpeta específica de su cuenta de Adobe Dynamic Media Classic. Este tipo de funcionalidad significa que puede permitir a los usuarios cargar recursos digitales en la cuenta a través de cuentas de FTP independientes.
 
-Consulte [Administración de cuentas de FTP](ftp-accounts.md#managing_ftp_accounts).
+Consulte [Administrar cuentas de FTP](ftp-accounts.md#managing_ftp_accounts).
 
 >[!NOTE]
 >
@@ -65,9 +65,9 @@ Consulte [Funciones de usuario en Media Portal](media-portal-user-roles.md#media
 
 ## 5. Especificación de opciones de exportación
 
-Si les da permiso para ello, los usuarios de Media Portal pueden cambiar el formato de los archivos al exportarlos, así como pueden exportar los archivos principales originales. Como administrador, usted decidirá cómo deben exportar los archivos los usuarios. 
+Los usuarios de Media Portal, cuando exportan archivos, pueden cambiar el formato de los archivos y exportar archivos principales originales (si les da permiso para hacerlo). Como administrador, usted decidirá cómo deben exportar los archivos los usuarios. 
 
-Consulte [Especificar las opciones de exportación disponibles para los usuarios de Media Portal](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
+Consulte [Especifique las opciones de exportación disponibles para los usuarios de Media Portal](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
 ## 6. Creación de ajustes preestablecidos de imagen
 
@@ -85,4 +85,4 @@ Consulte [Uso eficaz de los metadatos](making-efficient-metadata.md#making_more_
 
 La configuración de estilo de Media Portal le permite personalizar la marca de la página de Media Portal con el logotipo y los colores de su empresa. Utilice la configuración de estilo para colocar la marca de su empresa en Media Portal.
 
-Consulte [Personalizar la página de Media Portal](customizing-media-portal-screen.md#customizing_the_media_portal_screen).
+Consulte [Personalización de la página de Media Portal](customizing-media-portal-screen.md#customizing_the_media_portal_screen).

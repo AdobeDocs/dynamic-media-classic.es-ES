@@ -1,8 +1,8 @@
 ---
 title: Servicios de formación de Adobe
-description: Obtenga más información sobre los servicios de formación de Adobe para Adobe Dynamic Media Classic.
+description: Obtenga más información sobre los Servicios de formación de Adobe para Adobe Dynamic Media Classic.
 uuid: c405f60c-d0a8-4c88-8530-b093875500cd
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
@@ -10,7 +10,7 @@ discoiquuid: 2bccf91d-ec27-4cdf-a322-55804b6ba0d3
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: e2840200-246e-4c68-b10f-a66461f2a118
-source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 46%
@@ -35,6 +35,6 @@ Consulte [Demostraciones](https://landing.adobe.com/en/na/dynamic-media/ctir-275
 
 ## Capítulo de ayuda de introducción
 
-La sección Introducción del sistema de ayuda presenta instrucciones para los usuarios que son nuevos en Adobe Dynamic Media Classic. Explica los conceptos básicos del programa, la navegación, la configuración, la administración de recursos y la creación de medios enriquecidos.
+La sección Introducción del sistema de ayuda presenta instrucciones para los usuarios nuevos de Adobe Dynamic Media Classic. Explica los conceptos básicos del programa, la navegación, la configuración, la administración de recursos y la creación de medios enriquecidos.
 
 Consulte [Introducción](dmc-platform-overview.md).

@@ -2,7 +2,7 @@
 title: Crear un conjunto de giros
 description: Obtenga información sobre cómo crear un conjunto de giros en Adobe Dynamic Media Classic.
 uuid: 697bd78f-5e39-46bf-aa6d-ad8ab99fe40e
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
@@ -10,10 +10,10 @@ discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
-source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '952'
-ht-degree: 53%
+ht-degree: 50%
 
 ---
 
@@ -27,13 +27,13 @@ Si desea crear un conjunto de giros eficaz, asegúrese de tomar las imágenes co
 
 ## Instrucciones para obtener imágenes para conjuntos de giros {#guidelines-for-shooting-spin-set-images}
 
-Por normal general, cuantas más imágenes tenga un conjunto de giros, mejor será el efecto de giro. Sin embargo, si se incluyen muchas imágenes en el conjunto también se aumentará el tiempo que tardan en cargarse las imágenes. Adobe Dynamic Media Classic recomienda estas directrices para la toma de imágenes para su uso en Conjuntos de giros:
+En general, cuantas más imágenes haya en un conjunto de giros, mejor será el efecto giratorio de la imagen. Sin embargo, si se incluyen muchas imágenes en el conjunto también se aumentará el tiempo que tardan en cargarse las imágenes. Adobe Dynamic Media Classic recomienda estas directrices para la toma de imágenes para su uso en Conjuntos de giros:
 
 * Como mínimo, utilice entre 8 y 12 imágenes en un conjunto de giros unidimensional y entre 16 y 24 imágenes en un conjunto de giros bidimensional.
 * Utilice un formato sin pérdida; se recomiendan TIFF y PNG.
 * Aplique máscara a todas las imágenes para que el elemento aparezca en un fondo blanco puro o con otro color de alto contraste. Si lo desea, agregue sombras.
 * Asegúrese de que los detalles del producto están bien iluminados y enfocados.
-* Tome las imágenes de giro para las prendas de ropa con un maniquí o una persona. A menudo el maniquí está enmascarado (usando un maniquí de vidrio) o un maniquí estilizado/forma de vestir se muestra en la imagen. Puede crear un conjunto de giros con persona definiendo el número de ángulos. Marque cada ángulo con cinta en el suelo para que pueda guiar al modelo para que se desplace y mire en la dirección de cada toma.
+* Tome las imágenes de giro para las prendas de ropa con un maniquí o una persona. A menudo el maniquí está enmascarado (usando un maniquí de vidrio) o un maniquí estilizado/forma de vestir se muestra en la imagen. Puede crear un conjunto de giros del modelo on definiendo el número de ángulos. Marque cada ángulo con cinta en el suelo para que pueda guiar al modelo para que se desplace y mire en la dirección de cada toma.
 
 ## Crear un conjunto de giros {#create}
 

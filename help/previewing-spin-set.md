@@ -2,7 +2,7 @@
 title: Vista previa de un conjunto de giros
 description: Obtenga información sobre cómo previsualizar un conjunto de giros en Adobe Dynamic Media Classic.
 uuid: 5b9d4c37-a4ec-40c5-8f14-da875d71226e
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
@@ -10,7 +10,7 @@ discoiquuid: 4b32ffff-4387-4699-9ba9-c3b23a2c3607
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 6231a29e-d1b9-47d3-a23a-1940e91ebbc5
-source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 38%
@@ -31,9 +31,9 @@ Consulte [Vista previa de un recurso](previewing-asset.md#previewing_an_asset).
 1. En el panel Biblioteca de recursos del lado izquierdo, navegue a las carpetas de recursos que contengan el conjunto de giros cuya vista previa desee obtener con un visor.
 1. Realice una de las siguientes acciones:
 
-   * Sobre la ventana Recursos, en el lado derecho de la barra de herramientas, seleccione **[!UICONTROL Vista de cuadrícula]**. En la ventana Recurso, debajo de la imagen en miniatura, vaya a **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
-   * Sobre la ventana Recursos, en el lado derecho de la barra de herramientas, seleccione **[!UICONTROL Vista de lista]**. En la ventana Recurso, seleccione un recurso y, a continuación, a la derecha de la imagen en miniatura, vaya a **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
-   * Sobre la ventana Recursos, en la parte derecha de la barra de herramientas, seleccione **[!UICONTROL Vista de detalles]**. En la misma barra de herramientas, vaya a **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Sobre la ventana Recursos, en la parte derecha de la barra de herramientas, seleccione **[!UICONTROL Vista de cuadrícula]**. En la ventana Recurso, debajo de la imagen en miniatura, vaya a **[!UICONTROL Vista previa]** > **[!UICONTROL Lista del visor]**.
+   * Sobre la ventana Recursos, en la parte derecha de la barra de herramientas, seleccione **[!UICONTROL Vista de lista]**. En la ventana Recurso, seleccione un recurso y, a continuación, a la derecha de la imagen en miniatura, vaya a **[!UICONTROL Vista previa]** > **[!UICONTROL Lista del visor]**.
+   * Sobre la ventana Recursos, en la parte derecha de la barra de herramientas, seleccione **[!UICONTROL Vista de detalles]**. En la misma barra de herramientas, vaya a **[!UICONTROL Vista previa]** > **[!UICONTROL Lista del visor]**.
 
 1. En la ventana Lista del visualizador , en la tabla, seleccione un vínculo del visualizador para obtener una vista previa del recurso en el visualizador seleccionado.
 1. Cierre el visor mostrado.

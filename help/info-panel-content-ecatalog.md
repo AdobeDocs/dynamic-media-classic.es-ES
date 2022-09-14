@@ -2,7 +2,7 @@
 title: Administrar contenido del panel de información en catálogos electrónicos
 description: Obtenga información sobre cómo administrar el contenido del panel de información en catálogos electrónicos en Adobe Dynamic Media Classic.
 uuid: 5aa634f9-0874-4bb5-a3d9-8ce4d5577941
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
@@ -10,7 +10,7 @@ discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '866'
 ht-degree: 59%
@@ -34,12 +34,12 @@ Puede seleccionar una de las tres plantillas de respuesta preestablecidas para m
 
 >[!NOTE]
 >
->También puede configurar una plantilla de respuesta en Ajustes preestablecidos de visor. Para usar la plantilla de respuesta en el ajuste preestablecido de visualizador, añada `fmt=1` al final de la URL del servidor de información en el ajuste preestablecido de visualizador.
+>También puede configurar una plantilla de respuesta en Ajustes preestablecidos de visor. Para usar la plantilla de respuesta en el ajuste preestablecido de visualizador, agregue `fmt=1` al final de la URL del servidor de información en el ajuste preestablecido de visor.
 >
->Consulte [Configuración de ajustes preestablecidos de visor de catálogos electrónicos](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets).
+>Consulte [Configuración de ajustes preestablecidos del visualizador de catálogos electrónicos](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets).
 
 1. Haga doble clic en el catálogo electrónico para que se abra en la Vista de detalles.
-1. Seleccione el panel **[!UICONTROL InfoPanel Setup]**.
+1. Seleccione el **[!UICONTROL Configuración del panel de información]** panel.
 1. Seleccione una plantilla de respuesta:
 
    * Seleccione un ajuste preestablecido en el menú de la plantilla de respuesta. El XML para el diseño de la plantilla aparece en el cuadro de plantilla de usuario.
@@ -51,7 +51,7 @@ Puede seleccionar una de las tres plantillas de respuesta preestablecidas para m
    * Establezca un número más bajo si los datos se actualizan frecuentemente a lo largo del día.
    * Establezca un número más alto si los datos son relativamente estables y no requieren actualizarse con frecuencia a lo largo del día. El valor predeterminado es de diez horas.
 
-1. Seleccione **[!UICONTROL Publicar]**.
+1. Select **[!UICONTROL Publicación]**.
 
 ## Importar contenido de origen para el panel de información en catálogos electrónicos {#import-source-content-for-the-info-panel-in-ecatalogs}
 
@@ -66,10 +66,10 @@ Cuando dé formato al contenido de origen, tenga en cuenta las siguientes pautas
 ### Importar contenido CSV en catálogos electrónicos desde una ubicación alojada de forma externa {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}
 
 1. Haga doble clic en el Catálogo electrónico para que se abra en la Vista de detalles.
-1. Seleccione el panel **[!UICONTROL InfoPanel Datafeed]**.
+1. Seleccione el **[!UICONTROL Fuente de datos del panel de información]** panel.
 1. Introduzca la dirección URL para el archivo CSV en el cuadro Ubicación del archivo CSV alojado de forma externa. Puede pegar la URL en este campo o escribirla directamente.
-1. (Opcional) Especifique un tiempo para actualizar el contenido mediante los menús de actualización de programa y seleccione **[!UICONTROL Agregar]**. Puede seleccionar varios tiempos de actualización. Cada tiempo de actualización aparece en el cuadro de tiempos de actualización. (Para quitar un tiempo, selecciónelo y seleccione **[!UICONTROL Delete]**).
-1. (Opcional) Seleccione **[!UICONTROL Ejecutar actualización ahora]** para actualizar inmediatamente el contenido.
+1. (Opcional) Especifique una hora para actualizar el contenido mediante los menús Actualizar programación y seleccione **[!UICONTROL Agregar]**. Puede seleccionar varios tiempos de actualización. Cada tiempo de actualización aparece en el cuadro de tiempos de actualización. (Para quitar una hora, selecciónela y seleccione **[!UICONTROL Eliminar]**.)
+1. (Opcional) Seleccione **[!UICONTROL Ejecutar actualización ahora]** para actualizar el contenido inmediatamente.
 
 ### Importación de un archivo CSV o delimitado por tabuladores {#import-a-tab-delimited-or-csv-file}
 
@@ -84,10 +84,10 @@ Last Modified Date:
  -->
 
 1. Haga doble clic en el Catálogo electrónico para abrirlo en la Vista de detalles.
-1. Seleccione el panel **[!UICONTROL InfoPanel Setup]**.
-1. Seleccione **[!UICONTROL Cargar contenido de S7Info]**.
-1. Seleccione **[!UICONTROL Browse]**, seleccione el archivo TXT delimitado por tabuladores, el CSV o el archivo SSV que desee utilizar y seleccione **[!UICONTROL Open]**.
-1. Seleccione **[!UICONTROL Upload]**.
+1. Seleccione el **[!UICONTROL Configuración del panel de información]** panel.
+1. Select **[!UICONTROL Cargar Contenido De S7Info]**.
+1. Select **[!UICONTROL Examinar]**, seleccione el archivo TXT delimitado por tabuladores, el CSV o el archivo SSV que desee utilizar y, a continuación, seleccione **[!UICONTROL Apertura]**.
+1. Select **[!UICONTROL Cargar]**.
 
 Adobe Dynamic Media Classic le envía un mensaje de correo electrónico que le informa de si la carga se ha realizado correctamente o no.
 
@@ -95,8 +95,8 @@ Adobe Dynamic Media Classic le envía un mensaje de correo electrónico que le i
 
 Mediante la pantalla Páginas de mapa, puede ver de forma fácil y rápida el texto del panel de información para los mapas de imágenes en una página específica de su catálogo electrónico.
 
-1. Seleccione el botón **[!UICONTROL Edit]** de sustitución del catálogo.
-1. Seleccione **[!UICONTROL Páginas de mapa]**.
-1. En la parte superior de la tabla de la derecha de la pantalla, elija **[!UICONTROL Panel de información]** en el menú Mostrar.
+1. Seleccione el desplazamiento del catálogo **[!UICONTROL Editar]** botón.
+1. Select **[!UICONTROL Asignar páginas]**.
+1. En la parte superior de la tabla en el lado derecho de la pantalla, elija **[!UICONTROL Panel de información]** en el menú Mostrar.
 
    El texto de clave de sustitución aparece al lado de cada Mapa de imágenes que contenga texto de Panel de información.

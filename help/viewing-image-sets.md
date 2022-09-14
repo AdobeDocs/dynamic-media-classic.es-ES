@@ -2,7 +2,7 @@
 title: Ver conjuntos de imágenes
 description: Obtenga información sobre cómo ver conjuntos de imágenes en Adobe Dynamic Media Classic.
 uuid: bb5b0fee-abc0-4236-ac43-09edb9bb3651
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
@@ -10,7 +10,7 @@ discoiquuid: 027aa3e0-f085-48ae-aff9-7b805bbdf8ab
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: c8d742a4-a1a1-4b5f-bcfd-6a1972edf9bc
-source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 27%
@@ -30,14 +30,14 @@ Puede crear y personalizar ajustes preestablecidos de visor de acuerdo con sus n
 1. En la barra de navegación global, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Ajustes preestablecidos de visor]**.
 1. Cree o edite un ajuste preestablecido de visualizador en la página Ajustes preestablecidos de visualizador realizando una de las acciones siguientes:
 
-   * **Crear** : seleccione  **[!UICONTROL Agregar]**. En el cuadro de diálogo Agregar ajuste preestablecido de visualizador, en la lista desplegable Visualizador, elija **[!UICONTROL Visualizador de zoom]** y, a continuación, seleccione **[!UICONTROL Agregar]**. También puede crear un ajuste preestablecido de visor de zoom a partir de uno existente. Muestre el nombre del ajuste preestablecido, selecciónelo y, a continuación, seleccione **[!UICONTROL Editar]**. En la página Configurar visor , introduzca un nombre nuevo para el ajuste preestablecido.
+   * **Crear** - Seleccionar **[!UICONTROL Agregar]**. En el cuadro de diálogo Agregar ajuste preestablecido de visualizador, en la lista desplegable Visualizador, elija **[!UICONTROL Visualizador de zoom]** y, a continuación, seleccione **[!UICONTROL Agregar]**. También puede crear un ajuste preestablecido de visor de zoom a partir de uno existente. Mostrar el nombre del ajuste preestablecido, seleccionarlo y, a continuación, seleccionar **[!UICONTROL Editar]**. En la página Configurar visor , introduzca un nombre nuevo para el ajuste preestablecido.
 
-   * **Editar** : muestre el nombre de un ajuste preestablecido, selecciónelo y seleccione  **[!UICONTROL Editar]**.
+   * **Editar** - Mostrar el nombre de un ajuste preestablecido, seleccionarlo y, a continuación, seleccionar **[!UICONTROL Editar]**.
 
 1. En la página Configurar visor, en el campo de texto Nombre de ajuste preestablecido , escriba un nombre para el ajuste preestablecido de Visor de conjuntos de muestras.
 1. Elija las opciones de la página Configurar visor .
 
-   Para ver una descripción de una opción, seleccione el icono **[!UICONTROL Info Tip]** a la derecha de la opción.
+   Para ver una descripción de una opción, seleccione la opción **[!UICONTROL Información general]** a la derecha de la opción .
 
    La página Vista previa muestra el visor mientras actualiza y cambia la configuración.
 
@@ -47,13 +47,13 @@ Puede crear y personalizar ajustes preestablecidos de visor de acuerdo con sus n
 
 Puede utilizar Vista previa para ver cómo aparece un recurso en un tipo de visor concreto, como HTML5. Según el tipo de recurso y el visor asociado cuya vista previa haya seleccionado, no todas las plataformas se encuentran disponibles en Vista previa.
 
-1. En el panel Biblioteca de recursos del lado izquierdo, en la lista desplegable **[!UICONTROL Mostrar]**, elija **[!UICONTROL Conjunto de imágenes]**.
+1. En el panel Biblioteca de recursos del lado izquierdo, en la **[!UICONTROL Show]** lista desplegable, elija **[!UICONTROL Conjunto de imágenes]**.
 1. En el panel Biblioteca de recursos del lado izquierdo, navegue por las carpetas de recursos para seleccionar el conjunto de imágenes cuya vista previa desee obtener.
 1. Realice una de las acciones siguientes:
 
-   * Cerca de la esquina superior derecha de la ventana de Adobe Dynamic Media Classic, seleccione el icono **[!UICONTROL Vista de lista]**. En la ventana Recurso, pase el cursor sobre un recurso y, a continuación, seleccione **[!UICONTROL Vista previa]** (no la lista desplegable Vista previa).
-   * Cerca de la esquina superior derecha de la ventana de Adobe Dynamic Media Classic, seleccione el icono **[!UICONTROL Vista de cuadrícula]**. En la ventana Recurso, en una ventana de miniaturas de recursos, seleccione **[!UICONTROL Preview]** (no la lista desplegable Vista previa).
-   * Cerca de la esquina superior derecha de la ventana de Adobe Dynamic Media Classic, seleccione el icono **[!UICONTROL Vista de detalles]**. En la misma barra de herramientas, seleccione **[!UICONTROL Preview]** (no la lista desplegable Vista previa).
+   * Cerca de la esquina superior derecha de la ventana de Adobe Dynamic Media Classic, seleccione la opción **[!UICONTROL Vista de lista]** icono. En la ventana Recurso, pase el cursor sobre un recurso y, a continuación, seleccione **[!UICONTROL Vista previa]** (no la lista desplegable Vista previa ).
+   * Cerca de la esquina superior derecha de la ventana de Adobe Dynamic Media Classic, seleccione la opción **[!UICONTROL Vista de cuadrícula]** icono. En la ventana Recurso, en una ventana de miniaturas de recursos, seleccione **[!UICONTROL Vista previa]** (no la lista desplegable Vista previa ).
+   * Cerca de la esquina superior derecha de la ventana de Adobe Dynamic Media Classic, seleccione la opción **[!UICONTROL Vista de detalles]** icono. En la misma barra de herramientas, seleccione **[!UICONTROL Vista previa]** (no la lista desplegable Vista previa ).
 
 1. (Opcional) En la lista desplegable de la parte inferior de la ventana Vista previa, seleccione la codificación de URL que desee aplicar a la dirección URL del recurso cuando se copie.
 1. Para obtener una vista previa del recurso en el visor seleccionado, seleccione un vínculo del visor.

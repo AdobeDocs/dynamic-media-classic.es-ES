@@ -1,8 +1,8 @@
 ---
 title: Configuración de ajustes preestablecidos de imagen
-description: Aprenda a configurar ajustes preestablecidos de imagen en Adobe Dynamic Media Classic.
+description: Obtenga información sobre cómo configurar ajustes preestablecidos de imagen en Adobe Dynamic Media Classic.
 uuid: 90530948-dee9-41bd-b39e-684140446abc
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
@@ -10,10 +10,10 @@ discoiquuid: 1ec39fe5-7b2a-4034-9570-6b5595f97052
 feature: Dynamic Media Classic,Image Presets
 role: User
 exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
-source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '659'
+ht-degree: 50%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 0%
 
 Un ajuste preestablecido de imagen, que se guarda con un nombre exclusivo, es similar a una macro y se compone de una serie de comandos de formato y tamaño predefinidos. Para comprender cómo funcionan los ajustes preestablecidos de imagen, supongamos que el sitio web requiere que cada imagen de producto aparezca en dos tamaños diferentes: 500 x 500 píxeles y 150 x 150 píxeles. Así pues, crea dos ajustes preestablecidos de imagen, uno denominado “Ampliación” para mostrar imágenes de 500 x 500 píxeles y otro denominado “Miniatura” para mostrar imágenes de 150 x 150 píxeles. Para enviar imágenes con los tamaños &quot;Ampliar&quot; y &quot;Miniatura&quot;, un servidor de imágenes de Dynamic Media busca en la definición del ajuste preestablecido de imagen ampliable y el ajuste preestablecido de imagen en miniatura. El servidor generará dinámicamente una imagen con las especificaciones de tamaño y formato de cada ajuste preestablecido de imagen.
 
-Adobe Dynamic Media Classic incluye varios ajustes preestablecidos de imagen &quot;recomendados&quot; que ya están configurados para su uso. Los administradores también pueden crear ajustes preestablecidos de imagen. Para crear un nuevo ajuste preestablecido, puede empezar desde cero o tomar uno existente como punto de partida y guardarlo con un nombre nuevo.
+Adobe Dynamic Media Classic incluye varios ajustes preestablecidos de imagen &quot;prácticas recomendadas&quot; que ya están configurados para su uso. Los administradores también pueden crear ajustes preestablecidos de imagen. Para crear un nuevo ajuste preestablecido, puede empezar desde cero o tomar uno existente como punto de partida y guardarlo con un nombre nuevo.
 
 Téngase en cuenta que las imágenes de tamaño reducido pueden sufrir pérdidas de enfoque y detalles al distribuirse dinámicamente desde un servidor. Por esta razón, cada ajuste preestablecido de imagen contiene controles de formato para optimizar una imagen cuando se distribuye con un tamaño concreto. Estos controles garantizan la nitidez de las imágenes al llegar al sitio web o la aplicación de destino.
 
 ## Crear un ajuste preestablecido de imagen {#creating-an-image-preset}
 
-Los administradores pueden crear ajustes preestablecidos de imagen. Puede crear ajustes preestablecidos de imagen o empezar con un ajuste preestablecido de imagen predeterminado que proporciona Adobe Dynamic Media Classic, editarlo y guardarlo con un nuevo nombre.
+Los administradores pueden crear ajustes preestablecidos de imagen. Puede crear ajustes preestablecidos de imagen o empezar con un ajuste preestablecido de imagen predeterminado que Adobe Dynamic Media Classic proporcione, editarlo y guardarlo con un nuevo nombre.
 
 **Para crear un ajuste preestablecido de imagen:**
 
@@ -37,8 +37,8 @@ Los administradores pueden crear ajustes preestablecidos de imagen. Puede crear 
 
 1. Realice una de las siguientes acciones:
 
-   * **Crear un ajuste preestablecido de imagen** : seleccione  **[!UICONTROL Agregar]**.
-   * **Editar un ajuste preestablecido de imagen** : vaya al ajuste preestablecido de imagen que se asemeje más al que desea crear y, a continuación, seleccione  **[!UICONTROL Editar]**.
+   * **Crear un ajuste preestablecido de imagen** - Seleccionar **[!UICONTROL Agregar]**.
+   * **Editar un ajuste preestablecido de imagen** - Vaya al ajuste preestablecido de imagen que se asemeje más al que desea crear y, a continuación, seleccione **[!UICONTROL Editar]**.
 
 1. Asigne un nombre al ajuste.
 1. Indique los valores de altura y anchura en píxeles. Estas medidas determinan el tamaño en que se distribuirán las imágenes.
@@ -46,13 +46,13 @@ Los administradores pueden crear ajustes preestablecidos de imagen. Puede crear 
 
    Adobe Dynamic Media Classic recomienda estas opciones de &quot;prácticas recomendadas&quot; para comenzar:
 
-   * **[!UICONTROL Formato]** : elija JPEG u otro formato que cumpla sus necesidades. Todos los navegadores web admiten el formato de imagen JPEG; ofrece un buen equilibrio entre los tamaños de archivos pequeños y la calidad de imagen. Sin embargo, las imágenes en formato JPEG utilizan un esquema de compresión con pérdidas que puede introducir artefactos de imagen no deseados si el ajuste de compresión es demasiado bajo. Por este motivo, Adobe Dynamic Media Classic recomienda establecer la calidad de compresión (en el control deslizante) en 75. Este ajuste ofrece un buen equilibrio entre la calidad de imagen y el tamaño de archivo pequeño.
+   * **[!UICONTROL Formato]** - Seleccione un JPEG u otro formato que se ajuste a sus necesidades. Todos los navegadores web admiten el formato de imagen JPEG; ofrece un buen equilibrio entre los tamaños de archivos pequeños y la calidad de imagen. Sin embargo, las imágenes en formato JPEG utilizan un esquema de compresión con pérdidas que puede introducir artefactos de imagen no deseados si el ajuste de compresión es demasiado bajo. Por este motivo, Adobe Dynamic Media Classic recomienda establecer la calidad de compresión (en el control deslizante) en 75. Este ajuste ofrece un buen equilibrio entre la calidad de imagen y el tamaño de archivo pequeño.
 
-   * **[!UICONTROL Enfoque]** : no seleccione Enfoque (este filtro de enfoque ofrece menos control que los ajustes de  **[!UICONTROL máscara de]** enfoque).
+   * **[!UICONTROL Enfoque]** - No seleccione Enfoque (este filtro de enfoque ofrece menos control que **[!UICONTROL Enmascaramiento de enfoque]** configuración).
 
-   * **[!UICONTROL Modo de remuestreo]** : elija  **[!UICONTROL Bi-Cubic]**.
+   * **[!UICONTROL Modo de remuestreo]** - Elija **[!UICONTROL Bi-cúbico]**.
 
-   * **[!UICONTROL Enmascaramiento de enfoque]**  (USM): introduzca la siguiente configuración:
+   * **[!UICONTROL Enmascaramiento de enfoque]** (USM): introduzca la siguiente configuración:
 
    | Tipo de ajuste preestablecido | Tamaño | Máscara: Cantidad | Máscara: Radio | Máscara: Umbral |
    | --- | --- | --- | --- | --- |
@@ -61,15 +61,15 @@ Los administradores pueden crear ajustes preestablecidos de imagen. Puede crear 
    | Principal | 350 x 350 | 1 | 1 | 6 |
    | Ampliación | 500 x 500 | 1,2 | 1,2 | 5 |
 
-1. Seleccione **[!UICONTROL Guardar]**.
+1. Select **[!UICONTROL Guardar]**.
 
-Las opciones de &quot;prácticas recomendadas&quot; de Adobe Dynamic Media Classic para crear ajustes preestablecidos de imagen que se enumeran a continuación son recomendaciones generales; el enfoque es altamente subjetivo. Las “prácticas recomendadas” se basan en una imagen principal de 2000 x 2000. Las opciones deseables para imágenes mayores o menores pueden ser diferentes. Si desea ajustar la configuración de máscara de enfoque, Adobe Dynamic Media Classic recomienda estos intervalos:
+Las opciones de &quot;prácticas recomendadas&quot; de Adobe Dynamic Media Classic para crear ajustes preestablecidos de imagen que se enumeran a continuación son recomendaciones generales; el enfoque es altamente subjetivo. Estos ajustes de &quot;prácticas recomendadas&quot; se basaban en una imagen principal de 2000 x 2000; la configuración de archivos principales más grandes o más pequeños puede ser diferente. Si desea ajustar la configuración de máscara de enfoque, Adobe Dynamic Media Classic recomienda estos intervalos:
 
-* **[!UICONTROL Cantidad]** : entre 0,8 y 1,5.
+* **[!UICONTROL Importe]** - Entre 0,8 y 1,5.
 
-* **[!UICONTROL Radio]**  - Entre .6 y 2.
+* **[!UICONTROL Radio]** - Entre 0,6 y 2.
 
-* **[!UICONTROL Umbral]**  - De 1 a 6.
+* **[!UICONTROL Umbral]** - De 1 a 6.
 
 Para eliminar un ajuste preestablecido de imagen, selecciónelo en la pantalla Ajustes preestablecidos de imagen y, a continuación, seleccione **[!UICONTROL Eliminar]**.
 

@@ -1,8 +1,8 @@
 ---
-title: '"Inicio rápido: Conjuntos de muestras"'
+title: "Inicio rápido: Conjuntos de muestras"
 description: Introducción y conjunto de muestras de inicio rápido para ayudarle a poner en marcha Adobe Dynamic Media Classic rápidamente.
 uuid: 6f8a95e8-e82a-477f-9f21-d2b7b511f8ae
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
@@ -10,7 +10,7 @@ discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
 feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 25%
@@ -27,11 +27,11 @@ Este inicio rápido de conjuntos de muestras está diseñado para ayudarle a pon
 
 Comience el proceso cargando las imágenes y los archivos de muestra para los conjuntos de muestras.
 
-En la barra de navegación global, seleccione **[!UICONTROL Upload]** para cargar archivos del equipo a una carpeta de Adobe Dynamic Media Classic. Consulte [Preparación de recursos de conjuntos de muestras para cargar](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) y [Cargar los archivos](uploading-files.md#uploading-your-files).
+En la barra de navegación global, seleccione **[!UICONTROL Cargar]** para cargar archivos desde el equipo a una carpeta de Adobe Dynamic Media Classic. Consulte [Preparación de recursos de conjuntos de muestras para su carga](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) y [Cargar los archivos](uploading-files.md#uploading-your-files).
 
 ## 2. Crear un conjunto de muestras
 
-Para crear un conjunto de muestras, en la barra de navegación global, vaya a **[!UICONTROL Generar]** > **[!UICONTROL Conjuntos de muestras]**. En la página Conjunto de muestras, arrastre imágenes y muestras de color a la página. Consulte [Crear un conjunto de muestras](creating-swatch-set.md#creating-a-swatch-set).
+Para crear un conjunto de muestras, en la barra de navegación global, vaya a **[!UICONTROL Generar]** > **[!UICONTROL Conjuntos de muestras]**. En la página Conjunto de muestras, arrastre imágenes y muestras de color a la página. Consulte [Creación de un conjunto de muestras](creating-swatch-set.md#creating-a-swatch-set).
 
 ## 3. Configuración de ajustes preestablecidos del visualizador de conjuntos de muestras
 
@@ -49,7 +49,7 @@ Consulte [Vista previa de un recurso](previewing-asset.md#previewing-an-asset).
 
 Al publicar un conjunto de muestras, este se coloca en servidores de Adobe Dynamic Media Classic y se activa la cadena URL.
 
-Seleccione el icono **[!UICONTROL Marcar para publicación]** que encontrará a la izquierda de su nombre en el panel Examinar. A continuación, seleccione **[!UICONTROL Publicar]**. En la página Publicar, seleccione **[!UICONTROL Enviar publicación]**.
+Seleccione el **[!UICONTROL Marcar Para Publicación]** a la izquierda de su nombre en el panel Examinar. A continuación, seleccione **[!UICONTROL Publicación]**. En la página Publicar , seleccione **[!UICONTROL Enviar publicación]**.
 
 Consulte [Publicar archivos](publishing-files.md#publishing-files).
 
@@ -57,4 +57,4 @@ Consulte [Publicar archivos](publishing-files.md#publishing-files).
 
 Adobe Dynamic Media Classic crea llamadas de URL para conjuntos de muestras y las activa después de publicar. Puede copiar estas direcciones URL desde la página Vista previa .
 
-Seleccione el conjunto de muestras y, a continuación, seleccione el botón Vista previa. Se abre la página Vista previa . Seleccione un ajuste preestablecido de visor de conjuntos de muestras y seleccione el botón Copiar URL. Consulte [Vincular un conjunto de muestras a una página web](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page).
+Seleccione el conjunto de muestras y, a continuación, seleccione el botón Vista previa. Se abre la página Vista previa . Seleccione un ajuste preestablecido de visor de conjuntos de muestras y seleccione el botón Copiar URL. Consulte [Vinculación de un conjunto de muestras a una página web](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page).

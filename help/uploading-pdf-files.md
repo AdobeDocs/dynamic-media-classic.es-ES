@@ -2,17 +2,17 @@
 title: Carga de los archivos del PDF
 description: Obtenga información sobre cómo cargar los archivos de PDF asociados a un catálogo electrónico en Adobe Dynamic Media Classic.
 uuid: 9e178bb2-ac09-427a-b61a-aad4e87a5837
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: 7c1dfa7382b6eaf746fe7f0ac426472180c0c70c
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 38%
+source-wordcount: '831'
+ht-degree: 36%
 
 ---
 
@@ -44,7 +44,7 @@ Prepare sus archivos PDF antes de cargarlos en Adobe Dynamic Media Classic:
 
 Para obtener información más detallada sobre los diferentes métodos de carga, consulte [Carga de archivos](uploading-files.md#uploading_your_files).
 
-Elija los archivos que desea cargar y seleccione estas opciones de PDF *recomendadas*:
+Seleccione los archivos que desea cargar y, a continuación, selecciónelos *prácticas recomendadas* Opciones del PDF:
 
 * **Opciones de recorte** - En el cuadro de diálogo Opciones de carga de trabajo, seleccione **[!UICONTROL Opciones de recorte]**. Si las páginas del PDF contienen marcas de recorte, marcas de registro u otras marcas, en la variable **[!UICONTROL Recortar]** lista desplegable, elija **[!UICONTROL Manual]**. Elija el número de píxeles que desea recortar en la parte superior, derecha, inferior e izquierda de las páginas. Las marcas de recorte suelen establecerse en un margen de media pulgada. Supongamos que elige **[!UICONTROL 150]** (recomendado) como resolución de píxel por pulgada e introduzca 75, 75, 75, 75 en los cuadros de texto Superior, Derecha, Inferior e Izquierda. En tal caso, recorta media pulgada de los márgenes (a 150 ppi, la mitad de 1 equivale a 75 píxeles).
 

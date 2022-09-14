@@ -7,9 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
-source-git-commit: 705409e8c63dbc6cc6c336b9733c0090af84f4f7
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1090'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Tras la publicación de la aplicación de escritorio de Adobe Dynamic Media Clas
 +++
 
 +++**_¿Cómo puedo obtener ayuda para los problemas que tengo con la aplicación de escritorio de Adobe Dynamic Media Classic?_**
-Póngase en contacto con el servicio de asistencia al Adobe si tiene problemas al usar la aplicación.
+Póngase en contacto con el servicio de asistencia al Adobe por cualquier problema que tenga al usar la aplicación.
 +++
 
 +++**_Quiero asegurarme de que estoy optimizando mi estrategia de medios enriquecidos. ¿Cómo puedo obtener más información sobre Adobe Dynamic Media Classic?_**
@@ -101,7 +101,7 @@ Adobe Dynamic Media Classic es una solución potente y rica en funciones diseña
 <!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic), and the complementary audit program. -->
 
 +++**_Estoy interesado en aprender más sobre la actualización a Adobe Dynamic Media con Adobe Experience Manager Assets. ¿Dónde puedo encontrar más información?_**
-Para obtener más información sobre las ventajas de actualizar a la siguiente generación de creación, publicación y envío dinámico de medios enriquecidos, visite [Portal de actualización de Dynamic Media de Adobe](https://exploreadobe.com/dynamic-media-upgrade/).
+Para obtener más información sobre las ventajas de actualizar a la siguiente generación de creación, publicación y envío dinámico de medios enriquecidos, visite [Adobe Dynamic Media Portal para la actualización](https://exploreadobe.com/dynamic-media-upgrade/).
 +++
 
 >[!MORELIKETHIS]

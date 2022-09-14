@@ -2,17 +2,17 @@
 title: Carga de archivos
 description: Obtenga información sobre cómo cargar archivos en Adobe Dynamic Media Classic.
 uuid: b3025f84-4f28-4276-bc9c-f0c0c2a26e12
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-source-git-commit: ec1a981dd5cfa92ce4ae8e2676dd131d1509216f
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '3926'
-ht-degree: 32%
+source-wordcount: '3929'
+ht-degree: 31%
 
 ---
 
@@ -78,7 +78,7 @@ Para obtener resultados óptimos con el programa Adobe Dynamic Media Classic, as
 | Fuentes | Se han cargado las fuentes TrueType, Type1 (sólo Windows®), OpenType® y PhotoFonts. |
 | Imágenes | Imágenes y archivos de imagen con capas. |
 | Conjuntos de imágenes y conjuntos de muestras | Un conjunto de imágenes se compone de imágenes relacionadas que se pueden mostrar en un visor. |
-| Perfiles ICC | Perfil de color que se puede usar para convertir una imagen cargada de su espacio de color de origen a uno diferente. |
+| Perfiles ICC | Perfil de color que puede usar para convertir una imagen cargada de su espacio de color de origen en otro espacio de color. |
 | Viñetas | Imágenes creadas con el programa de creación de imágenes y archivos relacionados. |
 | Archivos de contenido | Archivos de contenido de Adobe InDesign, Illustrator o Photoshop. |
 | Archivos FXG | Archivos con formato gráfico independiente de la resolución que puede utilizar para crear plantillas personalizadas para impresión, web, correo electrónico, escritorio y dispositivos. |
@@ -101,7 +101,7 @@ Los siguientes tipos de archivo pueden publicarse:
 * Archivos de sonido
 * CSS
 * JavaScript (cuando la empresa se configura con su propio dominio)
-* Vídeo maestro
+* Vídeo principal
 * PDF (cuando el PDF está marcado para publicación después de la carga, para evitar la entrega de todos los PDF para el flujo de trabajo existente del catálogo electrónico/PDF)
 * Vídeo PrX
 * SVG
@@ -114,14 +114,14 @@ Adobe Dynamic Media Classic no proporciona la opción de generar una dirección 
 
 Dado que las extensiones de nombre de archivo se quitan durante el proceso de carga, el sistema no permite que haya archivos con el mismo nombre raíz. En el sistema Adobe Dynamic Media Classic, el nombre de archivo del recurso menos la extensión del nombre del archivo se convierte en el ID del recurso. Por esta razón no puede haber dos recursos con el mismo nombre.
 
-Asegúrese de que todos los usuarios de la empresa entienden las reglas de designación de archivos.
+Asegúrese de que todos los usuarios de su empresa comprendan estas reglas para asignar nombres a los archivos:
 
 * El sistema no admite identificadores de recurso con un nombre idéntico.
 * Los nombres de los ID de recurso distinguen entre mayúsculas y minúsculas.
 * Como práctica recomendada, compruebe que los ID de recursos no contienen espacios en blanco (por ejemplo, chaqueta negra.tif o chaqueta azul.jpg). ASCII de Adobe Dynamic Media Classic codifica espacios en blanco en los nombres de recursos cuando utiliza nombres de recursos para construir cadenas de URL. Estos códigos ASCII son difíciles de leer, lo que dificulta la lectura de las direcciones URL.
 * Los caracteres específicos de idioma están permitidos en los nombres de archivo. No obstante, los siguientes caracteres se permiten en los nombres de archivo:
 
-   \ ; / ? : @ &amp; = + $ , * &quot; &lt; > | &#39; { } %
+   \ ; / ? : @ &amp; = + $ , &#42; &quot; &lt; > | &#39; { } %
 
    Si un nombre de archivo contiene uno o varios de los caracteres anteriores, los caracteres se eliminan del nombre durante la carga.
 
@@ -276,7 +276,7 @@ Consulte [Valores preestablecidos de conjunto por lotes](application-setup.md#ba
 
 Cuando carga elementos mediante FTP, puede programar un trabajo posterior para que comience cuando se complete la carga. Si hay otros trabajos programados para comenzar, el trabajo que programe aquí se colocará después de ellos.
 
-El nuevo trabajo envía una notificación a la dirección especificada para activar el código de esa ubicación. Este trabajo de publicación que sigue recibe el mismo nombre que el trabajo de carga pero se le añade el prefijo *Pub_*.
+El nuevo trabajo envía una notificación a la dirección especificada para que se pueda activar el código de esa ubicación. Este trabajo de publicación que sigue recibe el mismo nombre que el trabajo de carga pero se le añade el prefijo *Pub_*.
 
 **Para seguir una carga con otro trabajo:**
 

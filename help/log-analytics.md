@@ -2,7 +2,7 @@
 title: Inicio de sesión en Adobe Analytics
 description: Obtenga información sobre cómo iniciar sesión en Adobe Analytics desde Adobe Dynamic Media Classic.
 uuid: 5614babe-1097-4228-a3dc-27e5a25366d5
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
@@ -10,9 +10,9 @@ discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
-source-git-commit: d54290ca376096965c2908444230b6a0071fa43e
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '846'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Al iniciar sesión, tiene la opción de introducir su ID de organización de Exp
 
 Comience por integrar Dynamic Media Classic con Adobe Analytics OAuth. La integración de Adobe Analytics OAuth con Dynamic Media Classic se realiza normalmente solo una vez por usuario.
 
-1. Acceso [Adobe Developer Console](https://developer.adobe.com/console). Asegúrese de que su cuenta tiene permisos de administrador para la organización para la que se requiere la integración.
+1. Acceso [Consola de Adobe Developer](https://developer.adobe.com/console). Asegúrese de que su cuenta tiene permisos de administrador para la organización para la que se requiere la integración.
 1. Cerca de la esquina superior derecha de la página principal, en la lista desplegable, seleccione la empresa adecuada. (La captura de pantalla siguiente es solo con fines informativos; el nombre real de la empresa que seleccione puede variar).
 
    ![Cree un nuevo proyecto](assets/analytics-oauth1.png)
@@ -73,7 +73,6 @@ Comience por integrar Dynamic Media Classic con Adobe Analytics OAuth. La integr
 >* Se agrega un nuevo informe en Analytics y el usuario desea comenzar a enviar datos a ese nuevo informe.
 >* El servidor de seguimiento se actualiza en Adobe Analytics.
 >* Se introduce una nueva variable de seguimiento en un informe y desea vincular una variable de visualizador específica en la interfaz de usuario de Dynamic Media Classic a esa nueva variable de Analytics.
-
 >
 
 

@@ -2,7 +2,7 @@
 title: Publicar imágenes de zoom
 description: Aprenda a publicar imágenes de zoom desde Adobe Dynamic Media Classic.
 uuid: d7e7a474-8af5-46a7-94df-063396f67554
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
@@ -10,7 +10,7 @@ discoiquuid: 34a99fd0-8148-41d4-843a-909637542dd9
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: 74cf0346-be79-4916-8a98-16865c3ba3de
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 9%
@@ -23,11 +23,11 @@ La publicación coloca las imágenes de zoom en los servidores de imágenes de D
 
 ## Marcar imágenes para publicación {#marking-images-for-publish}
 
-Las imágenes deben marcarse para publicarse para que se copien en los servidores de imágenes de Dynamic Media. Puede marcar las imágenes para publicarlas en el panel Examinar seleccionando el icono **[!UICONTROL Marcar para publicación]**. También puede marcar imágenes para publicarlas cuando las cargue.
+Las imágenes deben marcarse para publicarse para que se copien en los servidores de imágenes de Dynamic Media. Puede marcar las imágenes para publicarlas en el panel Examinar seleccionando la opción **[!UICONTROL Marcar para publicación]** icono. También puede marcar imágenes para publicarlas cuando las cargue.
 
 ## Publicación de las imágenes {#publishing-the-images}
 
-Para publicar imágenes con zoom, en la barra de navegación global, seleccione **[!UICONTROL Publicar]** y, a continuación, seleccione una opción **[!UICONTROL Cuando]** (**[!UICONTROL Una vez]** o **[!UICONTROL Recurrente]**). Si lo desea, puede introducir un nombre para el trabajo de publicación. Seleccione **Enviar publicación**.
+Para publicar imágenes con zoom, en la barra de navegación global, seleccione **[!UICONTROL Publicación]** y, a continuación, seleccione un **[!UICONTROL When]** opción (**[!UICONTROL Una vez]** o **[!UICONTROL Recurrente]**). Si lo desea, puede introducir un nombre para el trabajo de publicación. Select **Enviar publicación**.
 
 >[!MORELIKETHIS]
 >
