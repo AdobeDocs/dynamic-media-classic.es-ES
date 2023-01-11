@@ -10,9 +10,9 @@ discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: dc1ec666b208cec8fffe836d64ed501f6ccf4e7b
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1003'
 ht-degree: 26%
 
 ---
@@ -34,12 +34,12 @@ Estas opciones están disponibles al cargar archivos PSD:
 * **Opciones de recorte** - Ubicados en **[!UICONTROL Opciones de recorte]**. Select **[!UICONTROL Recortar]** para recortar automáticamente el espacio en blanco de los bordes de un archivo PSD; select **[!UICONTROL Manual]** para recortar lados del archivo PSD:
 
    * **[!UICONTROL Recortar]** - Seleccione el **[!UICONTROL Separar en función de]** y elija **[!UICONTROL Color]** o **[!UICONTROL Transparencia]**.
+   Si elige la opción **[!UICONTROL Color]** , seleccione el menú Esquina y elija la esquina del PSD con el color que mejor represente el color de espacio en blanco que desea recortar.
 
-      Si elige la opción **[!UICONTROL Color]** , seleccione el menú Esquina y elija la esquina del PSD con el color que mejor represente el color de espacio en blanco que desea recortar.
-
-      Arrastre el control deslizante para especificar una tolerancia de 0 a 1. Para un recorte basado en color, especifique 0 para recortar píxeles solo si coinciden exactamente con el color seleccionado en la esquina del PSD. Los números más cercanos a 1 permiten una mayor diferencia de color. Para recortar en función de la transparencia, especifique 0 para recortar píxeles solo si son transparentes; los números más cercanos a 1 permiten una mayor transparencia.
+   Arrastre el control deslizante para especificar una tolerancia de 0 a 1. Para un recorte basado en color, especifique 0 para recortar píxeles solo si coinciden exactamente con el color seleccionado en la esquina del PSD. Los números más cercanos a 1 permiten una mayor diferencia de color. Para recortar en función de la transparencia, especifique 0 para recortar píxeles solo si son transparentes; los números más cercanos a 1 permiten una mayor transparencia.
 
    * **[!UICONTROL Manual]** - Introduzca el número de píxeles que desea recortar de cualquier lado o de cada lado de la imagen. La cantidad de imagen que se recorte dependerá del valor ppp (píxeles por pulgada) en el archivo de imagen. Por ejemplo, si la imagen muestra 150 ppi y especifica 75 en los cuadros de texto Superior, Derecha, Inferior e Izquierda, 0,5 ppi. se recorta de cada lado de la imagen.
+
 
 * **Opciones de perfil de color** - Ubicados en **[!UICONTROL Opciones de perfil de color]**.
 
@@ -72,6 +72,10 @@ Estas opciones están disponibles al cargar archivos PSD:
 ## Ver y editar capas en un archivo de PSD {#viewing-and-editing-layers-in-a-psd-file}
 
 Si seleccionó la opción Mantener capas al cargar el PSD, Adobe Dynamic Media Classic dividió las capas individuales en recursos. Para ver y editar las capas de recursos que pertenecen a un archivo de PSD, abra el archivo en el panel Examinar de la Vista de detalles.
+
+>[!NOTE]
+>
+>Adobe Dynamic Media Classic admite hasta cinco niveles en un grupo de capas anidado.
 
 1. Haga doble clic en el archivo de PSD completo en el panel Examinar. El archivo se abre en la Vista de detalles.
 
