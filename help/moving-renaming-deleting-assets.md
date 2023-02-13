@@ -10,10 +10,10 @@ discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
-source-git-commit: 13d9199e0613c7b1eb664ffee859a79dd3f9faca
+source-git-commit: 741e31e64125a2dfe3f801480837ffbaf81767aa
 workflow-type: tm+mt
 source-wordcount: '618'
-ht-degree: 0%
+ht-degree: 31%
 
 ---
 
@@ -49,7 +49,7 @@ los destinos de zoom, los atributos de imagen y las entradas del historial se el
 
 >[!IMPORTANT]
 >
->La eliminación masiva es una operación intensiva. Asegúrese de ejecutar las eliminaciones masivas secuencialmente en lugar de como operaciones de eliminación intensivas y simultáneas. Adobe recomienda limitar las operaciones de eliminación a 5000 o menos eliminaciones de recursos por hora. Un número bueno de 5000 por hora puede causar una limitación de velocidad.
+>La eliminación masiva es una operación intensiva. Asegúrese de ejecutar las eliminaciones masivas secuencialmente en lugar de como operaciones de eliminación intensivas y simultáneas. Adobe recomienda limitar las operaciones de eliminación a 5000 o menos eliminaciones de recursos por hora. Cualquier número bueno a 5000 por hora puede causar un límite de velocidad.
 
 **Para eliminar recursos:**
 
