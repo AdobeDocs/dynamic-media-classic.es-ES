@@ -10,10 +10,10 @@ discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7e99de68-a5de-4b42-9754-c394e9b41369
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 532d4ec9515b561682678d3a0140096c8b3deae8
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 17%
+ht-degree: 16%
 
 ---
 
@@ -26,11 +26,11 @@ La configuración disponible en esta página depende de su estado como usuario o
 * Los usuarios solo pueden acceder a **[!UICONTROL Configuración personal]** y las cuentas de las empresas de las que sean miembros; no pueden realizar ninguna tarea administrativa.
 * Los administradores pueden acceder a **[!UICONTROL Configuración personal]**, y ver y administrar sus propias cuentas de compañía. Además, pueden realizar todas las funciones de configuración de la aplicación y todas las funciones de administración, incluyendo agregar administradores y usuarios.
 
-Los administradores también pueden configurar ajustes preestablecidos de imagen y de visualizador en la **[!UICONTROL Configuración]** página:
+Los administradores también pueden configurar ajustes preestablecidos de imagen y de visor en la **[!UICONTROL Configuración]** página:
 
 * **Ajustes preestablecidos de imagen** - Los ajustes preestablecidos de imagen son formatos guardados para mostrar imágenes principales en diferentes tamaños y formatos.
 
-* **Ajustes preestablecidos de visor** : los ajustes preestablecidos de visor determinan cómo se ven los medios enriquecidos cuando se ven en un visor.
+* **Ajustes preestablecidos de visor** : los ajustes preestablecidos de visor determinan cómo se ven los medios enriquecidos al visualizarlos en un visor.
 
 >[!MORELIKETHIS]
 >
