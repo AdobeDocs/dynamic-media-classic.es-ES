@@ -9,21 +9,26 @@ discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 14729192-7b9d-4f42-99da-6564a3f35959
-source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
+source-git-commit: e235cdf331a1366ea81bd609e4e264c0c2cd8264
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 48%
+source-wordcount: '168'
+ht-degree: 35%
 
 ---
 
 # Acerca del contenido generado por el usuario en Adobe Dynamic Media Classic {#about-user-generated-content}
 
-El uso de UGC (contenido generado por el usuario) consiste en la carga de recursos en un repositorio de almacenamiento de Dynamic Media Classic de Adobe dedicado y la realización de operaciones relacionadas.
+El uso de UGC (contenido generado por el usuario) consiste en cargar recursos en un repositorio de almacenamiento de Adobe Dynamic Media Classic dedicado y realizar operaciones relacionadas.
 
 UGC admite formatos de archivo de imagen de trama BMP, GIF, JPG, PNG, PSD, TIFF.
-<!-- * Vector: AI, EPS (EPS files from Adobe Illustrator 2018 are not supported), PDF (only when the PDF file is previously opened and saved in Adobe Illustrator CS6) -->
 
 >[!IMPORTANT]
+>
+>A partir del 1 de mayo de 2023, los activos de registro UGC en Dynamic Media Classic estarán disponibles para su uso hasta 60 días después de la fecha de carga. Transcurridos 60 días, los recursos se eliminarán.
+
+<!-- * Vector: AI, EPS (EPS files from Adobe Illustrator 2018 are not supported), PDF (only when the PDF file is previously opened and saved in Adobe Illustrator CS6) -->
+
+>[!NOTE]
 >
 >La compatibilidad con recursos de imagen vectoriales UGC nuevos o existentes en Adobe Dynamic Media Classic finalizó el 30 de septiembre de 2021.
 
@@ -34,4 +39,4 @@ Tras recuperar una clave secreta compartida y un distintivo de carga, se pueden 
 * Cargar un recurso.
 * Obtenga los metadatos de un recurso de imagen.
 * Eliminar un recurso cargado.
-* Obtener información sobre el uso de espacio en disco de una empresa.
+* Obtenga información sobre el uso del espacio en disco de una empresa.

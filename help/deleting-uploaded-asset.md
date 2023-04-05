@@ -1,5 +1,5 @@
 ---
-title: Eliminar un recurso cargado
+title: Eliminar un recurso de imagen de trama cargado
 description: Obtenga información sobre cómo eliminar un recurso cargado en Adobe Dynamic Media Classic.
 uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
 contentOwner: Rick Brough
@@ -9,10 +9,10 @@ discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: e235cdf331a1366ea81bd609e4e264c0c2cd8264
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 71%
+source-wordcount: '133'
+ht-degree: 51%
 
 ---
 
@@ -53,6 +53,10 @@ Se pueden usar los campos siguientes en la cadena de consulta URL para eliminar 
 <!-- <li>For Vector:fxg_name</li> -->
 
 >[!IMPORTANT]
+>
+>A partir del 1 de mayo de 2023, los activos de registro UGC en Dynamic Media Classic estarán disponibles para su uso hasta 60 días después de la fecha de carga. Transcurridos 60 días, los recursos se eliminarán.
+
+>[!NOTE]
 >
 >La compatibilidad con recursos de imagen vectoriales UGC nuevos o existentes en Adobe Dynamic Media Classic finalizó el 30 de septiembre de 2021.
 
