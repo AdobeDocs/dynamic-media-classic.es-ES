@@ -9,10 +9,10 @@ discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
-source-git-commit: e235cdf331a1366ea81bd609e4e264c0c2cd8264
+source-git-commit: c7a7997ffd69cb39468119d8a48884f0f60efd05
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 51%
+source-wordcount: '131'
+ht-degree: 52%
 
 ---
 
@@ -54,7 +54,7 @@ Se pueden usar los campos siguientes en la cadena de consulta URL para eliminar 
 
 >[!IMPORTANT]
 >
->A partir del 1 de mayo de 2023, los activos de registro UGC en Dynamic Media Classic estarán disponibles para su uso hasta 60 días después de la fecha de carga. Transcurridos 60 días, los recursos se eliminarán.
+>A partir del 1 de mayo de 2023, los recursos UGC de Dynamic Media estarán disponibles para su uso hasta 60 días después de la fecha de carga. Transcurridos 60 días, los recursos se eliminarán.
 
 >[!NOTE]
 >

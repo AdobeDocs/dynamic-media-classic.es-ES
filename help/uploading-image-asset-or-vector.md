@@ -7,9 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: e235cdf331a1366ea81bd609e4e264c0c2cd8264
+source-git-commit: c7a7997ffd69cb39468119d8a48884f0f60efd05
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1021'
 ht-degree: 67%
 
 ---
@@ -20,7 +20,7 @@ Para poder cargar un recurso de imagen, primero debe solicitar una clave secreta
 
 >[!IMPORTANT]
 >
->A partir del 1 de mayo de 2023, los activos de registro UGC en Dynamic Media Classic estarán disponibles para su uso hasta 60 días después de la fecha de carga. Transcurridos 60 días, los recursos se eliminarán.
+>A partir del 1 de mayo de 2023, los recursos UGC de Dynamic Media estarán disponibles para su uso hasta 60 días después de la fecha de carga. Transcurridos 60 días, los recursos se eliminarán.
 
 >[!NOTE]
 >

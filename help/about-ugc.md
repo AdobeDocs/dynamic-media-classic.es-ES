@@ -9,10 +9,10 @@ discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 14729192-7b9d-4f42-99da-6564a3f35959
-source-git-commit: e235cdf331a1366ea81bd609e4e264c0c2cd8264
+source-git-commit: c7a7997ffd69cb39468119d8a48884f0f60efd05
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 35%
+source-wordcount: '166'
+ht-degree: 36%
 
 ---
 
@@ -24,7 +24,7 @@ UGC admite formatos de archivo de imagen de trama BMP, GIF, JPG, PNG, PSD, TIFF.
 
 >[!IMPORTANT]
 >
->A partir del 1 de mayo de 2023, los activos de registro UGC en Dynamic Media Classic estarán disponibles para su uso hasta 60 días después de la fecha de carga. Transcurridos 60 días, los recursos se eliminarán.
+>A partir del 1 de mayo de 2023, los recursos UGC de Dynamic Media estarán disponibles para su uso hasta 60 días después de la fecha de carga. Transcurridos 60 días, los recursos se eliminarán.
 
 <!-- * Vector: AI, EPS (EPS files from Adobe Illustrator 2018 are not supported), PDF (only when the PDF file is previously opened and saved in Adobe Illustrator CS6) -->
 
