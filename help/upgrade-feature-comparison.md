@@ -4,10 +4,10 @@ description: Tabla de comparación de características entre [!DNL Dynamic Media
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: eb56533a-4e31-4367-8b68-879cd70c761e
-source-git-commit: 39dabb64c1c14422bf0dff234c01e6daad8ab0b5
+source-git-commit: 56efe781a1f4366f0c9d726332fd6633f50abc99
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -29,7 +29,7 @@ Una tabla de comparación de características entre [!DNL Dynamic Media] en [!DN
 | Visores interactivos | ✓ | ✓ |
 | Archivos de manifiesto | ✓ | ✓ |
 | Media Portal | ✓<br>*Conocido como &quot;Brand Portal&quot;* | ✓ |
-| Hojas de reglas | ✓ | ✓ |
+| Conjuntos de reglas | ✓ | ✓ |
 | Previsualización segura | ✓ | ✓ |
 | Conjuntos (imagen, giro, medios mixtos) | ✓<br>*No hay giros de multieje* | ✓ |
 | Imágenes inteligentes | ✓ | ✓ |
