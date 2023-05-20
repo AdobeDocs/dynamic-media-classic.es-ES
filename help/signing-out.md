@@ -1,6 +1,6 @@
 ---
-title: Inicio de sesión en Adobe Dynamic Media Classic y cierre la sesión
-description: Obtenga información sobre cómo iniciar y salir de Adobe Dynamic Media Classic y cómo conectarse a un servidor de entorno de producción en Norteamérica (NA) o Europa, Oriente Medio, África (EMEA) o Asia-Pacífico (APAC).
+title: Iniciar y cerrar sesión en Adobe Dynamic Media Classic
+description: Obtenga información sobre cómo iniciar sesión y salir de Adobe Dynamic Media Classic y conectarse a un servidor de entorno de producción en Norteamérica (NA), Europa, Oriente Medio, África (EMEA) o Asia-Pacífico (APAC).
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -19,32 +19,32 @@ ht-degree: 6%
 
 # Iniciar sesión en Adobe Dynamic Media Classic {#dmc-sign-in}
 
-Asegúrese de lo siguiente antes de utilizar la aplicación de escritorio de Adobe Dynamic Media Classic:
+Asegúrese de que dispone de lo siguiente antes de utilizar la aplicación de escritorio de Adobe Dynamic Media Classic:
 
-* **Nombre de usuario** - Utiliza su dirección de correo electrónico como nombre de inicio de sesión.
+* **Nombre de usuario** : Utiliza tu dirección de correo electrónico como nombre de inicio de sesión.
 
-* **Contraseña** - Usted obtiene su contraseña temporal en un correo electrónico de bienvenida de Adobe Dynamic Media Classic o de su administrador de Adobe Dynamic Media Classic. Al iniciar sesión por primera vez, se indica al usuario que puede cambiar esa contraseña temporal.
+* **Contraseña** - Obtendrá su contraseña temporal en un mensaje de correo electrónico de &quot;bienvenida&quot; de Adobe Dynamic Media Classic o de su administrador de Adobe Dynamic Media Classic. Al iniciar sesión por primera vez, se indica al usuario que puede cambiar esa contraseña temporal.
 
 1. Abra la aplicación de escritorio de Adobe Dynamic Media Classic.
 
-   ![Inicio de sesión en Adobe Dynamic Media Classic](/help/assets/dmclassic-login1.png)
+   ![Inicio de sesión de Adobe Dynamic Media Classic](/help/assets/dmclassic-login1.png)
 
 1. En el **[!UICONTROL Nombre de usuario]** , introduzca su dirección de correo electrónico.
 1. En el **[!UICONTROL Contraseña]** , escriba la contraseña.
-1. En el **[!UICONTROL Servidor]** lista desplegable, seleccione un servidor.
-Utilice la siguiente asignación para seleccionar el entorno de producción que desee utilizar.
+1. En el **[!UICONTROL Servidor]** , seleccione un servidor.
+Utilice la siguiente asignación para seleccionar el entorno de producción que desea utilizar.
 
    | URL del explorador | Nombre del servidor de aplicaciones de escritorio |
    | --- | --- |
    | https://s7sps1.scene7.com/ | Producción de NA (Norteamérica) |
    | https://s7sps3.scene7.com/ | Producción de EMEA (Europa, Oriente Medio y África) |
-   | https://s7sps5.scene7.com/ | Producción de APAC (Asia-Pacífico) |
+   | https://s7sps5.scene7.com/ | Producción de Asia-Pacífico (APAC) |
 
-1. Select **[!UICONTROL Iniciar sesión]**.
+1. Seleccionar **[!UICONTROL Iniciar sesión]**.
 
 ## Cerrar sesión en Adobe Dynamic Media Classic {#dmc-sign-out}
 
-1. En la esquina superior derecha de la aplicación de escritorio de Adobe Dynamic Media Classic, seleccione **[!UICONTROL Cerrar sesión]** y, a continuación, seleccione **[!UICONTROL Cerrar sesión]** de nuevo.
+1. En la esquina superior derecha de la aplicación de escritorio de Adobe Dynamic Media Classic, seleccione **[!UICONTROL Cerrar sesión]**, y luego seleccione **[!UICONTROL Cerrar sesión]** otra vez.
 
 >[!MORELIKETHIS]
 >

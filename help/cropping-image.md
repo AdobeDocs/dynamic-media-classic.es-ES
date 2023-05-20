@@ -25,44 +25,44 @@ Al recortar una imagen, puede quitar el espacio en blanco que la rodea o un áre
 
 >[!NOTE]
 >
->Tras recortar, puede seleccionar **[!UICONTROL Guardar como]** y guarde una versión recortada de la imagen con un nombre diferente. En la ventana Guardar como, seleccione **[!UICONTROL Guardar como nuevo maestro]** para guardar una segunda copia de la imagen. Select **[!UICONTROL Guardar Como Vista Adicional De Principal]** de este modo, puede guardar la versión original y la versión recortada con un nombre diferente. Select **[!UICONTROL Reemplazar original]** para eliminar el archivo original desde el que recortó la imagen. A continuación, introduzca un nombre para la imagen y seleccione **[!UICONTROL Submit]**.
+>Después de recortar, puede seleccionar **[!UICONTROL Guardar como]** y guarde una versión recortada de la imagen con un nombre diferente. En la ventana Guardar como, seleccione **[!UICONTROL Guardar como nuevo elemento principal]** para guardar una segunda copia de la imagen. Seleccionar **[!UICONTROL Guardar Como Vista De Adición Del Principal]** para poder guardar el original y su versión recortada con un nombre diferente. Seleccionar **[!UICONTROL Reemplazar original]** para eliminar el archivo original desde el que recortó la imagen. A continuación, introduzca un nombre para la imagen y seleccione **[!UICONTROL Enviar]**.
 
 ## Recorte para quitar espacio en blanco alrededor de una imagen {#crop-to-remove-white-space-around-an-image}
 
 Puede recortar los píxeles transparentes o de color sólido del borde de una imagen.
 
-1. Para recortar una imagen, seleccione su sustitución **[!UICONTROL Editar]** y, a continuación, seleccione **[!UICONTROL Recortar]**, o muéstrela en el panel Examinar de la Vista de detalles y seleccione la opción **[!UICONTROL Recortar]** botón.
-1. En la página Editor de recorte, realice una de las siguientes acciones:
+1. Para recortar una imagen, seleccione su rollover **[!UICONTROL Editar]** y luego seleccione **[!UICONTROL Recorte]**, o visualícelo en el panel de exploración en la vista de detalles y seleccione **[!UICONTROL Recorte]** botón.
+1. En la página Editor de recorte, realice una de las acciones siguientes:
 
-   * Para recortar los píxeles de color, vaya a **[!UICONTROL Recortar]** > **[!UICONTROL Color]**. En el **[!UICONTROL Recorte automático por color]** , seleccione **[!UICONTROL Esquina]** y elija una esquina con el color de fondo que desea recortar. A continuación, introduzca un **[!UICONTROL Tolerancia]** configurando de 0 a 1. El valor 0 recorta píxeles solo si coinciden exactamente con el color seleccionado en la esquina de la imagen. Los números más cercanos a 1 permiten una mayor diferencia de color. Select **[!UICONTROL Recortar]**.
-   * Para recortar píxeles transparentes, vaya a **[!UICONTROL Recortar]** > **[!UICONTROL Transparente]**. En el **[!UICONTROL Recorte automático por transparencia]** , introduzca una configuración de tolerancia de 0 a 1. El ajuste 0 recorta píxeles solo si son transparentes. Los números más cercanos a 1 permiten una mayor transparencia. Select **[!UICONTROL Recortar]**.
+   * Para recortar píxeles de color, vaya a **[!UICONTROL Recortar]** > **[!UICONTROL Color]**. En el **[!UICONTROL Recorte automático por color]** , seleccione la opción **[!UICONTROL Esquina]** y elija una esquina con el color de fondo que desee recortar. A continuación, introduzca un **[!UICONTROL Tolerancia]** configuración de 0 a 1. El valor 0 recorta píxeles solo si coinciden exactamente con el color seleccionado en la esquina de la imagen. Los números más cercanos a 1 permiten una mayor diferencia de color. Seleccionar **[!UICONTROL Recorte]**.
+   * Para recortar píxeles transparentes, vaya a **[!UICONTROL Recortar]** > **[!UICONTROL Transparente]**. En el **[!UICONTROL Recorte automático por transparencia]** , introduzca una configuración de tolerancia de 0 a 1. El ajuste 0 recorta píxeles solo si son transparentes. Los números más cercanos a 1 permiten una mayor transparencia. Seleccionar **[!UICONTROL Recorte]**.
 
-1. Select **[!UICONTROL Guardar]**.
+1. Seleccionar **[!UICONTROL Guardar]**.
 
 >[!NOTE]
 >
->Para restaurar una imagen a su estado original después de recortarla, muestre la imagen en la pantalla Editor de recorte y seleccione **[!UICONTROL Restablecer]**.
+>Para restaurar una imagen a su estado original después de haberla recortado, muestre la imagen en la pantalla del Editor de recorte y seleccione **[!UICONTROL Restablecer]**.
 
 ## Selección de áreas que recortar {#select-an-area-to-crop}
 
-1. Para recortar una imagen, seleccione su sustitución **[!UICONTROL Editar]** y elija **[!UICONTROL Recortar]**, o muéstrela en el panel Examinar de la Vista de detalles y seleccione **[!UICONTROL Recortar]**.
+1. Para recortar una imagen, seleccione su rollover **[!UICONTROL Editar]** y elija **[!UICONTROL Recorte]**, o muéstrelo en el panel de exploración en la vista de detalles y seleccione **[!UICONTROL Recorte]**.
 
-1. En la ventana Editor de recorte, coloque la parte de la imagen que no desea recortar en el cuadro de recorte. Lo que aparezca dentro del cuadro es lo que quedará después de seleccionar **[!UICONTROL Guardar]** y recorte la imagen.
+1. En la ventana Editor de recorte, coloque la parte de la imagen que no desea recortar en el cuadro de recorte. Lo que aparezca dentro del cuadro es lo que permanecerá después de seleccionarlo **[!UICONTROL Guardar]** y recorte la imagen.
 1. Para ajustar el área de recorte, siga uno de estos procedimientos:
 
    * Arrastre un lado o una esquina del recuadro. Mantenga pulsada la tecla Mayús mientras arrastra para cambiar el tamaño manteniendo la proporción de aspecto (la forma) del área de recorte.
    * Introduzca medidas de píxel en los cuadros Tamaño.
    * Arrastre para mover el cuadro de recorte. Mueva el puntero dentro de los límites del cuadro. Cuando vea la flecha con cuatro puntas, arrastre el cuadro a una nueva ubicación en la imagen.
 
-1. Select **[!UICONTROL Guardar]**.
+1. Seleccionar **[!UICONTROL Guardar]**.
 
 >[!NOTE]
 >
->Para restaurar una imagen a su estado original después de recortarla, muestre la imagen en la pantalla Editor de recorte y seleccione **[!UICONTROL Restablecer]**.
+>Para restaurar una imagen a su estado original después de haberla recortado, muestre la imagen en la pantalla del Editor de recorte y seleccione **[!UICONTROL Restablecer]**.
 
 >[!MORELIKETHIS]
 >
->* [Opciones de edición de imágenes al cargar](image-editing-options-upload.md#image-editing-options-at-upload)
->* [Recortar espacio en blanco de un archivo PDF](pdfs.md#cropping_white_space_from_a_pdf_file)
->* [Recortar desde los lados de las páginas del PDF](pdfs.md#cropping_from_the_sides_of_pdf_pages)
+>* [Opciones para la edición de imágenes al cargar](image-editing-options-upload.md#image-editing-options-at-upload)
+>* [Recortar espacio en blanco de un archivo de PDF](pdfs.md#cropping_white_space_from_a_pdf_file)
+>* [Recortar desde los lados de las páginas PDF](pdfs.md#cropping_from_the_sides_of_pdf_pages)
 

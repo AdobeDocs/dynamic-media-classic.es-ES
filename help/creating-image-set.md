@@ -1,6 +1,6 @@
 ---
 title: Creación de un conjunto de imágenes
-description: Aprenda a crear un conjunto de imágenes en Adobe Dynamic Media Classic.
+description: Obtenga información sobre cómo crear un conjunto de imágenes en Adobe Dynamic Media Classic.
 uuid: 689fdc14-4f51-4c94-8515-cd8551e101d8
 contentOwner: Rick Brough
 content-type: reference
@@ -25,7 +25,7 @@ Para crear un conjunto de imágenes con varias vistas, necesita imágenes que mu
 
 Al crear un conjunto, la opción **[!UICONTROL Publicar después de guardar]** afecta al conjunto y a los miembros del conjunto de las siguientes formas:
 
-| **[!UICONTROL Publicar después de guardar]** opción seleccionada antes de guardar? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
+| **[!UICONTROL Publicar tras guardar]** opción seleccionada antes de guardar? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
 | --- | --- | --- |
 | Sí | Publicado | Publicado |
 | No | Sin publicar | Los miembros del conjunto conservan su estado publicado o no. |
@@ -36,8 +36,8 @@ Al crear un conjunto de imágenes, Adobe recomienda las siguientes prácticas re
 
 | Tipo de límite | Práctica recomendada | Límite impuesto |
 | --- | --- | --- |
-| Número de activos duplicados por conjunto | Sin duplicados | 20 |
-| Número máximo de imágenes por conjunto | 5 a 10 imágenes por conjunto | 1.000 |
+| Número de recursos duplicados por conjunto | No hay duplicados | 20 |
+| Número máximo de imágenes por conjunto | 5-10 imágenes por conjunto | 1.000 |
 
 Consulte también [Limitaciones de Dynamic Media](/help/limitations.md).
 
@@ -45,20 +45,20 @@ Consulte también [Limitaciones de Dynamic Media](/help/limitations.md).
 
 1. Realice una de las siguientes acciones:
 
-   * **Seleccione primero las imágenes** - En el panel Examinar, seleccione las imágenes que desee para el conjunto de imágenes y vaya a **[!UICONTROL Generar]** > **[!UICONTROL Conjuntos de imágenes]**.
+   * **Seleccione primero las imágenes** - En el panel Examinar, seleccione las imágenes que desee para su conjunto de imágenes y vaya a **[!UICONTROL Generar]** > **[!UICONTROL Conjuntos de imágenes]**.
 
-   * **Comenzar desde la pantalla Conjunto de imágenes** - Vaya a **[!UICONTROL Generar]** > **[!UICONTROL Conjuntos de imágenes]**. Aparecerá la pantalla Conjunto de imágenes. Seleccione una carpeta en la biblioteca de recursos y arrastre las imágenes que desea agregar al conjunto de imágenes a la pantalla Conjunto de imágenes.
+   * **Empezar desde la pantalla Conjunto de imágenes** - Vaya a **[!UICONTROL Generar]** > **[!UICONTROL Conjuntos de imágenes]**. Aparecerá la pantalla Conjunto de imágenes. Seleccione una carpeta en la biblioteca de recursos y arrastre las imágenes que desea agregar al conjunto de imágenes a la pantalla Conjunto de imágenes.
 
 1. Para cambiar el orden de las imágenes, arrastre cada una a su nueva ubicación.
 1. Asegúrese de que esté seleccionada la opción **[!UICONTROL Publicar después de guardar]** (predeterminada), cerca de la esquina inferior derecha de la página.
-1. Select **[!UICONTROL Guardar]**, seleccione una carpeta para almacenar el conjunto de imágenes, introduzca un nombre para el conjunto y, a continuación, seleccione **[!UICONTROL Guardar]**.
-1. Para ver el conjunto de imágenes en el visualizador de conjuntos de imágenes, seleccione **[!UICONTROL Vista previa]** en la pantalla Conjunto de imágenes . Puede seleccionar miniaturas de muestra en el visor de conjuntos de imágenes para ver su comportamiento.
+1. Seleccionar **[!UICONTROL Guardar]**, seleccione una carpeta para almacenar el conjunto de imágenes, introduzca un nombre para el conjunto y, a continuación, seleccione **[!UICONTROL Guardar]**.
+1. Para ver su conjunto de imágenes en el Visor de conjuntos de imágenes, seleccione **[!UICONTROL Previsualizar]** en la pantalla Conjunto de imágenes. Puede seleccionar miniaturas de muestra en el visualizador de conjuntos de imágenes para ver cómo se comportan.
 
 ## Edición de un conjunto de imágenes {#editing-an-image-set}
 
-Tanto si edita un conjunto publicado como si no, la variable **[!UICONTROL Publicar después de guardar]** afecta a los miembros de conjunto y de conjunto de las siguientes maneras:
+Tanto si edita un conjunto publicado como no publicado, la variable **[!UICONTROL Publicar tras guardar]** afecta a los miembros set y set de las siguientes maneras:
 
-| ¿Ya se ha publicado el conjunto? | **[!UICONTROL Publicar después de guardar]** antes de guardar la edición? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
+| ¿Ya se ha publicado el conjunto? | **[!UICONTROL Publicar tras guardar]** opción seleccionada antes de guardar la edición? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
 | --- | --- | --- | --- |
 | Sí | Sí | Publicado | Publicado |
 | Sí | No | Publicado | Los miembros existentes del conjunto conservarán su estado publicado. Cualquier nuevo miembro que añada al conjunto durante la edición conservará su estado publicado o no publicado. |
@@ -77,7 +77,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
    * Para reordenar las imágenes, arrastre cada imagen a una nueva posición.
 
 1. Cuando haya terminado de editar el conjunto, asegúrese de que esté seleccionada la opción **[!UICONTROL Publicar después de guardar]** (predeterminada), cerca de la esquina inferior derecha de la página.
-1. Select **[!UICONTROL Guardar]**, seleccione una carpeta de almacenamiento para el conjunto, introduzca un nombre para el conjunto y, a continuación, seleccione **[!UICONTROL Guardar]**.
+1. Seleccionar **[!UICONTROL Guardar]**, seleccione una carpeta de almacenamiento para el conjunto, introduzca un nombre para el conjunto y, a continuación, seleccione **[!UICONTROL Guardar]**.
 
 ## Eliminar un conjunto de imágenes {#deleting-an-image-set}
 
@@ -87,5 +87,5 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 **Para eliminar un conjunto de imágenes:**
 
-1. En la vista de cuadrícula, la vista de lista o la vista de detalles, seleccione un conjunto de imágenes o más.
+1. En la vista Cuadrícula, Vista de lista o Vista de detalles, seleccione un conjunto de imágenes o más.
 1. En la barra de navegación global, vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Eliminar]** > **[!UICONTROL Eliminar]**.

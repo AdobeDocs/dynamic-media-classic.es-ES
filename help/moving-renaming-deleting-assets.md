@@ -29,19 +29,19 @@ En el panel Examinar, puede mover recursos a carpetas diferentes.
 
 1. Seleccione los recursos en el panel Examinar y realice una de las siguientes acciones:
 
-   * Muestre la carpeta a la que desea mover los recursos en la biblioteca de recursos y arrástrelos a la carpeta .
-   * Vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Mover]**, seleccione una carpeta en la ventana Mover recursos y, a continuación, seleccione **[!UICONTROL Mover]**.
+   * Muestre la carpeta a la que desea mover los recursos en la Biblioteca de recursos y arrastre los recursos a la carpeta.
+   * Ir a **[!UICONTROL Archivo]** > **[!UICONTROL Mover]**, seleccione una carpeta en la ventana Mover recursos y seleccione **[!UICONTROL Mover]**.
 
 ## Cambio de nombre de un recurso {#rename-assets}
 
 1. Seleccione el recurso en el panel Examinar y realice una de las siguientes acciones:
 
-   * Seleccione el nombre, escriba un nuevo nombre y pulse **[!UICONTROL Entrar]** o seleccione fuera del nombre.
-   * Vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Cambiar nombre]**. Se resaltará el nombre del archivo. Escriba un nuevo nombre y pulse **[!UICONTROL Entrar]**. Asegúrese de no introducir el nombre de un recurso de Adobe Dynamic Media Classic existente.
+   * Seleccione el nombre, escriba un nombre nuevo y pulse **[!UICONTROL Entrar]** o seleccione fuera del nombre.
+   * Ir a **[!UICONTROL Archivo]** > **[!UICONTROL Cambiar nombre]**. Se resaltará el nombre del archivo. Introduzca un nombre nuevo y pulse **[!UICONTROL Entrar]**. Asegúrese de no introducir el nombre de un recurso de Adobe Dynamic Media Classic existente.
 
 ## Eliminación de recursos {#delete-assets}
 
-Puede eliminar los recursos seleccionados en el panel Examinar y eliminar carpetas enteras. Los recursos y carpetas eliminados se mueven a la carpeta Papelera, donde permanecerán durante 7 días antes de ser eliminados de forma permanente.
+Puede eliminar los recursos seleccionados en el panel de exploración y eliminar carpetas completas. Los recursos y carpetas eliminados se mueven a la carpeta Papelera, donde permanecerán durante 7 días antes de ser eliminados de forma permanente.
 
 Al eliminar un recurso, todos los derivados de dicho recurso se eliminarán con él. Por ejemplo, si elimina una imagen para la cual ha creado destinos de zoom, se eliminarán tanto la imagen como los destinos de zoom.
 
@@ -49,36 +49,36 @@ los destinos de zoom, los atributos de imagen y las entradas del historial se el
 
 >[!IMPORTANT]
 >
->La eliminación masiva es una operación intensiva. Asegúrese de ejecutar las eliminaciones masivas secuencialmente en lugar de como operaciones de eliminación intensivas y simultáneas. Adobe recomienda limitar las operaciones de eliminación a 5000 o menos eliminaciones de recursos por hora. Cualquier número bueno a 5000 por hora puede causar un límite de velocidad.
+>La eliminación en lote es una operación intensiva. Asegúrese de ejecutar las eliminaciones masivas secuencialmente en lugar de como operaciones de eliminación simultáneas y pesadas. Adobe recomienda limitar las operaciones de eliminación a 5000 o menos eliminaciones de recursos por hora. Cualquier número que sea bueno a 5000 por hora puede causar una limitación de la velocidad.
 
 **Para eliminar recursos:**
 
 1. Realice una de las siguientes acciones:
 
-   * Para eliminar uno o varios recursos, seleccione los recursos en el panel Examinar y pulse **[!UICONTROL Eliminar]** o vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Eliminar]**.
-   * Para eliminar una carpeta, seleccione la carpeta en la biblioteca de recursos y seleccione **[!UICONTROL Quitar carpeta]**.
+   * Para eliminar uno o varios recursos, selecciónelos en el panel Examinar y presione **[!UICONTROL Eliminar]** o vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Eliminar]**.
+   * Para eliminar una carpeta, selecciónela en la Biblioteca de recursos y seleccione **[!UICONTROL Quitar carpeta]**.
 
-      Al eliminar una carpeta, se eliminan la carpeta, todos los recursos de la carpeta y todos los recursos de las subcarpetas.
+      Al eliminar una carpeta, se elimina la carpeta, todos sus recursos y todos los de sus subcarpetas.
 
-Adobe Dynamic Media Classic recomienda sobrescribir los archivos de recursos en lugar de eliminarlos si el motivo de la eliminación de un archivo de recursos es reemplazarlo por otro con el mismo nombre.
+Adobe Dynamic Media Classic recomienda sobrescribir los archivos de recursos en lugar de eliminarlos si el motivo para eliminar un archivo de recursos es reemplazarlo por otro con el mismo nombre.
 
 ## Eliminación de varios recursos con un archivo de texto {#delete-multiple-assets-with-a-text-file}
 
-Para eliminar muchos recursos a la vez en toda la biblioteca de recursos, puede enumerar los recursos que desea eliminar en un archivo de texto y enviar la lista a Adobe Dynamic Media Classic.
+Para eliminar muchos recursos a la vez en la biblioteca de recursos, puede enumerar los recursos que desea eliminar en un archivo de texto y enviar la lista a Adobe Dynamic Media Classic.
 
-Cree la lista de Adobe Dynamic Media Classic ID y guárdela como un archivo de texto (.txt). Cada Adobe Dynamic Media Classic ID debe estar en su propia línea (seguido de un retorno grave).
+Cree la lista de Adobe Dynamic Media Classic ID y guárdela como un archivo de texto (.txt). Cada ID de Adobe Dynamic Media Classic debe estar en su propia línea (seguida de una devolución fuerte).
 
 Después de crear la lista, siga estos pasos para eliminar los recursos:
 
-1. Vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Eliminar lista de recursos]**.
-1. En el cuadro de diálogo Eliminar lista de recursos, busque o escriba la ruta al archivo de texto con la lista de recursos que desee eliminar.
-1. Select **[!UICONTROL Eliminar]**.
+1. Ir a **[!UICONTROL Archivo]** > **[!UICONTROL Eliminar lista de recursos]**.
+1. En el cuadro de diálogo Eliminar lista de recursos, examine o escriba la ruta de acceso al archivo de texto con la lista de recursos que desea eliminar.
+1. Seleccionar **[!UICONTROL Eliminar]**.
 
-Cuando elimina recursos con un archivo de texto, si algún Adobe Dynamic Media Classic ID no está en la lista, se muestra el mensaje &quot;No se pueden validar estas entradas en la lista:&quot;. También se muestra la lista de entradas. Sin embargo, Adobe Dynamic Media Classic no genera un error en la página Trabajo.
+Cuando se eliminan recursos con un archivo de texto, si algún Adobe Dynamic Media Classic ID no está en la lista, se muestra el mensaje &quot;No se pueden validar estas entradas en la lista:&quot;. También se muestra la lista de entradas. Sin embargo, Adobe Dynamic Media Classic no genera un error en la página Trabajo.
 
 >[!MORELIKETHIS]
 >
 >* [Seleccionar recursos en el panel Examinar](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
->* [Preparar los recursos y las carpetas para su carga](uploading-files.md#preparing_your_assets_and_folders_for_uploading)
+>* [Preparación de recursos y carpetas para su carga](uploading-files.md#preparing_your_assets_and_folders_for_uploading)
 >* [Restaurar recursos desde la carpeta Papelera](trash-folder.md#restoring_assets_from_the_trash_folder)
 

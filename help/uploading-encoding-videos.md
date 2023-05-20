@@ -1,5 +1,5 @@
 ---
-title: Cargar y codificar vídeos
+title: Carga y codificación de vídeos
 description: Obtenga información sobre cómo cargar y codificar vídeos en Adobe Dynamic Media Classic.
 uuid: 9a7d6513-b10c-40b0-aebb-18a795c2b8d1
 contentOwner: Rick Brough
@@ -16,21 +16,21 @@ ht-degree: 56%
 
 ---
 
-# Cargar y codificar vídeos{#uploading-and-encoding-videos}
+# Carga y codificación de vídeos{#uploading-and-encoding-videos}
 
-Para crear conjuntos de vídeos únicos o adaptables para su envío a la web o dispositivos móviles, primero cargue los archivos de vídeo principales en Adobe Dynamic Media Classic. Adobe Dynamic Media Classic codifica los vídeos en formato MP4 y publica los vídeos en los siguientes formatos de archivo:
+Para crear conjuntos de vídeos adaptables o de un solo vídeo para enviarlos a la web o a dispositivos móviles, primero debe cargar los archivos de vídeo principales en Adobe Dynamic Media Classic. Adobe Dynamic Media Classic codifica los vídeos en formato MP4 y publica vídeo en los siguientes formatos de archivo:
 
 * **MP4** - Adobe Dynamic Media Classic recomienda MP4 como formato de archivo de vídeo preferido. Utilice archivos MP4 para lo siguiente:
 
    * Flujo dinámico HTTP en equipos de escritorio.
    * HTTP Live Streaming (protocolo de flujo de Apple).
-   * Entrega progresiva de vídeo a dispositivos móviles Android™, BlackBerry® y Windows®
+   * Envío de vídeo progresivo a dispositivos móviles Android™, BlackBerry® y Windows®
 
    Adobe Dynamic Media Classic ofrece dos flujos de trabajo para cargar archivos de vídeo:
 
-* **Vídeos precodificados** - Carga archivos MP4 directamente en Adobe Dynamic Media Classic. Con este flujo de trabajo, los archivos no se codifican al cargarlos. Los archivos se codifican previamente como preparación para la publicación en el escritorio y los dispositivos móviles.
+* **Vídeos precodificados** - Puede cargar archivos MP4 directamente en Adobe Dynamic Media Classic. Con este flujo de trabajo, los archivos no se codifican al cargarlos. Los archivos se codifican previamente como preparación para la publicación en el escritorio y los dispositivos móviles.
 
-* **Vídeos de origen principales** - Cargue archivos de vídeo de origen primarios y, al cargarlos, codifique estos archivos en archivos MP4. Los vídeos codificados tienen la etiqueta “Vídeo” en el panel Examinar. Adobe Dynamic Media Classic admite la codificación de archivos de vídeo en muchos formatos.
+* **Vídeos de origen principales** : Cargue archivos de vídeo de origen principal y, al cargarlos, codifique estos archivos en archivos MP4. Los vídeos codificados tienen la etiqueta “Vídeo” en el panel Examinar. Adobe Dynamic Media Classic admite la codificación de archivos de vídeo en muchos formatos.
 
    * Asegúrese de que los archivos de vídeo de origen principales que desea codificar sean compatibles.
 
@@ -44,7 +44,7 @@ Para crear conjuntos de vídeos únicos o adaptables para su envío a la web o d
 
 Adobe Dynamic Media Classic también genera miniaturas de vídeo. Puede obtener más información sobre las miniaturas de vídeo, la obtención de sus URL y la modificación de fotogramas de póster.
 
-Consulte [Trabajar con miniaturas de vídeo](deploying-video-websites-mobile-sites.md#working-with-video-thumbnails).
+Consulte [Trabajo con miniaturas de vídeo](deploying-video-websites-mobile-sites.md#working-with-video-thumbnails).
 
 **Para cargar y codificar vídeos:**
 
@@ -53,38 +53,38 @@ Realice una de las acciones siguientes.
 *Si los vídeos ya están codificados*
 
 1. En la barra de navegación global, seleccione **[!UICONTROL Cargar]**.
-1. En la página Cargar , seleccione **[!UICONTROL Desde el escritorio]** pestaña .
-1. En la página Cargar , en la **[!UICONTROL Seleccionar archivos para cargar]** panel, seleccionar **[!UICONTROL Examinar]**, vaya a un archivo de vídeo MP4 y, a continuación, seleccione **[!UICONTROL Apertura]**.
-1. En el **[!UICONTROL Elegir destino de carpeta]** seleccione una carpeta para el archivo cargado.
-1. En la página Cargar , asegúrese de que **[!UICONTROL Publicar después de la carga]** está activada.
-1. Select **[!UICONTROL Enviar carga]**.
+1. En la página Cargar, seleccione **[!UICONTROL Desde el escritorio]** pestaña.
+1. En la página Cargar, en el **[!UICONTROL Seleccionar archivos para cargar]** panel, seleccionar **[!UICONTROL Examinar]**, vaya a un archivo de vídeo MP4 y, a continuación, seleccione **[!UICONTROL Abrir]**.
+1. En el **[!UICONTROL Elegir carpeta de destino]** , seleccione una carpeta para el archivo cargado.
+1. En la página Cargar, asegúrese de que **[!UICONTROL Publicar tras la carga]** está marcada.
+1. Seleccionar **[!UICONTROL Cargar envío]**.
 
 *Si desea codificar los vídeos con Adobe Dynamic Media Classic*
 
 1. En la barra de navegación global, seleccione **[!UICONTROL Cargar]**.
-1. En la página Cargar , seleccione **[!UICONTROL Desde el escritorio]** pestaña .
-1. En el **[!UICONTROL Seleccionar archivos para cargar]** panel, seleccionar **[!UICONTROL Examinar]**, vaya a un archivo de vídeo de origen principal y, a continuación, seleccione **[!UICONTROL Apertura]**.
-1. En el **[!UICONTROL Elegir destino de carpeta]** seleccione una carpeta para el archivo cargado.
+1. En la página Cargar, seleccione **[!UICONTROL Desde el escritorio]** pestaña.
+1. En el **[!UICONTROL Seleccionar archivos para cargar]** panel, seleccionar **[!UICONTROL Examinar]**, vaya a un archivo de vídeo de origen principal y, a continuación, seleccione **[!UICONTROL Abrir]**.
+1. En el **[!UICONTROL Elegir carpeta de destino]** , seleccione una carpeta para el archivo cargado.
 1. En la esquina inferior derecha de la página, seleccione **[!UICONTROL Opciones de trabajo]**,
-1. En el cuadro de diálogo Opciones de carga de trabajo , expanda **[!UICONTROL Opciones de eVideo]** y, a continuación, realice una de las siguientes acciones:
+1. En el cuadro de diálogo Opciones del trabajo de carga, expanda **[!UICONTROL Opciones de vídeo]**, a continuación, realice una de las siguientes acciones:
 
-   * Una práctica recomendada es seleccionar **[!UICONTROL Codificación de vídeo adaptable]**. Consulte [Vídeo adaptable (predeterminado)](application-setup.md#adaptive-video-default).
-   * Opcional. Si desea utilizar ajustes de codificación individuales, expanda **[!UICONTROL Ajustes preestablecidos de codificación única]**y, a continuación, seleccione las opciones de codificación que desee para Escritorio, Móvil y Tableta.
+   * La práctica recomendada es seleccionar **[!UICONTROL Codificación de vídeo adaptable]**. Consulte [Vídeo adaptable (predeterminado)](application-setup.md#adaptive-video-default).
+   * Opcional. Si desea utilizar una configuración de codificación individual, expanda **[!UICONTROL Ajustes preestablecidos de codificación única]**y, a continuación, seleccione las opciones de codificación que desee para Escritorio, Móvil y Tablet.
 Consulte [Ajustes preestablecidos de codificación de vídeo para equipos de escritorio](application-setup.md#desktop-video-encoding-presets), [Ajustes preestablecidos de codificación de vídeo para dispositivos móviles](application-setup.md#mobile-video-encoding-presets), [Ajustes preestablecidos de codificación de vídeo para tablets](application-setup.md#tablet-video-encoding-presets).
-1. En el cuadro de diálogo Opciones de carga de trabajo, seleccione **[!UICONTROL Guardar]**.
-1. En la página Cargar , asegúrese de que **[!UICONTROL Publicar después de la carga]** está activada.
-1. En la página Cargar , en la esquina inferior derecha, seleccione **[!UICONTROL Enviar carga]**.
+1. En el cuadro de diálogo Opciones del trabajo de carga, seleccione **[!UICONTROL Guardar]**.
+1. En la página Cargar, asegúrese de que **[!UICONTROL Publicar tras la carga]** está marcada.
+1. En la página Cargar, en la esquina inferior derecha, seleccione **[!UICONTROL Cargar envío]**.
 
 *Si desea volver a codificar a un archivo de vídeo cargado anteriormente*
 
 1. En Adobe Dynamic Media Classic, en el panel Examinar, vaya al vídeo y selecciónelo.
-1. Vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Volver a procesar]**.
-1. En el cuadro de diálogo Volver a procesar recursos, expanda **[!UICONTROL Opciones de eVideo]** y, a continuación, realice una de las siguientes acciones:
+1. Ir a **[!UICONTROL Archivo]** > **[!UICONTROL Reprocesar]**.
+1. En el cuadro de diálogo Volver a procesar recursos, expanda **[!UICONTROL Opciones de vídeo]**, a continuación, realice una de las siguientes acciones:
    * La práctica recomendada es utilizar el método siguiente. Seleccione **Vídeo adaptable**.
 Consulte [Vídeo adaptable (predeterminado)](application-setup.md#adaptive-video-default).
-   * Opcional. Si desea utilizar ajustes de codificación individuales, expanda **[!UICONTROL Ajustes preestablecidos de codificación única]**y, a continuación, seleccione las opciones de codificación que desee para Escritorio, Móvil y Tableta.
+   * Opcional. Si desea utilizar una configuración de codificación individual, expanda **[!UICONTROL Ajustes preestablecidos de codificación única]**y, a continuación, seleccione las opciones de codificación que desee para Escritorio, Móvil y Tablet.
 Consulte [Ajustes preestablecidos de codificación de vídeo para equipos de escritorio](application-setup.md#desktop-video-encoding-presets), [Ajustes preestablecidos de codificación de vídeo para dispositivos móviles](application-setup.md#mobile-video-encoding-presets), [Ajustes preestablecidos de codificación de vídeo para tablets](application-setup.md#tablet-video-encoding-presets).
-1. En el cuadro de diálogo Volver a procesar recursos, seleccione **[!UICONTROL Submit]**.
+1. En el cuadro de diálogo Volver a procesar recursos, seleccione **[!UICONTROL Enviar]**.
 
 Cuando se utiliza un ajuste preestablecido de codificación de vídeo adaptable o varios ajustes preestablecidos de codificación individuales, el resultado es un conjunto de vídeos adaptables que se crea automáticamente con varias codificaciones de vídeo. También puede crear manualmente un conjunto de vídeos adaptables seleccionando los vídeos individuales.
 
@@ -94,9 +94,9 @@ Cuando se genera un conjunto de vídeos adaptables automáticamente o manualment
 
 En la siguiente tabla se muestran los tipos de archivo de vídeo (con los códecs de vídeo permitidos) que puede codificar al formato MP4 u OGV al cargar los archivos. En la tabla se muestran los formatos de archivo y códecs:
 
-* **Formatos de archivo de vídeo** : similar a un archivo ZIP, un formato de archivo de vídeo determina cómo se incluyen los archivos en el archivo de vídeo. Un archivo de vídeo suele contener varias pistas, una pista de vídeo (sin audio) y una o más pistas de audio (sin vídeo), que están interrelacionadas y sincronizadas. El formato de archivo de vídeo determina cómo se organizan estas distintas pistas de datos y metadatos.
+* **Formatos de archivo de vídeo** - Similar a un archivo ZIP, un formato de archivo de vídeo determina cómo se incluyen los archivos en el archivo de vídeo. Un archivo de vídeo suele contener varias pistas, una pista de vídeo (sin audio) y una o más pistas de audio (sin vídeo), que están interrelacionadas y sincronizadas. El formato de archivo de vídeo determina cómo se organizan estas distintas pistas de datos y metadatos.
 
-* **Códecs de vídeo** - Un códec de vídeo describe el algoritmo mediante el cual se codifica un vídeo. Un reproductor de vídeo descodifica el vídeo según su códec y, a continuación, reproduce una serie de imágenes, o fotogramas, en la pantalla. Los códecs minimizan la cantidad de información que tienen que almacenar los archivos de vídeo para reproducir el vídeo. En lugar de la información sobre cada fotograma individual, solo se almacena la información sobre las diferencias entre un fotograma y el siguiente. Debido a que la mayoría de los vídeos cambian poco de un fotograma a otro, los códecs permiten tasas de compresión altas, lo que da como resultado tamaños de archivo más pequeños.
+* **Códecs de vídeo** : Un códec de vídeo describe el algoritmo por el que se codifica un vídeo. Un reproductor de vídeo descodifica el vídeo según su códec y, a continuación, reproduce una serie de imágenes, o fotogramas, en la pantalla. Los códecs minimizan la cantidad de información que tienen que almacenar los archivos de vídeo para reproducir el vídeo. En lugar de la información sobre cada fotograma individual, solo se almacena la información sobre las diferencias entre un fotograma y el siguiente. Debido a que la mayoría de los vídeos cambian poco de un fotograma a otro, los códecs permiten altas tasas de compresión, lo que da como resultado tamaños de archivo más pequeños.
 
    | Formato de archivo de vídeo | Códecs de vídeo |
    | --- | --- |
@@ -123,7 +123,7 @@ En la siguiente tabla se muestran los tipos de archivo de vídeo (con los códec
 
 ## Prácticas recomendadas para la codificación de vídeo {#best-practices-for-video-encoding}
 
-A continuación se indican las prácticas recomendadas para codificar archivos de vídeo de origen en Adobe Dynamic Media Classic.
+A continuación se ofrecen sugerencias recomendadas para codificar archivos de vídeo de origen en Adobe Dynamic Media Classic.
 
 <!-- THE FOLLOWINGS LINKS APPEAR TO BE DEAD AND THE CONTENT COMPLETELY LOST. THE GO URL DOESN'T EVEN WORK ANYMORE.
 For advice about video encoding, see the following:
@@ -135,7 +135,7 @@ For advice about video encoding, see the following:
 
 Al codificar un archivo de vídeo, utilice el archivo de vídeo de origen de la máxima calidad posible. Evite utilizar archivos de vídeo codificados previamente, ya que estos archivos ya están comprimidos y una codificación adicional crearía un vídeo de mala calidad.
 
-En la tabla siguiente se describe el tamaño recomendado, la proporción de aspecto y la velocidad de bits mínima que deben tener los archivos de vídeo de origen al codificarlos:
+En la tabla siguiente se describe el tamaño recomendado, la relación de aspecto y la velocidad de bits mínima que deben tener los archivos de vídeo de origen al codificarlos:
 
 | Tamaño | Proporción de aspecto | Velocidad de bits mínima |
 | --- | --- | --- |
@@ -143,19 +143,19 @@ En la tabla siguiente se describe el tamaño recomendado, la proporción de aspe
 | 1280 X 720 | 16:9 | 3000 - 6000 kbps, dependiendo de la cantidad de movimiento del vídeo. |
 | 1920 X 1080 | 16:9 | 6000 - 8000 kbps, dependiendo de la cantidad de movimiento del vídeo. |
 
-### Obtener los metadatos de un archivo {#obtaining-a-file-s-metadata}
+### Obtención de metadatos de un archivo {#obtaining-a-file-s-metadata}
 
-Puede obtener los metadatos de un archivo consultando sus metadatos en Adobe Dynamic Media Classic, utilizando una herramienta de edición de vídeo o utilizando una aplicación diseñada para obtener metadatos. A continuación se muestran instrucciones para el uso de MediaInfo, una aplicación de terceros, para obtener los metadatos de un archivo de vídeo:
+Puede obtener los metadatos de un archivo visualizando sus metadatos en Adobe Dynamic Media Classic, utilizando una herramienta de edición de vídeo o utilizando una aplicación diseñada para obtener metadatos. A continuación se muestran instrucciones para el uso de MediaInfo, una aplicación de terceros, para obtener los metadatos de un archivo de vídeo:
 
-1. Vaya a esta página web: [https://mediaarea.net/en/MediaInfo](https://mediaarea.net/en/MediaInfo).
+1. Ir a esta página web: [https://mediaarea.net/en/MediaInfo](https://mediaarea.net/en/MediaInfo).
 1. Seleccione y descargue el instalador para la versión de interfaz gráfica de usuario y siga las instrucciones de instalación.
-1. Después de la instalación, haga clic con el botón derecho en el archivo de vídeo (solo Windows®) y seleccione MediaInfo, o abra MediaInfo y arrastre el archivo de vídeo a la aplicación. Se ven todos los metadatos asociados al archivo de vídeo, incluida su anchura, su altura y los fotogramas por segundo.
+1. Después de la instalación, haga clic con el botón derecho en el archivo de vídeo (solo Windows®) y seleccione MediaInfo o abra MediaInfo y arrastre el archivo de vídeo a la aplicación. Se ven todos los metadatos asociados al archivo de vídeo, incluida su anchura, su altura y los fotogramas por segundo.
 
 ### Proporción de aspecto {#aspect-ratio}
 
-Cuando elija o cree un ajuste preestablecido de codificación de vídeo para el archivo de vídeo principal, asegúrese de que el ajuste preestablecido tenga la misma proporción de aspecto que el archivo de vídeo principal. La *proporción de aspecto* es la proporción de anchura y altura del vídeo.
+Cuando seleccione o cree un ajuste preestablecido de codificación de vídeo para el archivo de vídeo principal, asegúrese de que el ajuste preestablecido tenga la misma proporción de aspecto que el archivo de vídeo principal. La *proporción de aspecto* es la proporción de anchura y altura del vídeo.
 
-Para determinar la relación de aspecto de un archivo de vídeo, obtenga los metadatos del archivo y tenga en cuenta la anchura y la altura del archivo (consulte [Obtener los metadatos de un archivo](uploading-encoding-videos.md#obtaining_a_file_s_metadata)). A continuación, utilice esta fórmula para determinar la proporción de aspecto:
+Para determinar la proporción de aspecto de un archivo de vídeo, obtenga los metadatos del archivo y anote la anchura y altura del archivo (consulte [Obtención de metadatos de un archivo](uploading-encoding-videos.md#obtaining_a_file_s_metadata)). A continuación, utilice esta fórmula para determinar la proporción de aspecto:
 
 anchura/altura = proporción de aspecto
 
@@ -168,7 +168,7 @@ En la tabla siguiente se describe cómo se traducen los resultados de la fórmul
 | 1,78 | 16:9 |
 | 0,56 | 9:16 |
 
-Por ejemplo, un vídeo con una anchura de 1440 x una altura de 1080 tiene una relación de aspecto de 1440/1080 o 1,33. En este caso, se elige un ajuste preestablecido de codificación de vídeo con una relación de aspecto de 4:3 para codificar el archivo de vídeo.
+Por ejemplo, un vídeo de 1440 anchura x 1080 altura tiene una relación de aspecto de 1440/1080 o 1,33. En este caso, elija un ajuste preestablecido de codificación de vídeo con una relación de aspecto de 4:3 para codificar el archivo de vídeo.
 
 ### Velocidad de datos {#data-rate}
 
@@ -178,7 +178,7 @@ La *velocidad de datos* (también denominada *velocidad de bits*) es la cantidad
 >
 >debido a que todos los códecs utilizan la compresión con pérdida, la velocidad de datos es el factor más importante en lo que respecta a la calidad de vídeo. En la compresión con pérdida, cuanto más se comprima un archivo de vídeo, más se degrada la calidad. Por este motivo, si se mantienen las demás características (la resolución, la velocidad de fotogramas y el códec), cuanto menor sea la velocidad de los datos, menor será la calidad del archivo comprimido.
 
-Cuando elija un ajuste preestablecido de codificación de vídeo, recuerde tener en cuenta la velocidad de conexión del usuario final objetivo. Elija un ajuste preestablecido con una velocidad de datos del 80 % de esa velocidad. Por ejemplo, si la velocidad de conexión del usuario final al que va destinado es de 1000 kbps, el mejor ajuste preestablecido es aquel que tiene una velocidad de datos de vídeo de 800 kbps.
+Cuando elija un ajuste preestablecido de codificación de vídeo, recuerde tener en cuenta la velocidad de conexión del usuario final de destino. Elija un ajuste preestablecido con una velocidad de datos del 80 % de esa velocidad. Por ejemplo, si la velocidad de conexión del usuario final al que va destinado es de 1000 kbps, el mejor ajuste preestablecido es aquel que tiene una velocidad de datos de vídeo de 800 kbps.
 
 En esta tabla se describe la velocidad de datos de las velocidades de conexión habituales.
 
@@ -186,7 +186,7 @@ En esta tabla se describe la velocidad de datos de las velocidades de conexión 
 | --- | --- |
 | 256 | Conexión de marcación. |
 | 800 | Conexión móvil habitual. Para esta conexión, utilice una velocidad de datos en el rango de 400 a 800 para experiencias 3G. |
-| 2000 | Conexión de escritorio de ancho de banda habitual. Para esta conexión, establezca como objetivo una velocidad de datos en el rango de 800 a 2000 Kbps, con la mayoría de objetivos que promedien entre 1200 y 1500 Kbps. |
+| 2000 | Conexión de escritorio de ancho de banda habitual. Para esta conexión, establezca como objetivo una velocidad de datos en el rango de 800-2000 Kbps, con un promedio de la mayoría de los objetivos de 1200-1500 Kbps. |
 | 5000 | Conexión de gran ancho de banda habitual. La codificación en este rango superior no se recomienda, porque la mayoría de los usuarios no pueden recibir el vídeo a esta velocidad. |
 
 ### Resolución {#resolution}
@@ -204,14 +204,14 @@ El archivo con resolución 640 x 480 tiene cuatro veces más píxeles por fotogr
 
 >[!NOTE]
 >
->En general, cuanto mayor sea la velocidad de datos que utilice, mejor aparecerá el vídeo y, cuanto mayor sea la resolución que utilice, mayor será la velocidad de datos que debe mantener la calidad de visualización (en comparación con resoluciones más bajas).
+>En general, cuanto mayor sea la velocidad de datos que utilice, mejor aparecerá el vídeo y, cuanto mayor sea la resolución que utilice, mayor será la velocidad de datos que deberá mantener con calidad de visualización (en comparación con resoluciones más bajas).
 
 Debido a que la resolución y la velocidad de datos están vinculadas, al codificar el vídeo dispone de dos opciones:
 
-* Elija una velocidad de datos y, a continuación, codifique con la resolución más alta que aparezca mejor a la velocidad de datos elegida.
+* Elija una velocidad de datos y, a continuación, codifique con la resolución más alta que mejor se adapte a la velocidad de datos elegida.
 * Elegir una resolución y, a continuación, codificar con la velocidad de datos necesaria para lograr un vídeo de gran calidad a la resolución elegida.
 
-Al elegir (o crear) un ajuste preestablecido de codificación de vídeo para el archivo de vídeo principal, utilice esta tabla para dirigirse a la resolución correcta:
+Cuando elija (o cree) un ajuste preestablecido de codificación de vídeo para el archivo de vídeo principal, utilice esta tabla para seleccionar la resolución correcta:
 
 | Resolución | Altura (píxeles) | Tamaño de la pantalla |
 | --- | --- | --- |
@@ -226,7 +226,7 @@ Al elegir (o crear) un ajuste preestablecido de codificación de vídeo para el 
 
 En Estados Unidos y Japón, la mayoría de los vídeos se graban a 29,97 fotogramas por segundo (fps); en Europa, la mayoría se graba a 25 fps. Las películas se graban a 24 fps.
 
-Elija un ajuste preestablecido de codificación de vídeo que coincida con la velocidad de fps del archivo de vídeo principal. Por ejemplo, si el vídeo principal es de 25 fps, elija un ajuste preestablecido de codificación con 25 fps. De forma predeterminada, toda la codificación personalizada utiliza el fps del archivo de vídeo principal. Por este motivo, no es necesario que especifique explícitamente el ajuste de fps al crear un ajuste preestablecido de codificación de vídeo.
+Elija un ajuste preestablecido de codificación de vídeo que coincida con la velocidad en fps del archivo de vídeo principal. Por ejemplo, si el vídeo principal es de 25 fps, elija un ajuste preestablecido de codificación con 25 fps. De forma predeterminada, toda la codificación personalizada utiliza el fps del archivo de vídeo principal. Por este motivo, no es necesario que especifique explícitamente el ajuste de fps al crear un ajuste preestablecido de codificación de vídeo.
 
 ### Dimensiones de codificación de vídeo {#video-encoding-dimensions}
 
@@ -249,13 +249,13 @@ Como ejemplo, suponga que el vídeo de origen es de 1920 x 1080. En la tabla sig
 
 Adobe Dynamic Media Classic recomienda utilizar ajustes preestablecidos de codificación de vídeo MP4 H.264. Dado que los archivos MP4 usan el códec de vídeo H.264, proporcionan vídeo de alta calidad pero con un tamaño de archivo comprimido.
 
-## Trabajo con ajustes preestablecidos de codificación de vídeo {#working-with-video-encoding-presets}
+## Trabajar con ajustes preestablecidos de codificación de vídeo {#working-with-video-encoding-presets}
 
-Los archivos de vídeo primarios creados con equipos de producción de vídeo y software de edición de vídeo suelen ser demasiado grandes y no tienen el formato adecuado para su envío a destinos en línea. Para convertir vídeo digital al formato y especificaciones correctos para la reproducción en distintas pantallas, puede *transcodificar* archivos de vídeo (un proceso que también se denomina *codificación*). Durante el proceso de codificación, el vídeo se comprime a un tamaño de archivo eficaz más pequeño, óptimo para la publicación en la web y en dispositivos móviles.
+Los archivos de vídeo principales creados con equipos de producción de vídeo y software de edición de vídeo suelen ser demasiado grandes y no tienen el formato adecuado para su distribución a destinos en línea. Para convertir vídeo digital al formato y especificaciones correctos para la reproducción en distintas pantallas, puede *transcodificar* archivos de vídeo (un proceso que también se denomina *codificación*). Durante el proceso de codificación, el vídeo se comprime a un tamaño de archivo eficaz más pequeño, óptimo para la publicación en la web y en dispositivos móviles.
 
-Consulte [Cargar y codificar vídeos](uploading-encoding-videos.md#uploading-and-encoding-videos).
+Consulte [Carga y codificación de vídeos](uploading-encoding-videos.md#uploading-and-encoding-videos).
 
-Adobe Dynamic Media Classic le ofrece una biblioteca de ajustes preestablecidos de codificación de vídeo predefinidos que reflejan los ajustes de codificación más comunes utilizados actualmente. Estos ajustes preestablecidos de codificación se han optimizado para la reproducción en pantallas de destino. Además, los administradores pueden crear sus propios ajustes preestablecidos de codificación de vídeo para personalizar el tamaño y la calidad de reproducción de vídeos para los usuarios finales. Todos los ajustes preestablecidos de codificación de vídeo, ya sean predeterminados de Adobe Dynamic Media Classic o personalizados, emiten vídeo en el formato de archivo MP4.
+Adobe Dynamic Media Classic le ofrece una biblioteca de ajustes preestablecidos de codificación de vídeo predefinidos que reflejan los ajustes de codificación más comunes utilizados en la actualidad. Estos ajustes preestablecidos de codificación se han optimizado para la reproducción en pantallas de destino. Además, los administradores pueden crear sus propios ajustes preestablecidos de codificación de vídeo para personalizar el tamaño y la calidad de reproducción de vídeos para los usuarios finales. Todos los ajustes preestablecidos de codificación de vídeo, ya sea de forma predeterminada de Adobe Dynamic Media Classic o personalizados, emiten vídeo en formato de archivo MP4.
 
 En la pantalla Ajustes preestablecidos de vídeo, los administradores pueden configurar y administrar la codificación de vídeo. Pueden hacer lo siguiente:
 
@@ -266,7 +266,7 @@ En la pantalla Ajustes preestablecidos de vídeo, los administradores pueden con
 
 Cualquier vídeo que cargue en Adobe Dynamic Media Classic o que codifique en Adobe Dynamic Media Classic se tratará como &quot;vídeo&quot;. Es decir, con esta clasificación de los recursos, podrá publicar el vídeo para reproducirlo en equipos de escritorio, dispositivos móviles, o ambos. Por ejemplo, puede obtener una vista previa de estos tipos de vídeos en Adobe Dynamic Media Classic. También puede generar direcciones URL (con la función de Copiar URL) y código que puede incrustar (con la función de Código incrustado) para su uso con los reproductores de vídeo, en sitios web, etc.
 
-Consulte [Vista previa de vídeos en un visor de vídeo](previewing-videos-video-viewer.md#previewing-videos-in-a-video-viewer).
+Consulte [Vista previa de vídeos en un visor de vídeos](previewing-videos-video-viewer.md#previewing-videos-in-a-video-viewer).
 
 Consulte [Vinculación de una URL de vídeo a un sitio móvil o sitio web](deploying-video-websites-mobile-sites.md#linking-a-video-url-to-a-mobile-site-or-a-website).
 
@@ -277,14 +277,14 @@ Para los recursos de vídeo que se cargan y codifican en Adobe Dynamic Media Cla
 **MP4 H.264** Utilice archivos MP4 para lo siguiente:
 
 * Flujo dinámico HTTP en equipos de escritorio.
-* HLS (transmisión en directo HTTP, protocolo de transmisión de Apple).
-* Entrega progresiva de vídeo a dispositivos móviles Android™, BlackBerry® y Windows®.
+* HLS (flujo en directo HTTP, protocolo de flujo de Apple).
+* Envío de vídeo progresivo a dispositivos móviles Android™, BlackBerry® y Windows®.
 
-Cualquier otro formato de vídeo y códec se trata como un &quot;Vídeo principal&quot;. Esta clasificación de los recursos implica que el vídeo es un archivo de origen y no se puede utilizar para su reproducción en escritorios ni dispositivos móviles. Por ejemplo, no puede obtener una vista previa de estos tipos de vídeos en Adobe Dynamic Media Classic. Tampoco puede generar las opciones Copiar URL ni Código incrustado para su uso en los reproductores de vídeo, en los sitios web, etc.
+Cualquier otro formato de vídeo y códec se trata como &quot;Vídeo principal&quot;. Esta clasificación de los recursos implica que el vídeo es un archivo de origen y no se puede utilizar para su reproducción en escritorios ni dispositivos móviles. Por ejemplo, no puede obtener una vista previa de estos tipos de vídeos en Adobe Dynamic Media Classic. Tampoco puede generar las opciones Copiar URL ni Código incrustado para su uso en los reproductores de vídeo, en los sitios web, etc.
 
-### Filtrado de la lista de ajustes preestablecidos de codificación de vídeo {#filtering-the-list-of-video-encoding-presets}
+### Filtrar la lista de ajustes preestablecidos de codificación de vídeo {#filtering-the-list-of-video-encoding-presets}
 
-La página Ajustes preestablecidos de vídeo y la página Ajustes preestablecidos de vídeo adaptables constan de una tabla que muestra el estado activo, el nombre del ajuste preestablecido, el dispositivo de reproducción previsto, el tamaño de vídeo y la velocidad de datos de cada ajuste preestablecido de vídeo.
+Las páginas Ajustes preestablecidos de vídeo y Ajustes preestablecidos de vídeo adaptable constan de una tabla que enumera el estado activo, el nombre del ajuste preestablecido, el dispositivo de reproducción deseado, el tamaño del vídeo y la velocidad de datos de cada ajuste preestablecido de vídeo.
 
 Puede restringir la lista seleccionando filtrar por Activo, Inactivo o Ambos o reducir la lista a los que están activos o inactivos.
 
@@ -292,9 +292,9 @@ También puede filtrar en función de una opción de dispositivo de reproducció
 
 **Para filtrar la lista de ajustes preestablecidos de codificación de vídeo:**
 
-1. En Adobe Dynamic Media Classic, en la barra de navegación global, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Ajustes preestablecidos de vídeo]** > **[!UICONTROL Ajustes preestablecidos de vídeo adaptables]** o **[!UICONTROL Ajustes preestablecidos de codificación única]**.
+1. En Adobe Dynamic Media Classic, en la barra de navegación global, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Ajustes preestablecidos de vídeo]** > **[!UICONTROL Ajustes preestablecidos de vídeo adaptable]** o **[!UICONTROL Ajustes preestablecidos de codificación única]**.
 
-   Las páginas para Ajustes preestablecidos de vídeo adaptables y Ajustes preestablecidos de codificación única incluyen una tabla que muestra el estado Activo, el nombre del ajuste preestablecido, el dispositivo de reproducción previsto, las dimensiones de vídeo y la velocidad de datos de cada ajuste preestablecido de vídeo.
+   Las páginas para Ajustes preestablecidos de vídeo adaptables y Ajustes preestablecidos de codificación única incluyen una tabla que enumera el estado Activo, el nombre del Ajuste preestablecido, el dispositivo de reproducción deseado, las dimensiones de vídeo y la velocidad de datos de cada ajuste preestablecido de vídeo.
 
 1. En la página de ajustes preestablecidos de codificación única llamada Ajustes preestablecidos de vídeo, en la barra de herramientas de ajustes preestablecidos de vídeo, utilice las dos listas desplegables para restringir la lista de ajustes preestablecidos en la tabla según el estado activo y el dispositivo de reproducción.
 
@@ -305,11 +305,11 @@ También puede filtrar en función de una opción de dispositivo de reproducció
 
 Los ajustes preestablecidos de vídeo activados aparecen en el cuadro de diálogo Opciones de trabajo de carga. El cuadro de diálogo aparece cuando un usuario carga archivos de vídeo durante el proceso de carga. Puede elegir de una lista de todos los ajustes preestablecidos de codificación activados.
 
-1. En Adobe Dynamic Media Classic, en la barra de navegación global, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Ajustes preestablecidos de vídeo]**.
+1. En Adobe Dynamic Media Classic, en la barra de navegación global, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Ajustes preestablecidos de vídeo]**.
 1. Realice una de las siguientes acciones:
 
-   * Select **[!UICONTROL Ajustes preestablecidos de vídeo adaptables]**.
-   * Select **[!UICONTROL Ajustes preestablecidos de codificación única]**.
+   * Seleccionar **[!UICONTROL Ajustes preestablecidos de vídeo adaptable]**.
+   * Seleccionar **[!UICONTROL Ajustes preestablecidos de codificación única]**.
 
 1. Realice una de las siguientes acciones:
 
@@ -324,24 +324,24 @@ Los ajustes preestablecidos de vídeo activados aparecen en el cuadro de diálog
 
 ### Añadir o editar un ajuste preestablecido de codificación de vídeo {#adding-or-editing-a-video-encoding-preset}
 
-Puede crear sus propios ajustes preestablecidos de vídeo de codificación única y personalizados y agregarlos a la tabla Ajustes preestablecidos de vídeo. También puede cambiar cualquier ajuste preestablecido de codificación de vídeo predefinido que se incluya con Adobe Dynamic Media Classic, siempre que guarde el ajuste preestablecido editado con un nombre nuevo.
+Puede crear sus propios ajustes preestablecidos de vídeo personalizados de codificación única y añadirlos a la tabla Ajustes preestablecidos de vídeo. También puede cambiar cualquier ajuste preestablecido de vídeo de codificación única predefinido que venga con Adobe Dynamic Media Classic, siempre que guarde el ajuste preestablecido editado con un nuevo nombre.
 
-Adobe Dynamic Media Classic ha establecido límites máximos para la velocidad de datos, la altura de resolución y la anchura de resolución de destino para garantizar una experiencia de reproducción adecuada. Aparecerán mensajes de advertencia si se exceden los límites siguientes:
+Adobe Dynamic Media Classic ha establecido límites máximos en la velocidad de datos de destino, la altura de la resolución y la anchura de la resolución para garantizar una experiencia de reproducción adecuada. Aparecerán mensajes de advertencia si se exceden los límites siguientes:
 
-* Para la reproducción en ordenador, los límites son: (Anchura/16) &#42; (Altura/16) &lt; 8192.
-* Para la reproducción móvil, los límites son: (Anchura/16) &#42; (Altura/16) &lt; 660; tasa de datos de target &lt; 4000.
-* Para la reproducción de tableta, los límites son: (Anchura/16) &#42; (Altura/16) &lt; 3600.
+* Para la reproducción en equipo, los límites son: (Anchura/16) &#42; (Altura/16) &lt; 8192.
+* Para la reproducción móvil, los límites son: (Anchura/16) &#42; (Altura/16) &lt; 660; velocidad de datos objetivo &lt; 4000.
+* Para la reproducción en tablet, los límites son: (Anchura/16) &#42; (Altura/16) &lt; 3600.
 
 **Para añadir o editar un ajuste preestablecido de codificación de vídeo:**
 
-1. En Adobe Dynamic Media Classic, en la barra de navegación global, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Ajustes preestablecidos de vídeo]**.
-1. Select **[!UICONTROL Ajustes preestablecidos de codificación única]**.
+1. En Adobe Dynamic Media Classic, en la barra de navegación global, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Ajustes preestablecidos de vídeo]**.
+1. Seleccionar **[!UICONTROL Ajustes preestablecidos de codificación única]**.
 1. En la página Ajustes preestablecidos de vídeo, realice una de las acciones siguientes:
 
-   * En la barra de herramientas Ajustes preestablecidos de vídeo, seleccione **[!UICONTROL Agregar]** para agregar un ajuste preestablecido de vídeo.
+   * En la barra de herramientas Ajustes preestablecidos de vídeo, seleccione **[!UICONTROL Añadir]** para poder agregar un ajuste preestablecido de vídeo.
    * Seleccione un ajuste preestablecido de vídeo. En la barra de herramientas, seleccione **[!UICONTROL Editar]**.
 
-      No se pueden editar los ajustes preestablecidos predefinidos de Adobe Dynamic Media Classic; solo puede crear un ajuste preestablecido a partir de uno existente seleccionando **[!UICONTROL Guardar como]**.
+      No puede editar ajustes predefinidos de Adobe Dynamic Media Classic; solo puede crear un ajuste preestablecido a partir de uno existente seleccionando **[!UICONTROL Guardar como]**.
 
 1. En la página Agregar ajuste preestablecido de vídeo o la página Editar ajuste preestablecido de vídeo, establezca las opciones de ajustes preestablecidos de vídeo que desee.
 
@@ -350,25 +350,25 @@ Adobe Dynamic Media Classic ha establecido límites máximos para la velocidad d
    | Opción de ajuste preestablecido de vídeo | Descripción |
    | --- | --- |
    | Nombre de ajuste preestablecido | Asigne un nombre descriptivo al ajuste. Este nombre aparece en el cuadro de diálogo Opciones de trabajo de carga, en el que los usuarios seleccionan las opciones de transcodificación. |
-   | Descripción | Describa el ajuste preestablecido de vídeo. Lo que escriba aparecerá como información sobre herramientas cuando mueva el puntero sobre el nombre del ajuste preestablecido en el cuadro de diálogo Opciones de carga de trabajo en el que los usuarios eligen las opciones de transcodificación. |
-   | Dispositivo de reproducción | Seleccione el dispositivo en el que está previsto que se reproduzca el vídeo. Las opciones son Equipo (equipos de escritorio), Móvil (iPhone, iPad, Android™); o Tablet (solo iPad). Esta configuración determina automáticamente el códec de audio y vídeo adecuado utilizado durante la codificación. |
+   | Descripción | Describa el ajuste preestablecido de vídeo. Lo que introduzca aparecerá como información de objeto al mover el puntero sobre el nombre del ajuste preestablecido en el cuadro de diálogo de opciones del trabajo de carga en el que los usuarios eligen las opciones de transcodificación. |
+   | Dispositivo de reproducción | Seleccione el dispositivo en el que está previsto que se reproduzca el vídeo. Las opciones son Equipo (equipos de escritorio), Móvil (iPhone, iPad, Android™) o Tablet (solo iPad). Esta configuración determina automáticamente el códec de audio y vídeo adecuado utilizado durante la codificación. |
    | Velocidad de datos de destino | Introduzca la velocidad media de la conexión a Internet (en kilobits por segundo) del usuario final de destino. La velocidad se puede introducir manualmente o con el control deslizante. El espectro de velocidad de conexión del usuario muestra las velocidades típicas para ancho de banda, DSL, conexiones móviles y de marcación. Esta configuración determina automáticamente la velocidad de datos de audio y de vídeo combinada, Es decir, la cantidad de datos codificados para configurar un solo segundo de reproducción de vídeo. Cuanto mayor sea la velocidad de datos, mejor será la calidad del vídeo resultante. No obstante, las velocidades de datos demasiado altas producen tamaños de archivo grandes que crean visualizaciones no del todo satisfactorias por parte de los usuarios que tengan un ancho de banda menor. Como práctica recomendada, encuentre el equilibrio entre velocidades de datos altas y bajas. Intente crear una reproducción con una calidad adecuada sin perjudicar a los usuarios que tienen anchos de banda bajos. |
-   | Proporción de aspecto | La proporción de aspecto es la relación de anchura y altura del vídeo. Las dos primeras proporciones de aspecto enumeradas a continuación suelen utilizarse para mostrar vídeo horizontalmente:<ul><li> 4:3, utilizado para casi todos los contenidos emitidos en la televisión estándar.</li><li>16:9 - Utilizado para casi todos los contenidos y películas de pantalla ancha en Televisión de Alta Definición (HDTV).</li><li>Escala automática: (predeterminado) un ajuste preestablecido de codificación que funciona con cualquier proporción de aspecto para crear vídeos para su distribución en teléfonos móviles, tablets y equipos de escritorio. Los vídeos originales cargados que se hayan codificado con este ajuste preestablecido se definirán con una altura fija. Sin embargo, la anchura se escala automáticamente para mantener la proporción de aspecto del vídeo (proporción de anchura a altura).</li><li>Personalizado: se utiliza para definir un tamaño de vídeo no estándar.</li><li>La relación de aspecto que elija determina la configuración de anchura y altura para el tamaño de resolución; el valor de anchura y altura se escala automáticamente a la proporción de aspecto adecuada.</li></ul> |
-   | Tamaño de la resolución | El tamaño de la resolución, expresado por el número de píxeles de ancho por el número de píxeles de alto, determina el tamaño. Introduzca los valores de anchura y altura en píxeles o sírvase del control deslizante. El espectro de resolución muestra los tamaños de resolución típicos. Los valores de anchura y altura se ajustan automáticamente a la relación de aspecto seleccionada. Por ejemplo, si selecciona 4:3 como relación de aspecto e introduce 400 para la anchura, automáticamente se introduce 300 para la altura. Si ha seleccionado Escala automática para el ajuste Proporción de aspecto, el valor Anchura de Tamaño de la resolución se establece automáticamente en Automático. Select **[!UICONTROL Vista previa]** para que pueda abrir una ventana del navegador y ver las opciones de resolución. |
+   | Proporción de aspecto | La proporción de aspecto es la relación de anchura y altura del vídeo. Las dos primeras proporciones de aspecto enumeradas a continuación suelen utilizarse para mostrar vídeo horizontalmente:<ul><li> 4:3, utilizado para casi todos los contenidos emitidos en la televisión estándar.</li><li>16:9: se utiliza para casi todo el contenido y películas en pantalla ancha de la televisión de alta definición (HDTV).</li><li>Escala automática: (predeterminado) un ajuste preestablecido de codificación que funciona con cualquier proporción de aspecto para crear vídeos para su distribución en teléfonos móviles, tablets y equipos de escritorio. Los vídeos originales cargados que se hayan codificado con este ajuste preestablecido se definirán con una altura fija. Sin embargo, la anchura se escala automáticamente para mantener la proporción de aspecto del vídeo (proporción de anchura a altura).</li><li>Personalizado: se utiliza para definir un tamaño de vídeo no estándar.</li><li>La proporción de aspecto que elija determina la configuración de anchura y altura para el tamaño de resolución; el valor de anchura y altura se adapta automáticamente a la proporción de aspecto adecuada.</li></ul> |
+   | Tamaño de la resolución | El tamaño de la resolución, expresado por el número de píxeles de ancho por el número de píxeles de alto, determina el tamaño. Introduzca los valores de anchura y altura en píxeles o sírvase del control deslizante. El espectro de resolución muestra los tamaños de resolución típicos. Los valores de anchura y altura se adhieren automáticamente a la relación de aspecto seleccionada. Por ejemplo, si selecciona 4:3 como relación de aspecto e introduce 400 para la anchura, automáticamente se introduce 300 para la altura. Si ha seleccionado Escala automática para el ajuste Proporción de aspecto, el valor Anchura de Tamaño de la resolución se establece automáticamente en Automático. Seleccionar **[!UICONTROL Previsualizar]** para que pueda abrir una ventana del explorador y ver las opciones de resolución allí. |
    | Codificar sufijo de archivo | Introduzca un sufijo. Este sufijo se añade al archivo de vídeo codificado resultante. Puede introducir un guión y un guión bajo en el nombre; los espacios en blanco y los caracteres especiales no están permitidos. |
-   | Otros ajustes | Adobe Dynamic Media Classic determina todos los demás ajustes de codificación automáticamente según las directrices de codificación recomendadas. |
+   | Otros ajustes | Adobe Dynamic Media Classic determina automáticamente todos los demás ajustes de codificación según las directrices de codificación de prácticas recomendadas. |
 
 1. Realice una de las siguientes acciones:
 
-   * Select **[!UICONTROL Guardar]** si agregó o editó un ajuste preestablecido de vídeo.
-   * Select **[!UICONTROL Guardar como]** si ha agregado un ajuste preestablecido de vídeo a partir de uno existente.
+   * Seleccionar **[!UICONTROL Guardar]** si ha añadido o editado un ajuste preestablecido de vídeo.
+   * Seleccionar **[!UICONTROL Guardar como]** si ha añadido un ajuste preestablecido de vídeo a partir de un ajuste preestablecido existente.
 
-### Eliminación de un ajuste preestablecido de codificación de vídeo {#deleting-a-video-encoding-preset}
+### Eliminar un ajuste preestablecido de codificación de vídeo {#deleting-a-video-encoding-preset}
 
 Los administradores pueden eliminar ajustes preestablecidos de vídeo personalizados. Los ajustes preestablecidos de vídeo que se incluyen con Adobe Dynamic Media Classic no se pueden eliminar.
 
-1. En Adobe Dynamic Media Classic, en la barra de navegación global, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Ajustes preestablecidos de vídeo]**.
-1. Select **[!UICONTROL Ajustes preestablecidos de codificación única]**.
+1. En Adobe Dynamic Media Classic, en la barra de navegación global, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Ajustes preestablecidos de vídeo]**.
+1. Seleccionar **[!UICONTROL Ajustes preestablecidos de codificación única]**.
 1. En la página Ajustes preestablecidos de vídeo, seleccione un ajuste preestablecido de vídeo de la tabla que ya no desee o necesite.
 1. En la barra de herramientas Ajustes preestablecidos de vídeo, seleccione **[!UICONTROL Eliminar]**.
 1. En el cuadro de diálogo Eliminar ajuste preestablecido, seleccione **[!UICONTROL Eliminar]**.
@@ -376,7 +376,7 @@ Los administradores pueden eliminar ajustes preestablecidos de vídeo personaliz
 >[!MORELIKETHIS]
 >
 >* [Inicio rápido: Vídeo en Adobe Dynamic Media Classic](quick-start-video.md#quick-start-video)
->* [Cargar y codificar vídeos](uploading-encoding-videos.md#uploading-and-encoding-videos)
->* [Trabajar con ajustes preestablecidos de visualizador de vídeo](previewing-videos-video-viewer.md#working-with-video-viewer-presets)
+>* [Carga y codificación de vídeos](uploading-encoding-videos.md#uploading-and-encoding-videos)
+>* [Trabajo con ajustes preestablecidos de visualizador de vídeo](previewing-videos-video-viewer.md#working-with-video-viewer-presets)
 >* [Ajustes preestablecidos de vídeo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) vídeo de formación
 

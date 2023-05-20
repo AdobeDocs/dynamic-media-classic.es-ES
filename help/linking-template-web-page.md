@@ -1,6 +1,6 @@
 ---
 title: Vinculación de una plantilla a una página web
-description: Aprenda a vincular una plantilla a una página web en Adobe Dynamic Media Classic.
+description: Obtenga información sobre cómo vincular una plantilla a una página web en Adobe Dynamic Media Classic.
 uuid: f111ef06-4afc-454c-86ce-5d640236d40b
 contentOwner: Rick Brough
 content-type: reference
@@ -21,7 +21,7 @@ ht-degree: 40%
 
 Los sitios web y las aplicaciones acceden al contenido de Dynamic Media Image Server mediante cadenas URL. Después de publicar una plantilla, Adobe Dynamic Media Classic activa una cadena URL que hace referencia a la plantilla en los servidores de imágenes de Dynamic Media. Puede pegar esta URL en un explorador web para probar su funcionamiento.
 
-Para colocar cadenas URL en sus páginas web y aplicaciones, cópielas desde Adobe Dynamic Media Classic. Para obtener una cadena URL de plantilla generada con un ajuste preestablecido de imagen, vaya a la pantalla Vista previa o al panel Examinar (en la vista de detalles). A continuación, seleccione un ajuste preestablecido de imagen y seleccione el botón Copiar URL.
+Para colocar cadenas de URL en las páginas web y aplicaciones, cópielas desde Adobe Dynamic Media Classic. Para obtener una cadena de URL de plantilla generada con un ajuste preestablecido de imagen, vaya a la pantalla Vista previa o al panel Examinar (en la Vista de detalles). A continuación, seleccione un ajuste preestablecido de imagen y seleccione el botón Copiar URL.
 
 >[!NOTE]
 >
@@ -29,15 +29,15 @@ Para colocar cadenas URL en sus páginas web y aplicaciones, cópielas desde Ado
 
 ## Obtención de una URL de plantilla {#obtaining-a-template-url}
 
-Puede obtener una cadena URL de plantilla generada por un ajuste preestablecido de imagen en la pantalla Vista previa de plantilla. Una vez copiada la URL, ésta queda disponible en el portapapeles para que pueda pegarla cuando lo necesite. Para obtener una cadena URL de plantilla generada con un ajuste preestablecido de imagen desde la página Vista previa de plantilla, haga lo siguiente:
+Puede obtener una cadena URL de plantilla generada por un ajuste preestablecido de imagen en la pantalla Vista previa de plantilla. Una vez copiada la URL, ésta queda disponible en el portapapeles para que pueda pegarla cuando lo necesite. Para obtener una cadena de URL de plantilla generada con un ajuste preestablecido de imagen desde la página Vista previa de plantilla, haga lo siguiente:
 
-1. Seleccionar el desplazamiento de la plantilla **[!UICONTROL Vista previa]** o vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Vista previa]**.
+1. Seleccione la sustitución de la plantilla **[!UICONTROL Previsualizar]** o vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Previsualizar]**.
 1. En los menús de Ajuste preestablecido, elija el Ajuste preestablecido de imagen que desee aplicar para enviar la imagen de plantilla. La página Vista previa muestra el aspecto de la plantilla cuando se envía desde el servidor.
-1. Select **[!UICONTROL Copiar URL]** para que pueda copiar la dirección URL en el portapapeles.
+1. Seleccionar **[!UICONTROL Copiar URL]** para poder copiar la URL en el Portapapeles.
 
 ## Agregación de direcciones URL de plantilla  a la página Web {#adding-template-urls-to-your-web-page}
 
-Para agregar una plantilla a la página web, consulte con el equipo de desarrollo de la página web para modificar el `<IMG>` en el código de la página web del HTML. Utilice la cadena URL de Adobe Dynamic Media Classic para realizar una solicitud a los servidores de imágenes de Dynamic Media. El motor comercial o el código de página web dinámico inserta la imagen de plantilla con el tamaño y el formato definidos por el ajuste preestablecido elegido para la plantilla.
+Para añadir una plantilla a la página web, consulte con el equipo de desarrollo de la página web para modificar `<IMG>` en el código de la página web del HTML. Utilice la cadena URL de Adobe Dynamic Media Classic para realizar una solicitud a los servidores de imágenes de Dynamic Media. El motor comercial o el código de página web dinámico inserta la imagen de plantilla con el tamaño y el formato definidos por el ajuste preestablecido elegido para la plantilla.
 
 >[!MORELIKETHIS]
 >

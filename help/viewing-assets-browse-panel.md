@@ -1,5 +1,5 @@
 ---
-title: Ver recursos en el panel Examinar
+title: Visualización de recursos en el panel Examinar
 description: Aprenda a utilizar el panel Examinar para ver los recursos en Adobe Dynamic Media Classic.
 uuid: 677b1838-0bbe-4922-92a5-6e7d9030edb9
 contentOwner: Rick Brough
@@ -17,15 +17,15 @@ ht-degree: 26%
 
 ---
 
-# Ver recursos en el panel Examinar{#viewing-assets-in-the-browse-panel}
+# Visualización de recursos en el panel Examinar{#viewing-assets-in-the-browse-panel}
 
 Puede cambiar la manera en que se muestran los recursos en el panel Examinar si selecciona un botón de vista:
 
-* **Vista de cuadrícula** - Cerca de la esquina superior derecha de la pantalla de Adobe Dynamic Media Classic, seleccione **[!UICONTROL Vista de cuadrícula]** para ver los recursos en forma de miniatura en una cuadrícula. En la vista de cuadrícula, puede arrastrar el control deslizante Miniatura para cambiar el tamaño de las imágenes en miniatura.
+* **Vista de cuadrícula** - Cerca de la esquina superior derecha de la pantalla de Adobe Dynamic Media Classic, seleccione **[!UICONTROL Vista de cuadrícula]** para ver los recursos en forma de miniatura en una cuadrícula. En la Vista de cuadrícula, puede arrastrar el control deslizante Miniatura para cambiar el tamaño de las imágenes en miniatura.
 
-* **Vista de lista** - Cerca de la esquina superior derecha de la pantalla de Adobe Dynamic Media Classic, seleccione **[!UICONTROL Vista de lista]** para ver los recursos de una lista. En la lista se muestra el nombre, el tipo, la fecha de creación y la fecha de la última modificación de cada recurso. Según el tipo de recurso con el que esté trabajando, también obtendrá otra información. Por ejemplo, si está trabajando con una imagen, puede ver las dimensiones y el tamaño del archivo.
+* **Vista de lista** - Cerca de la esquina superior derecha de la pantalla de Adobe Dynamic Media Classic, seleccione **[!UICONTROL Vista de lista]** para ver los recursos de una lista. En la lista se muestra el nombre, el tipo, la fecha de creación y la fecha de la última modificación de cada recurso. Según el tipo de recurso con el que trabaje, también obtendrá otra información. Por ejemplo, si está trabajando con una imagen, puede ver las dimensiones y el tamaño del archivo.
 
-* **Vista de detalles** - Seleccione un recurso. Cerca de la esquina superior derecha de la pantalla de Adobe Dynamic Media Classic, seleccione **[!UICONTROL Vista de detalles]** para examinar el recurso en la Vista de detalles. También puede hacer doble clic en un recurso o seleccionarlo y ir a **[!UICONTROL Archivo]** > **[!UICONTROL Detalles]** para verlo en la Vista de detalles. Si el administrador ha especificado la preferencia Mostrar URL , las URL aparecerán para todos los recursos en la Vista de detalles; sin embargo, las direcciones URL solo están activas después de publicar el recurso.
+* **Vista de detalles** : seleccione un recurso. Cerca de la esquina superior derecha de la pantalla de Adobe Dynamic Media Classic, seleccione **[!UICONTROL Vista de detalles]** para examinar el recurso en la Vista de detalles. También puede hacer doble clic en un recurso o seleccionarlo e ir a **[!UICONTROL Archivo]** > **[!UICONTROL Detalles]** para verlo en la Vista de detalles. Si el administrador ha especificado la preferencia Mostrar URL, las direcciones URL aparecen para todos los recursos en la Vista de detalles; sin embargo, las direcciones URL solo están activas después de que se publique el recurso.
 
 >[!TIP]
 >

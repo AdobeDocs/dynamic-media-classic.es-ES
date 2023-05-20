@@ -1,6 +1,6 @@
 ---
-title: Incluir destinos de zoom y mapas de imagen en conjuntos de muestras
-description: Aprenda a incluir destinos de zoom y mapas de imágenes en Conjuntos de muestras en Adobe Dynamic Media Classic.
+title: Inclusión de destinos de zoom y mapas de imagen en conjuntos de muestras
+description: Obtenga información sobre cómo incluir destinos de zoom y mapas de imagen en conjuntos de muestras en Adobe Dynamic Media Classic.
 uuid: e46ebebd-b086-450c-9812-22290a92db8c
 contentOwner: Rick Brough
 content-type: reference
@@ -17,14 +17,14 @@ ht-degree: 32%
 
 ---
 
-# Incluir destinos de zoom y mapas de imagen en conjuntos de muestras{#including-zoom-targets-and-image-maps-in-swatch-sets}
+# Inclusión de destinos de zoom y mapas de imagen en conjuntos de muestras{#including-zoom-targets-and-image-maps-in-swatch-sets}
 
-Si define destinos de zoom y mapas de imagen para las imágenes de un conjunto de muestras, estos destinos y mapas aparecen en el visor de conjuntos de muestras. Los usuarios, por ejemplo, pueden seleccionar un mapa de imagen en el visor de conjuntos de muestras y abrir una nueva página en el sitio web con información sobre un elemento. Los usuarios pueden seleccionar una imagen en miniatura de destino en el visor de conjuntos de muestras y hacer zoom automáticamente en parte de una imagen.
+Si define destinos de zoom y mapas de imagen para las imágenes de un conjunto de muestras, estos destinos y mapas aparecen en el visor de conjuntos de muestras. Los usuarios, por ejemplo, pueden seleccionar un mapa de imagen en el visor de conjuntos de muestras y abrir una nueva página en el sitio web con información sobre un elemento. Los usuarios pueden seleccionar una imagen en miniatura de destino en el visualizador de conjuntos de muestras y aplicar zoom automáticamente a parte de la imagen.
 
-Si desea que los usuarios puedan tener acceso a destinos de zoom y mapas de imagen, cree destinos de zoom y mapas de imagen para las imágenes del conjunto de muestras. Puede hacerlo con las herramientas Mapas de imágenes o Destinos de zoom de la pantalla Conjunto de muestras o el panel Examinar (en la Vista de detalles).
+Si desea que los usuarios puedan tener acceso a destinos de zoom y mapas de imagen, cree destinos de zoom y mapas de imagen para las imágenes del conjunto de muestras. Puede hacerlo con las herramientas Mapas de imagen o Destinos de zoom en la pantalla Conjunto de muestras o en el panel Examinar (en la Vista de detalles).
 
 >[!MORELIKETHIS]
 >
->* [Crear destinos de zoom para zoom guiado](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom)
+>* [Creación de destinos de zoom para el zoom guiado](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom)
 >* [Crear mapas de imagen](creating-image-maps.md#creating_image_maps)
 

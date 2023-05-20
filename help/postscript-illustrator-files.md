@@ -1,5 +1,5 @@
 ---
-title: Trabajar con archivos PostScript y Illustrator
+title: Uso de archivos PostScript y Illustrator
 description: Aprenda a trabajar con archivos PostScript y Illustrator en Adobe Dynamic Media Classic.
 uuid: 36dee172-8bd4-45a9-820b-c2ca319edf20
 contentOwner: Rick Brough
@@ -17,15 +17,15 @@ ht-degree: 36%
 
 ---
 
-# Trabajar con archivos PostScript y Illustrator{#working-with-postscript-and-illustrator-files}
+# Uso de archivos PostScript y Illustrator{#working-with-postscript-and-illustrator-files}
 
-Puede utilizar archivos Adobe PostScript® (EPS) y Adobe® Illustrator® (AI) en Adobe Dynamic Media Classic. Adobe Dynamic Media Classic ofrece comandos para configurar estos archivos a medida que los carga.
+Puede utilizar archivos Adobe PostScript® (EPS) y Adobe® Illustrator® (AI) en Adobe Dynamic Media Classic. Adobe Dynamic Media Classic ofrece comandos para configurar estos archivos a medida que se cargan.
 
 Al cargar archivos de imagen PostScript (EPS) o Illustrator (AI), se les puede dar formato de varias formas. Puede rasterizar los archivos, convertirlos a FXG para la publicación de plantillas, mantener el fondo transparente, seleccionar una resolución y elegir un espacio de color. Las opciones para dar formato a archivos de PostScript e Illustrator están disponibles en la pantalla Cargar, en Opciones de PostScript y Opciones de Illustrator del cuadro de diálogo Opciones de trabajo de carga.
 
-* **[!UICONTROL Procesamiento]** - Elija **[!UICONTROL Rasterizar]** para convertir gráficos vectoriales en el archivo al formato de mapa de bits.
+* **[!UICONTROL Procesando]** - Elegir **[!UICONTROL Rasterizar]** para convertir gráficos vectoriales del archivo al formato de mapa de bits.
 
-* **[!UICONTROL Mantener fondo transparente en imagen procesada]** : mantiene la transparencia del fondo del archivo.
+* **[!UICONTROL Mantener El Fondo Transparente En La Imagen Procesada]** - Mantiene la transparencia de fondo del archivo.
 
 * **[!UICONTROL Resolución]** - Determina la configuración de resolución. Este valor determina cuántos píxeles se muestran por pulgada en el archivo.
 
@@ -37,4 +37,4 @@ Al cargar archivos de imagen PostScript (EPS) o Illustrator (AI), se les puede d
 
    * **[!UICONTROL Forzar como CMYK]** - Convierte al espacio de color CMYK.
 
-   * **[!UICONTROL Forzar como escala de grises]** - Convierte al espacio de color Escala de grises .
+   * **[!UICONTROL Forzar como escala de grises]** - Se convierte al espacio de color de escala de grises.

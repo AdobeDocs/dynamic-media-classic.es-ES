@@ -1,6 +1,6 @@
 ---
-title: Trabaje con viñetas, coberturas de ventanas y archivos .CAB
-description: Aprenda a trabajar con viñetas, coberturas de ventanas y archivos .CAB en Adobe Dynamic Media Classic.
+title: Trabajar con archivos de viñeta, cubierta de ventana y archivador
+description: Obtenga información sobre cómo trabajar con archivos de viñeta, cubierta de ventana y archivador en Adobe Dynamic Media Classic.
 uuid: a738791c-4be0-4286-abbd-fae7a0e4bb73
 contentOwner: Rick Brough
 content-type: reference
@@ -17,11 +17,11 @@ ht-degree: 15%
 
 ---
 
-# Trabaje con viñetas, coberturas de ventanas y archivos .CAB{#working-with-vignette-window-covering-and-cabinet-files}
+# Trabajar con archivos de viñeta, cubierta de ventana y archivador{#working-with-vignette-window-covering-and-cabinet-files}
 
-Los usuarios de la herramienta de creación de imágenes de Adobe Dynamic Media Classic pueden *use* viñetas (archivos VNT), cubiertas de ventanas (archivos VNW) y archivadores (archivos VNC). Estos archivos no se pueden crear ni editar en Adobe Dynamic Media Classic.
+Los usuarios de la herramienta Adobe Dynamic Media Classic Image Authoring pueden *use* viñetas (ficheros VNT), cubiertas de ventanas (ficheros VNW) y archivadores (ficheros VNC). Estos archivos no se pueden crear ni editar en Adobe Dynamic Media Classic.
 
-Las viñetas, coberturas de ventana y armarios son imágenes creadas. Con otro programa de Adobe Dynamic Media Classic llamado Creación de imágenes, se enmascaran los objetos de una imagen para que los usuarios puedan ver la misma imagen en varias texturas o colores. Por ejemplo, los usuarios pueden ver un sofá tapizado con varios tejidos, una ventana decorada con varios tratamientos en la ventana o un armario con diferentes tipos de madera.
+Las viñetas, coberturas de ventana y armarios son imágenes creadas. Con un programa de Adobe Dynamic Media Classic diferente llamado Image Authoring, se enmascaran objetos en una imagen para que los usuarios puedan ver la misma imagen en varias texturas o colores. Por ejemplo, los usuarios ven un sofá tapizado con varios tejidos, una ventana decorada con diversos tratamientos de ventana o un armario acabado con diferentes tipos de madera.
 
 Cargue viñetas, coberturas de ventanas y armarios igual que cualquier otro archivo.
 

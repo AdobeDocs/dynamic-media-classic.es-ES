@@ -1,6 +1,6 @@
 ---
 title: Obtener información de uso del disco
-description: Obtenga información sobre el uso del disco en Adobe Dynamic Media Classic.
+description: Obtenga información sobre cómo obtener información de uso del disco en Adobe Dynamic Media Classic.
 uuid: 01361693-53d0-4072-b7c3-f284631d28cf
 contentOwner: Rick Brough
 content-type: reference

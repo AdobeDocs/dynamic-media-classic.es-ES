@@ -1,6 +1,6 @@
 ---
 title: Generación automatizada de conjuntos de imágenes
-description: Aprenda a automatizar la generación de conjuntos de imágenes en Adobe Dynamic Media Classic.
+description: Obtenga información sobre cómo automatizar la generación de conjuntos de imágenes en Adobe Dynamic Media Classic.
 uuid: bd4b3252-3e77-4230-9684-cd6d28b8eecb
 contentOwner: Rick Brough
 content-type: reference
@@ -33,11 +33,11 @@ Puede automatizar la generación de conjuntos como un trabajo independiente de l
 
 **Para automatizar la generación de conjuntos de imágenes:**
 
-1. Vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Generar conjunto]**.
+1. Ir a **[!UICONTROL Archivo]** > **[!UICONTROL Generar conjunto]**.
 1. En el cuadro de diálogo Generar conjunto, especifique un nombre de trabajo.
 
    De forma predeterminada, al trabajo se le asigna un nombre que indica que se ha generado y cuándo se ha generado.
 
 1. Seleccione el ajuste preestablecido que desea aplicar.
-1. Select **[!UICONTROL Carpeta de destino]** y, a continuación, especifique la carpeta que desea utilizar.
-1. Select **[!UICONTROL Submit]**.
+1. Seleccionar **[!UICONTROL Carpeta de destino]** y, a continuación, especifique la carpeta que desea utilizar.
+1. Seleccionar **[!UICONTROL Enviar]**.

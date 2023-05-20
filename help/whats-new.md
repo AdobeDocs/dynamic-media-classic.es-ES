@@ -1,5 +1,5 @@
 ---
-title: Novedades
+title: ¿Qué hay de nuevo?
 description: Obtenga información sobre las novedades de Adobe Dynamic Media Classic mediante las notas de la versión actuales.
 contentOwner: Rick Brough
 content-type: reference
@@ -17,4 +17,4 @@ ht-degree: 3%
 
 # Novedades {#what-s-new}
 
-Para consultar la información más reciente sobre la versión de Adobe Dynamic Media Classic, incluidas las nuevas funciones, mejoras y correcciones, consulte la [Notas de la versión de Adobe Dynamic Media Classic](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/release-notes/s7rn2017.html).
+Para obtener la información más reciente sobre la versión de Adobe Dynamic Media Classic, incluidas las nuevas funciones, mejoras y correcciones, consulte la [Notas de la versión de Adobe Dynamic Media Classic](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/release-notes/s7rn2017.html).

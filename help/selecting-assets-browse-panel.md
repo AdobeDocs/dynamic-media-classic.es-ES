@@ -19,12 +19,12 @@ ht-degree: 18%
 
 # Seleccionar recursos en el panel Examinar{#selecting-assets-in-the-browse-panel}
 
-Seleccione un recurso en el panel Examinar para poder trabajar con él. Para seleccionar recursos, utilice estas técnicas:
+Seleccione un recurso en el panel de exploración para poder trabajar con él. Para seleccionar recursos, utilice estas técnicas:
 
-* **Un solo recurso** - Seleccione el recurso (al hacer doble clic se abre el recurso en la Vista de detalles).
+* **Un solo recurso** : seleccione el recurso (al hacer doble clic se abre el recurso en la Vista de detalles).
 
-* **Varios activos** - Ctrl+clic (Windows®) o Comando+clic (Macintosh) para seleccionar recursos en diferentes lugares del panel Examinar. Pulse la tecla Mayús mientras hace clic (haga clic en un recurso y haga clic en otro manteniendo la tecla Mayús pulsada) para seleccionar recursos adyacentes.
+* **Varios recursos** - Ctrl + clic (Windows®) o Comando + clic (Macintosh) para seleccionar recursos en diferentes lugares del panel Examinar. Pulse la tecla Mayús mientras hace clic (haga clic en un recurso y haga clic en otro manteniendo la tecla Mayús pulsada) para seleccionar recursos adyacentes.
 
-* **Todos los recursos del panel Examinar** - Vaya a **[!UICONTROL Select]** > **[!UICONTROL Todo]**.
+* **Todos los recursos del panel Examinar** - Vaya a **[!UICONTROL Seleccionar]** > **[!UICONTROL Todo]**.
 
-* **Sin recursos** - Vaya a **[!UICONTROL Select]** > **[!UICONTROL Ninguna]**.
+* **No hay recursos** - Vaya a **[!UICONTROL Seleccionar]** > **[!UICONTROL Ninguno]**.

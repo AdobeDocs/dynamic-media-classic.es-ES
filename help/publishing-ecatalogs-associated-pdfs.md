@@ -23,15 +23,15 @@ La publicación coloca el catálogo electrónico y el PDF en los servidores de i
 
 >[!NOTE]
 >
->Asegúrese de que el catálogo electrónico y el PDF residen en la misma carpeta y de que están marcados para su publicación en el panel Examinar o en la página Detalles del recurso antes de publicarlos.
+>Compruebe que el catálogo electrónico y el PDF residen en la misma carpeta y que están marcados para su publicación en el panel de exploración o en la página Detalles del recurso antes de publicarlos.
 
 **Para publicar catálogos electrónicos y PDF asociados:**
 
-1. En la barra de navegación global, seleccione **[!UICONTROL Publicación]**.
-1. En la pantalla Publicar , seleccione **[!UICONTROL Una vez]** o **[!UICONTROL Recurrente]**.
-1. (Opcional) En el campo Nombre de trabajo, introduzca un nombre para el trabajo de publicación, pero conserve el texto predefinido de fecha y hora.
+1. En la barra de navegación global, seleccione **[!UICONTROL Publish]**.
+1. En la pantalla Publicar, seleccione **[!UICONTROL Único]** o **[!UICONTROL Recurrente]**.
+1. (Opcional) En el campo Nombre del trabajo, introduzca un nombre para el trabajo de publicación, pero mantenga el texto predefinido de fecha y hora.
 
-   Si configura el catálogo electrónico para que los usuarios puedan realizar búsquedas por palabras clave, deberá publicar los datos de palabra clave. En el cuadro de diálogo Publicar, seleccione **[!UICONTROL Avanzadas]**. En el **[!UICONTROL Publicación]** menú desplegable, seleccione **[!UICONTROL Datos completos con búsqueda]**. Ésta es la opción seleccionada por defecto.
+   Si configura el catálogo electrónico para que los usuarios puedan realizar búsquedas por palabras clave, deberá publicar los datos de palabra clave. En el cuadro de diálogo Publicar, seleccione **[!UICONTROL Avanzadas]**. Desde el **[!UICONTROL Publish]** menú desplegable, seleccione **[!UICONTROL Completa con datos de búsqueda]**. Ésta es la opción seleccionada por defecto.
 
 1. Haga clic en **[!UICONTROL Enviar publ.]**.
 

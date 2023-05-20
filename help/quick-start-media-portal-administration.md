@@ -1,6 +1,6 @@
 ---
 title: "Inicio rápido: Media Portal"
-description: Introducción y inicio rápido de Media Portal para ayudarle a poner en marcha rápidamente las técnicas y la administración de Media Portal en Adobe Dynamic Media Classic.
+description: Introducción y Inicio rápido de Media Portal para ayudarle a ponerse en marcha rápidamente con las técnicas y la administración de Media Portal en Adobe Dynamic Media Classic.
 uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
 contentOwner: Rick Brough
 content-type: reference
@@ -17,21 +17,21 @@ ht-degree: 49%
 
 ---
 
-# Inicio rápido: Portal de medios{#quick-start-media-portal}
+# Inicio rápido: Media Portal{#quick-start-media-portal}
 
-Media Portal permite que las empresas adquieran, controlen y distribuyan fácilmente recursos aprobados a socios y canales externos, así como a usuarios internos de una empresa. Este entorno de &quot;autoservicio&quot; basado en navegador proporciona a los usuarios de Media Portal &quot;vistas&quot; controladas por el administrador de los recursos de Adobe Dynamic Media Classic para acceder, examinar, buscar, previsualizar y exportar fácilmente recursos en formatos aprobados por la empresa.
+Media Portal permite a las empresas adquirir, controlar y distribuir fácilmente activos aprobados a socios y canales externos, así como a usuarios internos de una empresa. Este entorno de &quot;autoservicio&quot; basado en explorador proporciona a los usuarios de Media Portal &quot;vistas&quot; controladas por el administrador de los recursos de Adobe Dynamic Media Classic para acceder, examinar, buscar, previsualizar y exportar fácilmente los recursos en formatos aprobados por la empresa.
 
-Como administrador, podrá controlar la forma en la que los usuarios ven los recursos en Media Portal, cómo acceden a ellos y cómo los utilizan. Es más, podrá personalizar la interfaz de Media Portal según el estilo de su sitio web y su marca. Puede especificar la fuente, el color de la fuente, el tamaño de la fuente e incorporar elementos de marca como logotipos en la interfaz de Media Portal.
+Como administrador, podrá controlar la forma en la que los usuarios ven los recursos en Media Portal, cómo acceden a ellos y cómo los utilizan. Es más, podrá personalizar la interfaz de Media Portal según el estilo de su sitio web y su marca. Puede especificar la fuente, el color de fuente, el tamaño de fuente e incorporar elementos de marca como logotipos en la interfaz de Media Portal.
 
 Consulte los siguientes vídeos de formación:
 
 * [Información general de Media Portal](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/544_mp_overview1_converted%20renamed_Done-AVS)
 
-* [Recorrido 1 del portal de medios](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/545_mp_tour1_user_converted%20renamed_Done-AVS)
+* [Recorrido de Media Portal 1](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/545_mp_tour1_user_converted%20renamed_Done-AVS)
 
-* [Visita a Media Portal 2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
+* [Recorrido de Media Portal 2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
 
-El siguiente inicio rápido está diseñado para ayudarle a ponerse en marcha rápidamente con la administración de Media Portal. Al final de cada paso, seleccione el vínculo del tema para obtener más información.
+El siguiente Inicio rápido está diseñado para ayudarle a empezar rápidamente con la administración de Media Portal. Al final de cada paso, seleccione el vínculo del tema para obtener más información.
 
 ## 1. Comprensión del funcionamiento de las funciones de usuario en Media Portal
 
@@ -49,13 +49,13 @@ Consulte [Crear y administrar grupos de Media Portal](creating-media-portal-grou
 
 Cuando se agrega un usuario, se le asigna una función (usuario, colaborador o usuario colaborador). También tendrá que asignar el usuario a un grupo o a varios. Para acelerar el proceso de adición de usuarios, puede cargar una lista de usuarios en forma de archivo CSV. Los usuarios nuevos recibirán un mensaje de correo electrónico de bienvenida con instrucciones acerca de cómo iniciar sesión en Media Portal.
 
-Consulte [Agregar y administrar usuarios de Media Portal](adding-media-portal-users.md#adding_and_managing_media_portal_users).
+Consulte [Adición y administración de usuarios de Media Portal](adding-media-portal-users.md#adding_and_managing_media_portal_users).
 
 ## 4. Administración de cuentas de FTP
 
 Puede tener cuentas de FTP independientes asociadas a Media Portal y asignadas a una carpeta específica de su cuenta de Adobe Dynamic Media Classic. Este tipo de funcionalidad significa que puede permitir a los usuarios cargar recursos digitales en la cuenta a través de cuentas de FTP independientes.
 
-Consulte [Administrar cuentas de FTP](ftp-accounts.md#managing_ftp_accounts).
+Consulte [Administración de cuentas de FTP](ftp-accounts.md#managing_ftp_accounts).
 
 >[!NOTE]
 >
@@ -65,9 +65,9 @@ Consulte [Funciones de usuario en Media Portal](media-portal-user-roles.md#media
 
 ## 5. Especificación de opciones de exportación
 
-Los usuarios de Media Portal, cuando exportan archivos, pueden cambiar el formato de los archivos y exportar archivos principales originales (si les da permiso para hacerlo). Como administrador, usted decidirá cómo deben exportar los archivos los usuarios. 
+Los usuarios de Media Portal, cuando exportan archivos, pueden cambiar el formato de los archivos y exportar los archivos principales originales, si les concede permiso para hacerlo. Como administrador, usted decidirá cómo deben exportar los archivos los usuarios. 
 
-Consulte [Especifique las opciones de exportación disponibles para los usuarios de Media Portal](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
+Consulte [Especificar las opciones de exportación disponibles para los usuarios de Media Portal](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
 ## 6. Creación de ajustes preestablecidos de imagen
 
@@ -81,8 +81,8 @@ Los metadatos, que describen e identifican un archivo, se utilizan para buscar y
 
 Consulte [Uso eficaz de los metadatos](making-efficient-metadata.md#making_more_efficient_use_of_metadata).
 
-## 8. Personalización de la página de Media Portal
+## 8. Personalizar la página de Media Portal
 
-La configuración de estilo de Media Portal le permite personalizar la marca de la página de Media Portal con el logotipo y los colores de su empresa. Utilice la configuración de estilo para colocar la marca de su empresa en Media Portal.
+La configuración de estilo de Media Portal le permite personalizar la página de Media Portal con el logotipo y los colores de su empresa. Utilice la configuración de estilo para incluir la marca de su empresa en Media Portal.
 
-Consulte [Personalización de la página de Media Portal](customizing-media-portal-screen.md#customizing_the_media_portal_screen).
+Consulte [Personalizar la página de Media Portal](customizing-media-portal-screen.md#customizing_the_media_portal_screen).

@@ -1,5 +1,5 @@
 ---
-title: Agregar y administrar usuarios de Media Portal
+title: Adición y administración de usuarios de Media Portal
 description: Obtenga información sobre cómo añadir y administrar usuarios de Media Portal en Adobe Dynamic Media Classic.
 uuid: 96d4103c-6428-4ce1-b9e4-231599304f27
 contentOwner: Rick Brough
@@ -17,9 +17,9 @@ ht-degree: 58%
 
 ---
 
-# Agregar y administrar usuarios de Media Portal{#adding-and-managing-media-portal-users}
+# Adición y administración de usuarios de Media Portal{#adding-and-managing-media-portal-users}
 
-Como administrador puede añadir y administrar a los usuarios, decidir si pueden cambiar las contraseñas, editar su información y cargar listas de usuarios. Estas tareas se realizan desde la pantalla Administración de usuarios. Para acceder a esta pantalla, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Configuración de administración]** > **[!UICONTROL Administración de usuarios]**.
+Como administrador puede añadir y administrar a los usuarios, decidir si pueden cambiar las contraseñas, editar su información y cargar listas de usuarios. Estas tareas se realizan desde la pantalla Administración de usuarios. Para acceder a esta pantalla, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Ajustes de administración]** > **[!UICONTROL Administración de usuarios]**.
 
 >[!NOTE]
 >
@@ -29,21 +29,21 @@ Como administrador puede añadir y administrar a los usuarios, decidir si pueden
 
 A los usuarios, colaboradores y usuarios colaboradores de Media Portal se les envía un mensaje de correo electrónico de bienvenida con una contraseña cuando usted los registra. Los administradores pueden decidir si los usuarios de Media Portal pueden cambiar esta contraseña.
 
-1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de Media Portal]** > **[!UICONTROL Configuración general]**.
+1. Vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Configuración de Media Portal]** > **[!UICONTROL Configuración general]**.
 1. En la pantalla Configuración general, marque o desmarque la opción **[!UICONTROL Permitir que el usuario de Media Portal cambie la contraseña]**.
-1. Select **[!UICONTROL Guardar]**.
+1. Seleccionar **[!UICONTROL Guardar]**.
 
 >[!NOTE]
 >
->Los usuarios de Media Portal a los que se permite cambiar contraseñas pueden hacerlo seleccionando **[!UICONTROL Configuración]** > **[!UICONTROL Configuración personal]** y cambiar contraseñas en la pantalla Ajustes personales .
+>Los usuarios de Media Portal que tengan permiso para cambiar contraseñas pueden hacerlo seleccionando **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes personales]** y cambiar contraseñas en la pantalla Ajustes personales.
 
 ## Agregar un usuario de Media Portal {#adding-a-media-portal-user}
 
-1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Configuración de administración]** > **[!UICONTROL Administración de usuarios]**.
-1. En la página Administración de usuarios , seleccione **Agregar**.
-1. En el cuadro de diálogo Agregar usuario , en el panel Información de usuario , introduzca el nombre, los apellidos y la dirección de correo electrónico del usuario y, a continuación, seleccione **[!UICONTROL Siguiente]**.
+1. Vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Ajustes de administración]** > **[!UICONTROL Administración de usuarios]**.
+1. En la página Administración de usuarios, seleccione **Añadir**.
+1. En el cuadro de diálogo Agregar usuario, en el panel Información del usuario, escriba el nombre, los apellidos y la dirección de correo electrónico del usuario y, a continuación, seleccione **[!UICONTROL Siguiente]**.
 1. En el panel Empresa/Función, en la lista desplegable de empresas, seleccione una o varias empresas para el usuario.
-1. En la lista Rol, seleccione una función de Media Portal y, a continuación, seleccione **[!UICONTROL Siguiente]**.
+1. En la lista Función, seleccione una función de Media Portal y, a continuación, seleccione **[!UICONTROL Siguiente]**.
 
    Consulte [Funciones de usuario en Media Portal](media-portal-user-roles.md#media_portal_user_roles).
 
@@ -51,11 +51,11 @@ A los usuarios, colaboradores y usuarios colaboradores de Media Portal se les en
 
    Consulte [Crear y administrar grupos de Media Portal](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
 
-1. (Opcional) Seleccione **[!UICONTROL Configuración de correo electrónico]** para elegir configuraciones de correo electrónico diferentes de la configuración predeterminada.
+1. (Opcional) Seleccione **[!UICONTROL Configuración de correo electrónico]** para elegir una configuración de correo electrónico distinta de la predeterminada.
 
    Consulte [Configuración del mensaje de correo electrónico de bienvenida para los usuarios de Media Portal](adding-media-portal-users.md#setting_up_the_welcome_e_mail_message_for_media_portal_users).
 
-1. Select **[!UICONTROL Agregar usuario]**.
+1. Seleccionar **[!UICONTROL Añadir usuario]**.
 
 Tras añadir un usuario, Media Portal envía al usuario un mensaje de correo electrónico de bienvenida. El mensaje incluye una contraseña temporal y la dirección URL de Media Portal.
 
@@ -75,21 +75,21 @@ Cree un archivo CSV (nombrearchivo.csv) conforme al formato y los campos que se 
 | Apellidos | Los apellidos. |
 | Correo electrónico | Una dirección de correo electrónico válida. |
 | Contraseña | Contraseña con distinción entre mayúsculas y minúsculas. |
-| Función de usuario | MediaPortalAdminMediaPortalUserMediaPortalContributorMediaPortalContributorUsuario |
+| Función de usuario | MediaPortalAdminMediaPortalUserMediaPortalContributorMediaPortalContributorUser |
 | Grupos | Lista de una o varias asignaciones de grupos de cuentas de cada usuario, separadas por comas. Debe especificar el grupo, agregando como prefijo el nombre de cuenta, separado por la barra diagonal (/). Por ejemplo, PortalCo/IT, donde PortalCo es la cuenta e IT es el grupo dentro de la cuenta PortalCo. |
 
 La siguiente hoja de cálculo de ejemplo muestra cómo diseñar un archivo CSV:
 
 | Nombre | Apellidos | Correo electrónico | Contraseña | Función de usuario | Grupos |
 |--- |--- |--- |--- |--- |--- |
-| Prairie | Kat | `prairiek@company.com` | bienvenido | Administrador de Media Portal | CoPortal/TI,CoPortal/Admin |
-| Rick | Abandonos | `rickb@myco.com` | bienvenido | Usuario de Media Portal | PortalCo/GrupoMarketing, PortalCo/prueba |
+| Pradera | Kat | `prairiek@company.com` | bienvenido | Administrador de Media Portal | CoPortal/TI,CoPortal/Admin |
+| Rick | Traidor | `rickb@myco.com` | bienvenido | Usuario de Media Portal | PortalCo/GrupoMarketing, PortalCo/prueba |
 
 ### Carga de un archivo CSV {#uploading-the-csv-file}
 
 1. Abra la pantalla de ajuste Administración de usuarios.
-1. Select **[!UICONTROL Cargar lista de usuarios]**.
-1. En el cuadro de diálogo Seleccionar archivo para cargar, seleccione el archivo CSV y, a continuación, seleccione **[!UICONTROL Apertura]**.
+1. Seleccionar **[!UICONTROL Cargar lista de usuarios]**.
+1. En el cuadro de diálogo Seleccionar archivo para cargar, seleccione el archivo CSV y, a continuación, seleccione **[!UICONTROL Abrir]**.
 
 Se añaden automáticamente los usuarios de la lista a los grupos especificados y se envía un mensaje de correo electrónico de bienvenida.
 
@@ -101,36 +101,36 @@ Se añaden automáticamente los usuarios de la lista a los grupos especificados 
 
 Puede ver los nombres y las direcciones de correo electrónico de los usuarios de Media Portal en una ventana emergente. Esta lista resulta útil para cortar y pegar nombres y direcciones de correo electrónico de usuarios y usarlos en otra aplicación distinta a Media Portal.
 
-1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Configuración de administración]** > **[!UICONTROL Administración de usuarios]**.
-1. En el **[!UICONTROL Por función de usuario]** lista desplegable, elija el nombre de una función de usuario de Media Portal y seleccione **[!UICONTROL Actualizar]** para mostrar los nombres de una clase de usuario de Media Portal.
-1. Select **[!UICONTROL Lista emergente]**. Copie y pegue esta lista.
+1. Vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Ajustes de administración]** > **[!UICONTROL Administración de usuarios]**.
+1. En el **[!UICONTROL Por función de usuario]** , elija el nombre de una función de usuario de Media Portal y seleccione **[!UICONTROL Actualizar]** para mostrar los nombres de una clase de usuario de Media Portal.
+1. Seleccionar **[!UICONTROL Lista emergente]**. Copiar y pegar esta lista.
 
 ## Configuración del mensaje de correo electrónico de bienvenida para los usuarios de Media Portal {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
 
 Puede enviar un mensaje de correo de bienvenida cuando agregue usuarios, colaboradores y usuarios colaboradores de Media Portal. Puede configurar este mensaje de correo electrónico o indicar a Adobe Dynamic Media Classic que no lo envíe.
 
-1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Configuración de administración]** > **[!UICONTROL Administración de usuarios]**.
-1. En la pantalla Configuración de administración de usuarios, seleccione **[!UICONTROL Configuración de correo electrónico]**.
+1. Vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Ajustes de administración]** > **[!UICONTROL Administración de usuarios]**.
+1. En la pantalla Configuración de la administración de usuarios, seleccione **[!UICONTROL Configuración de correo electrónico]**.
 1. En el cuadro de diálogo Config. correo, especifique una de estas configuraciones:
 
-   * **[!UICONTROL Enviar correo electrónico]** - Anule la selección de esta opción si no desea informar a los nuevos usuarios por correo electrónico de que los ha suscrito.
+   * **[!UICONTROL Enviar correo electrónico]** - Anule la selección de esta opción si no desea informar a los nuevos usuarios por correo electrónico de que se han registrado.
 
-   * **[!UICONTROL Contraseña predeterminada]** - Introduzca una contraseña temporal para nuevos usuarios o deje vacío el campo para que Adobe Dynamic Media Classic genere contraseñas aleatorias. Se pide a los usuarios que cambien sus contraseñas la primera vez que inicien sesión.
+   * **[!UICONTROL Contraseña predeterminada]** : introduzca una contraseña temporal para los nuevos usuarios o deje el campo vacío para que Adobe Dynamic Media Classic genere contraseñas aleatorias. Se pide a los usuarios que cambien las contraseñas la primera vez que inicien sesión.
 
-   * **[!UICONTROL URL de reemplazo]** : introduzca una dirección URL diferente de la predeterminada si los usuarios acceden a Adobe Dynamic Media Classic a través de una dirección URL diferente.
+   * **[!UICONTROL URL de reemplazo]** : introduzca una dirección URL diferente a la predeterminada si los usuarios acceden a Adobe Dynamic Media Classic a través de una dirección URL diferente.
 
 ## Otras tareas de administración de usuarios {#other-user-management-tasks}
 
 También puede realizar las siguientes tareas desde la pantalla de ajuste Administración de usuarios:
 
-* **[!UICONTROL Filtrar y ordenar la lista de usuarios]** - Filtre la lista de usuarios de Media Portal para localizar usuarios.
+* **[!UICONTROL Filtrado y ordenación de la lista de usuarios]** : filtre la lista de usuarios de Media Portal para localizar usuarios.
 
-* **[!UICONTROL Eliminar usuarios]** - Eliminar un usuario de la lista.
+* **[!UICONTROL Eliminar usuarios]** - Quitar un usuario de la lista.
 
 * **[!UICONTROL Activar y desactivar usuarios]** - Suspender el acceso de un usuario a las carpetas.
 
-* **[!UICONTROL Editar información de usuario]** - Introduzca información actualizada sobre un usuario.
+* **[!UICONTROL Editar información de usuario]** : introduzca información actualizada sobre un usuario.
 
-* **[!UICONTROL Creación de campos definidos por el usuario]** : Cree campos de metadatos personalizados y definidos por el usuario para que puedan ayudarle a organizar los recursos en Adobe Dynamic Media Classic. Los campos también pueden activarse o desactivarse según sea necesario.
+* **[!UICONTROL Creación de campos definidos por el usuario]** : cree campos de metadatos personalizados definidos por el usuario para que puedan ayudarle a organizar los recursos en Adobe Dynamic Media Classic. Los campos también pueden activarse o desactivarse según sea necesario.
 
 Consulte [Campos personalizables](application-setup.md#user_defined_fields).

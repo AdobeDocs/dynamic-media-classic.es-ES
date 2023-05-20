@@ -1,6 +1,6 @@
 ---
 title: Requisitos del sistema para Media Portal en Adobe Dynamic Media Classic
-description: Obtenga información sobre los requisitos del sistema para la mejor experiencia con Media Portal en Adobe Dynamic Media Classic.
+description: Obtenga información acerca de los requisitos del sistema para obtener la mejor experiencia con Media Portal en Adobe Dynamic Media Classic.
 uuid: e870b198-19ae-4647-8833-2764358de53d
 contentOwner: Rick Brough
 content-type: reference
@@ -19,12 +19,12 @@ ht-degree: 25%
 
 # Requisitos del sistema para Media Portal en Adobe Dynamic Media Classic {#system-requirements}
 
-Para disfrutar de la mejor experiencia con Adobe Dynamic Media Classic Media Portal, asegúrese de que su sistema cumpla los siguientes requisitos y sugerencias del sistema:
+Para obtener la mejor experiencia de uso de Adobe Dynamic Media Classic Media Portal, asegúrese de que su sistema cumple los siguientes requisitos y sugerencias del sistema:
 
-* Se requiere el procesador Microsoft® Windows® 7 o posterior, o macOS X 10.6 o superior para Macintosh Intel®.
+* Se requiere un procesador Microsoft® Windows® 7 o posterior, o macOS X 10.6 o superior, Macintosh Intel®.
 * Se requieren 3 GB de RAM o más (se sugieren 4 GB o más).
 * Monitor a color.
 * Tarjeta de vídeo compatible con Color verdadero en resolución 1280 x 1024 o superior.
-* Navegador habilitado para JAVA.
+* Explorador habilitado para JAVA.
 * Navegadores admitidos por Windows: Internet Explorer 9 o superior, Firefox 23.0 o superior.
 * Navegadores admitidos por Macintosh: Safari 6.0 o superior, Firefox™ 23 o superior.

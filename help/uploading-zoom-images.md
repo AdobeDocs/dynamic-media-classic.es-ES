@@ -1,6 +1,6 @@
 ---
 title: Cargar imágenes de zoom
-description: Aprenda a cargar imágenes de zoom en Adobe Dynamic Media Classic.
+description: Aprenda a cargar imágenes de Zoom en Adobe Dynamic Media Classic.
 uuid: 5814ec28-3a06-4b92-b70e-0aa5b83e7b0e
 contentOwner: Rick Brough
 content-type: reference
@@ -19,21 +19,21 @@ ht-degree: 21%
 
 # Cargar imágenes de zoom{#uploading-zoom-images}
 
-Las imágenes de zoom deben tener una cantidad elevada de píxeles. Se necesita un número elevado de píxeles para que los espectadores puedan ver claramente los detalles de la imagen cuando hacen zoom en las imágenes. Asegúrese de que las imágenes que utiliza tengan el tamaño adecuado antes de cargarlas en Adobe Dynamic Media Classic.
+Las imágenes de zoom deben tener una cantidad elevada de píxeles. Se necesita un número elevado de píxeles para que el espectador pueda ver claramente los detalles de la imagen cuando haga zoom en las imágenes. Asegúrese de que las imágenes que utiliza tengan el tamaño adecuado antes de cargarlas en Adobe Dynamic Media Classic.
 
 En la barra de navegación global, seleccione **[!UICONTROL Cargar]** para empezar a cargar imágenes.
 
 Para obtener instrucciones detalladas sobre la carga de imágenes, consulte [Cargar archivos](uploading-files.md#uploading_files).
 
-**Prepare sus imágenes para el zoom:**
+**Prepare las imágenes para el zoom:**
 
 Para aprovechar al máximo las funciones de zoom de Adobe Dynamic Media Classic, prepare sus archivos de imagen de zoom antes de cargarlos:
 
-* **Tamaño de la imagen** - Adobe Dynamic Media Classic recomienda utilizar archivos de imágenes que tengan, como mínimo, 2000 píxeles de tamaño más largo. De este modo, las imágenes se verán con claridad cuando los usuarios apliquen zoom en las mismas.
+* **Tamaño de imagen** - Adobe Dynamic Media Classic recomienda utilizar archivos de imágenes que tengan, como mínimo, 2000 píxeles del tamaño más largo. De este modo, las imágenes se verán con claridad cuando los usuarios apliquen zoom en las mismas.
 
 * **Formatos de archivo** : Adobe Dynamic Media Classic admite todos los formatos de archivo de imagen estándar, incluidos TIFF, BMP, JPEG, PSD, GIF y EPS. Se recomiendan los formatos de imagen sin pérdida (TIFF y PNG). Si utiliza una imagen de JPEG, utilice la configuración de mayor calidad.
 
-* **Espacio de color** - RGB es el espacio de color para presentaciones de imágenes web; Las imágenes CMYK se convierten automáticamente en RGB al cargarlas. Se recomienda cargar imágenes CMYK con un perfil de color ICC incrustado para la conversión a RGB. Consulte también Perfiles ICC.
+* **Espacio de color** - RGB es el espacio de color para las presentaciones de imágenes web; las imágenes CMYK se convierten automáticamente en RGB cuando se cargan. Se recomienda cargar imágenes CMYK con un perfil de color ICC incrustado para la conversión a RGB. Consulte también Perfiles ICC.
 
 >[!MORELIKETHIS]
 >

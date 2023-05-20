@@ -1,6 +1,6 @@
 ---
 title: Crear y habilitar ajustes preestablecidos de imagen
-description: Aprenda a crear y habilitar ajustes preestablecidos de imagen en Adobe Dynamic Media Classic.
+description: Obtenga información sobre cómo crear y habilitar ajustes preestablecidos de imagen en Adobe Dynamic Media Classic.
 uuid: 62cfc6fa-da91-4c42-a3ed-10956384d633
 contentOwner: Rick Brough
 content-type: reference
@@ -21,12 +21,12 @@ ht-degree: 72%
 
 Cuando los usuarios exportan recursos de imagen con Media Portal, pueden elegir un ajuste preestablecido de imagen en el cuadro de diálogo Exportar recursos seleccionados. Un ajuste preestablecido de imagen es una recopilación de ajustes predefinidos para cambiar el tamaño, la calidad de la imagen, el formato, la resolución y otros aspectos visuales de una imagen al exportarse.
 
-Los administradores de Media Portal pueden crear ajustes preestablecidos de imagen para controlar la forma en la que se cambia el formato de las imágenes al exportarse. Los ajustes preestablecidos de imagen cambian el formato de las imágenes según las especificaciones de su empresa cuando los usuarios exportan imágenes desde Adobe Dynamic Media Classic. En lugar de cambiar el formato de las imágenes ellos mismos, los usuarios las exportan a las especificaciones concretas de un ajuste preestablecido de imagen.
+Los administradores de Media Portal pueden crear ajustes preestablecidos de imagen para controlar la forma en la que se cambia el formato de las imágenes al exportarse. Los ajustes preestablecidos de imagen reformatean las imágenes según las especificaciones de su empresa cuando los usuarios exportan imágenes desde Adobe Dynamic Media Classic. En lugar de cambiar el formato de las imágenes ellos mismos, los usuarios las exportan a las especificaciones concretas de un ajuste preestablecido de imagen.
 
 Las siguientes restricciones se aplican al exportar recursos de imagen:
 
 * La anchura x altura debe ser menor o igual que 100 MB por imagen. Por ejemplo, la imagen no puede superar 10 000 x 10 000 o cualquier variación de aspecto inferior, como 8000 x 12 000.
-* Existe un máximo de 1 GB de tamaño total de archivo por trabajo de exportación.
+* El tamaño total de archivo por trabajo de exportación es de 1 GB como máximo.
 * Puede tener un máximo de 500 recursos en total por trabajo de exportación.
 
 >[!NOTE]

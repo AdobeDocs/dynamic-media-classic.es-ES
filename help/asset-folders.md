@@ -1,6 +1,6 @@
 ---
-title: Trabajar con carpetas de recursos
-description: Aprenda a trabajar con carpetas de recursos en Adobe Dynamic Media Classic.
+title: Trabajo con carpetas de recursos
+description: Obtenga información sobre cómo trabajar con carpetas de recursos en Adobe Dynamic Media Classic.
 uuid: 3bd83701-e2c2-4e39-b225-c2d27ad836c2
 contentOwner: Rick Brough
 content-type: reference
@@ -17,37 +17,37 @@ ht-degree: 39%
 
 ---
 
-# Trabajar con carpetas de recursos{#working-with-asset-folders}
+# Trabajo con carpetas de recursos{#working-with-asset-folders}
 
-Los recursos de archivo de Adobe Dynamic Media Classic se mantienen en carpetas. Estas carpetas aparecen en orden alfabético en el panel de la biblioteca de recursos. Antes de cargar archivos desde el equipo o la red a Adobe Dynamic Media Classic, se le pedirá que nombre una carpeta para almacenar los archivos. Cree estas carpetas antes de cargar ningún archivo.
+Los recursos de archivo de Adobe Dynamic Media Classic se guardan en carpetas. Estas carpetas aparecen en orden alfabético en el panel de la biblioteca de recursos. Antes de cargar archivos desde el equipo o la red a Adobe Dynamic Media Classic, se le pedirá que asigne un nombre a una carpeta para almacenar los archivos. Cree estas carpetas antes de cargar ningún archivo.
 
-Asegúrese de establecer una estructura y organización de carpetas para almacenar los archivos en Adobe Dynamic Media Classic antes de cargar los archivos.
+Asegúrese de establecer una estructura de carpetas y una organización para almacenar los archivos en Adobe Dynamic Media Classic antes de cargar los archivos.
 
 ## Mostrar, mover, ocultar y abrir carpetas {#displaying-moving-hiding-and-opening-folders}
 
 En la biblioteca de recursos se muestran los archivos que contiene el árbol de carpetas. Al seleccionar una carpeta en la biblioteca de recursos, su contenido aparecerá en el panel Examinar. Utilice estas técnicas para localizar carpetas en el árbol de carpetas:
 
-* **Mostrar subcarpetas** - Seleccione el **[!UICONTROL Expandir carpeta]** para mostrar las subcarpetas en una carpeta. Este icono se encuentra a la izquierda del nombre de cada carpeta.
+* **Mostrar subcarpetas** - Seleccione el **[!UICONTROL Expandir carpeta]** para mostrar las subcarpetas de una carpeta. Este icono se encuentra a la izquierda del nombre de cada carpeta.
 
-* **Mover una carpeta** - Puede mover una carpeta arrastrándola y soltándola en su nueva ubicación o seleccionando **[!UICONTROL Archivo]** > **[!UICONTROL Mover carpeta]**.
+* **Mover una carpeta** : Puede mover una carpeta arrastrándola y soltándola en su nueva ubicación o seleccionando **[!UICONTROL Archivo]** > **[!UICONTROL Mover carpeta]**.
 
-* **Ocultar carpetas** - Seleccione el **[!UICONTROL Contraer carpeta]** si desea contraer subcarpetas para ocultarlas de la vista. Este icono se encuentra a la izquierda del nombre de cada carpeta.
+* **Ocultar carpetas** - Seleccione el **[!UICONTROL Contraer carpeta]** si desea contraer las subcarpetas para ocultarlas de la vista. Este icono se encuentra a la izquierda del nombre de cada carpeta.
 
-* **Abrir una carpeta** - Seleccione una carpeta si desea mostrar su contenido en el panel Examinar.
+* **Abrir una carpeta** - Seleccione una carpeta si desea mostrar su contenido en el panel de exploración.
 
 >[!TIP]
 >
 >Puede ocultar o mostrar la biblioteca de recursos seleccionando **[!UICONTROL Expandir]** o **[!UICONTROL Contraer]** control en el lado izquierdo. Oculte el panel de la biblioteca de recursos si necesita más espacio de trabajo en el panel Examinar.
 
-## Crear carpetas {#creating-folders}
+## Creación de carpetas {#creating-folders}
 
 1. En la biblioteca de recursos, seleccione la carpeta dentro de la que desea crear una carpeta.
-1. Seleccione el **[!UICONTROL Agregar carpeta]** botón. Este icono se encuentra en la parte superior de la lista de carpetas.
+1. Seleccione el **[!UICONTROL Añadir carpeta]** botón. Este icono se encuentra en la parte superior de la lista de carpetas.
 1. Escriba un nombre descriptivo para la carpeta o subcarpeta en el campo situado junto al icono de la carpeta.
 
    >[!NOTE]
    >
-   >También puede crear carpetas en Adobe Dynamic Media Classic al cargar archivos mediante FTP. Al seleccionar la variable **[!UICONTROL Incluir subcarpetas]** al cargar mediante FTP, se duplica la estructura de carpetas del equipo del sistema. Las carpetas y subcarpetas del ordenador o la red se reproducirán en la biblioteca de recursos, y los recursos cargados se colocarán en estas carpetas.
+   >También puede crear carpetas en Adobe Dynamic Media Classic al cargar archivos a través de FTP. Selección de la **[!UICONTROL Incluir subcarpetas]** al cargar a través de FTP, replica la estructura de carpetas en el equipo en el sistema. Las carpetas y subcarpetas del ordenador o la red se reproducirán en la biblioteca de recursos, y los recursos cargados se colocarán en estas carpetas.
 
 ## Eliminar y cambiar el nombre de las carpetas {#deleting-and-renaming-folders}
 
@@ -55,8 +55,8 @@ Seleccione una carpeta y utilice estas técnicas para eliminarla o cambiar su no
 
 * **Eliminar** - Seleccione el **[!UICONTROL Quitar carpeta]** botón . Los recursos que se encuentren en una carpeta eliminada se colocarán en la carpeta Papelera. Podrá recuperarlos desde esta carpeta.
 
-* **Cambiar nombre** - Haga doble clic en el nombre e introduzca un nuevo nombre.
+* **Cambiar nombre** : Haga doble clic en el nombre e introduzca uno nuevo.
 
 >[!NOTE]
 >
->No puede copiar carpetas o recursos porque, de hacerlo, se crearían carpetas y recursos duplicados en Adobe Dynamic Media Classic, y no se permiten duplicados.
+>No puede copiar carpetas o recursos porque, de hacerlo, se crearían carpetas y recursos duplicados en Adobe Dynamic Media Classic y no se permiten duplicados.

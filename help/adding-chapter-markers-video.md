@@ -1,5 +1,5 @@
 ---
-title: Agregar marcadores de capítulo a vídeo
+title: Añadir marcadores de capítulo al vídeo
 description: Aprenda a añadir marcadores de capítulo a un vídeo en Adobe Dynamic Media Classic.
 uuid: 4e1e6daf-afc6-49d9-ac90-183fe2a903b2
 contentOwner: Rick Brough
@@ -17,15 +17,15 @@ ht-degree: 40%
 
 ---
 
-# Agregar marcadores de capítulo a vídeo {#adding-chapter-markers-to-video}
+# Añadir marcadores de capítulo al vídeo {#adding-chapter-markers-to-video}
 
-Para facilitar la visualización y navegación en vídeos de larga duración, agregue marcadores de capítulo a vídeos individuales o a conjuntos de vídeos adaptables. Cuando un usuario reproduce el vídeo, puede seleccionar los marcadores de capítulo en la cronología del vídeo (también conocido como la barra de desplazamiento del vídeo). Al hacerlo, pueden navegar fácilmente hasta su punto de interés o ir inmediatamente a contenido, demostraciones, tutoriales, etc. nuevos.
+Para facilitar la visualización y navegación en vídeos de larga duración, agregue marcadores de capítulo a vídeos individuales o a conjuntos de vídeos adaptables. Cuando un usuario reproduce el vídeo, puede seleccionar los marcadores de capítulo en la cronología del vídeo (también conocida como selección manual de vídeo). Al hacerlo, pueden desplazarse fácilmente a su punto de interés o ir inmediatamente a nuevo contenido, demostraciones, tutoriales, etc.
 
 >[!NOTE]
 >
 >El reproductor de vídeo que se utilice debe admitir los marcadores de capítulo.
 
-Consulte [Añadir o editar un ajuste preestablecido de visualizador de vídeo](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) si desea configurar los puntos de referencia para la navegación por capítulos y el texto emergente del título del capítulo para el `Universal_HTML5_Video` visor (HTML5).
+Consulte [Añadir o editar un ajuste preestablecido de visualizador de vídeo](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) si desea configurar los puntos de referencia de navegación por capítulos y el texto emergente del título del capítulo para `Universal_HTML5_Video` visualizador (HTML 5).
 
 Consulte también [Agregar y editar ajustes preestablecidos de visor](application-setup.md#adding_and_editing_viewer_presets).
 
@@ -49,7 +49,7 @@ Chapter 4
 Cost-efficient access to rapidly evolving technology.
 ```
 
-En el ejemplo anterior, `Chapter 1` es el identificador de referencia y es opcional. El tiempo de referencia de `00:00:000 --> 01:04:364` especifica la hora de inicio y la hora de finalización del capítulo, en 00:00:Formato 000. Los tres últimos dígitos son milisegundos y pueden dejarse como 000, si se prefiere. El título del capítulo de `The bicycle store behind it all` es la descripción real del contenido del capítulo. El identificador de referencia, el tiempo de referencia de inicio y el título del capítulo aparecen en una ventana emergente del reproductor de vídeo cuando el puntero se sitúa sobre un punto de referencia visual en la cronología del vídeo.
+En el ejemplo anterior, `Chapter 1` es el identificador de referencia y es opcional. El tiempo de referencia de `00:00:000 --> 01:04:364` especifica la hora de inicio y finalización del capítulo, en 00:00:Formato 000. Los tres últimos dígitos son milisegundos y pueden dejarse como 000, si se prefiere. El título del capítulo de `The bicycle store behind it all` es la descripción real del contenido del capítulo. El identificador de referencia, el tiempo de referencia inicial y el título del capítulo aparecen en una ventana emergente del reproductor de vídeo cuando se pasa el puntero sobre un punto de referencia visual en la cronología del vídeo.
 
 Como está utilizando un visor de vídeo HTML5, asegúrese de que el archivo de capítulos que cree siga el estándar de WebVTT (Web Video Text Tracks). La extensión del nombre del archivo del capítulo es .VTT. Puede obtener más información sobre el estándar de subtítulos WebVTT.
 
@@ -57,11 +57,11 @@ Consulte [WebVTT: Formato de seguimiento de texto de vídeo web](https://w3c.git
 
 **Para agregar marcadores de capítulo a vídeos:**
 
-1. Con un editor de texto simple fuera de Adobe Dynamic Media Classic, cree su archivo de capítulo de vídeo.
+1. Cree su archivo de capítulo de vídeo con un editor de texto simple fuera de Adobe Dynamic Media Classic.
 
    >[!NOTE]
    >
-   >Para la compatibilidad global con capítulos de vídeo en idiomas distintos del inglés, el estándar WebVTT requiere que cree archivos .vtt y llamadas independientes para cada idioma que desee admitir.
+   >Para ofrecer compatibilidad global con capítulos de vídeo en idiomas distintos del inglés, el estándar WebVTT requiere que cree archivos .vtt independientes y realice llamadas a cada idioma que desee admitir.
 
 1. Guarde el archivo VTT con codificación UTF8 para evitar problemas con la representación de caracteres en el texto del título del capítulo.
 
@@ -72,19 +72,19 @@ Consulte [WebVTT: Formato de seguimiento de texto de vídeo web](https://w3c.git
    Consulte [Cargar archivos](uploading-files.md#uploading_files).
 
 1. En el panel Biblioteca de recursos del lado izquierdo, navegue a la carpeta de recursos que contenga el archivo de vídeo que desee asociar al archivo de capítulos que haya cargado.
-1. En el panel Examinar recursos, seleccione un único recurso de vídeo y, a continuación, debajo de la imagen en miniatura del recurso, seleccione **[!UICONTROL Vista previa]** > **[!UICONTROL Lista del visor]**.
+1. En el panel Examinar recursos, seleccione un único recurso de vídeo y, debajo de la imagen en miniatura del recurso, seleccione **[!UICONTROL Previsualizar]** > **[!UICONTROL Lista del visor]**.
 1. En la tabla Lista de visores, busque el visor HTML5 con el nombre **Universal_HTML5_Video** y, a continuación, realice una de las siguientes acciones:
 
-   * Para una experiencia de visor de vídeo emergente, seleccione **[!UICONTROL Copiar URL]** a la derecha del nombre.
+   * Para una experiencia de visor de vídeo emergente, seleccione **[!UICONTROL Copiar URL]** situado en el extremo derecho del nombre.
 
-      Añada la URL copiada del vídeo con la siguiente sintaxis para poder asociarla con la URL copiada al archivo de rótulo:
+      Anexe la URL copiada del vídeo con la siguiente sintaxis para que pueda asociarla con la URL copiada al archivo de rótulo:
 
       `&navigation=*<full Copy URL path to the chapter navigation file .vtt>*`
 
-   * Para una experiencia de visor de vídeo incrustado, seleccione **[!UICONTROL Código incrustado]** a la derecha del nombre.
+   * Para una experiencia de visor de vídeo integrada, seleccione **[!UICONTROL Código incrustado]** situado en el extremo derecho del nombre.
 
       En el cuadro de diálogo Código incrustado, seleccione **[!UICONTROL Copiar al portapapeles]**.
 
-      Para el HTML5 `Universal_HTML5_Video` anexe el código incrustado copiado con lo siguiente:
+      Para el HTML 5 `Universal_HTML5_Video` En el visor, añada el código incrustado copiado con lo siguiente:
 
       `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*”`

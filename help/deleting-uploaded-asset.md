@@ -1,5 +1,5 @@
 ---
-title: Eliminar un recurso de imagen de trama cargado
+title: Eliminar un recurso de imagen rasterizada cargado
 description: Obtenga información sobre cómo eliminar un recurso cargado en Adobe Dynamic Media Classic.
 uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
 contentOwner: Rick Brough
@@ -54,11 +54,11 @@ Se pueden usar los campos siguientes en la cadena de consulta URL para eliminar 
 
 >[!IMPORTANT]
 >
->A partir del 1 de mayo de 2023, los recursos UGC de Dynamic Media estarán disponibles para su uso hasta 60 días después de la fecha de carga. Transcurridos 60 días, los recursos se eliminarán.
+>A partir del 1 de mayo de 2023, los recursos UGC de Dynamic Media estarán disponibles para su uso durante un máximo de 60 días a partir de la fecha de carga. Después de 60 días, los recursos se eliminarán.
 
 >[!NOTE]
 >
->La compatibilidad con recursos de imagen vectoriales UGC nuevos o existentes en Adobe Dynamic Media Classic finalizó el 30 de septiembre de 2021.
+>La compatibilidad con recursos de imagen vectorial UGC nuevos o existentes en Adobe Dynamic Media Classic finalizó el 30 de septiembre de 2021.
 
 **URL de imagen de muestra:**
 

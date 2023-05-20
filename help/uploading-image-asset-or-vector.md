@@ -1,6 +1,6 @@
 ---
 title: Cargar un recurso de imagen de trama
-description: Obtenga información sobre cómo cargar un recurso de imagen de trama en Adobe Dynamic Media Classic
+description: Obtenga información sobre cómo cargar un recurso de imagen rasterizada en Adobe Dynamic Media Classic
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -16,30 +16,30 @@ ht-degree: 67%
 
 # Cargar un recurso de imagen de trama {#uploading-an-image-asset-or-a-vector-asset}
 
-Para poder cargar un recurso de imagen, primero debe solicitar una clave secreta compartida. Esta clave permite recuperar un distintivo de carga. A continuación, utilice el token de carga para cargar recursos de imagen de trama.
+Para poder cargar un recurso de imagen, primero debe solicitar una clave secreta compartida. Esta clave permite recuperar un distintivo de carga. A continuación, utilice el token de carga para cargar recursos de imagen rasterizada.
 
 >[!IMPORTANT]
 >
->A partir del 1 de mayo de 2023, los recursos UGC de Dynamic Media estarán disponibles para su uso hasta 60 días después de la fecha de carga. Transcurridos 60 días, los recursos se eliminarán.
+>A partir del 1 de mayo de 2023, los recursos UGC de Dynamic Media estarán disponibles para su uso durante un máximo de 60 días a partir de la fecha de carga. Después de 60 días, los recursos se eliminarán.
 
 >[!NOTE]
 >
->La compatibilidad con los recursos vectoriales UGC nuevos o existentes en Adobe Dynamic Media Classic finalizó el 30 de septiembre de 2021.
+>La compatibilidad con recursos vectoriales UGC nuevos o existentes en Adobe Dynamic Media Classic finalizó el 30 de septiembre de 2021.
 
-## Solicitar una clave secreta compartida {#requesting-a-shared-secret-key}
+## Solicitar una clave de secreto compartido {#requesting-a-shared-secret-key}
 
-Solicitar un *clave shared-secret* por [uso del Admin Console para crear un caso de asistencia.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) En su caso de asistencia, solicite una clave secreta compartida.
+Solicite un *clave de secreto compartido* por [uso del Admin Console para crear un caso de asistencia.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) En su caso de asistencia, solicite una clave de secreto compartido.
 
-En el mensaje, proporcione el nombre de empresa que desee utilizar para cargar los recursos de imagen. Cuando reciba la clave de Adobe Dynamic Media Classic, guárdela localmente para usarla en el futuro.
+En el mensaje, proporcione el nombre de empresa que desee utilizar para cargar los recursos de imagen. Una vez que reciba la clave de Adobe Dynamic Media Classic, guárdela localmente para usarla en el futuro.
 
-## Recuperar el token de carga {#retrieving-the-upload-token}
+## Recuperación del token de carga {#retrieving-the-upload-token}
 
 El *distintivo de carga* garantiza que nadie más use la misma clave secreta compartida para cargar recursos. Garantiza que la carga sea legítima y que proceda de una fuente de confianza.
 
-El distintivo de carga es una cadena alfanumérica que solo se encuentra disponible durante un tiempo concreto. Utilice las siguientes direcciones URL, sustituyendo la clave secreta compartida, para poder recuperar el token de carga.
+El distintivo de carga es una cadena alfanumérica que solo se encuentra disponible durante un tiempo concreto. Utilice las siguientes direcciones URL, sustituyendo la clave de secreto compartido, para poder recuperar el token de carga.
 
 * Imagen rasterizada
-   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`En este ejemplo, la clave secreta compartida es `fece4b21-87ee-47fc-9b99-2e29b78b602`
+   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`En este ejemplo, la clave de secreto compartido es `fece4b21-87ee-47fc-9b99-2e29b78b602`
 
 <!-- * Vector
   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` -->
@@ -50,7 +50,7 @@ De manera predeterminada, el distintivo de carga caduca en 5 minutos (300 segund
 https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=1800
 ```
 
-La respuesta correcta para las imágenes es similar a la siguiente:
+La respuesta correcta para las imágenes aparece de forma similar a la siguiente:
 
 ```as3
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
@@ -81,7 +81,7 @@ Se pueden usar los campos siguientes en la cadena de consulta URL para recuperar
 | shared_secret | Obligatorio | Clave secreta compartida de la empresa que realiza la carga. |
 | expires | Opcional | Número de segundos durante los que es válido el distintivo de carga. Si no se especifica, el valor predeterminado es 300 segundos. |
 
-**URL de imagen de trama de ejemplo:**
+**URL de imagen rasterizada de ejemplo:**
 
 `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=600`
 
@@ -104,11 +104,11 @@ Después de recuperar un distintivo de carga válido durante un tiempo determina
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company
 ```
 
-La variable `upload_token` y `company_name` son obligatorios.
+El `upload_token` y `company_name` son obligatorios.
 
-Consulte [Recuperar el token de carga](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
+Consulte [Recuperación del token de carga](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
-Consulte [Recuperar una clave secreta compartida](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
+Consulte [Recuperar una clave de secreto compartido](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
 
 También se pueden enviar otros valores opcionales en forma de cadenas de consulta URL, como en este ejemplo:
 
@@ -116,7 +116,7 @@ También se pueden enviar otros valores opcionales en forma de cadenas de consul
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-La variable `file_limit` especifica el límite de tamaño de archivo en bytes. El parámetro `file_exts` especifica las extensiones de nombre de archivo permitidas en la carga. Ambos valores son opcionales.
+El `file_limit` especifica el límite de tamaño de archivo en bytes. El parámetro `file_exts` especifica las extensiones de nombre de archivo permitidas en la carga. Ambos valores son opcionales.
 
 En la aplicación se definen límites globales tanto para el límite de tamaño de los archivos como para las extensiones de nombre de archivo permitidas. Todo lo incluido en la solicitud se acepta si es un subconjunto de los límites globales. Éstos son los límites globales:
 
@@ -131,16 +131,16 @@ El siguiente formulario HTML permite al usuario cargar un recurso. En el formula
 * Distintivo de carga.
 * Límite de tamaño de archivo.
 * Lista de extensiones de nombre de archivo.
-* Si se desea conservar el perfil de color y el nombre de archivo asociados al recurso.
-* Si se utiliza el fondo de Knockout. Si activa Fondo de Knockout, defina la Esquina, Tolerancia y Método de Relleno.
-Consulte Contexto de cobertura en [Opciones de ajuste de imagen al cargar](image-editing-options-upload.md#image-editing-options-at-upload).
+* Si se conserva el perfil de color y el nombre de archivo asociados al recurso.
+* Si se utiliza el fondo de cobertura. Si activa Fondo de cobertura (Knockout Background), defina las opciones Esquina (Corner), Tolerancia (Tolerance) y Relleno (Fill Method).
+Consulte Fondo de cobertura en [Opciones de ajuste de imagen al cargar](image-editing-options-upload.md#image-editing-options-at-upload).
 * Nombre del archivo que se debe cargar.
 
-Puede ver el código fuente del HTML asociado al formulario anterior seleccionando [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
+Puede ver el código fuente del HTML asociado con el formulario de arriba seleccionando [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-En Firefox, haga clic con el botón derecho en la ventana del navegador y, a continuación, seleccione **[!UICONTROL Ver origen de página]**. El código muestra la cadena de consulta URL y el método POST oportunos que se ejecutan cuando el usuario hace clic en **[!UICONTROL Enviar]**.
+En Firefox, haga clic con el botón derecho en la ventana del explorador y seleccione **[!UICONTROL Ver origen de página]**. El código muestra la cadena de consulta URL y el método POST oportunos que se ejecutan cuando el usuario hace clic en **[!UICONTROL Enviar]**.
 
-Para ver la respuesta XML en Internet Explorer, vaya a **[!UICONTROL Ver]** > **[!UICONTROL Fuente]**. Para ver la respuesta XML en Firefox, vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Herramientas del explorador]** > **[!UICONTROL Herramientas para desarrolladores web]**. Se recomienda utilizar Firefox para ver las respuestas en XML.
+Para ver la respuesta XML en Internet Explorer, vaya a **[!UICONTROL Ver]** > **[!UICONTROL Origen]**. Para ver la respuesta XML en Firefox, vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Herramientas del explorador]** > **[!UICONTROL Herramientas para desarrolladores web]**. Se recomienda utilizar Firefox para ver las respuestas en XML.
 
 A continuación se muestra una respuesta de carga correcta de ejemplo:
 
@@ -206,7 +206,7 @@ Se puede usar `image_info` para recuperar los metadatos de cualquier recurso car
 https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif
 ```
 
-Un ejemplo de respuesta correcta es similar al siguiente:
+Aparece un ejemplo de respuesta correcta similar al siguiente:
 
 ```as3
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> 

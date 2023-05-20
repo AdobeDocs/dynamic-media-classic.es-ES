@@ -1,6 +1,6 @@
 ---
 title: Creación de un conjunto de muestras
-description: Aprenda a crear un conjunto de muestras en Adobe Dynamic Media Classic.
+description: Obtenga información sobre cómo crear un conjunto de muestras en Adobe Dynamic Media Classic.
 uuid: 250b3525-310d-4481-b0bc-f9057e823e0b
 contentOwner: Rick Brough
 content-type: reference
@@ -21,13 +21,13 @@ ht-degree: 67%
 
 Gracias a los conjuntos de muestras, los usuarios pueden ver un elemento en diferentes colores, motivos o acabados. Para crear un conjunto de muestras con muestras de color, necesitará una imagen para cada color, motivo o acabado diferente que desee incluir. También necesitará una muestra de color, motivo o acabado para cada color, motivo o acabado. 
 
-Por ejemplo, supongamos que desea ofrecer imágenes de gorras con viseras de distintos colores; las viseras son de color rojo, verde y azul. En este caso, necesita tres tomas de la misma gorra. Necesitará una toma para la visera roja, otra para la verde y una tercera para la azul. También necesitará muestras de color en rojo, verde y azul. Las muestras de color sirven como miniaturas que los usuarios seleccionan en el visor de conjuntos de muestras para ver el gorro de facturación roja, verde o azul.
+Por ejemplo, supongamos que desea ofrecer imágenes de gorras con viseras de distintos colores; las viseras son de color rojo, verde y azul. En este caso, necesita tres tomas de la misma gorra. Necesitará una toma para la visera roja, otra para la verde y una tercera para la azul. También necesitará muestras de color en rojo, verde y azul. Las muestras de color sirven como miniaturas que los usuarios seleccionan en el Visor de conjuntos de muestras para ver el límite rojo, verde o azul.
 
 ## Creación de un conjunto de muestras {#create}
 
 Al crear un conjunto, la opción **Publicar después de guardar** afecta al conjunto y a los miembros del conjunto de las siguientes formas:
 
-| **[!UICONTROL Publicar después de guardar]** opción seleccionada antes de guardar? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
+| **[!UICONTROL Publicar tras guardar]** opción seleccionada antes de guardar? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
 | --- | --- | --- |
 | Sí | Publicado | publicado |
 | No | Sin publicar | Los miembros del conjunto conservan su estado publicado o no. |
@@ -40,7 +40,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
    * **Seleccione primero las imágenes** - En el panel Examinar, seleccione las imágenes y, a continuación, vaya a **[!UICONTROL Generar]** > **[!UICONTROL Conjuntos de muestras]**.
 
-   * **Comenzar desde la pantalla Conjunto de muestras** - Vaya a **[!UICONTROL Generar]** > **[!UICONTROL Conjuntos de muestras]**. Seleccione una carpeta en la biblioteca de recursos y arrastre las imágenes a la sección Vistas de la página Conjunto de muestras.
+   * **Iniciar desde la pantalla Conjunto de muestras** - Vaya a **[!UICONTROL Generar]** > **[!UICONTROL Conjuntos de muestras]**. Seleccione una carpeta en la biblioteca de recursos y arrastre las imágenes a la sección Vistas de la página Conjunto de muestras.
 
 1. Arrastre los colores, patrones o acabados de muestra al cuadro de marcador de posición Muestras de la página Conjunto de muestras.
 
@@ -48,14 +48,14 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 1. Para cambiar el orden de las imágenes en su conjunto de muestras, arrastre las imágenes a su nueva ubicación.
 1. Asegúrese de que esté seleccionada la opción **[!UICONTROL Publicar después de guardar]** (predeterminada), cerca de la esquina inferior derecha de la página.
-1. Select **[!UICONTROL Guardar]**, seleccione una carpeta para almacenar el conjunto de muestras de color, introduzca un nombre para el conjunto y seleccione **[!UICONTROL Submit]**.
-1. Para ver el conjunto de muestras en el visor de conjuntos de muestras, seleccione **[!UICONTROL Vista previa]** en la pantalla Conjunto de muestras. Puede seleccionar miniaturas de muestra en el visor de conjuntos de muestras para ver su comportamiento.
+1. Seleccionar **[!UICONTROL Guardar]**, seleccione una carpeta para almacenar el conjunto de muestras de color, introduzca un nombre para el conjunto y seleccione **[!UICONTROL Enviar]**.
+1. Para ver el conjunto de muestras en el Visor de conjuntos de muestras, seleccione **[!UICONTROL Previsualizar]** en la pantalla Conjunto de muestras. Puede seleccionar miniaturas de muestra en el Visor de conjuntos de muestras para ver cómo se comportan.
 
 ## Edición de un conjunto de muestras {#editing-a-swatch-set}
 
-Tanto si edita un conjunto publicado como si no, la variable **[!UICONTROL Publicar después de guardar]** afecta a los miembros de conjunto y de conjunto de las siguientes maneras:
+Tanto si edita un conjunto publicado como no publicado, la variable **[!UICONTROL Publicar tras guardar]** afecta a los miembros set y set de las siguientes maneras:
 
-| ¿Ya se ha publicado el conjunto? | **[!UICONTROL Publicar después de]** guardar, opción seleccionada antes de guardar la edición? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
+| ¿Ya se ha publicado el conjunto? | **[!UICONTROL Publicar después de]** opción de guardar seleccionada antes de guardar la edición | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
 |--- |--- |--- |--- |
 | Sí | Sí | Publicado | Publicado |
 | Sí | No | Publicado | Los miembros existentes del conjunto conservarán su estado publicado. Cualquier nuevo miembro que añada al conjunto durante la edición conservará su estado publicado o no publicado. |
@@ -74,7 +74,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
    * Para reordenar las imágenes, arrastre cada imagen a una nueva posición.
 
 1. Cuando haya terminado de editar el conjunto, asegúrese de que esté seleccionada la opción **[!UICONTROL Publicar después de guardar]** (predeterminada), cerca de la esquina inferior derecha de la página.
-1. Select **[!UICONTROL Guardar]**, seleccione una carpeta de almacenamiento, introduzca un nombre para el conjunto y, a continuación, seleccione **[!UICONTROL Guardar]**.
+1. Seleccionar **[!UICONTROL Guardar]**, seleccione una carpeta de almacenamiento, introduzca un nombre para el conjunto y, a continuación, seleccione **[!UICONTROL Guardar]**.
 
 ## Eliminación de un conjunto de muestras {#deleting-a-swatch-set}
 
@@ -84,5 +84,5 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 **Para eliminar un conjunto de muestras:**
 
-1. En la vista de cuadrícula, la vista de lista o la vista de detalles, seleccione un conjunto de muestras o más.
+1. En la vista de cuadrícula, vista de lista o vista de detalles, seleccione un conjunto de muestras o más.
 1. En la barra de navegación global, vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Eliminar]** > **[!UICONTROL Eliminar]**.

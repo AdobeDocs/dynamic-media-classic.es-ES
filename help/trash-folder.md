@@ -19,43 +19,43 @@ ht-degree: 31%
 
 # Administrar la carpeta Papelera{#managing-the-trash-folder}
 
-Los elementos que elimine de Adobe Dynamic Media Classic se moverán a la carpeta Papelera. Los archivos eliminados permanecen en esta carpeta durante siete días hasta que se restauran o se eliminan de forma permanente. Para examinar los elementos eliminados, haga clic en el botón **[!UICONTROL Papelera]** en la parte inferior de la biblioteca de recursos y viendo los elementos en la página de la carpeta Papelera.
+Los elementos que elimine de Adobe Dynamic Media Classic se moverán a la papelera. Los elementos eliminados permanecen en esta carpeta durante siete días hasta que se restauran o se eliminan de forma permanente. Para examinar los elementos eliminados, haga clic en el botón **[!UICONTROL Papelera]** en la parte inferior de la biblioteca de recursos y viendo los elementos en la página de la carpeta Papelera.
 
 Todos los usuarios pueden restaurar elementos desde la carpeta Papelera y colocarlos en la carpeta en que se encontraban antes de ser eliminados. Todos los usuarios pueden vaciar la carpeta Papelera y eliminar su contenido.
 
-Al eliminar elementos de la carpeta Papelera, se eliminan permanentemente los elementos de Adobe Dynamic Media Classic; los elementos eliminados de la carpeta Papelera ya no se pueden restaurar. Si desea obtener información sobre la configuración de notificaciones destinadas a los administradores de la empresa cuando los recursos estén a punto de eliminarse automáticamente de la papelera, consulte [Configuración general de la aplicación](application-setup.md#general_settings).
+Al eliminar elementos de la papelera, se eliminan permanentemente los elementos de Adobe Dynamic Media Classic; los elementos eliminados de la papelera ya no se pueden restaurar. Si desea obtener información sobre la configuración de notificaciones destinadas a los administradores de la empresa cuando los recursos estén a punto de eliminarse automáticamente de la papelera, consulte [Configuración general de la aplicación](application-setup.md#general_settings).
 
 >[!NOTE]
 >
->Los recursos que se han movido a la carpeta Papelera siguen registrados en Adobe Dynamic Media Classic. Si intenta cargar un archivo que tenga el mismo nombre que un archivo eliminado en la carpeta Papelera, Adobe Dynamic Media Classic tratará el recurso que desea cargar como un recurso duplicado. Por tanto, se agregará un número al nombre.
+>Los recursos que se han movido a la papelera siguen registrados en Adobe Dynamic Media Classic. Si intenta cargar un archivo con el mismo nombre que un archivo eliminado en la carpeta Papelera, Adobe Dynamic Media Classic trata el recurso que desea cargar como un recurso duplicado. Por tanto, se agregará un número al nombre.
 
 ## Acerca de la carpeta Papelera {#about-the-trash-folder}
 
 Si elimina un recurso en una carpeta, éste se colocará en la carpeta Papelera. Al eliminar un elemento y moverlo a la carpeta Papelera, ocurre lo siguiente:
 
-* Aunque el elemento se haya eliminado de las carpetas de Adobe Dynamic Media Classic, su ID no se puede asignar a otro recurso mientras permanezca en la carpeta Papelera. Si intenta cargar un recurso con el mismo nombre que un archivo en la carpeta Papelera, Adobe Dynamic Media Classic añade un número al nombre del recurso.
+* Aunque el elemento se haya eliminado de las carpetas de Adobe Dynamic Media Classic, su ID no se puede asignar a otro recurso mientras permanezca en la carpeta Papelera. Si intenta cargar un recurso con el mismo nombre que un archivo en la carpeta Papelera, Adobe Dynamic Media Classic anexa un número al nombre del recurso.
 * El elemento no se puede publicar. Aunque el elemento estuviera marcado para la publicación al eliminarlo, no se publicará.
-* El elemento permanece en la carpeta Papelera hasta que se restaure, pasen siete días o alguien elija la **[!UICONTROL Vacío de la papelera]** comando. Pasados siete días, se produce una operación de limpieza automática y el elemento se elimina de forma permanente.
+* El elemento permanece en la carpeta Papelera hasta que se restaure, pasen siete días o alguien elija el **[!UICONTROL Vaciar la papelera]** comando. Pasados siete días, se produce una operación de limpieza automática y el elemento se elimina de forma permanente.
 
 ## Restaurar recursos desde la carpeta Papelera {#restoring-assets-from-the-trash-folder}
 
-No es necesario que la persona que ha eliminado un activo lo restaure; cualquier usuario puede restaurar recursos desde la carpeta Papelera. Los recursos restaurados se colocan en las carpetas de donde se eliminaron. Si estas carpetas ya no existen, Adobe Dynamic Media Classic las vuelve a crear y los recursos restaurados se colocan en las carpetas creadas de nuevo.
+No es necesario que la persona que eliminó un recurso lo restaure; cualquier persona puede restaurar recursos desde la carpeta Papelera. Los recursos restaurados se colocan en las carpetas de donde se eliminaron. Si estas carpetas ya no existen, Adobe Dynamic Media Classic las vuelve a crear y los recursos restaurados se colocan en las carpetas creadas de nuevo.
 
-Para restaurar recursos de la carpeta Papelera a las carpetas de las que se eliminaron, haga lo siguiente:
+Para restaurar los recursos de la carpeta Papelera a las carpetas desde las que se eliminaron, haga lo siguiente:
 
 1. En la parte inferior del panel Biblioteca de recursos, seleccione la **[!UICONTROL Papelera]** para abrir la carpeta Papelera.
 1. Seleccione el recurso o los recursos que desea restaurar.
-1. Vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Restaurar desde la papelera]**.
+1. Ir a **[!UICONTROL Archivo]** > **[!UICONTROL Restaurar desde papelera]**.
 
 ## Eliminación permanente de recursos desde la carpeta Papelera {#permanently-deleting-assets-in-the-trash-folder}
 
 Al eliminar recursos en la carpeta Papelera, éstos se eliminan de forma permanente. Los recursos se eliminan de forma automática de la carpeta Papelera después de siete días.
 
-Para eliminar permanentemente los recursos de la carpeta Papelera, seleccione la opción **[!UICONTROL Papelera]** icono. En la página Carpeta Papelera , realice una de las acciones siguientes:
+Para eliminar permanentemente recursos de la carpeta Papelera, seleccione la **[!UICONTROL Papelera]** icono. En la página Papelera, realice una de las acciones siguientes:
 
-* **Eliminación de recursos individuales** - Seleccione los recursos que desea eliminar de forma permanente y, a continuación, vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Vacío desde papelera]**.
+* **Eliminación de recursos individuales** : seleccione los recursos que desea eliminar permanentemente y, a continuación, vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Vaciar de papelera]**.
 
-* **Eliminación de todos los recursos** - Vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Basura vacía]**.
+* **Eliminando todos los recursos** - Vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Vaciar papelera]**.
 
 >[!MORELIKETHIS]
 >

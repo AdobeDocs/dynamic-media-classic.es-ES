@@ -1,6 +1,6 @@
 ---
-title: Hacer un uso más eficiente de los metadatos
-description: Aprenda a hacer un uso más eficiente de los metadatos en Adobe Dynamic Media Classic.
+title: Uso más eficiente de los metadatos
+description: Aprenda a utilizar los metadatos de forma más eficaz en Adobe Dynamic Media Classic.
 uuid: 6690b815-ca5f-491f-94eb-3d4657fbb8ed
 contentOwner: Rick Brough
 content-type: reference
@@ -17,11 +17,11 @@ ht-degree: 57%
 
 ---
 
-# Hacer un uso más eficiente de los metadatos{#making-more-efficient-use-of-metadata}
+# Uso más eficiente de los metadatos{#making-more-efficient-use-of-metadata}
 
 Todos los archivos de Adobe Dynamic Media Classic contienen metadatos. Los metadatos, que describen e identifican un archivo, se utilizan para buscar y organizar recursos. Para ver los metadatos de un recurso, ábralo en la Vista de detalles y examine el panel Metadatos. Los campos de metadatos de este panel ofrecen información descriptiva sobre el recurso.
 
-Si los metadatos no se incluyen correctamente en los campos correspondientes, éstos no serán útiles para realizar búsquedas y organizar recursos. Para introducir metadatos correctamente y asegurarse de que todos los campos de metadatos adecuados contienen sus metadatos, puede crear ajustes preestablecidos de metadatos. Un *ajuste preestablecido de metadatos* es un conjunto predefinido de entradas de metadatos. En lugar de introducir los metadatos por sí mismos, los usuarios pueden, en la Vista de detalles, elegir un ajuste preestablecido de metadatos para rellenar los campos de metadatos con información predefinida.
+Si los metadatos no se incluyen correctamente en los campos correspondientes, éstos no serán útiles para realizar búsquedas y organizar recursos. Para introducir metadatos correctamente y asegurarse de que todos los campos de metadatos adecuados contienen sus metadatos, puede crear ajustes preestablecidos de metadatos. Un *ajuste preestablecido de metadatos* es un conjunto predefinido de entradas de metadatos. En lugar de introducir metadatos ellos mismos, los usuarios pueden, en la Vista de detalles, elegir un ajuste preestablecido de metadatos para rellenar los campos de metadatos con información predefinida.
 
 Para crear ajustes preestablecidos de metadatos, consulte [Ajustes preestablecidos de metadatos](application-setup.md#metadata_presets).
 

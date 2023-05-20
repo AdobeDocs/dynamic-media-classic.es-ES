@@ -25,15 +25,15 @@ Recuerde que puede activar o desactivar los usuarios de Media Portal existentes 
 
 Consulte [Activar o desactivar usuarios](administration-setup.md#activating_or_deactivating_users).
 
-1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Portal de medios]** > **[!UICONTROL Cuentas FTP]**.
+1. Ir a **[!UICONTROL Configurar]** > **[!UICONTROL Media Portal]** > **[!UICONTROL Cuentas de FTP]**.
 1. En la página Agregar cuenta de FTP, en la lista desplegable Usuario de cuentas de FTP, seleccione un usuario.
 
-   Si un usuario no aparece en la lista, debe agregarlo como administrador de Media Portal, como colaborador-usuario de Media Portal o como colaborador de Media Portal mediante la configuración de administración. Después de agregar el usuario con la función adecuada, su nombre de usuario está disponible en la lista desplegable.
+   Si un usuario no aparece en la lista, debe agregarlo como administrador de Media Portal, como usuario colaborador de Media Portal o como colaborador de Media Portal mediante la Configuración de administración. Después de agregar el usuario con la función adecuada, su nombre de usuario está disponible en la lista desplegable.
 
    Consulte [Agregar un usuario de Media Portal](adding-media-portal-users.md#adding_a_media_portal_user).
 
 1. En los campos Contraseña y Confirmar, escriba la contraseña de la cuenta de FTP.
-1. Select **[!UICONTROL Guardar]** para agregar la cuenta a la tabla Cuentas existentes.
+1. Seleccionar **[!UICONTROL Guardar]** para agregar la cuenta a la tabla Cuentas existentes.
 
    Para cargar recursos de medios, necesita el usuario de la cuenta de FTP que aparece en la tabla Cuentas existentes y la contraseña asignada a la cuenta.
 
@@ -41,6 +41,6 @@ Consulte [Activar o desactivar usuarios](administration-setup.md#activating_or_d
 
 ## Eliminar una cuenta de FTP existente {#deleting-an-existing-ftp-account}
 
-1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Portal de medios]** > **[!UICONTROL Cuentas FTP]**.
+1. Ir a **[!UICONTROL Configurar]** > **[!UICONTROL Media Portal]** > **[!UICONTROL Cuentas de FTP]**.
 1. En la página Agregar cuenta de FTP, en la tabla Cuentas existentes, seleccione la cuenta de FTP que desea quitar.
-1. Select **[!UICONTROL Eliminar]**.
+1. Seleccionar **[!UICONTROL Eliminar]**.
