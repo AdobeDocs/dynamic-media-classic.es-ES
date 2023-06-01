@@ -5,9 +5,9 @@ keywords: dynamic media;newsletter;actualizaciones de productos;sugerencias y tr
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
-source-git-commit: 6bdf08b98c5c8167f4a4da49452efa977beb136e
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1091'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ En este newsletter archivado de ventanilla única, puede encontrar valiosos recu
 
    En este número:
 
-   * Explore tres formas en las que su inversión en medios enriquecidos puede ayudarle en estos tiempos difíciles.
+   * Explore tres formas en las que su inversión en medios enriquecidos puede ayudarle durante estos tiempos difíciles.
    * Regístrese en el seminario web para aprender a aligerar la carga de su página con imágenes inteligentes.
    * Vea los seminarios web del Generador de habilidades bajo demanda para Adobe Dynamic Media Classic.
    * Vea las sesiones de Dynamic Media desde Adobe Summit en línea 2020.

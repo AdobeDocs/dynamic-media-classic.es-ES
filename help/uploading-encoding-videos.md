@@ -9,10 +9,10 @@ discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
 source-wordcount: '3967'
-ht-degree: 56%
+ht-degree: 54%
 
 ---
 
@@ -30,7 +30,7 @@ Para crear conjuntos de vídeos adaptables o de un solo vídeo para enviarlos a 
 
 * **Vídeos precodificados** - Puede cargar archivos MP4 directamente en Adobe Dynamic Media Classic. Con este flujo de trabajo, los archivos no se codifican al cargarlos. Los archivos se codifican previamente como preparación para la publicación en el escritorio y los dispositivos móviles.
 
-* **Vídeos de origen principales** : Cargue archivos de vídeo de origen principal y, al cargarlos, codifique estos archivos en archivos MP4. Los vídeos codificados tienen la etiqueta “Vídeo” en el panel Examinar. Adobe Dynamic Media Classic admite la codificación de archivos de vídeo en muchos formatos.
+* **Vídeos de origen principales** : Cargue archivos de vídeo de origen principal y, al cargarlos, codifique estos archivos en archivos MP4. Los vídeos codificados se etiquetan como &quot;Vídeo&quot; en el panel Examinar. Adobe Dynamic Media Classic admite la codificación de archivos de vídeo en muchos formatos.
 
    * Asegúrese de que los archivos de vídeo de origen principales que desea codificar sean compatibles.
 
@@ -143,9 +143,9 @@ En la tabla siguiente se describe el tamaño recomendado, la relación de aspect
 | 1280 X 720 | 16:9 | 3000 - 6000 kbps, dependiendo de la cantidad de movimiento del vídeo. |
 | 1920 X 1080 | 16:9 | 6000 - 8000 kbps, dependiendo de la cantidad de movimiento del vídeo. |
 
-### Obtención de metadatos de un archivo {#obtaining-a-file-s-metadata}
+### Obtener los metadatos de un archivo {#obtaining-a-file-s-metadata}
 
-Puede obtener los metadatos de un archivo visualizando sus metadatos en Adobe Dynamic Media Classic, utilizando una herramienta de edición de vídeo o utilizando una aplicación diseñada para obtener metadatos. A continuación se muestran instrucciones para el uso de MediaInfo, una aplicación de terceros, para obtener los metadatos de un archivo de vídeo:
+Puede obtener los metadatos de un archivo visualizando sus metadatos en Adobe Dynamic Media Classic, utilizando una herramienta de edición de vídeo o utilizando una aplicación diseñada para obtener metadatos. A continuación se indican instrucciones para utilizar MediaInfo, una aplicación de terceros, para obtener los metadatos de un archivo de vídeo:
 
 1. Ir a esta página web: [https://mediaarea.net/en/MediaInfo](https://mediaarea.net/en/MediaInfo).
 1. Seleccione y descargue el instalador para la versión de interfaz gráfica de usuario y siga las instrucciones de instalación.
@@ -155,7 +155,7 @@ Puede obtener los metadatos de un archivo visualizando sus metadatos en Adobe Dy
 
 Cuando seleccione o cree un ajuste preestablecido de codificación de vídeo para el archivo de vídeo principal, asegúrese de que el ajuste preestablecido tenga la misma proporción de aspecto que el archivo de vídeo principal. La *proporción de aspecto* es la proporción de anchura y altura del vídeo.
 
-Para determinar la proporción de aspecto de un archivo de vídeo, obtenga los metadatos del archivo y anote la anchura y altura del archivo (consulte [Obtención de metadatos de un archivo](uploading-encoding-videos.md#obtaining_a_file_s_metadata)). A continuación, utilice esta fórmula para determinar la proporción de aspecto:
+Para determinar la proporción de aspecto de un archivo de vídeo, obtenga los metadatos del archivo y anote la anchura y altura del archivo (consulte [Obtener los metadatos de un archivo](uploading-encoding-videos.md#obtaining_a_file_s_metadata)). A continuación, utilice esta fórmula para determinar la proporción de aspecto:
 
 anchura/altura = proporción de aspecto
 
@@ -178,7 +178,7 @@ La *velocidad de datos* (también denominada *velocidad de bits*) es la cantidad
 >
 >debido a que todos los códecs utilizan la compresión con pérdida, la velocidad de datos es el factor más importante en lo que respecta a la calidad de vídeo. En la compresión con pérdida, cuanto más se comprima un archivo de vídeo, más se degrada la calidad. Por este motivo, si se mantienen las demás características (la resolución, la velocidad de fotogramas y el códec), cuanto menor sea la velocidad de los datos, menor será la calidad del archivo comprimido.
 
-Cuando elija un ajuste preestablecido de codificación de vídeo, recuerde tener en cuenta la velocidad de conexión del usuario final de destino. Elija un ajuste preestablecido con una velocidad de datos del 80 % de esa velocidad. Por ejemplo, si la velocidad de conexión del usuario final al que va destinado es de 1000 kbps, el mejor ajuste preestablecido es aquel que tiene una velocidad de datos de vídeo de 800 kbps.
+Cuando elija un ajuste preestablecido de codificación de vídeo, recuerde tener en cuenta la velocidad de conexión del usuario final de destino. Elija un ajuste preestablecido con una velocidad de datos del 80 % de esa velocidad. Por ejemplo, si la velocidad de conexión del usuario final de destino es de 1000 Kbps, el mejor ajuste preestablecido es uno con una velocidad de datos de vídeo de 800 Kbps.
 
 En esta tabla se describe la velocidad de datos de las velocidades de conexión habituales.
 
@@ -191,7 +191,7 @@ En esta tabla se describe la velocidad de datos de las velocidades de conexión 
 
 ### Resolución {#resolution}
 
-Con *resolución* se describe la altura y la anchura de un vídeo en píxeles. La mayoría de vídeos de origen se almacenan con una resolución alta (por ejemplo, 1920 x 1080). Para el flujo continuo, el vídeo de origen se comprime con una resolución menor (640 x 480 o inferior).
+*Resolución* describe la altura y anchura de un archivo de vídeo en píxeles. La mayoría de vídeos de origen se almacenan con una resolución alta (por ejemplo, 1920 x 1080). Para el flujo continuo, el vídeo de origen se comprime con una resolución menor (640 x 480 o inferior).
 
 La resolución y la velocidad de datos son dos factores totalmente vinculados que determinan la calidad de vídeo. Para mantener la misma calidad de vídeo, cuanto mayor sea el número de píxeles de un archivo de vídeo (cuanto mayor sea la resolución), mayor será la velocidad de datos. Por ejemplo, observe el número de píxeles por fotograma en un archivo de vídeo con una resolución de 320 x 240 y de 640 x 480:
 
@@ -353,7 +353,7 @@ Adobe Dynamic Media Classic ha establecido límites máximos en la velocidad de 
    | Descripción | Describa el ajuste preestablecido de vídeo. Lo que introduzca aparecerá como información de objeto al mover el puntero sobre el nombre del ajuste preestablecido en el cuadro de diálogo de opciones del trabajo de carga en el que los usuarios eligen las opciones de transcodificación. |
    | Dispositivo de reproducción | Seleccione el dispositivo en el que está previsto que se reproduzca el vídeo. Las opciones son Equipo (equipos de escritorio), Móvil (iPhone, iPad, Android™) o Tablet (solo iPad). Esta configuración determina automáticamente el códec de audio y vídeo adecuado utilizado durante la codificación. |
    | Velocidad de datos de destino | Introduzca la velocidad media de la conexión a Internet (en kilobits por segundo) del usuario final de destino. La velocidad se puede introducir manualmente o con el control deslizante. El espectro de velocidad de conexión del usuario muestra las velocidades típicas para ancho de banda, DSL, conexiones móviles y de marcación. Esta configuración determina automáticamente la velocidad de datos de audio y de vídeo combinada, Es decir, la cantidad de datos codificados para configurar un solo segundo de reproducción de vídeo. Cuanto mayor sea la velocidad de datos, mejor será la calidad del vídeo resultante. No obstante, las velocidades de datos demasiado altas producen tamaños de archivo grandes que crean visualizaciones no del todo satisfactorias por parte de los usuarios que tengan un ancho de banda menor. Como práctica recomendada, encuentre el equilibrio entre velocidades de datos altas y bajas. Intente crear una reproducción con una calidad adecuada sin perjudicar a los usuarios que tienen anchos de banda bajos. |
-   | Proporción de aspecto | La proporción de aspecto es la relación de anchura y altura del vídeo. Las dos primeras proporciones de aspecto enumeradas a continuación suelen utilizarse para mostrar vídeo horizontalmente:<ul><li> 4:3, utilizado para casi todos los contenidos emitidos en la televisión estándar.</li><li>16:9: se utiliza para casi todo el contenido y películas en pantalla ancha de la televisión de alta definición (HDTV).</li><li>Escala automática: (predeterminado) un ajuste preestablecido de codificación que funciona con cualquier proporción de aspecto para crear vídeos para su distribución en teléfonos móviles, tablets y equipos de escritorio. Los vídeos originales cargados que se hayan codificado con este ajuste preestablecido se definirán con una altura fija. Sin embargo, la anchura se escala automáticamente para mantener la proporción de aspecto del vídeo (proporción de anchura a altura).</li><li>Personalizado: se utiliza para definir un tamaño de vídeo no estándar.</li><li>La proporción de aspecto que elija determina la configuración de anchura y altura para el tamaño de resolución; el valor de anchura y altura se adapta automáticamente a la proporción de aspecto adecuada.</li></ul> |
+   | Proporción de aspecto | La proporción de aspecto es la relación de anchura y altura del vídeo. Las dos primeras proporciones de aspecto enumeradas a continuación suelen utilizarse para mostrar vídeo horizontalmente:<ul><li> 4:3, utilizado para casi todos los contenidos emitidos en la televisión estándar.</li><li>16:9: se utiliza para casi todo el contenido y películas en pantalla ancha de la televisión de alta definición (HDTV).</li><li>Escala automática: (predeterminado) un ajuste preestablecido de codificación que funciona con cualquier proporción de aspecto para crear vídeos para su distribución en teléfonos móviles, tablets y equipos de escritorio. Los vídeos originales cargados que se hayan codificado con este ajuste preestablecido se definirán con una altura fija. Sin embargo, la anchura se amplía automáticamente para conservar la relación de aspecto del vídeo (relación de anchura y altura).</li><li>Personalizado: se utiliza para definir un tamaño de vídeo no estándar.</li><li>La proporción de aspecto que elija determina la configuración de anchura y altura para el tamaño de resolución; el valor de anchura y altura se adapta automáticamente a la proporción de aspecto adecuada.</li></ul> |
    | Tamaño de la resolución | El tamaño de la resolución, expresado por el número de píxeles de ancho por el número de píxeles de alto, determina el tamaño. Introduzca los valores de anchura y altura en píxeles o sírvase del control deslizante. El espectro de resolución muestra los tamaños de resolución típicos. Los valores de anchura y altura se adhieren automáticamente a la relación de aspecto seleccionada. Por ejemplo, si selecciona 4:3 como relación de aspecto e introduce 400 para la anchura, automáticamente se introduce 300 para la altura. Si ha seleccionado Escala automática para el ajuste Proporción de aspecto, el valor Anchura de Tamaño de la resolución se establece automáticamente en Automático. Seleccionar **[!UICONTROL Previsualizar]** para que pueda abrir una ventana del explorador y ver las opciones de resolución allí. |
    | Codificar sufijo de archivo | Introduzca un sufijo. Este sufijo se añade al archivo de vídeo codificado resultante. Puede introducir un guión y un guión bajo en el nombre; los espacios en blanco y los caracteres especiales no están permitidos. |
    | Otros ajustes | Adobe Dynamic Media Classic determina automáticamente todos los demás ajustes de codificación según las directrices de codificación de prácticas recomendadas. |
