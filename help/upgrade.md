@@ -4,9 +4,9 @@ description: Actualizar desde [!DNL Adobe Dynamic Media Classic] hasta [!DNL Dyn
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
-source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
+source-git-commit: 358284e6c9888e5188bec35eb7b5408563a71bad
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '560'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ El nuevo [!DNL Dynamic Media] el [!DNL Adobe Experience Manager] se basa en la f
 | Creación sencilla | Cree, personalice e inicie experiencias enriquecidas rápidamente sin necesidad de ayuda técnica. |
 | Interfaz intuitiva | Edite visualizadores de imágenes y reproductores de vídeo con una interfaz WYSIWYG (What You See It What You Get) tan fácil de usar. |
 | Medios de ventas | Cree imágenes, vídeos y carruseles de ventas con zonas interactivas de imágenes y vínculos en los que puede hacer clic. |
-| CDN escalable (red de distribución de contenido) | Acceda a la mejor red de distribución de contenido (CDN) de su clase con escala y rendimiento probados para satisfacer cualquier demanda. |
+| CDN escalable | Acceda a la mejor red de distribución de contenido (CDN) con escala y rendimiento probados para satisfacer cualquier demanda. |
 | Dynamic Imaging | Con un archivo principal, genere y publique automáticamente versiones ilimitadas, cambiando el tamaño, el formato, la resolución, el recorte o el efecto. |
 | Vídeo dinámico | El vídeo de tamaño completo se ajusta automáticamente a todas las pantallas y se transmite de forma adaptativa para garantizar una experiencia de usuario uniforme y de calidad. |
 | Personalización | Generación y publicación sencillas [!DNL Dynamic Media] experiencias interactivas, como configuradores de productos, titulares personalizados y correos electrónicos. |
@@ -54,4 +54,4 @@ El nuevo [!DNL Dynamic Media] el [!DNL Adobe Experience Manager] se basa en la f
 * Fuerte desempeño en 2016 informe de la plataforma de vídeo en línea.
 * El principal proveedor de medios enriquecidos de Internet Retail 1000, nueve años seguidos.
 * Compatibilidad con 24/7/265, SLA del 99,95 %, Adobe Professional Services.
-* Infraestructura probada que sirve a más de 800 clientes en todo el mundo, tráfico de 3,5 petabytes al mes y más de 500 millones de activos en administración, un crecimiento del 60% en tráfico año tras año.
+* Infraestructura probada que sirve a más de 800 clientes en todo el mundo, tráfico de 3,5 petabytes por mes y más de 500 millones de activos en gestión, un crecimiento del 60% en tráfico año tras año.

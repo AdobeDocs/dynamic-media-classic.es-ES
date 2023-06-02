@@ -10,7 +10,7 @@ discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
-source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
+source-git-commit: 358284e6c9888e5188bec35eb7b5408563a71bad
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 52%
@@ -25,7 +25,7 @@ Consulte también [Creación de un alias para una imagen](adjusting-image.md#cre
 
 **Para ajustar una imagen:**
 
-1. Seleccione el botón Editar de rollover de la imagen y elija Ajustar. O bien, en el panel Examinar, haga doble clic en la imagen para que se abra en la Vista de detalles.
+1. Seleccione el botón Editar de rollover de la imagen y elija Ajustar o, en el panel Examinar, haga doble clic en la imagen para que se abra en la Vista de detalles.
 1. Seleccione un tamaño y un ajuste preestablecido de imagen (en la parte inferior de la ventana).
 1. Use los comandos que se encuentran en la parte derecha de la ventana Editor de ajustes para ajustar la imagen:
 

@@ -10,10 +10,10 @@ discoiquuid: efa2c56e-4543-47fa-a4e8-b94021102d01
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 1c368c25-78e6-4bcc-b390-d9133073821a
-source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
+source-git-commit: 358284e6c9888e5188bec35eb7b5408563a71bad
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 7%
+ht-degree: 15%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 7%
 
 Adobe Dynamic Media Classic ofrece muchas herramientas para crear efectos de medios enriquecidos. Estas herramientas están disponibles haciendo clic en el icono de rollover **[!UICONTROL Editar]** y en el panel Examinar de la Vista de detalles. Puede realizar las siguientes tareas de edición de imágenes en Adobe Dynamic Media Classic:
 
-* **Crear mapas de imagen** - Para crear un mapa de imagen, seleccione el comando Imagen o **[!UICONTROL Mapa de imagen]** botón. Un mapa de imagen es un punto interactivo de una imagen, una página de catálogo electrónico o una imagen de un conjunto de giros que muestra un panel con texto de rollover. Los usuarios pueden seleccionar un mapa de imagen, por ejemplo, para iniciar una nueva página web. Consulte [Crear mapas de imagen](/help/creating-image-maps.md).
+* **Crear mapas de imagen** - Para crear un mapa de imagen, seleccione el comando Imagen o **[!UICONTROL Mapa de imagen]** botón. Un mapa de imagen es una zona interactiva de una imagen, una página del catálogo electrónico o una imagen del Conjunto de giros, que muestra un panel con texto de rollover. Los usuarios pueden seleccionar un mapa de imagen, por ejemplo, para iniciar una nueva página web. Consulte [Crear mapas de imagen](/help/creating-image-maps.md).
 
 * **Crear destinos de zoom** - Para crear destinos de miniaturas, seleccione el comando Destinos de zoom o la opción **[!UICONTROL Destinos de zoom]** botón. Los usuarios pueden seleccionar un destino de miniatura en el visor de zoom para ampliar directamente a una parte concreta de una imagen. Consulte [Creación de destinos de zoom para el zoom guiado](/help/creating-zoom-targets-guided-zoom.md).
 

@@ -10,10 +10,10 @@ discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
-source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
+source-git-commit: 358284e6c9888e5188bec35eb7b5408563a71bad
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 55%
+source-wordcount: '866'
+ht-degree: 59%
 
 ---
 
@@ -25,7 +25,7 @@ Puede administrar la configuración y los datos de InfoPanel mediante las siguie
 
 * El panel de configuración del panel de información le permite especificar la plantilla que desea usar para mostrar el texto del panel de información, una respuesta predeterminada para los errores y el número de horas del almacenamiento de la información en caché. Además, puede especificar si desea publicar automáticamente los catálogos electrónicos.
 * El panel Fuente de datos de InfoPanel le permite especificar un archivo CSV que contiene el texto que desea que aparezca en el texto de rollover de InfoPanel y programar tiempos para actualizar la información.
-* El cuadro de diálogo Importar metadatos (al que se accede a través de la vista Páginas de mapa) permite importar un archivo TXT delimitado por tabuladores con la información del texto rollover. Puede utilizar esta opción TXT o el panel Fuente de datos con la opción de archivo CSV para el texto de rollover.
+* El cuadro de diálogo Importar metadatos (al que se accede a través de la vista Páginas de mapa) permite importar un archivo TXT delimitado por tabuladores con la información del texto rollover. Puede utilizar esta opción de TXT o el panel de alimentación de datos con la opción de archivo CSV para su texto rollover.
 * La vista Páginas de mapa proporciona una opción para previsualizar el XML que aparece para los mapas de imagen específicos.
 
 ## Configuración de una plantilla de respuesta para catálogos electrónicos {#set-up-a-response-template-for-ecatalogs}
@@ -49,7 +49,7 @@ Puede seleccionar una de las tres plantillas de respuesta preestablecidas para m
 1. En el cuadro de respuesta TTL, escriba el número de horas que desea esperar antes de almacenar los datos en caché:
 
    * Establezca un número más bajo si los datos se actualizan frecuentemente a lo largo del día.
-   * Establezca un número mayor si los datos son relativamente estables y no requieren una actualización frecuente a lo largo del día. El valor predeterminado es de diez horas.
+   * Establezca un número más alto si los datos son relativamente estables y no requieren actualizarse con frecuencia a lo largo del día. El valor predeterminado es de diez horas.
 
 1. Seleccionar **[!UICONTROL Publish]**.
 
@@ -95,7 +95,7 @@ Adobe Dynamic Media Classic le envía un mensaje de correo electrónico para sab
 
 Mediante la pantalla Páginas de mapa, puede ver de forma fácil y rápida el texto del panel de información para los mapas de imágenes en una página específica de su catálogo electrónico.
 
-1. Seleccione la sustitución del catálogo **[!UICONTROL Editar]** botón.
+1. Selección de la sustitución del catálogo **[!UICONTROL Editar]** botón.
 1. Seleccionar **[!UICONTROL Páginas de mapa]**.
 1. En la parte superior de la tabla, en el lado derecho de la pantalla, elija **[!UICONTROL Panel de información]** en el menú Mostrar.
 
