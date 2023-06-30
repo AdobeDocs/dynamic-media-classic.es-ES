@@ -9,7 +9,9 @@ discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '3929'
 ht-degree: 31%
@@ -121,9 +123,9 @@ Asegúrese de que todos los usuarios de su empresa comprendan estas reglas para 
 * Como práctica recomendada, compruebe que los ID de recursos no contienen espacios en blanco (por ejemplo, chaqueta negra.tif o chaqueta azul.jpg). Adobe Dynamic Media Classic ASCII codifica los espacios en blanco en los nombres de los recursos cuando utiliza nombres de recursos para construir cadenas de URL. Estos códigos ASCII son difíciles de leer, lo que dificulta la lectura de las direcciones URL.
 * Los caracteres específicos de idioma están permitidos en los nombres de archivo. No obstante, los siguientes caracteres se permiten en los nombres de archivo:
 
-   \ ; / ? : @ &amp; = + $ , &#42; &quot; &lt; > | &#39; { } %
+  \ ; / ? : @ &amp; = + $ , &#42; &quot; &lt; > | &#39; { } %
 
-   Si un nombre de archivo contiene uno o varios de los caracteres anteriores, los caracteres se eliminan del nombre durante la carga.
+  Si un nombre de archivo contiene uno o varios de los caracteres anteriores, los caracteres se eliminan del nombre durante la carga.
 
 Normalmente, un nombre de archivo de recurso puede ser el mismo que su número de artículo, SKU de producto u otro nombre, como en el siguiente ejemplo:
 
@@ -208,7 +210,7 @@ Al cargar archivos, puede elegir entre las siguientes opciones del cuadro de di�
 
 * **TRABAJO** - Seleccionar **[!UICONTROL TRABAJO]** para elegir las opciones que afectan a todo el trabajo de carga.
 
-   También puede elegir *predeterminado* opciones para cargar trabajos mediante la variable **[!UICONTROL Opciones de carga predeterminadas]** en Configuración general. Ir a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Configuración general]** > **[!UICONTROL Opciones de carga predeterminadas]** y, a continuación, establezca las opciones predeterminadas que desee.
+  También puede elegir *predeterminado* opciones para cargar trabajos mediante la variable **[!UICONTROL Opciones de carga predeterminadas]** en Configuración general. Ir a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Configuración general]** > **[!UICONTROL Opciones de carga predeterminadas]** y, a continuación, establezca las opciones predeterminadas que desee.
 
    * **[!UICONTROL Cuándo]** : Esta opción solo está disponible si ha seleccionado la variable **[!UICONTROL A TRAVÉS DE FTP]** pestaña.
       * **[!UICONTROL Único]** : especifique un trabajo de carga que se ejecute una vez. Las opciones son las siguientes:
@@ -219,6 +221,7 @@ Al cargar archivos, puede elegir entre las siguientes opciones del cuadro de di�
          * **[!UICONTROL Semanalmente]** : elija un día de la semana y una hora específicos a los que desea ejecutar el trabajo.
          * **[!UICONTROL Mensual]** : elija un día específico del mes o de la semana, incluida la hora de inicio, en el que desea ejecutar el trabajo.
          * **[!UICONTROL Personalizado]** : personalice un intervalo de tiempo de trabajo de carga o publicación según sus propias especificaciones. Consulte [Crear un intervalo de tiempo de trabajo de carga o publicación personalizado](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval).
+
    * **[!UICONTROL Publicar tras la carga]** - Disponible si ha seleccionado la opción **[!UICONTROL DESDE EL ESCRITORIO]** o la pestaña **[!UICONTROL A TRAVÉS DE FTP]** pestaña. Seleccione esta opción para publicar automáticamente los recursos que cargue. Al publicar archivos, se envían a servidores interactivos. Las URL para estos archivos se pueden utilizar en sitios Web y aplicaciones externas. Esta opción también está disponible en la página de carga.
 
    * **[!UICONTROL Sobrescribir en cualquier carpeta con mismo nombre de recurso base independientemente de la extensión]** - Disponible si ha seleccionado la opción **[!UICONTROL DESDE EL ESCRITORIO]** o la pestaña **[!UICONTROL A TRAVÉS DE FTP]** pestaña. Seleccione esta opción si desea que los archivos que cargue sustituyan archivos existentes con los mismos nombres. Esta opción también está disponible en la página de carga. El nombre de esta opción podría ser diferente, según la configuración de **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Configuración general]** > **[!UICONTROL Cargar en la aplicación]** > **[!UICONTROL Sobrescribir imágenes]**.
@@ -230,7 +233,6 @@ Seleccione esta opción si desea extraer automáticamente todos los archivos del
 Seleccione esta opción si desea cargar subcarpetas de la carpeta que va a cargar. Los nombres de la carpeta y sus subcarpetas que carga se introducen automáticamente en Adobe Dynamic Media Classic.
 
    * **[!UICONTROL Procesar archivos de metadatos]** - Disponible solo si ha seleccionado la opción **[!UICONTROL A TRAVÉS DE FTP]** pestaña. Seleccione esta opción si desea cargar un archivo delimitado por tabuladores o XML para agregar metadatos a varios recursos. Consulte [Importación de datos (mediante FTP)](viewing-adding-exporting-metadata.md#import-metadata).
-
 
 * **Opciones de recorte** : Para recortar automáticamente los píxeles de espacio en blanco de una imagen, abra el **[!UICONTROL Recorte]** menú, seleccione **[!UICONTROL Manual]** y especifique las medidas de los píxeles en los campos de texto Superior, Derecha, Inferior e Izquierda para recortar desde los lados. También puede seleccionar **[!UICONTROL Recortar]** en el menú Recortar y elija estas opciones:
 
@@ -304,4 +306,3 @@ El nuevo trabajo envía una notificación a la dirección especificada para que 
 >* [Trabajo con carpetas de recursos](asset-folders.md#working_with_asset_folders)
 >* [Gestión de trabajos recurrentes de carga y publicación](checking-job-files.md#handling_recurring_upload_and_publish_jobs)
 >* [Uso de un trabajo de carga o publicación como déclencheur](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)
-

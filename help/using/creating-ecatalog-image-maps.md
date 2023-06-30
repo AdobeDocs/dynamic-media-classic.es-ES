@@ -10,7 +10,9 @@ discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 40%
@@ -34,7 +36,7 @@ Los mapas de imagen de los catálogos electrónicos se dibujan en la ficha Pági
 
    * **Mapa poligonal** - Seleccione la herramienta Mapa de imagen poligonal y, a continuación, seleccione tantas veces como sea necesario alrededor del perímetro de la imagen. A medida que selecciona, Adobe Dynamic Media Classic dibuja los bordes del mapa de imagen.
 
-      Después de dibujar un mapa de imagen, Adobe Dynamic Media Classic le asigna un nombre en la lista Mapa de imagen. Para formar el nombre, Adobe Dynamic Media Classic añade un número secuencial al nombre de la página del catálogo electrónico en la que está trabajando.
+     Después de dibujar un mapa de imagen, Adobe Dynamic Media Classic le asigna un nombre en la lista Mapa de imagen. Para formar el nombre, Adobe Dynamic Media Classic añade un número secuencial al nombre de la página del catálogo electrónico en la que está trabajando.
 
 1. (Opcional) En la lista Mapa de imágenes, en el [!UICONTROL Nombre] , puede introducir un nuevo nombre para el mapa de imagen. No incluya espacios en blanco en el nombre.
 1. Puede hacer que los visualizadores abran una nueva página web cuando seleccionen el mapa de imagen. En el panel de lista de mapas de imagen, introduzca la dirección URL de la página web en la columna URL.
@@ -77,23 +79,23 @@ En la pantalla Catálogo electrónico, vaya a la ficha Páginas de mapa, desde d
 
 * **Ajuste de la posición** - Seleccione la herramienta Panorámica y mueva el puntero cerca del borde del mapa, pero no sobre él. Cuando el puntero se convierta en una flecha con cuatro puntas, arrastre el mapa completo de imagen a una nueva ubicación.
 
-   Consulte [Ajustar la posición, la forma y el tamaño de los mapas de imagen](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
+  Consulte [Ajustar la posición, la forma y el tamaño de los mapas de imagen](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
 * **Cambiar la forma y el tamaño** - Para cambiar el tamaño de un mapa de imagen rectangular, seleccione la herramienta Panorámica. A continuación, mueva el puntero sobre un lado o una esquina y, cuando vea la flecha con dos puntas, arrastre el ratón. Para cambiar el tamaño de un mapa de imagen poligonal, arrastre el ratón para crear un tirador de selección cuadrada. Para crear un controlador de selección, seleccione el borde del mapa de imagen y arrastre.
 
-   Consulte [Ajustar la posición, la forma y el tamaño de los mapas de imagen](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
+  Consulte [Ajustar la posición, la forma y el tamaño de los mapas de imagen](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
 * **Eliminando mapas de imagen** - Seleccione la herramienta Panorámica, seleccione el mapa de imagen para seleccionarlo y, a continuación, seleccione **[!UICONTROL Eliminar]**.
 
-   Para eliminar todos los mapas de imagen de un catálogo electrónico, seleccione la **[!UICONTROL Ordenar páginas]** , y luego seleccione **[!UICONTROL Borrar asignaciones]**.
+  Para eliminar todos los mapas de imagen de un catálogo electrónico, seleccione la **[!UICONTROL Ordenar páginas]** , y luego seleccione **[!UICONTROL Borrar asignaciones]**.
 
 * **Gestión de mapas de imagen superpuestos** : Arrastre para cambiar el orden de los mapas de imagen en la lista Mapa de imagen.
 
-   Consulte [Gestión de mapas de imagen superpuestos](creating-image-maps.md#handling_overlapping_image_maps).
+  Consulte [Gestión de mapas de imagen superpuestos](creating-image-maps.md#handling_overlapping_image_maps).
 
 * **Copia de mapas de imagen en otras páginas** - Seleccionar **[!UICONTROL Copiar asignaciones en]** (asegúrese de que está en la pestaña Páginas de mapa). En la pantalla Seleccionar imágenes, seleccione la página o páginas en las que desea copiar los mapas de imagen y seleccione **[!UICONTROL Seleccionar]**.
 
-   Consulte [Copiar mapas de imagen en otras imágenes](creating-image-maps.md#copying_image_maps).
+  Consulte [Copiar mapas de imagen en otras imágenes](creating-image-maps.md#copying_image_maps).
 
 >[!NOTE]
 >

@@ -10,7 +10,9 @@ discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 feature: Dynamic Media Classic
 role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 37%
@@ -94,7 +96,7 @@ Consulte [Vistas de metadatos](application-setup.md#metadata_views).
    * Para guardar la configuración sin generar el archivo XML, seleccione **[!UICONTROL Guardar]**.
    * Para guardar y generar el archivo, seleccione **[!UICONTROL Guardar y generar]**.
 
-      El archivo XML se crea y se registra en el registro de trabajo. Los archivos de mapas de vídeos (video-sitemap) y de recursos mRSS (mrss-feed) se almacenan en la carpeta raíz de la empresa.
+     El archivo XML se crea y se registra en el registro de trabajo. Los archivos de mapas de vídeos (video-sitemap) y de recursos mRSS (mrss-feed) se almacenan en la carpeta raíz de la empresa.
 
 >[!NOTE]
 >

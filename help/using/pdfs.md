@@ -10,7 +10,9 @@ discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 36%
@@ -81,12 +83,12 @@ Consulte también [Perfiles ICC](/help/using/icc-profiles.md#icc_profiles).
       * **[!UICONTROL Color]** - Elija la opción Color. A continuación, seleccione la **[!UICONTROL Esquina]** y elija la esquina del PDF con el color que mejor represente el color del espacio en blanco que desea recortar.
 
       * **[!UICONTROL Transparencia]** : elija la opción Transparencia.
+
    * **[!UICONTROL Tolerancia]** : Arrastre el regulador para especificar una tolerancia de 0 a 1.
 
    * **[!UICONTROL Recorte basado en el color]** : especifique 0 para recortar píxeles solo si coinciden exactamente con el color seleccionado en la esquina del PDF. Los números más cercanos a 1 permiten una mayor diferencia de color.
 
    * **[!UICONTROL Recorte basado en la transparencia]** - Especifique 0 para recortar píxeles solo si son transparentes; los números más cercanos a 1 permiten una mayor transparencia.
-
 
 ## Recortar desde los lados de las páginas PDF {#cropping-from-the-sides-of-pdf-pages}
 

@@ -8,7 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1569'
 ht-degree: 49%
@@ -75,13 +77,13 @@ Existen dos métodos de enfoque de imágenes que puede utilizar:
       * `amount` (cantidad= (0-5, intensidad del efecto).
       * `radius` (radio) (0-250, anchura de las “líneas de enfoque” dibujadas alrededor del objeto enfocado, medidas en píxeles.)
 
-         Tenga en cuenta que los parámetros de `radius` y `amount` trabajar unos contra otros. Reducción `radius` puede compensarse aumentando el `amount`. `Radius` permite un control más preciso, ya que un valor más bajo enfoca únicamente los píxeles del borde, mientras que un valor más alto enfoca una banda más ancha de píxeles.
+        Tenga en cuenta que los parámetros de `radius` y `amount` trabajar unos contra otros. Reducción `radius` puede compensarse aumentando el `amount`. `Radius` permite un control más preciso, ya que un valor más bajo enfoca únicamente los píxeles del borde, mientras que un valor más alto enfoca una banda más ancha de píxeles.
 
       * `threshold` (0-255, sensibilidad del efecto.)
 
-         Este parámetro determina hasta qué punto deben ser distintos los píxeles enfocados respecto al área que los rodea para poder considerarse píxeles de borde y por tanto enfocarse. El umbral ayuda a evitar el exceso de áreas de enfoque con colores similares, como los tonos de piel. Por ejemplo, un valor de umbral 12 ignora las ligeras variaciones de brillo en el tono de la piel para no agregar “ruido” y, simultáneamente, agrega contraste al borde de las áreas contrastadas, por ejemplo, donde las pestañas tocan la piel.
+        Este parámetro determina hasta qué punto deben ser distintos los píxeles enfocados respecto al área que los rodea para poder considerarse píxeles de borde y por tanto enfocarse. El umbral ayuda a evitar el exceso de áreas de enfoque con colores similares, como los tonos de piel. Por ejemplo, un valor de umbral 12 ignora las ligeras variaciones de brillo en el tono de la piel para no agregar “ruido” y, simultáneamente, agrega contraste al borde de las áreas contrastadas, por ejemplo, donde las pestañas tocan la piel.
 
-         Para obtener más información sobre cómo configurar estos tres parámetros, incluidas las prácticas recomendadas para su uso con el filtro, consulte [Enfoque de imágenes en Adobe Dynamic Media Classic y en el servidor de imágenes](/help/using/assets/s7_sharpening_images.pdf).
+        Para obtener más información sobre cómo configurar estos tres parámetros, incluidas las prácticas recomendadas para su uso con el filtro, consulte [Enfoque de imágenes en Adobe Dynamic Media Classic y en el servidor de imágenes](/help/using/assets/s7_sharpening_images.pdf).
 
       * Adobe Dynamic Media Classic también permite controlar un cuarto parámetro: monocromo ( `0,1`). Este parámetro determina si la máscara de enfoque se aplica a cada componente de color por separado mediante el valor `0` o al brillo o la intensidad de la imagen con el valor `1`.
 

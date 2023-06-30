@@ -10,7 +10,9 @@ discoiquuid: 1bd7cb5d-156c-4dad-a725-e177f05ccedf
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: ce9b5a41-cc3e-4801-8080-607cf7be338b
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Administration, Collaboration
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 65%
@@ -37,12 +39,12 @@ Esta tabla describe las tareas que pueden realizar los usuarios según su funci�
 | Explorar metadatos | X | X | X |
 | Previsualizar archivos | X | X | X |
 | Buscar archivos | X | X | X |
-| Carga de archivos en Adobe Dynamic Media Classic |  | X | X |
-| Editar e importar metadatos de recursos |  | X | X |
-| Crear, cambiar el nombre y eliminar carpetas |  | X | X |
-| Exportar metadatos de recursos | X |  | X |
-| Cambiar nombres de archivos |  | X | X |
-| Mover archivos a otras carpetas |  | X | X |
-| Cambiar el nombre de los archivos |  | X | X |
-| Eliminar archivos |  | X | X |
-| Exportación (descarga) de archivos desde Adobe Dynamic Media Classic | X |  | X |
+| Carga de archivos en Adobe Dynamic Media Classic | | X | X |
+| Editar e importar metadatos de recursos | | X | X |
+| Crear, cambiar el nombre y eliminar carpetas | | X | X |
+| Exportar metadatos de recursos | X | | X |
+| Cambiar nombres de archivos | | X | X |
+| Mover archivos a otras carpetas | | X | X |
+| Cambiar el nombre de los archivos | | X | X |
+| Eliminar archivos | | X | X |
+| Exportación (descarga) de archivos desde Adobe Dynamic Media Classic | X | | X |

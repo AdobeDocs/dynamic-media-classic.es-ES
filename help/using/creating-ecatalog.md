@@ -10,7 +10,9 @@ discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '967'
 ht-degree: 56%
@@ -42,9 +44,9 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
    * **Empezar desde la pantalla Catálogo electrónico** - Vaya a **[!UICONTROL Generar]** > **[!UICONTROL Catálogos electrónicos]**. Seleccione una carpeta en la biblioteca de recursos y arrastre los archivos deseados a la ficha Ordenar páginas que se encuentra en la página Catálogo electrónico.
 
-      >[!NOTE]
-      >
-      >Para ver los elementos de la biblioteca de recursos por su nombre en lugar de ver las miniaturas, seleccione la opción Nombre en la vista de biblioteca de recursos predeterminada en Ajustes personales.
+     >[!NOTE]
+     >
+     >Para ver los elementos de la biblioteca de recursos por su nombre en lugar de ver las miniaturas, seleccione la opción Nombre en la vista de biblioteca de recursos predeterminada en Ajustes personales.
 
 1. Seleccione la presentación general que tendrá el catálogo electrónico. Seleccionar **[!UICONTROL 1 vertical]** para páginas únicas, **[!UICONTROL 2 verticales]** para pliegos de dos páginas, o **[!UICONTROL Personalizado]** para pliegos de más de dos páginas. En el **[!UICONTROL Cambiar diseño de catálogo electrónico]** , seleccione la opción **[!UICONTROL Todas las distribuciones]** opciones y seleccione **[!UICONTROL OK]**.
 1. Si lo desea, puede cambiar el diseño de páginas o pliegos de páginas individuales seleccionándolos y eligiendo **[!UICONTROL 1 vertical]**, **[!UICONTROL 2 verticales]**, o **[!UICONTROL Personalizado]** botón. En el **[!UICONTROL Cambiar diseño de catálogo electrónico]** , seleccione la opción **[!UICONTROL Distribuciones seleccionadas]** opciones y seleccione **[!UICONTROL OK]**.

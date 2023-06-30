@@ -8,7 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_k
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 9d017742-1ed2-411d-a8a6-438102bf1557
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Development, Integrations
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 12%
@@ -23,11 +25,11 @@ Con los informes de vídeo basados en Adobe Analytics Heartbeat, ya no es necesa
 
 * La integración de informes de vídeo de Adobe Analytics con Adobe Dynamic Media Classic admite variables de solución, pero no variables personalizadas.
 
-   Consulte [Parámetros de audio y vídeo](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#metrics-and-metadata) para obtener más información sobre las variables de solución y las variables personalizadas.
+  Consulte [Parámetros de audio y vídeo](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#metrics-and-metadata) para obtener más información sobre las variables de solución y las variables personalizadas.
 
 * Se admiten segmentos listos para usar de incrementos de un minuto. Sin embargo, no se admiten los informes de segmento personalizados, como hitos definidos por el usuario basados en períodos temporales, % de hitos o hitos de desplazamiento.
 
-   Para obtener más información sobre los requisitos y la configuración de los medios de streaming, consulte [Medición de Streaming Media en Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
+  Para obtener más información sobre los requisitos y la configuración de los medios de streaming, consulte [Medición de Streaming Media en Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
 
 * Para obtener información sobre las variables personalizadas y de solución, consulte [Habilitación de informes de contenidos](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html?lang=en#media-reports).
 

@@ -10,7 +10,9 @@ discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 35%
@@ -65,4 +67,3 @@ Puede recortar los píxeles transparentes o de color sólido del borde de una im
 >* [Opciones para la edición de imágenes al cargar](image-editing-options-upload.md#image-editing-options-at-upload)
 >* [Recortar espacio en blanco de un archivo de PDF](pdfs.md#cropping_white_space_from_a_pdf_file)
 >* [Recortar desde los lados de las páginas PDF](pdfs.md#cropping_from_the_sides_of_pdf_pages)
-

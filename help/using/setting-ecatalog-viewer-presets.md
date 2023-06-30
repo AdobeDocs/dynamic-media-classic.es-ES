@@ -1,6 +1,6 @@
 ---
 title: Configurar ajustes preestablecidos del visor de catálogos electrónicos
-description: Obtenga información sobre cómo configurar ajustes preestablecidos del visor de catálogos electrónicos en Adobe Dynamic Media Classic.
+description: Obtenga información sobre cómo configurar ajustes preestablecidos del visualizador de catálogos electrónicos en Adobe Dynamic Media Classic.
 uuid: aca66bc5-8491-4d81-9a06-1d3531860a14
 contentOwner: Rick Brough
 content-type: reference
@@ -9,7 +9,9 @@ discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
 feature: Dynamic Media Classic,Viewers,Viewer Presets,eCatalog
 role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 34%
@@ -62,4 +64,3 @@ Para eliminar un ajuste preestablecido del visor de catálogos electrónicos, se
 >[!MORELIKETHIS]
 >
 >* [Ajustes preestablecidos de visor](application-setup.md#viewer_presets)
-

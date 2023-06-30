@@ -10,7 +10,9 @@ discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '2430'
 ht-degree: 50%
@@ -152,9 +154,9 @@ De forma predeterminada, la plantilla de URL incluye un controlador JavaScript d
 
 * `loadProductPW` - muestra el destino URL especificado en la columna URL en la ventana principal (la página que abrió la activa). La ventana activa permanece abierta, pero la principal cambia para mostrar el destino URL.
 
-   >[!NOTE]
-   >
-   >El controlador `loadProductPW` no admite los visores de DHTML y HTML5.
+  >[!NOTE]
+  >
+  >El controlador `loadProductPW` no admite los visores de DHTML y HTML5.
 
 ### Creación de una plantilla de URL {#creating-a-url-template}
 

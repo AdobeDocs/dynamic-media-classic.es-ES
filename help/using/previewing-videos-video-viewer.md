@@ -10,7 +10,9 @@ discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 28%
@@ -72,14 +74,14 @@ Consulte también [Ajustes preestablecidos de vídeo](https://s7d5.scene7.com/s7
 1. Agregue o edite un ajuste preestablecido de visor para mostrar vídeo:
 
    * **Añadir** - Seleccionar **[!UICONTROL Añadir]** en la barra de herramientas. En el cuadro de diálogo Agregar ajuste preestablecido de visor, elija una plataforma y un visor en las listas desplegables correspondientes y, a continuación, seleccione **[!UICONTROL Añadir]**.
+
    Consulte también [Agregar y editar ajustes preestablecidos de visor](application-setup.md#adding_and_editing_viewer_presets).
 
    * **Añadir empezando desde un ajuste preestablecido de visor existente** - En la tabla, seleccione un ajuste preestablecido de visualizador de vídeo y, a continuación, seleccione **[!UICONTROL Editar]** en la barra de herramientas.
+
    Después de volver a configurar el Visor de vídeo, seleccione **[!UICONTROL Guardar como]** para guardar el ajuste preestablecido con un nombre diferente en el campo de texto Nombre del ajuste preestablecido.
 
    * **Editar** - Seleccione un ajuste preestablecido de visualizador de vídeo y, a continuación, seleccione **[!UICONTROL Editar]**.
-
-
 
 1. En la página Configurar visor, en el campo Nombre del ajuste preestablecido, introduzca o edite el nombre del ajuste preestablecido.
 1. Defina las opciones restantes que desee.
@@ -95,4 +97,3 @@ Consulte también [Ajustes preestablecidos de vídeo](https://s7d5.scene7.com/s7
 >
 >* [Prácticas recomendadas para la codificación de vídeo](uploading-encoding-videos.md#best_practices_for_video_encoding)
 >* [Trabajar con ajustes preestablecidos de codificación de vídeo](uploading-encoding-videos.md#working_with_video_encoding_presets)
-

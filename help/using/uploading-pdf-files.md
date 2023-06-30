@@ -9,7 +9,9 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 36%
@@ -38,7 +40,7 @@ Prepare los archivos del PDF antes de cargarlos en Adobe Dynamic Media Classic:
 * Si desea que los usuarios del catálogo electrónico tengan la posibilidad de realizar búsquedas por palabra clave dentro del mismo, averigüe si los archivos PDF están &quot;acoplados&quot;. Si los archivos PDF están acoplados, no se podrán extraer palabras de búsqueda. Para averiguar si un archivo PDF está acoplado, intente seleccionar texto dentro del mismo. Si no puede seleccionar texto, el PDF se acopla y los visualizadores no pueden buscar por palabra clave en el catálogo electrónico.
 * Puesto que están diseñados para imprimirse, los archivos PDF suelen contener imágenes en CMYK. De forma predeterminada, Adobe Dynamic Media Classic puede detectar de forma inteligente estas imágenes CMYK y convertirlas con un perfil de color CMYK interno. Sin embargo, si desea usar un perfil de color personalizado para convertir imágenes CMYK, puede hacerlo.
 
-   Consulte [Perfiles ICC (International Color Consortium)](icc-profiles.md#icc_profiles).
+  Consulte [Perfiles ICC (International Color Consortium)](icc-profiles.md#icc_profiles).
 
 ## Prácticas recomendadas para cargar PDF {#best-practice-pdf-upload-options}
 
@@ -58,7 +60,7 @@ Seleccione los archivos que desea cargar y, a continuación, seleccione los sigu
 
 * **Colorspace** - En el cuadro de diálogo de opciones del trabajo de carga, seleccione **[!UICONTROL Opciones del PDF]**. En la lista desplegable Espacio de color, elija **[!UICONTROL Detectar automáticamente]**. Los archivos PDF creados para imprimirse suelen estar en modo CMYK, mientras que los diseñados para visualizarse en línea están en modo RGB. Si un archivo PDF utiliza ambos espacios de color, puede seleccionar un espacio específico si elige Forzar RGB o Forzar CMYK. Los archivos PDF pueden utilizar ambos espacios de color, por ejemplo, cuando los gráficos utilizan un espacio de color CMYK pero las imágenes utilizan RGB. Si ha cargado un perfil ICC, su nombre aparecerá en el menú Espacio de color, desde donde lo podrá elegir.
 
-   Consulte [Perfiles ICC (International Color Consortium)](/help/using/icc-profiles.md).
+  Consulte [Perfiles ICC (International Color Consortium)](/help/using/icc-profiles.md).
 
 * **Opciones de perfil de color** - En el cuadro de diálogo de opciones del trabajo de carga, seleccione **[!UICONTROL Opciones de perfil de color]** y, a continuación, elija una opción de Perfil de color:
 

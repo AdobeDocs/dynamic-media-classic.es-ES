@@ -10,7 +10,9 @@ discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Administration, Collaboration
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 25%
@@ -83,11 +85,11 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 * **[!UICONTROL Mostrar tamaño de archivo]** : Muestra el tamaño de archivo de un recurso cuando lo está explorando.
 * **[!UICONTROL Incluir UDF en la búsqueda]** : para mejorar el rendimiento del sistema para la mayoría de las búsquedas de metadatos que ejecuta, anule la selección (predeterminado).
 
-   Si necesita incluir los campos personalizables en la mayoría de sus búsquedas de metadatos, puede seleccionar esta opción para activarla. Si lo prefiere, puede utilizar la búsqueda avanzada para permitir una búsqueda más rápida y directa sin incluir todos los campos personalizables.
+  Si necesita incluir los campos personalizables en la mayoría de sus búsquedas de metadatos, puede seleccionar esta opción para activarla. Si lo prefiere, puede utilizar la búsqueda avanzada para permitir una búsqueda más rápida y directa sin incluir todos los campos personalizables.
 
-   Consulte [Búsqueda avanzada](searching-assets.md#conducting_an_advanced_search).
+  Consulte [Búsqueda avanzada](searching-assets.md#conducting_an_advanced_search).
 
-   Consulte también [Campos personalizables](application-setup.md#user_defined_fields).
+  Consulte también [Campos personalizables](application-setup.md#user_defined_fields).
 
 * **[!UICONTROL Tipo de búsqueda básica]** - Puede seleccionar entre dos opciones: **[!UICONTROL Contains]** busca el valor especificado en la cadena completa; **[!UICONTROL Empieza por]** busca desde el principio de la cadena y devuelve resultados más rápido que **[!UICONTROL Contains]**. Cualquiera de las opciones anula el valor predeterminado establecido en **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Configuración general de la aplicación]** por el administrador.
 * **[!UICONTROL Mostrar comentarios de comandos]** - Seleccione para activar la visualización de las solicitudes de comando al servidor; deseleccione para desactivar.

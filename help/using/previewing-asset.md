@@ -10,7 +10,9 @@ discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
 feature: Dynamic Media Classic,Asset Management,Viewers
 role: User
 exl-id: 7e6f652c-b197-4171-b11b-f532795f7cf2
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1012'
 ht-degree: 36%
@@ -68,13 +70,13 @@ En una plataforma de visor determinada, la ventana Lista de visores permite ver 
 
    * En la ventana Lista del visor, en la columna Acciones de la tabla, seleccione **[!UICONTROL Copiar URL]** para un visor y tipo de plataforma seleccionados.
 
-      Al seleccionar **[!UICONTROL Copiar URL]**, su URL asociada se copia automáticamente en el portapapeles.
+     Al seleccionar **[!UICONTROL Copiar URL]**, su URL asociada se copia automáticamente en el portapapeles.
 
    * En la ventana Lista del visor, en la columna Acciones de la tabla, seleccione **[!UICONTROL Código incrustado]**.
 
-      Al seleccionar **[!UICONTROL Código incrustado]**, se abrirá la ventana Código incrustado, donde podrá revisar el código del visor. El código no se puede editar en la ventana. También puede copiar el código en el portapapeles para pegarlo en sus páginas web.
+     Al seleccionar **[!UICONTROL Código incrustado]**, se abrirá la ventana Código incrustado, donde podrá revisar el código del visor. El código no se puede editar en la ventana. También puede copiar el código en el portapapeles para pegarlo en sus páginas web.
 
-      Cerrar la vista previa mostrada.
+     Cerrar la vista previa mostrada.
 
 1. En la esquina inferior derecha de la ventana Lista de visualizadores, seleccione **[!UICONTROL Cerrar]** para volver a la pantalla Recursos.
 

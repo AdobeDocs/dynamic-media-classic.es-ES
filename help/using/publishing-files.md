@@ -8,7 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1729'
 ht-degree: 45%
@@ -122,7 +124,7 @@ Los recursos sin publicar se indican en la interfaz de usuario mediante un icono
 
    * En la vista de cuadrícula, la vista de lista o la vista de detalles, utilice los métodos tradicionales de selección de archivos para seleccionar uno o más recursos sin publicar.
 
-      En la barra de navegación global, vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Publish]**.
+     En la barra de navegación global, vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Publish]**.
 
    * En la vista de cuadrícula, vista de lista o vista de detalles, seleccione el icono gris redondeado con una barra diagonal a la izquierda del nombre del recurso.
 
@@ -138,7 +140,7 @@ Los recursos publicados aparecen en la interfaz de usuario con un icono verde re
 
    * En la vista de cuadrícula, vista de lista o vista de detalles, seleccione uno o varios recursos publicados.
 
-      En la barra de navegación global, vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Cancelar publicación]**.
+     En la barra de navegación global, vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Cancelar publicación]**.
 
    * En la vista de cuadrícula, vista de lista o vista de detalles, seleccione el icono de marca de verificación redonda y verde a la izquierda del nombre del recurso.
 
@@ -162,4 +164,3 @@ Para vaciar la caché, en la barra de navegación global, vaya a **[!UICONTROL A
 >
 >* [Comprobar archivos de trabajo](checking-job-files.md)
 >* [Editar, eliminar, pausar y reanudar trabajos recurrentes](checking-job-files.md#editing-deleting-pausing-and-resuming-recurring-jobs)
-

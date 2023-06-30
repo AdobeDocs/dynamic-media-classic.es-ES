@@ -10,7 +10,9 @@ discoiquuid: f4c8c2b3-cc95-416f-9a5d-da81c231dfc2
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '1231'
 ht-degree: 27%
@@ -70,8 +72,8 @@ En la tabla siguiente se describen los eventos de visor que se pueden agregar a 
 | SWAP | **X** (catálogo electrónico, flotante, conjunto de giros, vídeo, zoom) | Cuando un usuario selecciona una miniatura diferente para ver una imagen diferente. |
 | ITEM | **X** (catálogo electrónico) | En visores compatibles con mapas de imagen en las que se hayan definido rollovers, cuando un usuario desliza el puntero sobre un mapa de imagen para leer el texto rollover. |
 | HREF | **X** (catálogo electrónico) | En los visores compatibles con mapas de imagen, cuando un usuario selecciona una dirección URL en un mapa de imagen. |
-| TARGET |  | En visores de zoom de destino, cuando un usuario selecciona un destino de zoom para ampliar a parte de una imagen. |
-| SEARCH |  | En los catálogos electrónicos, cuando un usuario realiza la búsqueda de una palabra. |
+| TARGET | | En visores de zoom de destino, cuando un usuario selecciona un destino de zoom para ampliar a parte de una imagen. |
+| SEARCH | | En los catálogos electrónicos, cuando un usuario realiza la búsqueda de una palabra. |
 | PLAY | **X** (vídeo) | En los visores de vídeo, cuando un usuario selecciona Reproducir para comenzar a reproducir un vídeo.<br><br>**Nota:** Si utiliza los informes de vídeo basados en Adobe Analytics Heartbeat, no es necesario asignar ninguna variable a este evento de visualizador al configurar Adobe Analytics en Adobe Dynamic Media Classic. Video Heartbeat funciona con los visores de vídeo y medios mixtos predeterminados de Adobe Dynamic Media Classic HTML5. El reproductor de vídeo genera el seguimiento de datos para visualizarlos dentro de los informes de vídeo de Adobe Analytics. Consulte [Activar informes de vídeo de Adobe Analytics](enabling-analytics-video-reports.md). |
 | PAUSE | **X** (vídeo) | En los visores de vídeo, cuando un usuario selecciona **[!UICONTROL Pausar]** para congelar un vídeo.<br><br>**Nota:** Si utiliza los informes de vídeo basados en Adobe Analytics Heartbeat, no es necesario asignar ninguna variable a este evento de visualizador al configurar Adobe Analytics en Adobe Dynamic Media Classic. Video Heartbeat funciona con los visores de vídeo y medios mixtos predeterminados de Adobe Dynamic Media Classic HTML5. El reproductor de vídeo genera el seguimiento de datos para visualizarlos dentro de los informes de vídeo de Adobe Analytics. Consulte [Activar informes de vídeo de Adobe Analytics](enabling-analytics-video-reports.md). |
 | STOP | **X** (vídeo) | En los visores de vídeo, cuando un usuario selecciona **[!UICONTROL Detener]** para detener la reproducción de un vídeo.<br><br>**Nota:** Si utiliza los informes de vídeo basados en Adobe Analytics Heartbeat, no es necesario asignar ninguna variable a este evento de visualizador al configurar Adobe Analytics en Adobe Dynamic Media Classic. Video Heartbeat funciona con los visores de vídeo y medios mixtos predeterminados de Adobe Dynamic Media Classic HTML5. El reproductor de vídeo genera el seguimiento de datos para visualizarlos dentro de los informes de vídeo de Adobe Analytics. Consulte [Activar informes de vídeo de Adobe Analytics](enabling-analytics-video-reports.md). |

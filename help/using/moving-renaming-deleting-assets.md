@@ -10,7 +10,9 @@ discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 31%
@@ -58,7 +60,7 @@ los destinos de zoom, los atributos de imagen y las entradas del historial se el
    * Para eliminar uno o varios recursos, selecciónelos en el panel Examinar y presione **[!UICONTROL Eliminar]** o vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Eliminar]**.
    * Para eliminar una carpeta, selecciónela en la Biblioteca de recursos y seleccione **[!UICONTROL Quitar carpeta]**.
 
-      Al eliminar una carpeta, se elimina la carpeta, todos sus recursos y todos los de sus subcarpetas.
+     Al eliminar una carpeta, se elimina la carpeta, todos sus recursos y todos los de sus subcarpetas.
 
 Adobe Dynamic Media Classic recomienda sobrescribir los archivos de recursos en lugar de eliminarlos si el motivo para eliminar un archivo de recursos es reemplazarlo por otro con el mismo nombre.
 
@@ -81,4 +83,3 @@ Cuando se eliminan recursos con un archivo de texto, si algún Adobe Dynamic Med
 >* [Seleccionar recursos en el panel Examinar](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
 >* [Preparación de recursos y carpetas para su carga](uploading-files.md#preparing_your_assets_and_folders_for_uploading)
 >* [Restaurar recursos desde la carpeta Papelera](trash-folder.md#restoring_assets_from_the_trash_folder)
-

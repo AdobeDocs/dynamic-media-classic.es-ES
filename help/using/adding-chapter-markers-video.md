@@ -10,7 +10,9 @@ discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 40%
@@ -77,14 +79,14 @@ Consulte [WebVTT: Formato de seguimiento de texto de vídeo web](https://w3c.git
 
    * Para una experiencia de visor de vídeo emergente, seleccione **[!UICONTROL Copiar URL]** situado en el extremo derecho del nombre.
 
-      Anexe la URL copiada del vídeo con la siguiente sintaxis para que pueda asociarla con la URL copiada al archivo de rótulo:
+     Anexe la URL copiada del vídeo con la siguiente sintaxis para que pueda asociarla con la URL copiada al archivo de rótulo:
 
-      `&navigation=*<full Copy URL path to the chapter navigation file .vtt>*`
+     `&navigation=*<full Copy URL path to the chapter navigation file .vtt>*`
 
    * Para una experiencia de visor de vídeo integrada, seleccione **[!UICONTROL Código incrustado]** situado en el extremo derecho del nombre.
 
-      En el cuadro de diálogo Código incrustado, seleccione **[!UICONTROL Copiar al portapapeles]**.
+     En el cuadro de diálogo Código incrustado, seleccione **[!UICONTROL Copiar al portapapeles]**.
 
-      Para el HTML 5 `Universal_HTML5_Video` En el visor, añada el código incrustado copiado con lo siguiente:
+     Para el HTML 5 `Universal_HTML5_Video` En el visor, añada el código incrustado copiado con lo siguiente:
 
-      `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*”`
+     `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*”`

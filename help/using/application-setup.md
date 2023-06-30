@@ -8,7 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Administration
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '11299'
 ht-degree: 40%
@@ -55,25 +57,25 @@ Consulte también [Prueba del servicio Secure Testing](testing-assets-making-the
 
 * **[!UICONTROL Plantilla de invalidación de CDN]** : especifica la plantilla que se utiliza para invalidar la caché de la red de distribución de contenido (CDN).
 
-   Por ejemplo, supongamos que introduce una URL de imagen (incluidos los ajustes preestablecidos o modificadores de imagen) que haga referencia a `<ID>`, en lugar de un ID de imagen específico, como en el siguiente ejemplo:
+  Por ejemplo, supongamos que introduce una URL de imagen (incluidos los ajustes preestablecidos o modificadores de imagen) que haga referencia a `<ID>`, en lugar de un ID de imagen específico, como en el siguiente ejemplo:
 
-   `https://sample.scene7.com/is/image/Company/<ID>?$s7product$`
+  `https://sample.scene7.com/is/image/Company/<ID>?$s7product$`
 
-   Si la plantilla solo contiene `<ID>`, luego Adobe Dynamic Media Classic rellena el `https://<server>/is/image`, donde `<server>` es el nombre del servidor de publicación definido en Configuración general.
+  Si la plantilla solo contiene `<ID>`, luego Adobe Dynamic Media Classic rellena el `https://<server>/is/image`, donde `<server>` es el nombre del servidor de publicación definido en Configuración general.
 
-   Al establecer la plantilla de invalidación de CDN, seleccione una imagen denominada Backpack_B y, a continuación, vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Invalidar CDN]** Esto da como resultado la siguiente URL generada en la interfaz de invalidación de CDN:
+  Al establecer la plantilla de invalidación de CDN, seleccione una imagen denominada Backpack_B y, a continuación, vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Invalidar CDN]** Esto da como resultado la siguiente URL generada en la interfaz de invalidación de CDN:
 
-   `https://sample.scene7.com/is/image/Company/Backpack_B?$s7product$`
+  `https://sample.scene7.com/is/image/Company/Backpack_B?$s7product$`
 
-   En el cuadro de lista Dirección URL, seleccione **[!UICONTROL Continuar]** para borrar la caché de esa llamada URL de imagen específica. También puede agregar direcciones URL escribiéndolas o pegándolas en el cuadro de lista URL; no necesita establecer la plantilla de antemano.
+  En el cuadro de lista Dirección URL, seleccione **[!UICONTROL Continuar]** para borrar la caché de esa llamada URL de imagen específica. También puede agregar direcciones URL escribiéndolas o pegándolas en el cuadro de lista URL; no necesita establecer la plantilla de antemano.
 
-   Después de seleccionar la plantilla de invalidación de CDN y de realizar una solicitud de invalidación de CDN, aparece un indicador en la interfaz de usuario. Proporciona una estimación del tiempo que se tarda en borrar la caché.
+  Después de seleccionar la plantilla de invalidación de CDN y de realizar una solicitud de invalidación de CDN, aparece un indicador en la interfaz de usuario. Proporciona una estimación del tiempo que se tarda en borrar la caché.
 
-   Del mismo modo, si se seleccionan varias imágenes en Adobe Dynamic Media Classic al ir a **[!UICONTROL Archivo]** > **[!UICONTROL Invalidar CDN]**, se hace referencia a cada imagen en la URL de plantilla guardada. Por lo tanto, puede definir una plantilla de invalidación de CDN que haga referencia a cada URL a la que se hace referencia en el sitio web (como detalles del producto y resultados de búsqueda). A continuación, cuando se seleccione una o varias imágenes para la invalidación desde la caché, las direcciones URL rellenan automáticamente la interfaz.
+  Del mismo modo, si se seleccionan varias imágenes en Adobe Dynamic Media Classic al ir a **[!UICONTROL Archivo]** > **[!UICONTROL Invalidar CDN]**, se hace referencia a cada imagen en la URL de plantilla guardada. Por lo tanto, puede definir una plantilla de invalidación de CDN que haga referencia a cada URL a la que se hace referencia en el sitio web (como detalles del producto y resultados de búsqueda). A continuación, cuando se seleccione una o varias imágenes para la invalidación desde la caché, las direcciones URL rellenan automáticamente la interfaz.
 
-   Consulte [Caché de contenido](dmc-platform-overview.md#content_caching).
+  Consulte [Caché de contenido](dmc-platform-overview.md#content_caching).
 
-   Consulte [Segunda publicación de recursos y retrasos de CDN](publishing-files.md#republished_assets_and_cdn_delays).
+  Consulte [Segunda publicación de recursos y retrasos de CDN](publishing-files.md#republished_assets_and_cdn_delays).
 
 ### Examinar
 
@@ -85,21 +87,21 @@ Consulte también [Prueba del servicio Secure Testing](testing-assets-making-the
 
 * **[!UICONTROL Mostrar vídeos codificados]** - Deseleccionado (desactivado) de forma predeterminada.
 
-   Para buscar vídeos rápidamente en Adobe Dynamic Media Classic sin tener que navegar por varios derivados codificados del mismo vídeo, deje esta opción sin seleccionar (predeterminada). Solo se muestran la miniatura del vídeo principal (el vídeo de origen que ha cargado y utilizado para crear los derivados) y la miniatura del conjunto de vídeos adaptable &quot;principal&quot; (que contiene los derivados &quot;secundarios&quot; del conjunto de vídeos codificado).
+  Para buscar vídeos rápidamente en Adobe Dynamic Media Classic sin tener que navegar por varios derivados codificados del mismo vídeo, deje esta opción sin seleccionar (predeterminada). Solo se muestran la miniatura del vídeo principal (el vídeo de origen que ha cargado y utilizado para crear los derivados) y la miniatura del conjunto de vídeos adaptable &quot;principal&quot; (que contiene los derivados &quot;secundarios&quot; del conjunto de vídeos codificado).
 
-   Sin embargo, aún puede acceder a vídeos codificados individuales desde el vídeo principal o el conjunto de vídeos adaptables. Para ello, haga doble clic en la imagen en miniatura del vídeo para abrir la vista de detalles. A continuación seleccione **[!UICONTROL Vídeos codificados]** en el panel derecho para poder acceder a todos los vídeos &quot;secundarios&quot;.
+  Sin embargo, aún puede acceder a vídeos codificados individuales desde el vídeo principal o el conjunto de vídeos adaptables. Para ello, haga doble clic en la imagen en miniatura del vídeo para abrir la vista de detalles. A continuación seleccione **[!UICONTROL Vídeos codificados]** en el panel derecho para poder acceder a todos los vídeos &quot;secundarios&quot;.
 
-   También puede ir a **[!UICONTROL Archivo]** > **[!UICONTROL Reprocesar]** para crear vídeos &quot;secundarios&quot; más codificados directamente desde un conjunto de vídeos adaptables. Adobe Dynamic Media Classic encuentra automáticamente el vídeo principal del conjunto de vídeos adaptable y lo utiliza como vídeo de origen para la transcodificación. Sin embargo, cuando se guardan los nuevos vídeos codificados individuales, estos no se ven al buscar o examinar un elemento. No obstante, siguen siendo accesibles desde la ficha Vídeos codificados en la vista de detalles.
+  También puede ir a **[!UICONTROL Archivo]** > **[!UICONTROL Reprocesar]** para crear vídeos &quot;secundarios&quot; más codificados directamente desde un conjunto de vídeos adaptables. Adobe Dynamic Media Classic encuentra automáticamente el vídeo principal del conjunto de vídeos adaptable y lo utiliza como vídeo de origen para la transcodificación. Sin embargo, cuando se guardan los nuevos vídeos codificados individuales, estos no se ven al buscar o examinar un elemento. No obstante, siguen siendo accesibles desde la ficha Vídeos codificados en la vista de detalles.
 
-   Consulte [Carga y transcodificación de vídeos](uploading-encoding-videos.md#uploading_and_encoding_videos).
+  Consulte [Carga y transcodificación de vídeos](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
-   Para mantener la capacidad de tener acceso a todos los derivados del vídeo codificado al buscar y examinar, seleccione **[!UICONTROL Mostrar vídeos codificados]**.
+  Para mantener la capacidad de tener acceso a todos los derivados del vídeo codificado al buscar y examinar, seleccione **[!UICONTROL Mostrar vídeos codificados]**.
 
-   Hay ciertas acciones en el menú Generar que solo funcionan, o funcionan de forma opcional, con vídeos individuales. Esta funcionalidad hace que sea necesario mostrar todos los derivados de vídeos codificados que pueda seleccionar, independientemente de cómo haya definido la opción **[!UICONTROL Mostrar vídeos codificados]**. Las acciones de compilación que anulan el **[!UICONTROL Mostrar vídeos codificados]** configuración incluir **[!UICONTROL Conjuntos de vídeos adaptables]**, y **[!UICONTROL Catálogos electrónicos]**.
+  Hay ciertas acciones en el menú Generar que solo funcionan, o funcionan de forma opcional, con vídeos individuales. Esta funcionalidad hace que sea necesario mostrar todos los derivados de vídeos codificados que pueda seleccionar, independientemente de cómo haya definido la opción **[!UICONTROL Mostrar vídeos codificados]**. Las acciones de compilación que anulan el **[!UICONTROL Mostrar vídeos codificados]** configuración incluir **[!UICONTROL Conjuntos de vídeos adaptables]**, y **[!UICONTROL Catálogos electrónicos]**.
 
-   >[!NOTE]
-   >
-   >Si no ha utilizado Adobe Dynamic Media Classic para cargar y codificar los recursos de vídeo, Adobe Dynamic Media Classic muestra todos los vídeos codificados individualmente, aunque esta opción no esté seleccionada.
+  >[!NOTE]
+  >
+  >Si no ha utilizado Adobe Dynamic Media Classic para cargar y codificar los recursos de vídeo, Adobe Dynamic Media Classic muestra todos los vídeos codificados individualmente, aunque esta opción no esté seleccionada.
 
 * **[!UICONTROL Mostrar botón Actualizar subcarpetas]** - Activar o desactivar la visualización del botón Actualizar subcarpetas.
 
@@ -198,22 +200,22 @@ En las pantallas de adición y edición de ajustes preestablecidos, encontrará 
       * **[!UICONTROL Número de colores]** - Arrastre el control deslizante para introducir 2-255.
 
       * **[!UICONTROL Lista de colores]** : introduzca una lista separada por comas. Por ejemplo, para blanco, gris y negro, introduzca `000000,888888,ffffff`.
+
    * Opciones JPEG
 
       * **[!UICONTROL Calidad]** - Controla el nivel de compresión del JPEG. Esta configuración afecta tanto al tamaño como a la calidad de la imagen. La escala de calidad JPEG es 1-100.
 
       * **[!UICONTROL Activar disminución de resolución de crominancia de JPG]** - Dado que el ojo es menos sensible a la información de color de alta frecuencia que la luminancia de alta frecuencia, las imágenes JPEG dividen la información de la imagen en componentes de luminancia y color. Al comprimir una imagen JPEG, el componente de luminancia conserva la totalidad de su resolución, mientras que la resolución de los componentes de color se disminuye mediante promedios de grupos de píxeles. La disminución de resolución le resta una mitad o un tercio al volumen de los datos sin tener casi ningún impacto en la calidad percibida. La disminución de resolución no se aplica a las imágenes en escala de grises. Esta técnica reduce la cantidad de compresión, lo cual resulta útil para las imágenes de mayor contraste (por ejemplo, las imágenes con texto superpuesto).
+
    * Opciones PDF y TIFF
 
       * **[!UICONTROL Compresión]** - Seleccione un algoritmo de compresión.
-
-
 
 * **[!UICONTROL Colorspace]** - Seleccione un espacio de color.
 
 * **[!UICONTROL Enfoque]** - Seleccione la opción Activar enfoque simple para aplicar un filtro de enfoque básico a la imagen después de que se produzca todo el escalado. El enfoque puede ayudar a ver mejor las imágenes borrosas que se obtienen al mostrar una imagen en un tamaño diferente. 
 
-   Para obtener más información sobre el enfoque, los modos de remuestreo y el enmascaramiento de enfoque, consulte [Enfoque de una imagen](sharpening-image.md#sharpening_an_image). Consulte también [Enfoque](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS) vídeo de formación.
+  Para obtener más información sobre el enfoque, los modos de remuestreo y el enmascaramiento de enfoque, consulte [Enfoque de una imagen](sharpening-image.md#sharpening_an_image). Consulte también [Enfoque](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS) vídeo de formación.
 
 * **[!UICONTROL Modo de remuestreo]** - Seleccione una opción de modo de remuestreo. Estas opciones pueden enfocar la imagen cuando se disminuye su resolución:
 
@@ -223,7 +225,7 @@ En las pantallas de adición y edición de ajustes preestablecidos, encontrará 
 
 * **[!UICONTROL Enfocado2]** - Puede producir resultados algo más nítidos que la opción Bicúbico, pero con un coste de CPU aún mayor en el servidor de imágenes.
 
-* **[!UICONTROL Trilineal]** : Utiliza resoluciones más altas y más bajas, si está disponible; recomendado solo cuando el solapamiento es un problema. Este método reduce el tamaño JPEG debido a la reducción de datos de alta frecuencia.
+* **[!UICONTROL Trilineal]** : utiliza resoluciones más altas y más bajas, si están disponibles; se recomienda solo cuando el solapamiento es un problema. Este método reduce el tamaño JPEG debido a la reducción de datos de alta frecuencia.
 
 * **[!UICONTROL Máscara de enfoque]** - Elija estas opciones para ajustar el enfoque:
 
@@ -239,7 +241,7 @@ En las pantallas de adición y edición de ajustes preestablecidos, encontrará 
 
 * **[!UICONTROL Perfil de color de salida]** - Seleccionar **[!UICONTROL Usar valor predeterminado]** o uno de los perfiles de color ICC disponibles en Adobe Dynamic Media Classic.
 
-   Consulte también [Perfiles ICC](icc-profiles.md#icc_profiles).
+  Consulte también [Perfiles ICC](icc-profiles.md#icc_profiles).
 
 * **[!UICONTROL Interpretación]** : seleccione una opción si desea anular la interpretación predeterminada del perfil de color. Utilice esta opción cuando uno de los perfiles ICC predeterminados sea el espacio de color de destino de una conversión de color. O bien, un dispositivo de salida (impresora o monitor) está caracterizado por este perfil y la interpretación especificada es válida para este perfil.
 
@@ -292,19 +294,19 @@ Para seleccionar un ajuste preestablecido de codificación, en la esquina inferi
 
    * **[!UICONTROL Vídeo adaptable]** : Un solo ajuste preestablecido de codificación que funciona con cualquier relación de aspecto para crear vídeos para su envío a móviles, tabletas y equipos de escritorio. Los vídeos originales cargados que se hayan codificado con este ajuste preestablecido se definirán con una altura fija. Sin embargo, la anchura se escalará automáticamente para mantener la proporción de aspecto del vídeo.
 
-      Esta flexibilidad de tener una “Escala automática” también está disponible de forma predeterminada al crear su propio ajuste preestablecido de codificación de vídeo personalizado.
+     Esta flexibilidad de tener una “Escala automática” también está disponible de forma predeterminada al crear su propio ajuste preestablecido de codificación de vídeo personalizado.
 
-      Consulte [Añadir o editar un ajuste preestablecido de codificación de vídeo](uploading-encoding-videos.md#adding_or_editing_a_video_encoding_preset).
+     Consulte [Añadir o editar un ajuste preestablecido de codificación de vídeo](uploading-encoding-videos.md#adding_or_editing_a_video_encoding_preset).
 
    * **[!UICONTROL Codificación de vídeo adaptable (16:9 o 4:3)]** : Cree vídeos con una relación de aspecto de 16:9 y 4:3 para enviarlos a equipos de escritorio, dispositivos móviles (iPhone, iPad, Android™) y tabletas (iPad, Android™). Todo optimizado con la resolución y velocidad de bits que mejor se adapta a la velocidad de conexión del visor.
 
-      Consulte [Ajustes preestablecidos de vídeo de codificación de vídeo adaptable (16:9 o 4:3)](application-setup.md#adaptive_video_encoding_16_9_or_4_3_video_presets)
+     Consulte [Ajustes preestablecidos de vídeo de codificación de vídeo adaptable (16:9 o 4:3)](application-setup.md#adaptive_video_encoding_16_9_or_4_3_video_presets)
 
    * **[!UICONTROL Ajustes preestablecidos de codificación única]**
 
-      >[!NOTE]
-      >
-      >Para enviar vídeo a los iPads, puede seleccionar un ajuste preestablecido de codificación móvil o Tablet. Los ajustes preestablecidos Tablet están diseñados específicamente para iPad, normalmente con mayor resolución y calidad para aprovechar el tamaño de pantalla más grande y la conexión de ancho de banda más alta. La publicación de archivos de vídeo codificados con un ajuste preestablecido Tablet requiere la inclusión de código de detección de dispositivo en la aplicación o sitio móvil. Este código cambia entre la visualización de vídeo en iPhone o iPad, según el dispositivo de reproducción. Si se selecciona un ajuste preestablecido Móvil para la publicación de archivos de vídeo en iPad, el flujo de trabajo es más simple. El motivo es que puede utilizar el mismo archivo de vídeo para iPhone e iPad. Sin embargo, la calidad se estandariza a la visualización de iPhone de menor resolución.
+     >[!NOTE]
+     >
+     >Para enviar vídeo a los iPads, puede seleccionar un ajuste preestablecido de codificación móvil o Tablet. Los ajustes preestablecidos Tablet están diseñados específicamente para iPad, normalmente con mayor resolución y calidad para aprovechar el tamaño de pantalla más grande y la conexión de ancho de banda más alta. La publicación de archivos de vídeo codificados con un ajuste preestablecido Tablet requiere la inclusión de código de detección de dispositivo en la aplicación o sitio móvil. Este código cambia entre la visualización de vídeo en iPhone o iPad, según el dispositivo de reproducción. Si se selecciona un ajuste preestablecido Móvil para la publicación de archivos de vídeo en iPad, el flujo de trabajo es más simple. El motivo es que puede utilizar el mismo archivo de vídeo para iPhone e iPad. Sin embargo, la calidad se estandariza a la visualización de iPhone de menor resolución.
 
       * En el grupo Ajustes preestablecidos de codificación, en la lista desplegable Ordenar valores preestablecidos de codificación, seleccione Nombre o Tamaño para ordenar los ajustes preestablecidos por el nombre o el tamaño de resolución.
       * Seleccione un ajuste preestablecido de codificación basado en el tamaño de resolución y el ancho de banda con el que planea reproducir el vídeo.
@@ -558,29 +560,29 @@ La pantalla Ajustes preestablecidos de visor ofrece una serie de herramientas pa
 
 * **Añadir un ajuste preestablecido** - Seleccionar **[!UICONTROL Añadir]** y realice opciones en el cuadro de diálogo Agregar ajuste preestablecido de visualizador.
 
-       Consulte [Añadir y editar ajustes preestablecidos del visualizador](application-setup.md#adding_and_editing_viewer_presets).
-   
+      Consulte [Añadir y editar ajustes preestablecidos del visualizador](application-setup.md#adding_and_editing_viewer_presets).
+  
 * **Editar un ajuste preestablecido** - Seleccione un ajuste preestablecido y, a continuación, seleccione **[!UICONTROL Editar]**.
 
-       Consulte [Añadir y editar ajustes preestablecidos del visualizador](application-setup.md#adding_and_editing_viewer_presets).
-   
+      Consulte [Añadir y editar ajustes preestablecidos del visualizador](application-setup.md#adding_and_editing_viewer_presets).
+  
 * **Eliminar un ajuste preestablecido** - Seleccione un ajuste preestablecido y, a continuación, seleccione **[!UICONTROL Eliminar]**.
 
 * **Exportación de un ajuste preestablecido** - Seleccione un ajuste preestablecido de visualizador de HTML5 y, a continuación, seleccione **[!UICONTROL Exportar]** para descargar la apariencia del visualizador y utilizarlo como base para crear y agregar otro ajuste preestablecido de visualizador.
 
-       Consulte [Exportar un ajuste preestablecido de visualizador de HTML5](application-setup.md#export_an_html5_viewer_preset).
-   
+      Consulte [Exportar un ajuste preestablecido de visualizador de HTML5](application-setup.md#export_an_html5_viewer_preset).
+  
 * **Filtrar la lista de ajustes preestablecidos de visor** - Utilice estas herramientas para filtrar la lista:
 
-       * Abra la lista desplegable **Activo/Inactivo** y seleccione una opción para mostrar los ajustes preestablecidos activos, inactivos o todos los ajustes preestablecidos.
-       * Abra la lista desplegable **Visor** y seleccione una opción para ver solo los visualizadores de un tipo determinado. Seleccionar **[!UICONTROL Todos los visores]** ver todos los visualizadores.
-   
+      * Abra la lista desplegable **Activo/Inactivo** y seleccione una opción para mostrar los ajustes preestablecidos activos, inactivos o todos los ajustes preestablecidos.
+      * Abra la lista desplegable **Visor** y seleccione una opción para ver solo los visualizadores de un tipo determinado. Seleccionar **[!UICONTROL Todos los visores]** ver todos los visualizadores.
+  
 * **Ordenar ajustes preestablecidos** - Seleccionar un encabezado de columna (**[!UICONTROL Activo]**, **[!UICONTROL Tipo]**, **[!UICONTROL Preestablecido]**, o **[!UICONTROL Plataforma]**) para ordenar la lista en una columna. Seleccione un encabezado de columna por segunda vez para ordenar la lista en orden descendente (o ascendente).
 
 * **Activar y desactivar ajustes preestablecidos** : seleccione un ajuste preestablecido y, a continuación, seleccione su opción Activa para activarlo o desactivarlo.
 
-       Consulte [Activar o desactivar ajustes preestablecidos de visor](application-setup.md#activating_or_deactivating_viewer_presets).
-   
+      Consulte [Activar o desactivar ajustes preestablecidos de visor](application-setup.md#activating_or_deactivating_viewer_presets).
+  
 >[!NOTE]
 >
 >Seleccionar **[!UICONTROL Previsualizar]** en la parte derecha de la página Ajustes preestablecidos de visualizador, para que pueda ver el aspecto de un recurso en el Ajuste preestablecido de visualizador que ha seleccionado. Para ver un recurso diferente, seleccione **[!UICONTROL Examinar]** en la página Ajustes preestablecidos de visualizador y seleccione un recurso diferente en el cuadro de diálogo Seleccionar previsualización de recurso.
@@ -603,12 +605,12 @@ Consulte también [Ajustes preestablecidos de visor](https://s7d5.scene7.com/s7v
 
    * **Añadir** - En la barra de herramientas, seleccione **[!UICONTROL Añadir]**. En el cuadro de diálogo Agregar ajuste preestablecido de visualizador, seleccione una plataforma y un tipo de recurso de medios enriquecidos.
 
-          Seleccionar **[!UICONTROL Guardar como]** cuando haya terminado de crear el ajuste preestablecido del visor.
-      
+         Seleccionar **[!UICONTROL Guardar como]** cuando haya terminado de crear el ajuste preestablecido del visor.
+     
    * **Añadir empezando desde un ajuste preestablecido de visor existente** - En la tabla, seleccione un ajuste preestablecido de visualizador de vídeo y, a continuación, seleccione **[!UICONTROL Editar]** en la barra de herramientas.
 
-          Después de volver a configurar el Visor de vídeo, seleccione **[!UICONTROL Guardar como]** guardar el ajuste preestablecido con un nombre diferente en el campo de texto Nombre del ajuste preestablecido.
-      
+         Después de volver a configurar el Visor de vídeo, seleccione **[!UICONTROL Guardar como]** guardar el ajuste preestablecido con un nombre diferente en el campo de texto Nombre del ajuste preestablecido.
+     
    * **Editar** - Seleccione un ajuste preestablecido de visor existente y, a continuación, seleccione **[!UICONTROL Editar]**.
 
 1. En la pantalla Configurar visor, en el campo Nombre del ajuste preestablecido, introduzca o edite el nombre del ajuste preestablecido.
@@ -696,9 +698,11 @@ La URL se copiará en el portapapeles. Podrá utilizarla como sea necesario en e
    En la página Lista de visualizadores, en la columna Acciones de la tabla, seleccione **[!UICONTROL Copiar URL]**.
 
    * Seleccionar **[!UICONTROL Vista de lista]**. En el panel Examinar recursos, seleccione un solo recurso y, a continuación, a la derecha de la imagen en miniatura, vaya a **[!UICONTROL Previsualizar]** > **[!UICONTROL Lista del visor]**.
+
    En la página Lista de visualizadores, en la columna Acciones de la tabla, seleccione **[!UICONTROL Copiar URL]**.
 
    * Seleccionar **[!UICONTROL Vista de cuadrícula]**, **[!UICONTROL Vista de lista]**, o **[!UICONTROL Vista de detalles]**. En la misma barra de herramientas, vaya a **[!UICONTROL Previsualizar]** > **[!UICONTROL Lista del visor]**.
+
    En la página Lista de visualizadores, en la columna Acciones de la tabla, seleccione **[!UICONTROL Copiar URL]**.
 
 ### Copiar el código de incrustación de un ajuste preestablecido de visor {#copying-the-embed-code-of-a-viewer-preset}
@@ -718,9 +722,11 @@ No se permite la edición del código en el cuadro de diálogo Código incrustad
    En la página Lista de visualizadores, en la columna Acciones de la tabla, seleccione **[!UICONTROL Código incrustado]**.
 
    * Seleccionar **[!UICONTROL Vista de lista]**. En el panel Examinar recursos, seleccione un solo recurso y, a continuación, a la derecha de la imagen en miniatura, vaya a **[!UICONTROL Previsualizar]** > **[!UICONTROL Lista del visor]**.
+
    En la página Lista de visualizadores, en la columna Acciones de la tabla, seleccione **[!UICONTROL Código incrustado]**.
 
    * Seleccionar **[!UICONTROL Vista de cuadrícula]**, **[!UICONTROL Vista de lista]**, o **[!UICONTROL Vista de detalles]**. En la misma barra de herramientas, vaya a **[!UICONTROL Previsualizar]** > **[!UICONTROL Lista del visor]**.
+
    En la página Lista de visualizadores, en la columna Acciones de la tabla, seleccione **[!UICONTROL Código incrustado]**.
 
 1. En el cuadro de diálogo Código incrustado, seleccione **[!UICONTROL Copiar al portapapeles]**.
@@ -848,9 +854,9 @@ Un uso efectivo de los campos de metadatos personalizables es retardar el tiempo
 
    * **[!UICONTROL Se aplica a]** - Si lo desea, seleccione un tipo de recurso si desea que el campo de metadatos se aplique únicamente a un tipo específico de recurso.
 
-      >[!NOTE]
-      >
-      >Seleccione un **[!UICONTROL Se aplica a]** con cuidado, ya que no puede cambiar la **[!UICONTROL Se aplica a]** después de crear un campo definido por el usuario. Adobe Dynamic Media Classic permite editar el nombre, el tipo y el valor predeterminado de un campo definido por el usuario, pero no el **[!UICONTROL Se aplica a]** configuración. *
+     >[!NOTE]
+     >
+     >Seleccione un **[!UICONTROL Se aplica a]** con cuidado, ya que no puede cambiar la **[!UICONTROL Se aplica a]** después de crear un campo definido por el usuario. Adobe Dynamic Media Classic permite editar el nombre, el tipo y el valor predeterminado de un campo definido por el usuario, pero no el **[!UICONTROL Se aplica a]** configuración. *
 
 1. Seleccionar **[!UICONTROL Guardar]** cuando termine de crear el campo de metadatos.
 
@@ -1024,4 +1030,3 @@ Cuando se cargue y publique el conjunto de giros, se activará el nombre de la f
 >* [Configurar ajustes preestablecidos de imagen](setting-image-presets.md#setting_up_image_presets)
 >* [Visualización, adición y exportación de metadatos](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
 >* [Comprobar archivos de trabajo](checking-job-files.md#checking_job_files)
-

@@ -10,7 +10,9 @@ discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 feature: Dynamic Media Classic
 role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Experienced
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '3469'
 ht-degree: 44%
@@ -103,9 +105,9 @@ Utilice estas herramientas en la pantalla Plantilla para poder crear plantillas:
 
 * **[!UICONTROL Editor de texto v4.3 y Editor de texto v4.2]** - Puede elegir utilizar el editor de texto más reciente y con más funciones, el Editor de texto v4.3, o el editor de texto anterior, Editor de texto v4.2. Al crear plantillas, Editor de texto v4.3 está seleccionado de forma predeterminada. Al editar plantillas antiguas, se seleccionará por defecto el Editor de texto 4.2. El Editor de texto v4.3 no admite el ajuste de palabras, de modo que si desea editar plantillas antiguas que utilicen ajuste de palabras, deberá utilizar el Editor de texto v4.2 para mantener intacta la fidelidad de la plantilla. Si la plantilla anterior no utiliza ajuste de línea, puede elegir Editor de texto v4.3 para aprovechar las numerosas funciones nuevas que ofrece. Por ejemplo, Aumentar márgenes, Reducir márgenes, Definir texto en mayúsculas y Copiar texto de ajuste.
 
-   >[!NOTE]
-   >
-   >Se ha planificado la eliminación del Editor de texto v4.2 como opción en Adobe Dynamic Media Classic, por lo que se recomienda utilizar el Editor de texto 4.3 cuando sea posible. El **[!UICONTROL Ajuste de palabras]** se incorporará a una versión futura del Editor de texto.
+  >[!NOTE]
+  >
+  >Se ha planificado la eliminación del Editor de texto v4.2 como opción en Adobe Dynamic Media Classic, por lo que se recomienda utilizar el Editor de texto 4.3 cuando sea posible. El **[!UICONTROL Ajuste de palabras]** se incorporará a una versión futura del Editor de texto.
 
 * **[!UICONTROL Diseñador y desarrollador]** : seleccione la opción que mejor describa su función.
 

@@ -10,7 +10,9 @@ discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 52%
@@ -41,17 +43,17 @@ Consulte también [Creación de un alias para una imagen](adjusting-image.md#cre
 
    * Para reemplazar la imagen original, seleccione **[!UICONTROL Guardar como]**.
 
-      En la lista desplegable, seleccione **[!UICONTROL Reemplazar original]**, y luego seleccione **[!UICONTROL Guardar]**.
+     En la lista desplegable, seleccione **[!UICONTROL Reemplazar original]**, y luego seleccione **[!UICONTROL Guardar]**.
 
    * Para guardar la imagen como una nueva imagen principal, seleccione **[!UICONTROL Guardar como]**.
 
-      En la lista desplegable, seleccione **[!UICONTROL Guardar como nuevo elemento principal]**.
+     En la lista desplegable, seleccione **[!UICONTROL Guardar como nuevo elemento principal]**.
 En el **[!UICONTROL Nombre de carpeta]** , seleccione la carpeta en la que desea guardar la nueva imagen principal.
 Seleccionar **[!UICONTROL Guardar]**.
 
    * Para guardar la imagen como otra vista de la imagen principal. puede crear un alias. Seleccionar **[!UICONTROL Guardar como]**.
 
-      En el **[!UICONTROL Guardar como]** , en la lista desplegable, seleccione **[!UICONTROL Guardar como otra vista del patrón]**.
+     En el **[!UICONTROL Guardar como]** , en la lista desplegable, seleccione **[!UICONTROL Guardar como otra vista del patrón]**.
 En el **[!UICONTROL Nombre de carpeta]** , seleccione la carpeta en la que desea guardar la nueva imagen principal.
 Seleccionar **[!UICONTROL Guardar]**.
 

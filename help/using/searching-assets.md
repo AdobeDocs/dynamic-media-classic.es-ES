@@ -10,7 +10,9 @@ discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 19%
@@ -113,11 +115,11 @@ Siga estos pasos para poder localizar los recursos filtrándolos con sus valores
 
    * **Elija un campo de metadatos.** - Seleccione el nombre del campo en el menú de filtrado.
 
-      >[!NOTE]
-      >
-      >En el menú de filtrado solo aparecen los nombres de los campos de metadatos de la vista de metadatos predeterminada.
+     >[!NOTE]
+     >
+     >En el menú de filtrado solo aparecen los nombres de los campos de metadatos de la vista de metadatos predeterminada.
 
-      Consulte [Vistas de metadatos](application-setup.md#metadata_views).
+     Consulte [Vistas de metadatos](application-setup.md#metadata_views).
 
    * **Añadir un campo de metadatos** - Seleccionar **[!UICONTROL Agregar un panel]**. Una vez que el panel aparezca en el panel Filtros, seleccione su **[!UICONTROL Campo]** y elija el nombre de un campo de metadatos en el menú de filtrado.
 
@@ -127,7 +129,6 @@ Siga estos pasos para poder localizar los recursos filtrándolos con sus valores
 
    * Todos los valores de metadatos introducidos en el campo.
    * Para cada valor de metadatos, el número de recursos a los que se les ha dado el valor.
-
 
 1. Repita el paso 2 tantas veces como sea necesario para mostrar en los paneles todos los campos de metadatos para la operación de filtrado.
 1. En cada panel, seleccione un valor de metadatos con el que realizar la operación de filtrado. No se puede seleccionar más de un valor de metadatos en cada panel.
@@ -172,4 +173,3 @@ Seleccionar **[!UICONTROL Publicar ahora]** para iniciar el trabajo. Aparece una
 >
 >* [Nociones básicas de navegación](navigation-basics.md#navigation_basics)
 >* [Visualización, adición y exportación de metadatos](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
-

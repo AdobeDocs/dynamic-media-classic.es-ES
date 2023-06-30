@@ -10,7 +10,9 @@ discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '1003'
 ht-degree: 26%
@@ -34,12 +36,12 @@ Estas opciones están disponibles al cargar archivos PSD:
 * **Opciones de recorte** - Situado debajo de **[!UICONTROL Opciones de recorte]**. Seleccionar **[!UICONTROL Recortar]** para recortar automáticamente el espacio en blanco de los bordes de un archivo de PSD; seleccione **[!UICONTROL Manual]** para recortar lados del archivo PSD:
 
    * **[!UICONTROL Recortar]** - Seleccione el **[!UICONTROL Recortar basándose en]** y elija. **[!UICONTROL Color]** o **[!UICONTROL Transparencia]**.
-   Si elige la **[!UICONTROL Color]** , seleccione el menú Esquina y elija la esquina del PSD con el color que mejor represente el color del espacio en blanco que desea recortar.
 
-   Arrastre el control deslizante para especificar una tolerancia de 0 a 1. Para un recorte basado en color, especifique 0 para recortar píxeles solo si coinciden exactamente con el color seleccionado en la esquina del PSD. Los números más cercanos a 1 permiten una mayor diferencia de color. Para recortar según la transparencia, especifique 0 para recortar píxeles solo si son transparentes; los números más cercanos a 1 permiten una mayor transparencia.
+  Si elige la **[!UICONTROL Color]** , seleccione el menú Esquina y elija la esquina del PSD con el color que mejor represente el color del espacio en blanco que desea recortar.
+
+  Arrastre el control deslizante para especificar una tolerancia de 0 a 1. Para un recorte basado en color, especifique 0 para recortar píxeles solo si coinciden exactamente con el color seleccionado en la esquina del PSD. Los números más cercanos a 1 permiten una mayor diferencia de color. Para recortar según la transparencia, especifique 0 para recortar píxeles solo si son transparentes; los números más cercanos a 1 permiten una mayor transparencia.
 
    * **[!UICONTROL Manual]** : introduzca el número de píxeles que desea recortar de cualquier lado o de cada lado de la imagen. La cantidad de imagen que se recorte dependerá del valor ppp (píxeles por pulgada) en el archivo de imagen. Por ejemplo, si la imagen muestra 150 ppp y escribe 75 en los cuadros de texto Superior, Derecho, Inferior e Izquierdo, 0,5 pda. se recorta de cada lado de la imagen.
-
 
 * **Opciones de perfil de color** - Situado debajo de **[!UICONTROL Opciones de perfil de color]**.
 
@@ -66,8 +68,8 @@ Estas opciones están disponibles al cargar archivos PSD:
       * **[!UICONTROL Photoshop y número de capa]** - Nombra las imágenes después de sus números de capa en el archivo PSD, ignorando los nombres de capa originales. Las imágenes reciben el nombre del archivo de Photoshop y un sufijo de número de capa. Por ejemplo, la segunda capa de un archivo llamado `Spring Ad.psd` se llama `Spring Ad_2` incluso si tenía un nombre no predeterminado en Photoshop.
 
       * **[!UICONTROL Photoshop y nombre de capa]** - Nombra las imágenes después del archivo de PSD seguido del nombre o número de capa. El número de capa se utiliza si los nombres de capa en el archivo PSD son nombres de capa predeterminados de Photoshop. Por ejemplo, una capa denominada `Price Tag` en un archivo de PSD llamado `SpringAd` se llama `Spring Ad_Price Tag`. Se llama a una capa con el nombre predeterminado Capa 2 `Spring Ad_2`.
-   * **[!UICONTROL Anclaje]** - Especificar cómo se anclan las imágenes en las plantillas generadas a partir de la maquetación por capas producida a partir del fichero PSD. De forma predeterminada, el anclaje es al centro. Un anclaje central permite la sustitución de imágenes para rellenar mejor el mismo espacio, independientemente de la proporción de la imagen de sustitución. Las imágenes con una proporción diferente que sustituyan esta imagen, al hacer referencia a la plantilla y usar la sustitución paramétrica, ocuparán el mismo espacio. Cambie a otra configuración si la aplicación requiere que las imágenes de sustitución rellenen el espacio asignado en la plantilla.
 
+   * **[!UICONTROL Anclaje]** - Especificar cómo se anclan las imágenes en las plantillas generadas a partir de la maquetación por capas producida a partir del fichero PSD. De forma predeterminada, el anclaje es al centro. Un anclaje central permite la sustitución de imágenes para rellenar mejor el mismo espacio, independientemente de la proporción de la imagen de sustitución. Las imágenes con una proporción diferente que sustituyan esta imagen, al hacer referencia a la plantilla y usar la sustitución paramétrica, ocuparán el mismo espacio. Cambie a otra configuración si la aplicación requiere que las imágenes de sustitución rellenen el espacio asignado en la plantilla.
 
 ## Visualización y edición de capas en un archivo de PSD {#viewing-and-editing-layers-in-a-psd-file}
 
