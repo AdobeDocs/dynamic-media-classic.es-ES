@@ -1,18 +1,16 @@
 ---
 title: Visualización de recursos en el panel Examinar
 description: Aprenda a utilizar el panel Examinar para ver los recursos en Adobe Dynamic Media Classic.
-uuid: 677b1838-0bbe-4922-92a5-6e7d9030edb9
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: feab1194-a98c-4a18-812c-7e2e537ca488
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4d38a224-5e06-4932-a801-5dcc32fe4b31
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: c7e500d8112779147e9dfcdd46ad335b1a997fe8
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 26%
