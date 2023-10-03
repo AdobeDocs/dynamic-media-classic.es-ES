@@ -10,10 +10,10 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '11299'
-ht-degree: 40%
+source-wordcount: '11297'
+ht-degree: 38%
 
 ---
 
@@ -23,7 +23,7 @@ Puede utilizar las páginas de configuración de la aplicación para introducir 
 
 >[!NOTE]
 >
->Solamente los administradores de Adobe Dynamic Media Classic pueden cambiar la configuración en las páginas de Configuración de la aplicación.
+>Solo los administradores de Adobe Dynamic Media Classic pueden cambiar la configuración de las páginas en Configuración de la aplicación.
 
 ## Configuración general {#general-settings}
 
@@ -115,7 +115,7 @@ Consulte también [Prueba del servicio Secure Testing](testing-assets-making-the
 
 Consulte también [Opciones de trabajo de carga predeterminadas](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/569_Default%20Job%20Options_converted%20renamed_Getting%20Started-AVS) vídeo de formación.
 
-* **[!UICONTROL Sobrescribir imágenes]** : Adobe Dynamic Media Classic no permite que dos archivos tengan el mismo nombre. El Adobe Dynamic Media Classic ID de cada elemento (el nombre de imagen menos la extensión del nombre de archivo) debe ser único. Debido a esta regla, el cuadro de diálogo Cargar dispone de una opción Sobrescribir. El efecto exacto de esta opción depende de la opción Sobrescribir imágenes especificada. Estas opciones especifican cómo se cargan las imágenes de sustitución: si sustituyen las imágenes originales o si se convierten en imágenes duplicadas. En el caso de las imágenes duplicadas, se cambia su nombre agregando “-1” (por ejemplo, el nombre silla.tif se cambia a silla-1.tif). Estas opciones también afectan a las imágenes cargadas en una carpeta distinta de la original o a las imágenes con una extensión de nombre de archivo diferente de la original (como JPG, TIF o PNG). Consulte [Utilizar la opción Sobrescribir imágenes](#using-the-overwrite-images-option).
+* **[!UICONTROL Sobrescribir imágenes]** : Adobe Dynamic Media Classic no permite que dos archivos tengan el mismo nombre. El Adobe Dynamic Media Classic ID de cada elemento (el nombre de imagen menos la extensión del nombre de archivo) debe ser único. Debido a esta regla, el cuadro de diálogo Cargar dispone de una opción Sobrescribir. El efecto exacto de esta opción depende de la opción Sobrescribir imágenes especificada. Estas opciones especifican cómo se cargan las imágenes de sustitución: si sustituyen las imágenes originales o si se convierten en imágenes duplicadas. Las imágenes duplicadas cambian de nombre con &quot;-1&quot; (por ejemplo, chair.tif cambia de nombre chair-1.tif). Estas opciones también afectan a las imágenes cargadas en una carpeta distinta de la original o a las imágenes con una extensión de nombre de archivo diferente de la original (como JPG, TIF o PNG). Consulte [Utilizar la opción Sobrescribir imágenes](#using-the-overwrite-images-option).
 
    * **[!UICONTROL Sobrescribir en la carpeta actual, mismo nombre/extensión de la imagen base]** : Esta opción es la regla más estricta para el reemplazo. Exige que la imagen de sustitución se cargue en la misma carpeta y tenga la misma extensión de nombre de archivo que la imagen original. Si no se cumplen estos requisitos, se crea un duplicado.
 
@@ -139,7 +139,7 @@ Consulte también [Opciones de trabajo de carga predeterminadas](https://s7d5.sc
 
 ### Otras opciones, a aplicación
 
-* **[!UICONTROL Las Advertencias De La Papelera Pueden Limpiar]** - Los recursos de la papelera se eliminan automáticamente en un plazo de siete días. Seleccione “Enviar correos electrónicos antes de que los elementos de la papelera se eliminen automáticamente” si desea que se envíen notificaciones a los administradores de la empresa cuando falten cuatro días para que los recursos que hay en la papelera se eliminen de forma permanente. Consulte [Administrar la carpeta Papelera](/help/using/trash-folder.md).
+* **[!UICONTROL Las Advertencias De La Papelera Pueden Limpiar]** - Los recursos de la papelera se eliminan automáticamente en un plazo de siete días. Seleccione &quot;Enviar correos electrónicos antes de que los elementos de la papelera se eliminen automáticamente&quot; si desea que se envíen notificaciones a los administradores de la empresa cuando falten cuatro días para que los recursos de la papelera se eliminen de forma permanente. Consulte [Administrar la carpeta Papelera](/help/using/trash-folder.md).
 
 ## Utilizar la opción Sobrescribir imágenes {#using-the-overwrite-images-option}
 
@@ -193,7 +193,7 @@ En las pantallas de adición y edición de ajustes preestablecidos, encontrará 
 
    * Opciones de Cuantificación de color GIF
 
-      * **[!UICONTROL Tipo]** : seleccione Adaptable (opción predeterminada), Web o Macintosh. Si selecciona **[!UICONTROL GIF con alfa]**, la opción Macintosh no está disponible.
+      * **[!UICONTROL Tipo]** : seleccione Adaptable (opción predeterminada), Web o Macintosh. Si selecciona **[!UICONTROL GIF con Alpha]**, la opción Macintosh no está disponible.
 
       * **[!UICONTROL Tramado]** - Seleccione Difuso o Desactivado.
 
@@ -205,7 +205,7 @@ En las pantallas de adición y edición de ajustes preestablecidos, encontrará 
 
       * **[!UICONTROL Calidad]** - Controla el nivel de compresión del JPEG. Esta configuración afecta tanto al tamaño como a la calidad de la imagen. La escala de calidad JPEG es 1-100.
 
-      * **[!UICONTROL Activar disminución de resolución de crominancia de JPG]** - Dado que el ojo es menos sensible a la información de color de alta frecuencia que la luminancia de alta frecuencia, las imágenes JPEG dividen la información de la imagen en componentes de luminancia y color. Al comprimir una imagen JPEG, el componente de luminancia conserva la totalidad de su resolución, mientras que la resolución de los componentes de color se disminuye mediante promedios de grupos de píxeles. La disminución de resolución le resta una mitad o un tercio al volumen de los datos sin tener casi ningún impacto en la calidad percibida. La disminución de resolución no se aplica a las imágenes en escala de grises. Esta técnica reduce la cantidad de compresión, lo cual resulta útil para las imágenes de mayor contraste (por ejemplo, las imágenes con texto superpuesto).
+      * **[!UICONTROL Activar disminución de resolución de crominancia de JPG]** - Dado que el ojo es menos sensible a la información de color de alta frecuencia que la luminancia de alta frecuencia, las imágenes JPEG dividen la información de la imagen en componentes de luminancia y color. Al comprimir una imagen JPEG, el componente de luminancia conserva la totalidad de su resolución, mientras que la resolución de los componentes de color se disminuye mediante promedios de grupos de píxeles. La disminución de la resolución reduce el volumen de datos en la mitad o en un tercio, y casi no afecta a la calidad percibida. La disminución de resolución no se aplica a las imágenes en escala de grises. Esta técnica reduce la cantidad de compresión, lo cual resulta útil para las imágenes de mayor contraste (por ejemplo, las imágenes con texto superpuesto).
 
    * Opciones PDF y TIFF
 
@@ -225,7 +225,7 @@ En las pantallas de adición y edición de ajustes preestablecidos, encontrará 
 
 * **[!UICONTROL Enfocado2]** - Puede producir resultados algo más nítidos que la opción Bicúbico, pero con un coste de CPU aún mayor en el servidor de imágenes.
 
-* **[!UICONTROL Trilineal]** : utiliza resoluciones más altas y más bajas, si están disponibles; se recomienda solo cuando el solapamiento es un problema. Este método reduce el tamaño JPEG debido a la reducción de datos de alta frecuencia.
+* **[!UICONTROL Trilineal]** : Utiliza resoluciones más altas y más bajas, si está disponible; recomendado solo cuando el solapamiento es un problema. Este método reduce el tamaño JPEG debido a la reducción de datos de alta frecuencia.
 
 * **[!UICONTROL Máscara de enfoque]** - Elija estas opciones para ajustar el enfoque:
 
@@ -266,7 +266,7 @@ En las pantallas de adición y edición de ajustes preestablecidos, encontrará 
 
 Adobe Dynamic Media Classic ofrece ajustes preestablecidos de codificación de vídeo adaptable. Es una lista principal de ajustes preestablecidos que combina ajustes preestablecidos de vídeo adaptable 16:9 y ajustes preestablecidos de vídeo adaptable 4:3 en un grupo. Estos ajustes preestablecidos predefinidos reflejan la configuración de codificación más común y se han optimizado para la reproducción en dispositivos móviles, tablets y escritorios.
 
-De forma predeterminada solo se activan (habilitan o “encienden”) los ajustes preestablecidos de codificación de “Vídeo adaptable”. Puede desactivarlos, si lo desea. Los ajustes preestablecidos de vídeos adaptables inactivos no aparecen como una opción seleccionable en la sección eVideo del cuadro de diálogo Opciones de trabajo de carga.
+Solo los ajustes preestablecidos de codificación de &quot;Vídeo adaptable&quot; están activados (habilitados o &quot;activados&quot;) de forma predeterminada. Puede desactivarlos, si lo desea. Los ajustes preestablecidos de vídeos adaptables inactivos no aparecen como una opción seleccionable en la sección eVideo del cuadro de diálogo Opciones de trabajo de carga.
 
 Consulte [Carga y codificación de vídeos](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
@@ -292,9 +292,9 @@ Para seleccionar un ajuste preestablecido de codificación, en la esquina inferi
 
    * **[!UICONTROL Vídeo adaptable 4:3]** : Cree vídeos de relación de aspecto 4:3 para su entrega a equipos de escritorio, dispositivos móviles (iPhone, iPad, Android™) y tabletas (iPad, Android™), optimizados con la resolución y la velocidad de bits que mejor se adapten a la velocidad de conexión del visualizador.
 
-   * **[!UICONTROL Vídeo adaptable]** : Un solo ajuste preestablecido de codificación que funciona con cualquier relación de aspecto para crear vídeos para su envío a móviles, tabletas y equipos de escritorio. Los vídeos originales cargados que se hayan codificado con este ajuste preestablecido se definirán con una altura fija. Sin embargo, la anchura se escalará automáticamente para mantener la proporción de aspecto del vídeo.
+   * **[!UICONTROL Vídeo adaptable]** - Un ajuste preestablecido de codificación única que funciona con cualquier relación de aspecto para crear vídeos para su envío a dispositivos móviles, tabletas y de escritorio. Los vídeos originales cargados que se hayan codificado con este ajuste preestablecido se definirán con una altura fija. Sin embargo, la anchura se amplía automáticamente para conservar la relación de aspecto del vídeo.
 
-     Esta flexibilidad de tener una “Escala automática” también está disponible de forma predeterminada al crear su propio ajuste preestablecido de codificación de vídeo personalizado.
+     Esta flexibilidad de tener una &quot;Escala automática&quot; también está disponible de forma predeterminada al crear su propio ajuste preestablecido de codificación de vídeo personalizado.
 
      Consulte [Añadir o editar un ajuste preestablecido de codificación de vídeo](uploading-encoding-videos.md#adding_or_editing_a_video_encoding_preset).
 
@@ -334,14 +334,14 @@ En las siguientes tablas se muestran las mejores prácticas recomendadas para se
 
 ### Vídeo adaptable (predeterminado) {#adaptive-video-default}
 
-Un ajuste preestablecido de codificación que funciona con cualquier proporción de aspecto para crear vídeos para su distribución en teléfonos móviles, tablets y equipos de escritorio. Los vídeos originales cargados que se codifiquen con este ajuste preestablecido (valor predeterminado y una práctica recomendada) se definen con una altura fija, mientras que la anchura se escala automáticamente para mantener la proporción de aspecto del vídeo.
+Un ajuste preestablecido de codificación que funciona con cualquier proporción de aspecto para crear vídeos para su distribución en teléfonos móviles, tablets y equipos de escritorio. Los vídeos de origen cargados que se codifican con este ajuste preestablecido (el predeterminado y una práctica recomendada) se establecen en una altura fija, mientras que la anchura se escala automáticamente para conservar la proporción de aspecto del vídeo.
 
 **Vídeo adaptable (predeterminado)**
 
 |  | Nombre de ajuste preestablecido de codificación/Texto de información sobre herramientas | Sufijo de archivo codificado | Velocidad de datos de vídeo (kbps) | Anchura/Altura (píxeles) | Fps | Velocidad de bits de audio (kbps) | Recomendaciones |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | Automático x360, 800 kbps | _Mobile_Autox360p_800K | 800 | Autox360 | Igual que el origen | 64 | Para móvil (iPhone, iPad, Android™) |
-| 2 | Automático x 480, 1400 kbps | _Tablet_Autox480p_1400K | 1400 | Autox480 | Igual que el origen | 96 | Para tablet (iPad, Android™) |
+| 2 | Automático x 480, 1400 kbps | _Tablet_Autox480p_1400K | 1400 | Autox480 | Igual que el origen | 96 | Para tablets (iPad, Android™) |
 | 3 | Automático x 720, 2600 kbps | _Escritorio_Autox720p_2600K | 2600 | Autox720 | Igual que el origen | 128 | Para escritorio |
 
 ### Ajustes preestablecidos de vídeo de codificación de vídeo adaptable (16:9 o 4:3) {#adaptive-video-encoding-or-video-presets}
@@ -354,14 +354,14 @@ Para obtener más información sobre los parámetros de las opciones de codifica
 
 |  | Nombre de ajuste preestablecido de codificación/Texto de información sobre herramientas | Velocidad de conexión de destino (kbps) | Sufijo de archivo codificado | Velocidad de datos de vídeo (kbps) | Anchura/Altura (píxeles) | Fps | Velocidad de bits de audio (kbps) | Recomendaciones |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | `16:9, 512x288, Mobile (iPhone, iPad, Android™), (400 Kbps)` | 500 | _Mobile_512x288_400K | 400 | 512 x 288 | Igual que el origen | 64 | Baja resolución, 3G |
-| 2 | `4:3, 384x288px, Mobile (iPhone, iPad, Android™), (400 Kbps)` | 500 | _Mobile_384x288_400K | 400 | 384 x 288 | Igual que el origen | 64 | Baja resolución, 3G |
-| 3 | `16:9, 512x288, Mobile (iPhone, iPad, Android™), (600 Kbps)` | 700 | _Mobile_512x288_600K | 600 | 512 x 288 | Igual que el origen | 64 | Resolución media, 3G |
-| 4 | `4:3, 384x288, Mobile (iPhone, iPad, Android™), (600 Kbps)` | 700 | _Mobile_384x288_600 | 600 | 384 x 288 | Igual que el origen | 64 | Resolución media, 3G |
-| 5 | `16:9, 640x360, Tablet (iPad, Android™), (800 Kbps)` | 900 | _iPad_640x360_800K | 800 | 640 x 360 | Igual que el origen | 80 | Resolución media, WiFi |
-| 6 | `4:3, 640x480, Tablet (iPad, Android™), (800 Kbps)` | 900 | _iPad_640x480_800K | 800 | 640 x 480 | Igual que el origen | 80 | Resolución media, WiFi |
-| 7 | `16:9, 768x432, Tablet (iPad, Android™), (1200 Kbps)` | 1,5 Mbps | _iPad_768x432_1200K | 1200 | 768 x 432 | Igual que el origen | 96 | Alta resolución, WiFi |
-| 8 | `4:3, 768x576, Tablet (iPad, Android™), (1200 Kbps)` | 1,5 Mbps | _iPad_768x576_1200K | 1200 | 768 x 576 | Igual que el origen | 96 | Alta resolución, WiFi |
+| 1 | `16:9, 512x288, Mobile (iPhone, iPad, Android&trade;), (400 Kbps)` | 500 | _Mobile_512x288_400K | 400 | 512 x 288 | Igual que el origen | 64 | Baja resolución, 3G |
+| 2 | `4:3, 384x288px, Mobile (iPhone, iPad, Android&trade;), (400 Kbps)` | 500 | _Mobile_384x288_400K | 400 | 384 x 288 | Igual que el origen | 64 | Baja resolución, 3G |
+| 3 | `16:9, 512x288, Mobile (iPhone, iPad, Android&trade;), (600 Kbps)` | 700 | _Mobile_512x288_600K | 600 | 512 x 288 | Igual que el origen | 64 | Resolución media, 3G |
+| 4 | `4:3, 384x288, Mobile (iPhone, iPad, Android&trade;), (600 Kbps)` | 700 | _Mobile_384x288_600 | 600 | 384 x 288 | Igual que el origen | 64 | Resolución media, 3G |
+| 5 | `16:9, 640x360, Tablet (iPad, Android&trade;), (800 Kbps)` | 900 | _iPad_640x360_800K | 800 | 640 x 360 | Igual que el origen | 80 | Resolución media, WiFi |
+| 6 | `4:3, 640x480, Tablet (iPad, Android&trade;), (800 Kbps)` | 900 | _iPad_640x480_800K | 800 | 640 x 480 | Igual que el origen | 80 | Resolución media, WiFi |
+| 7 | `16:9, 768x432, Tablet (iPad, Android&trade;), (1200 Kbps)` | 1,5 Mbps | _iPad_768x432_1200K | 1200 | 768 x 432 | Igual que el origen | 96 | Alta resolución, WiFi |
+| 8 | `4:3, 768x576, Tablet (iPad, Android&trade;), (1200 Kbps)` | 1,5 Mbps | _iPad_768x576_1200K | 1200 | 768 x 576 | Igual que el origen | 96 | Alta resolución, WiFi |
 | 9 | `16:9, 1280x720, Desktop, (2000 Kbps)` | 3,0 Mbps | _1280x720_2000K | 2000 | 1280 x 720 | Igual que el origen | 128 | Pantalla ancha de alta definición |
 | 10 | `4:3, 1280x960, Desktop, (2000 Kbps)` | 3,0 Mbps | _1280x960_2000K | 2000 Kbps | 1280 x 960 | Igual que el origen | 128 | Alta definición |
 
@@ -480,7 +480,7 @@ Por ejemplo, si el tamaño de la imagen principal es 350 x 350 píxeles, con un 
 
 **Aviso de fin de vida útil para el visualizador de Flashes**: A partir del 31 de enero de 2017, Adobe Dynamic Media Classic dejará de ofrecer asistencia oficial para la plataforma de visor de Flash.
 
-La siguiente tabla identifica los ajustes preestablecidos de visualizador de Adobe Dynamic Media Classic disponibles actualmente. En la tabla también se especifica la compatibilidad del visor con los ordenadores y los dispositivos móviles, así como la tecnología empleada para cada visor.
+La siguiente tabla identifica los ajustes preestablecidos de visualizador de Adobe Dynamic Media Classic disponibles actualmente. La tabla también especifica la compatibilidad del visor con dispositivos de escritorio y móviles, así como la tecnología que se utiliza para cada visor determinado.
 
 Consulte también [Ejemplos de la biblioteca de referencia de visores de Adobe](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
@@ -528,7 +528,7 @@ Consulte [Notas de la versión de referencia de visores de Adobe](https://experi
 Adobe Dynamic Media Classic admite la reproducción de vídeo móvil para vídeo MP4 H.264.
 
 * Puede encontrar dispositivos BlackBerry® compatibles con este formato de vídeo en los siguientes enlaces: [Formatos de vídeo compatibles con BlackBerry®](https://developers.blackberry.com/us/en)
-* También puede encontrar dispositivos Windows® compatibles con este formato de vídeo en los siguientes enlaces: [Formatos de vídeo compatibles con Windows® Phone](https://docs.microsoft.com/en-us/windows/uwp/audio-video-camera/supported-codecs)
+* También puede encontrar dispositivos Windows® compatibles con este formato de vídeo en los siguientes enlaces: [Formatos de vídeo compatibles con Windows® Phone](https://learn.microsoft.com/en-us/windows/uwp/audio-video-camera/supported-codecs)
 
 |  | Tecnología de visor | Ordenador | Apple iPhone | Apple iPad | Smartphone Android™ | Tablet Android™ | Smartphone BlackBerry® | Windows® Phone |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -579,7 +579,7 @@ La pantalla Ajustes preestablecidos de visor ofrece una serie de herramientas pa
   
 * **Ordenar ajustes preestablecidos** - Seleccionar un encabezado de columna (**[!UICONTROL Activo]**, **[!UICONTROL Tipo]**, **[!UICONTROL Preestablecido]**, o **[!UICONTROL Plataforma]**) para ordenar la lista en una columna. Seleccione un encabezado de columna por segunda vez para ordenar la lista en orden descendente (o ascendente).
 
-* **Activar y desactivar ajustes preestablecidos** : seleccione un ajuste preestablecido y, a continuación, seleccione su opción Activa para activarlo o desactivarlo.
+* **Activar y desactivar ajustes preestablecidos** : seleccione un ajuste preestablecido y, a continuación, seleccione su opción Activo para activarlo o desactivarlo.
 
       Consulte [Activar o desactivar ajustes preestablecidos de visor](application-setup.md#activating_or_deactivating_viewer_presets).
   
@@ -749,7 +749,7 @@ Puede utilizar Visualizadores predeterminados para configurar el visualizador pr
 1. En la lista desplegable Configuración, seleccione **[!UICONTROL Ajustes de aplicación]**.
 1. En la ventana Configuración, en el panel izquierdo, vaya a **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Espectadores]**
 1. Seleccionar **[!UICONTROL Visores predeterminados]**.
-1. En la ventana Visores predeterminados, en la lista desplegable para cada tipo de recurso, seleccione el visor que desee asociar con la vista previa del recurso.
+1. En la ventana Visualizadores predeterminados, en la lista desplegable de cada tipo de recurso, seleccione el visualizador que desee asociar a la previsualización del recurso.
 1. En la esquina inferior derecha de la ventana Visualizadores predeterminados, seleccione **[!UICONTROL Guardar configuración]**.
 1. En la esquina inferior derecha de la ventana Configuración, seleccione **[!UICONTROL Cerrar]** para volver a la ventana Recurso.
 
@@ -872,11 +872,11 @@ Para abrir esta pantalla, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Aju
 
 * **Eliminación de un campo** : seleccione el campo y, a continuación, seleccione **[!UICONTROL Eliminar]**.
 
-* **Activar campo** - Seleccione o anule la selección del **[!UICONTROL Activo]** junto al nombre de un campo. Si tiene una función de administración de empresa, esta opción no se muestra. Debido a que esta opción está relacionada con MediaPortal, debe seleccionar (activar) Mostrar funciones de MediaPortal en Configuración personal para ver los campos de activación.
+* **Activar campo** - Seleccione o anule la selección del **[!UICONTROL Activo]** junto al nombre de un campo. Si tiene una función de administración de empresa, esta opción no se muestra. Debido a que esta opción está relacionada con MediaPortal, debe seleccionar (activar) Mostrar funciones de MediaPortal en Configuración personal para ver los campos activados.
 
 ## Optimización de archivos {#optimize-files}
 
-A medida que carga archivos en Adobe Dynamic Media Classic, el sistema los optimiza para su almacenamiento y publicación. Sin embargo, si se interrumpe el proceso de carga, no se pueden optimizar todas las imágenes. De ser así, aparecerá el mensaje &quot;La imagen no está optimizada todavía&quot;. Si es un administrador podrá optimizar estos archivos.
+A medida que carga archivos en Adobe Dynamic Media Classic, el sistema los optimiza para su almacenamiento y publicación. Sin embargo, si se interrumpe el proceso de carga, no se pueden optimizar todas las imágenes. En este caso, verá el mensaje &quot;Imagen aún no optimizada&quot;. Si es un administrador podrá optimizar estos archivos.
 
 Adobe Dynamic Media Classic busca entre sus archivos y optimiza sólo las imágenes que no estaban completamente optimizadas anteriormente.
 
@@ -914,7 +914,7 @@ No es necesario configurar una convención de nombres predeterminada para utiliz
 
 También puede usar la visualización de código sin campos de formulario disponibles. En esta vista, puede crear las definiciones de convención de nombres completamente utilizando expresiones regulares.
 
-Hay dos elementos disponibles para la definición: la coincidencia y el nombre base. Estos campos le permiten definir todos los elementos de una convención de nombre e identificar la parte de la convención utilizada para dar nombre al conjunto que los contiene. La convención de nombres individual de una empresa podría utilizar una o más líneas de definición para cada uno de estos elementos. Puede utilizar tantas líneas como necesite para su definición única y agruparlas en distintos elementos, como imagen principal, elemento de color, elemento de vista alternativa y elemento de muestra.
+Hay dos elementos disponibles para la definición: la coincidencia y el nombre base. Estos campos le permiten definir todos los elementos de una convención de nombre e identificar la parte de la convención utilizada para dar nombre al conjunto que los contiene. La convención de nombres individual de una compañía podría utilizar una o más líneas de definición para cada uno de estos elementos. Puede utilizar tantas líneas como necesite para su definición única y agruparlas en distintos elementos, como imagen principal, elemento de color, elemento de vista alternativa y elemento de muestra.
 
 ### Creación de un valor preestablecido de conjunto de lotes {#creating-a-batch-set-preset}
 
@@ -951,7 +951,7 @@ Consulte también [Conjuntos de giros 2D](https://s7d5.scene7.com/s7viewers/html
 
 ### Cree un ajuste preestablecido de conjunto por lotes para la generación automática de un conjunto de giros 2D {#creating-a-batch-set-preset-for-the-auto-generation-of-a-d-spin-set}
 
-Puede utilizar el Tipo de conjunto de lotes **Conjunto de giros con varios ejes** para crear una “fórmula” que automatizará la creación de conjuntos de giros 2D. La agrupación de imágenes utiliza expresiones regulares de fila y columna para alinear los recursos de imagen correctamente en la ubicación correspondiente de la matriz multidimensional.
+Puede utilizar el tipo de conjunto de lotes **Conjunto de giros con varios ejes** para crear una &quot;fórmula&quot; que automatice la generación de conjuntos de giros 2D. La agrupación de imágenes utiliza expresiones regulares de fila y columna para alinear los recursos de imagen correctamente en la ubicación correspondiente de la matriz multidimensional.
 
 Consulte también [Crear un ajuste preestablecido de conjunto por lotes](application-setup.md#creating_a_batch_set_preset).
 
@@ -995,7 +995,7 @@ Cuando se cargue y publique el conjunto de giros, se activará el nombre de la f
 
    Ponga entre corchetes la posición de la fila o la columna en el nombre de archivo.
 
-   Por ejemplo, para la expresión regular de fila, podría tener el siguiente aspecto:
+   Por ejemplo, para la expresión regular de su fila, podría tener el siguiente aspecto:
 
    `\w+-R([0-9]+)-\w+`
 

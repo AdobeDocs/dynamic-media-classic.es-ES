@@ -12,16 +12,16 @@ role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 56%
+ht-degree: 54%
 
 ---
 
 # Crear y administrar grupos de Media Portal{#creating-and-managing-media-portal-groups}
 
-Los *grupos* están pensados para ayudarle a administrar los usuarios de Media Portal. Para poder acceder a un recurso, un usuario debe ser miembro de al menos un grupo que tenga permiso de acceso a dicho recurso. Cuando se agrega un usuario, se le asigna a un grupo o más. Al hacerlo, se le otorga acceso al usuario a las carpetas que se han asignado al grupo. También puede elegir a qué ajustes preestablecidos de imagen podrá acceder un grupo determinado.
+Los *grupos* están pensados para ayudarle a administrar los usuarios de Media Portal. Para poder acceder a un recurso, un usuario debe ser miembro de al menos un grupo que tenga permiso de acceso a dicho recurso. Cuando se agrega un usuario, se le asigna a un grupo o más. Al hacerlo, otorga al usuario acceso a las carpetas a las que se ha asignado el grupo. También puede elegir a qué ajustes preestablecidos de imagen podrá acceder un grupo determinado.
 
 ## Utilice grupos para restringir el acceso a carpetas, recursos y ajustes preestablecidos de imagen {#using-groups-to-restrict-access-to-folders-assets-and-image-presets}
 

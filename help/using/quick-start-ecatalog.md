@@ -1,21 +1,19 @@
 ---
 title: "Inicio rápido: Catálogos electrónicos"
 description: Introducción y Inicio rápido a los catálogos electrónicos para ayudarle a ponerse en marcha rápidamente con las técnicas de catálogo electrónico en Adobe Dynamic Media Classic.
-uuid: 1ec41927-3df6-4845-8d9d-bb92cf6dca08
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
-discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '1559'
-ht-degree: 35%
+source-wordcount: '1560'
+ht-degree: 34%
 
 ---
 
@@ -100,7 +98,7 @@ Consulte [Administración del contenido del panel de información en catálogos 
 
 ## 4. Configurar ajustes preestablecidos del visor de catálogos electrónicos
 
-Los usuarios finales ven el catálogo electrónico en el visor de catálogos electrónicos. Si es un administrador, puede configurar el visor de catálogos electrónicos. Puede cambiar el color del contorno y seleccionar una nueva “apariencia” para personalizar el catálogo electrónico. Adobe Dynamic Media Classic incluye varios ajustes preestablecidos de visualizador de catálogos electrónicos de prácticas recomendadas. Puede elegir uno de estos ajustes preestablecidos para mostrar los catálogos electrónicos. También puede crear un ajuste preestablecido de visor de catálogos electrónicos propio si es administrador.
+Los usuarios finales ven el catálogo electrónico en el visor de catálogos electrónicos. Si es un administrador, puede configurar el visor de catálogos electrónicos. Puede cambiar el color del contorno y seleccionar una nueva &quot;apariencia&quot; para personalizar el catálogo electrónico. Adobe Dynamic Media Classic incluye varios ajustes preestablecidos de visualizador de catálogos electrónicos de prácticas recomendadas. Puede elegir uno de estos ajustes preestablecidos para mostrar los catálogos electrónicos. También puede crear un ajuste preestablecido de visor de catálogos electrónicos propio si es administrador.
 
 Para crear un ajuste preestablecido del visor de catálogos electrónicos, en la barra de navegación global, seleccione **[!UICONTROL Configurar]** y, a continuación, elija **[!UICONTROL Ajustes preestablecidos de visor]**. Seleccionar **[!UICONTROL Añadir]**, elija una plataforma y, después, seleccione **[!UICONTROL Catálogo electrónico]** > **[!UICONTROL Visor]**.
 

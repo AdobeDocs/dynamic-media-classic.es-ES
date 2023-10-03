@@ -12,10 +12,10 @@ role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '2278'
-ht-degree: 42%
+source-wordcount: '2274'
+ht-degree: 39%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Dynamic Media Classic recomienda encarecidamente utilizar ajustes preestab
 
 Adobe Dynamic Media Classic también recomienda enfocar los ajustes preestablecidos del visualizador y llamar a un visualizador con ese ajuste preestablecido. Al hacerlo, las imágenes de los espectadores resultan nítidas y atractivas.
 
-Sin embargo, tanto si utiliza ajustes preestablecidos de imagen y de visualizador como si utiliza algún método alternativo de enfoque, lo fundamental es enfocar las imágenes. Si no lo hace, las imágenes (y el sitio web) pueden tener un aspecto suave y difuso.
+Sin embargo, tanto si utiliza ajustes preestablecidos de imagen y ajustes preestablecidos del visualizador como si utiliza algún método de enfoque, la conclusión es que debe enfocar las imágenes. Si no lo hace, las imágenes (y el sitio web) pueden tener un aspecto suave y difuso.
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ A menudo es necesario enfocar imágenes. Adobe Dynamic Media Classic y los servi
 
 El enfoque de imágenes aumenta el contraste de los píxeles para crear el efecto de bordes acentuados. Los seres humanos perciben esta mejora del contraste de los bordes como un enfoque. Si bien es fácil mejorar una imagen mediante filtros de enfoque aplicados a la imagen, también es fácil enfocar una imagen demasiado.
 
-Al enfocar una imagen demasiado se crea un efecto de halo o bandas de las líneas del borde.
+Al enfocar excesivamente una imagen, se crea un efecto de halo o una banda de las líneas del borde.
 
 Hay prácticas recomendadas que puede seguir para optimizar el enfoque de las imágenes en Adobe Dynamic Media Classic y en Dynamic Media Image Server.
 
@@ -85,7 +85,7 @@ Por ejemplo, para obtener un efecto de enfoque similar para una imagen de 2000 x
 
 Umbral utiliza un valor de 0 a 255, que es el número de pasos de brillo de una imagen en escala de grises. 0 = negro, 128 = 50% gris y 255 = blanco. Por ejemplo, el valor de umbral 12 ignora las ligeras variaciones de brillo en el tono de la piel para no agregar ruido, al mismo tiempo que agrega contraste del borde a las áreas contrastadas, por ejemplo, donde las pestañas tocan la piel. 
 
-Como ejemplo, supongamos que tiene una fotografía de una cara. La máscara de enfoque afecta a las partes de la imagen con mayor contraste y a la piel lisa. Incluso la piel más suave presenta cambios sutiles en los valores de brillo. Si no usa un valor de umbral, el filtro acentúa estos cambios sutiles en los píxeles de la piel, lo que crea un efecto de ruido (algo probablemente no deseable) y aumenta el contraste en las pestañas, mejorando el enfoque (algo probablemente deseable). Para evitarlo, utilice un valor de umbral que indique al filtro que ignore los píxeles que no cambian de contraste considerablemente, como la piel lisa. Para evitar la introducción de ruido o imágenes de posterización con tonos de carne, por ejemplo, pruebe a experimentar con **[!UICONTROL Umbral]** valores del dos al 20. El valor predeterminado **[!UICONTROL Umbral]** el valor 0 enfoca todos los píxeles de la imagen.
+Por ejemplo, supongamos que tiene una foto de la cara de alguien. La máscara de enfoque afecta a las partes de la imagen con mayor contraste y a la piel lisa. Incluso la piel más suave presenta cambios sutiles en los valores de brillo. Si no usa un valor de umbral, el filtro acentúa estos cambios sutiles en los píxeles de la piel, lo que crea un efecto de ruido (algo probablemente no deseable) y aumenta el contraste en las pestañas, mejorando el enfoque (algo probablemente deseable). Para evitarlo, utilice un valor de umbral que indique al filtro que ignore los píxeles que no cambian de contraste considerablemente, como la piel lisa. Para evitar la introducción de ruido o imágenes de posterización con tonos de carne, por ejemplo, pruebe a experimentar con **[!UICONTROL Umbral]** valores del dos al 20. El valor predeterminado **[!UICONTROL Umbral]** el valor 0 enfoca todos los píxeles de la imagen.
 
 * **Aplicar a** - Elegir **[!UICONTROL Cada color]** si desea aplicar el enfoque por separado a cada componente de color, elija **[!UICONTROL Brillo]** si desea aplicar enfoque a las áreas de brillo de la imagen.
 
@@ -112,7 +112,7 @@ Puede incorporar los tres efectos de enfoque para lograr el resultado final. Sin
 
 Los ajustes preestablecidos de imagen se pueden cambiar y actualizar en cualquier momento. Verá los resultados de un cambio en un ajuste preestablecido de imagen después de publicar y después de que se borre la caché de la URL.
 
-Si utiliza un ajuste preestablecido para cada imagen de una categoría de tamaño, cualquier administrador de empresa puede actualizar la definición de dicho ajuste preestablecido de imagen, volver a publicar y aplicar cambios a todas las imágenes con ese formato sin necesidad de cambiar ningún código web. La práctica recomendada es utilizar un ajuste preestablecido de imagen para cada tamaño único en el sitio. Para añadir un ajuste preestablecido de imagen, en la barra de navegación global, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Configuración de aplicación]** > **[!UICONTROL Ajustes preestablecidos de imagen]**. A continuación, seleccione **[!UICONTROL Añadir]** o seleccione **[!UICONTROL Editar]** para cambiar un ajuste preestablecido existente. El único campo requerido es el nombre del ajuste preestablecido. Sin embargo, es mejor incluir algún nivel de enfoque en cada ajuste preestablecido.
+Si utiliza un ajuste preestablecido para cada imagen de una categoría de tamaño, cualquier administrador de empresa puede actualizar la definición de dicho ajuste preestablecido de imagen, volver a publicar y aplicar cambios a todas las imágenes con ese formato sin necesidad de cambiar ningún código web. La práctica recomendada es utilizar un ajuste preestablecido de imagen para cada tamaño único en el sitio. Para añadir un ajuste preestablecido de imagen, en la barra de navegación global, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Configuración de aplicación]** > **[!UICONTROL Ajustes preestablecidos de imagen]**. A continuación seleccione **[!UICONTROL Añadir]** o seleccione **[!UICONTROL Editar]** para cambiar un ajuste preestablecido existente. El único campo requerido es el nombre del ajuste preestablecido. Sin embargo, es mejor incluir algún nivel de enfoque en cada ajuste preestablecido.
 
 **Calidad JPG**
 
@@ -122,7 +122,7 @@ Las opciones de Calidad JPG controlan el nivel de compresión JPG:
 
 * **Regulador** - Determina el nivel de compresión del JPG. Esta configuración afecta tanto al tamaño como a la calidad de la imagen. La escala de calidad JPG es 1-100.
 
-* **Activar disminución de resolución de crominancia de JPG** - Dado que el ojo es menos sensible a la información de color de alta frecuencia que la luminancia de alta frecuencia, las imágenes JPEG dividen la información de la imagen en componentes de luminancia y color. Al comprimir una imagen JPEG, el componente de luminancia conserva la totalidad de su resolución, mientras que la resolución de los componentes de color se disminuye mediante promedios de grupos de píxeles. La disminución de resolución le resta una mitad o un tercio al volumen de los datos sin tener casi ningún impacto en la calidad percibida. La disminución de resolución no se aplica a las imágenes en escala de grises. Esta técnica reduce la cantidad de compresión, lo cual resulta útil para las imágenes de mayor contraste (por ejemplo, las imágenes con texto superpuesto).
+* **Activar disminución de resolución de crominancia de JPG** - Dado que el ojo es menos sensible a la información de color de alta frecuencia que la luminancia de alta frecuencia, las imágenes JPEG dividen la información de la imagen en componentes de luminancia y color. Al comprimir una imagen JPEG, el componente de luminancia conserva la totalidad de su resolución, mientras que la resolución de los componentes de color se disminuye mediante promedios de grupos de píxeles. La disminución de la resolución reduce el volumen de datos en la mitad o en un tercio, y casi no afecta a la calidad percibida. La disminución de resolución no se aplica a las imágenes en escala de grises. Esta técnica reduce la cantidad de compresión, lo cual resulta útil para las imágenes de mayor contraste (por ejemplo, las imágenes con texto superpuesto).
 
 **Definir opciones de enfoque para toda la empresa**
 

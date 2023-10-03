@@ -12,16 +12,16 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '1596'
-ht-degree: 38%
+source-wordcount: '1598'
+ht-degree: 27%
 
 ---
 
 # Comprobar archivos de trabajo{#checking-job-files}
 
-Para monitorizar las cargas de archivos a Adobe Dynamic Media Classic y los archivos que publica en los servidores de Adobe Dynamic Media Classic, Adobe Dynamic Media Classic ofrece la página Trabajos. Desde este página, puede revisar los trabajos de carga y publicación, comprobar el estado de los trabajos y cancelar trabajos de publicación. También puede programar trabajos de carga y publicación.
+Para monitorizar las cargas de archivos a Adobe Dynamic Media Classic y los archivos que publica en servidores de Adobe Dynamic Media Classic, Adobe Dynamic Media Classic ofrece la página Trabajos. Desde este página, puede revisar los trabajos de carga y publicación, comprobar el estado de los trabajos y cancelar trabajos de publicación. También puede programar trabajos de carga y publicación.
 
 Cuando carga recursos, aparece un icono que gira junto al menú Trabajos que indica que el trabajo está en curso y el número de archivos que se están procesando. Puede seleccionar el icono para ver más información sobre el trabajo activo.
 
@@ -83,7 +83,7 @@ Puede copiar esta información en el portapapeles.
 
 ## Gestión de trabajos recurrentes de carga y publicación {#handling-recurring-upload-and-publish-jobs}
 
-Los trabajos recurrentes de carga y publicación que se crean en las páginas de carga y publicación se muestran en la ficha Programados de la página Trabajos. Desde esta ficha, puede editar y eliminar los trabajos recurrentes.
+Los trabajos de carga y publicación recurrentes que se crean en las páginas Cargar y Publicar se muestran en la pestaña Programado de la página Trabajos. Desde esta ficha, puede editar y eliminar los trabajos recurrentes.
 
 Seleccione el botón Trabajos en la barra de navegación global y, en la página Trabajos, seleccione la opción **[!UICONTROL Programado]** para poder editar y eliminar trabajos recurrentes.
 
@@ -122,9 +122,9 @@ En esta tabla se muestran los períodos temporales, los valores permitidos y los
 | Segundos | 0-59 |  | `, - * /` |
 | Minutos | 0-59 |  | `, - * /` |
 | Horas | 0-23 | Tenga en cuenta que se utiliza un reloj de 24 horas. | `, - * /` |
-| Día del mes | 1-31 | No puede especificar un valor numérico tanto para &quot;día del mes&quot; como para &quot;día de la semana&quot;. Uno de estos campos debe utilizar un `?` carácter comodín. | `, - * / ? L C` |
+| Día del mes | 1-31 | No se puede especificar un valor numérico tanto para &quot;día del mes&quot; como para &quot;día de la semana&quot;. Uno de estos campos debe utilizar un `?` carácter comodín. | `, - * / ? L C` |
 | Mes | 1-12 o enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, septiembre, octubre, noviembre, diciembre | Los valores distinguen entre mayúsculas y minúsculas. | `, - * /` |
-| Día de la semana | lun, mar, mié, jue, vie, sáb, dom | Los valores distinguen entre mayúsculas y minúsculas. No puede especificar un valor numérico tanto para &quot;día del mes&quot; como para &quot;día de la semana&quot;. Uno de estos campos debe utilizar un `?` carácter comodín. | `, - * / ? L C #` |
+| Día de la semana | lun, mar, mié, jue, vie, sáb, dom | Los valores distinguen entre mayúsculas y minúsculas. No se puede especificar un valor numérico tanto para &quot;día del mes&quot; como para &quot;día de la semana&quot;. Uno de estos campos debe utilizar un `?` carácter comodín. | `, - * / ? L C #` |
 | Año (opcional) | Vacío o 1970-2099 |  | `, - * /` |
 
 
@@ -133,13 +133,13 @@ En esta tabla se muestran los caracteres comodín que se admiten en el cuadro Re
 | Carácter comodín | Nombre | Qué describe |
 |--- |--- |--- |
 | `*` | Asterisco | Todos los valores (por ejemplo, &quot;cada minuto&quot;). |
-| `?` | Signo de interrogación | Ningún valor específico (por ejemplo, &quot;cualquier minuto dentro de la hora especificada&quot;). |
+| `?` | Signo de interrogación | Sin valor específico (por ejemplo, &quot;cualquier minuto dentro de la hora especificada&quot;). |
 | `,` | Coma | Otros valores (por ejemplo, &quot;lunes y miércoles&quot;). |
-| `-` | Guión | Intervalo de valores (por ejemplo, &quot;de lunes a viernes&quot;). |
-| `/` | Barra diagonal | Períodos (por ejemplo, &quot;cada 15 minutos&quot;). |
-| `L` | L mayúscula | Último &quot;día del mes&quot; o &quot;día de la semana&quot; (solo disponible para estos campos). Por ejemplo, si el mes es enero y se escribe el valor L en el campo &quot;día del mes&quot; el trabajo se programa para el 31 de enero. En el campo &quot;día de la semana&quot;, puede introducir este carácter si desea programar el trabajo para que se ejecute los sábados. Puede utilizarlo con un número (por ejemplo, `6L`) para especificar el último viernes del mes. No especificar `L` con los comodines de coma o guión. |
-| `#` | Almohadilla | Número del día de la semana dentro del mes (solo disponible para el campo &quot;día de la semana&quot;). Por ejemplo, `6#3` en el campo &quot;día de la semana&quot; especifica el tercer viernes del mes. El `6` indica &quot;viernes&quot; (el sexto día de la semana) y `3` indica la tercera incidencia en el mes. |
-| `C` | # C mayúscula | Primer &quot;día del mes&quot; o &quot;día de la semana&quot; en el calendario (solo disponible para estos campos). Por ejemplo, si se especifica un valor de `1C` para las programaciones de &quot;día del mes&quot;, el primer día del calendario que se produce en el quinto día o después de este. Para el campo &quot;día de la semana&quot;, especificando `1C` programa el primer día del calendario que se produzca el domingo o después |
+| `-` | Guión | Rango de valores (por ejemplo, &quot;de lunes a viernes&quot;). |
+| `/` | Barra diagonal | Incrementos (por ejemplo, &quot;cada 15 minutos&quot;). |
+| `L` | L mayúscula | Último &quot;día del mes&quot; o &quot;día de la semana&quot; (solo disponible para estos campos). Por ejemplo, si el mes es enero, un valor L para el campo &quot;día del mes&quot; programa el trabajo para el 31 de enero. En el campo &quot;día de la semana&quot;, puede introducir este carácter solo para programar el trabajo el sábado. Puede utilizarlo con un número (por ejemplo, `6L`) para especificar el último viernes del mes. No especificar `L` con los comodines de coma o guión. |
+| `#` | Almohadilla | Día de la semana del mes &quot;n&quot; (disponible solo para el campo &quot;día de la semana&quot;). Por ejemplo, `6#3` en el campo &quot;día de la semana&quot; especifica el tercer viernes del mes. El `6` indica &quot;viernes&quot; (el sexto día de la semana) y `3` indica la tercera incidencia en el mes. |
+| `C` | # C mayúscula | Primer calendario &quot;día del mes&quot; o &quot;día de la semana&quot; (solo disponible para estos campos). Por ejemplo, si se especifica un valor de `1C` para las programaciones de &quot;día del mes&quot;, el primer día del calendario que se produce en el quinto día o después de este. Para el campo &quot;día de la semana&quot;, especificando `1C` programa el primer día del calendario que se produzca el domingo o después |
 
 En esta lista se pueden ver ejemplos de cómo se describen los intervalos de tiempo en el cuadro Regla:
 

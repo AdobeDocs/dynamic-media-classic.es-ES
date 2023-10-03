@@ -6,9 +6,9 @@ role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1550'
 ht-degree: 0%
 
 ---
@@ -177,7 +177,7 @@ El Adobe sigue apoyando y manteniendo plenamente [!DNL Dynamic Media Classic] (c
 +++
 
 +++**La cantidad de almacenamiento que viene con [!DNL Dynamic Media]?**
-Se incluyen 60 gigabytes de almacenamiento. Puede adquirir almacenamiento adicional en bloques de 250 GB. Compruebe los detalles del contrato para obtener la asignación de almacenamiento actual.
+Dynamic Media incluye 60 GB de almacenamiento. Puede adquirir almacenamiento adicional en bloques de 250 GB. Compruebe los detalles del contrato para poder obtener la asignación de almacenamiento actual.
 
 +++
 
@@ -206,8 +206,8 @@ Sí. Puede utilizar su propia CDN con [!DNL Dynamic Media].
 
 +++
 
-+++**Does [!DNL Dynamic Media] ¿Tiene las funciones que necesito para actualizar? Qué funciones están disponibles con [!DNL Dynamic Media] el [!DNL Experience Manager] ¿Activos?**
-Consulte la [Comparación de funciones](/help/using/upgrade-feature-comparison.md) para obtener más información.
++++**Does [!DNL Dynamic Media] ¿Tiene las funciones que necesito para poder actualizar? Qué funciones están disponibles con [!DNL Dynamic Media] el [!DNL Experience Manager] ¿Activos?**
+Consulte la [Comparación de funciones](/help/using/upgrade-feature-comparison.md) página donde puede obtener más información.
 
 +++
 
@@ -218,7 +218,7 @@ Los clientes que requieran lo siguiente pueden seguir teniendo acceso a [!DNL Dy
 * Plantillas de imagen.
 * Catálogos electrónicos.
 
-Consulte también la [Comparación de funciones](/help/using/upgrade-feature-comparison.md) para obtener más información.
+Consulte también la [Comparación de funciones](/help/using/upgrade-feature-comparison.md) página donde puede obtener más información.
 
 +++
 

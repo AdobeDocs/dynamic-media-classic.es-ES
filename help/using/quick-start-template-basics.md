@@ -12,10 +12,10 @@ role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 28%
+source-wordcount: '852'
+ht-degree: 20%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 28%
 
 Los conceptos básicos de las plantillas se crean dinámicamente y se pueden dirigir mediante archivos de imagen en capas, como los archivos en aplicaciones de edición de imágenes como Adobe Photoshop. A diferencia de los archivos estáticos que contienen capas (por ejemplo, archivos PSD), una plantilla puede incluir parámetros. A través de parámetros, puede dirigir y personalizar los diferentes aspectos de la imagen.
 
-Una plantilla puede contener un número cualquiera de capas de imagen y capas de texto. Puede convertir un archivo estático que contenga capas, como un archivo PSD con capas, en una plantilla y crear plantillas en Adobe Dynamic Media Classic. Puede crear capas de texto en plantillas utilizando las fuentes cargadas en Adobe Dynamic Media Classic. Después de agregar texto a una plantilla, puede modificar las fuentes, el tamaño y el color de éstas y la justificación.
+Una plantilla puede contener un número cualquiera de capas de imagen y capas de texto. Puede convertir un archivo estático que contenga capas, como un archivo PSD con capas, en una plantilla y crear plantillas en Adobe Dynamic Media Classic. Puede crear capas de texto en plantillas utilizando las fuentes cargadas en Adobe Dynamic Media Classic. Después de agregar texto a una plantilla, puede aplicarle formato cambiando su justificación, fuente, tamaño de fuente y color.
 
-En la página Parámetros, puede convertir cualquier aspecto de una plantilla en un parámetro direccionable. De este modo podrá elegir qué imagen de capa o qué valor de texto usar en la plantilla. Los parámetros se pasan junto a la cadena URL, lo que le permite cambiar cualquier parámetro para personalizar de forma dinámica la imagen de respuesta generada por el servidor de imágenes.
+En la página Parámetros, puede convertir cualquier aspecto de una plantilla en un parámetro direccionable. Al hacerlo, puede cambiar qué imagen de capas utilizar o qué valor de texto utilizar en la plantilla. Los parámetros se pasan junto a la cadena URL, lo que le permite cambiar cualquier parámetro para personalizar de forma dinámica la imagen de respuesta generada por el servidor de imágenes.
 
 Consulte también [Conceptos básicos de plantilla](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) vídeo de formación.
 
@@ -37,7 +37,7 @@ Empiece por subir el archivo PSD o archivo de imagen para su plantilla. Adobe Dy
 
 Si utiliza un archivo de PSD para crear la plantilla, seleccione **[!UICONTROL Crear plantilla]** en el **[!UICONTROL Opciones del trabajo de carga]** al cargar el archivo del PSD. Elija también una **[!UICONTROL Nombres de capas]** opción para que Adobe Dynamic Media Classic sepa cómo asignar nombres a las capas de PSD cuando se cargan en Adobe Dynamic Media Classic.
 
-Si utiliza archivos de imagen, puede recortar las imágenes y crear una máscara a partir de ruta de recorte al cargar las imágenes.
+Si utiliza archivos de imagen, puede recortar las imágenes y también crear una máscara a partir de trazados de recorte en las imágenes a medida que las carga.
 
 En la barra de navegación global, seleccione **[!UICONTROL Cargar]** para cargar un archivo de PSD u otros archivos de imagen del equipo en una carpeta de Adobe Dynamic Media Classic. Consulte [Cargar archivos de plantilla](uploading-template-files.md#uploading_template_files).
 

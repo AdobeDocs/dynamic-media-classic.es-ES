@@ -12,7 +12,7 @@ role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
 source-wordcount: '2261'
 ht-degree: 46%
@@ -61,7 +61,7 @@ Consulte [Vistas de metadatos](application-setup.md#metadata_views) para obtener
 
 Además de los metadatos, puede utilizar palabras clave para ayudar a buscar y administrar sus recursos.
 
-Si ha añadido palabras clave a otros archivos durante esta sesión o si ha eliminado palabras clave de la lista, aparecerán en la tabla Sugerencias de palabras clave.
+Si ha agregado palabras clave a otros archivos durante esta sesión o si ha quitado palabras clave de la lista, aparecerán en la tabla Sugerencias de palabras clave.
 
 1. Abra el archivo en la vista de detalles.
 1. Seleccionar **[!UICONTROL Palabras clave]**.
@@ -176,7 +176,7 @@ Puede utilizar el editor de esquemas de metadatos para realizar las siguientes a
 | Agregar | Agrega una propiedad al esquema. Un cuadro de diálogo modal recopila la información: ID, etiqueta, estructura y tipo de datos. |
 | Agregar valor de opción | Agrega una nueva opción seleccionable a una propiedad con estructura Opción abierta u Opción cerrada. Todos los valores de opción son del mismo tipo. Seleccione la propiedad en sí para habilitar el botón. |
 | Editar | Permite editar la etiqueta de una propiedad o valor de opción. Solo se puede cambiar la etiqueta, ID, y la información de tipo es inmutable. |
-| Mover hacia arriba/Mover hacia abajo | El orden en el esquema se refleja en la interfaz de usuario. Para cambiar el orden, seleccione una propiedad o un valor de opción, y muévalos con los botones. Actualmente no se admite arrastrar y soltar. |
+| Mover hacia arriba/Mover hacia abajo | El orden en el esquema se refleja en la interfaz de usuario. Para cambiar el orden, seleccione una propiedad o un valor de opción, y muévalos con los botones. Arrastrar y soltar no es compatible actualmente. |
 | Eliminar | Elimina una propiedad o un valor de opción del esquema. XMP No elimina valores del bloque de la base de datos o del bloque de la base de datos de la. La propiedad ya no está disponible para las vistas de metadatos y se elimina de la vista de detalles del recurso. Si la propiedad se publicó en el servidor de metadatos, realice una publicación forzada para eliminar los datos del servidor de metadatos público. |
 
 El sistema genera automáticamente un esquema personalizado para los campos definidos por el usuario con el prefijo `s7udf`. Son campos definidos por el usuario existentes y se editan en su propia sección de configuración.

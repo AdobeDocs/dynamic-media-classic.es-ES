@@ -10,10 +10,10 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '1808'
-ht-degree: 25%
+source-wordcount: '1817'
+ht-degree: 26%
 
 ---
 
@@ -31,13 +31,13 @@ La lógica que un reproductor de vídeo utiliza para determinar qué vídeo codi
 1. El reproductor de vídeo cambia según los cambios en la velocidad del ancho de banda según los siguientes criterios:
 
    1. El jugador elige el flujo de ancho de banda más alto por debajo o igual al ancho de banda estimado.
-   1. El reproductor considera solo el 80% del ancho de banda disponible. Sin embargo, si está subiendo, es más conservador en solo el 70% para evitar la sobreestimación y tener que volver inmediatamente.
+   1. El reproductor considera solo el 80% del ancho de banda disponible. Sin embargo, si se está cambiando a arriba, es más conservador en solo el 70% para evitar la sobreestimación y tener que volver inmediatamente.
 
 Consulte la lógica del algoritmo en [https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp) para obtener información técnica al respecto.
 
-Para administrar un solo vídeo y conjuntos de vídeos adaptables, Adobe Dynamic Media Classic admite lo siguiente:
+Para administrar vídeos únicos y conjuntos de vídeos adaptables, Adobe Dynamic Media Classic admite lo siguiente:
 
-* Carga de vídeo desde numerosos formatos de vídeo y audio compatibles y codificación de vídeo al formato MP4 H.264 para su reproducción en varias pantallas. Puede utilizar ajustes preestablecidos de vídeo adaptables predefinidos de Adobe Dynamic Media Classic, ajustes preestablecidos de codificación de vídeo únicos o personalizar su propia codificación para controlar la calidad y el tamaño del vídeo.
+* Carga de vídeos de varios formatos de vídeo y audio compatibles y codificación de vídeo al formato MP4 H.264 para su reproducción en varias pantallas. Puede utilizar ajustes preestablecidos de vídeo adaptables predefinidos de Adobe Dynamic Media Classic, ajustes preestablecidos de codificación de vídeo únicos o personalizar su propia codificación para controlar la calidad y el tamaño del vídeo.
 
 Consulte [Activar o desactivar ajustes preestablecidos de vídeo adaptables](/help/using/application-setup.md#activating-or-deactivating-adaptive-video-presets)
 
@@ -56,7 +56,7 @@ Cuando se genera un conjunto de vídeos adaptable, incluye vídeos MP4.
   Consulte [Añadir marcadores de capítulo al vídeo](adding-chapter-markers-video.md).
 
 * Organice, explore o busque vídeos con total compatibilidad de metadatos para gestionar eficazmente sus recursos de vídeo. 
-* Ofrezca conjuntos de vídeos adaptables a la web, a equipos de escritorio y a dispositivos móviles, incluidos iPhone, iPad, Android™, BlackBerry® y Windows® phone.
+* Ofrezca conjuntos de vídeos adaptables a la web y a equipos de escritorio y dispositivos móviles, incluidos iPhone, iPad, Android™, BlackBerry® y Windows® phone.
 
   La transmisión de vídeo adaptable es compatible con varias plataformas de iOS.
 
@@ -68,7 +68,7 @@ Cuando se genera un conjunto de vídeos adaptable, incluye vídeos MP4.
 
   Puede encontrar dispositivos Windows® compatibles con este formato de vídeo en los siguientes enlaces:
 
-  Consulte [Formatos de vídeo compatibles con Windows® Phone](https://docs.microsoft.com/en-us/).
+  Consulte [Formatos de vídeo compatibles con Windows® Phone](https://learn.microsoft.com/en-us/windows/uwp/audio-video-camera/supported-codecs).
 
 * Reproduzca el vídeo con los ajustes preestablecidos del visualizador de Adobe Dynamic Media Classic, incluidos los siguientes:
 
@@ -148,7 +148,7 @@ Para incorporar el vídeo en el sitio web, puede realizar cualquiera de las acci
 
   Para obtener el código incrustado de un vídeo, en la vista de cuadrícula o de lista, selecciónelo en el panel Examinar. Ir a **[!UICONTROL Previsualizar]** > **[!UICONTROL Lista del visor]**. En la columna Acciones de la tabla, seleccione **[!UICONTROL Código incrustado]** a la derecha de `Universal_HTML5_Video`. No se permite editar el código.
 
-  Seleccionar **[!UICONTROL Cerrar]** y pegue el código incrustado en las páginas web.
+  Seleccionar **[!UICONTROL Cerrar]** y pegue el código incrustado en una o varias páginas web.
 
   >[!NOTE]
   >

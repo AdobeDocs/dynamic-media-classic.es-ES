@@ -12,10 +12,10 @@ role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 28%
+source-wordcount: '880'
+ht-degree: 21%
 
 ---
 
@@ -36,7 +36,7 @@ Consulte [Agregar y editar ajustes preestablecidos de visor](application-setup.m
    * Sobre la ventana Recursos, en la parte derecha de la barra de herramientas, seleccione **[!UICONTROL Vista de detalles]**. En la misma barra de herramientas, seleccione **[!UICONTROL Previsualizar]**.
    * En la ventana Recursos, seleccione un recurso. En la barra de herramientas, vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Previsualizar]**.
 
-1. (Opcional) En la lista desplegable de la parte inferior de la ventana Vista previa, seleccione la codificación de URL que desee aplicar a la dirección URL del recurso cuando se copie.
+1. (Opcional) En la ventana Vista previa, en la lista desplegable de la parte inferior, seleccione la codificación de URL que desee aplicar a la URL del recurso cuando se copie.
 1. Seleccione el **[!UICONTROL Previsualizar]** para que pueda revisar el recurso en el visor seleccionado.
 1. Cierre el visor mostrado.
 1. Seleccionar **[!UICONTROL Cerrar]** para volver a la pantalla Recursos.
@@ -47,7 +47,7 @@ Consulte [Agregar y editar ajustes preestablecidos de visor](application-setup.m
 
 ## Trabajo con ajustes preestablecidos de visualizador de vídeo {#working-with-video-viewer-presets}
 
-Los usuarios ven vídeos en el visor de vídeo. La manera de comportarse del visor de vídeo, su aspecto y el funcionamiento de los controles de reproducción dependerán del ajuste preestablecido de visor que elija para reproducir el vídeo. Puede seleccionar un ajuste preestablecido de vídeo en la pantalla Vista previa. Después de seleccionar un ajuste preestablecido, puede obtener la URL o el código incrustado para reproducir el vídeo con el ajuste preestablecido de visor seleccionado.
+Los usuarios ven vídeos en el visor de vídeo. La manera de comportarse del visor de vídeo, su aspecto y el funcionamiento de los controles de reproducción dependerán del ajuste preestablecido de visor que elija para reproducir el vídeo. Puede seleccionar un ajuste preestablecido de vídeo en la pantalla Vista previa. Después de elegir un ajuste preestablecido, puede obtener la URL, o el código de incrustación, para reproducir el vídeo utilizando el ajuste preestablecido de visualizador que haya elegido.
 
 Adobe Dynamic Media Classic incluye muchos ajustes preestablecidos de visualizador para reproducir vídeo y, si es administrador, puede crear ajustes preestablecidos de visualizador personalizados. Hay más de 12 ajustes diferentes para configurar el Visor de vídeo. Puede configurar el tamaño, el color, los controles de audio y vídeo, la barra de progreso, la apariencia de la interfaz del usuario y las funciones sociales del visor.
 
@@ -59,7 +59,7 @@ Consulte también [Ajustes preestablecidos de vídeo](https://s7d5.scene7.com/s7
 
 Puede usar Ajustes preestablecidos de visor para ver los diversos tipos de visor y su configuración predefinida. También puede añadir y editar sus propios ajustes preestablecidos de visualizador personalizados o editar los existentes que se incluyen con Adobe Dynamic Media Classic.
 
-En Ajustes preestablecidos de visor, puede activar, filtrar y ordenar los ajustes, así como obtener una vista previa de los mismos.
+En Ajustes preestablecidos del visor, puede activar, filtrar, ordenar y previsualizar los ajustes preestablecidos del visor.
 
 Consulte [Ajustes preestablecidos de visor](application-setup.md#viewer_presets).
 

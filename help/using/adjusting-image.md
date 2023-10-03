@@ -12,7 +12,7 @@ role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 52%
@@ -27,7 +27,7 @@ Consulte también [Creación de un alias para una imagen](adjusting-image.md#cre
 
 **Para ajustar una imagen:**
 
-1. Seleccione el botón Editar de rollover de la imagen y elija Ajustar o, en el panel Examinar, haga doble clic en la imagen para que se abra en la Vista de detalles.
+1. Seleccione el botón Editar de rollover de la imagen y elija Ajustar. O bien, en el panel Examinar, haga doble clic en la imagen para que se abra en la Vista de detalles.
 1. Seleccione un tamaño y un ajuste preestablecido de imagen (en la parte inferior de la ventana).
 1. Use los comandos que se encuentran en la parte derecha de la ventana Editor de ajustes para ajustar la imagen:
 
