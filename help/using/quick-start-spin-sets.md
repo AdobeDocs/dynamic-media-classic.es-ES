@@ -12,16 +12,16 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 22%
+ht-degree: 23%
 
 ---
 
 # Inicio rápido: Conjuntos de giros{#quick-start-spin-sets}
 
-Un conjunto de giros simula la acción física de girar un objeto para examinarlo. Los conjuntos de giros permiten ver elementos desde cualquier ángulo, por lo que se pueden obtener los detalles visuales clave de los mismos desde cualquier ángulo. Un conjunto de giros simula una experiencia de visualización de 360°. Adobe Dynamic Media Classic ofrece conjuntos de giros unidimensionales en los que los visualizadores pueden rotar un elemento y conjuntos de giros bidimensionales en los que los visualizadores pueden rotar y voltear el elemento. Además, los usuarios pueden hacer zoom de forma libre y recorrer cualquiera de las vistas con unos pocos clics de ratón. De esta forma, los usuarios pueden examinar un elemento de cerca desde un punto de vista determinado.
+Un conjunto de giros simula la acción física de girar un objeto para examinarlo. Los conjuntos de giros permiten ver elementos desde cualquier ángulo, por lo que se pueden obtener los detalles visuales clave de los mismos desde cualquier ángulo. Un conjunto de giros simula una visualización de 360 grados. Adobe Dynamic Media Classic ofrece conjuntos de giros unidimensionales en los que los visualizadores pueden rotar un elemento y conjuntos de giros bidimensionales en los que los visualizadores pueden rotar y voltear el elemento. Además, los usuarios pueden hacer zoom de forma libre y recorrer cualquiera de las vistas con unos pocos clics de ratón. De esta forma, los usuarios pueden examinar un elemento de cerca desde un punto de vista determinado.
 
 ![Imágenes para un conjunto de giros.](/help/using/assets/spin_set.png)
 
@@ -31,7 +31,7 @@ Consulte [Crear mapas de imagen](creating-image-maps.md).
 
 Consulte [Conjuntos de imágenes y giros: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) vídeo de formación.
 
-Al crear un conjunto de giros, Adobe recomienda la siguiente práctica recomendada y aplica el siguiente límite:
+Al crear un conjunto de giros, Adobe recomienda la siguiente práctica recomendada y aplica los límites siguientes:
 
 | Tipo de límite de conjunto de giros | Práctica recomendada | Límite impuesto |
 | --- | --- | --- |
@@ -43,7 +43,7 @@ Este Inicio rápido de conjuntos de giros está diseñado para ayudarle a poners
 
 ## 1. Crear y cargar las imágenes
 
-Como mínimo, necesita 8-12 tomas de un artículo para un conjunto de giros unidimensional y 16-24 para un conjunto de giros bidimensional. Las tomas deben realizarse siguiendo intervalos regulares para dar la impresión de que se está rotando y volteando el elemento. Por ejemplo, si un conjunto de giros unidimensional incluye 12 disparos, gire el elemento 30° (360°/12) para cada disparo.
+Como mínimo, necesita 8-12 tomas de un artículo para un conjunto de giros unidimensional y 16-24 para un conjunto de giros bidimensional. Las tomas deben realizarse siguiendo intervalos regulares para dar la impresión de que se está rotando y volteando el elemento. Por ejemplo, si un conjunto de giros unidimensional incluye 12 disparos, gire el elemento 30° (360/12) para cada disparo.
 
 En la barra de navegación global, seleccione **[!UICONTROL Cargar]** para cargar imágenes de giros desde el equipo o la red a Adobe Dynamic Media Classic.
 

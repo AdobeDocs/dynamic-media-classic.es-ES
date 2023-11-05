@@ -12,10 +12,10 @@ role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
 source-wordcount: '1037'
-ht-degree: 37%
+ht-degree: 35%
 
 ---
 
@@ -33,7 +33,7 @@ Con Adobe Dynamic Media Classic Video SEO, puede aplicar metadatos de vídeo par
 >
 >Google admite los protocolos tanto de mapas de vídeos como de recursos mRSS para enviar información a los motores de búsqueda.
 
-Adobe Dynamic Media Classic puede generar mapas del sitio de vídeos y fuentes mRSS a partir de los metadatos almacenados con cada vídeo. Al crear los mapas de vídeos y los recursos mRSS, se decide qué campos de metadatos de los archivos de vídeo se incluyen. Así, describe los vídeos a los motores de búsqueda de modo que dirijan el tráfico a los vídeos de su sitio web con más precisión.
+Adobe Dynamic Media Classic puede generar mapas del sitio de vídeos y fuentes mRSS a partir de los metadatos almacenados con cada vídeo. Al crear los mapas de vídeos y los recursos mRSS, se decide qué campos de metadatos de los archivos de vídeo se incluyen. Así, describe los vídeos a los motores de búsqueda de modo que dirijan el tráfico a los vídeos de su sitio web con más precisión..
 
 >[!NOTE]
 >
@@ -109,7 +109,7 @@ Los archivos de mapas de vídeos y de recursos mRSS se almacenan en la carpeta r
 * `https://{publish-server}/is/content/{companyname}/mrss-feed.xml`
 * `https://{publish-server}/is/content/{companyname}/video-sitemap.xml`
 
-Copie una de estas URL en las herramientas del webmaster del motor de búsqueda para enviar el archivo de mapa de vídeos o de recurso mRSS a los motores de búsqueda.
+Copie una de estas URL en las herramientas de webmaster del motor de búsqueda para enviar el archivo de fuente Video Sitemap o Media RSS (mRSS) a los motores de búsqueda.
 
 ## Ver informes de optimización para motores de búsqueda {#viewing-video-seo-reports}
 

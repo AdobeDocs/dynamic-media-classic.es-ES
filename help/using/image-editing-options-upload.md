@@ -12,9 +12,9 @@ role: User
 exl-id: 2d9fc6d8-973f-4aaa-bc2c-b49cda2cde58
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1161'
 ht-degree: 52%
 
 ---
@@ -79,7 +79,7 @@ En Máscara de enfoque, establezca las opciones que desee. Las opciones de confi
 | Opciones de Máscara de enfoque | Descripción |
 | --- | --- |
 | Cantidad | Controla el contraste que se aplica a los píxeles de bordes.<br><br>Considérelo como la intensidad del efecto. La principal diferencia entre los valores de cantidad de Máscara de enfoque en Adobe Dynamic Media Classic y los valores de cantidad en Adobe Photoshop es que Photoshop tiene un intervalo de cantidad del 1 % al 500 %. Mientras que en Adobe Dynamic Media Classic, el rango de valores es de 0,0 a 5,0. Un valor de 5,0 en Adobe Dynamic Media Classic es el equivalente aproximado de 500% en Photoshop; un valor de 0,9 es el equivalente de 90%, y así sucesivamente. |
-| Radio | Controla el radio del efecto. <br><br>El rango de valores es 0-250. El efecto se ejecuta en todos los píxeles de una imagen e irradia desde todos los píxeles en todas las direcciones. El radio se mide en píxeles. Por ejemplo, para obtener un efecto de enfoque similar para una imagen de 2000 x 2000 píxeles e imagen de 500 x 500 píxeles, debe establecer un radio de dos píxeles en la imagen de 2000 x 2000 píxeles. A continuación, defina un valor de radio de un píxel en la imagen de 500 x 500 píxeles. Para una imagen que tenga más píxeles, se utilizará un valor más alto. |
+| Radio | Controla el radio del efecto. <br><br>El rango de valores es 0-250. El efecto se ejecuta en todos los píxeles de una imagen e irradia desde todos los píxeles en todas las direcciones. El radio se mide en píxeles. Por ejemplo, para obtener un efecto de enfoque similar para una imagen de 2000 × 2000 píxeles e imagen de 500 × 500 píxeles, debe establecer un radio de dos píxeles en la imagen de 2000 × 2000 píxeles. A continuación, defina un valor de radio de un píxel en la imagen de 500 × 500 píxeles. Para una imagen que tenga más píxeles, se utilizará un valor más alto. |
 | Umbral | El umbral es un rango de contraste que se omite cuando se aplica el filtro Máscara de enfoque. Este efecto es importante para que no se introduzca ningún &quot;ruido&quot; en una imagen cuando se utilice este filtro. El rango de valores es 0-255, que es el número de pasos de brillo de una imagen en escala de grises. 0 = negro, 128 = 50% gris y 255 = blanco. <br><br>Por ejemplo, un valor de umbral 12 ignora las ligeras variaciones de brillo en el tono de la piel para no agregar ruido y, simultáneamente, agrega contraste al borde de las áreas contrastadas, por ejemplo, donde las pestañas tocan la piel.<br><br>Por ejemplo, si tiene una foto de la cara de alguien, la máscara de enfoque afecta a las partes de contraste de la imagen. Por ejemplo, donde las pestañas y la piel se juntan para crear una zona obvia de contraste, y la piel lisa en sí misma. Incluso la piel más suave presenta cambios sutiles en los valores de brillo. Si no utiliza un valor de umbral, el filtro enfatiza estos cambios sutiles en píxeles de piel. A su vez, se crea un efecto ruidoso e indeseable mientras el contraste en las pestañas se aumenta, lo que aumenta el enfoque.<br><br>Para evitarlo, se introduce un valor de umbral que indica al filtro que omita los píxeles que no cambien el contraste considerablemente, como la piel lisa. <br><br>En el gráfico de la cremallera mostrado anteriormente, observe la textura junto a las cremalleras. Se muestra ruido en la imagen porque los valores de umbral eran demasiado bajos para eliminar el ruido. |
 | Monocromo | Selecciónelo para aplicar una máscara de enfoque al brillo (intensidad) de la imagen.<br><br>Anule su selección para aplicar la máscara de enfoque a cada componente de color por separado. |
 

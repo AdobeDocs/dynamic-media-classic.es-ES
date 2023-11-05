@@ -1,27 +1,25 @@
 ---
 title: Vinculación de un conjunto de imágenes a una página web
 description: Obtenga información sobre cómo vincular un conjunto de imágenes a una página web en Adobe Dynamic Media Classic.
-uuid: 8153a228-b2ec-4bc2-8996-266113a83df5
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
-discoiquuid: 40f4abab-9059-4d92-a761-f6d573b42e00
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 42%
+source-wordcount: '692'
+ht-degree: 38%
 
 ---
 
 # Vinculación de un conjunto de imágenes a una página web{#linking-an-image-set-to-a-web-page}
 
-Una vez haya publicado un conjunto de imágenes, podrá copiar la URL o código incrustado en su página web o aplicación. A continuación, podrá implementar la URL o pegar el código incrustado según lo necesite para que los usuarios puedan ver el conjunto de imágenes en el sitio web o en la aplicación.
+Después de publicar un conjunto de imágenes, puede copiar su dirección URL asociada o su código incrustado para utilizarlos en el sitio web o la aplicación. A continuación, podrá implementar la URL o pegar el código incrustado según lo necesite para que los usuarios puedan ver el conjunto de imágenes en el sitio web o en la aplicación.
 
 >[!NOTE]
 >

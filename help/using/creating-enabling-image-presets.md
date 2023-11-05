@@ -12,10 +12,10 @@ role: Admin,User
 exl-id: 94c6c388-226b-4172-a6c7-a8dcf9c0f0cf
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 72%
+source-wordcount: '255'
+ht-degree: 60%
 
 ---
 
@@ -27,7 +27,7 @@ Los administradores de Media Portal pueden crear ajustes preestablecidos de imag
 
 Las siguientes restricciones se aplican al exportar recursos de imagen:
 
-* La anchura x altura debe ser menor o igual que 100 MB por imagen. Por ejemplo, la imagen no puede superar 10 000 x 10 000 o cualquier variación de aspecto inferior, como 8000 x 12 000.
+* La anchura × altura deben ser inferiores o iguales a 100 MB por imagen. Por ejemplo, la imagen no puede superar los 10 K × 10 K ni ninguna variación de aspecto inferior, como 8 K × 12 K.
 * El tamaño total de archivo por trabajo de exportación es de 1 GB como máximo.
 * Puede tener un máximo de 500 recursos en total por trabajo de exportación.
 

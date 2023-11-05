@@ -10,16 +10,16 @@ role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 42%
+source-wordcount: '700'
+ht-degree: 40%
 
 ---
 
 # Vinculación de un conjunto de muestras a una página web{#linking-a-swatch-set-to-a-web-page}
 
-Una vez que haya publicado un conjunto de muestras, puede usar su URL o código incrustado para utilizarlos en su página web o aplicación. A continuación, podrá implementar la URL o código incrustado según lo necesite para que los usuarios puedan ver el conjunto de muestras en el sitio web o en la aplicación.
+Después de publicar un conjunto de muestras, puede utilizar su URL asociada o incrustar código en el sitio web o la aplicación. A continuación, podrá implementar la URL o código incrustado según lo necesite para que los usuarios puedan ver el conjunto de muestras en el sitio web o en la aplicación.
 
 >[!NOTE]
 >

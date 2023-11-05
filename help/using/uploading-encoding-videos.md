@@ -11,10 +11,10 @@ role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '3962'
-ht-degree: 52%
+source-wordcount: '3951'
+ht-degree: 49%
 
 ---
 
@@ -170,7 +170,7 @@ En la tabla siguiente se describe cómo se traducen los resultados de la fórmul
 | 1,78 | 16:9 |
 | 0,56 | 9:16 |
 
-Por ejemplo, un vídeo de 1440 anchura x 1080 altura tiene una relación de aspecto de 1440/1080 o 1,33. En este caso, elija un ajuste preestablecido de codificación de vídeo con una relación de aspecto de 4:3 para codificar el archivo de vídeo.
+Por ejemplo, un vídeo de 1440 de anchura × 1080 de altura tiene una relación de aspecto de 1440/1080 o 1,33. En este caso, elija un ajuste preestablecido de codificación de vídeo con una relación de aspecto de 4:3 para codificar el archivo de vídeo.
 
 ### Velocidad de datos {#data-rate}
 
@@ -193,16 +193,16 @@ En esta tabla se describe la velocidad de datos de las velocidades de conexión 
 
 ### Resolución {#resolution}
 
-*Resolución* describe la altura y anchura de un archivo de vídeo en píxeles. La mayoría de vídeos de origen se almacenan con una resolución alta (por ejemplo, 1920 x 1080). Para el flujo continuo, el vídeo de origen se comprime con una resolución menor (640 x 480 o inferior).
+*Resolución* describe la altura y anchura de un archivo de vídeo en píxeles. La mayor parte del vídeo de origen se almacena en alta resolución (por ejemplo, 1920 × 1080). Para fines de streaming, el vídeo de origen se comprime con una resolución más pequeña (640 × 480 o menor).
 
-La resolución y la velocidad de datos son dos factores totalmente vinculados que determinan la calidad de vídeo. Para mantener la misma calidad de vídeo, cuanto mayor sea el número de píxeles de un archivo de vídeo (cuanto mayor sea la resolución), mayor será la velocidad de datos. Por ejemplo, observe el número de píxeles por fotograma en un archivo de vídeo con una resolución de 320 x 240 y de 640 x 480:
+La resolución y la velocidad de datos son dos factores totalmente vinculados que determinan la calidad de vídeo. Para mantener la misma calidad de vídeo, cuanto mayor sea el número de píxeles de un archivo de vídeo (cuanto mayor sea la resolución), mayor será la velocidad de datos. Por ejemplo, considere el número de píxeles por fotograma en una resolución de 320 × 240 y un archivo de vídeo de resolución de 640 × 480:
 
 | Resolución | Píxeles por fotograma |
 | --- | --- |
-| 320 x 240 | 76.800 |
-| 640 x 480 | 307.200 |
+| 320 × 240 | 76.800 |
+| 640 × 480 | 307.200 |
 
-El archivo con resolución 640 x 480 tiene cuatro veces más píxeles por fotograma. Para lograr la misma velocidad de datos para estas dos resoluciones de ejemplo, tiene que aplicar cuatro veces la compresión al archivo de 640 x 480, lo que puede reducir la calidad del vídeo. Por lo tanto, una velocidad de datos de vídeo de 250 Kbps produce una visualización de alta calidad con una resolución de 320 x 240, pero no con una resolución de 640 x 480.
+El archivo de 640 × 480 tiene cuatro veces más píxeles por fotograma. Para lograr la misma velocidad de datos para estas dos resoluciones de ejemplo, se aplica cuatro veces la compresión al archivo de 640 × 480, lo que puede reducir la calidad del vídeo. Por lo tanto, una velocidad de datos de vídeo de 250 Kbps produce una visualización de alta calidad con una resolución de 320 × 240, pero no con una resolución de 640 × 480.
 
 >[!NOTE]
 >
@@ -238,14 +238,14 @@ Para calcular esta proporción, divida la anchura del archivo de origen entre la
 
 Si la proporción resultante es un número entero, el vídeo tendrá una escala óptima. Si la proporción resultante no es un número entero, la calidad del vídeo se verá afectada por defectos de píxeles en la pantalla. Este efecto resulta más evidente cuando el vídeo tiene texto.
 
-Como ejemplo, suponga que el vídeo de origen es de 1920 x 1080. En la tabla siguiente, los tres vídeos codificados ofrecen los ajustes de codificación óptimos que deben utilizarse.
+Por ejemplo, supongamos que el vídeo de origen es 1920 × 1080. En la tabla siguiente, los tres vídeos codificados ofrecen los ajustes de codificación óptimos que deben utilizarse.
 
-| Tipo de vídeo | Anchura x altura | Proporción de anchura | Proporción de altura |
+| Tipo de vídeo | Anchura × altura | Proporción de anchura | Proporción de altura |
 | --- | --- | --- | --- |
-| Origen | 1920 x 1080 | 1 | 1 |
-| Codificado | 960 x 540 | 2 | 2 |
-| Codificado | 640 x 360 | 3 | 3 |
-| Codificado | 480 x 270 | 4 | 4 |
+| Origen | 1920 × 1080 | 1 | 1 |
+| Codificado | 960 × 540 | 2 | 2 |
+| Codificado | 640 × 360 | 3 | 3 |
+| Codificado | 480 × 270 | 4 | 4 |
 
 ### Formato de archivo de vídeo codificado {#encoded-video-file-format}
 

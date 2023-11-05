@@ -1,17 +1,15 @@
 ---
 title: Guía de Adobe Dynamic Media Classic
-seo-title: Technical documentation and self help for Adobe Dynamic Media Classic
-description: Obtenga más información sobre el uso de Adobe Dynamic Media Classic para administrar vídeos, diseños flotantes y mucho más con los documentos de AEM Cloud Services.
-seo-description: Technical documentation, release notes and self-help materials for Adobe Dynamic Media Classic, formerly Scene 7
+description: Obtenga más información sobre el uso de Adobe Dynamic Media Classic AEM para administrar vídeos, diseños flotantes y mucho más con documentos de Cloud Service de la aplicación de la aplicación de la manera más sencilla.
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: af29eabb-f7c6-420b-9c63-9d60ee2dc148
 topic: Administration
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '575'
 ht-degree: 3%
 
 ---
@@ -20,9 +18,9 @@ ht-degree: 3%
 
 Bienvenido a la Ayuda de Adobe Dynamic Media Classic. Aquí puede acceder a todos los recursos disponibles para obtener más información sobre el uso de Adobe Dynamic Media Classic (anteriormente conocido como Scene7).
 
-## Nueva experiencia de inicio de sesión de Adobe Dynamic Media Classic disponible el 30 de junio de 2020
+## Nuevo inicio de sesión de Adobe Dynamic Media Classic disponible el 30 de junio de 2020
 
-El 30 de junio de 2020, los usuarios de Dynamic Media Classic obtuvieron acceso a una nueva experiencia de inicio de sesión que ya no depende de la tecnología de Flash de Adobe en el explorador.
+El 30 de junio de 2020, los usuarios de Dynamic Media Classic obtuvieron acceso a un nuevo inicio de sesión que ya no depende de la tecnología de Flash de Adobe en el explorador.
 
 Consulte [Preguntas más frecuentes](new-ui-2020.md). Nuevas actualizaciones el 7 de mayo de 2020.
 

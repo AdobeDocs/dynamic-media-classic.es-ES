@@ -12,10 +12,10 @@ role: User
 exl-id: 186f4c7f-16f6-42f5-bc0e-55362c55e794
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 28%
+source-wordcount: '426'
+ht-degree: 23%
 
 ---
 
@@ -35,7 +35,7 @@ Una vez cargado un archivo de fuente, puede cambiar su Adobe Dynamic Media Class
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic recomienda cargar todos los estilos de fuente (negrita, cursiva, negrita/cursiva y normal) si planea utilizar fuentes en las capas de plantilla. Adobe Dynamic Media Classic necesita estos estilos de fuente para procesar solicitudes. También se recomienda cargar todos los archivos Type 1 de PostScript/Adobe que estén asociados con la fuente, ya que algunas de estas fuentes contienen información detallada de espaciado.
+>Adobe Dynamic Media Classic recomienda cargar todos los estilos de fuente (negrita, cursiva, negrita/cursiva y normal) si planea utilizar fuentes en las capas de plantilla. Adobe Dynamic Media Classic necesita estos estilos de fuente para procesar solicitudes. Cargando todo `PostScript/Adobe Type1` también se recomiendan los archivos asociados a una fuente porque algunas de estas fuentes contienen información detallada sobre el kerning.
 
 ## Cargar archivos de fuentes {#uploading-font-files}
 

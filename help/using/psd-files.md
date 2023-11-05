@@ -12,10 +12,10 @@ role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '1003'
-ht-degree: 26%
+source-wordcount: '1005'
+ht-degree: 25%
 
 ---
 

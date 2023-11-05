@@ -12,10 +12,10 @@ role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '967'
-ht-degree: 56%
+source-wordcount: '969'
+ht-degree: 51%
 
 ---
 
@@ -29,7 +29,7 @@ Puede incluir archivos de imagen y archivos de PDF en el catálogo electrónico.
 
 Al crear un catálogo electrónico, la opción **[!UICONTROL Publicar después de guardar]** afecta al conjunto y a los miembros del conjunto de las siguientes formas:
 
-| ¿Se ha seleccionado la opción “Publicar después de guardar” antes de guardar? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
+| ¿La opción &quot;Publicar después de guardar&quot; está seleccionada antes de guardar? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
 | --- | --- | --- |
 | Sí | Publicado | Publicado |
 | No | Sin publicar | Los miembros del conjunto conservan su estado publicado o no. |
@@ -69,7 +69,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 Si edita un conjunto publicado o no publicado, la variable **[!UICONTROL Publicar tras guardar]** afecta a los miembros set y set de las siguientes maneras:
 
-| ¿Ya se ha publicado el conjunto? | ¿Se ha seleccionado la opción “Publicar después de Guardar” antes de guardar la edición? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
+| ¿Ya se ha publicado el conjunto? | ¿La opción &quot;Publicar después de guardar&quot; está seleccionada antes de guardar la edición? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
 | --- | --- | --- | --- |
 | Sí | Sí | Publicado | Publicado |
 | Sí | No | Publicado | Los miembros existentes del conjunto conservarán su estado publicado. Cualquier nuevo miembro que añada al conjunto durante la edición conservará su estado publicado o no publicado. |
@@ -80,14 +80,14 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 **Para editar un catálogo electrónico:**
 
-1. Selección de la sustitución del catálogo electrónico **[!UICONTROL Editar]** botón.
+1. Seleccione la sustitución del catálogo electrónico **[!UICONTROL Editar]** botón.
 1. Realice los cambios necesarios.
 1. Cuando haya terminado con su edición, asegúrese de que esté seleccionada la opción **[!UICONTROL Publicar después de guardar]** (predeterminada), cerca de la esquina inferior derecha de la página.
 1. Seleccionar **[!UICONTROL Guardar]**, seleccione una carpeta de almacenamiento, introduzca un nombre para el conjunto y, a continuación, seleccione **[!UICONTROL Guardar]**.
 
 ## Eliminar un catálogo electrónico {#deleting-an-ecatalog}
 
-Cuando se elimina un conjunto, el conjunto en sí se mueve a la papelera. Sin embargo, los miembros (o “elementos secundarios”) dentro de dicho conjunto no se verán afectados; cada uno mantendrá su estado existente de publicación o no.
+Cuando se elimina un conjunto, el conjunto en sí se mueve a la papelera. Sin embargo, los miembros (o &quot;hijos&quot;) de ese conjunto no se ven afectados, sino que cada uno de ellos conserva su estado publicado o no publicado.
 
 Consulte también [Publicación manual de recursos](publishing-files.md#manually_publishing_assets) y [Cancelación manual de la publicación de recursos](publishing-files.md#manually_unpublishing_assets).
 
@@ -114,7 +114,7 @@ Para introducir manualmente nombres de página uno por uno, vaya a la ficha Orde
 
 Se recomienda la importación de nombres de página si se trabaja con un catálogo electrónico de muchas páginas. También puede importar los nombres de un archivo delimitado por tabuladores o XML.
 
-La etiqueta del índice se almacena en el campo Datos de usuario de una imagen; dé formato a estos datos como una lista de `name=<value>` ` pairs separated by two question marks “??” `. Por ejemplo, para establecer una etiqueta para una tabla de contenido con el nombre `tocEN`, establezca los datos de usuario de la imagen en:
+La etiqueta del índice se almacena en el campo Datos de usuario de una imagen; dé formato a estos datos como una lista de `name=<value>` ` pairs separated by two question marks "??" `. Por ejemplo, para establecer una etiqueta para un campo de índice denominado `tocEN`, establezca los Datos de usuario de la imagen en:
 
 `tocEN=&lt;EN_page_label>`
 

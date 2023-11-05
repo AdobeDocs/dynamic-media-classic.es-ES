@@ -6,7 +6,7 @@ role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
 source-wordcount: '1550'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Sí, [!DNL Dynamic Media] utiliza la sólida red de entrega de nivel superior de
 
 * El principal proveedor de medios enriquecidos de Internet Retail 1000, nueve años seguidos.
 * Compatibilidad con 24/7/265, SLA del 99,95 %.
-* Infraestructura probada que sirve a más de 800 clientes en todo el mundo, tráfico de 3,5 petabytes por mes y más de 500 millones de activos en gestión, un crecimiento del 60% en tráfico año tras año.
+* Infraestructura probada que sirve a más de 800 clientes en todo el mundo, 3,5 PB de tráfico por mes y más de 500 millones de activos en gestión, un crecimiento del 60% en tráfico año tras año.
 
 +++
 

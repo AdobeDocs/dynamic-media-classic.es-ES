@@ -12,9 +12,9 @@ role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
 topic: Content Management
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '3469'
+source-wordcount: '3468'
 ht-degree: 44%
 
 ---
@@ -111,7 +111,7 @@ Utilice estas herramientas en la pantalla Plantilla para poder crear plantillas:
 
 * **[!UICONTROL Diseñador y desarrollador]** : seleccione la opción que mejor describa su función.
 
-* **[!UICONTROL Lienzo]** : define el área total disponible, en píxeles, para definir la plantilla. El tamaño predeterminado es 300 x 300 píxeles. La capas se colocan en el lienzo.
+* **[!UICONTROL Lienzo]** : define el área total disponible, en píxeles, para definir la plantilla. El tamaño predeterminado es de 300 × 300 píxeles. La capas se colocan en el lienzo.
 
 * **[!UICONTROL Lista de capas]** - Muestra el nombre de las capas de la plantilla. Para seleccionar una capa, seleccione su nombre en esta lista. La lista de capas ofrece herramientas para agregar efectos a capas, eliminar y parametrizar capas y modificar el orden de éstas. Consulte [Trabajo con capas](#working-with-layers).
 

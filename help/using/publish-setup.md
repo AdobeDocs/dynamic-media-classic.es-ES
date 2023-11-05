@@ -9,10 +9,10 @@ role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '2405'
-ht-degree: 43%
+source-wordcount: '2408'
+ht-degree: 42%
 
 ---
 
@@ -50,7 +50,7 @@ Cambie esta configuración solo con la ayuda de una persona de asistencia de Ado
 
 * **[!UICONTROL Compatibilidad con localización]***: esta configuración le permite administrar varios atributos de configuración regional. También permite especificar una cadena de asignación de configuración regional, de forma que puede definir los idiomas que desee admitir para los distintos consejos de herramientas en los visores.
 
-  Por ejemplo, si es una marca multinacional que vende en distintos países, puede asegurarse de que cada país tiene su propio visor con su propia configuración regional específica. Para llevar a cabo esta funcionalidad, puede especificar una cadena de asignación de configuración regional. A continuación, edite el texto de información de objeto en el ajuste preestablecido de un visualizador añadiendo las cadenas de texto traducidas para el idioma que desee.
+  Por ejemplo, si es una marca multinacional que vende en distintos países, puede asegurarse de que cada país tiene su propio visor con su propia configuración regional específica. Para llevar a cabo esta funcionalidad, puede especificar una cadena de asignación de configuración regional. A continuación, edite el texto de información de objeto en el ajuste preestablecido de un visor añadiendo las cadenas de texto traducidas para el idioma que desee.
 
   >[!NOTE]
   > Para configurar las opciones de Compatibilidad con localización, [utilice el Admin Console para crear un caso de asistencia.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) En su caso de asistencia, solicite ayuda para la configuración.
@@ -71,7 +71,7 @@ La configuración regional de un servicio de imágenes (IS) se identifica con el
 
 `locale=`
 
-Este comando acepta una cadena de ID de configuración regional (locId) que no distingue entre mayúsculas y minúsculas. El ID de configuración regional suele ser una cadena de 2-6 caracteres compuesta por letras y “_”.
+Este comando acepta una cadena de ID de configuración regional (locId) que no distingue entre mayúsculas y minúsculas. El ID de configuración regional suele ser una cadena de 2-6 caracteres compuesta por letras y &quot;_&quot;.
 
 IS admite cadenas ASCII imprimibles arbitrarias. El `locale=` tiene un ámbito global, lo que significa que se aplica a toda la solicitud, incluidas todas las solicitudes IS e IR anidadas, las plantillas a las que se hace referencia y las capas de imagen. No se admiten varias configuraciones regionales por solicitud, como por ejemplo una configuración regional distinta para cada capa. Sin embargo, se pueden permitir omisiones explícitas en solicitudes anidadas.
 
@@ -99,7 +99,7 @@ Algunas de las ventajas de utilizar `locale=` y `attribute::DefaultLocale` inclu
 
 #### Implementar la localización de recursos
 
-Adobe Dynamic Media Classic y el servicio de imágenes tienen una interfaz que permite localizar imágenes y contenido estático.
+Adobe Dynamic Media Classic y el servicio de imágenes tienen una interfaz que permite la localización de imágenes y contenido estático.
 
 Sin localización, una URL del servidor de imágenes tendrá este aspecto:
 
@@ -125,7 +125,7 @@ La aplicación de un sufijo o un valor de sustitución depende del ajuste de la 
 
 | URL | ID de localeMap | Resultado |
 | --- | --- | --- |
-| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | Observe que no se ha definido GlobalLocale. El parámetro de configuración regional de_DE se compara con la primera entrada de `localeMap`. El primer valor correspondiente _DE se añade como sufijo al recurso image_DE y se intenta encontrarlo en el servidor de imágenes. Si se encuentra en el servidor, se devuelve. De lo contrario, se utiliza como sufijo el segundo valor “”, con lo que se devuelve la propia imagen. |
+| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | Observe que no se ha definido GlobalLocale. El parámetro de configuración regional de_DE se compara con la primera entrada de `localeMap`. El primer valor correspondiente _DE se añade como sufijo al recurso image_DE y se intenta encontrarlo en el servidor de imágenes. Si se encuentra en el servidor, se devuelve. De lo contrario, se utiliza el segundo valor &quot;&quot; como sufijo, lo que hace que se devuelva la propia imagen. |
 
 **Ejemplo de sustitución:**
 

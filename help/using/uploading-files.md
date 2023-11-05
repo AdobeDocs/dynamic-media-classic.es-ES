@@ -11,9 +11,9 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '3929'
+source-wordcount: '3928'
 ht-degree: 31%
 
 ---
@@ -59,10 +59,10 @@ En la lista siguiente se describen los subtipos de formatos de archivo de imagen
 
 Consulte también [Detectar formatos de archivo no compatibles para Dynamic Media](https://helpx.adobe.com/experience-manager/kb/detect-unsupported-assets-for-dynamic-media.html).
 
-* Archivos PNG con un tamaño de fragmento IDAT bueno a 100 MB.
+* Archivos PNG con un tamaño de fragmento IDAT superior a 100 MB.
 * Archivos PSB.
 * Los archivos de PSD con un espacio de color distinto de CMYK, RGB, escala de grises o mapa de bits no son compatibles. No se admiten los espacios de color DuoTone, Lab e Indexed.
-* Archivos PSD con una profundidad de bits buena a 16.
+* Archivos PSD con una profundidad de bits superior a 16.
 * Archivos de TIFF que tienen datos de punto flotante.
 * Archivos de TIFF con espacio de color Lab.
 
@@ -77,7 +77,7 @@ Para lograr resultados óptimos con el programa Adobe Dynamic Media Classic, ase
 | Catálogos electrónicos | Utilice archivos de PDF de alta resolución creados en Adobe Acrobat o una aplicación de Creative Suite de Adobe guardada como &quot;preparada para la prensa&quot;. Los archivos PDF incluyen todas las fuentes, imágenes y máscaras requeridas, así como elementos gráficos a los que se hace referencia, ya sea en formato de página única, doble o multipágina. Asigne un nombre alfanumérico a los archivos para ordenar las páginas. Coloque todos los PDF para el catálogo electrónico en una misma carpeta, para facilitar la tarea de carga. Puede seleccionar opciones de recorte para quitar de los archivos marcas de recorte, destinos de registro o barras de color. La mayoría de archivos PDF listos para imprenta utilizan un espacio de color CMYK, por lo que es importante obtener el perfil de color CMYK ICC utilizado con los archivos. |
 | Plantillas | Las imágenes o los diseños con capas pueden incluir texto, imágenes y capas. Las capas de imagen, las cadenas de texto y los atributos, tales como el color y tamaño, pueden parametrizarse para personalizar los datos variables. Los requisitos de imagen cuando se utilizan plantillas son los mismos que para otros tipos de imagen. Prepare los gráficos en Photoshop u otro programa de edición de imágenes. Guarde cada gráfico como archivo acoplado transparente, en formato TIFF o PNG. Asegúrese de que la resolución de la imagen es apropiada para el uso previsto. Las imágenes para impresión son de 300 ppp. |
 | Vídeos | Adobe Dynamic Media Classic admite archivos de vídeo guardados en formato OGV y MP4. Puede transcodificar los archivos a formato MP4 en el momento de realizar la carga. Consulte [Formatos de archivo de recursos admitidos](#supported-static-file-formats) |
-| Fuentes | TrueType, Type1 (sólo Windows®), OpenType ® fuentes y PhotoFonts cargados. |
+| Fuentes | TrueType cargado, `Type1` (Solo Windows®), OpenType ® fuentes y PhotoFonts. |
 | Imágenes | Imágenes y archivos de imagen con capas. |
 | Conjuntos de imágenes y conjuntos de muestras | Un conjunto de imágenes se compone de imágenes relacionadas que se pueden mostrar en un visor. |
 | Perfiles ICC | Un perfil de color que puede utilizar para convertir una imagen cargada desde su espacio de color de origen a un espacio de color diferente. |

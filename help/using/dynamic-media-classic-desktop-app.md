@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '2036'
+source-wordcount: '2035'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Esta nueva aplicación ya está disponible para Windows® y macOS.
 >
 >El Adobe recomienda instalar la nueva aplicación de escritorio de Adobe Dynamic Media Classic antes del 1 de octubre de 2020. Al hacerlo, se garantiza una transición sin problemas antes de que el Flash Player de Adobe quede obsoleto el 31 de diciembre de 2020. Después de esta fecha, no podrá iniciar sesión en la versión del explorador de la interfaz de usuario de Adobe Dynamic Media Classic, etiquetada como Adobe Dynamic Media Classic en el producto.
 
-Consulte las preguntas frecuentes sobre [Ya está disponible la nueva experiencia de inicio de sesión de Adobe Dynamic Media Classic.](/help/using/new-ui-2020.md)
+Consulte las preguntas frecuentes sobre [Ya está disponible el nuevo inicio de sesión de Adobe Dynamic Media Classic.](/help/using/new-ui-2020.md)
 
 ## Requisitos del sistema para la aplicación de escritorio de Adobe Dynamic Media Classic {#system-requirements-dmc-app}
 
@@ -91,7 +91,7 @@ La notificación de actualización dentro de la aplicación de escritorio de Ado
 Véase también:
 
 * [Descargue e instale de forma silenciosa la última aplicación de escritorio de Adobe Dynamic Media Classic en Mac](#install-silent-mac-dmc-app)
-* [Descargue e instale de forma silenciosa la última aplicación de escritorio de Adobe Dynamic Media Classic en Windows®](#install-silent-windows-dmc-app)
+* [Descargue e instale de forma silenciosa la última aplicación de escritorio de Adobe Dynamic Media Classic en Windows](#install-silent-windows-dmc-app)
 
 1. Desinstale las versiones anteriores de la aplicación de escritorio de Adobe Dynamic Media Classic en el sistema.
 
@@ -110,7 +110,7 @@ Véase también:
 <!--         * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) -->
 
 <!--    * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
-        * [Windows® (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) -->
+        * [Windows&reg; (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) -->
 
 <!--    * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
         * [Windows (.EXE) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) -->
@@ -149,8 +149,8 @@ Véase también:
 
 Véase también:
 
-* [Descargue e instale la última aplicación de escritorio de Adobe Dynamic Media Classic en Mac o Windows®](#installation-dmc-app)
-* [Descargue e instale de forma silenciosa la última aplicación de escritorio de Adobe Dynamic Media Classic en Windows®](#install-silent-windows-dmc-app)
+* [Descargue e instale la última aplicación de escritorio de Adobe Dynamic Media Classic en Mac o Windows](#installation-dmc-app)
+* [Descargue e instale de forma silenciosa la última aplicación de escritorio de Adobe Dynamic Media Classic en Windows](#install-silent-windows-dmc-app)
 
 Para descargar y *silencioso* instale la última versión de la aplicación de escritorio de Adobe Dynamic Media Classic en macOS:
 
@@ -191,7 +191,7 @@ El comando que utiliza es para una instalación silenciosa MSI básica. Sin emba
 
 Véase también:
 
-* [Descargue e instale la última aplicación de escritorio de Adobe Dynamic Media Classic en Mac o Windows®](#installation-dmc-app)
+* [Descargue e instale la última aplicación de escritorio de Adobe Dynamic Media Classic en Mac o Windows](#installation-dmc-app)
 
 * [Descargue e instale de forma silenciosa la última aplicación de escritorio de Adobe Dynamic Media Classic en macOS](#install-silent-mac-dmc-app)
 

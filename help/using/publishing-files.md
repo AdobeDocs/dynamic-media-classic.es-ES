@@ -10,10 +10,10 @@ role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '1729'
-ht-degree: 45%
+source-wordcount: '1732'
+ht-degree: 37%
 
 ---
 
@@ -74,7 +74,7 @@ Adobe Dynamic Media Classic realiza un seguimiento de los trabajos de publicaci�
 
 Cree un trabajo de publicación único seleccionando la variable **[!UICONTROL Único]** en la página Publicar.
 
-Si desea que el trabajo de publicación se produzca más adelante, en la página Publicar, seleccione **[!UICONTROL Único]**, luego seleccione **[!UICONTROL Programar para más tarde]** menú desplegable. Utilice el control deslizante Calendario y Hora para seleccionar un día y una hora para ejecutar el trabajo de publicación.
+Si desea que el trabajo de publicación se produzca más adelante, en la página Publicar, seleccione **[!UICONTROL Único]**, luego seleccione **[!UICONTROL Programar para más tarde]** en la lista desplegable. Utilice el control deslizante Calendario y Hora para seleccionar un día y una hora para ejecutar el trabajo de publicación.
 
 ### Creación de un trabajo de publicación recurrente {#creating-a-recurring-publish-job}
 
@@ -106,15 +106,15 @@ Consulte [Uso de un trabajo de carga o publicación como déclencheur](checking-
 
 Puede cancelar un trabajo de publicación en curso. Además, si es administrador, puede cancelar un trabajo de publicación en curso desde la página Trabajos de la empresa.
 
-Para cancelar un trabajo de publicación, vaya a la página Trabajos y seleccione **[!UICONTROL Cancelar]**. En la ficha Programados de la página Trabajos, puede pausar o reanudar un trabajo mediante la casilla de verificación de la columna Activo.
+Para cancelar un trabajo de publicación, vaya a la página Trabajos y seleccione **[!UICONTROL Cancelar]**. En la ficha Programado de la página Trabajos, puede pausar o reanudar un trabajo si anula la selección o activa la casilla de verificación de la columna Activo del trabajo.
 
 >[!NOTE]
 >
->Al cancelar un trabajo de publicación, su estado se cambia a &quot;deteniendo&quot; hasta que el trabajo se pueda detener de forma segura. Si el trabajo de publicación está obteniendo datos de la base de datos, puede que tarde un tiempo en detenerse.
+>Después de cancelar un trabajo de publicación, su estado cambia a &quot;detener&quot; hasta que el trabajo llegue un punto en el que se pueda detener de forma segura. Si el trabajo de publicación está obteniendo datos de la base de datos, puede que tarde un tiempo en detenerse.
 
 ## Publicar recursos manualmente {#manually-publishing-assets}
 
-Puede publicar recursos individuales manualmente en lugar de crear un trabajo de publicación. Cuando publica conjuntos, como un conjunto de imágenes o un conjunto de vídeos adaptable, se publican el conjunto (o “elemento principal”) y todos los miembros (o “elementos secundarios”) dentro de dicho conjunto.
+Puede publicar recursos individuales manualmente en lugar de crear un trabajo de publicación. Cuando publica conjuntos, como un conjunto de imágenes o un conjunto de vídeos adaptable, se publican el conjunto (o &quot;principal&quot;) y todos los miembros (o &quot;secundarios&quot;) de ese conjunto.
 
 Los recursos sin publicar se indican en la interfaz de usuario mediante un icono redondo gris con una barra diagonal (estado sin publicar) a la izquierda del nombre del recurso. Tras publicar un recurso, el icono cambia a verde y tiene una marca de comprobación blanca en el centro (estado publicado).
 
@@ -130,9 +130,9 @@ Los recursos sin publicar se indican en la interfaz de usuario mediante un icono
 
 ## Cancelar la publicación manual de recursos {#manually-unpublishing-assets}
 
-Puede cancelar la publicación de los recursos individuales manualmente. Al cancelar la publicación de conjuntos, como un conjunto de muestras o un catálogo electrónico, el conjunto (o “elemento principal”) pasa a un estado no publicado. Sin embargo, los miembros (o “elementos secundarios”) dentro de dicho conjunto no se verán afectados; cada uno mantendrá su estado existente de publicación o no.
+Puede cancelar la publicación de los recursos individuales manualmente. Al cancelar la publicación de conjuntos, como un conjunto de muestras o un catálogo electrónico, el conjunto (o &quot;principal&quot;) pasa a estar en estado de no publicación. Sin embargo, los miembros (o &quot;hijos&quot;) de ese conjunto no se ven afectados, sino que cada uno de ellos conserva su estado publicado o no publicado.
 
-Los recursos publicados aparecen en la interfaz de usuario con un icono verde redondeado con una marca de comprobación blanca en el centro (estado publicado) a la izquierda del nombre del recurso. Una vez cancelada la publicación de un recurso, el icono se vuelve gris con una barra diagonal (estado sin publicar),
+Los recursos publicados se indican en la interfaz de usuario mediante un icono redondo de color verde con una marca de verificación blanca en el centro (estado publicado), a la izquierda del nombre del recurso. Una vez cancelada la publicación de un recurso, el icono se vuelve gris con una barra diagonal (estado sin publicar),
 
 **Para cancelar la publicación de recursos manualmente:**
 

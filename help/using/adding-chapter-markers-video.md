@@ -1,27 +1,25 @@
 ---
 title: Añadir marcadores de capítulo al vídeo
 description: Aprenda a añadir marcadores de capítulo a un vídeo en Adobe Dynamic Media Classic.
-uuid: 4e1e6daf-afc6-49d9-ac90-183fe2a903b2
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
-discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 40%
+source-wordcount: '628'
+ht-degree: 37%
 
 ---
 
 # Añadir marcadores de capítulo al vídeo {#adding-chapter-markers-to-video}
 
-Para facilitar la visualización y navegación en vídeos de larga duración, agregue marcadores de capítulo a vídeos individuales o a conjuntos de vídeos adaptables. Cuando un usuario reproduce el vídeo, puede seleccionar los marcadores de capítulo en la cronología del vídeo (también conocida como selección manual de vídeo). Al hacerlo, pueden desplazarse fácilmente a su punto de interés o ir inmediatamente a nuevo contenido, demostraciones, tutoriales, etc.
+Puede facilitar la visualización y navegación de los vídeos de formato largo añadiendo marcadores de capítulo a vídeos únicos o a conjuntos de vídeos adaptables. Cuando un usuario reproduce el vídeo, puede seleccionar los marcadores de capítulo en la cronología del vídeo (también conocida como selección manual de vídeo). Al hacerlo, pueden desplazarse fácilmente a su punto de interés o ir inmediatamente a nuevo contenido, demostraciones, tutoriales, etc.
 
 >[!NOTE]
 >
@@ -89,4 +87,4 @@ Consulte [WebVTT: Formato de seguimiento de texto de vídeo web](https://w3c.git
 
      Para el HTML 5 `Universal_HTML5_Video` En el visor, añada el código incrustado copiado con lo siguiente:
 
-     `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*”`
+     `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*"`

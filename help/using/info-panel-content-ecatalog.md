@@ -1,21 +1,19 @@
 ---
 title: Administración del contenido del panel de información en catálogos electrónicos
 description: Obtenga información sobre cómo administrar el contenido del panel de información en catálogos electrónicos en Adobe Dynamic Media Classic.
-uuid: 5aa634f9-0874-4bb5-a3d9-8ce4d5577941
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
-discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 topic: Integrations
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
 source-wordcount: '866'
-ht-degree: 59%
+ht-degree: 57%
 
 ---
 
@@ -51,7 +49,7 @@ Puede seleccionar una de las tres plantillas de respuesta preestablecidas para m
 1. En el cuadro de respuesta TTL, escriba el número de horas que desea esperar antes de almacenar los datos en caché:
 
    * Establezca un número más bajo si los datos se actualizan frecuentemente a lo largo del día.
-   * Establezca un número más alto si los datos son relativamente estables y no requieren actualizarse con frecuencia a lo largo del día. El valor predeterminado es de diez horas.
+   * Establezca un número mayor si los datos son relativamente estables y no requieren una actualización frecuente a lo largo del día. El valor predeterminado es de diez horas.
 
 1. Seleccionar **[!UICONTROL Publish]**.
 
@@ -97,7 +95,7 @@ Adobe Dynamic Media Classic le envía un mensaje de correo electrónico para sab
 
 Mediante la pantalla Páginas de mapa, puede ver de forma fácil y rápida el texto del panel de información para los mapas de imágenes en una página específica de su catálogo electrónico.
 
-1. Selección de la sustitución del catálogo **[!UICONTROL Editar]** botón.
+1. Seleccione la sustitución del catálogo **[!UICONTROL Editar]** botón.
 1. Seleccionar **[!UICONTROL Páginas de mapa]**.
 1. En la parte superior de la tabla, en el lado derecho de la pantalla, elija **[!UICONTROL Panel de información]** en el menú Mostrar.
 

@@ -10,9 +10,9 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '11297'
+source-wordcount: '11288'
 ht-degree: 38%
 
 ---
@@ -23,7 +23,7 @@ Puede utilizar las páginas de configuración de la aplicación para introducir 
 
 >[!NOTE]
 >
->Solo los administradores de Adobe Dynamic Media Classic pueden cambiar la configuración de las páginas en Configuración de la aplicación.
+>Solo los administradores de Adobe Dynamic Media Classic pueden cambiar la configuración en Configuración de la aplicación.
 
 ## Configuración general {#general-settings}
 
@@ -131,13 +131,13 @@ Consulte también [Opciones de trabajo de carga predeterminadas](https://s7d5.sc
 
 * **[!UICONTROL Opciones de carga predeterminadas]** : abre el cuadro de diálogo Opciones de carga de trabajo, donde puede especificar las opciones de carga predeterminadas. Para obtener información sobre estas opciones, consulte [Opciones de carga](/help/using/uploading-files.md#upload_options).
 
-### Editor de mapas de imagen, a aplicación
+### Editor de mapas de imagen (a aplicación)
 
 * **[!UICONTROL HREF de mapeado de imágenes predeterminado]** : define la dirección URL predeterminada que se utiliza para la columna HREF en la asignación de imágenes. Esta URL es la URL predeterminada que se ve al crear mapas de imágenes.
 
 * **[!UICONTROL Plantilla de asignación de imagen predeterminada]** : define el JavaScript predeterminado para la plantilla HREF en la asignación de imágenes. Puede configurar el código personalizado aquí para que se ejecute cada vez que seleccione un mapa de imagen.
 
-### Otras opciones, a aplicación
+### Otra configuración (para la aplicación)
 
 * **[!UICONTROL Las Advertencias De La Papelera Pueden Limpiar]** - Los recursos de la papelera se eliminan automáticamente en un plazo de siete días. Seleccione &quot;Enviar correos electrónicos antes de que los elementos de la papelera se eliminen automáticamente&quot; si desea que se envíen notificaciones a los administradores de la empresa cuando falten cuatro días para que los recursos de la papelera se eliminen de forma permanente. Consulte [Administrar la carpeta Papelera](/help/using/trash-folder.md).
 
@@ -223,7 +223,7 @@ En las pantallas de adición y edición de ajustes preestablecidos, encontrará 
 
 * **[!UICONTROL Bicúbico]** : Aumenta el uso de la CPU en el servidor de imágenes, pero genera imágenes más nítidas con artefactos de solapamiento menos evidentes.
 
-* **[!UICONTROL Enfocado2]** - Puede producir resultados algo más nítidos que la opción Bicúbico, pero con un coste de CPU aún mayor en el servidor de imágenes.
+* **[!UICONTROL `Sharp 2`]** - Puede producir unos resultados algo más enfocados que los de la opción Bicúbico, aunque se utilizará más CPU en el servidor de imágenes.
 
 * **[!UICONTROL Trilineal]** : Utiliza resoluciones más altas y más bajas, si está disponible; recomendado solo cuando el solapamiento es un problema. Este método reduce el tamaño JPEG debido a la reducción de datos de alta frecuencia.
 
@@ -308,7 +308,7 @@ Para seleccionar un ajuste preestablecido de codificación, en la esquina inferi
      >
      >Para enviar vídeo a los iPads, puede seleccionar un ajuste preestablecido de codificación móvil o Tablet. Los ajustes preestablecidos Tablet están diseñados específicamente para iPad, normalmente con mayor resolución y calidad para aprovechar el tamaño de pantalla más grande y la conexión de ancho de banda más alta. La publicación de archivos de vídeo codificados con un ajuste preestablecido Tablet requiere la inclusión de código de detección de dispositivo en la aplicación o sitio móvil. Este código cambia entre la visualización de vídeo en iPhone o iPad, según el dispositivo de reproducción. Si se selecciona un ajuste preestablecido Móvil para la publicación de archivos de vídeo en iPad, el flujo de trabajo es más simple. El motivo es que puede utilizar el mismo archivo de vídeo para iPhone e iPad. Sin embargo, la calidad se estandariza a la visualización de iPhone de menor resolución.
 
-      * En el grupo Ajustes preestablecidos de codificación, en la lista desplegable Ordenar valores preestablecidos de codificación, seleccione Nombre o Tamaño para ordenar los ajustes preestablecidos por el nombre o el tamaño de resolución.
+      * En el grupo Ajustes preestablecidos de codificación, en la lista desplegable Ordenar ajustes preestablecidos de codificación, seleccione Nombre o Tamaño para ordenar los ajustes preestablecidos por nombre o tamaño de resolución.
       * Seleccione un ajuste preestablecido de codificación basado en el tamaño de resolución y el ancho de banda con el que planea reproducir el vídeo.
       * Puede seleccionar Codificación de vídeo adaptable y uno o más ajustes preestablecidos de codificación por vídeo. Por ejemplo, puede codificar un archivo para escritorio o dispositivo móvil en un trabajo de carga.
 
@@ -340,9 +340,9 @@ Un ajuste preestablecido de codificación que funciona con cualquier proporción
 
 |  | Nombre de ajuste preestablecido de codificación/Texto de información sobre herramientas | Sufijo de archivo codificado | Velocidad de datos de vídeo (kbps) | Anchura/Altura (píxeles) | Fps | Velocidad de bits de audio (kbps) | Recomendaciones |
 |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | Automático x360, 800 kbps | _Mobile_Autox360p_800K | 800 | Autox360 | Igual que el origen | 64 | Para móvil (iPhone, iPad, Android™) |
-| 2 | Automático x 480, 1400 kbps | _Tablet_Autox480p_1400K | 1400 | Autox480 | Igual que el origen | 96 | Para tablets (iPad, Android™) |
-| 3 | Automático x 720, 2600 kbps | _Escritorio_Autox720p_2600K | 2600 | Autox720 | Igual que el origen | 128 | Para escritorio |
+| 1 | × automática 360, 800 Kbps | _Mobile_Auto×360p_800K | 800 | Auto×360 | Igual que el origen | 64 | Para móvil (iPhone, iPad, Android™) |
+| 2 | × automático 480, 1400 Kbps | _Tablet_Auto×480p_1400K | 1400 | Automático×480 | Igual que el origen | 96 | Para tablets (iPad, Android™) |
+| 3 | × automática 720, 2.600 Kbps | _Escritorio_automático×720p_2600K | 2600 | Auto×720 | Igual que el origen | 128 | Para escritorio |
 
 ### Ajustes preestablecidos de vídeo de codificación de vídeo adaptable (16:9 o 4:3) {#adaptive-video-encoding-or-video-presets}
 
@@ -635,7 +635,7 @@ Todos los archivos CSS predeterminados y listos para usar del visualizador en Ad
 
 `Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`
 
-Sin embargo, si aloja archivos CSS de Viewer en su propio sitio, debe resolver estas rutas de imagen relativas mediante una ruta explícita al servidor de imágenes en su propio entorno. Por ejemplo, si actualizara la ruta relativa anterior a una ruta explícita, podría tener el siguiente aspecto, donde `https://s7d1.scene7.com` es la ruta directa al servidor de imágenes: `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
+Sin embargo, si aloja archivos CSS de Viewer en su propio sitio, debe resolver estas rutas de imagen relativas mediante una ruta explícita al servidor de imágenes en su propio entorno. Por ejemplo, si actualizó la ruta relativa anterior a una ruta explícita, podría tener el siguiente aspecto, donde `https://s7d1.scene7.com` es la ruta directa al servidor de imágenes: `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
 
 **Para exportar un ajuste preestablecido de visualizador de HTML5:**
 
@@ -926,7 +926,7 @@ Puede utilizar el método del campo de formulario para definir un ajuste preesta
 
 Consulte también [Cree un ajuste preestablecido de conjunto por lotes para la generación automática de un conjunto de giros 2D](application-setup.md#creating_a_batch_set_preset_for_the_auto_generation_of_a_2d_spin_set).
 
-Consulte también [Conjuntos de giros 2D](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/537_2d-spin_converted%20renamed_Done-AVS) vídeo de formación.
+Consulte también [Conjunto de giros 2D](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/537_2d-spin_converted%20renamed_Done-AVS) vídeo de formación.
 
 **Creación de un ajuste preestablecido de conjunto de lotes:**
 

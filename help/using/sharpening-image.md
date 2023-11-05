@@ -12,10 +12,10 @@ role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '2274'
-ht-degree: 39%
+source-wordcount: '2267'
+ht-degree: 38%
 
 ---
 
@@ -60,7 +60,7 @@ La siguiente tabla muestra las opciones de enfoque del servidor de imágenes.
 | Nombre | Protocolo de URL | Valores | Ejemplo |
 | --- | --- | --- | --- |
 | Enfoque simple | `op_sharpen` | `0` o `1` | `op_sharpen=1` |
-| Modo de remuestreo | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: selecciona la interpolación bilineal estándar. Método de remuestreo más rápido; a menudo pueden verse algunos defectos de solapamiento.<br>`bicub`: selecciona la interpolación bicúbica. Aumenta el uso de CPU con respecto a bilin, pero genera imágenes más enfocadas en las que los defectos de solapamiento son menos evidentes.<br><br>`sharp2`: selecciona una función de Lanczos Windows® modificada como algoritmo de interpolación. Puede producir resultados ligeramente más nítidos que los bicúbicos a un mayor coste de CPU.<br><br>`trilin`: selecciona una interpolación trilineal modificada, que utiliza tanto resoluciones mayores como menores, si están disponibles. Solo se recomienda su uso cuando el solapamiento suponga un problema. Reducirá los tamaños de JPEG debido a la disminución de datos de alta frecuencia. | `resMode=sharp2` |
+| Modo de remuestreo | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: selecciona la interpolación bilineal estándar. Método de remuestreo más rápido; a menudo pueden verse algunos defectos de solapamiento.<br>`bicub`: selecciona la interpolación bicúbica. Aumenta el uso de CPU con respecto a `bilin`, pero genera imágenes más enfocadas en las que los defectos de solapamiento son menos evidentes.<br><br>`sharp2`: selecciona una función de Lanczos Windows® modificada como algoritmo de interpolación. Puede producir resultados ligeramente más nítidos que los bicúbicos a un mayor coste de CPU.<br><br>`trilin`: selecciona una interpolación trilineal modificada, que utiliza tanto resoluciones mayores como menores, si están disponibles. Solo se recomienda su uso cuando el solapamiento suponga un problema. Reducirá los tamaños de JPEG debido a la disminución de datos de alta frecuencia. | `resMode=sharp2` |
 | Máscara de enfoque | `op_usm` | `amount`, `radius`, `threshold`, `monochrome`<br><br>`amount`: factor de intensidad del filtro (real 0...5)<br><br>`radius`: radio del núcleo del filtro en píxeles (real 0...250) <br><br>`threshold`: nivel de umbral del filtro (int 0...255)<br><br>`monochrome`: establezca en `0` para aplicar máscara de enfoque a cada componente de color por separado, establezca como `1` para desenfocar el brillo (intensidad) de la imagen de la máscara | `op_usm=1,1,10,0` |
 
 Seleccione el **[!UICONTROL Enfoque]** y elija una opción:
@@ -79,7 +79,7 @@ Elija estas opciones para ajustar el enfoque con la máscara de enfoque:
 
 El valor de radio óptimo depende del tamaño de la imagen. Un valor bajo enfoca sólo los píxeles del borde. Un valor alto enfoca una banda más ancha de píxeles. 
 
-Por ejemplo, para obtener un efecto de enfoque similar para una imagen de 2000 x 2000 píxeles e imagen de 500 x 500 píxeles, puede establecer un valor de radio de dos píxeles en la imagen de 2000 x 2000 píxeles. A continuación, defina un valor de radio de un píxel en la imagen de 500 x 500 píxeles (un valor mayor para una imagen con más píxeles).
+Por ejemplo, para obtener un efecto de enfoque similar para una imagen de 2000 × 2000 píxeles e imagen de 500 × 500 píxeles, puede establecer un valor de radio de dos píxeles en la imagen de 2000 × 2000 píxeles. A continuación, defina un valor de radio de un píxel en la imagen de 500 × 500 píxeles (un valor mayor para una imagen con más píxeles).
 
 * **Umbral** - Determina el intervalo de contraste que debe omitirse cuando se aplica el filtro de máscara de enfoque. Esta opción determina cómo deben ser de distintos los píxeles enfocados del área que los rodea para poder considerarse píxeles de borde y por tanto enfocarse.
 
@@ -99,7 +99,7 @@ Seleccione el **[!UICONTROL Remuestreo]** y elija una opción. Estas opciones pu
 
 * **[!UICONTROL Bicúbico]** : Aumenta el uso de la CPU en el servidor de imágenes, pero genera imágenes más nítidas con artefactos de solapamiento menos evidentes.
 
-* **[!UICONTROL Enfoque2]** - Produce resultados ligeramente más nítidos que **[!UICONTROL Bicúbico]**, pero con un coste de CPU aún mayor en el servidor de imágenes.
+* **[!UICONTROL `Sharpen2`]** - Produce resultados ligeramente más nítidos que **[!UICONTROL Bicúbico]**, pero con un coste de CPU aún mayor en el servidor de imágenes.
 
 * **[!UICONTROL Trilinear]** : Utiliza resoluciones más altas y más bajas si está disponible; recomendado solo cuando el solapamiento es un problema. Este método reduce el tamaño JPEG debido a la reducción de datos de alta frecuencia.
 
@@ -128,7 +128,7 @@ Las opciones de Calidad JPG controlan el nivel de compresión JPG:
 
 Si no utiliza un ajuste preestablecido de imagen o transfiere protocolos de enfoque específicos del servidor de imagen junto con la cadena URL, la imagen no se enfocará cuando disminuya su resolución. Sin embargo, si no se produce este enfoque, puede establecer los valores de enfoque predeterminados y, a continuación, cualquier imagen siempre tendrá algún enfoque.
 
-Para establecer las opciones de enfoque predeterminadas de su empresa, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Ajustes de publicación]** > **[!UICONTROL Servidor de imágenes]**. Si establece el modo de remuestreo predeterminado en **[!UICONTROL Enfocado2]**, siempre enfoca la imagen cuando se reduce su resolución.
+Para establecer las opciones de enfoque predeterminadas de su empresa, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Ajustes de publicación]** > **[!UICONTROL Servidor de imágenes]**. Si establece el modo de remuestreo predeterminado en **[!UICONTROL `Sharp2`]**, siempre enfoca la imagen cuando se reduce su resolución.
 
 **Añadir enfoque a los ajustes preestablecidos del visor**
 
