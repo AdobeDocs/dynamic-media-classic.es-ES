@@ -12,10 +12,10 @@ role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '613'
-ht-degree: 44%
+ht-degree: 40%
 
 ---
 
@@ -60,7 +60,7 @@ Puede elegir incluir todas o algunas de las funciones de comunidad en el visor d
 
    * **Vínculo** - Seleccionar **[!UICONTROL Activo]**. En el cuadro Etiqueta del botón de vínculo, escriba el nombre que desee que se muestre en el visor del botón Vínculo. Si lo desea, seleccione **[!UICONTROL Examinar]** para buscar y seleccionar una apariencia personalizada para el botón.
 
-   * **Visita** - Seleccionar **[!UICONTROL Activo]**. En el cuadro Etiqueta del botón de visita, escriba el nombre que desee que se muestre en el visor para el botón Visita. En el cuadro URL de visita, escriba la URL del sitio web que desea abrir cuando se haga clic en el vínculo.
+   * **Visita** - Seleccionar **[!UICONTROL Activo]**. En el cuadro Etiqueta del botón de visita, escriba el nombre que desee que se muestre en el visor para el botón Visita. En el cuadro URL de visita, escriba la dirección URL del sitio web que desea abrir cuando se seleccione el vínculo.
 
 1. Especifique otras opciones que desee. Para ver una descripción de una opción, seleccione el icono de información sobre sugerencias situado junto a la opción.
 

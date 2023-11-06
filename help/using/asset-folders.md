@@ -12,9 +12,9 @@ role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '455'
 ht-degree: 39%
 
 ---
@@ -49,7 +49,7 @@ En la biblioteca de recursos se muestran los archivos que contiene el árbol de 
 
    >[!NOTE]
    >
-   >También puede crear carpetas en Adobe Dynamic Media Classic al cargar archivos a través de FTP. Selección de la **[!UICONTROL Incluir subcarpetas]** al cargar a través de FTP, replica la estructura de carpetas en el equipo en el sistema. Las carpetas y subcarpetas del ordenador o la red se reproducirán en la biblioteca de recursos, y los recursos cargados se colocarán en estas carpetas.
+   >También puede crear carpetas en Adobe Dynamic Media Classic al cargar archivos mediante FTP. Selección de la **[!UICONTROL Incluir subcarpetas]** al cargar mediante FTP se replica la estructura de carpetas en el equipo en el sistema. Las carpetas y subcarpetas del ordenador o la red se reproducirán en la biblioteca de recursos, y los recursos cargados se colocarán en estas carpetas.
 
 ## Eliminar y cambiar el nombre de las carpetas {#deleting-and-renaming-folders}
 

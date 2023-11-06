@@ -10,10 +10,10 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '1560'
-ht-degree: 34%
+source-wordcount: '1562'
+ht-degree: 33%
 
 ---
 
@@ -31,7 +31,7 @@ Según la configuración que elija para el catálogo electrónico, el visor pued
 * Busque en el catálogo una palabra clave o palabras clave. Los resultados de la búsqueda se muestran como una lista de miniaturas en un panel de búsqueda a la izquierda del catálogo. Cada miniatura en la que se puede hacer clic representa un pliego de catálogo en el que se encontró el término de búsqueda resaltado.
 
 * Comparta el catálogo a través de las redes sociales; descargue el catálogo para verlo sin conexión; habilite Favoritos para marcar los elementos a los que desee volver rápidamente o imprima el catálogo.
-* Navegue por el catálogo utilizando la tabla de contenido o la vista de cuadrícula de la página; página hacia adelante o hacia atrás haciendo clic en el borde central de una página.
+* Navegue por el catálogo utilizando la tabla de contenido o la vista de cuadrícula de la página; página hacia delante o hacia atrás seleccionando el borde central de una página.
 * Acercar o alejar la página, y desplazarse por ella para examinar sus elementos.
 * Mueva el puntero sobre una región de la página (denominada mapa de imagen) para que pueda ver una ventana emergente con información sobre un elemento.
 * Seleccione una región de página para que abra una nueva página web con más información sobre un elemento.
@@ -62,7 +62,7 @@ Este inicio rápido de catálogos electrónicos se ha diseñado para ayudarle en
 
 Los catálogos electrónicos suelen crearse a partir de archivos PDF. Puesto que están diseñados para imprimirse, los archivos PDF suelen contener imágenes en CMYK. Adobe Dynamic Media Classic detecta estas imágenes y las convierte con un perfil de color CMYK estándar. Sin embargo, debe cargar y utilizar un perfil de color personalizado.
 
-En la barra de navegación global, seleccione **[!UICONTROL Cargar]** para empezar a cargar archivos o imágenes de PDF para el catálogo electrónico. Puede cargar archivos desde el escritorio o por medio de FTP; se recomienda usar FTP si va a cargar muchos archivos o archivos cuyo tamaño es superior a 100 MB.
+En la barra de navegación global, seleccione **[!UICONTROL Cargar]** para empezar a cargar archivos o imágenes de PDF para el catálogo electrónico. Puede cargar archivos desde su escritorio o mediante FTP; se recomienda usar FTP si carga muchos archivos o archivos con un tamaño superior a 100 MB.
 
 En la pantalla de carga, Opciones de PDF le ofrece las opciones necesarias para cargar los archivos PDF con la resolución adecuada y el espacio de color correcto. Se recomienda utilizar una resolución de 150 píxeles por pulgada. Puede seleccionar la opción Generar catálogo electrónico automáticamente y crear un catálogo electrónico al cargar un archivo PDF. 
 
@@ -76,7 +76,7 @@ En la página Catálogo electrónico, en la **[!UICONTROL Ordenar páginas]** pe
 
 Para agregar páginas, seleccione una carpeta en la biblioteca de recursos y arrastre los archivos PDF o de imagen a la pantalla Ordenar páginas. En lugar de los números de página predeterminados, puede proporcionar nombres de página personalizados o importar muchos nombres de página.
 
-Seleccionar **[!UICONTROL Guardar]**, introduzca un nombre para el catálogo electrónico, elija una carpeta de Adobe Dynamic Media Classic para almacenarla y seleccione **[!UICONTROL Guardar]**. Cada vez que cambie el orden de las páginas o edite el catálogo electrónico, guarde los cambios haciendo clic en **[!UICONTROL Guardar]**.
+Seleccionar **[!UICONTROL Guardar]**, introduzca un nombre para el catálogo electrónico, elija una carpeta de Adobe Dynamic Media Classic para almacenarla y seleccione **[!UICONTROL Guardar]**. Cada vez que cambie el orden de las páginas o edite el catálogo electrónico, guarde los cambios seleccionando **[!UICONTROL Guardar]**.
 
 Consulte [Crear un catálogo electrónico](creating-ecatalog.md).
 

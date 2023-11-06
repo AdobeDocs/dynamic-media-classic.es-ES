@@ -12,16 +12,16 @@ role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 topic: Content Management
 level: Beginner
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 25%
+ht-degree: 18%
 
 ---
 
 # Inicio rápido: Conjuntos de muestras{#quick-start-swatch-sets}
 
-Los conjuntos de muestras de Adobe Dynamic Media Classic proporcionan a los usuarios una experiencia de visualización integrada. En el visor dinámico de conjuntos de muestras, los usuarios pueden ver un elemento con distintos colores, materiales, texturas, acabados o telas simplemente haciendo clic en una miniatura.
+Los conjuntos de muestras de Adobe Dynamic Media Classic proporcionan a los usuarios una experiencia de visualización integrada. En el visualizador dinámico de conjuntos de muestras, los usuarios pueden ver un elemento procesado en un color, material, textura, acabado o tejido diferente simplemente seleccionando una miniatura.
 
 Inicio rápido Este Inicio rápido de conjuntos de muestras está diseñado para que pueda ponerse en marcha rápidamente con las técnicas de conjuntos de muestras en Adobe Dynamic Media Classic.
 

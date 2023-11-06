@@ -10,10 +10,10 @@ role: User
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 38%
+source-wordcount: '694'
+ht-degree: 35%
 
 ---
 
@@ -46,7 +46,7 @@ Después de publicar un conjunto de imágenes, puede copiar su dirección URL as
 
 ## Adición de direcciones URL de conjuntos de imágenes a una página web {#adding-image-set-urls-to-your-web-page}
 
-La manera más común de distribuir conjuntos de imágenes consiste en colocar un vínculo (por medio de un icono de navegación) en la página web. Al hacer clic en él, el vínculo inicia una página dinámica (JSP) que muestra el conjunto de imágenes en una ventana de zoom emergente. El vínculo de zoom abre una ventana emergente que contiene la función de zoom.
+La forma más común de implementar conjuntos de imágenes es colocar un vínculo (mediante un icono de navegación) en la página web. Cuando se selecciona, el vínculo inicia una página dinámica (JSP) que muestra el conjunto de imágenes en una ventana de zoom emergente. El vínculo de zoom abre una ventana emergente que contiene la función de zoom.
 
 Para obtener más información y ejemplos de código, consulte [Incrustar el visor de zoom HTML 5 en la Guía de referencia de visores de Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 

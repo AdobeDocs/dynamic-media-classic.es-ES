@@ -12,10 +12,10 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '1508'
-ht-degree: 19%
+source-wordcount: '1510'
+ht-degree: 17%
 
 ---
 
@@ -41,7 +41,7 @@ Para ordenar el contenido de una carpeta o los resultados de búsqueda que apare
 
 También puede elegir **[!UICONTROL Ascendente]** o **[!UICONTROL Descendente]** para ordenar los recursos en orden ascendente o descendente según los criterios que elija.
 
-En la vista de lista, puede ordenar haciendo clic en el nombre de una columna.
+En Vista de lista, puede ordenar seleccionando un nombre de columna.
 
 ## Búsqueda sencilla {#conducting-a-simple-search}
 
@@ -153,7 +153,7 @@ Siga estas instrucciones en la pestaña Filtros para poder guardar, repetir y el
 
 ## Uso del servidor de metadatos {#using-the-metadata-server}
 
-El servidor de metadatos es una API pública que permite buscar recursos por metadatos mediante solicitudes HTTP.
+El servidor de metadatos es una API pública que puede utilizar para buscar recursos mediante metadatos a través de solicitudes http.
 
 Para configurar el servidor de metadatos, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Ajustes de publicación]** > **[!UICONTROL Servidor de metadatos]**.
 

@@ -12,7 +12,7 @@ role: User
 exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 31%
@@ -21,7 +21,7 @@ ht-degree: 31%
 
 # Administrar la carpeta Papelera{#managing-the-trash-folder}
 
-Los elementos que elimine de Adobe Dynamic Media Classic se moverán a la papelera. Los elementos eliminados permanecen en esta carpeta durante siete días hasta que se restauran o se eliminan de forma permanente. Para examinar los elementos eliminados, haga clic en el botón **[!UICONTROL Papelera]** en la parte inferior de la biblioteca de recursos y viendo los elementos en la página de la carpeta Papelera.
+Los elementos que elimine de Adobe Dynamic Media Classic se moverán a la papelera. Los elementos eliminados permanecen en esta carpeta durante siete días hasta que se restauran o se eliminan de forma permanente. Puede examinar los elementos eliminados seleccionando la **[!UICONTROL Papelera]** en la parte inferior de la biblioteca de recursos y viendo los elementos en la página de la carpeta Papelera.
 
 Todos los usuarios pueden restaurar elementos desde la carpeta Papelera y colocarlos en la carpeta en que se encontraban antes de ser eliminados. Todos los usuarios pueden vaciar la carpeta Papelera y eliminar su contenido.
 

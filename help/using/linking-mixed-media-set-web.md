@@ -10,10 +10,10 @@ role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 47%
+ht-degree: 43%
 
 ---
 
@@ -42,7 +42,7 @@ Después de publicar un conjunto de medios mixtos, puede obtener su dirección U
 
 ## Adición de direcciones URL de conjuntos de medios mixtos a una página web {#add-mixed-media-set-urls-to-your-web-page}
 
-La forma más común de implementar un conjunto de medios mixtos es colocar un vínculo (mediante un icono de navegación) en la página web. Si se selecciona este icono, se inicia una página web dinámica (ASP o JSP) que muestra el conjunto de medios mixtos en un visor de conjuntos de medios mixtos.
+La forma más común de implementar un conjunto de medios mixtos es colocar un vínculo (mediante un icono de navegación) en la página web. Cuando se selecciona, el vínculo inicia una página dinámica (ASP o JSP) que muestra el conjunto de medios mixtos en el visualizador de conjuntos de medios mixtos.
 
 ## Copiar el código incrustado de un visualizador de conjuntos de medios mixtos {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 

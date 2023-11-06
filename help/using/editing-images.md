@@ -12,7 +12,7 @@ role: User
 exl-id: 1c368c25-78e6-4bcc-b390-d9133073821a
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 15%
@@ -21,7 +21,7 @@ ht-degree: 15%
 
 # Edición de imágenes{#editing-images}
 
-Adobe Dynamic Media Classic ofrece muchas herramientas para crear efectos de medios enriquecidos. Estas herramientas están disponibles haciendo clic en el icono de rollover **[!UICONTROL Editar]** y en el panel Examinar de la Vista de detalles. Puede realizar las siguientes tareas de edición de imágenes en Adobe Dynamic Media Classic:
+Adobe Dynamic Media Classic ofrece muchas herramientas para crear efectos de medios enriquecidos. Estas herramientas están disponibles al seleccionar el rollover **[!UICONTROL Editar]** y en el panel Examinar de la Vista de detalles. Puede realizar las siguientes tareas de edición de imágenes en Adobe Dynamic Media Classic:
 
 * **Crear mapas de imagen** - Para crear un mapa de imagen, seleccione el comando Imagen o **[!UICONTROL Mapa de imagen]** botón. Un mapa de imagen es una zona interactiva de una imagen, una página del catálogo electrónico o una imagen del Conjunto de giros, que muestra un panel con texto de rollover. Los usuarios pueden seleccionar un mapa de imagen, por ejemplo, para iniciar una nueva página web. Consulte [Crear mapas de imagen](/help/using/creating-image-maps.md).
 

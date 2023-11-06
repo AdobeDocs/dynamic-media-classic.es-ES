@@ -10,10 +10,10 @@ role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 40%
+source-wordcount: '702'
+ht-degree: 33%
 
 ---
 
@@ -46,7 +46,7 @@ Después de publicar un conjunto de muestras, puede utilizar su URL asociada o i
 
 ## Añadir URL del conjunto de muestras a la página web {#adding-swatch-set-urls-to-your-web-page}
 
-La manera más común de distribuir conjuntos de muestras consiste en colocar un vínculo (por medio de un icono de navegación) en la página web. Si se selecciona este icono, se inicia una página web dinámica (ASP o JSP) que muestra el conjunto de muestras en una ventana emergente con zoom. El vínculo de zoom abre una ventana emergente que contiene la función de zoom.
+La forma más común de implementar Conjuntos de muestras es colocar un vínculo (mediante un icono de navegación) en la página web. Cuando se selecciona, el vínculo inicia una página dinámica (ASP o JSP) que muestra el conjunto de muestras en una ventana de zoom emergente. El vínculo de zoom abre una ventana emergente que contiene la función de zoom.
 
 Para obtener más información y ejemplos de código, consulte [Incrustación del visor de zoom HTML5 en la Guía de referencia de visores de Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 

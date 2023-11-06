@@ -12,9 +12,9 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '1598'
+source-wordcount: '1602'
 ht-degree: 27%
 
 ---
@@ -105,7 +105,7 @@ Consulte [Crear un intervalo de tiempo de trabajo de carga o publicación person
 
 ### Crear un intervalo de tiempo de trabajo de carga o publicación personalizado {#creating-a-custom-upload-or-publish-job-time-interval}
 
-Para crear un intervalo de tiempo personalizado para una carga (a través de FTP) o un trabajo de publicación, en la página Cargar o Publicar, vaya a **[!UICONTROL Repetir]** > **[!UICONTROL Personalizado]**. A continuación, introduzca números y caracteres comodín en el cuadro Regla que describa un intervalo de tiempo para que los trabajos de carga o publicación se repitan.
+Para crear un intervalo de tiempo personalizado para una carga (mediante FTP) o un trabajo de publicación, en la página Cargar o Publicar, vaya a **[!UICONTROL Repetir]** > **[!UICONTROL Personalizado]**. A continuación, introduzca números y caracteres comodín en el cuadro Regla que describa un intervalo de tiempo para que los trabajos de carga o publicación se repitan.
 
 La sintaxis con que se describen los intervalos para los trabajos de carga y publicación en el cuadro Regla es la siguiente:
 
