@@ -10,10 +10,10 @@ role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 topic: Integrations
 level: Experienced
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 57%
+source-wordcount: '869'
+ht-degree: 55%
 
 ---
 
@@ -25,7 +25,7 @@ Puede administrar la configuración y los datos de InfoPanel mediante las siguie
 
 * El panel de configuración del panel de información le permite especificar la plantilla que desea usar para mostrar el texto del panel de información, una respuesta predeterminada para los errores y el número de horas del almacenamiento de la información en caché. Además, puede especificar si desea publicar automáticamente los catálogos electrónicos.
 * El panel Fuente de datos de InfoPanel le permite especificar un archivo CSV que contiene el texto que desea que aparezca en el texto de rollover de InfoPanel y programar tiempos para actualizar la información.
-* El cuadro de diálogo Importar metadatos (al que se accede a través de la vista Páginas de mapa) permite importar un archivo TXT delimitado por tabuladores con la información del texto rollover. Puede utilizar esta opción de TXT o el panel de alimentación de datos con la opción de archivo CSV para su texto rollover.
+* El cuadro de diálogo Importar metadatos (al que se accede a través de la vista Páginas de mapa) permite importar un archivo TXT delimitado por tabuladores con la información del texto rollover. Puede utilizar esta opción TXT o el panel Fuente de datos con la opción de archivo CSV para el texto de rollover.
 * La vista Páginas de mapa proporciona una opción para previsualizar el XML que aparece para los mapas de imagen específicos.
 
 ## Configuración de una plantilla de respuesta para catálogos electrónicos {#set-up-a-response-template-for-ecatalogs}

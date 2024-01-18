@@ -12,10 +12,10 @@ role: User
 exl-id: 69aabf4a-21bc-4bd8-8aad-33c2cfb9cf57
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
 source-wordcount: '483'
-ht-degree: 31%
+ht-degree: 22%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 31%
 
 Los proyectos proporcionan una manera opcional de organizar los recursos, sin tener en cuenta las carpetas en las que están almacenados. Un recurso solo puede colocarse en una carpeta, aunque puede copiarse en más de una carpeta de proyecto con el fin de organizar los elementos.
 
-Una vez que haya creado una carpeta de proyecto, podrá colocar recursos en ella. Sin embargo, los recursos de un proyecto son en realidad punteros a la carpeta Biblioteca de recursos en la que se almacenan los recursos. Puede colocar un recurso en más de un proyecto. Por ejemplo, la imagen de una blusa puede colocarse tanto en la carpeta de proyecto &quot;Blusas&quot; como en la carpeta &quot;Colección de otoño&quot;.
+Una vez que haya creado una carpeta de proyecto, podrá colocar recursos en ella. Sin embargo, los recursos de un proyecto son en realidad punteros a la carpeta Biblioteca de recursos en la que se almacenan los recursos. Puede colocar un recurso en más de un proyecto. Por ejemplo, se puede colocar una imagen de una blusa en las carpetas &quot;Blusas&quot; y &quot;Colección de otoño&quot; del proyecto.
 
 Los proyectos pueden crearse al cargar archivos o desde el panel de la biblioteca de recursos.
 
@@ -33,7 +33,7 @@ Los proyectos pueden crearse al cargar archivos o desde el panel de la bibliotec
 
 >[!NOTE]
 >
->Para poder organizar los recursos por proyectos, es necesario tener permiso del administrador. Si no ve una sección para las carpetas de proyectos en la parte inferior de la biblioteca de recursos, significa que no puede acceder a este método de organización de recursos. Consulte [Configuración general de la aplicación](application-setup.md#general-settings).
+>Para poder organizar los recursos por proyectos, es necesario tener permiso del administrador. Si no ve una sección de carpeta Proyectos en la parte inferior de la biblioteca de recursos, no puede utilizar este método de organización de recursos. Consulte [Configuración general de la aplicación](application-setup.md#general-settings).
 
 ## Crear una carpeta de proyecto {#creating-a-project-folder}
 
@@ -61,6 +61,6 @@ Para mostrar, eliminar y cambiar el nombre de una carpeta de Project, siga uno d
 
 Puede agregar imágenes a una carpeta de proyecto empezando por el panel Examinar o al cargar archivos en Adobe Dynamic Media Classic:
 
-* **Desde el panel Examinar** : seleccione los recursos y arrástrelos a una carpeta de proyecto. También puede ir a **[!UICONTROL Archivo]** > **[!UICONTROL Añadir a proyecto]**. Seleccione un nombre de carpeta Proyecto en el cuadro de diálogo Seleccionar proyecto y, a continuación, seleccione **[!UICONTROL Enviar]**.
+* **Desde el panel Examinar**, seleccione los recursos y arrástrelos a una carpeta de proyecto. También puede ir a **[!UICONTROL Archivo]** > **[!UICONTROL Añadir a proyecto]**. Seleccione un nombre de carpeta Proyecto en el cuadro de diálogo Seleccionar proyecto y, a continuación, seleccione **[!UICONTROL Enviar]**.
 
 * **Al cargar archivos** : En la página Cargar, seleccione **[!UICONTROL Opciones de trabajo]**. En el cuadro de diálogo Opciones del trabajo de carga, seleccione **[!UICONTROL Proyectos]** y, a continuación, seleccione un nombre de proyecto.

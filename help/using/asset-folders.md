@@ -12,7 +12,7 @@ role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 topic: Content Management
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 39%
@@ -55,7 +55,7 @@ En la biblioteca de recursos se muestran los archivos que contiene el árbol de 
 
 Seleccione una carpeta y utilice estas técnicas para eliminarla o cambiar su nombre:
 
-* **Eliminar** - Seleccione el **[!UICONTROL Quitar carpeta]** botón . Los recursos que se encuentren en una carpeta eliminada se colocarán en la carpeta Papelera. Podrá recuperarlos desde esta carpeta.
+* **Eliminar** - Seleccione el **[!UICONTROL Quitar carpeta]** botón. Los recursos que se encuentren en una carpeta eliminada se colocarán en la carpeta Papelera. Podrá recuperarlos desde esta carpeta.
 
 * **Cambiar nombre** : Haga doble clic en el nombre e introduzca uno nuevo.
 

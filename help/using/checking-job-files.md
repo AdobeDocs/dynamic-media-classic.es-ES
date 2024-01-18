@@ -12,10 +12,10 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1602'
-ht-degree: 27%
+source-wordcount: '1620'
+ht-degree: 24%
 
 ---
 
@@ -43,7 +43,7 @@ En la ficha Historial de la página Trabajos, los trabajos se clasifican según 
 
 * **[!UICONTROL Total]** - El número de archivos transferidos.
 
-* **[!UICONTROL W (advertencias)]** : el número de advertencias del trabajo (si las hay). Las advertencias indican los problemas sobre el trabajo que no afectan a la finalización del mismo. Normalmente, estas advertencias pueden omitirse porque se refieren a archivos ocultos. Por ejemplo, `.DS_store` Los archivos (Macintosh) y Thumbs.db (Windows®) contienen información sobre cómo mostrar archivos de imagen a los usuarios. Sin embargo, las entradas de advertencia relativas a estos archivos se pueden ignorar porque no pertenecen a cómo se utilizan estos archivos en Adobe Dynamic Media Classic. Si desea obtener información detallada sobre las advertencias, puede hacer doble clic en el nombre de trabajo.
+* **[!UICONTROL W (advertencias)]** : el número de advertencias del trabajo (si las hay). Las advertencias indican los problemas sobre el trabajo que no afectan a la finalización del mismo. Normalmente, estas advertencias pueden omitirse porque se refieren a archivos ocultos. Por ejemplo, `.DS_store` Los archivos (Mac) y Thumbs.db (Windows®) contienen información sobre cómo mostrar archivos de imagen a los usuarios. Sin embargo, las entradas de advertencia relativas a estos archivos se pueden ignorar porque no pertenecen a cómo se utilizan estos archivos en Adobe Dynamic Media Classic. Si desea obtener información detallada sobre las advertencias, puede hacer doble clic en el nombre de trabajo.
 
 * **[!UICONTROL E (errores)]** - Indica el número de errores en el trabajo (si los hay). Si desea obtener información detallada sobre los errores, puede hacer doble clic en el nombre de trabajo.
 
@@ -119,13 +119,13 @@ En esta tabla se muestran los períodos temporales, los valores permitidos y los
 
 | Períodos temporales | Valores permitidos | Comentarios | Comodines admitidos |
 |--- |--- |--- |--- |
-| Segundos | 0-59 |  | `, - * /` |
-| Minutos | 0-59 |  | `, - * /` |
-| Horas | 0-23 | Tenga en cuenta que se utiliza un reloj de 24 horas. | `, - * /` |
-| Día del mes | 1-31 | No se puede especificar un valor numérico tanto para &quot;día del mes&quot; como para &quot;día de la semana&quot;. Uno de estos campos debe utilizar un `?` carácter comodín. | `, - * / ? L C` |
-| Mes | 1-12 o enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, septiembre, octubre, noviembre, diciembre | Los valores distinguen entre mayúsculas y minúsculas. | `, - * /` |
+| Segundos | 0 a 59 |  | `, - * /` |
+| Minutos | 0 a 59 |  | `, - * /` |
+| Horas | 0 a 23 | Tenga en cuenta que se utiliza un reloj de 24 horas. | `, - * /` |
+| Día del mes | 1 a 31 | No se puede especificar un valor numérico tanto para &quot;día del mes&quot; como para &quot;día de la semana&quot;. Uno de estos campos debe utilizar un `?` carácter comodín. | `, - * / ? L C` |
+| Mes | 1 a 12 o ene, feb, mar, abr, may, jun, jul, ago, sep, oct, nov, dic | Los valores distinguen entre mayúsculas y minúsculas. | `, - * /` |
 | Día de la semana | lun, mar, mié, jue, vie, sáb, dom | Los valores distinguen entre mayúsculas y minúsculas. No se puede especificar un valor numérico tanto para &quot;día del mes&quot; como para &quot;día de la semana&quot;. Uno de estos campos debe utilizar un `?` carácter comodín. | `, - * / ? L C #` |
-| Año (opcional) | Vacío o 1970-2099 |  | `, - * /` |
+| Año (opcional) | Vacío o de 1970 a 2099 |  | `, - * /` |
 
 
 En esta tabla se muestran los caracteres comodín que se admiten en el cuadro Regla y cómo se utilizan estos caracteres:
@@ -143,15 +143,15 @@ En esta tabla se muestran los caracteres comodín que se admiten en el cuadro Re
 
 En esta lista se pueden ver ejemplos de cómo se describen los intervalos de tiempo en el cuadro Regla:
 
-* `0 0 12 * * ?` : a mediodía todos los días
-* `0 15 10 ? * *` : a las 10:15 todos los días
-* `0 0/5 14 * * ?`: cada 5 minutos entre las 14:00 y las 14:55 todos los días
-* `0 0/5 14,18 * * ?` : cada 5 minutos entre las 14:00 y las 14:55 todos los días y cada 5 minutos entre las 18:00 y las 18:55 todos los días
-* `0 10,44 14 ? 3` : los miércoles a las 14:10 y a las 14:44 y todos los miércoles de marzo
+* `0 0 12 * * ?` : mediodía todos los días
+* `0 15 10 ? * *` : 10:15 todos los días
+* `0 0/5 14 * * ?`: Cada 5 minutos entre las 2:00 y las 2:55 p.m. todos los días
+* `0 0/5 14,18 * * ?` : Cada 5 minutos entre las 2:00 y las 2:55 pm todos los días y cada 5 minutos entre las 6:00 y las 6:55 pm todos los días
+* `0 10,44 14 ? 3` : Miércoles a las 2:10 pm y 2:44 pm todos los miércoles en marzo
 * `0 15 10 ? *` : Lunes a viernes a las 10:15 todos los días laborables
-* `0 15 10 20 * ?` : a las 10:15 el día 20 de cada mes
+* `0 15 10 20 * ?` : A las 10:15 am del día 20 de cada mes
 * `0 15 10 L * ?` : a las 10:15 el último día de cada mes
-* `0 15 10 ? * 6L` : a las 10:15 el último sábado de cada mes
+* `0 15 10 ? * 6L` : a las 10:15 el último viernes de cada mes
 * `0 15 10 * * 6#3` : A las 10:15 am del tercer viernes de cada mes
 
 ## Uso de un trabajo de carga o publicación como déclencheur {#using-an-upload-or-publish-job-as-a-trigger}

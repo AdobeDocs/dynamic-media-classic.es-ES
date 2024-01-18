@@ -9,10 +9,10 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 65%
+source-wordcount: '1008'
+ht-degree: 55%
 
 ---
 
@@ -46,7 +46,7 @@ El distintivo de carga es una cadena alfanumérica que solo se encuentra disponi
 <!-- * Vector
   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` -->
 
-De manera predeterminada, el distintivo de carga caduca en 5 minutos (300 segundos) después de recuperarlo. Si desea solicitar más tiempo, incluya en la URL `expires` seguido de la cantidad de tiempo necesaria en segundos. Por ejemplo, esta URL de imagen de ejemplo recupera un distintivo de carga válido durante 1.800 segundos:
+De manera predeterminada, el distintivo de carga caduca en 5 minutos (300 segundos) después de recuperarlo. Para solicitar más tiempo, incluya `expires` en la dirección URL y el tiempo necesario en segundos. Por ejemplo, esta URL de imagen de ejemplo recupera un distintivo de carga válido durante 1.800 segundos:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=1800
@@ -80,8 +80,8 @@ Se pueden usar los campos siguientes en la cadena de consulta URL para recuperar
 | Parámetro de URL | Obligatorio u opcional | Valor |
 | --- | --- | --- |
 | op | Obligatorio | get_uploadtoken |
-| shared_secret | Obligatorio | Clave secreta compartida de la empresa que realiza la carga. |
-| expires | Opcional | Número de segundos durante los que es válido el distintivo de carga. Si no se especifica, el valor predeterminado es 300 segundos. |
+| shared_secret | Obligatorio | La clave de secreto compartido de la empresa que realiza la carga. |
+| caduca | Opcional | Número de segundos durante los que es válido el distintivo de carga. Si no se especifica, el valor predeterminado es 300 segundos. |
 
 **URL de imagen rasterizada de ejemplo:**
 
@@ -118,25 +118,25 @@ También se pueden enviar otros valores opcionales en forma de cadenas de consul
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-El `file_limit` especifica el límite de tamaño de archivo en bytes. El parámetro `file_exts` especifica las extensiones de nombre de archivo permitidas en la carga. Ambos valores son opcionales.
+El `file_limit` especifica el límite de tamaño de archivo en bytes. El `file_exts` parámetro especifica las extensiones de nombre de archivo permitidas para la carga. Ambos valores son opcionales.
 
 En la aplicación se definen límites globales tanto para el límite de tamaño de los archivos como para las extensiones de nombre de archivo permitidas. Todo lo incluido en la solicitud se acepta si es un subconjunto de los límites globales. Éstos son los límites globales:
 
 | Límite global | Valor |
 | --- | --- |
 | Tamaño de archivo para todos los clientes | 20 MB |
-| Formatos de archivo de imagen admitidos para la carga | BMP, GIF, JPG, PNG y PSD, TIFF |
+| Formatos de archivo de imagen admitidos para la carga | BMP, GIF, JPG, PNG, PSD, TIFF |
 
 El siguiente formulario HTML permite al usuario cargar un recurso. En el formulario se pide al usuario que introduzca la información siguiente:
 
-* Nombre de empresa.
-* Distintivo de carga.
-* Límite de tamaño de archivo.
-* Lista de extensiones de nombre de archivo.
+* Un nombre de empresa.
+* Un token de carga.
+* Un límite de tamaño de archivo.
+* Una lista de extensiones de nombre de archivo.
 * Si se conserva el perfil de color y el nombre de archivo asociados al recurso.
 * Si se utiliza el fondo de cobertura. Si activa Fondo de cobertura (Knockout Background), defina las opciones Esquina (Corner), Tolerancia (Tolerance) y Relleno (Fill Method).
 Consulte Fondo de cobertura en [Opciones de ajuste de imagen al cargar](image-editing-options-upload.md#image-editing-options-at-upload).
-* Nombre del archivo que se debe cargar.
+* Nombre del archivo que se va a cargar.
 
 Puede ver el código fuente del HTML asociado con el formulario de arriba seleccionando [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
@@ -170,7 +170,7 @@ A continuación se muestra una respuesta de carga correcta de ejemplo:
 >
 >El recurso cargado (JPG, GIF, etc.) se convierte al formato PTIFF y la respuesta envía un vínculo directo a ese recurso PTIFF.
 
-El recurso es igual que cualquier otro recurso de servicio de imágenes, es decir, se le pueden aplicar consultas de procesamiento. Por ejemplo, la URL siguiente solicita un recurso ajustado con la anchura y la altura especificadas.
+El recurso es igual que cualquier otro recurso de servicio de imágenes, es decir, se le pueden aplicar consultas de procesamiento. Por ejemplo, la siguiente URL solicita un recurso que se expande a la anchura y altura especificadas.
 
 ```as3
 https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit=stretch
@@ -202,7 +202,7 @@ POST
 
 ### Obtener metadatos de recursos para imágenes {#getting-asset-metadata-for-images}
 
-Se puede usar `image_info` para recuperar los metadatos de cualquier recurso cargado, tal como se muestra en el siguiente ejemplo:
+Puede utilizar `image_info` para recuperar los metadatos de un recurso cargado, como se muestra en el siguiente ejemplo:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif
@@ -237,7 +237,7 @@ Se pueden usar los campos siguientes en la cadena de consulta URL para solicitar
 | Parámetro de URL | Obligatorio u opcional | Valor |
 | --- | --- | --- |
 | `op` | Obligatorio | image_info |
-| `shared_secret` | Obligatorio | Clave secreta compartida de la empresa. |
+| `shared_secret` | Obligatorio | La clave de secreto compartido de la compañía. |
 | `image_name` | Obligatorio | Nombre de la imagen. |
 
 **URL de ejemplo:**

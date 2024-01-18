@@ -10,9 +10,9 @@ role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '557'
 ht-degree: 35%
 
 ---
@@ -25,7 +25,7 @@ Al recortar una imagen, puede quitar el espacio en blanco que la rodea o un áre
 
 >[!NOTE]
 >
->Después de recortar, puede seleccionar **[!UICONTROL Guardar como]** y guarde una versión recortada de la imagen con un nombre diferente. En la ventana Guardar como, seleccione **[!UICONTROL Guardar como nuevo elemento principal]** para guardar una segunda copia de la imagen. Seleccionar **[!UICONTROL Guardar Como Vista De Adición Del Principal]** para poder guardar el original y su versión recortada con un nombre diferente. Seleccionar **[!UICONTROL Reemplazar original]** para eliminar el archivo original desde el que recortó la imagen. A continuación, introduzca un nombre para la imagen y seleccione **[!UICONTROL Enviar]**.
+>Después de recortar, puede seleccionar **[!UICONTROL Guardar como]** y guarde una versión recortada de la imagen con un nombre diferente. En la ventana Guardar como, seleccione **[!UICONTROL Guardar como nuevo principal]** para guardar una segunda copia de la imagen. Seleccionar **[!UICONTROL Guardar Como Vista De Adición De Principal]** para poder guardar el original y su versión recortada con un nombre diferente. Seleccionar **[!UICONTROL Reemplazar original]** para eliminar el archivo original desde el que recortó la imagen. A continuación, introduzca un nombre para la imagen y seleccione **[!UICONTROL Enviar]**.
 
 ## Recorte para quitar espacio en blanco alrededor de una imagen {#crop-to-remove-white-space-around-an-image}
 

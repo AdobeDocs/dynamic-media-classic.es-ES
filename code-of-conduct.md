@@ -1,7 +1,7 @@
 ---
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Este Código de conducta se aplica tanto dentro de los espacios del proyecto com
 
 ## Aplicación
 
-Los casos de comportamiento abusivo, acosador o inaceptable pueden denunciarse poniéndose en contacto con el equipo del proyecto en Grp-opensourceoffice@adobe.com. Todas las quejas se revisan e investigan. Se dará una respuesta que se considere necesaria y adecuada a las circunstancias . El equipo del proyecto está obligado a mantener la confidencialidad con respecto al denunciante de un incidente. Pueden publicarse por separado más detalles sobre políticas de ejecución específicas.
+Los casos de comportamiento abusivo, acosador o inaceptable pueden denunciarse poniéndose en contacto con el equipo del proyecto en Grp-opensourceoffice@adobe.com. Todas las quejas se revisan e investigan. Se da una respuesta que se considera necesaria y adecuada a las circunstancias. El equipo del proyecto está obligado a mantener la confidencialidad con respecto al denunciante de un incidente. Pueden publicarse por separado más detalles sobre políticas de ejecución específicas.
 
 Los administradores de proyectos que no sigan o apliquen el Código de conducta de buena fe pueden enfrentarse a repercusiones temporales o permanentes según lo determinen otros miembros del liderazgo del proyecto.
 

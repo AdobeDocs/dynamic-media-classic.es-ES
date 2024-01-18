@@ -11,10 +11,10 @@ role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 51%
+source-wordcount: '385'
+ht-degree: 41%
 
 ---
 
@@ -34,7 +34,7 @@ Consulte también [Exportación de recursos desde Adobe Dynamic Media Classic](e
 1. En la barra de navegación global, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes preestablecidos de imagen]**.
 1. En la ventana Ajustes preestablecidos de imagen, seleccione una de las siguientes opciones:
 
-   * **Habilitar conversión definida por el usuario** : cuando se selecciona, esta opción permite a los usuarios elegir otras opciones del **[!UICONTROL Tamaño]** en la ventana Exportar recursos seleccionados. A continuación, los usuarios pueden elegir una unidad de medida como, por ejemplo, píxeles o centímetros, y especificar la anchura y la altura deseadas. Al exportar o descargar estos archivos, se cambia el formato de los archivos de imagen.
+   * **Habilitar conversión definida por el usuario** : cuando se selecciona, esta opción permite a los usuarios elegir otras opciones del **[!UICONTROL Tamaño]** en la ventana Exportar recursos seleccionados. Los usuarios pueden elegir una unidad de medida, como píxeles o centímetros, y especificar la anchura y la altura deseadas. Al exportar o descargar estos archivos, se cambia el formato de los archivos de imagen.
 
      Cuándo **[!UICONTROL píxeles]** se eligen de la **[!UICONTROL Tamaño]** , la anchura × altura de la imagen resultante no puede superar los 100 millones de píxeles. Este tamaño equivale a 10.000 × 10.000 píxeles para una imagen cuadrada, o aproximadamente 8.000 × 12.000 píxeles para una imagen con una relación de aspecto 2x3. Esta limitación de tamaño no se aplica si exporta imágenes principales originales.
 
@@ -45,4 +45,4 @@ Consulte también [Exportación de recursos desde Adobe Dynamic Media Classic](e
 >[!MORELIKETHIS]
 >
 >* [Ajustes preestablecidos de imagen](application-setup.md#image_presets)
->* [Elección de permisos de acceso a ajustes preestablecidos de imagen para un grupo](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
+>* [Elija permisos de acceso a ajustes preestablecidos de imagen para un grupo](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)

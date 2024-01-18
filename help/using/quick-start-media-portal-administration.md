@@ -12,10 +12,10 @@ role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
 topic: Collaboration, Content Management
 level: Beginner
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 49%
+source-wordcount: '721'
+ht-degree: 56%
 
 ---
 
@@ -73,7 +73,7 @@ Consulte [Especificar las opciones de exportación disponibles para los usuarios
 
 ## 6. Creación de ajustes preestablecidos de imagen
 
-Un ajuste preestablecido de imagen es una recopilación de ajustes predefinidos para cambiar el tamaño, la calidad de la imagen, el formato, la resolución y otros aspectos visuales de una imagen al exportarse. Puede crear ajustes preestablecidos de imágenes para controlar el modo en el que se cambiará el formato de las imágenes cuando los usuarios las exporten. 
+Un ajuste preestablecido de imagen es una colección de ajustes predefinidos que cambian el tamaño, la calidad de imagen, el formato, la resolución y otros aspectos de la apariencia de una imagen cuando se exporta. Puede crear ajustes preestablecidos de imágenes para controlar el modo en el que se cambiará el formato de las imágenes cuando los usuarios las exporten. 
 
 Consulte [Crear y habilitar ajustes preestablecidos de imagen](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
 

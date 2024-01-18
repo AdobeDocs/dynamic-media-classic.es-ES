@@ -10,20 +10,20 @@ role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1569'
-ht-degree: 49%
+source-wordcount: '1601'
+ht-degree: 45%
 
 ---
 
 # Prácticas recomendadas para optimizar la calidad de las imágenes{#best-practices-for-optimizing-the-quality-of-your-images}
 
-La optimización de la calidad de las imágenes puede ser un proceso lento, ya que intervienen muchos factores para conseguir resultados aceptables. El resultado es en parte subjetivo porque distintas personas perciben la calidad de las imágenes de forma distinta. La clave es la experimentación estructurada.
+Optimizar la calidad de la imagen puede consumir mucho tiempo. Muchos factores contribuyen a obtener resultados aceptables. El resultado es en parte subjetivo porque distintas personas perciben la calidad de las imágenes de forma distinta. La clave es la experimentación estructurada.
 
 Adobe Dynamic Media Classic incluye más de 100 comandos de servidor de imágenes para ajustar y optimizar imágenes y procesar resultados. Las directrices siguientes pueden ayudarle a agilizar el proceso y a obtener buenos resultados con rapidez utilizando ciertos comandos esenciales y prácticas recomendadas.
 
-Consulte también [Imágenes inteligentes](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic).
+Consulte también [Imágenes inteligentes](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html).
 
 >[!TIP]
 >
@@ -74,8 +74,8 @@ Existen dos métodos de enfoque de imágenes que puede utilizar:
 
    * `&op_sharpen=amount,radius,threshold`
 
-      * `amount` (cantidad= (0-5, intensidad del efecto).
-      * `radius` (radio) (0-250, anchura de las “líneas de enfoque” dibujadas alrededor del objeto enfocado, medidas en píxeles.)
+      * `amount` (0-5, intensidad del efecto.)
+      * `radius` (0-250, anchura de las &quot;líneas de enfoque&quot; dibujadas alrededor del objeto enfocado, medida en píxeles.)
 
         Tenga en cuenta que los parámetros de `radius` y `amount` trabajar unos contra otros. Reducción `radius` puede compensarse aumentando el `amount`. `Radius` permite un control más preciso, ya que un valor más bajo enfoca únicamente los píxeles del borde, mientras que un valor más alto enfoca una banda más ancha de píxeles.
 
@@ -85,7 +85,7 @@ Existen dos métodos de enfoque de imágenes que puede utilizar:
 
         Para obtener más información sobre cómo configurar estos tres parámetros, incluidas las prácticas recomendadas para su uso con el filtro, consulte [Enfoque de imágenes en Adobe Dynamic Media Classic y en el servidor de imágenes](/help/using/assets/s7_sharpening_images.pdf).
 
-      * Adobe Dynamic Media Classic también permite controlar un cuarto parámetro: monocromo ( `0,1`). Este parámetro determina si la máscara de enfoque se aplica a cada componente de color por separado mediante el valor `0` o al brillo o la intensidad de la imagen con el valor `1`.
+      * Adobe Dynamic Media Classic también permite controlar un cuarto parámetro: monocromo ( `0,1`). Este parámetro determina si se aplica máscara de enfoque a cada componente de color por separado utilizando el valor `0` o a la intensidad/brillo de la imagen con el valor `1`.
 
 La práctica recomendada es comenzar con el parámetro de radio de máscara de enfoque. Puede comenzar con las configuraciones de radio siguientes:
 
@@ -104,12 +104,12 @@ Deje la configuración del parámetro monocromo en 0.
 * Para optimizar la calidad, no defina el valor del parámetro a 100. La diferencia entre un ajuste de 90 o 95 y 100 es casi imperceptible, pero 100 aumenta innecesariamente el tamaño de archivo de la imagen. Por lo tanto, para optimizar la calidad pero evitar que los archivos de imagen se vuelvan demasiado grandes, establezca el `qlt=` valor 90 o 95.
 * Para optimizar para un tamaño de archivo de imagen pequeño pero mantener la calidad de imagen en un nivel aceptable, establezca el `qlt=` valor 80. Los valores por debajo de 70 a 75 degradan considerablemente la calidad de imagen.
 * Como práctica recomendada, para permanecer en el medio, configure el `qlt=` valor de 85 para permanecer en el medio.
-* Utilización del indicador de cromatismo en `qlt=`
+* Uso del indicador de croma en `qlt=`
 
    * El `qlt=` El parámetro tiene un segundo ajuste que permite activar la disminución de resolución de cromaticidad del RGB utilizando el valor normal `,0` (predeterminado) o desactívelo con el valor `,1`.
-   * Para simplificar, empiece con la disminución de resolución de cromaticidad RGB desactivada ( `,1`). Este ajuste normalmente ofrece una mejor calidad de imagen, especialmente en imágenes sintéticas con muchos bordes nítidos y contraste.
+   * Para que sea sencillo, comience con la disminución de resolución de cromaticidad RGB desactivada ( `,1`). Este ajuste normalmente ofrece una mejor calidad de imagen, especialmente en imágenes sintéticas con muchos bordes nítidos y contraste.
 
-La práctica recomendada de compresión JPG es `&qlt=85,0`.
+Como práctica recomendada para el uso de compresión JPG `&qlt=85,0`.
 
 ## Prácticas recomendadas para el tamaño JPEG (&amp;jpegSize=) {#best-practices-for-jpeg-sizing-jpegsize}
 

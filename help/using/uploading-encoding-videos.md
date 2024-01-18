@@ -1,20 +1,18 @@
 ---
 title: Carga y codificación de vídeos
 description: Obtenga información sobre cómo cargar y codificar vídeos en Adobe Dynamic Media Classic.
-uuid: 9a7d6513-b10c-40b0-aebb-18a795c2b8d1
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '3951'
-ht-degree: 49%
+source-wordcount: '3986'
+ht-degree: 46%
 
 ---
 
@@ -50,7 +48,7 @@ Consulte [Trabajo con miniaturas de vídeo](deploying-video-websites-mobile-site
 
 **Para cargar y codificar vídeos:**
 
-Realice una de las acciones siguientes.
+Realice una de las siguientes acciones.
 
 *Si los vídeos ya están codificados*
 
@@ -77,12 +75,12 @@ Consulte [Ajustes preestablecidos de codificación de vídeo para equipos de esc
 1. En la página Cargar, asegúrese de que **[!UICONTROL Publicar tras la carga]** está marcada.
 1. En la página Cargar, en la esquina inferior derecha, seleccione **[!UICONTROL Cargar envío]**.
 
-*Si desea volver a codificar a un archivo de vídeo cargado anteriormente*
+*Si desea volver a codificar un archivo de vídeo que haya cargado anteriormente*
 
 1. En Adobe Dynamic Media Classic, en el panel Examinar, vaya al vídeo y selecciónelo.
 1. Ir a **[!UICONTROL Archivo]** > **[!UICONTROL Reprocesar]**.
 1. En el cuadro de diálogo Volver a procesar recursos, expanda **[!UICONTROL Opciones de vídeo]**, a continuación, realice una de las siguientes acciones:
-   * La práctica recomendada es utilizar el método siguiente. Seleccione **Vídeo adaptable**.
+   * La práctica recomendada es utilizar el siguiente método. Seleccionar **Vídeo adaptable**.
 Consulte [Vídeo adaptable (predeterminado)](application-setup.md#adaptive-video-default).
    * Opcional. Si desea utilizar una configuración de codificación individual, expanda **[!UICONTROL Ajustes preestablecidos de codificación única]**y, a continuación, seleccione las opciones de codificación que desee para Escritorio, Móvil y Tablet.
 Consulte [Ajustes preestablecidos de codificación de vídeo para equipos de escritorio](application-setup.md#desktop-video-encoding-presets), [Ajustes preestablecidos de codificación de vídeo para dispositivos móviles](application-setup.md#mobile-video-encoding-presets), [Ajustes preestablecidos de codificación de vídeo para tablets](application-setup.md#tablet-video-encoding-presets).
@@ -110,7 +108,7 @@ En la siguiente tabla se muestran los tipos de archivo de vídeo (con los códec
   | M2V | MPEG-2 ES |
   | M4V | H.264  |
   | MOV | DV, DVCPro 50, H.261, H.263, H.264, Sorenson Video 1 |
-  | MP4 | H.264/MPEG-4 AVC |
+  | MP4 | H.264 / MPEG-4 AVC |
   | MPEG | MPEG-2 SS |
   | MPG | MPEG-2 SS |
   | MTS | MPEG-2 |
@@ -174,7 +172,7 @@ Por ejemplo, un vídeo de 1440 de anchura × 1080 de altura tiene una relación 
 
 ### Velocidad de datos {#data-rate}
 
-La *velocidad de datos* (también denominada *velocidad de bits*) es la cantidad de datos codificados para crear un solo segundo de reproducción de vídeo. La velocidad de datos se mide en kilobits por segundo (kbps).
+El *velocidad de datos* (también llamado *velocidad de bits*) es la cantidad de datos codificados para formar un solo segundo de reproducción de vídeo. La velocidad de datos se mide en kilobits por segundo (kbps).
 
 >[!NOTE]
 >
@@ -188,7 +186,7 @@ En esta tabla se describe la velocidad de datos de las velocidades de conexión 
 | --- | --- |
 | 256 | Conexión de marcación. |
 | 800 | Conexión móvil habitual. Para esta conexión, utilice una velocidad de datos en el rango de 400 a 800 para experiencias 3G. |
-| 2000 | Conexión de escritorio de ancho de banda habitual. Para esta conexión, establezca como objetivo una velocidad de datos en el rango de 800-2000 Kbps, con un promedio de la mayoría de los objetivos de 1200-1500 Kbps. |
+| 2000 | Conexión de escritorio de ancho de banda habitual. Para esta conexión, utilice una velocidad de datos en el rango de 800 a 2000 kbps, con velocidades medias entre 1200 y 1500 kbps. |
 | 5000 | Conexión de gran ancho de banda habitual. La codificación en este rango superior no se recomienda, porque la mayoría de los usuarios no pueden recibir el vídeo a esta velocidad. |
 
 ### Resolución {#resolution}
@@ -355,8 +353,8 @@ Adobe Dynamic Media Classic ha establecido límites máximos en la velocidad de 
    | Descripción | Describa el ajuste preestablecido de vídeo. Lo que introduzca aparecerá como información de objeto al mover el puntero sobre el nombre del ajuste preestablecido en el cuadro de diálogo de opciones del trabajo de carga en el que los usuarios eligen las opciones de transcodificación. |
    | Dispositivo de reproducción | Seleccione el dispositivo en el que está previsto que se reproduzca el vídeo. Las opciones son Equipo (equipos de escritorio), Móvil (iPhone, iPad, Android™) o Tablet (solo iPad). Esta configuración determina automáticamente el códec de audio y vídeo adecuado utilizado durante la codificación. |
    | Velocidad de datos de destino | Introduzca la velocidad media de la conexión a Internet (en kilobits por segundo) del usuario final de destino. La velocidad se puede introducir manualmente o con el control deslizante. El espectro de velocidad de conexión del usuario muestra las velocidades típicas para ancho de banda, DSL, conexiones móviles y de marcación. Esta configuración determina automáticamente la velocidad de datos de audio y de vídeo combinada, Es decir, la cantidad de datos codificados para configurar un solo segundo de reproducción de vídeo. Cuanto mayor sea la velocidad de datos, mejor será la calidad del vídeo resultante. No obstante, las velocidades de datos demasiado altas producen tamaños de archivo grandes que crean visualizaciones no del todo satisfactorias por parte de los usuarios que tengan un ancho de banda menor. Como práctica recomendada, encuentre el equilibrio entre velocidades de datos altas y bajas. Intente crear una reproducción con una calidad adecuada sin perjudicar a los usuarios que tienen anchos de banda bajos. |
-   | Proporción de aspecto | La proporción de aspecto es la relación de anchura y altura del vídeo. Las dos primeras proporciones de aspecto enumeradas a continuación suelen utilizarse para mostrar vídeo horizontalmente:<ul><li> 4:3, utilizado para casi todos los contenidos emitidos en la televisión estándar.</li><li>16:9: se utiliza para casi todo el contenido y películas en pantalla ancha de la televisión de alta definición (HDTV).</li><li>Escalado automático: (predeterminado) un ajuste preestablecido de codificación única que funciona con cualquier relación de aspecto para crear vídeos para su envío a dispositivos móviles, tabletas y de escritorio. Los vídeos originales cargados que se hayan codificado con este ajuste preestablecido se definirán con una altura fija. Sin embargo, la anchura se amplía automáticamente para conservar la relación de aspecto del vídeo (relación de anchura y altura).</li><li>Personalizado: se utiliza para definir un tamaño de vídeo no estándar.</li><li>La proporción de aspecto que elija determina la configuración de anchura y altura para el tamaño de resolución; el valor de anchura y altura se adapta automáticamente a la proporción de aspecto adecuada.</li></ul> |
-   | Tamaño de la resolución | El tamaño de la resolución, expresado por el número de píxeles de ancho por el número de píxeles de alto, determina el tamaño. Introduzca los valores de anchura y altura en píxeles o sírvase del control deslizante. El espectro de resolución muestra los tamaños de resolución típicos. Los valores de anchura y altura se adhieren automáticamente a la relación de aspecto seleccionada. Por ejemplo, si selecciona 4:3 como relación de aspecto e introduce 400 para la anchura, automáticamente se introduce 300 para la altura. Si ha seleccionado Escala automática para el ajuste Proporción de aspecto, el valor Anchura de Tamaño de la resolución se establece automáticamente en Automático. Seleccionar **[!UICONTROL Previsualizar]** para que pueda abrir una ventana del explorador y ver las opciones de resolución allí. |
+   | Proporción de aspecto | La proporción de aspecto es la relación de anchura y altura del vídeo. Las dos primeras proporciones de aspecto enumeradas a continuación suelen utilizarse para mostrar vídeo horizontalmente:<ul><li> 4:3, utilizado para casi todos los contenidos emitidos en la televisión estándar.</li><li>16:9: se utiliza para casi todo el contenido y películas en pantalla ancha de la televisión de alta definición (HDTV).</li><li>Escalado automático: (predeterminado) un ajuste preestablecido de codificación única que funciona con cualquier relación de aspecto para crear vídeos para su envío a dispositivos móviles, tabletas y de escritorio. Los vídeos originales cargados que se hayan codificado con este ajuste preestablecido se definirán con una altura fija. Sin embargo, la anchura se amplía automáticamente para conservar la relación de aspecto del vídeo (relación de anchura y altura).</li><li>Personalizado: se utiliza para definir un tamaño de vídeo no estándar.</li><li>La proporción de aspecto que elija determina la anchura y la altura de la configuración de Tamaño de resolución; el valor de anchura y altura se adapta automáticamente a la proporción de aspecto adecuada.</li></ul> |
+   | Tamaño de la resolución | El tamaño de la resolución, expresado por el número de píxeles de ancho por el número de píxeles de alto, determina el tamaño. Introduzca un valor de anchura y altura en píxeles o arrastre el control deslizante para introducir estos valores. El espectro de resolución muestra los tamaños de resolución típicos. Los valores de anchura y altura se ajustan automáticamente a la relación de aspecto seleccionada. Por ejemplo, si selecciona 4:3 como proporción de aspecto e introduce 400 para anchura, se introduce 300 automáticamente para altura. Si ha seleccionado Escalar automáticamente para la configuración Proporción de aspecto, el valor Anchura para el Tamaño de resolución se establece automáticamente como Automático. Seleccionar **[!UICONTROL Previsualizar]** para que pueda abrir una ventana del explorador y ver las opciones de resolución allí. |
    | Codificar sufijo de archivo | Introduzca un sufijo. Este sufijo se añade al archivo de vídeo codificado resultante. Puede introducir un guión y un guión bajo en el nombre; los espacios en blanco y los caracteres especiales no están permitidos. |
    | Otros ajustes | Adobe Dynamic Media Classic determina automáticamente todos los demás ajustes de codificación según las directrices de codificación de prácticas recomendadas. |
 

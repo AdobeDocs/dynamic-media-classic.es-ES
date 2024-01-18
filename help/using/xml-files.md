@@ -9,13 +9,13 @@ role: User
 exl-id: 6eaecd25-7de3-492c-81e0-86a78145feb0
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 45%
+source-wordcount: '120'
+ht-degree: 17%
 
 ---
 
 # Archivos XML {#xml-files}
 
-Los sitios Web que utilizan un sistema basado en XML para administrar imágenes e información de imágenes pueden cargar archivos XML en Adobe Dynamic Media Classic. Uno de estos archivos puede elegirse como el archivo con el conjunto de normas de procesamiento previo para el servicio de imágenes. Este archivo reestructura el formato de protocolo estándar del servicio de imágenes para que se ajuste a la lógica de trabajo del servidor. En la pantalla Ajustes, puede especificar un archivo XML para que actúe como la ruta de archivo para definiciones de conjunto de reglas. Esta configuración de ruta se encuentra en la sección Gestión de catálogo de la pantalla de publicación de Servidor de imágenes. Consulte [Servidor de imágenes](publish-setup.md#image_server).
+Los sitios Web que utilizan un sistema basado en XML para administrar imágenes e información de imágenes pueden cargar archivos XML en Adobe Dynamic Media Classic. Puede designar uno de estos archivos como archivo del conjunto de reglas de preprocesamiento para el servicio de imágenes. Este archivo reestructura el formato de protocolo estándar del servicio de imágenes para que se ajuste a la lógica de trabajo del servidor. En la pantalla de instalación, puede especificar un archivo XML que servirá como ruta de acceso al archivo de definiciones de conjuntos de reglas. Esta configuración de ruta se encuentra en la sección Gestión de catálogo de la pantalla de publicación de Servidor de imágenes. Consulte [Servidor de imágenes](publish-setup.md#image_server).

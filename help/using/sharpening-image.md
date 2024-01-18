@@ -12,9 +12,9 @@ role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '2267'
+source-wordcount: '2198'
 ht-degree: 38%
 
 ---
@@ -60,7 +60,7 @@ La siguiente tabla muestra las opciones de enfoque del servidor de imágenes.
 | Nombre | Protocolo de URL | Valores | Ejemplo |
 | --- | --- | --- | --- |
 | Enfoque simple | `op_sharpen` | `0` o `1` | `op_sharpen=1` |
-| Modo de remuestreo | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: selecciona la interpolación bilineal estándar. Método de remuestreo más rápido; a menudo pueden verse algunos defectos de solapamiento.<br>`bicub`: selecciona la interpolación bicúbica. Aumenta el uso de CPU con respecto a `bilin`, pero genera imágenes más enfocadas en las que los defectos de solapamiento son menos evidentes.<br><br>`sharp2`: selecciona una función de Lanczos Windows® modificada como algoritmo de interpolación. Puede producir resultados ligeramente más nítidos que los bicúbicos a un mayor coste de CPU.<br><br>`trilin`: selecciona una interpolación trilineal modificada, que utiliza tanto resoluciones mayores como menores, si están disponibles. Solo se recomienda su uso cuando el solapamiento suponga un problema. Reducirá los tamaños de JPEG debido a la disminución de datos de alta frecuencia. | `resMode=sharp2` |
+| Modo de remuestreo | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: selecciona la interpolación bilineal estándar. Método de remuestreo más rápido; a menudo pueden verse algunos defectos de solapamiento.<br>`bicub`: selecciona la interpolación bicúbica. Más CPU que `bilin`, pero ofrece imágenes más nítidas con defectos de solapamiento menos evidentes.<br><br>`sharp2`: selecciona una función de Lanczos Windows® modificada como algoritmo de interpolación. Puede producir resultados ligeramente más nítidos que los bicúbicos a un mayor coste de CPU.<br><br>`trilin`: selecciona una interpolación trilineal modificada, que utiliza resoluciones más altas y más bajas, si están disponibles. Solo se recomienda su uso cuando el solapamiento suponga un problema. Reducirá los tamaños de JPEG debido a la disminución de datos de alta frecuencia. | `resMode=sharp2` |
 | Máscara de enfoque | `op_usm` | `amount`, `radius`, `threshold`, `monochrome`<br><br>`amount`: factor de intensidad del filtro (real 0...5)<br><br>`radius`: radio del núcleo del filtro en píxeles (real 0...250) <br><br>`threshold`: nivel de umbral del filtro (int 0...255)<br><br>`monochrome`: establezca en `0` para aplicar máscara de enfoque a cada componente de color por separado, establezca como `1` para desenfocar el brillo (intensidad) de la imagen de la máscara | `op_usm=1,1,10,0` |
 
 Seleccione el **[!UICONTROL Enfoque]** y elija una opción:
@@ -120,7 +120,7 @@ Las opciones de Calidad JPG controlan el nivel de compresión JPG:
 
 * **Calidad JPG** - Seleccione esta opción si desea controlar los niveles de compresión y la disminución de resolución de crominancia.
 
-* **Regulador** - Determina el nivel de compresión del JPG. Esta configuración afecta tanto al tamaño como a la calidad de la imagen. La escala de calidad JPG es 1-100.
+* **Regulador** - Determina el nivel de compresión del JPG. Esta configuración afecta tanto al tamaño como a la calidad de la imagen. La escala de la calidad JPG va de 1 a 100.
 
 * **Activar disminución de resolución de crominancia de JPG** - Dado que el ojo es menos sensible a la información de color de alta frecuencia que la luminancia de alta frecuencia, las imágenes JPEG dividen la información de la imagen en componentes de luminancia y color. Al comprimir una imagen JPEG, el componente de luminancia conserva la totalidad de su resolución, mientras que la resolución de los componentes de color se disminuye mediante promedios de grupos de píxeles. La disminución de la resolución reduce el volumen de datos en la mitad o en un tercio, y casi no afecta a la calidad percibida. La disminución de resolución no se aplica a las imágenes en escala de grises. Esta técnica reduce la cantidad de compresión, lo cual resulta útil para las imágenes de mayor contraste (por ejemplo, las imágenes con texto superpuesto).
 
@@ -128,7 +128,7 @@ Las opciones de Calidad JPG controlan el nivel de compresión JPG:
 
 Si no utiliza un ajuste preestablecido de imagen o transfiere protocolos de enfoque específicos del servidor de imagen junto con la cadena URL, la imagen no se enfocará cuando disminuya su resolución. Sin embargo, si no se produce este enfoque, puede establecer los valores de enfoque predeterminados y, a continuación, cualquier imagen siempre tendrá algún enfoque.
 
-Para establecer las opciones de enfoque predeterminadas de su empresa, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Ajustes de publicación]** > **[!UICONTROL Servidor de imágenes]**. Si establece el modo de remuestreo predeterminado en **[!UICONTROL `Sharp2`]**, siempre enfoca la imagen cuando se reduce su resolución.
+Para establecer las opciones de enfoque predeterminadas de su empresa, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Ajustes de publicación]** > **[!UICONTROL Servidor de imágenes]**. Si establece el modo de remuestreo predeterminado en **`Sharp2`**, siempre enfoca la imagen cuando se reduce su resolución.
 
 **Añadir enfoque a los ajustes preestablecidos del visor**
 
@@ -140,7 +140,7 @@ Consulte [Ajustes preestablecidos de visor](https://s7d5.scene7.com/s7viewers/ht
 
 La opción Modificadores se encuentra en la sección Configuración básica de todos los ajustes preestablecidos de visor de catálogos electrónicos, de conjunto de giros y de zoom personalizado. Al agregar comandos de enfoque de URL al cuadro Modificadores, se agrega enfoque cada vez que se llama a ese visor con ese ajuste preestablecido de visor.
 
-Para llamar al ajuste preestablecido de visor, utilice el `config=` en la dirección URL del visor. A continuación se muestra un ejemplo de cómo llamar a un conjunto de imágenes (zapatos) con un ajuste preestablecido de visor (`FantasticoZoom2022`):
+Para llamar al ajuste preestablecido de visor, utilice el `config=` en la dirección URL del visor. A continuación, se muestra un ejemplo de llamada a un conjunto de imágenes (zapatos) con un ajuste preestablecido de visualizador (`FantasticoZoom2022`):
 
 `https://s7d9.scene7.com/s7viewers/html5/ZoomViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&config=S7train/FantasticoZoom2022`
 

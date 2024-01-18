@@ -6,10 +6,10 @@ user-guide-title: Guía de Adobe Dynamic Media Classic
 breadcrumb-title: Guía de Dynamic Media Classic
 user-guide-description: Más información sobre el uso de Adobe Dynamic Media Classic
 index: y
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 26%
+source-wordcount: '795'
+ht-degree: 20%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 26%
    + [Servicios de formación de Adobe](training-services.md)
    + [Recursos de aprendizaje populares](popular-resources.md)
    + [Videos de capacitación](training-videos.md)
-+ Introducción {#getting-started}
++ Primeros pasos {#getting-started}
    + [Información general del programa Adobe Dynamic Media Classic](dmc-platform-overview.md)
    + [Media Portal](media-portal.md)
    + [Iniciar y cerrar sesión](signing-out.md)
@@ -59,7 +59,7 @@ ht-degree: 26%
    + [Especificación de opciones de exportación disponibles para los usuarios de Media Portal](specifying-export-options-available-media.md)
    + [Crear y habilitar ajustes preestablecidos de imagen](creating-enabling-image-presets.md)
    + [Uso más eficiente de los metadatos](making-efficient-metadata.md)
-   + [Personalización de la pantalla de Media Portal](customizing-media-portal-screen.md)
+   + [Personalizar la pantalla de Media Portal](customizing-media-portal-screen.md)
 + Carga y publicación de recursos {#upload-publish}
    + [Acerca de la carga y publicación de recursos](about-asset-upload-publish.md)
    + [Carga de archivos](uploading-files.md)
@@ -82,7 +82,7 @@ ht-degree: 26%
    + [Imprimir recursos](printing-assets.md)
    + [Administrar la carpeta Papelera](trash-folder.md)
    + [Organizar el trabajo con proyectos](organizing-projects.md)
-+ Cambio de tamaño de imagen {#image-sizing}
++ Tamaño de imagen {#image-sizing}
    + [Inicio rápido: Cambio de tamaño de imagen](quick-start-image-sizing.md)
    + [Cargar imágenes principales](uploading-master-images.md)
    + [Publicación de imágenes principales](publishing-master-images.md)
@@ -154,11 +154,11 @@ ht-degree: 26%
    + [Vinculación de un conjunto de medios mixtos a una página web](linking-mixed-media-set-web.md)
 + kit de instrumentación Adobe Analytics {#analytics-kit}
    + [Inicio rápido: Integración de Adobe Dynamic Media Classic con Adobe Analytics](quick-start-integrating-dmc-analytics.md)
-   + [Inicio de sesión en Adobe Analytics](log-analytics.md)
+   + [Iniciar sesión en Adobe Analytics](log-analytics.md)
    + [Configuración de informes de Adobe Analytics](configuring-analytics-reports.md)
    + [Instrumentación de visores con el kit de instrumentación de Adobe Analytics](instrumenting-viewer-using-analytics-instrumentation.md)
    + [Deshabilitar el seguimiento de Adobe Analytics](disabling-analytics-tracking.md)
-   + [Prueba de la integración de mediante un informe de Adobe Analytics](testing-integration-viewing-analytics-report.md)
+   + [Prueba de la integración viendo un informe de Adobe Analytics](testing-integration-viewing-analytics-report.md)
    + [Activar informes de vídeo de Adobe Analytics](enabling-analytics-video-reports.md)
    + [Publicar información de configuración de Adobe Analytics](publishing-analytics-configuration-information.md)
 + Integración de Adobe Target Standard/Premium {#target-classic}
@@ -166,7 +166,7 @@ ht-degree: 26%
    + [Integración de Adobe Dynamic Media Classic con Adobe Target Standard/Premium](integrating-dmc-with-target.md)
    + [Creación de un conjunto de ofertas](creating-offer-set.md)
    + [Insertar conjuntos de ofertas en Adobe Target Standard/Premium](pushing-offer-sets-target.md)
-+ Contenido generado por usuarios {#user-generated-content}
++ Contenido generado por el usuario {#user-generated-content}
    + [Acerca del contenido generado por el usuario](about-ugc.md)
    + [Eliminar un recurso cargado](deleting-uploaded-asset.md)
    + [Obtener información de uso del disco](getting-disk-usage-information.md)
@@ -183,7 +183,7 @@ ht-degree: 26%
    + [Trabajo con archivos de PSD](psd-files.md)
    + [Uso de archivos PostScript y Illustrator](postscript-illustrator-files.md)
    + [Trabajar con archivos de viñeta, cubierta de ventana y archivador](vignette-window-covering-cabinet-files.md)
-+ Archivos de compatibilidad {#support-files}
++ Archivos de soporte {#support-files}
    + [Fuentes](fonts.md)
    + [Archivos XML](xml-files.md)
    + [Perfiles ICC](icc-profiles.md)

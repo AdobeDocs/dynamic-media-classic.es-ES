@@ -1,5 +1,5 @@
 ---
-title: "Inicio rápido: Funciones básicas de plantilla"
+title: "Inicio rápido: Conceptos básicos de plantilla"
 description: Introducción y Inicio rápido de los conceptos básicos de las plantillas para ayudarle a ponerse en marcha rápidamente con Adobe Dynamic Media Classic.
 uuid: 16d78cbb-f762-4263-aea9-5712eb933693
 contentOwner: Rick Brough
@@ -12,10 +12,10 @@ role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 20%
+source-wordcount: '804'
+ht-degree: 21%
 
 ---
 

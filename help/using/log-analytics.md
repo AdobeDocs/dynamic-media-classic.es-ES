@@ -1,7 +1,6 @@
 ---
-title: Inicio de sesión en Adobe Analytics
+title: Iniciar sesión en Adobe Analytics
 description: Obtenga información sobre cómo iniciar sesión en Adobe Analytics desde Adobe Dynamic Media Classic.
-uuid: 5614babe-1097-4228-a3dc-27e5a25366d5
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -12,14 +11,14 @@ role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 1%
+source-wordcount: '845'
+ht-degree: 0%
 
 ---
 
-# Inicio de sesión en Adobe Analytics{#log-in-to-adobe-analytics}
+# Iniciar sesión en Adobe Analytics{#log-in-to-adobe-analytics}
 
 Antes de iniciar sesión para configurar informes de Adobe Analytics y hacer coincidir las variables de informes de Adobe Analytics con los eventos de Adobe Dynamic Media Classic, compruebe que es miembro del grupo Acceso a servicio web en Adobe Analytics. Los miembros de este grupo pueden acceder a todos los informes de los grupos de informes especificados mediante la API de servicios web del Experience Cloud, independientemente de los permisos establecidos en la interfaz. Para agregar un miembro al grupo, en Adobe Analytics, vaya a **[!UICONTROL Herramientas de administración]** > **[!UICONTROL Administración de usuarios]** > **[!UICONTROL Editar grupos]**.
 
@@ -36,7 +35,7 @@ Comience por integrar Dynamic Media Classic con Adobe Analytics OAuth. La integr
 1. Acceso [Consola de Adobe Developer](https://developer.adobe.com/console). Asegúrese de que su cuenta tenga permisos de administrador para la organización para la que se requiere la integración.
 1. Cerca de la esquina superior derecha de la página principal, en la lista desplegable, seleccione la empresa adecuada. (La captura de pantalla siguiente es solo con fines informativos; el nombre real de la compañía que seleccione puede variar).
 
-   ![Cree un nuevo proyecto](assets/analytics-oauth1.png)
+   ![Creación de un nuevo proyecto](assets/analytics-oauth1.png)
 
 1. Realice una de las siguientes acciones:
 

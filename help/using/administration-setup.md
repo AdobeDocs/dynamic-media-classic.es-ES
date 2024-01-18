@@ -11,9 +11,9 @@ role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1969'
+source-wordcount: '1970'
 ht-degree: 33%
 
 ---
@@ -50,7 +50,7 @@ Después de agregar un usuario, Adobe Dynamic Media Classic le envía un mensaje
 
    >[!NOTE]
    >
-   >El apóstrofo (`‘`) no está permitido en las direcciones de correo electrónico.
+   >El apóstrofo (`'`) no está permitido en las direcciones de correo electrónico.
 
 1. Para asignar una función al usuario, elija una opción de función.
 
@@ -140,7 +140,7 @@ You can link an Adobe IMS user identity to an Adobe Dynamic Media Classic IPS us
 
       https://s7spsN.scene7.com/IpsWeb?ims=1
 
-      Replace “N” in the above path with the number for your IPS company region. That is, N = 1 for North America; 3 for EMEA; or 5 for JAPAC.
+      Replace "N" in the above path with the number for your IPS company region. That is, N = 1 for North America; 3 for EMEA; or 5 for JAPAC.
  -->
 
 ## Ancho de banda y almacenamiento {#bandwidth-storage}
@@ -178,7 +178,7 @@ El informe de contenido de imagen proporciona información acerca de las solicit
 
 >[!NOTE]
 >
->El informe de flujo continuo de vídeo solo se aplica al flujo continuo de vídeos. No registra la visualización de vídeos progresivos.
+>El informe de flujo continuo de vídeo solo se aplica al flujo continuo de vídeos. No realiza el seguimiento de la visualización de vídeos progresivos.
 
 ### Generación de un informe {#generating-a-report}
 

@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '2035'
-ht-degree: 1%
+source-wordcount: '1981'
+ht-degree: 0%
 
 ---
 
@@ -67,9 +67,9 @@ La notificación de actualización dentro de la aplicación de escritorio de Ado
 ## Correcciones en la versión 20.21.2 {#minor-release}
 
 * Limitación conocida en 20.21.1: la variable **[!UICONTROL Servidor]** La lista desplegable de la pantalla de inicio de sesión estaba vacía.
-* Entrada **[!UICONTROL Opciones del trabajo de carga]**, Valor predeterminado de nomenclatura de capas en **[!UICONTROL Opciones de Photoshop]**, es ahora **[!UICONTROL Nombre de capa y Photoshop]**. Las capas en el archivo PSD se cargan como imágenes independientes.
+* Entrada **[!UICONTROL Opciones del trabajo de carga]**, Valor predeterminado de nomenclatura de capas en **[!UICONTROL Opciones de Photoshop]**, es ahora **[!UICONTROL Nombre de capa y Photoshop]**. Las capas del archivo de PSD se cargan como imágenes independientes.
    * El valor predeterminado anterior de **[!UICONTROL Nombre de capa]**, asigne a las imágenes un nombre en función del nombre o el número de capa que tengan en el archivo de PSD. El número de capa se utilizaba si los nombres de capa del fichero de PSD eran nombres de capa de Photoshop por defecto.
-   * El nuevo valor predeterminado de **[!UICONTROL Nombre de capa y Photoshop]**, asigna un nombre a las imágenes después del archivo de PSD seguido del nombre o número de capa. El número de capa se utiliza si los nombres de capa en el archivo PSD son nombres de capa predeterminados de Photoshop.
+   * El nuevo valor predeterminado de **[!UICONTROL Nombre de capa y Photoshop]**, asigna un nombre a las imágenes después del archivo de PSD seguido del nombre o número de capa. El número de capa se utiliza si los nombres de capa del fichero de PSD son nombres de capa de Photoshop por defecto.
    * Dado que las imágenes de capa de Adobe Dynamic Media Classic ahora tienen nombres únicos, no se va a realizar ninguna actualización de las plantillas existentes o del PSD (qué nombres de capa compartidos en los archivos de PSD originales).
 * Miniaturas de recursos rotas.
 
@@ -88,7 +88,7 @@ La notificación de actualización dentro de la aplicación de escritorio de Ado
 
 ## Descargue e instale la última aplicación de escritorio de Adobe Dynamic Media Classic en macOS o Windows® {#installation-dmc-app}
 
-Véase también:
+Consulte también:
 
 * [Descargue e instale de forma silenciosa la última aplicación de escritorio de Adobe Dynamic Media Classic en Mac](#install-silent-mac-dmc-app)
 * [Descargue e instale de forma silenciosa la última aplicación de escritorio de Adobe Dynamic Media Classic en Windows](#install-silent-windows-dmc-app)
@@ -147,7 +147,7 @@ Véase también:
 
 ## Descargar y *silencioso* instale la última aplicación de escritorio de Adobe Dynamic Media Classic en macOS {#install-silent-mac-dmc-app}
 
-Véase también:
+Consulte también:
 
 * [Descargue e instale la última aplicación de escritorio de Adobe Dynamic Media Classic en Mac o Windows](#installation-dmc-app)
 * [Descargue e instale de forma silenciosa la última aplicación de escritorio de Adobe Dynamic Media Classic en Windows](#install-silent-windows-dmc-app)
@@ -189,7 +189,7 @@ Para descargar y *silencioso* instale la última versión de la aplicación de e
 
 El comando que utiliza es para una instalación silenciosa MSI básica. Sin embargo, el instalador de la aplicación de escritorio de Adobe Dynamic Media Classic es un instalador MSI de InstallScript creado con InstallShield. Cuando se ejecuta el instalador en modo de registro, cualquier interacción del usuario se registra en un archivo de respuesta. Este archivo de respuesta se utiliza para una instalación silenciosa como se describe en [Ejecución de instalaciones en modo silencioso](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/SilentInstall.htm).
 
-Véase también:
+Consulte también:
 
 * [Descargue e instale la última aplicación de escritorio de Adobe Dynamic Media Classic en Mac o Windows](#installation-dmc-app)
 

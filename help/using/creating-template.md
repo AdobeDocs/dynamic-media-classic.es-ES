@@ -12,10 +12,10 @@ role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
 topic: Content Management
 level: Experienced
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '3468'
-ht-degree: 44%
+source-wordcount: '3420'
+ht-degree: 41%
 
 ---
 
@@ -50,7 +50,7 @@ Puede crear una plantilla a partir de una existente. Abra la plantilla y selecci
 
    * **Empezar desde la pantalla Plantilla** - Vaya a **[!UICONTROL Generar]** > **[!UICONTROL Conceptos básicos de plantilla]**. Seleccione Diseñador o Desarrollador.
 
-1. En el cuadro de diálogo Introducir tamaño de lienzo, introduzca los valores de anchura y altura de la plantilla.
+1. En el cuadro de diálogo Especificar tamaño de lienzo, escriba las medidas de anchura y altura para la plantilla.
 1. Seleccione una carpeta en la biblioteca de recursos y arrastre el archivo PSD o las imágenes requeridas hasta la pantalla Plantilla.
 1. Cuando haya terminado, asegúrese de que esté seleccionada la opción **[!UICONTROL Publicar después de guardar]** (predeterminada), cerca de la esquina inferior derecha de la página.
 1. Seleccionar **[!UICONTROL Guardar]**.
@@ -65,7 +65,7 @@ Tanto si edita un conjunto de plantillas publicadas como si no, la variable **[!
 | ¿Ya se ha publicado el conjunto? | **[!UICONTROL Publicar tras guardar]** opción seleccionada antes de guardar la edición? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
 | --- | --- | --- | --- |
 | Sí | Sí | Publicado | Publicado |
-| Sí | No | Publicado | Los miembros existentes del conjunto conservarán su estado publicado. Cualquier nuevo miembro que añada al conjunto durante la edición conservará su estado publicado o no publicado. |
+| Sí | No | Publicado | Los miembros del conjunto existentes conservan su estado publicado. Cualquier nuevo miembro que añada al conjunto durante la edición conservará su estado publicado o no publicado. |
 | No | Sí | Publicado | Publicado |
 | No | No | Sin publicar | Los miembros existentes del conjunto y cualquier nuevo miembro que añada al conjunto durante la edición conservarán su estado publicado o no publicado. |
 
@@ -80,7 +80,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 ## Eliminar una plantilla {#deleting-a-template}
 
-Cuando se elimina un conjunto de plantillas, el conjunto en sí se mueve a la papelera. Sin embargo, los miembros (o “elementos secundarios”) dentro de dicho conjunto no se verán afectados; cada uno mantendrá su estado existente de publicación o no.
+Cuando se elimina un conjunto de plantillas, el conjunto en sí se mueve a la papelera. Sin embargo, los miembros (o &quot;hijos&quot;) de ese conjunto no se ven afectados, sino que cada uno de ellos conserva su estado publicado o no publicado.
 
 Consulte también [Publicación manual de recursos](publishing-files.md#manually_publishing_assets) y [Cancelación manual de la publicación de recursos](publishing-files.md#manually_unpublishing_assets).
 
@@ -103,7 +103,7 @@ Utilice estas herramientas en la pantalla Plantilla para poder crear plantillas:
 
 * **[!UICONTROL Resumen de parámetros]** Abre la pantalla Resumen de parámetros. Puede ver el nombre de cada una de las capas de una plantilla y, en cada capa, los nombres de los parámetros que se han activado.
 
-* **[!UICONTROL Editor de texto v4.3 y Editor de texto v4.2]** - Puede elegir utilizar el editor de texto más reciente y con más funciones, el Editor de texto v4.3, o el editor de texto anterior, Editor de texto v4.2. Al crear plantillas, Editor de texto v4.3 está seleccionado de forma predeterminada. Al editar plantillas antiguas, se seleccionará por defecto el Editor de texto 4.2. El Editor de texto v4.3 no admite el ajuste de palabras, de modo que si desea editar plantillas antiguas que utilicen ajuste de palabras, deberá utilizar el Editor de texto v4.2 para mantener intacta la fidelidad de la plantilla. Si la plantilla anterior no utiliza ajuste de línea, puede elegir Editor de texto v4.3 para aprovechar las numerosas funciones nuevas que ofrece. Por ejemplo, Aumentar márgenes, Reducir márgenes, Definir texto en mayúsculas y Copiar texto de ajuste.
+* **[!UICONTROL Editor de texto v4.3 y Editor de texto v4.2]** - Puede elegir utilizar el editor de texto más reciente y con más funciones, el Editor de texto v4.3, o el editor de texto anterior, Editor de texto v4.2. Al crear plantillas, Editor de texto v4.3 está seleccionado de forma predeterminada. Al editar plantillas antiguas, se seleccionará por defecto el Editor de texto 4.2. El Editor de texto v4.3 no admite actualmente el ajuste de palabras, por lo que al editar plantillas antiguas que utilizan el ajuste de palabras, utilice el Editor de texto v4.2 para mantener la fidelidad de la plantilla totalmente intacta. Si la plantilla anterior no utiliza ajuste de línea, puede elegir Editor de texto v4.3 para aprovechar las numerosas funciones nuevas que ofrece. Por ejemplo, Aumentar márgenes, Reducir márgenes, Definir texto en mayúsculas y Copiar texto de ajuste.
 
   >[!NOTE]
   >
@@ -164,7 +164,7 @@ Para dar formato al texto en una capa de texto, haga lo siguiente:
 
    * **[!UICONTROL Interlineado]** : escriba o seleccione un valor numérico mediante el cual ajustar la cantidad de espacio entre líneas.
 
-   * **[!UICONTROL Desplazamiento vertical]** : escriba o seleccione un valor numérico mediante el cual mover un carácter seleccionado hacia arriba o hacia abajo en relación con la línea de base del texto que lo rodea. Esta opción resulta especialmente útil al definir fracciones manualmente o al ajustar la posición de gráficos integrados.
+   * **[!UICONTROL Desplazamiento vertical]** : escriba o seleccione un valor numérico mediante el cual mover un carácter seleccionado hacia arriba o hacia abajo en relación con la línea de base del texto que lo rodea. Esta opción es especialmente útil cuando se configuran a mano fracciones o se ajusta la posición de gráficos en línea.
 
 >[!NOTE]
 >
@@ -248,7 +248,7 @@ El tamaño de las capas no debe superar las restricciones del lienzo. Puede modi
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic recomienda crear un ajuste preestablecido de imagen que sea del tamaño exacto de la plantilla. De este modo se asegura una definición correcta de las opciones de enfoque y el tamaño de salida final de la plantilla. Después de crear este ajuste de imagen preestablecido, está disponible en el menú Ajustes preestablecidos, en la pantalla Vista previa de plantilla. La pantalla muestra el aspecto que tendrá la imagen procedente del servidor. Consulte [Configurar ajustes preestablecidos de imagen](setting-image-presets.md#setting_up_image_presets).
+>Adobe Dynamic Media Classic recomienda crear un ajuste preestablecido de imagen que sea del tamaño exacto de la plantilla. De este modo se asegura una definición correcta de las opciones de enfoque y el tamaño de salida final de la plantilla. Después de crear este ajuste preestablecido de imagen, puede elegirlo en el menú Aplicar ajuste preestablecido de la pantalla Vista previa de plantilla. La pantalla muestra el aspecto que tendrá la imagen procedente del servidor. Consulte [Configurar ajustes preestablecidos de imagen](setting-image-presets.md#setting_up_image_presets).
 
 * **Modificación del tamaño de una capa** - Para cambiar el tamaño de una capa o del lienzo, seleccione la capa o el lienzo en la lista Capas y utilice una de estas técnicas:
 

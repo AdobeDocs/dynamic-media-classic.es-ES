@@ -12,10 +12,10 @@ role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 52%
+source-wordcount: '569'
+ht-degree: 43%
 
 ---
 
@@ -29,13 +29,13 @@ Consulte también [Creación de un alias para una imagen](adjusting-image.md#cre
 
 1. Seleccione el botón Editar de rollover de la imagen y elija Ajustar. O bien, en el panel Examinar, haga doble clic en la imagen para que se abra en la Vista de detalles.
 1. Seleccione un tamaño y un ajuste preestablecido de imagen (en la parte inferior de la ventana).
-1. Use los comandos que se encuentran en la parte derecha de la ventana Editor de ajustes para ajustar la imagen:
+1. Utilice los comandos del lado derecho del `Adjust Editor` para ajustar la imagen:
 
    * Use las opciones de Voltear para voltear una imagen horizontal o verticalmente. 
    * Use el control deslizante de rotación para rotar la imagen. Puede introducir valores en el campo Rotar para rotar una imagen. Los valores positivos la rotan hacia la derecha; los negativos, hacia la izquierda.
    * Use el control deslizante Desenfocar o su cuadro correspondiente para desenfocar una imagen. Cuanto más alto sea el valor, más desenfocada quedará la imagen.
    * Use las opciones Contraste, Brillo, Saturación, Tono y Equilibrio de color para ajustar el color y el brillo. Estos efectos son acumulativos. Por ejemplo, los cambios en el valor Magenta/Verde se agregan a los realizados en el valor Tono.
-   * Use las opciones de Colorear para colorear una imagen a la vez que conserva las sombras y los resaltes. Los cambios en la opción Colorear también son acumulativos. En el menú Brillo, elija **[!UICONTROL Sin compensación]** por lo tanto, se desactiva la compensación automática del brillo. Establezca el valor de contraste en 0 para conservar el rango de contraste de la imagen original, o especifique un rango de contraste con un valor superior a 0. Un valor de 100 maximiza el contraste. Los valores típicos están en el rango 30-70.
+   * Utilice el `Colorize` opciones para colorear una imagen conservando las sombras y los resaltados. Los cambios en la opción Colorear también son acumulativos. En el menú Brillo, elija **[!UICONTROL Sin compensación]** por lo tanto, se desactiva la compensación automática del brillo. Establezca el valor de contraste en 0 para conservar el rango de contraste de la imagen original, o especifique un rango de contraste con un valor superior a 0. Un valor de 100 maximiza el contraste. Los valores típicos se encuentran entre 30 y 70.
 
 1. Cuando termine de ajustar la imagen, realice una de las acciones siguientes:
 
@@ -47,25 +47,25 @@ Consulte también [Creación de un alias para una imagen](adjusting-image.md#cre
 
    * Para guardar la imagen como una nueva imagen principal, seleccione **[!UICONTROL Guardar como]**.
 
-     En la lista desplegable, seleccione **[!UICONTROL Guardar como nuevo elemento principal]**.
+     En la lista desplegable, seleccione **[!UICONTROL Guardar como nuevo principal]**.
 En el **[!UICONTROL Nombre de carpeta]** , seleccione la carpeta en la que desea guardar la nueva imagen principal.
 Seleccionar **[!UICONTROL Guardar]**.
 
    * Para guardar la imagen como otra vista de la imagen principal. puede crear un alias. Seleccionar **[!UICONTROL Guardar como]**.
 
-     En el **[!UICONTROL Guardar como]** , en la lista desplegable, seleccione **[!UICONTROL Guardar como otra vista del patrón]**.
+     En la lista desplegable de la **[!UICONTROL Guardar como]** , seleccione **[!UICONTROL Guardar como otra vista del principal]**.
 En el **[!UICONTROL Nombre de carpeta]** , seleccione la carpeta en la que desea guardar la nueva imagen principal.
 Seleccionar **[!UICONTROL Guardar]**.
 
 ## Creación de un alias para una imagen {#creating-an-alias-for-an-image}
 
-Cuando haya ajustado una imagen, puede guardarla como otra vista de la imagen principal. Para ello, puede crear un alias para la imagen con la función **[!UICONTROL Guardar como vista adicional de imagen principal]**.
+Cuando haya ajustado una imagen, puede guardarla como otra vista de la imagen principal. Para ello, puede crear un alias para la imagen utilizando la variable **[!UICONTROL Guardar como vista adicional de principal]** función.
 
 **Para crear un alias para una imagen:**
 
 1. En la vista de cuadrícula o de lista, en la **[!UICONTROL Editar]** junto a una imagen para la que desee crear un alias, seleccione **[!UICONTROL Ajuste]**.
 1. En la esquina inferior derecha de la página, seleccione **[!UICONTROL Guardar como]**.
-1. En el **[!UICONTROL Guardar como]** , en la lista desplegable, seleccione **[!UICONTROL Guardar como vista adicional de imagen principal]**.
+1. En la lista desplegable de la **[!UICONTROL Guardar como]** , seleccione **[!UICONTROL Guardar como vista adicional de principal]**.
 1. En el cuadro de lista **[!UICONTROL Nombre de la carpeta]**, seleccione la carpeta en la que desee guardar la imagen con alias.
 1. En el campo **[!UICONTROL Nombre del archivo]**, escriba el nombre que desee utilizar para el alias.
 1. Seleccionar **[!UICONTROL Guardar]**.

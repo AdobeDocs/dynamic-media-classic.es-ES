@@ -12,10 +12,10 @@ role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 21%
+source-wordcount: '618'
+ht-degree: 20%
 
 ---
 
@@ -80,8 +80,8 @@ Esta tabla muestra qué otras opciones están disponibles con diferentes tipos d
 
 | Tipo de recurso | Edición/Ajustes | Vista previa |
 | --- | --- | --- |
-| Imágenes | Agregar mapas de imagen<br>Añadir destinos de zoom<br>Recorte<br>Enfoque<br>Creación de vistas ajustadas | Sí; ajustes preestablecidos de zoom e imagen |
-| Imágenes de armario y ventanas | No | Miniatura |
+| Imágenes | Añadir mapas de imagen<br>Añadir destinos de zoom<br>Recorte<br>Enfoque<br>Creación de vistas ajustadas | Sí; ajustes preestablecidos de zoom e imagen |
+| Imágenes de cobertura de ventana y armario | No | Miniatura |
 | Catálogos electrónicos | Editar | Sí<br>El panel de información también está disponible |
 | Fuentes | Editar información de fuente | No |
 | Archivos FXG | Editar | Sí |
@@ -97,7 +97,7 @@ Esta tabla muestra qué otras opciones están disponibles con diferentes tipos d
 | Vídeos | No | Sí |
 | Viñetas y viñetas procesadas | No | Se muestra la imagen<br>Puede ver el contenido y la estructura de los elementos procesables de la viñeta en formato XML |
 | Archivos XML | No | Se muestra el contenido |
-| Archivos ZIP | No | El contenido no se muestra |
+| Archivos ZIP | No | No se muestra el contenido |
 
 >[!MORELIKETHIS]
 >
