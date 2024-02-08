@@ -12,7 +12,7 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
 source-wordcount: '1620'
 ht-degree: 24%
@@ -131,7 +131,7 @@ En esta tabla se muestran los períodos temporales, los valores permitidos y los
 En esta tabla se muestran los caracteres comodín que se admiten en el cuadro Regla y cómo se utilizan estos caracteres:
 
 | Carácter comodín | Nombre | Qué describe |
-|--- |--- |--- |
+| --- | --- | --- |
 | `*` | Asterisco | Todos los valores (por ejemplo, &quot;cada minuto&quot;). |
 | `?` | Signo de interrogación | Sin valor específico (por ejemplo, &quot;cualquier minuto dentro de la hora especificada&quot;). |
 | `,` | Coma | Otros valores (por ejemplo, &quot;lunes y miércoles&quot;). |
@@ -139,7 +139,7 @@ En esta tabla se muestran los caracteres comodín que se admiten en el cuadro Re
 | `/` | Barra diagonal | Incrementos (por ejemplo, &quot;cada 15 minutos&quot;). |
 | `L` | L mayúscula | Último &quot;día del mes&quot; o &quot;día de la semana&quot; (solo disponible para estos campos). Por ejemplo, si el mes es enero, un valor L para el campo &quot;día del mes&quot; programa el trabajo para el 31 de enero. En el campo &quot;día de la semana&quot;, puede introducir este carácter solo para programar el trabajo el sábado. Puede utilizarlo con un número (por ejemplo, `6L`) para especificar el último viernes del mes. No especificar `L` con los comodines de coma o guión. |
 | `#` | Almohadilla | Día de la semana del mes &quot;n&quot; (disponible solo para el campo &quot;día de la semana&quot;). Por ejemplo, `6#3` en el campo &quot;día de la semana&quot; especifica el tercer viernes del mes. El `6` indica &quot;viernes&quot; (el sexto día de la semana) y `3` indica la tercera incidencia en el mes. |
-| `C` | # C mayúscula | Primer calendario &quot;día del mes&quot; o &quot;día de la semana&quot; (solo disponible para estos campos). Por ejemplo, si se especifica un valor de `1C` para las programaciones de &quot;día del mes&quot;, el primer día del calendario que se produce en el quinto día o después de este. Para el campo &quot;día de la semana&quot;, especificando `1C` programa el primer día del calendario que se produzca el domingo o después |
+| `C` | # C mayúscula | Primer calendario &quot;día del mes&quot; o &quot;día de la semana&quot; (solo disponible para estos campos). Por ejemplo, si se especifica un valor de `1C` para las programaciones de &quot;día del mes&quot;, el primer día del calendario que se produce en el quinto día o después de este. Para el campo &quot;día de la semana&quot;, especificando `1C` programa el primer día del calendario que se produzca en domingo o después de domingo. |
 
 En esta lista se pueden ver ejemplos de cómo se describen los intervalos de tiempo en el cuadro Regla:
 

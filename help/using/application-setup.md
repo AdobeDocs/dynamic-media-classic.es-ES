@@ -10,7 +10,7 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
 source-wordcount: '10991'
 ht-degree: 37%
@@ -613,7 +613,7 @@ Consulte también [Ajustes preestablecidos de visor](https://s7d5.scene7.com/s7v
      
    * **Editar** - Seleccione un ajuste preestablecido de visor existente y, a continuación, seleccione **[!UICONTROL Editar]**.
 
-1. En la pantalla Configurar visor, en el campo Nombre del ajuste preestablecido, introduzca o edite el nombre del ajuste preestablecido.
+1. En la página Configurar visor, en el campo Nombre del ajuste preestablecido, introduzca o edite el nombre del ajuste preestablecido.
 1. Defina las opciones restantes que desee.
 
    >[!NOTE]

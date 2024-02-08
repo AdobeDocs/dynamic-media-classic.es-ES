@@ -12,10 +12,10 @@ role: User
 exl-id: 05769eeb-5f1b-42ff-9392-2669f5051140
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 25%
+ht-degree: 17%
 
 ---
 
@@ -36,7 +36,7 @@ Puede crear y personalizar ajustes preestablecidos de visor de acuerdo con sus n
    * Para editar un ajuste preestablecido del visualizador de conjuntos de muestras existente, seleccione el ajuste preestablecido y, a continuación, seleccione **[!UICONTROL Editar]**.
 
 1. En la página Configurar visor, en el campo de texto Nombre de ajuste preestablecido, escriba un nombre para el ajuste preestablecido del visualizador de conjuntos de muestras.
-1. Elija las opciones deseadas en la pantalla Configurar visor. 
+1. Seleccione las opciones en la página Configurar visor.
 
    Para ver la descripción de una opción, seleccione la **[!UICONTROL Sugerencia de información]** a la derecha de la opción.
 
@@ -56,7 +56,7 @@ Puede utilizar Vista previa para ver cómo aparece un recurso en un tipo de viso
    * Cerca de la esquina superior derecha de la ventana de Adobe Dynamic Media Classic, seleccione la opción **[!UICONTROL Vista de cuadrícula]** icono. En la ventana Recurso, en una ventana de miniaturas de recurso, seleccione **[!UICONTROL Previsualizar]** (no en la lista desplegable Vista previa ).
    * Cerca de la esquina superior derecha de la ventana de Adobe Dynamic Media Classic, seleccione la opción **[!UICONTROL Vista de detalles]** icono. En la misma barra de herramientas, seleccione **[!UICONTROL Previsualizar]** (no en la lista desplegable Vista previa ).
 
-1. (Opcional) En la lista desplegable de la parte inferior de la ventana Vista previa, seleccione la codificación de URL que desee aplicar a la dirección URL del recurso cuando se copie.
+1. (Opcional) En la ventana Vista previa, en la lista desplegable de la parte inferior, seleccione la codificación de URL que desee aplicar a la URL del recurso cuando se copie.
 1. Para obtener una vista previa del recurso en el visor seleccionado, seleccione un vínculo del visor.
 
    Al seleccionar un vínculo de visor determinado, la dirección URL asociada se copia automáticamente en el portapapeles.

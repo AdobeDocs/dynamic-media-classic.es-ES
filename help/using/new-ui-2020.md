@@ -9,9 +9,9 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1079'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Algunas empresas no permiten descargar e instalar software y aplicaciones en el 
 +++
 
 +++**_¿Se pueden abrir varias instancias de la nueva aplicación de escritorio al mismo tiempo?_**
-No, la tecnología de AIR en la que se crea la nueva aplicación de escritorio de Adobe Dynamic Media Classic impide que un usuario tenga varias instancias de la aplicación abiertas a la vez.
+No. La tecnología de AIR en la que se basa la nueva aplicación de escritorio de Adobe Dynamic Media Classic impide que un usuario tenga varias instancias de la aplicación abiertas a la vez.
 +++
 
 +++**_¿Hay alguna restricción en el número de archivos que se pueden cargar en Adobe Dynamic Media Classic a través de un equipo local?_**
@@ -80,7 +80,7 @@ Con la nueva aplicación de escritorio de Adobe Dynamic Media Classic en Windows
 +++
 
 +++**_¿La nueva aplicación de escritorio de Adobe Dynamic Media Classic requiere un nuevo SKU? ¿Está implicado el coste de la licencia?_**
-No se requiere ningún cambio de SKU o licencia para utilizar la nueva aplicación de escritorio de Adobe Dynamic Media Classic.
+No a ambas preguntas. No se requiere ningún cambio de SKU o licencia para utilizar la nueva aplicación de escritorio de Adobe Dynamic Media Classic.
 +++
 
 +++**_¿Cómo están habilitadas las actualizaciones a la aplicación de escritorio de Adobe Dynamic Media Classic?_**

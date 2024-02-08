@@ -9,10 +9,10 @@ role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
-source-wordcount: '2408'
-ht-degree: 42%
+source-wordcount: '2389'
+ht-degree: 34%
 
 ---
 
@@ -65,13 +65,13 @@ Cambie esta configuración solo con la ayuda de una persona de asistencia de Ado
 
 Una forma habitual de utilizar Adobe Dynamic Media Classic es administrar las imágenes de los productos en los sitios web de comercio electrónico. Las empresas internacionales se enfrentan a un reto importante, ya que los recursos para productos similares tienen un aspecto distinto según el país. Por lo general, las diferencias son para algunas partes de los medios generales. Abordar esas diferencias copiando todos los activos para cada uno de los países y sobrescribiendo sólo las diferencias es un esfuerzo tremendo y contradice la metáfora del activo primario único. Dichas diferencias en los recursos pueden ser numerosas, desde vídeos para cada país con diferentes pistas de audio hasta diferencias pequeñas pero importantes en el cable de alimentación que se utiliza con el producto. Adobe Dynamic Media Classic utiliza un mecanismo de búsqueda básico. Puede definir el orden de los sufijos de los recursos en que busca el servidor de imágenes, empezando por la configuración regional requerida.
 
-#### Búsqueda de recursos
+#### Localización de los recursos
 
 La configuración regional de un servicio de imágenes (IS) se identifica con el comando siguiente para IS/IR (procesamiento de imágenes):
 
 `locale=`
 
-Este comando acepta una cadena de ID de configuración regional (locId) que no distingue entre mayúsculas y minúsculas. El ID de configuración regional suele ser una cadena de 2-6 caracteres compuesta por letras y &quot;_&quot;.
+Este comando acepta una cadena de ID de configuración regional (locId) que no distingue entre mayúsculas y minúsculas. El ID de configuración regional suele ser una cadena de entre 2 y 6 caracteres compuesta de letras y &quot;_&quot;.
 
 IS admite cadenas ASCII imprimibles arbitrarias. El `locale=` tiene un ámbito global, lo que significa que se aplica a toda la solicitud, incluidas todas las solicitudes IS e IR anidadas, las plantillas a las que se hace referencia y las capas de imagen. No se admiten varias configuraciones regionales por solicitud, como por ejemplo una configuración regional distinta para cada capa. Sin embargo, se pueden permitir omisiones explícitas en solicitudes anidadas.
 
@@ -89,11 +89,11 @@ Algunas de las ventajas de utilizar `locale=` y `attribute::DefaultLocale` inclu
 * Cuando se implementa RFC IS-63, se admite contenido estático como vídeos y máscaras.
 * Se puede configurar la configuración regional predeterminada.
 
-#### Situaciones de aplicación
+#### Escenarios de aplicación
 
 | Aplicación | Situación |
 | --- | --- |
-| Localización del visor | Tras implementar los catálogos de contenido estático, el parámetro locale= añadido a todas las solicitudes a IS controla la localización completamente. Los registros de configuración, las apariencias, pantallas de bienvenida, etc., pueden tener o no variantes regionales. IS proporciona el contenido correcto sin que el visor necesite saber qué parte del contenido se ha localizado y cuáles son sus ID. |
+| Localización del visor | Una vez implementados los catálogos de contenido estático, la localización se controla completamente con el parámetro locale=, anexado a todas las solicitudes realizadas a IS. Los registros de configuración, las apariencias, pantallas de bienvenida, etc., pueden tener o no variantes regionales. IS proporciona el contenido correcto sin que el visor necesite saber qué parte del contenido se ha localizado y cuáles son sus ID. |
 | Imágenes y vídeo | Las compañías multinacionales suelen tener una mezcla de contenido genérico y regional. Con este mecanismo, una referencia a una imagen o un vídeo puede ser genérica, e IS muestra el contenido regional si está disponible. |
 | Conjuntos de imágenes y conjuntos de medios | Todo el conjunto de imágenes puede ser diferente para algunas configuraciones regionales, como cuando un catálogo electrónico es diferente, con la traducción de un conjunto de imágenes genérico a uno específico de la configuración regional que gestiona el visor. Con mayor frecuencia, los ID individuales de un conjunto genérico pueden hacer referencia a contenido localizado. Por ejemplo, la mayoría de las fotos de un dispositivo pueden ser las mismas en todos los idiomas, excepto la foto del Panel de control de Campaign. IS traduce automáticamente los identificadores, por lo que no es necesario generar conjuntos de imágenes regionales. |
 
@@ -125,13 +125,13 @@ La aplicación de un sufijo o un valor de sustitución depende del ajuste de la 
 
 | URL | ID de localeMap | Resultado |
 | --- | --- | --- |
-| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | Observe que no se ha definido GlobalLocale. El parámetro de configuración regional de_DE se compara con la primera entrada de `localeMap`. El primer valor correspondiente _DE se añade como sufijo al recurso image_DE y se intenta encontrarlo en el servidor de imágenes. Si se encuentra en el servidor, se devuelve. De lo contrario, se utiliza el segundo valor &quot;&quot; como sufijo, lo que hace que se devuelva la propia imagen. |
+| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | Observe que no se ha definido GlobalLocale. El parámetro de configuración regional de_DE se compara con la primera entrada de `localeMap`. El primer valor _DE correspondiente se añade como sufijo al recurso image_DE y se intenta encontrarlo en el servidor de imágenes. Si se encuentra en el servidor, se devuelve. De lo contrario, se utiliza el segundo valor &quot;&quot; como sufijo, lo que hace que se devuelva la propia imagen. |
 
-**Ejemplo de sustitución:**
+**Ejemplo de reemplazo:**
 
 | URL | `GlobalLocale` y `localeMap` ID | Resultado |
 |--- |--- |--- |
-| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | En el ejemplo de sustitución superior, GlobalLocale se define en main. El parámetro de configuración regional de_DE se compara con la primera entrada de `localeMap`. La subcadena GlobalLocale se encuentra y se reemplaza por el primer valor correspondiente `de` en el `localeMap`: `image-de-01`. Si se encuentra en el servidor de imágenes, se devuelve. De lo contrario, se sustituye el segundo valor, lo que resulta en `image-main-01`. |
+| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | En el ejemplo de reemplazo anterior, GlobalLocale se establece en main. El parámetro de configuración regional de_DE se compara con la primera entrada de `localeMap`. La subcadena GlobalLocale se encuentra y se reemplaza por el primer valor correspondiente `de` en el `localeMap`: `image-de-01`. Si se encuentra en el servidor de imágenes, se devuelve. Si no es así, se sustituye el segundo valor, dando como resultado `image-main-01`. |
 
 Si no se define ninguna configuración regional en la URL, el servidor de imágenes toma el valor de DefaultLocale, si se ha definido, y lo aplica a la URL.
 
@@ -141,7 +141,7 @@ Si se proporciona un parámetro de configuración regional desconocido o vacío 
 
 El servidor de imágenes prueba las opciones de la configuración regional solicitada, una tras otra. Si no se encuentra ninguna coincidencia, las opciones de configuración regional se aplican a defaultImage y se devuelve la versión coincidente. Por lo tanto, cada configuración regional debe incluir una opción para la imagen sin localización o las versiones de imagen predeterminadas localizadas están disponibles en Adobe Dynamic Media Classic.
 
-#### Situaciones de búsqueda de localeMap
+#### Escenarios para encontrar el localeMap
 
 Supongamos que desee admitir las siguientes configuraciones regionales:
 
@@ -149,7 +149,7 @@ Supongamos que desee admitir las siguientes configuraciones regionales:
 
 Estas configuraciones regionales se asignan a los sufijos `_E`, `_G`, y `_F`, para inglés, alemán y francés, respectivamente. En todos los ejemplos, el ID de imagen de entrada genérico es `myImg`.
 
-##### Comportamiento estándar de búsqueda de localeMap
+##### Comportamiento estándar para encontrar el localeMap
 
 Los ID de configuración regional se asignan a los sufijos correspondientes. Si no se encuentra ningún ID de configuración regional en el catálogo, se prueba un ID genérico. Observe los valores vacíos de locSuffix que se asignan al ID genérico.
 
@@ -157,12 +157,12 @@ Los ID de configuración regional se asignan a los sufijos correspondientes. Si 
 
 | locale= | ID de salida que se buscará |
 | --- | --- |
-| en,en_us, en_uk | myImg_E,myImg |
-| de,de_de,de_at | myImg_D,myImg |
-| fr | myImg_F,myImg |
+| en, en_us, en_uk | myImg_E, myImg |
+| de, de_de, de_at | myImg_D, myImg |
+| fr | myImg_F, myImg |
 | Todos los demás | - |
 
-##### Búsqueda de localeMap cuando la configuración regional es desconocida
+##### Búsqueda del localeMap cuando se desconoce la configuración regional
 
 Puede asignar configuraciones regionales desconocidas a ID específicos o genéricos. Para el ejemplo, puede asignar configuraciones regionales desconocidas a los ID en inglés o, si no existen, a los ID genéricos.
 
@@ -170,9 +170,9 @@ Puede asignar configuraciones regionales desconocidas a ID específicos o genér
 
 | locale= | ID de salida que se buscará |
 | --- | --- |
-| de,de_de,de_at | myImg_D,myImg |
-| fr | myImg_F,myImg |
-| Todos los demás | myImg_E,myImg |
+| de, de_de, de_at | myImg_D, myImg |
+| fr | myImg_F, myImg |
+| Todos los demás | myImg_E, myImg |
 
 También puede tener un locSuffix dedicado, como U, solo para configuraciones regionales desconocidas y forzar a la imagen predeterminada si no `_U` existe, como en el siguiente ejemplo:
 
@@ -212,7 +212,7 @@ Utilizando el primer ejemplo como base, las imágenes de todos los idiomas podr�
 | de, de_at, de_de | myImg_470, myImg_480, myImg_1, myImg_2,myImg_3 |
 | Todos los demás | myImg_1, myImg_2, myImg_3 |
 
-##### Consideraciones importantes al implementar la asistencia para la localización
+##### Consideraciones importantes al implementar la compatibilidad con la localización
 
 * La localización se limita a las llamadas de recursos basados en ID y no puede usarse en llamadas de recursos basados en rutas. Por consiguiente, al llamar a vídeos con configuraciones locales, debe llamarse como ID de empresa/recurso; no con la ruta completa del vídeo. No se puede utilizar rtmp con la localización porque ese método es sólo para videollamadas basadas en rutas.
 * No puede utilizar conjuntos de medios mixtos que contengan un solo vídeo cuando localeMap está activo; si no, se producirá un error de la llamada al contenido. Para solucionar este problema, puede añadir un solo vídeo a un conjunto de vídeos adaptables. A continuación, añada el conjunto de vídeos adaptable a un conjunto de medios mixtos.

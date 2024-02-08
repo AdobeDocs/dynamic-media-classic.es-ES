@@ -12,10 +12,10 @@ role: User
 exl-id: 426b6e6b-daed-4ca6-b095-99bb06604b07
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
 source-wordcount: '708'
-ht-degree: 67%
+ht-degree: 58%
 
 ---
 
@@ -58,10 +58,10 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 Tanto si edita un conjunto publicado como no publicado, la variable **[!UICONTROL Publicar tras guardar]** afecta a los miembros set y set de las siguientes maneras:
 
 | ¿Ya se ha publicado el conjunto? | **[!UICONTROL Publicar después de]** opción de guardar seleccionada antes de guardar la edición | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
-|--- |--- |--- |--- |
-| Sí | Sí | Publicado | Publicado |
-| Sí | No | Publicado | Los miembros existentes del conjunto conservarán su estado publicado. Cualquier nuevo miembro que añada al conjunto durante la edición conservará su estado publicado o no publicado. |
-| No | Sí | Publicado | Publicado |
+|--- | --- | --- | --- |
+| Sí | Sí | Publicado | Publicado. |
+| Sí | No | Publicado | Los miembros del conjunto existentes conservan su estado publicado. Cualquier nuevo miembro que añada al conjunto durante la edición conservará su estado publicado o no publicado. |
+| No | Sí | Publicado | Publicado. |
 | No | No | Sin publicar | Los miembros existentes del conjunto y cualquier nuevo miembro que añada al conjunto durante la edición conservarán su estado publicado o no publicado. |
 
 Consulte también [Publicación manual de recursos](publishing-files.md#manually_publishing_assets) y [Cancelación manual de la publicación de recursos](publishing-files.md#manually_unpublishing_assets).
@@ -71,7 +71,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 1. En la vista de cuadrícula, busque un conjunto de muestras y, debajo de la imagen, seleccione **[!UICONTROL Editar]**.
 1. Realice una de las siguientes acciones:
 
-   * Para agregar una imagen (publicada o sin publicar), arrástrela desde una carpeta en Agregar recursos hasta la página **[!UICONTROL Vistas]** del conjunto de muestras.
+   * Para añadir una imagen (publicada o no publicada), arrástrela desde una carpeta en Añadir recursos a la carpeta del conjunto de muestras **[!UICONTROL Vistas]** página.
    * Para quitar una imagen, selecciónela y, a continuación, seleccione **[!UICONTROL Eliminar]** en la barra de herramientas.
    * Para reordenar las imágenes, arrastre cada imagen a una nueva posición.
 
@@ -80,7 +80,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 ## Eliminación de un conjunto de muestras {#deleting-a-swatch-set}
 
-Cuando se elimina un conjunto, el conjunto en sí se mueve a la papelera. Sin embargo, los miembros (o “elementos secundarios”) dentro de dicho conjunto no se verán afectados; cada uno mantendrá su estado existente de publicación o no.
+Cuando se elimina un conjunto, el conjunto en sí se mueve a la papelera. Sin embargo, los miembros (o &quot;hijos&quot;) de ese conjunto no se ven afectados, sino que cada uno de ellos conserva su estado publicado o no publicado.
 
 Consulte también [Publicación manual de recursos](publishing-files.md#manually_publishing_assets) y [Cancelación manual de la publicación de recursos](publishing-files.md#manually_unpublishing_assets).
 
