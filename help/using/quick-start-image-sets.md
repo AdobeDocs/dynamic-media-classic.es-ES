@@ -1,21 +1,19 @@
 ---
 title: "Inicio rápido: Conjuntos de imágenes"
 description: Introducción y Inicio rápido a los conjuntos de imágenes para ayudarle a ponerse en marcha rápidamente con las técnicas de conjuntos de imágenes en Adobe Dynamic Media Classic.
-uuid: daf17d13-9c06-41f0-8fc5-2e56d460d341
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
-discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: 0e1b2e9dcbee182f3ec0da53b56b5b8d3eb29cce
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 18%
+source-wordcount: '666'
+ht-degree: 14%
 
 ---
 
@@ -31,8 +29,10 @@ Al crear un conjunto de imágenes, Adobe recomienda las siguientes prácticas re
 
 | Tipo de límite | Práctica recomendada | Límite impuesto |
 | --- | --- | --- |
-| Número de recursos duplicados por conjunto | No hay duplicados | 20 |
+| Número de recursos duplicados por conjunto | No hay duplicados | 20 ‡ |
 | Número máximo de imágenes por conjunto | 5-10 imágenes por conjunto | 1.000 |
+
+‡ práctica recomendada es no tener recursos duplicados en un conjunto. El límite es de 20 duplicados para un solo recurso. Si agrega otro duplicado para ese recurso (dentro de ese conjunto), la solicitud genera un error o ignora el duplicado.
 
 Consulte también [Limitaciones de Dynamic Media](/help/using/limitations.md).
 
@@ -76,7 +76,7 @@ Al publicar un conjunto de imágenes, se coloca en los servidores de Adobe Dynam
 
 >[!NOTE]
 >
->Este paso no es necesario si seleccionó la opción **[!UICONTROL Publicar después de guardar]** (predeterminada) al crear y guardar el conjunto de imágenes.
+>Este paso no es necesario si ha seleccionado **[!UICONTROL Publicar tras guardar]** (predeterminado) en el momento en que creó y guardó el conjunto de imágenes.
 
 Seleccionar **[!UICONTROL Marcar para publicación]** a la izquierda de su nombre en el panel Examinar. A continuación, seleccione **[!UICONTROL Publish]**. En la página Publicar, seleccione **[!UICONTROL Enviar publicación]**.
 

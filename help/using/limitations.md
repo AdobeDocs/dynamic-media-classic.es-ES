@@ -10,10 +10,10 @@ role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
 topic: Content Management
 level: Intermediate
-source-git-commit: e2d60d18784c31c9973276960c935464ee4fd843
+source-git-commit: 0e1b2e9dcbee182f3ec0da53b56b5b8d3eb29cce
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 2%
+source-wordcount: '348'
+ht-degree: 1%
 
 ---
 
@@ -33,10 +33,12 @@ Al crear un conjunto de giros o de imágenes, o al cargar PDF para la extracció
 | Recurso: tipo de límite | Práctica recomendada | Límite impuesto |
 | --- | --- | --- |
 | **Imagen** - Número de recortes inteligentes por imagen | 5 | 100 |
-| **Todos los conjuntos** - Número de recursos duplicados por conjunto | No hay duplicados | 20 |
+| **Todos los conjuntos** - Número de recursos duplicados por conjunto | No hay duplicados | 20 ‡ |
 | **Todos los conjuntos** - Número máximo de recursos por conjunto | 5-10 imágenes por conjunto | 1.000 |
 | **Conjunto de giros** - Número máximo de filas/columnas por conjunto 2D | 12 a 18 imágenes por conjunto | 1.000 |
 | **PDF** - Número máximo de páginas para que un PDF se considere para la extracción |  | 100 (para todos los PDF) |
+
+‡ práctica recomendada es no tener recursos duplicados en un conjunto. El límite es de 20 duplicados para un solo recurso. Si agrega otro duplicado para ese recurso (dentro de ese conjunto), la solicitud genera un error o ignora el duplicado.
 
 <!-- See also [Dynamic Media limitations](/help/using/assets/limitations.md). -->
 
