@@ -1,27 +1,25 @@
 ---
 title: Crear mapas de imagen
 description: Obtenga información sobre cómo crear mapas de imagen en Adobe Dynamic Media Classic.
-uuid: 0dcc4956-006e-4a74-9d6a-6d4bb23790ce
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '2430'
-ht-degree: 50%
+source-wordcount: '2434'
+ht-degree: 41%
 
 ---
 
 # Crear mapas de imagen {#creating-image-maps}
 
-Un mapa de imagen es una zona de una imagen, una página del catálogo electrónico o una imagen del Conjunto de giros, que muestra un panel de rollover con texto. Cuando el usuario selecciona un mapa de imagen, se activa un tipo de acción. Por ejemplo, se abre una página web para que el usuario pueda obtener más información sobre un producto. Aparece un contorno alrededor de un mapa de imagen cuando el usuario mueve el puntero sobre él.
+Un mapa de imagen es una región de una imagen, una página de catálogo electrónico o una imagen de un conjunto de giros que muestra un panel de rollover con texto. Cuando el usuario selecciona un mapa de imagen, se activa un tipo de acción. Por ejemplo, se abre una página web para que el usuario pueda obtener más información sobre un producto. Aparece un contorno alrededor de un mapa de imagen cuando el usuario mueve el puntero sobre él.
 
 Además de la capacidad de crear mapas de imagen en Adobe Dynamic Media Classic, también puede crear mapas de imagen al diseñar un catálogo en Adobe Acrobat o Adobe InDesign.
 
@@ -58,7 +56,7 @@ Al crear mapas de imagen, puede realizar una de las siguientes acciones:
 
 1. Si desea que los usuarios abran una nueva página web al seleccionar el mapa de imagen, introduzca la URL en la lista de mapa de imagen.
 
-   Consulte [Uso de plantillas para introducir elementos de JavaScript y direcciones URL](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls).
+   Consulte [para introducir JavaScript y URL](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls).
 
 1. Para mostrar texto de rollover cuando los usuarios muevan el puntero sobre el mapa de imagen, introduzca el texto en la lista Mapa de imagen. En la lista Mapa de imagen, seleccione **[!UICONTROL Mostrar]** y seleccione **[!UICONTROL Texto de rollover]**. A continuación, escriba el texto que desea que los usuarios vean en pantalla. Puede escribir el texto en un procesador de textos y copiarlo en el campo Texto de rollover.
 
@@ -76,7 +74,7 @@ Al crear mapas de imagen, puede realizar una de las siguientes acciones:
 
 ### Ajustar la posición, la forma y el tamaño de los mapas de imagen {#adjusting-the-position-shape-and-size-of-image-maps}
 
-Para cambiar la posición, la forma y el tamaño de un mapa de imagen, seleccione el botón Mapa de imagen . A continuación, seleccione la **[!UICONTROL Panorámica]** y siga estas instrucciones:
+Para cambiar la posición, la forma y el tamaño de un mapa de imagen, seleccione el botón Mapa de imagen. A continuación, seleccione la **[!UICONTROL Panorámica]** y siga estas instrucciones:
 
 * **Cambiar posición** - Mueva el puntero cerca del borde del mapa de imagen, pero no sobre él. Cuando vea el icono de flecha con cuatro puntas, arrastre el mapa a una nueva ubicación.
 
@@ -98,12 +96,12 @@ Si la imagen o página de catálogo electrónico incluye más de un mapa de imag
 
 En lugar de introducir datos de mapa de imagen en cada página, puede importar los datos de su conjunto de giros o catálogo electrónico desde la pantalla Resumen de mapas. Los datos de mapa de imagen se importan como un archivo delimitado por tabuladores o DTD de XML. Los campos del archivo deben tener el orden que se muestra en la pantalla Resumen de mapas: Nombre, Etiquetas de tabla de contenido, Mapas, Direcciones URL, Texto de rollover, Otras acciones y Cadenas de búsqueda. Si importa los datos de mapa de imagen, no tendrá que introducir los datos en la lista de mapas de imagen cada vez que crea un mapa de imagen.
 
-**Para importar los datos de mapa de imagen:**
+**Para importar datos de mapa de imagen:**
 
 1. Vaya a la página del editor Mapa de imagen (para las imágenes o imágenes de los conjuntos de giros) o a la ficha Páginas de mapa de la pantalla de edición del catálogo electrónico.
 1. Seleccionar **[!UICONTROL Importar metadatos]**.
 1. En el cuadro de diálogo Cargar metadatos, seleccione Imagen o Mapa de imagen para cargar los metadatos del tipo de propiedad de recurso deseado.
-1. En la lista desplegable Generar archivo, seleccione el tipo de archivo que desea crear.
+1. En el `Generate File` , seleccione el tipo de archivo que desea crear.
 1. (Opcional) Seleccione **[!UICONTROL Generar]** para obtener una vista previa de los datos resultantes en función del tipo de archivo que desee crear. Seleccionar **[!UICONTROL Cerrar]** para volver al cuadro de diálogo Cargar metadatos.
 1. Busque el archivo que desea cargar. En el campo de texto Nombre del archivo, especifique el nombre del archivo generado.
 1. (Opcional) En el campo Nombre del trabajo, especifique un nombre para el trabajo de carga de metadatos.
@@ -136,32 +134,32 @@ Puede definir una plantilla URL (conocida también como plantilla Href) para int
 
 ### Acerca de las plantillas URL {#about-url-templates}
 
-La plantilla URL sustituye el contenido de la columna URL en la lista de mapas de imagen con dos signos de dólar (‘$$’) en la plantilla:
+La plantilla URL funciona sustituyendo el contenido de la columna URL en la lista de mapa de imagen por los signos de dólar dobles (&#39;$$&#39;) en la plantilla:
 
 ```as3
-Javascript:loadProduct(‘$$’);void(0);
+Javascript:loadProduct('$$');void(0);
 ```
 
 En la plantilla URL se colocan todos los valores que no cambian entre Mapas de imagen. Agregue solo los valores que no cambien en la columna URL en la lista de mapas de imagen. Por ejemplo:
 
-* Plantilla de URL - `javascript:loadProduct(‘https://www.examplesitehere.com/$$’);void(0);`
+* Plantilla de URL - `javascript:loadProduct('https://www.examplesitehere.com/$$');void(0);`
 * Valor de URL - `product.htm`
-* URL real generada - `javascript:loadProduct(‘https://www.examplesitehere.com/product.html);void(0);`
+* URL real generada - `javascript:loadProduct('https://www.examplesitehere.com/product.html);void(0);`
 
 De forma predeterminada, la plantilla de URL incluye un controlador JavaScript de Adobe Dynamic Media Classic propiedad de llamado `loadProduct` que abre una nueva ventana con el destino URL. Sin embargo, puede utilizar cualquier código JavaScript para reemplazar este controlador JavaScript o utilizar uno de los siguientes controladores Adobe Dynamic Media Classic:
 
-* `loadProductCW` - muestra el destino URL especificado en la columna URL en la ventana activa. Este controlador es fundamentalmente para catálogos electrónicos que se integran en una página dentro de un sitio Web.
+* `loadProductCW` : Muestra el destino de URL especificado en la columna URL de la ventana actual. Este controlador es fundamentalmente para catálogos electrónicos que se integran en una página dentro de un sitio Web.
 
-* `loadProductPW` - muestra el destino URL especificado en la columna URL en la ventana principal (la página que abrió la activa). La ventana activa permanece abierta, pero la principal cambia para mostrar el destino URL.
+* `loadProductPW` : Muestra el destino de URL especificado en la columna URL de la ventana principal (la página que abrió la actual). La ventana activa permanece abierta, pero la principal cambia para mostrar el destino URL.
 
   >[!NOTE]
   >
-  >El controlador `loadProductPW` no admite los visores de DHTML y HTML5.
+  >El controlador `loadProductPW` no es compatible con visores DHTML y HTML 5.
 
 ### Creación de una plantilla de URL {#creating-a-url-template}
 
 1. En la pantalla Editor de mapas (imágenes o conjuntos de giros) o la ficha Páginas de mapa de la pantalla Catálogo electrónico (catálogos electrónicos), seleccione Editar, junto a la opción Plantilla URL. Se abrirá el cuadro de diálogo Editar la plantilla del mapa.
-1. Introduzca el código JavaScript y la URL completa (con la parte variable sustituida por signo de dólar [$$]). Puede pegar el código haciendo clic con el botón derecho y eligiendo **[!UICONTROL Pegar]**.
+1. Introduzca el código JavaScript y la dirección URL completa (con la parte de la variable reemplazada por signos de dólar) [$$]). Puede pegar el código haciendo clic con el botón derecho y eligiendo **[!UICONTROL Pegar]**.
 1. Seleccionar **[!UICONTROL Guardar]**.
 
 ### Administrar plantillas de URL {#handling-url-templates}
@@ -176,11 +174,11 @@ La página Editor de mapas (imágenes y conjuntos de giros) y la ficha Páginas 
 
 Puede seleccionar el **[!UICONTROL Mostrar]** y elija **[!UICONTROL Otras acciones]** para almacenar en déclencheur acciones que no sean texto de rollover y lanzamientos de páginas web. Cuando el usuario mueve el puntero sobre un mapa de imagen, se puede iniciar una acción. Estas acciones son atributos definidos para mapas de imagen de la parte del cliente acorde con las especificaciones del lenguaje HTML del consorcio World Wide Web. Incluyen:
 
-* **`accesskey`** - Activa una acción cuando el usuario pulsa una tecla asignada en el teclado.
+* **`accesskey`** - Déclencheur una acción cuando el usuario presiona una tecla designada en el teclado.
 
-* **`onfocus`** - Activa un evento cuando el mapa de imagen recibe atención, por el uso del cursor o por la pulsación del tabulador o de una tecla de acceso. Por ejemplo, puede abrir una página web cuando el mapa de imagen recibe atención y cerrarla cuando pierde dicha atención.
+* **`onfocus`** - Déclencheur un evento cuando el mapa de imagen recibe el enfoque: por el cursor, por tabulación o pulsando una tecla de acceso. Por ejemplo, puede abrir una página web cuando el mapa de imagen recibe atención y cerrarla cuando pierde dicha atención.
 
-* **`onblur`** - Activa un elemento cuando el mapa de imagen pierde atención, por el uso del cursor o la pulsación del tabulador.
+* **`onblur`** : Déclencheur un evento cuando el mapa de imagen pierde Focus, ya sea por el cursor o por tabulación.
 
 **Para definir otras acciones para los mapas de imagen:**
 

@@ -6,9 +6,9 @@ user-guide-title: Guía de Adobe Dynamic Media Classic
 breadcrumb-title: Guía de Dynamic Media Classic
 user-guide-description: Más información sobre el uso de Adobe Dynamic Media Classic
 index: y
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '796'
 ht-degree: 20%
 
 ---
@@ -22,8 +22,8 @@ ht-degree: 20%
    + [Comparación de lista de funciones](upgrade-feature-comparison.md)
    + [Lista de comprobación de preparación para actualización](upgrade-readiness.md)
 + [Guía de Adobe Dynamic Media Classic](home.md)
-+ [Tutorial sobre prácticas recomendadas de Adobe Dynamic Media Classic](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [Ya está disponible el NUEVO inicio de sesión de Adobe Dynamic Media Classic](new-ui-2020.md)
++ [Tutorial sobre prácticas recomendadas de Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
++ [NUEVO inicio de sesión de Adobe Dynamic Media Classic ya disponible](new-ui-2020.md)
 + [Adobe Archivo de newsletter de Dynamic Media por Experience League](dynamic-media-newsletter.md)
 + Presentación de Adobe Dynamic Media Classic {#intro}
    + [Aplicación de escritorio de Adobe Dynamic Media Classic: ya disponible](dynamic-media-classic-desktop-app.md)
@@ -182,7 +182,7 @@ ht-degree: 20%
    + [Trabajo con PDF](pdfs.md)
    + [Trabajo con archivos de PSD](psd-files.md)
    + [Uso de archivos PostScript y Illustrator](postscript-illustrator-files.md)
-   + [Trabajar con archivos de viñeta, cubierta de ventana y archivador](vignette-window-covering-cabinet-files.md)
+   + [Trabajar con viñetas, revestimientos de ventanas y archivos .cab](vignette-window-covering-cabinet-files.md)
 + Archivos de soporte {#support-files}
    + [Fuentes](fonts.md)
    + [Archivos XML](xml-files.md)

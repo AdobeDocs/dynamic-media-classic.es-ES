@@ -10,10 +10,10 @@ role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
 topic: Content Management
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 33%
+source-wordcount: '683'
+ht-degree: 31%
 
 ---
 
@@ -46,15 +46,15 @@ Después de publicar un conjunto de muestras, puede utilizar su URL asociada o i
 
 ## Añadir URL del conjunto de muestras a la página web {#adding-swatch-set-urls-to-your-web-page}
 
-La forma más común de implementar Conjuntos de muestras es colocar un vínculo (mediante un icono de navegación) en la página web. Cuando se selecciona, el vínculo inicia una página dinámica (ASP o JSP) que muestra el conjunto de muestras en una ventana de zoom emergente. El vínculo de zoom abre una ventana emergente que contiene la función de zoom.
+La forma más común de implementar Conjuntos de muestras es colocar un vínculo (mediante un icono de navegación) en la página web. Cuando se selecciona, el vínculo inicia una página dinámica (ASP o JSP) que muestra el conjunto de muestras en una ventana de zoom emergente. El vínculo de zoom abre una ventana emergente que contiene la función de zoom real.
 
-Para obtener más información y ejemplos de código, consulte [Incrustación del visor de zoom HTML5 en la Guía de referencia de visores de Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Para obtener más información y ejemplos de código, consulte [Incrustación del visor de zoom HTML5 en la Guía de referencia de visores de Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copiar el código de incrustación de un visualizador de conjuntos de muestras {#copying-the-embed-code-of-a-swatch-set-viewer}
 
 El uso de la función de código incrustado permite revisar el código del visor del conjunto de muestras seleccionado. También puede copiar el código en el portapapeles para pegarlo en sus páginas web para la implementación del visor. No se permite la edición del código en el cuadro de diálogo Código incrustado.
 
-**Para copiar el código incrustado de un visor de conjuntos de muestras:**
+**Para copiar el código de incrustación de un visualizador de conjuntos de muestras:**
 
 1. En el panel Examen de recursos, en la lista desplegable Mostrar, seleccione **[!UICONTROL Conjunto de muestras]**.
 1. En el panel Biblioteca de recursos del lado izquierdo, navegue a la carpeta de recursos que contenga el conjunto de muestras cuyo código incrustado desee copiar.
@@ -81,4 +81,4 @@ El uso de la función de código incrustado permite revisar el código del visor
 
 >[!MORELIKETHIS]
 >
->* [Publicar](publishing-files.md#publishing_files)
+>* [Publish](publishing-files.md#publishing_files)

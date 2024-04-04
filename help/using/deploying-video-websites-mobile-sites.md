@@ -10,10 +10,10 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1708'
-ht-degree: 33%
+source-wordcount: '1702'
+ht-degree: 30%
 
 ---
 
@@ -33,11 +33,11 @@ Existen dos métodos diferentes que puede utilizar para publicar vídeos:
 
 * **Publicación automática e instantánea de vídeos al cargar** : Como parte del proceso de carga de vídeos, Adobe Dynamic Media Classic puede publicar vídeos automáticamente cuando se cargan y codifican. Esta capacidad para publicar inmediatamente significa que no es necesario publicar los vídeos por separado posteriormente.
 
-* **Publicación manual de vídeos tras la carga** - Si no desea publicar vídeos inmediatamente, puede publicar los vídeos manualmente en cualquier momento.
+* **Publicar vídeo manualmente después de la carga** : Si no desea publicar vídeos inmediatamente, puede publicarlos manualmente en cualquier momento.
 
 Después de publicar los vídeos, Adobe Dynamic Media Classic activa las cadenas URL de la página del HTML o del código de la aplicación.
 
-**Para publicar vídeos:**
+**Para publicar el vídeo:**
 
 1. Realice una de las siguientes acciones:
 
@@ -52,7 +52,7 @@ Cuando un cliente selecciona el vínculo, se detectan automáticamente su dispos
 
 Consulte también [Incrustar el visor de vídeo en una página web](deploying-video-websites-mobile-sites.md#embedding_the_video_viewer_on_a_web_page).
 
-**Para vincular una URL de vídeo a sitios web o de dispositivos móviles:**
+**Para vincular una URL de vídeo a un sitio móvil o sitio web:**
 
 1. En el panel Examen de recursos, en la variable **[!UICONTROL Mostrar]** , seleccione la opción **[!UICONTROL Vídeo]**, o **[!UICONTROL Conjunto de vídeos adaptable]**.
 1. En el panel Biblioteca de recursos del lado izquierdo, navegue a la carpeta de recursos que contenga el vídeo o el conjunto de vídeos adaptables cuyo código incrustado desee vincular.
@@ -133,7 +133,7 @@ Si no utiliza el reproductor de vídeo Adobe Dynamic Media Classic HTML5, sino e
 
 Si utiliza un reproductor de vídeo de terceros o un reproductor de vídeo personalizado en lugar de un visor de vídeo de Dynamic Media Classic, obtendrá la URL de vídeo directo que funciona para la descarga progresiva o la transmisión de vídeo a varias velocidades de bits HLS.
 
-**Para implementar vídeo con un reproductor de vídeo de terceros:**
+**Para implementar vídeo mediante un reproductor de vídeo de terceros:**
 
 1. En Adobe Dynamic Media Classic, en la barra de navegación global, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Configuración general]**.
 1. Según el tipo de URL que desee utilizar, realice una de las tareas siguientes:
@@ -187,7 +187,7 @@ Puede aplicar modificadores de imagen al fotograma de póster. Por ejemplo, pued
 
 Consulte [Añadir o editar un ajuste preestablecido de visualizador de vídeo](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
-Consulte [Guía del servicio de imágenes](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home.html?lang=en#image-serving-api).
+Consulte [Guía del servicio de imágenes](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
 
 También puede modificar las miniaturas de los vídeos agregando modificadores a las URL de las miniaturas de vídeo.
 

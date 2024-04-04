@@ -9,10 +9,10 @@ role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '3987'
-ht-degree: 46%
+source-wordcount: '3986'
+ht-degree: 45%
 
 ---
 
@@ -55,7 +55,7 @@ Realice una de las siguientes acciones.
 1. En la barra de navegación global, seleccione **[!UICONTROL Cargar]**.
 1. En la página Cargar, seleccione **[!UICONTROL Desde el escritorio]** pestaña.
 1. En la página Cargar, en el **[!UICONTROL Seleccionar archivos para cargar]** panel, seleccionar **[!UICONTROL Examinar]**, vaya a un archivo de vídeo MP4 y, a continuación, seleccione **[!UICONTROL Abrir]**.
-1. En el **[!UICONTROL Elegir carpeta de destino]** , seleccione una carpeta para el archivo cargado.
+1. En el elegido **[!UICONTROL Destino de carpeta]** , seleccione una carpeta para el archivo cargado.
 1. En la página Cargar, asegúrese de que **[!UICONTROL Publicar tras la carga]** está marcada.
 1. Seleccionar **[!UICONTROL Cargar envío]**.
 
@@ -64,7 +64,7 @@ Realice una de las siguientes acciones.
 1. En la barra de navegación global, seleccione **[!UICONTROL Cargar]**.
 1. En la página Cargar, seleccione **[!UICONTROL Desde el escritorio]** pestaña.
 1. En el **[!UICONTROL Seleccionar archivos para cargar]** panel, seleccionar **[!UICONTROL Examinar]**, vaya a un archivo de vídeo de origen principal y, a continuación, seleccione **[!UICONTROL Abrir]**.
-1. En el **[!UICONTROL Elegir carpeta de destino]** , seleccione una carpeta para el archivo cargado.
+1. En el elegido **[!UICONTROL Destino de carpeta]** , seleccione una carpeta para el archivo cargado.
 1. En la esquina inferior derecha de la página, seleccione **[!UICONTROL Opciones de trabajo]**,
 1. En el cuadro de diálogo Opciones del trabajo de carga, expanda **[!UICONTROL Opciones de vídeo]**, a continuación, realice una de las siguientes acciones:
 
@@ -78,7 +78,7 @@ Consulte [Ajustes preestablecidos de codificación de vídeo para equipos de esc
 *Si desea volver a codificar un archivo de vídeo que haya cargado anteriormente*
 
 1. En Adobe Dynamic Media Classic, en el panel Examinar, vaya al vídeo y selecciónelo.
-1. Ir a **[!UICONTROL Archivo]** > **[!UICONTROL Reprocesar]**.
+1. Ir a **[!UICONTROL Archivo]** > **[!UICONTROL Reprocesar]**.&quot;
 1. En el cuadro de diálogo Volver a procesar recursos, expanda **[!UICONTROL Opciones de vídeo]**, a continuación, realice una de las siguientes acciones:
    * La práctica recomendada es utilizar el siguiente método. Seleccionar **Vídeo adaptable**.
 Consulte [Vídeo adaptable (predeterminado)](application-setup.md#adaptive-video-default).
@@ -96,7 +96,7 @@ En la siguiente tabla se muestran los tipos de archivo de vídeo (con los códec
 
 * **Formatos de archivo de vídeo** - Similar a un archivo ZIP, un formato de archivo de vídeo determina cómo se incluyen los archivos en el archivo de vídeo. Un archivo de vídeo suele contener varias pistas, una pista de vídeo (sin audio) y una o más pistas de audio (sin vídeo), que están interrelacionadas y sincronizadas. El formato de archivo de vídeo determina cómo se organizan estas distintas pistas de datos y metadatos.
 
-* **Códecs de vídeo** : Un códec de vídeo describe el algoritmo por el que se codifica un vídeo. Un reproductor de vídeo descodifica el vídeo según su códec y, a continuación, reproduce una serie de imágenes, o fotogramas, en la pantalla. Los códecs minimizan la cantidad de información que tienen que almacenar los archivos de vídeo para reproducir el vídeo. En lugar de la información sobre cada fotograma individual, solo se almacena la información sobre las diferencias entre un fotograma y el siguiente. Debido a que la mayoría de los vídeos cambian poco de un fotograma a otro, los códecs permiten altas tasas de compresión, lo que da como resultado tamaños de archivo más pequeños.
+* **Códecs de vídeo** : Un códec de vídeo describe el algoritmo por el que se codifica un vídeo. Un reproductor de vídeo descodifica el vídeo según su códec y, a continuación, reproduce una serie de imágenes, o fotogramas, en la pantalla. Los códecs minimizan la cantidad de información que tienen que almacenar los archivos de vídeo para reproducir el vídeo. En lugar de almacenar información sobre cada fotograma individual, sólo se almacena información sobre las diferencias entre uno y otro. Debido a que la mayoría de los vídeos cambian poco de un fotograma a otro, los códecs permiten altas tasas de compresión, lo que da como resultado tamaños de archivo más pequeños.
 
   | Formato de archivo de vídeo | Códecs de vídeo |
   | --- | --- |
@@ -351,7 +351,7 @@ Adobe Dynamic Media Classic ha establecido límites máximos en la velocidad de 
    | --- | --- |
    | Nombre de ajuste preestablecido | Asigne un nombre descriptivo al ajuste. Este nombre aparece en el cuadro de diálogo Opciones de trabajo de carga, en el que los usuarios seleccionan las opciones de transcodificación. |
    | Descripción | Describa el ajuste preestablecido de vídeo. Lo que introduzca aparecerá como información de objeto al mover el puntero sobre el nombre del ajuste preestablecido en el cuadro de diálogo de opciones del trabajo de carga en el que los usuarios eligen las opciones de transcodificación. |
-   | Dispositivo de reproducción | Seleccione el dispositivo en el que está previsto que se reproduzca el vídeo. Las opciones son Equipo (equipos de escritorio), Móvil (iPhone, iPad, Android™) o Tablet (solo iPad). Esta configuración determina automáticamente el códec de audio y vídeo adecuado utilizado durante la codificación. |
+   | Dispositivo de reproducción | Seleccione el dispositivo en el que está previsto que se reproduzca el vídeo. Las opciones son Equipo (equipos de escritorio), Móvil (iPhone, iPad, Android™) o Tablet (solo iPad). Esta configuración determina automáticamente el códec de audio y vídeo adecuado que se utilizará durante la codificación. |
    | Velocidad de datos de destino | Introduzca la velocidad media de la conexión a Internet (en kilobits por segundo) del usuario final de destino. La velocidad se puede introducir manualmente o con el control deslizante. El espectro de velocidad de conexión del usuario muestra las velocidades típicas para ancho de banda, DSL, conexiones móviles y de marcación. Esta configuración determina automáticamente la velocidad de datos de audio y de vídeo combinada, Es decir, la cantidad de datos codificados para configurar un solo segundo de reproducción de vídeo. Cuanto mayor sea la velocidad de datos, mejor será la calidad del vídeo resultante. No obstante, las velocidades de datos demasiado altas producen tamaños de archivo grandes que crean visualizaciones no del todo satisfactorias por parte de los usuarios que tengan un ancho de banda menor. Como práctica recomendada, encuentre el equilibrio entre velocidades de datos altas y bajas. Intente crear una reproducción con una calidad adecuada sin perjudicar a los usuarios que tienen anchos de banda bajos. |
    | Proporción de aspecto | La proporción de aspecto es la relación de anchura y altura del vídeo. Las dos primeras proporciones de aspecto enumeradas a continuación suelen utilizarse para mostrar vídeo horizontalmente:<ul><li> 4:3, utilizado para casi todos los contenidos emitidos en la televisión estándar.</li><li>16:9: se utiliza para casi todo el contenido y películas en pantalla ancha de la televisión de alta definición (HDTV).</li><li>Escalado automático: (predeterminado) un ajuste preestablecido de codificación única que funciona con cualquier relación de aspecto para crear vídeos para su envío a dispositivos móviles, tabletas y de escritorio. Los vídeos originales cargados que se hayan codificado con este ajuste preestablecido se definirán con una altura fija. Sin embargo, la anchura se amplía automáticamente para conservar la relación de aspecto del vídeo (relación de anchura y altura).</li><li>Personalizado: se utiliza para definir un tamaño de vídeo no estándar.</li><li>La proporción de aspecto que elija determina la anchura y la altura de la configuración de Tamaño de resolución; el valor de anchura y altura se adapta automáticamente a la proporción de aspecto adecuada.</li></ul> |
    | Tamaño de la resolución | El tamaño de la resolución, expresado por el número de píxeles de ancho por el número de píxeles de alto, determina el tamaño. Introduzca un valor de anchura y altura en píxeles o arrastre el control deslizante para introducir estos valores. El espectro de resolución muestra los tamaños de resolución típicos. El valor de anchura y el valor de altura se ajustan automáticamente a la relación de aspecto seleccionada. Por ejemplo, si selecciona 4:3 como proporción de aspecto e introduce 400 para anchura, se introduce 300 automáticamente para altura. Si ha seleccionado Escalar automáticamente para la configuración Proporción de aspecto, el valor Anchura para el Tamaño de resolución se establece automáticamente como Automático. Seleccionar **[!UICONTROL Previsualizar]** para que pueda abrir una ventana del explorador y ver las opciones de resolución allí. |
@@ -363,7 +363,7 @@ Adobe Dynamic Media Classic ha establecido límites máximos en la velocidad de 
    * Seleccionar **[!UICONTROL Guardar]** si ha añadido o editado un ajuste preestablecido de vídeo.
    * Seleccionar **[!UICONTROL Guardar como]** si ha añadido un ajuste preestablecido de vídeo a partir de un ajuste preestablecido existente.
 
-### Eliminar un ajuste preestablecido de codificación de vídeo {#deleting-a-video-encoding-preset}
+### Eliminar un ajuste preestablecido de codificación de vídeo {#delete-a-video-encoding-preset}
 
 Los administradores pueden eliminar ajustes preestablecidos de vídeo personalizados. Los ajustes preestablecidos de vídeo que se incluyen con Adobe Dynamic Media Classic no se pueden eliminar.
 

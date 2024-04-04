@@ -1,20 +1,18 @@
 ---
 title: Recursos para el desarrollador
 description: Obtenga información sobre los recursos para desarrolladores disponibles para Dynamic Media.
-uuid: 97702f33-fb9c-4ba7-9c42-757dec7e6645
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: a802ead0-401e-4600-aedf-e6414f7983e1
 feature: Dynamic Media Classic,SDK/API
 role: Developer
 exl-id: eaa6bf7b-ff38-4a15-b5b5-c60c3b75a35f
 topic: Development, Integrations
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 15%
+source-wordcount: '139'
+ht-degree: 20%
 
 ---
 
@@ -22,26 +20,26 @@ ht-degree: 15%
 
 Las guías de referencia para visores, servicio y renderización de imágenes y Image Production System describen los protocolos http para estos módulos de servidor. Los desarrolladores de sitios web que deseen personalizar y utilizar aún más los medios enriquecidos de Adobe Dynamic Media Classic para un sitio web o una aplicación personalizada pueden utilizar estas guías. Se da por hecho que el usuario está familiarizado con la aplicación de escritorio de Dynamic Media Classic, las convenciones y los estándares generales de protocolo http y la terminología básica de imágenes.
 
-Consulte también [Recursos para desarrolladores de Dynamic Media](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
+Consulte también [Recursos para desarrolladores de Dynamic Media](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
 ## Visores {#viewers-guide}
 
 | Documento | Dirección web |
 | --- | --- |
-| Guía de referencia de visores y notas de la versión | [https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html) |
+| Guía de referencia de visores y notas de la versión | [https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/homeviewers](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/homeviewers) |
 | Ejemplos de la biblioteca de visores | [https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) |
 
 ## API de servicio/procesamiento de imágenes (IS/IR) {#is-ir-api-guide}
 
 | Documento | Dirección web |
 | --- | --- |
-| Guía de referencia de API | [https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html) |
+| Guía de referencia de API | [https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/homeisir](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/homeisir) |
 
 ## API de Image Production System (IPS) {#ips-api-guide}
 
 | Documento | Dirección web |
 | --- | --- |
-| Guía de referencia de API | [https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/c-overview.html](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/c-overview.html) |
+| Guía de referencia de API | [https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-production-api/c-overview](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-production-api/c-overview) |
 
 <!-- ## Image Authoring {#ia}
 

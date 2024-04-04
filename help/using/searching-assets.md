@@ -1,21 +1,19 @@
 ---
 title: Buscar recursos de Dynamic Media Classic
 description: Obtenga información sobre cómo buscar recursos en Adobe Dynamic Media Classic.
-uuid: 058209bc-bac4-4d5c-8261-e242a543beaf
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1510'
-ht-degree: 17%
+source-wordcount: '1511'
+ht-degree: 18%
 
 ---
 
@@ -69,7 +67,7 @@ Especifique cualquiera de los siguientes criterios en la búsqueda avanzada:
 
 * **Archivos y carpetas** - Elige dónde quieres buscar: **[!UICONTROL En todos los archivos y carpetas]**, **[!UICONTROL En la carpeta seleccionada]**, o **[!UICONTROL En carpetas y subcarpetas seleccionadas]**.
 
-* **Todos los estados de publicación** : busque los archivos que están marcados como listos para publicar, no están marcados como listos para publicar o todos los archivos.
+* **Todos los estados de publicación** : busque los archivos que están marcados como listos para la publicación, no están marcados como listos para publicar o todos los archivos.
 
 * **Condiciones** : Si especifica criterios de metadatos para la búsqueda, seleccione si la búsqueda debe coincidir con todas las condiciones (una búsqueda ALL) o con cualquier condición (una búsqueda OR).
 
@@ -81,7 +79,7 @@ Especifique cualquiera de los siguientes criterios en la búsqueda avanzada:
    1. En el caso de los campos numéricos, elija un valor o introduzca un intervalo de fechas personalizado.
    1. (Opcional) Repita los pasos del 1 al 4 para crear más campos de búsqueda.
 
-Seleccione el **[!UICONTROL Eliminar campo de búsqueda]** (círculo con &quot;X&quot; dentro) para que se elimine el campo de búsqueda.
+Seleccione el **[!UICONTROL Eliminar un campo de búsqueda]** (círculo con &quot;X&quot; dentro) para que se elimine el campo de búsqueda.
 
 En la esquina inferior derecha del panel Búsqueda avanzada, seleccione **[!UICONTROL Buscar]** para comenzar la búsqueda. Los resultados de la búsqueda aparecen en el panel Examinar de la derecha. Puede cambiar cualquier condición de búsqueda y seleccionar **[!UICONTROL Buscar]** para volver a ejecutar la búsqueda.
 
@@ -89,7 +87,7 @@ Seleccionar **[!UICONTROL Borrar]** si desea borrar los criterios de búsqueda e
 
 ## Filtrado de recursos con metadatos {#filter-assets-using-metadata}
 
-Filtre recursos en la ficha Filtros de la Biblioteca de recursos. Para filtrar recursos, utilice valores de metadatos como criterios. Después de elegir un campo de metadatos por el que desee filtrar, la pestaña Filtros enumera todos los valores de metadatos introducidos en el campo elegido. También indica el número de recursos que se asignaron a cada valor. Por ejemplo, en una operación de filtrado en el **[!UICONTROL Creador]** el campo de metadatos, **[!UICONTROL Filtros]** enumera todos los nombres introducidos en la variable **[!UICONTROL Creador]** campo de metadatos para diferentes recursos. También indica para cada nombre el número de recursos asignados al nombre. A continuación, seleccione un valor de metadatos para ver todos los recursos a los que se ha asignado ese valor. En el ejemplo, se selecciona la variable `Prairie Cat` valor de metadatos para ver todos los recursos en los que el nombre `Prairie Cat` se ha introducido en la **[!UICONTROL Creador]** campo de metadatos. Puede filtrar utilizando más de un campo de metadatos como criterio de filtro.
+Filtre recursos en la ficha Filtros de la Biblioteca de recursos. Para filtrar recursos, utilice valores de metadatos como criterios. Después de elegir un campo de metadatos por el que filtrar, la pestaña Filtros muestra todos los valores de metadatos introducidos en el campo elegido. También indica el número de recursos que se asignaron a cada valor. Por ejemplo, en una operación de filtrado en el **[!UICONTROL Creador]** el campo de metadatos, **[!UICONTROL Filtros]** enumera todos los nombres introducidos en la variable **[!UICONTROL Creador]** campo de metadatos para diferentes recursos. También indica para cada nombre el número de recursos asignados al nombre. A continuación, seleccione un valor de metadatos para ver todos los recursos a los que se ha asignado ese valor. En el ejemplo, se selecciona la variable `Prairie Cat` valor de metadatos para ver todos los recursos en los que el nombre `Prairie Cat` se ha introducido en la **[!UICONTROL Creador]** campo de metadatos. Puede filtrar utilizando más de un campo de metadatos como criterio de filtro.
 
 Puede guardar operaciones de filtro para ejecutarlas muchas veces.
 
@@ -171,5 +169,5 @@ Seleccionar **[!UICONTROL Publicar ahora]** para iniciar el trabajo. Aparece una
 
 >[!MORELIKETHIS]
 >
->* [Nociones básicas de navegación](navigation-basics.md#navigation_basics)
+>* [Conceptos básicos de navegación](navigation-basics.md#navigation_basics)
 >* [Visualización, adición y exportación de metadatos](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)

@@ -1,18 +1,16 @@
 ---
 title: Publicación de imágenes de zoom
 description: Aprenda a publicar imágenes de Zoom desde Adobe Dynamic Media Classic.
-uuid: d7e7a474-8af5-46a7-94df-063396f67554
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
-discoiquuid: 34a99fd0-8148-41d4-843a-909637542dd9
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: 74cf0346-be79-4916-8a98-16865c3ba3de
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 9%
@@ -25,7 +23,7 @@ La publicación coloca las imágenes de zoom en los servidores de imágenes de D
 
 ## Marcar imágenes para publicar {#marking-images-for-publish}
 
-Las imágenes deben marcarse para su publicación para que se copien en los servidores de imágenes de Dynamic Media. Puede marcar las imágenes para su publicación en el panel Examinar seleccionando la **[!UICONTROL Marcar para publicación]** icono. También puede marcar las imágenes para publicarlas cuando las cargue.
+Las imágenes deben marcarse para su publicación para que se copien en los servidores de imágenes de Dynamic Media. Puede marcar las imágenes para su publicación en el panel Examinar seleccionando la **[!UICONTROL Marcar para publicación]** icono. También puede marcar imágenes para su publicación cuando las cargue.
 
 ## Publicación de las imágenes {#publishing-the-images}
 

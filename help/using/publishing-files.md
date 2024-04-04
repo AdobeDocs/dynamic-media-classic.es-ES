@@ -1,6 +1,6 @@
 ---
 title: Publicar archivos
-description: '"Aprenda a publicar sus recursos en los servidores de imágenes de Dynamic Media. Puede publicar recursos una vez o hacer que Adobe Dynamic Media Classic publique los recursos de forma recurrente. Después de publicarse, tiene los recursos disponibles para su entrega. Puede copiar las llamadas de URL desde Adobe Dynamic Media Classic y añadirlas a su sitio web o aplicación".'
+description: Obtenga información sobre cómo publicar sus recursos en Dynamic Media Image Servers.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,10 +10,10 @@ role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1726'
-ht-degree: 36%
+source-wordcount: '1672'
+ht-degree: 30%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 36%
 
 Los recursos se publican en Dynamic Media Image Servers. Puede publicar recursos una vez o hacer que Adobe Dynamic Media Classic publique los recursos de forma recurrente. Después de publicarse, tiene los recursos disponibles para su entrega. Puede copiar las llamadas de URL desde Adobe Dynamic Media Classic y añadirlas a su sitio web o aplicación.
 
-Adobe Dynamic Media Classic ahora admite el envío de todas las imágenes y vídeos a través de HTTP/2. Es decir, hay disponible una URL publicada o código incrustado para la imagen o el vídeo que se va a integrar con cualquier aplicación que acepte un recurso alojado. Ese recurso publicado se entrega mediante el protocolo HTTP/2. Este método de entrega mejora la forma en que los navegadores y servidores se comunican, lo que permite una mejor respuesta y tiempos de carga de todos los recursos de Adobe Dynamic Media Classic. Consulte [Preguntas frecuentes sobre la entrega de contenido HTTP2](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html).
+Adobe Dynamic Media Classic ahora admite el envío de todas las imágenes y vídeos a través de HTTP/2. Es decir, hay disponible una URL publicada o código incrustado para la imagen o el vídeo que se va a integrar con cualquier aplicación que acepte un recurso alojado. Ese recurso publicado se entrega mediante el protocolo HTTP/2. Este método de entrega mejora la forma en que los navegadores y servidores se comunican, lo que permite una mejor respuesta y tiempos de carga de todos los recursos de Adobe Dynamic Media Classic. Consulte [Preguntas frecuentes sobre la entrega de contenido HTTP2](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2).
 
 ## Publicar tras la carga {#publish-after-uploading}
 
@@ -29,13 +29,13 @@ Los recursos están en un estado publicado o no. De forma predeterminada, todos 
 
 Para obtener más información, consulte la [PDF de avisos de publicación instantánea](/help/using/assets/rendering-instant-publish-notification.pdf).
 
-Para marcar recursos para la publicación, siga estas técnicas:
+Utilice estas técnicas para marcar recursos para su publicación:
 
 * **[!UICONTROL Publicar tras la carga]** : en la página Cargar, cerca de la parte inferior, seleccione **[!UICONTROL Publicar tras la carga]**. El valor predeterminado es un estado seleccionado.
 
 * **[!UICONTROL Publicar tras la carga]** - En el cuadro de diálogo Opciones de trabajo, seleccione **[!UICONTROL Publicar tras la carga]**. El valor predeterminado es un estado seleccionado.
 
-Algunos recursos &quot;secundarios&quot; se marcan para la publicación de forma automática al marcarse para publicación los recursos principales. En esta tabla se muestran los recursos que se marcan para la publicación de forma automática.
+Algunos recursos &quot;secundarios&quot; se marcan para la publicación de forma automática al marcarse para publicación los recursos principales. Esta tabla enumera los recursos secundarios marcados automáticamente para su publicación.
 
 | Elemento principal (grupo) | Elementos secundarios (miembros) |
 | --- | --- |
@@ -44,7 +44,7 @@ Algunos recursos &quot;secundarios&quot; se marcan para la publicación de forma
 | Conjuntos de giros | Imágenes del conjunto. |
 | Plantillas | Archivos de plantilla, páginas e imágenes. |
 
-Las imágenes derivadas también se marcan para la publicación de forma automática cuando se están publicando las imágenes principales. Las imágenes derivadas son imágenes que se han ajustado con las opciones de edición de imágenes. Puede ver estas imágenes derivadas en Vista de detalles en Creación y derivados.
+Las imágenes derivadas también se marcan automáticamente para su publicación cuando se publican sus imágenes principales. Las imágenes derivadas son imágenes que se han ajustado con las opciones de edición de imágenes. Puede ver estas imágenes derivadas en Vista de detalles en Creación y derivados.
 
 ## Creación de un trabajo de publicación {#creating-a-publish-job}
 
@@ -53,9 +53,9 @@ Cree un trabajo de publicación para publicar los recursos que ha cargado en los
 **Para crear un trabajo de publicación:**
 
 1. En la barra de navegación global, seleccione **[!UICONTROL Publish]**.
-1. En el cuadro de diálogo Publicar, seleccione si desea crear un trabajo de publicación de una sola vez o recurrente.
+1. En el cuadro de diálogo Publicación, elija si desea un trabajo de publicación único o recurrente.
 
-   Consulte [Creación de un trabajo de publicación único](publishing-files.md#creating_a_one_time_publish_job) y [Creación de un trabajo de publicación recurrente](publishing-files.md#creating_a_recurring_publish_job).
+   Consulte [Creación de un trabajo de publicación único](publishing-files.md#creating_a_one_time_publish_job) y [Crear un trabajo de publicación recurrente](publishing-files.md#creating_a_recurring_publish_job).
 
 1. Introduzca un nombre de trabajo.
 1. Si lo desea, acceda a las opciones avanzadas y elija entre estas opciones. 
@@ -68,17 +68,17 @@ Adobe Dynamic Media Classic realiza un seguimiento de los trabajos de publicaci�
 
 >[!NOTE]
 >
->Los recursos que vuelve a publicar (los ha publicado anteriormente) no aparecen inmediatamente en el sitio web debido al mecanismo de almacenamiento en caché web en la red de entrega de contenido (CDN). Consulte [Segunda publicación de recursos y retrasos de CDN](publishing-files.md#republished_assets_and_cdn_delays).
+>Los recursos que ha vuelto a publicar (los ha publicado anteriormente) no aparecen inmediatamente en el sitio web debido al mecanismo de almacenamiento en caché web en la red de entrega de contenido (CDN). Consulte [Segunda publicación de recursos y retrasos de CDN](publishing-files.md#republished_assets_and_cdn_delays).
 
 ### Creación de un trabajo de publicación único {#creating-a-one-time-publish-job}
 
-Cree un trabajo de publicación único seleccionando la variable **[!UICONTROL Único]** en la página Publicar.
+Cree un trabajo de publicación único seleccionando la variable **[!UICONTROL Único]** en la página Publicación.
 
-Si desea que el trabajo de publicación se produzca más adelante, en la página Publicar, seleccione **[!UICONTROL Único]**, luego seleccione **[!UICONTROL Programar para más tarde]** en la lista desplegable. Utilice el control deslizante Calendario y Hora para seleccionar un día y una hora para ejecutar el trabajo de publicación.
+Si desea que el trabajo de publicación se produzca más adelante, en la página Publicación, seleccione **[!UICONTROL Único]**. En la lista desplegable, seleccione **[!UICONTROL Programar para más tarde]**. Utilice el control deslizante Calendario y Hora para seleccionar un día y una hora para ejecutar el trabajo de publicación.
 
-### Creación de un trabajo de publicación recurrente {#creating-a-recurring-publish-job}
+### Crear un trabajo de publicación recurrente {#creating-a-recurring-publish-job}
 
-Cree un trabajo de publicación recurrente seleccionando **[!UICONTROL Recurrente]** en la página Publicar.
+Cree un trabajo de publicación recurrente seleccionando **[!UICONTROL Recurrente]** en la página Publicación.
 
 A continuación, elija una opción Repetir de **[!UICONTROL Diario]**, **[!UICONTROL Semanalmente]**, **[!UICONTROL Mensual]**, o **[!UICONTROL Personalizado]** A continuación, especifique cuándo desea que se repita el trabajo de publicación. Adobe Dynamic Media Classic presenta las herramientas de calendario para programar el trabajo de publicación recurrente. Puede seleccionar **[!UICONTROL Personalizado]** y escriba una regla en el campo de texto Regla para describir un intervalo de trabajo personalizado.
 
@@ -90,13 +90,13 @@ Consulte [Crear un intervalo de tiempo de trabajo de carga o publicación person
 
 ### Opciones avanzadas de publicación {#advanced-publish-options}
 
-Puede acceder a las opciones avanzadas desde la página Publicar y especificar estas opciones para controlar un trabajo de publicación:
+Puede mostrar las opciones Avanzadas en la página Publicación y elegir estas opciones para administrar un trabajo de publicación:
 
 * **[!UICONTROL Publicar en]** : Para publicar recursos solo en un servidor específico, elija un tipo de servidor.
 
 * **[!UICONTROL Publish]** : De forma predeterminada, Adobe Dynamic Media Classic publica solo los recursos que son nuevos y no se han publicado antes (opción Nuevo desde la última publicación ). Sin embargo, puede seleccionar **[!UICONTROL Publicación completa]** para publicar también recursos que se han actualizado o cambiado desde la última vez que se publicaron. Seleccionar **[!UICONTROL Completa con datos de búsqueda]** si publica un catálogo electrónico y desea que los lectores puedan buscarlo por palabra clave.
 
-* **[!UICONTROL Ejecutar trabajo como]** - Elija un nombre de usuario de la lista. Desde la página Trabajos, puede ordenar los trabajos por nombre de usuario. Si elige un nombre, asociará el trabajo de publicación con un usuario.
+* **[!UICONTROL Ejecutar trabajo como]** - Elija un nombre de usuario de la lista. Desde la página Trabajos, puede ordenar los trabajos por nombre de usuario. Al elegir un nombre, asocia un trabajo de publicación con un usuario.
 
 **[!UICONTROL Notificación HTTP]** : introduzca una URL para almacenar en déclencheur los trabajos de publicación posteriores.
 
@@ -110,7 +110,7 @@ Para cancelar un trabajo de publicación, vaya a la página Trabajos y seleccion
 
 >[!NOTE]
 >
->Después de cancelar un trabajo de publicación, su estado cambia a &quot;detener&quot; hasta que el trabajo llegue un punto en el que se pueda detener de forma segura. Si el trabajo de publicación está obteniendo datos de la base de datos, puede que tarde un tiempo en detenerse.
+>Después de cancelar un trabajo de publicación, su estado cambia a &quot;detener&quot; hasta que el trabajo llegue un punto en el que se pueda detener de forma segura. Detener un trabajo de publicación puede tardar algún tiempo si el trabajo está en proceso de obtener datos de la base de datos.
 
 ## Publicar recursos manualmente {#manually-publishing-assets}
 

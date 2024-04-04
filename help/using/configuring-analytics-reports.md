@@ -1,20 +1,18 @@
 ---
 title: Configuración de informes de Adobe Analytics
 description: Obtenga información sobre cómo configurar informes de Adobe Analytics en Adobe Dynamic Media Classic.
-uuid: bf210f68-dcb0-4e86-be04-0a8b2117ef2a
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
-discoiquuid: f4c8c2b3-cc95-416f-9a5d-da81c231dfc2
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
 topic: Integrations, Development
 level: Experienced
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1233'
 ht-degree: 17%
 
 ---
@@ -35,7 +33,7 @@ Consulte [Publicar información de configuración](publishing-analytics-configur
 
 ## Asignar variables de Adobe Analytics a eventos y variables de visualizador de Adobe Dynamic Media Classic {#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables}
 
-Utilice la pantalla Configuración de Adobe Analytics para asociar eventos de visor con variables de Adobe Analytics y de Adobe Dynamic Media Classic. Para cada evento de visor, elija una variable de Adobe Analytics y una variable de Adobe Dynamic Media Classic. Para obtener instrucciones sobre cómo abrir la pantalla Configuración de Adobe Analytics, consulte [Iniciar sesión en Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
+Utilice la pantalla Configuración de Adobe Analytics para asociar eventos de visor con variables de Adobe Analytics y de Adobe Dynamic Media Classic. Para cada evento de visor, elija una variable de Adobe Analytics y una variable de Adobe Dynamic Media Classic. Para obtener instrucciones sobre cómo abrir la pantalla Configuración de Adobe Analytics, consulte [Inicio de sesión en Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 
 **Para asignar variables de Adobe Analytics a eventos y variables de visualizador de Adobe Dynamic Media Classic:**
 

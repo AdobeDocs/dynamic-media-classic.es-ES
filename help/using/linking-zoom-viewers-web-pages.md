@@ -10,9 +10,9 @@ role: User
 exl-id: 2073d95b-1600-481f-8038-d29e8acacf7d
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '666'
 ht-degree: 34%
 
 ---
@@ -47,7 +47,7 @@ Sus sitios web y aplicaciones acceden al contenido de Dynamic Media Image Server
 
 Normalmente, los visitantes hacen zoom de las imágenes de un sitio web seleccionando primero un icono de Zoom (a menudo el icono muestra la imagen de una lupa). Si se selecciona este icono, se inicia una página web dinámica (ASP o JSP) que muestra la imagen en una ventana emergente. Es en esta ventana emergente donde los visitantes aplican zoom en la imagen.
 
-Para obtener más información y ejemplos de código, consulte [Incrustar el Visor de zoom básico de HTML5 en la Guía de referencia de visores de Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Para obtener más información y ejemplos de código, consulte [Incrustar el Visor de zoom básico de HTML5 en la Guía de referencia de visores de Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copiar la copia incrustada de un visor de zoom {#copying-the-embed-copy-of-a-zoom-viewer}
 

@@ -1,6 +1,6 @@
 ---
 title: Cargar un recurso de imagen de trama
-description: Obtenga información sobre cómo cargar un recurso de imagen rasterizada en Adobe Dynamic Media Classic
+description: Obtenga información sobre cómo cargar un recurso de imagen rasterizada en Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -9,10 +9,10 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 55%
+source-wordcount: '1010'
+ht-degree: 53%
 
 ---
 
@@ -120,7 +120,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 El `file_limit` especifica el límite de tamaño de archivo en bytes. El `file_exts` parámetro especifica las extensiones de nombre de archivo permitidas para la carga. Ambos valores son opcionales.
 
-En la aplicación se definen límites globales tanto para el límite de tamaño de los archivos como para las extensiones de nombre de archivo permitidas. Todo lo incluido en la solicitud se acepta si es un subconjunto de los límites globales. Éstos son los límites globales:
+En la aplicación se definen límites globales tanto para el límite de tamaño de los archivos como para las extensiones de nombre de archivo permitidas. Si lo que ha enviado en la solicitud es un subconjunto de los límites globales, se cumple. Éstos son los límites globales:
 
 | Límite global | Valor |
 | --- | --- |
@@ -138,9 +138,9 @@ El siguiente formulario HTML permite al usuario cargar un recurso. En el formula
 Consulte Fondo de cobertura en [Opciones de ajuste de imagen al cargar](image-editing-options-upload.md#image-editing-options-at-upload).
 * Nombre del archivo que se va a cargar.
 
-Puede ver el código fuente del HTML asociado con el formulario de arriba seleccionando [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
+Puede ver el código fuente del HTML asociado al formulario anterior seleccionando [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-En Firefox, haga clic con el botón derecho en la ventana del explorador y seleccione **[!UICONTROL Ver origen de página]**. El código muestra la cadena de consulta URL correspondiente y el método POST que se ejecutan cuando el usuario selecciona **[!UICONTROL Enviar]**.
+En Firefox, haga clic con el botón derecho en la ventana del explorador y seleccione **[!UICONTROL Ver origen de página]**. El código muestra la cadena de consulta URL correspondiente y el método POST que se ejecuta cuando el usuario selecciona **[!UICONTROL Enviar]**.
 
 Para ver la respuesta XML en Internet Explorer, vaya a **[!UICONTROL Ver]** > **[!UICONTROL Origen]**. Para ver la respuesta XML en Firefox, vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Herramientas del explorador]** > **[!UICONTROL Herramientas para desarrolladores web]**. Se recomienda utilizar Firefox para ver las respuestas en XML.
 
@@ -237,7 +237,7 @@ Se pueden usar los campos siguientes en la cadena de consulta URL para solicitar
 | Parámetro de URL | Obligatorio u opcional | Valor |
 | --- | --- | --- |
 | `op` | Obligatorio | image_info |
-| `shared_secret` | Obligatorio | La clave de secreto compartido de la compañía. |
+| `shared_secret` | Obligatorio | La clave que es el secreto compartido de la compañía. |
 | `image_name` | Obligatorio | Nombre de la imagen. |
 
 **URL de ejemplo:**

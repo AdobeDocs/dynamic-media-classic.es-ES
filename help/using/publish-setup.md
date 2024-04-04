@@ -9,10 +9,10 @@ role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '2389'
-ht-degree: 34%
+source-wordcount: '2387'
+ht-degree: 33%
 
 ---
 
@@ -123,15 +123,15 @@ La aplicación de un sufijo o un valor de sustitución depende del ajuste de la 
 
 **Ejemplo de sufijo:**
 
-| URL | ID de localeMap | Resultado |
-| --- | --- | --- |
-| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | Observe que no se ha definido GlobalLocale. El parámetro de configuración regional de_DE se compara con la primera entrada de `localeMap`. El primer valor _DE correspondiente se añade como sufijo al recurso image_DE y se intenta encontrarlo en el servidor de imágenes. Si se encuentra en el servidor, se devuelve. De lo contrario, se utiliza el segundo valor &quot;&quot; como sufijo, lo que hace que se devuelva la propia imagen. |
+| URL | ID de localeMap | Resultado | Notas |
+| --- | --- | --- | --- |
+| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,` | `fr_FR,_FR,` | Observe que no se ha definido GlobalLocale. El parámetro de configuración regional de_DE se compara con la primera entrada de `localeMap`. El primer valor _DE correspondiente se añade como sufijo al recurso image_DE y se intenta encontrarlo en el servidor de imágenes. Si se encuentra en el servidor, se devuelve. De lo contrario, se utiliza el segundo valor &quot;&quot; como sufijo, lo que hace que se devuelva la propia imagen. |
 
 **Ejemplo de reemplazo:**
 
-| URL | `GlobalLocale` y `localeMap` ID | Resultado |
-|--- |--- |--- |
-| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | En el ejemplo de reemplazo anterior, GlobalLocale se establece en main. El parámetro de configuración regional de_DE se compara con la primera entrada de `localeMap`. La subcadena GlobalLocale se encuentra y se reemplaza por el primer valor correspondiente `de` en el `localeMap`: `image-de-01`. Si se encuentra en el servidor de imágenes, se devuelve. Si no es así, se sustituye el segundo valor, dando como resultado `image-main-01`. |
+| URL | `GlobalLocale` y `localeMap` ID | Resultado | Notas |
+| --- | --- | --- | --- |
+| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main` | `fr_FR,fr,main` | En el ejemplo de reemplazo anterior, GlobalLocale se establece en main. El parámetro de configuración regional de_DE se compara con la primera entrada de `localeMap`. La subcadena GlobalLocale se encuentra y se reemplaza por el primer valor correspondiente `de` en el `localeMap`: `image-de-01`. Si se encuentra en el servidor de imágenes, se devuelve. Si no es así, se sustituye el segundo valor, dando como resultado `image-main-01`. |
 
 Si no se define ninguna configuración regional en la URL, el servidor de imágenes toma el valor de DefaultLocale, si se ha definido, y lo aplica a la URL.
 

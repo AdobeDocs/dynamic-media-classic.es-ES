@@ -10,16 +10,16 @@ role: Admin,User
 exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 6%
+source-wordcount: '219'
+ht-degree: 7%
 
 ---
 
 <!-- UPDATE THIS TOPIC AFTER DECEMBER 31, 2020!!!!! -->
 
-# Iniciar sesión en Adobe Dynamic Media Classic {#dmc-sign-in}
+# Iniciar sesión en Adobe Dynamic Media Classic {#dmc-signin}
 
 Asegúrese de que dispone de lo siguiente antes de utilizar la aplicación de escritorio de Adobe Dynamic Media Classic:
 

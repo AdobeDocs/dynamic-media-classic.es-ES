@@ -10,10 +10,10 @@ role: User
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
 topic: Content Management
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 35%
+source-wordcount: '675'
+ht-degree: 33%
 
 ---
 
@@ -46,9 +46,9 @@ Después de publicar un conjunto de imágenes, puede copiar su dirección URL as
 
 ## Adición de direcciones URL de conjuntos de imágenes a una página web {#adding-image-set-urls-to-your-web-page}
 
-La forma más común de implementar conjuntos de imágenes es colocar un vínculo (mediante un icono de navegación) en la página web. Cuando se selecciona, el vínculo inicia una página dinámica (JSP) que muestra el conjunto de imágenes en una ventana de zoom emergente. El vínculo de zoom abre una ventana emergente que contiene la función de zoom.
+La forma más común de implementar conjuntos de imágenes es colocar un vínculo (mediante un icono de navegación) en la página web. Cuando se selecciona, el vínculo inicia una página dinámica (JSP) que muestra el conjunto de imágenes en una ventana de zoom emergente. El vínculo de zoom abre una ventana emergente que contiene la función de zoom real.
 
-Para obtener más información y ejemplos de código, consulte [Incrustar el visor de zoom HTML 5 en la Guía de referencia de visores de Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Para obtener más información y ejemplos de código, consulte [Incrustar el visor de zoom HTML 5 en la Guía de referencia de visores de Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copiar el código incrustado de un visor de conjuntos de imágenes {#copying-the-embed-code-of-an-image-set-viewer}
 
@@ -81,4 +81,4 @@ El uso de la función de código incrustado permite revisar el código del visor
 
 >[!MORELIKETHIS]
 >
->* [Publicar](publishing-files.md#publishing_files)
+>* [Publish](publishing-files.md#publishing_files)

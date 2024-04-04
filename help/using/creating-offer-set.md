@@ -1,21 +1,19 @@
 ---
 title: Creación de un conjunto de ofertas
 description: Obtenga información sobre cómo crear un conjunto de ofertas en Adobe Dynamic Media Classic.
-uuid: 6d6a4af9-70c0-4cfa-9a8f-855d6adfcc8f
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_integration
-discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
 workflow-type: tm+mt
-source-wordcount: '1294'
-ht-degree: 35%
+source-wordcount: '1227'
+ht-degree: 33%
 
 ---
 
@@ -27,7 +25,7 @@ Se puede crear cualquiera de los siguientes tipos de conjuntos de ofertas:
 * Plantilla parametrizada
 * Imagen
 
-Para plantillas, seleccione **[!UICONTROL Agregar y previsualizar]** y, a continuación, configure los parámetros que elija. Los demás tipos de conjuntos de ofertas no incluyen parámetros, pero aún puede personalizarlos seleccionando **[!UICONTROL Previsualizar]** y cambiar los ajustes preestablecidos disponibles.
+Para plantillas, seleccione **[!UICONTROL Agregar y previsualizar]** y, a continuación, configure los parámetros que elija. Otros tipos de conjuntos de ofertas no incluyen parámetros, pero aún puede personalizarlos seleccionando **[!UICONTROL Previsualizar]** y cambiar los ajustes preestablecidos disponibles.
 
 Adobe Dynamic Media Classic ofrece herramientas para editar y crear conjuntos de ofertas.
 
@@ -118,7 +116,7 @@ Si edita un conjunto publicado o no publicado, la variable **[!UICONTROL Publica
 | ¿Ya se ha publicado el conjunto? | **[!UICONTROL Publicar tras guardar]** opción seleccionada antes de guardar la edición? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
 | --- | --- | --- | --- |
 | Sí | Sí | Publicado | Publicado |
-| Sí | No | Publicado | Los miembros existentes del conjunto conservarán su estado publicado. Cualquier nuevo miembro que añada al conjunto durante la edición conservará su estado publicado o no publicado. |
+| Sí | No | Publicado | Los miembros del conjunto existentes conservan su estado publicado. Cualquier nuevo miembro que añada al conjunto durante la edición conservará su estado publicado o no publicado. |
 | No | Sí | Publicado | Publicado |
 | No | No | Sin publicar | Los miembros existentes del conjunto y cualquier nuevo miembro que añada al conjunto durante la edición conservarán su estado publicado o no publicado. |
 
@@ -141,9 +139,9 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 1. Cuando termine de editar, cerca de la esquina inferior derecha de la página, asegúrese de que **[!UICONTROL Publicar tras guardar]** está seleccionado (predeterminado).
 1. Seleccionar **[!UICONTROL Guardar]**, seleccione una carpeta de almacenamiento, introduzca un nombre para el conjunto y, a continuación, seleccione **[!UICONTROL Guardar]**.
 
-## Eliminación de un conjunto de ofertas {#deleting-an-offer-set}
+## Eliminación de un conjunto de ofertas {#delet-an-offer-set}
 
-Cuando se elimina un conjunto de ofertas, el conjunto en sí se mueve a la papelera. Sin embargo, los miembros (o “elementos secundarios”) dentro de dicho conjunto no se verán afectados; cada uno mantendrá su estado existente de publicación o no.
+Cuando se elimina un conjunto de ofertas, el conjunto en sí se mueve a la papelera. Sin embargo, los miembros (o &quot;hijos&quot;) de ese conjunto no se ven afectados, sino que cada uno de ellos conserva su estado publicado o no publicado.
 
 Consulte también [Publicación manual de recursos](publishing-files.md#manually_publishing_assets) y [Cancelación manual de la publicación de recursos](publishing-files.md#manually_unpublishing_assets).
 

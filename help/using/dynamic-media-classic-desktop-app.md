@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
 workflow-type: tm+mt
-source-wordcount: '1981'
+source-wordcount: '1985'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ La notificación de actualización dentro de la aplicación de escritorio de Ado
 
 ## Correcciones en la última versión (20.22.1) {#release-jan2022}
 
-* Edición de imágenes **[!UICONTROL Guardar]** Los botones no funcionaban.
+* Al editar una imagen, la variable **[!UICONTROL Guardar]** Los botones no funcionaban.
 * En los editores de conjuntos, la variable **[!UICONTROL Cerrar]**, **[!UICONTROL Guardar]**, y **[!UICONTROL Guardar como]** Los botones se desactivan después de desplazarse por los recursos en la **[!UICONTROL Añadir recursos]** panel.
 * **[!UICONTROL Reproducir]** El botón en la vista de detalles de vídeo no funcionaba.
 * No se ha podido introducir `d` y `e` in **[!UICONTROL Nombre de usuario]** y **[!UICONTROL Contraseña]** al ejecutar macOS Monterrey.
@@ -233,7 +233,7 @@ Para descargar y *silencioso* instale la última versión de la aplicación de e
 
 ## Introducción a vídeo sobre el uso de Adobe Dynamic Media Classic Desktop App {#dmc-app-video-walk-through}
 
-Ver una [Introducción a vídeo sobre el uso de la aplicación de escritorio de Adobe Dynamic Media Classic](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html#dynamic-media) (Duración: 2 minutos y 36 segundos).
+Ver una [Introducción a vídeo sobre el uso de la aplicación de escritorio de Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (Duración: 2 minutos y 36 segundos).
 
 ## Borrando la caché de imágenes y de recursos del equipo mediante la aplicación de escritorio {#clear-cache}
 
@@ -252,7 +252,7 @@ Además de borrar la caché de imágenes y recursos mediante la aplicación de e
    * macOS: `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
    * Windows®: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
-## Limitación conocida en Adobe Dynamic Media Classic 20.21.1
+## Limitaciones conocidas en Adobe Dynamic Media Classic 20.21.1
 
 * El **[!UICONTROL Servidor]** La lista desplegable está vacía después de actualizar a la aplicación de escritorio de Adobe Dynamic Media Classic 20.21.1: escenario: instala e inicia sesión en Adobe Dynamic Media Classic 20.20.1 o 20.20.2 y, a continuación, cierra la aplicación. A continuación, actualice a Adobe Dynamic Media Classic 20.21.1. Cuando intente iniciar sesión, la variable **[!UICONTROL Servidor]** en la lista desplegable de **[!UICONTROL Inicie sesión en su cuenta]** El cuadro de diálogo está vacío. Para solucionar este problema, debe [borrar manualmente la caché](#clear-cache) (consulte los pasos anteriores).
 

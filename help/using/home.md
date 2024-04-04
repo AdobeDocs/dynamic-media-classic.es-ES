@@ -7,9 +7,9 @@ role: Admin,User
 exl-id: af29eabb-f7c6-420b-9c63-9d60ee2dc148
 topic: Administration
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '517'
 ht-degree: 3%
 
 ---
@@ -26,13 +26,13 @@ Consulte [Preguntas más frecuentes](new-ui-2020.md). Nuevas actualizaciones el 
 
 ## Recursos para desarrolladores de Dynamic Media
 
-* [Página de aterrizaje de Recursos para desarrolladores de Dynamic Media](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html) : Incluye la Guía de referencia de visores, la API de servicio/procesamiento de imágenes, la API de Image Production System y las Notas de la versión de Adobe Dynamic Media Classic.
+* [Página de aterrizaje de Recursos para desarrolladores de Dynamic Media](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources) : Incluye la Guía de referencia de visores, la API de servicio/procesamiento de imágenes, la API de Image Production System y las Notas de la versión de Adobe Dynamic Media Classic.
 * [Ejemplos de biblioteca de visores](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) - Incluye ejemplos de visualizadores de vídeo, medios de ventas, medios mixtos, conjuntos de giros, zoom en línea, conjuntos de imágenes y muestras y diseños flotantes.
 
 ## Recursos de usuario de Adobe Dynamic Media Classic
 
 * [Boletín mensual de Dynamic Media](dynamic-media-newsletter.md)
-* [Tutorial sobre prácticas recomendadas de Adobe Dynamic Media Classic](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
+* [Tutorial sobre prácticas recomendadas de Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 * [Guía: Guía de prácticas recomendadas para enfocar imágenes](/help/using/assets/s7_sharpening_images.pdf)
 * [Guía: Compatibilidad de Adobe Dynamic Media Classic con SEO](/help/using/assets/s7_seo.pdf) - Los motores de búsqueda de hoy permiten la búsqueda de sitios web e imágenes. Adobe Dynamic Media Classic respalda los esfuerzos por hacer que las imágenes sean fáciles de usar en los motores de búsqueda, de modo que se dirija más tráfico al sitio web del usuario de Adobe Dynamic Media Classic. Esta guía de PDF le ofrece información general y recomendaciones de implementación para que esto suceda.
 <!-- * [Webinar: Best Practices for Responsive Design](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html) - Learn practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one primary asset that works across multiple devices and increase mobile performance by dynamically changing the resolution of images or the orientation of images for portrait or landscape displays. Learn how to also dynamically crop, scale, or resize images. -->

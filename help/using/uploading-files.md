@@ -1,19 +1,17 @@
 ---
 title: Carga de archivos
 description: Obtenga información sobre cómo cargar archivos en Adobe Dynamic Media Classic.
-uuid: b3025f84-4f28-4276-bc9c-f0c0c2a26e12
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '3877'
+source-wordcount: '3869'
 ht-degree: 27%
 
 ---
@@ -104,7 +102,7 @@ Los siguientes tipos de archivo pueden publicarse:
 * CSS
 * JavaScript (cuando la empresa se configura con su propio dominio)
 * Vídeo principal
-* PDF (cuando el PDF está marcado para publicarse después de la carga, para evitar la entrega de todos los PDF para el flujo de trabajo de catálogo electrónico/PDF existente)
+* PDF (cuando el PDF está marcado para su publicación después de la carga, para evitar la entrega de todos los PDF para el flujo de trabajo de catálogo electrónico/PDF existente)
 * Vídeo PrX
 * SVG
 * XML
@@ -166,8 +164,8 @@ La aplicación Adobe Dynamic Media Classic Desktop permite cargar archivos y car
 1. En la aplicación Adobe Dynamic Media Classic Desktop, en la barra de navegación global, seleccione **[!UICONTROL Cargar]**.
 1. En la página Cargar, seleccione **[!UICONTROL Desde el escritorio]** pestaña.
 1. En la parte izquierda de la página Cargar, en **[!UICONTROL Seleccionar archivos para cargar]** , seleccione **[!UICONTROL Examinar]** para seleccionar los archivos o carpetas que desea cargar, seleccione **[!UICONTROL Abrir]**.
-1. En el lado derecho de la página Cargar, en **Elegir carpeta de destino** , vaya a una carpeta de destino en la que desee agregar los archivos o carpetas cargados.
-1. (Opcional) Cerca de la parte inferior de la página Cargar, en el campo de texto Nombre del trabajo, introduzca el nuevo nombre del trabajo de carga. O bien, puede utilizar el nombre predeterminado generado por el sistema que proporciona Adobe Dynamic Media Classic. El trabajo y otros trabajos de carga y publicación se registran en la página Trabajos, donde puede comprobar el estado de los trabajos. Consulte [Comprobación de archivos de trabajo](checking-job-files.md#checking_job_files).
+1. En el lado derecho de la página Cargar, en el **Destino de carpeta** , vaya a una carpeta de destino en la que desee agregar los archivos o carpetas cargados.
+1. (Opcional) Cerca de la parte inferior de la página Cargar, en el campo de texto Nombre del trabajo, introduzca el nuevo nombre del trabajo de carga. O bien, puede utilizar el nombre predeterminado generado por el sistema que proporciona Adobe Dynamic Media Classic. Los trabajos de carga y publicación se registran en la página Trabajos, donde puede comprobar el estado de los trabajos. Consulte [Comprobación de archivos de trabajo](checking-job-files.md#checking_job_files).
 1. (Opcional) Cerca de la parte inferior de la página Cargar, seleccione **[!UICONTROL Publicar tras la carga]** si desea publicar automáticamente los recursos que carga.
 Al publicar archivos, se envían a servidores interactivos. Las URL para estos archivos se pueden utilizar en sitios Web y aplicaciones externas. Esta misma opción también está disponible en el cuadro de diálogo Opciones del trabajo.
 1. (Opcional) Cerca de la parte inferior de la página Cargar, seleccione **[!UICONTROL Sobrescribir en cualquier carpeta con mismo nombre de recurso base independientemente de la extensión]** si desea que los archivos que cargue reemplacen a los archivos existentes con los mismos nombres. Esta misma opción también está disponible en el cuadro de diálogo Opciones del trabajo.
@@ -186,8 +184,8 @@ Para ver el progreso de la carga, seleccione **[!UICONTROL Trabajos]** en la bar
 1. En Adobe Dynamic Media Classic, en la barra de navegación global, seleccione **[!UICONTROL Cargar]**.
 1. En la página Cargar, seleccione **[!UICONTROL A TRAVÉS DE FTP]** pestaña.
 1. En la parte izquierda de la página Cargar, en **[!UICONTROL Elegir carpeta FTP de carga]** , elija una carpeta FTP desde la que cargar los archivos.
-1. En el lado derecho de la página Cargar, en **[!UICONTROL Elegir carpeta Dynamic Media de Adobe de destino]** , elija una carpeta de destino en Adobe Dynamic Media Classic.
-1. (Opcional) Cerca de la parte inferior de la página Cargar, en el campo de texto Nombre del trabajo, introduzca el nuevo nombre del trabajo de carga. O bien, puede utilizar el nombre predeterminado generado por el sistema que proporciona Adobe Dynamic Media Classic. El trabajo y otros trabajos de carga y publicación se registran en la página Trabajos, donde puede comprobar el estado de los trabajos.
+1. En el lado derecho de la página Cargar, en el **[!UICONTROL Adobe Dynamic Media Folder Destination]** , elija una carpeta de destino en Adobe Dynamic Media Classic.
+1. (Opcional) Cerca de la parte inferior de la página Cargar, en el campo de texto Nombre del trabajo, introduzca el nuevo nombre del trabajo de carga. O bien, puede utilizar el nombre predeterminado generado por el sistema que proporciona Adobe Dynamic Media Classic. Los trabajos de carga y publicación se registran en la página Trabajos, donde puede comprobar el estado de los trabajos.
 Consulte [Comprobación de archivos de trabajo](checking-job-files.md#checking_job_files).
 1. (Opcional) Cerca de la parte inferior de la página Cargar, seleccione **[!UICONTROL Publicar tras la carga]** si desea publicar automáticamente los recursos que carga.
 Al publicar archivos, se envían a servidores interactivos. Las URL para estos archivos se pueden utilizar en sitios Web y aplicaciones externas. Esta misma opción también está disponible en el cuadro de diálogo Opciones del trabajo.
@@ -248,7 +246,7 @@ Recorte basado en la transparencia: especifique 0 para recortar píxeles solo si
 * **Opciones de perfil de color** - Elija una conversión de color cuando cree archivos optimizados que se utilizan para la entrega dinámica de Adobe Dynamic Media Classic:
 
    * **[!UICONTROL Conservación de color predeterminado]** - Mantiene los colores de la imagen de origen siempre que las imágenes contengan información del espacio de color; no hay conversión de color. Casi todas las imágenes actuales ya tienen incrustado el perfil de color adecuado. Sin embargo, si la imagen de origen CMYK no contiene un perfil de color incrustado, los colores se convierten al espacio de color sRGB (Standard Red Green Blue). SRGB es el espacio de color que se recomienda para mostrar imágenes en páginas web.
-   * **[!UICONTROL Mantener el espacio de color original]** - Conserva los colores originales sin ninguna conversión de color en el punto de ingesta en Adobe Dynamic Media Classic. En el caso de las imágenes sin un perfil de color incrustado, cualquier conversión de color necesaria para procesar las solicitudes de la imagen se realiza mediante los perfiles de color predeterminados, según se ha configurado en la configuración de Publicación. Estos perfiles de color no siempre se alinean con el color en los archivos creados con esta opción. Por lo tanto, se recomienda utilizar la opción Conservación de color predeterminada.
+   * **[!UICONTROL Mantener el espacio de color original]** - Conserva los colores originales sin ninguna conversión de color en el punto de ingesta en Adobe Dynamic Media Classic. En el caso de las imágenes sin un perfil de color incrustado, cualquier conversión de color necesaria para procesar las solicitudes de la imagen se realiza mediante los perfiles de color predeterminados configurados en la Configuración de publicación. Estos perfiles de color no siempre se alinean con los colores de los archivos creados con esta opción. Por lo tanto, se recomienda utilizar la opción Conservación de color predeterminada.
    * **[!UICONTROL Personalizar desde]** > **[!UICONTROL Hasta]** - Abre menús para que pueda elegir una **[!UICONTROL Convertir de]** y **[!UICONTROL Convertir a]** espacio de color. Esta opción avanzada sustituye cualquier información de color incrustada en el archivo de origen. Seleccione esta opción solo cuando todas las imágenes que está enviando contengan datos de perfil de color incorrectos o que falten.
 
 * **Opciones de edición de imágenes** - Puede conservar las máscaras de recorte &lt;> en las imágenes y elegir un perfil de color.
@@ -269,8 +267,9 @@ Consulte [Uso de archivos PostScript y Illustrator](postscript-illustrator-files
 * **Opciones de EVIDEO** - Puede transcodificar un archivo de vídeo seleccionando un ajuste preestablecido de vídeo.
 Consulte [Trabajar con ajustes preestablecidos de codificación de vídeo](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
-* **Metadatos adicionales** : introduzca palabras clave que describan los archivos que desea cargar. Separe las palabras clave con una coma. Las palabras clave facilitan la búsqueda de recursos.
-Consulte [Realización de una búsqueda avanzada](searching-assets.md#conducting_an_advanced_search). Consulte también [Cargar palabras clave](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) vídeo de formación.
+* **Más metadatos** : introduzca palabras clave que describan los archivos que desea cargar. Separe las palabras clave con una coma. Las palabras clave facilitan la búsqueda de recursos.
+Consulte [Realización de una búsqueda avanzada](searching-assets.md#conducting_an_advanced_search).
+Consulte también [Cargar palabras clave](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) vídeo de formación.
 
 * **Ajustes preestablecidos del conjunto de lotes** - Si desea crear un conjunto de imágenes, un conjunto de giros o un conjunto de muestras a partir de los archivos cargados, seleccione la opción **[!UICONTROL Activo]** para el ajuste preestablecido que desea utilizar. Puede seleccionar varios ajustes preestablecidos. Los ajustes preestablecidos se crean en la página Ajustes de aplicación/Ajustes preestablecidos de conjunto de lotes.
 Consulte [Valores preestablecidos de conjunto por lotes](application-setup.md#batch_set_presets).
@@ -279,7 +278,7 @@ Consulte [Valores preestablecidos de conjunto por lotes](application-setup.md#ba
 
 ## Ejecución de trabajos a continuación de la carga {#follow-an-upload-with-another-job}
 
-Cuando cargue elementos mediante FTP, puede programar un trabajo posterior para que comience cuando se complete la carga. Si hay otros trabajos programados para comenzar, el trabajo que programa aquí se pone en cola después de ellos.
+Cuando cargue elementos mediante FTP, puede programar un trabajo posterior para que comience cuando se complete la carga. Si hay otros trabajos programados para comenzar, los trabajos programados aquí se ponen en cola después de ellos.
 
 El nuevo trabajo envía una notificación a la dirección especificada para que se pueda activar el código de esa ubicación. Este trabajo de publicación que sigue recibe el mismo nombre que el trabajo de carga pero se le añade el prefijo *Pub_*.
 
@@ -307,5 +306,5 @@ El nuevo trabajo envía una notificación a la dirección especificada para que 
 >[!MORELIKETHIS]
 >
 >* [Trabajo con carpetas de recursos](asset-folders.md#working_with_asset_folders)
->* [Gestión de trabajos recurrentes de carga y publicación](checking-job-files.md#handling_recurring_upload_and_publish_jobs)
+>* [Administrar trabajos recurrentes de carga y publicación](checking-job-files.md#handling_recurring_upload_and_publish_jobs)
 >* [Uso de un trabajo de carga o publicación como déclencheur](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)

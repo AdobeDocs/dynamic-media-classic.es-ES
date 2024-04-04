@@ -1,6 +1,6 @@
 ---
 title: aplicación de escritorio de Adobe Dynamic Media Classic
-description: Los usuarios de Adobe Dynamic Media Classic ahora pueden experimentar una actualización completa de la interfaz de usuario. La experiencia ofrece un inicio de sesión actualizado con vínculos a recursos valiosos, además de que esta actualización ya no depende de la tecnología de Flash de Adobe en el explorador.
+description: Los usuarios de Adobe Dynamic Media Classic ahora pueden experimentar una actualización completa de la interfaz de usuario.
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -9,9 +9,9 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1054'
 ht-degree: 0%
 
 ---
@@ -94,9 +94,9 @@ Póngase en contacto con el Soporte técnico de Adobe si tiene algún problema a
 +++**_Quiero asegurarme de que estoy optimizando mi estrategia de medios enriquecidos. ¿Cómo puedo obtener más información acerca de Adobe Dynamic Media Classic?_**
 Adobe Dynamic Media Classic es una potente solución con numerosas funciones diseñada para mejorar sus estrategias de medios enriquecidos. Para asegurarse de aprovechar todas las funcionalidades, asegúrese de explorar estos recursos prácticos:
 
-* [Tutorial sobre prácticas recomendadas de Adobe Dynamic Media Classic](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
+* [Tutorial sobre prácticas recomendadas de Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 * [Adobe de entradas de blog](https://blog.adobe.com/)<!-- (https://blog.adobe.com/tag/dynamic-media/) -->
-* [Adobe Archivos de newsletter de Dynamic Media](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/dynamic-media-newsletter.html)
+* [Adobe Archivos de newsletter de Dynamic Media](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/dynamic-media-newsletter)
 +++
 
 <!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html), and the complementary audit program. -->

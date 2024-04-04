@@ -9,14 +9,14 @@ role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
 topic: Content Management
 level: Intermediate
-source-git-commit: a30bc34b1943d63620cb12098b7bd2db4714086d
+source-git-commit: a607488b6a1dd51ef7cc8c885db5a87f4f792aaa
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 31%
+source-wordcount: '716'
+ht-degree: 27%
 
 ---
 
-# Agregar subtítulos a vídeo {#adding-captions-to-video}
+# Agregar subtítulos a vídeo {#add-captions-to-video}
 
 Para ampliar el alcance de los vídeos a mercados globales, agregue subtítulos a vídeos únicos o a conjuntos de vídeos adaptables. Con los rótulos, evita tener que doblar el audio o la necesidad de utilizar hablantes nativos para volver a grabar el audio en idiomas diferentes. El vídeo se reproduce en el idioma en el que se ha grabado. Los subtítulos en lengua extranjera aparecen para que las personas de distintos idiomas puedan entender la parte de audio.
 
@@ -38,7 +38,7 @@ Consulte también [Agregar y editar ajustes preestablecidos de visor](applicatio
 
 Adobe Dynamic Media Classic puede convertir archivos de rótulo al formato JSON (JavaScript Object Notation). Esta conversión significa que puede incrustar el texto de JSON en una página web como una transcripción completa pero oculta del vídeo. Los motores de búsqueda pueden rastrear e indexar el contenido para que los vídeos sean más fáciles de descubrir y dar a los clientes más detalles sobre el contenido del vídeo.
 
-Consulte [Proporcionar contenido estático (que no sea de imagen)](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents.html?lang=en#image-serving-api) en el *Ayuda de API de servicio de imágenes de Adobe* para obtener más información sobre el uso de la función JSON en una dirección URL.
+Consulte [Proporcionar contenido estático (que no sea de imagen)](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) en el *Ayuda de API de servicio de imágenes de Adobe* para obtener más información sobre el uso de la función JSON en una dirección URL.
 
 **Para agregar subtítulos al vídeo:**
 
@@ -52,7 +52,7 @@ Consulte [Proporcionar contenido estático (que no sea de imagen)](https://exper
 
    Consulte [Cargar archivos](uploading-files.md#uploading_files).
 
-1. En el panel Biblioteca de recursos del lado izquierdo, navegue a la carpeta de recursos que contenga el archivo de vídeo que desee asociar al archivo de subtítulos que ha cargado.
+1. En el panel Biblioteca de recursos de la izquierda, vaya a la carpeta de recursos que contiene el archivo de vídeo que se asociará al archivo de rótulo que ha cargado.
 1. En el panel Examinar recursos, seleccione un único recurso de vídeo y, debajo de la imagen en miniatura del recurso, seleccione **[!UICONTROL Previsualizar]** > **[!UICONTROL Lista del visor]**.
 1. En la tabla Lista de visualizadores, busque el visualizador HTML 5 denominado **Universal_HTML 5_Video**, **Universal_HTML 5_MixedMedia_oscuro**, o **Universal_HTML 5_MixedMedia_light**, a continuación, realice una de las siguientes acciones:
 

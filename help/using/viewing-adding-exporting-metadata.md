@@ -1,21 +1,19 @@
 ---
 title: Visualización, adición y exportación de metadatos
 description: Obtenga información sobre cómo ver, agregar y exportar metadatos en Adobe Dynamic Media Classic.
-uuid: a5254c51-9e04-45ae-8236-3eab2925e5fc
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
 feature: Dynamic Media Classic,Asset Management,Metadata
 role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '2261'
-ht-degree: 46%
+source-wordcount: '2226'
+ht-degree: 40%
 
 ---
 
@@ -23,7 +21,7 @@ ht-degree: 46%
 
 Puede almacenar información específica de los archivos con los que trabaja en Adobe Dynamic Media Classic; esta información se denomina *metadatos*. Puede utilizar los metadatos en Adobe Dynamic Media Classic para organizar, buscar, filtrar y ordenar los recursos.
 
-Los metadatos aparecen en la Vista de detalles junto con información generada por Adobe Dynamic Media Classic, como la fecha de creación del archivo, la fecha de publicación y las palabras clave. Para ver los metadatos, abra el recurso en la Vista de detalles y, a continuación, seleccione el panel Metadatos. Puede introducir y editar metadatos en la vista de detalles.
+Los metadatos aparecen en la Vista de detalles junto con información generada por Adobe Dynamic Media Classic, como la fecha de creación del archivo, la fecha de publicación y las palabras clave. Para ver los metadatos, abra el recurso en la Vista de detalles y, a continuación, seleccione el panel Metadatos. Puede introducir y editar metadatos en la Vista de detalles.
 
 Algunos metadatos están incrustados directamente en un archivo. Si un archivo contiene estos metadatos, Adobe Dynamic Media Classic los carga automáticamente con el archivo. Puede incrustar metadatos en recursos de origen en Adobe Photoshop, InDesign, Illustrator y otras aplicaciones; Adobe Dynamic Media Classic reconoce estos metadatos. También puede agregar metadatos a archivos individuales en el panel Metadatos en la Vista de detalles. Para mantener la coherencia entre los recursos, los administradores de empresa pueden crear plantillas de metadatos que proporcionen los campos de metadatos que se pueden rellenar.
 
@@ -55,13 +53,13 @@ Consulte [Vistas de metadatos](application-setup.md#metadata_views) para obtener
 
 >[!NOTE]
 >
->Para editar los metadatos de varios recursos a la vez, seleccione los recursos y vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Editar información]**. Los cambios que se hagan en la ventana Editar información se aplicarán a todos los recursos seleccionados.
+>Para editar los metadatos de varios recursos a la vez, seleccione los recursos y vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Editar información]**. Las ediciones realizadas en los metadatos en la ventana Editar información se aplican a todos los recursos seleccionados.
 
 ## Adición o edición de palabras clave {#add-or-edit-keywords}
 
 Además de los metadatos, puede utilizar palabras clave para ayudar a buscar y administrar sus recursos.
 
-Si ha agregado palabras clave a otros archivos durante esta sesión o si ha quitado palabras clave de la lista, aparecerán en la tabla Sugerencias de palabras clave.
+Si ha añadido palabras clave a otros archivos durante esta sesión o si ha eliminado palabras clave de la lista, aparecerán en la tabla Sugerencias de palabras clave.
 
 1. Abra el archivo en la vista de detalles.
 1. Seleccionar **[!UICONTROL Palabras clave]**.
@@ -74,7 +72,7 @@ Si ha agregado palabras clave a otros archivos durante esta sesión o si ha quit
 
 >[!NOTE]
 >
->Puede añadir palabras clave a los archivos a medida que los carga en Adobe Dynamic Media Classic. En el cuadro de diálogo Cargar opciones del trabajo, elija **[!UICONTROL Metadatos adicionales]** e introduzca palabras clave.
+>Puede añadir palabras clave a los archivos a medida que los carga en Adobe Dynamic Media Classic. En el cuadro de diálogo Cargar opciones del trabajo, elija **[!UICONTROL Más metadatos]** e introduzca palabras clave.
 >Consulte [Opciones de carga](uploading-files.md#upload_options).
 
 ## Importación de metadatos {#import-metadata}
@@ -83,7 +81,7 @@ En lugar de introducir los metadatos manualmente de uno en uno, puede importar l
 
 >[!NOTE]
 >
->Puede crear una plantilla para introducir metadatos de modo que se puedan importar correctamente a Adobe Dynamic Media Classic. Una vez creada la plantilla, puede utilizarla para introducir los metadatos.
+>Puede crear una plantilla para introducir metadatos de modo que se puedan importar correctamente a Adobe Dynamic Media Classic. Después de crear la plantilla, puede utilizarla para introducir los metadatos.
 >Consulte [Creación de una plantilla para la introducción y carga de metadatos](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload).
 
 Puede encontrar más información sobre las propiedades estandarizadas en [Centro para desarrolladores de Adobe XMP](https://www.adobe.com/devnet/xmp.html).
@@ -99,9 +97,9 @@ Puede encontrar más información sobre las propiedades estandarizadas en [Centr
 
 Tenga en cuenta lo siguiente al identificar diferentes tipos de metadatos para su importación:
 
-* Los campos definidos por el usuario se identifican con su nombre tal como se crean en **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Metadatos]** > **[!UICONTROL Campos definidos por el usuario]**. Utilice la función de Generar archivo para obtener una lista de todos los campos personalizables definidos con el formato correcto de importación.
-* Las propiedades de metadatos XMP deben tener el prefijo XMP correspondiente antes que el nombre (propiedad- ). Dos puntos separan el prefijo y el nombre. XMP El prefijo de la dirección se puede encontrar en **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Metadatos]** > **[!UICONTROL Esquema de metadatos]** editor. Los nombres técnicos se pueden encontrar en la documentación del esquema de XMP correspondiente. XMP Los nombres de las propiedades de no aparecen en la función Generar archivo.
-* Las propiedades del esquema de metadatos deben tener el prefijo correspondiente antes del nombre (propiedad- ). Dos puntos separan el prefijo y el nombre. El prefijo y los nombres de propiedad se definen en el editor de esquemas de metadatos. Los nombres de las propiedades del esquema de metadatos no aparecen en la función Generar archivo.
+* Los campos definidos por el usuario se identifican con su nombre tal como se crean en **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Metadatos]** > **[!UICONTROL Campos definidos por el usuario]**. Utilice el `Generate file` para obtener una lista de todas las FDU definidas en el formato de importación correcto.
+* Las propiedades de metadatos XMP deben tener el prefijo XMP correspondiente antes que el nombre (propiedad- ). Dos puntos separan el prefijo y el nombre. XMP El prefijo de la dirección se puede encontrar en **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Metadatos]** > **[!UICONTROL Esquema de metadatos]** editor. Los nombres técnicos se pueden encontrar en la documentación del esquema de XMP correspondiente. XMP Los nombres de las propiedades no aparecen en la variable `Generate file` función.
+* Las propiedades del esquema de metadatos deben tener el prefijo correspondiente antes del nombre (propiedad- ). Dos puntos separan el prefijo y el nombre. El prefijo y los nombres de propiedad se definen en el editor de esquemas de metadatos. Los nombres de las propiedades del esquema de metadatos no aparecen en la `Generate file` función.
 
 XMP XMP Por ejemplo: la propiedad de la palabra clave en el código de la palabra clave es el esquema de la palabra clave &quot;Dublin Core&quot; con el prefijo de la palabra clave, que es el esquema de la palabra clave &quot;Dublin Core&quot;. `dc` y `subject` XMP es el nombre técnico de la. XMP El prefijo y el nombre de la técnica se combinan en la variable `dc:subject` nombre completo de la propiedad. En el formato de importación de metadatos XML, `dc.subject` debe ser el nombre de la propiedad. En el formato de importación delimitado por tabuladores, debe ser el encabezado de columna.
 
@@ -157,7 +155,7 @@ Adobe Dynamic Media Classic ofrece un comando para crear una plantilla para grab
 1. Seleccione los recursos de imagen con los campos de metadatos que desee para la plantilla.
 1. Ir a **[!UICONTROL Archivo]** > **[!UICONTROL Importar metadatos]**.
 1. Para el **[!UICONTROL Tipo de propiedades de recurso]**, seleccione **[!UICONTROL Imagen]**.
-1. Desde el **[!UICONTROL Generar archivo]** lista desplegable, elija **[!UICONTROL Plantilla delimitada por tabuladores]**, **[!UICONTROL Metadatos XML de recursos]**, o **[!UICONTROL DTD de XML]**.
+1. Desde el **[!UICONTROL `Generate File`]** lista desplegable, elija **[!UICONTROL Plantilla delimitada por tabuladores]**, **[!UICONTROL Metadatos XML de recursos]**, o **[!UICONTROL DTD de XML]**.
 1. Seleccionar **[!UICONTROL Generar]**.
 1. Copie los datos en el cuadro de diálogo que aparece. Utilice estos datos para construir la plantilla.
 
@@ -176,10 +174,10 @@ Puede utilizar el editor de esquemas de metadatos para realizar las siguientes a
 | Agregar | Agrega una propiedad al esquema. Un cuadro de diálogo modal recopila la información: ID, etiqueta, estructura y tipo de datos. |
 | Agregar valor de opción | Agrega una nueva opción seleccionable a una propiedad con estructura Opción abierta u Opción cerrada. Todos los valores de opción son del mismo tipo. Seleccione la propiedad en sí para habilitar el botón. |
 | Editar | Permite editar la etiqueta de una propiedad o valor de opción. Solo se puede cambiar la etiqueta, ID, y la información de tipo es inmutable. |
-| Mover hacia arriba/Mover hacia abajo | El orden en el esquema se refleja en la interfaz de usuario. Para cambiar el orden, seleccione una propiedad o un valor de opción, y muévalos con los botones. Arrastrar y soltar no es compatible actualmente. |
+| Subir/Bajar | El orden en el esquema se refleja en la interfaz de usuario. Para cambiar el orden, seleccione una propiedad o un valor de opción, y muévalos con los botones. Arrastrar y soltar no es compatible actualmente. |
 | Eliminar | Elimina una propiedad o un valor de opción del esquema. XMP No elimina valores del bloque de la base de datos o del bloque de la base de datos de la. La propiedad ya no está disponible para las vistas de metadatos y se elimina de la vista de detalles del recurso. Si la propiedad se publicó en el servidor de metadatos, realice una publicación forzada para eliminar los datos del servidor de metadatos público. |
 
-El sistema genera automáticamente un esquema personalizado para los campos definidos por el usuario con el prefijo `s7udf`. Son campos definidos por el usuario existentes y se editan en su propia sección de configuración.
+El sistema genera automáticamente un esquema personalizado para los campos definidos por el usuario con el prefijo `s7udf`. El esquema consta de campos definidos por el usuario existentes que se editan en su propia sección de configuración.
 
 >[!NOTE]
 >
@@ -189,7 +187,7 @@ El Editor de esquemas de metadatos ofrece una forma gráfica de agregar o editar
 
 * **[!UICONTROL Nombre]** - Nombre de interfaz de usuario para el esquema. Se utiliza para identificar las propiedades en las vistas de metadatos y la búsqueda avanzada. Similar a las secciones XMP como Basic, IPTC, PDF.
 
-* **[!UICONTROL Prefijo]** : identificador técnico único del esquema. Limitado a las letras a-z y A-Z. El prefijo no está visible en la interfaz de usuario de Adobe Dynamic Media Classic XMP, pero se utiliza cuando los metadatos de un recurso se almacenan en el bloque de la base de datos y en el bloque de la base de datos de la aplicación. El prefijo se usa para identificar de forma exclusiva los campos de metadatos en las consultas de búsqueda de metadatos en el servidor de metadatos o durante la importación.
+* **[!UICONTROL Prefijo]** : identificador técnico único del esquema. Limitado a las letras a-z y A-Z. El prefijo no está visible en la interfaz de usuario de Adobe Dynamic Media Classic XMP, pero se utiliza cuando los metadatos de un recurso se almacenan en el bloque de la base de datos y en el bloque de la base de datos de la. El prefijo se utiliza para identificar de forma exclusiva los campos de metadatos en las consultas de búsqueda de metadatos del servidor de metadatos o en la importación.
 
 * **[!UICONTROL Área de nombres]** : Identificador único técnico para el esquema, normalmente una URL en el formulario `https://your.company.com/name/version/`. Consulte ejemplos en la lista de esquemas de estándares. El área de nombres no está visible en la interfaz de usuario de Adobe Dynamic Media Classic XMP, pero se utiliza para almacenar metadatos en el bloque de.
 
@@ -203,7 +201,7 @@ Las propiedades describen los metadatos que se pueden almacenar con este esquema
 
 | Propiedad | Descripción |
 | --- | --- |
-| ID | Identificador técnico para esta propiedad. El ID no es visible en la interfaz de usuario de Adobe Dynamic Media Classic XMP, pero se utiliza cuando los metadatos de un recurso se almacenan en el bloque de la base de datos y en el bloque de la base de datos de la base de datos. Este código se utiliza para crear consultas de búsqueda en el servidor de metadatos. El ID tiene algunas limitaciones, por ejemplo: <ul><li>No puede contener espacios</li><li>No &quot;.&quot;, &quot;:&quot;, &quot;$&quot;</li><li>No puede contener un número como primer carácter</li><li>Lo mejor es utilizar una letra de a-z o A-Z como primer carácter</li></ul> <br>Una vez creado, el ID no se puede modificar. |
+| ID | Identificador técnico para esta propiedad. El ID no es visible en la interfaz de usuario de Adobe Dynamic Media Classic XMP, pero se utiliza cuando los metadatos de un recurso se almacenan en el bloque de la base de datos y en el bloque de la base de datos de la. El ID se utiliza para crear consultas de búsqueda en el servidor de metadatos. El ID tiene algunas restricciones, como: `<ul><li>No spaces</li><li>No ".", ":", "$"</li><li>No number as first character</li><li>Best practice is to use a-z or A-Z as first character</li></ul>` <br>Una vez creado, el ID no se puede cambiar. |
 | Etiqueta | Nombre de interfaz de usuario para esta propiedad. |
 | Estructura | Determina el tipo de la propiedad junto con el tipo de datos. La estructura puede ser uno de los siguientes valores:<ul><li>Tipo simple: solo el valor del tipo de datos.</li><li>Secuencia: una lista de valores del mismo tipo de datos.</li><li>Opción abierta: seleccione un elemento de la lista de valores predefinidos, o introduzca texto libre. El tipo de datos solo puede ser Cadena o Entero.</li><li>Opción cerrada: seleccione un elemento de la lista de valores predefinidos (una ventana emergente o un cuadro combinado).</li></ul> |
 | Tipo de datos | Seleccione uno de estos tipos disponibles: <ul><li>Cadena</li><li>Entero</li><li>Flotante</li><li>Sí/No (booleano)</li><li>Fecha</li></ul> |
