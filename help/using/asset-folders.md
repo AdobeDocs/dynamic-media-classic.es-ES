@@ -1,20 +1,18 @@
 ---
 title: Trabajo con carpetas de recursos
 description: Obtenga información sobre cómo trabajar con carpetas de recursos en Adobe Dynamic Media Classic.
-uuid: 3bd83701-e2c2-4e39-b225-c2d27ad836c2
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '449'
 ht-degree: 39%
 
 ---
@@ -41,10 +39,10 @@ En la biblioteca de recursos se muestran los archivos que contiene el árbol de 
 >
 >Puede ocultar o mostrar la biblioteca de recursos seleccionando **[!UICONTROL Expandir]** o **[!UICONTROL Contraer]** control en el lado izquierdo. Oculte el panel de la biblioteca de recursos si necesita más espacio de trabajo en el panel Examinar.
 
-## Creación de carpetas {#creating-folders}
+## Creación de carpetas
 
 1. En la biblioteca de recursos, seleccione la carpeta dentro de la que desea crear una carpeta.
-1. Seleccione el **[!UICONTROL Añadir carpeta]** botón. Este icono se encuentra en la parte superior de la lista de carpetas.
+1. Seleccione el **[!UICONTROL `Add Folder`]** botón. Este icono se encuentra en la parte superior de la lista de carpetas.
 1. Escriba un nombre descriptivo para la carpeta o subcarpeta en el campo situado junto al icono de la carpeta.
 
    >[!NOTE]
@@ -55,7 +53,7 @@ En la biblioteca de recursos se muestran los archivos que contiene el árbol de 
 
 Seleccione una carpeta y utilice estas técnicas para eliminarla o cambiar su nombre:
 
-* **Eliminar** - Seleccione el **[!UICONTROL Quitar carpeta]** botón. Los recursos que se encuentren en una carpeta eliminada se colocarán en la carpeta Papelera. Podrá recuperarlos desde esta carpeta.
+* **Eliminar** - Seleccione el **[!UICONTROL `Remove Folder`]** botón. Los recursos que se encuentren en una carpeta eliminada se colocarán en la carpeta Papelera. Podrá recuperarlos desde esta carpeta.
 
 * **Cambiar nombre** : Haga doble clic en el nombre e introduzca uno nuevo.
 

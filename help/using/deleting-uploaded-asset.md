@@ -1,26 +1,24 @@
 ---
 title: Eliminar un recurso de imagen rasterizada cargado
 description: Obtenga información sobre cómo eliminar un recurso cargado en Adobe Dynamic Media Classic.
-uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 52%
+source-wordcount: '136'
+ht-degree: 33%
 
 ---
 
 # Eliminar un recurso cargado{#deleting-an-uploaded-asset}
 
-Se puede usar el parámetro `delete` con este formato para eliminar un recurso:
+Puede usar el complemento `delete` en este formato para eliminar un recurso:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=delete&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif
@@ -49,8 +47,8 @@ Se pueden usar los campos siguientes en la cadena de consulta URL para eliminar 
 | Parámetro de URL | Obligatorio u opcional | Valor |
 | --- | --- | --- |
 | `op` | Obligatorio | eliminar |
-| `shared_secret` | Obligatorio | Clave secreta compartida de la empresa. |
-| `image_name` | Obligatorio | Nombre del recurso que se debe eliminar. |
+| `shared_secret` | Obligatorio | La clave que es un secreto compartido para la compañía. |
+| `image_name` | Obligatorio | Nombre del recurso que se va a eliminar. |
 
 <!-- <li>For Vector:fxg_name</li> -->
 

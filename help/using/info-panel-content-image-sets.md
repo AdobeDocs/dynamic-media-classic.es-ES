@@ -10,16 +10,16 @@ role: User
 exl-id: 09fafdb4-51e2-4719-83b6-056f79d1ba9e
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 51%
+ht-degree: 45%
 
 ---
 
 # Administración del contenido del panel de información en conjuntos de imágenes{#managing-info-panel-content-in-image-sets}
 
-Además de utilizar el texto del mapa de imagen para sus rollover en los conjuntos de imágenes, puede utilizar un panel de información para agregar grandes cantidades de texto rollover, incluyendo los vínculos. También puede gestionar el panel de información mediante el uso de almacenamiento en caché programado y actualizaciones de contenido planificadas.
+Además de utilizar el texto del mapa de imagen para sus rollover en los conjuntos de imágenes, puede utilizar un panel de información para agregar grandes cantidades de texto rollover, incluyendo los vínculos. También puede administrar el panel de información mediante el almacenamiento en caché de tiempo y la programación de actualizaciones de contenido.
 
 Puede administrar la configuración y los datos de InfoPanel mediante las siguientes funciones de Adobe Dynamic Media Classic:
 
@@ -46,7 +46,7 @@ Puede seleccionar una de las tres plantillas de respuesta preestablecidas para m
    * Establezca un número más bajo si los datos se actualizan frecuentemente a lo largo del día.
    * Establezca un número más alto si los datos son relativamente estables y no requieren actualizarse con frecuencia a lo largo del día. El valor predeterminado es de diez horas.
 
-1. Seleccionar **[!UICONTROL Cargar]** para cargar contenido del panel de información, en función de los valores de rollover_key, en s7info.
+1. Seleccionar **[!UICONTROL Cargar]** para cargar contenido del panel de información en s7info en función del valor rollover_key.
 1. En el cuadro de diálogo Cargar S7Info, busque el archivo que desea utilizar y, a continuación, seleccione **[!UICONTROL Cargar]**.
 
    Los formatos de archivo compatibles son archivos delimitados por tabuladores con codificación UTF-16 y archivos CSV con codificación ASCII. En el caso de los archivos CSV, los caracteres no ASCII deben estar codificados en HTML.
@@ -55,7 +55,7 @@ Puede seleccionar una de las tres plantillas de respuesta preestablecidas para m
 
 ## Importar contenido de origen para el panel de información en conjuntos de imágenes {#import-source-content-for-the-info-panel-in-image-sets}
 
-Puede utilizar un archivo CSV (valores delimitados por comas) con codificación ASCII (los caracteres no ASCII deben tener codificación HTML) o un archivo delimitado por tabuladores para el texto de origen del panel de información de un conjunto de imágenes. Los archivos delimitados por tabuladores deben usar la codificación UTF-16 (Unicode). Puede importar los distintos tipos de archivos mediante diferentes métodos.
+Puede utilizar un archivo CSV (Valor separado por comas) con codificación ASCII (los caracteres no ASCII deben estar codificados por el HTML) o un archivo delimitado por tabuladores para el texto de origen de un panel de información de un conjunto de imágenes. Los archivos delimitados por tabuladores deben usar la codificación UTF-16 (Unicode). Puede importar los distintos tipos de archivos mediante diferentes métodos.
 
 Cuando dé formato al contenido de origen, tenga en cuenta las siguientes pautas:
 
@@ -68,7 +68,7 @@ Cuando dé formato al contenido de origen, tenga en cuenta las siguientes pautas
 1. Haga doble clic en el conjunto de imágenes para que se abra en Vista de detalles.
 1. Seleccionar **[!UICONTROL Fuente de datos de InfoPanel]**.
 1. En el campo de texto Ubicación del archivo CSV alojado de forma externa (HTTP), introduzca la URL del archivo CSV.
-1. (Opcional) En los campos Programar actualización, especifique una hora para actualizar el contenido y, a continuación, seleccione **[!UICONTROL Añadir]**.
+1. (Opcional) En el campo Programar actualización, especifique una hora para actualizar el contenido y, a continuación, seleccione **[!UICONTROL Añadir]**.
 
    Puede seleccionar varios tiempos de actualización. Cada tiempo de actualización aparece en el cuadro Tiempos de actualización. Para quitar una hora programada, selecciónela y, a continuación, seleccione **[!UICONTROL Eliminar]**.
 

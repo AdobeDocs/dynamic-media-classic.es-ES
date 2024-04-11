@@ -1,21 +1,19 @@
 ---
 title: "Inicio rápido: Conjuntos de muestras"
 description: Introducción y inicio rápido del conjunto de muestras para ayudarle a ponerse en marcha rápidamente con Adobe Dynamic Media Classic.
-uuid: 6f8a95e8-e82a-477f-9f21-d2b7b511f8ae
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
-discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
 feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 topic: Content Management
 level: Beginner
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 18%
+source-wordcount: '404'
+ht-degree: 17%
 
 ---
 
@@ -51,7 +49,7 @@ Consulte [Previsualización de un recurso](previewing-asset.md#previewing-an-ass
 
 Al publicar un conjunto de muestras, se coloca en los servidores de Adobe Dynamic Media Classic y se activa la cadena URL.
 
-Seleccione el **[!UICONTROL Marcar para publicación]** a la izquierda de su nombre en el panel Examinar. A continuación, seleccione **[!UICONTROL Publish]**. En la página Publicar, seleccione **[!UICONTROL Enviar publicación]**.
+Seleccione el **[!UICONTROL Marcar para publicación]** a la izquierda de su nombre en el panel Examinar. A continuación seleccione **[!UICONTROL Publish]**. En la página Publicación, seleccione **[!UICONTROL Enviar publicación]**.
 
 Consulte [Publicar archivos](publishing-files.md#publishing-files).
 

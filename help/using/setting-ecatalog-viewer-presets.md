@@ -1,19 +1,17 @@
 ---
 title: Configurar ajustes preestablecidos del visor de catálogos electrónicos
 description: Obtenga información sobre cómo configurar ajustes preestablecidos del visor de catálogos electrónicos en Adobe Dynamic Media Classic.
-uuid: aca66bc5-8491-4d81-9a06-1d3531860a14
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
 feature: Dynamic Media Classic,Viewers,Viewer Presets,eCatalog
 role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
 topic: Integrations, Development
 level: Experienced
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '482'
 ht-degree: 25%
 
 ---
@@ -35,8 +33,8 @@ Siga estos pasos para poder crear un ajuste preestablecido de visualizador de ca
 
    * **Editar un ajuste preestablecido del visor de catálogos electrónicos** - Seleccione un ajuste preestablecido del visor de catálogos electrónicos y, a continuación, seleccione **[!UICONTROL Editar]**. Seleccionar **[!UICONTROL Guardar como]** después de terminar de crear el ajuste preestablecido.
 
-1. En la página Configurar visor, introduzca un nombre para el ajuste preestablecido del visor de catálogos electrónicos.
-1. En la página Configurar visor, defina las opciones que desee.
+1. En el `Configure Viewer` , introduzca un nombre para el ajuste preestablecido del visor de catálogos electrónicos.
+1. En el `Configure Viewer` , establezca las opciones que desee.
 
    seleccione el **[!UICONTROL Sugerencia de información]** junto a la opción si desea leer su descripción.
 
@@ -57,7 +55,7 @@ Siga estos pasos para poder crear un ajuste preestablecido de visualizador de ca
 >Para utilizar esta plantilla de respuesta en lugar de la plantilla definida en el propio catálogo electrónico, añada `fmt=1` al final de la URL del servidor de información. Por ejemplo: `https://.../$3$/$4$/$1$/?FMT=1`.
 
 1. Seleccionar **[!UICONTROL Guardar]**.
-1. Seleccionar **[!UICONTROL Predeterminado]** si desea que el ajuste preestablecido del visor de catálogos electrónicos que ha creado sea el que se utilice para mostrar los catálogos electrónicos en la página web.
+1. Seleccionar **[!UICONTROL Predeterminado]** para que el ajuste preestablecido del visor de catálogos electrónicos que ha creado sea el que se utiliza para mostrar los catálogos electrónicos en la página web.
 
 Para eliminar un ajuste preestablecido del visor de catálogos electrónicos, selecciónelo en la pantalla Ajustes preestablecidos del visor y seleccione **[!UICONTROL Eliminar]**.
 

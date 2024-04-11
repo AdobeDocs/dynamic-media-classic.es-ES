@@ -1,20 +1,18 @@
 ---
 title: Preparar recursos del conjunto de imágenes para cargar
 description: Obtenga información sobre cómo preparar los recursos del conjunto de imágenes para cargarlos en Adobe Dynamic Media Classic.
-uuid: ea90643f-f52f-43cd-8a74-ebffc78ab717
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
-discoiquuid: c341f5ea-aa7b-4749-975d-68a45c6fa77c
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 63bc3b37-7d5f-4707-a743-ec4192c88f0b
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '161'
 ht-degree: 44%
 
 ---
@@ -32,4 +30,4 @@ Para obtener instrucciones detalladas sobre la carga de recursos, consulte [Carg
 >[!MORELIKETHIS]
 >
 >* [Cargar los archivos](uploading-files.md#uploading_your_files)
->* [Trabajar con archivos de viñeta, cubierta de ventana y archivador](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
+>* [Trabajar con viñetas, revestimientos de ventanas y archivos .cab](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)

@@ -1,21 +1,19 @@
 ---
 title: Ver conjuntos de imágenes
 description: Obtenga información sobre cómo ver conjuntos de imágenes en Adobe Dynamic Media Classic.
-uuid: bb5b0fee-abc0-4236-ac43-09edb9bb3651
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
-discoiquuid: 027aa3e0-f085-48ae-aff9-7b805bbdf8ab
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: c8d742a4-a1a1-4b5f-bcfd-6a1972edf9bc
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 27%
+source-wordcount: '489'
+ht-degree: 22%
 
 ---
 
@@ -32,12 +30,12 @@ Puede crear y personalizar ajustes preestablecidos de visor de acuerdo con sus n
 1. En la barra de navegación global, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes preestablecidos de visor]**.
 1. Cree o edite un ajuste preestablecido de visualizador en la página Ajustes preestablecidos de visualizador mediante uno de estos procedimientos:
 
-   * **Crear** - Seleccionar **[!UICONTROL Añadir]**. En el cuadro de diálogo Agregar ajuste preestablecido de visor, en la lista desplegable Visor, elija **[!UICONTROL Visor de zoom]**, y luego seleccione **[!UICONTROL Añadir]**. También puede crear un ajuste preestablecido de Visor de zoom a partir de uno existente. Muestra el nombre del ajuste preestablecido, lo selecciona y, a continuación, selecciona **[!UICONTROL Editar]**. En la página Configurar visor, introduzca un nombre nuevo para el ajuste preestablecido.
+   * **Crear** - Seleccionar **[!UICONTROL Añadir]**. En el cuadro de diálogo Agregar ajuste preestablecido de visor, en la lista desplegable Visor, elija **[!UICONTROL Visor de zoom]**, y luego seleccione **[!UICONTROL Añadir]**. También puede crear un ajuste preestablecido de Visor de zoom a partir de uno existente. Muestra el nombre del ajuste preestablecido, lo selecciona y, a continuación, selecciona **[!UICONTROL Editar]**. En el `Configure Viewer` , introduzca un nuevo nombre para el ajuste preestablecido.
 
    * **Editar** - Mostrar el nombre de un ajuste preestablecido, seleccionarlo y, a continuación, seleccionar **[!UICONTROL Editar]**.
 
-1. En la página Configurar visor, en el campo de texto Nombre de ajuste preestablecido, escriba un nombre para el ajuste preestablecido del visualizador de conjuntos de muestras.
-1. Elija las opciones en la página Configurar visor.
+1. En el `Configure Viewer` en el campo de texto Nombre del ajuste preestablecido, escriba un nombre para el ajuste preestablecido del visualizador de conjuntos de muestras.
+1. Elija las opciones en la `Configure Viewer` página.
 
    Para ver la descripción de una opción, seleccione la **[!UICONTROL Sugerencia de información]** a la derecha de la opción.
 
@@ -57,7 +55,7 @@ Puede utilizar Vista previa para ver cómo aparece un recurso en un tipo de viso
    * Cerca de la esquina superior derecha de la ventana de Adobe Dynamic Media Classic, seleccione la opción **[!UICONTROL Vista de cuadrícula]** icono. En la ventana Recurso, en una ventana de miniaturas de recurso, seleccione **[!UICONTROL Previsualizar]** (no en la lista desplegable Vista previa ).
    * Cerca de la esquina superior derecha de la ventana de Adobe Dynamic Media Classic, seleccione la opción **[!UICONTROL Vista de detalles]** icono. En la misma barra de herramientas, seleccione **[!UICONTROL Previsualizar]** (no en la lista desplegable Vista previa ).
 
-1. (Opcional) En la lista desplegable de la parte inferior de la ventana Vista previa, seleccione la codificación de URL que desee aplicar a la dirección URL del recurso cuando se copie.
+1. (Opcional) En la ventana Vista previa, en la lista desplegable de la parte inferior, seleccione la codificación URL que se aplicará a la URL del recurso cuando se copie.
 1. Para obtener una vista previa del recurso en el visor seleccionado, seleccione un vínculo del visor.
 
    Al seleccionar un vínculo de visor determinado, la dirección URL asociada se copia automáticamente en el portapapeles.

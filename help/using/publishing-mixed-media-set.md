@@ -1,21 +1,19 @@
 ---
 title: Publicar un conjunto de medios mixtos
 description: Obtenga información sobre cómo publicar un conjunto de medios mixtos desde Adobe Dynamic Media Classic.
-uuid: 4172347c-7bb3-468d-bda2-fd1c26ccab85
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
-discoiquuid: 4e8694f7-c1b5-4d45-a18b-2b9494db1757
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 31%
+source-wordcount: '261'
+ht-degree: 17%
 
 ---
 
@@ -25,7 +23,7 @@ Cree un trabajo de publicación para publicar un conjunto de medios mixtos que h
 
 >[!NOTE]
 >
->Los conjuntos de vídeo adaptables requieren que se publique en el **Servidor de vídeo** y también en el **Servidor de imágenes**. El **Servidor de vídeo** se utiliza para publicar los vídeos reales que se han marcado para publicación. Y, usa **Servidor de imágenes** para publicar recursos relacionados, como miniaturas de vídeo, y establecer información para cualquier conjunto de vídeos adaptable.
+>Los conjuntos de vídeo adaptables requieren que se publique en el **Servidor de vídeo** y también en el **Servidor de imágenes**. Uso **Servidor de vídeo** para publicar los vídeos que ha marcado para la publicación. Y, usa **Servidor de imágenes** para publicar recursos relacionados, como miniaturas de vídeo, y establecer información para cualquier conjunto de vídeos adaptable.
 
 Adobe Dynamic Media Classic realiza un seguimiento de los trabajos de publicación en la pantalla Trabajos.
 
@@ -50,13 +48,13 @@ Last Modified Date:
 
 1. En la barra de navegación global, seleccione **[!UICONTROL Publish]**.
 1. Establezca las opciones de programación que desee.
-1. (Opcional) En el campo **[!UICONTROL Nombre del trabajo]**, especifique un nombre para la tarea de publicación.
+1. (Opcional) En el **[!UICONTROL Nombre de trabajo]** , escriba un nombre para el trabajo de publicación.
 1. En las opciones **[!UICONTROL Avanzado]**, lista desplegable **[!UICONTROL Publicar en]**, seleccione **[!UICONTROL Servidor de vídeo]**.
 
    Consulte [Opciones de publicación avanzadas](publishing-files.md#advanced_publish_options) para obtener más opciones, puede definir.
 
 1. Seleccionar **[!UICONTROL Enviar publicación]**.
-1. Repita los pasos anteriores 2 al 4.
+1. Repita los pasos 2-4 anteriores.
 1. En las opciones **[!UICONTROL Avanzado]**, en la lista desplegable **[!UICONTROL Publicar en]**, seleccione **[!UICONTROL Servidor de imágenes]**.
 
    Consulte [Opciones de publicación avanzadas](publishing-files.md#advanced_publish_options) para obtener más opciones, puede definir.
