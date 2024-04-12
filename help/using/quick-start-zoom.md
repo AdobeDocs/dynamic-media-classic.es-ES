@@ -1,21 +1,19 @@
 ---
 title: "Inicio rápido: Zoom"
 description: Introducción y inicio rápido de Zoom para ayudarle a ponerse en marcha rápidamente.
-uuid: 31eda632-3469-4f90-885b-e90c6a2e5e75
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
-discoiquuid: 559c986d-313d-46df-a5ff-0b49316ad3a7
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: eae35207-000c-4ced-b9ab-714c2384a9e7
 topic: Content Management
 level: Beginner
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 25%
+source-wordcount: '844'
+ht-degree: 28%
 
 ---
 
@@ -47,7 +45,7 @@ Para crear un destino de zoom, seleccione **[!UICONTROL Editar]** y elija Destin
 
 Los ajustes preestablecidos de visor de zoom determinan el estilo y comportamiento de los visores de zoom. Puede configurar los ajustes preestablecidos del visor de zoom si es administrador; Adobe Dynamic Media Classic incluye también los ajustes preestablecidos predeterminados del visor de zoom como práctica recomendada.
 
-Para crear un ajuste preestablecido de visor de zoom, en la barra de navegación global, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes preestablecidos de visor]**. En la página Ajustes preestablecidos de visor, seleccione **[!UICONTROL Añadir]**, elija una plataforma y un Visor de zoom y, a continuación, seleccione **[!UICONTROL Añadir]**. A continuación, elija las opciones en la página Configurar visor.
+Para crear un ajuste preestablecido de visor de zoom, en la barra de navegación global, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes preestablecidos de visor]**. En la página Ajustes preestablecidos de visor, seleccione **[!UICONTROL Añadir]**, elija una plataforma y un Visor de zoom y, a continuación, seleccione **[!UICONTROL Añadir]**. A continuación, elija las opciones en la `Configure Viewer` página.
 
 Ofertas de Adobe Dynamic Media Classic **[!UICONTROL Ajuste preestablecido de visor de zoom]** opciones que permiten seleccionar el estilo del botón y el aspecto general del visor. También puede personalizar la configuración de zoom para el sitio web. Consulte [Configurar ajustes preestablecidos del visor de zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
 
@@ -55,7 +53,7 @@ Ofertas de Adobe Dynamic Media Classic **[!UICONTROL Ajuste preestablecido de vi
 
 Puede obtener una vista previa de imágenes en un visor de zoom para ver lo que sucede al aplicar zoom en las imágenes.
 
-Para explorar diferentes ajustes preestablecidos del visor de zoom y ver cómo presentan la experiencia de zoom, seleccione una imagen en el panel Examinar y seleccione **[!UICONTROL Previsualizar]**. Ir a **[!UICONTROL Ajustes preestablecidos]** > **[!UICONTROL Zoom]** y, a continuación, seleccione un ajuste preestablecido con los menús Zoom.
+Para explorar diferentes ajustes preestablecidos del visor de zoom y ver cómo presentan la experiencia de zoom, seleccione una imagen en el panel Examinar y seleccione **[!UICONTROL Previsualizar]**. Ir a **[!UICONTROL Ajustes preestablecidos]** > **[!UICONTROL Zoom]** y, a continuación, seleccione un ajuste preestablecido con el menú Zoom.
 
 Aparecerán los botones Zoom. Puede ver el aspecto de las imágenes de zoom en el sitio web. Seleccione los botones de zoom (y destinos de zoom) para poder probar la configuración del ajuste preestablecido del visor de zoom que ha elegido. Consulte [Vista previa de imágenes con diferentes visores de zoom](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
 
@@ -63,7 +61,7 @@ Aparecerán los botones Zoom. Puede ver el aspecto de las imágenes de zoom en e
 
 La publicación de las imágenes de zoom las coloca en los servidores de imágenes de Dynamic Media para que se puedan enviar al sitio web y a la aplicación. Como parte del proceso de publicación, Adobe Dynamic Media Classic activa las cadenas URL. Estas cadenas URL llaman a las imágenes de zoom desde los servidores de imágenes de Dynamic Media a su sitio web o aplicación.
 
-En la barra de navegación global, seleccione **[!UICONTROL Publish]**. En el cuadro de diálogo Publicar, seleccione **[!UICONTROL Enviar publicación]**. Consulte [Publicación de imágenes de zoom](publishing-zoom-images.md#publishing_zoom_images).
+En la barra de navegación global, seleccione **[!UICONTROL Publish]**. En el cuadro de diálogo Publicación, seleccione **[!UICONTROL Enviar publicación]**. Consulte [Publicación de imágenes de zoom](publishing-zoom-images.md#publishing_zoom_images).
 
 ## 6. Vincule los visores de zoom a la página web
 

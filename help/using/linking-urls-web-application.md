@@ -1,21 +1,19 @@
 ---
 title: Vinculación de URL en la aplicación web
 description: Obtenga información sobre cómo vincular direcciones URL a su aplicación web desde Adobe Dynamic Media Classic.
-uuid: 1179bdd3-9b39-47f9-945d-1c1ca186bf96
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
-discoiquuid: 71299640-676d-49b7-841d-6118f31044e8
 feature: Dynamic Media Classic
 role: User
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '845'
-ht-degree: 37%
+source-wordcount: '843'
+ht-degree: 27%
 
 ---
 
@@ -35,20 +33,20 @@ Puede obtener una cadena URL generada por un ajuste preestablecido de imagen en 
 
 ### Obtener una URL de ajuste preestablecido de imagen de la vista previa {#obtaining-an-image-preset-url-from-preview}
 
-1. En el panel Biblioteca de recursos del lado izquierdo, navegue a las carpetas de recursos que contienen el recurso de imagen cuya vista previa desea obtener.
+1. En el panel Biblioteca de recursos de la izquierda, vaya a la carpeta de recursos que contiene el recurso de imagen que desea previsualizar.
 1. Realice una de las acciones siguientes:
 
    * Sobre la ventana Recursos, en la parte derecha de la barra de herramientas, seleccione **[!UICONTROL Vista de cuadrícula]**. En la ventana Recurso, seleccione un único recurso de imagen y, debajo de la imagen en miniatura, vaya a **[!UICONTROL Previsualizar]** > **[!UICONTROL Lista de ajustes preestablecidos de imagen]**.
    * Sobre la ventana Recursos, en la parte derecha de la barra de herramientas, seleccione **[!UICONTROL Vista de lista]**. En la ventana Recurso, seleccione un único recurso de imagen y, a continuación, a la derecha de la imagen en miniatura, vaya a **[!UICONTROL Previsualizar]** > **[!UICONTROL Lista de ajustes preestablecidos de imagen]**.
    * Sobre la ventana Recursos, en la parte derecha de la barra de herramientas, seleccione **[!UICONTROL Vista de detalles]**. En la misma barra de herramientas, vaya a **[!UICONTROL Previsualizar]** > **[!UICONTROL Lista de ajustes preestablecidos de imagen]**.
 
-1. (Opcional) En la lista desplegable Codificación URL para la creación de copias URL de la lista desplegable Configuración URL, seleccione la codificación URL que desee aplicar a la URL del recurso de imagen cuando se copie.
+1. (Opcional) En la Lista de ajustes preestablecidos de imagen, en la lista desplegable Codificación URL para la creación de copias URL, seleccione la codificación URL que se aplicará a la URL del recurso de imagen cuando se copie.
 1. En la ventana Lista de ajustes preestablecidos de imagen, en el área superior derecha del panel de vista previa, seleccione **[!UICONTROL Copiar URL]** para el tipo de ajuste preestablecido seleccionado.
 1. En la esquina inferior derecha de la ventana Lista de ajustes preestablecidos de imagen, seleccione **[!UICONTROL Cerrar]** para volver a la pantalla Recursos.
 
 ### Obtener una URL de ajuste preestablecido de imagen desde el panel Examinar {#obtaining-an-image-preset-url-from-the-browse-panel}
 
-1. En el panel Biblioteca de recursos del lado izquierdo, navegue a las carpetas de recursos que contienen el recurso de imagen cuya vista previa desea obtener.
+1. En el panel Biblioteca de recursos de la izquierda, vaya a la carpeta de recursos que contiene el recurso de imagen que desea previsualizar.
 1. Sobre la ventana Recursos, en la parte derecha de la barra de herramientas, seleccione **[!UICONTROL Vista de cuadrícula]**. En la ventana Recurso, seleccione un único recurso de imagen.
 1. Sobre la ventana Recursos, en la parte derecha de la barra de herramientas, seleccione **[!UICONTROL Vista de detalles]**.
 1. Seleccionar **[!UICONTROL URL]** en el panel situado en la parte derecha de la pantalla para poder desplegar la lista de ajustes preestablecidos de imagen.
@@ -60,7 +58,7 @@ Una llamada URL para el ajuste de tamaño de imagen en servidores de imágenes d
 
 *ruta*/*nombre de servidor de imágenes*/*nombre de cuenta*/*nombre de imagen*?*modificador1*&amp;*modificador2*&amp;...
 
-En la URL de un servidor de imágenes de Dynamic Media, las instrucciones para mostrar la imagen al servidor aparecen después del signo de interrogación (?). Por ejemplo, esta llamada mediante URL envía una imagen denominada “backpack” con una anchura de 250 píxeles:
+En la URL de un servidor de imágenes de Dynamic Media, las instrucciones para mostrar la imagen al servidor aparecen después del signo de interrogación (?). Por ejemplo, esta llamada URL ofrece una imagen denominada &quot;mochila&quot; con una anchura de 250 píxeles:
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250
@@ -93,7 +91,7 @@ img src="/company_images/products/backpack_thumbnail.jpg"
 Ahora puede usar la variable `<IMG>`para reemplazar la referencia a una imagen estática con una llamada de ajuste preestablecido de imagen a la plataforma de Adobe Dynamic Media Classic. Ejemplo de llamada:
 
 ```as3
-img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$”
+img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$"
 ```
 
-En este ejemplo, un servidor de imágenes de Dynamic Media busca la definición de `$thumbnail$` y genera dinámicamente la imagen adecuada con las especificaciones de tamaño y formato definidas por el `thumbnail`Ajuste preestablecido de imagen. En una cadena URL, todos los elementos a excepción del nombre de archivo de imagen de producto (`backpack_trns` en este caso) suelen estar fijados para la plantilla de página. El único elemento que se inserta automáticamente en la plantilla desde el servidor comercial es el ID de IPS o nombre de la imagen.
+En este ejemplo, un servidor de imágenes de Dynamic Media busca la definición de `$thumbnail$` y genera dinámicamente la imagen adecuada con las especificaciones de tamaño y formato definidas por el `thumbnail`Ajuste preestablecido de imagen. En una cadena URL, todos los elementos excepto el nombre de archivo de la imagen del producto ( `backpack_trns` en este caso) suelen estar cableadas para la plantilla de página. El único elemento que se inserta automáticamente en la plantilla desde el servidor comercial es el ID de IPS o nombre de la imagen.

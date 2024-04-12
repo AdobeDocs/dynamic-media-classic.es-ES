@@ -1,20 +1,18 @@
 ---
 title: Nociones básicas de navegación
 description: Obtenga información sobre cómo navegar por la interfaz de usuario de Adobe Dynamic Media Classic.
-uuid: ee143695-e42d-479d-b907-fe61ef6cfc0f
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
-discoiquuid: 825b8949-f961-4ef9-828c-07349013d40d
 feature: Dynamic Media Classic
 role: User
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
 topic: Content Management
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '656'
 ht-degree: 16%
 
 ---
@@ -33,11 +31,11 @@ La barra de navegación global, situada en la parte superior de la pantalla, con
 
 * **[!UICONTROL Seleccionar compañía]** - Seleccione la empresa a la que desea acceder desde el menú. Este botón no está disponible si trabaja con una compañía.
 
-* **[!UICONTROL Cargar]** : abre la pantalla Cargar para que pueda cargar archivos del equipo o de la red a Adobe Dynamic Media Classic. Es posible cargar archivos desde el escritorio o por medio de FTP. Consulte [Cargar archivos](/help/using/uploading-files.md).
+* **[!UICONTROL Cargar]** : abre la pantalla Cargar para que pueda cargar archivos del equipo o de la red a Adobe Dynamic Media Classic. Puede cargar archivos desde su escritorio o a través de FTP. Consulte [Cargar archivos](/help/using/uploading-files.md).
 
 * **[!UICONTROL Generar]** : elija una tarea Generar en el menú. Se abrirá el panel de generación, donde podrá crear un tipo de recurso.
 
-* **[!UICONTROL Publish]** : abre la pantalla Publicar para que pueda publicar recursos de medios enriquecidos en los servidores de imágenes de Dynamic Media de Adobe y en el resto de la infraestructura de SAAS de Adobe Dynamic Media Classic.
+* **[!UICONTROL Publish]** : abre la pantalla Publicación para que pueda publicar recursos de medios enriquecidos en los servidores de imágenes de Dynamic Media de Adobe y en el resto de la infraestructura de SAAS de Adobe Dynamic Media Classic.
 
 * **[!UICONTROL Trabajos]** : abre la pantalla Trabajos para que pueda examinar los registros de los trabajos de carga y publicación.
 
@@ -59,7 +57,7 @@ La barra de navegación global, situada en la parte superior de la pantalla, con
 
 Permite organizar los recursos con los que se está trabajando. Puede crear carpetas y subcarpetas para colocar en ellas los recursos ubicados en la biblioteca.
 
-La parte superior del panel Biblioteca de recursos tiene comandos para localizar recursos. Puede buscar recursos y también aplicar filtros para buscarlos. Seleccione el **[!UICONTROL Papelera]** en la parte inferior de la biblioteca de recursos si desea examinar los recursos que ha eliminado.
+La parte superior del panel Biblioteca de recursos tiene comandos para localizar recursos. Puede buscar recursos y también aplicar filtros para buscarlos. Para examinar los recursos que ha eliminado, seleccione **[!UICONTROL Papelera]** en la parte inferior de la biblioteca de recursos.
 
 >[!NOTE]
 >

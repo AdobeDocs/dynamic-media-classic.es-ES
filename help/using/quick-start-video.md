@@ -10,10 +10,10 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: a30bc34b1943d63620cb12098b7bd2db4714086d
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '1439'
-ht-degree: 33%
+source-wordcount: '1437'
+ht-degree: 30%
 
 ---
 
@@ -60,7 +60,7 @@ Cuando se genera un conjunto de vídeos adaptable, incluye vídeos MP4.
 
   La transmisión de vídeo adaptable es compatible con varias plataformas de iOS.
 
-  Consulte la compatibilidad más reciente en la [Guía de referencia de visores de Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
+  Consulte la compatibilidad más reciente en la [Guía de referencia de visores de Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
   Adobe Dynamic Media Classic admite la reproducción de vídeo móvil para vídeo MP4 H.264. <!-- LINK IS 404; NO SUITABLE REPLACEMENT WAS FOUND You can find BlackBerry&reg; devices that support this video format at the following website: -->
 
@@ -98,11 +98,11 @@ Cargue y genere conjuntos de vídeos adaptables con una de los dos situaciones s
 * **Cargar vídeos precodificados** - Si los vídeos ya se han codificado fuera de Adobe Dynamic Media Classic, en la barra de navegación global, seleccione **[!UICONTROL Cargar]** para examinar y cargar archivos de vídeo MP4 directamente en Adobe Dynamic Media Classic. A continuación, vaya a **[!UICONTROL Generar]** > **[!UICONTROL Conjuntos de vídeos adaptables]**. Busque los archivos de vídeo. Arrastre y suelte los archivos de vídeo que desee en la tabla Conjunto de vídeos adaptable y, a continuación, guarde el conjunto.
 * **Cargar vídeos de origen principal** - Si los vídeos no están codificados, en la barra de navegación global, seleccione **[!UICONTROL Cargar]** para cargar archivos de origen de vídeo principales (no MP4). Adobe Dynamic Media Classic los codifica en archivos MP4 por usted. En el **[!UICONTROL Opciones del trabajo de carga]** , debajo de **[!UICONTROL Opciones de vídeo]**, seleccione **[!UICONTROL Vídeo adaptable]**.
 
-  Esta opción preferida permite crear un conjunto de vídeos adaptables que aplica automáticamente el ajuste preestablecido de codificación correcto al vídeo, 16:9 o 4:3, para que coincida con las dimensiones del vídeo que haya cargado. Al enviar el trabajo de carga, se crea automáticamente un conjunto de vídeos adaptable que incluye tres ajustes de codificación de vídeo en la relación de aspecto correcta.
+  Con esta opción preferida, puede crear conjuntos de vídeos adaptables que apliquen automáticamente el ajuste preestablecido de codificación correcto al vídeo, ya sea 16:9 o 4:3, para que coincida con las dimensiones del vídeo cargado. Al enviar el trabajo de carga, se crea automáticamente un conjunto de vídeos adaptable que incluye tres ajustes de codificación de vídeo en la relación de aspecto correcta.
 
   O, en el mismo **[!UICONTROL Opciones de trabajo]** , debajo de **[!UICONTROL Opciones de vídeo]**, expanda **[!UICONTROL Ajustes preestablecidos de codificación única]**. Seleccione los ajustes preestablecidos de codificación de vídeo individuales que desee de **Escritorio**, **Móvil (iPhone, iPad, Android™)**, y **Tablet (iPad, Android™)** para crear los archivos MP4.
 
-* O bien, puede volver a procesar un vídeo principal mediante la variable **[!UICONTROL Reprocesar]** función. Los vídeos recién codificados se añaden al Conjunto de vídeos adaptable existente.
+* O bien, puede volver a procesar un vídeo principal mediante la variable **[!UICONTROL Reprocesamiento]** función. Los vídeos recién codificados se añaden al Conjunto de vídeos adaptable existente.
 
 Consulte [Carga y codificación de vídeos](uploading-encoding-videos.md#uploading_and_encoding_videos).
 

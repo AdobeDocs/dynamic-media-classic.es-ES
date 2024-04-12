@@ -1,20 +1,18 @@
 ---
 title: Carga de los archivos del PDF
 description: Obtenga información sobre cómo cargar los archivos de PDF asociados a un catálogo electrónico en Adobe Dynamic Media Classic.
-uuid: 9e178bb2-ac09-427a-b61a-aad4e87a5837
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 36%
+source-wordcount: '841'
+ht-degree: 34%
 
 ---
 
@@ -30,14 +28,14 @@ Al cargar un PDF para la extracción de páginas, el Adobe aplica el siguiente l
 
 Consulte también [Limitaciones de Dynamic Media](/help/using/limitations.md).
 
-## Preparación de los archivos del PDF {#preparing-your-pdf-files}
+## Preparación de los archivos del PDF
 
 Prepare los archivos del PDF antes de cargarlos en Adobe Dynamic Media Classic:
 
 * Para facilitar la carga de los archivos, coloque todos los archivos en la misma carpeta del equipo o de la red.
 * Asigne un nombre alfanumérico a los archivos para determinar el orden de las páginas. Si ordena las páginas, resultará más fácil colocarlas correctamente una vez se hayan cargado los archivos.
 * Para ver si las páginas de PDF contienen marcas de recorte, destinos de registro o barras de color, examine las páginas. Estas marcas determinan dónde se corta el papel al imprimir; deben eliminarse antes de colocar el catálogo electrónico en la Web. Adobe Dynamic Media Classic proporciona opciones para marcas de recorte al cargar archivos de PDF.
-* Si desea que los usuarios del catálogo electrónico tengan la posibilidad de realizar búsquedas por palabra clave dentro del mismo, averigüe si los archivos PDF están &quot;acoplados&quot;. Si los archivos PDF están acoplados, no se podrán extraer palabras de búsqueda. Para averiguar si un archivo PDF está acoplado, intente seleccionar texto dentro del mismo. Si no puede seleccionar texto, el PDF se acopla y los visualizadores no pueden buscar por palabra clave en el catálogo electrónico.
+* Si desea que los visualizadores busquen en el catálogo electrónico por palabra clave, averigüe si los archivos del PDF están &quot;aplanados&quot;. Si los archivos PDF están acoplados, no se podrán extraer palabras de búsqueda. Para averiguar si un archivo PDF está acoplado, intente seleccionar texto dentro del mismo. Si no puede seleccionar texto, el PDF se acopla y los visualizadores no pueden buscar por palabra clave en el catálogo electrónico.
 * Puesto que están diseñados para imprimirse, los archivos PDF suelen contener imágenes en CMYK. De forma predeterminada, Adobe Dynamic Media Classic puede detectar de forma inteligente estas imágenes CMYK y convertirlas con un perfil de color CMYK interno. Sin embargo, si desea usar un perfil de color personalizado para convertir imágenes CMYK, puede hacerlo.
 
   Consulte [Perfiles ICC (International Color Consortium)](icc-profiles.md#icc_profiles).

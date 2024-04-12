@@ -1,21 +1,19 @@
 ---
 title: Trabajo con PDF
 description: Aprenda a trabajar con PDF en Adobe Dynamic Media Classic.
-uuid: 26d70d28-9393-49b1-9051-d70456deca67
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 36%
+source-wordcount: '723'
+ht-degree: 29%
 
 ---
 
@@ -33,7 +31,7 @@ Consulte también [Limitaciones de Dynamic Media](/help/using/limitations.md).
 
 ## Opciones de carga de archivos PDF {#pdf-upload-options}
 
-Al cargar un archivo PDF, puede darle formato de varios modos. Puede recortar sus páginas, extraer palabras de búsqueda, introducir una resolución de píxeles por pulgada y elegir un espacio de color. Los archivos PDF muchas veces contienen un margen y marcas de recorte, marcas de registro y otras marcas de impresión. Estas marcas se pueden recortar de los lados de las páginas al cargar un archivo PDF.
+Al cargar un archivo PDF, puede darle formato de varios modos. Puede recortar sus páginas, extraer palabras de búsqueda, introducir una resolución de píxeles por pulgada y elegir un espacio de color. Los archivos de PDF suelen contener un margen de recorte, marcas de recorte, marcas de registro y otras marcas de impresora. Estas marcas se pueden recortar de los lados de las páginas al cargar un archivo PDF.
 
 Las opciones para cargar archivos de PDF se encuentran en la página Cargar, en Opciones de PDF.
 
@@ -51,7 +49,7 @@ Las opciones para cargar archivos de PDF se encuentran en la página Cargar, en 
 
 Determina el valor de la resolución. Este valor determina cuántos píxeles se muestran por pulgada en el archivo PDF. El valor predeterminado es 150.
 
-### Espacio de color opciones
+### Opciones de espacio de color
 
 Seleccione el menú Espacio de color y elija un espacio de color para el archivo PDF. La mayoría de los archivos PDF tienen imágenes de color RGB y CMYK. El espacio de color RGB es preferible para la visualización en línea.
 
@@ -65,7 +63,7 @@ Seleccione el menú Espacio de color y elija un espacio de color para el archivo
 
 ### Opciones de perfiles de color
 
-* **[!UICONTROL Convertir a sRGB]** - Convierte a sRGB (Verde Rojo Estándar Azul). SRGB es el espacio de color que se recomienda para mostrar imágenes en páginas web.
+* **[!UICONTROL Convertir a sRGB]** - Convierte a sRGB (Verde Rojo Estándar Azul). sRGB es el espacio de color recomendado para mostrar imágenes en una página web.
 
 * **[!UICONTROL Mantener el espacio de color original]** - Conserva el espacio de color original.
 
@@ -92,7 +90,7 @@ Consulte también [Perfiles ICC](/help/using/icc-profiles.md#icc_profiles).
 
 ## Recortar desde los lados de las páginas PDF {#cropping-from-the-sides-of-pdf-pages}
 
-Se pueden quitar manualmente las marcas de impresión de los lados de páginas en un archivo PDF al cargarlo.
+Puede quitar manualmente las marcas de impresora de los lados de las páginas en un archivo de PDF a medida que lo carga.
 
 1. En el menú Recortar, seleccione **[!UICONTROL Manual]**.
 1. Introduzca valores de píxeles en los cuadros de texto Superior, Derecha, Inferior e Izquierda para recortar de las partes superior e inferior, así como los lados, de las páginas.

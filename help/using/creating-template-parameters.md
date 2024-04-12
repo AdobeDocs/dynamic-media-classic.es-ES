@@ -1,21 +1,19 @@
 ---
 title: Creación de los parámetros de plantilla
 description: Obtenga información sobre cómo crear parámetros de plantilla en Adobe Dynamic Media Classic.
-uuid: d17168a8-4776-4761-b022-8258d5997604
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
-discoiquuid: d263f041-5a0d-4c4f-9266-aeff51a5a7e2
 feature: Dynamic Media Classic
 role: User
 exl-id: 118806ea-c8a7-4aaf-9ae3-739c6b04ea77
 topic: Development
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 54%
+source-wordcount: '792'
+ht-degree: 47%
 
 ---
 
@@ -35,7 +33,7 @@ Consulte también [Conceptos básicos de plantilla](https://s7d5.scene7.com/s7vi
 
 Siga estos pasos con cada capa de la plantilla para crear parámetros de plantilla:
 
-1. En la lista de capas, seleccione el botón Parámetros  situado junto al nombre de la capa para la que quiere crear parámetros. Se abre la pantalla Parámetros. Aquí aparecen los nombres de cada parámetro existente en la capa, con sus valores y sus tipos.
+1. En la lista Capas (Layers), seleccione el botón Parámetros (Parameters) situado junto al nombre de la capa para la que desea crear parámetros. Se abre la pantalla Parámetros. Enumera el nombre de cada parámetro en la capa, su valor y su tipo.
 1. Seleccione la opción Activado junto al nombre de cada parámetro que desee incluir en la imagen de plantilla.
 1. Seleccionar **[!UICONTROL Cerrar]** para salir de la pantalla Parameters.
 
@@ -43,13 +41,13 @@ Siga estos pasos con cada capa de la plantilla para crear parámetros de plantil
 >
 >En la pantalla Parámetros puede cambiar el nombre de éstos. El cambio de nombre de un parámetro puede hacerlo más fácil de identificar en cadenas URL y más fácil de usar como valor de base de datos. Para cambiar el nombre de un parámetro, seleccione su **[!UICONTROL Activado]** , seleccione su nombre e introduzca un nuevo nombre en el campo Nombre.
 
-Para ver una lista de los parámetros que ha creado para la plantilla, seleccione el botón Resumen de parámetros en la pantalla Plantilla. Aparecerá la pantalla Resumen de parámetros. Aquí aparecen los nombres de las capas y, si ha creado parámetros para alguna de ellas, los nombres y valores de los parámetros.
+Para ver una lista de los parámetros que ha creado para la plantilla, seleccione el botón Resumen de parámetros en la pantalla Plantilla. En la pantalla Resumen de parámetros, se muestra el nombre de cada capa y, si se han creado parámetros para una capa, los nombres y valores de los parámetros.
 
 ## Crear parámetros de texto dinámico {#creating-dynamic-text-parameters}
 
 Para las capas de texto, también puede hacer que la cadena de texto sea un campo dinámico vinculado a un valor de base de datos. Siga estos pasos:
 
-1. En la pantalla Plantilla, seleccione el botón Parámetros  situado junto al nombre de la capa de texto para la que quiere crear parámetros de texto dinámico. Se abre la página Parámetros.
+1. En la pantalla Plantilla, seleccione el botón Parámetros junto al nombre de la capa de texto para la que desea crear parámetros de texto dinámico. Se abre la página Parámetros.
 1. Seleccione el **[!UICONTROL Activado]** junto al nombre del atributo de texto (textAttr).
 1. Seleccione el **[!UICONTROL Texto]** en la pantalla Parameters.
 1. Seleccionar **[!UICONTROL Añadir parámetro]**. Aparecerá un nombre de parámetro predeterminado. Si quiere modificar el nombre, selecciónelo y sobrescríbalo. La cadena de texto actual se convierte en el nuevo nombre del parámetro.

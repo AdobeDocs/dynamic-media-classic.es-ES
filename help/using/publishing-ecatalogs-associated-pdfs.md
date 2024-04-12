@@ -10,10 +10,10 @@ role: User
 exl-id: 00b70162-2394-433d-a46c-1d90667030af
 topic: Integrations, Development
 level: Experienced
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 21%
+ht-degree: 20%
 
 ---
 
@@ -33,7 +33,7 @@ La publicación coloca el catálogo electrónico y el PDF en los servidores de i
 
    Si configura el catálogo electrónico para que los usuarios puedan realizar búsquedas por palabras clave, deberá publicar los datos de palabra clave. En el cuadro de diálogo Publicación, seleccione **[!UICONTROL Avanzadas]**. Desde el **[!UICONTROL Publish]** menú desplegable, seleccione **[!UICONTROL Completa con datos de búsqueda]**. Ésta es la opción seleccionada por defecto.
 
-1. Haga clic en **[!UICONTROL Enviar publ.]**.
+1. Seleccionar **[!UICONTROL Enviar publicación]**.
 
 >[!MORELIKETHIS]
 >

@@ -1,27 +1,25 @@
 ---
 title: "Inicio rápido: Conjunto de medios mixtos"
 description: Introducción y Inicio rápido a los conjuntos de medios mixtos para ayudarle a empezar a trabajar rápidamente en Adobe Dynamic Media Classic.
-uuid: 0ef033d5-b053-4d7c-b1e1-1980f899fd88
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
-discoiquuid: 2708d077-94fc-4045-8992-ad3589ed9cfd
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
 topic: Content Management
 level: Beginner
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 34%
+source-wordcount: '656'
+ht-degree: 33%
 
 ---
 
 # Inicio rápido: Conjuntos de medios mixtos{#quick-start-mixed-media-sets}
 
-Los conjuntos de medios mixtos de ofrecen a los usuarios una visualización integrada. Los conjuntos de medios mixtos pueden incluir imágenes, conjuntos de imágenes, conjuntos de muestras, conjuntos de giros y vídeos. Los usuarios pueden seleccionar diferentes pestañas dentro del visualizador de medios mixtos para ver los elementos en los distintos visualizadores. Si no se especifica ninguna ficha, todos los recursos se muestran juntos en la fila de muestras.
+Los conjuntos de medios mixtos proporcionan a los usuarios una experiencia de visualización integrada. Los conjuntos de medios mixtos pueden incluir imágenes, conjuntos de imágenes, conjuntos de muestras, conjuntos de giros y vídeos. Los usuarios pueden seleccionar diferentes pestañas dentro del visualizador de medios mixtos para ver los elementos en los distintos visualizadores. Si no se especifica ninguna ficha, todos los recursos se muestran juntos en la fila de muestras.
 
 Los ajustes preestablecidos del visor de conjuntos de medios mixtos incluyen opciones de comunidad para los usuarios finales para incrustar código, copiar URL y crear un vínculo al sitio web principal. Los usuarios pueden utilizar estas opciones para compartir información sobre los productos en sus sitios web personales o en los sitios de redes sociales.
 
@@ -43,7 +41,7 @@ Consulte [Crear un conjunto de imágenes](creating-image-set.md#creating-an-imag
 
 ## 3. Crear un conjunto de medios mixtos
 
-En la barra de navegación global, vaya a **[!UICONTROL Generar]** > **[!UICONTROL Conjuntos de medios mixtos]**. Arrastre las imágenes, conjuntos de muestras, conjuntos de imágenes y vídeos a la página Conjunto de medios mixtos. Para añadir una pista de sonido, arrastre un archivo de audio al cuadro Pista de sonido.
+En la barra de navegación global, vaya a **[!UICONTROL Generar]** > **[!UICONTROL Conjuntos de medios mixtos]**. Arrastre las imágenes, los conjuntos de muestras, los conjuntos de imágenes y los vídeos a la página Conjunto de medios mixtos. Para añadir una pista de sonido, arrastre un archivo de audio al cuadro Pista de sonido.
 
 Consulte [Crear un conjunto de medios mixtos](creating-mixed-media-set.md#creating-a-mixed-media-set).
 
@@ -67,7 +65,7 @@ Consulte [Previsualización de un recurso](previewing-asset.md#previewing-an-ass
 
 La publicación de un conjunto de medios mixtos lo coloca en servidores de Adobe Dynamic Media Classic y activa la cadena URL.
 
-Los conjuntos de vídeo adaptables requieren que se publique en el **Servidor de vídeo** y también en el **Servidor de imágenes**. El **Servidor de vídeo** se utiliza para publicar los vídeos reales que se han marcado para publicación. Y, usa **Servidor de imágenes** para publicar recursos relacionados, como miniaturas de vídeo, y establecer información para cualquier conjunto de vídeos adaptable.
+Los conjuntos de vídeo adaptables requieren que se publique en el **Servidor de vídeo** y también en el **Servidor de imágenes**. Uso **Servidor de vídeo** para publicar los vídeos que ha marcado para la publicación. Y, usa **Servidor de imágenes** para publicar recursos relacionados, como miniaturas de vídeo, y establecer información para cualquier conjunto de vídeos adaptable.
 
 Consulte [Publicar un conjunto de medios mixtos](publishing-mixed-media-set.md#publishing-a-mixed-media-set).
 

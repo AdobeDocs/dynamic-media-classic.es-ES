@@ -1,21 +1,19 @@
 ---
 title: Crear y administrar grupos de Media Portal
 description: Obtenga información sobre cómo crear y administrar grupos de Media Portal en Adobe Dynamic Media Classic.
-uuid: 23f360e1-ddcb-491b-ab9f-428f3ac9c316
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
-discoiquuid: 91524d36-b77a-4dc4-acba-a7bd85297e98
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 54%
+ht-degree: 52%
 
 ---
 
@@ -27,7 +25,7 @@ Los *grupos* están pensados para ayudarle a administrar los usuarios de Media P
 
 Para otorgar permiso a diferentes niveles, cree grupos. Por cada grupo, puede asignar permisos de lectura, escritura y eliminación de las diferentes carpetas y recursos de las carpetas. Asimismo, puede decidir a qué ajustes preestablecidos de imagen podrá acceder el grupo. A continuación, asigne usuarios a los grupos. Un usuario puede ser miembro de varios grupos. El concepto de grupo le permite disponer de flexibilidad para asignar acceso a conjuntos limitados del contenido total.
 
-Si no concede específicamente un permiso de grupo a un recurso o carpeta, ese recurso o carpeta heredará los permisos asignados a su carpeta principal (la carpeta situada encima en la jerarquía de carpetas). Conceda permisos a la carpeta principal para asegurarse de que todas las carpetas secundarias tienen los mismos derechos que la principal.
+Si, específicamente, no concede permisos de grupo a un recurso o carpeta, ese recurso o carpeta heredará los permisos asignados a su carpeta principal (la carpeta situada encima en la jerarquía de carpetas). Conceda permisos a la carpeta principal para asegurarse de que todas las carpetas secundarias tienen los mismos derechos que la principal.
 
 >[!NOTE]
 >
@@ -75,9 +73,9 @@ Si no concede específicamente un permiso de grupo a un recurso o carpeta, ese r
 
 >[!NOTE]
 >
->los derechos de acceso se establecen cuando se selecciona un cuadro. Cuando asigna derechos a una carpeta, sus subcarpetas y todos los archivos que están dentro reciben los mismos derechos que la carpeta principal. No obstante, puede especificar derechos diferentes para subcarpetas y archivos de recursos independientes.
+>los derechos de acceso se establecen cuando se selecciona un cuadro. Cuando se asignan derechos a una carpeta, sus subcarpetas y todos los archivos que contiene tienen los mismos derechos que la carpeta principal. No obstante, puede especificar derechos diferentes para subcarpetas y archivos de recursos independientes.
 
-## Elección de permisos de acceso a ajustes preestablecidos de imagen para un grupo {#choosing-image-preset-access-permissions-for-a-group}
+## Elección de permisos de acceso a ajustes preestablecidos de imagen para un grupo
 
 Elija los permisos de acceso a ajustes preestablecidos de imagen para un grupo si desea especificar los ajustes preestablecidos de imagen disponibles para los miembros de un grupo cuando se exportan recursos con Media Portal.
 

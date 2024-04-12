@@ -10,10 +10,10 @@ role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 37%
+source-wordcount: '623'
+ht-degree: 28%
 
 ---
 
@@ -55,7 +55,7 @@ Como está utilizando un visor de vídeo HTML5, asegúrese de que el archivo de 
 
 Consulte [WebVTT: Formato de seguimiento de texto de vídeo web](https://w3c.github.io/webvtt/).
 
-**Para agregar marcadores de capítulo a vídeos:**
+**Para agregar marcadores de capítulo al vídeo:**
 
 1. Cree su archivo de capítulo de vídeo con un editor de texto simple fuera de Adobe Dynamic Media Classic.
 
@@ -65,13 +65,13 @@ Consulte [WebVTT: Formato de seguimiento de texto de vídeo web](https://w3c.git
 
 1. Guarde el archivo VTT con codificación UTF8 para evitar problemas con la representación de caracteres en el texto del título del capítulo.
 
-   Lo normal es que desee nombrar al archivo de capítulos VTT con el mismo nombre que el archivo de vídeo y le añada la palabra `chapters`. Esto puede ayudarle a automatizar la generación de URL de vídeo mediante el sistema de administración de contenido web.
+   Por lo general, desea asignar al archivo VTT del capítulo el mismo nombre que al archivo de vídeo y anexarlo con `chapters`. Esto puede ayudarle a automatizar la generación de URL de vídeo mediante el sistema de administración de contenido web.
 
 1. En Adobe Dynamic Media Classic, cargue el archivo de capítulo WebVTT.
 
    Consulte [Cargar archivos](uploading-files.md#uploading_files).
 
-1. En el panel Biblioteca de recursos del lado izquierdo, navegue a la carpeta de recursos que contenga el archivo de vídeo que desee asociar al archivo de capítulos que haya cargado.
+1. En el panel Biblioteca de recursos de la izquierda, vaya a la carpeta de recursos que contiene el archivo de vídeo que se asociará al archivo de capítulo que ha cargado.
 1. En el panel Examinar recursos, seleccione un único recurso de vídeo y, debajo de la imagen en miniatura del recurso, seleccione **[!UICONTROL Previsualizar]** > **[!UICONTROL Lista del visor]**.
 1. En la tabla Lista de visores, busque el visor HTML5 con el nombre **Universal_HTML5_Video** y, a continuación, realice una de las siguientes acciones:
 

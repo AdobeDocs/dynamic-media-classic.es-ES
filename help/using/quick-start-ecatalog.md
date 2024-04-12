@@ -10,16 +10,16 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '1562'
-ht-degree: 33%
+source-wordcount: '1470'
+ht-degree: 32%
 
 ---
 
 # Inicio rápido: Catálogos electrónicos{#quick-start-ecatalogs}
 
-Un catálogo electrónico es una versión web digital de material impreso: por ejemplo, un catálogo, un folleto, un manual de un producto o una circular publicitaria. Los catálogos electrónicos se muestran en un visor de catálogos electrónicos contenido en un sitio web. Este visor simula la lectura de material impreso.
+Un catálogo electrónico es una versión web digital de material impreso: por ejemplo, un catálogo, un folleto, un manual de un producto o una circular publicitaria. Los catálogos electrónicos se muestran en un visor de catálogos electrónicos contenido en un sitio web. Este visor simula la experiencia de lectura de material impreso.
 
 Consulte también los siguientes vídeos de formación:
 
@@ -64,7 +64,7 @@ Los catálogos electrónicos suelen crearse a partir de archivos PDF. Puesto que
 
 En la barra de navegación global, seleccione **[!UICONTROL Cargar]** para empezar a cargar archivos o imágenes de PDF para el catálogo electrónico. Puede cargar archivos desde su escritorio o mediante FTP; se recomienda usar FTP si carga muchos archivos o archivos con un tamaño superior a 100 MB.
 
-En la pantalla de carga, Opciones de PDF le ofrece las opciones necesarias para cargar los archivos PDF con la resolución adecuada y el espacio de color correcto. Se recomienda utilizar una resolución de 150 píxeles por pulgada. Puede seleccionar la opción Generar catálogo electrónico automáticamente y crear un catálogo electrónico al cargar un archivo PDF. 
+En la pantalla de carga, Opciones de PDF le ofrece las opciones necesarias para cargar los archivos PDF con la resolución adecuada y el espacio de color correcto. Se recomienda utilizar una resolución de 150 píxeles por pulgada. Puede seleccionar la opción **[!UICONTROL Generar catálogo electrónico automáticamente]** para crear un catálogo electrónico al cargar un archivo de PDF.
 
 Consulte [Carga de los archivos del PDF](uploading-pdf-files.md#uploading_the_pdf_files).
 
@@ -84,7 +84,7 @@ Consulte [Crear un catálogo electrónico](creating-ecatalog.md).
 
 Los mapas de imágenes añaden otro aspecto a las páginas del catálogo electrónico. Un mapa de imagen es una región de la página que ofrece más información sobre un elemento determinado. Al pasar el puntero sobre el mapa de imagen, los usuarios verán una descripción del elemento. Al hacer clic en el mapa de imagen se activa una referencia externa, que abre una nueva página web donde hay más información sobre el elemento seleccionado.
 
-Para crear un mapa de imagen, abra la pantalla Catálogo electrónico. A continuación, vaya a **[!UICONTROL Páginas de mapa]** de la pantalla Catálogo electrónico y enmarque el mapa con la herramienta Mapa de imagen rectangular o Mapa de imagen poligonal. Si desea ajustar la posición y el tamaño de los mapas de imagen, arrastre los bordes del mapa con la Herramienta de desplazamiento .
+Para crear un mapa de imagen, abra la pantalla Catálogo electrónico. A continuación, vaya a **[!UICONTROL Páginas de mapa]** de la pantalla Catálogo electrónico y enmarque el mapa con la herramienta Mapa de imagen rectangular o Mapa de imagen poligonal. Para ajustar la posición y el tamaño de los mapas de imagen, arrastre los bordes de los mapas con la herramienta Panorámica.
 
 Después de enmarcar el mapa de imagen, escriba la dirección URL a la que desea ir al seleccionar el mapa de imagen. También puede escribir el texto de rollover que aparecerá al mover el puntero sobre el mapa de imagen. 
 
@@ -118,7 +118,7 @@ Consulte [Vista previa de catálogos electrónicos en el visor de catálogos ele
 
 Al publicar el catálogo electrónico y el PDF asociado, se coloca en los servidores de imágenes de Dynamic Media para que se pueda enviar al sitio web y a la aplicación. Como parte del proceso de publicación, Adobe Dynamic Media Classic activa la cadena URL del catálogo electrónico. Utilice esta URL para llamar al catálogo electrónico desde los servidores de imágenes de Dynamic Media a su sitio web o aplicación.
 
-Después de marcar el catálogo electrónico y el PDF para publicarlos en el panel Examinar, seleccione el botón Publicar en la barra de navegación global para iniciar una publicación. En la pantalla Publicar, seleccione **[!UICONTROL Enviar publicación]**.
+Después de marcar el catálogo electrónico y el PDF para publicarlos en el panel Examinar, seleccione el botón Publicar en la barra de navegación global para iniciar una publicación. En la página Publicación, seleccione **[!UICONTROL Enviar publicación]**.
 
 Consulte [Publicar catálogos electrónicos y PDF asociados](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
 

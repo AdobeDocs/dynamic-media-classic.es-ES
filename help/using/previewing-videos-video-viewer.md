@@ -1,20 +1,18 @@
 ---
 title: Vista previa de vídeos en un visor de vídeos
 description: Obtenga información sobre cómo previsualizar vídeos en un visor de vídeos.
-uuid: 7ab4e805-6e5d-461b-bd99-5e09b9ced950
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
-discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '773'
 ht-degree: 21%
 
 ---
@@ -25,7 +23,7 @@ Puede obtener una vista previa del aspecto de un vídeo y de cómo se reproduce 
 
 Consulte [Agregar y editar ajustes preestablecidos de visor](application-setup.md#adding_and_editing_viewer_presets).
 
-**Para previsualizar vídeos en un visor de vídeo:**
+**Para obtener una vista previa de vídeos en un visor de vídeos:**
 
 1. En el panel Biblioteca de recursos de la izquierda, en la lista desplegable Mostrar, seleccione **[!UICONTROL Vídeo]** (vídeos con codificación única) o **[!UICONTROL Conjunto de vídeos adaptable]**. Cuando se utiliza el ajuste preestablecido de codificación de vídeo adaptable, se obtiene un conjunto de vídeos con codificación de velocidad de bits múltiple.
 1. En el panel Biblioteca de recursos del lado izquierdo, navegue a las carpetas de recursos para seleccionar el vídeo cuya vista previa desee obtener.
@@ -36,7 +34,7 @@ Consulte [Agregar y editar ajustes preestablecidos de visor](application-setup.m
    * Sobre la ventana Recursos, en la parte derecha de la barra de herramientas, seleccione **[!UICONTROL Vista de detalles]**. En la misma barra de herramientas, seleccione **[!UICONTROL Previsualizar]**.
    * En la ventana Recursos, seleccione un recurso. En la barra de herramientas, vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Previsualizar]**.
 
-1. (Opcional) En la ventana Vista previa, en la lista desplegable de la parte inferior, seleccione la codificación de URL que desee aplicar a la URL del recurso cuando se copie.
+1. (Opcional) En la ventana Vista previa, en la lista desplegable de la parte inferior, seleccione la codificación URL que se aplicará a la URL del recurso cuando se copie.
 1. Seleccione el **[!UICONTROL Previsualizar]** para que pueda revisar el recurso en el visor seleccionado.
 1. Cierre el visor mostrado.
 1. Seleccionar **[!UICONTROL Cerrar]** para volver a la pantalla Recursos.
@@ -65,7 +63,7 @@ Consulte [Ajustes preestablecidos de visor](application-setup.md#viewer_presets)
 
 Consulte también [Ajustes preestablecidos de vídeo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) vídeo de formación.
 
-**Para añadir o editar un ajuste preestablecido de visor de vídeo:**
+**Para añadir o editar un ajuste preestablecido de visualizador de vídeo:**
 
 1. Cerca de la esquina superior derecha de Adobe Dynamic Media Classic, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes preestablecidos de visor]**.
 
@@ -83,7 +81,7 @@ Consulte también [Ajustes preestablecidos de vídeo](https://s7d5.scene7.com/s7
 
    * **Editar** - Seleccione un ajuste preestablecido de visualizador de vídeo y, a continuación, seleccione **[!UICONTROL Editar]**.
 
-1. En la página Configurar visor, en el campo Nombre del ajuste preestablecido, introduzca o edite el nombre del ajuste preestablecido.
+1. En el `Configure Viewer` , en el campo Nombre del ajuste preestablecido, introduzca o edite el nombre del ajuste preestablecido.
 1. Defina las opciones restantes que desee.
 
    Para ver la descripción de una opción, seleccione su icono de información sobre sugerencias.

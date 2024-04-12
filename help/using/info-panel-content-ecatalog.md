@@ -10,16 +10,16 @@ role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 topic: Integrations
 level: Experienced
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 55%
+source-wordcount: '871'
+ht-degree: 53%
 
 ---
 
 # Administración del contenido del panel de información en catálogos electrónicos{#managing-info-panel-content-in-ecatalogs}
 
-Además de utilizar el texto del mapa de imagen para sus rollover en los catálogos electrónicos, puede utilizar un panel de información para agregar grandes cantidades de texto rollover, incluyendo los vínculos. También puede gestionar el panel de información mediante el uso de almacenamiento en caché programado y actualizaciones de contenido planificadas.
+Además de utilizar el texto del mapa de imagen para sus rollover en los catálogos electrónicos, puede utilizar un panel de información para agregar grandes cantidades de texto rollover, incluyendo los vínculos. También puede administrar el panel de información mediante el almacenamiento en caché programado y las actualizaciones de contenido.
 
 Puede administrar la configuración y los datos de InfoPanel mediante las siguientes funciones de Adobe Dynamic Media Classic:
 
@@ -68,7 +68,7 @@ Cuando dé formato al contenido de origen, tenga en cuenta las siguientes pautas
 1. Haga doble clic en el catálogo electrónico para que se abra en la Vista de detalles.
 1. Seleccione el **[!UICONTROL Fuente de datos de InfoPanel]** panel.
 1. Introduzca la dirección URL para el archivo CSV en el cuadro Ubicación del archivo CSV alojado de forma externa. Puede pegar la URL en este campo o escribirla directamente.
-1. (Opcional) Especifique una hora para actualizar el contenido mediante los menús Programar actualización y seleccione **[!UICONTROL Añadir]**. Puede seleccionar varios tiempos de actualización. Cada tiempo de actualización aparece en el cuadro de tiempos de actualización. (Para quitar una hora, selecciónela y seleccione **[!UICONTROL Eliminar]**.)
+1. (Opcional) Especifique una hora para actualizar el contenido mediante el menú Programar actualización y seleccione **[!UICONTROL Añadir]**. Puede seleccionar varios tiempos de actualización. Cada tiempo de actualización aparece en el cuadro de tiempos de actualización. (Para quitar una hora, selecciónela y seleccione **[!UICONTROL Eliminar]**.)
 1. (Opcional) Seleccione **[!UICONTROL Ejecutar actualización ahora]** para actualizar el contenido inmediatamente.
 
 ### Importación de un archivo CSV o delimitado por tabuladores {#import-a-tab-delimited-or-csv-file}

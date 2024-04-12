@@ -1,25 +1,23 @@
 ---
 title: Creación de una plantilla
 description: Obtenga información sobre cómo crear una plantilla en Adobe Dynamic Media Classic.
-uuid: c762224b-7c6c-4434-bada-c26570079645
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
-discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 feature: Dynamic Media Classic
 role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
 topic: Content Management
 level: Experienced
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '3420'
+source-wordcount: '3418'
 ht-degree: 41%
 
 ---
 
-# Creación de una plantilla {#creating-a-template}
+# Creación de una plantilla
 
 Para crear una plantilla, vaya a **[!UICONTROL Generar]** > **[!UICONTROL Conceptos básicos de plantilla]**. Seleccione Diseñador o Desarrollador. En esta página puede añadir capas de imagen y de texto. También puede cambiar el orden de las capas, modificar el tamaño y la posición de éstas y aplicarles efectos de sombra y resplandor.
 
@@ -78,7 +76,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 1. Cuando haya terminado con su edición, asegúrese de que esté seleccionada la opción **[!UICONTROL Publicar después de guardar]** (predeterminada), cerca de la esquina inferior derecha de la página.
 1. Seleccionar **[!UICONTROL Guardar]**, seleccione una carpeta de almacenamiento, introduzca un nombre para el conjunto y, a continuación, seleccione **[!UICONTROL Guardar]**.
 
-## Eliminar una plantilla {#deleting-a-template}
+## Eliminar una plantilla
 
 Cuando se elimina un conjunto de plantillas, el conjunto en sí se mueve a la papelera. Sin embargo, los miembros (o &quot;hijos&quot;) de ese conjunto no se ven afectados, sino que cada uno de ellos conserva su estado publicado o no publicado.
 
@@ -278,7 +276,7 @@ Para ocultar una capa o un efecto de capa, seleccione el icono del ojo junto al 
 
 `layer=5&src=is{PortalCo/title}&pos=274,192&hide=1&effect=-1&.effect=Drop Shadow&blendmode`
 
-### Determinar el color de fondo, la opacidad y el modo de fusión {#determining-the-background-color-opacity-and-blend-mode}
+### Determinar el color de fondo, la opacidad y el modo de fusión
 
 Para definir el color de fondo, la opacidad y el modo de fusión de una capa o del lienzo, seleccione la capa o el lienzo y use una de esta técnicas:
 
@@ -299,7 +297,7 @@ Después de aplicar un efecto de sombra o resplandor, puede ajustar su tamaño, 
 ### Aplicar un efecto de sombra o resplandor a una capa {#applying-a-shadow-or-glow-effect-to-a-layer}
 
 1. Seleccione una capa en la lista de capas.
-1. Seleccione el menú Agregar efecto y elija una opción:
+1. Seleccione el **[!UICONTROL `Add Effect`]** y elija una opción:
 
    * **[!UICONTROL Sombra paralela]** - Aplica una sombra a la parte inferior y derecha de la capa.
 

@@ -1,21 +1,19 @@
 ---
 title: Enfocar una imagen
 description: Obtenga información sobre cómo enfocar una imagen en Adobe Dynamic Media Classic.
-uuid: d86af74a-89c5-4f2b-96ba-f2e7da600bca
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 11cd5362-d90a-4c1e-bfbd-46a65a554409
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '2198'
-ht-degree: 38%
+source-wordcount: '2199'
+ht-degree: 35%
 
 ---
 
@@ -99,7 +97,7 @@ Seleccione el **[!UICONTROL Remuestreo]** y elija una opción. Estas opciones pu
 
 * **[!UICONTROL Bicúbico]** : Aumenta el uso de la CPU en el servidor de imágenes, pero genera imágenes más nítidas con artefactos de solapamiento menos evidentes.
 
-* **[!UICONTROL `Sharpen2`]** - Produce resultados ligeramente más nítidos que **[!UICONTROL Bicúbico]**, pero con un coste de CPU aún mayor en el servidor de imágenes.
+* **[!UICONTROL `Sharpen 2`]** - Produce resultados ligeramente más nítidos que **[!UICONTROL Bicúbico]**, pero con un coste de CPU aún mayor en el servidor de imágenes.
 
 * **[!UICONTROL Trilinear]** : Utiliza resoluciones más altas y más bajas si está disponible; recomendado solo cuando el solapamiento es un problema. Este método reduce el tamaño JPEG debido a la reducción de datos de alta frecuencia.
 
@@ -126,13 +124,13 @@ Las opciones de Calidad JPG controlan el nivel de compresión JPG:
 
 **Definir opciones de enfoque para toda la empresa**
 
-Si no utiliza un ajuste preestablecido de imagen o transfiere protocolos de enfoque específicos del servidor de imagen junto con la cadena URL, la imagen no se enfocará cuando disminuya su resolución. Sin embargo, si no se produce este enfoque, puede establecer los valores de enfoque predeterminados y, a continuación, cualquier imagen siempre tendrá algún enfoque.
+Si no ha utilizado un ajuste preestablecido de imagen ni ha pasado protocolos de enfoque específicos del servidor de imágenes a lo largo de la cadena URL, la imagen no se enfoca cuando se reduce su resolución. Sin embargo, si no se produce este enfoque, puede establecer los valores predeterminados de enfoque para garantizar que cualquier imagen tenga siempre algún enfoque.
 
 Para establecer las opciones de enfoque predeterminadas de su empresa, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Ajustes de publicación]** > **[!UICONTROL Servidor de imágenes]**. Si establece el modo de remuestreo predeterminado en **`Sharp2`**, siempre enfoca la imagen cuando se reduce su resolución.
 
 **Añadir enfoque a los ajustes preestablecidos del visor**
 
-A no ser que se agreguen modificadores de imagen de enfoque al ajuste preestablecido, la pequeña imagen inicial de carga puede parecer suave porque se ha disminuido su resolución para que se ajuste a la ventana del visor sin enfocarla.
+A menos que haya agregado modificadores de imagen de enfoque al ajuste preestablecido, la pequeña imagen de carga inicial puede parecer suave porque se ha reducido su resolución para ajustarse a la ventana del visor sin necesidad de enfoque.
 
 Los ajustes preestablecidos del visualizador (como los ajustes preestablecidos de imagen) le permiten centralizar muchas opciones en una ubicación, incluidas las opciones de aspecto y del visualizador (como incluir un botón de impresión o controlar la velocidad de la animación de zoom). Los ajustes preestablecidos del visor se encuentran en la misma sección que los ajustes preestablecidos de imagen, en **[!UICONTROL Configurar]** > **[!UICONTROL Configuración de aplicación]** > **[!UICONTROL Ajustes preestablecidos de visor]**.
 

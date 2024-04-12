@@ -1,21 +1,19 @@
 ---
 title: "Inicio rápido: Conjuntos de giros"
 description: Introducción y Inicio rápido del conjunto de giros para ayudarle a ponerse en marcha rápidamente con Adobe Dynamic Media Classic.
-uuid: d0af9db6-cb6f-48f0-89f6-f3ab2da0659f
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
-discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 22%
+source-wordcount: '801'
+ht-degree: 25%
 
 ---
 
@@ -23,7 +21,7 @@ ht-degree: 22%
 
 Un conjunto de giros simula la acción física de girar un objeto para examinarlo. Los conjuntos de giros permiten ver elementos desde cualquier ángulo, por lo que se pueden obtener los detalles visuales clave de los mismos desde cualquier ángulo. Un conjunto de giros simula una visualización de 360 grados. Adobe Dynamic Media Classic ofrece conjuntos de giros unidimensionales en los que los visualizadores pueden rotar un elemento y conjuntos de giros bidimensionales en los que los visualizadores pueden rotar y voltear el elemento. Además, los usuarios pueden hacer zoom de forma libre y recorrer cualquiera de las vistas con unos pocos clics de ratón. De esta forma, los usuarios pueden examinar un elemento de cerca desde un punto de vista determinado.
 
-![Imágenes para un conjunto de giros.](/help/using/assets/spin_set.png)
+![Imágenes de un conjunto de giros.](/help/using/assets/spin_set.png)
 
 Los conjuntos de giros también aceptan mapas de imagen. Un mapa de imagen es una región de una imagen dentro de un conjunto de giros que muestra un panel de rollover con texto. Cuando el usuario selecciona un mapa de imagen, se activa un tipo de acción. Por ejemplo, se abre una página web para que el usuario pueda obtener más información sobre un producto. Para señalar un mapa de imagen en un conjunto de giros, aparece un contorno alrededor del propio mapa de imagen cuando el usuario mueve el puntero del ratón sobre él.
 
@@ -43,7 +41,7 @@ Este Inicio rápido de conjuntos de giros está diseñado para ayudarle a poners
 
 ## 1. Crear y cargar las imágenes
 
-Como mínimo, necesita 8-12 tomas de un artículo para un conjunto de giros unidimensional y 16-24 para un conjunto de giros bidimensional. Las tomas deben realizarse siguiendo intervalos regulares para dar la impresión de que se está rotando y volteando el elemento. Por ejemplo, si un conjunto de giros unidimensional incluye 12 disparos, gire el elemento 30° (360/12) para cada disparo.
+Necesita un mínimo de 8 a 12 tomas de un elemento para un conjunto de giros unidimensional y de 16 a 24 para un conjunto de giros bidimensional. Las tomas deben realizarse siguiendo intervalos regulares para dar la impresión de que se está rotando y volteando el elemento. Por ejemplo, si un conjunto de giros unidimensional incluye 12 disparos, gire el elemento 30° (360/12) para cada disparo.
 
 En la barra de navegación global, seleccione **[!UICONTROL Cargar]** para cargar imágenes de giros desde el equipo o la red a Adobe Dynamic Media Classic.
 
@@ -65,7 +63,7 @@ Consulte [Edición de un conjunto de giros](creating-spin-set.md#editing-a-spin-
 
 Los administradores pueden crear ajustes preestablecidos de visor de conjuntos de giros. Estos ajustes preestablecidos determinan el aspecto del visor de conjuntos de giros. Para configurar un nuevo ajuste preestablecido de visualizador de conjuntos de giros, en la barra de navegación global, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes preestablecidos de visor]**.
 
-En la página Ajustes preestablecidos de visor, seleccione **[!UICONTROL Añadir]**, luego seleccione **[!UICONTROL Visor de conjuntos de giros]** en la lista desplegable, y luego seleccione **[!UICONTROL Añadir]**. Elija opciones en la página Configurar visor y, a continuación, seleccione **[!UICONTROL Guardar]**.
+En la página Ajustes preestablecidos de visor, seleccione **[!UICONTROL Añadir]**, luego seleccione **[!UICONTROL Visor de conjuntos de giros]** en la lista desplegable, y luego seleccione **[!UICONTROL Añadir]**. Elija las opciones en la `Configure Viewer` página, luego seleccione **[!UICONTROL Guardar]**.
 
 Consulte [Configurar ajustes preestablecidos del visor de conjuntos de giros](setting-spin-set-viewer-presets.md#setting-up-spin-set-viewer-presets).
 
@@ -79,7 +77,7 @@ Consulte [Previsualización de un conjunto de giros](previewing-spin-set.md#prev
 
 Al publicar un conjunto de giros, se coloca en servidores de Adobe Dynamic Media Classic para que se pueda enviar de forma dinámica a su sitio web o aplicación. También activa la cadena URL que llama al conjunto de giros desde los servidores de imágenes de Dynamic Media a su sitio web o aplicación.
 
-Para publicar un conjunto de giros, márquelo para su publicación seleccionando la variable **[!UICONTROL Marcar para publicación]** junto a su nombre en el panel Examinar. En la barra de navegación global, seleccione **[!UICONTROL Publish]** para iniciar una publicación. En la pantalla Publicar, seleccione **[!UICONTROL Enviar publicación]**.
+Para publicar un conjunto de giros, márquelo para su publicación seleccionando la variable **[!UICONTROL Marcar para publicación]** junto a su nombre en el panel Examinar. En la barra de navegación global, seleccione **[!UICONTROL Publish]** para iniciar una publicación. En la página Publicación, seleccione **[!UICONTROL Enviar publicación]**.
 
 Consulte [Publicación de un conjunto de giros](publishing-spin-set.md#publishing-a-spin-set).
 

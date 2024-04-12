@@ -1,21 +1,19 @@
 ---
 title: Optimización para motores de búsqueda de vídeos
 description: Aprenda a configurar los ajustes de SEO de vídeo en Adobe Dynamic Media Classic.
-uuid: bac2c6a9-8466-4b8f-b835-6cb0b4168513
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
-discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 feature: Dynamic Media Classic
 role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '1037'
-ht-degree: 35%
+source-wordcount: '1019'
+ht-degree: 30%
 
 ---
 
@@ -33,7 +31,7 @@ Con Adobe Dynamic Media Classic Video SEO, puede aplicar metadatos de vídeo par
 >
 >Google admite los protocolos tanto de mapas de vídeos como de recursos mRSS para enviar información a los motores de búsqueda.
 
-Adobe Dynamic Media Classic puede generar mapas del sitio de vídeos y fuentes mRSS a partir de los metadatos almacenados con cada vídeo. Al crear los mapas de vídeos y los recursos mRSS, se decide qué campos de metadatos de los archivos de vídeo se incluyen. Así, describe los vídeos a los motores de búsqueda de modo que dirijan el tráfico a los vídeos de su sitio web con más precisión..
+Adobe Dynamic Media Classic puede generar mapas del sitio de vídeos y fuentes mRSS a partir de los metadatos almacenados con cada vídeo. Al crear los mapas de vídeos y los recursos mRSS, se decide qué campos de metadatos de los archivos de vídeo se incluyen. De este modo, se describen los vídeos a los motores de búsqueda para que los motores de búsqueda puedan dirigir con mayor precisión el tráfico a los vídeos del sitio web.
 
 >[!NOTE]
 >
@@ -43,9 +41,9 @@ Adobe Dynamic Media Classic crea informes sobre los mapas del sitio de vídeo y 
 
 >[!NOTE]
 >
->Para los mapas del sitio de vídeos y las fuentes mRSS, Adobe Dynamic Media Classic captura metadatos solo de los vídeos marcados para publicación. Marque los vídeos para su publicación si desea incluir sus metadatos en los mapas de vídeos y los recursos mRSS.
+>Para los mapas del sitio de vídeos y las fuentes mRSS, Adobe Dynamic Media Classic captura metadatos solo de los vídeos marcados para publicación. Marque los vídeos para su publicación a fin de incluir sus metadatos en los mapas de vídeos y las fuentes mRSS.
 
-## Elija la configuración de SEO de vídeo {#choosing-video-seo-settings}
+## Elija la configuración de SEO de vídeo
 
 Seleccione la configuración de optimización para motores de búsqueda (SEO) de vídeo para los mapas del sitio y fuentes mRSS en **[!UICONTROL Configuración de optimización del motor de búsqueda de vídeo]** página. Para abrir esta página, en la barra de navegación global, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Vídeo SEO]** > **[!UICONTROL Configuración]**.
 
@@ -83,7 +81,7 @@ En el **[!UICONTROL Modo automático/manual]** , elija si desea generar de forma
 
 El área Configuración de generación muestra los campos de entrada para el mapa de vídeos, la fuente mRSS o ambos y, en el panel Metadatos, los nombres de los campos de metadatos. Use el área Configuración general para asignar los campos de entrada a los campos de metadatos. Al hacerlo, le indica a Adobe Dynamic Media Classic dónde obtener metadatos para el mapa de vídeos y/o la fuente mRSS.
 
-1. En el menú Vistas de metadatos, elija una vista de metadatos. Una vez seleccionada la vista, los nombres de los campos de metadatos aparecen en el panel Metadatos.
+1. En el menú Vistas de metadatos, elija una vista de metadatos. Después de elegir una vista, los nombres de los campos de metadatos aparecen en el panel Metadatos.
 Consulte [Vistas de metadatos](application-setup.md#metadata_views).
 1. Arrastre los nombres de los campos de metadatos del panel Metadatos a los campos de entrada Página de aterrizaje, Título, Descripción, Etiquetas y Categoría. Los campos Página de aterrizaje, Título y Descripción son obligatorios.
 

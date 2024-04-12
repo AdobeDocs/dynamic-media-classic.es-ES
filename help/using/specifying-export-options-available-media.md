@@ -1,20 +1,18 @@
 ---
 title: Especificación de opciones de exportación disponibles para los usuarios de Media Portal
 description: Obtenga información sobre cómo especificar las opciones de exportación disponibles para los usuarios de Media Portal en Adobe Dynamic Media Classic.
-uuid: 5258b8a4-0704-43cd-97d1-c9af2e4e298b
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 41%
+source-wordcount: '383'
+ht-degree: 37%
 
 ---
 
@@ -38,7 +36,7 @@ Consulte también [Exportación de recursos desde Adobe Dynamic Media Classic](e
 
      Cuándo **[!UICONTROL píxeles]** se eligen de la **[!UICONTROL Tamaño]** , la anchura × altura de la imagen resultante no puede superar los 100 millones de píxeles. Este tamaño equivale a 10.000 × 10.000 píxeles para una imagen cuadrada, o aproximadamente 8.000 × 12.000 píxeles para una imagen con una relación de aspecto 2x3. Esta limitación de tamaño no se aplica si exporta imágenes principales originales.
 
-     Anule la selección de esta opción si desea que los usuarios descarguen archivos sin cambiar el formato al descargarlos.
+     Anule la selección de esta opción para que los usuarios descarguen los archivos sin volver a aplicarles formato a medida que se descargan.
 
    * **Habilitar la exportación del original** : permite exportar imágenes principales originales. En el **[!UICONTROL Exportar recursos seleccionados]** , los usuarios pueden abrir el panel **[!UICONTROL Conversión]** menú desplegable y elija **[!UICONTROL Exportar original]** para exportar archivos originales. Anule la selección de esta opción si desea obligar a los usuarios a elegir un ajuste preestablecido de imagen o a elegir opciones de conversión al exportar imágenes.
 

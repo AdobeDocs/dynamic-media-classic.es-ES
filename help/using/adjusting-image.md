@@ -1,18 +1,16 @@
 ---
 title: Ajustar una imagen
 description: Aprenda a ajustar una imagen en Adobe Dynamic Media Classic.
-uuid: c052acd3-e8c1-4134-ad21-b9c41578097f
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 43%
@@ -59,13 +57,13 @@ Seleccionar **[!UICONTROL Guardar]**.
 
 ## Creación de un alias para una imagen {#creating-an-alias-for-an-image}
 
-Cuando haya ajustado una imagen, puede guardarla como otra vista de la imagen principal. Para ello, puede crear un alias para la imagen utilizando la variable **[!UICONTROL Guardar como vista adicional de principal]** función.
+Cuando haya ajustado una imagen, puede guardarla como otra vista de la imagen principal. Para ello, puede crear un alias para la imagen utilizando la variable **[!UICONTROL Guardar como otra vista del principal]** función.
 
 **Para crear un alias para una imagen:**
 
 1. En la vista de cuadrícula o de lista, en la **[!UICONTROL Editar]** junto a una imagen para la que desee crear un alias, seleccione **[!UICONTROL Ajuste]**.
 1. En la esquina inferior derecha de la página, seleccione **[!UICONTROL Guardar como]**.
-1. En la lista desplegable de la **[!UICONTROL Guardar como]** , seleccione **[!UICONTROL Guardar como vista adicional de principal]**.
+1. En la lista desplegable de la **[!UICONTROL Guardar como]** , seleccione **[!UICONTROL Guardar como otra vista del principal]**.
 1. En el cuadro de lista **[!UICONTROL Nombre de la carpeta]**, seleccione la carpeta en la que desee guardar la imagen con alias.
 1. En el campo **[!UICONTROL Nombre del archivo]**, escriba el nombre que desee utilizar para el alias.
 1. Seleccionar **[!UICONTROL Guardar]**.

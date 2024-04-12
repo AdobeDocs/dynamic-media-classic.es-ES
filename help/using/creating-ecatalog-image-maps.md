@@ -1,21 +1,19 @@
 ---
 title: Crear mapas de imagen de catálogo electrónico
 description: Obtenga información sobre cómo crear mapas de imagen de catálogo electrónico en Adobe Dynamic Media Classic.
-uuid: 943ad3f7-a885-4bc2-88cb-77083384bdf8
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
-discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '1492'
-ht-degree: 40%
+source-wordcount: '1491'
+ht-degree: 36%
 
 ---
 
@@ -27,7 +25,7 @@ Un mapa de imagen es una región de una página de catálogo electrónico que se
 
 Los mapas de imagen de los catálogos electrónicos se dibujan en la ficha Páginas de mapa, que se encuentra en la pantalla Catálogo electrónico. En esta pantalla aparece el área del mapa de imagen en la que se muestran las páginas del catálogo electrónico y, a la derecha, la lista de mapas de imagen. A medida que cree los mapas de imagen, sus nombres se añadirán a la lista de mapas de imagen.
 
-1. Selección de la sustitución del catálogo electrónico **[!UICONTROL Editar]** botón.
+1. Seleccione la sustitución del catálogo electrónico **[!UICONTROL Editar]** botón.
 1. Seleccionar **[!UICONTROL Páginas de mapa]**.
 1. En la parte izquierda de la pantalla Páginas de mapa, seleccione la página que desee.
 1. En el área del mapa de imagen, dibuje un mapa de imagen rectangular o poligonal (con varios lados):
@@ -53,11 +51,11 @@ Consulte [Utilice una plantilla para introducir JavaScript y direcciones URL](cr
 1. Seleccionar **[!UICONTROL Guardar]**.
 1. (Opcional) Seleccione **[!UICONTROL Previsualizar]** para ver el catálogo electrónico con el ajuste preestablecido por defecto eCatalog Viewer.
 
-Para eliminar un mapa de imagen, seleccione su nombre en la lista Mapa de imagen y seleccione **[!UICONTROL Eliminar]**. Si desea eliminar de forma temporal un mapa de imagen dentro de la página y no borrarlo definitivamente, desactive la opción Activado del mapa de imagen en la lista de mapas de imagen.
+Para eliminar un mapa de imagen, seleccione su nombre en la lista Mapa de imagen y seleccione **[!UICONTROL Eliminar]**. Para desactivar temporalmente un mapa de imagen en una página sin eliminarlo, anule la selección de la opción Activado del mapa de imagen en el panel Lista de mapas de imagen.
 
 ## Incrustar medios enriquecidos en un catálogo electrónico {#embedding-rich-media-in-an-ecatalog}
 
-Puede utilizar la opción de medios enriquecidos de catálogo electrónico para agregar vídeos en formato MP4 o conjuntos de giros a mapas de imagen que se hayan añadido a un catálogo electrónico. Cuando un usuario selecciona el área de Mapa de imagen en el catálogo electrónico, se muestra el conjunto de giros o vídeo asociado. Esta funcionalidad es especialmente útil si desea que los clientes vean un elemento en uso o vean un elemento desde diferentes ángulos y perspectivas.
+Puede utilizar la opción Rich Media del catálogo electrónico para agregar vídeos en formato MP4 o conjuntos de giros a mapas de imágenes que haya agregado a un catálogo electrónico. Cuando un usuario selecciona el área de Mapa de imagen en el catálogo electrónico, se muestra el conjunto de giros o vídeo asociado. Esta funcionalidad es especialmente útil si desea que los clientes vean un elemento en uso o vean un elemento desde diferentes ángulos y perspectivas.
 
 También puede mostrar, de forma opcional, el texto de la información del objeto cuando los clientes muevan sus punteros sobre el mapa de imagen para que sepan lo que están seleccionando.
 

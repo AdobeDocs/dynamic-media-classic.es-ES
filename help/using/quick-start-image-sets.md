@@ -10,7 +10,7 @@ role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: 0e1b2e9dcbee182f3ec0da53b56b5b8d3eb29cce
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 14%
@@ -78,7 +78,7 @@ Al publicar un conjunto de imágenes, se coloca en los servidores de Adobe Dynam
 >
 >Este paso no es necesario si ha seleccionado **[!UICONTROL Publicar tras guardar]** (predeterminado) en el momento en que creó y guardó el conjunto de imágenes.
 
-Seleccionar **[!UICONTROL Marcar para publicación]** a la izquierda de su nombre en el panel Examinar. A continuación, seleccione **[!UICONTROL Publish]**. En la página Publicar, seleccione **[!UICONTROL Enviar publicación]**.
+Seleccionar **[!UICONTROL Marcar para publicación]** a la izquierda de su nombre en el panel Examinar. A continuación seleccione **[!UICONTROL Publish]**. En la página Publicación, seleccione **[!UICONTROL Enviar publicación]**.
 
 Consulte [Publicar archivos](publishing-files.md#publishing-files).
 

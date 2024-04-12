@@ -1,27 +1,25 @@
 ---
 title: Configurar ajustes preestablecidos de imagen
 description: Obtenga información sobre cómo configurar ajustes preestablecidos de imagen en Adobe Dynamic Media Classic.
-uuid: 90530948-dee9-41bd-b39e-684140446abc
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
-discoiquuid: 1ec39fe5-7b2a-4034-9570-6b5595f97052
 feature: Dynamic Media Classic,Image Presets
 role: User
 exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 44%
+source-wordcount: '673'
+ht-degree: 37%
 
 ---
 
 # Configurar ajustes preestablecidos de imagen{#setting-up-image-presets}
 
-Un ajuste preestablecido de imagen, que se guarda con un nombre exclusivo, es similar a una macro y se compone de una serie de comandos de formato y tamaño predefinidos. Para comprender cómo funcionan los ajustes preestablecidos de imagen, supongamos que el sitio web requiere que cada imagen de producto aparezca en dos tamaños diferentes: 500 × 500 píxeles y 150 × 150 píxeles. Puede crear dos ajustes preestablecidos de imagen, uno denominado &quot;Ampliar&quot; para mostrar imágenes a 500x500 píxeles y otro denominado &quot;Miniatura&quot; para mostrar imágenes a 150 × 150 píxeles. Para ofrecer imágenes con los tamaños &quot;Ampliar&quot; y &quot;Miniatura&quot;, un servidor de imágenes de Dynamic Media busca la definición de los ajustes preestablecidos Ampliar imagen y Miniatura. El servidor generará dinámicamente una imagen con las especificaciones de tamaño y formato de cada ajuste preestablecido de imagen.
+Un ajuste preestablecido de imagen, que se guarda con un nombre exclusivo, es similar a una macro y se compone de una serie de comandos de formato y tamaño predefinidos. Para comprender cómo funcionan los ajustes preestablecidos de imagen, supongamos que el sitio web requiere que cada imagen de producto aparezca en dos tamaños diferentes: 500 × 500 píxeles y 150 × 150 píxeles. Puede crear dos ajustes preestablecidos de imagen, uno denominado &quot;Ampliar&quot; para mostrar imágenes a 500x500 píxeles y otro denominado &quot;Miniatura&quot; para mostrar imágenes a 150 × 150 píxeles. Para ofrecer imágenes con los tamaños &quot;Ampliar&quot; y &quot;Miniatura&quot;, un servidor de imágenes de Dynamic Media busca la definición de los ajustes preestablecidos &quot;Ampliar imagen&quot; y &quot;Miniatura de imagen&quot;. El servidor generará dinámicamente una imagen con las especificaciones de tamaño y formato de cada ajuste preestablecido de imagen.
 
 Adobe Dynamic Media Classic incluye varios ajustes preestablecidos de imagen de prácticas recomendadas que ya están configurados para que los utilice. Los administradores también pueden crear ajustes preestablecidos de imagen. Para crear un nuevo ajuste preestablecido, puede empezar desde cero o tomar uno existente como punto de partida y guardarlo con un nombre nuevo.
 
@@ -48,7 +46,7 @@ Los administradores pueden crear ajustes preestablecidos de imagen. Puede crear 
 
    Adobe Dynamic Media Classic recomienda estas opciones de &quot;práctica recomendada&quot; para comenzar:
 
-   * **[!UICONTROL Formato]** - Elija un JPEG u otro formato que cumpla sus necesidades. Todos los exploradores web admiten el formato de imagen JPEG, que ofrece un buen equilibrio entre tamaños de archivo pequeños y calidad de imagen. Sin embargo, las imágenes JPEG utilizan un esquema de compresión con pérdidas que puede producir artefactos de imagen no deseados si el ajuste de compresión es demasiado bajo. Por este motivo, Adobe Dynamic Media Classic recomienda establecer la calidad de compresión (en el control deslizante) en 75. Este valor ofrece un buen equilibrio entre la calidad de imagen y el tamaño de archivo pequeño.
+   * **[!UICONTROL Formato]** - Elija un JPEG u otro formato que cumpla sus necesidades. Todos los navegadores web admiten el formato de imagen JPEG; ofrece un buen equilibrio entre los tamaños de archivo pequeños y la calidad de imagen. Sin embargo, las imágenes JPEG utilizan un esquema de compresión con pérdidas que puede producir artefactos de imagen no deseados si el ajuste de compresión es demasiado bajo. Por este motivo, Adobe Dynamic Media Classic recomienda establecer la calidad de compresión (en el control deslizante) en 75. Este valor ofrece un buen equilibrio entre la calidad de imagen y el tamaño de archivo pequeño.
 
    * **[!UICONTROL Enfoque]** - No seleccione Enfoque (este filtro de enfoque ofrece menos control que **[!UICONTROL Máscara de enfoque]** configuración).
 
@@ -77,6 +75,6 @@ Para eliminar un ajuste preestablecido de imagen, selecciónelo en la pantalla A
 
 >[!MORELIKETHIS]
 >
->* [Creación y edición de ajustes preestablecidos de imagen](application-setup.md#creating_and_editing_image_presets)
->* [Opciones de ajuste preestablecido de imagen](application-setup.md#image_preset_options)
+>* [Crear y editar ajustes preestablecidos de imagen](application-setup.md#creating_and_editing_image_presets)
+>* [Opciones de ajustes preestablecidos de imagen](application-setup.md#image_preset_options)
 >* [Previsualizar un recurso de imagen en función de su ajuste preestablecido de imagen](previewing-asset.md#previewing_an_image_asset_based_on_its_image_preset)
