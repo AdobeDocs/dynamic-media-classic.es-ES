@@ -1,27 +1,25 @@
 ---
 title: Configurar un ajuste preestablecido de visualizador de conjuntos de medios mixtos
 description: Obtenga información sobre cómo configurar un ajuste preestablecido de visualizador de conjuntos de medios mixtos en Adobe Dynamic Media Classic.
-uuid: d5bf1840-e453-445d-bebc-84889b29f3c8
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
-discoiquuid: 8029aad8-d696-4d7c-99e2-3b08edb68181
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 topic: Content Management
 level: Intermediate
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 40%
+source-wordcount: '614'
+ht-degree: 36%
 
 ---
 
 # Configurar un ajuste preestablecido de visualizador de conjuntos de medios mixtos{#setting-up-a-mixed-media-set-viewer-preset}
 
-Los ajustes preestablecidos de visor de conjuntos de medios mixtos determinan el estilo, el comportamiento y la apariencia del visor principal. Al configurar un ajuste preestablecido, puede especificar qué otros visores desea que aparezcan en el interior del visor de medios mixtos. Por ejemplo, si ha incluido un conjunto de imágenes en el conjunto de medios mixtos, especifique un ajuste preestablecido para el visor de conjuntos de medios mixtos.
+Los ajustes preestablecidos de visor de conjuntos de medios mixtos determinan el estilo, el comportamiento y la apariencia del visor principal. Al configurar un ajuste preestablecido, puede especificar qué otros visores desea que aparezcan en el interior del visor de medios mixtos. Por ejemplo, si ha incluido un conjunto de imágenes en el conjunto de medios mixtos, especifique un ajuste preestablecido del visualizador de conjuntos de imágenes para el visualizador de conjuntos de medios mixtos.
 
 Puede elegir incluir todas o algunas de las funciones de comunidad en el visor de conjuntos de medios mixtos. La función Incrustar añade un vínculo al visor que permite que los usuarios copien el código necesario para ver el visor en una página externa (como un blog, sitio web o sitio de red social). La función Vínculo proporciona la dirección URL al visor, de forma que los usuarios pueden volver a este visor. La función Visita proporciona un vínculo al sitio web que especifique.
 

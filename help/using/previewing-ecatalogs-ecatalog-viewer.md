@@ -1,21 +1,19 @@
 ---
 title: Vista previa de catálogos electrónicos en el visor de catálogos electrónicos
 description: Obtenga información sobre cómo obtener una vista previa de los catálogos electrónicos en el visor de catálogos electrónicos de Adobe Dynamic Media Classic.
-uuid: fdaf2129-e558-4f27-b30f-564126b6b3f2
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
-discoiquuid: 92022dce-6534-4d93-befe-9dd2818c7b41
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 580cb169-0e26-412d-8dff-74dc63da25d8
 topic: Integrations
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 35%
+ht-degree: 32%
 
 ---
 
@@ -27,7 +25,7 @@ Consulte [Configuración de visores predeterminados](application-setup.md#config
 
 Consulte [Previsualización de un recurso](previewing-asset.md#previewing_an_asset).
 
-**Para obtener una vista previa de catálogos electrónicos en el visor de catálogos electrónicos:**
+**Para previsualizar catálogos electrónicos en el visor de catálogos electrónicos:**
 
 1. En la lista desplegable Mostrar del panel Biblioteca de recursos del lado izquierdo, seleccione un tipo de recurso de vídeo como Vídeo o Conjunto de vídeo.
 1. En el panel Biblioteca de recursos del lado izquierdo, navegue a las carpetas de recursos que contengan los vídeos cuya vista previa desee obtener con el visor de catálogos electrónicos.

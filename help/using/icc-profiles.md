@@ -1,21 +1,19 @@
 ---
 title: Perfiles ICC (International Color Consortium)
 description: Obtenga información acerca de los perfiles ICC en Adobe Dynamic Media Classic.
-uuid: 708ff2ad-9a47-4e3e-b643-5b19648f726b
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/support_files
-discoiquuid: 44f1b4c4-6d7f-4e0f-84ce-11d26745e0f0
 feature: Dynamic Media Classic
 role: User
 exl-id: 989f2761-f5d0-4ece-b2a6-f7b4577aa8a2
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 54%
+ht-degree: 50%
 
 ---
 
@@ -23,7 +21,7 @@ ht-degree: 54%
 
 Un perfil ICC (International Color Consortium) es un archivo que describe cómo se deben convertir los archivos de imagen de un espacio de color a otro. Los perfiles ICC le ayudan a obtener los colores correctos para las imágenes. Por ejemplo, para mostrar correctamente imágenes diseñadas para la impresión en un monitor de ordenador, puede elegir un perfil ICC. Este perfil convierte el espacio de color de la imagen y garantiza que los colores se muestren correctamente en línea.
 
-En Adobe Dynamic Media Classic, puede elegir un perfil ICC para convertir las imágenes a un espacio de color diferente al cargarlas. Todos los perfiles ICC estándar de Photoshop están disponibles de forma predeterminada en Adobe Dynamic Media Classic. Para ver los nombres de los perfiles de color en la pantalla de carga, seleccione el menú Perfil de color. A continuación elija Personalizar De > A y elija un perfil ICC en los menús Convertir de y Convertir a.
+En Adobe Dynamic Media Classic, puede elegir un perfil ICC para convertir las imágenes a un espacio de color diferente al cargarlas. Todos los perfiles ICC estándar de Photoshop están disponibles de forma predeterminada en Adobe Dynamic Media Classic. Para ver los nombres de los perfiles de color en la pantalla de carga, seleccione el menú Perfil de color. A continuación, elija Personalizado desde > Hasta y elija un nombre de perfil ICC en los menús Convertido desde y Convertido a.
 
 Consulte [Opciones de edición de imágenes al cargar](image-editing-options-upload.md#image-editing-options-at-upload).
 

@@ -1,27 +1,25 @@
 ---
 title: Administración de cuentas de FTP
 description: Obtenga información sobre cómo administrar cuentas de FTP en Adobe Dynamic Media Classic.
-uuid: c9410f44-14bf-4f55-a199-f0f0de459219
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
-discoiquuid: d592f0a7-1c27-4463-998a-07351147da1d
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 95c7d403-7206-4158-b8ad-6091b24b5077
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
 source-wordcount: '235'
-ht-degree: 63%
+ht-degree: 52%
 
 ---
 
 # Administración de cuentas de FTP{#managing-ftp-accounts}
 
-Solo los administradores de Media Portal pueden administrar y gestionar las cuentas de FTP. Además, solo los usuarios con la función de *Usuario colaborador de Media Portal* o *Colaborador de Media Portal* pueden cargar recursos digitales.
+Solo los administradores de Media Portal pueden administrar y gestionar las cuentas de FTP. Además, solo los usuarios con la función de *Usuario colaborador de Media Portal* o *Colaborador de Media Portal* puede cargar recursos digitales.
 
 Recuerde que puede activar o desactivar los usuarios de Media Portal existentes a través de la página Administración de usuarios en Ajuste de administración.
 
