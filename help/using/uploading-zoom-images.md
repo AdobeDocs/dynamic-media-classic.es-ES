@@ -10,10 +10,10 @@ role: User
 exl-id: 44a82437-7592-484f-b45f-17ed1f6efbec
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 18%
+source-wordcount: '224'
+ht-degree: 16%
 
 ---
 
@@ -29,11 +29,11 @@ Para obtener instrucciones detalladas sobre la carga de imágenes, consulte [Car
 
 Para aprovechar al máximo las funciones de zoom de Adobe Dynamic Media Classic, prepare sus archivos de imagen de zoom antes de cargarlos:
 
-* **Tamaño de imagen** - Adobe Dynamic Media Classic recomienda utilizar archivos de imagen que tengan, como mínimo, 2000 píxeles del tamaño más largo. De este modo, las imágenes se verán con claridad cuando los usuarios apliquen zoom en las mismas.
+* **Tamaño de imagen**: Adobe Dynamic Media Classic recomienda utilizar archivos de imagen que tengan, como mínimo, 2000 píxeles del tamaño más largo. De este modo, las imágenes se verán con claridad cuando los usuarios apliquen zoom en las mismas.
 
-* **Formatos de archivo** : Adobe Dynamic Media Classic admite todos los formatos de archivo de imagen estándar, incluidos TIFF, BMP, JPEG, PSD, GIF y EPS. Se recomiendan los formatos de imagen sin pérdida (TIFF y PNG). Si utiliza una imagen de JPEG, utilice la configuración de mayor calidad.
+* **Formatos de archivo**: Adobe Dynamic Media Classic es compatible con todos los formatos de archivo de imagen estándar. Los formatos incluyen TIFF, BMP, JPEG, PSD, GIF y EPS. Se recomiendan los formatos de imagen sin pérdida TIFF y PNG. Si utiliza una imagen de JPEG, utilice la configuración de mayor calidad.
 
-* **Espacio de color** - RGB es el espacio de color para las presentaciones de imágenes web; las imágenes CMYK se convierten automáticamente en RGB cuando se cargan. Se recomienda cargar imágenes CMYK con un perfil de color ICC incrustado para la conversión a RGB. Consulte también Perfiles ICC.
+* **Espacio de color**: RGB es el espacio de color para presentaciones de imágenes web; las imágenes CMYK se convierten automáticamente en RGB cuando se cargan. Se recomienda cargar imágenes CMYK con un perfil de color ICC incrustado para la conversión a RGB. Consulte también Perfiles ICC.
 
 >[!MORELIKETHIS]
 >

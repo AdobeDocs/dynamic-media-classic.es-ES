@@ -1,7 +1,7 @@
 ---
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 El Adobe sabe que los usuarios de Adobe Dynamic Media Classic trabajan en entornos altamente competitivos y se esfuerzan por crear experiencias digitales que los diferencien de su competencia. Por lo tanto, es vital que cuando Adobe ofrece nuevas herramientas avanzadas, estas herramientas se complementen con una documentación precisa y clara. Al hacerlo, el cliente puede utilizar inmediatamente su inversión en Adobe Dynamic Media Classic y maximizar el retorno de la inversión.
 
-El objetivo de la documentación es poner la documentación actualizada en manos de los usuarios lo antes posible. Por lo tanto, Adobe da prioridad a la documentación precisa y útil, y se esfuerza por actualizarla y mejorarla continuamente.
+El objetivo de la documentación es poner la documentación actualizada en manos de los usuarios lo antes posible. Por lo tanto, Adobe da prioridad a la documentación precisa y útil, y la actualiza y mejora continuamente.
 
 ## Contribuciones de documentación
 
@@ -19,21 +19,21 @@ Para mejorar continuamente la documentación de, contamos con la ayuda de toda l
 
 ## Normas de documentación
 
-Aunque el Adobe acoge con satisfacción las aportaciones a su documentación, cualquier aportación a la misma, ya sea en forma de solicitud de extracción o de incidencia, debe ajustarse a las normas de aportación y documentación del Adobe.
+Si bien Adobe acoge con satisfacción las aportaciones a su documentación, cualquier aportación a la documentación en una solicitud de extracción o una incidencia debe ajustarse a las normas de aportación y documentación del Adobe.
 
 Las contribuciones que no cumplan estas normas podrán ser rechazadas.
 
-### Adobe documentos casos de uso estándar.
+### Los casos de uso estándar son los documentos de Adobe
 
 La documentación cubre casos de uso estándar. Los casos de uso que exceden el ámbito de la instalación y el uso estándar del producto no forman parte de la documentación de.
 
-### Por lo general, el Adobe no documenta los errores ni sus soluciones alternativas.
+### Por lo general, el Adobe no documenta los errores ni sus soluciones alternativas
 
 La documentación cubre casos de uso estándar. Por este motivo, los errores, los efectos causados por errores y las soluciones alternativas para los errores no están documentados.
 
-Las excepciones a esta regla se aplican a las notas de la versión, donde los problemas conocidos pueden enumerarse con posibles soluciones aprobadas por el equipo de administración del producto de.
+Las excepciones a esta regla se aplican a las notas de la versión, donde los problemas conocidos pueden enumerarse con posibles soluciones que apruebe el equipo de administración del producto de.
 
-### Las contribuciones a la documentación no sirven para responder preguntas técnicas.
+### Las contribuciones a la documentación no sirven para responder preguntas técnicas
 
 Cualquier idea que tenga para mejorar la documentación de es bienvenida como contribución. Sin embargo, los comentarios, los problemas y las solicitudes de extracción están destinados a *contribuciones* solo. No pretenden responder a sus preguntas sobre cómo utilizar Adobe Dynamic Media Classic, implementar su proyecto ni resolver problemas técnicos.
 
@@ -41,11 +41,11 @@ Cualquier pregunta sobre el uso de Adobe Dynamic Media Classic o errores técnic
 
 ***Las contribuciones a la documentación no sustituyen al Servicio de atención al cliente de Adobe*** y se rechazará cualquier contribución de este tipo que busque respuestas a preguntas relacionadas con la asistencia.
 
-### Las contribuciones deben hacer referencia claramente a las páginas de documentación afectadas.
+### Las contribuciones deben hacer referencia claramente a las páginas de documentación afectadas
 
 Si crea un problema para sugerir mejoras en la documentación, debe incluir vínculos a las páginas afectadas. Si crea un problema utilizando la variable **Editar esta página** en una página de documentación, el problema se crea automáticamente con un vínculo a la página.
 
-Esto no se aplica a las solicitudes de extracción, ya que hacen referencia a las páginas afectadas.
+Este flujo de trabajo no se aplica a las solicitudes de extracción, ya que las solicitudes de extracción hacen referencia a las páginas afectadas.
 
 ## Directrices de documentación
 
@@ -83,4 +83,4 @@ No se deben utilizar marcadores u otras anotaciones en las capturas de pantalla 
 
 ### Referencias específicas de la versión
 
-Intente evitar cualquier referencia directa a una versión específica en todo el contenido de la documentación, siempre que sea posible. Esto hace que la documentación sea más flexible y extensible para futuras versiones.
+Intente evitar cualquier referencia directa a una versión específica en todo el contenido de la documentación, siempre que sea posible. Al hacerlo, la documentación es más flexible y extensible para futuras versiones.

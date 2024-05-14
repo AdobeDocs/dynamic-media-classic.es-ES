@@ -10,22 +10,22 @@ role: User
 exl-id: 09fafdb4-51e2-4719-83b6-056f79d1ba9e
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 45%
+source-wordcount: '777'
+ht-degree: 34%
 
 ---
 
 # Administración del contenido del panel de información en conjuntos de imágenes{#managing-info-panel-content-in-image-sets}
 
-Además de utilizar el texto del mapa de imagen para sus rollover en los conjuntos de imágenes, puede utilizar un panel de información para agregar grandes cantidades de texto rollover, incluyendo los vínculos. También puede administrar el panel de información mediante el almacenamiento en caché de tiempo y la programación de actualizaciones de contenido.
+Además de utilizar texto de mapa de imagen para los rollovers en conjuntos de imágenes, puede utilizar un panel de información para añadir grandes cantidades de texto de rollover, incluidos vínculos. También puede administrar el panel de información mediante el almacenamiento en caché de tiempo y la programación de actualizaciones de contenido.
 
 Puede administrar la configuración y los datos de InfoPanel mediante las siguientes funciones de Adobe Dynamic Media Classic:
 
-* El panel de configuración del panel de información le permite especificar la plantilla que desea usar para mostrar el texto del panel de información, una respuesta predeterminada para los errores y el número de horas del almacenamiento de la información en caché. Además, puede especificar si desea publicar automáticamente el conjunto de imágenes.
-* El panel Fuente de datos de InfoPanel le permite especificar un archivo CSV que contiene el texto que desea que aparezca en el texto de rollover del panel de información y programar tiempos para actualizar la información.
-* El cuadro de diálogo Importación de metadatos le permite importar un archivo TXT delimitado por tabuladores con la información del texto rollover. Puede utilizar esta opción TXT o el panel de fuente de datos del panel de información con la opción de archivo CSV para el texto de rollover.
+* El panel Configuración del panel de información le permite especificar la plantilla utilizada para mostrar el texto del panel de información, una respuesta predeterminada para los errores y el número de horas que la información se almacena en caché. Además, puede especificar si desea publicar automáticamente el conjunto de imágenes.
+* El panel Fuente de datos del panel de información le permite especificar un archivo CSV que contiene el texto que desea que aparezca en el texto de rollover del panel de información y programar tiempos para actualizar la información.
+* El cuadro de diálogo Importar metadatos le permite importar un archivo TXT delimitado por tabuladores que contiene la información de texto de rollover. Puede utilizar esta opción TXT o el panel de fuente de datos del panel de información con la opción de archivo CSV para el texto de rollover.
 
 ## Configuración de una plantilla de respuesta para conjuntos de imágenes {#set-up-a-response-template-for-image-sets}
 
@@ -46,7 +46,7 @@ Puede seleccionar una de las tres plantillas de respuesta preestablecidas para m
    * Establezca un número más bajo si los datos se actualizan frecuentemente a lo largo del día.
    * Establezca un número más alto si los datos son relativamente estables y no requieren actualizarse con frecuencia a lo largo del día. El valor predeterminado es de diez horas.
 
-1. Seleccionar **[!UICONTROL Cargar]** para cargar contenido del panel de información en s7info en función del valor rollover_key.
+1. Seleccionar **[!UICONTROL Cargar]** para cargar contenido del panel de información, en función del valor rollover_key, en s7info.
 1. En el cuadro de diálogo Cargar S7Info, busque el archivo que desea utilizar y, a continuación, seleccione **[!UICONTROL Cargar]**.
 
    Los formatos de archivo compatibles son archivos delimitados por tabuladores con codificación UTF-16 y archivos CSV con codificación ASCII. En el caso de los archivos CSV, los caracteres no ASCII deben estar codificados en HTML.
@@ -55,12 +55,12 @@ Puede seleccionar una de las tres plantillas de respuesta preestablecidas para m
 
 ## Importar contenido de origen para el panel de información en conjuntos de imágenes {#import-source-content-for-the-info-panel-in-image-sets}
 
-Puede utilizar un archivo CSV (Valor separado por comas) con codificación ASCII (los caracteres no ASCII deben estar codificados por el HTML) o un archivo delimitado por tabuladores para el texto de origen de un panel de información de un conjunto de imágenes. Los archivos delimitados por tabuladores deben usar la codificación UTF-16 (Unicode). Puede importar los distintos tipos de archivos mediante diferentes métodos.
+Puede utilizar un archivo CSV (Valor separado por comas) con codificación ASCII (los caracteres no ASCII deben estar codificados por el HTML) o un archivo delimitado por tabuladores para el texto de origen de un panel de información de un conjunto de imágenes. Los archivos delimitados por tabuladores deben usar la codificación UTF-16 (Unicode). Puede importar los distintos tipos de archivo mediante diferentes métodos.
 
 Cuando dé formato al contenido de origen, tenga en cuenta las siguientes pautas:
 
 * Los datos delimitados por tabulaciones y comas pueden contener tantas columnas como sea necesario para la plantilla de rollover.
-* El primer elemento o columna de datos es el identificador de rollover (asociado al valor rollover_key de las direcciones URL de mapa de imagen).
+* El primer elemento o columna de datos es el identificador de rollover (asociado al valor rollover_key de las direcciones URL del mapa de imagen).
 * Asegúrese de que cada elemento delimitado por tabulaciones o comas después del identificador sea el elemento que desee sustituir en la plantilla de respuesta. Por lo tanto, la primera columna se sustituye en $1$, la segunda columna en $2$, y así sucesivamente).
 
 ### Importación de contenido CSV en conjuntos de imágenes desde una ubicación alojada de forma externa {#import-csv-content-into-image-sets-from-an-externally-hosted-location}
@@ -72,4 +72,4 @@ Cuando dé formato al contenido de origen, tenga en cuenta las siguientes pautas
 
    Puede seleccionar varios tiempos de actualización. Cada tiempo de actualización aparece en el cuadro Tiempos de actualización. Para quitar una hora programada, selecciónela y, a continuación, seleccione **[!UICONTROL Eliminar]**.
 
-1. (Opcional) Seleccione **[!UICONTROL Ejecutar actualización]** para actualizar el contenido inmediatamente.
+1. (Opcional) Seleccione **[!UICONTROL Ejecutar actualización]** para que pueda actualizar el contenido inmediatamente.

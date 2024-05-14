@@ -1,28 +1,28 @@
 ---
 title: Ayuda de Adobe Dynamic Media Classic
-description: Bienvenido a Adobe Dynamic Media Classic, el principal sistema de publicación multimedia bajo demanda para cargar, administrar, mejorar y publicar contenido enriquecido dinámico en todos los dispositivos y pantallas.
+description: Adobe Dynamic Media Classic es el principal sistema de publicación multimedia bajo demanda. Puede cargar, administrar, mejorar y publicar contenido enriquecido dinámico en todos los dispositivos y pantallas.
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7bf94d8c-23ff-4a43-83cc-7e6879a7cded
 topic: Administration
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 16%
+source-wordcount: '281'
+ht-degree: 15%
 
 ---
 
 # Ayuda de Adobe Dynamic Media Classic {#scene7-overview}
 
-Bienvenido a Adobe Dynamic Media Classic, el principal sistema de publicación multimedia bajo demanda para cargar, administrar, mejorar y publicar contenido enriquecido dinámico en todos los dispositivos y pantallas. Las soluciones de Adobe Dynamic Media Classic incluyen lo siguiente:
+Adobe Dynamic Media Classic es el principal sistema de publicación multimedia bajo demanda. Puede cargar, administrar, mejorar y publicar contenido enriquecido dinámico en todos los dispositivos y pantallas. Las soluciones de Adobe Dynamic Media Classic incluyen lo siguiente:
 
 * Dynamic Imaging: edición, formato y tamaño en tiempo real, zoom interactivo y desplazamiento; color `swatching` y textura `swatching`; giro de 360 grados; plantillas de imagen; visores multimedia.
 * Catálogos electrónicos: creación, vinculación de puntos interactivos, búsqueda habilitada, publicación y entrega de catálogos en línea servidos dinámicamente en visores configurables.
 * Media Portal: Entorno de autoservicio que proporciona a los usuarios del portal &quot;vistas&quot; controladas por el administrador de los recursos de Adobe Dynamic Media Classic para facilitar el acceso a la carga, la exploración, la búsqueda, la previsualización y la exportación de recursos.
 * eVideo: Cargue los vídeos finales en cualquier formato, administre, edite, cree zonas interactivas y plantillas de vídeo, publique y transmita en visores de vídeo configurables
-* Configuradores visuales: tecnología de procesamiento en tiempo real para poder hacer configuraciones visuales en línea y personalizar efectos. Por ejemplo, procesar en tiempo real texturas y colores, superficies, motivos, monogramas y grabados en escenas o en imágenes de productos.
+* Configuradores visuales: tecnología de renderización en tiempo real para habilitar la configuración visual en línea para los efectos de personalización y personalización. Efectos como la representación en tiempo real de colores, texturas, superficies, motivos, monogramas y grabados en imágenes o escenas de productos.
 * Impresión y correo electrónico de destino: distribución de campañas de correo electrónico personalizadas visualmente, vinculadas a perfiles de cliente, a productos y a bases de datos de canales.
 
 Consulte también los siguientes vídeos de formación:

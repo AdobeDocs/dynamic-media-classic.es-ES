@@ -10,16 +10,16 @@ role: Data Engineer,Admin,User
 exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
 topic: Integrations, Development
 level: Experienced
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '1233'
-ht-degree: 17%
+source-wordcount: '1234'
+ht-degree: 18%
 
 ---
 
 # Configuración de informes de Adobe Analytics{#configuring-adobe-analytics-reports}
 
-Para indicar a Adobe Analytics qué información desea incluir en los informes de Adobe Analytics, vaya a la pantalla Configuración de Adobe Analytics. Después de configurar los informes, esta pantalla enumera, para cada evento de visor sobre el que desee obtener información, una variable de Adobe Analytics y una variable de Adobe Dynamic Media Classic correspondientes. Estas combinaciones de eventos de visualizador, variables de Adobe Analytics y variables de Adobe Dynamic Media Classic determinan qué información se registra en los informes.
+Para indicar a Adobe Analytics qué información desea incluir en los informes de Adobe Analytics, vaya a la pantalla Configuración de Adobe Analytics. Siguiendo los informes de configuración, esta pantalla enumera, para cada evento de visualizador del que desee obtener información, una variable de Adobe Analytics y una variable de Adobe Dynamic Media Classic correspondientes. Estas combinaciones de eventos de visualizador, variables de Adobe Analytics y variables de Adobe Dynamic Media Classic determinan qué información se registra en los informes.
 
 Además de asociar eventos de visor con variables, la pantalla Configuración de Adobe Analytics ofrece herramientas para activar, editar y eliminar eventos de visor.
 
@@ -37,8 +37,8 @@ Utilice la pantalla Configuración de Adobe Analytics para asociar eventos de vi
 
 **Para asignar variables de Adobe Analytics a eventos y variables de visualizador de Adobe Dynamic Media Classic:**
 
-1. Después de iniciar sesión en Adobe Analytics desde Adobe Dynamic Media Classic y seleccionar un grupo de informes, en la página Configuración de Adobe Analytics, en la columna de la tabla derecha, active un evento de visor seleccionando **[!UICONTROL Activar]**.
-1. En la columna Variables, muestre el selector de pares de variables seleccionando el botón de flecha para el Evento de visor deseado.
+1. Después de iniciar sesión en Adobe Analytics desde Dynamic Media Classic y seleccionar un grupo de informes, en la página Configuración de Adobe Analytics, en la columna de la tabla derecha, active un evento de visor seleccionando **[!UICONTROL Activar]**.
+1. En la columna Variables, muestre el selector de pares de variables seleccionando el botón de flecha para el evento de visor deseado.
 
    Consulte [Eventos de visor](configuring-analytics-reports.md#viewer_events).
 
@@ -59,23 +59,23 @@ Utilice la pantalla Configuración de Adobe Analytics para asociar eventos de vi
 
 ### Eventos de visor {#viewer-events}
 
-Los eventos de visor describen las acciones que los usuarios realizan con los visores de Adobe Dynamic Media Classic. Cuando un usuario inicia una acción determinada, como seleccionar una miniatura o iniciar o detener un vídeo, el visualizador &quot;difunde&quot; un evento a la página web, junto con los datos asociados a ese evento.
+Los eventos de visor describen las acciones que los usuarios realizan con los visores de Dynamic Media Classic. Cuando un usuario inicia una acción (por ejemplo, seleccionar una miniatura o iniciar o detener un vídeo), el visualizador &quot;difunde&quot; un evento a la página web. Los datos asociados con ese evento también se insertan.
 
 En la tabla siguiente se describen los eventos de visor que se pueden agregar a la pantalla Configuración de Adobe Analytics.
 
 | Evento de visor | Compatibilidad y visores de plataforma de visor HTML5 | Descripción |
 | --- | --- | --- |
 | LOAD | **X** (catálogo electrónico, flotante, conjunto de giros, vídeo, zoom) | Cuando un usuario inicia un visor |
-| PAGE | **X**  (Catálogo electrónico) | En los catálogos electrónicos, cuando un usuario cambia de página; en los visores de zoom segmentados, cuando selecciona otro destino o muestra de color. |
-| SWAP | **X**  (Catálogo electrónico, Flotante, Conjunto de giros, Vídeo, Zoom) | Cuando un usuario selecciona una miniatura diferente para ver una imagen diferente. |
-| ITEM | **X**  (Catálogo electrónico) | En visores compatibles con mapas de imagen en las que se hayan definido rollovers, cuando un usuario desliza el puntero sobre un mapa de imagen para leer el texto rollover. |
-| HREF | **X**  (Catálogo electrónico) | En los visores compatibles con mapas de imagen, cuando un usuario selecciona una dirección URL en un mapa de imagen. |
+| PAGE | **X** (catálogo electrónico) | En los catálogos electrónicos, cuando un usuario cambia de página; en los visores de zoom segmentados, cuando selecciona otro destino o muestra de color. |
+| SWAP | **X** (catálogo electrónico, flotante, conjunto de giros, vídeo, zoom) | Cuando un usuario selecciona una miniatura diferente para ver una imagen diferente. |
+| ITEM | **X** (catálogo electrónico) | En visores compatibles con mapas de imagen en las que se hayan definido rollovers, cuando un usuario desliza el puntero sobre un mapa de imagen para leer el texto rollover. |
+| HREF | **X** (catálogo electrónico) | En los visores compatibles con mapas de imagen, cuando un usuario selecciona una dirección URL en un mapa de imagen. |
 | TARGET | | En visores de zoom de destino, cuando un usuario selecciona un destino de zoom para ampliar a parte de una imagen. |
 | SEARCH | | En los catálogos electrónicos, cuando un usuario realiza la búsqueda de una palabra. |
-| PLAY | **X**  (Vídeo) | En los visores de vídeo, cuando un usuario selecciona Reproducir para comenzar a reproducir un vídeo.<br><br>**Nota:** Si utiliza los informes de vídeo basados en Adobe Analytics Heartbeat, no es necesario asignar ninguna variable a este evento de visualizador al configurar Adobe Analytics en Adobe Dynamic Media Classic. Video Heartbeat funciona con los visores de vídeo y medios mixtos predeterminados de Adobe Dynamic Media Classic HTML5. El reproductor de vídeo genera datos de seguimiento para verlos en los informes de vídeo de Adobe Analytics. Consulte [Activar informes de vídeo de Adobe Analytics](enabling-analytics-video-reports.md). |
+| PLAY | **X** (vídeo) | En los visores de vídeo, cuando un usuario selecciona Reproducir para comenzar a reproducir un vídeo.<br><br>**Nota:** Si utiliza los informes de vídeo basados en Adobe Analytics Heartbeat, no es necesario asignar ninguna variable a este evento de visualizador al configurar Adobe Analytics en Adobe Dynamic Media Classic. Video Heartbeat funciona con los visores de vídeo y medios mixtos predeterminados de Adobe Dynamic Media Classic HTML5. El reproductor de vídeo genera datos de seguimiento para verlos en los informes de vídeo de Adobe Analytics. Consulte [Activar informes de vídeo de Adobe Analytics](enabling-analytics-video-reports.md). |
 | PAUSE | **X** (vídeo) | En los visores de vídeo, cuando un usuario selecciona **[!UICONTROL Pausar]** para congelar un vídeo.<br><br>**Nota:** Si utiliza los informes de vídeo basados en Adobe Analytics Heartbeat, no es necesario asignar ninguna variable a este evento de visualizador al configurar Adobe Analytics en Adobe Dynamic Media Classic. Video Heartbeat funciona con los visores de vídeo y medios mixtos predeterminados de Adobe Dynamic Media Classic HTML5. El reproductor de vídeo genera datos de seguimiento para verlos en los informes de vídeo de Adobe Analytics. Consulte [Activar informes de vídeo de Adobe Analytics](enabling-analytics-video-reports.md). |
 | STOP | **X** (vídeo) | En los visores de vídeo, cuando un usuario selecciona **[!UICONTROL Detener]** para detener la reproducción de un vídeo.<br><br>**Nota:** Si utiliza los informes de vídeo basados en Adobe Analytics Heartbeat, no es necesario asignar ninguna variable a este evento de visualizador al configurar Adobe Analytics en Adobe Dynamic Media Classic. Video Heartbeat funciona con los visores de vídeo y medios mixtos predeterminados de Adobe Dynamic Media Classic HTML5. El reproductor de vídeo genera datos de seguimiento para verlos en los informes de vídeo de Adobe Analytics. Consulte [Activar informes de vídeo de Adobe Analytics](enabling-analytics-video-reports.md). |
-| MILESTONE | **X**  (Vídeo) | En los visores de vídeo, los eventos de hito se generan cuando el usuario ha visto el 0, el 25, el 50, el 75 o el 100% del vídeo.<br><br>**Nota:** Si utiliza los informes de vídeo basados en Adobe Analytics Heartbeat, no es necesario asignar ninguna variable a este evento de visualizador al configurar Adobe Analytics en Adobe Dynamic Media Classic. Video Heartbeat funciona con los visores de vídeo y medios mixtos predeterminados de Adobe Dynamic Media Classic HTML5. El reproductor de vídeo genera datos de seguimiento para verlos en los informes de vídeo de Adobe Analytics. Consulte [Activar informes de vídeo de Adobe Analytics](enabling-analytics-video-reports.md). |
+| MILESTONE | **X** (vídeo) | En los visores de vídeo, los eventos de hito se generan cuando el usuario ha visto el 0, el 25, el 50, el 75 o el 100% del vídeo.<br><br>**Nota:** Si utiliza los informes de vídeo basados en Adobe Analytics Heartbeat, no es necesario asignar ninguna variable a este evento de visualizador al configurar Adobe Analytics en Adobe Dynamic Media Classic. Video Heartbeat funciona con los visores de vídeo y medios mixtos predeterminados de Adobe Dynamic Media Classic HTML5. El reproductor de vídeo genera datos de seguimiento para verlos en los informes de vídeo de Adobe Analytics. Consulte [Activar informes de vídeo de Adobe Analytics](enabling-analytics-video-reports.md). |
 | SWATCH | **X** (flotante, zoom) | Este evento de visor está asignado al evento de visor de PÁGINAS en Adobe Dynamic Media Classic. |
 | ZOOM | **X** (catálogo electrónico, conjunto de giros, zoom) | No rastreado por Adobe Analytics. |
 | PAN | **X** (catálogo electrónico, conjunto de giros, zoom) | No rastreado por Adobe Analytics. |
@@ -107,6 +107,6 @@ En la pantalla de configuración de Adobe Analytics puede activar, editar y elim
 
 * **Activar** - Seleccionar **[!UICONTROL Activar]** para activar o **[!UICONTROL Deshabilitar]** para desactivar un evento de visor seleccionado.
 
-* **Editar** - Seleccione un evento de visor y seleccione **[!UICONTROL Ver/Editar]** Botón gris de variables. En las listas desplegables Variable de Adobe Dynamic Media Classic y Variable de Adobe Analytics, elija una variable diferente en cada lista respectiva. Para obtener más información, consulte [Asignación de variables de Adobe Analytics a eventos y variables de visualizador de Adobe Dynamic Media Classic](#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables).
+* **Editar** - Seleccione un evento de visor y seleccione el **[!UICONTROL Ver/Editar]** Botón gris de variables. En las listas desplegables Variable de Adobe Dynamic Media Classic y Variable de Adobe Analytics, elija una variable diferente en cada lista respectiva. Para obtener más información, consulte [Asignación de variables de Adobe Analytics a eventos y variables de visualizador de Adobe Dynamic Media Classic](#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables).
 
-* **Eliminar** : seleccione un evento de visor y, a continuación, seleccione **[!UICONTROL Ver/Editar]** Botón gris de variables. Seleccionar **[!UICONTROL Eliminar]**.
+* **Eliminar** - Seleccione un evento de visor y seleccione el **[!UICONTROL Ver/Editar]** Botón gris de variables. Seleccionar **[!UICONTROL Eliminar]**.

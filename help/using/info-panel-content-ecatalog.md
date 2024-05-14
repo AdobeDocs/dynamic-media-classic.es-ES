@@ -10,10 +10,10 @@ role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 topic: Integrations
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 53%
+source-wordcount: '877'
+ht-degree: 40%
 
 ---
 
@@ -23,10 +23,10 @@ Además de utilizar el texto del mapa de imagen para sus rollover en los catálo
 
 Puede administrar la configuración y los datos de InfoPanel mediante las siguientes funciones de Adobe Dynamic Media Classic:
 
-* El panel de configuración del panel de información le permite especificar la plantilla que desea usar para mostrar el texto del panel de información, una respuesta predeterminada para los errores y el número de horas del almacenamiento de la información en caché. Además, puede especificar si desea publicar automáticamente los catálogos electrónicos.
+* El panel Configuración de InfoPanel le permite especificar la plantilla utilizada para mostrar el texto del Panel de información, una respuesta predeterminada para los errores y el número de horas que la información se almacena en caché. Además, puede especificar si desea publicar automáticamente los catálogos electrónicos.
 * El panel Fuente de datos de InfoPanel le permite especificar un archivo CSV que contiene el texto que desea que aparezca en el texto de rollover de InfoPanel y programar tiempos para actualizar la información.
-* El cuadro de diálogo Importar metadatos (al que se accede a través de la vista Páginas de mapa) permite importar un archivo TXT delimitado por tabuladores con la información del texto rollover. Puede utilizar esta opción TXT o el panel Fuente de datos con la opción de archivo CSV para el texto de rollover.
-* La vista Páginas de mapa proporciona una opción para previsualizar el XML que aparece para los mapas de imagen específicos.
+* El cuadro de diálogo Importar metadatos (al que se accede desde la vista Páginas de mapa) permite importar un archivo TXT delimitado por tabuladores que contiene la información de texto de rollover. Puede utilizar esta opción TXT o el panel Fuente de datos con la opción de archivo CSV para el texto de rollover.
+* La vista Páginas de mapas proporciona una opción para obtener una vista previa del xml que aparece para mapas de imagen específicos.
 
 ## Configuración de una plantilla de respuesta para catálogos electrónicos {#set-up-a-response-template-for-ecatalogs}
 
@@ -55,12 +55,12 @@ Puede seleccionar una de las tres plantillas de respuesta preestablecidas para m
 
 ## Importar contenido de origen para el panel de información en catálogos electrónicos {#import-source-content-for-the-info-panel-in-ecatalogs}
 
-Puede utilizar archivos de valores separados por comas (CSV) o archivos delimitados por tabuladores (TXT) para el texto de origen del panel de información de un catálogo electrónico. Los archivos delimitados por tabuladores deben usar la codificación UTF16 (Unicode). Puede importar los distintos tipos de archivos mediante diferentes métodos.
+Puede utilizar archivos de valores separados por comas (CSV) o archivos delimitados por tabuladores (TXT) para el texto de origen del panel de información de un catálogo electrónico. Los archivos delimitados por tabuladores deben usar la codificación UTF16 (Unicode). Puede importar los distintos tipos de archivo mediante diferentes métodos.
 
 Cuando dé formato al contenido de origen, tenga en cuenta las siguientes pautas:
 
 * Asegúrese de que los archivos de datos delimitados por comas y tabuladores contienen tantas columnas como sean necesarias para la plantilla de rollover.
-* Asegúrese de que el primer elemento o columna de datos es el identificador de rollover (asociado con el valor rollover_key de las URL de mapas de imagen).
+* Asegúrese de que el primer elemento o columna de datos sea el identificador de rollover (asociado al valor rollover_key de las direcciones URL del mapa de imagen).
 * Asegúrese de que cada elemento delimitado por tabulaciones o comas después del identificador sea el elemento que desee sustituir en la plantilla de respuesta. Por lo tanto, la primera columna se sustituye en $1$, la segunda columna en $2$, etc.
 
 ### Importación de contenido CSV en catálogos electrónicos desde una ubicación alojada de forma externa {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}
@@ -69,7 +69,7 @@ Cuando dé formato al contenido de origen, tenga en cuenta las siguientes pautas
 1. Seleccione el **[!UICONTROL Fuente de datos de InfoPanel]** panel.
 1. Introduzca la dirección URL para el archivo CSV en el cuadro Ubicación del archivo CSV alojado de forma externa. Puede pegar la URL en este campo o escribirla directamente.
 1. (Opcional) Especifique una hora para actualizar el contenido mediante el menú Programar actualización y seleccione **[!UICONTROL Añadir]**. Puede seleccionar varios tiempos de actualización. Cada tiempo de actualización aparece en el cuadro de tiempos de actualización. (Para quitar una hora, selecciónela y seleccione **[!UICONTROL Eliminar]**.)
-1. (Opcional) Seleccione **[!UICONTROL Ejecutar actualización ahora]** para actualizar el contenido inmediatamente.
+1. (Opcional) Seleccione **[!UICONTROL Ejecutar actualización ahora]** para que pueda actualizar el contenido inmediatamente.
 
 ### Importación de un archivo CSV o delimitado por tabuladores {#import-a-tab-delimited-or-csv-file}
 

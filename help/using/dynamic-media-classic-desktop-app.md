@@ -10,14 +10,14 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '1985'
+source-wordcount: '1993'
 ht-degree: 0%
 
 ---
 
-# Ahora disponible: aplicación de escritorio de Adobe Dynamic Media Classic {#dynamic-media-classic-desktop-app}
+# Ya disponible: aplicación de escritorio de Adobe Dynamic Media Classic {#dynamic-media-classic-desktop-app}
 
 Los usuarios de Adobe Dynamic Media Classic ahora tienen acceso a una nueva experiencia de aplicación de escritorio que ya no depende de la tecnología de Flash de Adobe en el navegador.
 
@@ -48,7 +48,7 @@ La notificación de actualización dentro de la aplicación de escritorio de Ado
 
 * Al editar una imagen, la variable **[!UICONTROL Guardar]** Los botones no funcionaban.
 * En los editores de conjuntos, la variable **[!UICONTROL Cerrar]**, **[!UICONTROL Guardar]**, y **[!UICONTROL Guardar como]** Los botones se desactivan después de desplazarse por los recursos en la **[!UICONTROL Añadir recursos]** panel.
-* **[!UICONTROL Reproducir]** El botón en la vista de detalles de vídeo no funcionaba.
+* El **[!UICONTROL Reproducir]** El botón en la vista de detalles de vídeo no funcionaba.
 * No se ha podido introducir `d` y `e` in **[!UICONTROL Nombre de usuario]** y **[!UICONTROL Contraseña]** al ejecutar macOS Monterrey.
 * Se han movido las API de análisis restantes a la versión 2.0.
 
@@ -58,16 +58,16 @@ La notificación de actualización dentro de la aplicación de escritorio de Ado
 * La aplicación de escritorio deja de responder, generalmente después de establecer operaciones.
 * Modo de bloqueo y ofuscación de solicitudes activado automáticamente en **[!UICONTROL Probar servicio de imágenes]**.
 
-  Consulte [Prueba del servicio Secure Testing](/help/using/testing-assets-making-them-public.md#testing-the-secure-testing-service).
+  Consulte [El servicio Secure Testing](/help/using/testing-assets-making-them-public.md#testing-the-secure-testing-service).
 
-* Se ha actualizado el mecanismo de autenticación con Adobe Analytics. Es relevante para las nuevas integraciones o si algunas variables de Analytics deben actualizarse desde la aplicación de escritorio de Dynamic Media Classic.
+* Se ha actualizado el mecanismo de autenticación con Adobe Analytics. Es relevante para nuevas integraciones o si algunas variables de Analytics deben actualizarse desde la aplicación de escritorio de Dynamic Media Classic.
 
   Consulte [Iniciar sesión en Adobe Analytics](/help/using/log-analytics.md) para ver los pasos actualizados.
 
 ## Correcciones en la versión 20.21.2 {#minor-release}
 
 * Limitación conocida en 20.21.1: la variable **[!UICONTROL Servidor]** La lista desplegable de la pantalla de inicio de sesión estaba vacía.
-* Entrada **[!UICONTROL Opciones del trabajo de carga]**, Valor predeterminado de nomenclatura de capas en **[!UICONTROL Opciones de Photoshop]**, es ahora **[!UICONTROL Nombre de capa y Photoshop]**. Las capas del archivo de PSD se cargan como imágenes independientes.
+* Entrada **[!UICONTROL Opciones del trabajo de carga]**, el valor predeterminado Nombre de capa en **[!UICONTROL Opciones de Photoshop]**, es ahora **[!UICONTROL Nombre de capa y Photoshop]**. Las capas del archivo de PSD se cargan como imágenes independientes.
    * El valor predeterminado anterior de **[!UICONTROL Nombre de capa]**, asigne a las imágenes un nombre en función del nombre o el número de capa que tengan en el archivo de PSD. El número de capa se utilizaba si los nombres de capa del fichero de PSD eran nombres de capa de Photoshop por defecto.
    * El nuevo valor predeterminado de **[!UICONTROL Nombre de capa y Photoshop]**, asigna un nombre a las imágenes después del archivo de PSD seguido del nombre o número de capa. El número de capa se utiliza si los nombres de capa del fichero de PSD son nombres de capa de Photoshop por defecto.
    * Dado que las imágenes de capa de Adobe Dynamic Media Classic ahora tienen nombres únicos, no se va a realizar ninguna actualización de las plantillas existentes o del PSD (qué nombres de capa compartidos en los archivos de PSD originales).
@@ -145,18 +145,18 @@ Consulte también:
 
 1. Después de iniciar sesión, observe la experiencia familiar de la interfaz de usuario del explorador. Puede continuar con su actividad diaria de Adobe Dynamic Media Classic como de costumbre en la aplicación de escritorio.
 
-## Descargar y *silencioso* instale la última aplicación de escritorio de Adobe Dynamic Media Classic en macOS {#install-silent-mac-dmc-app}
+## Descargar y *silenciosamente* instale la última aplicación de escritorio de Adobe Dynamic Media Classic en macOS {#install-silent-mac-dmc-app}
 
 Consulte también:
 
 * [Descargue e instale la última aplicación de escritorio de Adobe Dynamic Media Classic en Mac o Windows](#installation-dmc-app)
 * [Descargue e instale de forma silenciosa la última aplicación de escritorio de Adobe Dynamic Media Classic en Windows](#install-silent-windows-dmc-app)
 
-Para descargar y *silencioso* instale la última versión de la aplicación de escritorio de Adobe Dynamic Media Classic en macOS:
+Para descargar y *silenciosamente* instale la última versión de la aplicación de escritorio de Adobe Dynamic Media Classic en macOS:
 
 1. Desinstale las versiones anteriores de la aplicación de escritorio de Adobe Dynamic Media Classic en el sistema.
 
-1. Descargue el último instalador de la aplicación de escritorio de Adobe Dynamic Media Classic para macOS.
+1. Descargue el último instalador para la aplicación de escritorio de Adobe Dynamic Media Classic para macOS.
 
    * [macOS (.DMG): Descargar](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
 
@@ -185,7 +185,7 @@ Para descargar y *silencioso* instale la última versión de la aplicación de e
    | Producción de EMEA (Europa, Oriente Medio y África) | https://s7sps3.scene7.com/ |
    | Producción de Asia-Pacífico (Asia-Pacífico) | https://s7sps5.scene7.com/ |
 
-## Descargar y *silencioso* instale la última aplicación de escritorio de Adobe Dynamic Media Classic en Windows® {#install-silent-windows-dmc-app}
+## Descargar y *silenciosamente* instale la última aplicación de escritorio de Adobe Dynamic Media Classic en Windows® {#install-silent-windows-dmc-app}
 
 El comando que utiliza es para una instalación silenciosa MSI básica. Sin embargo, el instalador de la aplicación de escritorio de Adobe Dynamic Media Classic es un instalador MSI de InstallScript creado con InstallShield. Cuando se ejecuta el instalador en modo de registro, cualquier interacción del usuario se registra en un archivo de respuesta. Este archivo de respuesta se utiliza para una instalación silenciosa como se describe en [Ejecución de instalaciones en modo silencioso](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/SilentInstall.htm).
 
@@ -195,7 +195,7 @@ Consulte también:
 
 * [Descargue e instale de forma silenciosa la última aplicación de escritorio de Adobe Dynamic Media Classic en macOS](#install-silent-mac-dmc-app)
 
-Para descargar y *silencioso* instale la última versión de la aplicación de escritorio de Adobe Dynamic Media Classic en Windows®:
+Para descargar y *silenciosamente* instale la última versión de la aplicación de escritorio de Adobe Dynamic Media Classic en Windows®:
 
 1. Desinstale las versiones anteriores de la aplicación de escritorio de Adobe Dynamic Media Classic en el sistema.
 

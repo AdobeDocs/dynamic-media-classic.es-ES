@@ -10,10 +10,10 @@ role: Data Engineer,Admin,User
 exl-id: a8fa2414-af01-4a58-bb33-dfd12c1056cc
 topic: Integrations
 level: Experienced
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 24%
+source-wordcount: '689'
+ht-degree: 21%
 
 ---
 
@@ -31,13 +31,13 @@ Consulte también [Medir vídeo en Adobe Analytics](https://experienceleague.ado
 >
 >Se necesita una cuenta de Adobe Analytics válida para integrar Analytics con Adobe Dynamic Media Classic y generar informes de Analytics.
 
-Este inicio rápido se ha diseñado para ayudarle en el uso inicial del kit de instrumentación de Adobe Analytics.
+Este inicio rápido está diseñado para ayudarle a empezar rápidamente con el kit de instrumentación de Adobe Analytics.
 
-## 1. Inicie sesión en Adobe Analytics mediante Adobe Dynamic Media Classic y descargue las variables de informes de Adobe Analytics
+## 1. Inicie sesión en Adobe Analytics mediante Adobe Dynamic Media Classic y descargue las variables del informe de Adobe Analytics
 
 >[!NOTE]
 >
->Para poder configurar informes de Adobe Analytics y hacer coincidir las variables de informes de Adobe Analytics con los eventos de Adobe Dynamic Media Classic, compruebe que ha sido agregado como miembro del grupo Acceso a servicio web en Adobe Analytics. Los miembros de este grupo pueden acceder a todos los informes de los grupos de informes especificados mediante la API de servicios web del Experience Cloud, independientemente de los permisos establecidos en la interfaz. Para agregar un miembro al grupo, en Adobe Analytics, vaya a **[!UICONTROL Herramientas de administración]** > **[!UICONTROL Administración de usuarios]** > **[!UICONTROL Editar grupos]**.
+>Compruebe que se le agrega como miembro del grupo Acceso a servicio Web en Adobe Analytics. Antes de configurar los informes de Adobe Analytics, realice esta verificación. Y antes de relacionar las variables de informes de Adobe Analytics con los eventos de Adobe Dynamic Media Classic. Los miembros de este grupo pueden acceder a todos los informes de los grupos de informes especificados. Puede hacerlo mediante la API de servicios web del Experience Cloud independientemente de los permisos establecidos en la interfaz. Para agregar un miembro al grupo, en Adobe Analytics, vaya a **[!UICONTROL Herramientas de administración]** > **[!UICONTROL Administración de usuarios]** > **[!UICONTROL Editar grupos]**.
 
 Después de comprobar que es miembro del grupo Acceso a servicio Web, vaya a Adobe Dynamic Media Classic **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Adobe Analytics]**. En la página Configuración de Adobe Analytics, seleccione **[!UICONTROL Inicio de sesión de Adobe Analytics]**.
 
@@ -60,7 +60,7 @@ Consulte [Configuración de informes de Adobe Analytics](configuring-analytics-r
 
 ## 3. Publique sus visores de Adobe Dynamic Media Classic
 
-Publique sus visores de Adobe Dynamic Media Classic para que los visores de (con código para rastrear la actividad de los usuarios en los informes de Adobe Analytics) se carguen en los servidores de Adobe Dynamic Media Classic. Después de la publicación, esta información se incluye en los visores y Adobe Analytics la puede utilizar para realizar análisis.
+Publique sus visores de Adobe Dynamic Media Classic para que los visores de (con código para rastrear la actividad de los usuarios en los informes de Adobe Analytics) se carguen en los servidores de Adobe Dynamic Media Classic. Después de la publicación, esta información se incluye en los visualizadores. Utilícelo para el análisis por parte de Adobe Analytics.
 
 Consulte [Publicar información de configuración](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
 

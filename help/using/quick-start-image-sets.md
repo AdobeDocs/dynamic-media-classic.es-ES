@@ -10,10 +10,10 @@ role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 14%
+source-wordcount: '670'
+ht-degree: 13%
 
 ---
 
@@ -60,7 +60,7 @@ Consulte también [Incluir destinos de zoom y mapas de imagen en conjuntos de im
 
 Los administradores pueden crear o modificar los ajustes preestablecidos de visor de conjuntos de imágenes. Adobe Dynamic Media Classic incluye ajustes preestablecidos de visor predeterminados para cada tipo de medio enriquecido. Uso del Visor de zoom: **[!UICONTROL Personalizado]** > **[!UICONTROL Imágenes]** o **[!UICONTROL Conjuntos de imágenes]**/**[!UICONTROL Vistas múltiples]** para ver los conjuntos de imágenes.
 
-Puede añadir o editar los ajustes preestablecidos del visor desde la pantalla Ajustes de aplicación.
+Puede agregar o editar ajustes preestablecidos de visor desde la pantalla Ajustes de aplicación.
 
 Consulte [Crear y editar ajustes preestablecidos de visor](application-setup.md#adding-and-editing-viewer-presets).
 
@@ -86,6 +86,6 @@ Consulte [Publicar archivos](publishing-files.md#publishing-files).
 
 Adobe Dynamic Media Classic crea llamadas de URL para conjuntos de imágenes y las activa después de la publicación. Puede copiar estas direcciones URL desde la pantalla Vista previa.
 
-Seleccione el conjunto de imágenes y, a continuación, seleccione **[!UICONTROL Previsualizar]**. A continuación, seleccione un ajuste preestablecido del visualizador de conjuntos de imágenes y seleccione **[!UICONTROL Copiar URL]**.
+Seleccione el conjunto de imágenes y, a continuación, seleccione **[!UICONTROL Previsualizar]**. A continuación, seleccione un ajuste preestablecido de visualizador de conjuntos de imágenes y haga clic en **[!UICONTROL Copiar URL]** botón.
 
-Consulte [Vinculación de un conjunto de imágenes a una página web](linking-image-set-web-page.md#linking-an-image-set-to-a-web-page).
+Consulte [Vinculación del conjunto de imágenes a una página web](linking-image-set-web-page.md#linking-an-image-set-to-a-web-page).

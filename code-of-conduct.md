@@ -1,5 +1,5 @@
 ---
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
@@ -54,7 +54,8 @@ No se ajusta a este Código de conducta. O, prohibir, temporal o permanentemente
 
 ## Ámbito
 
-Este Código de conducta se aplica tanto dentro de los espacios del proyecto como en los espacios públicos cuando un individuo representa al proyecto o a su comunidad. Algunos ejemplos de representación de un proyecto o comunidad incluyen el uso de una dirección de correo electrónico oficial del proyecto o publicaciones a través de una cuenta oficial de medios sociales. También incluye actuar como representante designado en un evento en línea o sin conexión. Los administradores de proyectos podrán definir y aclarar con mayor detalle la representación de un proyecto.
+Este Código de conducta se aplica tanto dentro de los espacios del proyecto como en los espacios públicos cuando un individuo representa al proyecto o a su comunidad.
+Algunos ejemplos de representación de un proyecto o comunidad incluyen el uso de una dirección de correo electrónico oficial del proyecto o publicaciones a través de una cuenta oficial de medios sociales. También incluye actuar como representante designado en un evento en línea o sin conexión. Los administradores de proyectos pueden definir y aclarar mejor la representación de un proyecto.
 
 ## Aplicación
 

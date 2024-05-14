@@ -6,9 +6,9 @@ role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
 topic: Administration, Migration
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ El nuevo [!DNL Dynamic Media] el [!DNL Adobe Experience Manager] se basa en la f
 | --- | --- |
 | Método del archivo principal | Cargue un recurso de tamaño completo y, a continuación, [!DNL Dynamic Media] crea automáticamente tamaños según sea necesario. |
 | Creación sencilla | Cree, personalice e inicie experiencias enriquecidas rápidamente sin necesidad de ayuda técnica. |
-| Interfaz intuitiva | Edite visualizadores de imágenes y reproductores de vídeo con una interfaz WYSIWYG (What You See It What You Get) tan fácil de usar. |
+| Interfaz intuitiva | Edite visualizadores de imágenes y reproductores de vídeo con una interfaz WYSIWYG (What You See It What You Get) fácil de usar. |
 | Medios de ventas | Cree imágenes, vídeos y carruseles de ventas con zonas interactivas de imágenes y vínculos en los que puede hacer clic. |
 | CDN escalable | Acceda a la mejor red de distribución de contenido (CDN) con escala y rendimiento probados para satisfacer cualquier demanda. |
 | Dynamic Imaging | Con un archivo principal, genere y publique automáticamente versiones ilimitadas, cambiando el tamaño, el formato, la resolución, el recorte o el efecto. |
@@ -35,7 +35,7 @@ El nuevo [!DNL Dynamic Media] el [!DNL Adobe Experience Manager] se basa en la f
 
 ## Ventajas y capacidades clave de [!DNL Dynamic Media]
 
-[!DNL Dynamic Media] es la evolución natural de [!DNL Dynamic Media Classic] y ofrece conjuntos de herramientas de creación, publicación y envío de medios enriquecidos, incluida la mejor entrega de su clase con una interfaz innovadora y centrada en el usuario, lo que fomenta los flujos de trabajo modernos en el mundo real.
+[!DNL Dynamic Media] es la evolución natural de [!DNL Dynamic Media Classic]. Ofrece conjuntos de herramientas de creación, publicación y envío de medios enriquecidos. También incluye el mejor envío de su clase con una interfaz innovadora y centrada en el usuario, lo que fomenta los flujos de trabajo modernos en el mundo real.
 
 * Integración y experiencia unificadas y sin problemas con [!DNL Adobe Experience Manager]: configure y distribuya de forma dinámica contenido enriquecido desde una tienda, una fuente
 * Nueva experiencia de usuario centrada en el especialista en marketing para facilitar la creación y el envío de contenido con medios enriquecidos
@@ -52,7 +52,7 @@ El nuevo [!DNL Dynamic Media] el [!DNL Adobe Experience Manager] se basa en la f
 
 ## ¿Por qué Adobe?
 
-* El mayor motor positivo en el informe Forrester WAVE de activos digitales.
+* El mayor motor positivo en activos digitales informe Forrester WAVE.
 * Fuerte desempeño en 2016 informe de la plataforma de vídeo en línea.
 * El principal proveedor de medios enriquecidos de Internet Retail 1000, nueve años seguidos.
 * Compatibilidad con 24/7/265, SLA del 99,95 %, Adobe Professional Services.

@@ -10,10 +10,10 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '1437'
-ht-degree: 30%
+source-wordcount: '1443'
+ht-degree: 28%
 
 ---
 
@@ -23,21 +23,21 @@ Adobe Dynamic Media Classic Video es una solución integral que facilita la publ
 
 Por ejemplo, en un dispositivo móvil iOS, detecta un ancho de banda de, por ejemplo, 3G, 4G o Wi-Fi. A continuación, selecciona de forma automática el vídeo codificado correcto de las diversas velocidades de bits que incluye el conjunto de vídeos adaptable. El vídeo se transmite a equipos de escritorio, dispositivos móviles o tablets.
 
-Además, la calidad de vídeo se cambia dinámicamente de forma automática si las condiciones de la red cambian en el equipo de escritorio o en el dispositivo móvil. Además, si un cliente entra en modo de pantalla completa en un equipo de escritorio, el conjunto de vídeos adaptable responde con una mejor resolución, lo que mejora la experiencia de visualización del cliente. El uso de conjuntos de vídeos adaptables proporciona la mejor reproducción posible para los clientes que reproducen vídeo de Adobe Dynamic Media Classic en varias pantallas y dispositivos.
+Además, la calidad de vídeo se cambia dinámicamente de forma automática si las condiciones de la red cambian en el equipo de escritorio o en el dispositivo móvil. Además, si un cliente entra en modo de pantalla completa en un equipo de escritorio, el conjunto de vídeos adaptable responde con una mejor resolución, lo que mejora la experiencia de visualización del cliente. El uso de conjuntos de vídeos adaptables proporciona la mejor reproducción posible. Es mejor para los clientes que reproducen Adobe Dynamic Media Classic Video en varias pantallas y dispositivos.
 
 La lógica que un reproductor de vídeo utiliza para determinar qué vídeo codificado se debe reproducir o seleccionar durante la reproducción se basa en el siguiente algoritmo:
 
-1. El reproductor de vídeo carga el fragmento de vídeo inicial en función de la velocidad de bits más cercana al valor establecido para la &quot;velocidad de bits inicial&quot; en el propio reproductor.
+1. El reproductor de vídeo carga el fragmento de vídeo inicial en función de la velocidad de bits más cercana al valor establecido para &quot;velocidad de bits inicial&quot; en el propio reproductor.
 1. El reproductor de vídeo cambia según los cambios en la velocidad del ancho de banda según los siguientes criterios:
 
-   1. El jugador elige el flujo de ancho de banda más alto por debajo o igual al ancho de banda estimado.
-   1. El reproductor considera solo el 80% del ancho de banda disponible. Sin embargo, si se está cambiando a arriba, es más conservador en solo el 70% para evitar la sobreestimación y tener que volver inmediatamente.
+   1. El reproductor elige el flujo de ancho de banda más alto por debajo o igual al ancho de banda estimado.
+   1. El reproductor considera solo el 80% del ancho de banda disponible. Sin embargo, si está subiendo, es más conservador en solo el 70% para evitar la sobreestimación y volver inmediatamente.
 
 Consulte la lógica del algoritmo en [https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp) para obtener información técnica al respecto.
 
 Para administrar vídeos únicos y conjuntos de vídeos adaptables, Adobe Dynamic Media Classic admite lo siguiente:
 
-* Carga de vídeos de varios formatos de vídeo y audio compatibles y codificación de vídeo al formato MP4 H.264 para su reproducción en varias pantallas. Puede utilizar ajustes preestablecidos de vídeo adaptables predefinidos de Adobe Dynamic Media Classic, ajustes preestablecidos de codificación de vídeo únicos o personalizar su propia codificación para controlar la calidad y el tamaño del vídeo.
+* Carga de vídeo desde varios formatos de vídeo compatibles. Y, cargar formatos de audio y codificar vídeo a formato MP4 H.264 para su reproducción en varias pantallas. Puede utilizar ajustes preestablecidos de Adobe Dynamic Media Classic Adaptive Video, ajustes preestablecidos de codificación de vídeo únicos o personalizar su propia codificación para controlar la calidad y el tamaño del vídeo.
 
 Consulte [Activar o desactivar ajustes preestablecidos de vídeo adaptables](/help/using/application-setup.md#activating-or-deactivating-adaptive-video-presets)
 
@@ -51,12 +51,12 @@ Cuando se genera un conjunto de vídeos adaptable, incluye vídeos MP4.
 
 * Subtítulos de vídeo en los visores Universal_HTML 5_Video, Universal_HTML 5_MixedMedia_dark y Universal_HTML 5_MixedMedia_light y navegación de capítulos de vídeo en los visores Universal_HTML 5_Video, Universal_HTML 5_MixedMedia_dark y Universal_HTML 5_MixedMedia_light.
 
-  Consulte [Agregar subtítulos a vídeo](adding-captions-video.md).
+  Consulte [Adición de subtítulos a un vídeo](adding-captions-video.md).
 
-  Consulte [Añadir marcadores de capítulo al vídeo](adding-chapter-markers-video.md).
+  Consulte [Adición de marcadores de capítulo a un vídeo](adding-chapter-markers-video.md).
 
 * Organice, explore o busque vídeos con total compatibilidad de metadatos para gestionar eficazmente sus recursos de vídeo. 
-* Ofrezca conjuntos de vídeos adaptables a la web y a equipos de escritorio y dispositivos móviles, incluidos iPhone, iPad, Android™, BlackBerry® y Windows® phone.
+* Ofrezca conjuntos de vídeos adaptables a la web y a equipos de escritorio y dispositivos móviles, incluidos iPhone, iPad, Android™, BlackBerry® y teléfonos Windows®.
 
   La transmisión de vídeo adaptable es compatible con varias plataformas de iOS.
 
@@ -72,7 +72,7 @@ Cuando se genera un conjunto de vídeos adaptable, incluye vídeos MP4.
 
 * Reproduzca el vídeo con los ajustes preestablecidos del visualizador de Adobe Dynamic Media Classic, incluidos los siguientes:
 
-   * Visores de vídeos únicos.
+   * Visualizadores de vídeo únicos.
    * Visores de medios mixtos que combinan contenido de vídeo y de imagen.
 
 * Configuración de reproductores de vídeo para cumplir las necesidades de marca.
@@ -95,12 +95,12 @@ La siguiente descripción paso a paso del flujo de trabajo se ha diseñado para 
 
 Cargue y genere conjuntos de vídeos adaptables con una de los dos situaciones siguientes:
 
-* **Cargar vídeos precodificados** - Si los vídeos ya se han codificado fuera de Adobe Dynamic Media Classic, en la barra de navegación global, seleccione **[!UICONTROL Cargar]** para examinar y cargar archivos de vídeo MP4 directamente en Adobe Dynamic Media Classic. A continuación, vaya a **[!UICONTROL Generar]** > **[!UICONTROL Conjuntos de vídeos adaptables]**. Busque los archivos de vídeo. Arrastre y suelte los archivos de vídeo que desee en la tabla Conjunto de vídeos adaptable y, a continuación, guarde el conjunto.
-* **Cargar vídeos de origen principal** - Si los vídeos no están codificados, en la barra de navegación global, seleccione **[!UICONTROL Cargar]** para cargar archivos de origen de vídeo principales (no MP4). Adobe Dynamic Media Classic los codifica en archivos MP4 por usted. En el **[!UICONTROL Opciones del trabajo de carga]** , debajo de **[!UICONTROL Opciones de vídeo]**, seleccione **[!UICONTROL Vídeo adaptable]**.
+* **Cargar vídeos precodificados**: Si los vídeos ya se han codificado externamente desde Adobe Dynamic Media Classic, en la barra de navegación global, seleccione **[!UICONTROL Cargar]**. Explore y cargue archivos de vídeo MP4 directamente en Adobe Dynamic Media Classic. A continuación, vaya a **[!UICONTROL Generar]** > **[!UICONTROL Conjuntos de vídeos adaptables]**. Busque los archivos de vídeo. Arrastre y suelte los archivos de vídeo que desee en la tabla Conjunto de vídeos adaptable y, a continuación, guarde el conjunto.
+* **Cargar vídeos de origen principal**: Si los vídeos no están codificados, en la barra de navegación global, seleccione **[!UICONTROL Cargar]** para cargar archivos de origen de vídeo principales (no MP4). Adobe Dynamic Media Classic los codifica en archivos MP4 por usted. En el **[!UICONTROL Opciones del trabajo de carga]** , debajo de **[!UICONTROL Opciones de vídeo]**, seleccione **[!UICONTROL Vídeo adaptable]**.
 
-  Con esta opción preferida, puede crear conjuntos de vídeos adaptables que apliquen automáticamente el ajuste preestablecido de codificación correcto al vídeo, ya sea 16:9 o 4:3, para que coincida con las dimensiones del vídeo cargado. Al enviar el trabajo de carga, se crea automáticamente un conjunto de vídeos adaptable que incluye tres ajustes de codificación de vídeo en la relación de aspecto correcta.
+  Con esta opción preferida, puede crear conjuntos de vídeos adaptables. El ajuste preestablecido de codificación correcto se aplica automáticamente al vídeo, ya sea 16:9 o 4:3, para que coincida con las dimensiones del vídeo que ha cargado. Al enviar el trabajo de carga, se crea automáticamente un conjunto de vídeos adaptable que incluye tres ajustes de codificación de vídeo en la relación de aspecto correcta.
 
-  O, en el mismo **[!UICONTROL Opciones de trabajo]** , debajo de **[!UICONTROL Opciones de vídeo]**, expanda **[!UICONTROL Ajustes preestablecidos de codificación única]**. Seleccione los ajustes preestablecidos de codificación de vídeo individuales que desee de **Escritorio**, **Móvil (iPhone, iPad, Android™)**, y **Tablet (iPad, Android™)** para crear los archivos MP4.
+  O, en el mismo **[!UICONTROL Opciones de trabajo]** , debajo de **[!UICONTROL Opciones de vídeo]**, expanda **[!UICONTROL Ajustes preestablecidos de codificación única]**. Seleccione los ajustes preestablecidos de codificación de vídeo individuales que desee. Puede seleccionar **Escritorio**, **Móvil (iPhone, iPad, Android™)**, y **Tablet (iPad, Android™)** para crear los archivos MP4.
 
 * O bien, puede volver a procesar un vídeo principal mediante la variable **[!UICONTROL Reprocesamiento]** función. Los vídeos recién codificados se añaden al Conjunto de vídeos adaptable existente.
 
@@ -116,7 +116,7 @@ Consulte [Trabajar con ajustes preestablecidos de codificación de vídeo](uploa
 
 ## 2. Vista previa de vídeos en un visor de vídeos
 
-Para ver cómo se reproduce un vídeo para los usuarios finales en un escritorio, un sitio web o un dispositivo móvil, seleccione el vídeo en el panel Examinar y, a continuación, seleccione **[!UICONTROL Previsualizar]**.
+Para ver cómo se reproduce un vídeo para los usuarios finales en un escritorio, un sitio web o un dispositivo móvil, seleccione el vídeo en el panel Examinar. A continuación seleccione **[!UICONTROL Previsualizar]**.
 
 Consulte [Vista previa de vídeos en un visor de vídeos](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
 
@@ -152,7 +152,7 @@ Para incorporar el vídeo en el sitio web, puede realizar cualquiera de las acci
 
   >[!NOTE]
   >
-  >Incrustar código solo se activa después de publicar el vídeo o el conjunto de vídeos adaptables.
+  >El código incrustado solo se activa después de publicar el vídeo o el conjunto de vídeos adaptable.
 
 Consulte [Implementación de vídeo en sitios web y móviles](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
