@@ -10,10 +10,10 @@ role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 24%
+source-wordcount: '1022'
+ht-degree: 22%
 
 ---
 
@@ -31,7 +31,7 @@ Las opciones para cargar archivos de PSD se encuentran en Opciones de Photoshop,
 
 Estas opciones están disponibles al cargar archivos PSD:
 
-* **Opciones de recorte** - Situado debajo de **[!UICONTROL Opciones de recorte]**. Seleccionar **[!UICONTROL Recortar]** para recortar automáticamente el espacio en blanco de los bordes de un archivo de PSD; seleccione **[!UICONTROL Manual]** para recortar lados del archivo PSD:
+* **Opciones de recorte** - Situado debajo de **[!UICONTROL Opciones de recorte]**. Seleccionar **[!UICONTROL Recortar]** para que pueda recortar automáticamente el espacio en blanco de los bordes de un archivo de PSD. Seleccionar **[!UICONTROL Manual]** para recortar los lados del archivo PSD:
 
    * **[!UICONTROL Recortar]** - Seleccione el **[!UICONTROL Recortar basándose en]** y elija. **[!UICONTROL Color]** o **[!UICONTROL Transparencia]**.
 
@@ -39,7 +39,7 @@ Estas opciones están disponibles al cargar archivos PSD:
 
   Arrastre el control deslizante para especificar una tolerancia de 0 a 1. Para un recorte basado en color, especifique 0 para recortar píxeles solo si coinciden exactamente con el color seleccionado en la esquina del PSD. Los números más cercanos a 1 permiten una mayor diferencia de color. Para recortar según la transparencia, especifique 0 para recortar píxeles solo si son transparentes; los números más cercanos a 1 permiten una mayor transparencia.
 
-   * **[!UICONTROL Manual]** : introduzca el número de píxeles que desea recortar de cualquier lado o de cada lado de la imagen. La cantidad de imagen que se recorte dependerá del valor ppp (píxeles por pulgada) en el archivo de imagen. Por ejemplo, si la imagen muestra 150 ppp y escribe 75 en los cuadros de texto Superior, Derecho, Inferior e Izquierdo, 0,5 pda. se recorta de cada lado de la imagen.
+   * **[!UICONTROL Manual]** : introduzca el número de píxeles que desea recortar de cualquier lado o de cada lado de la imagen. La cantidad de imagen que se recorte dependerá del valor ppp (píxeles por pulgada) en el archivo de imagen. Por ejemplo, supongamos que la imagen muestra 150 ppp. A continuación, escriba 75 en los cuadros de texto Superior, Derecha, Inferior e Izquierda. Se recorta cada lado de la imagen, 0,5 pda.
 
 * **Opciones de perfil de color** - Situado debajo de **[!UICONTROL Opciones de perfil de color]**.
 
@@ -67,7 +67,7 @@ Estas opciones están disponibles al cargar archivos PSD:
 
       * **[!UICONTROL Photoshop y nombre de capa]** - Nombra las imágenes después del archivo de PSD seguido del nombre o número de capa. El número de capa se utiliza si los nombres de capa en el archivo PSD son nombres de capa predeterminados de Photoshop. Por ejemplo, una capa denominada `Price Tag` en un archivo de PSD llamado `SpringAd` se llama `Spring Ad_Price Tag`. Se llama a una capa con el nombre predeterminado Capa 2 `Spring Ad_2`.
 
-   * **[!UICONTROL Anclaje]** - Especificar cómo se anclan las imágenes en las plantillas generadas a partir de la maquetación por capas producida a partir del fichero PSD. De forma predeterminada, el anclaje es al centro. Un anclaje central permite la sustitución de imágenes para rellenar mejor el mismo espacio, independientemente de la proporción de la imagen de sustitución. Las imágenes con una proporción diferente que sustituyan esta imagen, al hacer referencia a la plantilla y usar la sustitución paramétrica, ocuparán el mismo espacio. Cambie a otra configuración si la aplicación requiere que las imágenes de sustitución rellenen el espacio asignado en la plantilla.
+   * **[!UICONTROL Anclaje]** - Especificar cómo se anclan las imágenes en las plantillas generadas a partir de la maquetación por capas producida a partir del fichero PSD. De forma predeterminada, el anclaje es al centro. Un anclaje central permite imágenes de reemplazo que pueden rellenar mejor el mismo espacio, sin importar la proporción de aspecto de la imagen de reemplazo. Las imágenes con una proporción diferente que sustituyan esta imagen, al hacer referencia a la plantilla y usar la sustitución paramétrica, ocuparán el mismo espacio. Cambie a otra configuración si la aplicación requiere que las imágenes de sustitución rellenen el espacio asignado en la plantilla.
 
 ## Visualización y edición de capas en un archivo de PSD {#viewing-and-editing-layers-in-a-psd-file}
 
@@ -86,9 +86,9 @@ Si seleccionó la opción **[!UICONTROL Mantener capas]** al cargar el PSD, Adob
 1. Seleccionar **[!UICONTROL Capas]**. Todas las capas aparecen como imágenes independientes en el panel Capas.
 1. Haga doble clic en una capa y realice una de las acciones siguientes:
 
-   * Para crear un mapa de imagen en la capa, seleccione **[!UICONTROL Mapa de imagen]** icono. (Consulte [Crear mapas de imagen](creating-image-maps.md#creating_image_maps).)
-   * Para crear destinos de zoom en la capa, seleccione **[!UICONTROL Destinos de zoom]** icono. (Consulte [Creación de destinos de zoom para el zoom guiado](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).)
-   * Para recortar la capa, seleccione **[!UICONTROL Recorte]** icono. (Consulte [Recortar una imagen](cropping-image.md#cropping_an_image).)
+   * Para crear un mapa de imagen en la capa, seleccione la **[!UICONTROL Mapa de imagen]** icono. (Consulte [Crear mapas de imagen](creating-image-maps.md#creating_image_maps).)
+   * Para crear destinos de zoom en la capa, seleccione la **[!UICONTROL Destinos de zoom]** icono. (Consulte [Creación de destinos de zoom para el zoom guiado](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).)
+   * Para recortar la capa, seleccione la **[!UICONTROL Recorte]** icono. (Consulte [Recortar una imagen](cropping-image.md#cropping_an_image).)
    * Para enfocar la capa, seleccione **[!UICONTROL Enfoque]**. (Consulte [Enfoque de una imagen](sharpening-image.md#sharpening_an_image).)
    * Para ajustar la capa, seleccione **[!UICONTROL Ajuste]**. (Consulte [Ajuste de una imagen](adjusting-image.md#adjusting_an_image).)
 

@@ -10,10 +10,10 @@ role: User
 exl-id: 2d9fc6d8-973f-4aaa-bc2c-b49cda2cde58
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '1194'
-ht-degree: 32%
+source-wordcount: '1200'
+ht-degree: 29%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 32%
 
 A la hora de cargar archivos de imágenes, incluidos archivos AI, EPS y PSD, podrá realizar las siguientes tareas de edición desde el cuadro de diálogo Opciones de trabajo de carga:
 
-* Recortar el espacio en blanco del borde de imágenes.
+* Recorte el espacio en blanco desde el borde de las imágenes.
 * Recortar manualmente de los lados de imágenes.
 * Elegir un perfil de color.
 * Crear una máscara a partir de una ruta de recorte.
@@ -32,7 +32,7 @@ Estas opciones se encuentran en la página Cargar, en **[!UICONTROL Opciones de 
 
 ## Recortar espacio en blanco de las imágenes
 
-Para recortar automáticamente los píxeles de espacio en blanco de una imagen, en el cuadro de diálogo Opciones de carga de trabajo, seleccione **[!UICONTROL Opciones de recorte]**. En el **[!UICONTROL Recorte]** lista desplegable, elija **[!UICONTROL Recortar]**. Elija a continuación estas opciones:
+Puede recortar automáticamente los píxeles del espacio en blanco de una imagen. En el cuadro de diálogo Opciones de carga de trabajo, seleccione **[!UICONTROL Opciones de recorte]**. En el **[!UICONTROL Recorte]** lista desplegable, elija **[!UICONTROL Recortar]**. Elija a continuación estas opciones:
 
 * **[!UICONTROL Recortar basándose en]** : En esta lista desplegable, elija si desea recortar en función del color o la transparencia:
 
@@ -48,7 +48,7 @@ Para recortar automáticamente los píxeles de espacio en blanco de una imagen, 
 
 ## Recortar manualmente desde los lados de las imágenes
 
-Para recortar manualmente de los lados de una imagen, seleccione el menú Recortar y elija Manual. A continuación, introduzca el número de píxeles que recortar de uno o ambos lados de la imagen. La cantidad de imagen que se recorte dependerá del valor ppp (píxeles por pulgada) en el archivo de imagen. Por ejemplo, si la imagen muestra 150 ppp y escribe 75 en los cuadros de texto Superior, Derecho, Inferior e Izquierdo, 0,5 pda. se recorta de cada lado.
+Para recortar manualmente de los lados de una imagen, seleccione el menú Recortar y elija Manual. A continuación, introduzca el número de píxeles que recortar de uno o ambos lados de la imagen. La cantidad de imagen que se recorte dependerá del valor ppp (píxeles por pulgada) en el archivo de imagen. Por ejemplo, supongamos que la imagen muestra 150 ppp. A continuación, escriba 75 en los cuadros de texto Superior, Derecha, Inferior e Izquierda. En este punto, cada lado se recorta 0,5 pulgadas.
 
 ## Elija un perfil de color
 
@@ -76,7 +76,7 @@ En Máscara de enfoque, establezca las opciones que desee. Las opciones de confi
 
 | Opciones de Máscara de enfoque | Descripción |
 | --- | --- |
-| Cantidad | Controla el contraste que se aplica a los píxeles de bordes.<br><br>Piense en ello como la intensidad del efecto. La principal diferencia entre los valores de cantidad de Máscara de enfoque en Adobe Dynamic Media Classic y los valores de cantidad en Adobe Photoshop es que Photoshop tiene un intervalo de cantidad del 1 % al 500 %. Mientras que en Adobe Dynamic Media Classic, el rango de valores es de 0,0 a 5,0. Un valor de 5,0 en Adobe Dynamic Media Classic es el equivalente aproximado de 500% en Photoshop; un valor de 0,9 es el equivalente de 90%, y así sucesivamente. |
+| Cantidad | Cantidad controla la cantidad de contraste que se aplica a los píxeles del borde.<br><br>Piense en ello como la intensidad del efecto. Hay una diferencia entre los valores de cantidad de Máscara de enfoque en Dynamic Media Classic y en Adobe Photoshop. La principal diferencia es que Photoshop tiene un rango de cantidades de 1% a 500%. Mientras que en Adobe Dynamic Media Classic, el rango de valores es de 0,0 a 5,0. Un valor de 5,0 en Adobe Dynamic Media Classic es el equivalente aproximado de 500% en Photoshop; un valor de 0,9 es el equivalente de 90%, y así sucesivamente. |
 | Radio | Controla el radio del efecto. <br><br>El rango de valores es de 0 a 250. El efecto se ejecuta en todos los píxeles de una imagen e irradia desde todos los píxeles en todas las direcciones. El radio se mide en píxeles. Por ejemplo, para obtener un efecto de enfoque similar para una imagen de 2000 × 2000 píxeles e imagen de 500 × 500 píxeles, debe establecer un radio de dos píxeles en la imagen de 2000 × 2000 píxeles. A continuación, defina un valor de radio de un píxel en la imagen de 500 × 500 píxeles. Para una imagen que tenga más píxeles, se utilizará un valor más alto. |
 | Umbral | El umbral es un rango de contraste que se omite cuando se aplica el filtro Máscara de enfoque. Este efecto es importante para que no se introduzca ningún &quot;ruido&quot; en una imagen cuando se utilice este filtro. El rango de valores es 0-255, que es el número de pasos de brillo de una imagen en escala de grises. 0 = negro, 128 = 50% gris y 255 = blanco. <br><br>Por ejemplo, un valor de umbral de 12 ignora las ligeras variaciones en el brillo del tono de la piel para evitar añadir ruido, pero sigue añadiendo contraste al borde de las áreas de contrastes, como cuando las pestañas tocan la piel.<br><br>Por ejemplo, si tiene una foto de la cara de alguien, la máscara de enfoque afecta a las partes de contraste de la imagen. Por ejemplo, donde las pestañas y la piel se juntan para crear una zona obvia de contraste, y la piel lisa en sí misma. Incluso la piel más suave presenta cambios sutiles en los valores de brillo. Si no utiliza un valor de umbral, el filtro enfatiza estos cambios sutiles en píxeles de piel. A su vez, se crea un efecto ruidoso e indeseable mientras el contraste en las pestañas se aumenta, lo que aumenta el enfoque.<br><br>Para evitar este problema, se introduce un valor de umbral que indica al filtro que ignore los píxeles que no cambian de contraste de forma drástica, como la piel suave. <br><br>En el gráfico de la cremallera que se muestra anteriormente, observe la textura junto a las cremalleras. El ruido de la imagen se muestra porque los valores de umbral son demasiado bajos para suprimir el ruido. |
 | Monocromo | Selecciónelo para aplicar una máscara de enfoque al brillo (intensidad) de la imagen.<br><br>Anule la selección para aplicar máscara de enfoque a cada componente de color por separado. |
@@ -87,14 +87,14 @@ Consulte también [Enfoque de imágenes en Adobe Dynamic Media y en Image Server
 
 ## Fondo de cobertura
 
-Puede utilizar el fondo de cobertura para eliminar automáticamente el fondo de una imagen al cargarla. Esta técnica es útil para resaltar un objeto concreto y hacer que destaque en un fondo recargado.
+Utilice Fondo de cobertura para poder eliminar automáticamente el fondo de una imagen cuando la cargue. Esta técnica es útil para resaltar un objeto concreto y hacer que destaque en un fondo recargado.
 
 | Opciones de fondo de cobertura | Descripción |
 | --- | --- |
 | Fondo de cobertura | Seleccione esta opción para activar o &quot;activar&quot; la función y las opciones de Fondo de cobertura. |
 | Esquina | Obligatorio.<br>La esquina de la imagen que se utiliza para definir el color de fondo a knockout.<br>Puede elegir entre <b>Superior izquierda, inferior izquierda, superior derecha o inferior derecha</b>. |
 | Método de relleno | Requerido. <br>Controla la transparencia de píxeles desde la ubicación de Corner que se haya definido.<br>Puede elegir entre los siguientes métodos de relleno:<br>· <b>Relleno Flood</b> : convierte en transparentes todos los píxeles que coincidan con la Esquina que haya especificado y a la que esté conectado.<br>· <b>Coincidir con píxeles</b> : convierte todos los píxeles coincidentes en transparentes, independientemente de su ubicación en la imagen. |
-| Tolerancia | Opcional.<br>Controla la cantidad de variación permitida en la coincidencia de color de píxel en función de la ubicación de Esquina que haya establecido.<br>Utilice un valor de 0,0 para que coincida exactamente con los colores de los píxeles o utilice un valor de 1,0 para permitir la mayor variación. |
+| Tolerancia | Opcional.<br>Controla la cantidad de variación permitida en la coincidencia de color de píxel en función de la ubicación de Esquina que haya establecido.<br>Utilice un valor de 0,0 para que coincida exactamente con los colores de los píxeles. O bien, use un valor de 1,0 para permitir la mayor variación. |
 
 >[!MORELIKETHIS]
 >

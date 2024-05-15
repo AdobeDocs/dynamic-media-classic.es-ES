@@ -10,10 +10,10 @@ role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '1601'
-ht-degree: 45%
+source-wordcount: '1604'
+ht-degree: 40%
 
 ---
 
@@ -29,7 +29,8 @@ Consulte también [Imágenes inteligentes](https://experienceleague.adobe.com/en
 >
 >Pruebe y descubra las ventajas de los modificadores de imagen de Dynamic Media y de las imágenes inteligentes con Dynamic Media [_Instantánea_](https://snapshot.scene7.com/).
 >
-> Snapshot es una herramienta de demostración visual diseñada para ilustrar la potencia de Dynamic Media para la entrega de imágenes optimizadas y dinámicas. Experimente con imágenes de prueba o direcciones URL de Dynamic Media para observar visualmente la salida de varios modificadores de imagen de Dynamic Media y optimizaciones de imágenes inteligentes para lo siguiente:
+> Snapshot es una herramienta de demostración visual diseñada para ilustrar la potencia de Dynamic Media para la entrega de imágenes optimizadas y dinámicas. Experimente con imágenes de prueba o direcciones URL de Dynamic Media para poder observar visualmente la salida de varios modificadores de imagen de Dynamic Media y optimizaciones de imágenes inteligentes para lo siguiente:
+>
 >* Tamaño de archivo (con envío WebP y AVIF)
 >* Ancho de banda de red
 >* DPR (proporción de píxeles del dispositivo)
@@ -69,7 +70,7 @@ Con Adobe Dynamic Media Classic, puede enfocar las imágenes durante la ingesta,
 
 Existen dos métodos de enfoque de imágenes que puede utilizar:
 
-* Enfoque simple ( `&op_sharpen`): similar al filtro de enfoque utilizado en Photoshop, el enfoque simple aplica un enfoque básico a la vista final de la imagen después del cambio de tamaño dinámico. Sin embargo, este método no puede configurarse. La práctica recomendada es no utilizar `&op_sharpen` a menos que sea necesario.
+* Enfoque simple ( `&op_sharpen`): similar al filtro de enfoque utilizado en Photoshop, el enfoque simple aplica un enfoque básico a la vista final de la imagen después del cambio de tamaño dinámico. Sin embargo, este método no puede configurarse. La práctica recomendada es evitar el uso de `&op_sharpen` a menos que sea necesario.
 * Máscara de enfoque ( `&op_USM`) - Máscara de enfoque es un filtro estándar de la industria para el enfoque. La práctica recomendada es enfocar imágenes con la máscara de enfoque siguiendo las directrices siguientes. Las máscaras de enfoque permiten controlar los tres parámetros siguientes:
 
    * `&op_sharpen=amount,radius,threshold`
@@ -81,7 +82,7 @@ Existen dos métodos de enfoque de imágenes que puede utilizar:
 
       * `threshold` (0-255, sensibilidad del efecto.)
 
-        Este parámetro determina hasta qué punto deben ser distintos los píxeles enfocados respecto al área que los rodea para poder considerarse píxeles de borde y por tanto enfocarse. El umbral ayuda a evitar el exceso de áreas de enfoque con colores similares, como los tonos de piel. Por ejemplo, un valor de umbral 12 ignora las ligeras variaciones de brillo en el tono de la piel para no agregar “ruido” y, simultáneamente, agrega contraste al borde de las áreas contrastadas, por ejemplo, donde las pestañas tocan la piel.
+        Este parámetro determina hasta qué punto deben ser distintos los píxeles enfocados respecto al área que los rodea para poder considerarse píxeles de borde y por tanto enfocarse. El umbral ayuda a evitar el exceso de áreas de enfoque con colores similares, como los tonos de piel. Por ejemplo, un valor de umbral de 12 ignora las ligeras variaciones en el brillo del tono de la piel para evitar añadir &quot;ruido&quot;, mientras que al mismo tiempo agrega contraste al borde de las áreas de alto contraste, como cuando las pestañas tocan la piel.
 
         Para obtener más información sobre cómo configurar estos tres parámetros, incluidas las prácticas recomendadas para su uso con el filtro, consulte [Enfoque de imágenes en Adobe Dynamic Media Classic y en el servidor de imágenes](/help/using/assets/s7_sharpening_images.pdf).
 
@@ -98,10 +99,10 @@ Aumente gradualmente la cantidad de 1,75 a 4. Si el enfoque aún no aparece como
 
 Deje la configuración del parámetro monocromo en 0.
 
-## Prácticas recomendadas para la compresión de JPEG (&amp;qlt=) {#best-practices-for-jpeg-compression-qlt}
+## Prácticas recomendadas para la compresión JPEG (`&qlt=`) {#best-practices-for-jpeg-compression-qlt}
 
 * Este parámetro controla la calidad de codificación de JPG. Un valor más alto significa una mejor calidad de imagen pero un tamaño mayor de archivo; por lo contrario, un valor inferior significa una imagen de menor calidad pero un tamaño de archivo más pequeño. El rango de este parámetro es 0-100.
-* Para optimizar la calidad, no defina el valor del parámetro a 100. La diferencia entre un ajuste de 90 o 95 y 100 es casi imperceptible, pero 100 aumenta innecesariamente el tamaño de archivo de la imagen. Por lo tanto, para optimizar la calidad pero evitar que los archivos de imagen se vuelvan demasiado grandes, establezca el `qlt=` valor 90 o 95.
+* Para optimizar la calidad, no defina el valor del parámetro a 100. La diferencia entre un ajuste de 90 o 95 y 100 es casi imperceptible. Sin embargo, 100 aumenta innecesariamente el tamaño del archivo de imagen. Por lo tanto, para optimizar la calidad pero evitar que los archivos de imagen se vuelvan demasiado grandes, establezca el `qlt=` valor 90 o 95.
 * Para optimizar para un tamaño de archivo de imagen pequeño pero mantener la calidad de imagen en un nivel aceptable, establezca el `qlt=` valor 80. Los valores por debajo de 70 a 75 degradan considerablemente la calidad de imagen.
 * Como práctica recomendada, para permanecer en el medio, configure el `qlt=` valor de 85 para permanecer en el medio.
 * Uso del indicador de croma en `qlt=`
@@ -116,17 +117,17 @@ Como práctica recomendada para el uso de compresión JPG `&qlt=85,0`.
 El parámetro `jpegSize` es útil si desea garantizar que una imagen no supere un tamaño determinado para su entrega a dispositivos con memoria limitada.
 
 * Este parámetro se establece en kilobytes ( `jpegSize=<size_in_kilobytes>`). Define el tamaño máximo permitido para la distribución de imágenes.
-* `&jpegSize=` interactúa con el parámetro de compresión del JPG `&qlt=`. Si la respuesta del JPG con el parámetro de compresión del JPG especificado ( `&qlt=`) no supera el `jpegSize` , la imagen se devuelve con `&qlt=` como se define. De lo contrario, `&qlt=` disminuye gradualmente hasta que la imagen se ajusta al tamaño máximo permitido o hasta que el sistema determina que no se ajusta y devuelve un error.
+* `&jpegSize=` interactúa con el parámetro de compresión del JPG `&qlt=`. Si la respuesta del JPG con el parámetro de compresión del JPG especificado ( `&qlt=`) no supera el `jpegSize` , la imagen se devuelve con `&qlt=` como se define. De lo contrario, `&qlt=` se reduce gradualmente hasta que la imagen se ajusta al tamaño máximo permitido. O bien, hasta que el sistema determine que no cabe y devuelva un error.
 
 Como práctica recomendada, establezca `&jpegSize=` y añada el parámetro `&qlt=` si ofrece imágenes JPG a dispositivos con memoria limitada.
 
 ## Resumen de prácticas recomendadas {#best-practices-summary}
 
-Como práctica recomendada, para lograr una alta calidad de imagen y un tamaño de archivo pequeño, comience con esta combinación de parámetros:
+Como práctica recomendada, para lograr una alta calidad de imagen y un tamaño de archivo pequeño, comience con la siguiente combinación de parámetros:
 
 `fmt=jpg&qlt=85,0&resMode=sharp2&op_usm=1.75,0.3,2,0`
 
-Esta combinación da resultados excelentes en la mayoría de circunstancias.
+Esta combinación de ajustes produce resultados excelentes en la mayoría de las circunstancias.
 
 Si necesita optimizar la imagen aún más, ajuste gradualmente los parámetros de enfoque (la máscara de enfoque) comenzando con un radio definido en 0,2 o 0,3. A continuación, aumente gradualmente la cantidad desde 1,75 a 4 (equivalente al 400% en Photoshop). Compruebe si se ha obtenido el resultado deseado.
 

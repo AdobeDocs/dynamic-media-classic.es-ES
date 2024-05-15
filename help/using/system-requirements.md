@@ -10,16 +10,16 @@ role: Admin,User
 exl-id: 3460f3bd-1616-44e7-9ddb-fe74ee0c8729
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '121'
 ht-degree: 10%
 
 ---
 
 # Requisitos del sistema para la aplicación de escritorio de Adobe Dynamic Media Classic {#system-requirements}
 
-Para obtener la mejor experiencia con la aplicación de escritorio de Adobe Dynamic Media Classic, asegúrese de que su sistema cumpla los siguientes requisitos y sugerencias del sistema:
+Para obtener la mejor experiencia de uso de la aplicación de escritorio de Adobe Dynamic Media Classic, asegúrese de que su sistema cumple los siguientes requisitos y sugerencias del sistema:
 
 * Se requiere un procesador Microsoft® Windows® 7 o posterior o macOS X 10.10 o posterior Mac Intel®.
 * Se requieren 3 GB de RAM o más (se sugieren 4 GB o más).

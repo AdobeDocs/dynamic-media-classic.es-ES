@@ -10,9 +10,9 @@ role: User
 exl-id: 1c368c25-78e6-4bcc-b390-d9133073821a
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '316'
 ht-degree: 7%
 
 ---
@@ -23,11 +23,11 @@ Adobe Dynamic Media Classic ofrece muchas herramientas para crear efectos de med
 
 * **Crear mapas de imagen** - Para crear un mapa de imagen, seleccione el comando Imagen o **[!UICONTROL Mapa de imagen]** botón. Un mapa de imagen es un punto interactivo de una imagen, una página de catálogo electrónico o una imagen de un conjunto de giros que muestra un panel con texto de rollover. Los usuarios pueden seleccionar un mapa de imagen, por ejemplo, para iniciar una nueva página web. Consulte [Crear mapas de imagen](/help/using/creating-image-maps.md).
 
-* **Crear destinos de zoom** - Para crear destinos de miniaturas, seleccione el comando Destinos de zoom o la opción **[!UICONTROL Destinos de zoom]** botón. Los usuarios pueden seleccionar un destino de miniatura en el visor de zoom para ampliar directamente a una parte concreta de una imagen. Consulte [Creación de destinos de zoom para el zoom guiado](/help/using/creating-zoom-targets-guided-zoom.md).
+* **Crear destinos de zoom** - Para crear destinos de miniaturas, puede seleccionar el comando Destinos de zoom o la opción **[!UICONTROL Destinos de zoom]** botón. Los usuarios pueden seleccionar un destino de miniatura en el visor de zoom para ampliar directamente a una parte concreta de una imagen. Consulte [Creación de destinos de zoom para el zoom guiado](/help/using/creating-zoom-targets-guided-zoom.md).
 
 * **Recortar una imagen** - Para recortar una imagen, seleccione el comando Recortar o la opción **[!UICONTROL Recorte]** botón. Consulte [Recortar una imagen](/help/using/cropping-image.md).
 
-* **Enfoque de una imagen** - Para enfocar una imagen y hacer que sus contornos sean menos borrosos y más distintos, seleccione el comando Enfocar o la opción **[!UICONTROL Enfoque]** botón. Consulte [Enfoque de una imagen](/help/using/sharpening-image.md).
+* **Enfoque de una imagen** - Convierta los contornos de una imagen en menos borrosos seleccionando el comando Enfoque o la **[!UICONTROL Enfoque]** botón. Consulte [Enfoque de una imagen](/help/using/sharpening-image.md).
 
 * **Ajuste de una imagen** - Seleccione el `Adjust` para el **[!UICONTROL Ajuste]** para voltear, rotar, desenfocar, colorear o alterar el balance de color de una imagen. Consulte [Ajuste de una imagen](/help/using/adjusting-image.md).
 

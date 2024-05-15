@@ -10,9 +10,9 @@ role: User
 exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '667'
 ht-degree: 37%
 
 ---
@@ -65,11 +65,11 @@ Los administradores pueden crear ajustes preestablecidos de imagen. Puede crear 
 
 Las opciones de &quot;práctica recomendada&quot; de Adobe Dynamic Media Classic para crear ajustes preestablecidos de imagen que se enumeran a continuación son recomendaciones generales; el enfoque es muy subjetivo. Esta configuración de &quot;prácticas recomendadas&quot; se basó en una imagen principal de 2000 × 2000; la configuración de los archivos principales más grandes o más pequeños puede ser diferente. Si desea ajustar la configuración de la máscara de enfoque, Adobe Dynamic Media Classic recomienda estos intervalos:
 
-* **[!UICONTROL Cantidad]** - Entre 0,8 y 1,5.
+* **[!UICONTROL Cantidad]** - Entre `.8` y `1.5`.
 
-* **[!UICONTROL Radio]** - Entre .6 y 2.
+* **[!UICONTROL Radio]** - Entre `.6` y `2`.
 
-* **[!UICONTROL Umbral]** - De 1 a 6.
+* **[!UICONTROL Umbral]** - Desde `1` mediante `6`.
 
 Para eliminar un ajuste preestablecido de imagen, selecciónelo en la pantalla Ajustes preestablecidos de imagen y, a continuación, seleccione **[!UICONTROL Eliminar]**.
 

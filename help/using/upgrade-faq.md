@@ -6,9 +6,9 @@ role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1564'
 ht-degree: 0%
 
 ---
@@ -30,10 +30,16 @@ ht-degree: 0%
 +++**Cuáles son las principales ventajas de actualizar a [!DNL Dynamic Media]?**
 
 * Colaboración y sincronización de archivos compartidos con [!DNL Adobe Creative Cloud] aplicaciones.
-* Administración de activos digitales a nivel empresarial con sólida compatibilidad con metadatos, búsqueda inteligente, Lightbox y colecciones, control de versiones y uso compartido seguro de activos para uso por parte de proveedores, socios y franquiciados. Flujos de trabajo de revisión y aprobación para activos de trabajo en proceso.
+* Administración de recursos digitales empresariales con:
+   * sólida compatibilidad con metadatos
+   * búsqueda inteligente
+   * lightbox y colecciones
+   * control de versiones
+   * Uso compartido seguro de recursos para proveedores, socios y franquiciados
+* Revisar y aprobar flujos de trabajo para recursos de trabajo en proceso
 * Facilidad de adopción y uso con la nueva IU.
 * Cree experiencias de medios interactivos/de ventas mediante imágenes y vídeos que promuevan la conversión y enriquezcan la participación y la satisfacción del usuario.
-* Combine recursos de la campaña con información del producto para racionalizar los clics en el carro de compras.
+* Combine recursos de la campaña con información del producto para optimizar el clic en el carro de compras.
 * Cree, ajuste, ajuste de marca e implemente fácilmente visores interactivos mediante el Diseñador de visores WYSIWYG.
 * Distribuya medios enriquecidos optimizados a [!DNL Experience Cloud] soluciones.
 * Integración con [!DNL Experience Cloud] para obtener análisis de recursos avanzados, segmentación y reutilización de recursos en puntos de contacto de marketing. Estos puntos de contacto incluyen [!DNL Adobe Campaign] para correo electrónico, [!DNL Adobe Social] para canales sociales, y [!DNL Experience Manager] Sitios para aplicaciones móviles y web adaptables.
@@ -57,7 +63,7 @@ Adobe cambió el nombre de Adobe Scene7 a [!DNL Dynamic Media Classic].
 ## Proceso y herramientas de actualización
 
 +++**¿Quién es elegible para el programa de actualización?**
-Actual [!DNL Dynamic Media Classic] (anteriormente Scene7) clientes que también tienen [!DNL Experience Manager].
+Clientes que actualmente tienen [!DNL Dynamic Media Classic] (anteriormente Scene7) y también tiene [!DNL Experience Manager].
 
 +++
 
@@ -67,7 +73,7 @@ Póngase en contacto con el representante del equipo de cuenta de Adobe o [corre
 +++
 
 +++**¿Cómo se gestiona el proceso de actualización?**
-La actualización la gestiona AGS (Adobe Global Services) y se trata como un proyecto de servicio. El Adobe de proporciona solo la migración de los recursos de. El cliente, AGS o Partner es responsable de todos los demás aspectos y pasos de la actualización. En un nivel de resumen, un plan de actualización contiene lo siguiente:
+AGS (Adobe Global Services) gestiona la actualización y la trata como un proyecto de servicio. El Adobe de proporciona solo la migración de los recursos de. El cliente, AGS o Partner es responsable de todos los demás aspectos y pasos de la actualización. En un nivel de resumen, un plan de actualización contiene lo siguiente:
 
 * Aprovisionar cuentas de empresa/usuario.
 * Replicar recursos desde [!DNL Dynamic Media Classic] (anteriormente Scene7) a la [!DNL Dynamic Media] componente de [!DNL Experience Manager] Recursos (proporcionados por el Adobe mediante una herramienta de actualización automatizada).
@@ -107,7 +113,7 @@ No. El [lista de comprobación de disponibilidad](/help/using/upgrade-readiness.
 +++
 
 +++**¿Es necesario que realice la actualización?**
-No. El Adobe sigue apoyando y manteniendo plenamente [!DNL Dynamic Media Classic] (correcciones de errores solicitadas por el cliente, correcciones de seguridad, escalabilidad y fiabilidad de la plataforma) ahora y en el futuro.
+No. El Adobe de admite y mantiene totalmente [!DNL Dynamic Media Classic] (correcciones de errores solicitadas por el cliente, correcciones de seguridad, escalabilidad y fiabilidad de la plataforma) ahora y en el futuro.
 
 Puede actualizar cuando esté listo para aprovechar las nuevas funciones que ofrece [!DNL Dynamic Media].
 
@@ -123,7 +129,7 @@ Después de actualizar a [!DNL Dynamic Media], solo debe utilizar Dynamic Media 
 +++
 
 +++**¿Qué herramientas proporciona Adobe para automatizar el proceso de actualización?**
-Para el primer inicio del programa de actualización, Adobe proporciona herramientas para mover recursos automáticamente desde [!DNL Dynamic Media Classic] hasta [!DNL Dynamic Media] in [!DNL Experience Manager] Recursos.
+Para el primer inicio del programa de actualización, Adobe proporciona herramientas que pueden mover recursos automáticamente desde [!DNL Dynamic Media Classic] hasta [!DNL Dynamic Media] in [!DNL Experience Manager] Recursos.
 
 +++
 
@@ -172,7 +178,7 @@ Sí. Adobe tiene centros de datos en Norteamérica, Europa y Asia-Pacífico.
 +++
 
 +++**¿Cuánto tiempo dura? [!DNL Dynamic Media Classic] ¿va a existir como producto independiente?**
-El Adobe sigue apoyando y manteniendo plenamente [!DNL Dynamic Media Classic] (correcciones de errores solicitadas por el cliente, correcciones de seguridad, escalabilidad y fiabilidad de la plataforma) ahora y en el futuro.
+El Adobe de admite y mantiene totalmente [!DNL Dynamic Media Classic] (correcciones de errores solicitadas por el cliente, correcciones de seguridad, escalabilidad y fiabilidad de la plataforma) ahora y en el futuro.
 
 +++
 
@@ -182,7 +188,12 @@ Dynamic Media incluye 60 GB de almacenamiento. Puede adquirir almacenamiento adi
 +++
 
 +++**Qué métrica se utiliza para medir [!DNL Dynamic Media] ¿uso?**
-Vistas de página por mes (PVM). Vista de página significa una sola vista de un correo electrónico o de una página web de un sitio de Internet. También incluye vistas de pantalla de la aplicación, estados de pantalla de la aplicación, páginas web móviles y páginas de redes sociales. Las vistas de páginas se producen cada vez que se carga o actualiza una página web, cuando se carga una aplicación o cuando el contenido se procesa o se muestra mediante un correo electrónico abierto o visualizado.
+Vistas de página por mes (PVM). Vista de página significa una sola vista de un correo electrónico o una página web de un sitio de Internet. También incluye vistas de pantalla de la aplicación, estados de pantalla de la aplicación, páginas web móviles y páginas de redes sociales. Se producen vistas de página:
+
+* Cada vez que se carga o actualiza una página web
+* Cuando se carga una aplicación
+* Cuando el contenido se procesa
+* Se muestra mediante un correo electrónico abierto o visualizado
 
 +++
 
