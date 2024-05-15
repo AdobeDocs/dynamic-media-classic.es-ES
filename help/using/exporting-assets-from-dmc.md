@@ -10,10 +10,10 @@ role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 48%
+ht-degree: 40%
 
 ---
 
@@ -46,7 +46,7 @@ Adobe Dynamic Media Classic mantiene un registro de los trabajos de exportación
 
    * **[!UICONTROL Nombre de trabajo]** : Puede asignar un nombre de trabajo a la exportación.
 
-   * **[!UICONTROL Enviar correo electrónico a]** - Si lo desea, escriba una dirección de correo electrónico si desea enviar los recursos por correo electrónico. Este mensaje de correo electrónico contiene una URL a la que el destinatario puede ir para descargar los recursos.
+   * **[!UICONTROL Enviar correo electrónico a]** - Opcional. Escriba una dirección de correo electrónico si desea enviar los recursos por correo electrónico. Este mensaje de correo electrónico contiene una URL a la que el destinatario puede ir para descargar los recursos.
 
 1. Seleccionar **[!UICONTROL Exportar]**.
 
@@ -77,5 +77,5 @@ Es posible usar la conversión con el fin de exportar los siguientes tipos de re
 
 Si se indica una amplia selección de tipos de recursos diversos al proceso de exportación, se produce el siguiente comportamiento:
 
-* Antes de enviar el trabajo, se eliminan de la lista todos los tipos de recursos que no se pueden exportar
-* Si se solicita una conversión, se convierten todos los tipos susceptibles y todos los demás se exportan como originales
+* Todos los tipos de recursos que no se pueden exportar se eliminan de la lista antes del envío del trabajo
+* Si se solicita una conversión, todos los tipos que se pueden convertir son y todos los demás se exportan como originales

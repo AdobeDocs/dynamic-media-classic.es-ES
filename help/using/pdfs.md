@@ -10,10 +10,10 @@ role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 29%
+source-wordcount: '726'
+ht-degree: 26%
 
 ---
 
@@ -39,7 +39,7 @@ Las opciones para cargar archivos de PDF se encuentran en la página Cargar, en 
 
 **[!UICONTROL Rasterizar]** - (Predeterminado) Desgarra las páginas del archivo PDF y convierte los gráficos vectoriales en imágenes de mapa de bits. Para crear un catálogo electrónico, elija esta opción.
 
-**[!UICONTROL Extraer palabras de búsqueda]** : extrae palabras del archivo del PDF para que se pueda buscar en él por palabra clave en un visor de catálogos electrónicos.
+**[!UICONTROL Extraer palabras de búsqueda]** : extrae palabras del archivo PDF para que se puedan buscar palabras clave en el archivo en un visor de catálogos electrónicos.
 
 **[!UICONTROL Extraer vínculos]** : extrae vínculos de los archivos del PDF y los convierte a mapas de imágenes que se utilizan en un visor de catálogos electrónicos.
 
@@ -73,7 +73,9 @@ Consulte también [Perfiles ICC](/help/using/icc-profiles.md#icc_profiles).
 
 ## Recortar espacio en blanco de un archivo de PDF {#cropping-white-space-from-a-pdf-file}
 
-1. Para recortar automáticamente píxeles de espacio en blanco de un archivo PDF al cargarlo, seleccione el menú Recortar y elija Recortar.
+Puede recortar automáticamente los píxeles de espacio en blanco de un archivo de PDF a medida que lo carga.
+
+1. Seleccione el menú Recortar y elija Recortar.
 1. Especifique las opciones siguientes:
 
    * **[!UICONTROL Recortar basándose en]** - Elija si desea recortar en función del color o la transparencia:

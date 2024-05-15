@@ -10,16 +10,16 @@ role: Admin,User
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 topic: Administration
 level: Beginner
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 17%
+source-wordcount: '477'
+ht-degree: 12%
 
 ---
 
 # Información general del programa Adobe Dynamic Media Classic{#adobe-scene-platform-overview}
 
-Adobe Dynamic Media Classic es un entorno integrado, completo, de administración, publicación y servicio de medios. Los medios enriquecidos se pueden distribuir a través de todo tipo de canales de marketing y ventas: la Web, material impreso, campañas por correo electrónico, portales web, ordenadores de sobremesa y dispositivos.
+Adobe Dynamic Media Classic es un entorno integrado, completo, de administración, publicación y servicio de medios. Los medios enriquecidos se pueden entregar a todos los canales de marketing y venta. Estos canales incluyen la web, material impreso, campañas de correo electrónico, portales web, escritorios y dispositivos.
 
 Consulte también [Información general de plataforma](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/572_Platform%20Overview_converted%20renamed_Getting%20Started-AVS) vídeo de formación.
 

@@ -1,6 +1,6 @@
 ---
 title: Creación de destinos de zoom para el zoom guiado
-description: Aprenda a crear destinos de zoom para el zoom guiado en Adobe Dynamic Media Classic.
+description: Obtenga información sobre cómo crear destinos de zoom para el zoom guiado en Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,10 +10,10 @@ role: User
 exl-id: ffb799ba-1cf1-48e0-91a8-dea758139140
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 42%
+source-wordcount: '731'
+ht-degree: 32%
 
 ---
 
@@ -25,23 +25,23 @@ Los destinos de zoom guían a ciertas partes de una imagen. Además del zoom de 
 
 ## Acerca de los destinos de zoom {#about-zoom-targets}
 
-El valor máximo de zoom en los destinos de zoom es 100%. El porcentaje mínimo de zoom varía según la combinación de los tamaños del visor y la imagen, como se muestra en esta tabla:
+El porcentaje de zoom máximo de Destinos de zoom es 100 por ciento. El porcentaje mínimo de zoom varía según la combinación de los tamaños del visor y la imagen, como se muestra en esta tabla:
 
 | Tamaño de imagen | Tamaño de visor | Porcentaje de zoom |
 | --- | --- | --- |
 | Grande | Menor | Mínimo más pequeño |
 | Pequeño | Mayor | Mínimo más grande |
 
-Puede cambiar el tamaño del visor de zoom para que corresponda al que se usa en la página web. Para modificar este valor de forma definitiva, puede cambiar el tamaño del visor en la pantalla Ajustes (si es administrador). Consulte [Configurar ajustes preestablecidos del visor de zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
+Puede cambiar el tamaño del visor de zoom para que corresponda al que se usa en la página web. Puede cambiar esta configuración de forma permanente cambiando el tamaño del visor en la pantalla Configuración (si es administrador). Consulte [Configurar ajustes preestablecidos del visor de zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
 
 ## Creación y edición de destinos de zoom {#creating-and-editing-zoom-targets}
 
-Cree y edite destinos de zoom en la pantalla Editor de destinos de zoom. Para abrir esta pantalla, seleccione una imagen y realice una de las acciones siguientes:
+Cree y edite Destinos de zoom en la pantalla del Editor de destinos de zoom. Para abrir esta pantalla, seleccione una imagen y realice una de las acciones siguientes:
 
 * Selección de la sustitución **[!UICONTROL Editar]** y seleccione Destinos de zoom.
 * En el panel Examinar, muestre la imagen en **[!UICONTROL Vista de detalles]**, luego seleccione **[!UICONTROL Destinos de zoom]**.
 
-En la pantalla Editor de destinos de zoom, seleccione **[!UICONTROL Seleccionar destino]** (flecha) para seleccionar un destino antes de cambiar su tamaño o posición. Para crear un objetivo de zoom en la imagen, seleccione **[!UICONTROL Añadir destinos]** (rectángulo). La página Editor de Destinos de Zoom también ofrece herramientas para eliminar, copiar y nombrar destinos de zoom.
+En la pantalla Editor de destinos de zoom, seleccione la opción **[!UICONTROL Seleccionar destino]** (flecha) para seleccionar un destino antes de cambiar su tamaño o posición. Para crear un objetivo de zoom en la imagen, seleccione **[!UICONTROL Añadir destinos]** (rectángulo). La página Editor de Destinos de Zoom también ofrece herramientas para eliminar, copiar y nombrar los destinos de zoom.
 
 ### Creación de un destino de zoom {#creating-a-zoom-target}
 
@@ -70,11 +70,11 @@ Para crear un destino de zoom, abra la página Editor de destinos de zoom y haga
 
 >[!NOTE]
 >
->Para ver el aspecto de los destinos de zoom en un visor de zoom, seleccione la **[!UICONTROL Previsualizar]** en la pantalla Editor de destinos de zoom y elija un visor de zoom en la pantalla Vista previa. Para obtener más información sobre esta pantalla, consulte [Vista previa de imágenes con diferentes visores de zoom](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
+>Para ver el aspecto de los destinos de zoom en un visor de zoom, seleccione **[!UICONTROL Previsualizar]** en la pantalla Editor de destinos de zoom. A continuación, elija un Visor de zoom en la pantalla Vista previa. Para obtener más información sobre esta pantalla, consulte [Vista previa de imágenes con diferentes visores de zoom](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
 
 ### Editar destinos de zoom {#editing-zoom-targets}
 
-Para editar destinos de zoom, utilice las técnicas siguientes en la página Editor de destinos de zoom:
+Para editar Destinos de zoom, utilice las técnicas siguientes en la página Editor de destinos de zoom:
 
 * **Cambiar posición** : Con el botón Seleccionar destino (la flecha), seleccione el destino. A continuación, arrastre el destino a otra ubicación.
 
@@ -86,7 +86,7 @@ Para editar destinos de zoom, utilice las técnicas siguientes en la página Edi
 
 ### Copiar destinos de zoom {#copying-zoom-targets}
 
-Puede copiar destinos de zoom de una imagen a otra. Copie los destinos cuando dos imágenes presenten un contenido similar y sus destinos de zoom pertenezcan a las mismas ubicaciones. Para copiar destinos de zoom en otra imagen, haga lo siguiente:
+Puede copiar destinos de zoom de una imagen a otra. Copie los destinos cuando dos imágenes presenten contenido similar y sus destinos de zoom pertenezcan a las mismas ubicaciones. Para copiar destinos de zoom en otra imagen, haga lo siguiente:
 
 1. Abra la imagen con destinos de zoom que desee copiar en la pantalla Editor de destinos de zoom.
 1. Seleccionar **[!UICONTROL Copiar destinos en]**.

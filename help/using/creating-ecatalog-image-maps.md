@@ -1,6 +1,6 @@
 ---
 title: Crear mapas de imagen de catálogo electrónico
-description: Obtenga información sobre cómo crear mapas de imagen de catálogo electrónico en Adobe Dynamic Media Classic.
+description: Obtenga información sobre cómo crear mapas de imágenes de catálogo electrónico en Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,10 +10,10 @@ role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 36%
+source-wordcount: '1494'
+ht-degree: 31%
 
 ---
 
@@ -23,7 +23,7 @@ Un mapa de imagen es una región de una página de catálogo electrónico que se
 
 ## Dibujar mapas de imagen de catálogo electrónico {#drawing-ecatalog-image-maps}
 
-Los mapas de imagen de los catálogos electrónicos se dibujan en la ficha Páginas de mapa, que se encuentra en la pantalla Catálogo electrónico. En esta pantalla aparece el área del mapa de imagen en la que se muestran las páginas del catálogo electrónico y, a la derecha, la lista de mapas de imagen. A medida que cree los mapas de imagen, sus nombres se añadirán a la lista de mapas de imagen.
+Los mapas de imagen de los catálogos electrónicos se dibujan en la ficha Páginas de mapa, que se encuentra en la pantalla Catálogo electrónico. En esta pantalla aparece el área del mapa de imagen en la que se muestran las páginas del catálogo electrónico y, a la derecha, la lista de mapas de imagen. A medida que crea mapas de imagen, sus nombres se introducen en la lista Mapa de imagen.
 
 1. Seleccione la sustitución del catálogo electrónico **[!UICONTROL Editar]** botón.
 1. Seleccionar **[!UICONTROL Páginas de mapa]**.
@@ -51,7 +51,7 @@ Consulte [Utilice una plantilla para introducir JavaScript y direcciones URL](cr
 1. Seleccionar **[!UICONTROL Guardar]**.
 1. (Opcional) Seleccione **[!UICONTROL Previsualizar]** para ver el catálogo electrónico con el ajuste preestablecido por defecto eCatalog Viewer.
 
-Para eliminar un mapa de imagen, seleccione su nombre en la lista Mapa de imagen y seleccione **[!UICONTROL Eliminar]**. Para desactivar temporalmente un mapa de imagen en una página sin eliminarlo, anule la selección de la opción Activado del mapa de imagen en el panel Lista de mapas de imagen.
+Para eliminar un mapa de imagen, seleccione su nombre en la lista Mapa de imagen y seleccione **[!UICONTROL Eliminar]**. Puede deshabilitar temporalmente un mapa de imagen en una página sin eliminar el mapa de imagen. Seleccione la opción Mapas de imagen activados en el panel de lista Mapa de imagen.
 
 ## Incrustar medios enriquecidos en un catálogo electrónico {#embedding-rich-media-in-an-ecatalog}
 
@@ -75,7 +75,7 @@ También puede mostrar, de forma opcional, el texto de la información del objet
 
 En la pantalla Catálogo electrónico, vaya a la ficha Páginas de mapa, desde donde podrá utilizar estas técnicas para editar los mapas de imagen del catálogo electrónico:
 
-* **Ajuste de la posición** - Seleccione la herramienta Panorámica y mueva el puntero cerca del borde del mapa, pero no sobre él. Cuando el puntero se convierta en una flecha con cuatro puntas, arrastre el mapa completo de imagen a una nueva ubicación.
+* **Ajuste de la posición** - Seleccione la herramienta Panorámica y mueva el puntero cerca del borde del mapa, pero no sobre él. Cuando el puntero muestre una flecha de cuatro puntas, arrastre todo el mapa de imagen a una nueva ubicación.
 
   Consulte [Ajustar la posición, la forma y el tamaño de los mapas de imagen](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
@@ -97,7 +97,7 @@ En la pantalla Catálogo electrónico, vaya a la ficha Páginas de mapa, desde d
 
 >[!NOTE]
 >
->Además de copiar los mapas de imágenes en diferentes páginas de un catálogo electrónico, puede copiar todos los mapas de imágenes de un catálogo electrónico en otro catálogo electrónico. Consulte [Copiar mapas de imagen entre catálogos electrónicos](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs).
+>Al copiar mapas de imágenes en diferentes páginas de un catálogo electrónico, puede copiar todos los mapas de imágenes de un catálogo electrónico en otro catálogo electrónico. Consulte [Copia de mapas de imagen entre otros catálogos electrónicos](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs).
 
 ## Revisión e importación de datos de mapa de imagen {#reviewing-and-importing-image-map-data}
 
@@ -109,14 +109,14 @@ Para ver la pantalla Resumen de mapas, en la pestaña Páginas de mapa de la pan
 
 1. En la pantalla Asignar páginas, seleccione **[!UICONTROL Resumen]**.
 
-   En la pantalla Resumen de mapas, se puede ver la cantidad de mapas de imagen, direcciones URL, textos descriptivos de rollover y otras acciones que hay en el catálogo electrónico.
+   La pantalla Resumen de mapas muestra cuántos mapas de imágenes, direcciones URL, descripciones de texto de rollover y otras acciones hay en el catálogo electrónico.
 
 1. Si hay errores de clave de rollover, seleccione el error en la **[!UICONTROL Error de Rollover_Key]** para ver qué debe cambiar en la hoja de cálculo y corregir el error. Puede seleccionar y copiar el texto de este mensaje, y pegarlo en la hoja de cálculo.
-1. Seleccionar **[!UICONTROL Previsualizar]** para que pueda examinar una página en el visor de catálogos electrónicos; seleccione la X para cerrar la pantalla Resumen y volver a la pantalla Páginas de mapas, o bien seleccione **[!UICONTROL Cerrar]** para volver a Examinar.
+1. Seleccionar **[!UICONTROL Previsualizar]** para que pueda examinar una página en el Visor de catálogos electrónicos. Seleccione la X para cerrar la pantalla Resumen y volver a la pantalla Páginas de mapa o seleccione **[!UICONTROL Cerrar]** para volver a Examinar.
 
 ### Importación de datos de mapa de imagen {#import-image-map-data}
 
-En lugar de introducir datos de mapa de imagen en cada página, puede importar los datos de todo el catálogo desde la pantalla Resumen de mapas. Los datos de mapa de imagen se importan como un archivo delimitado por tabuladores o DTD de XML. Los campos del archivo deben tener el orden que se muestra en la pantalla Resumen de mapas: Nombre, Etiquetas de tabla de contenido, Mapas, Direcciones URL, Texto de rollover, Otras acciones y Cadenas de búsqueda. Si importa los datos de mapa de imagen, no tendrá que introducir los datos en la lista de mapas de imagen cada vez que crea un mapa de imagen.
+En lugar de introducir datos de mapa de imagen en cada página, puede importar los datos de todo el catálogo desde la pantalla Resumen de mapas. Los datos de mapa de imagen se importan como un archivo delimitado por tabuladores o DTD de XML. Los campos del archivo deben tener el orden que se muestra en la pantalla Resumen de mapas: Nombre, Etiquetas de tabla de contenido, Mapas, Direcciones URL, Texto de rollover, Otras acciones y Cadenas de búsqueda. La importación de datos de mapa de imagen evita tener que introducir los datos en la lista de mapa de imagen a medida que se crea cada mapa de imagen.
 
 >[!NOTE]
 >
@@ -129,9 +129,9 @@ Vaya a la pantalla Resumen de mapas y siga estos pasos para importar los datos d
 1. Escriba el nombre que desea asignar al archivo (mantenga la extensión) en el campo Nombre de trabajo.
 1. Seleccionar **[!UICONTROL Cargar]**.
 
-## Copiar mapas de imagen entre catálogos electrónicos {#copying-image-maps-between-ecatalogs}
+## Copia de mapas de imagen entre otros catálogos electrónicos {#copying-image-maps-between-ecatalogs}
 
-Puede copiar todos los mapas de imagen de un catálogo electrónico a otro. La copia de mapas de imagen con este método es una forma cómoda de copiar los mapas de imagen entre las distintas traducciones en otros idiomas del mismo catálogo electrónico. Para que la copia se realice correctamente, Adobe Dynamic Media Classic recomienda copiar entre catálogos electrónicos con el mismo número de páginas e imágenes.
+Puede copiar todos los mapas de imagen de un catálogo electrónico a otro. La copia de mapas de imagen con este método es una forma cómoda de copiar los mapas de imagen entre las distintas traducciones en otros idiomas del mismo catálogo electrónico. Para que la copia se realice correctamente, Adobe Dynamic Media Classic recomienda copiar entre catálogos electrónicos con el mismo número de páginas y las mismas imágenes.
 
 >[!NOTE]
 >
@@ -143,4 +143,4 @@ Para copiar todos los mapas de imagen de un catálogo electrónico en otro, haga
 1. En la pestaña Ordenar páginas, seleccione **[!UICONTROL Copiar asignaciones]**.
 1. En el cuadro de diálogo Seleccionar recurso, seleccione el catálogo electrónico en el que desea copiar los mapas de imagen y, a continuación, seleccione **[!UICONTROL Seleccionar]**.
 
-Adobe Dynamic Media Classic muestra un mensaje de advertencia si el catálogo electrónico de destino (el catálogo electrónico en el que copia los mapas de imágenes) tiene un número diferente de páginas o imágenes con un tamaño diferente. Seleccionar **[!UICONTROL Continuar]** para copiar los mapas de imagen a pesar de la advertencia.
+Adobe Dynamic Media Classic muestra un mensaje de advertencia si el catálogo electrónico de destino desde el que copia mapas de imágenes tiene un número diferente de páginas o imágenes con un tamaño diferente. Seleccionar **[!UICONTROL Continuar]** para copiar los mapas de imagen a pesar de la advertencia.

@@ -1,7 +1,7 @@
 ---
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,9 @@ Las incidencias permiten describir fácilmente su idea para mejorar los document
 
 ### Creación de una solicitud de extracción {#create-a-pull-request}
 
-Si ve un problema y sabe exactamente cómo solucionarlo, plantéese crear una solicitud de extracción. Las solicitudes de extracción le permiten realizar sus propios cambios en la documentación, que luego son revisados para su inclusión por un miembro del equipo de documentación. Para realizar los cambios sugeridos y crear la solicitud de extracción, seleccione **[!UICONTROL Editar esta página]** en la parte superior derecha del panel de navegación en cualquier página.
+Si ve un problema y sabe exactamente cómo solucionarlo, plantéese crear una solicitud de extracción. Las solicitudes de extracción le permiten realizar sus propios cambios en la documentación, y un miembro del equipo de documentación la revisa para incluirla. Para realizar los cambios sugeridos y crear la solicitud de extracción, seleccione **[!UICONTROL Editar esta página]** en la parte superior derecha del panel de navegación en cualquier página.
 
-Todas las solicitudes de extracción deben ir acompañadas de un [contrato de licencia de colaborador o CLA](https://opensource.adobe.com/cla.html). Este flujo de trabajo concede permiso al Adobe para redistribuir las contribuciones como parte del proyecto. Solo debe enviar un contrato de licencia de colaborador de Adobe, por lo que, si ha enviado uno anteriormente, ya estará configurado.
+A firmado [contrato de licencia de colaborador o CLA](https://opensource.adobe.com/cla.html) debe acompañar todas las solicitudes de extracción. Este flujo de trabajo concede permiso al Adobe para redistribuir las contribuciones como parte del proyecto. Solo puede enviar un CLA de Adobe una vez, por lo que, si ha enviado uno anteriormente, se le asignará un.
 
 ### Introducción rápida a vídeo
 

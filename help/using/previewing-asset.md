@@ -10,10 +10,10 @@ role: User
 exl-id: 7e6f652c-b197-4171-b11b-f532795f7cf2
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 19%
+source-wordcount: '1008'
+ht-degree: 17%
 
 ---
 
@@ -43,7 +43,7 @@ Consulte también [Ejemplos de la biblioteca de referencia de visores de Adobe](
 
 ## Previsualización de un recurso en función del tipo de plataforma del visor {#previewing-an-asset-based-on-viewer-platform-type}
 
-Utilice la Lista del visor para previsualizar cómo se muestra un recurso en una plataforma de visor concreta como HTML5. Según el tipo de recurso y el visor asociado cuya vista previa haya seleccionado, no todas las plataformas se encuentran disponibles en Lista del visor.
+Puede utilizar la lista del visor para obtener una vista previa del aspecto de un recurso en un tipo de plataforma de visor concreto, como HTML5. Según el tipo de recurso y el visor asociado cuya vista previa haya seleccionado, no todas las plataformas se encuentran disponibles en Lista del visor.
 
 También puede utilizar la lista del visor para copiar la URL de un visor o ver y copiar el código del visor para incrustarlo en las páginas web.
 
@@ -63,7 +63,7 @@ En una plataforma de visor determinada, la ventana Lista de visores permite ver 
 
    Cerrar la vista previa mostrada.
 
-1. (Opcional) En la ventana Lista de visualizadores, en la lista desplegable Codificación URL para la creación de copias URL en la parte inferior, seleccione la codificación URL que se aplicará a la URL del recurso cuando se copie.
+1. (Opcional) En la ventana Lista de visores, en la lista desplegable Codificación de URL para la creación de copias de URL en la parte inferior, seleccione la Codificación de URL. Esta codificación se aplica a la dirección URL del recurso cuando se copia.
 1. (Opcional) Lleve a cabo uno de los procedimientos siguientes:
 
    * En la ventana Lista del visor, en la columna Acciones de la tabla, seleccione **[!UICONTROL Copiar URL]** para un visor y tipo de plataforma seleccionados.
@@ -82,7 +82,7 @@ En una plataforma de visor determinada, la ventana Lista de visores permite ver 
 
 Puede previsualizar un recurso de imagen basándose en su ajuste preestablecido de imagen para ver el aspecto que tendrá la imagen al distribuirse dinámicamente y con distintos tamaños en su aplicación o sitio web.
 
-Un ajuste preestablecido de imagen es una colección de ajustes predefinidos que cambian el tamaño, la calidad de imagen, el formato, la resolución y otros aspectos de la apariencia de una imagen cuando se exporta.
+Un ajuste preestablecido de imagen es un conjunto de ajustes predefinidos. Estos ajustes cambian el tamaño, la calidad de imagen, el formato, la resolución y otros aspectos de la apariencia de una imagen cuando se exporta.
 
 Consulte [Configurar ajustes preestablecidos de imagen](setting-image-presets.md#setting_up_image_presets).
 
@@ -98,7 +98,8 @@ Consulte [Crear y habilitar ajustes preestablecidos de imagen](creating-enabling
    * Sobre la ventana Recursos, en la parte derecha de la barra de herramientas, seleccione **[!UICONTROL Vista de detalles]**. En la misma barra de herramientas, vaya a **[!UICONTROL Previsualizar]** > **[!UICONTROL Lista de ajustes preestablecidos de imagen]**.
 
 1. En la tabla de la ventana Lista de ajustes preestablecidos de imagen, seleccione el nombre de un tipo de ajuste preestablecido cuyo recurso de imagen quiera previsualizar en línea en el panel derecho.
-1. (Opcional) En la ventana Lista de ajustes preestablecidos de imagen, en el **[!UICONTROL Codificación URL para la generación de copias URL]** en la lista desplegable inferior, seleccione la codificación URL que se aplicará a la URL del recurso de imagen cuando se copie.
+1. (Opcional) En la ventana Lista de ajustes preestablecidos de imagen, en el **[!UICONTROL Codificación URL para la generación de copias URL]** en la parte inferior.
+1. Seleccione la codificación URL que se aplicará a la URL del recurso de imagen cuando se copie.
 1. (Opcional) En la ventana Lista de ajustes preestablecidos de imagen, en el área superior derecha del panel de vista previa, seleccione **[!UICONTROL Copiar URL]** para el tipo de ajuste preestablecido seleccionado.
 
    Al seleccionar **[!UICONTROL Copiar URL]**, su URL asociada se copia automáticamente en el portapapeles.

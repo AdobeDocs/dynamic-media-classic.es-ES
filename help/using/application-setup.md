@@ -10,16 +10,16 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '10947'
-ht-degree: 36%
+source-wordcount: '10944'
+ht-degree: 30%
 
 ---
 
 # Ajustes de aplicación{#application-setup}
 
-Puede utilizar las páginas de configuración de la aplicación para introducir ajustes generales, crear ajustes preestablecidos de imagen, ajustes preestablecidos de codificación de vídeo, ajustes preestablecidos de visualizador o definir visores y metadatos predeterminados. Puede configurar ajustes preestablecidos de conjuntos por lotes para automatizar también la generación de conjuntos de giros 2D (por ejemplo), la configuración de publicación y la configuración de SEO de vídeo.
+Puede utilizar las páginas de Configuración de la aplicación para introducir la Configuración general, crear Ajustes preestablecidos de imagen, Ajustes preestablecidos de codificación de vídeo, Ajustes preestablecidos de visualizador o definir Visualizadores predeterminados y metadatos. Puede configurar ajustes preestablecidos de conjuntos de lotes para que automaticen la generación de conjuntos de giros 2D (por ejemplo), la configuración de publicación y la configuración de SEO de vídeo.
 
 >[!NOTE]
 >
@@ -35,19 +35,19 @@ Al crear la cuenta, Adobe Dynamic Media Classic proporciona automáticamente los
 
 Consulte también [Prueba del servicio Secure Testing](testing-assets-making-them-public.md#testing_the_secure_testing_service).
 
-* **[!UICONTROL Servidor de publicación]** : Este servidor es el servidor CDN (red de distribución de contenido) activo que se utiliza en todas las llamadas URL generadas por el sistema específicas a su cuenta. No cambie este nombre de servidor a menos que un técnico de soporte de Adobe Dynamic Media Classic se lo indique.
+* **[!UICONTROL Servidor de publicación]** : Este servidor es el servidor CDN (red de distribución de contenido) activo que se utiliza en todas las llamadas URL generadas por el sistema específicas a su cuenta. Solo debe cambiar este nombre de servidor si un técnico de soporte de Adobe Dynamic Media Classic se lo ha indicado.
 
-* **[!UICONTROL Servidor de origen]** : Este servidor solo se utiliza para pruebas de garantía de calidad. No cambie este nombre de servidor a menos que un técnico de soporte de Adobe Dynamic Media Classic se lo indique.
+* **[!UICONTROL Servidor de origen]** : Este servidor solo se utiliza para pruebas de garantía de calidad. Solo debe cambiar este nombre de servidor si un técnico de soporte de Adobe Dynamic Media Classic se lo ha indicado.
 
 <!-- **AGM Server Name** This server is used for Web-to-Print templates. This server is set on a company-wide basis. Do not change this server name unless instructed to do so by an Adobe DynamicMedia Classic support technician. -->
 
-* **[!UICONTROL Nombre del servidor de Test&amp;Target]** - Su URL de Test&amp;Target, hasta .com. Para obtener instrucciones sobre cómo obtener esta URL, consulte Integrar [!DNL Adobe Dynamic Media Classic] con [!DNL Adobe Target Standard/Premium].
+* **[!UICONTROL Nombre del servidor de Test&amp;Target]** : la dirección URL de Test&amp;Target que incluye `.com`. Para obtener instrucciones sobre cómo obtener esta URL, consulte Integrar [!DNL Adobe Dynamic Media Classic] con [!DNL Adobe Target Standard/Premium].
 
 <!-- **Test Publish Context Server Name** -->
 
-* **[!UICONTROL Nombre del servidor de flujo iOS]** - La dirección URL de su [!DNL Adobe Dynamic Media Classic] Servidor de streaming de iOS. Este servidor ofrece transmisión de vídeo para los dispositivos basados en iOS utilizando el protocolo HTTP.
+* **[!UICONTROL Nombre del servidor de flujo iOS]** - La dirección URL de su [!DNL Adobe Dynamic Media Classic] Servidor de streaming de iOS. Este servidor ofrece flujo de vídeo a dispositivos basados en iOS mediante el protocolo HTTP.
 
-* **[!UICONTROL Nombre del servidor de vídeo progresivo]** - La dirección URL de su [!DNL Adobe Dynamic Media Classic] servidor de vídeo progresivo. Este servidor ofrece vídeo progresivo utilizando el protocolo HTTP.
+* **[!UICONTROL Nombre del servidor de vídeo progresivo]** - La dirección URL de su [!DNL Adobe Dynamic Media Classic] servidor de vídeo progresivo. Este servidor ofrece vídeo progresivo mediante el protocolo HTTP.
 
 * **[!UICONTROL Mostrar URL de recursos sin publicar]** - Seleccione esta opción si lo desea [!DNL Adobe Dynamic Media Classic] para mostrar una URL al previsualizar cualquier recurso, independientemente de si se ha publicado o no. Si el recurso no está publicado, la URL no funciona. Sin embargo, puede utilizar la dirección URL para fines de planificación o de organización.
 
@@ -71,7 +71,7 @@ Consulte también [Prueba del servicio Secure Testing](testing-assets-making-the
 
   Después de seleccionar la plantilla de invalidación de CDN y de realizar una solicitud de invalidación de CDN, aparece un indicador en la interfaz de usuario. Proporciona una estimación del tiempo que se tarda en borrar la caché.
 
-  Del mismo modo, si se seleccionan varias imágenes en Adobe Dynamic Media Classic al ir a **[!UICONTROL Archivo]** > **[!UICONTROL Invalidar CDN]**, se hace referencia a cada imagen en la URL de plantilla guardada. Por lo tanto, puede definir una plantilla de invalidación de CDN que haga referencia a cada URL a la que se hace referencia en el sitio web (como detalles del producto y resultados de búsqueda). A continuación, cuando se seleccione una o varias imágenes para la invalidación desde la caché, las direcciones URL rellenan automáticamente la interfaz.
+  Al hacer clic en **[!UICONTROL Archivo]** > **[!UICONTROL Invalidar CDN]** Sin embargo, se hace referencia a cada imagen en la URL de plantilla guardada si se seleccionan varias imágenes en Dynamic Media Classic. Por lo tanto, puede definir una plantilla de invalidación de CDN que haga referencia a cada URL a la que se hace referencia en el sitio web (como detalles del producto y resultados de búsqueda). A continuación, al seleccionar una o varias imágenes para la invalidación desde la caché, las direcciones URL rellenan automáticamente la interfaz.
 
   Consulte [Caché de contenido](dmc-platform-overview.md#content_caching).
 
@@ -83,11 +83,11 @@ Consulte también [Prueba del servicio Secure Testing](testing-assets-making-the
 
 * **[!UICONTROL Mostrar contenido de eVideo de muestra]** - Activar o desactivar la visualización del contenido de muestra de eVideo.
 
-* **[!UICONTROL Mostrar contenido generado]** : En las carpetas, muestra el contenido generado a partir de un recurso. Por ejemplo, cuando un archivo de PDF se rasteriza a medida que se carga, Adobe Dynamic Media Classic crea una imagen para cada página en el PDF original. Si la opción Mostrar contenido generado está seleccionada, cada imagen generada durante la carga del PDF original aparecerá junto con el PDF en la carpeta en la que se cargó.
+* **[!UICONTROL Mostrar contenido generado]** : En las carpetas, muestra el contenido generado a partir de un recurso. Por ejemplo, cuando un archivo de PDF se rasteriza a medida que se carga, Adobe Dynamic Media Classic crea una imagen para cada página en el PDF original. Si se selecciona Mostrar contenido generado, aparecerá cada imagen generada cuando se cargue el PDF original. Aparece junto con el PDF en la carpeta en la que se cargó el PDF.
 
 * **[!UICONTROL Mostrar vídeos codificados]** - Deseleccionado (desactivado) de forma predeterminada.
 
-  Para buscar vídeos rápidamente en Adobe Dynamic Media Classic sin tener que navegar por varios derivados codificados del mismo vídeo, deje esta opción sin seleccionar (predeterminada). Solo se muestran la miniatura del vídeo principal (el vídeo de origen que ha cargado y utilizado para crear los derivados) y la miniatura del conjunto de vídeos adaptable &quot;principal&quot; (que contiene los derivados &quot;secundarios&quot; del conjunto de vídeos codificado).
+  Puede buscar vídeos rápidamente en Adobe Dynamic Media Classic sin tener que navegar por varios derivados codificados del mismo vídeo. Deje esta opción sin seleccionar (predeterminada). Solo se muestran la miniatura del vídeo principal (el vídeo de origen que ha cargado y utilizado para crear los derivados) y la miniatura del conjunto de vídeos adaptable &quot;principal&quot; (que contiene los derivados &quot;secundarios&quot; del conjunto de vídeos codificado).
 
   Sin embargo, aún puede acceder a vídeos codificados individuales desde el vídeo principal o el conjunto de vídeos adaptables. Para ello, haga doble clic en la imagen en miniatura del vídeo para abrir la vista de detalles. A continuación seleccione **[!UICONTROL Vídeos codificados]** en el panel derecho para poder acceder a todos los vídeos &quot;secundarios&quot;.
 
@@ -113,7 +113,7 @@ Consulte también [Prueba del servicio Secure Testing](testing-assets-making-the
 
 ### Cargar a la aplicación
 
-Consulte también [Opciones de trabajo de carga predeterminadas](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/569_Default%20Job%20Options_converted%20renamed_Getting%20Started-AVS) vídeo de formación.
+Consulte también [Opciones para trabajos de carga](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/569_Default%20Job%20Options_converted%20renamed_Getting%20Started-AVS) vídeo de formación.
 
 * **[!UICONTROL Sobrescribir imágenes]** : Adobe Dynamic Media Classic no permite que dos archivos tengan el mismo nombre. El Adobe Dynamic Media Classic ID de cada elemento (el nombre de imagen menos la extensión del nombre de archivo) debe ser único. Debido a esta regla, el cuadro de diálogo Cargar dispone de una opción Sobrescribir. El efecto exacto de esta opción depende de la opción Sobrescribir imágenes especificada. Estas opciones especifican cómo se cargan las imágenes de sustitución: si sustituyen las imágenes originales o si se convierten en imágenes duplicadas. Las imágenes duplicadas cambian de nombre con &quot;-1&quot; (por ejemplo, chair.tif cambia de nombre chair-1.tif). Estas opciones también afectan a las imágenes cargadas en una carpeta distinta de la original o a las imágenes con una extensión de nombre de archivo diferente de la original (como JPG, TIF o PNG). Consulte [Utilizar la opción Sobrescribir imágenes](#using-the-overwrite-images-option).
 
@@ -125,7 +125,7 @@ Consulte también [Opciones de trabajo de carga predeterminadas](https://s7d5.sc
 
    * **[!UICONTROL Sobrescribir en cualquier carpeta con mismo nombre de recurso base independientemente de la extensión]** : Esta opción es la regla de reemplazo más inclusiva. Puede cargar la imagen de sustitución en otra carpeta distinta de la original, cargar un archivo con una extensión de nombre de archivo diferente y sustituir el archivo original. Si el archivo original está en otra carpeta, la imagen de sustitución residirá en la nueva carpeta en la que se haya cargado.
 
-* **[!UICONTROL Conservar publicación]** : Especifica si una imagen de reemplazo cargada en Adobe Dynamic Media Classic conserva la configuración Listo para publicar de la imagen que está reemplazando o si la configuración se especifica en la carga.
+* **[!UICONTROL Conservar publicación]** : especifica si una imagen de reemplazo cargada en Adobe Dynamic Media Classic conserva la configuración Listo para publicar de la imagen que está reemplazando. O bien, la configuración se especifica en la carga.
 
 * **[!UICONTROL Perfiles de color predeterminados]** - Especifica los perfiles de color aplicados como parte de las opciones de perfil de color predeterminadas al añadir imágenes CMYK.
 
@@ -135,11 +135,11 @@ Consulte también [Opciones de trabajo de carga predeterminadas](https://s7d5.sc
 
 * **[!UICONTROL HREF de mapeado de imágenes predeterminado]** : define la dirección URL predeterminada que se utiliza para la columna HREF en la asignación de imágenes. Esta URL es la URL predeterminada que se ve al crear mapas de imágenes.
 
-* **[!UICONTROL Plantilla de asignación de imagen predeterminada]** : define el JavaScript predeterminado para la plantilla HREF en la asignación de imágenes. Puede configurar el código personalizado aquí para que se ejecute cada vez que seleccione un mapa de imagen.
+* **[!UICONTROL Plantilla de asignación de imagen predeterminada]** : define el JavaScript predeterminado para la plantilla HREF en la asignación de imágenes. Puede establecer aquí un código personalizado para que se ejecute cada vez que seleccione un mapa de imagen.
 
 ### Otra configuración (para la aplicación)
 
-* **[!UICONTROL Las Advertencias De La Papelera Pueden Limpiar]** - Los recursos de la papelera se eliminan automáticamente en un plazo de siete días. Seleccione &quot;Enviar correos electrónicos antes de que los elementos de la papelera se eliminen automáticamente&quot; si desea que se envíen notificaciones a los administradores de la empresa cuando falten cuatro días para que los recursos de la papelera se eliminen de forma permanente. Consulte [Administrar la carpeta Papelera](/help/using/trash-folder.md).
+* **[!UICONTROL Las Advertencias De La Papelera Pueden Limpiar]** - Los recursos de la papelera se eliminan automáticamente en un plazo de siete días. Seleccione &quot;Enviar correos electrónicos antes de que los elementos de la papelera se eliminen automáticamente&quot; para que se envíen notificaciones a los administradores de la empresa cuando falten cuatro días para que los recursos de la papelera se eliminen de forma permanente. Consulte [Administrar la carpeta Papelera](/help/using/trash-folder.md).
 
 ## Utilizar la opción Sobrescribir imágenes {#using-the-overwrite-images-option}
 
@@ -147,15 +147,15 @@ Adobe Dynamic Media Classic no permite que dos archivos tengan el mismo nombre. 
 
 Si anteriormente cargó imágenes y después cambió los archivos originales (o los reemplazó), la opción Sobrescribir seleccionada especifica cómo Adobe Dynamic Media Classic reemplaza las imágenes. No se modifica ningún dato referente a la imagen sino que la nueva imagen sustituye la antigua. Si la carpeta también contiene imágenes que aún no están en Adobe Dynamic Media Classic, se añadirán estas imágenes.
 
-Utilice esta opción si las imágenes que ha cargado han cambiado de alguna manera (la imagen se ha alterado) pero la referencia a la imagen sigue siendo la misma. Sobrescribir también resulta útil al cargar y copiar PDF de Adobe®. Para ajustar el modo en que Adobe Dynamic Media Classic *rasgaduras* Para la imagen, ajuste las opciones de perfil de color ICC en el cuadro de diálogo Cargar y vuelva a cargar utilizando la función de sobrescritura.
+Utilice esta opción si las imágenes cargadas han cambiado de alguna manera (la imagen se ha alterado) pero la referencia a la imagen sigue siendo la misma. Sobrescribir también resulta útil al cargar y copiar PDF de Adobe®. Puede ajustar el modo en que Adobe Dynamic Media Classic *rasgaduras* la imagen. También puede ajustar las opciones de perfil de color ICC en el cuadro de diálogo Cargar y volver a cargar mediante la función de sobrescritura.
 
-Los Adobe Dynamic Media Classic ID que se utilizan para acceder a las imágenes de los servidores de producción se derivan de los nombres de archivo de imagen. El uso de caracteres en mayúsculas y minúsculas en el nombre del archivo es importante, tanto para reemplazar los archivos existentes como para los Adobe Dynamic Media Classic ID utilizados para acceder a la imagen. Asegúrese de que el uso de caracteres en mayúsculas y minúsculas en los nombres de archivo es correcto antes de cargarlos en Adobe Dynamic Media Classic para evitar ID de Adobe Dynamic Media Classic que solo difieren en el caso de la misma imagen.
+Los Adobe Dynamic Media Classic ID que se utilizan para acceder a las imágenes de los servidores de producción se derivan de los nombres de archivo de imagen. El uso de caracteres en mayúsculas y minúsculas en el nombre del archivo es importante, tanto para reemplazar los archivos existentes como para los Adobe Dynamic Media Classic ID utilizados para acceder a la imagen. El uso de nombres de archivo con caracteres en mayúsculas y minúsculas es correcto antes de cargarlo en Adobe Dynamic Media Classic para evitar ID de Adobe Dynamic Media Classic que solo difieren en el caso de la misma imagen.
 
 Al anular la selección de esta opción, todas las imágenes que tengan los mismos nombres de archivo como imágenes existentes se tratan como duplicados y, por consiguiente, no se agregan.
 
 ## Ajustes preestablecidos de imagen {#image-presets}
 
-En la pantalla Ajustes preestablecidos de imagen se pueden crear y editar ajustes preestablecidos de imagen. Los ajustes preestablecidos de imagen permiten a Adobe Dynamic Media Classic ofrecer imágenes dinámicamente en diferentes tamaños desde la misma imagen principal. Cada ajuste preestablecido de imagen representa una serie de comandos predefinidos de formato y tamaño que determinan la presentación de las imágenes. Al crear un ajuste preestablecido de imagen, selecciona un tamaño para la entrega de imágenes. También se seleccionan comandos de formato para optimizar el aspecto de la imagen cuando se entrega la imagen para su visualización.
+En la pantalla Ajustes preestablecidos de imagen se pueden crear y editar ajustes preestablecidos de imagen. Los ajustes preestablecidos de imagen permiten a Adobe Dynamic Media Classic ofrecer imágenes dinámicamente en diferentes tamaños desde la misma imagen principal. Cada ajuste preestablecido de imagen representa una serie de comandos predefinidos de formato y tamaño que determinan la presentación de las imágenes. Al crear un ajuste preestablecido de imagen, selecciona un tamaño para la entrega de imágenes. También puede seleccionar comandos de formato para optimizar el aspecto de la imagen cuando se envíe la imagen para su visualización.
 
 Los administradores pueden crear ajustes preestablecidos para exportar recursos. Los usuarios pueden elegir un ajuste preestablecido al exportar imágenes, que también redistribuye las imágenes según las especificaciones del administrador.
 
@@ -233,7 +233,7 @@ En las pantallas de adición y edición de ajustes preestablecidos, encontrará 
 
 * **[!UICONTROL Radio]** : Determina el número de píxeles adyacentes a los píxeles de borde que afectan al enfoque. Para las imágenes de alta resolución, introduzca una cantidad de 1 a 2. Un valor bajo aplica enfoque solo a los píxeles de borde; un valor alto aplica enfoque a un mayor número de píxeles. El valor adecuado depende del tamaño de la imagen.
 
-* **[!UICONTROL Umbral]** - Determina el intervalo de contraste que debe omitirse cuando se aplica el filtro de máscara de enfoque. Es decir, esta opción determina en qué deben diferenciarse los píxeles enfocados del área que los rodea antes de ser considerados píxeles de borde y por tanto enfocados. Para evitar la introducción de ruido, experimente con valores entre 0,02 y 0,2. El valor predeterminado (6) aplica enfoque a todos los píxeles de la imagen.
+* **[!UICONTROL Umbral]** - Determina el intervalo de contraste que debe omitirse cuando se aplica el filtro de máscara de enfoque. Es decir, puede ayudar a resolver la diferencia que debe existir entre los píxeles enfocados y el área adyacente para que se consideren píxeles de borde y se enfoquen. Para evitar la introducción de ruido, experimente con valores entre `.02` y `0.2`. El valor predeterminado de 6 enfoca todos los píxeles de la imagen.
 
 * **[!UICONTROL Espacio de color]** - Determina si la imagen utiliza el espacio en el que se creó, normalmente RGB (Original) o un espacio de luminancia (Intensidad).
 
@@ -243,7 +243,7 @@ En las pantallas de adición y edición de ajustes preestablecidos, encontrará 
 
   Consulte también [Perfiles ICC](icc-profiles.md#icc_profiles).
 
-* **[!UICONTROL Interpretación]** : seleccione una opción si desea anular la interpretación predeterminada del perfil de color. Utilice esta opción cuando uno de los perfiles ICC predeterminados sea el espacio de color de destino de una conversión de color. O bien, un dispositivo de salida (impresora o monitor) está caracterizado por este perfil y la interpretación especificada es válida para este perfil.
+* **[!UICONTROL Interpretación]** : seleccione una opción si desea anular la interpretación predeterminada del perfil de color. Utilice esta opción cuando uno de los perfiles ICC predeterminados sea el espacio de color de destino de una conversión de color. O bien, este perfil caracteriza el dispositivo de salida (impresora o monitor) y la interpretación especificada es válida para este perfil.
 
 * **[!UICONTROL Incrustar perfil]** - Seleccione esta opción para que, si abre esta imagen en Adobe® Photoshop®, utilice este perfil.
 
@@ -262,9 +262,9 @@ En las pantallas de adición y edición de ajustes preestablecidos, encontrará 
    * Seleccionar **[!UICONTROL Eliminar]** para quitar el ajuste preestablecido de la lista.
    * Anule la selección de **[!UICONTROL Activo]** casilla de verificación situada junto a un nombre de ajuste preestablecido si desea eliminarlo de toda la interfaz de usuario de Adobe Dynamic Media Classic para los usuarios de MediaPortal.
 
-## Activar o desactivar ajustes preestablecidos de vídeo adaptables {#activating-or-deactivating-adaptive-video-presets}
+## Activar o desactivar ajustes preestablecidos de vídeo adaptable {#activating-or-deactivating-adaptive-video-presets}
 
-Adobe Dynamic Media Classic ofrece ajustes preestablecidos de codificación de vídeo adaptable. Es una lista principal de ajustes preestablecidos que combina ajustes preestablecidos de vídeo adaptable 16:9 y ajustes preestablecidos de vídeo adaptable 4:3 en un grupo. Estos ajustes preestablecidos predefinidos reflejan la configuración de codificación más común y se han optimizado para la reproducción en dispositivos móviles, tablets y escritorios.
+Adobe Dynamic Media Classic ofrece ajustes preestablecidos de codificación de vídeo adaptables. Es una lista principal de ajustes preestablecidos que combina ajustes preestablecidos de vídeo adaptable 16:9 y ajustes preestablecidos de vídeo adaptable 4:3 en un grupo. Estos ajustes preestablecidos predefinidos reflejan la configuración de codificación más común y se han optimizado para la reproducción en dispositivos móviles, tablets y escritorios.
 
 Solo los ajustes preestablecidos de codificación de &quot;Vídeo adaptable&quot; están activados (habilitados o &quot;activados&quot;) de forma predeterminada. Puede desactivarlos, si lo desea. Los ajustes preestablecidos de vídeos adaptables inactivos no aparecen como una opción seleccionable en la sección eVideo del cuadro de diálogo Opciones de trabajo de carga.
 
@@ -284,7 +284,7 @@ Para seleccionar un ajuste preestablecido de codificación, en la esquina inferi
 
 >[!NOTE]
 >
->Excepto &quot;Vídeo adaptable&quot;, que está activado de forma predeterminada, no puede ver todos los demás ajustes preestablecidos de codificación de vídeo adaptable o de vídeo único en el cuadro de diálogo Opciones de carga de trabajo. Los administradores de Adobe Dynamic Media Classic determinan qué ajustes preestablecidos de codificación de vídeo están visibles en el cuadro de diálogo Opciones de carga de trabajo.
+>Excepto &quot;Vídeo adaptable&quot;, que está activado de forma predeterminada, no puede ver todos los demás ajustes preestablecidos de codificación de vídeo adaptable o de vídeo único en el cuadro de diálogo Opciones de carga de trabajo. Los administradores de Adobe Dynamic Media Classic determinan qué ajustes preestablecidos de codificación de vídeo están visibles en el cuadro de diálogo Opciones del trabajo de carga.
 
 * Seleccione entre los siguientes ajustes preestablecidos de codificación de vídeo adaptable o de codificación única:
 
@@ -326,7 +326,7 @@ Los parámetros de las opciones de ajustes preestablecidos de codificación son 
 
 * **[!UICONTROL Anchura y altura de píxeles]** : la dimensión de anchura de la imagen de pantalla, en píxeles; la dimensión de altura de la imagen de pantalla (en píxeles).
 
-* **[!UICONTROL Fotograma por segundo (fps)]** - El número de fotogramas, o imágenes fijas, para cada segundo de vídeo. En Estados Unidos y Japón, la mayoría de los vídeos se graban a 29,97 fps; en Europa y Asia (excluido Japón), la mayoría se graba a 25 fps. Las películas se graban a 24 fps.
+* **[!UICONTROL Fotograma por segundo (fps)]** - El número de fotogramas, o imágenes fijas, para cada segundo de vídeo. En Estados Unidos y Japón, la mayoría de los vídeos se graban a 29,97 fps; en Europa y Asia (excluido Japón), la mayoría se graba a 25 fps. La película está filmada a 24 fps.
 
 * **[!UICONTROL Velocidad de bits de audio]** : Cantidad de datos codificados para formar un solo segundo de reproducción de audio, en kilobits por segundo.
 
@@ -334,25 +334,25 @@ En las siguientes tablas se muestran las mejores prácticas recomendadas para se
 
 ### Vídeo adaptable (predeterminado) {#adaptive-video-default}
 
-Un ajuste preestablecido de codificación que funciona con cualquier proporción de aspecto para crear vídeos para su distribución en teléfonos móviles, tablets y equipos de escritorio. Los vídeos de origen cargados que se codifican con este ajuste preestablecido (el predeterminado y una práctica recomendada) se establecen en una altura fija, mientras que la anchura se escala automáticamente para conservar la proporción de aspecto del vídeo.
+Un ajuste preestablecido de codificación que funciona con cualquier proporción de aspecto para crear vídeos para su distribución en teléfonos móviles, tablets y equipos de escritorio. Los vídeos de origen cargados codificados con este ajuste preestablecido (el predeterminado y una práctica recomendada) se establecen en una altura fija, mientras que la anchura se escala automáticamente para conservar la proporción de aspecto del vídeo.
 
 **Vídeo adaptable (predeterminado)**
 
-|  | Nombre de ajuste preestablecido de codificación/Texto de información sobre herramientas | Sufijo de archivo codificado | Velocidad de datos de vídeo (kbps) | Anchura/Altura (píxeles) | Fps | Velocidad de bits de audio (kbps) | Recomendaciones |
+|  | Nombre de ajuste preestablecido de codificación/Texto de información sobre herramientas | Sufijo de archivo codificado | Velocidad de datos de vídeo (kbps) | Anchura/Altura (píxeles) | fps | Velocidad de bits de audio (kbps) | Recomendaciones |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | × automática 360, 800 Kbps | _Mobile_Auto×360p_800K | 800 | Auto×360 | Igual que el origen | 64 | Para dispositivos móviles (iPhone, iPad, Android™) |
 | 2 | × automático 480, 1400 Kbps | _Tablet_Auto×480p_1400K | 1400 | Automático×480 | Igual que el origen | 96 | Para tablets (iPad, Android™) |
 | 3 | × automática 720, 2.600 Kbps | _Escritorio_automático×720p_2600K | 2600 | Auto×720 | Igual que el origen | 128 | Para escritorio |
 
-### Ajustes preestablecidos de vídeo de codificación de vídeo adaptable (16:9 o 4:3) {#adaptive-video-encoding-or-video-presets}
+### Ajustes preestablecidos de codificación de vídeo adaptable (16:9 o 4:3) {#adaptive-video-encoding-or-video-presets}
 
-Estos ajustes preestablecidos de codificación de vídeo adaptable combinan una serie de ajustes preestablecidos de codificación individuales que se seleccionan automáticamente en función de la proporción de vídeo que cargue. Por ejemplo, si carga un vídeo 4:3, se codifica automáticamente utilizando los cinco ajustes preestablecidos 4:3 que se encuentran en la lista de ajustes preestablecidos principales en la **Codificación de vídeo adaptable (16:9 o 4:3)** opción.
+Estos ajustes preestablecidos de codificación de vídeo adaptable combinan una serie de ajustes preestablecidos de codificación individuales que se seleccionan automáticamente en función de la relación de aspecto del vídeo que ha cargado. Por ejemplo, si carga un vídeo 4:3, se codifica automáticamente utilizando los cinco ajustes preestablecidos 4:3 que se encuentran en la lista de ajustes preestablecidos principales en la **Codificación de vídeo adaptable (16:9 o 4:3)** opción.
 
 Para obtener más información sobre los parámetros de las opciones de codificación, consulte [Acerca de las opciones de ajustes preestablecidos de codificación](application-setup.md#about_encoding_preset_options).
 
 **Ajustes preestablecidos de codificación de vídeo adaptable (16:9 o 4:3)**
 
-|  | Nombre de ajuste preestablecido de codificación/Texto de información sobre herramientas | Velocidad de conexión de destino (kbps) | Sufijo de archivo codificado | Velocidad de datos de vídeo (kbps) | Anchura/Altura (píxeles) | Fps | Velocidad de bits de audio (kbps) | Recomendaciones |
+|  | Nombre de ajuste preestablecido de codificación/Texto de información sobre herramientas | Velocidad de conexión de destino (kbps) | Sufijo de archivo codificado | Velocidad de datos de vídeo (kbps) | Anchura/Altura (píxeles) | fps | Velocidad de bits de audio (kbps) | Recomendaciones |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | `16:9, 512x288, Mobile (iPhone, iPad, Android&trade;), (400 Kbps)` | 500 | _Mobile_512x288_400K | 400 | 512 x 288 | Igual que el origen | 64 | Baja resolución, 3G |
 | 2 | `4:3, 384x288px, Mobile (iPhone, iPad, Android&trade;), (400 Kbps)` | 500 | _Mobile_384x288_400K | 400 | 384 x 288 | Igual que el origen | 64 | Baja resolución, 3G |
@@ -373,7 +373,7 @@ Para obtener más información sobre los parámetros de las opciones de codifica
 
 **H264 Main 3.2 - Extensión de archivo Audio AAC, MP4**
 
-|  | Nombre de ajuste preestablecido de codificación/Texto de información sobre herramientas | Velocidad de conexión de destino (kbps) | Sufijo de archivo codificado | Velocidad de datos de vídeo (kbps) | Anchura/Altura (píxeles) | Fps | Velocidad de bits de audio (kbps) | Recomendaciones |
+|  | Nombre de ajuste preestablecido de codificación/Texto de información sobre herramientas | Velocidad de conexión de destino (kbps) | Sufijo de archivo codificado | Velocidad de datos de vídeo (kbps) | Anchura/Altura (píxeles) | fps | Velocidad de bits de audio (kbps) | Recomendaciones |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 16:9, 480x270 (400 Kbps) | 500 | _480x270_400K | 400 | 480x270 | Igual que el origen | 64 | Pantalla ancha de baja resolución |
 | 2 | 16:9, 640x360 (800 Kbps) | 900 | _640x360_800K | 800 | 640 x 360 | Igual que el origen | 80 | Resolución media para pantalla ancha |
@@ -386,7 +386,7 @@ Para obtener más información sobre los parámetros de las opciones de codifica
 
 **OGG Theora Vorbis - Extensión de archivo OGV**
 
-|  | Nombre de ajuste preestablecido de codificación/Texto de información sobre herramientas | Velocidad de conexión de destino (kbps) | Sufijo de archivo codificado | Velocidad de datos de vídeo (kbps) | Anchura/Altura (píxeles) | Fps | Velocidad de bits de audio (kbps) | Recomendaciones |
+|  | Nombre de ajuste preestablecido de codificación/Texto de información sobre herramientas | Velocidad de conexión de destino (kbps) | Sufijo de archivo codificado | Velocidad de datos de vídeo (kbps) | Anchura/Altura (píxeles) | fps | Velocidad de bits de audio (kbps) | Recomendaciones |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 16:9, 480x270 (400 Kbps), OGG | 500 | _OGG_480x270_400K | 400 | 480x270 | Igual que el origen | 64 | Pantalla ancha de baja resolución |
 | 2 | 16:9, 640 x 360 (800 Kbps), OGG | 900 | _OGG_640x360_800K | 800 | 640 x 360 | Igual que el origen | 80 | Resolución media para pantalla ancha |
@@ -405,7 +405,7 @@ Para obtener más información sobre los parámetros de opciones de codificació
 
 **H264 Baseline 2.1: extensión de archivo MP4 Audio AAC**
 
-|  | Nombre de ajuste preestablecido de codificación/Texto de información sobre herramientas | Velocidad de conexión de destino (kbps) | Sufijo de archivo codificado | Velocidad de bits de vídeo (Kbps) | Anchura y altura en píxeles | Fps | Velocidad de bits de audio (kbps) | Recomendaciones |
+|  | Nombre de ajuste preestablecido de codificación/Texto de información sobre herramientas | Velocidad de conexión de destino (kbps) | Sufijo de archivo codificado | Velocidad de bits de vídeo (Kbps) | Anchura y altura en píxeles | fps | Velocidad de bits de audio (kbps) | Recomendaciones |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 16:9, 512 x 288 , Móvil (400 kbps) | 500 | _Mobile_512x288_400K | 400 | 512 x 288 | Igual que el origen | 64 | Baja resolución, 3G |
 | 2 | 16:9, 512 x 288 , Móvil (600 kbps) | 700 | _Mobile_512x288_600K | 600 | 512 x 288 | Igual que el origen | 64 | Resolución media, 3G |
@@ -456,15 +456,23 @@ Para obtener más información sobre cómo incrustar visores adaptables en las p
 
 Los administradores pueden crear y personalizar los siguientes tipos de valores preestablecidos de visor:
 
-* **[!UICONTROL Visor de catálogos electrónicos]** - Simula la experiencia de lectura de un catálogo impreso. Puede desplazarse de página en página, ampliar y reducir elementos de una página, utilizar mapas de imagen para ver más información sobre los elementos de la página o buscar en el catálogo. También puede incluir un panel de información para mostrar información detallada y un elemento de mapa de imagen si el área del mapa tiene un atributo rollover_key válido. Para incluir un panel de información, especifique una dirección URL del servidor de información en la configuración del panel de información de la ventana de ajuste preestablecido de visor de catálogo electrónico.
+* **[!UICONTROL Visor de catálogos electrónicos]** - Simula la experiencia de lectura de un catálogo impreso. Puede desplazarse de página en página, ampliar y reducir elementos de una página, utilizar mapas de imágenes para ver más información sobre los elementos de la página o buscar en el catálogo. También puede incluir un panel Información para mostrar información detallada y un elemento asignado a una imagen si el área de asignación tiene un atributo rollover_key válido. Para incluir un panel de información, especifique una URL de servidor de información en el panel de configuración del panel de información de la ventana Ajuste preestablecido del visor de catálogos electrónicos.
 
 * **[!UICONTROL Visor de conjuntos de muestras]** - Muestra una imagen en un color, material, textura, acabado o tejido diferente. Los usuarios seleccionan una miniatura para ver las variaciones en la imagen.
 
-* **[!UICONTROL Visor de conjuntos de medios mixtos]** - Muestra diferentes tipos de medios en un visor. Puede incluir conjuntos de muestras, conjuntos de giros, imágenes y vídeos. Puede configurar fichas que contengan distintos tipos de contenido, como una ficha para conjuntos de imágenes y otra ficha para vídeos. Los vídeos que se reproducen desde un conjunto de medios mixtos usan un visor de vídeo estándar con una línea de tiempo y controles de vídeo, como Detener, Pausa, Rebobinar y Reproducir. Al configurar un ajuste preestablecido de visor de conjuntos de medios mixtos, debe especificar qué visores desea usar para los diferentes tipos de recursos en su conjunto de medios mixtos. También puede usar el visor de cuadrícula o carrusel para ver un conjunto de medios mixtos.
+* **[!UICONTROL Visor de conjuntos de medios mixtos]** - Muestra diferentes tipos de medios en un visor. Puede incluir conjuntos de muestras, conjuntos de giros, imágenes y vídeos. Puede configurar pestañas para que contengan diferentes tipos de contenido, como una pestaña para conjuntos de imágenes y otra para vídeos. Los vídeos reproducidos desde un conjunto de medios mixtos utilizan un visor de vídeo estándar con una cronología y controles de vídeo, como Detener, Pausar, Rebobinar y Reproducir. Al configurar un ajuste preestablecido del visualizador de conjuntos de medios mixtos, debe especificar qué visualizadores desea utilizar para los distintos tipos de recursos del conjunto de medios mixtos. También puede usar el visor de cuadrícula o carrusel para ver un conjunto de medios mixtos.
 
 * **[!UICONTROL Visor de conjuntos de giros]** : proporciona varias vistas de una imagen para que los usuarios puedan girar el objeto y examinar los diferentes lados y ángulos.
 
-* **Visor de vídeo** - Muestra vídeos utilizando las dimensiones de resolución del archivo de origen o un tamaño personalizado. Adobe Dynamic Media Classic incluye muchos ajustes predefinidos de visualizador para reproducir vídeo y, si es administrador, puede crear ajustes preestablecidos personalizados de visualizador de vídeo. Hay más de 12 ajustes diferentes para configurar el Visor de vídeo. Puede configurar el tamaño, el color de primer plano y fondo, los controles de audio y vídeo, la barra de progreso, la apariencia de la interfaz del usuario, las funciones sociales y la ayuda del visor.
+* **Visor de vídeo** - Muestra vídeos utilizando las dimensiones de resolución del archivo de origen o un tamaño personalizado. Adobe Dynamic Media Classic incluye muchos ajustes predefinidos de visualizador para reproducir vídeo y, si es administrador, puede crear ajustes preestablecidos personalizados de visualizador de vídeo. Hay más de 12 ajustes diferentes para configurar el Visor de vídeo. Puede configurar sus:
+
+   * tamaño
+   * color de primer plano y de fondo
+   * controles de vídeo y audio
+   * barra de progreso
+   * máscara de interfaz de usuario
+   * características sociales
+   * y Ayuda
 
 * **[!UICONTROL Visualizadores de zoom]** - Ofrece una opción de tres tipos de visor de zoom:
 
@@ -560,17 +568,17 @@ La pantalla Ajustes preestablecidos de visor ofrece una serie de herramientas pa
 
 * **Añadir un ajuste preestablecido** - Seleccionar **[!UICONTROL Añadir]** y realice opciones en el cuadro de diálogo Agregar ajuste preestablecido de visualizador.
 
-      Consulte [Añadir y editar ajustes preestablecidos del visualizador](application-setup.md#adding_and_editing_viewer_presets).
+      Consulte [Añadir y editar ajustes preestablecidos de visor](application-setup.md#adding_and_editing_viewer_presets).
   
 * **Editar un ajuste preestablecido** - Seleccione un ajuste preestablecido y, a continuación, seleccione **[!UICONTROL Editar]**.
 
-      Consulte [Añadir y editar ajustes preestablecidos del visualizador](application-setup.md#adding_and_editing_viewer_presets).
+      Consulte [Añadir y editar ajustes preestablecidos de visor](application-setup.md#adding_and_editing_viewer_presets).
   
 * **Eliminar un ajuste preestablecido** - Seleccione un ajuste preestablecido y, a continuación, seleccione **[!UICONTROL Eliminar]**.
 
-* **Exportación de un ajuste preestablecido** - Seleccione un ajuste preestablecido de visualizador de HTML5 y, a continuación, seleccione **[!UICONTROL Exportar]** para descargar la apariencia del visualizador y utilizarlo como base para crear y agregar otro ajuste preestablecido de visualizador.
+* **Exportación de un ajuste preestablecido** - Seleccione un ajuste preestablecido de visualizador de HTML5. Luego haga clic en **[!UICONTROL Exportar]** para descargar la apariencia del visualizador y utilizarlo como base para crear y agregar otro ajuste preestablecido de visualizador.
 
-      Consulte [Exportar un ajuste preestablecido de visualizador de HTML5](application-setup.md#export_an_html5_viewer_preset).
+      Consulte [Exportar un ajuste preestablecido de visor de HTML5](application-setup.md#export_an_html5_viewer_preset).
   
 * **Filtrar la lista de ajustes preestablecidos de visor** - Utilice estas herramientas para filtrar la lista:
 
@@ -587,11 +595,11 @@ La pantalla Ajustes preestablecidos de visor ofrece una serie de herramientas pa
 >
 >Seleccionar **[!UICONTROL Previsualizar]** en la parte derecha de la página Ajustes preestablecidos de visualizador, para que pueda ver el aspecto de un recurso en el Ajuste preestablecido de visualizador que ha seleccionado. Para ver un recurso diferente, seleccione **[!UICONTROL Examinar]** en la página Ajustes preestablecidos de visualizador y seleccione un recurso diferente en el cuadro de diálogo Seleccionar previsualización de recurso.
 
-### Añadir y editar ajustes preestablecidos de visor {#adding-and-editing-viewer-presets}
+### Agregar y editar ajustes preestablecidos de visor {#adding-and-editing-viewer-presets}
 
-Además de añadir ajustes preestablecidos de visor mediante **[!UICONTROL Añadir]** en la interfaz de usuario de, también puede utilizar **[!UICONTROL Exportar]** para añadir un ajuste preestablecido de visor. Simplemente exporte un ajuste preestablecido de visualizador de HTML5 existente y, a continuación, utilícelo como base para el nuevo ajuste preestablecido.
+Además de agregar ajustes preestablecidos de visor mediante **[!UICONTROL Añadir]** en la interfaz de usuario de, también puede utilizar **[!UICONTROL Exportar]** para añadir un ajuste preestablecido de visor. Simplemente exporte un ajuste preestablecido de visualizador de HTML5 existente y, a continuación, utilícelo como base para el nuevo ajuste preestablecido.
 
-Consulte [Exportar un ajuste preestablecido de visualizador de HTML5](application-setup.md#exporting_an_html5_viewer_preset).
+Consulte [Exportación de ajustes preestablecidos de visor de HTML 5](application-setup.md#exporting_an_html5_viewer_preset).
 
 Consulte también [Ajustes preestablecidos de visor](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) vídeo de formación.
 
@@ -618,20 +626,20 @@ Consulte también [Ajustes preestablecidos de visor](https://s7d5.scene7.com/s7v
 
    >[!NOTE]
    >
-   >Seleccionar **[!UICONTROL Igual que el origen]** para cambiar automáticamente el tamaño del Visor de vídeo al tamaño de resolución del propio vídeo codificado. Si selecciona esta opción, no podrá introducir la anchura y la altura del escenario. sino que estas opciones proceden del propio vídeo. Si selecciona **[!UICONTROL Igual que el origen]**, establezca la opción Margin Size para reflejar las dimensiones de la apariencia fuera del área de reproducción del vídeo. Este tamaño de margen es la altura y anchura de píxel de los controles de vídeo. Puede utilizar la siguiente imagen para determinar los tamaños de margen que desea utilizar.*
+   >Seleccionar **[!UICONTROL Igual que el origen]** por lo que puede cambiar automáticamente el tamaño del Visor de vídeo al tamaño de resolución del propio vídeo codificado. Si selecciona esta opción, no podrá introducir la anchura y la altura del escenario. sino que estas opciones proceden del propio vídeo. Si selecciona **[!UICONTROL Igual que el origen]**, establezca la opción Margin Size para reflejar las dimensiones de la apariencia fuera del área de reproducción del vídeo. Este tamaño de margen es la altura y anchura de píxel de los controles de vídeo. Puede utilizar la siguiente imagen para determinar los tamaños de margen que desea utilizar.*
 
    ![Configuración del margen del visor de vídeo](assets/vs_video_viewer_configure_margin.png)
 
 1. Realice una de las siguientes acciones:
 
-   * Seleccionar **[!UICONTROL Guardar como]** si ha añadido un ajuste preestablecido de Visor partiendo de un ajuste preestablecido existente.
-   * Seleccionar **[!UICONTROL Guardar]** si ha añadido o editado un ajuste preestablecido de Visor.
+   * Seleccionar **[!UICONTROL Guardar como]** si ha añadido un ajuste preestablecido de visor partiendo de uno existente.
+   * Seleccionar **[!UICONTROL Guardar]** si ha añadido o editado un ajuste preestablecido de visor.
 
 ### Exportar un ajuste preestablecido de visualizador de HTML5 {#exporting-an-html-viewer-preset}
 
 Puede exportar un ajuste preestablecido de visualizador de HTML5 existente para utilizarlo como base para crear un ajuste preestablecido de visualizador de HTML5. Esta opción de exportación resulta útil porque no tiene que crear el visor de cero, sino que puede exportar un ajuste preestablecido con un aspecto y un comportamiento parecidos a los deseados y, luego, usarlo como punto de partida para realizar ajustes de diseño.
 
-Todos los archivos CSS predeterminados y listos para usar del visualizador en Adobe Dynamic Media Classic utilizan rutas de servicio de imágenes relativas que apuntan a recursos en `Scene7SharedAssets`. Por ejemplo, a continuación se muestra una ruta relativa a un recurso de imagen en un archivo CSS preestablecido de visor en
+Todos los archivos CSS predeterminados y listos para usar de Viewer Preset en Adobe Dynamic Media Classic utilizan rutas de servicio de imágenes relativas que apuntan a recursos en `Scene7SharedAssets`. Por ejemplo, a continuación se muestra una ruta relativa a un recurso de imagen en un archivo CSS de ajuste preestablecido de visualizador en
 
 `Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`
 
@@ -666,13 +674,13 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
 
    Consulte [Publicar archivos](publishing-files.md#publishing_files).
 
-1. Añada el nuevo ajuste preestablecido de visor del modo habitual. Seleccione el archivo CSS de visor que ha cargado.
+1. Añada el nuevo ajuste preestablecido del visor como de costumbre. Seleccione el archivo CSS de visor que ha cargado.
 
    Consulte [Agregar y editar ajustes preestablecidos de visor](application-setup.md#adding_and_editing_viewer_presets).
 
 ### Activar o desactivar ajustes preestablecidos de visor {#activating-or-deactivating-viewer-presets}
 
-Para crear una URL para mostrar los recursos, los usuarios abren la lista desplegable Ajustes preestablecidos en el cuadro de diálogo Vista previa, seleccionan un Ajuste preestablecido de visor y, a continuación, seleccionan **[!UICONTROL Copiar URL]** (consulte [Copiar la URL de un ajuste preestablecido de visor](application-setup.md#copying_the_url_of_a_viewer_preset)). La lista Ajustes preestablecidos contiene unos ajustes que los administradores pueden agregar y gestionar desde la pantalla Ajustes preestablecidos de visor. Por ejemplo, cuando un usuario obtiene una vista previa de un catálogo electrónico, todos los ajustes preestablecidos de visor del catálogo activo aparecen en la lista desplegable Ajustes preestablecidos, en el cuadro de diálogo Vista previa.
+Para crear una URL para mostrar los recursos, los usuarios abren la lista desplegable Ajustes preestablecidos en el cuadro de diálogo Vista previa, seleccionan un Ajuste preestablecido de visor y, a continuación, seleccionan **[!UICONTROL Copiar URL]** (consulte [Copiar la URL de un ajuste preestablecido de visor](application-setup.md#copying_the_url_of_a_viewer_preset)). La lista Ajustes preestablecidos contiene unos ajustes que los administradores pueden agregar y gestionar desde la pantalla Ajustes preestablecidos de visor. Por ejemplo, todos los ajustes preestablecidos del visualizador de catálogos electrónicos activos aparecen en la lista desplegable Ajustes preestablecidos del cuadro de diálogo Vista previa cuando un usuario obtiene una vista previa de un catálogo electrónico.
 
 Si no desactiva los ajustes preestablecidos de visor en su pantalla correspondiente, la lista desplegable de ajustes del cuadro de diálogo Ajustes preestablecidos puede llenarse demasiado. 
 
@@ -713,7 +721,7 @@ No se permite la edición del código en el cuadro de diálogo Código incrustad
 
 **Para copiar el código de incrustación de un ajuste preestablecido de visualizador:**
 
-1. Seleccione el recurso en el panel de exploración de recursos.
+1. Seleccione el recurso en el panel Examen de recursos.
 1. Encima del panel de exploración de recursos, en la parte derecha de la barra de herramientas, realice una de las siguientes acciones:
 
    * Seleccionar **[!UICONTROL Vista de cuadrícula]**. En el panel de exploración de recursos, haga doble clic en un único recurso para abrirlo en la vista de detalles. En el panel URL de la derecha, seleccione **[!UICONTROL Código incrustado]**.
@@ -783,7 +791,7 @@ Adobe Dynamic Media Classic incluye vistas de metadatos predefinidas, y los admi
 
 ## Ajustes preestablecidos de metadatos {#metadata-presets}
 
-Los ajustes preestablecidos ofrecen a los administradores un método para controlar y regular metadatos que se asignan a los recursos. En la Vista de detalles, un usuario puede introducir metadatos sobre un recurso en los campos proporcionados para tal fin. Por ejemplo, un usuario puede introducir el nombre de un propietario, la descripción de derechos de autor y la dirección. Para asegurarse de que los usuarios introducen esta información de forma precisa y completa, puede crear Ajustes preestablecidos de metadatos. Al elegir un ajuste preestablecido de metadatos en la vista de detalles, se rellenan los campos de metadatos con valores predefinidos. Por ejemplo, el nombre de un propietario, la descripción de derechos de autor y la dirección se rellenan de forma automática.
+Los ajustes preestablecidos de metadatos proporcionan a los administradores una forma de controlar y regular los metadatos asignados a los recursos. En la Vista de detalles, un usuario puede introducir metadatos sobre un recurso en los campos proporcionados para tal fin. Por ejemplo, un usuario puede introducir el nombre de un propietario, la descripción de derechos de autor y la dirección. Para asegurarse de que los usuarios introducen esta información de forma precisa y completa, puede crear Ajustes preestablecidos de metadatos. Al elegir un ajuste preestablecido de metadatos en la vista de detalles, se rellenan los campos de metadatos con valores predefinidos. Por ejemplo, el nombre de un propietario, la descripción de derechos de autor y la dirección se rellenan de forma automática.
 
 Cree un ajuste preestablecido de metadatos para cada conjunto de valores de metadatos que desee que los usuarios puedan introducir automáticamente en la vista de detalles para describir un recurso.
 
@@ -812,7 +820,7 @@ Cree un ajuste preestablecido de metadatos para cada conjunto de valores de meta
 
 Un administrador de Media Portal o un administrador de empresa pueden crear campos de metadatos personalizables o personalizados. Los campos personalizados pueden ayudarle a organizar los recursos en Adobe Dynamic Media Classic. Puede marcar los campos como Activos, según sea necesario. Cuando se activa, los nombres de estos campos de metadatos personalizados aparecen en el panel Metadatos en la Vista de detalles. Los usuarios pueden introducir información en los campos de metadatos definidos por el usuario para describir los recursos. También pueden utilizar un campo de metadatos definido por el usuario como criterio de búsqueda.
 
-Un uso efectivo de los campos de metadatos personalizables es retardar el tiempo de activación de un recurso para un lanzamiento o una oferta específicos. Puede definir un campo &quot;activación&quot; basado en el tipo *Fecha*. A continuación, utilice el **[!UICONTROL Metadatos]** panel en la Vista de detalles o **[!UICONTROL Archivo]** > **[!UICONTROL Editar información]**, puede especificar cuándo se activará el recurso. Adobe Dynamic Media Classic comprueba el estado publicado de un recurso y el historial de publicación. Si no se encuentra dentro del tiempo de activación, el estado de publicación se muestra como &quot;No publicado&quot;.
+Un uso efectivo de los campos de metadatos personalizables es retardar el tiempo de activación de un recurso para un lanzamiento o una oferta específicos. Puede definir un campo &quot;activación&quot; basado en el tipo *Fecha*. A continuación, utilice el **[!UICONTROL Metadatos]** panel en la Vista de detalles o **[!UICONTROL Archivo]** > **[!UICONTROL Editar información]**, puede especificar cuándo se activará el recurso. Adobe Dynamic Media Classic comprueba el estado publicado de un recurso y el historial de publicación. Si no se encuentra dentro del tiempo de activación, el estado de publicación se mostrará como &quot;No publicado&quot;.
 
 >[!NOTE]
 >
@@ -850,9 +858,9 @@ Un uso efectivo de los campos de metadatos personalizables es retardar el tiempo
 
    * **[!UICONTROL Sin tipo]** - Para compatibilidad con versiones anteriores. No seleccione esta opción.
 
-   * **[!UICONTROL Valor predeterminado]** : Opcionalmente, introduzca el valor que es más probable que introduzcan los usuarios en el campo. El valor introducido se convertirá en el valor predeterminado del campo que cree.
+   * **[!UICONTROL Valor predeterminado]** - Opcional. Introduzca el valor que es más probable que los usuarios introduzcan en el campo. El valor introducido se convertirá en el valor predeterminado del campo que cree.
 
-   * **[!UICONTROL Se aplica a]** - Si lo desea, seleccione un tipo de recurso si desea que el campo de metadatos se aplique únicamente a un tipo específico de recurso.
+   * **[!UICONTROL Se aplica a]** - Opcional. Seleccione un tipo de recurso si desea que el campo de metadatos se aplique únicamente a un tipo específico de recurso.
 
      >[!NOTE]
      >
@@ -887,26 +895,26 @@ Adobe Dynamic Media Classic busca entre sus archivos y optimiza sólo las imáge
 
 ## Valores preestablecidos de conjuntos de lotes {#batch-set-presets}
 
-Utilice los ajustes preestablecidos de conjunto por lotes para crear automáticamente conjuntos de imágenes o conjuntos de giros mientras se ejecuta un trabajo para cargar recursos en Adobe Dynamic Media Classic.
+Utilice los ajustes preestablecidos del conjunto de lotes para poder crear automáticamente conjuntos de imágenes o conjuntos de giros mientras se ejecuta un trabajo para cargar recursos en Adobe Dynamic Media Classic.
 
 En primer lugar, los administradores de la empresa definen las convenciones de nomenclatura de los recursos que desean agrupar en un conjunto. A continuación, puede crear un ajuste preestablecido de conjunto por lotes para hacer referencia a estas imágenes. Cada valor preestablecido tiene un nombre exclusivo y un conjunto de instrucciones independiente para crear el conjunto con imágenes que coincidan con las convenciones de nombre definidas en el ajuste preestablecido.
 
-Todos los ajustes preestablecidos de conjunto de lotes activos aparecen en el cuadro de diálogo Opciones de trabajo de carga para que pueda especificar qué ajuste preestablecido desea aplicar durante cada sesión de carga. Los administradores de empresa pueden ver todos los valores preestablecidos de conjuntos activos e inactivos. Al cargar archivos, Adobe Dynamic Media Classic crea automáticamente un conjunto con todos los archivos que coinciden con la convención de nombres definida en los ajustes preestablecidos activos.
+Todos los ajustes preestablecidos de conjunto de lotes activos de una empresa se muestran en el cuadro de diálogo Cargar opción de trabajo, para que pueda especificar qué ajuste preestablecido desea aplicar durante cada sesión de carga. Los administradores de la empresa ven todos los ajustes preestablecidos de conjunto de lotes activos e inactivos. Al cargar archivos, Adobe Dynamic Media Classic crea automáticamente un conjunto con todos los archivos que coinciden con la convención de nombres definida en los ajustes preestablecidos activos.
 
 ### Nombre por defecto {#default-naming}
 
-El administrador de empresa crea una convención de nombre predeterminada que se utiliza en las fórmulas de los ajustes preestablecidos de conjunto de lotes. La convención de nombres predeterminada seleccionada en la definición del ajuste preestablecido del conjunto de lotes puede ser todo lo que necesite su empresa para generar conjuntos por lotes para todos los sitios web. Se crea un ajuste preestablecido de conjunto de lotes para utilizar la convención de nombre predeterminada que defina. Puede crear tantos ajustes preestablecidos de conjunto de lotes como desee con diferentes convenciones de nombre personalizadas necesarias para un conjunto particular de contenido en casos en los que hay una excepción en el nombre predeterminado definido de la empresa. 
+El administrador de la empresa crea una convención de nombres predeterminada que se utiliza en cualquier fórmula de ajustes preestablecidos de conjuntos de lotes. La convención de nombres predeterminada seleccionada en la definición de ajustes preestablecidos de conjuntos de lotes puede ser todo lo que su empresa necesite para generar conjuntos por lotes para todos los sitios web. Se crea un ajuste preestablecido de conjunto de lotes para utilizar la convención de nombres predeterminada que defina. Puede crear tantos ajustes preestablecidos de conjunto de lotes con convenciones de nomenclatura alternativas y personalizadas como sea necesario para un conjunto de contenido en particular en los casos en que haya una excepción a la nomenclatura predeterminada definida por la empresa.
 
-No es necesario configurar una convención de nombres predeterminada para utilizar la funcionalidad preestablecida de conjunto por lotes. Sin embargo, la práctica recomendada de Adobe recomienda utilizar una convención de nombres predeterminada para definir tantos elementos de la convención de nombres como desee agrupar en un conjunto. Al hacerlo, se agiliza la creación de conjuntos de lotes.
+No es necesario configurar una convención de nombres predeterminada para utilizar la funcionalidad de ajustes preestablecidos de conjunto de lotes. Sin embargo, la práctica recomendada de Adobe recomienda utilizar una convención de nombres predeterminada para definir tantos elementos de la convención de nombres como desee agrupar en un conjunto. Al hacerlo, se agiliza la creación del conjunto de lotes.
 
 1. Ir a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Ajustes preestablecidos del conjunto de lotes]** > **[!UICONTROL Nombre predeterminado]**.
 1. Seleccione **[!UICONTROL Ver formulario]** o **[!UICONTROL Ver código]** para determinar cómo desea ver e introducir la información de cada elemento.
 
-   Puede seleccionar el **[!UICONTROL Ver código]** casilla de verificación para ver la creación del valor de expresión regular junto con las selecciones de formulario. Puede introducir o alterar estos valores para ayudar a definir los elementos de la convención de nombre, si la vista del formulario le limita por alguna razón. Si los valores no se pueden analizar en la vista del formulario, los campos del formulario quedan inactivos.
+   Puede seleccionar el **[!UICONTROL Ver código]** casilla de verificación para ver la creación del valor de expresión regular junto con las selecciones de formulario. Puede introducir o modificar estos valores para ayudar a definir los elementos de la convención de nombres, si la vista Formulario lo limita por cualquier motivo. Si los valores no se pueden analizar en la vista Formulario, los campos del formulario dejarán de estar activos.
 
    >[!NOTE]
    >
-   >Los campos del formulario desactivados no indican ninguna expresión regular no válida. No hay certeza de que las expresiones regulares sean correctas. Verá los resultados de la expresión regular que está creando para cada elemento después de la línea de resultados. La expresión regular completa está visible en la parte inferior de la página.
+   >Los campos del formulario desactivados no indican ninguna expresión regular no válida. No hay certeza de que las expresiones regulares sean correctas. Verá los resultados de la expresión regular que está creando para cada elemento después de la línea Result. La expresión regular completa está visible en la parte inferior de la página.
 
 1. Expanda los elementos necesarios e introduzca las convenciones de nombres que desee usar.
 1. Si es necesario, seleccione **[!UICONTROL Añadir]** para agregar otra convención de nombres para un elemento. O bien, seleccione **[!UICONTROL Eliminar]** para eliminar una convención de nombres para un elemento.
@@ -914,17 +922,17 @@ No es necesario configurar una convención de nombres predeterminada para utiliz
 
 También puede usar la visualización de código sin campos de formulario disponibles. En esta vista, puede crear las definiciones de convención de nombres completamente utilizando expresiones regulares.
 
-Hay dos elementos disponibles para la definición: la coincidencia y el nombre base. Estos campos son todos los elementos definidos para una convención de nombres e identifican la parte de la convención utilizada para asignar un nombre al conjunto en el que están contenidos. La convención de nombres individual de una compañía podría utilizar una o más líneas de definición para cada uno de estos elementos. Puede utilizar tantas líneas como necesite para su definición única y agruparlas en distintos elementos, como imagen principal, elemento de color, elemento de vista alternativa y elemento de muestra.
+Hay dos elementos disponibles para la definición: la coincidencia y el nombre base. Estos campos son todos los elementos definidos para una convención de nombres. Pueden ayudar a identificar la parte de la convención que se utiliza para nombrar el conjunto en el que están contenidas. La convención de nombres individual de una compañía podría utilizar una o más líneas de definición para cada uno de estos elementos. Puede utilizar tantas líneas para la definición única y agruparlas en elementos distintos, como para la imagen principal, el elemento Color, el elemento de Vista alternativa y el elemento Muestra.
 
-### Creación de un valor preestablecido de conjunto de lotes {#creating-a-batch-set-preset}
+### Crear un ajuste preestablecido de conjunto de lotes {#creating-a-batch-set-preset}
 
-Adobe Dynamic Media Classic utiliza ajustes preestablecidos de conjunto por lotes para organizar los recursos que comparten información o contenido común en conjuntos de imágenes para mostrarlos en los visualizadores. Las fórmulas preestablecidas del conjunto de lotes se ejecutan automáticamente junto con los trabajos de importación de recursos programados en Adobe Dynamic Media Classic.
+Adobe Dynamic Media Classic utiliza ajustes preestablecidos de conjunto por lotes para organizar los recursos que comparten información o contenido común en conjuntos de imágenes para mostrarlos en los visualizadores. Las fórmulas preestablecidas de conjuntos de lotes se ejecutan automáticamente junto con los trabajos de importación de recursos que programe en Adobe Dynamic Media Classic.
 
-En la pantalla Ajustes preestablecidos de conjunto por lotes, cree, edite y gestione sus valores preestablecidos de conjunto de lotes. Puede crear tantos ajustes preestablecidos como sea necesario para cubrir todos los trabajos de ingesta de recursos que necesite. Existen dos formas de definiciones de ajustes preestablecidos de conjuntos de lotes: una para una convención de nombres predeterminada que ha configurado y otra para convenciones de nombres personalizadas que crea sobre la marcha.
+Utilice los ajustes preestablecidos del conjunto de lotes para crear, editar y administrar los ajustes preestablecidos del conjunto de lotes. Puede crear tantos ajustes preestablecidos como sea necesario para cubrir todos los trabajos de ingesta de recursos que necesite. Existen dos formas de definiciones de ajustes preestablecidos de conjuntos de lotes: una para una convención de nombres predeterminada que ha configurado y otra para convenciones de nombres personalizadas que crea sobre la marcha.
 
 Puede utilizar el método del campo de formulario para definir un ajuste preestablecido de conjunto de lotes o el método del código, que permite utilizar expresiones regulares. Como en **[!UICONTROL Nombre predeterminado]**, puede seleccionar **[!UICONTROL Vista de código]** al mismo tiempo, está definiendo en la vista Formulario y utilizando expresiones regulares para crear las definiciones. También puede desactivar la vista para utilizar una u otra exclusivamente.
 
-Consulte también [Cree un ajuste preestablecido de conjunto por lotes para la generación automática de un conjunto de giros 2D](application-setup.md#creating_a_batch_set_preset_for_the_auto_generation_of_a_2d_spin_set).
+Consulte también [Cree un ajuste preestablecido de conjunto de lotes para la generación automática de un conjunto de giros 2D](application-setup.md#creating_a_batch_set_preset_for_the_auto_generation_of_a_2d_spin_set).
 
 Consulte también [Conjunto de giros 2D](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/537_2d-spin_converted%20renamed_Done-AVS) vídeo de formación.
 
@@ -943,21 +951,21 @@ Consulte también [Conjunto de giros 2D](https://s7d5.scene7.com/s7viewers/html5
    * Para definir una convención de nombres al configurar el ajuste preestablecido, expanda **[!UICONTROL Convenciones de nomenclatura de recursos]** y, a continuación, en la lista desplegable Nombres de archivos, seleccione **[!UICONTROL Personalizado]**.
 
 1. En Orden de secuencia, defina el orden de las imágenes después de agrupar el conjunto en Adobe Dynamic Media Classic. De forma predeterminada, los recursos se ordenan de forma alfanumérica. Sin embargo, puede utilizar una lista de expresiones regulares separada por comas para definir el orden.
-1. Para las convenciones de nombres de conjuntos y opciones de creación, especifique el sufijo o prefijo en el nombre base que definió en Convenciones de nombres de recursos. Defina también dónde se crea el conjunto de imágenes dentro de la estructura de carpetas de Adobe Dynamic Media Classic.
+1. En Nombres de conjuntos y Convención de creación, especifique el sufijo o prefijo del Nombre base definido en la Convención de nomenclatura de recursos. Defina también dónde se crea el conjunto de imágenes dentro de la estructura de carpetas de Adobe Dynamic Media Classic.
 
-   Si define una gran cantidad de conjuntos de imágenes, mantenga estos conjuntos separados de las carpetas que contienen los propios recursos. Algunos clientes crean la carpeta Conjuntos de imágenes y redirigen la aplicación para colocar aquí los conjuntos de lotes generados.
+   Si define un gran número de conjuntos de imágenes, mantenga estos conjuntos separados de las carpetas que contienen los propios recursos. Muchos clientes crean una carpeta de conjuntos de imágenes y redirigen la aplicación para colocar aquí los conjuntos generados por conjuntos de lotes.
 
 1. Seleccionar **[!UICONTROL Guardar]** en el panel Detalles.
 
-### Cree un ajuste preestablecido de conjunto por lotes para la generación automática de un conjunto de giros 2D {#creating-a-batch-set-preset-for-the-auto-generation-of-a-d-spin-set}
+### Cree un ajuste preestablecido de conjunto de lotes para la generación automática de un conjunto de giros 2D {#creating-a-batch-set-preset-for-the-auto-generation-of-a-d-spin-set}
 
 Puede utilizar el tipo de conjunto de lotes **Conjunto de giros con varios ejes** para crear una &quot;fórmula&quot; que automatice la generación de conjuntos de giros 2D. La agrupación de imágenes utiliza expresiones regulares de fila y columna para alinear los recursos de imagen correctamente en la ubicación correspondiente de la matriz multidimensional.
 
-Consulte también [Crear un ajuste preestablecido de conjunto por lotes](application-setup.md#creating_a_batch_set_preset).
+Consulte también [Crear un ajuste preestablecido de conjunto de lotes](application-setup.md#creating_a_batch_set_preset).
 
-No hay un número mínimo o máximo de filas o columnas que se deban tener en un conjunto de giros multieje.
+No hay un número mínimo o máximo de filas o columnas que deba tener en un conjunto de giros multieje.
 
-Por ejemplo, supongamos que desea crear un conjunto de giros multieje denominado *spin-2dspin*. Tiene un grupo de imágenes de conjunto de giros que contiene tres filas, con 12 imágenes por fila. Las imágenes se denominan de la forma siguiente:
+Por ejemplo, supongamos que desea crear un conjunto de giros multieje denominado *spin-2dspin*. Tiene un conjunto de imágenes de conjuntos de giros que contienen tres filas, con 12 imágenes por fila. Las imágenes se denominan de la forma siguiente:
 
 ```as3
 spin-01-01
@@ -977,7 +985,7 @@ La agrupación de la parte del nombre del recurso compartido del conjunto de gir
 
 Cuando se carga y publica el conjunto de giros, se activa el nombre de la fórmula de conjunto de giros 2D que aparece en **[!UICONTROL Ajustes preestablecidos del conjunto de lotes]** en el cuadro de diálogo Cargar opciones del trabajo.
 
-**Para crear un ajuste preestablecido de conjunto por lotes para la generación automática de un conjunto de giros 2D:**
+**Para crear un ajuste preestablecido de conjunto de lotes para la generación automática de un conjunto de giros 2D:**
 
 1. Ir a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Ajustes preestablecidos del conjunto de lotes]** > **[!UICONTROL Ajuste preestablecido del conjunto de lotes]**. **[!UICONTROL Ver formulario]**, definido en la esquina superior derecha de la página Detalles, es la opción predeterminada.
 1. En el panel Lista preestablecida, seleccione **[!UICONTROL Añadir]** para activar los campos de definición en el panel Detalles del lado derecho de la página.
@@ -1015,14 +1023,14 @@ Cuando se carga y publica el conjunto de giros, se activa el nombre de la fórmu
 
    >[!NOTE]
    >
-   >Si la combinación de expresiones regulares en filas y columnas no puede determinar la posición del recurso dentro de la matriz de conjuntos de giros multidimensionales, ese recurso no se agrega al conjunto y se registra un error.
+   >Si la combinación de expresiones regulares en filas y columnas no puede determinar la posición del recurso dentro de la matriz de conjuntos de giros multidimensional, ese recurso no se agregará al conjunto. Se registra un error.
 
-1. Para las convenciones de nombres de conjuntos y opciones de creación, especifique el sufijo o prefijo en el nombre base que definió en Convenciones de nombres de recursos. Defina también dónde se crea el conjunto de imágenes dentro de la estructura de carpetas de Adobe Dynamic Media Classic.
+1. En Nombres de conjuntos y Convención de creación, especifique el sufijo o prefijo del Nombre base definido en la Convención de nomenclatura de recursos. Defina también dónde se crea el conjunto de imágenes dentro de la estructura de carpetas de Adobe Dynamic Media Classic.
 
-   Si define una gran cantidad de conjuntos de imágenes, mantenga estos conjuntos separados de las carpetas que contienen los propios recursos. Algunos clientes crean la carpeta Conjuntos de imágenes y redirigen la aplicación para colocar aquí los conjuntos de lotes generados.
+   Si define un gran número de conjuntos de imágenes, mantenga estos conjuntos separados de las carpetas que contienen los propios recursos. Muchos clientes crean una carpeta de conjuntos de imágenes y redirigen la aplicación para colocar aquí los conjuntos generados por conjuntos de lotes.
 
 1. Seleccionar **[!UICONTROL Guardar]** en el panel Detalles.
-1. Cargue y publique el conjunto de giros de la forma habitual, asegurándose de activar el nombre del conjunto de giros 2D en el cuadro de diálogo Opciones de carga de trabajo, en Valores preestablecidos de conjunto por lotes.
+1. Cargue y publique el conjunto de giros como de costumbre, asegurándose de activar el nombre del conjunto de giros 2D en el cuadro de diálogo Opciones de carga de trabajos, en Ajustes preestablecidos de conjunto de lotes.
 
 >[!MORELIKETHIS]
 >

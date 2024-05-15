@@ -10,16 +10,16 @@ role: User
 exl-id: c8d742a4-a1a1-4b5f-bcfd-6a1972edf9bc
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 22%
+source-wordcount: '491'
+ht-degree: 19%
 
 ---
 
 # Ver conjuntos de imágenes{#viewing-image-sets}
 
-Puede ver los conjuntos de imágenes en la ventana Vista previa con los ajustes preestablecidos disponibles. Para usar un visor de zoom: Ajuste preestablecido de visor personalizado para conjuntos de imágenes.
+Puede ver los conjuntos de imágenes en la ventana Vista previa con los ajustes preestablecidos disponibles. Puede utilizar un Visor de zoom: Ajuste preestablecido de visor personalizado para conjuntos de imágenes.
 
 Adobe Dynamic Media Classic incluye ajustes preestablecidos de visor predeterminados. Los administradores pueden crear o modificar los ajustes preestablecidos de visor.
 
@@ -34,7 +34,7 @@ Puede crear y personalizar ajustes preestablecidos de visor de acuerdo con sus n
 
    * **Editar** - Mostrar el nombre de un ajuste preestablecido, seleccionarlo y, a continuación, seleccionar **[!UICONTROL Editar]**.
 
-1. En el `Configure Viewer` en el campo de texto Nombre del ajuste preestablecido, escriba un nombre para el ajuste preestablecido del visualizador de conjuntos de muestras.
+1. En el `Configure Viewer` , en el campo de texto Nombre de ajuste preestablecido, escriba un nombre para el ajuste preestablecido del visualizador de conjuntos de muestras.
 1. Elija las opciones en la `Configure Viewer` página.
 
    Para ver la descripción de una opción, seleccione la **[!UICONTROL Sugerencia de información]** a la derecha de la opción.

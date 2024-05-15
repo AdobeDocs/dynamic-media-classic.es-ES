@@ -10,9 +10,9 @@ role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 topic: Content Management
 level: Beginner
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '402'
 ht-degree: 17%
 
 ---
@@ -57,4 +57,4 @@ Consulte [Publicar archivos](publishing-files.md#publishing-files).
 
 Adobe Dynamic Media Classic crea llamadas de URL para conjuntos de muestras y las activa después de la publicación. Puede copiar estas direcciones URL desde la página de vista previa.
 
-Seleccione el conjunto de muestras y, a continuación, seleccione el botón Vista previa. Se abrirá la página Vista previa. Seleccione un ajuste preestablecido de visor de conjuntos de muestras y seleccione el botón Copiar URL. Consulte [Vinculación de un conjunto de muestras a una página web](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page).
+Seleccione el conjunto de muestras y, a continuación, seleccione el botón Vista previa. Se abrirá la página Vista previa. Seleccione un ajuste preestablecido de visor de conjuntos de muestras y seleccione el botón Copiar URL. Consulte [Vinculación de conjuntos de muestras a páginas web](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page).

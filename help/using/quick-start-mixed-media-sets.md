@@ -10,10 +10,10 @@ role: User
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
 topic: Content Management
 level: Beginner
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
 source-wordcount: '656'
-ht-degree: 33%
+ht-degree: 23%
 
 ---
 
@@ -45,11 +45,11 @@ En la barra de navegación global, vaya a **[!UICONTROL Generar]** > **[!UICONTR
 
 Consulte [Crear un conjunto de medios mixtos](creating-mixed-media-set.md#creating-a-mixed-media-set).
 
-## 4. Configurar ajustes preestablecidos de visualizador de medios mixtos
+## 4. Configurar ajustes preestablecidos del visualizador de medios mixtos
 
-Adobe Dynamic Media Classic incluye ajustes preestablecidos de visualizador predeterminados para los conjuntos de medios mixtos. Los administradores pueden crear o modificar los ajustes preestablecidos de visor de conjuntos de medios mixtos.
+Adobe Dynamic Media Classic incluye ajustes preestablecidos de visualizador predeterminados para los conjuntos de medios mixtos. Los administradores pueden crear o modificar ajustes preestablecidos del visualizador de conjuntos de medios mixtos.
 
-Al configurar un ajuste preestablecido de visualizador de conjuntos de medios mixtos, añada los ajustes preestablecidos de visualizador para todos los demás recursos del conjunto. Por ejemplo, si su conjunto de medios mixtos incluye vídeos, será necesario agregar un ajuste preestablecido de visor de vídeo al ajuste preestablecido de visor de conjuntos de medios mixtos. También puede agregar una pista de audio al visor. Esta pista de audio se reproduce mientras el visor está abierto, pero no cuando un vídeo está activo.
+Al configurar un ajuste preestablecido del visualizador de conjuntos de medios mixtos, agregue los ajustes preestablecidos del visualizador para todos los demás recursos del conjunto. Por ejemplo, si el conjunto de medios mixtos incluye vídeos, agregue un ajuste preestablecido de visualizador de vídeos al ajuste preestablecido de visualizador de conjuntos de medios mixtos. También puede agregar una pista de audio al visor. Esta pista de audio se reproduce mientras el visor está abierto, pero no cuando un vídeo está activo.
 
 Consulte [Configurar un ajuste preestablecido de visualizador de conjuntos de medios mixtos](setting-mixed-media-set-viewer.md#setting-up-a-mixed-media-set-viewer-preset) y [Crear y editar ajustes preestablecidos de visor](application-setup.md#adding-and-editing-viewer-presets).
 

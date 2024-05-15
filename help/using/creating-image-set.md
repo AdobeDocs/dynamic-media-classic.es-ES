@@ -10,9 +10,9 @@ role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '672'
 ht-degree: 46%
 
 ---
@@ -25,7 +25,7 @@ Para crear un conjunto de imágenes con varias vistas, necesita imágenes que mu
 
 Al crear un conjunto, la opción **[!UICONTROL Publicar después de guardar]** afecta al conjunto y a los miembros del conjunto de las siguientes formas:
 
-| **[!UICONTROL Publicar tras guardar]** opción seleccionada antes de guardar? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
+| **[!UICONTROL `Publish after save`]** opción seleccionada antes de guardar? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
 | --- | --- | --- |
 | Sí | Publicado | Publicado |
 | No | Sin publicar | Los miembros del conjunto conservan su estado publicado o no. |
@@ -39,7 +39,7 @@ Al crear un conjunto de imágenes, Adobe recomienda las siguientes prácticas re
 | Número de recursos duplicados por conjunto | No hay duplicados | 20 ‡ |
 | Número máximo de imágenes por conjunto | 5-10 imágenes por conjunto | 1.000 |
 
-‡ práctica recomendada es no tener recursos duplicados en un conjunto. El límite es de 20 duplicados para un solo recurso. Si agrega otro duplicado para ese recurso (dentro de ese conjunto), la solicitud genera un error o ignora el duplicado.
+‡ práctica recomendada es no tener recursos duplicados en un conjunto. El límite es de 20 duplicados para un solo recurso. Si, dentro del conjunto, agrega otro duplicado para ese recurso, la solicitud generará un error o ignorará el duplicado.
 
 Consulte también [Limitaciones de Dynamic Media](/help/using/limitations.md).
 
@@ -60,7 +60,7 @@ Consulte también [Limitaciones de Dynamic Media](/help/using/limitations.md).
 
 Tanto si edita un conjunto publicado como no publicado, la variable **[!UICONTROL Publicar tras guardar]** afecta a los miembros set y set de las siguientes maneras:
 
-| ¿Ya se ha publicado el conjunto? | **[!UICONTROL Publicar tras guardar]** opción seleccionada antes de guardar la edición? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
+| ¿Ya se ha publicado el conjunto? | **[!UICONTROL `Publish after save`]** opción seleccionada antes de guardar la edición? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
 | --- | --- | --- | --- |
 | Sí | Sí | Publicado | Publicado |
 | Sí | No | Publicado | Los miembros del conjunto existentes conservan su estado publicado. Cualquier nuevo miembro que añada al conjunto durante la edición conservará su estado publicado o no publicado. |

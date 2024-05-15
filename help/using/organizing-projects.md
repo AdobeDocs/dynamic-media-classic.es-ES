@@ -10,9 +10,9 @@ role: User
 exl-id: 69aabf4a-21bc-4bd8-8aad-33c2cfb9cf57
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '482'
 ht-degree: 22%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 22%
 
 Los proyectos proporcionan una manera opcional de organizar los recursos, sin tener en cuenta las carpetas en las que están almacenados. Un recurso solo puede colocarse en una carpeta, aunque puede copiarse en más de una carpeta de proyecto con el fin de organizar los elementos.
 
-Una vez que haya creado una carpeta de proyecto, podrá colocar recursos en ella. Sin embargo, los recursos de un proyecto son en realidad punteros a la carpeta Biblioteca de recursos en la que se almacenan los recursos. Puede colocar un recurso en más de un proyecto. Por ejemplo, se puede colocar una imagen de una blusa en las carpetas &quot;Blusas&quot; y &quot;Colección de otoño&quot; del proyecto.
+Una vez que haya creado una carpeta de proyecto, podrá colocar recursos en ella. Los recursos de un proyecto son en realidad punteros a la carpeta Biblioteca de recursos en la que se almacenan los recursos. Puede colocar un recurso en más de un proyecto. Por ejemplo, se puede colocar una imagen de una blusa en las carpetas &quot;Blusas&quot; y &quot;Colección de otoño&quot; del proyecto.
 
 Los proyectos pueden crearse al cargar archivos o desde el panel de la biblioteca de recursos.
 

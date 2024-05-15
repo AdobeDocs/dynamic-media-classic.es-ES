@@ -9,16 +9,16 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1057'
 ht-degree: 0%
 
 ---
 
 # Aplicación de escritorio de Adobe Dynamic Media Classic: ya disponible {#new-ui-2020}
 
-Consulte [aplicación de escritorio de Adobe Dynamic Media Classic](/help/using/dynamic-media-classic-desktop-app.md) para revisar los requisitos del sistema, descargue e instale la nueva aplicación y, a continuación, inicie sesión en ella.
+Consulte la [aplicación de escritorio de Adobe Dynamic Media Classic](/help/using/dynamic-media-classic-desktop-app.md) para revisar los requisitos del sistema, descargue e instale la nueva aplicación y, a continuación, inicie sesión en ella.
 
 ## _Última revisión 30 de junio de 2020_
 
@@ -33,13 +33,13 @@ El Flash Player de Adobe era un complemento para explorador web que permitía a 
 +++**_¿Cómo puedo acceder a la nueva aplicación de escritorio?_**
 La nueva aplicación de escritorio está disponible como `.dmg` instalador para macOS o como `.exe` instalador para Windows®.
 
-Consulte [aplicación de escritorio de Adobe Dynamic Media Classic](/help/using/dynamic-media-classic-desktop-app.md) para revisar los requisitos del sistema, descargue e instale la nueva aplicación y, a continuación, inicie sesión en ella.
+Consulte la [aplicación de escritorio de Adobe Dynamic Media Classic](/help/using/dynamic-media-classic-desktop-app.md) para revisar los requisitos del sistema, descargue e instale la nueva aplicación y, a continuación, inicie sesión en ella.
 +++
 
 <!-- NEWSLETTER IS DEAD The download links are also available by way of the [Adobe Dynamic Media Classic newsletter subscription page.](https://www.adobe.com/subscription/dynamic-media-newsletter.html) -->
 
 +++**_¿Cómo funciona la nueva aplicación de escritorio?_**
-Después de descargar, instalar e iniciar la aplicación de escritorio, se le mostrará un inicio de sesión actualizado. Al introducir su nombre de usuario y contraseña existentes y seleccionar el servidor adecuado según su región, puede iniciar sesión en Adobe Dynamic Media Classic. La experiencia general es la misma que la conocida versión del explorador web a la que está acostumbrado. Desde la aplicación de escritorio puede acceder a los entornos de producción y ensayo de Adobe Dynamic Media Classic. También puede acceder a Media Portal si tiene credenciales para esta capacidad.
+Después de descargar, instalar e iniciar la aplicación de escritorio, se le mostrará un inicio de sesión actualizado. Al introducir su nombre de usuario y contraseña existentes y seleccionar el servidor adecuado según su región, puede iniciar sesión en Adobe Dynamic Media Classic. La experiencia general es la misma que la conocida versión del explorador Web a la que está acostumbrado. Desde la aplicación de escritorio puede acceder a los entornos de producción y ensayo de Adobe Dynamic Media Classic. También puede acceder a Media Portal si tiene credenciales para esta capacidad.
 
 >[!IMPORTANT]
 >
@@ -84,7 +84,7 @@ No a ambas preguntas. No se requiere ningún cambio de SKU o licencia para utili
 +++
 
 +++**_¿Cómo están habilitadas las actualizaciones a la aplicación de escritorio de Adobe Dynamic Media Classic?_**
-Después del lanzamiento de la aplicación de escritorio de Adobe Dynamic Media Classic el 30 de junio de 2020, si Adobe publica una nueva versión, los clientes deberán descargar la nueva versión e instalarla como de costumbre (sustituya la aplicación existente en **[!UICONTROL Aplicaciones]**). Se le notifica la nueva versión a través de su equipo de cuenta de Adobe y de un mecanismo de notificación de actualización en la aplicación que notifica a los usuarios de una actualización.
+Después del lanzamiento de la aplicación de escritorio de Adobe Dynamic Media Classic el 30 de junio de 2020, si Adobe publica una nueva versión, los clientes deberán descargar e instalar la nueva versión (reemplazar la aplicación existente en **[!UICONTROL Aplicaciones]**). Se le notifica la nueva versión a través de su equipo de cuenta de Adobe y de un mecanismo de notificación de actualización en la aplicación que notifica a los usuarios de una actualización.
 +++
 
 +++**_¿Cómo obtengo ayuda para cualquier problema que tenga con la aplicación de escritorio de Adobe Dynamic Media Classic?_**

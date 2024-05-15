@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
 topic: Collaboration, Content Management
 level: Beginner
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 56%
+source-wordcount: '725'
+ht-degree: 47%
 
 ---
 
@@ -27,15 +27,15 @@ Consulte los siguientes vídeos de formación:
 
 * [Información general de Media Portal](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/544_mp_overview1_converted%20renamed_Done-AVS)
 
-* [Recorrido de Media Portal 1](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/545_mp_tour1_user_converted%20renamed_Done-AVS)
+* [Recorrido por Media Portal 1](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/545_mp_tour1_user_converted%20renamed_Done-AVS)
 
-* [Recorrido de Media Portal 2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
+* [Recorrido por Media Portal 2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
 
 El siguiente Inicio rápido está diseñado para ayudarle a empezar rápidamente con la administración de Media Portal. Al final de cada paso, seleccione el vínculo del tema para obtener más información.
 
 ## 1. Comprensión del funcionamiento de las funciones de usuario en Media Portal
 
-Los usuarios de Media Portal incluyen tres categorías: usuario, colaborador y usuario colaborador. Cada función puede realizar un conjunto diferente de tareas. Por ejemplo, los colaboradores pueden cambiar el nombre de los archivos y las carpetas y eliminarlos, pero los usuarios normales no pueden realizar estas tareas. Es fundamental que entienda qué capacidades ofrecen las diferentes funciones, de modo que, cuando agregue usuarios, sea consciente de las responsabilidades que les va a dar.
+Los usuarios de Media Portal tienen tres funciones: usuario, colaborador y usuario-colaborador. Cada función puede realizar un conjunto diferente de tareas. Por ejemplo, los colaboradores pueden cambiar el nombre de los archivos y las carpetas y eliminarlos, pero los usuarios normales no pueden realizar estas tareas. Es fundamental que entienda qué capacidades ofrecen las diferentes funciones, de modo que, cuando agregue usuarios, sea consciente de las responsabilidades que les va a dar.
 
 Consulte [Funciones de usuario en Media Portal](media-portal-user-roles.md#media_portal_user_roles).
 
@@ -47,13 +47,13 @@ Consulte [Crear y administrar grupos de Media Portal](creating-media-portal-grou
 
 ## 3. Adición de usuarios
 
-Cuando se agrega un usuario, se le asigna una función (usuario, colaborador o usuario colaborador). También tendrá que asignar el usuario a un grupo o a varios. Para acelerar el proceso de adición de usuarios, puede cargar una lista de usuarios en forma de archivo CSV. Los usuarios nuevos recibirán un mensaje de correo electrónico de bienvenida con instrucciones acerca de cómo iniciar sesión en Media Portal.
+Cuando se agrega un usuario, se le asigna una función (usuario, colaborador o usuario colaborador). También puede asignar el usuario a uno o varios grupos. Para acelerar el proceso de adición de usuarios, puede cargar una lista de usuarios en forma de archivo CSV. Los usuarios nuevos recibirán un mensaje de correo electrónico de bienvenida con instrucciones acerca de cómo iniciar sesión en Media Portal.
 
 Consulte [Adición y administración de usuarios de Media Portal](adding-media-portal-users.md#adding_and_managing_media_portal_users).
 
 ## 4. Administración de cuentas de FTP
 
-Puede tener cuentas de FTP independientes asociadas a Media Portal y asignadas a una carpeta específica de su cuenta de Adobe Dynamic Media Classic. Este tipo de funcionalidad significa que puede permitir a los usuarios cargar recursos digitales en la cuenta a través de cuentas de FTP independientes.
+Puede tener cuentas de FTP independientes asociadas a Media Portal. Se pueden asignar a una carpeta específica de su cuenta de Adobe Dynamic Media Classic. Este tipo de funcionalidad significa que puede permitir a los usuarios cargar recursos digitales en la cuenta a través de cuentas de FTP independientes.
 
 Consulte [Administración de cuentas de FTP](ftp-accounts.md#managing_ftp_accounts).
 
@@ -71,13 +71,13 @@ Consulte [Especificar las opciones de exportación disponibles para los usuarios
 
 ## 6. Creación de ajustes preestablecidos de imagen
 
-Un ajuste preestablecido de imagen es una colección de ajustes predefinidos que cambian el tamaño, la calidad de imagen, el formato, la resolución y otros aspectos de la apariencia de una imagen cuando se exporta. Puede crear ajustes preestablecidos de imágenes para controlar el modo en el que se cambiará el formato de las imágenes cuando los usuarios las exporten. 
+Un ajuste preestablecido de imagen es un conjunto de ajustes predefinidos. Estos ajustes pueden cambiar el tamaño, la calidad de imagen, el formato, la resolución y otros aspectos de la apariencia de una imagen cuando se exporta. Puede crear ajustes preestablecidos de imágenes para controlar el modo en el que se cambiará el formato de las imágenes cuando los usuarios las exporten. 
 
 Consulte [Crear y habilitar ajustes preestablecidos de imagen](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
 
 ## 7. Creación de ajustes preestablecidos de metadatos y campos de metadatos personalizables
 
-Los metadatos, que describen e identifican un archivo, se utilizan para buscar y organizar recursos. Los ajustes preestablecidos de metadatos sirven para garantizar que los metadatos se introducen correctamente, así como que los campos de metadatos que exigen incluir datos se rellenan según corresponda. Un ajuste preestablecido de metadatos es un conjunto predefinido de entradas de metadatos. También se pueden crear campos de metadatos que describan de forma exclusiva los archivos con los que se trabaja. 
+Los metadatos describen e identifican un archivo. Se utiliza para buscar y organizar recursos. Puede crear ajustes preestablecidos de metadatos para asegurarse de introducir los metadatos correctamente y de que se rellenan todos los campos de metadatos que requieran datos. Un ajuste preestablecido de metadatos es un conjunto predefinido de entradas de metadatos. También se pueden crear campos de metadatos que describan de forma exclusiva los archivos con los que se trabaja. 
 
 Consulte [Uso eficaz de los metadatos](making-efficient-metadata.md#making_more_efficient_use_of_metadata).
 
