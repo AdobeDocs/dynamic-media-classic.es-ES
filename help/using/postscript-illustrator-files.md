@@ -10,9 +10,9 @@ role: User
 exl-id: 08f14fe9-3e3b-4235-a6c5-b6b6d2ffc4bd
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '216'
 ht-degree: 36%
 
 ---
@@ -23,7 +23,7 @@ Puede utilizar archivos Adobe PostScript® (EPS) y Adobe® Illustrator® (AI) en
 
 Al cargar archivos de imagen PostScript (EPS) o Illustrator (AI), se les puede dar formato de varias formas. Puede rasterizar los archivos, convertirlos a FXG para la publicación de plantillas, mantener el fondo transparente, seleccionar una resolución y elegir un espacio de color. Las opciones para dar formato a archivos de PostScript e Illustrator están disponibles en la pantalla Cargar, en Opciones de PostScript y Opciones de Illustrator del cuadro de diálogo Opciones de trabajo de carga.
 
-* **[!UICONTROL Procesando]**: elija **[!UICONTROL Rasterizar]** para convertir gráficos vectoriales del archivo al formato de mapa de bits.
+* **[!UICONTROL Procesando]**: elija **[!UICONTROL Rasterizar]** para convertir los gráficos vectoriales del archivo al formato de mapa de bits.
 
 * **[!UICONTROL Mantener El Fondo Transparente En La Imagen Procesada]**: mantiene la transparencia de fondo del archivo.
 

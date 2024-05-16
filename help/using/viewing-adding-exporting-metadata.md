@@ -10,10 +10,10 @@ role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '2225'
-ht-degree: 36%
+ht-degree: 35%
 
 ---
 
@@ -161,7 +161,7 @@ Adobe Dynamic Media Classic ofrece un comando para crear una plantilla para grab
 
 ## Trabajo con esquemas de metadatos {#working-with-metadata-schemas}
 
-Un administrador de empresa puede ver una lista de todos los esquemas disponibles. En la barra de navegación global, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Metadatos]** > **[!UICONTROL Esquema de metadatos]**.
+Un administrador de la empresa puede ver una lista de todos los esquemas disponibles. En la barra de navegación global, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Metadatos]** > **[!UICONTROL Esquema de metadatos]**.
 
 XMP Inicialmente, la lista de esquemas estándar globales como está oculta Para verlos, use la casilla de verificación de la parte inferior de la lista.
 

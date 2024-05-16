@@ -10,10 +10,10 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 23%
+source-wordcount: '803'
+ht-degree: 21%
 
 ---
 
@@ -49,13 +49,13 @@ Consulte [Instrucciones para obtener imágenes para conjuntos de giros](creating
 
 ## 2. Crear un conjunto de giros
 
-Para crear un conjunto de giros, en la barra de navegación global, vaya a **[!UICONTROL Generar]** > **[!UICONTROL Conjuntos de giros]**. En el cuadro de diálogo Tamaño del conjunto de giros, elija cuántas filas y celdas desea y seleccione **[!UICONTROL OK]**. A continuación, arrastre imágenes a la cuadrícula de la página Conjunto de giros.
+Para crear un conjunto de giros, en la barra de navegación global, vaya a **[!UICONTROL Generar]** > **[!UICONTROL Conjuntos de giros]**. En el cuadro de diálogo Tamaño del conjunto de giros, elija cuántas filas y celdas desea y seleccione **[!UICONTROL OK]**. A continuación, arrastre las imágenes a la cuadrícula de la página Conjunto de giros.
 
 Consulte [Creación de un conjunto de giros](creating-spin-set.md#creating-a-spin-set).
 
 ## 3. Edición de un conjunto de giros
 
-Para editar un conjunto de giros, en la barra de navegación global, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes preestablecidos de visor]**. Seleccione un conjunto de giros y, a continuación, seleccione **[!UICONTROL Editar]**. Agregue y quite las imágenes y cambie su posición. Puede cambiar la posición de las filas en los conjuntos de giros bidimensionales.
+Para editar un conjunto de giros, en la barra de navegación global, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes preestablecidos de visor]**. Seleccione un conjunto de giros y, a continuación, seleccione **[!UICONTROL Editar]**. Agregue y quite las imágenes y cambie su posición. Puede cambiar la posición de las filas en conjuntos de giros bidimensionales.
 
 Consulte [Edición de un conjunto de giros](creating-spin-set.md#editing-a-spin-set).
 
@@ -85,6 +85,6 @@ Consulte [Publicación de un conjunto de giros](publishing-spin-set.md#publishin
 
 Adobe Dynamic Media Classic crea cadenas de llamada de URL para conjuntos de giros y las activa después de publicarlas. Puede copiar estas direcciones URL desde la página de vista previa.
 
-Seleccione el conjunto de giros y, a continuación, seleccione **[!UICONTROL Previsualizar]**. Seleccione un ajuste preestablecido de visor de conjuntos de giros. A continuación seleccione **[!UICONTROL Copiar URL]**.
+Seleccione el conjunto de giros y, a continuación, seleccione **[!UICONTROL Previsualizar]**. Seleccione un ajuste preestablecido de visor de conjuntos de giros. A continuación, seleccione la **[!UICONTROL Copiar URL]**.
 
 Consulte [Vinculación de un conjunto de giros a una página web](linking-spin-set-web-page.md#linking-a-spin-set-to-a-web-page).

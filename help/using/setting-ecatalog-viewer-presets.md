@@ -9,7 +9,7 @@ role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 25%
@@ -48,7 +48,7 @@ Siga estos pasos para poder crear un ajuste preestablecido de visualizador de ca
    | `$2$` | frame | El número de secuencia del cuadro que se muestra actualmente en el conjunto de imágenes. |
    | `$3$` | raíz de imagen | El primer elemento de ruta del primer elemento especificado en el comando de imagen (normalmente el ID del catálogo de imágenes de la entrada del catálogo en la que se especifica el conjunto de imágenes). |
 
-1. (Opcional) En el **[!UICONTROL Configuración del panel de información]**, en el **[!UICONTROL Plantilla de respuesta]** , escriba el texto que desea que aparezca si Adobe Dynamic Media Classic encuentra un error al recuperar la información de un mapa de imagen. Por ejemplo, si el sistema recibe un nombre de empresa y un nombre de catálogo electrónico, pero ningún identificador rollover, aparecerá este mensaje para el usuario.
+1. (Opcional) En el **[!UICONTROL Configuración del panel de información]**, en el **[!UICONTROL Plantilla de respuesta]** , escriba el texto que desea que aparezca si Adobe Dynamic Media Classic encuentra un error al recuperar información para un mapa de imagen. Por ejemplo, si el sistema recibe un nombre de empresa y un nombre de catálogo electrónico, pero ningún identificador rollover, aparecerá este mensaje para el usuario.
 
 >[!NOTE]
 >

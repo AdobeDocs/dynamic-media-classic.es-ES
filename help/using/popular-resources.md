@@ -7,10 +7,10 @@ role: Admin,User
 exl-id: f67a0645-a37d-4791-a0da-69d844fea40e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '500'
-ht-degree: 4%
+ht-degree: 2%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 4%
 * [Diseño para la optimización móvil](https://adobecustomersuccess.adobeconnect.com/p6oqd3wydif/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true): utilice Adobe Dynamic Media Classic para entregar de forma eficaz medios enriquecidos de destino a todos los dispositivos. En este seminario web, aprenderá a diseñar y ofrecer experiencias de visualización de imágenes y vídeos que sean efectivas en todas las aplicaciones móviles y sitios adaptables.
 * [Cómo admite Adobe Dynamic Media Classic el SEO](/help/using/assets/s7_seo.pdf): Los motores de búsqueda hoy permiten la búsqueda de sitios web e imágenes. Adobe Dynamic Media Classic respalda los esfuerzos por hacer que las imágenes sean más fáciles de usar en los motores de búsqueda, de modo que se dirija más tráfico al sitio web del usuario de Adobe Dynamic Media Classic. Este PDF le ofrece los antecedentes y las directrices de implementación para que esto suceda.
 * [Uso de Adobe Dynamic Media Classic para maximizar la conversión de días festivos](https://adobecustomersuccess.adobeconnect.com/p32n1yr85c9/?proto=true): Este seminario web le enseña a configurar flujos de trabajo automatizados para obtener contenido de carpetas vigiladas y crear automáticamente conjuntos de giros y vídeos. También aprenderá a gestionar cambios y actualizar imágenes rápidamente.
-* [Prácticas recomendadas para ofrecer experiencias interactivas con Adobe Dynamic Media Classic](https://seminars.adobeconnect.com/p7wb8ej3u6d/): este seminario web le enseña cómo introducir y extraer contenido de Adobe Dynamic Media Classic. Aprenda a configurar ajustes preestablecidos de imagen para obtener un rendimiento y una experiencia óptimos. También aprenderá a utilizar ajustes preestablecidos de visor y almacenar configuraciones en caché.
+* [Prácticas recomendadas para ofrecer experiencias interactivas con Adobe Dynamic Media Classic](https://seminars.adobeconnect.com/p7wb8ej3u6d/): este seminario web le enseña cómo introducir y extraer contenido de Adobe Dynamic Media Classic. Aprenda a configurar ajustes preestablecidos de imagen para obtener un rendimiento y una experiencia óptimos. También obtendrá información sobre los ajustes preestablecidos del visor y las configuraciones de almacenamiento en caché.
 * [Prácticas recomendadas para el diseño interactivo](https://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html): Este seminario web le enseña consejos prácticos sobre cómo mejorar su estrategia móvil. Vea en acción ejemplos reales de diseño interactivo. Crear un recurso principal que funcione en varios dispositivos. Aumente el rendimiento móvil cambiando dinámicamente la resolución de las imágenes. O bien, oriente las imágenes para visualizaciones verticales u horizontales. Aprenda también a recortar, escalar o cambiar el tamaño de las imágenes de forma dinámica.
 
 ## Formación de Adobe Dynamic Media Classic

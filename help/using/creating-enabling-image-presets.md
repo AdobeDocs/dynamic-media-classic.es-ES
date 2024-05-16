@@ -10,16 +10,16 @@ role: Admin,User
 exl-id: 94c6c388-226b-4172-a6c7-a8dcf9c0f0cf
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 49%
+source-wordcount: '258'
+ht-degree: 48%
 
 ---
 
 # Crear y habilitar ajustes preestablecidos de imagen{#creating-and-enabling-image-presets}
 
-Cuando los usuarios exportan recursos de imagen con Media Portal, pueden elegir un ajuste preestablecido de imagen en el cuadro de diálogo Exportar recursos seleccionados. Un ajuste preestablecido de imagen es una colección de ajustes predefinidos que cambian el tamaño, la calidad de imagen, el formato, la resolución y otros aspectos de la apariencia de una imagen cuando se exporta.
+Cuando los usuarios exportan recursos de imagen con Media Portal, pueden elegir un ajuste preestablecido de imagen en el cuadro de diálogo Exportar recursos seleccionados. Un ajuste preestablecido de imagen es un conjunto de ajustes predefinidos. Estos ajustes pueden cambiar el tamaño, la calidad de imagen, el formato, la resolución y otros aspectos de la apariencia de una imagen cuando se exporta.
 
 Los administradores de Media Portal pueden crear ajustes preestablecidos de imagen para controlar la forma en la que se cambia el formato de las imágenes al exportarse. Los ajustes preestablecidos de imagen reformatean las imágenes según las especificaciones de su empresa cuando los usuarios exportan imágenes desde Adobe Dynamic Media Classic. En lugar de cambiar el formato de las imágenes ellos mismos, los usuarios las exportan a las especificaciones concretas de un ajuste preestablecido de imagen.
 

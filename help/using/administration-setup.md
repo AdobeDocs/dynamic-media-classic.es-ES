@@ -9,9 +9,9 @@ role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '1971'
+source-wordcount: '1974'
 ht-degree: 32%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 32%
 
 # Ajustes de administración{#administration-setup}
 
-Las pantallas de Configuración de administración sirven para administrar usuarios de Adobe Dynamic Media Classic. Utilice estas pantallas para permitir a los usuarios trabajar en Adobe Dynamic Media Classic y comunicarse por correo electrónico con los usuarios.
+Las pantallas de Configuración de administración sirven para administrar usuarios de Adobe Dynamic Media Classic. Utilice estas pantallas para permitir a los usuarios trabajar en Adobe Dynamic Media Classic y comunicarse por correo electrónico con otros usuarios.
 
 1. Para acceder a las opciones de Configuración de administración, vaya a **Configurar** > **Ajustes personales** > **Ajustes de administración**.
 
@@ -28,7 +28,7 @@ Las pantallas de Configuración de administración sirven para administrar usuar
 
 A todos los usuarios de Adobe Dynamic Media Classic se les asigna una función que determina sus privilegios y derechos de acceso a las funciones de Adobe Dynamic Media Classic. Los administradores determinan las distintas funciones y responsabilidades para sus empresas.
 
-Normalmente, Adobe Dynamic Media Classic configura el primer conjunto de empresas y asigna un administrador de la empresa. A continuación, el administrador de la empresa configura y administra los usuarios de Adobe Dynamic Media Classic.
+Normalmente, Adobe Dynamic Media Classic configura el primer conjunto de empresas y asigna un Administrador de empresas. A continuación, el administrador de la empresa configura y administra los usuarios de Adobe Dynamic Media Classic.
 
 Adobe Dynamic Media Classic admite varias funciones de usuario. Estas funciones pueden acceder a las empresas configuradas para Adobe Dynamic Media Classic:
 
@@ -109,7 +109,7 @@ Puede utilizar las siguientes técnicas de filtrado de listas de usuarios:
 
 * **Filtrar usuarios no válidos**: Anular la selección **[!UICONTROL Incluir no válido]**. En los resultados de búsqueda aparecerán solo los usuarios que están en el sistema. Se han eliminado usuarios no válidos del sistema y de las cuentas que administra.
 
-* **Ordenar por encabezado de columna**: seleccione un encabezado para ordenar todos los usuarios por su estado, alfabéticamente por nombre, apellidos o correo electrónico, por función de usuario o por estado válido o no válido.
+* **Ordenar por encabezado de columna**: seleccione un encabezado para ordenar a todos los usuarios por su estado, alfabéticamente por nombre, apellidos o correo electrónico. O bien, ordene por función de usuario o por estado válido o no válido.
 
 Si tiene muchos usuarios, puede limitar el tamaño de la lista seleccionando un número en el menú Tamaño máximo de lista.
 
@@ -154,7 +154,7 @@ En la tabla siguiente se describen los informes que se pueden generar desde la p
 | Informe | Información | Uso |
 |:--- |:--- |:--- |
 | Ancho de banda | Uso del ancho de banda por la empresa | Lleve un seguimiento del uso del ancho de banda por la empresa a lo largo de intervalos de fechas específicos para determinar patrones de tráfico. |
-| Almacenamiento | Uso del almacenamiento | Lleve un seguimiento de la cantidad de datos que carga la empresa. |
+| Almacenamiento | Uso del almacenamiento | Rastree la cantidad de datos cargados por la compañía. |
 | Contenido de imagen | Número de solicitudes de imágenes por tipo | Lleve un seguimiento del número de solicitudes y el volumen de los diferentes tipos de imágenes. |
 | Dominio | El número de solicitudes de URL por dominio | Lleve un seguimiento del uso de imágenes según el dominio de la solicitud de imagen para una empresa concreta. (Adobe Dynamic Media Classic puede proporcionar más de un dominio por cuenta. Para obtener más información, póngase en contacto con el equipo de asistencia técnica). |
 | Flujo continuo de vídeo | Uso del ancho de banda para el flujo continuo de vídeo | Lleve un seguimiento del uso del flujo continuo de vídeo por empresa a lo largo de intervalos de fechas específicos para determinar patrones de tráfico. |
@@ -170,9 +170,9 @@ El informe de contenido de imagen proporciona información acerca de las solicit
 
 * **Solicitud de mosaico del visor**: Solicitudes de imagen cargadas por un visor.
 
-* **Solicitud de objeto Vnt**: Solicitudes de procesamiento de imágenes que devuelven una imagen con objetos especificados en las viñetas solicitadas.
+* **Solicitud de objeto VNT**: Solicitudes de procesamiento de imágenes que devuelven una imagen con objetos especificados en las viñetas solicitadas.
 
-* **Solicitud de información de vnt**: Solicitudes de procesamiento de imágenes que devuelven información sobre las viñetas solicitadas.
+* **Solicitud de información de VNT**: Solicitudes de procesamiento de imágenes que devuelven información sobre las viñetas solicitadas.
 
 >[!NOTE]
 >
@@ -202,7 +202,7 @@ Después de generar un informe en la página Ancho de banda y almacenamiento, pu
 
 * **Período de tiempo personalizado**: en el menú Informe predefinido, seleccione **[!UICONTROL Personalizado]**. A continuación, elija una fecha en la **[!UICONTROL Mes de inicio]** (o **[!UICONTROL Fecha de inicio]**) y una fecha en el menú # de meses (o # o días). En el caso de informes de dominio y de contenido de vídeo, puede elegir una fecha inicial y final específica para capturar los datos del informe.
 
-* **Ordenar datos (solo vista de datos)**: para ordenar la información de una columna, seleccione su encabezado. Vuelva a seleccionar para ordenar en orden descendente.
+* **Ordenar datos (solo vista de datos)**: ordena la información en una columna. Seleccione el encabezado de la columna. Vuelva a seleccionar para ordenar en orden descendente.
 
 * **Reorganizar columnas (solo vista de datos)**: para mover una columna a una ubicación diferente en la cuadrícula de datos, arrastre su encabezado.
 

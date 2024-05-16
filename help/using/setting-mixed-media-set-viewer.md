@@ -10,10 +10,10 @@ role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 27%
+source-wordcount: '613'
+ht-degree: 22%
 
 ---
 
@@ -26,7 +26,7 @@ Puede elegir incluir todas o algunas de las funciones de comunidad en el visor d
 1. En la barra de navegación global, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes preestablecidos de visor]**.
 1. En la página Ajustes preestablecidos de visor, realice una de las siguientes acciones:
 
-   * Para crear un ajuste preestablecido, seleccione **[!UICONTROL Añadir]**. En el cuadro de diálogo Agregar ajuste preestablecido de visor, elija una plataforma y elija **[!UICONTROL Visor de conjuntos de medios mixtos]**, luego seleccione **[!UICONTROL Añadir]**.
+   * Para crear un ajuste preestablecido, seleccione **[!UICONTROL Añadir]**. En el cuadro de diálogo Agregar ajuste preestablecido de visualizador, elija una plataforma. Luego haga clic en **[!UICONTROL Visor de conjuntos de medios mixtos]** > **[!UICONTROL Añadir]**.
    * Para editar un ajuste preestablecido del visualizador de conjuntos de medios mixtos, selecciónelo y, a continuación, seleccione **[!UICONTROL Editar]**.
 
 1. En la página Visor de configuración, escriba un nombre en el cuadro Nombre de ajuste preestablecido para el ajuste preestablecido del visualizador de conjuntos de medios mixtos.
@@ -36,9 +36,9 @@ Puede elegir incluir todas o algunas de las funciones de comunidad en el visor d
    Por ejemplo, si agrega un conjunto de muestras al conjunto de medios mixtos, escriba `Swatch Set A`.
 
 1. En el menú Visor, seleccione el tipo de recurso que desea ver, como Conjuntos de muestras.
-1. En el menú Ajuste preestablecido, elija el ajuste preestablecido para el tipo de recurso elegido.
+1. En el menú Ajuste preestablecido, seleccione un ajuste preestablecido para el tipo de recurso elegido.
 
-   Por ejemplo, si va a añadir un conjunto de muestras, elija **[!UICONTROL SwatchSet1-Colors]**.
+   Por ejemplo, si añade un conjunto de muestras, seleccione **[!UICONTROL SwatchSet1-Colors]**.
 
 1. Seleccionar **[!UICONTROL Añadir]**.
 
@@ -48,7 +48,7 @@ Puede elegir incluir todas o algunas de las funciones de comunidad en el visor d
 1. Para editar la lista de ajustes preestablecidos, realice una de las siguientes acciones:
 
    * Para eliminar un ajuste preestablecido de la lista, selecciónelo y, a continuación, seleccione **[!UICONTROL Eliminar]**.
-   * Para reordenar los ajustes preestablecidos en la lista, seleccione un ajuste preestablecido y, a continuación, seleccione el azul **[!UICONTROL Arriba]** o **[!UICONTROL Abajo]** flecha.
+   * Para reordenar los ajustes preestablecidos en la lista, seleccione un ajuste preestablecido y, a continuación, seleccione el botón azul **[!UICONTROL Arriba]** o **[!UICONTROL Abajo]** flecha.
 
 1. Para agregar funciones de comunidad (Incrustar, Vínculo, Visita) al visor, especifique las opciones para cualquiera de lo siguiente:
 

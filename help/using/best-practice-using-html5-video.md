@@ -10,7 +10,7 @@ role: User
 exl-id: ce49e4ce-8dc0-41e1-865a-249f23757553
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 9%
@@ -19,7 +19,7 @@ ht-degree: 9%
 
 # Prácticas recomendadas para utilizar el visualizador de vídeo HTML5{#best-practice-using-the-html-video-viewer}
 
-Los ajustes preestablecidos del visualizador de vídeo Adobe Dynamic Media Classic HTML5 son reproductores de vídeo sólidos. En el lado del diseño del reproductor, puede crear toda la funcionalidad del reproductor de vídeo con las herramientas de desarrollo web estándar. Por ejemplo, se pueden diseñar los botones, controles y el fondo de imagen de póster personalizado utilizando HTML5 y CSS para ayudarle a captar clientes con un aspecto personalizado.
+Los ajustes preestablecidos del visualizador de vídeo HTML5 de Adobe Dynamic Media Classic son reproductores de vídeo sólidos. En el lado del diseño del reproductor, puede crear toda la funcionalidad del reproductor de vídeo con las herramientas de desarrollo web estándar. Por ejemplo, se pueden diseñar los botones, controles y el fondo de imagen de póster personalizado utilizando HTML5 y CSS para ayudarle a captar clientes con un aspecto personalizado.
 
 En la parte de reproducción del visor, detecta automáticamente la capacidad de vídeo del explorador. A continuación, sirve el vídeo mediante HLS (flujo en directo HTTP), también conocido como flujo de vídeo adaptable. O bien, si ese método de envío no está presente, se utiliza HTML 5 progresivo en su lugar.
 

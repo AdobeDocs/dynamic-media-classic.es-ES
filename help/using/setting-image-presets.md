@@ -10,10 +10,10 @@ role: User
 exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '667'
-ht-degree: 34%
+ht-degree: 32%
 
 ---
 
@@ -27,7 +27,7 @@ Téngase en cuenta que las imágenes de tamaño reducido pueden sufrir pérdidas
 
 ## Crear un ajuste preestablecido de imagen {#creating-an-image-preset}
 
-Los administradores pueden crear ajustes preestablecidos de imagen. Puede crear ajustes preestablecidos de imagen o empezar con un ajuste preestablecido de imagen predeterminado que proporciona Adobe Dynamic Media Classic, editarlo y guardarlo con un nombre nuevo.
+Puede crear sus propios ajustes preestablecidos de imagen si es administrador de la empresa. Puede crear ajustes preestablecidos de imagen o empezar con un ajuste preestablecido de imagen predeterminado que proporciona Adobe Dynamic Media Classic, editarlo y guardarlo con un nombre nuevo.
 
 **Para crear un ajuste preestablecido de imagen:**
 

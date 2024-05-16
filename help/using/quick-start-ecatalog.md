@@ -10,10 +10,10 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '1470'
-ht-degree: 26%
+ht-degree: 25%
 
 ---
 
@@ -92,7 +92,7 @@ Consulte [Crear mapas de imagen de catálogo electrónico](creating-ecatalog-ima
 
 Consulte [Uso de mapas de imagen para incrustar medios enriquecidos en un catálogo electrónico](creating-ecatalog-image-maps.md#embedding-rich-media-in-an-ecatalog).
 
-Puede configurar y gestionar el texto del mapa de imagen mediante la configuración del panel de información en la pantalla del catálogo electrónico.
+Puede configurar y administrar el texto del mapa de imagen mediante la configuración del panel de información de la pantalla Catálogo electrónico.
 
 Consulte [Administración del contenido del panel de información en catálogos electrónicos](/help/using/info-panel-content-ecatalog.md).
 

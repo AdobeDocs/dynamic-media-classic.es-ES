@@ -10,9 +10,9 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '10944'
+source-wordcount: '10945'
 ht-degree: 29%
 
 ---
@@ -49,7 +49,7 @@ Consulte también [Prueba del servicio Secure Testing](testing-assets-making-the
 
 * **[!UICONTROL Nombre del servidor de vídeo progresivo]**: La dirección URL de su [!DNL Adobe Dynamic Media Classic] servidor de vídeo progresivo. Este servidor ofrece vídeo progresivo mediante el protocolo HTTP.
 
-* **[!UICONTROL Mostrar URL de recursos sin publicar]**: Seleccione esta opción si lo desea [!DNL Adobe Dynamic Media Classic] para mostrar una URL al previsualizar cualquier recurso, independientemente de si se ha publicado o no. Si el recurso no está publicado, la URL no funciona. Sin embargo, puede utilizar la dirección URL para fines de planificación o de organización.
+* **[!UICONTROL Mostrar URL de recursos sin publicar]**: Seleccione esta opción si lo desea [!DNL Adobe Dynamic Media Classic] para mostrar una URL cuando previsualice cualquier recurso, publicado o no. Si el recurso no está publicado, la URL no funciona. Sin embargo, puede utilizar la dirección URL para fines de planificación o de organización.
 
 <!-- **Allow AIR install** Select this option to allow users to download Adobe Dynamic Media Classic desktop version to their local hard drives. Users install the application from the Desktop Version area of the Personal Setup screen. -->
 
@@ -117,11 +117,11 @@ Consulte también [Opciones para trabajos de carga](https://s7d5.scene7.com/s7vi
 
 * **[!UICONTROL Sobrescribir imágenes]**: Adobe Dynamic Media Classic no permite que dos archivos tengan el mismo nombre. El Adobe Dynamic Media Classic ID de cada elemento (el nombre de imagen menos la extensión del nombre de archivo) debe ser único. Debido a esta regla, el cuadro de diálogo Cargar dispone de una opción Sobrescribir. El efecto exacto de esta opción depende de la opción Sobrescribir imágenes especificada. Estas opciones especifican cómo se cargan las imágenes de sustitución: si sustituyen las imágenes originales o si se convierten en imágenes duplicadas. Las imágenes duplicadas cambian de nombre con &quot;-1&quot; (por ejemplo, chair.tif cambia de nombre chair-1.tif). Estas opciones también afectan a las imágenes cargadas en una carpeta distinta de la original o a las imágenes con una extensión de nombre de archivo diferente de la original (como JPG, TIF o PNG). Consulte [Utilizar la opción Sobrescribir imágenes](#using-the-overwrite-images-option).
 
-   * **[!UICONTROL Sobrescribir en la carpeta actual, mismo nombre/extensión de la imagen base]**: Esta opción es la regla más estricta para el reemplazo. Exige que la imagen de sustitución se cargue en la misma carpeta y tenga la misma extensión de nombre de archivo que la imagen original. Si no se cumplen estos requisitos, se crea un duplicado.
+   * **[!UICONTROL Sobrescribir en la carpeta actual, mismo nombre o extensión de la imagen base]**: Esta opción es la regla más estricta para el reemplazo. Exige que la imagen de sustitución se cargue en la misma carpeta y tenga la misma extensión de nombre de archivo que la imagen original. Si no se cumplen estos requisitos, se crea un duplicado.
 
    * **[!UICONTROL Sobrescribir en la carpeta actual con mismo nombre de recurso base independientemente de la extensión]**: Requiere que cargue la imagen de reemplazo en la misma carpeta que el original, aunque la extensión del nombre del archivo puede ser diferente del original. Por ejemplo, silla.tif sustituye silla.jpg.
 
-   * **[!UICONTROL Sobrescribir en cualquier carpeta con mismo nombre/extensión de recurso base]**: Requiere que la imagen de reemplazo tenga la misma extensión de nombre de archivo que la imagen original (por ejemplo, chair.jpg debe reemplazar chair.jpg, no chair.tif). Sin embargo, puede cargar la imagen de sustitución en otra carpeta distinta de la original. La imagen actualizada reside en la nueva carpeta; el archivo ya no se encuentra en su ubicación original.
+   * **[!UICONTROL Sobrescribir en cualquier carpeta con mismo nombre o extensión de recurso base]**: Requiere que la imagen de reemplazo tenga la misma extensión de nombre de archivo que la imagen original. Por ejemplo, chair.jpg debe reemplazar chair.jpg, no chair.tif). Sin embargo, puede cargar la imagen de sustitución en otra carpeta distinta de la original. La imagen actualizada reside en la nueva carpeta; el archivo ya no se encuentra en su ubicación original.
 
    * **[!UICONTROL Sobrescribir en cualquier carpeta con mismo nombre de recurso base independientemente de la extensión]**: Esta opción es la regla de reemplazo más inclusiva. Puede cargar la imagen de sustitución en otra carpeta distinta de la original, cargar un archivo con una extensión de nombre de archivo diferente y sustituir el archivo original. Si el archivo original está en otra carpeta, la imagen de sustitución residirá en la nueva carpeta en la que se haya cargado.
 
@@ -135,7 +135,7 @@ Consulte también [Opciones para trabajos de carga](https://s7d5.scene7.com/s7vi
 
 * **[!UICONTROL HREF de mapeado de imágenes predeterminado]**: define la dirección URL predeterminada que se utiliza para la columna HREF en la asignación de imágenes. Esta URL es la URL predeterminada que se ve al crear mapas de imágenes.
 
-* **[!UICONTROL Plantilla de asignación de imagen predeterminada]**: define el JavaScript predeterminado para la plantilla HREF en la asignación de imágenes. Puede establecer aquí un código personalizado para que se ejecute cada vez que seleccione un mapa de imagen.
+* **[!UICONTROL Plantilla de asignación de imagen predeterminada]**: define el JavaScript predeterminado para la plantilla HREF en la asignación de imágenes. Aquí puede establecer un código personalizado para que se ejecute cada vez que seleccione un mapa de imagen.
 
 ### Otra configuración (para la aplicación)
 

@@ -10,16 +10,16 @@ role: User
 exl-id: 05769eeb-5f1b-42ff-9392-2669f5051140
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 18%
+source-wordcount: '456'
+ht-degree: 15%
 
 ---
 
 # Ver conjuntos de muestras{#viewing-swatch-sets}
 
-Puede ver los conjuntos de muestras en la ventana Vista previa con los ajustes preestablecidos disponibles. Para usar un visor de zoom: Ajuste preestablecido de visor personalizado para conjuntos de muestras.
+Puede ver los conjuntos de muestras en la ventana Vista previa con los ajustes preestablecidos disponibles. Puede utilizar un Visor de zoom: Ajuste preestablecido de visor personalizado para conjuntos de muestras.
 
 Adobe Dynamic Media Classic incluye ajustes preestablecidos de visor predeterminados. Los administradores pueden crear o modificar los ajustes preestablecidos de visor.
 

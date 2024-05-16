@@ -10,16 +10,16 @@ role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 43%
+source-wordcount: '571'
+ht-degree: 41%
 
 ---
 
 # Ajustar una imagen{#adjusting-an-image}
 
-Adobe Dynamic Media Classic ofrece varios comandos para ajustar el aspecto de una imagen. Puede voltear, rotar, desenfocar, colorear o alterar el equilibrio de color de una imagen. Al experimentar con estos comandos, puede ver sus efectos en la imagen con que trabaje.
+Adobe Dynamic Media Classic ofrece varios comandos para ajustar el aspecto de una imagen. Puede voltear, girar, desenfocar, modificar el equilibrio de color y colorear una imagen. Al experimentar con estos comandos, puede ver sus efectos en la imagen con que trabaje.
 
 Consulte también [Creación de un alias para una imagen](adjusting-image.md#creating_an_alias_for_an_image).
 
@@ -57,7 +57,7 @@ Seleccionar **[!UICONTROL Guardar]**.
 
 ## Creación de un alias para una imagen {#creating-an-alias-for-an-image}
 
-Cuando haya ajustado una imagen, puede guardarla como otra vista de la imagen principal. Para ello, puede crear un alias para la imagen utilizando la variable **[!UICONTROL Guardar como otra vista del principal]** función.
+Cuando haya ajustado una imagen, puede guardarla como otra vista de la imagen principal. Para ello, puede crear un alias para la imagen utilizando la variable **[!UICONTROL Guardar como otra vista de la principal]** función.
 
 **Para crear un alias para una imagen:**
 

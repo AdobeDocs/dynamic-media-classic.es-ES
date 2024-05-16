@@ -1,6 +1,6 @@
 ---
 title: Vista previa de vídeos en un visor de vídeos
-description: Obtenga información sobre cómo previsualizar vídeos en un visor de vídeos.
+description: Obtenga información sobre cómo obtener una vista previa de vídeos en un visor de vídeos.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,9 +10,9 @@ role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '777'
 ht-degree: 21%
 
 ---
@@ -41,9 +41,9 @@ Consulte [Agregar y editar ajustes preestablecidos de visor](application-setup.m
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic proporciona un método conveniente de previsualización de vídeo MP4 en el escritorio. Utilice este método para obtener una vista previa del contenido móvil en el escritorio sin probarlo físicamente en dispositivos móviles. Sin embargo, tenga en cuenta que lo que se ve en la vista previa de escritorio no muestra de forma realista el aspecto de la reproducción en el dispositivo móvil. Para obtener una vista previa del aspecto y la reproducción del vídeo en un dispositivo móvil, vaya a la pantalla Vista previa y seleccione **[!UICONTROL Copiar URL]** e introduzca la dirección URL en el explorador web de un dispositivo móvil. Para obtener más información, consulte [Implementación de vídeo en sitios web y móviles](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
+>Adobe Dynamic Media Classic proporciona un método conveniente de previsualización de vídeo MP4 en el escritorio. Utilice este método para obtener una vista previa del contenido móvil en el escritorio sin probarlo físicamente en dispositivos móviles. Sin embargo, tenga en cuenta que lo que se ve en la vista previa de escritorio no muestra de forma realista el aspecto de la reproducción en el dispositivo móvil. Para obtener una vista previa del aspecto y la reproducción del vídeo en un dispositivo móvil, vaya a la pantalla Vista previa. Clic **[!UICONTROL Copiar URL]** e introduzca la dirección URL en el explorador web de un dispositivo móvil. Para obtener más información, consulte [Implementación de vídeo en sitios web y móviles](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
-## Trabajo con ajustes preestablecidos de visualizador de vídeo {#working-with-video-viewer-presets}
+## Trabajar con ajustes preestablecidos de visor de vídeo {#working-with-video-viewer-presets}
 
 Los usuarios ven vídeos en el visor de vídeo. La manera de comportarse del visor de vídeo, su aspecto y el funcionamiento de los controles de reproducción dependerán del ajuste preestablecido de visor que elija para reproducir el vídeo. Puede seleccionar un ajuste preestablecido de vídeo en la pantalla Vista previa. Después de elegir un ajuste preestablecido, puede obtener la URL, o el código de incrustación, para reproducir el vídeo utilizando el ajuste preestablecido de visualizador que haya elegido.
 
@@ -55,7 +55,7 @@ Consulte también [Ajustes preestablecidos de vídeo](https://s7d5.scene7.com/s7
 
 ### Agregar o editar un ajuste preestablecido de visualizador de vídeo {#adding-or-editing-a-video-viewer-preset}
 
-Puede usar Ajustes preestablecidos de visor para ver los diversos tipos de visor y su configuración predefinida. También puede añadir y editar sus propios ajustes preestablecidos de visualizador personalizados o editar los existentes que se incluyen con Adobe Dynamic Media Classic.
+Puede usar Ajustes preestablecidos de visor para ver los diversos tipos de visor y su configuración predefinida. También puede agregar y editar sus propios ajustes preestablecidos de visualizador personalizados o editar los existentes que se incluyen con Adobe Dynamic Media Classic.
 
 En Ajustes preestablecidos del visor, puede activar, filtrar, ordenar y previsualizar los ajustes preestablecidos del visor.
 
@@ -67,7 +67,7 @@ Consulte también [Ajustes preestablecidos de vídeo](https://s7d5.scene7.com/s7
 
 1. Cerca de la esquina superior derecha de Adobe Dynamic Media Classic, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes preestablecidos de visor]**.
 
-   Para ver solo los ajustes preestablecidos de los visores de vídeo, seleccione Visor de vídeo en la lista desplegable de visores abierta de la barra de herramientas, justo encima de la tabla.
+   Puede elegir ver solo los ajustes preestablecidos para los visualizadores de vídeo. En la barra de herramientas situada directamente encima de la tabla, seleccione Visor de vídeo en la lista desplegable Visualizadores abierta.
 
 1. Agregue o edite un ajuste preestablecido de visor para mostrar vídeo:
 

@@ -10,10 +10,10 @@ role: User
 topic: Content Management
 level: Beginner
 exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '877'
-ht-degree: 10%
+ht-degree: 8%
 
 ---
 
@@ -39,7 +39,7 @@ En la barra de navegación global, seleccione **[!UICONTROL Cargar]** para carga
 
 ## 2. Configurar ajustes preestablecidos de imagen
 
-Un ajuste preestablecido de imagen se compone de una serie de comandos de formato y tamaño predefinidos, que se guarda con un nombre exclusivo; es similar a una macro. Un ajuste preestablecido de imagen determina el tamaño y el formato con el que se envían las imágenes desde los servidores de imágenes de Dynamic Media. Los administradores pueden crear ajustes preestablecidos de imagen. Adobe Dynamic Media Classic también incluye ajustes preestablecidos de imagen predeterminados y puede utilizarlos para entregar imágenes de forma dinámica.
+Un ajuste preestablecido de imagen se compone de una serie de comandos de formato y tamaño predefinidos, que se guarda con un nombre exclusivo; es similar a una macro. Un ajuste preestablecido de imagen determina el tamaño y el formato con el que se envían las imágenes desde los servidores de imágenes de Dynamic Media. Puede configurar los ajustes preestablecidos de imagen por su cuenta si tiene el estado de administrador de la empresa. Adobe Dynamic Media Classic también incluye ajustes preestablecidos de imagen predeterminados y puede utilizarlos para entregar imágenes de forma dinámica.
 
 Para crear un ajuste preestablecido de imagen (si es administrador), en la barra de navegación global, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Ajustes preestablecidos de imagen]**. A continuación seleccione **[!UICONTROL Añadir]** para crear un ajuste preestablecido de imagen, o seleccione **[!UICONTROL Editar]** para cambiar un ajuste preestablecido de imagen existente.
 
