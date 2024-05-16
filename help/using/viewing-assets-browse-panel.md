@@ -10,16 +10,16 @@ role: User
 exl-id: 4d38a224-5e06-4932-a801-5dcc32fe4b31
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '253'
-ht-degree: 17%
+ht-degree: 11%
 
 ---
 
 # Visualización de recursos en el panel Examinar{#viewing-assets-in-the-browse-panel}
 
-Puede cambiar la manera en que se muestran los recursos en el panel Examinar si selecciona un botón de vista:
+Puede cambiar la vista de los recursos en el panel Examinar seleccionando un botón Ver:
 
 * **Vista de cuadrícula**: Cerca de la esquina superior derecha de la pantalla de Adobe Dynamic Media Classic, seleccione la **[!UICONTROL Vista de cuadrícula]** para ver los recursos en forma de miniatura en una cuadrícula. En la Vista de cuadrícula, puede arrastrar el control deslizante Miniatura para cambiar el tamaño de las imágenes en miniatura.
 

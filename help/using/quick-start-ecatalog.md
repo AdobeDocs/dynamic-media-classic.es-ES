@@ -10,7 +10,7 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '1470'
 ht-degree: 25%
@@ -124,7 +124,7 @@ Consulte [Publicar catálogos electrónicos y PDF asociados](publishing-ecatalog
 
 ## 7. Vinculación de un catálogo electrónico a una página web
 
-Adobe Dynamic Media Classic activa la cadena de llamada de URL necesaria para mostrar el catálogo electrónico al publicarlo en Dynamic Media Image Servers. Puede copiar esta cadena URL desde la pantalla Vista previa y el panel Examinar (en la Vista de detalles) seleccionando URL en el panel. Una vez copiada la cadena URL, estará disponible para los sitios Web y las aplicaciones.
+Adobe Dynamic Media Classic activa la cadena de llamada de URL necesaria para mostrar el catálogo electrónico al publicarlo en Dynamic Media Image Servers. Puede copiar esta cadena de URL desde la pantalla Vista previa y el panel Examinar (en la Vista de detalles) seleccionando URL en el panel. Una vez copiada la cadena URL, estará disponible para los sitios Web y las aplicaciones.
 
 Trabaje con su equipo de TI para colocar el vínculo al catálogo electrónico en el lugar adecuado de la página Web. Cuando los usuarios seleccionan el vínculo, aparece el Visor de catálogos electrónicos y los usuarios pueden examinar el catálogo electrónico.
 

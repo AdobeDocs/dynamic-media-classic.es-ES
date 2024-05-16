@@ -10,7 +10,7 @@ role: User
 exl-id: b085f7ea-4623-402e-97f5-ed8ad5f368c7
 topic: Content Management
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 10%
@@ -23,7 +23,7 @@ Al publicar un conjunto de giros, las imágenes se colocan en el conjunto en los
 
 ## Marcar un conjunto de giros para publicación {#marking-a-spin-set-for-publish}
 
-Marque el conjunto de giros para su publicación para que se copie en los servidores de imágenes de Adobe Dynamic Media Classic. Puede marcar el conjunto de giros para su publicación en el panel de exploración al seleccionar el **[!UICONTROL Marcar para publicación]** a la izquierda de su nombre. Al marcar el conjunto de giros, todas las imágenes del conjunto se marcarán para la publicación.
+Marque el conjunto de giros para su publicación para que se copie en los servidores de imágenes de Adobe Dynamic Media Classic. Puede marcar el conjunto de giros para su publicación en el panel Examinar seleccionando la **[!UICONTROL Marcar para publicación]** a la izquierda de su nombre. Al marcar el conjunto de giros, todas las imágenes del conjunto se marcarán para la publicación.
 
 ## Publicación del conjunto de giros {#publishing-the-spin-set}
 

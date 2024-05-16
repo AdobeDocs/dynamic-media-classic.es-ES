@@ -10,7 +10,7 @@ role: User
 exl-id: 989f2761-f5d0-4ece-b2a6-f7b4577aa8a2
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 41%
@@ -25,7 +25,7 @@ En Adobe Dynamic Media Classic, puede elegir un perfil ICC para convertir las im
 
 Consulte [Opciones de edición de imágenes al cargar](image-editing-options-upload.md#image-editing-options-at-upload).
 
-Además de utilizar los perfiles ICC predeterminados, puede cargar otros perfiles ICC en Adobe Dynamic Media Classic y ponerlos a disposición de la conversión del espacio de color. Cambie a la Vista de detalles en el panel de exploración para investigar la clase de perfil, el tipo de espacio de color y el tipo PCS de un perfil ICC.
+Además de utilizar los perfiles ICC predeterminados, puede cargar otros perfiles ICC en Adobe Dynamic Media Classic y ponerlos a disposición de la conversión del espacio de color. Cambie a Vista de detalles en el panel Examinar para investigar la clase de perfil, el tipo de espacio de color y el tipo PCS de un perfil ICC.
 
 ## Carga de perfiles ICC {#uploading-icc-profiles}
 
@@ -35,7 +35,7 @@ Consulte [Cargar los archivos](uploading-files.md#uploading_your_files).
 
 ## Examen de un perfil ICC {#examining-an-icc-profile}
 
-Para examinar un perfil ICC, selecciónelo en el panel de exploración y muéstrelo en la vista de detalles. La Vista de detalles proporciona esta información sobre los perfiles ICC:
+Para examinar un perfil ICC, selecciónelo en el panel Examinar y muéstrelo en la Vista de detalles. La Vista de detalles proporciona esta información sobre los perfiles ICC:
 
 * **[!UICONTROL Clase de perfil]**: El ICC (International Color Consortium) define cada clase para cubrir un tipo de aplicación. Por ejemplo, los perfiles de entrada se aplican a los dispositivos como las cámaras digitales o los escáneres, mientras que los perfiles de salida se aplican a las impresoras.
 

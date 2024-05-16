@@ -10,9 +10,9 @@ role: User
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '842'
 ht-degree: 26%
 
 ---
@@ -40,11 +40,11 @@ Puede obtener una cadena URL generada por un ajuste preestablecido de imagen en 
    * Sobre la ventana Recursos, en la parte derecha de la barra de herramientas, seleccione **[!UICONTROL Vista de lista]**. En la ventana Recurso, seleccione un único recurso de imagen y, a continuación, a la derecha de la imagen en miniatura, vaya a **[!UICONTROL Previsualizar]** > **[!UICONTROL Lista de ajustes preestablecidos de imagen]**.
    * Sobre la ventana Recursos, en la parte derecha de la barra de herramientas, seleccione **[!UICONTROL Vista de detalles]**. En la misma barra de herramientas, vaya a **[!UICONTROL Previsualizar]** > **[!UICONTROL Lista de ajustes preestablecidos de imagen]**.
 
-1. (Opcional) En la Lista de ajustes preestablecidos de imagen, en la lista desplegable Codificación URL para la creación de copias URL, seleccione la codificación URL que se aplicará a la URL del recurso de imagen cuando se copie.
+1. (Opcional) En la Lista de ajustes preestablecidos de imagen, en la lista desplegable Codificación URL para la creación de copias URL, seleccione la Codificación URL que se aplicará a la URL del recurso de imagen cuando se copie.
 1. En la ventana Lista de ajustes preestablecidos de imagen, en el área superior derecha del panel de vista previa, seleccione **[!UICONTROL Copiar URL]** para el tipo de ajuste preestablecido seleccionado.
 1. En la esquina inferior derecha de la ventana Lista de ajustes preestablecidos de imagen, seleccione **[!UICONTROL Cerrar]** para volver a la pantalla Recursos.
 
-### Obtener una URL de ajuste preestablecido de imagen desde el panel Examinar {#obtaining-an-image-preset-url-from-the-browse-panel}
+### Obtenga una URL de ajuste preestablecido de imagen del panel Examinar {#obtaining-an-image-preset-url-from-the-browse-panel}
 
 1. En el panel Biblioteca de recursos de la izquierda, vaya a la carpeta de recursos que contiene el recurso de imagen que desea previsualizar.
 1. Sobre la ventana Recursos, en la parte derecha de la barra de herramientas, seleccione **[!UICONTROL Vista de cuadrícula]**. En la ventana Recurso, seleccione un único recurso de imagen.
@@ -80,7 +80,7 @@ Los nombres de ajuste preestablecido de imagen en direcciones URL se incluyen en
 
 ## Agregar imágenes dinámicas a la página Web {#adding-dynamic-images-to-your-web-page}
 
-Para agregar imágenes dinámicas a la página Web, haga lo siguiente `<IMG>` El código de la página web del HTML suele modificarse con la cadena URL de Adobe Dynamic Media Classic para realizar una solicitud a los servidores de imágenes de Dynamic Media. Esta cadena produce una imagen con las especificaciones de formato y tamaño definidas por el ajuste preestablecido de imagen.
+Al agregar imágenes dinámicas a la página web, se `<IMG>` El código de la página del HTML suele modificarse con la cadena URL de Adobe Dynamic Media Classic para realizar una solicitud a los servidores de imágenes de Dynamic Media. Esta cadena produce una imagen con las especificaciones de formato y tamaño definidas por el ajuste preestablecido de imagen.
 
 Por ejemplo, en lugar de la típica llamada para abrir una imagen estática:
 

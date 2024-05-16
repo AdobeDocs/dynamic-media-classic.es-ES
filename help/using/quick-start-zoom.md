@@ -10,10 +10,10 @@ role: User
 exl-id: eae35207-000c-4ced-b9ab-714c2384a9e7
 topic: Content Management
 level: Beginner
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 21%
+ht-degree: 19%
 
 ---
 
@@ -37,9 +37,9 @@ En la barra de navegación global, seleccione **[!UICONTROL Cargar]** para carga
 
 ## 2. Crear destinos de zoom para el zoom guiado
 
-Los destinos de zoom permiten resaltar partes específicas de una imagen. Por ejemplo, puede hacer destacar las partes de una imagen que la hacen exclusiva. En la ventana del visor de zoom, los destinos de zoom aparecen como miniaturas al lado de la imagen. Si se selecciona una de estas miniaturas de destino de zoom, se aplica zoom automáticamente en una parte de la imagen que se especifique.
+Los destinos de zoom permiten resaltar partes específicas de una imagen. Por ejemplo, puede hacer destacar las partes de una imagen que la hacen exclusiva. En la ventana Visor de zoom, los destinos de zoom aparecen en forma de imágenes en miniatura a un lado de la imagen. Si se selecciona una de estas miniaturas de destino de zoom, se aplica zoom automáticamente en una parte de la imagen que se especifique.
 
-Para crear un destino de zoom, seleccione **[!UICONTROL Editar]** y elija Destinos de zoom o abra una imagen en el panel Examinar en la vista de detalles y seleccione **[!UICONTROL Destinos de zoom]**. A continuación, utilice las herramientas de zoom en la página Editor de destinos de zoom para aislar parte de la imagen como destino. Consulte [Creación de destinos de zoom para el zoom guiado](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).
+Para crear un destino de zoom, seleccione **[!UICONTROL Editar]** y elija Destinos de zoom, o abra una imagen en el panel Examinar de la Vista de detalles y seleccione **[!UICONTROL Destinos de zoom]**. A continuación, utilice las herramientas de zoom en la página Editor de destinos de zoom para aislar parte de la imagen como destino. Consulte [Creación de destinos de zoom para el zoom guiado](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).
 
 ## 3. Configurar ajustes preestablecidos del visor de zoom
 
@@ -55,7 +55,7 @@ Puede obtener una vista previa de imágenes en un visor de zoom para ver lo que 
 
 Para explorar diferentes ajustes preestablecidos del visor de zoom y ver cómo presentan la experiencia de zoom, seleccione una imagen en el panel Examinar y seleccione **[!UICONTROL Previsualizar]**. Ir a **[!UICONTROL Ajustes preestablecidos]** > **[!UICONTROL Zoom]** y, a continuación, seleccione un ajuste preestablecido con el menú Zoom.
 
-Aparecerán los botones Zoom. Puede ver el aspecto de las imágenes de zoom en el sitio web. Seleccione los botones de zoom (y destinos de zoom) para poder probar la configuración del ajuste preestablecido del visor de zoom que ha elegido. Consulte [Vista previa de imágenes con diferentes visores de zoom](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
+Aparecerán los botones Zoom. Puede ver el aspecto de las imágenes de zoom en el sitio web. Seleccione los botones de zoom (y destinos de zoom) para probar la configuración del ajuste preestablecido del visor de zoom que ha elegido. Consulte [Vista previa de imágenes con diferentes visores de zoom](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
 
 ## 5. Publicación de imágenes de zoom
 

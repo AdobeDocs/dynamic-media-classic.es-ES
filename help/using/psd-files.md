@@ -10,9 +10,9 @@ role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1023'
 ht-degree: 22%
 
 ---
@@ -71,13 +71,13 @@ Estas opciones están disponibles al cargar archivos PSD:
 
 ## Visualización y edición de capas en un archivo de PSD {#viewing-and-editing-layers-in-a-psd-file}
 
-Si seleccionó la opción **[!UICONTROL Mantener capas]** al cargar el PSD, Adobe Dynamic Media Classic copió las capas individuales en recursos. Para ver y editar las capas de recursos que pertenecen a un fichero de PSD, abra el fichero en el panel de exploración en la vista de detalles.
+Si seleccionó la opción **[!UICONTROL Mantener capas]** al cargar el PSD, Adobe Dynamic Media Classic copió las capas individuales en recursos. Puede ver y editar las capas de recursos que pertenecen a un archivo de PSD abriendo el archivo en el panel Examinar en la Vista de detalles.
 
 >[!NOTE]
 >
 >Adobe Dynamic Media Classic admite hasta cinco niveles en un grupo de capas anidadas.
 
-1. Haga doble clic en el archivo completo del PSD en el panel Examinar. El archivo se abre en la Vista de detalles.
+1. Haga doble clic en el archivo de PSD completo en el panel Examinar. El archivo se abre en la Vista de detalles.
 
    >[!NOTE]
    >
@@ -87,7 +87,7 @@ Si seleccionó la opción **[!UICONTROL Mantener capas]** al cargar el PSD, Adob
 1. Haga doble clic en una capa y realice una de las acciones siguientes:
 
    * Para crear un mapa de imagen en la capa, seleccione la **[!UICONTROL Mapa de imagen]** icono. (Consulte [Crear mapas de imagen](creating-image-maps.md#creating_image_maps).)
-   * Para crear destinos de zoom en la capa, seleccione la **[!UICONTROL Destinos de zoom]** icono. (Consulte [Creación de destinos de zoom para el zoom guiado](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).)
+   * Para crear destinos de zoom en la capa, seleccione **[!UICONTROL Destinos de zoom]** icono. (Consulte [Creación de destinos de zoom para el zoom guiado](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).)
    * Para recortar la capa, seleccione la **[!UICONTROL Recorte]** icono. (Consulte [Recortar una imagen](cropping-image.md#cropping_an_image).)
    * Para enfocar la capa, seleccione **[!UICONTROL Enfoque]**. (Consulte [Enfoque de una imagen](sharpening-image.md#sharpening_an_image).)
    * Para ajustar la capa, seleccione **[!UICONTROL Ajuste]**. (Consulte [Ajuste de una imagen](adjusting-image.md#adjusting_an_image).)

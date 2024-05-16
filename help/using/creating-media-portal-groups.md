@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 52%
+source-wordcount: '841'
+ht-degree: 49%
 
 ---
 
@@ -41,7 +41,7 @@ Si, específicamente, no concede permisos de grupo a un recurso o carpeta, ese r
 
    Consulte [Establecimiento de permisos de acceso a recursos para un grupo](creating-media-portal-groups.md#establishing_asset_access_permissions_for_a_group).
 
-1. Si desea elegir qué ajustes preestablecidos de imagen están disponibles para el grupo, seleccione la opción **[!UICONTROL Permisos de acceso a ajustes preestablecidos de imagen]** y seleccione Ajustes preestablecidos de imagen que puede utilizar el grupo.
+1. Puede elegir qué ajustes preestablecidos de imagen están disponibles para el grupo. Simplemente haga clic en **[!UICONTROL Permisos de acceso a ajustes preestablecidos de imagen]** y seleccione Ajustes preestablecidos de imagen que puede utilizar el grupo.
 
    Consulte [Elección de permisos de acceso a ajustes preestablecidos de imagen para un grupo](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group).
 
@@ -56,7 +56,7 @@ Si, específicamente, no concede permisos de grupo a un recurso o carpeta, ese r
    * Para editar los permisos de un grupo, selecciónelo y, a continuación, seleccione **[!UICONTROL Editar]**.
 
 1. En el cuadro de diálogo Agregar grupo o Editar grupo, seleccione la **[!UICONTROL Permisos de acceso a recursos]** pestaña. En la parte derecha de la ficha aparecen cuadros para conceder los permisos de lectura, escritura y eliminación de capetas y recursos. Puede expandir y contraer las carpetas y subcarpetas del panel izquierdo.
-1. Para asignar derechos a carpetas o recursos individuales, seleccione la carpeta en el panel izquierdo. El contenido de la carpeta aparece en el panel derecho. Para asignar derechos al grupo, seleccione los cuadros de los archivos o carpetas correspondientes en el panel derecho.
+1. Para asignar derechos a carpetas o recursos individuales, seleccione la carpeta en el panel izquierdo. El contenido de la carpeta aparece en el panel derecho. A continuación, asigne derechos para el grupo seleccionando los cuadros para los archivos correspondientes. O bien, seleccionando las carpetas en el panel derecho.
 
    Esta tabla relaciona diferentes tareas con los permisos de lectura, escritura y eliminación.
 
@@ -98,6 +98,6 @@ Consulte también [Especificar las opciones de exportación disponibles para los
 1. Ir a **[!UICONTROL Configurar]** > **[!UICONTROL Configuración de Media Portal]** > **[!UICONTROL Grupos]**.
 1. En la página de lista de grupos, seleccione un grupo y edítelo o elimínelo.
 
-   **Editar un grupo**: Seleccionar **[!UICONTROL Editar]** y, a continuación, elija opciones en el cuadro de diálogo Editar grupo.
+   **Editar un grupo**: Seleccionar **[!UICONTROL Editar]** y, a continuación, elija las opciones en el cuadro de diálogo Editar grupo.
 
    **Eliminar un grupo**: Seleccionar **[!UICONTROL Eliminar]**.

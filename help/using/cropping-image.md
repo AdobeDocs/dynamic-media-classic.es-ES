@@ -10,7 +10,7 @@ role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '557'
 ht-degree: 31%
@@ -31,7 +31,7 @@ Al recortar una imagen, puede quitar el espacio en blanco que la rodea o un áre
 
 Puede recortar los píxeles transparentes o de color sólido del borde de una imagen.
 
-1. Para recortar una imagen, seleccione su rollover **[!UICONTROL Editar]** y luego seleccione **[!UICONTROL Recorte]**, o visualícelo en el panel de exploración en la vista de detalles y seleccione **[!UICONTROL Recorte]** botón.
+1. Para recortar una imagen, seleccione su rollover **[!UICONTROL Editar]** y luego seleccione **[!UICONTROL Recorte]**, o muéstrelo en el panel Examinar de la Vista de detalles y seleccione **[!UICONTROL Recorte]** botón.
 1. En la página Editor de recorte, realice una de las acciones siguientes:
 
    * Para recortar píxeles de color, vaya a **[!UICONTROL Recortar]** > **[!UICONTROL Color]**. En el **[!UICONTROL Recorte automático por color]** , seleccione la opción **[!UICONTROL Esquina]** y elija una esquina con el color de fondo que desee recortar. A continuación, introduzca un **[!UICONTROL Tolerancia]** configuración de 0 a 1. El valor 0 recorta píxeles solo si coinciden exactamente con el color seleccionado en la esquina de la imagen. Los números más cercanos a 1 permiten una mayor diferencia de color. Seleccionar **[!UICONTROL Recorte]**.
@@ -45,7 +45,7 @@ Puede recortar los píxeles transparentes o de color sólido del borde de una im
 
 ## Selección de áreas que recortar {#select-an-area-to-crop}
 
-1. Para recortar una imagen, seleccione su rollover **[!UICONTROL Editar]** y elija **[!UICONTROL Recorte]**, o muéstrelo en el panel de exploración en la vista de detalles y seleccione **[!UICONTROL Recorte]**.
+1. Para recortar una imagen, seleccione su rollover **[!UICONTROL Editar]** y elija **[!UICONTROL Recorte]**, o muéstrelo en el panel Examinar de la Vista de detalles y seleccione **[!UICONTROL Recorte]**.
 
 1. En la ventana Editor de recorte, coloque la parte de la imagen que no desea recortar en el cuadro de recorte. Lo que aparezca dentro del cuadro es lo que permanecerá después de seleccionarlo **[!UICONTROL Guardar]** y recorte la imagen.
 1. Para ajustar el área de recorte, siga uno de estos procedimientos:

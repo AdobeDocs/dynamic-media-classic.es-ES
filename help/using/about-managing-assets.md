@@ -9,16 +9,16 @@ role: User
 exl-id: d15aaa18-123d-442e-928f-8e71fa266a64
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '169'
-ht-degree: 27%
+ht-degree: 17%
 
 ---
 
 # Acerca de la administración de recursos en Adobe Dynamic Media Classic {#about-managing-assets}
 
-Adobe Dynamic Media Classic ofrece la Biblioteca de recursos para administrar recursos. La biblioteca de recursos contiene las carpetas donde se almacenan los archivos de recursos. Si se selecciona una carpeta en la biblioteca de recursos, se muestra el contenido de dicha carpeta en el panel Examinar. Puede ver los elementos en el panel de exploración en las vistas Cuadrícula, Lista o Detalle. Si desea centrarse en un solo recurso, haga doble clic en él en el panel de exploración para mostrarlo en la vista de detalles.
+Adobe Dynamic Media Classic ofrece la Biblioteca de recursos para administrar recursos. La biblioteca de recursos contiene las carpetas donde se almacenan los archivos de recursos. Al seleccionar una carpeta en la biblioteca de recursos, se muestra el contenido de la carpeta en el panel Examinar. Puede ver elementos en el panel Examinar en las vistas Cuadrícula, Lista o Detalle. Si desea centrarse en un solo recurso, haga doble clic en él en el panel Examinar para mostrarlo en la Vista de detalles.
 
 El panel Examinar ofrece herramientas para ver, seleccionar y localizar. El panel también ofrece funciones de vista previa, movimiento, cambio de nombre y eliminación de recursos. Los recursos que se eliminan se colocan en la carpeta Papelera y se pueden recuperar.
 

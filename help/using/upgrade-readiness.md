@@ -6,9 +6,9 @@ role: Admin,User
 exl-id: 86537998-b7e9-449c-83eb-6fd04533a00f
 topic: Administration, Migration
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '225'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ Utilice la siguiente lista de comprobación para ayudarle a comprender y prepara
 |  | Tarea | Descripción |
 | :--- | :--- | --- |
 | **Fase 1: Licencias** | Ejecutar contrato | En función del tráfico y el almacenamiento, el equipo de cuenta de Adobe trabaja con usted para realizar la transición desde el [!DNL Dynamic Media Classic] licencia para renovar en el [!DNL Dynamic Media] licencia. |
-| **Fase 2: Preparación** | Validar el uso de funcionalidades | Confirmar las funciones que se utilizan en [!DNL Dynamic Media Classic] están disponibles en [!DNL Dynamic Media]. Consulte la [Comparación de funciones](/help/using/upgrade-feature-comparison.md) página. Funciones clave aún no disponibles en [!DNL Dynamic Media] incluir lo siguiente:<br>· Visual Configurator (Image Author, Image Render).<br>· Plantillas de imagen (plantilla 1:1).<br>· Catálogos electrónicos.<br>Si se utilizan las funciones anteriores, la actualización puede seguir produciéndose suponiendo que se pueda acceder a ellas a través de [!DNL Dynamic Media Classic]. |
+| **Fase 2: Preparación** | Validar el uso de funcionalidades | Confirme que las funciones que se utilizan en [!DNL Dynamic Media Classic] están disponibles en [!DNL Dynamic Media]. Consulte la [Comparación de funciones](/help/using/upgrade-feature-comparison.md) página. Funciones clave aún no disponibles en [!DNL Dynamic Media] incluir lo siguiente:<br>· Visual Configurator (Image Author, Image Render).<br>· Plantillas de imagen (plantilla 1:1).<br>· Catálogos electrónicos.<br>Si se utilizan las funciones anteriores, la actualización puede seguir produciéndose suponiendo que se pueda acceder a ellas a través de [!DNL Dynamic Media Classic]. |
 |   | Identificar recursos | Busque y prepare los recursos y ajustes preestablecidos que se utilizarán para la actualización. |
 | **Fase 3: Entorno** | Actualizar [!DNL Adobe Experience Manager] | Todas las instancias de [!DNL Adobe Experience Manager] debe actualizarse a la versión más reciente. |
 |   | Configurar [!DNL Dynamic Media] | Configuraciones de Adobe Consulting o Partner [!DNL Dynamic Media] con sus credenciales. |

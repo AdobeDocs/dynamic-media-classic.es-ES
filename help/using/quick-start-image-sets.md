@@ -10,10 +10,10 @@ role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '671'
-ht-degree: 13%
+ht-degree: 10%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 13%
 
 Los conjuntos de imágenes de Adobe Dynamic Media Classic proporcionan a los usuarios una experiencia de visualización integrada. En el visualizador dinámico de conjuntos de imágenes, los usuarios pueden ver diferentes vistas de un elemento seleccionando una imagen en miniatura. Los conjuntos de imágenes permiten presentar vistas alternativas de alta resolución de un elemento.
 
-El visor de conjuntos de imágenes ofrece herramientas de zoom para examinar las imágenes de cerca. Si lo desea, puede crear destinos de zoom guiado y mapas de imagen para que formen parte del conjunto de imágenes. Los conjuntos de imágenes permiten una visualización completa y coordinada.
+El visor de conjuntos de imágenes ofrece herramientas de zoom para examinar las imágenes de cerca. Si lo desea, puede hacer que los destinos de zoom y los mapas de imagen guiados formen parte del conjunto de imágenes. Los conjuntos de imágenes permiten una visualización completa y coordinada.
 
 Consulte [Conjuntos de imágenes y giros: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) vídeo de formación.
 
@@ -54,7 +54,7 @@ Para crear un conjunto de imágenes, en la barra de navegación global, seleccio
 
 Consulte [Crear un conjunto de imágenes](creating-image-set.md#creating-an-image-set).
 
-Consulte también [Incluir destinos de zoom y mapas de imagen en conjuntos de imágenes](/help/using/including-zoom-targets-image-maps-image-sets.md)
+Consulte también [Inclusión de destinos de zoom y mapas de imagen en conjuntos de imágenes](/help/using/including-zoom-targets-image-maps-image-sets.md)
 
 ## 3. Prepare los ajustes preestablecidos del visualizador de conjuntos de imágenes según sea necesario
 

@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 23%
+source-wordcount: '830'
+ht-degree: 19%
 
 ---
 
@@ -25,7 +25,7 @@ Todos los usuarios pueden cambiar la configuración de la página Ajustes person
 >
 >La pantalla Configuración personal indica qué función de usuario tiene en Adobe Dynamic Media Classic: Administrador de la empresa, Administrador o Usuario.
 
-La configuración de Ajustes personales determina el comportamiento del panel Examinar, la manera en que recibe correo electrónico y la configuración de la contraseña. Recuerde seleccionar **[!UICONTROL Guardar]** después de cambiar esta configuración.
+La configuración de Configuración personal controla el comportamiento predeterminado del panel Examinar, cómo recibe el correo electrónico y la configuración de la contraseña. Recuerde seleccionar **[!UICONTROL Guardar]** después de cambiar esta configuración.
 
 ## Información de mi cuenta
 
@@ -74,7 +74,7 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 * **[!UICONTROL Tamaño de miniatura]**: Determina el tamaño predeterminado de las imágenes en miniatura en la Vista de cuadrícula del panel Examinar.
 * **[!UICONTROL Vista de biblioteca de recursos predeterminada]**: Determina si los recursos de la biblioteca de recursos de los conjuntos de compilación aparecen como miniaturas o por nombre. Si trabaja con numerosos recursos de la biblioteca de recursos, puede visualizarlos por nombre. Por ejemplo, si va a crear un catálogo electrónico con muchos archivos PDF, puede ver los recursos por nombre para que la lista sea más pequeña.
-* **[!UICONTROL Orden de exploración predeterminado]**: Determina el orden en el que aparecen los recursos de forma predeterminada en el Panel de exploración. Elija un criterio de orden en el menú y seleccione si desea un orden ascendente o descendente.
+* **[!UICONTROL Orden de exploración predeterminado]**: Determina el orden en el que aparecen los recursos de forma predeterminada en el panel Examinar. Elija un criterio de orden en el menú y seleccione si desea un orden ascendente o descendente.
 * **[!UICONTROL Ubicación de exploración predeterminada]**: permite establecer la ubicación de exploración como predeterminada, la última carpeta explorada o una ubicación específica a la que se desplaza y se identifica. También puede definir que los archivos y las carpetas aparezcan por orden ascendente o descendente en la ubicación de exploración.
 * **[!UICONTROL Vista de exploración predeterminada]**: Determina si Vista de cuadrícula o Vista de lista es la vista predeterminada que se ve al abrir el panel Examinar por primera vez.
 * **[!UICONTROL Visualización de pantalla de bienvenida]**: Determina si ve alguna pantalla de bienvenida, incluida la pantalla de bienvenida.
@@ -83,7 +83,7 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 * **[!UICONTROL Mostrar tamaño de archivo]**: Muestra el tamaño de archivo de un recurso al examinar.
 * **[!UICONTROL Incluir UDF en la búsqueda]**: Para mejorar el rendimiento del sistema para la mayoría de las búsquedas de metadatos que ejecuta, anule la selección (predeterminado).
 
-  Si necesita incluir los campos personalizables en la mayoría de sus búsquedas de metadatos, puede seleccionar esta opción para activarla. Si lo prefiere, puede utilizar la búsqueda avanzada para permitir una búsqueda más rápida y directa sin incluir todos los campos personalizables.
+  Si necesita incluir los campos personalizables en la mayoría de sus búsquedas de metadatos, puede seleccionar esta opción para activarla. Como alternativa, utilice Búsqueda avanzada para ofrecerle una experiencia de búsqueda más dirigida y rápida que mediante la inclusión de campos definidos por el usuario.
 
   Consulte [Búsqueda avanzada](searching-assets.md#conducting_an_advanced_search).
 
@@ -107,7 +107,7 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 * **[!UICONTROL Contraseña actual]**: introduzca la contraseña en la contraseña actual.
 * **[!UICONTROL Nueva contraseña]**: introduzca una contraseña nueva y válida. La contraseña debe cumplir los siguientes requisitos:
-   * Tener entre 8 y 25 caracteres.
+   * Debe tener entre 8 y 25 caracteres.
    * Incluir al menos una letra minúscula
    * Incluir al menos una letra mayúscula
    * Incluir al menos un número

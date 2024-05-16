@@ -10,7 +10,7 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 21%
@@ -69,7 +69,7 @@ Consulte [Configurar ajustes preestablecidos del visor de conjuntos de giros](se
 
 ## 5. Previsualización de un conjunto de giros
 
-Seleccione el conjunto de giros en el panel de exploración y, a continuación, seleccione **[!UICONTROL Previsualizar]**. En la página Vista previa, mantenga presionado el botón del mouse y arrastre el puntero a izquierda o derecha para &quot;girar&quot; visualmente el elemento.
+Seleccione el conjunto de giros en el panel Examinar y, a continuación, seleccione **[!UICONTROL Previsualizar]**. En la página Vista previa, mantenga presionado el botón del mouse y arrastre el puntero a izquierda o derecha para &quot;girar&quot; visualmente el elemento.
 
 Consulte [Previsualización de un conjunto de giros](previewing-spin-set.md#previewing-a-spin-set).
 

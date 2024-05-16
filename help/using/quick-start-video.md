@@ -10,10 +10,10 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '1443'
-ht-degree: 25%
+ht-degree: 23%
 
 ---
 
@@ -136,7 +136,7 @@ Para incorporar el vídeo en el sitio web, puede realizar cualquiera de las acci
 
 * Mostrar el vídeo en su propia ventana emergente o modal, en cuyo caso se utiliza la variable **[!UICONTROL Copiar URL]** función.
 
-  Para obtener la URL de un vídeo, en la vista de cuadrícula o de lista, selecciónelo en el panel Examinar. Seleccionar **[!UICONTROL Previsualizar]**, y luego seleccione **[!UICONTROL Copiar URL]** a la derecha de `Universal_HTML5_Viewer`.
+  Para obtener la dirección URL de un vídeo, en las vistas Cuadrícula o Lista, selecciónelo en el panel Examinar. Seleccionar **[!UICONTROL Previsualizar]**, y luego seleccione **[!UICONTROL Copiar URL]** a la derecha de `Universal_HTML5_Viewer`.
 
   Al seleccionar **[!UICONTROL Copiar URL]**, la dirección URL se copia en el Portapapeles. Coloque este código en el HTML de su sitio web, sitio móvil o aplicación. 
 

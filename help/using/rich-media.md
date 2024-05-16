@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 52937d52-92a6-4310-a363-d3c8a266e9ef
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '463'
 ht-degree: 16%
 
 ---
@@ -27,13 +27,13 @@ Consulte [Inicio rápido: Catálogo electrónico](/help/using/quick-start-ecatal
 * **eVideo**: Envíe experiencias de vídeo de alta calidad a varias pantallas, incluidos escritorios, dispositivos móviles y tabletas. Utilice ajustes preestablecidos de codificación de Adobe Dynamic Media Classic predefinidos o personalice la codificación para controlar la calidad y el tamaño del vídeo. Organice, examine y busque vídeos con compatibilidad total con metadatos para una administración eficaz de los recursos de vídeo.
 Consulte [Inicio rápido: Vídeo en Adobe Dynamic Media Classic](/help/using/quick-start-video.md).
 
-* **Mapas de imagen**: Distribuya de forma dinámica imágenes en cualquier tamaño y formato del sitio web. En lugar de crear manualmente muchas imágenes en tamaños diferentes, solo se utiliza una imagen principal. A medida que Adobe Dynamic Media Classic entrega la imagen solicitada, optimiza la imagen para obtener resultados de la más alta calidad en tamaño, formato, peso, calidad y enfoque.
+* **Mapas de imagen**: Distribuya de forma dinámica imágenes en cualquier tamaño y formato del sitio web. En lugar de crear manualmente muchas imágenes en diferentes tamaños, solo necesita utilizar una imagen principal. A medida que Adobe Dynamic Media Classic entrega la imagen solicitada, optimiza la imagen para obtener resultados de la más alta calidad en tamaño, formato, peso, calidad y enfoque.
 Consulte [Inicio rápido: Cambio de tamaño de imagen](/help/using/quick-start-image-sizing.md).
 
 * **Conjuntos de imágenes**: Ofrezca una experiencia de compra interactiva en la que los usuarios pueden ver los productos en varias vistas. Puede combinar zoom, varias vistas y muestras de color para obtener una experiencia de visualización integrada.
 Consulte [Inicio rápido: Conjuntos de imágenes](/help/using/quick-start-image-sets.md).
 
-* **Conjuntos de medios mixtos**: proporciona una combinación de conjuntos de imágenes, conjuntos de giros, conjuntos de muestras, destinos de zoom, vídeo y audio en una presentación. Puede configurar los conjuntos de medios mixtos con fichas para separar los vídeos de las imágenes. También puede especificar dónde y cómo mostrar muestras y destinos de zoom y proporcionar a los usuarios una vista multimedia completa de sus productos o servicios.
+* **Conjuntos de medios mixtos**: proporciona una mezcla de conjuntos de imágenes, conjuntos de giros, conjuntos de muestras, destinos de zoom, vídeo y audio en una presentación. Puede configurar los conjuntos de medios mixtos con fichas para separar los vídeos de las imágenes. También puede especificar dónde y cómo mostrar muestras y destinos de zoom y proporcionar a los usuarios una vista multimedia completa de sus productos o servicios.
 Consulte [Inicio rápido: Conjuntos de medios mixtos](/help/using/quick-start-mixed-media-sets.md).
 
 * **Conjuntos de giros**: Secuencia de imágenes para girarlas horizontalmente. Los conjuntos de giros permiten a los visitantes del sitio web cambiar el color de los productos y verlos desde diferentes lados. Puede crear conjuntos de giros unidimensionales y bidimensionales.

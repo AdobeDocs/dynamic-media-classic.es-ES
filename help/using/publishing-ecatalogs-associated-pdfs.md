@@ -10,9 +10,9 @@ role: User
 exl-id: 00b70162-2394-433d-a46c-1d90667030af
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '195'
 ht-degree: 13%
 
 ---
@@ -23,7 +23,7 @@ La publicación coloca el catálogo electrónico y el PDF en los servidores de i
 
 >[!NOTE]
 >
->Compruebe que el catálogo electrónico y el PDF residen en la misma carpeta y que están marcados para su publicación en el panel de exploración o en la página Detalles del recurso antes de publicarlos.
+>Asegúrese de que el catálogo electrónico y el PDF residen en la misma carpeta. Además, asegúrese de que estén marcados para su publicación en el panel Examinar o en la página Detalles del recurso antes de publicarlos.
 
 **Para publicar catálogos electrónicos y PDF asociados:**
 

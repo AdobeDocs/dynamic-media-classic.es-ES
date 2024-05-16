@@ -10,10 +10,10 @@ role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '613'
-ht-degree: 22%
+ht-degree: 20%
 
 ---
 
@@ -30,7 +30,7 @@ Puede elegir incluir todas o algunas de las funciones de comunidad en el visor d
    * Para editar un ajuste preestablecido del visualizador de conjuntos de medios mixtos, selecciónelo y, a continuación, seleccione **[!UICONTROL Editar]**.
 
 1. En la página Visor de configuración, escriba un nombre en el cuadro Nombre de ajuste preestablecido para el ajuste preestablecido del visualizador de conjuntos de medios mixtos.
-1. Especificar **[!UICONTROL Fichas]** o **[!UICONTROL Sin fichas]**. Las fichas separan los elementos por tipo, como vídeos, muestras y conjuntos de giros. Cuando no especifique ninguna ficha, todos los elementos aparecerán en una fila debajo de la ventana Vista previa.
+1. Especificar **[!UICONTROL Fichas]** o **[!UICONTROL Sin fichas]**. Las pestañas separan los elementos por tipo, como vídeos, muestras y conjuntos de giros. Cuando no especifique ninguna ficha, todos los elementos aparecerán en una fila debajo de la ventana Vista previa.
 1. En el **[!UICONTROL Nombre]** , escriba un nombre para el visor que desee agregar.
 
    Por ejemplo, si agrega un conjunto de muestras al conjunto de medios mixtos, escriba `Swatch Set A`.

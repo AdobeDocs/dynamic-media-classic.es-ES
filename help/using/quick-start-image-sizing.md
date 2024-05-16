@@ -10,7 +10,7 @@ role: User
 topic: Content Management
 level: Beginner
 exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 6%
@@ -66,6 +66,6 @@ En la barra de navegación global, seleccione **[!UICONTROL Publish]** para inic
 
 ## 5. Vincular URL a la aplicación web
 
-Adobe Dynamic Media Classic crea cadenas de llamada de URL para las imágenes. Al publicar imágenes en los servidores de imágenes de Dynamic Media, las direcciones URL se activan. Puede copiar estas cadenas de URL desde el panel de exploración (en la vista de detalles) o la pantalla de vista previa. Una vez copiadas las cadenas URL, puede utilizarlas en su sitio Web y en las aplicaciones. La dirección URL para Ajustar el tamaño de la imagen reemplaza la referencia a un nombre de imagen estático en el código de la página web. La URL hace referencia a un nombre de imagen principal que la base de datos sustituye para cada nueva imagen que se va a mostrar.
+Adobe Dynamic Media Classic crea cadenas de llamada de URL para las imágenes. Al publicar imágenes en los servidores de imágenes de Dynamic Media, las direcciones URL se activan. Puede copiar estas cadenas de URL desde el panel Examinar (en la vista de detalles) o la pantalla Vista previa. Una vez copiadas las cadenas URL, puede utilizarlas en su sitio Web y en las aplicaciones. La dirección URL para Ajustar el tamaño de la imagen reemplaza la referencia a un nombre de imagen estático en el código de la página web. La URL hace referencia a un nombre de imagen principal que la base de datos sustituye para cada nueva imagen que se va a mostrar.
 
 Las cadenas URL generadas con ajustes preestablecidos de imagen contienen el nombre de un ajuste preestablecido de imagen. Este nombre se incluye entre símbolos de dólar (`$`). Por ejemplo, `$thumbnail$` puede ser el ajuste preestablecido de imagen diseñado para mostrar imágenes principales en tamaño de miniatura. Consulte [Vinculación de URL en la aplicación web](linking-urls-web-application.md#linking_urls_to_your_web_application).

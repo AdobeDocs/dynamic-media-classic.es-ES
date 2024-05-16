@@ -10,10 +10,10 @@ role: User
 exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 30%
+source-wordcount: '560'
+ht-degree: 28%
 
 ---
 
@@ -27,7 +27,7 @@ Al eliminar elementos de la papelera, se eliminan permanentemente los elementos 
 
 >[!NOTE]
 >
->Los recursos que se han movido a la papelera siguen registrados en Adobe Dynamic Media Classic. Si intenta cargar un archivo con el mismo nombre que un archivo eliminado en la carpeta Papelera, Adobe Dynamic Media Classic trata el recurso que desea cargar como un recurso duplicado. Por tanto, se agregará un número al nombre.
+>Los recursos que se han movido a la papelera siguen registrados en Adobe Dynamic Media Classic. Por ejemplo, supongamos que intenta cargar un archivo que tiene el mismo nombre que un archivo eliminado en la carpeta Papelera. Adobe Dynamic Media Classic trata el recurso que desea cargar como un recurso duplicado. En este caso, se anexa un número a su nombre.
 
 ## Acerca de la carpeta Papelera {#about-the-trash-folder}
 
@@ -51,9 +51,9 @@ Para restaurar los recursos de la carpeta Papelera a las carpetas desde las que 
 
 Al eliminar recursos en la carpeta Papelera, éstos se eliminan de forma permanente. Los recursos se eliminan de forma automática de la carpeta Papelera después de siete días.
 
-Para eliminar permanentemente recursos de la carpeta Papelera, seleccione la **[!UICONTROL Papelera]** icono. En la página Papelera, realice una de las acciones siguientes:
+Puede eliminar permanentemente los recursos de la carpeta Papelera seleccionando la **[!UICONTROL Papelera]** icono. En la página Papelera, realice una de las acciones siguientes:
 
-* **Eliminación de recursos individuales**: seleccione los recursos que desea eliminar permanentemente y, a continuación, vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Vaciar de papelera]**.
+* **Eliminación de recursos individuales**: puede eliminar recursos de forma permanente. Seleccione los recursos que desee y haga clic en **[!UICONTROL Archivo]** > **[!UICONTROL Vaciar de papelera]**.
 
 * **Eliminando todos los recursos**: Vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Vaciar papelera]**.
 

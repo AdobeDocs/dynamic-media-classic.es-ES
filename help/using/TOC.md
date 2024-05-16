@@ -6,7 +6,7 @@ user-guide-title: Guía de Adobe Dynamic Media Classic
 breadcrumb-title: Guía de Dynamic Media Classic
 user-guide-description: Más información sobre el uso de Adobe Dynamic Media Classic
 index: y
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 18%
@@ -110,7 +110,7 @@ ht-degree: 18%
    + [Inicio rápido: Conjuntos de imágenes](quick-start-image-sets.md)
    + [Preparar recursos del conjunto de imágenes para cargar](preparing-image-set-assets-upload.md)
    + [Creación de un conjunto de imágenes](creating-image-set.md)
-   + [Incluir destinos de zoom y mapas de imagen en conjuntos de imágenes](including-zoom-targets-image-maps-image-sets.md)
+   + [Inclusión de destinos de zoom y mapas de imagen en conjuntos de imágenes](including-zoom-targets-image-maps-image-sets.md)
    + [Administración del contenido del panel de información en conjuntos de imágenes](info-panel-content-image-sets.md)
    + [Ver conjuntos de imágenes](viewing-image-sets.md)
    + [Automatización de la generación de conjuntos de imágenes](automated-image-set-generation.md)

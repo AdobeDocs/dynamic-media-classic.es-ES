@@ -10,10 +10,10 @@ role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '2225'
-ht-degree: 35%
+ht-degree: 34%
 
 ---
 
@@ -86,7 +86,7 @@ En lugar de introducir los metadatos manualmente de uno en uno, puede importar l
 
 Puede encontrar más información sobre las propiedades estandarizadas en [Centro para desarrolladores de Adobe XMP](https://www.adobe.com/devnet/xmp.html).
 
-1. En el panel Examinar, seleccione las imágenes a las que quiera agregar metadatos a partir del archivo delimitado por tabuladores o XML.
+1. En el panel Examinar, seleccione las imágenes a las que desea agregar metadatos desde el archivo XML o delimitado por tabulaciones.
 1. Ir a **[!UICONTROL Archivo]** > **[!UICONTROL Importar metadatos]**.
 1. En el **[!UICONTROL Cargar metadatos]** , seleccione **[!UICONTROL Examinar]**.
 1. En el cuadro de diálogo **[!UICONTROL Seleccionar archivos para cargar]**, seleccione el archivo XML o delimitado por tabuladores que contenga los metadatos.

@@ -10,16 +10,16 @@ role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
-source-wordcount: '982'
-ht-degree: 38%
+source-wordcount: '984'
+ht-degree: 30%
 
 ---
 
 # Creación de un catálogo electrónico {#creating-an-ecatalog}
 
-Al crear un catálogo electrónico es preciso ordenar las páginas, elegir su presentación y vincular las páginas mediante mapas de imagen y datos de vínculos de hipertexto y de rollover. Si lo desea, también puede personalizar la tabla de contenido para que los usuarios vean nombres de página en lugar de números en el visor de catálogos electrónicos.
+La creación de un catálogo electrónico implica ordenar las páginas, elegir el diseño de página y vincular las páginas dibujando mapas de imágenes. También requiere la introducción de datos de rollover y de vínculos de hipertexto. Si lo desea, también puede personalizar la tabla de contenido para que los usuarios vean nombres de página en lugar de números en el visor de catálogos electrónicos.
 
 ## Crear un catálogo electrónico {#create}
 
@@ -40,7 +40,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
    * **Seleccione primero los archivos**: en el panel Examinar, seleccione archivos y, a continuación, vaya a **[!UICONTROL Generar]** > **[!UICONTROL Catálogos electrónicos]**.
 
-   * **Empezar desde la pantalla Catálogo electrónico**: Vaya a **[!UICONTROL Generar]** > **[!UICONTROL Catálogos electrónicos]**. Seleccione una carpeta en la biblioteca de recursos y arrastre los archivos deseados a la ficha Ordenar páginas que se encuentra en la página Catálogo electrónico.
+   * **Empezar desde la pantalla Catálogo electrónico**: Vaya a **[!UICONTROL Generar]** > **[!UICONTROL Catálogos electrónicos]**. Seleccione una carpeta en la biblioteca de recursos. Arrastre archivos desde la carpeta a la ficha Ordenar páginas de la página Catálogo electrónico.
 
      >[!NOTE]
      >
@@ -58,7 +58,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 1. Cuando termine, cerca de la esquina inferior derecha de la página, asegúrese de que **[!UICONTROL Publicar tras guardar]** está seleccionado (predeterminado).
 1. Seleccionar **[!UICONTROL Guardar]**.
-1. En el cuadro de diálogo Guardar, seleccione la carpeta en la que desee almacenar el catálogo electrónico. En el campo Nombre de archivo, escriba el nombre del conjunto de giros.
+1. En el cuadro de diálogo Guardar, seleccione la carpeta en la que desee almacenar el catálogo electrónico. En el campo Nombre de archivo, introduzca el nombre del conjunto de giros.
 1. Seleccionar **[!UICONTROL Guardar]**.
 
    Puede obtener una vista previa del catálogo electrónico, después de guardarlo, seleccionando **[!UICONTROL Previsualizar]**.
@@ -98,7 +98,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 Adobe Dynamic Media Classic proporciona números de página predeterminados en el catálogo electrónico en la ficha Ordenar páginas de la pantalla Catálogo electrónico. Si desea personalizar el nombre de las páginas, puede cambiar las etiquetas de las páginas que forman la tabla de contenido (TOC). Se recomienda cambiar el nombre de la portada y la contraportada. Por ejemplo, la portada puede decir &quot;Portada&quot; en lugar de &quot;Página 0-1&quot;.
 
-Puede crear una tabla de contenido (TOC) personalizada para su catálogo electrónico manualmente o importando los nombres de página desde un archivo CSV (solo Mac) o XML.
+Puede crear manualmente una tabla de contenido (TOC) personalizada para su catálogo electrónico. También puede importar los nombres de las páginas desde un archivo CSV (solo Mac) o XML.
 
 >[!NOTE]
 >
@@ -106,7 +106,7 @@ Puede crear una tabla de contenido (TOC) personalizada para su catálogo electr�
 
 ### Introducción manual de nombres de página {#manually-entering-page-names}
 
-Para introducir manualmente nombres de página uno por uno, vaya a la ficha Ordenar páginas de la pantalla Catálogo electrónico. A continuación, en el campo del número de página, escriba un nombre para cada página a la que desee asignar un nombre.
+Introduzca manualmente los nombres de las páginas de uno en uno accediendo a la pestaña Ordenar páginas de la pantalla Catálogo electrónico. A continuación, en el campo del número de página, escriba un nombre para cada página a la que desee asignar un nombre.
 
 ### Importar nombres de página {#importing-page-names}
 

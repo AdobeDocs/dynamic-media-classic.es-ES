@@ -9,10 +9,10 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 53%
+source-wordcount: '1014'
+ht-degree: 51%
 
 ---
 
@@ -30,7 +30,7 @@ Para poder cargar un recurso de imagen, primero debe solicitar una clave secreta
 
 ## Solicitar una clave de secreto compartido {#requesting-a-shared-secret-key}
 
-Solicite un *clave de secreto compartido* por [uso del Admin Console para crear un caso de asistencia.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) En su caso de asistencia, solicite una clave de secreto compartido.
+Solicite un *clave de secreto compartido* por [uso del Admin Console para crear un caso de asistencia.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) En el caso del soporte técnico, solicite una clave de secreto compartido.
 
 En el mensaje, proporcione el nombre de empresa que desee utilizar para cargar los recursos de imagen. Una vez que reciba la clave de Adobe Dynamic Media Classic, guárdela localmente para usarla en el futuro.
 
@@ -81,7 +81,7 @@ Se pueden usar los campos siguientes en la cadena de consulta URL para recuperar
 | --- | --- | --- |
 | op | Obligatorio | get_uploadtoken |
 | shared_secret | Obligatorio | La clave de secreto compartido de la empresa que realiza la carga. |
-| caduca | Opcional | Número de segundos durante los que es válido el distintivo de carga. Si no se especifica, el valor predeterminado es 300 segundos. |
+| caduca | Opcional | Número de segundos durante los que es válido el distintivo de carga. El valor predeterminado es 300 segundos, si no se especifica. |
 
 **URL de imagen rasterizada de ejemplo:**
 
@@ -134,7 +134,7 @@ El siguiente formulario HTML permite al usuario cargar un recurso. En el formula
 * Un límite de tamaño de archivo.
 * Una lista de extensiones de nombre de archivo.
 * Si se conserva el perfil de color y el nombre de archivo asociados al recurso.
-* Si se utiliza el fondo de cobertura. Si activa Fondo de cobertura (Knockout Background), defina las opciones Esquina (Corner), Tolerancia (Tolerance) y Relleno (Fill Method).
+* Si se debe utilizar un fondo de cobertura. Si activa Fondo de cobertura (Knockout Background), defina las opciones Esquina (Corner), Tolerancia (Tolerance) y Relleno (Fill Method).
 Consulte Fondo de cobertura en [Opciones de ajuste de imagen al cargar](image-editing-options-upload.md#image-editing-options-at-upload).
 * Nombre del archivo que se va a cargar.
 
@@ -181,7 +181,7 @@ Envíe el recurso para la carga como una publicación de varias partes o formula
 | Parámetro de URL | Obligatorio u opcional | Valor |
 | --- | --- | --- |
 | `op` | Obligatorio | cargar |
-| `upload_token` | Obligatorio | Distintivo de carga para la clave secreta compartida asociada a la empresa. |
+| `upload_token` | Obligatorio | Cargue un token para la clave de secreto compartido asociada con la compañía. |
 | `company_name` | Obligatorio | Nombre de la empresa que realiza la carga. |
 | `file_limit` | Opcional | Límite de tamaño de archivo, en bytes, del recurso. |
 | `file_exts` | Opcional | Lista de extensiones admitidas para el archivo de recurso de imagen. |

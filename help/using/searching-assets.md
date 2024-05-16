@@ -10,7 +10,7 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 17%
@@ -19,7 +19,7 @@ ht-degree: 17%
 
 # Búsqueda de recursos en Adobe Dynamic Media Classic{#searching-assets}
 
-Para localizar recursos de archivo en Adobe Dynamic Media Classic, puede ver los recursos por tipo, ordenarlos en el panel de exploración, realizar una búsqueda sencilla, realizar una búsqueda avanzada y filtrar los recursos.
+Para localizar recursos de archivo en Adobe Dynamic Media Classic, puede ver los recursos por tipo, ordenarlos en el panel Examinar, realizar una búsqueda sencilla, realizar una búsqueda avanzada y filtrar los recursos.
 
 >[!NOTE]
 >
@@ -51,7 +51,7 @@ Utilice el campo Buscar de la biblioteca de recursos para realizar búsquedas se
 1. En el campo Buscar, introduzca un término de búsqueda.
 1. A la derecha del campo Buscar, seleccione **[!UICONTROL Ir]** o pulse **[!UICONTROL Entrar]**.
 
-   Los resultados de la búsqueda aparecen en el panel de exploración, a la derecha.
+   Los resultados de la búsqueda aparecen en el panel Examinar de la derecha.
 
 <!-- Does not appear to be working anymore >[!NOTE]
 >
@@ -131,7 +131,7 @@ Siga estos pasos para poder localizar los recursos filtrándolos con sus valores
 1. Repita el paso 2 tantas veces como sea necesario para mostrar en los paneles todos los campos de metadatos para la operación de filtrado.
 1. En cada panel, seleccione un valor de metadatos con el que realizar la operación de filtrado. No se puede seleccionar más de un valor de metadatos en cada panel.
 
-   Los recursos que coinciden con todos los valores seleccionados aparecen en el panel Examinar.
+   Los recursos que coincidan con todos los valores seleccionados aparecerán en el panel Examinar.
 
    >[!NOTE]
    >

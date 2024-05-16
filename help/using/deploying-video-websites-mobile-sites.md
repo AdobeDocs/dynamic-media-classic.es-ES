@@ -10,10 +10,10 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
-source-wordcount: '1702'
-ht-degree: 24%
+source-wordcount: '1703'
+ht-degree: 23%
 
 ---
 
@@ -31,7 +31,7 @@ La publicación de un vídeo permite a los servidores de Adobe Dynamic Media Cla
 
 Existen dos métodos diferentes que puede utilizar para publicar vídeos:
 
-* **Publicación automática e instantánea de vídeos al cargar**: Como parte del proceso de carga de vídeos, Adobe Dynamic Media Classic puede publicar vídeos automáticamente cuando se cargan y codifican. Esta capacidad para publicar inmediatamente significa que no es necesario publicar los vídeos por separado posteriormente.
+* **Publicación automática e instantánea de vídeos al cargar**: Como parte del proceso de carga de vídeos, Adobe Dynamic Media Classic puede publicar vídeos automáticamente cuando se cargan y codifican. Esta capacidad de publicación instantánea significa que no hay necesidad de publicar vídeos por separado después del hecho.
 
 * **Publicar vídeo manualmente después de la carga**: Si no desea publicar vídeos inmediatamente, puede publicarlos manualmente en cualquier momento.
 
@@ -107,7 +107,7 @@ Consulte también [Vinculación de una URL de vídeo a un sitio móvil o sitio w
 
 ### Implementar código incrustado para utilizar vídeo de HTML5 con recursos de vídeo MP4 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
-Si no utiliza el reproductor de vídeo Adobe Dynamic Media Classic HTML5, sino el HTML nativo5 `<video>` con recursos de vídeo MP4, puede utilizar el siguiente ejemplo de código incrustado:
+Es posible que no desee utilizar el reproductor de vídeo Adobe Dynamic Media Classic HTML5. En su lugar, si desea utilizar el HTML nativo5 `<video>` con recursos de vídeo MP4, puede utilizar el siguiente ejemplo de código incrustado:
 
 ```as3
 <video poster="S7 video thumbnail URL" controls> 
@@ -131,7 +131,7 @@ Si no utiliza el reproductor de vídeo Adobe Dynamic Media Classic HTML5, sino e
 
 ## Implementación de vídeo mediante un reproductor de vídeo de terceros {#deploying-video-using-a-third-party-video-player}
 
-Si utiliza un reproductor de vídeo de terceros o un reproductor de vídeo personalizado en lugar de un visor de vídeo de Dynamic Media Classic, obtendrá la URL de vídeo directo que funciona para la descarga progresiva o la transmisión de vídeo a varias velocidades de bits HLS.
+Si utiliza reproductores de vídeo de terceros o un reproductor de vídeo personalizado en lugar de un visor de vídeo de Dynamic Media Classic, obtendrá la URL de vídeo directo que funciona para la descarga progresiva o la transmisión de vídeo a varias velocidades de bits HLS.
 
 **Para implementar vídeo mediante un reproductor de vídeo de terceros:**
 
@@ -185,7 +185,7 @@ El *fotograma de póster* es el fotograma inicial que aparece en los visores de 
 
 Puede aplicar modificadores de imagen al fotograma de póster. Por ejemplo, puede recortar el fotograma de póster o hacerlo transparente. Para modificar el fotograma de póster, abra la pantalla de configuración del visor de vídeo e introduzca modificadores en la sección Modificadores de imagen de póster. 
 
-Consulte [Agregar o editar un ajuste preestablecido de visualizador de vídeo](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
+Consulte [Agregar o editar un ajuste preestablecido de visor de vídeo](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
 Consulte [Guía del servicio de imágenes](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
 

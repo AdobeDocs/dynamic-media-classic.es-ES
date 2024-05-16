@@ -10,7 +10,7 @@ role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '2207'
 ht-degree: 30%
@@ -45,7 +45,7 @@ Consulte también [Enfoque](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.
 
 **Para enfocar una imagen:**
 
-Para enfocar una imagen, seleccione su rollover **[!UICONTROL Editar]** y elija **[!UICONTROL Enfoque]**, o ábralo en el panel Examinar en la Vista de detalles y, a continuación, seleccione **[!UICONTROL Enfoque]**. Se abrirá la página Editor de enfoque con comandos de enfoque. Elija los comandos que desee y haga clic en **[!UICONTROL Guardar]**.
+Para enfocar una imagen, seleccione su rollover **[!UICONTROL Editar]** y elija **[!UICONTROL Enfoque]**, o ábralo en el panel Examinar de la Vista de detalles y, a continuación, seleccione **[!UICONTROL Enfoque]**. Se abrirá la página Editor de enfoque con comandos de enfoque. Elija los comandos que desee y haga clic en **[!UICONTROL Guardar]**.
 
 >[!NOTE]
 >

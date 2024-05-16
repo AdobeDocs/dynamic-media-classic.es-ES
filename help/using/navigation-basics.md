@@ -10,10 +10,10 @@ role: User
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 16%
+source-wordcount: '657'
+ht-degree: 15%
 
 ---
 
@@ -63,11 +63,11 @@ La parte superior del panel Biblioteca de recursos tiene comandos para localizar
 >
 >Puede seleccionar **[!UICONTROL Biblioteca de recursos]** para abrir o cerrar la biblioteca de recursos y obtener más espacio para trabajar en pantalla. Seleccione el **[!UICONTROL Expandir]**/**[!UICONTROL Contraer]** para expandir o cerrar el panel. Estos controles se encuentran en el lado izquierdo del panel.
 
-## Panel Examinar/Generar {#browse-panel-build-panel}
+## Panel Examinar/Panel Generar {#browse-panel-build-panel}
 
 La mayor parte del trabajo se realiza en el panel Examinar/generación. Las funciones disponibles en este panel dependen de si se encuentra en el modo Examinar o en el modo Generar.
 
-* **[!UICONTROL Modo Examinar]**: para ver y trabajar con el contenido de una carpeta en el panel Examinar, seleccione una carpeta en la biblioteca de recursos. Este panel ofrece lo siguiente **[!UICONTROL Archivo]**, **[!UICONTROL Previsualizar]**, **[!UICONTROL Seleccionar todo]**, **[!UICONTROL Seleccionar ninguno]**, y **[!UICONTROL Ordenar]** menús para trabajar con recursos. También puede ver los recursos de diferentes maneras moviendo el control deslizante o seleccionando **[!UICONTROL Vista de cuadrícula]**, **[!UICONTROL Vista de lista]**, o **[!UICONTROL Vista de detalles]**. Seleccionar **[!UICONTROL Vista de detalles]** Al hacer doble clic en un recurso, se abre en Vista de detalles, donde puede realizar operaciones de archivo dependientes del recurso.
+* **[!UICONTROL Modo Examinar]**: puede ver y trabajar con el contenido de una carpeta en el panel Examinar. Seleccione una carpeta en la biblioteca de recursos. Este panel ofrece lo siguiente **[!UICONTROL Archivo]**, **[!UICONTROL Previsualizar]**, **[!UICONTROL Seleccionar todo]**, **[!UICONTROL Seleccionar ninguno]**, y **[!UICONTROL Ordenar]** menús para trabajar con recursos. También puede ver los recursos de diferentes maneras moviendo el control deslizante o seleccionando **[!UICONTROL Vista de cuadrícula]**, **[!UICONTROL Vista de lista]**, o **[!UICONTROL Vista de detalles]**. Seleccionar **[!UICONTROL Vista de detalles]** Al hacer doble clic en un recurso, se abre en Vista de detalles, donde puede realizar operaciones de archivo dependientes del recurso.
 
 * **[!UICONTROL Modo de compilación]**: Seleccionar **[!UICONTROL Generar]** y, a continuación, elija una opción para poder empezar a crear un catálogo electrónico, un conjunto de imágenes, un conjunto de giros o cualquiera de los demás elementos disponibles en el menú Generar. Se abre la página Generar. La selección de recursos con los que trabajar se puede realizar antes o después de activar el modo de generación.
 

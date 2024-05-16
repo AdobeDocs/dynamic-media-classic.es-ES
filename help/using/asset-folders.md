@@ -10,10 +10,10 @@ role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 topic: Content Management
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 34%
+ht-degree: 27%
 
 ---
 
@@ -25,7 +25,7 @@ Asegúrese de establecer una estructura de carpetas y una organización para alm
 
 ## Mostrar, mover, ocultar y abrir carpetas {#displaying-moving-hiding-and-opening-folders}
 
-En la biblioteca de recursos se muestran los archivos que contiene el árbol de carpetas. Al seleccionar una carpeta en la biblioteca de recursos, su contenido aparecerá en el panel Examinar. Utilice estas técnicas para localizar carpetas en el árbol de carpetas:
+En la biblioteca de recursos se muestran los archivos que contiene el árbol de carpetas. Al seleccionar una carpeta en la biblioteca de recursos, su contenido aparece en el panel Examinar. Utilice estas técnicas para localizar carpetas en el árbol de carpetas:
 
 * **Mostrar subcarpetas**: seleccione la **[!UICONTROL Expandir carpeta]** para mostrar las subcarpetas de una carpeta. Este icono se encuentra a la izquierda del nombre de cada carpeta.
 
@@ -33,11 +33,11 @@ En la biblioteca de recursos se muestran los archivos que contiene el árbol de 
 
 * **Ocultar carpetas**: seleccione la **[!UICONTROL Contraer carpeta]** si desea contraer las subcarpetas para ocultarlas de la vista. Este icono se encuentra a la izquierda del nombre de cada carpeta.
 
-* **Abrir una carpeta**: seleccione una carpeta si desea mostrar su contenido en el panel de exploración.
+* **Abrir una carpeta**: seleccione una carpeta si desea mostrar su contenido en el panel Examinar.
 
 >[!TIP]
 >
->Puede ocultar o mostrar la biblioteca de recursos seleccionando la **[!UICONTROL Expandir]** o **[!UICONTROL Contraer]** control en el lado izquierdo. Oculte el panel de la biblioteca de recursos si necesita más espacio de trabajo en el panel Examinar.
+>Puede ocultar o mostrar la biblioteca de recursos seleccionando la **[!UICONTROL Expandir]** o **[!UICONTROL Contraer]** control en el lado izquierdo. Contraiga el panel Biblioteca de recursos cuando necesite más espacio para trabajar en el panel Examinar.
 
 ## Creación de carpetas
 

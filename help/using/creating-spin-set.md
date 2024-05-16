@@ -10,10 +10,10 @@ role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 38%
+source-wordcount: '963'
+ht-degree: 32%
 
 ---
 
@@ -23,17 +23,17 @@ Si desea crear un conjunto de giros eficaz, asegúrese de tomar las imágenes co
 
 >[!NOTE]
 >
->Las versiones anteriores de Adobe Dynamic Media Classic no ofrecían conjuntos de giros bidimensionales. Si creó un conjunto de giros en una versión anterior de Adobe Dynamic Media Classic, no puede guardar el conjunto de giros unidimensional sin guardarlo primero con un nombre diferente. Seleccionar **[!UICONTROL Guardar como]** en la pantalla Conjunto de giros e introduzca un nombre nuevo para poder editarlo en Adobe Dynamic Media Classic.
+>Las versiones anteriores de Adobe Dynamic Media Classic no ofrecían conjuntos de giros bidimensionales. Si creó un conjunto de giros en una versión anterior de Adobe Dynamic Media Classic, guárdelo con un nombre diferente y, a continuación, podrá guardar el conjunto de giros unidimensional. Seleccionar **[!UICONTROL Guardar como]** en la pantalla Conjunto de giros e introduzca un nombre nuevo para poder editarlo en Adobe Dynamic Media Classic.
 
 ## Instrucciones para obtener imágenes para conjuntos de giros {#guidelines-for-shooting-spin-set-images}
 
 En general, cuantas más imágenes tenga en un conjunto de giros, mejor será el efecto de giro de la imagen. Sin embargo, si se incluyen muchas imágenes en el conjunto también se aumentará el tiempo que tardan en cargarse las imágenes. Adobe Dynamic Media Classic recomienda estas directrices para grabar imágenes para utilizarlas en conjuntos de giros:
 
-* Utilice un mínimo de 8 a 12 imágenes para un conjunto de giros unidimensional y de 16 a 24 para un conjunto bidimensional.
+* Como mínimo, utilice 8-12 imágenes en un conjunto de giros unidimensional y 16-24 imágenes en un conjunto de giros bidimensional.
 * Utilice un formato sin pérdida; se recomiendan TIFF y PNG.
 * Aplique máscara a todas las imágenes para que el elemento aparezca en un fondo blanco puro o con otro color de alto contraste. Si lo desea, agregue sombras.
 * Asegúrese de que los detalles del producto están bien iluminados y enfocados.
-* Tome las imágenes de giro para las prendas de ropa con un maniquí o una persona. A menudo, el maniquí está enmascarado (usando un maniquí de vidrio) o se muestra un maniquí estilizado/dressform en la imagen. Se puede crear un conjunto de giros en el modelo definiendo el número de ángulos. Marque cada ángulo con cinta en el suelo para que pueda guiar al modelo para que avance y mire en la dirección de cada disparo.
+* Tome las imágenes de giro para las prendas de ropa con un maniquí o una persona. A menudo, el maniquí está enmascarado (usando un maniquí de vidrio) o se muestra un maniquí estilizado/dressform en la imagen. Se puede crear un conjunto de giros en modelo definiendo el número de ángulos. Marque cada ángulo con cinta en el suelo para que pueda guiar al modelo para que avance y mire en la dirección de cada disparo.
 
 ## Creación de un conjunto de giros {#create}
 
@@ -63,7 +63,7 @@ Después de guardar un conjunto de giros, use la opción Vista previa de la pág
 1. En el **[!UICONTROL Generar]** menú desplegable, seleccione **[!UICONTROL Conjuntos de giros]**.
 1. En el cuadro de diálogo Tamaño del conjunto de giros, defina el número de filas y celdas que desee.
 
-   Para crear un conjunto de giros de una dimensión, seleccione solo una fila.
+   Para crear un conjunto de giros unidimensional, seleccione solo una fila.
 
    Para crear un conjunto de giros de dos dimensiones, seleccione dos filas o más.
 
@@ -71,7 +71,7 @@ Después de guardar un conjunto de giros, use la opción Vista previa de la pág
 1. Arrastre las imágenes y suéltelas en la cuadrícula de la pantalla Conjunto de giros.
 1. Cuando termine, cerca de la esquina inferior derecha de la página, asegúrese de que **Publicar tras guardar** está seleccionado (predeterminado).
 1. Seleccionar **[!UICONTROL Guardar]**.
-1. En el cuadro de diálogo Guardar, seleccione la carpeta en la que desee almacenar el conjunto de giros. En el campo Nombre de archivo, escriba el nombre del conjunto de giros.
+1. En el cuadro de diálogo Guardar, seleccione una carpeta para almacenar el conjunto de giros. En el campo Nombre de archivo, introduzca el nombre del conjunto de giros.
 1. Seleccionar **[!UICONTROL Guardar]**.
 
 ## Edición de un conjunto de giros {#editing-a-spin-set}
