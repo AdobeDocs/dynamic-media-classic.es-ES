@@ -10,9 +10,9 @@ role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
 topic: Content Management
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '808'
 ht-degree: 17%
 
 ---
@@ -69,4 +69,4 @@ Para publicar una plantilla, márquela para publicación y, en la barra de naveg
 
 Dynamic Media Classic crea direcciones URL para las plantillas y las activa al publicar plantillas en servidores de imágenes de Dynamic Media. Puede copiar estas cadenas de URL desde la página Vista previa de plantilla.
 
-Seleccione la plantilla en el panel Examinar y, a continuación, seleccione **[!UICONTROL Previsualizar]** para abrir la página Vista previa de la plantilla. Elija un ajuste preestablecido de imagen para enviar la plantilla y, a continuación, seleccione **[!UICONTROL Copiar URL]**. Después de copiar la dirección URL de la página Vista previa, puede utilizarla en su sitio Web o aplicación. Consulte [Vinculación de una plantilla a una página web](linking-template-web-page.md#linking_a_template_to_a_web_page).
+Seleccione la plantilla en el panel Examinar y, a continuación, seleccione **[!UICONTROL Previsualizar]** para abrir la página Vista previa de la plantilla. Elija un ajuste preestablecido de imagen para enviar la plantilla y, a continuación, haga clic en **[!UICONTROL Copiar URL]** botón. Después de copiar la dirección URL de la página Vista previa, puede utilizarla en su sitio Web o aplicación. Consulte [Vinculación de una plantilla a una página web](linking-template-web-page.md#linking_a_template_to_a_web_page).

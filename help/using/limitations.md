@@ -10,9 +10,9 @@ role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '349'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Este tema incluye las siguientes secciones:
 
 ## Prácticas recomendadas y límites impuestos por Dynamic Media en los tipos de recursos {#best-practice-enforced-limits}
 
-Al crear un conjunto de giros o de imágenes, o al cargar PDF para la extracción de páginas, Adobe recomienda las siguientes prácticas recomendadas y aplica los límites siguientes:
+Al crear un conjunto de giros o de imágenes, o al cargar PDF para la extracción de páginas, Adobe recomienda las siguientes prácticas recomendadas. El Adobe también impone los límites siguientes:
 
 | Recurso: tipo de límite | Práctica recomendada | Límite impuesto |
 | --- | --- | --- |

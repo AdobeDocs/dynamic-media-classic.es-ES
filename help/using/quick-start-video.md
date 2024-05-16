@@ -10,10 +10,10 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '1443'
-ht-degree: 28%
+ht-degree: 25%
 
 ---
 
@@ -76,7 +76,7 @@ Cuando se genera un conjunto de vídeos adaptable, incluye vídeos MP4.
    * Visores de medios mixtos que combinan contenido de vídeo y de imagen.
 
 * Configuración de reproductores de vídeo para cumplir las necesidades de marca.
-* Integración de vídeo en el sitio web, el sitio móvil o la aplicación móvil con una URL o código incrustado.
+* Integre vídeo en su sitio web, sitio móvil o aplicación móvil con una URL simple o un código incrustado.
 
 Consulte los siguientes vídeos de formación:
 * [Introducción a vídeo MP4](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/563_MP4%20Video%20Overview_converted%20renamed_eVideos-AVS)
@@ -146,7 +146,7 @@ Para incorporar el vídeo en el sitio web, puede realizar cualquiera de las acci
 
 * Mostrar el vídeo incrustado en la página web, en cuyo caso utilice el **[!UICONTROL Código incrustado]** función.
 
-  Para obtener el código incrustado de un vídeo, en la vista de cuadrícula o de lista, selecciónelo en el panel Examinar. Ir a **[!UICONTROL Previsualizar]** > **[!UICONTROL Lista del visor]**. En la columna Acciones de la tabla, seleccione **[!UICONTROL Código incrustado]** a la derecha de `Universal_HTML5_Video`. No se permite editar el código.
+  Para obtener el código incrustado de un vídeo, en las vistas de cuadrícula o de lista, seleccione el vídeo en el panel Examinar. Ir a **[!UICONTROL Previsualizar]** > **[!UICONTROL Lista del visor]**. En la columna Acciones de la tabla, seleccione **[!UICONTROL Código incrustado]** a la derecha de `Universal_HTML5_Video`. No se permite editar el código.
 
   Seleccionar **[!UICONTROL Cerrar]** y pegue el código incrustado en una o varias páginas web.
 

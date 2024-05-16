@@ -10,10 +10,10 @@ role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '976'
-ht-degree: 44%
+source-wordcount: '982'
+ht-degree: 38%
 
 ---
 
@@ -25,9 +25,9 @@ Al crear un catálogo electrónico es preciso ordenar las páginas, elegir su pr
 
 Puede incluir archivos de imagen y archivos de PDF en el catálogo electrónico.
 
-Al crear un catálogo electrónico, la opción **[!UICONTROL Publicar después de guardar]** afecta al conjunto y a los miembros del conjunto de las siguientes formas:
+Al crear un catálogo electrónico, la variable **[!UICONTROL Publicar tras guardar]** afecta a los miembros set y set de las siguientes maneras:
 
-| ¿La opción &quot;Publicar después de guardar&quot; está seleccionada antes de guardar? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
+| ¿Desea seleccionar la opción &quot;Publicar después de guardar&quot; antes de guardar? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
 | --- | --- | --- |
 | Sí | Publicado | Publicado |
 | No | Sin publicar | Los miembros del conjunto conservan su estado publicado o no. |
@@ -56,7 +56,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
    * **Nº de secuencia**: en Vista de lista, introduzca los números de página en los campos de Nº de secuencia.
 
-1. Cuando haya terminado, asegúrese de que esté seleccionada la opción **[!UICONTROL Publicar después de guardar]** (predeterminada), cerca de la esquina inferior derecha de la página.
+1. Cuando termine, cerca de la esquina inferior derecha de la página, asegúrese de que **[!UICONTROL Publicar tras guardar]** está seleccionado (predeterminado).
 1. Seleccionar **[!UICONTROL Guardar]**.
 1. En el cuadro de diálogo Guardar, seleccione la carpeta en la que desee almacenar el catálogo electrónico. En el campo Nombre de archivo, escriba el nombre del conjunto de giros.
 1. Seleccionar **[!UICONTROL Guardar]**.
@@ -67,7 +67,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 Si edita un conjunto publicado o no publicado, la variable **[!UICONTROL Publicar tras guardar]** afecta a los miembros set y set de las siguientes maneras:
 
-| ¿Ya se ha publicado el conjunto? | ¿La opción &quot;Publicar después de guardar&quot; está seleccionada antes de guardar la edición? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
+| ¿Ya se ha publicado el conjunto? | ¿Desea seleccionar la opción &quot;Publicar después de guardar&quot; antes de guardar la edición? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
 | --- | --- | --- | --- |
 | Sí | Sí | Publicado | Publicado |
 | Sí | No | Publicado | Los miembros del conjunto existentes conservan su estado publicado. Cualquier nuevo miembro que añada al conjunto durante la edición conservará su estado publicado o no publicado. |
@@ -80,7 +80,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 1. Seleccione la sustitución del catálogo electrónico **[!UICONTROL Editar]** botón.
 1. Realice los cambios necesarios.
-1. Cuando haya terminado con su edición, asegúrese de que esté seleccionada la opción **[!UICONTROL Publicar después de guardar]** (predeterminada), cerca de la esquina inferior derecha de la página.
+1. Cuando termine de editar, cerca de la esquina inferior derecha de la página, asegúrese de que **[!UICONTROL Publicar tras guardar]** está seleccionado (predeterminado).
 1. Seleccionar **[!UICONTROL Guardar]**, seleccione una carpeta de almacenamiento, introduzca un nombre para el conjunto y, a continuación, seleccione **[!UICONTROL Guardar]**.
 
 ## Eliminar un catálogo electrónico

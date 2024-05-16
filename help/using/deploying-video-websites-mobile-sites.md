@@ -10,10 +10,10 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '1702'
-ht-degree: 26%
+ht-degree: 24%
 
 ---
 
@@ -23,7 +23,7 @@ Los sitios web, los sitios móviles y las aplicaciones de escritorio acceden al 
 
 >[!NOTE]
 >
->La URL o el código incrustado no se activan hasta que publique el recurso.
+>La URL o el código de incrustación no estarán activos hasta que publique el recurso.
 
 ## Publicación de vídeo {#publishing-video}
 
@@ -82,7 +82,7 @@ Consulte también [Vinculación de una URL de vídeo a un sitio móvil o sitio w
 **Para incrustar el visor de vídeo en una página web:**
 
 1. En el panel Examen de recursos, en la lista desplegable Mostrar, seleccione **[!UICONTROL Vídeo]**, o **[!UICONTROL Conjunto de vídeos adaptable]**.
-1. En el panel Biblioteca de recursos del lado izquierdo, navegue a la carpeta de recursos que contenga el vídeo o el conjunto de vídeos adaptables cuyo código incrustado desea copiar.
+1. en el panel Biblioteca de recursos, en el lado izquierdo, navegue hasta la carpeta de recursos que contenga el vídeo o el conjunto de vídeos adaptable cuyo código incrustado desee copiar.
 1. Encima del panel de exploración de recursos, en la parte derecha de la barra de herramientas, realice una de las siguientes acciones:
 
    * Seleccionar **[!UICONTROL Vista de cuadrícula]** o **[!UICONTROL Vista de lista]**. En el panel de exploración de recursos, haga doble clic en la miniatura de vídeo de un solo recurso para abrirlo en la vista de detalles. En el panel Direcciones URL e Código incrustado de la derecha, en Transmisión HTTP, seleccione **[!UICONTROL Código incrustado]** a la derecha del visor que desee. Como práctica recomendada, seleccione **[!UICONTROL Código incrustado]** que está asociado con el `Universal_HTML5_Video` visor.
@@ -105,7 +105,7 @@ Consulte también [Vinculación de una URL de vídeo a un sitio móvil o sitio w
 1. select **[!UICONTROL Cerrar]**.
 1. Pegue el código incrustado en las páginas web.
 
-### Implementar código incrustado para utilizar vídeo de HTML 5 con recursos de vídeo MP4 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
+### Implementar código incrustado para utilizar vídeo de HTML5 con recursos de vídeo MP4 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
 Si no utiliza el reproductor de vídeo Adobe Dynamic Media Classic HTML5, sino el HTML nativo5 `<video>` con recursos de vídeo MP4, puede utilizar el siguiente ejemplo de código incrustado:
 

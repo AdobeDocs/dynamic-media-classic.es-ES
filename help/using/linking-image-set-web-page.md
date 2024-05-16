@@ -10,10 +10,10 @@ role: User
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 24%
+source-wordcount: '676'
+ht-degree: 17%
 
 ---
 
@@ -28,7 +28,7 @@ Después de publicar un conjunto de imágenes, puede copiar su dirección URL as
 ## Copiar una URL de conjunto de imágenes {#copying-an-image-set-url}
 
 1. En el panel Examen de recursos, en la lista desplegable Mostrar, seleccione **[!UICONTROL Conjunto de imágenes]**.
-1. En el panel Biblioteca de recursos del lado izquierdo, navegue a la carpeta de recursos que contenga el conjunto de imágenes cuyo código incrustado desee copiar.
+1. en el panel Biblioteca de recursos de la izquierda, vaya a la carpeta de recursos que contiene el conjunto de imágenes cuyo código incrustado desea copiar.
 1. Encima del panel de exploración de recursos, en la parte derecha de la barra de herramientas, realice una de las siguientes acciones:
 
    * Seleccionar **[!UICONTROL Vista de cuadrícula]**. En el panel de exploración de recursos, haga doble clic en un único recurso para abrirlo en la vista de detalles. En el panel URL e Código incrustado de la derecha, seleccione **[!UICONTROL Copiar URL]** a la derecha del visor que desee.
@@ -48,16 +48,16 @@ Después de publicar un conjunto de imágenes, puede copiar su dirección URL as
 
 La forma más común de implementar conjuntos de imágenes es colocar un vínculo (mediante un icono de navegación) en la página web. Cuando se selecciona, el vínculo inicia una página dinámica (JSP) que muestra el conjunto de imágenes en una ventana de zoom emergente. El vínculo de zoom abre una ventana emergente que contiene la función de zoom real.
 
-Para obtener más información y ejemplos de código, consulte [Incrustar el visor de zoom HTML 5 en la Guía de referencia de visores de Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Para obtener más información y ejemplos de código, consulte la [Incrustar el visor de zoom HTML 5 en la Guía de referencia de visores de Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
-## Copiar el código incrustado de un visor de conjuntos de imágenes {#copying-the-embed-code-of-an-image-set-viewer}
+## Copiar el código de incrustación de un visor de conjuntos de imágenes {#copying-the-embed-code-of-an-image-set-viewer}
 
 El uso de la función de código incrustado permite revisar el código del visor del conjunto de imágenes seleccionado. También puede copiar el código en el portapapeles para pegarlo en las páginas web y así poder implementar el visor. No se permite la edición del código en el cuadro de diálogo Código incrustado.
 
-**Para copiar el código incrustado de un visor de conjuntos de imágenes:**
+**Para copiar el código de incrustación de un visor de conjuntos de imágenes:**
 
 1. En el panel Examen de recursos, en la lista desplegable Mostrar, seleccione **[!UICONTROL Conjunto de imágenes]**.
-1. En el panel Biblioteca de recursos del lado izquierdo, navegue a la carpeta de recursos que contenga el conjunto de imágenes cuyo código incrustado desee copiar.
+1. en el panel Biblioteca de recursos de la izquierda, vaya a la carpeta de recursos que contiene el conjunto de imágenes cuyo código incrustado desea copiar.
 1. Encima del panel de exploración de recursos, en la parte derecha de la barra de herramientas, realice una de las siguientes acciones:
 
    * Seleccionar **[!UICONTROL Vista de cuadrícula]**. En el panel de exploración de recursos, haga doble clic en un único recurso para abrirlo en la vista de detalles. En el panel URL de la derecha, seleccione **[!UICONTROL Código incrustado]**.

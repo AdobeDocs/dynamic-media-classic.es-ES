@@ -10,10 +10,10 @@ role: User
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 17%
+source-wordcount: '262'
+ht-degree: 12%
 
 ---
 
@@ -49,7 +49,7 @@ Last Modified Date:
 1. En la barra de navegación global, seleccione **[!UICONTROL Publish]**.
 1. Establezca las opciones de programación que desee.
 1. (Opcional) En el **[!UICONTROL Nombre de trabajo]** , escriba un nombre para el trabajo de publicación.
-1. En las opciones **[!UICONTROL Avanzado]**, lista desplegable **[!UICONTROL Publicar en]**, seleccione **[!UICONTROL Servidor de vídeo]**.
+1. En el **[!UICONTROL Avanzadas]** opciones, en la **[!UICONTROL Publicar en]** , seleccione la opción **[!UICONTROL Servidor de vídeo]**.
 
    Consulte [Opciones de publicación avanzadas](publishing-files.md#advanced_publish_options) para obtener más opciones, puede definir.
 

@@ -10,10 +10,10 @@ role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '557'
-ht-degree: 35%
+ht-degree: 31%
 
 ---
 
@@ -50,7 +50,7 @@ Puede recortar los píxeles transparentes o de color sólido del borde de una im
 1. En la ventana Editor de recorte, coloque la parte de la imagen que no desea recortar en el cuadro de recorte. Lo que aparezca dentro del cuadro es lo que permanecerá después de seleccionarlo **[!UICONTROL Guardar]** y recorte la imagen.
 1. Para ajustar el área de recorte, siga uno de estos procedimientos:
 
-   * Arrastre un lado o una esquina del recuadro. Mantenga pulsada la tecla Mayús mientras arrastra para cambiar el tamaño manteniendo la proporción de aspecto (la forma) del área de recorte.
+   * Arrastre un lado o una esquina del recuadro. Mantenga pulsada la tecla Mayús mientras arrastra para cambiar el tamaño, pero mantenga la relación de aspecto (la forma) del cuadro de recorte.
    * Introduzca medidas de píxel en los cuadros Tamaño.
    * Arrastre para mover el cuadro de recorte. Mueva el puntero dentro de los límites del cuadro. Cuando vea la flecha con cuatro puntas, arrastre el cuadro a una nueva ubicación en la imagen.
 

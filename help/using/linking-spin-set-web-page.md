@@ -10,10 +10,10 @@ role: User
 exl-id: af75547e-20e8-44c2-b165-01532d6e21d0
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '727'
-ht-degree: 30%
+ht-degree: 23%
 
 ---
 
@@ -28,7 +28,7 @@ Los sitios web y las aplicaciones acceden al contenido de Dynamic Media Image Se
 ## Copiar una URL de conjunto de giros {#copying-a-spin-set-url}
 
 1. En el panel Examen de recursos, en la lista desplegable Mostrar, seleccione **[!UICONTROL Conjunto de giros]**.
-1. En el panel Biblioteca de recursos del lado izquierdo, navegue a la carpeta de recursos que contenga el conjunto de giros cuyo código incrustado desee copiar.
+1. en el panel Biblioteca de recursos de la izquierda, vaya a la carpeta de recursos que contiene el conjunto de giros cuyo código incrustado desea copiar.
 1. Encima del panel de exploración de recursos, en la parte derecha de la barra de herramientas, realice una de las siguientes acciones:
 
    * Seleccionar **[!UICONTROL Vista de cuadrícula]**. En el panel de exploración de recursos, haga doble clic en un único recurso para abrirlo en la vista de detalles. En el panel URL e Código incrustado de la derecha, seleccione **[!UICONTROL Copiar URL]** a la derecha del visor que desee.
@@ -54,14 +54,14 @@ https://sample.scene7.com/s7ondemand/spin/viewer.jsp?company=S7Web&sku=backpack_
 
 En este ejemplo de sintaxis de URL (el vínculo no está activo), observe un número SKU ( `sku=backpack_spin`). La cadena después de `sku=` es el nombre del conjunto de giros ( `backpack spin`).
 
-## Copiar el código incrustado de un visor de conjuntos de giros {#copying-the-embed-code-of-a-spin-set-viewer}
+## Copiar el código de incrustación de un visor de conjuntos de giros {#copying-the-embed-code-of-a-spin-set-viewer}
 
 El uso de la función de código incrustado permite revisar el código del visor del conjunto de giros seleccionado. También puede copiar el código en el portapapeles para pegarlo en las páginas web y así poder implementar el visor. No se permite la edición del código en el cuadro de diálogo Código incrustado.
 
-**Para copiar el código incrustado de un visor de conjuntos de giros:**
+**Para copiar el código de incrustación de un visor de conjuntos de giros:**
 
 1. En el panel Examen de recursos, en la lista desplegable Mostrar, seleccione **[!UICONTROL Conjunto de giros]**.
-1. En el panel Biblioteca de recursos del lado izquierdo, navegue a la carpeta de recursos que contenga el conjunto de giros cuyo código incrustado desee copiar.
+1. en el panel Biblioteca de recursos de la izquierda, vaya a la carpeta de recursos que contiene el conjunto de giros cuyo código incrustado desea copiar.
 1. Encima del panel de exploración de recursos, en la parte derecha de la barra de herramientas, realice una de las siguientes acciones:
 
    * Seleccionar **[!UICONTROL Vista de cuadrícula]**. En el panel de exploración de recursos, haga doble clic en un único recurso para abrirlo en la vista de detalles. En el panel URL e Código incrustado de la derecha, seleccione **[!UICONTROL Código incrustado]** a la derecha del visor que desee.

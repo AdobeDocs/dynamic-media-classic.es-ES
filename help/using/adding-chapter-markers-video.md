@@ -10,7 +10,7 @@ role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 24%
@@ -85,6 +85,6 @@ Consulte [WebVTT: Formato de seguimiento de texto de vídeo web](https://w3c.git
 
      En el cuadro de diálogo Código incrustado, seleccione **[!UICONTROL Copiar al portapapeles]**.
 
-     Para el HTML 5 `Universal_HTML5_Video` En el visor, añada el código incrustado copiado con lo siguiente:
+     Para el HTML 5 `Universal_HTML5_Video` En el visor, anexe el código incrustado copiado con lo siguiente:
 
      `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*"`

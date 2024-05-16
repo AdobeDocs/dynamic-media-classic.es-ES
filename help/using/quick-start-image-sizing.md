@@ -10,10 +10,10 @@ role: User
 topic: Content Management
 level: Beginner
 exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 8%
+source-wordcount: '873'
+ht-degree: 6%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 8%
 
 El tamaño de imagen hace referencia a la capacidad de Adobe Dynamic Media Classic para crear varias imágenes derivadas basadas en una sola imagen de alta resolución. En lugar de crear manualmente varias imágenes (por ejemplo, una miniatura y una imagen de vista ampliada) para el sitio Web o la aplicación, se proporciona una sola imagen principal. Adobe Dynamic Media Classic genera todas las imágenes modificadas tal como se solicitan. Poder entregar imágenes dinámicamente desde una sola imagen principal tiene muchas ventajas:
 
-* Se elimina la necesidad de crear manualmente varias copias de la misma imagen en diferentes tamaños. Se proporciona una imagen principal a Adobe Dynamic Media Classic y Adobe Dynamic Media Classic genera derivados de diferente tamaño a partir de la imagen principal.
-* Puede cambiar rápidamente el tamaño de un tipo de imagen en todo el sitio Web o la aplicación. Por ejemplo, para cambiar todas las imágenes de miniaturas, puede modificar el ajuste preestablecido de imagen &quot;thumbnail&quot;. Un ajuste preestablecido de imagen (similar a una macro) es un conjunto de atributos de tamaño y formato. Puede modificar el ajuste preestablecido de imagen en &quot;miniatura&quot; para cambiar el tamaño de todas las imágenes en miniatura en el sitio web o la aplicación.
+* No es necesario crear manualmente varias copias de la imagen en diferentes tamaños. Se proporciona una imagen principal a Adobe Dynamic Media Classic y Adobe Dynamic Media Classic genera derivados de diferente tamaño a partir de la imagen principal.
+* Puede cambiar rápidamente el tamaño de un tipo de imagen en todo el sitio Web o la aplicación. Por ejemplo, para cambiar todas las imágenes de miniaturas, puede modificar el ajuste preestablecido de imagen &quot;thumbnail&quot;. Un ajuste preestablecido de imagen (es similar a una macro) es una colección de atributos de tamaño y formato. Puede modificar el ajuste preestablecido de imagen en &quot;miniatura&quot; para cambiar el tamaño de todas las imágenes en miniatura en el sitio web o la aplicación.
 * No tiene que administrar los archivos principales y todos los derivados en ninguno de los sistemas de administración de recursos o contenido de forma interna o externa.
 
 ![Puede crear varias imágenes derivadas con un tamaño diferente desde el mismo archivo principal de alta resolución.](/help/using/assets/is_derivative_sizes_popup.png)
@@ -39,7 +39,7 @@ En la barra de navegación global, seleccione **[!UICONTROL Cargar]** para carga
 
 ## 2. Configurar ajustes preestablecidos de imagen
 
-Un ajuste preestablecido de imagen se compone de una serie de comandos de formato y tamaño predefinidos, que se guarda con un nombre exclusivo; es similar a una macro. Un ajuste preestablecido de imagen determina el tamaño y el formato con el que se envían las imágenes desde los servidores de imágenes de Dynamic Media. Puede configurar los ajustes preestablecidos de imagen por su cuenta si tiene el estado de administrador de la empresa. Adobe Dynamic Media Classic también incluye ajustes preestablecidos de imagen predeterminados y puede utilizarlos para entregar imágenes de forma dinámica.
+Un ajuste preestablecido de imagen se compone de una serie de comandos de formato y tamaño predefinidos, que se guarda con un nombre exclusivo; es similar a una macro. Un ajuste preestablecido de imagen determina el tamaño y el formato con el que se envían las imágenes desde los servidores de imágenes de Dynamic Media. Puede configurar los ajustes preestablecidos de imagen por su cuenta si tiene el estado de administrador de la empresa. Puede enviar imágenes de forma dinámica utilizando los ajustes preestablecidos de imagen predeterminados que ya se incluyen con Adobe Dynamic Media Classic.
 
 Para crear un ajuste preestablecido de imagen (si es administrador), en la barra de navegación global, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Ajustes preestablecidos de imagen]**. A continuación seleccione **[!UICONTROL Añadir]** para crear un ajuste preestablecido de imagen, o seleccione **[!UICONTROL Editar]** para cambiar un ajuste preestablecido de imagen existente.
 
@@ -66,6 +66,6 @@ En la barra de navegación global, seleccione **[!UICONTROL Publish]** para inic
 
 ## 5. Vincular URL a la aplicación web
 
-Adobe Dynamic Media Classic crea cadenas de llamada de URL para las imágenes. Al publicar imágenes en los servidores de imágenes de Dynamic Media, las direcciones URL se activan. Puede copiar estas cadenas de URL desde el panel de exploración (en la vista de detalles) o la pantalla de vista previa. Una vez copiadas las cadenas URL, puede utilizarlas en su sitio Web y en las aplicaciones. La dirección URL para el tamaño de la imagen reemplaza la referencia a un nombre de imagen estático en el código de la página web. La dirección URL hace referencia a un nombre de imagen principal, que se sustituye por la base de datos para que se muestre cada imagen nueva.
+Adobe Dynamic Media Classic crea cadenas de llamada de URL para las imágenes. Al publicar imágenes en los servidores de imágenes de Dynamic Media, las direcciones URL se activan. Puede copiar estas cadenas de URL desde el panel de exploración (en la vista de detalles) o la pantalla de vista previa. Una vez copiadas las cadenas URL, puede utilizarlas en su sitio Web y en las aplicaciones. La dirección URL para Ajustar el tamaño de la imagen reemplaza la referencia a un nombre de imagen estático en el código de la página web. La URL hace referencia a un nombre de imagen principal que la base de datos sustituye para cada nueva imagen que se va a mostrar.
 
 Las cadenas URL generadas con ajustes preestablecidos de imagen contienen el nombre de un ajuste preestablecido de imagen. Este nombre se incluye entre símbolos de dólar (`$`). Por ejemplo, `$thumbnail$` puede ser el ajuste preestablecido de imagen diseñado para mostrar imágenes principales en tamaño de miniatura. Consulte [Vinculación de URL en la aplicación web](linking-urls-web-application.md#linking_urls_to_your_web_application).

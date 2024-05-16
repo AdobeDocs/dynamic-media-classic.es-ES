@@ -10,16 +10,16 @@ role: User
 exl-id: 6231a29e-d1b9-47d3-a23a-1940e91ebbc5
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 36%
+source-wordcount: '256'
+ht-degree: 28%
 
 ---
 
 # Previsualización de un conjunto de giros{#previewing-a-spin-set}
 
-Utilice la Lista del visor para previsualizar cómo se muestra un recurso en una plataforma de visor concreta como HTML5. Según el tipo de recurso y el visor asociado cuya vista previa haya seleccionado, no todas las plataformas se encuentran disponibles en Lista del visor.
+Puede utilizar la Lista del visor para obtener una vista previa del aspecto de un recurso en una plataforma de tipo de visor determinada, como HTML5. Según el tipo de recurso y el visor asociado cuya vista previa haya seleccionado, no todas las plataformas se encuentran disponibles en Lista del visor.
 
 Consulte [Configuración de visores predeterminados](application-setup.md#configuring_default_viewers).
 

@@ -9,10 +9,10 @@ role: User
 exl-id: 18669c65-a1c4-4012-8587-cd5095f4bd4e
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 68%
+source-wordcount: '633'
+ht-degree: 56%
 
 ---
 
@@ -24,9 +24,9 @@ Cree un conjunto de medios mixtos cuando desee combinar varios tipos de visores 
 
 ## Creación de un conjunto de medios mixtos {#create-a-mixed-media-set}
 
-Al crear un conjunto, la opción **Publicar después de guardar** afecta al conjunto y a los miembros del conjunto de las siguientes formas:
+Al crear un conjunto, la variable **Publicar tras guardar** afecta a los miembros set y set de las siguientes maneras:
 
-| ¿La opción &quot;Publicar después de guardar&quot; está seleccionada antes de guardar? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
+| ¿Desea seleccionar la opción &quot;Publicar después de guardar&quot; antes de guardar? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
 | --- | --- | --- |
 | Sí | Publicado | Publicado |
 | No | Sin publicar | Los miembros del conjunto conservan su estado publicado o no. |
@@ -44,11 +44,11 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 1. Realice una de las siguientes acciones:
 
-   * Para añadir una pista de sonido, arrastre un archivo de audio de la biblioteca de recursos al cuadro Pista de sonido. La pista de sonido se reproduce mientras se muestran las imágenes. Se detiene cuando se reproduce vídeo.
+   * Para añadir una pista de sonido, arrastre un archivo de audio de la biblioteca de recursos al cuadro Pista de sonido. La pista de sonido se reproduce mientras se muestran las imágenes. Se detiene cuando se reproduce un vídeo.
    * Para cambiar el orden de los conjuntos, arrástrelos a nuevas ubicaciones en la pantalla Conjunto de medios mixtos. El orden de los conjuntos en la pantalla determina el orden de izquierda a derecha en que los usuarios verán los conjuntos en el visor de conjuntos de medios mixtos.
    * (Opcional) Para añadir una miniatura personalizada que represente el vídeo en el visor, arrastre el archivo de imagen desde la biblioteca de recursos hasta el cuadro de posición de miniaturas.
 
-1. Asegúrese de que esté seleccionada la opción **[!UICONTROL Publicar después de guardar]** (predeterminada), cerca de la esquina inferior derecha de la página.
+1. Cerca de la esquina inferior derecha de la página, asegúrese de que **[!UICONTROL Publicar tras guardar]** está seleccionado (predeterminado).
 1. Seleccionar **[!UICONTROL Guardar]**.
 1. Seleccione una carpeta para almacenar el conjunto de medios mixtos y, a continuación, introduzca un nombre para el conjunto.
 1. Seleccionar **[!UICONTROL Guardar]**.
@@ -57,7 +57,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 ## Edición de un conjunto de medios mixtos {#edit-a-mixed-media-set}
 
-Puede editar un conjunto de medios mixtos. Si desea editar un conjunto dentro de un conjunto de medios mixtos, abra el conjunto por separado, edítelo y guárdelo. Los cambios aparecen en el conjunto de medios mixtos.
+Puede editar un conjunto de medios mixtos. Si desea editar un conjunto dentro de un conjunto de medios mixtos, abra el conjunto por separado, edítelo y guárdelo. Las ediciones aparecerán en el conjunto de medios mixtos.
 
 Tanto si edita un conjunto publicado como no publicado, la variable **[!UICONTROL Publicar tras guardar]** afecta a los miembros set y set de las siguientes maneras:
 
@@ -78,7 +78,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
    * Para quitar elementos, selecciónelos y seleccione **[!UICONTROL Eliminar]**.
    * Para reordenar elementos, arrástrelos a sus nuevas ubicaciones.
 
-1. Cuando haya terminado de editar el conjunto, asegúrese de que esté seleccionada la opción **[!UICONTROL Publicar después de guardar]** (predeterminada), cerca de la esquina inferior derecha de la página.
+1. Cuando termine de editar el conjunto, cerca de la esquina inferior derecha de la página, asegúrese de que **[!UICONTROL Publicar tras guardar]** está seleccionado (predeterminado).
 1. Seleccionar **[!UICONTROL Guardar]** o **[!UICONTROL Guardar como]**.
 
 ## Eliminar un conjunto de medios mixtos

@@ -10,16 +10,16 @@ role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '683'
-ht-degree: 24%
+ht-degree: 16%
 
 ---
 
 # Vinculación de un conjunto de muestras a una página web{#linking-a-swatch-set-to-a-web-page}
 
-Después de publicar un conjunto de muestras, puede utilizar su dirección URL asociada o incrustar código en el sitio web o la aplicación. A continuación, puede implementar la dirección URL o el código incrustado según sea necesario para que los usuarios puedan ver el conjunto de muestras en su sitio web o aplicación.
+Después de publicar un conjunto de muestras, puede utilizar su dirección URL asociada o código incrustado en el sitio web o la aplicación. A continuación, puede implementar la dirección URL o el código incrustado según sea necesario para que los usuarios puedan ver el conjunto de muestras en el sitio web o la aplicación.
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ Después de publicar un conjunto de muestras, puede utilizar su dirección URL a
 ## Copiar una URL de conjunto de muestras {#copying-a-swatch-set-url}
 
 1. En el panel Examen de recursos, en la lista desplegable Mostrar, seleccione **[!UICONTROL Conjunto de muestras]**.
-1. En el panel Biblioteca de recursos del lado izquierdo, navegue a la carpeta de recursos que contenga el conjunto de muestras cuyo código incrustado desee copiar.
+1. en el panel Biblioteca de recursos de la izquierda, vaya a la carpeta de recursos que contiene el conjunto de muestras cuyo código incrustado desea copiar.
 1. Encima del panel de exploración de recursos, en la parte derecha de la barra de herramientas, realice una de las siguientes acciones:
 
    * Seleccionar **[!UICONTROL Vista de cuadrícula]**. En el panel de exploración de recursos, haga doble clic en un único recurso para abrirlo en la vista de detalles. En el panel URL e Código incrustado de la derecha, seleccione **[!UICONTROL Copiar URL]** a la derecha del visor que desee.
@@ -50,14 +50,14 @@ La forma más común de implementar Conjuntos de muestras es colocar un vínculo
 
 Para obtener más información y ejemplos de código, consulte [Incrustación del visor de zoom HTML5 en la Guía de referencia de visores de Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
-## Copiar el código de incrustación de un visualizador de conjuntos de muestras {#copying-the-embed-code-of-a-swatch-set-viewer}
+## Copia del código de incrustación de un visor de conjuntos de muestras {#copying-the-embed-code-of-a-swatch-set-viewer}
 
 El uso de la función de código incrustado permite revisar el código del visor del conjunto de muestras seleccionado. También puede copiar el código en el portapapeles para pegarlo en las páginas web y así poder implementar el visor. No se permite la edición del código en el cuadro de diálogo Código incrustado.
 
-**Para copiar el código de incrustación de un visualizador de conjuntos de muestras:**
+**Para copiar el código de incrustación de un visor de conjuntos de muestras:**
 
 1. En el panel Examen de recursos, en la lista desplegable Mostrar, seleccione **[!UICONTROL Conjunto de muestras]**.
-1. En el panel Biblioteca de recursos del lado izquierdo, navegue a la carpeta de recursos que contenga el conjunto de muestras cuyo código incrustado desee copiar.
+1. en el panel Biblioteca de recursos de la izquierda, vaya a la carpeta de recursos que contiene el conjunto de muestras cuyo código incrustado desea copiar.
 1. Encima del panel de exploración de recursos, en la parte derecha de la barra de herramientas, realice una de las siguientes acciones:
 
    * Seleccionar **[!UICONTROL Vista de cuadrícula]**. En el panel de exploración de recursos, haga doble clic en un único recurso para abrirlo en la vista de detalles. En el panel URL e Código incrustado de la derecha, seleccione **[!UICONTROL Código incrustado]** a la derecha del visor que desee.

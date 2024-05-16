@@ -1,5 +1,5 @@
 ---
-title: Creación de un conjunto de ofertas
+title: Crear un conjunto de ofertas
 description: Obtenga información sobre cómo crear un conjunto de ofertas en Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -10,16 +10,16 @@ role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '1227'
-ht-degree: 31%
+source-wordcount: '1236'
+ht-degree: 21%
 
 ---
 
-# Creación de un conjunto de ofertas {#creating-an-offer-set}
+# Crear un conjunto de ofertas {#creating-an-offer-set}
 
-Se puede crear cualquiera de los siguientes tipos de conjuntos de ofertas:
+Puede crear cualquiera de los siguientes tipos de conjuntos de ofertas:
 
 * Vídeo
 * Plantilla parametrizada
@@ -31,23 +31,23 @@ Adobe Dynamic Media Classic ofrece herramientas para editar y crear conjuntos de
 
 >[!NOTE]
 >
->Antes de crear un conjunto de ofertas, asegúrese de publicar en Adobe Dynamic Media Classic todos los recursos que desee utilizar para el conjunto. Consulte [Publicación manual de recursos](publishing-files.md#manually_publishing_assets) y [Cancelación manual de la publicación de recursos](publishing-files.md#manually_unpublishing_assets).
+>Antes de crear un conjunto de ofertas, asegúrese de publicar en Adobe Dynamic Media Classic todos los recursos que pretenda utilizar para el conjunto. Consulte [Publicación manual de recursos](publishing-files.md#manually_publishing_assets) y [Cancelación manual de la publicación de recursos](publishing-files.md#manually_unpublishing_assets).
 
 ## Tipos de conjuntos de ofertas {#types-of-offer-sets}
 
-Se puede crear un conjunto de ofertas de cualquiera de los siguientes tipos:
+Cree un conjunto de ofertas a partir de los siguientes tipos de conjuntos de ofertas:
 
-* **Imágenes**: puede montar imágenes para un conjunto de ofertas. Cada imagen incluye una oferta diferente en el conjunto.
+* **Imágenes**: puede combinar imágenes para un conjunto de ofertas. Cada imagen incluye una oferta diferente en el conjunto.
 
-* **Plantilla de imagen**: Puede parametrizar plantillas de imagen en Adobe Dynamic Media Classic con **[!UICONTROL Generar]** > Básicos de plantilla, comando. Mediante parámetros, se pueden intercambiar y personalizar los componentes de la plantilla como el texto de los cuadros de texto y las distintas imágenes. Para un conjunto de ofertas, puede utilizar parámetros de plantilla para crear variaciones de la misma imagen en el conjunto de ofertas, por ejemplo. Para obtener información sobre la creación y parametrización de plantillas de imagen, consulte [Crear parámetros de plantilla](creating-template-parameters.md#creating_template_parameters).
+* **Plantilla de imagen**: Puede parametrizar plantillas de imagen en Adobe Dynamic Media Classic con **[!UICONTROL Generar]** > Básicos de plantilla, comando. Mediante parámetros, componentes de la plantilla, el texto en marcos de texto, las diferentes imágenes, se pueden intercambiar y personalizar. Para un conjunto de ofertas, puede utilizar parámetros de plantilla para crear variaciones en la misma imagen del conjunto de ofertas, por ejemplo. Para obtener información sobre la creación y parametrización de plantillas de imagen, consulte [Crear parámetros de plantilla](creating-template-parameters.md#creating_template_parameters).
 
 Consulte también [Conceptos básicos de plantilla](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) vídeo de formación.
 
-* **Vídeo**: puede montar el vídeo para un conjunto de ofertas. Cada vídeo conforma una oferta distinta en el conjunto.
+* **Vídeo**: puede montar un vídeo para un conjunto de ofertas. Cada vídeo conforma una oferta distinta en el conjunto.
 
 ## Creación de un conjunto de ofertas con una plantilla con parámetros {#creating-an-offer-set-with-a-parameterized-template}
 
-Al crear un conjunto de ofertas, la opción **[!UICONTROL Publicar después de guardar]** afecta al conjunto y a los miembros del conjunto de las siguientes formas:
+Al crear un conjunto de ofertas, la variable **[!UICONTROL Publicar tras guardar]** afecta a los miembros set y set de las siguientes maneras:
 
 | **[!UICONTROL Publicar tras guardar]** opción seleccionada antes de guardar? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
 | --- | --- | --- |
@@ -74,13 +74,13 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 1. Repita los pasos del 3 al 5 para crear más ofertas para el conjunto.
 1. Cuando termine, cerca de la esquina inferior derecha de la página, asegúrese de que **[!UICONTROL Publicar tras guardar*]** está seleccionado (predeterminado).
-1. Seleccionar **[!UICONTROL Cerrar]**, escriba un nombre para el conjunto de ofertas y seleccione **[!UICONTROL Guardar]**.
+1. Seleccionar **[!UICONTROL Cerrar]**, introduzca un nombre para el conjunto de ofertas y, a continuación, seleccione **[!UICONTROL Guardar]**.
 
 Antes de cerrar la página Conjunto de ofertas de Test&amp;Target, inserte el conjunto de ofertas en Adobe Target Standard/Premium. Consulte [Insertar conjuntos de ofertas en Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
 ## Creación de un conjunto de ofertas con imágenes o vídeos {#creating-an-offer-set-with-images-or-videos}
 
-Al crear un conjunto de ofertas, la opción **[!UICONTROL Publicar después de guardar]** afecta al conjunto y a los miembros del conjunto de las siguientes formas:
+Al crear un conjunto de ofertas, la variable **[!UICONTROL Publicar tras guardar]** afecta a los miembros set y set de las siguientes maneras:
 
 | **[!UICONTROL Publicar tras guardar]** opción seleccionada antes de guardar? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
 | --- | --- | --- |
@@ -104,12 +104,12 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
    Seleccionar **[!UICONTROL Guardar]** para guardar los cambios realizados en la oferta de imagen o vídeo. A continuación seleccione **[!UICONTROL Cerrar]** para volver a la página Conjunto de ofertas de Test&amp;Target.
 
-1. Una vez que termine de crear ofertas para el conjunto de ofertas y de seleccionar Ajustes preestablecidos de imagen para distintas imágenes, asegúrese de que **[!UICONTROL Publicar tras guardar]** está seleccionado (predeterminado).
+1. Una vez que termine de crear ofertas para el conjunto de ofertas y de elegir Ajustes preestablecidos de imagen para distintas imágenes, asegúrese de que **[!UICONTROL Publicar tras guardar]** está seleccionado (predeterminado).
 1. Seleccionar **[!UICONTROL Guardar]** e introduzca un nombre para el conjunto de ofertas y seleccione **[!UICONTROL Guardar]**.
 
 Antes de cerrar la página de conjuntos de ofertas de Test&amp;Target, inserte el conjunto de ofertas en Adobe Target Standard/Premium. Consulte [Insertar conjuntos de ofertas en Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
-## Edición de un conjunto de ofertas {#editing-an-offer-set}
+## Editar un conjunto de ofertas {#editing-an-offer-set}
 
 Si edita un conjunto publicado o no publicado, la variable **[!UICONTROL Publicar tras guardar]** afecta a los miembros set y set de las siguientes maneras:
 
@@ -124,7 +124,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 **Para editar un conjunto de ofertas:**
 
-1. Para editar un conjunto de ofertas, muestre el conjunto de ofertas en la vista de cuadrícula o en la vista de lista y, a continuación, seleccione su **[!UICONTROL Editar]** botón de rollover.
+1. Para editar un conjunto de ofertas, muestre el conjunto de ofertas en la vista de cuadrícula o de lista y, a continuación, seleccione su **[!UICONTROL Editar]** botón de rollover.
 1. En la página Conjunto de ofertas de Test&amp;Target, realice una de las acciones siguientes:
 
    * **Eliminación de una oferta**: seleccione la oferta y, a continuación, seleccione **[!UICONTROL Eliminar]** para eliminar una oferta del conjunto.
@@ -134,12 +134,12 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
    >[!NOTE]
    >
-   >No puede eliminar un conjunto de ofertas que esté asociado a una campaña. Para eliminar un conjunto de ofertas asociado a una campaña, inicie sesión en Adobe Target Standard/Premium y elimine primero las asociaciones de campañas. Incluso después de desasociarse de una campaña, el recurso solo se puede eliminar de Adobe Dynamic Media Classic, por lo que se requiere un inicio de sesión en Adobe Target Standard/Premium y no desde Adobe Target Standard/Premium.
+   >No puede eliminar un conjunto de ofertas asociado a una campaña. Para eliminar un conjunto de ofertas asociado a una campaña, inicie sesión en Adobe Target Standard/Premium y elimine primero las asociaciones de campañas. Incluso después de desasociarse de una campaña, el recurso solo se puede eliminar de Adobe Dynamic Media Classic, por lo que se requiere un inicio de sesión en Adobe Target Standard/Premium y no desde Adobe Target Standard/Premium.
 
 1. Cuando termine de editar, cerca de la esquina inferior derecha de la página, asegúrese de que **[!UICONTROL Publicar tras guardar]** está seleccionado (predeterminado).
 1. Seleccionar **[!UICONTROL Guardar]**, seleccione una carpeta de almacenamiento, introduzca un nombre para el conjunto y, a continuación, seleccione **[!UICONTROL Guardar]**.
 
-## Eliminación de un conjunto de ofertas {#delet-an-offer-set}
+## Eliminar un conjunto de ofertas {#delet-an-offer-set}
 
 Cuando se elimina un conjunto de ofertas, el conjunto en sí se mueve a la papelera. Sin embargo, los miembros (o &quot;hijos&quot;) de ese conjunto no se ven afectados, sino que cada uno de ellos conserva su estado publicado o no publicado.
 

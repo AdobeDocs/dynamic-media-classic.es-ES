@@ -1,6 +1,6 @@
 ---
 title: Iniciar y cerrar sesión en Adobe Dynamic Media Classic
-description: Obtenga información sobre cómo iniciar sesión y salir de Adobe Dynamic Media Classic y conectarse a un servidor de entorno de producción en Norteamérica (NA), Europa, Oriente Medio, África (EMEA) o Asia-Pacífico (APAC).
+description: Obtenga información sobre cómo iniciar y cerrar sesión en Adobe Dynamic Media Classic. Aprenda también a conectarse a un servidor de producción en Norteamérica (NA), Europa, Oriente Medio, África (EMEA) o Asia-Pacífico (APAC).
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '221'
 ht-degree: 7%
 
 ---

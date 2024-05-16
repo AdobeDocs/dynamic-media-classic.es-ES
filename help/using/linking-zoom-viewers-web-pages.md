@@ -10,7 +10,7 @@ role: User
 exl-id: 2073d95b-1600-481f-8038-d29e8acacf7d
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 23%
@@ -53,7 +53,7 @@ Para obtener más información y ejemplos de código, consulte la [Incrustar el 
 
 El uso de la función de código incrustado permite revisar el código del visor de zoom seleccionado. También puede copiar el código en el portapapeles para pegarlo en las páginas web y así poder implementar el visor. No se permite la edición del código en el cuadro de diálogo Código incrustado.
 
-**Para copiar el código incrustado de un visor de zoom:**
+**Para copiar el código de incrustación de un visor de zoom:**
 
 1. en el panel Biblioteca de recursos de la izquierda, vaya a la carpeta de recursos que contiene el visor de zoom cuyo código incrustado desea copiar.
 1. Encima del panel de exploración de recursos, en la parte derecha de la barra de herramientas, realice una de las siguientes acciones:

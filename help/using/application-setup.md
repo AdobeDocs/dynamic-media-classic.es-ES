@@ -10,7 +10,7 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '10945'
 ht-degree: 29%
@@ -713,7 +713,7 @@ La URL se copiará en el portapapeles. Puede usarlo según sea necesario en el c
 
    En la página Lista de visualizadores, en la columna Acciones de la tabla, seleccione **[!UICONTROL Copiar URL]**.
 
-### Copiar el código de incrustación de un ajuste preestablecido de visor {#copying-the-embed-code-of-a-viewer-preset}
+### Copiar el código de incrustación de un ajuste preestablecido de visualizador {#copying-the-embed-code-of-a-viewer-preset}
 
 El uso de la función de código incrustado permite revisar el código del ajuste preestablecido de visor seleccionado. También puede copiar el código en el portapapeles para pegarlo en las páginas web y así poder implementar el visor.
 

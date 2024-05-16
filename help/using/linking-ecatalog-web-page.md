@@ -10,10 +10,10 @@ role: User
 exl-id: aee72576-1e3e-401c-953d-cc2be27f7dfd
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '672'
-ht-degree: 30%
+ht-degree: 23%
 
 ---
 
@@ -28,7 +28,7 @@ Sus sitios web y aplicaciones acceden al contenido de Dynamic Media Image Server
 ## Copiar una URL de catálogo electrónico {#copying-an-ecatalog-url}
 
 1. En el panel Examen de recursos, en la lista desplegable Mostrar, seleccione **[!UICONTROL Catálogo]**.
-1. En el panel Biblioteca de recursos del lado izquierdo, navegue a la carpeta de recursos que contenga el catálogo electrónico cuyo código incrustado desee copiar.
+1. en el panel Biblioteca de recursos de la izquierda, vaya a la carpeta de recursos que contiene el catálogo electrónico cuyo código incrustado desee copiar.
 1. Encima del panel de exploración de recursos, en la parte derecha de la barra de herramientas, realice una de las siguientes acciones:
 
    * Seleccionar **[!UICONTROL Vista de cuadrícula]**. En el panel de exploración de recursos, haga doble clic en un único recurso para abrirlo en la vista de detalles. En el panel URL e Código incrustado de la derecha, seleccione **[!UICONTROL Copiar URL]** a la derecha del visor que desee.
@@ -57,7 +57,7 @@ El uso de la función de código incrustado permite revisar el código del visor
 **Para copiar el código incrustado de un visor de catálogos electrónicos:**
 
 1. En el panel Examen de recursos, en la lista desplegable Mostrar, seleccione **[!UICONTROL Catálogo]**.
-1. En el panel Biblioteca de recursos del lado izquierdo, navegue a la carpeta de recursos que contenga el catálogo electrónico cuyo código incrustado desee copiar.
+1. en el panel Biblioteca de recursos de la izquierda, vaya a la carpeta de recursos que contiene el catálogo electrónico cuyo código incrustado desee copiar.
 1. Encima del panel de exploración de recursos, en la parte derecha de la barra de herramientas, realice una de las siguientes acciones:
 
    * Seleccionar **[!UICONTROL Vista de cuadrícula]**. En el panel de exploración de recursos, haga doble clic en un único recurso para abrirlo en la vista de detalles. En el panel URL de la derecha, seleccione **[!UICONTROL Código incrustado]**.
