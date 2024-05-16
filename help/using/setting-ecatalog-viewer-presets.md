@@ -9,7 +9,7 @@ role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 25%
@@ -29,9 +29,9 @@ Siga estos pasos para poder crear un ajuste preestablecido de visualizador de ca
 1. En la barra de navegación global, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes preestablecidos de visor]**.
 1. En la pantalla Ajustes preestablecidos de visor, cree un ajuste preestablecido de visor de catálogos electrónicos desde cero o a partir de un ajuste preestablecido de visor de catálogos electrónicos existente:
 
-   * **Crear un ajuste preestablecido de visor de catálogos electrónicos** - Seleccionar **[!UICONTROL Añadir]**. En el cuadro de diálogo Agregar ajuste preestablecido de visor, elija una plataforma, elija Visor de catálogos electrónicos y, a continuación, seleccione **[!UICONTROL Añadir]**.
+   * **Crear un ajuste preestablecido de visor de catálogos electrónicos**: Seleccionar **[!UICONTROL Añadir]**. En el cuadro de diálogo Agregar ajuste preestablecido de visor, elija una plataforma, elija Visor de catálogos electrónicos y, a continuación, seleccione **[!UICONTROL Añadir]**.
 
-   * **Editar un ajuste preestablecido del visor de catálogos electrónicos** - Seleccione un ajuste preestablecido del visor de catálogos electrónicos y, a continuación, seleccione **[!UICONTROL Editar]**. Seleccionar **[!UICONTROL Guardar como]** después de terminar de crear el ajuste preestablecido.
+   * **Editar un ajuste preestablecido del visor de catálogos electrónicos**: seleccione un ajuste preestablecido del visor de catálogos electrónicos y, a continuación, seleccione **[!UICONTROL Editar]**. Seleccionar **[!UICONTROL Guardar como]** después de terminar de crear el ajuste preestablecido.
 
 1. En el `Configure Viewer` , introduzca un nombre para el ajuste preestablecido del visor de catálogos electrónicos.
 1. En el `Configure Viewer` , establezca las opciones que desee.
@@ -55,7 +55,7 @@ Siga estos pasos para poder crear un ajuste preestablecido de visualizador de ca
 >Para utilizar esta plantilla de respuesta en lugar de la plantilla definida en el propio catálogo electrónico, añada `fmt=1` al final de la URL del servidor de información. Por ejemplo: `https://.../$3$/$4$/$1$/?FMT=1`.
 
 1. Seleccionar **[!UICONTROL Guardar]**.
-1. Seleccionar **[!UICONTROL Predeterminado]** para que el ajuste preestablecido del visor de catálogos electrónicos que ha creado sea el que se utiliza para mostrar los catálogos electrónicos en la página web.
+1. Seleccionar **[!UICONTROL Predeterminado]** de forma que el ajuste preestablecido del visor de catálogos electrónicos que ha creado sea el que se utiliza para mostrar los catálogos electrónicos en su página web.
 
 Para eliminar un ajuste preestablecido del visor de catálogos electrónicos, selecciónelo en la pantalla Ajustes preestablecidos del visor y seleccione **[!UICONTROL Eliminar]**.
 

@@ -10,10 +10,10 @@ role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 39%
+ht-degree: 34%
 
 ---
 
@@ -27,23 +27,23 @@ Asegúrese de establecer una estructura de carpetas y una organización para alm
 
 En la biblioteca de recursos se muestran los archivos que contiene el árbol de carpetas. Al seleccionar una carpeta en la biblioteca de recursos, su contenido aparecerá en el panel Examinar. Utilice estas técnicas para localizar carpetas en el árbol de carpetas:
 
-* **Mostrar subcarpetas** - Seleccione el **[!UICONTROL Expandir carpeta]** para mostrar las subcarpetas de una carpeta. Este icono se encuentra a la izquierda del nombre de cada carpeta.
+* **Mostrar subcarpetas**: seleccione la **[!UICONTROL Expandir carpeta]** para mostrar las subcarpetas de una carpeta. Este icono se encuentra a la izquierda del nombre de cada carpeta.
 
-* **Mover una carpeta** : Puede mover una carpeta arrastrándola y soltándola en su nueva ubicación o seleccionando **[!UICONTROL Archivo]** > **[!UICONTROL Mover carpeta]**.
+* **Mover una carpeta**: Puede mover una carpeta arrastrándola y soltándola en su nueva ubicación o seleccionando **[!UICONTROL Archivo]** > **[!UICONTROL Mover carpeta]**.
 
-* **Ocultar carpetas** - Seleccione el **[!UICONTROL Contraer carpeta]** si desea contraer las subcarpetas para ocultarlas de la vista. Este icono se encuentra a la izquierda del nombre de cada carpeta.
+* **Ocultar carpetas**: seleccione la **[!UICONTROL Contraer carpeta]** si desea contraer las subcarpetas para ocultarlas de la vista. Este icono se encuentra a la izquierda del nombre de cada carpeta.
 
-* **Abrir una carpeta** - Seleccione una carpeta si desea mostrar su contenido en el panel de exploración.
+* **Abrir una carpeta**: seleccione una carpeta si desea mostrar su contenido en el panel de exploración.
 
 >[!TIP]
 >
->Puede ocultar o mostrar la biblioteca de recursos seleccionando **[!UICONTROL Expandir]** o **[!UICONTROL Contraer]** control en el lado izquierdo. Oculte el panel de la biblioteca de recursos si necesita más espacio de trabajo en el panel Examinar.
+>Puede ocultar o mostrar la biblioteca de recursos seleccionando la **[!UICONTROL Expandir]** o **[!UICONTROL Contraer]** control en el lado izquierdo. Oculte el panel de la biblioteca de recursos si necesita más espacio de trabajo en el panel Examinar.
 
 ## Creación de carpetas
 
 1. En la biblioteca de recursos, seleccione la carpeta dentro de la que desea crear una carpeta.
 1. Seleccione el **[!UICONTROL `Add Folder`]** botón. Este icono se encuentra en la parte superior de la lista de carpetas.
-1. Escriba un nombre descriptivo para la carpeta o subcarpeta en el campo situado junto al icono de la carpeta.
+1. Escriba un nombre descriptivo para la nueva carpeta o subcarpeta. Escríbalo en el campo situado junto al icono de la carpeta.
 
    >[!NOTE]
    >
@@ -53,9 +53,9 @@ En la biblioteca de recursos se muestran los archivos que contiene el árbol de 
 
 Seleccione una carpeta y utilice estas técnicas para eliminarla o cambiar su nombre:
 
-* **Eliminar** - Seleccione el **[!UICONTROL `Remove Folder`]** botón. Los recursos que se encuentren en una carpeta eliminada se colocarán en la carpeta Papelera. Podrá recuperarlos desde esta carpeta.
+* **Eliminar**: seleccione la **[!UICONTROL `Remove Folder`]** botón. Los recursos que se encuentren en una carpeta eliminada se colocarán en la carpeta Papelera. Podrá recuperarlos desde esta carpeta.
 
-* **Cambiar nombre** : Haga doble clic en el nombre e introduzca uno nuevo.
+* **Cambiar nombre**: Haga doble clic en el nombre e introduzca uno nuevo.
 
 >[!NOTE]
 >

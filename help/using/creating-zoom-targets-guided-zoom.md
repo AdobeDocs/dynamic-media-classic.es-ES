@@ -10,10 +10,10 @@ role: User
 exl-id: ffb799ba-1cf1-48e0-91a8-dea758139140
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '731'
-ht-degree: 32%
+ht-degree: 27%
 
 ---
 
@@ -32,7 +32,7 @@ El porcentaje de zoom máximo de Destinos de zoom es 100 por ciento. El porcenta
 | Grande | Menor | Mínimo más pequeño |
 | Pequeño | Mayor | Mínimo más grande |
 
-Puede cambiar el tamaño del visor de zoom para que corresponda al que se usa en la página web. Puede cambiar esta configuración de forma permanente cambiando el tamaño del visor en la pantalla Configuración (si es administrador). Consulte [Configurar ajustes preestablecidos del visor de zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
+Puede cambiar el tamaño del Visor de zoom para que coincida con el tamaño que se está utilizando en la página Web. Puede cambiar esta configuración de forma permanente cambiando el tamaño del visor en la pantalla Configuración (si es administrador). Consulte [Configurar ajustes preestablecidos del visor de zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
 
 ## Creación y edición de destinos de zoom {#creating-and-editing-zoom-targets}
 
@@ -53,9 +53,9 @@ Para crear un destino de zoom, abra la página Editor de destinos de zoom y haga
 
 1. Seleccionar **[!UICONTROL Seleccionar destino]** (flecha) y, a continuación, seleccione el destino de zoom que ha creado y ajuste el tamaño y la posición del destino.
 
-   * **Redimensionar** - Mueva el puntero sobre una esquina del destino de zoom y arrástrelo para agrandar o reducir el destino.
+   * **Redimensionar**: Mueva el puntero sobre una esquina del destino de zoom y arrástrelo para agrandar o reducir el destino.
 
-   * **Posición** - Mueva el puntero sobre el destino de zoom y arrástrelo a una ubicación diferente.
+   * **Posición**: mueva el puntero sobre el destino de zoom y arrástrelo a una ubicación diferente.
 
 1. Escriba un nombre para el destino de zoom en el cuadro Nombre. 
 
@@ -63,7 +63,7 @@ Para crear un destino de zoom, abra la página Editor de destinos de zoom y haga
    >
    >lo que introduzca en el cuadro Nombre es mucho más que un nombre. Cuando los usuarios mueven el puntero por el destino de zoom, ven lo que se ha introducido en el cuadro Nombre. Introduzca una breve descripción del destino de zoom en el cuadro Nombre para que los usuarios sepan en qué pueden hacer zoom.
 
-1. También puede introducir datos de usuario en el campo Datos de usuario. Este campo permite que los diseñadores de sitios web agreguen información en el destino de zoom.
+1. También puede introducir datos de usuario en el campo Datos de usuario. Este campo es para que los diseñadores de sitios Web agreguen información al destino de zoom.
 1. Seleccionar **[!UICONTROL Guardar]**.
 
    Se guardarán las coordenadas y el nivel de zoom correspondientes al destino de zoom. A la derecha de la pantalla aparece una imagen de miniatura del destino de zoom con el nombre introducido.
@@ -76,13 +76,13 @@ Para crear un destino de zoom, abra la página Editor de destinos de zoom y haga
 
 Para editar Destinos de zoom, utilice las técnicas siguientes en la página Editor de destinos de zoom:
 
-* **Cambiar posición** : Con el botón Seleccionar destino (la flecha), seleccione el destino. A continuación, arrastre el destino a otra ubicación.
+* **Cambiar posición**: Con el botón Seleccionar destino (la flecha), seleccione el destino. A continuación, arrastre el destino a otra ubicación.
 
-* **Redimensionar** : Con el botón Seleccionar destino (la flecha), seleccione el destino. Para aumentar o reducir el destino, mueva el puntero sobre una esquina del destino de zoom y arrastre.
+* **Redimensionar**: Con el botón Seleccionar destino (la flecha), seleccione el destino. Para aumentar o reducir el destino, mueva el puntero sobre una esquina del destino de zoom y arrastre.
 
-* **Eliminar** - Seleccione la imagen en miniatura de destino en el lado derecho de la pantalla. A continuación seleccione **[!UICONTROL Eliminar destino]**.
+* **Eliminar**: seleccione la imagen en miniatura de destino en el lado derecho de la pantalla. A continuación seleccione **[!UICONTROL Eliminar destino]**.
 
-* **Cambiando nombre** - Seleccione la imagen en miniatura de destino en el lado derecho de la pantalla. A continuación, introduzca un nombre en la **[!UICONTROL Nombre]** Campo de texto y seleccione **[!UICONTROL Guardar]**.
+* **Cambiando nombre**: seleccione la imagen en miniatura de destino en el lado derecho de la pantalla. A continuación, introduzca un nombre en la **[!UICONTROL Nombre]** Campo de texto y seleccione **[!UICONTROL Guardar]**.
 
 ### Copiar destinos de zoom {#copying-zoom-targets}
 

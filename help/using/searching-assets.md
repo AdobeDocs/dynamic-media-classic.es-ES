@@ -10,7 +10,7 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 17%
@@ -63,15 +63,15 @@ En la Biblioteca de recursos, directamente debajo del campo Buscar, seleccione *
 
 Especifique cualquiera de los siguientes criterios en la búsqueda avanzada:
 
-* **Filtrar por tipo de recurso** - Reduzca la búsqueda a un solo tipo de recurso. Elija un tipo de recurso en el menú.
+* **Filtrar por tipo de recurso**: Reduzca la búsqueda a un solo tipo de recurso. Elija un tipo de recurso en el menú.
 
-* **Archivos y carpetas** - Elige dónde quieres buscar: **[!UICONTROL En todos los archivos y carpetas]**, **[!UICONTROL En la carpeta seleccionada]**, o **[!UICONTROL En carpetas y subcarpetas seleccionadas]**.
+* **Archivos y carpetas**: elija dónde desea buscar: **[!UICONTROL En todos los archivos y carpetas]**, **[!UICONTROL En la carpeta seleccionada]**, o **[!UICONTROL En carpetas y subcarpetas seleccionadas]**.
 
-* **Todos los estados de publicación** : busque los archivos que están marcados como listos para la publicación, no están marcados como listos para publicar o todos los archivos.
+* **Todos los estados de publicación**: busque los archivos que están marcados como listos para la publicación, no están marcados como listos para publicar o todos los archivos.
 
-* **Condiciones** : Si especifica criterios de metadatos para la búsqueda, seleccione si la búsqueda debe coincidir con todas las condiciones (una búsqueda ALL) o con cualquier condición (una búsqueda OR).
+* **Condiciones**: Si especifica criterios de metadatos para la búsqueda, seleccione si la búsqueda debe coincidir con todas las condiciones (una búsqueda ALL) o con cualquier condición (una búsqueda OR).
 
-* **Criterios de búsqueda** : cree uno o varios campos de búsqueda para buscar metadatos. Para crear campos de búsqueda:
+* **Criterios de búsqueda**: cree uno o varios campos de búsqueda para buscar metadatos. Para crear campos de búsqueda:
 
    1. En Búsqueda avanzada, en **[!UICONTROL Criterios de búsqueda]** y a la izquierda de la etiqueta **[!UICONTROL Añadir un campo]** menú), seleccione el icono de flecha triangular hacia abajo para abrir la lista desplegable. Elija una vista de metadatos. Puede elegir **[!UICONTROL Todas las propiedades con valores]**, **[!UICONTROL Vista compacta]**, **[!UICONTROL IPTC]**, **[!UICONTROL Campos de publicación del servidor de metadatos]**, o **[!UICONTROL XMP]**.
    1. Seleccione el **[!UICONTROL Añadir un campo]** y elija un nombre de campo.
@@ -111,7 +111,7 @@ Siga estos pasos para poder localizar los recursos filtrándolos con sus valores
 
 1. Clic **[!UICONTROL Campo]** en un panel y, a continuación, siga estas instrucciones para poder mostrar el menú de filtrado y construir la operación de filtrado:
 
-   * **Elija un campo de metadatos.** - Seleccione el nombre del campo en el menú de filtrado.
+   * **Elija un campo de metadatos.**: seleccione el nombre del campo en el menú de filtrado.
 
      >[!NOTE]
      >
@@ -119,9 +119,9 @@ Siga estos pasos para poder localizar los recursos filtrándolos con sus valores
 
      Consulte [Vistas de metadatos](application-setup.md#metadata_views).
 
-   * **Añadir un campo de metadatos** - Seleccionar **[!UICONTROL Agregar un panel]**. Una vez que el panel aparezca en el panel Filtros, seleccione su **[!UICONTROL Campo]** y elija el nombre de un campo de metadatos en el menú de filtrado.
+   * **Añadir un campo de metadatos**: Seleccionar **[!UICONTROL Agregar un panel]**. Una vez que el panel aparezca en el panel Filtros, seleccione su **[!UICONTROL Campo]** y elija el nombre de un campo de metadatos en el menú de filtrado.
 
-   * **Eliminar un campo de metadatos** - Seleccionar **[!UICONTROL Quitar este panel]** en el menú de filtrado.
+   * **Eliminar un campo de metadatos**: Seleccionar **[!UICONTROL Quitar este panel]** en el menú de filtrado.
 
    Al elegir un campo de metadatos, su panel muestra lo siguiente:
 
@@ -143,11 +143,11 @@ Siga estos pasos para poder localizar los recursos filtrándolos con sus valores
 
 Siga estas instrucciones en la pestaña Filtros para poder guardar, repetir y eliminar operaciones de filtro:
 
-* **Guardar una operación de filtro** - Vaya a **[!UICONTROL Seleccionar ajuste preestablecido]** > **[!UICONTROL Guardar ajustes preestablecidos actuales como nuevos]** y, a continuación, escriba un nombre en la **[!UICONTROL Guardar]** Cuadro de diálogo.
+* **Guardar una operación de filtro**: Vaya a **[!UICONTROL Seleccionar ajuste preestablecido]** > **[!UICONTROL Guardar ajustes preestablecidos actuales como nuevos]** y, a continuación, escriba un nombre en la **[!UICONTROL Guardar]** Cuadro de diálogo.
 
-* **Repetir una operación de filtrado** - Elegir **[!UICONTROL Seleccionar ajuste preestablecido]** y elija el nombre de una operación de filtrado en el menú. El menú muestra las operaciones de filtrado guardadas.
+* **Repetir una operación de filtrado**: elija **[!UICONTROL Seleccionar ajuste preestablecido]** y elija el nombre de una operación de filtrado en el menú. El menú muestra las operaciones de filtrado guardadas.
 
-* **Eliminar una operación de filtrado desde el menú Seleccionar ajuste preestablecido** - Ejecute la operación de filtrado. A continuación, vaya a **[!UICONTROL Seleccionar ajuste preestablecido]** > **[!UICONTROL Eliminar ajuste preestablecido]** en el menú.
+* **Eliminar una operación de filtrado desde el menú Seleccionar ajuste preestablecido**: ejecute la operación de filtrado. A continuación, vaya a **[!UICONTROL Seleccionar ajuste preestablecido]** > **[!UICONTROL Eliminar ajuste preestablecido]** en el menú.
 
 ## Uso del servidor de metadatos {#using-the-metadata-server}
 
@@ -157,13 +157,13 @@ Para configurar el servidor de metadatos, vaya a **[!UICONTROL Configurar]** > *
 
 La página Publicación del servidor de metadatos le permite establecer las siguientes opciones:
 
-* **[!UICONTROL Publicación instantánea]** : inserta automáticamente cualquier cambio en los metadatos cuando se realiza, incluidos nuevos recursos, cambios en las palabras clave, etc.
+* **[!UICONTROL Publicación instantánea]**: inserta automáticamente cualquier cambio en los metadatos cuando se realiza, incluidos nuevos recursos, cambios en las palabras clave, etc.
 
-* **[!UICONTROL XMP Paquetes de]** XMP - Publica el paquete de. XMP Este paquete no se utiliza para la búsqueda, pero proporciona la información más actualizada de la versión de la aplicación de la interfaz de usuario de.
+* **[!UICONTROL XMP Paquetes de]** XMP : Publica el paquete de. XMP Este paquete no se utiliza para la búsqueda, pero proporciona la información más actualizada de la versión de la aplicación de la interfaz de usuario de.
 
-* **[!UICONTROL Palabras clave]** : publica las palabras clave en el servidor de metadatos para su uso en búsquedas.
+* **[!UICONTROL Palabras clave]**: publica las palabras clave en el servidor de metadatos para su uso en búsquedas.
 
-* **[!UICONTROL Campos de publicación del servidor de metadatos]** : seleccione los campos que desea incluir en los metadatos. Esta opción le permite determinar cuánta información sobre los recursos está disponible para el público. Estos campos también se muestran en Vistas de metadatos, pero solo se pueden modificar en el servidor de metadatos.
+* **[!UICONTROL Campos de publicación del servidor de metadatos]**: seleccione los campos que desea incluir en los metadatos. Esta opción le permite determinar cuánta información sobre los recursos está disponible para el público. Estos campos también se muestran en Vistas de metadatos, pero solo se pueden modificar en el servidor de metadatos.
 
 Seleccionar **[!UICONTROL Publicar ahora]** para iniciar el trabajo. Aparece una confirmación de que el trabajo se ha iniciado.
 

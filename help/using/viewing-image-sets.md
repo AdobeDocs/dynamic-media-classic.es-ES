@@ -10,7 +10,7 @@ role: User
 exl-id: c8d742a4-a1a1-4b5f-bcfd-6a1972edf9bc
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 19%
@@ -30,9 +30,9 @@ Puede crear y personalizar ajustes preestablecidos de visor de acuerdo con sus n
 1. En la barra de navegación global, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes preestablecidos de visor]**.
 1. Cree o edite un ajuste preestablecido de visualizador en la página Ajustes preestablecidos de visualizador mediante uno de estos procedimientos:
 
-   * **Crear** - Seleccionar **[!UICONTROL Añadir]**. En el cuadro de diálogo Agregar ajuste preestablecido de visor, en la lista desplegable Visor, elija **[!UICONTROL Visor de zoom]**, y luego seleccione **[!UICONTROL Añadir]**. También puede crear un ajuste preestablecido de Visor de zoom a partir de uno existente. Muestra el nombre del ajuste preestablecido, lo selecciona y, a continuación, selecciona **[!UICONTROL Editar]**. En el `Configure Viewer` , introduzca un nuevo nombre para el ajuste preestablecido.
+   * **Crear**: Seleccionar **[!UICONTROL Añadir]**. En el cuadro de diálogo Agregar ajuste preestablecido de visor, en la lista desplegable Visor, elija **[!UICONTROL Visor de zoom]**, y luego seleccione **[!UICONTROL Añadir]**. También puede crear un ajuste preestablecido de Visor de zoom a partir de uno existente. Muestra el nombre del ajuste preestablecido, lo selecciona y, a continuación, selecciona **[!UICONTROL Editar]**. En el `Configure Viewer` , introduzca un nuevo nombre para el ajuste preestablecido.
 
-   * **Editar** - Mostrar el nombre de un ajuste preestablecido, seleccionarlo y, a continuación, seleccionar **[!UICONTROL Editar]**.
+   * **Editar**: Muestra el nombre de un ajuste preestablecido, lo selecciona y, a continuación, selecciona **[!UICONTROL Editar]**.
 
 1. En el `Configure Viewer` , en el campo de texto Nombre de ajuste preestablecido, escriba un nombre para el ajuste preestablecido del visualizador de conjuntos de muestras.
 1. Elija las opciones en la `Configure Viewer` página.

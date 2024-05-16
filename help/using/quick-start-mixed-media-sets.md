@@ -10,10 +10,10 @@ role: User
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
 topic: Content Management
 level: Beginner
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '656'
-ht-degree: 23%
+ht-degree: 16%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 23%
 
 Los conjuntos de medios mixtos proporcionan a los usuarios una experiencia de visualización integrada. Los conjuntos de medios mixtos pueden incluir imágenes, conjuntos de imágenes, conjuntos de muestras, conjuntos de giros y vídeos. Los usuarios pueden seleccionar diferentes pestañas dentro del visualizador de medios mixtos para ver los elementos en los distintos visualizadores. Si no se especifica ninguna ficha, todos los recursos se muestran juntos en la fila de muestras.
 
-Los ajustes preestablecidos del visor de conjuntos de medios mixtos incluyen opciones de comunidad para los usuarios finales para incrustar código, copiar URL y crear un vínculo al sitio web principal. Los usuarios pueden utilizar estas opciones para compartir información sobre los productos en sus sitios web personales o en los sitios de redes sociales.
+Los ajustes preestablecidos del visualizador de conjuntos de medios mixtos incluyen opciones de la comunidad para que los usuarios finales incrusten código, copien direcciones URL y enlacen al sitio web principal. Los usuarios pueden utilizar estas opciones para compartir información sobre productos en sus sitios Web personales o sitios de redes sociales.
 
 La opción Inicio rápido de los conjuntos de medios mixtos se ha diseñado para que pueda ponerse en marcha rápidamente con las técnicas de conjuntos de medios mixtos de Adobe Dynamic Media Classic.
 

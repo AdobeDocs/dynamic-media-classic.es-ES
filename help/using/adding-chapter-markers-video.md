@@ -10,10 +10,10 @@ role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 28%
+ht-degree: 24%
 
 ---
 
@@ -25,7 +25,7 @@ Puede facilitar la visualización y navegación de los vídeos de formato largo 
 >
 >El reproductor de vídeo que se utilice debe admitir los marcadores de capítulo.
 
-Consulte [Añadir o editar un ajuste preestablecido de visualizador de vídeo](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) si desea configurar los puntos de referencia de navegación por capítulos y el texto emergente del título del capítulo para `Universal_HTML5_Video` visualizador (HTML 5).
+Consulte [Agregar o editar un ajuste preestablecido de visualizador de vídeo](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) si desea configurar los puntos de referencia de navegación por capítulos y el texto emergente del título del capítulo para `Universal_HTML5_Video` visualizador (HTML 5).
 
 Consulte también [Agregar y editar ajustes preestablecidos de visor](application-setup.md#adding_and_editing_viewer_presets).
 
@@ -65,7 +65,7 @@ Consulte [WebVTT: Formato de seguimiento de texto de vídeo web](https://w3c.git
 
 1. Guarde el archivo VTT con codificación UTF8 para evitar problemas con la representación de caracteres en el texto del título del capítulo.
 
-   Por lo general, desea asignar al archivo VTT del capítulo el mismo nombre que al archivo de vídeo y anexarlo con `chapters`. Esto puede ayudarle a automatizar la generación de URL de vídeo mediante el sistema de administración de contenido web.
+   Por lo general, desea asignar al archivo VTT del capítulo el mismo nombre que al archivo de vídeo y anexarlo con `chapters`. Al hacerlo, puede ayudarle con la automatización de la generación de las direcciones URL de vídeo mediante el sistema de administración de contenido web existente.
 
 1. En Adobe Dynamic Media Classic, cargue el archivo de capítulo WebVTT.
 

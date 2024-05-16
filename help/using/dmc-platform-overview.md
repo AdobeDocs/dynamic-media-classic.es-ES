@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 topic: Administration
 level: Beginner
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 12%
@@ -27,13 +27,13 @@ Consulte también [Información general de plataforma](https://s7d5.scene7.com/s
 
 Los pasos clave del flujo de trabajo de Adobe Dynamic Media Classic son:
 
-* **Carga y administración de recursos** : Cargue sus recursos de medios en Adobe Dynamic Media Classic. Puede organizar, examinar y buscar recursos en el sistema. También puede aplicar metadatos a los recursos.
+* **Carga y administración de recursos**: Cargue sus recursos de medios en Adobe Dynamic Media Classic. Puede organizar, examinar y buscar recursos en el sistema. También puede aplicar metadatos a los recursos.
 
-* **Crear medios enriquecidos** : cree diferentes configuraciones de los recursos, como catálogos electrónicos, conjuntos de imágenes, conjuntos de giros, conjuntos de muestras, conjuntos de medios mixtos, plantillas básicas y plantillas FXG.
+* **Crear medios enriquecidos**: cree diferentes configuraciones de los recursos, como catálogos electrónicos, conjuntos de imágenes, conjuntos de giros, conjuntos de muestras, conjuntos de medios mixtos, plantillas básicas y plantillas FXG.
 
-* **Publicar y administrar** : publique recursos en la red SaaS de Adobe Dynamic Media Classic. Monitorice el estado de los recursos cuando se publiquen. Administrar los derechos de usuario y mantener la seguridad.
+* **Publicar y administrar**: publique recursos en la red SaaS de Adobe Dynamic Media Classic. Monitorice el estado de los recursos cuando se publiquen. Administrar los derechos de usuario y mantener la seguridad.
 
-* **Servir** : Ofrezca medios de la red SaaS de Adobe Dynamic Media Classic a páginas web, aplicaciones y dispositivos móviles; los medios están optimizados para el rendimiento y se entregan con almacenamiento en caché de CDN. Adobe Dynamic Media Classic proporciona una URL para cada recurso. La URL se activará una vez publique el recurso.
+* **Servir**: Ofrezca medios de la red SaaS de Adobe Dynamic Media Classic a páginas web, aplicaciones y dispositivos móviles; los medios están optimizados para el rendimiento y se entregan con el almacenamiento en caché de CDN. Adobe Dynamic Media Classic proporciona una URL para cada recurso. La URL se activará una vez publique el recurso.
 
 ![Proceso de flujo de trabajo de Adobe Dynamic Media Classic](/help/using/assets/gs_workflow.png)
 

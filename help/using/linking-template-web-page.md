@@ -10,16 +10,16 @@ role: User
 exl-id: 6305c287-360f-48c2-b456-58be0791c7af
 topic: Administration, Content Management, Development
 level: Experienced
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '339'
-ht-degree: 33%
+ht-degree: 17%
 
 ---
 
 # Vinculación de una plantilla a una página web{#linking-a-template-to-a-web-page}
 
-Los sitios web y las aplicaciones acceden al contenido de Dynamic Media Image Server mediante cadenas URL. Después de publicar una plantilla, Adobe Dynamic Media Classic activa una cadena URL que hace referencia a la plantilla en los servidores de imágenes de Dynamic Media. Puede pegar esta URL en un explorador web para probar su funcionamiento.
+Sus sitios web y aplicaciones acceden al contenido de Dynamic Media Image Server mediante cadenas URL. Después de publicar una plantilla, Adobe Dynamic Media Classic activa una cadena URL que hace referencia a la plantilla en los servidores de imágenes de Dynamic Media. Puede pegar esta dirección URL en un explorador web para probarla.
 
 Para colocar cadenas de URL en las páginas web y aplicaciones, cópielas desde Adobe Dynamic Media Classic. Para obtener una cadena de URL de plantilla generada con un ajuste preestablecido de imagen, vaya a la pantalla Vista previa o al panel Examinar (en la Vista de detalles). A continuación, seleccione un ajuste preestablecido de imagen y seleccione el botón Copiar URL.
 
@@ -37,8 +37,8 @@ Puede obtener una cadena URL de plantilla generada por un ajuste preestablecido 
 
 ## Añadir URL de plantilla a la página web {#adding-template-urls-to-your-web-page}
 
-Para añadir una plantilla a la página web, consulte con el equipo de desarrollo de la página web para modificar `<IMG>` en el código de la página web del HTML. Utilice la cadena URL de Adobe Dynamic Media Classic para realizar una solicitud a los servidores de imágenes de Dynamic Media. El motor comercial o el código de página web dinámico inserta la imagen de plantilla con el tamaño y el formato definidos por el ajuste preestablecido elegido para la plantilla.
+Para agregar una plantilla a la página Web, consulte con el equipo de desarrollo de páginas Web para modificar la plantilla `<IMG>` en el código de la página web del HTML. Utilice la cadena URL de Adobe Dynamic Media Classic para realizar una solicitud a los servidores de imágenes de Dynamic Media. El motor de comercio o el código de página Web dinámica insertan la imagen de la plantilla con el tamaño y con la especificación de formato definida por el ajuste preestablecido de imagen que elija para la plantilla.
 
 >[!MORELIKETHIS]
 >
->* [Añadir imágenes dinámicas a la página web](linking-urls-web-application.md#adding_dynamic_images_to_your_web_page)
+>* [Agregar imágenes dinámicas a la página Web](linking-urls-web-application.md#adding_dynamic_images_to_your_web_page)

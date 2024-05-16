@@ -10,16 +10,16 @@ role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
 topic: Content Management
 level: Intermediate
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 43%
+ht-degree: 30%
 
 ---
 
 # Vinculación de un conjunto de medios mixtos a una página web{#linking-a-mixed-media-set-to-a-web-page}
 
-Después de publicar un conjunto de medios mixtos, puede obtener su dirección URL asociada para usarla en su sitio web o aplicación. A continuación puede implementar la URL como lo necesite para que los usuarios puedan ver el conjunto de medios mixtos en la página web o aplicación.
+Después de publicar un conjunto de medios mixtos, puede obtener su dirección URL asociada para usarla en su sitio web o aplicación. A continuación, puede implementar la dirección URL según sea necesario para que los usuarios puedan ver el conjunto de medios mixtos en su sitio web o aplicación.
 
 ## Obtención de URL para un conjunto de medios mixtos {#obtain-a-mixed-media-set-url}
 
@@ -40,15 +40,15 @@ Después de publicar un conjunto de medios mixtos, puede obtener su dirección U
 
      En la página Lista de visualizadores, en la columna Acciones de la tabla, seleccione **[!UICONTROL Copiar URL]**.
 
-## Adición de direcciones URL de conjuntos de medios mixtos a una página web {#add-mixed-media-set-urls-to-your-web-page}
+## Añadir URL de conjuntos de medios mixtos a la página web {#add-mixed-media-set-urls-to-your-web-page}
 
 La forma más común de implementar un conjunto de medios mixtos es colocar un vínculo (mediante un icono de navegación) en la página web. Cuando se selecciona, el vínculo inicia una página dinámica (ASP o JSP) que muestra el conjunto de medios mixtos en el visualizador de conjuntos de medios mixtos.
 
 ## Copiar el código incrustado de un visualizador de conjuntos de medios mixtos {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
-El uso de la función de código incrustado permite revisar el código del visor del conjunto de medios mixtos seleccionado. También puede copiar el código en el portapapeles para pegarlo en sus páginas web para la implementación del visor. No se permite la edición del código en el cuadro de diálogo Código incrustado.
+El uso de la función de código incrustado permite revisar el código del visor del conjunto de medios mixtos seleccionado. También puede copiar el código en el portapapeles para pegarlo en las páginas web y así poder implementar el visor. No se permite la edición del código en el cuadro de diálogo Código incrustado.
 
-**Para copiar el código incrustado de un visor de conjuntos de medios mixtos:**
+**Para copiar el código incrustado de un visualizador de conjuntos de medios mixtos:**
 
 1. En el panel Examen de recursos, en la lista desplegable Mostrar, seleccione **[!UICONTROL Conjunto de medios mixtos]**.
 1. En el panel Biblioteca de recursos del lado izquierdo, navegue a la carpeta de recursos que contenga el conjunto de medios mixtos cuyo código incrustado desee copiar.
@@ -75,4 +75,4 @@ El uso de la función de código incrustado permite revisar el código del visor
 
 >[!MORELIKETHIS]
 >
->* [Publicar](publishing-files.md#publishing_files)
+>* [Publish](publishing-files.md#publishing_files)

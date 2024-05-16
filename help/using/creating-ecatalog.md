@@ -10,7 +10,7 @@ role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 44%
@@ -38,9 +38,9 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 1. Comience la creación del catálogo electrónico utilizando una de estas técnicas:
 
-   * **Seleccione primero los archivos** - En el panel Examinar, seleccione archivos y, a continuación, vaya a **[!UICONTROL Generar]** > **[!UICONTROL Catálogos electrónicos]**.
+   * **Seleccione primero los archivos**: en el panel Examinar, seleccione archivos y, a continuación, vaya a **[!UICONTROL Generar]** > **[!UICONTROL Catálogos electrónicos]**.
 
-   * **Empezar desde la pantalla Catálogo electrónico** - Vaya a **[!UICONTROL Generar]** > **[!UICONTROL Catálogos electrónicos]**. Seleccione una carpeta en la biblioteca de recursos y arrastre los archivos deseados a la ficha Ordenar páginas que se encuentra en la página Catálogo electrónico.
+   * **Empezar desde la pantalla Catálogo electrónico**: Vaya a **[!UICONTROL Generar]** > **[!UICONTROL Catálogos electrónicos]**. Seleccione una carpeta en la biblioteca de recursos y arrastre los archivos deseados a la ficha Ordenar páginas que se encuentra en la página Catálogo electrónico.
 
      >[!NOTE]
      >
@@ -50,11 +50,11 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 1. Si lo desea, puede cambiar el diseño de páginas o pliegos de páginas individuales seleccionándolos y eligiendo **[!UICONTROL 1 vertical]**, **[!UICONTROL 2 verticales]**, o **[!UICONTROL Personalizado]** botón. En el **[!UICONTROL Cambiar diseño de catálogo electrónico]** , seleccione la opción **[!UICONTROL Distribuciones seleccionadas]** opciones y seleccione **[!UICONTROL OK]**.
 1. Reordene las páginas según sea necesario con una de estas técnicas:
 
-   * **Arrastrando** : arrastre una página o un pliego de páginas a una nueva ubicación. La barra vertical muestra el lugar al que se ha movido la página.
+   * **Arrastrando**: arrastre una página o un pliego de páginas a una nueva ubicación. La barra vertical muestra el lugar al que se ha movido la página.
 
-   * **Botón Mover a** : seleccione una página o un pliego de páginas, seleccione **[!UICONTROL Mover a]** y elija la página del menú antes de la que desea que aparezca la página.
+   * **Botón Mover a**: seleccione una página o un pliego de páginas, seleccione **[!UICONTROL Mover a]** y elija la página del menú antes de la que desea que aparezca la página.
 
-   * **Nº de secuencia** - En Vista de lista, introduzca los números de página en los campos de Nº de secuencia.
+   * **Nº de secuencia**: en Vista de lista, introduzca los números de página en los campos de Nº de secuencia.
 
 1. Cuando haya terminado, asegúrese de que esté seleccionada la opción **[!UICONTROL Publicar después de guardar]** (predeterminada), cerca de la esquina inferior derecha de la página.
 1. Seleccionar **[!UICONTROL Guardar]**.

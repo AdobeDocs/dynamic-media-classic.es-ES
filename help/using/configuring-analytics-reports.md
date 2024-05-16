@@ -10,7 +10,7 @@ role: Data Engineer,Admin,User
 exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
 topic: Integrations, Development
 level: Experienced
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1234'
 ht-degree: 18%
@@ -59,7 +59,7 @@ Utilice la pantalla Configuración de Adobe Analytics para asociar eventos de vi
 
 ### Eventos de visor {#viewer-events}
 
-Los eventos de visor describen las acciones que los usuarios realizan con los visores de Dynamic Media Classic. Cuando un usuario inicia una acción (por ejemplo, seleccionar una miniatura o iniciar o detener un vídeo), el visualizador &quot;difunde&quot; un evento a la página web. Los datos asociados con ese evento también se insertan.
+Los eventos de visor describen las acciones que los usuarios realizan con los visores de Dynamic Media Classic. Cuando un usuario inicia una acción (por ejemplo, seleccionar una miniatura o iniciar o detener un vídeo), el visor &quot;difunde&quot; un evento a la página web. Los datos asociados con ese evento también se insertan.
 
 En la tabla siguiente se describen los eventos de visor que se pueden agregar a la pantalla Configuración de Adobe Analytics.
 
@@ -105,8 +105,8 @@ En la tabla siguiente se describen las variables de Adobe Dynamic Media Classic:
 
 En la pantalla de configuración de Adobe Analytics puede activar, editar y eliminar eventos de visor:
 
-* **Activar** - Seleccionar **[!UICONTROL Activar]** para activar o **[!UICONTROL Deshabilitar]** para desactivar un evento de visor seleccionado.
+* **Activar**: Seleccionar **[!UICONTROL Activar]** para activar o **[!UICONTROL Deshabilitar]** para desactivar un evento de visor seleccionado.
 
-* **Editar** - Seleccione un evento de visor y seleccione el **[!UICONTROL Ver/Editar]** Botón gris de variables. En las listas desplegables Variable de Adobe Dynamic Media Classic y Variable de Adobe Analytics, elija una variable diferente en cada lista respectiva. Para obtener más información, consulte [Asignación de variables de Adobe Analytics a eventos y variables de visualizador de Adobe Dynamic Media Classic](#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables).
+* **Editar**: seleccione un evento de visor y seleccione el **[!UICONTROL Ver/Editar]** Botón gris de variables. En las listas desplegables Variable de Adobe Dynamic Media Classic y Variable de Adobe Analytics, elija una variable diferente en cada lista respectiva. Para obtener más información, consulte [Asignación de variables de Adobe Analytics a eventos y variables de visualizador de Adobe Dynamic Media Classic](#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables).
 
-* **Eliminar** - Seleccione un evento de visor y seleccione el **[!UICONTROL Ver/Editar]** Botón gris de variables. Seleccionar **[!UICONTROL Eliminar]**.
+* **Eliminar**: seleccione un evento de visor y seleccione el **[!UICONTROL Ver/Editar]** Botón gris de variables. Seleccionar **[!UICONTROL Eliminar]**.

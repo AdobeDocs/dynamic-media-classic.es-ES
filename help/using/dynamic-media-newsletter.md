@@ -7,9 +7,9 @@ role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 La newsletter de Dynamic Media de Experience League se ha diseñado para ayudarle a ponerse al día con Dynamic Media y Adobe Dynamic Media Classic, de modo que pueda obtener ventajas de inmediato.
 
-En este newsletter archivado de ventanilla única, puede encontrar valiosos recursos de creación de conocimientos, como vídeos de procedimientos y descripciones generales de las soluciones. También se incluyen introducciones a las funciones y capacidades clave, como ajustes preestablecidos de imagen, ajustes preestablecidos de visualizador y perfiles de vídeo.
+En este newsletter archivado de ventanilla única, puede encontrar valiosos recursos de creación de conocimientos, como vídeos de procedimientos y descripciones generales de las soluciones. También se incluyen introducciones a funciones y capacidades clave como Ajustes preestablecidos de imagen, Ajustes preestablecidos de visualizador y Perfiles de vídeo.
 
 <!-- microsite demo page https://experienceleague.adobe.com/tools/dynamic-media-demo/index.html -->
 
@@ -107,7 +107,7 @@ En este newsletter archivado de ventanilla única, puede encontrar valiosos recu
 
    * Sobrecargue su experiencia con el cliente eliminando estos 9 &quot;problemas&quot;.
    * Descubra cómo el equipo de Dynamic Media puede ayudarle a prepararse para un día con un tráfico de visitantes superior al normal.
-   * Una segunda oportunidad para asistir a dos seminarios web recientes de Skill Builder.
+   * Una segunda oportunidad para asistir a dos seminarios web recientes de Skills Builder.
    * Vea el seminario web bajo demanda sobre la protección de sus recursos digitales contra la piratería.
    * Reunirse `Bridget Roman`, responsable de marketing de producto sénior de Experience Manager Assets.
    * Póngase al día con Dynamic Media y Adobe Dynamic Media Classic en Experience League.
@@ -126,10 +126,10 @@ En este newsletter archivado de ventanilla única, puede encontrar valiosos recu
 
   En este número:
 
-   * Recursos e información que le permiten administrar correctamente sus recursos de alto valor para ofrecer experiencias que mantengan a los visitantes de regreso con seguridad.
+   * Recursos e información que le permiten administrar correctamente sus recursos de alto valor para que pueda ofrecer experiencias que mantengan a los visitantes de regreso con seguridad.
    * Obtenga información acerca de un próximo seminario web sobre la protección de los recursos digitales.
    * Próxima parada en el recorrido del Adobe Insider, lleno de información.
-   * Funciones interesantes disponibles cuando tiene Dynamic Media en Experience Manager Assets (Experience Manager Assets).
+   * Las funcionalidades interesantes están disponibles cuando tiene Dynamic Media en Experience Manager Assets (Experience Manager Assets).
    * Añadir vídeos de 360 grados y miniaturas de vídeo personalizadas al sitio web.
    * Reunirse `Andrew Hathaway`, consultor de soluciones principales para Dynamic Media en Experience Manager Assets.
 
@@ -142,7 +142,7 @@ En este newsletter archivado de ventanilla única, puede encontrar valiosos recu
    * Obtenga más información sobre la próxima visita de Adobe Insider.
    * Obtenga información sobre cómo proteger los recursos digitales contra la piratería.
    * Obtenga información sobre el recorte inteligente impulsado por IA para imágenes.
-   * Reunirse `Alex Thiers`, una de las fuerzas motrices detrás de muchas de las grandes funciones e innovaciones dentro de Dynamic Media y Adobe Dynamic Media Classic.
+   * Reunirse `Alex Thiers`, una fuerza impulsora detrás de muchas de las grandes funciones e innovaciones de Dynamic Media AEM en el mundo de la y Adobe Dynamic Media Classic.
 
 * **[Número 05 de mayo de 2019](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_05_2019_May.html)**
 

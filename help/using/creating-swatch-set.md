@@ -10,7 +10,7 @@ role: User
 exl-id: 426b6e6b-daed-4ca6-b095-99bb06604b07
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 58%
@@ -38,9 +38,9 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 1. Realice una de las siguientes acciones:
 
-   * **Seleccione primero las imágenes** - En el panel Examinar, seleccione las imágenes y, a continuación, vaya a **[!UICONTROL Generar]** > **[!UICONTROL Conjuntos de muestras]**.
+   * **Seleccione primero las imágenes**: en el panel Examinar, seleccione las imágenes y vaya a **[!UICONTROL Generar]** > **[!UICONTROL Conjuntos de muestras]**.
 
-   * **Iniciar desde la pantalla Conjunto de muestras** - Vaya a **[!UICONTROL Generar]** > **[!UICONTROL Conjuntos de muestras]**. Seleccione una carpeta en la biblioteca de recursos y arrastre las imágenes a la sección Vistas de la página Conjunto de muestras.
+   * **Iniciar desde la pantalla Conjunto de muestras**: Vaya a **[!UICONTROL Generar]** > **[!UICONTROL Conjuntos de muestras]**. Seleccione una carpeta en la biblioteca de recursos y arrastre las imágenes a la sección Vistas de la página Conjunto de muestras.
 
 1. Arrastre los colores, patrones o acabados de muestra al cuadro de marcador de posición Muestras de la página Conjunto de muestras.
 

@@ -10,7 +10,7 @@ role: User
 exl-id: 186f4c7f-16f6-42f5-bc0e-55362c55e794
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 23%
@@ -45,24 +45,24 @@ Puede cambiar el nombre de ID de una fuente y su información de tipo. Editar un
 
 En el panel Examinar, seleccione el archivo de fuente que desee editar en Vista de detalles y elija Archivo > Editar información. Se abrirá la pantalla Editar información. Elija las siguientes opciones y luego seleccione **[!UICONTROL Enviar]**.
 
-* **[!UICONTROL Nombre de fuente]** : Este nombre identifica la fuente cuando se publica.
+* **[!UICONTROL Nombre de fuente]**: Este nombre identifica la fuente cuando se publica.
 
-* **[!UICONTROL Nombre de PostScript]** - Este nombre es el nombre PostScript completo para la fuente. Suele referirse al grosor o el estilo.
+* **[!UICONTROL Nombre de PostScript]**: este nombre es el nombre PostScript completo para la fuente. Suele referirse al grosor o el estilo.
 
-* **[!UICONTROL Nombre RTF]** - Este nombre aparece en un menú emergente del editor RTF donde se crean las capas de texto de la plantilla.
+* **[!UICONTROL Nombre RTF]**: Este nombre aparece en un menú emergente del editor RTF donde se crean las capas de texto de la plantilla.
 
-* **[!UICONTROL Nombre de familia de fuentes]** - Este nombre indica el nombre de la fuente sin el indicador de estilo, grosor o tipo de fuente.
+* **[!UICONTROL Nombre de familia de fuentes]**: Este nombre enumera el nombre de la fuente sin el indicador de estilo, peso o tipo de fuente.
 
-* **[!UICONTROL Estilo de fuente]** : las opciones son Sin formato, Negrita, Cursiva y Negrita-Cursiva.
+* **[!UICONTROL Estilo de fuente]**: las opciones son Sin formato, Negrita, Cursiva y Negrita-Cursiva.
 
-* **[!UICONTROL Tipo de fuente]** : las opciones son TrueType y Adobe Type 1. Si utiliza otro nombre para denominar estas fuentes, puede introducirlo.
+* **[!UICONTROL Tipo de fuente]**: las opciones son TrueType y Adobe Type 1. Si utiliza otro nombre para denominar estas fuentes, puede introducirlo.
 
-* **[!UICONTROL Abreviatura de tipo de fuente]** - Las opciones son las siguientes:
+* **[!UICONTROL Abreviatura de tipo de fuente]**: las opciones son las siguientes:
 
-   * **[!UICONTROL TTF]** : archivos de fuente TrueType utilizados para el procesamiento de PDF/PostScript y el servicio de imágenes.
+   * **[!UICONTROL TTF]**: archivos de fuente TrueType utilizados para el procesamiento PDF/PostScript y el servicio de imágenes.
 
-   * **[!UICONTROL AFM]** : archivos de fuentes de Adobe PostScript que contienen información de métricas de fuentes de Adobe y se utilizan para el servicio de imágenes.
+   * **[!UICONTROL AFM]**: archivos de fuentes de Adobe PostScript que contienen información de métricas de fuentes de Adobe y se utilizan para el servicio de imágenes.
 
-   * **[!UICONTROL PFM]** : archivos de fuentes de Adobe PostScript que contienen información de métricas de fuentes binarias.
+   * **[!UICONTROL PFM]**: archivos de fuentes de Adobe PostScript que contienen información de métricas de fuentes binarias.
 
-   * **[!UICONTROL PFB]** : archivos de fuentes de Adobe PostScript que contienen información de esquema de fuentes binarias y se utilizan para el procesamiento de PDF/PostScript y el servicio de imágenes.
+   * **[!UICONTROL PFB]**: archivos de fuentes de Adobe PostScript que contienen información de esquema de fuentes binarias y se utilizan para el procesamiento de PDF/PostScript y el servicio de imágenes.

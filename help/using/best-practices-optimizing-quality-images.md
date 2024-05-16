@@ -10,7 +10,7 @@ role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
 topic: Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1604'
 ht-degree: 40%
@@ -71,7 +71,7 @@ Con Adobe Dynamic Media Classic, puede enfocar las imágenes durante la ingesta,
 Existen dos métodos de enfoque de imágenes que puede utilizar:
 
 * Enfoque simple ( `&op_sharpen`): similar al filtro de enfoque utilizado en Photoshop, el enfoque simple aplica un enfoque básico a la vista final de la imagen después del cambio de tamaño dinámico. Sin embargo, este método no puede configurarse. La práctica recomendada es evitar el uso de `&op_sharpen` a menos que sea necesario.
-* Máscara de enfoque ( `&op_USM`) - Máscara de enfoque es un filtro estándar de la industria para el enfoque. La práctica recomendada es enfocar imágenes con la máscara de enfoque siguiendo las directrices siguientes. Las máscaras de enfoque permiten controlar los tres parámetros siguientes:
+* Máscara de enfoque ( `&op_USM`): La máscara de enfoque es un filtro estándar en la industria para el enfoque. La práctica recomendada es enfocar imágenes con la máscara de enfoque siguiendo las directrices siguientes. Las máscaras de enfoque permiten controlar los tres parámetros siguientes:
 
    * `&op_sharpen=amount,radius,threshold`
 

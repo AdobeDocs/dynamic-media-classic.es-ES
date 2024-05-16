@@ -10,7 +10,7 @@ role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 46%
@@ -47,9 +47,9 @@ Consulte también [Limitaciones de Dynamic Media](/help/using/limitations.md).
 
 1. Realice una de las siguientes acciones:
 
-   * **Seleccione primero las imágenes** - En el panel Examinar, seleccione las imágenes que desee para su conjunto de imágenes y vaya a **[!UICONTROL Generar]** > **[!UICONTROL Conjuntos de imágenes]**.
+   * **Seleccione primero las imágenes**: en el panel Examinar, seleccione las imágenes que desee para su conjunto de imágenes y vaya a **[!UICONTROL Generar]** > **[!UICONTROL Conjuntos de imágenes]**.
 
-   * **Empezar desde la pantalla Conjunto de imágenes** - Vaya a **[!UICONTROL Generar]** > **[!UICONTROL Conjuntos de imágenes]**. Aparecerá la pantalla Conjunto de imágenes. Seleccione una carpeta en la biblioteca de recursos y arrastre las imágenes que desea agregar al conjunto de imágenes a la pantalla Conjunto de imágenes.
+   * **Empezar desde la pantalla Conjunto de imágenes**: Vaya a **[!UICONTROL Generar]** > **[!UICONTROL Conjuntos de imágenes]**. Aparecerá la pantalla Conjunto de imágenes. Seleccione una carpeta en la biblioteca de recursos y arrastre las imágenes que desea agregar al conjunto de imágenes a la pantalla Conjunto de imágenes.
 
 1. Para cambiar el orden de las imágenes, arrastre cada una a su nueva ubicación.
 1. Asegúrese de que esté seleccionada la opción **[!UICONTROL Publicar después de guardar]** (predeterminada), cerca de la esquina inferior derecha de la página.

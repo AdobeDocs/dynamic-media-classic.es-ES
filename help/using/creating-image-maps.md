@@ -10,23 +10,23 @@ role: User
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '2444'
-ht-degree: 33%
+ht-degree: 31%
 
 ---
 
 # Crear mapas de imagen {#creating-image-maps}
 
-Un mapa de imagen es una región de una imagen, una página de catálogo electrónico o una imagen de un conjunto de giros que muestra un panel de rollover con texto. Cuando el usuario selecciona un mapa de imagen, se activa un tipo de acción. Por ejemplo, se abre una página web para que el usuario pueda obtener más información sobre un producto. Aparece un contorno alrededor de un mapa de imagen cuando el usuario mueve el puntero sobre él.
+Un mapa de imagen es una región de una imagen, una página de catálogo electrónico o una imagen de un conjunto de giros que muestra un panel de rollover con texto. Cuando el usuario selecciona un mapa de imagen, se activa un tipo de acción. Por ejemplo, se inicia una página web para que el usuario pueda obtener más información sobre un producto. Aparece un contorno alrededor de un mapa de imagen cuando el usuario mueve el puntero sobre él.
 
 Además de la capacidad de crear mapas de imágenes en Adobe Dynamic Media Classic, también puede crear mapas de imágenes al diseñar un catálogo en Adobe Acrobat o Adobe InDesign.
 
 Al crear mapas de imagen, puede realizar una de las siguientes acciones:
 
 * Introducir texto de rollover.
-* Introducir JavaScript y URL para abrir páginas web.
+* Introduzca JavaScript y direcciones URL para iniciar páginas web.
 * Crear plantillas URL para mapas de imagen.
 * Copiar mapas de imagen en otras imágenes, páginas de catálogo electrónico o conjuntos de giro.
 * Exportar mapas de imagen a CSV o XML.
@@ -54,7 +54,7 @@ Al crear mapas de imagen, puede realizar una de las siguientes acciones:
 
    Para crear el nombre, Adobe Dynamic Media Classic añade un número secuencial al nombre de la imagen o página de catálogo electrónico con la que está trabajando. Puede introducir el nombre que desee.
 
-1. Si desea que los usuarios abran una nueva página web al seleccionar el mapa de imagen, introduzca la URL en la lista de mapa de imagen.
+1. Si desea que los usuarios abran una nueva página Web al seleccionar el mapa de imagen, escriba la dirección URL en la lista Mapa de imagen.
 
    Consulte [para introducir JavaScript y URL](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls).
 
@@ -147,9 +147,9 @@ Javascript:loadProduct('$$');void(0);
 
 En la plantilla URL se colocan todos los valores que no cambian entre Mapas de imagen. Agregue solo los valores que no cambien en la columna URL en la lista de mapas de imagen. Por ejemplo:
 
-* Plantilla de URL - `javascript:loadProduct('https://www.examplesitehere.com/$$');void(0);`
-* Valor de URL - `product.htm`
-* URL real generada - `javascript:loadProduct('https://www.examplesitehere.com/product.html);void(0);`
+* Plantilla de URL: `javascript:loadProduct('https://www.examplesitehere.com/$$');void(0);`
+* Valor de URL: `product.htm`
+* Dirección URL real generada: `javascript:loadProduct('https://www.examplesitehere.com/product.html);void(0);`
 
 De forma predeterminada, la plantilla de URL incluye un controlador JavaScript de Adobe Dynamic Media Classic propiedad de llamado `loadProduct` que abre una nueva ventana con el destino URL. Sin embargo, puede utilizar cualquier código JavaScript para reemplazar este controlador JavaScript o utilizar uno de los siguientes controladores Adobe Dynamic Media Classic:
 
@@ -181,7 +181,7 @@ Puede seleccionar el **[!UICONTROL Mostrar]** y elija **[!UICONTROL Otras accion
 
 * **`accesskey`**: Déclencheur una acción cuando el usuario presiona una tecla designada en el teclado.
 
-* **`onfocus`**: Déclencheur un evento cuando el mapa de imagen recibe el enfoque: por el cursor, por tabulación o pulsando una tecla de acceso. Por ejemplo, puede abrir una página web cuando el mapa de imagen recibe atención y cerrarla cuando pierde dicha atención.
+* **`onfocus`**: Déclencheur un evento cuando el mapa de imagen recibe el enfoque: por el cursor, por tabulación o pulsando una tecla de acceso. Por ejemplo, puede iniciar una página web cuando el mapa de imagen recibe el enfoque y cerrarla cuando el mapa de imagen pierde el enfoque.
 
 * **`onblur`**: Déclencheur un evento cuando el mapa de imagen pierde Focus, ya sea por el cursor o por tabulación.
 

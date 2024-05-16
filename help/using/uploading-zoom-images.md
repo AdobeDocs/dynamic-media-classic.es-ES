@@ -10,7 +10,7 @@ role: User
 exl-id: 44a82437-7592-484f-b45f-17ed1f6efbec
 topic: Content Management
 level: Intermediate
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 16%
@@ -33,7 +33,7 @@ Para aprovechar al máximo las funciones de zoom de Adobe Dynamic Media Classic,
 
 * **Formatos de archivo**: Adobe Dynamic Media Classic es compatible con todos los formatos de archivo de imagen estándar. Los formatos incluyen TIFF, BMP, JPEG, PSD, GIF y EPS. Se recomiendan los formatos de imagen sin pérdida TIFF y PNG. Si utiliza una imagen de JPEG, utilice la configuración de mayor calidad.
 
-* **Espacio de color**: RGB es el espacio de color para presentaciones de imágenes web; las imágenes CMYK se convierten automáticamente en RGB cuando se cargan. Se recomienda cargar imágenes CMYK con un perfil de color ICC incrustado para la conversión a RGB. Consulte también Perfiles ICC.
+* **Espacio de color**: RGB es el espacio de color para las presentaciones de imágenes web; las imágenes CMYK se convierten automáticamente en RGB cuando se cargan. Se recomienda cargar imágenes CMYK con un perfil de color ICC incrustado para la conversión a RGB. Consulte también Perfiles ICC.
 
 >[!MORELIKETHIS]
 >

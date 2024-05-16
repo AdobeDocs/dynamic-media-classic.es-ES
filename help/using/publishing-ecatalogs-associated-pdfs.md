@@ -10,16 +10,16 @@ role: User
 exl-id: 00b70162-2394-433d-a46c-1d90667030af
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 20%
+ht-degree: 13%
 
 ---
 
 # Publicar catálogos electrónicos y PDF asociados{#publishing-ecatalogs-and-associated-pdfs}
 
-La publicación coloca el catálogo electrónico y el PDF en los servidores de imágenes de Dynamic Media para que estén disponibles en el sitio web o la aplicación. Como parte del proceso de publicación, Adobe Dynamic Media Classic activa la cadena URL. Puede colocar esta cadena URL en el código HTML de su página web.
+La publicación coloca el catálogo electrónico y el PDF en los servidores de imágenes de Dynamic Media para que puedan estar disponibles en el sitio web o la aplicación. Como parte del proceso de publicación, Adobe Dynamic Media Classic activa la cadena URL. Puede colocar esta cadena de URL en el código de la página web del HTML.
 
 >[!NOTE]
 >

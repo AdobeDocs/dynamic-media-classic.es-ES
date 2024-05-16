@@ -10,7 +10,7 @@ role: User
 exl-id: 69aabf4a-21bc-4bd8-8aad-33c2cfb9cf57
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 22%
@@ -37,9 +37,9 @@ Los proyectos pueden crearse al cargar archivos o desde el panel de la bibliotec
 
 Puede crear una carpeta de proyecto a partir de la Biblioteca de recursos o al cargar archivos en Adobe Dynamic Media Classic:
 
-* **En la biblioteca de recursos** - Desplácese hasta la parte inferior de la biblioteca de recursos, hasta la sección Proyectos y, a continuación, seleccione **[!UICONTROL Agregar proyecto]**. Escriba un nombre para el proyecto.
+* **En la biblioteca de recursos**: Desplácese hasta la parte inferior de la biblioteca de recursos, a la sección Proyectos y, a continuación, seleccione **[!UICONTROL Agregar proyecto]**. Escriba un nombre para el proyecto.
 
-* **Al cargar archivos** : en la pantalla Cargar, vaya a **[!UICONTROL Agregar al proyecto]** > **[!UICONTROL Crear proyecto]**. Escriba un nombre para el proyecto.
+* **Al cargar archivos**: en la pantalla Cargar, vaya a **[!UICONTROL Agregar al proyecto]** > **[!UICONTROL Crear proyecto]**. Escriba un nombre para el proyecto.
 
 >[!NOTE]
 >
@@ -49,11 +49,11 @@ Puede crear una carpeta de proyecto a partir de la Biblioteca de recursos o al c
 
 Para mostrar, eliminar y cambiar el nombre de una carpeta de Project, siga uno de estos procedimientos:
 
-* **Exploración de contenido** : seleccione el nombre de la carpeta en la biblioteca de recursos. Los recursos que contiene aparecen en el panel Examinar.
+* **Exploración de contenido**: seleccione el nombre de la carpeta en la biblioteca de recursos. Los recursos que contiene aparecen en el panel Examinar.
 
-* **Eliminando carpetas de proyecto** - Seleccione la carpeta Proyecto y, a continuación, seleccione **[!UICONTROL Quitar proyecto]**. Al eliminar recursos de una carpeta de Project, no se eliminan de Adobe Dynamic Media Classic; los recursos permanecen en las carpetas originales en las que están almacenados.
+* **Eliminando carpetas de proyecto**: seleccione la carpeta Proyecto y, a continuación, seleccione **[!UICONTROL Quitar proyecto]**. Al eliminar recursos de una carpeta de Project, no se eliminan de Adobe Dynamic Media Classic; los recursos permanecen en las carpetas originales en las que están almacenados.
 
-* **Cambiando nombre de carpetas de proyecto** : Haga doble clic en el nombre de la carpeta en el Panel de recursos y, a continuación, escriba un nombre nuevo.
+* **Cambiando nombre de carpetas de proyecto**: Haga doble clic en el nombre de la carpeta en el Panel de recursos y, a continuación, escriba un nombre nuevo.
 
 ## Agregar recursos a una carpeta de proyecto {#adding-assets-to-a-project-folder}
 
@@ -61,4 +61,4 @@ Puede agregar imágenes a una carpeta de proyecto empezando por el panel Examina
 
 * **Desde el panel Examinar**, seleccione los recursos y arrástrelos a una carpeta de proyecto. También puede ir a **[!UICONTROL Archivo]** > **[!UICONTROL Añadir a proyecto]**. Seleccione un nombre de carpeta Proyecto en el cuadro de diálogo Seleccionar proyecto y, a continuación, seleccione **[!UICONTROL Enviar]**.
 
-* **Al cargar archivos** : En la página Cargar, seleccione **[!UICONTROL Opciones de trabajo]**. En el cuadro de diálogo Opciones del trabajo de carga, seleccione **[!UICONTROL Proyectos]** y, a continuación, seleccione un nombre de proyecto.
+* **Al cargar archivos**: En la página Cargar, seleccione **[!UICONTROL Opciones de trabajo]**. En el cuadro de diálogo Opciones del trabajo de carga, seleccione **[!UICONTROL Proyectos]** y, a continuación, seleccione un nombre de proyecto.

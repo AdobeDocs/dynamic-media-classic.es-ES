@@ -10,10 +10,10 @@ role: User
 exl-id: af75547e-20e8-44c2-b165-01532d6e21d0
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '727'
-ht-degree: 33%
+ht-degree: 30%
 
 ---
 
@@ -56,7 +56,7 @@ En este ejemplo de sintaxis de URL (el vínculo no está activo), observe un nú
 
 ## Copiar el código incrustado de un visor de conjuntos de giros {#copying-the-embed-code-of-a-spin-set-viewer}
 
-El uso de la función de código incrustado permite revisar el código del visor del conjunto de giros seleccionado. También puede copiar el código en el portapapeles para pegarlo en sus páginas web para la implementación del visor. No se permite la edición del código en el cuadro de diálogo Código incrustado.
+El uso de la función de código incrustado permite revisar el código del visor del conjunto de giros seleccionado. También puede copiar el código en el portapapeles para pegarlo en las páginas web y así poder implementar el visor. No se permite la edición del código en el cuadro de diálogo Código incrustado.
 
 **Para copiar el código incrustado de un visor de conjuntos de giros:**
 

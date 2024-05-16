@@ -10,10 +10,10 @@ role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1227'
-ht-degree: 33%
+ht-degree: 31%
 
 ---
 
@@ -37,13 +37,13 @@ Adobe Dynamic Media Classic ofrece herramientas para editar y crear conjuntos de
 
 Se puede crear un conjunto de ofertas de cualquiera de los siguientes tipos:
 
-* **Imágenes** : Puede montar imágenes para un conjunto de ofertas. Cada imagen incluye una oferta diferente en el conjunto.
+* **Imágenes**: puede montar imágenes para un conjunto de ofertas. Cada imagen incluye una oferta diferente en el conjunto.
 
-* **Plantilla de imagen** : Puede parametrizar plantillas de imagen en Adobe Dynamic Media Classic con el **[!UICONTROL Generar]** > Básicos de plantilla, comando. Mediante parámetros, se pueden intercambiar y personalizar los componentes de la plantilla como el texto de los cuadros de texto y las distintas imágenes. Para un conjunto de ofertas, puede utilizar parámetros de plantilla para crear variaciones de la misma imagen en el conjunto de ofertas, por ejemplo. Para obtener información sobre la creación y parametrización de plantillas de imagen, consulte [Crear parámetros de plantilla](creating-template-parameters.md#creating_template_parameters).
+* **Plantilla de imagen**: Puede parametrizar plantillas de imagen en Adobe Dynamic Media Classic con **[!UICONTROL Generar]** > Básicos de plantilla, comando. Mediante parámetros, se pueden intercambiar y personalizar los componentes de la plantilla como el texto de los cuadros de texto y las distintas imágenes. Para un conjunto de ofertas, puede utilizar parámetros de plantilla para crear variaciones de la misma imagen en el conjunto de ofertas, por ejemplo. Para obtener información sobre la creación y parametrización de plantillas de imagen, consulte [Crear parámetros de plantilla](creating-template-parameters.md#creating_template_parameters).
 
 Consulte también [Conceptos básicos de plantilla](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) vídeo de formación.
 
-* **Vídeo** : Puede montar vídeo para un conjunto de ofertas. Cada vídeo conforma una oferta distinta en el conjunto.
+* **Vídeo**: puede montar el vídeo para un conjunto de ofertas. Cada vídeo conforma una oferta distinta en el conjunto.
 
 ## Creación de un conjunto de ofertas con una plantilla con parámetros {#creating-an-offer-set-with-a-parameterized-template}
 
@@ -67,7 +67,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
    En la parte izquierda de esta página, se muestran los parámetros de la plantilla y sus valores.
 
-1. Cambie los valores de los parámetros para crear la oferta. Por ejemplo, introduzca otro texto en el campo de texto, cambie el tamaño de una capa, intercambie una imagen por otra, o bien seleccione otro ajuste preestablecido de visor.
+1. Cambie los valores de los parámetros para crear la oferta. Por ejemplo, introduzca un texto diferente en un campo de texto, cambie el tamaño de una capa, cambie una imagen por otra o elija un ajuste preestablecido de visor diferente.
 1. Seleccionar **[!UICONTROL Guardar]** o **[!UICONTROL Guardar como**]** para guardar la oferta como parte del conjunto de ofertas.
 
    La página Conjunto de ofertas de Test&amp;Target enumera las ofertas que ha creado.
@@ -93,9 +93,9 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 1. Organice imágenes o vídeos para el conjunto de ofertas. Comience en la pantalla del conjunto de ofertas de Test&amp;Target o en la vista de cuadrícula o la vista de lista y utilice uno de los siguientes métodos:
 
-   * **Pantalla del conjunto de ofertas de Test&amp;Target** - Vaya a **[!UICONTROL Generar]** > **[!UICONTROL Conjunto de ofertas de Test&amp;Target]**. Arrastre las imágenes o los vídeos a la pantalla. Para crear vídeos o imágenes de distintos tamaños, arrastre varias copias de la imagen o del vídeo y defina cada tamaño de manera individual.
+   * **Pantalla del conjunto de ofertas de Test&amp;Target**: Vaya a **[!UICONTROL Generar]** > **[!UICONTROL Conjunto de ofertas de Test&amp;Target]**. Arrastre las imágenes o los vídeos a la pantalla. Para crear vídeos o imágenes de distintos tamaños, arrastre varias copias de la imagen o del vídeo y defina cada tamaño de manera individual.
 
-   * **Vista de cuadrícula o vista de lista** - Seleccione las imágenes o vídeos y, a continuación, vaya a **[!UICONTROL Generar]** > **[!UICONTROL Conjunto de ofertas de Test&amp;Target]**.
+   * **Vista de cuadrícula o vista de lista**: seleccione las imágenes o los vídeos y, a continuación, vaya a **[!UICONTROL Generar]** > **[!UICONTROL Conjunto de ofertas de Test&amp;Target]**.
 
 1. Si lo desea, seleccione una imagen o un vídeo y seleccione **[!UICONTROL Previsualizar]**. En la página Vista previa de ofertas, puede cambiar el tamaño y el aspecto de la imagen o el vídeo que ha seleccionado. O bien, puede cambiar todas las imágenes o vídeos del conjunto de ofertas.
 
@@ -127,10 +127,10 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 1. Para editar un conjunto de ofertas, muestre el conjunto de ofertas en la vista de cuadrícula o en la vista de lista y, a continuación, seleccione su **[!UICONTROL Editar]** botón de rollover.
 1. En la página Conjunto de ofertas de Test&amp;Target, realice una de las acciones siguientes:
 
-   * **Eliminación de una oferta** : seleccione la oferta y, a continuación, seleccione **[!UICONTROL Eliminar]** para eliminar una oferta del conjunto.
-   * **Adición de una oferta** : La forma de añadir una oferta depende del tipo de conjunto de ofertas con el que trabaje:
-      * **Plantillas** - Seleccionar **[!UICONTROL Agregar y previsualizar]** y, en la página Agregar y previsualizar ofertas, cree otra oferta.
-      * **Imágenes y vídeos** : Arrastre una imagen o un vídeo a la página Conjunto de ofertas de Test&amp;Target.
+   * **Eliminación de una oferta**: seleccione la oferta y, a continuación, seleccione **[!UICONTROL Eliminar]** para eliminar una oferta del conjunto.
+   * **Adición de una oferta**: La forma de añadir una oferta depende del tipo de conjunto de ofertas con el que trabaje:
+      * **Plantillas**: Seleccionar **[!UICONTROL Agregar y previsualizar]** y, en la página Agregar y previsualizar ofertas, cree otra oferta.
+      * **Imágenes y vídeos**: arrastre una imagen o un vídeo a la página Conjunto de ofertas de Test&amp;Target.
 
    >[!NOTE]
    >

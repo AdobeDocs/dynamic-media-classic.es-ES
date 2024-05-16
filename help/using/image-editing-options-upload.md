@@ -10,10 +10,10 @@ role: User
 exl-id: 2d9fc6d8-973f-4aaa-bc2c-b49cda2cde58
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1200'
-ht-degree: 29%
+ht-degree: 28%
 
 ---
 
@@ -34,17 +34,17 @@ Estas opciones se encuentran en la página Cargar, en **[!UICONTROL Opciones de 
 
 Puede recortar automáticamente los píxeles del espacio en blanco de una imagen. En el cuadro de diálogo Opciones de carga de trabajo, seleccione **[!UICONTROL Opciones de recorte]**. En el **[!UICONTROL Recorte]** lista desplegable, elija **[!UICONTROL Recortar]**. Elija a continuación estas opciones:
 
-* **[!UICONTROL Recortar basándose en]** : En esta lista desplegable, elija si desea recortar en función del color o la transparencia:
+* **[!UICONTROL Recortar basándose en]**: en esta lista desplegable, elija si desea recortar en función del color o la transparencia:
 
-   * **[!UICONTROL Color]** - Elija el **[!UICONTROL Color]** opción. A continuación, desde el **[!UICONTROL Esquina]** , seleccione la esquina de la imagen con el color que mejor represente el color del espacio en blanco que desea recortar.
+   * **[!UICONTROL Color]**: elija el **[!UICONTROL Color]** opción. A continuación, desde el **[!UICONTROL Esquina]** , seleccione la esquina de la imagen con el color que mejor represente el color del espacio en blanco que desea recortar.
 
-   * **[!UICONTROL Transparencia]** : elija la opción Transparencia.
+   * **[!UICONTROL Transparencia]**: elija la opción Transparencia.
 
-* **[!UICONTROL Tolerancia]** - Arrastre el regulador para especificar una tolerancia de 0 a 1:
+* **[!UICONTROL Tolerancia]**: Arrastre el regulador para especificar una tolerancia de 0 a 1:
 
-   * **Recorte basado en el color** - Especifique 0 para recortar píxeles solo si coinciden exactamente con el color seleccionado en la esquina de la imagen. Los números más cercanos a 1 permiten una mayor diferencia de color.
+   * **Recorte basado en el color**: especifique 0 para recortar píxeles solo si coinciden exactamente con el color seleccionado en la esquina de la imagen. Los números más cercanos a 1 permiten una mayor diferencia de color.
 
-   * **Recorte basado en la transparencia** - Especifique 0 para recortar píxeles solo si son transparentes; los números más cercanos a 1 permiten una mayor transparencia.
+   * **Recorte basado en la transparencia**: especifique 0 para recortar los píxeles solo si son transparentes; los números más cercanos a 1 permiten una mayor transparencia.
 
 ## Recortar manualmente desde los lados de las imágenes
 
@@ -54,11 +54,11 @@ Para recortar manualmente de los lados de una imagen, seleccione el menú Recort
 
 Para seleccionar un espacio de color para la imagen, elija una opción de Perfil de color:
 
-* **[!UICONTROL Convertir a sRGB]** - Convierte a sRGB (Verde Rojo Estándar Azul). SRGB es el espacio de color que se recomienda para mostrar imágenes en páginas web.
+* **[!UICONTROL Convertir a sRGB]**: Convierte a sRGB (azul rojo y verde estándar). sRGB es el espacio de color recomendado para mostrar imágenes en páginas Web.
 
-* **[!UICONTROL Mantener el espacio de color original]** - Conserva el espacio de color original.
+* **[!UICONTROL Mantener el espacio de color original]**: conserva el espacio de color original.
 
-* **[!UICONTROL Personalizar desde]** > **[!UICONTROL Hasta]** : abre menús para que pueda elegir un espacio de color Convertir de y Convertir a. Puede elegir un espacio de color estándar de Photoshop o un espacio de color que haya cargado en Adobe Dynamic Media Classic.
+* **[!UICONTROL Personalizar desde]** > **[!UICONTROL Hasta]**: abre menús para que pueda elegir un espacio de color Convertir de y Convertir a. Puede elegir un espacio de color estándar de Photoshop o un espacio de color que haya cargado en Adobe Dynamic Media Classic.
 
 Consulte [Perfiles ICC](icc-profiles.md#icc_profiles).
 
@@ -93,7 +93,7 @@ Utilice Fondo de cobertura para poder eliminar automáticamente el fondo de una 
 | --- | --- |
 | Fondo de cobertura | Seleccione esta opción para activar o &quot;activar&quot; la función y las opciones de Fondo de cobertura. |
 | Esquina | Obligatorio.<br>La esquina de la imagen que se utiliza para definir el color de fondo a knockout.<br>Puede elegir entre <b>Superior izquierda, inferior izquierda, superior derecha o inferior derecha</b>. |
-| Método de relleno | Requerido. <br>Controla la transparencia de píxeles desde la ubicación de Corner que se haya definido.<br>Puede elegir entre los siguientes métodos de relleno:<br>· <b>Relleno Flood</b> : convierte en transparentes todos los píxeles que coincidan con la Esquina que haya especificado y a la que esté conectado.<br>· <b>Coincidir con píxeles</b> : convierte todos los píxeles coincidentes en transparentes, independientemente de su ubicación en la imagen. |
+| Método de relleno | Requerido. <br>Controla la transparencia de píxeles desde la ubicación de Corner que se haya definido.<br>Puede elegir entre los siguientes métodos de relleno:<br>· <b>Relleno Flood</b>: convierte en transparentes todos los píxeles que coinciden con la Esquina que ha especificado y a la que está conectado.<br>· <b>Coincidir con píxeles</b>: convierte todos los píxeles coincidentes en transparentes, independientemente de su ubicación en la imagen. |
 | Tolerancia | Opcional.<br>Controla la cantidad de variación permitida en la coincidencia de color de píxel en función de la ubicación de Esquina que haya establecido.<br>Utilice un valor de 0,0 para que coincida exactamente con los colores de los píxeles. O bien, use un valor de 1,0 para permitir la mayor variación. |
 
 >[!MORELIKETHIS]

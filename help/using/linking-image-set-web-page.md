@@ -10,16 +10,16 @@ role: User
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '675'
-ht-degree: 33%
+ht-degree: 24%
 
 ---
 
 # Vinculación de un conjunto de imágenes a una página web{#linking-an-image-set-to-a-web-page}
 
-Después de publicar un conjunto de imágenes, puede copiar su dirección URL asociada o su código incrustado para utilizarlos en el sitio web o la aplicación. A continuación, podrá implementar la URL o pegar el código incrustado según lo necesite para que los usuarios puedan ver el conjunto de imágenes en el sitio web o en la aplicación.
+Después de publicar un conjunto de imágenes, puede copiar su dirección URL asociada o su código incrustado para utilizarlos en el sitio web o la aplicación. A continuación, puede implementar la dirección URL o pegar el código incrustado según sea necesario para que los usuarios puedan ver el conjunto de imágenes en el sitio web o la aplicación.
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Después de publicar un conjunto de imágenes, puede copiar su dirección URL as
 
      En la página Lista de visualizadores, en la columna Acciones de la tabla, seleccione **[!UICONTROL Copiar URL]**.
 
-## Adición de direcciones URL de conjuntos de imágenes a una página web {#adding-image-set-urls-to-your-web-page}
+## Adición de direcciones URL de conjuntos de imágenes a la página web {#adding-image-set-urls-to-your-web-page}
 
 La forma más común de implementar conjuntos de imágenes es colocar un vínculo (mediante un icono de navegación) en la página web. Cuando se selecciona, el vínculo inicia una página dinámica (JSP) que muestra el conjunto de imágenes en una ventana de zoom emergente. El vínculo de zoom abre una ventana emergente que contiene la función de zoom real.
 
@@ -52,7 +52,7 @@ Para obtener más información y ejemplos de código, consulte [Incrustar el vis
 
 ## Copiar el código incrustado de un visor de conjuntos de imágenes {#copying-the-embed-code-of-an-image-set-viewer}
 
-El uso de la función de código incrustado permite revisar el código del visor del conjunto de imágenes seleccionado. También puede copiar el código en el portapapeles para pegarlo en sus páginas web para la implementación del visor. No se permite la edición del código en el cuadro de diálogo Código incrustado.
+El uso de la función de código incrustado permite revisar el código del visor del conjunto de imágenes seleccionado. También puede copiar el código en el portapapeles para pegarlo en las páginas web y así poder implementar el visor. No se permite la edición del código en el cuadro de diálogo Código incrustado.
 
 **Para copiar el código incrustado de un visor de conjuntos de imágenes:**
 

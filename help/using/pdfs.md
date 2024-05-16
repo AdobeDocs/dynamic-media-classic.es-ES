@@ -10,7 +10,7 @@ role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
 topic: Integrations, Development
 level: Experienced
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 26%
@@ -37,13 +37,13 @@ Las opciones para cargar archivos de PDF se encuentran en la página Cargar, en 
 
 ### Opciones de procesamiento
 
-**[!UICONTROL Rasterizar]** - (Predeterminado) Desgarra las páginas del archivo PDF y convierte los gráficos vectoriales en imágenes de mapa de bits. Para crear un catálogo electrónico, elija esta opción.
+**[!UICONTROL Rasterizar]**: (Predeterminado) rasga las páginas del archivo PDF y convierte los gráficos vectoriales en imágenes de mapa de bits. Para crear un catálogo electrónico, elija esta opción.
 
-**[!UICONTROL Extraer palabras de búsqueda]** : extrae palabras del archivo PDF para que se puedan buscar palabras clave en el archivo en un visor de catálogos electrónicos.
+**[!UICONTROL Extraer palabras de búsqueda]**: extrae palabras del archivo PDF para que se puedan buscar palabras clave en el archivo en un visor de catálogos electrónicos.
 
-**[!UICONTROL Extraer vínculos]** : extrae vínculos de los archivos del PDF y los convierte a mapas de imágenes que se utilizan en un visor de catálogos electrónicos.
+**[!UICONTROL Extraer vínculos]**: extrae vínculos de los archivos del PDF y los convierte a mapas de imágenes que se utilizan en un visor de catálogos electrónicos.
 
-**[!UICONTROL Generación automática de catálogos electrónicos con PDF de varias páginas]** : crea automáticamente un catálogo electrónico a partir del archivo del PDF. El catálogo electrónico recibe el mismo nombre que el archivo PDF cargado. (Esta opción solo está disponible si rasteriza el archivo PDF al cargarlo).
+**[!UICONTROL Generación automática de catálogos electrónicos con PDF de varias páginas]**: crea automáticamente un catálogo electrónico a partir del archivo del PDF. El catálogo electrónico recibe el mismo nombre que el archivo PDF cargado. (Esta opción solo está disponible si rasteriza el archivo PDF al cargarlo).
 
 ### Resolución
 
@@ -53,21 +53,21 @@ Determina el valor de la resolución. Este valor determina cuántos píxeles se 
 
 Seleccione el menú Espacio de color y elija un espacio de color para el archivo PDF. La mayoría de los archivos PDF tienen imágenes de color RGB y CMYK. El espacio de color RGB es preferible para la visualización en línea.
 
-* **[!UICONTROL Detectar automáticamente]** - Conserva el espacio de color del archivo del PDF.
+* **[!UICONTROL Detectar automáticamente]**: Conserva el espacio de color del archivo del PDF.
 
-* **[!UICONTROL Forzar como RGB]** - Convierte al espacio de color del RGB.
+* **[!UICONTROL Forzar como RGB]**: convierte al espacio de color del RGB.
 
-* **[!UICONTROL Forzar como CMYK]** - Convierte al espacio de color CMYK.
+* **[!UICONTROL Forzar como CMYK]**: convierte al espacio de color CMYK.
 
-* **[!UICONTROL Forzar como escala de grises]** - Se convierte al espacio de color de escala de grises.
+* **[!UICONTROL Forzar como escala de grises]**: convierte al espacio de color de escala de grises.
 
 ### Opciones de perfiles de color
 
-* **[!UICONTROL Convertir a sRGB]** - Convierte a sRGB (Verde Rojo Estándar Azul). sRGB es el espacio de color recomendado para mostrar imágenes en una página web.
+* **[!UICONTROL Convertir a sRGB]**: Convierte a sRGB (azul rojo y verde estándar). sRGB es el espacio de color recomendado para mostrar imágenes en una página Web.
 
-* **[!UICONTROL Mantener el espacio de color original]** - Conserva el espacio de color original.
+* **[!UICONTROL Mantener el espacio de color original]**: conserva el espacio de color original.
 
-* **[!UICONTROL Personalizar desde]** > **[!UICONTROL Hasta]** : abre menús para que pueda elegir un espacio de color Convertir de y Convertir a. Puede elegir un espacio de color estándar de Photoshop o un espacio de color que haya cargado en Adobe Dynamic Media Classic.
+* **[!UICONTROL Personalizar desde]** > **[!UICONTROL Hasta]**: abre menús para que pueda elegir un espacio de color Convertir de y Convertir a. Puede elegir un espacio de color estándar de Photoshop o un espacio de color que haya cargado en Adobe Dynamic Media Classic.
 
 Consulte también [Perfiles ICC](/help/using/icc-profiles.md#icc_profiles).
 
@@ -78,17 +78,17 @@ Puede recortar automáticamente los píxeles de espacio en blanco de un archivo 
 1. Seleccione el menú Recortar y elija Recortar.
 1. Especifique las opciones siguientes:
 
-   * **[!UICONTROL Recortar basándose en]** - Elija si desea recortar en función del color o la transparencia:
+   * **[!UICONTROL Recortar basándose en]**: elija si desea recortar en función del color o la transparencia:
 
-      * **[!UICONTROL Color]** - Elija la opción Color. A continuación, seleccione la **[!UICONTROL Esquina]** y elija la esquina del PDF con el color que mejor represente el color del espacio en blanco que desea recortar.
+      * **[!UICONTROL Color]**: elija la opción Color. A continuación, seleccione la **[!UICONTROL Esquina]** y elija la esquina del PDF con el color que mejor represente el color del espacio en blanco que desea recortar.
 
-      * **[!UICONTROL Transparencia]** : elija la opción Transparencia.
+      * **[!UICONTROL Transparencia]**: elija la opción Transparencia.
 
-   * **[!UICONTROL Tolerancia]** : Arrastre el regulador para especificar una tolerancia de 0 a 1.
+   * **[!UICONTROL Tolerancia]**: Arrastre el regulador para especificar una tolerancia de 0 a 1.
 
-   * **[!UICONTROL Recorte basado en el color]** : especifique 0 para recortar píxeles solo si coinciden exactamente con el color seleccionado en la esquina del PDF. Los números más cercanos a 1 permiten una mayor diferencia de color.
+   * **[!UICONTROL Recorte basado en el color]**: especifique 0 para recortar píxeles solo si coinciden exactamente con el color seleccionado en la esquina del PDF. Los números más cercanos a 1 permiten una mayor diferencia de color.
 
-   * **[!UICONTROL Recorte basado en la transparencia]** - Especifique 0 para recortar píxeles solo si son transparentes; los números más cercanos a 1 permiten una mayor transparencia.
+   * **[!UICONTROL Recorte basado en la transparencia]**: especifique 0 para recortar los píxeles solo si son transparentes; los números más cercanos a 1 permiten una mayor transparencia.
 
 ## Recortar desde los lados de las páginas PDF {#cropping-from-the-sides-of-pdf-pages}
 

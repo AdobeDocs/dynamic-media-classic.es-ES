@@ -10,10 +10,10 @@ role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
 source-wordcount: '804'
-ht-degree: 21%
+ht-degree: 17%
 
 ---
 
@@ -23,7 +23,7 @@ Los conceptos básicos de las plantillas se crean dinámicamente y se pueden dir
 
 Una plantilla puede contener un número cualquiera de capas de imagen y capas de texto. Puede convertir un archivo estático que contenga capas, como un archivo PSD con capas, en una plantilla y crear plantillas en Adobe Dynamic Media Classic. Puede crear capas de texto en plantillas utilizando las fuentes cargadas en Adobe Dynamic Media Classic. Después de agregar texto a una plantilla, puede aplicarle formato cambiando su justificación, fuente, tamaño de fuente y color.
 
-En la página Parámetros, puede convertir cualquier aspecto de una plantilla en un parámetro direccionable. Al hacerlo, puede cambiar qué imagen de capas utilizar o qué valor de texto utilizar en la plantilla. Los parámetros se pasan junto a la cadena URL, lo que le permite cambiar cualquier parámetro para personalizar de forma dinámica la imagen de respuesta generada por el servidor de imágenes.
+En la página Parámetros, puede convertir cualquier aspecto de una plantilla en un parámetro direccionable. Al hacerlo, puede cambiar qué imagen de capas utilizar o qué valor de texto utilizar en la plantilla. Los parámetros se pasan con la cadena URL, lo que permite cambiar cualquier parámetro para personalizar dinámicamente la imagen de respuesta generada desde el servidor de imágenes.
 
 Consulte también [Conceptos básicos de plantilla](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) vídeo de formación.
 
@@ -59,14 +59,14 @@ Para parametrizar una capa, abra la plantilla en la página Plantilla y seleccio
 
 ## 4. Publicar plantillas
 
-La publicación de la plantilla la coloca en los servidores de imágenes de Dynamic Media para que se pueda enviar dinámicamente al sitio web o a la aplicación. La publicación también activa la dirección URL para llamar a la plantilla desde los servidores de imágenes de Dynamic Media a su sitio web o aplicación.
+La publicación de la plantilla la coloca en Dynamic Media Image Servers para que se pueda enviar dinámicamente al sitio web o a la aplicación. La publicación también activa la dirección URL para llamar a la plantilla desde los servidores de imágenes de Dynamic Media a su sitio web o aplicación.
 
 Debe publicar todas las imágenes asociadas a su plantilla.
 
 Para publicar una plantilla, márquela para publicación y, en la barra de navegación global, seleccione **[!UICONTROL Publish]**. A continuación seleccione **[!UICONTROL Enviar publicación]**. Consulte [Publicar plantillas](publishing-templates.md#publishing_templates).
 
-## 5. Vinculación de una plantilla a una página web
+## 5. Vinculación de una plantilla a una página Web
 
 Dynamic Media Classic crea direcciones URL para las plantillas y las activa al publicar plantillas en servidores de imágenes de Dynamic Media. Puede copiar estas cadenas de URL desde la página Vista previa de plantilla.
 
-Seleccione la plantilla en el panel Examinar y, a continuación, seleccione **[!UICONTROL Previsualizar]** para abrir la página Vista previa de la plantilla. Elija un ajuste preestablecido de imagen para enviar la plantilla y, a continuación, seleccione **[!UICONTROL Copiar URL]**. Una vez copiada la dirección URL de la página de vista previa, puede utilizarla en su sitio web o aplicación. Consulte [Vinculación de una plantilla a una página web](linking-template-web-page.md#linking_a_template_to_a_web_page).
+Seleccione la plantilla en el panel Examinar y, a continuación, seleccione **[!UICONTROL Previsualizar]** para abrir la página Vista previa de la plantilla. Elija un ajuste preestablecido de imagen para enviar la plantilla y, a continuación, seleccione **[!UICONTROL Copiar URL]**. Después de copiar la dirección URL de la página Vista previa, puede utilizarla en su sitio Web o aplicación. Consulte [Vinculación de una plantilla a una página web](linking-template-web-page.md#linking_a_template_to_a_web_page).

@@ -10,16 +10,16 @@ role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '683'
-ht-degree: 31%
+ht-degree: 24%
 
 ---
 
 # Vinculación de un conjunto de muestras a una página web{#linking-a-swatch-set-to-a-web-page}
 
-Después de publicar un conjunto de muestras, puede utilizar su URL asociada o incrustar código en el sitio web o la aplicación. A continuación, podrá implementar la URL o código incrustado según lo necesite para que los usuarios puedan ver el conjunto de muestras en el sitio web o en la aplicación.
+Después de publicar un conjunto de muestras, puede utilizar su dirección URL asociada o incrustar código en el sitio web o la aplicación. A continuación, puede implementar la dirección URL o el código incrustado según sea necesario para que los usuarios puedan ver el conjunto de muestras en su sitio web o aplicación.
 
 >[!NOTE]
 >
@@ -52,7 +52,7 @@ Para obtener más información y ejemplos de código, consulte [Incrustación de
 
 ## Copiar el código de incrustación de un visualizador de conjuntos de muestras {#copying-the-embed-code-of-a-swatch-set-viewer}
 
-El uso de la función de código incrustado permite revisar el código del visor del conjunto de muestras seleccionado. También puede copiar el código en el portapapeles para pegarlo en sus páginas web para la implementación del visor. No se permite la edición del código en el cuadro de diálogo Código incrustado.
+El uso de la función de código incrustado permite revisar el código del visor del conjunto de muestras seleccionado. También puede copiar el código en el portapapeles para pegarlo en las páginas web y así poder implementar el visor. No se permite la edición del código en el cuadro de diálogo Código incrustado.
 
 **Para copiar el código de incrustación de un visualizador de conjuntos de muestras:**
 

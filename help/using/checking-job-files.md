@@ -10,7 +10,7 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1619'
 ht-degree: 24%
@@ -33,25 +33,25 @@ Seleccionar **[!UICONTROL Trabajos]** en la barra de navegación global, para qu
 
 En la ficha Historial de la página Trabajos, los trabajos se clasifican según estas categorías:
 
-* **[!UICONTROL Tipo de trabajo]** : Un icono indica el tipo de trabajo: Cargar y Publicar son los tipos de trabajo más comunes.
+* **[!UICONTROL Tipo de trabajo]**: Un icono indica el tipo de trabajo: Cargar y Publicar son los tipos de trabajo más comunes.
 
-* **[!UICONTROL Nombre de trabajo]** - El nombre del trabajo. El nombre incluye la parte del nombre introducida por el usuario, así como la fecha y la hora.
+* **[!UICONTROL Nombre de trabajo]**: nombre del trabajo. El nombre incluye la parte del nombre introducida por el usuario, así como la fecha y la hora.
 
-* **[!UICONTROL Iniciado]** - Cuando comenzó el trabajo.
+* **[!UICONTROL Iniciado]**: cuando se inició el trabajo.
 
-* **[!UICONTROL Total]** - El número de archivos transferidos.
+* **[!UICONTROL Total]**: el número de archivos transferidos.
 
-* **[!UICONTROL W (advertencias)]** : el número de advertencias del trabajo (si las hay). Las advertencias indican los problemas sobre el trabajo que no afectan a la finalización del mismo. Normalmente, estas advertencias pueden omitirse porque se refieren a archivos ocultos. Por ejemplo, `.DS_store` Los archivos (Mac) y Thumbs.db (Windows®) contienen información sobre cómo mostrar archivos de imagen a los usuarios. Sin embargo, las entradas de advertencia relativas a estos archivos se pueden ignorar porque no pertenecen a cómo se utilizan estos archivos en Adobe Dynamic Media Classic. Si desea obtener información detallada sobre las advertencias, puede hacer doble clic en el nombre de trabajo.
+* **[!UICONTROL W (advertencias)]**: el número de advertencias del trabajo (si las hay). Las advertencias indican los problemas sobre el trabajo que no afectan a la finalización del mismo. Normalmente, estas advertencias pueden omitirse porque se refieren a archivos ocultos. Por ejemplo, `.DS_store` Los archivos (Mac) y Thumbs.db (Windows®) contienen información sobre cómo mostrar archivos de imagen a los usuarios. Sin embargo, las entradas de advertencia relativas a estos archivos se pueden ignorar porque no pertenecen a cómo se utilizan estos archivos en Adobe Dynamic Media Classic. Si desea obtener información detallada sobre las advertencias, puede hacer doble clic en el nombre de trabajo.
 
-* **[!UICONTROL E (errores)]** - Indica el número de errores en el trabajo (si los hay). Si desea obtener información detallada sobre los errores, puede hacer doble clic en el nombre de trabajo.
+* **[!UICONTROL E (errores)]**: Indica el número de errores en el trabajo (si los hay). Si desea obtener información detallada sobre los errores, puede hacer doble clic en el nombre de trabajo.
 
-* **[!UICONTROL Duración]** - Cuánto tiempo se tardó en completar el trabajo.
+* **[!UICONTROL Duración]**: Cuánto tiempo se tardó en completar el trabajo.
 
-* **[!UICONTROL Estado]** - Muestra el estado del trabajo.
+* **[!UICONTROL Estado]**: Muestra el estado del trabajo.
 
-* **[!UICONTROL Destino]** : para trabajos de carga, el nombre de la empresa y la carpeta en la que se cargaron los archivos. Esta categoría no se aplica a los trabajos de publicación.
+* **[!UICONTROL Destino]**: para los trabajos de carga, el nombre de la empresa y la carpeta en la que se cargaron los archivos. Esta categoría no se aplica a los trabajos de publicación.
 
-* **[!UICONTROL Enviado por]** : lista de los usuarios que cargaron los recursos.
+* **[!UICONTROL Enviado por]**: lista de los usuarios que cargaron los recursos.
 
 >[!NOTE]
 >
@@ -61,13 +61,13 @@ En la ficha Historial de la página Trabajos, los trabajos se clasifican según 
 
 Para ordenar trabajos o cambiar la vista de la ficha Historial en la página Trabajos, utilice estas técnicas:
 
-* **[!UICONTROL Ordenando]** : seleccione un nombre de columna para ordenar la lista por una columna en particular. Para cambiar entre el orden ascendente o descendente, seleccione la flecha que aparece al lado del nombre de la columna.
+* **[!UICONTROL Ordenando]**: seleccione un nombre de columna para ordenar la lista por una columna en particular. Para cambiar entre el orden ascendente o descendente, seleccione la flecha que aparece al lado del nombre de la columna.
 
-* **[!UICONTROL Intervalo de fechas]** - Seleccione el **[!UICONTROL Intervalo de fechas]** y elija una opción para reducir la lista de trabajos a la fecha actual, la semana anterior o el mes anterior. Seleccionar **[!UICONTROL Intervalo de fechas personalizado]**, luego introduzca un intervalo de fechas específico.
+* **[!UICONTROL Intervalo de fechas]**: seleccione la **[!UICONTROL Intervalo de fechas]** y elija una opción para reducir la lista de trabajos a la fecha actual, la semana anterior o el mes anterior. Seleccionar **[!UICONTROL Intervalo de fechas personalizado]**, luego introduzca un intervalo de fechas específico.
 
-* **[!UICONTROL Tipo de trabajo]** - Seleccione el **[!UICONTROL Tipo de trabajo]** y elija **[!UICONTROL Publish]** o **[!UICONTROL Cargar]** para reducir la lista a trabajos de publicación o carga. Seleccionar **[!UICONTROL Todo]** para ver ambos tipos de trabajos.
+* **[!UICONTROL Tipo de trabajo]**: seleccione la **[!UICONTROL Tipo de trabajo]** y elija **[!UICONTROL Publish]** o **[!UICONTROL Cargar]** para reducir la lista a trabajos de publicación o carga. Seleccionar **[!UICONTROL Todo]** para ver ambos tipos de trabajos.
 
-* **[!UICONTROL Mostrar]** - Vaya a **[!UICONTROL Mostrar]** > **[!UICONTROL Mis trabajos]** o **[!UICONTROL Mostrar]** > **[!UICONTROL Todas las tareas]** para reducir la lista a los trabajos que ha pedido o a los trabajos que han pedido los miembros de su compañía.
+* **[!UICONTROL Mostrar]**: Vaya a **[!UICONTROL Mostrar]** > **[!UICONTROL Mis trabajos]** o **[!UICONTROL Mostrar]** > **[!UICONTROL Todas las tareas]** para reducir la lista a los trabajos que ha pedido o a los trabajos que han pedido los miembros de su compañía.
 
 ## Ver, copiar o imprimir un informe de Detalles del trabajo {#viewing-copying-or-printing-a-job-details-report}
 
@@ -93,13 +93,13 @@ Seleccione el botón Trabajos en la barra de navegación global y, en la página
 
 Seleccione un trabajo recurrente en la página Trabajos y siga estas instrucciones si desea editarlo o eliminarlo:
 
-* **Editar un trabajo recurrente** - Seleccione el **[!UICONTROL Editar]** y escriba la información de programación en el cuadro de diálogo Editar trabajo programado. Si desea que el trabajo se repita en un intervalo de su elección, vaya a **[!UICONTROL Repetir]** > **[!UICONTROL Personalizado]**.
+* **Editar un trabajo recurrente**: seleccione la **[!UICONTROL Editar]** y escriba la información de programación en el cuadro de diálogo Editar trabajo programado. Si desea que el trabajo se repita en un intervalo de su elección, vaya a **[!UICONTROL Repetir]** > **[!UICONTROL Personalizado]**.
 
 Consulte [Crear un intervalo de tiempo de trabajo de carga o publicación personalizado](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
 
-* **Eliminación de un trabajo recurrente** - Seleccione el **[!UICONTROL Eliminar]** botón.
+* **Eliminación de un trabajo recurrente**: seleccione la **[!UICONTROL Eliminar]** botón.
 
-* **Pausa (y reanudación) de un trabajo recurrente** : en la columna Activo, anule la selección de una casilla de verificación para pausar un trabajo; seleccione una casilla de verificación para reanudar un trabajo que se haya pausado.
+* **Pausa (y reanudación) de un trabajo recurrente**: en la columna Activo, anule la selección de una casilla de verificación para pausar un trabajo; seleccione una casilla de verificación para reanudar un trabajo en pausa.
 
 ### Crear un intervalo de tiempo de trabajo de carga o publicación personalizado {#creating-a-custom-upload-or-publish-job-time-interval}
 
@@ -117,13 +117,13 @@ En esta tabla se muestran los períodos temporales, los valores permitidos y los
 
 | Períodos temporales | Valores permitidos | Comentarios | Comodines admitidos |
 |--- |--- |--- |--- |
-| Segundos | 0 a 59 |  | `, - * /` |
-| Minutos | 0 a 59 |  | `, - * /` |
-| Horas | 0 a 23 | Tenga en cuenta que se utiliza un reloj de 24 horas. | `, - * /` |
-| Día del mes | 1 a 31 | No se puede especificar un valor numérico tanto para &quot;día del mes&quot; como para &quot;día de la semana&quot;. Uno de estos campos debe utilizar un `?` carácter comodín. | `, - * / ? L C` |
-| Mes | 1 a 12 o ene, feb, mar, abr, may, jun, jul, ago, sep, oct, nov, dic | Los valores distinguen entre mayúsculas y minúsculas. | `, - * /` |
-| Día de la semana | lun, mar, mié, jue, vie, sáb, dom | Los valores distinguen entre mayúsculas y minúsculas. No se puede especificar un valor numérico tanto para &quot;día del mes&quot; como para &quot;día de la semana&quot;. Uno de estos campos debe utilizar un `?` carácter comodín. | `, - * / ? L C #` |
-| Año (opcional) | Vacío o de 1970 a 2099 |  | `, - * /` |
+| Segundos | 0 a 59 |  | `,: * /` |
+| Minutos | 0 a 59 |  | `,: * /` |
+| Horas | 0 a 23 | Tenga en cuenta que se utiliza un reloj de 24 horas. | `,: * /` |
+| Día del mes | 1 a 31 | No se puede especificar un valor numérico tanto para &quot;día del mes&quot; como para &quot;día de la semana&quot;. Uno de estos campos debe utilizar un `?` carácter comodín. | `,: * / ? L C` |
+| Mes | 1 a 12 o ene, feb, mar, abr, may, jun, jul, ago, sep, oct, nov, dic | Los valores distinguen entre mayúsculas y minúsculas. | `,: * /` |
+| Día de la semana | lun, mar, mié, jue, vie, sáb, dom | Los valores distinguen entre mayúsculas y minúsculas. No se puede especificar un valor numérico tanto para &quot;día del mes&quot; como para &quot;día de la semana&quot;. Uno de estos campos debe utilizar un `?` carácter comodín. | `,: * / ? L C #` |
+| Año (opcional) | Vacío o de 1970 a 2099 |  | `,: * /` |
 
 
 En esta tabla se muestran los caracteres comodín que se admiten en el cuadro Regla y cómo se utilizan estos caracteres:

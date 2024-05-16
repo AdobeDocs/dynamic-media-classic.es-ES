@@ -10,7 +10,7 @@ role: User
 exl-id: eb8afc39-7784-4e32-80b6-2b87f3e0acff
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 18%
@@ -21,10 +21,10 @@ ht-degree: 18%
 
 Seleccione un recurso en el panel de exploración para poder trabajar con él. Para seleccionar recursos, utilice estas técnicas:
 
-* **Un solo recurso** : seleccione el recurso (al hacer doble clic se abre el recurso en la Vista de detalles).
+* **Un solo recurso**: seleccione el recurso (al hacer doble clic se abre el recurso en la Vista de detalles).
 
-* **Varios recursos** - Ctrl + clic (Windows®) o Comando + clic (Mac) para seleccionar recursos en diferentes lugares del panel Examinar. Pulse la tecla Mayús mientras hace clic (haga clic en un recurso y haga clic en otro manteniendo la tecla Mayús pulsada) para seleccionar recursos adyacentes.
+* **Varios recursos**: Ctrl + clic (Windows®) o Comando + clic (Mac) para seleccionar recursos en diferentes lugares del panel Examinar. Pulse la tecla Mayús mientras hace clic (haga clic en un recurso y haga clic en otro manteniendo la tecla Mayús pulsada) para seleccionar recursos adyacentes.
 
-* **Todos los recursos del panel Examinar** - Vaya a **[!UICONTROL Seleccionar]** > **[!UICONTROL Todo]**.
+* **Todos los recursos del panel Examinar**: Vaya a **[!UICONTROL Seleccionar]** > **[!UICONTROL Todo]**.
 
-* **No hay recursos** - Vaya a **[!UICONTROL Seleccionar]** > **[!UICONTROL Ninguno]**.
+* **No hay recursos**: Vaya a **[!UICONTROL Seleccionar]** > **[!UICONTROL Ninguno]**.

@@ -10,10 +10,10 @@ role: User
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
-source-wordcount: '1060'
-ht-degree: 23%
+source-wordcount: '1061'
+ht-degree: 19%
 
 ---
 
@@ -26,8 +26,8 @@ Con Secure Testing, puede obtener una vista previa de la versión de ensayo del 
 Si lo desea, cree un entorno de ensayo en lugar de publicar los recursos por los siguientes motivos:
 
 * Previsualizar sitios web antes del lanzamiento público (sitio web de ensayo).
-* Disponer de los recursos que requieren acceso limitado, como catálogos electrónicos que muestran los precios en una aplicación web B2B.
-* Utilizar recursos detrás de un firewall como parte del sistema de administración de información del producto, aplicación del servicio de atención al cliente, centro de formación, etc.
+* Proporcione recursos que requieran acceso restringido, como catálogos electrónicos que muestran precios en una aplicación web B2B.
+* Utilice recursos detrás de un cortafuegos como parte de un sistema de gestión de la información sobre productos, una aplicación de servicio al cliente, un sitio de formación, etc.
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ Los recursos no publicados están disponibles inmediatamente desde los servicios
 
 >[!NOTE]
 >
->Los servicios de prueba segura utilizan el servidor de catálogos configurado con un contexto de publicación interno. Por lo tanto, si su empresa está configurada para publicar en pruebas seguras, cualquier recurso cargado en Adobe Dynamic Media Classic estará disponible inmediatamente en los servicios de pruebas seguras. Esta funcionalidad se cumple independientemente de si los recursos se marcan para su publicación durante la carga.
+>Los servicios de prueba segura utilizan el servidor de catálogos configurado con un contexto de publicación interno. Por lo tanto, si su empresa está configurada para publicar en pruebas seguras, todos los recursos cargados en Adobe Dynamic Media Classic estarán disponibles inmediatamente en los servicios de pruebas seguras. Esta funcionalidad se cumple independientemente de si los recursos se marcan para su publicación durante la carga.
 
 Actualmente, los servicios de prueba segura admiten los siguientes tipos de recursos y funcionalidades:
 
@@ -63,7 +63,7 @@ Last Modified Date:
 
 * Imágenes.
 * Viñetas (solicitudes del servidor de procesamiento).
-* Solicitudes del servidor de procesamiento (admitidas, pero solicitadas explícitamente por el cliente).
+* Procesar solicitudes del servidor (compatible, pero el cliente debe solicitarlo explícitamente).
 * Conjuntos, incluidos los conjuntos de imágenes, catálogos electrónicos, conjuntos de procesamiento y conjuntos de medios.
 * Visores de medios enriquecidos estándar de Adobe Dynamic Media Classic.
 * Páginas JSP de Adobe Dynamic Media Classic OnDemand.
@@ -88,7 +88,7 @@ Pruebe el servicio Prueba segura para asegurarse de que funciona según lo esper
 
 <!-- >[!NOTE]
 >
->*If you do not mention any IPs under **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Test Image Service]*** - If you add an IP only, that IP is able to call the assets and no other IP are allowed to make the calls. As long there is no IP mentioned under that section, all IPs are allowed to make the calls for the assets, and they show up. -->
+>*If you do not mention any IPs under **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Test Image Service]***: If you add an IP only, that IP is able to call the assets and no other IP are allowed to make the calls. As long there is no IP mentioned under that section, all IPs are allowed to make the calls for the assets, and they show up. -->
 
 ### Preparación de la cuenta
 
@@ -133,7 +133,7 @@ Póngase en contacto con el Servicio de atención al Adobe si falta el nombre de
 
 Se necesitan dos variaciones de un sitio web que vincule los recursos publicados y no publicados:
 
-* Versión pública: vincule recursos con la sintaxis tradicional de URL de Adobe Dynamic Media Classic.
+* Versión pública: Vincule los recursos con la sintaxis tradicional de URL de Adobe Dynamic Media Classic.
 * Versión de ensayo: vincule los recursos con la misma sintaxis pero con el nombre del sitio de prueba segura.
 
 ### Ejecución de las pruebas

@@ -9,10 +9,10 @@ role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1971'
-ht-degree: 33%
+ht-degree: 32%
 
 ---
 
@@ -101,15 +101,15 @@ Puede filtrar y ordenar la lista para buscar usuarios. Todos los usuarios de las
 
 Puede utilizar las siguientes técnicas de filtrado de listas de usuarios:
 
-* **Filtrar por grupo** - Seleccione el **[!UICONTROL Por grupo]** y elija una opción para reducir la lista a los usuarios de un grupo.
+* **Filtrar por grupo**: seleccione la **[!UICONTROL Por grupo]** y elija una opción para reducir la lista a los usuarios de un grupo.
 
-* **Filtrar por función de usuario** - Seleccione el **[!UICONTROL Por función de usuario]** y elija una opción para reducir la lista a usuarios o administradores de diferentes tipos.
+* **Filtrar por función de usuario**: seleccione la **[!UICONTROL Por función de usuario]** y elija una opción para reducir la lista a usuarios o administradores de diferentes tipos.
 
-* **Filtrar por nombre de campo** - Seleccionar **[!UICONTROL Activar filtro por campo]**. A continuación, seleccione la **[!UICONTROL Por nombre de campo]** , elija una columna para filtrar la lista, seleccione el menú Carácter de filtro y elija una carta. La lista se filtra en una de las columnas mediante la letra que elija. Para ver la lista completa, anule la selección del **[!UICONTROL Activar filtro por campo]** opción.
+* **Filtrar por nombre de campo**: Seleccionar **[!UICONTROL Activar filtro por campo]**. A continuación, seleccione la **[!UICONTROL Por nombre de campo]** , elija una columna para filtrar la lista, seleccione el menú Carácter de filtro y elija una carta. La lista se filtra en una de las columnas mediante la letra que elija. Para ver la lista completa, anule la selección del **[!UICONTROL Activar filtro por campo]** opción.
 
-* **Filtrar usuarios no válidos** - Anular selección **[!UICONTROL Incluir no válido]**. En los resultados de búsqueda aparecerán solo los usuarios que están en el sistema. Se han eliminado usuarios no válidos del sistema y de las cuentas que administra.
+* **Filtrar usuarios no válidos**: Anular la selección **[!UICONTROL Incluir no válido]**. En los resultados de búsqueda aparecerán solo los usuarios que están en el sistema. Se han eliminado usuarios no válidos del sistema y de las cuentas que administra.
 
-* **Ordenar por encabezado de columna** : seleccione un encabezado para ordenar todos los usuarios por su estado, alfabéticamente por nombre, apellidos o correo electrónico, por función de usuario o por estado válido o no válido.
+* **Ordenar por encabezado de columna**: seleccione un encabezado para ordenar todos los usuarios por su estado, alfabéticamente por nombre, apellidos o correo electrónico, por función de usuario o por estado válido o no válido.
 
 Si tiene muchos usuarios, puede limitar el tamaño de la lista seleccionando un número en el menú Tamaño máximo de lista.
 
@@ -162,17 +162,17 @@ En la tabla siguiente se describen los informes que se pueden generar desde la p
 
 El informe de contenido de imagen proporciona información acerca de las solicitudes para estos tipos de imágenes:
 
-* **Solicitud de imagen** - Solicitudes de imágenes.
+* **Solicitud de imagen**: Solicitudes de imágenes.
 
-* **Solicitud de miniatura** : Solicitudes de imágenes de muestra o alternativas en los visores.
+* **Solicitud de miniatura**: Solicitudes de imágenes de muestra o alternativas en los visores.
 
-* **Solicitud de máscara** : Solicitudes a imágenes que devuelven máscaras de escala de grises.
+* **Solicitud de máscara**: Solicitudes a imágenes que devuelven máscaras de escala de grises.
 
-* **Solicitud de mosaico del visor** - Solicitudes de imagen cargadas por un visor.
+* **Solicitud de mosaico del visor**: Solicitudes de imagen cargadas por un visor.
 
-* **Solicitud de objeto Vnt** - Solicitudes de procesamiento de imágenes que devuelven una imagen con objetos especificados en las viñetas solicitadas.
+* **Solicitud de objeto Vnt**: Solicitudes de procesamiento de imágenes que devuelven una imagen con objetos especificados en las viñetas solicitadas.
 
-* **Solicitud de información de vnt** - Solicitudes de procesamiento de imágenes que devuelven información sobre las viñetas solicitadas.
+* **Solicitud de información de vnt**: Solicitudes de procesamiento de imágenes que devuelven información sobre las viñetas solicitadas.
 
 >[!NOTE]
 >
@@ -192,27 +192,27 @@ Siga estos pasos para generar un informe de ancho de banda, almacenamiento, cont
 
 Después de generar un informe en la página Ancho de banda y almacenamiento, puede elegir opciones para ver la información. Puede elegir cómo se presenta la información, ver la información en un diagrama o en una cuadrícula de datos, así como especificar un período de tiempo para la recopilación de información. En la vista Datos, también puede ordenar la información y reorganizar las columnas.
 
-* **Visualización de datos en un gráfico o cuadrícula de datos** - Seleccionar **[!UICONTROL Vista de gráfico]** para ver los datos de un gráfico; seleccione **[!UICONTROL Vista de datos]** para ver datos en una cuadrícula de datos.
+* **Visualización de datos en un gráfico o cuadrícula de datos**: Seleccionar **[!UICONTROL Vista de gráfico]** para ver los datos de un gráfico; seleccione **[!UICONTROL Vista de datos]** para ver datos en una cuadrícula de datos.
 
-* **Elija un tipo de presentación de informe** - En el menú Tipo de informe, seleccione **[!UICONTROL Resumen]**, **[!UICONTROL Diario]**, o **[!UICONTROL Mensual]** para organizar los datos en forma de resumen, por día o por mes. No todos los informes ofrecen esta opción.
+* **Elija un tipo de presentación de informe**: en el menú Tipo de informe, seleccione **[!UICONTROL Resumen]**, **[!UICONTROL Diario]**, o **[!UICONTROL Mensual]** para organizar los datos en forma de resumen, por día o por mes. No todos los informes ofrecen esta opción.
 
-* **Especificar un período de tiempo** : elija opciones para definir un período de tiempo para el informe y, a continuación, seleccione **[!UICONTROL Actualizar]** después de definir un período de tiempo:
+* **Especificar un período de tiempo**: elija opciones para definir un período de tiempo para el informe y, a continuación, seleccione **[!UICONTROL Actualizar]** después de definir un período de tiempo:
 
-* **Período de tiempo predefinido** : en el menú Informe predefinido, elija una opción. Por ejemplo, elija Último mes para recopilar los datos del mes anterior.
+* **Período de tiempo predefinido**: en el menú Informe predefinido, elija una opción. Por ejemplo, elija Último mes para recopilar los datos del mes anterior.
 
-* **Período de tiempo personalizado** : en el menú Informe predefinido, seleccione **[!UICONTROL Personalizado]**. A continuación, elija una fecha en la **[!UICONTROL Mes de inicio]** (o **[!UICONTROL Fecha de inicio]**) y una fecha en el menú # de meses (o # o días). En el caso de informes de dominio y de contenido de vídeo, puede elegir una fecha inicial y final específica para capturar los datos del informe.
+* **Período de tiempo personalizado**: en el menú Informe predefinido, seleccione **[!UICONTROL Personalizado]**. A continuación, elija una fecha en la **[!UICONTROL Mes de inicio]** (o **[!UICONTROL Fecha de inicio]**) y una fecha en el menú # de meses (o # o días). En el caso de informes de dominio y de contenido de vídeo, puede elegir una fecha inicial y final específica para capturar los datos del informe.
 
-* **Ordenar datos (solo vista de datos)** : Para ordenar la información de una columna, seleccione su encabezado. Vuelva a seleccionar para ordenar en orden descendente.
+* **Ordenar datos (solo vista de datos)**: para ordenar la información de una columna, seleccione su encabezado. Vuelva a seleccionar para ordenar en orden descendente.
 
-* **Reorganizar columnas (solo vista de datos)** : Para mover una columna a una ubicación diferente en la cuadrícula de datos, arrastre su encabezado.
+* **Reorganizar columnas (solo vista de datos)**: para mover una columna a una ubicación diferente en la cuadrícula de datos, arrastre su encabezado.
 
 ### Exportar e imprimir informes {#exporting-and-printing-reports}
 
 Después de generar un informe, puede exportar sus datos para utilizarlos en hojas de cálculo y en otras aplicaciones. También puede imprimir los informes.
 
-* **Exportar datos del informe** : en Vista de datos, ordene y organice los datos según sea necesario. A continuación, abra **[!UICONTROL Exportar]** y elija un formato: **[!UICONTROL Delimitado por tabuladores]**, **[!UICONTROL Separado por comas]**, o **[!UICONTROL HTML Formateado]**. Los datos se copian en el Portapapeles en el formato que elija. Ahora puede pegarlos en una hoja de cálculo o en una aplicación.
+* **Exportar datos del informe**: en la vista de datos, ordene y organice los datos según sea necesario. A continuación, abra **[!UICONTROL Exportar]** y elija un formato: **[!UICONTROL Delimitado por tabuladores]**, **[!UICONTROL Separado por comas]**, o **[!UICONTROL HTML Formateado]**. Los datos se copian en el Portapapeles en el formato que elija. Ahora puede pegarlos en una hoja de cálculo o en una aplicación.
 
-* **Imprimir un informe** - Seleccionar **[!UICONTROL Imprimir]**, elija las opciones que desee en el cuadro de diálogo Imprimir y, a continuación, seleccione **[!UICONTROL OK]**.
+* **Imprimir un informe**: Seleccionar **[!UICONTROL Imprimir]**, elija las opciones que desee en el cuadro de diálogo Imprimir y, a continuación, seleccione **[!UICONTROL OK]**.
 
 ## Errores de imagen {#image-errors}
 
@@ -230,16 +230,16 @@ Los administradores de Adobe Dynamic Media Classic pueden generar informes de er
 
 Los errores mostrados son para la empresa en la que ha iniciado sesión actualmente. Cada error incluye la siguiente información:
 
-* **ID de imagen** - ID de la imagen infractora.
+* **ID de imagen**: ID de la imagen infractora.
 
-* **Hora** - El intervalo de tiempo desde la primera vez que se notificó el error hasta la última vez que se notificó, en las últimas 24 horas.
+* **Hora**: Intervalo de tiempo desde la primera vez que se notificó el error hasta la última vez que se notificó, en las últimas 24 horas.
 
-* **Recuento** : el número de errores notificados en la imagen.
+* **Recuento**: el número de errores notificados en la imagen.
 
-* **Respuesta** - El mensaje de error específico. Los errores son 4xx o 5xx.
+* **Respuesta**: el mensaje de error específico. Los errores son 4xx o 5xx.
 
-* **URL** - Enumera la dirección URL de la imagen en Adobe Dynamic Media Classic.
+* **URL**: enumera la dirección URL de la imagen en Adobe Dynamic Media Classic.
 
-* **Referente** : especifica la dirección URL del sitio web del que procede la solicitud inicial. La referencia puede ser cualquier sitio web que tenga un vínculo a la imagen.
+* **Referente**: especifica la dirección URL del sitio web del que procede la solicitud inicial. El referente puede ser cualquier sitio web que tenga un vínculo a la imagen.
 
 Las columnas URL y Referencia tienen asociada la opción Copiar URL para simplificar el proceso de prueba.

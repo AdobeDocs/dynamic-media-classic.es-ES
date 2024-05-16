@@ -10,7 +10,7 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 28%
@@ -144,7 +144,7 @@ Para incorporar el vídeo en el sitio web, puede realizar cualquiera de las acci
   >
   >Las direcciones URL solo se activan tras publicar el vídeo o el conjunto de vídeos adaptables.
 
-* Muestre el vídeo incrustado en la página web, en cuyo caso utilice la variable **[!UICONTROL Código incrustado]** función.
+* Mostrar el vídeo incrustado en la página web, en cuyo caso utilice el **[!UICONTROL Código incrustado]** función.
 
   Para obtener el código incrustado de un vídeo, en la vista de cuadrícula o de lista, selecciónelo en el panel Examinar. Ir a **[!UICONTROL Previsualizar]** > **[!UICONTROL Lista del visor]**. En la columna Acciones de la tabla, seleccione **[!UICONTROL Código incrustado]** a la derecha de `Universal_HTML5_Video`. No se permite editar el código.
 

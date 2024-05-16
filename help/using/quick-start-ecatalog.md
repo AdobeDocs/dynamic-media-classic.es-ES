@@ -10,16 +10,16 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1470'
-ht-degree: 32%
+ht-degree: 26%
 
 ---
 
 # Inicio rápido: Catálogos electrónicos{#quick-start-ecatalogs}
 
-Un catálogo electrónico es una versión web digital de material impreso: por ejemplo, un catálogo, un folleto, un manual de un producto o una circular publicitaria. Los catálogos electrónicos se muestran en un visor de catálogos electrónicos contenido en un sitio web. Este visor simula la experiencia de lectura de material impreso.
+Un catálogo electrónico es una versión digital en la Web del material impreso: un catálogo, un folleto, un folleto, un manual de producto o una circular publicitaria, por ejemplo. Se muestra un catálogo electrónico en un visor de catálogos electrónicos de un sitio Web. Este visor simula la experiencia de lectura de material impreso.
 
 Consulte también los siguientes vídeos de formación:
 
@@ -34,7 +34,7 @@ Según la configuración que elija para el catálogo electrónico, el visor pued
 * Navegue por el catálogo utilizando la tabla de contenido o la vista de cuadrícula de la página; página hacia delante o hacia atrás seleccionando el borde central de una página.
 * Acercar o alejar la página, y desplazarse por ella para examinar sus elementos.
 * Mueva el puntero sobre una región de la página (denominada mapa de imagen) para que pueda ver una ventana emergente con información sobre un elemento.
-* Seleccione una región de página para que abra una nueva página web con más información sobre un elemento.
+* Seleccione una región de página para que abra una nueva página Web con más información sobre un elemento.
 * Escribir una nota adhesiva y adjuntarla a una página del catálogo electrónico.
 * Pulse los iconos de mapa de imagen si desea iniciar páginas web relacionadas o paneles de información en contexto.
 * Usar interacciones de gestos como pellizcar para ampliar y reducir la imagen o arrastrar para pasar de página.
@@ -48,7 +48,7 @@ Al crear el catálogo electrónico, tiene la posibilidad de ordenar como desee p
 
 >[!NOTE]
 >
->Si es un usuario del modo Dynamic Media - Scene7 y desea utilizar catálogos electrónicos, edite el `pdfbrochure` valor en CRXDE Lite. Para ello, en Adobe Experience Manager, vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL General]** > **[!UICONTROL CRXDE Lite]**. En el árbol de navegación del panel izquierdo, navegue hasta `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
+>Si es un usuario de modo Dynamic Media: Scene7 y desea utilizar catálogos electrónicos, edite el `pdfbrochure` valor en CRXDE Lite. Para ello, en Adobe Experience Manager, vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL General]** > **[!UICONTROL CRXDE Lite]**. En el árbol de navegación del panel izquierdo, navegue hasta `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
 >
 >En el panel inferior derecho, en el **[!UICONTROL Propiedades]** , seleccione la pestaña `jobParam` fila. Establezca el valor para `pdfbrochure` de `false` hasta `true`. Como en `pdfbrochure=true`
 >
@@ -82,7 +82,7 @@ Consulte [Crear un catálogo electrónico](creating-ecatalog.md).
 
 ## 3. Crear mapas de imagen
 
-Los mapas de imágenes añaden otro aspecto a las páginas del catálogo electrónico. Un mapa de imagen es una región de la página que ofrece más información sobre un elemento determinado. Al pasar el puntero sobre el mapa de imagen, los usuarios verán una descripción del elemento. Al hacer clic en el mapa de imagen se activa una referencia externa, que abre una nueva página web donde hay más información sobre el elemento seleccionado.
+Los mapas de imágenes añaden otro aspecto a las páginas del catálogo electrónico. Un mapa de imagen es una región de la página que ofrece más información sobre un elemento determinado. Al pasar el puntero sobre el mapa de imagen, los usuarios verán una descripción del elemento. Al hacer clic en un mapa de imagen, se activa una referencia externa que abre una nueva página Web donde puede obtener más información sobre un elemento.
 
 Para crear un mapa de imagen, abra la pantalla Catálogo electrónico. A continuación, vaya a **[!UICONTROL Páginas de mapa]** de la pantalla Catálogo electrónico y enmarque el mapa con la herramienta Mapa de imagen rectangular o Mapa de imagen poligonal. Para ajustar la posición y el tamaño de los mapas de imagen, arrastre los bordes de los mapas con la herramienta Panorámica.
 
@@ -116,16 +116,16 @@ Consulte [Vista previa de catálogos electrónicos en el visor de catálogos ele
 
 ## 6. Publicar catálogo electrónico y PDF asociados
 
-Al publicar el catálogo electrónico y el PDF asociado, se coloca en los servidores de imágenes de Dynamic Media para que se pueda enviar al sitio web y a la aplicación. Como parte del proceso de publicación, Adobe Dynamic Media Classic activa la cadena URL del catálogo electrónico. Utilice esta URL para llamar al catálogo electrónico desde los servidores de imágenes de Dynamic Media a su sitio web o aplicación.
+La publicación del catálogo electrónico y del PDF asociado lo coloca en los servidores de imágenes de Dynamic Media para que se pueda enviar al sitio web y a la aplicación. Como parte del proceso de publicación, Adobe Dynamic Media Classic activa la cadena URL del catálogo electrónico. Utilice esta URL para llamar al catálogo electrónico desde los servidores de imágenes de Dynamic Media a su sitio web o aplicación.
 
 Después de marcar el catálogo electrónico y el PDF para publicarlos en el panel Examinar, seleccione el botón Publicar en la barra de navegación global para iniciar una publicación. En la página Publicación, seleccione **[!UICONTROL Enviar publicación]**.
 
 Consulte [Publicar catálogos electrónicos y PDF asociados](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
 
-## 7. Vincular un catálogo electrónico a una página web
+## 7. Vinculación de un catálogo electrónico a una página web
 
-Adobe Dynamic Media Classic activa la cadena de llamada de URL necesaria para mostrar el catálogo electrónico al publicarlo en Dynamic Media Image Servers. Puede copiar esta cadena URL desde la pantalla Vista previa y el panel Examinar (en la Vista de detalles) seleccionando URL en el panel. Cuando haya copiado la cadena URL, estará disponible para los sitios web y las aplicaciones.
+Adobe Dynamic Media Classic activa la cadena de llamada de URL necesaria para mostrar el catálogo electrónico al publicarlo en Dynamic Media Image Servers. Puede copiar esta cadena URL desde la pantalla Vista previa y el panel Examinar (en la Vista de detalles) seleccionando URL en el panel. Una vez copiada la cadena URL, estará disponible para los sitios Web y las aplicaciones.
 
-Decida junto con su grupo de TI cuál es el lugar más apropiado de la página web para colocar el vínculo al catálogo electrónico. Cuando los usuarios seleccionan el vínculo, aparece el Visor de catálogos electrónicos y los usuarios pueden examinar el catálogo electrónico.
+Trabaje con su equipo de TI para colocar el vínculo al catálogo electrónico en el lugar adecuado de la página Web. Cuando los usuarios seleccionan el vínculo, aparece el Visor de catálogos electrónicos y los usuarios pueden examinar el catálogo electrónico.
 
 Consulte [Vinculación de un catálogo electrónico a una página web](linking-ecatalog-web-page.md#linking-an-ecatalog-to-a-web-page).

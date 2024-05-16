@@ -6,10 +6,10 @@ user-guide-title: Guía de Adobe Dynamic Media Classic
 breadcrumb-title: Guía de Dynamic Media Classic
 user-guide-description: Más información sobre el uso de Adobe Dynamic Media Classic
 index: y
-source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 20%
+ht-degree: 18%
 
 ---
 

@@ -10,10 +10,10 @@ role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
 topic: Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
 source-wordcount: '1674'
-ht-degree: 27%
+ht-degree: 21%
 
 ---
 
@@ -94,7 +94,7 @@ Puede mostrar las opciones Avanzadas en la página Publicación y elegir estas o
 
 * **[!UICONTROL Publicar en]**: para publicar recursos solo en un servidor específico, elija un tipo de servidor.
 
-* **[!UICONTROL Publish]** : De forma predeterminada, Adobe Dynamic Media Classic publica solo los recursos que son nuevos y no se han publicado antes (opción Nuevo desde la última publicación ). Sin embargo, puede seleccionar **[!UICONTROL Publicación completa]** de este modo, también puede publicar recursos que se hayan actualizado o cambiado desde la última vez que se publicaron. Seleccionar **[!UICONTROL Completa con datos de búsqueda]** si publica un catálogo electrónico y desea que los lectores puedan buscarlo por palabra clave.
+* **[!UICONTROL Publish]**: De forma predeterminada, Adobe Dynamic Media Classic publica solo los recursos que son nuevos y no se han publicado antes (opción Nuevo desde la última publicación ). Sin embargo, puede seleccionar **[!UICONTROL Publicación completa]** de este modo, también puede publicar recursos que se hayan actualizado o cambiado desde la última vez que se publicaron. Seleccionar **[!UICONTROL Completa con datos de búsqueda]** si publica un catálogo electrónico y desea que los lectores puedan buscarlo por palabra clave.
 
 * **[!UICONTROL Ejecutar trabajo como]**: elija un nombre de usuario en la lista. Desde la página Trabajos, puede ordenar los trabajos por nombre de usuario. Al elegir un nombre, asocia un trabajo de publicación con un usuario.
 
@@ -150,13 +150,13 @@ La última fecha de publicación de un recurso se muestra en Vista de detalles e
 
 ## Segunda publicación de recursos y retrasos de CDN {#republished-assets-and-cdn-delays}
 
-Los recursos de Adobe Dynamic Media Classic se distribuyen en la red de entrega de contenido (CDN). CDN es un sistema de servidores de ordenador conectados entre sí que cooperan con transparencia para entregar contenido, especialmente de medios de gran tamaño, a los usuarios finales. En el sistema CDN, el contenido web se almacena en memorias caché web que se encuentran en Internet (red de cachés de Edge). El contenido web se entrega desde las cachés web a los usuarios finales para realizar envíos más rápidos.
+Los recursos de Adobe Dynamic Media Classic se distribuyen en la red de entrega de contenido (CDN). CDN es un sistema de servidores de ordenador conectados entre sí que cooperan con transparencia para entregar contenido, especialmente de medios de gran tamaño, a los usuarios finales. En el sistema CDN, el contenido web se almacena en cachés web a través de Internet (lo que se denomina red de caché perimetral). El contenido web se entrega desde las cachés web a los usuarios finales para realizar envíos más rápidos.
 
-La primera vez que alguien descarga una página web, los recursos se envían a un servidor web de almacenamiento en caché de CDN. Este servidor los almacena de modo que la próxima vez que alguien en la misma área acceda a la página web, el mismo contenido almacenado en caché se envíe más rápido. El contenido se entrega con mayor rapidez porque se encuentra más cerca del usuario final. CDN agiliza la visualización de páginas web. Disminuye la necesidad de banda ancha del servidor central porque el contenido se entrega desde la red de borde de almacenamiento en caché, y no desde un servidor central en cada caso.
+La primera vez que alguien descarga una página web, los recursos se envían a un servidor de caché web de CDN. Este servidor los almacena de modo que la próxima vez que alguien en la misma área acceda a la página web, el mismo contenido almacenado en caché se envíe más rápido. El contenido se entrega con mayor rapidez porque se encuentra más cerca del usuario final. CDN hace que las páginas web se muestren más rápido. Disminuye la necesidad de banda ancha del servidor central porque el contenido se entrega desde la red de borde de almacenamiento en caché, y no desde un servidor central en cada caso.
 
-El contenido de Adobe Dynamic Media Classic recién publicado está disponible inmediatamente para el usuario final y rellena rápidamente la red de caché de Edge. Sin embargo, el contenido recién republicado, es decir, las imágenes que tienen los mismos nombres que las imágenes publicadas anteriormente en un servidor de imágenes, no se actualizan en CDN durante un máximo de diez horas. En lugar de ver este contenido, los usuarios ven el de la memoria caché web de la red CDN. Por este motivo, los recursos que ha vuelto a publicar Adobe Dynamic Media Classic no aparecen a los usuarios finales durante diez horas.
+El contenido de Adobe Dynamic Media Classic recién publicado está disponible inmediatamente para el usuario final y rellena rápidamente la red de caché de Edge. Sin embargo, el contenido recién republicado, es decir, las imágenes que tienen los mismos nombres que las imágenes publicadas anteriormente en un servidor de imágenes, no se actualizan en CDN durante un máximo de diez horas. En su lugar, los usuarios finales ven lo que hay en una caché web en la red CDN. Por este motivo, los recursos que ha vuelto a publicar Adobe Dynamic Media Classic no aparecen a los usuarios finales durante diez horas.
 
-Si desea que los recursos de imagen que se vuelven a publicar estén disponibles antes de ese plazo, puede vaciar las cachés web de CDN. Al vaciar estas memorias se eliminará el contenido antiguo de las cachés web de CDN y será sustituido por los recursos que se han publicado recientemente.
+Si desea que los recursos de imagen recién publicados estén disponibles antes del retraso de diez horas, puede vaciar las cachés web en CDN. Al vaciar estas cachés web, se elimina el contenido antiguo de las cachés web de la CDN y se sustituye por los recursos publicados más recientemente.
 
 Para vaciar la caché, en la barra de navegación global, vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Invalidar CDN]**. Se eliminan todos los archivos seleccionados de la caché. Si no hay ningún recurso para publicar o no es administrador de empresa, la opción Quitar de CDN no se encuentra disponible.
 

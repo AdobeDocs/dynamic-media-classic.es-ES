@@ -10,7 +10,7 @@ role: User
 exl-id: d4315312-195c-453d-a3aa-c5e9f9365fc7
 topic: Content Management
 level: Experienced
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 11%
@@ -19,7 +19,7 @@ ht-degree: 11%
 
 # Publicación de plantillas{#publishing-templates}
 
-La publicación de la plantilla la coloca en Dynamic Media Image Servers, donde está disponible para el sitio web y la aplicación. Durante el proceso de publicación, Adobe Dynamic Media Classic activa las direcciones URL que necesita para su sitio web y aplicación.
+La publicación de la plantilla la coloca en Dynamic Media Image Servers, donde está disponible para el sitio web y la aplicación. Durante el proceso de publicación, Adobe Dynamic Media Classic activa las direcciones URL necesarias para el sitio web y la aplicación.
 
 >[!NOTE]
 >

@@ -10,7 +10,7 @@ role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 topic: Content Management
 level: Beginner
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 17%
@@ -53,7 +53,7 @@ Seleccione el **[!UICONTROL Marcar para publicación]** a la izquierda de su nom
 
 Consulte [Publicar archivos](publishing-files.md#publishing-files).
 
-## 6. Vinculación de un conjunto de muestras a una página web
+## 6. Vinculación de un juego de muestras a una página web
 
 Adobe Dynamic Media Classic crea llamadas de URL para conjuntos de muestras y las activa después de la publicación. Puede copiar estas direcciones URL desde la página de vista previa.
 

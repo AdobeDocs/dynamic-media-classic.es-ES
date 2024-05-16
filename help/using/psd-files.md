@@ -10,7 +10,7 @@ role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 22%
@@ -19,7 +19,7 @@ ht-degree: 22%
 
 # Trabajo con archivos de PSD{#working-with-psd-files}
 
-<!--   USED TO BE AN OPTION UNDER COLOR PROFILE OPTIONS * **Convert To sRGB (default)** - Converts to sRGB (Standard Red Green Blue). sRGB is the recommended color space for displaying images on web pages. -->
+<!--   USED TO BE AN OPTION UNDER COLOR PROFILE OPTIONS * **Convert To sRGB (default)**: Converts to sRGB (Standard Red Green Blue). sRGB is the recommended color space for displaying images on Web pages. -->
 
 Los PSD (archivos de documentos de Photoshop) se utilizan principalmente en Adobe Dynamic Media Classic para crear plantillas. Al cargar un archivo de PSD, puede crear una plantilla de Adobe Dynamic Media Classic automáticamente a partir del archivo (seleccione la opción Crear plantilla en la pantalla Cargar ).
 
@@ -31,43 +31,43 @@ Las opciones para cargar archivos de PSD se encuentran en Opciones de Photoshop,
 
 Estas opciones están disponibles al cargar archivos PSD:
 
-* **Opciones de recorte** - Situado debajo de **[!UICONTROL Opciones de recorte]**. Seleccionar **[!UICONTROL Recortar]** para que pueda recortar automáticamente el espacio en blanco de los bordes de un archivo de PSD. Seleccionar **[!UICONTROL Manual]** para recortar los lados del archivo PSD:
+* **Opciones de recorte**: ubicado en **[!UICONTROL Opciones de recorte]**. Seleccionar **[!UICONTROL Recortar]** para que pueda recortar automáticamente el espacio en blanco de los bordes de un archivo de PSD. Seleccionar **[!UICONTROL Manual]** para recortar los lados del archivo PSD:
 
-   * **[!UICONTROL Recortar]** - Seleccione el **[!UICONTROL Recortar basándose en]** y elija. **[!UICONTROL Color]** o **[!UICONTROL Transparencia]**.
+   * **[!UICONTROL Recortar]**: seleccione la **[!UICONTROL Recortar basándose en]** y elija. **[!UICONTROL Color]** o **[!UICONTROL Transparencia]**.
 
   Si elige la **[!UICONTROL Color]** , seleccione el menú Esquina y elija la esquina del PSD con el color que mejor represente el color del espacio en blanco que desea recortar.
 
   Arrastre el control deslizante para especificar una tolerancia de 0 a 1. Para un recorte basado en color, especifique 0 para recortar píxeles solo si coinciden exactamente con el color seleccionado en la esquina del PSD. Los números más cercanos a 1 permiten una mayor diferencia de color. Para recortar según la transparencia, especifique 0 para recortar píxeles solo si son transparentes; los números más cercanos a 1 permiten una mayor transparencia.
 
-   * **[!UICONTROL Manual]** : introduzca el número de píxeles que desea recortar de cualquier lado o de cada lado de la imagen. La cantidad de imagen que se recorte dependerá del valor ppp (píxeles por pulgada) en el archivo de imagen. Por ejemplo, supongamos que la imagen muestra 150 ppp. A continuación, escriba 75 en los cuadros de texto Superior, Derecha, Inferior e Izquierda. Se recorta cada lado de la imagen, 0,5 pda.
+   * **[!UICONTROL Manual]**: introduzca el número de píxeles que desea recortar de cualquier lado o de cada lado de la imagen. La cantidad de imagen que se recorte dependerá del valor ppp (píxeles por pulgada) en el archivo de imagen. Por ejemplo, supongamos que la imagen muestra 150 ppp. A continuación, escriba 75 en los cuadros de texto Superior, Derecha, Inferior e Izquierda. Se recorta cada lado de la imagen, 0,5 pda.
 
-* **Opciones de perfil de color** - Situado debajo de **[!UICONTROL Opciones de perfil de color]**.
+* **Opciones de perfil de color**: ubicado en **[!UICONTROL Opciones de perfil de color]**.
 
    * **[!UICONTROL Conservación de color predeterminado]**
 
-   * **[!UICONTROL Mantener el espacio de color original]** - Conserva el espacio de color original de la imagen.
+   * **[!UICONTROL Mantener el espacio de color original]**: conserva el espacio de color original de la imagen.
 
-   * **[!UICONTROL Personalizar desde]** > **[!UICONTROL Hasta]** : abre menús para que pueda elegir un espacio de color Convertir de y Convertir a. Puede elegir un espacio de color estándar de Photoshop o un espacio de color que haya cargado en Adobe Dynamic Media Classic. Consulte [Perfiles ICC](/help/using/icc-profiles.md).
+   * **[!UICONTROL Personalizar desde]** > **[!UICONTROL Hasta]**: abre menús para que pueda elegir un espacio de color Convertir de y Convertir a. Puede elegir un espacio de color estándar de Photoshop o un espacio de color que haya cargado en Adobe Dynamic Media Classic. Consulte [Perfiles ICC](/help/using/icc-profiles.md).
 
 * **Opciones de Photoshop**
 
-   * **[!UICONTROL Mantener capas]** : rasga las capas del PSD, si las hay, en recursos individuales. Las capas de recursos permanecen asociadas al PSD. Para verlos, abra el fichero PSD en Vista de detalles y seleccione el panel Capa. Consulte Visualización y edición de capas en un fichero de PSD.
+   * **[!UICONTROL Mantener capas]**: extrae las capas del PSD, si las hay, en recursos individuales. Las capas de recursos permanecen asociadas al PSD. Para verlos, abra el fichero PSD en Vista de detalles y seleccione el panel Capa. Consulte Visualización y edición de capas en un fichero de PSD.
 
-   * **[!UICONTROL Crear plantilla]** : permite crear una plantilla a partir de las capas del fichero de PSD.
+   * **[!UICONTROL Crear plantilla]**: permite crear una plantilla a partir de las capas del fichero de PSD.
 
-   * **[!UICONTROL Extraer texto]** : extrae el texto para que los usuarios puedan buscar texto en un visor.
+   * **[!UICONTROL Extraer texto]**: extrae el texto para que los usuarios puedan buscar texto en un visor.
 
-   * **[!UICONTROL Extender capas al tamaño del fondo]** : amplía el tamaño de las capas de imagen copiadas al tamaño de la capa de fondo.
+   * **[!UICONTROL Extender capas al tamaño del fondo]**: amplía el tamaño de las capas de imagen copiadas al tamaño de la capa de fondo.
 
-   * **[!UICONTROL Nombres de capas]** : las capas del archivo de PSD se cargan como imágenes independientes. Para asignar un nombre a estas imágenes en Adobe Dynamic Media Classic, elija una de las siguientes opciones:
+   * **[!UICONTROL Nombres de capas]**: las capas del archivo de PSD se cargan como imágenes independientes. Para asignar un nombre a estas imágenes en Adobe Dynamic Media Classic, elija una de las siguientes opciones:
 
-      * **[!UICONTROL Nombre de capa]** - Nombra las imágenes después de sus nombres de capa en el archivo PSD. Por ejemplo, una capa con el nombre Etiqueta de precio en el archivo PSD original se convierte en una imagen con el nombre Etiqueta de precio. Sin embargo, si los nombres de las capas del fichero de PSD son nombres de capas Photoshop por defecto (Fondo, Capa 1, Capa 2, etc.), las imágenes recibirán los nombres de sus números de capa en el fichero de PSD. <!-- not their default layer names -->
+      * **[!UICONTROL Nombre de capa]**: asigna un nombre a las imágenes después de sus nombres de capa en el archivo PSD. Por ejemplo, una capa con el nombre Etiqueta de precio en el archivo PSD original se convierte en una imagen con el nombre Etiqueta de precio. Sin embargo, si los nombres de las capas del fichero de PSD son nombres de capas Photoshop por defecto (Fondo, Capa 1, Capa 2, etc.), las imágenes recibirán los nombres de sus números de capa en el fichero de PSD. <!-- not their default layer names -->
 
-      * **[!UICONTROL Photoshop y número de capa]** - Nombra las imágenes después de sus números de capa en el archivo PSD, ignorando los nombres de capa originales. Las imágenes reciben el nombre del archivo de Photoshop y un sufijo de número de capa. Por ejemplo, la segunda capa de un archivo llamado `Spring Ad.psd` se llama `Spring Ad_2` incluso si tenía un nombre no predeterminado en Photoshop.
+      * **[!UICONTROL Photoshop y número de capa]**: asigna un nombre a las imágenes después de sus números de capa en el fichero PSD, ignorando los nombres de capa originales. Las imágenes reciben el nombre del archivo de Photoshop y un sufijo de número de capa. Por ejemplo, la segunda capa de un archivo llamado `Spring Ad.psd` se llama `Spring Ad_2` incluso si tenía un nombre no predeterminado en Photoshop.
 
-      * **[!UICONTROL Photoshop y nombre de capa]** - Nombra las imágenes después del archivo de PSD seguido del nombre o número de capa. El número de capa se utiliza si los nombres de capa en el archivo PSD son nombres de capa predeterminados de Photoshop. Por ejemplo, una capa denominada `Price Tag` en un archivo de PSD llamado `SpringAd` se llama `Spring Ad_Price Tag`. Se llama a una capa con el nombre predeterminado Capa 2 `Spring Ad_2`.
+      * **[!UICONTROL Photoshop y nombre de capa]**: asigna un nombre a las imágenes después del archivo de PSD seguido del nombre o el número de capa. El número de capa se utiliza si los nombres de capa en el archivo PSD son nombres de capa predeterminados de Photoshop. Por ejemplo, una capa denominada `Price Tag` en un archivo de PSD llamado `SpringAd` se llama `Spring Ad_Price Tag`. Se llama a una capa con el nombre predeterminado Capa 2 `Spring Ad_2`.
 
-   * **[!UICONTROL Anclaje]** - Especificar cómo se anclan las imágenes en las plantillas generadas a partir de la maquetación por capas producida a partir del fichero PSD. De forma predeterminada, el anclaje es al centro. Un anclaje central permite imágenes de reemplazo que pueden rellenar mejor el mismo espacio, sin importar la proporción de aspecto de la imagen de reemplazo. Las imágenes con una proporción diferente que sustituyan esta imagen, al hacer referencia a la plantilla y usar la sustitución paramétrica, ocuparán el mismo espacio. Cambie a otra configuración si la aplicación requiere que las imágenes de sustitución rellenen el espacio asignado en la plantilla.
+   * **[!UICONTROL Anclaje]**: especifique cómo se anclan las imágenes en las plantillas generadas a partir de la maquetación por capas producida a partir del fichero PSD. De forma predeterminada, el anclaje es al centro. Un anclaje central permite imágenes de reemplazo que pueden rellenar mejor el mismo espacio, sin importar la proporción de aspecto de la imagen de reemplazo. Las imágenes con una proporción diferente que sustituyan esta imagen, al hacer referencia a la plantilla y usar la sustitución paramétrica, ocuparán el mismo espacio. Cambie a otra configuración si la aplicación requiere que las imágenes de sustitución rellenen el espacio asignado en la plantilla.
 
 ## Visualización y edición de capas en un archivo de PSD {#viewing-and-editing-layers-in-a-psd-file}
 

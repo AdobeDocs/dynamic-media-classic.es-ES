@@ -10,7 +10,7 @@ role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 30%
@@ -23,9 +23,9 @@ La optimización para motores de búsqueda de vídeos es el proceso que consiste
 
 Con Adobe Dynamic Media Classic Video SEO, puede aplicar metadatos de vídeo para proporcionar a los motores de búsqueda descripciones de sus vídeos. Adobe Dynamic Media Classic le permite crear mapas del sitio de vídeo y fuentes mRSS. Estos archivos XML estándar se utilizan para enviar información de vídeo a los motores de búsqueda:
 
-* **Mapa de vídeos** : informa a Google exactamente dónde y qué contenido de vídeo hay en un sitio. Por lo tanto, los vídeos se pueden buscar completamente en Google. Por ejemplo, un mapa de vídeos puede especificar el tiempo de reproducción y las categorías de los vídeos. Para obtener información sobre los mapas del sitio de vídeo, consulte [Mapas del sitio de vídeo y alternativas de mapas del sitio de vídeo](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
+* **Mapa de vídeos**: informa a Google exactamente dónde y qué contenido de vídeo hay en un sitio. Por lo tanto, los vídeos se pueden buscar completamente en Google. Por ejemplo, un mapa de vídeos puede especificar el tiempo de reproducción y las categorías de los vídeos. Para obtener información sobre los mapas del sitio de vídeo, consulte [Mapas del sitio de vídeo y alternativas de mapas del sitio de vídeo](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
 
-* **Fuente mRSS (Media Really Simple Syndication)** - Utilizado por los editores de contenido para alimentar archivos de medios en Yahoo! búsqueda de vídeos de Yahoo!. Para obtener información acerca de las fuentes mRSS, consulte [Mapas del sitio de vídeo y alternativas de mapas del sitio de vídeo](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
+* **Fuente mRSS (Media Really Simple Syndication)**: Utilizado por los editores de contenido para alimentar archivos multimedia en Yahoo! búsqueda de vídeos de Yahoo!. Para obtener información acerca de las fuentes mRSS, consulte [Mapas del sitio de vídeo y alternativas de mapas del sitio de vídeo](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
 
 >[!NOTE]
 >
@@ -55,27 +55,27 @@ Después de elegir la configuración, seleccione **[!UICONTROL Guardar]** (o **[
 
 En el **[!UICONTROL Modo de generación]** , elija un modo de informe:
 
-* **Mapa de vídeos** : Cree un mapa de vídeos.
+* **Mapa de vídeos**: Cree un mapa de vídeos.
 
-* **Fuente mRSS** - Crear una fuente RSS de medios (mRSS).
+* **Fuente mRSS**: cree una fuente RSS de medios (mRSS).
 
-* **Ambos** : Cree ambos tipos de archivos XML.
+* **Ambos**: cree ambos tipos de archivos XML.
 
-* **Desactivado** - Para dejar de generar mapas del sitio de vídeo y fuentes RSS de medios (mRSS), elija esta opción.
+* **Desactivado**: para dejar de generar mapas del sitio de vídeo y fuentes RSS de medios (mRSS), elija esta opción.
 
 En el **[!UICONTROL Modo automático/manual]** , elija si desea generar de forma automática o manual:
 
-* **Modo automático** - Adobe Dynamic Media Classic genera automáticamente un mapa de vídeos, una fuente RSS de medios (mRSS) o ambas cada día. Seleccione el **[!UICONTROL Marcar para publicación]** opción para marcar automáticamente para publicar el archivo XML generado por Adobe Dynamic Media Classic.
+* **Modo automático**: Adobe Dynamic Media Classic genera automáticamente un mapa de vídeos, una fuente RSS de medios (mRSS) o ambas cada día. Seleccione el **[!UICONTROL Marcar para publicación]** opción para marcar automáticamente para publicar el archivo XML generado por Adobe Dynamic Media Classic.
 
    * **Marcar para publicación** Marcas para publicar el archivo XML generado.
 
-* **Modo manual** - Adobe Dynamic Media Classic genera el mapa de vídeos, la fuente RSS de medios (mRSS) o ambos al seleccionar **[!UICONTROL Generar]** o **[!UICONTROL Guardar y generar]** en la pantalla Configuración de optimización de búsqueda de vídeo. Elija también estas opciones:
+* **Modo manual**: Adobe Dynamic Media Classic genera el mapa de vídeos, la fuente RSS de medios (mRSS) o ambos al seleccionar **[!UICONTROL Generar]** o **[!UICONTROL Guardar y generar]** en la pantalla Configuración de optimización de búsqueda de vídeo. Elija también estas opciones:
 
-   * **No hay más configuraciones** - No marca para publicar el archivo XML generado.
+   * **No hay más configuraciones**: No marca para publicar el archivo XML generado.
 
-   * **Marcar para publicación** - Marcas para publicar el archivo XML generado.
+   * **Marcar para publicación**: Marcas para publicar el archivo XML generado.
 
-   * **Permitir generación parcial** - Los motores de búsqueda pueden rechazar un archivo XML si no contiene información de metadatos completa para todos los vídeos. Esta opción genera el archivo XML incluso si los metadatos no están disponibles para algunos vídeos. Se registra un aviso en la pantalla del informe. Elija esta opción si pretende exportar el archivo XML y procesar la información que falta manualmente.
+   * **Permitir generación parcial**: los motores de búsqueda pueden rechazar un archivo XML si no contiene información de metadatos completa para todos los vídeos. Esta opción genera el archivo XML incluso si los metadatos no están disponibles para algunos vídeos. Se registra un aviso en la pantalla del informe. Elija esta opción si pretende exportar el archivo XML y procesar la información que falta manualmente.
 
 ### Selección de la configuración de creación {#choosing-generation-settings}
 

@@ -6,7 +6,7 @@ role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
 topic: Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1564'
 ht-degree: 0%
@@ -139,7 +139,7 @@ Sí. Puede seguir utilizando la variable [!DNL Dynamic Media Classic] (anteriorm
 +++
 
 +++**¿Tengo que actualizar mis direcciones URL de producción?**
-No. El Adobe sigue utilizando [!DNL Dynamic Media Classic] infraestructura de publicación y envío tal como está en el [!DNL Dynamic Media] solución. La ventaja de este enfoque es que no tiene que cambiar ninguna URL de producción en sus páginas web, lo que minimiza el riesgo y el esfuerzo de migración a [!DNL Dynamic Media].
+No. El Adobe sigue utilizando [!DNL Dynamic Media Classic] infraestructura de publicación y envío tal como está en el [!DNL Dynamic Media] solución. La ventaja de este enfoque es que no tiene que cambiar ninguna dirección URL de producción en sus páginas web, lo que minimiza el riesgo y el esfuerzo de migración a [!DNL Dynamic Media].
 
 +++
 
@@ -188,9 +188,9 @@ Dynamic Media incluye 60 GB de almacenamiento. Puede adquirir almacenamiento adi
 +++
 
 +++**Qué métrica se utiliza para medir [!DNL Dynamic Media] ¿uso?**
-Vistas de página por mes (PVM). Vista de página significa una sola vista de un correo electrónico o una página web de un sitio de Internet. También incluye vistas de pantalla de la aplicación, estados de pantalla de la aplicación, páginas web móviles y páginas de redes sociales. Se producen vistas de página:
+Vistas de página por mes (PVM). Vista de páginas significa una sola vista de un correo electrónico o página Web de un sitio de Internet. También incluye vistas de pantalla de la aplicación, estados de pantalla de la aplicación, páginas web móviles y páginas de redes sociales. Se producen vistas de página:
 
-* Cada vez que se carga o actualiza una página web
+* Cada vez que se carga o actualiza una página Web
 * Cuando se carga una aplicación
 * Cuando el contenido se procesa
 * Se muestra mediante un correo electrónico abierto o visualizado

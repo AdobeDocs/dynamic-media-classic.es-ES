@@ -10,16 +10,16 @@ role: User
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '843'
-ht-degree: 27%
+ht-degree: 26%
 
 ---
 
 # Vinculación de URL en la aplicación web{#linking-urls-to-your-web-application}
 
-Los sitios web y las aplicaciones acceden al contenido de Dynamic Media Image Server mediante cadenas URL. Después de publicar una imagen, Adobe Dynamic Media Classic activa una cadena URL que hace referencia al ajuste preestablecido de imagen en los servidores de imágenes de Dynamic Media. Puede probar el funcionamiento de estas cadenas URL pegándolas en un explorador web.
+Sus sitios web y aplicaciones acceden al contenido de Dynamic Media Image Server mediante cadenas URL. Después de publicar una imagen, Adobe Dynamic Media Classic activa una cadena URL que hace referencia al ajuste preestablecido de imagen en los servidores de imágenes de Dynamic Media. Puede pegar estas direcciones URL en un explorador web para probarlas.
 
 Para colocar estas cadenas de URL en las páginas web y aplicaciones, cópielas desde Adobe Dynamic Media Classic. Para obtener una cadena URL generada con un ajuste preestablecido de imagen, vaya a la pantalla Vista previa o al panel Examinar (en la Vista de detalles).
 
@@ -78,9 +78,9 @@ https://s7d1.scene7.com/is/image/S7learn/backpack?$Large$
 
 Los nombres de ajuste preestablecido de imagen en direcciones URL se incluyen entre signos de dólar ($). Cuando un servidor de imágenes de Dynamic Media encuentra la parte de ajuste preestablecido de imagen de la URL (la variable `Large` en este caso), utilizando las instrucciones de tamaño y formato definidas por el ajuste preestablecido de imagen &quot;Grande&quot;.
 
-## Añadir imágenes dinámicas a la página web {#adding-dynamic-images-to-your-web-page}
+## Agregar imágenes dinámicas a la página Web {#adding-dynamic-images-to-your-web-page}
 
-Para añadir imágenes dinámicas a la página web, haga lo siguiente `<IMG>` El código de la página web del HTML suele modificarse con la cadena URL de Adobe Dynamic Media Classic para realizar una solicitud a los servidores de imágenes de Dynamic Media. Esta cadena produce una imagen con las especificaciones de formato y tamaño definidas por el ajuste preestablecido de imagen.
+Para agregar imágenes dinámicas a la página Web, haga lo siguiente `<IMG>` El código de la página web del HTML suele modificarse con la cadena URL de Adobe Dynamic Media Classic para realizar una solicitud a los servidores de imágenes de Dynamic Media. Esta cadena produce una imagen con las especificaciones de formato y tamaño definidas por el ajuste preestablecido de imagen.
 
 Por ejemplo, en lugar de la típica llamada para abrir una imagen estática:
 

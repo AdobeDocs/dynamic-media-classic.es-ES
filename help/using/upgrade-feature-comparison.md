@@ -6,10 +6,10 @@ role: Admin,User
 exl-id: eb56533a-4e31-4367-8b68-879cd70c761e
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 5%
+source-wordcount: '218'
+ht-degree: 3%
 
 ---
 
@@ -42,14 +42,14 @@ Una tabla de comparación de características entre [!DNL Dynamic Media] in [!DN
 | Integración del visor con Analytics | ✓ | ✓ |
 | Plantillas 1:1 | ✓<br>*Paquete de medios personalizado* | ✓ |
 | Visual Configurator<br>(personalización del producto) | ✓<br>*Paquete de medios personalizado* | ✓ |
-| 3D - Experience Manager Sites<br>Componente WCM | ✓ | - |
-| 3D: visualizador de experiencias interactivo | ✓ | - |
-| 3D: publicar archivos AR/VR y archivos 3D principales | ✓ | - |
-| Carruseles | ✓ | - |
-| Medios de ventas/interactivos: imágenes | ✓ | - |
-| Medios interactivos/de ventas: vídeo | ✓ | - |
-| Recorte inteligente: imágenes | ✓ | - |
-| Recorte inteligente: vídeo | ✓ | - |
-| Selección de miniatura de vídeo | ✓ | - |
-| Diseñador de visores | ✓ | - |
-| Publicación de YouTube | ✓ | - |
+| 3D: Experience Manager Sites<br>Componente WCM | ✓ | : |
+| 3D: visualizador de experiencias interactivo | ✓ | : |
+| 3D: publicar archivos AR/VR y archivos 3D principales | ✓ | : |
+| Carruseles | ✓ | : |
+| Medios de compra/interactivos: imágenes | ✓ | : |
+| Medios interactivos/de ventas: vídeo | ✓ | : |
+| Recorte inteligente: imágenes | ✓ | : |
+| Recorte inteligente: vídeo | ✓ | : |
+| Selección de miniatura de vídeo | ✓ | : |
+| Diseñador de visores | ✓ | : |
+| Publicación de YouTube | ✓ | : |

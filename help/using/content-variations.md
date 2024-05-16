@@ -10,10 +10,10 @@ role: User
 exl-id: 65b8c314-7ec1-417f-8a7b-aa13762072a1
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 55%
+ht-degree: 44%
 
 ---
 
@@ -25,7 +25,7 @@ Cree un conjunto de plantillas para gestionar las variaciones de una plantilla. 
 
 Las direcciones URL universales se utilizan para mostrar la variación de plantilla que aparece en la página, según el orden en que aparezcan en el conjunto. La plantilla de la parte superior de la lista de conjuntos de plantillas siempre se publica.
 
-Puede utilizar cualquier URL de ajuste preestablecido de imagen de la lista. Las URL de ajustes preestablecidos de imagen son como las URL universales. Puede haber más de una URL de ajuste preestablecido de imagen.
+Puede utilizar cualquier URL de ajuste preestablecido de imagen de la lista. Las URL de ajustes preestablecidos de imagen son como URL universales. Puede haber más de una URL de ajuste preestablecido de imagen.
 
 1. Ir a **[!UICONTROL Generar]** > **[!UICONTROL Conjuntos de plantillas]**.
 1. En el generador, seleccione una plantilla y, a continuación, seleccione **[!UICONTROL Añadir/previsualizar]**.

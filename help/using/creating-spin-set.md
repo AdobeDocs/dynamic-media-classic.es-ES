@@ -10,7 +10,7 @@ role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 44%
@@ -92,13 +92,13 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 1. Selección de la sustitución del conjunto de giros **[!UICONTROL Editar]** botón.
 1. Realice una de las siguientes acciones:
 
-   * **Eliminación de imágenes** - Seleccione la imagen y, a continuación, seleccione **[!UICONTROL Eliminar]**.
+   * **Eliminación de imágenes**: seleccione la imagen y, a continuación, seleccione **[!UICONTROL Eliminar]**.
 
-   * **Adición de imágenes** - Arrastre la imagen a una celda.
+   * **Adición de imágenes**: arrastre la imagen a una celda.
 
-   * **Reordenación de filas (conjuntos de giros bidimensionales)** - Seleccione un cuadro de selector de filas (a la izquierda de la fila) y, a continuación, seleccione **[!UICONTROL Mover fila hacia abajo]** o **[!UICONTROL Mover fila hacia arriba]**.
+   * **Reordenación de filas (conjuntos de giros bidimensionales)**: seleccione un cuadro de selector de fila (a la izquierda de la fila) y, a continuación, seleccione **[!UICONTROL Mover fila hacia abajo]** o **[!UICONTROL Mover fila hacia arriba]**.
 
-   * **Adición de filas y celdas** - Escriba un número en el cuadro Filas y en el cuadro Celdas para determinar el número de filas y el número de celdas de cada fila.
+   * **Adición de filas y celdas**: introduzca un número en el cuadro Filas y en el cuadro Celdas para determinar el número de filas y el número de celdas de cada fila.
 
 1. Cuando haya terminado con su edición, asegúrese de que esté seleccionada la opción **[!UICONTROL Publicar después de guardar]** (predeterminada), cerca de la esquina inferior derecha de la página.
 1. Seleccionar **[!UICONTROL Guardar]**, seleccione una carpeta de almacenamiento, introduzca un nombre para el conjunto y, a continuación, seleccione **[!UICONTROL Guardar]**.

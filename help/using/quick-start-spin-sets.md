@@ -10,10 +10,10 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
 source-wordcount: '801'
-ht-degree: 25%
+ht-degree: 23%
 
 ---
 
@@ -23,7 +23,7 @@ Un conjunto de giros simula la acción física de girar un objeto para examinarl
 
 ![Imágenes de un conjunto de giros.](/help/using/assets/spin_set.png)
 
-Los conjuntos de giros también aceptan mapas de imagen. Un mapa de imagen es una región de una imagen dentro de un conjunto de giros que muestra un panel de rollover con texto. Cuando el usuario selecciona un mapa de imagen, se activa un tipo de acción. Por ejemplo, se abre una página web para que el usuario pueda obtener más información sobre un producto. Para señalar un mapa de imagen en un conjunto de giros, aparece un contorno alrededor del propio mapa de imagen cuando el usuario mueve el puntero del ratón sobre él.
+Los conjuntos de giros también aceptan mapas de imagen. Un mapa de imagen es una región de una imagen dentro de un conjunto de giros que muestra un panel de rollover con texto. Cuando el usuario selecciona un mapa de imagen, se activa un tipo de acción. Por ejemplo, se inicia una página web para que el usuario pueda obtener más información sobre un producto. Para señalar un mapa de imagen en un conjunto de giros, aparece un contorno alrededor del propio mapa de imagen cuando el usuario mueve el puntero del ratón sobre él.
 
 Consulte [Crear mapas de imagen](creating-image-maps.md).
 
@@ -75,13 +75,13 @@ Consulte [Previsualización de un conjunto de giros](previewing-spin-set.md#prev
 
 ## 6. Publicación de un conjunto de giros
 
-Al publicar un conjunto de giros, se coloca en servidores de Adobe Dynamic Media Classic para que se pueda enviar de forma dinámica a su sitio web o aplicación. También activa la cadena URL que llama al conjunto de giros desde los servidores de imágenes de Dynamic Media a su sitio web o aplicación.
+Al publicar un conjunto de giros, se coloca en servidores de Adobe Dynamic Media Classic para que se pueda enviar dinámicamente al sitio web o a la aplicación. También activa la cadena URL que llama al conjunto de giros desde los servidores de imágenes de Dynamic Media a su sitio web o aplicación.
 
 Para publicar un conjunto de giros, márquelo para su publicación seleccionando la variable **[!UICONTROL Marcar para publicación]** junto a su nombre en el panel Examinar. En la barra de navegación global, seleccione **[!UICONTROL Publish]** para iniciar una publicación. En la página Publicación, seleccione **[!UICONTROL Enviar publicación]**.
 
 Consulte [Publicación de un conjunto de giros](publishing-spin-set.md#publishing-a-spin-set).
 
-## 7. Vinculación de un juego de giros a una página web
+## 7. Vinculación de un juego de giros a una página Web
 
 Adobe Dynamic Media Classic crea cadenas de llamada de URL para conjuntos de giros y las activa después de publicarlas. Puede copiar estas direcciones URL desde la página de vista previa.
 

@@ -10,16 +10,16 @@ role: User
 exl-id: eae35207-000c-4ced-b9ab-714c2384a9e7
 topic: Content Management
 level: Beginner
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 28%
+ht-degree: 21%
 
 ---
 
 # Inicio rápido: Zoom{#quick-start-zoom}
 
-El zoom permite ver de forma interactiva detalles de alta resolución en imágenes. Por ejemplo, se pueden ver colores, opciones, ángulos y detalles de una imagen en un visor integrado, dinámico y completamente configurable. Este visor puede ser parte de una página web o aparecer en una ventana emergente. Puede auditar imágenes a corta distancia y panoramizarlas a altas resoluciones para examinarlas de cerca. La aplicación de zoom ofrece a los clientes una visualización interactiva, informativa y atractiva.
+El zoom permite ver de forma interactiva detalles de alta resolución en imágenes. Por ejemplo, se pueden ver colores, opciones, ángulos y detalles de una imagen en un visor integrado, dinámico y completamente configurable. Este visor puede incrustarse en una página web o aparecer en una ventana emergente. Puede auditar imágenes a corta distancia y panoramizarlas a altas resoluciones para examinarlas de cerca. La aplicación de zoom ofrece a los clientes una visualización interactiva, informativa y atractiva.
 
 Adobe Dynamic Media Classic también ofrece zoom guiado, un medio para resaltar las características importantes de una imagen. Por ejemplo, para centrar la atención en un logotipo, puede crear un destino de zoom para el mismo. Cuando los usuarios seleccionan este objetivo de zoom, hacen zoom en el logotipo.
 
@@ -47,7 +47,7 @@ Los ajustes preestablecidos de visor de zoom determinan el estilo y comportamien
 
 Para crear un ajuste preestablecido de visor de zoom, en la barra de navegación global, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes preestablecidos de visor]**. En la página Ajustes preestablecidos de visor, seleccione **[!UICONTROL Añadir]**, elija una plataforma y un Visor de zoom y, a continuación, seleccione **[!UICONTROL Añadir]**. A continuación, elija las opciones en la `Configure Viewer` página.
 
-Ofertas de Adobe Dynamic Media Classic **[!UICONTROL Ajuste preestablecido de visor de zoom]** opciones que permiten seleccionar el estilo del botón y el aspecto general del visor. También puede personalizar la configuración de zoom para el sitio web. Consulte [Configurar ajustes preestablecidos del visor de zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
+Ofertas de Adobe Dynamic Media Classic **[!UICONTROL Ajuste preestablecido de visor de zoom]** opciones que permiten seleccionar el estilo del botón y el aspecto general del visor. También puede personalizar la configuración de zoom del sitio Web. Consulte [Configurar ajustes preestablecidos del visor de zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
 
 ## 4. Vista previa de imágenes con el visor de zoom
 
@@ -63,6 +63,6 @@ La publicación de las imágenes de zoom las coloca en los servidores de imágen
 
 En la barra de navegación global, seleccione **[!UICONTROL Publish]**. En el cuadro de diálogo Publicación, seleccione **[!UICONTROL Enviar publicación]**. Consulte [Publicación de imágenes de zoom](publishing-zoom-images.md#publishing_zoom_images).
 
-## 6. Vincule los visores de zoom a la página web
+## 6. Vincular visores de zoom a la página web
 
-Adobe Dynamic Media Classic crea las cadenas de llamada de URL necesarias para aplicar zoom a las imágenes y las activa al publicar imágenes en los servidores de imágenes de Dynamic Media. Puede copiar estas cadenas de URL desde el **[!UICONTROL Previsualizar]** página. Cuando haya copiado las cadenas URL, estarán disponibles para su página web y sus aplicaciones. Consulte [Vincular visores de zoom a la página web](linking-zoom-viewers-web-pages.md#linking_zoom_viewers_to_your_web_pages).
+Adobe Dynamic Media Classic crea las cadenas de llamada de URL necesarias para aplicar zoom a las imágenes y las activa al publicar imágenes en los servidores de imágenes de Dynamic Media. Puede copiar estas cadenas de URL desde el **[!UICONTROL Previsualizar]** página. Después de copiar las cadenas de URL, están disponibles para los sitios Web y las aplicaciones. Consulte [Vincular visores de zoom a la página web](linking-zoom-viewers-web-pages.md#linking_zoom_viewers_to_your_web_pages).

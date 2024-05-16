@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: 7e99de68-a5de-4b42-9754-c394e9b41369
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '201'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
@@ -26,11 +26,11 @@ La configuración disponible en esta página depende de su estado como usuario o
 * Los usuarios solo pueden acceder a **[!UICONTROL Ajustes personales]** y las cuentas de las empresas de las que son miembros; no pueden realizar ninguna tarea administrativa.
 * Los administradores pueden acceder a **[!UICONTROL Ajustes personales]** y ver y administrar sus propias cuentas de compañía. Además, pueden realizar todas las funciones de configuración de la aplicación y todas las funciones de administración, incluyendo agregar administradores y usuarios.
 
-Los administradores también pueden configurar ajustes preestablecidos de Imagen y de Visualizador en la **[!UICONTROL Configurar]** página:
+Los administradores también pueden configurar ajustes preestablecidos de imagen y de visualizador en la **[!UICONTROL Configurar]** página:
 
-* **Ajustes preestablecidos de imagen** - Los ajustes preestablecidos de imagen son formatos guardados para mostrar imágenes principales en diferentes tamaños y formatos.
+* **Ajustes preestablecidos de imagen**: los ajustes preestablecidos de imagen son formatos guardados para mostrar imágenes principales en diferentes tamaños y formatos.
 
-* **Ajustes preestablecidos de visor** - Los ajustes preestablecidos del visualizador determinan cómo ve los medios enriquecidos cuando los ve en un visualizador.
+* **Ajustes preestablecidos de visor**: Los ajustes preestablecidos del visualizador determinan cómo ve los medios enriquecidos cuando los ve en un visualizador.
 
 >[!MORELIKETHIS]
 >

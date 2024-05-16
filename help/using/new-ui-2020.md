@@ -9,7 +9,7 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Los usuarios de Adobe Dynamic Media Classic ahora tienen acceso a un nuevo inici
 ## Preguntas frecuentes
 
 +++**_Cuando los exploradores dejen de admitir el Flash de Adobe el 31 de diciembre de 2020, ¿tendrá algún impacto Adobe Dynamic Media Classic (anteriormente Scene7)?_**
-El Flash Player de Adobe era un complemento para explorador web que permitía a los exploradores web utilizar contenido desarrollado en Adobe Flash Platform. La interfaz de usuario web de Adobe Dynamic Media Classic (etiquetada actualmente como [!DNL Scene7 Publishing System] o [!DNL SPS] en el producto) requería el Flash Player de Adobe. Cuando el Flash de Adobe quede obsoleto el 31 de diciembre de 2020, los clientes de Adobe Dynamic Media Classic ya no podrán iniciar sesión en la interfaz de usuario web. Debido a este cambio, Adobe ha proporcionado a los clientes una aplicación de escritorio que reemplaza la experiencia del explorador.
+El Flash Player de Adobe era un complemento del explorador web que permitía a los exploradores web utilizar contenido desarrollado en Adobe Flash Platform. La interfaz de usuario web de Adobe Dynamic Media Classic (etiquetada actualmente como [!DNL Scene7 Publishing System] o [!DNL SPS] en el producto) requería el Flash Player de Adobe. Cuando el Flash de Adobe quede obsoleto el 31 de diciembre de 2020, los clientes de Adobe Dynamic Media Classic ya no podrán iniciar sesión en la interfaz de usuario web. Debido a este cambio, Adobe ha proporcionado a los clientes una aplicación de escritorio que reemplaza la experiencia del explorador.
 +++
 
 +++**_¿Cómo puedo acceder a la nueva aplicación de escritorio?_**
@@ -110,4 +110,4 @@ Para obtener más información sobre las ventajas de actualizar a la siguiente g
 >* [Iniciar y cerrar sesión en la aplicación de escritorio de Adobe Dynamic Media Classic](/help/using/signing-out.md)
 >* [Descargue e instale la aplicación de escritorio de Adobe Dynamic Media Classic](/help/using/dynamic-media-classic-desktop-app.md)
 
-<!-- SAVE - OLD LINK TO BEST PRACTICES GUIDE IN PDF https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf -->
+<!-- SAVE: OLD LINK TO BEST PRACTICES GUIDE IN PDF https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf -->

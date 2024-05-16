@@ -10,7 +10,7 @@ role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 21%
@@ -53,7 +53,7 @@ Consulte [Vista previa de vídeos en un visor de vídeos](previewing-videos-vide
 
 Consulte también [Ajustes preestablecidos de vídeo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) vídeo de formación.
 
-### Añadir o editar un ajuste preestablecido de visualizador de vídeo {#adding-or-editing-a-video-viewer-preset}
+### Agregar o editar un ajuste preestablecido de visualizador de vídeo {#adding-or-editing-a-video-viewer-preset}
 
 Puede usar Ajustes preestablecidos de visor para ver los diversos tipos de visor y su configuración predefinida. También puede añadir y editar sus propios ajustes preestablecidos de visualizador personalizados o editar los existentes que se incluyen con Adobe Dynamic Media Classic.
 
@@ -71,15 +71,15 @@ Consulte también [Ajustes preestablecidos de vídeo](https://s7d5.scene7.com/s7
 
 1. Agregue o edite un ajuste preestablecido de visor para mostrar vídeo:
 
-   * **Añadir** - Seleccionar **[!UICONTROL Añadir]** en la barra de herramientas. En el cuadro de diálogo Agregar ajuste preestablecido de visor, elija una plataforma y un visor en las listas desplegables correspondientes y, a continuación, seleccione **[!UICONTROL Añadir]**.
+   * **Añadir**: Seleccionar **[!UICONTROL Añadir]** en la barra de herramientas. En el cuadro de diálogo Agregar ajuste preestablecido de visor, elija una plataforma y un visor en las listas desplegables correspondientes y, a continuación, seleccione **[!UICONTROL Añadir]**.
 
    Consulte también [Agregar y editar ajustes preestablecidos de visor](application-setup.md#adding_and_editing_viewer_presets).
 
-   * **Añadir empezando desde un ajuste preestablecido de visor existente** - En la tabla, seleccione un ajuste preestablecido de visualizador de vídeo y, a continuación, seleccione **[!UICONTROL Editar]** en la barra de herramientas.
+   * **Añadir empezando desde un ajuste preestablecido de visor existente**: en la tabla, seleccione un ajuste preestablecido de visualizador de vídeo y, a continuación, seleccione **[!UICONTROL Editar]** en la barra de herramientas.
 
    Después de volver a configurar el Visor de vídeo, seleccione **[!UICONTROL Guardar como]** para guardar el ajuste preestablecido con un nombre diferente en el campo de texto Nombre del ajuste preestablecido.
 
-   * **Editar** - Seleccione un ajuste preestablecido de visualizador de vídeo y, a continuación, seleccione **[!UICONTROL Editar]**.
+   * **Editar**: seleccione un ajuste preestablecido de visualizador de vídeo y, a continuación, seleccione **[!UICONTROL Editar]**.
 
 1. En el `Configure Viewer` , en el campo Nombre del ajuste preestablecido, introduzca o edite el nombre del ajuste preestablecido.
 1. Defina las opciones restantes que desee.

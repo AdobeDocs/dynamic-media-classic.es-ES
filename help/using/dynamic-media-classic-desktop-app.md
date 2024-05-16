@@ -1,6 +1,6 @@
 ---
-title: 'Aplicación de escritorio de Adobe Dynamic Media Classic: ya disponible'
-description: Obtenga más información sobre la aplicación de escritorio de Adobe Dynamic Media Classic.
+title: Adobe Dynamic Media Classic Desktop
+description: Obtenga más información sobre la aplicación de escritorio de Adobe Dynamic Media Classic que ya está disponible.
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: afc347201b13c3b91ec5e1bd3ac5304442772f8d
 workflow-type: tm+mt
-source-wordcount: '1993'
+source-wordcount: '1994'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ La notificación de actualización dentro de la aplicación de escritorio de Ado
 
 ## Solo se ha corregido en la última versión (20.22.2) de macOS {#release-feb2022}
 
-* macOS Monterey - La página de carga de archivos se congeló en cargas posteriores. <!-- https://jira.corp.adobe.com/browse/ASSETS-7948 -->
+* macOS Monterey: La página de carga de archivos se ha congelado en cargas posteriores. <!-- https://jira.corp.adobe.com/browse/ASSETS-7948 -->
 
 ## Correcciones en la última versión (20.22.1) {#release-jan2022}
 
@@ -100,20 +100,20 @@ Consulte también:
    * La versión más reciente está disponible en los siguientes enlaces:
 
       * [macOS (.DMG): Descargar](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
-      * [Windows (.EXE) - Descargar](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
+      * [Windows (.EXE): Descargar](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
 
    * La versión anterior está disponible en los siguientes enlaces:
 
       * [macOS (.DMG): Descargar](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
-      * [Windows® (.EXE) - Descargar](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
+      * [Windows® (.EXE): Descargar](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
 
-<!--         * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) -->
+<!--         * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) -->
 
-<!--    * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
-        * [Windows&reg; (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) -->
+<!--    * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
+        * [Windows&reg; (.EXE): Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) -->
 
-<!--    * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
-        * [Windows (.EXE) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) -->
+<!--    * [macOS (.DMG): Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
+        * [Windows (.EXE): Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) -->
 
 
 1. Realice una de las siguientes acciones en función del programa de instalación que descargó.
@@ -168,7 +168,7 @@ Para descargar y *silenciosamente* instale la última versión de la aplicación
 
    ```
    rsync -a <mount_point_path>/Adobe\ Dynamic\ Media\ Classic.app /Applications/
-   Unmount DMG - hdiutil detach <mount_point_path>
+   Unmount DMG: hdiutil detach <mount_point_path>
    ```
 
 1. Al abrir la aplicación, se muestra la nueva página de inicio de sesión de Adobe Dynamic Media Classic:
@@ -201,7 +201,7 @@ Para descargar y *silenciosamente* instale la última versión de la aplicación
 
 1. Descargue el último instalador para la aplicación de escritorio de Adobe Dynamic Media Classic.
 
-   * [Windows® (.EXE) - Descargar](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
+   * [Windows® (.EXE): Descargar](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
 
 1. Ejecute el instalador en modo de registro con el siguiente comando:
 
@@ -254,7 +254,7 @@ Además de borrar la caché de imágenes y recursos mediante la aplicación de e
 
 ## Limitaciones conocidas en Adobe Dynamic Media Classic 20.21.1
 
-* El **[!UICONTROL Servidor]** La lista desplegable está vacía después de actualizar a la aplicación de escritorio de Adobe Dynamic Media Classic 20.21.1: escenario: instala e inicia sesión en Adobe Dynamic Media Classic 20.20.1 o 20.20.2 y, a continuación, cierra la aplicación. A continuación, actualice a Adobe Dynamic Media Classic 20.21.1. Cuando intente iniciar sesión, la variable **[!UICONTROL Servidor]** en la lista desplegable de **[!UICONTROL Inicie sesión en su cuenta]** El cuadro de diálogo está vacío. Para solucionar este problema, debe [borrar manualmente la caché](#clear-cache) (consulte los pasos anteriores).
+* El **[!UICONTROL Servidor]** La lista desplegable está vacía después de actualizar a la aplicación de escritorio de Adobe Dynamic Media Classic 20.21.1: Escenario: instala e inicia sesión en Adobe Dynamic Media Classic 20.20.1 o 20.20.2 y, a continuación, cierra la aplicación. A continuación, actualice a Adobe Dynamic Media Classic 20.21.1. Cuando intente iniciar sesión, la variable **[!UICONTROL Servidor]** en la lista desplegable de **[!UICONTROL Inicie sesión en su cuenta]** El cuadro de diálogo está vacío. Para solucionar este problema, debe [borrar manualmente la caché](#clear-cache) (consulte los pasos anteriores).
 
 ## Limitaciones conocidas en Adobe Dynamic Media Classic 20.20.1 (corregidas en 20.20.2)
 

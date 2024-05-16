@@ -10,10 +10,10 @@ role: User
 exl-id: 7e6f652c-b197-4171-b11b-f532795f7cf2
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1008'
-ht-degree: 17%
+ht-degree: 12%
 
 ---
 
@@ -45,7 +45,7 @@ Consulte también [Ejemplos de la biblioteca de referencia de visores de Adobe](
 
 Puede utilizar la lista del visor para obtener una vista previa del aspecto de un recurso en un tipo de plataforma de visor concreto, como HTML5. Según el tipo de recurso y el visor asociado cuya vista previa haya seleccionado, no todas las plataformas se encuentran disponibles en Lista del visor.
 
-También puede utilizar la lista del visor para copiar la URL de un visor o ver y copiar el código del visor para incrustarlo en las páginas web.
+También puede utilizar la lista del visor para copiar la URL de un visor o ver y copiar el código del visor para incrustarlo en las páginas Web.
 
 En una plataforma de visor determinada, la ventana Lista de visores permite ver visualmente qué dispositivos, como tabletas y smartphones, están disponibles para utilizar.
 
@@ -72,7 +72,7 @@ En una plataforma de visor determinada, la ventana Lista de visores permite ver 
 
    * En la ventana Lista del visor, en la columna Acciones de la tabla, seleccione **[!UICONTROL Código incrustado]**.
 
-     Al seleccionar **[!UICONTROL Código incrustado]**, se abrirá la ventana Código incrustado, donde podrá revisar el código del visor. El código no se puede editar en la ventana. También puede copiar el código en el portapapeles para pegarlo en sus páginas web.
+     Al seleccionar **[!UICONTROL Código incrustado]**, se abrirá la ventana Código incrustado, donde podrá revisar el código del visor. El código no se puede editar en la ventana. También puede copiar el código en el portapapeles para pegarlo en las páginas Web.
 
      Cerrar la vista previa mostrada.
 
@@ -80,7 +80,7 @@ En una plataforma de visor determinada, la ventana Lista de visores permite ver 
 
 ## Previsualizar un recurso de imagen en función de su ajuste preestablecido de imagen {#previewing-an-image-asset-based-on-its-image-preset}
 
-Puede previsualizar un recurso de imagen basándose en su ajuste preestablecido de imagen para ver el aspecto que tendrá la imagen al distribuirse dinámicamente y con distintos tamaños en su aplicación o sitio web.
+Puede obtener una vista previa de un recurso de imagen en función de su ajuste preestablecido de imagen para averiguar el aspecto de la imagen cuando se envía dinámicamente al sitio web o a la aplicación en diferentes tamaños.
 
 Un ajuste preestablecido de imagen es un conjunto de ajustes predefinidos. Estos ajustes cambian el tamaño, la calidad de imagen, el formato, la resolución y otros aspectos de la apariencia de una imagen cuando se exporta.
 

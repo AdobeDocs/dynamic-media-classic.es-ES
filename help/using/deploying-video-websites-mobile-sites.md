@@ -10,10 +10,10 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1702'
-ht-degree: 30%
+ht-degree: 26%
 
 ---
 
@@ -31,9 +31,9 @@ La publicación de un vídeo permite a los servidores de Adobe Dynamic Media Cla
 
 Existen dos métodos diferentes que puede utilizar para publicar vídeos:
 
-* **Publicación automática e instantánea de vídeos al cargar** : Como parte del proceso de carga de vídeos, Adobe Dynamic Media Classic puede publicar vídeos automáticamente cuando se cargan y codifican. Esta capacidad para publicar inmediatamente significa que no es necesario publicar los vídeos por separado posteriormente.
+* **Publicación automática e instantánea de vídeos al cargar**: Como parte del proceso de carga de vídeos, Adobe Dynamic Media Classic puede publicar vídeos automáticamente cuando se cargan y codifican. Esta capacidad para publicar inmediatamente significa que no es necesario publicar los vídeos por separado posteriormente.
 
-* **Publicar vídeo manualmente después de la carga** : Si no desea publicar vídeos inmediatamente, puede publicarlos manualmente en cualquier momento.
+* **Publicar vídeo manualmente después de la carga**: Si no desea publicar vídeos inmediatamente, puede publicarlos manualmente en cualquier momento.
 
 Después de publicar los vídeos, Adobe Dynamic Media Classic activa las cadenas URL de la página del HTML o del código de la aplicación.
 
@@ -46,7 +46,7 @@ Después de publicar los vídeos, Adobe Dynamic Media Classic activa las cadenas
 
 ## Vinculación de una URL de vídeo a un sitio móvil o sitio web {#linking-a-video-url-to-a-mobile-site-or-a-website}
 
-Al publicar un vídeo, puede obtener su URL asociada para utilizarlo en su sitio web, sitio móvil o aplicación de escritorio. Utilice las URL de vídeo cuando desee mostrar vídeo en una ventana emergente o modal por encima de la página web.
+Al publicar un vídeo, puede obtener su URL asociada para utilizarlo en su sitio web, sitio móvil o aplicación de escritorio. Utilice la dirección URL del vídeo cuando desee mostrar el vídeo en una ventana emergente o modal en la parte superior de la página web.
 
 Cuando un cliente selecciona el vínculo, se detectan automáticamente su dispositivo, ancho de banda y tamaño de pantalla. Se mostrará el vídeo apropiado para la reproducción en el visor predefinido para el ordenador o en el reproductor de vídeo nativo del dispositivo smartphone o tablet.
 
@@ -75,7 +75,7 @@ Consulte también [Incrustar el visor de vídeo en una página web](deploying-vi
 
 ## Incrustar el visor de vídeo en una página web {#embedding-the-video-viewer-on-a-web-page}
 
-Utilice la función de código incrustado si desea reproducir el vídeo incrustado en la página web. Copie el código incrustado en el portapapeles para pegarlo en sus páginas web. No se permite la edición del código en el cuadro de diálogo Código incrustado.
+Utilice la función Código incrustado cuando desee reproducir el vídeo incrustado en la página web. El código incrustado se copia en el portapapeles para pegarlo en las páginas Web. No se permite la edición del código en el cuadro de diálogo Código incrustado.
 
 Consulte también [Vinculación de una URL de vídeo a un sitio móvil o sitio web](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
@@ -185,7 +185,7 @@ El *fotograma de póster* es el fotograma inicial que aparece en los visores de 
 
 Puede aplicar modificadores de imagen al fotograma de póster. Por ejemplo, puede recortar el fotograma de póster o hacerlo transparente. Para modificar el fotograma de póster, abra la pantalla de configuración del visor de vídeo e introduzca modificadores en la sección Modificadores de imagen de póster. 
 
-Consulte [Añadir o editar un ajuste preestablecido de visualizador de vídeo](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
+Consulte [Agregar o editar un ajuste preestablecido de visualizador de vídeo](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
 Consulte [Guía del servicio de imágenes](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
 

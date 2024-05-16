@@ -10,7 +10,7 @@ role: User
 exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 30%
@@ -53,9 +53,9 @@ Al eliminar recursos en la carpeta Papelera, éstos se eliminan de forma permane
 
 Para eliminar permanentemente recursos de la carpeta Papelera, seleccione la **[!UICONTROL Papelera]** icono. En la página Papelera, realice una de las acciones siguientes:
 
-* **Eliminación de recursos individuales** : seleccione los recursos que desea eliminar permanentemente y, a continuación, vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Vaciar de papelera]**.
+* **Eliminación de recursos individuales**: seleccione los recursos que desea eliminar permanentemente y, a continuación, vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Vaciar de papelera]**.
 
-* **Eliminando todos los recursos** - Vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Vaciar papelera]**.
+* **Eliminando todos los recursos**: Vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Vaciar papelera]**.
 
 >[!MORELIKETHIS]
 >

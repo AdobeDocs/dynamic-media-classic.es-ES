@@ -1,6 +1,6 @@
 ---
 title: Ajuste de publicación
-description: La configuración de Configuración de publicación permite determinar cómo se envían los recursos de forma predeterminada desde los servidores de Adobe Dynamic Media Classic a los sitios web o las aplicaciones.
+description: La configuración de la configuración de publicación permite determinar cómo se envían los recursos de forma predeterminada desde los servidores de Adobe Dynamic Media Classic a los sitios web o las aplicaciones.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -9,7 +9,7 @@ role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
 source-wordcount: '2383'
 ht-degree: 30%
@@ -26,11 +26,11 @@ Para abrir las páginas de Configuración de publicación, vaya a **[!UICONTROL 
 
 >[!NOTE]
 >
->Las páginas Ajustes de publicación están destinadas a desarrolladores y programadores de sitios web experimentados. Adobe Dynamic Media Classic supone que los usuarios que cambian la configuración de estas páginas están familiarizados con Adobe Dynamic Media Classic, los estándares y convenciones del protocolo HTTP y la tecnología básica de imágenes.
+>Las páginas Ajustes de publicación son para uso de programadores y desarrolladores de sitios Web experimentados. Adobe Dynamic Media Classic supone que los usuarios que cambian la configuración de estas páginas están familiarizados con Adobe Dynamic Media Classic, los estándares y convenciones del protocolo HTTP y la tecnología básica de imágenes.
 
 ## Image Server {#image-server}
 
-La página Servidor de imágenes establece la configuración predeterminada para enviar imágenes desde servidores de imágenes. La configuración está disponible en estas cinco categorías (consulte la página del servidor de imágenes para obtener descripciones detalladas de la configuración).
+La página Servidor de imágenes establece la configuración predeterminada para enviar imágenes desde los servidores de imágenes. La configuración está disponible en estas cinco categorías (consulte la página del servidor de imágenes para obtener descripciones detalladas de la configuración).
 
 Cambie esta configuración solo con la ayuda de una persona de asistencia de Adobe Dynamic Media Classic.
 
@@ -160,7 +160,7 @@ Los ID de configuración regional se asignan a los sufijos correspondientes. Si 
 | en, en_us, en_uk | myImg_E, myImg |
 | de, de_de, de_at | myImg_D, myImg |
 | fr | myImg_F, myImg |
-| Todos los demás | - |
+| Todos los demás | : |
 
 ##### Búsqueda del localeMap cuando se desconoce la configuración regional
 
@@ -222,15 +222,15 @@ Utilizando el primer ejemplo como base, las imágenes de todos los idiomas podr�
 
 La página Procesador de imágenes establece la configuración predeterminada para enviar conjuntos de imágenes desde servidores de procesamiento de imágenes. La configuración está disponible en estas cinco categorías (consulte la página del servidor de imágenes para obtener descripciones detalladas de la configuración):
 
-* **[!UICONTROL Administración de catálogos]** : Esta configuración determina cómo interactúan Adobe Dynamic Media Classic y el archivo de catálogo. Las llamadas de URL del servidor de procesamiento de Adobe Dynamic Media Classic se realizan al catálogo, que a su vez llama a para enviar imágenes desde el servidor. Cambie esta configuración solo con la ayuda de una persona de asistencia de Adobe Dynamic Media Classic.
+* **[!UICONTROL Administración de catálogos]**: esta configuración determina cómo interactúan Adobe Dynamic Media Classic y el archivo de catálogo. Las llamadas de URL del servidor de procesamiento de Adobe Dynamic Media Classic se realizan al catálogo, que a su vez llama a para enviar imágenes desde el servidor. Cambie esta configuración solo con la ayuda de una persona de asistencia de Adobe Dynamic Media Classic.
 
-* **[!UICONTROL Atributos de sesión]** : Esta configuración establece parámetros de error, la dirección URL de direcciones URL de imágenes relativas y si se permite la superposición de objetos.
+* **[!UICONTROL Atributos de sesión]**: esta configuración establece parámetros de error, la dirección URL de direcciones URL de imágenes relativas y si se permite la superposición de objetos.
 
-* **[!UICONTROL Atributos de material predeterminados]** : Esta configuración establece la resolución y los ajustes de enfoque predeterminados para las imágenes.
+* **[!UICONTROL Atributos de material predeterminados]**: esta configuración establece la resolución y el enfoque predeterminados para las imágenes.
 
-* **[!UICONTROL Atributos de imagen de respuesta]** : estos ajustes pertenecen al aspecto predeterminado de las imágenes.
+* **[!UICONTROL Atributos de imagen de respuesta]**: esta configuración pertenece al aspecto predeterminado de las imágenes.
 
-* **[!UICONTROL Atributos de gestión de color]** - Estos ajustes pertenecen a los ajustes de color predeterminados de las imágenes.
+* **[!UICONTROL Atributos de gestión de color]**: Esta configuración pertenece a la configuración de color predeterminada de las imágenes.
 
 ## Viñeta {#vignette}
 

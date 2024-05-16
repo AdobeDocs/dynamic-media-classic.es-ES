@@ -9,10 +9,10 @@ role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '383'
-ht-degree: 37%
+ht-degree: 42%
 
 ---
 
@@ -32,13 +32,13 @@ Consulte también [Exportación de recursos desde Adobe Dynamic Media Classic](e
 1. En la barra de navegación global, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes preestablecidos de imagen]**.
 1. En la ventana Ajustes preestablecidos de imagen, seleccione una de las siguientes opciones:
 
-   * **Habilitar conversión definida por el usuario** : cuando se selecciona, esta opción permite a los usuarios elegir otras opciones del **[!UICONTROL Tamaño]** en la ventana Exportar recursos seleccionados. Los usuarios pueden elegir una unidad de medida, como píxeles o centímetros, y especificar la anchura y la altura deseadas. Al exportar o descargar estos archivos, se cambia el formato de los archivos de imagen.
+   * **Habilitar conversión definida por el usuario**: cuando se selecciona, esta opción permite a los usuarios elegir otras opciones del **[!UICONTROL Tamaño]** en la ventana Exportar recursos seleccionados. Los usuarios pueden elegir una unidad de medida, como píxeles o centímetros, y especificar la anchura y la altura deseadas. Al exportar o descargar estos archivos, se cambia el formato de los archivos de imagen.
 
      Cuándo **[!UICONTROL píxeles]** se eligen de la **[!UICONTROL Tamaño]** , la anchura × altura de la imagen resultante no puede superar los 100 millones de píxeles. Este tamaño equivale a 10.000 × 10.000 píxeles para una imagen cuadrada, o aproximadamente 8.000 × 12.000 píxeles para una imagen con una relación de aspecto 2x3. Esta limitación de tamaño no se aplica si exporta imágenes principales originales.
 
      Anule la selección de esta opción para que los usuarios descarguen los archivos sin volver a aplicarles formato a medida que se descargan.
 
-   * **Habilitar la exportación del original** : permite exportar imágenes principales originales. En el **[!UICONTROL Exportar recursos seleccionados]** , los usuarios pueden abrir el panel **[!UICONTROL Conversión]** menú desplegable y elija **[!UICONTROL Exportar original]** para exportar archivos originales. Anule la selección de esta opción si desea obligar a los usuarios a elegir un ajuste preestablecido de imagen o a elegir opciones de conversión al exportar imágenes.
+   * **Habilitar la exportación del original**: permite exportar imágenes principales originales. En el **[!UICONTROL Exportar recursos seleccionados]** , los usuarios pueden abrir el panel **[!UICONTROL Conversión]** menú desplegable y elija **[!UICONTROL Exportar original]** para exportar archivos originales. Anule la selección de esta opción si desea obligar a los usuarios a seleccionar un ajuste preestablecido de imagen o sus propias opciones de conversión al exportar imágenes.
 
 >[!MORELIKETHIS]
 >

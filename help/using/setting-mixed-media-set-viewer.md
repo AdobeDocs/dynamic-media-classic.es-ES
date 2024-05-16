@@ -10,10 +10,10 @@ role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 36%
+ht-degree: 27%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 36%
 
 Los ajustes preestablecidos de visor de conjuntos de medios mixtos determinan el estilo, el comportamiento y la apariencia del visor principal. Al configurar un ajuste preestablecido, puede especificar qué otros visores desea que aparezcan en el interior del visor de medios mixtos. Por ejemplo, si ha incluido un conjunto de imágenes en el conjunto de medios mixtos, especifique un ajuste preestablecido del visualizador de conjuntos de imágenes para el visualizador de conjuntos de medios mixtos.
 
-Puede elegir incluir todas o algunas de las funciones de comunidad en el visor de conjuntos de medios mixtos. La función Incrustar añade un vínculo al visor que permite que los usuarios copien el código necesario para ver el visor en una página externa (como un blog, sitio web o sitio de red social). La función Vínculo proporciona la dirección URL al visor, de forma que los usuarios pueden volver a este visor. La función Visita proporciona un vínculo al sitio web que especifique.
+Puede elegir incluir todas o algunas de las funciones de comunidad en el visor de conjuntos de medios mixtos. La función Insertar agrega un vínculo al visor que permite a los usuarios copiar el código necesario para mostrar el visor en una página externa (como un blog, un sitio web o un sitio de redes sociales). La función Vínculo proporciona la dirección URL al visor, de forma que los usuarios pueden volver a este visor. La característica Visita proporciona un vínculo al sitio Web especificado.
 
 1. En la barra de navegación global, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes preestablecidos de visor]**.
 1. En la página Ajustes preestablecidos de visor, realice una de las siguientes acciones:
@@ -44,7 +44,7 @@ Puede elegir incluir todas o algunas de las funciones de comunidad en el visor d
 
    El nuevo ajuste preestablecido del visor aparece en la lista.
 
-1. Repita los pasos 6 a 9 para todos los ajustes preestablecidos de visor que desee agregar.
+1. Repita los pasos 6: 9 para todos los ajustes preestablecidos del visualizador que desee añadir.
 1. Para editar la lista de ajustes preestablecidos, realice una de las siguientes acciones:
 
    * Para eliminar un ajuste preestablecido de la lista, selecciónelo y, a continuación, seleccione **[!UICONTROL Eliminar]**.
@@ -52,13 +52,13 @@ Puede elegir incluir todas o algunas de las funciones de comunidad en el visor d
 
 1. Para agregar funciones de comunidad (Incrustar, Vínculo, Visita) al visor, especifique las opciones para cualquiera de lo siguiente:
 
-   * **Correo electrónico** - Seleccionar **[!UICONTROL Activado]** para habilitar un botón de correo electrónico en el visor. Cuando los usuarios seleccionan el botón Correo electrónico mientras ven el conjunto, se abre un correo electrónico que contiene el vínculo al conjunto.
+   * **Correo electrónico**: Seleccionar **[!UICONTROL Activado]** para habilitar un botón de correo electrónico en el visor. Cuando los usuarios seleccionan el botón Correo electrónico mientras ven el conjunto, se abre un correo electrónico que contiene el vínculo al conjunto.
 
-   * **Incrustar** - Seleccionar **[!UICONTROL Activo]**. En el cuadro Etiqueta de botón de incrustación, escriba el nombre que desea ver en el visor del botón Incrustar. Si lo desea, seleccione **[!UICONTROL Examinar]** para buscar y seleccionar una apariencia personalizada para el botón.
+   * **Incrustar**: Seleccionar **[!UICONTROL Activo]**. En el cuadro Etiqueta de botón de incrustación, escriba el nombre que desea ver en el visor del botón Incrustar. Si lo desea, seleccione **[!UICONTROL Examinar]** para buscar y seleccionar una apariencia personalizada para el botón.
 
-   * **Vínculo** - Seleccionar **[!UICONTROL Activo]**. En el cuadro Etiqueta del botón de vínculo, escriba el nombre que desee que se muestre en el visor del botón Vínculo. Si lo desea, seleccione **[!UICONTROL Examinar]** para buscar y seleccionar una apariencia personalizada para el botón.
+   * **Vínculo**: Seleccionar **[!UICONTROL Activo]**. En el cuadro Etiqueta del botón de vínculo, escriba el nombre que desee que se muestre en el visor del botón Vínculo. Si lo desea, seleccione **[!UICONTROL Examinar]** para buscar y seleccionar una apariencia personalizada para el botón.
 
-   * **Visita** - Seleccionar **[!UICONTROL Activo]**. En el cuadro Etiqueta del botón de visita, escriba el nombre que desee que se muestre en el visor para el botón Visita. En el cuadro URL de visita, escriba la dirección URL del sitio web que desea abrir cuando se seleccione el vínculo.
+   * **Visita**: Seleccionar **[!UICONTROL Activo]**. En el cuadro Etiqueta del botón de visita, escriba el nombre que desee que se muestre en el visor para el botón Visita. En el cuadro Dirección URL de la visita, escriba la dirección URL del sitio Web que desea abrir cuando se seleccione el vínculo.
 
 1. Especifique otras opciones que desee. Para ver una descripción de una opción, seleccione el icono de información sobre sugerencias situado junto a la opción.
 
