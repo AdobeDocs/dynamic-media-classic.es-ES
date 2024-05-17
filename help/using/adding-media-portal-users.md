@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
 topic: Administration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: bb229047c0c9b3855453ea15dcd1f9754bc65cef
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 54%
+source-wordcount: '1008'
+ht-degree: 50%
 
 ---
 
@@ -23,7 +23,7 @@ Como administrador puede añadir y administrar a los usuarios, decidir si pueden
 
 >[!NOTE]
 >
->antes de agregar usuarios tendrá que configurar grupos para administrarlos. Media Portal no permite agregar un usuario sin asignarlo a uno o varios grupos. Para obtener más información, consulte [Crear y administrar grupos de Media Portal](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
+>antes de agregar usuarios tendrá que configurar grupos para administrarlos. Media Portal permite agregar un usuario asignándolo a uno o varios grupos. Para obtener más información, consulte [Crear y administrar grupos de Media Portal](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
 
 ## Administración de contraseñas de Media Portal {#handling-media-portal-passwords}
 
@@ -95,7 +95,7 @@ Cada usuario de la lista se agrega automáticamente a los grupos especificados. 
 
 >[!NOTE]
 >
->Si el archivo CSV no se ha formateado correctamente, aparece el siguiente mensaje de error: &quot;Error al procesar el archivo CSV cargado. Compruebe si los datos del archivo son válidos.&quot; Además, si el archivo CSV contiene un usuario de IP o IPS existente, éste no se añade a la lista de usuarios.
+>Si el archivo CSV no se ha formateado correctamente, aparece el siguiente mensaje de error: &quot;Error al procesar el archivo CSV cargado. Compruebe si los datos del archivo son válidos.&quot; Además, si el archivo CSV contiene un usuario IP o IPS existente, el usuario no se agrega a la lista de usuarios.
 
 ## Generación de una lista seleccionable de usuarios de Media Portal {#generating-a-selectable-list-of-media-portal-users}
 

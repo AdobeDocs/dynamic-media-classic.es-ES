@@ -10,16 +10,16 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: bb229047c0c9b3855453ea15dcd1f9754bc65cef
 workflow-type: tm+mt
-source-wordcount: '1619'
-ht-degree: 24%
+source-wordcount: '1622'
+ht-degree: 23%
 
 ---
 
 # Comprobar archivos de trabajo{#checking-job-files}
 
-Para monitorizar las cargas de archivos a Adobe Dynamic Media Classic y los archivos que publica en servidores de Adobe Dynamic Media Classic, Adobe Dynamic Media Classic ofrece la página Trabajos. Desde este página, puede revisar los trabajos de carga y publicación, comprobar el estado de los trabajos y cancelar trabajos de publicación. También puede programar trabajos de carga y publicación.
+Para monitorizar las cargas de archivos a Adobe Dynamic Media Classic y los archivos que publica en servidores de Adobe Dynamic Media Classic, Adobe Dynamic Media Classic ofrece la página Trabajos. Puede revisar, cargar y publicar trabajos en la página Trabajos, comprobar el estado de los trabajos y cancelar los trabajos de publicación desde esta página. También puede programar trabajos de carga y publicación.
 
 Cuando carga recursos, aparece un icono que gira junto al menú Trabajos que indica que el trabajo está en curso y el número de archivos que se están procesando. Puede seleccionar el icono para ver más información sobre el trabajo activo.
 
@@ -49,7 +49,7 @@ En la ficha Historial de la página Trabajos, los trabajos se clasifican según 
 
 * **[!UICONTROL Estado]**: Muestra el estado del trabajo.
 
-* **[!UICONTROL Destino]**: para los trabajos de carga, el nombre de la empresa y la carpeta en la que se cargaron los archivos. Esta categoría no se aplica a los trabajos de publicación.
+* **[!UICONTROL Destino]**: Para los trabajos de carga, el destino es el nombre de la empresa y la carpeta en la que se cargaron los archivos. Esta categoría no se aplica a los trabajos de publicación.
 
 * **[!UICONTROL Enviado por]**: lista de los usuarios que cargaron los recursos.
 

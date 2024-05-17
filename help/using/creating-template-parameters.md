@@ -10,16 +10,16 @@ role: User
 exl-id: 118806ea-c8a7-4aaf-9ae3-739c6b04ea77
 topic: Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 00591bdbe721035e25d3dea245a2110f978d19aa
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 47%
+source-wordcount: '791'
+ht-degree: 45%
 
 ---
 
 # Creación de los parámetros de plantilla{#creating-template-parameters}
 
-Los parámetros le permiten usar las plantillas con la máxima flexibilidad; puede personalizar de forma dinámica una plantilla de imagen. Puede decidir cuál de las capas de imagen y texto desea incluir en la plantilla, y en cada capa, qué parámetros desea mostrar. Por ejemplo, para llamar la atención sobre un producto que está a la venta, puede crear una capa de texto En venta. Posteriormente podrá quitar el parámetro Rebajado para quitar esta capa manteniendo el resto de la imagen de plantilla.
+Los parámetros permiten utilizar plantillas con la máxima flexibilidad; permiten personalizar dinámicamente una imagen de plantilla. Puede decidir cuál de las capas de imagen y texto desea incluir en la plantilla, y en cada capa, qué parámetros desea mostrar. Por ejemplo, para llamar la atención sobre un producto que está a la venta, puede crear una capa de texto En venta. Posteriormente podrá quitar el parámetro Rebajado para quitar esta capa manteniendo el resto de la imagen de plantilla.
 
 La creación de parámetros de plantilla implica la definición de las partes de la plantilla a las que llamar en una cadena URL. Una URL compuesta de parámetros revela esos elementos en la cadena URL. Con los parámetros expuestos, puede crear resultados personalizados de la manera en que la plantilla de la imagen se construye de forma dinámica en el servidor de imágenes. Así se puede cambiar una plantilla de forma dinámica ya que se puede llamar a todos los parámetros o solo algunos de una URL.
 
@@ -59,4 +59,4 @@ Para que el nombre del parámetro use un valor de base de datos, añada la sigui
 ?$_2(parameter name)=(database value)
 ```
 
-El nombre del parámetro se sustituye por nombres en un campo de base de datos o código Java™ que indica, por ejemplo, el precio actual de un artículo o el nombre de un cliente.
+Los nombres de un campo de base de datos o código Java™ reemplazan los nombres de parámetros. Esta funcionalidad indica, por ejemplo, el precio actual de un artículo o el nombre de un cliente.

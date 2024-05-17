@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: b0c5f70a-2388-42aa-a1ed-fd745ff90518
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 00591bdbe721035e25d3dea245a2110f978d19aa
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 16%
+source-wordcount: '327'
+ht-degree: 17%
 
 ---
 
@@ -27,7 +27,7 @@ Para acceder a la configuración de estilo, vaya a **[!UICONTROL Configurar]** >
 
 * **[!UICONTROL Aplicación]**: cree una mezcla de colores de degradado seleccionando opciones en los menús de Colores de degradado de fondo.
 
-* **[!UICONTROL Árbol]**: elija un color de rollover (el color que aparece al mover el puntero sobre un elemento) y un color de selección (el color que aparece al seleccionar un elemento).
+* **[!UICONTROL Árbol]**: elija un color de rollover y de selección.
 
 * **[!UICONTROL Acordeón]**: elija colores de fondo, un estilo de borde y colores de rollover y seleccionados para el acordeón que aparece a la derecha de la pantalla en la vista Detalles.
 
