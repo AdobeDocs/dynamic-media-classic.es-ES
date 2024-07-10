@@ -9,7 +9,7 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: b34520c31ca7d46a0753bf0900070743110e6fc4
+source-git-commit: 3f71adedf54832c4e7c4c46d4103d609a2fd9634
 workflow-type: tm+mt
 source-wordcount: '2934'
 ht-degree: 1%
@@ -125,7 +125,6 @@ Los subtítulos añadidos son compatibles con los formatos WebVTT y VTT de Adobe
 1. Desplácese hasta el recurso de vídeo cargado al que desee agregar varias pistas de subtítulos y audio.
 1. En el modo de selección de recursos, ya sea en la vista de lista o en la vista de tarjeta, seleccione el recurso de vídeo.
 1. En la barra de herramientas, seleccione el icono Propiedades (un círculo con una &quot;i&quot;).
-<!-- ![Selected video asset with checkmark over video thumbnail image and View Properties highlighted on the toolbar.](/help/assets/dynamic-media/assets/msma-selectedasset-propertiesbutton.png)*Selected video asset in Card view.* -->
 1. En la página Propiedades del vídeo, seleccione la **[!UICONTROL Subtítulos y pistas de audio]** pestaña.
 
    >[!TIP]
@@ -135,8 +134,6 @@ Los subtítulos añadidos son compatibles con los formatos WebVTT y VTT de Adobe
    >* O bien, Dynamic Media debe volver a procesar el vídeo. En cuyo caso, consulte [Volver a procesar los recursos de Dynamic Media en una carpeta].
    >
    >Cuando haya completado cualquiera de las tareas anteriores, vuelva a estos pasos.
-
-   <!-- ![Captions and Audio Tracks tab on the Properties page.](/help/assets/dynamic-media/assets/msma-audiotracks2.png)*Captions and Audio Tracks tab on the video's Properties page.* -->
 
 1. Para agregar una o más pistas de audio a un vídeo, haga lo siguiente:
    1. Seleccionar **[!UICONTROL Cargar pistas de audio]**.
@@ -165,7 +162,6 @@ Los subtítulos añadidos son compatibles con los formatos WebVTT y VTT de Adobe
    | **Opción 2** | Quiero que AI genere mis archivos de subtítulos en varios idiomas.<br>Consulte **Opción 2** en el paso 8 siguiente. |
    | **Opción 3** | El texto de un archivo de rótulo (.vtt) debe corregirse, volver a cargarse para reemplazar el antiguo archivo .vtt y, a continuación, solicitar a AI que traduzca el archivo corregido.<br>Consulte **Opción 3** en el paso 8 siguiente. |
 
-
 +++**Opción 1:** *Tengo mis propios archivos de subtítulos preexistentes en los idiomas que quiero usar.*
 
    1. Cerca de la parte superior derecha de la página, haga clic en **[!UICONTROL Crear pie de ilustración]** > **[!UICONTROL Cargar archivos]**.
@@ -189,7 +185,6 @@ Los subtítulos añadidos son compatibles con los formatos WebVTT y VTT de Adobe
 
    1. Si ha seleccionado **[!UICONTROL Guardar y cerrar]** en el paso anterior, en lugar de seleccionar **[!UICONTROL Guardar]** Sin embargo, aún puede ver el estado de procesamiento de los archivos cargados. Consulte [Ver el estado del ciclo de vida de los archivos de subtítulos y pistas de audio cargados].
    1. Siga con el paso 9.
-
 +++
 
 +++**Opción 2:** *Quiero que AI genere mis archivos de subtítulos en varios idiomas.*
@@ -218,7 +213,6 @@ Los subtítulos añadidos son compatibles con los formatos WebVTT y VTT de Adobe
 
       Puede cambiar o editar ciertos metadatos de subtítulos más adelante, si es necesario. Cuando se publica el vídeo, los detalles de estos metadatos se reflejan en las direcciones URL públicas de los vídeos publicados.
    1. Siga con el paso 9.
-
 +++
 
 +++**Opción 3:** *El texto de un archivo de rótulo (.vtt) debe corregirse, volver a cargarse para reemplazar el antiguo archivo .vtt y, a continuación, solicitar a AI que traduzca el archivo corregido.*
@@ -248,7 +242,6 @@ Los subtítulos añadidos son compatibles con los formatos WebVTT y VTT de Adobe
       Puede cambiar o editar ciertos metadatos de subtítulos más adelante, si es necesario. Cuando se publica el vídeo, los detalles de estos metadatos se reflejan en las direcciones URL públicas de los vídeos publicados.
 
    1. Siga con el paso 9.
-
 +++
 
 1. (Opcional) Previsualice el vídeo antes de publicarlo para garantizar que los subtítulos y el audio funcionan según lo esperado. Consulte [Vista previa de un vídeo con varios subtítulos y pistas de audio].
