@@ -34,11 +34,11 @@ Puede seleccionar una de las tres plantillas de respuesta preestablecidas para m
 **Para configurar una plantilla de respuesta para conjuntos de imágenes:**
 
 1. Haga doble clic en el conjunto de imágenes para que se abra en la Vista de detalles.
-1. Seleccionar **[!UICONTROL Configuración de InfoPanel]**.
+1. Seleccione **[!UICONTROL Configuración de InfoPanel]**.
 1. En la lista desplegable Plantilla de respuesta, realice una de las siguientes acciones:
 
-   * Para utilizar la respuesta predeterminada, seleccione **[!UICONTROL Predeterminado]**. El XML para el diseño de la plantilla aparece atenuado en el cuadro de texto Plantilla del usuario.
-   * Para crear su propia plantilla de respuesta, seleccione **[!UICONTROL Personalizado]**. En el cuadro de texto Plantilla del usuario, escriba la definición XML de la plantilla. Como base para su propia respuesta, puede utilizar la plantilla predeterminada que ya está definida en el cuadro de texto.
+   * Para usar la respuesta predeterminada, seleccione **[!UICONTROL Predeterminado]**. El XML para el diseño de la plantilla aparece atenuado en el cuadro de texto Plantilla del usuario.
+   * Para crear tu propia plantilla de respuesta, selecciona **[!UICONTROL Personalizado]**. En el cuadro de texto Plantilla del usuario, escriba la definición XML de la plantilla. Como base para su propia respuesta, puede utilizar la plantilla predeterminada que ya está definida en el cuadro de texto.
 
 1. (Opcional) En el cuadro Respuesta predeterminada, escriba el texto que desea que aparezca si Adobe Dynamic Media Classic encuentra un error al recuperar información para un mapa de imagen. Por ejemplo, si el sistema recibe un nombre de empresa y un nombre de conjunto de imágenes, pero ningún identificador rollover, aparecerá este mensaje para el usuario.
 1. En el campo de texto Tiempo de respuesta, escriba el número de horas que desea esperar antes de almacenar los datos en caché.
@@ -46,8 +46,8 @@ Puede seleccionar una de las tres plantillas de respuesta preestablecidas para m
    * Establezca un número más bajo si los datos se actualizan frecuentemente a lo largo del día.
    * Establezca un número más alto si los datos son relativamente estables y no requieren actualizarse con frecuencia a lo largo del día. El valor predeterminado es de diez horas.
 
-1. Seleccionar **[!UICONTROL Cargar]** para cargar contenido del panel de información, en función del valor rollover_key, en s7info.
-1. En el cuadro de diálogo Cargar S7Info, busque el archivo que desea utilizar y, a continuación, seleccione **[!UICONTROL Cargar]**.
+1. Seleccione **[!UICONTROL Upload]** para cargar el contenido del panel de información a s7info, según el valor rollover_key.
+1. En el cuadro de diálogo Cargar S7Info, busque el archivo que desee usar y, a continuación, seleccione **[!UICONTROL Cargar]**.
 
    Los formatos de archivo compatibles son archivos delimitados por tabuladores con codificación UTF-16 y archivos CSV con codificación ASCII. En el caso de los archivos CSV, los caracteres no ASCII deben estar codificados en HTML.
 
@@ -66,10 +66,10 @@ Cuando dé formato al contenido de origen, tenga en cuenta las siguientes pautas
 ### Importación de contenido CSV en conjuntos de imágenes desde una ubicación alojada de forma externa {#import-csv-content-into-image-sets-from-an-externally-hosted-location}
 
 1. Haga doble clic en el conjunto de imágenes para que se abra en Vista de detalles.
-1. Seleccionar **[!UICONTROL Fuente de datos de InfoPanel]**.
+1. Seleccione **[!UICONTROL Fuente de datos de InfoPanel]**.
 1. En el campo de texto Ubicación del archivo CSV alojado de forma externa (HTTP), introduzca la URL del archivo CSV.
-1. (Opcional) En el campo Programar actualización, especifique una hora para actualizar el contenido y, a continuación, seleccione **[!UICONTROL Añadir]**.
+1. (Opcional) En el campo Programar actualización, especifique una hora para actualizar el contenido y, a continuación, seleccione **[!UICONTROL Agregar]**.
 
    Puede seleccionar varios tiempos de actualización. Cada tiempo de actualización aparece en el cuadro Tiempos de actualización. Para quitar una hora programada, selecciónela y, a continuación, seleccione **[!UICONTROL Eliminar]**.
 
-1. (Opcional) Seleccione **[!UICONTROL Ejecutar actualización]** para que pueda actualizar el contenido inmediatamente.
+1. (Opcional) Seleccione **[!UICONTROL Ejecutar actualización]** para que pueda actualizar inmediatamente el contenido.

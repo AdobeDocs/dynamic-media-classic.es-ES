@@ -20,5 +20,5 @@ ht-degree: 0%
 # Imprimir recursos{#printing-assets}
 
 1. En el panel Examinar, seleccione el recurso o recursos que desee imprimir.
-1. Ir a **[!UICONTROL Archivo]** > **[!UICONTROL Imprimir]** o pulse `Ctrl+P` (Windows®) o `Command+P` (Mac).
+1. Vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Imprimir]** o presione `Ctrl+P` (Windows®) o `Command+P` (Mac).
 1. En el cuadro de diálogo Imprimir, elija cuántas copias desea imprimir y, a continuación, haga clic en **[!UICONTROL Imprimir]**.

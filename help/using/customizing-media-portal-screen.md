@@ -21,25 +21,25 @@ ht-degree: 17%
 
 Los ajustes de estilo de Media Portal le permiten aplicar un estilo de marca a la pantalla de Media Portal, con los colores y el logotipo de su empresa. Utilice la configuración de estilo para incluir la marca de su empresa en Media Portal.
 
-Para acceder a la configuración de estilo, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Configuración de Media Portal]** > **[!UICONTROL Configuración de estilo]**. Asegúrese de seleccionar **[!UICONTROL Guardar]** para guardar la configuración después de hacerla. Puede seleccionar **[!UICONTROL Restaurar]** para recuperar la configuración predeterminada. A medida que realiza sus elecciones, el panel Vista previa le muestra cómo aparecen.
+Para obtener acceso a la configuración de estilo, ve a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de Media Portal]** > **[!UICONTROL Configuración de estilo]**. Asegúrese de seleccionar **[!UICONTROL Guardar]** para guardar la configuración después de hacerla. Puede seleccionar **[!UICONTROL Restaurar]** para recuperar la configuración predeterminada. A medida que realiza sus elecciones, el panel Vista previa le muestra cómo aparecen.
 
-* **[!UICONTROL Logotipo]**: Seleccionar **[!UICONTROL Examinar]** y, a continuación, elija un gráfico en la ventana Seleccionar imagen de logotipo.
+* **[!UICONTROL Logotipo]**: selecciona **[!UICONTROL Examinar]** y, a continuación, elige un gráfico en la ventana Seleccionar imagen de logotipo.
 
-* **[!UICONTROL Aplicación]**: cree una mezcla de colores de degradado seleccionando opciones en los menús de Colores de degradado de fondo.
+* **[!UICONTROL Aplicación]**: cree una combinación de colores de degradado tomando decisiones en los menús de Colores de degradado de fondo.
 
-* **[!UICONTROL Árbol]**: elija un color de rollover y de selección.
+* **[!UICONTROL Árbol]**: Elija un color de rollover y un color de selección.
 
-* **[!UICONTROL Acordeón]**: elija colores de fondo, un estilo de borde y colores de rollover y seleccionados para el acordeón que aparece a la derecha de la pantalla en la vista Detalles.
+* **[!UICONTROL Acordeón]**: elige colores de fondo, un estilo de borde y colores de rollover y seleccionados para el acordeón que aparece a la derecha de la pantalla en la vista Detalles.
 
-* **[!UICONTROL Encabezado de acordeón]**: elija si desea hacer que el texto del encabezado del acordeón aparezca en negrita.
+* **[!UICONTROL Encabezado de acordeón]**: elija si desea hacer que el texto del encabezado de acordeón aparezca en negrita.
 
-* **[!UICONTROL Datagrid]**: elija colores para la fila del encabezado en las cuadrículas de datos.
+* **[!UICONTROL cuadrícula de datos]**: elija colores para la fila de encabezado en las cuadrículas de datos.
 
-* **[!UICONTROL Alerta]**: elija un color de fondo para los cuadros de mensaje de alerta.
+* **[!UICONTROL Alerta]**: elige un color de fondo para los cuadros de mensajes de alerta.
 
-* **[!UICONTROL Barra de progreso]**: elija un color para la barra que indique el progreso de las cargas y descargas.
+* **[!UICONTROL Barra de progreso]**: elige un color para la barra que indique el progreso de las cargas y descargas.
 
-Para que los usuarios de Media Portal puedan ver la configuración de estilo que ha elegido, deben adjuntar `?company=(company name)` a la URL con la que acceden a Media Portal. Por ejemplo, para ver la configuración de estilo, los usuarios de Media Portal que acceden a la empresa PortalCo en las siguientes direcciones:
+Para que los usuarios de Media Portal vean la configuración de estilo que eligió, deben anexar `?company=(company name)` a la dirección URL con la que acceden a Media Portal. Por ejemplo, para ver la configuración de estilo, los usuarios de Media Portal que acceden a la empresa PortalCo en las siguientes direcciones:
 
 `https://s7sps1.scene7.com/MediaPortal`
 

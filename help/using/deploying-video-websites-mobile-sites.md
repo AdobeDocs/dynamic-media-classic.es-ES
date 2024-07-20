@@ -31,9 +31,9 @@ La publicación de un vídeo permite a los servidores de Adobe Dynamic Media Cla
 
 Existen dos métodos diferentes que puede utilizar para publicar vídeos:
 
-* **Publicación automática e instantánea de vídeos al cargar**: Como parte del proceso de carga de vídeos, Adobe Dynamic Media Classic puede publicar vídeos automáticamente cuando se cargan y codifican. Esta capacidad de publicación instantánea significa que no hay necesidad de publicar vídeos por separado después del hecho.
+* **Vídeos de Publish de forma automática e instantánea al cargar**: Como parte del proceso de carga de vídeos, Adobe Dynamic Media Classic puede publicar vídeos automáticamente cuando se cargan y codifican. Esta capacidad de publicación instantánea significa que no hay necesidad de publicar vídeos por separado después del hecho.
 
-* **Publicar vídeo manualmente después de la carga**: Si no desea publicar vídeos inmediatamente, puede publicarlos manualmente en cualquier momento.
+* **Vídeo de Publish manualmente después de la carga**: Si no desea publicar vídeos inmediatamente, puede publicarlos manualmente en cualquier momento.
 
 Después de publicar los vídeos, Adobe Dynamic Media Classic activa las cadenas URL de la página del HTML o del código de la aplicación.
 
@@ -41,8 +41,8 @@ Después de publicar los vídeos, Adobe Dynamic Media Classic activa las cadenas
 
 1. Realice una de las siguientes acciones:
 
-   * Para publicar vídeos de forma automática e instantánea al cargar, en la página Cargar, seleccione **[!UICONTROL Publicar tras la carga]**. Ya ha terminado; no tiene que seguir más pasos.
-   * Para publicar vídeos manualmente después de la carga, en el panel Examinar, seleccione los vídeos y, a continuación, en la barra de navegación global, seleccione **Publish**.
+   * Para publicar vídeos de forma automática e instantánea al cargar, en la página Cargar, selecciona **[!UICONTROL Publish después de cargar]**. Ya ha terminado; no tiene que seguir más pasos.
+   * Para publicar vídeos manualmente después de la carga, en el panel Examinar, selecciona los vídeos y, a continuación, en la barra de navegación global, selecciona **Publish**.
 
 ## Vinculación de una URL de vídeo a un sitio móvil o sitio web {#linking-a-video-url-to-a-mobile-site-or-a-website}
 
@@ -50,26 +50,26 @@ Al publicar un vídeo, puede obtener su URL asociada para utilizarlo en su sitio
 
 Cuando un cliente selecciona el vínculo, se detectan automáticamente su dispositivo, ancho de banda y tamaño de pantalla. Se mostrará el vídeo apropiado para la reproducción en el visor predefinido para el ordenador o en el reproductor de vídeo nativo del dispositivo smartphone o tablet.
 
-Consulte también [Incrustar el visor de vídeo en una página web](deploying-video-websites-mobile-sites.md#embedding_the_video_viewer_on_a_web_page).
+Vea también [Incrustar el visor de vídeo en una página web](deploying-video-websites-mobile-sites.md#embedding_the_video_viewer_on_a_web_page).
 
-**Para vincular una URL de vídeo a un sitio móvil o sitio web:**
+**Para vincular una dirección URL de vídeo a un sitio móvil o sitio web:**
 
-1. En el panel Examen de recursos, en la variable **[!UICONTROL Mostrar]** , seleccione la opción **[!UICONTROL Vídeo]**, o **[!UICONTROL Conjunto de vídeos adaptable]**.
+1. En el panel Examinar recursos, en la lista desplegable **[!UICONTROL Mostrar]**, seleccione **[!UICONTROL Vídeo]** o **[!UICONTROL Conjunto de vídeos adaptable]**.
 1. En el panel Biblioteca de recursos del lado izquierdo, navegue a la carpeta de recursos que contenga el vídeo o el conjunto de vídeos adaptables cuyo código incrustado desee vincular.
 1. Encima del panel de exploración de recursos, en la parte derecha de la barra de herramientas, realice una de las siguientes acciones:
 
-   * Seleccionar **[!UICONTROL Vista de cuadrícula]** o **[!UICONTROL Vista de lista]**. En el panel de exploración de recursos, haga doble clic en la miniatura de vídeo de un solo recurso para abrirlo en la vista de detalles. En el panel Direcciones URL e Código incrustado de la derecha, en Transmisión HTTP, seleccione **[!UICONTROL Copiar URL]** a la derecha del visor que desee. Como práctica recomendada, copie la dirección URL asociada al `Universal_HTML5_Video` visor.
-   * Seleccionar **[!UICONTROL Vista de cuadrícula]**. En el panel Examinar recursos, seleccione un solo recurso y, debajo de la imagen en miniatura, vaya a **[!UICONTROL Previsualizar]** > **[!UICONTROL Lista del visor]**.
+   * Seleccione **[!UICONTROL Vista de cuadrícula]** o **[!UICONTROL Vista de lista]**. En el panel de exploración de recursos, haga doble clic en la miniatura de vídeo de un solo recurso para abrirlo en la vista de detalles. En el panel Direcciones URL e Código incrustado que se encuentra a la derecha, en Transmisión HTTP, seleccione **[!UICONTROL Copiar URL]** a la derecha del visor que desee. Como práctica recomendada, copie la dirección URL asociada con el visor `Universal_HTML5_Video`.
+   * Seleccione **[!UICONTROL Vista de cuadrícula]**. En el panel Examinar recursos, seleccione un solo recurso y, debajo de la imagen en miniatura, vaya a **[!UICONTROL Vista previa]** > **[!UICONTROL Lista de visualizadores]**.
 
-     En la página Lista de visualizadores, en la columna Acciones de la tabla, seleccione **[!UICONTROL Copiar URL]**. Como práctica recomendada, copie la dirección URL asociada al `Universal_HTML5_Video` visor.
+     En la página Lista de visores, en la columna Acciones de la tabla, seleccione **[!UICONTROL Copiar URL]**. Como práctica recomendada, copie la dirección URL asociada con el visor `Universal_HTML5_Video`.
 
-   * Seleccionar **[!UICONTROL Vista de lista]**. En el panel Examinar recursos, seleccione un solo recurso y, a continuación, a la derecha de la imagen en miniatura, vaya a **[!UICONTROL Previsualizar]** > **[!UICONTROL Lista del visor]**.
+   * Seleccionar **[!UICONTROL vista de lista]**. En el panel Examinar recursos, seleccione un solo recurso y, a continuación, a la derecha de la imagen en miniatura, vaya a **[!UICONTROL Vista previa]** > **[!UICONTROL Lista de visualizadores]**.
 
-     En la página Lista de visualizadores, en la columna Acciones de la tabla, seleccione **[!UICONTROL Copiar URL]**. Como práctica recomendada, copie la dirección URL asociada al `Universal_HTML5_Video` visor.
+     En la página Lista de visores, en la columna Acciones de la tabla, seleccione **[!UICONTROL Copiar URL]**. Como práctica recomendada, copie la dirección URL asociada con el visor `Universal_HTML5_Video`.
 
-   * Seleccionar **[!UICONTROL Vista de cuadrícula]**, **[!UICONTROL Vista de lista]**, o **[!UICONTROL Vista de detalles]**. En la misma barra de herramientas, vaya a **[!UICONTROL Previsualizar]** > **[!UICONTROL Lista del visor]**.
+   * Seleccione **[!UICONTROL Vista de cuadrícula]**, **[!UICONTROL Vista de lista]** o **[!UICONTROL Vista de detalles]**. En la misma barra de herramientas, vaya a **[!UICONTROL Vista previa]** > **[!UICONTROL Lista de visualizadores]**.
 
-     En la página Lista de visualizadores, en la columna Acciones de la tabla, seleccione **[!UICONTROL Copiar URL]**. Como práctica recomendada, copie la dirección URL asociada al `Universal_HTML5_Video` visor.
+     En la página Lista de visores, en la columna Acciones de la tabla, seleccione **[!UICONTROL Copiar URL]**. Como práctica recomendada, copie la dirección URL asociada con el visor `Universal_HTML5_Video`.
 
 1. Coloque el vínculo a la URL del vídeo HTML5 en el sitio web y el sitio de dispositivos móviles.
 
@@ -77,37 +77,37 @@ Consulte también [Incrustar el visor de vídeo en una página web](deploying-vi
 
 Utilice la función Código incrustado cuando desee reproducir el vídeo incrustado en la página web. El código incrustado se copia en el portapapeles para pegarlo en las páginas Web. No se permite la edición del código en el cuadro de diálogo Código incrustado.
 
-Consulte también [Vinculación de una URL de vídeo a un sitio móvil o sitio web](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
+Ver también [Vincular una URL de vídeo a un sitio móvil o sitio web](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
-**Para incrustar el visor de vídeo en una página web:**
+**Para incrustar el visor de vídeo en una página Web:**
 
-1. En el panel Examen de recursos, en la lista desplegable Mostrar, seleccione **[!UICONTROL Vídeo]**, o **[!UICONTROL Conjunto de vídeos adaptable]**.
+1. En el panel Examinar recursos, en la lista desplegable Mostrar, seleccione **[!UICONTROL Vídeo]** o **[!UICONTROL Conjunto de vídeos adaptable]**.
 1. en el panel Biblioteca de recursos, en el lado izquierdo, navegue hasta la carpeta de recursos que contenga el vídeo o el conjunto de vídeos adaptable cuyo código incrustado desee copiar.
 1. Encima del panel de exploración de recursos, en la parte derecha de la barra de herramientas, realice una de las siguientes acciones:
 
-   * Seleccionar **[!UICONTROL Vista de cuadrícula]** o **[!UICONTROL Vista de lista]**. En el panel de exploración de recursos, haga doble clic en la miniatura de vídeo de un solo recurso para abrirlo en la vista de detalles. En el panel Direcciones URL e Código incrustado de la derecha, en Transmisión HTTP, seleccione **[!UICONTROL Código incrustado]** a la derecha del visor que desee. Como práctica recomendada, seleccione **[!UICONTROL Código incrustado]** que está asociado con el `Universal_HTML5_Video` visor.
-   * Seleccionar **[!UICONTROL Vista de cuadrícula]**. En el panel Examinar recursos, seleccione un solo recurso y, debajo de la imagen en miniatura de vídeo, seleccione **[!UICONTROL Previsualizar]** > **[!UICONTROL Lista del visor]**.
+   * Seleccione **[!UICONTROL Vista de cuadrícula]** o **[!UICONTROL Vista de lista]**. En el panel de exploración de recursos, haga doble clic en la miniatura de vídeo de un solo recurso para abrirlo en la vista de detalles. En el panel Direcciones URL y código incrustado que se encuentra a la derecha, en Transmisión HTTP, seleccione **[!UICONTROL Código incrustado]** a la derecha del visor que desee. Como práctica recomendada, seleccione **[!UICONTROL Código incrustado]** que está asociado con el visor `Universal_HTML5_Video`.
+   * Seleccione **[!UICONTROL Vista de cuadrícula]**. En el panel Examinar recursos, seleccione un solo recurso y, debajo de la imagen en miniatura de vídeo, seleccione **[!UICONTROL Vista previa]** > **[!UICONTROL Lista de visualizadores]**.
 
-     En la página Lista de visualizadores, en la columna Acciones de la tabla, seleccione **[!UICONTROL Código incrustado]**. Como práctica recomendada, seleccione **[!UICONTROL Código incrustado]** que está asociado con el `Universal_HTML5_Video` visor.
+     En la página Lista de visores, en la columna Acciones de la tabla, seleccione **[!UICONTROL Código incrustado]**. Como práctica recomendada, seleccione **[!UICONTROL Código incrustado]** que está asociado con el visor `Universal_HTML5_Video`.
 
-   * Seleccionar **[!UICONTROL Vista de lista]**. En el panel Examinar recursos, seleccione un solo recurso y, a continuación, a la derecha de la imagen en miniatura, vaya a **[!UICONTROL Previsualizar]** > **[!UICONTROL Lista del visor]**.
+   * Seleccionar **[!UICONTROL vista de lista]**. En el panel Examinar recursos, seleccione un solo recurso y, a continuación, a la derecha de la imagen en miniatura, vaya a **[!UICONTROL Vista previa]** > **[!UICONTROL Lista de visualizadores]**.
 
-     En la página Lista de visualizadores, en la columna Acciones de la tabla, seleccione **[!UICONTROL Código incrustado]**. Como práctica recomendada, seleccione **[!UICONTROL Código incrustado]** que está asociado con el `Universal_HTML5_Video` visor.
+     En la página Lista de visores, en la columna Acciones de la tabla, seleccione **[!UICONTROL Código incrustado]**. Como práctica recomendada, seleccione **[!UICONTROL Código incrustado]** que está asociado con el visor `Universal_HTML5_Video`.
 
-   * Seleccionar **[!UICONTROL Vista de cuadrícula]**, **[!UICONTROL Vista de lista]**, o **[!UICONTROL Vista de detalles]**. En la misma barra de herramientas, vaya a **[!UICONTROL Previsualizar]** > **[!UICONTROL Lista del visor]**.
+   * Seleccione **[!UICONTROL Vista de cuadrícula]**, **[!UICONTROL Vista de lista]** o **[!UICONTROL Vista de detalles]**. En la misma barra de herramientas, vaya a **[!UICONTROL Vista previa]** > **[!UICONTROL Lista de visualizadores]**.
 
-     En la página Lista de visualizadores, en la columna Acciones de la tabla, seleccione **[!UICONTROL Código incrustado]**. Como práctica recomendada, seleccione **[!UICONTROL Código incrustado]** que está asociado con el `Universal_HTML5_Video` visor.
+     En la página Lista de visores, en la columna Acciones de la tabla, seleccione **[!UICONTROL Código incrustado]**. Como práctica recomendada, seleccione **[!UICONTROL Código incrustado]** que está asociado con el visor `Universal_HTML5_Video`.
 
-1. En el cuadro de diálogo Código incrustado, seleccione **[!UICONTROL Copiar al portapapeles]**.
+1. En el cuadro de diálogo Código incrustado, seleccione **[!UICONTROL Copiar al Portapapeles]**.
 
    No se permite la edición del código en el cuadro de diálogo Código incrustado.
 
-1. select **[!UICONTROL Cerrar]**.
+1. seleccione **[!UICONTROL Cerrar]**.
 1. Pegue el código incrustado en las páginas web.
 
 ### Implementar código incrustado para utilizar vídeo de HTML5 con recursos de vídeo MP4 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
-Es posible que no desee utilizar el reproductor de vídeo Adobe Dynamic Media Classic HTML5. En su lugar, si desea utilizar el HTML nativo5 `<video>` con recursos de vídeo MP4, puede utilizar el siguiente ejemplo de código incrustado:
+Es posible que no desee utilizar el reproductor de vídeo Adobe Dynamic Media Classic HTML5. En su lugar, si desea utilizar la etiqueta nativa HTML5 `<video>` con recursos de vídeo MP4, puede utilizar el siguiente ejemplo de código incrustado:
 
 ```as3
 <video poster="S7 video thumbnail URL" controls> 
@@ -117,17 +117,17 @@ Es posible que no desee utilizar el reproductor de vídeo Adobe Dynamic Media Cl
 </video>
 ```
 
-* Reemplazar `"S7 video thumbnail URL"` con la URL de la miniatura del vídeo, que es la imagen en miniatura del vídeo que el usuario ve antes de reproducir el vídeo.
+* Reemplace `"S7 video thumbnail URL"` por la URL de la miniatura del vídeo, que es la imagen en miniatura que el usuario ve antes de reproducir el vídeo.
 
-  Consulte [Obtener URL de miniaturas de vídeo](deploying-video-websites-mobile-sites.md#obtaining_video_thumbnail_urls).
+  Ver [Obtener URL de miniaturas de vídeo](deploying-video-websites-mobile-sites.md#obtaining_video_thumbnail_urls).
 
-* Reemplazar `"S7 OGG video asset URL (no player)"` con la URL progresiva del vídeo para el vídeo OGG.
+* Reemplace `"S7 OGG video asset URL (no player)"` por la URL progresiva del vídeo para el vídeo OGG.
 
-  Consulte [Vinculación de una URL de vídeo a un sitio móvil o sitio web](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
+  Ver [Vincular una URL de vídeo a un sitio móvil o sitio web](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
-* Reemplazar `"S7 MP4 mobile progressive video asset URL (no player)"` con la URL móvil progresiva del vídeo.
+* Reemplace `"S7 MP4 mobile progressive video asset URL (no player)"` por la URL móvil progresiva del vídeo.
 
-  Consulte [Vinculación de una URL de vídeo a un sitio móvil o sitio web](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
+  Ver [Vincular una URL de vídeo a un sitio móvil o sitio web](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
 ## Implementación de vídeo mediante un reproductor de vídeo de terceros {#deploying-video-using-a-third-party-video-player}
 
@@ -135,19 +135,19 @@ Si utiliza reproductores de vídeo de terceros o un reproductor de vídeo person
 
 **Para implementar vídeo mediante un reproductor de vídeo de terceros:**
 
-1. En Adobe Dynamic Media Classic, en la barra de navegación global, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Configuración general]**.
+1. En Adobe Dynamic Media Classic, en la barra de navegación global, ve a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Configuración general]**.
 1. Según el tipo de URL que desee utilizar, realice una de las tareas siguientes:
 
 * Para generar una URL de vídeo de flujo HLS directa (varias velocidades de bits)
 
-  En el **[!UICONTROL Configuración general de la aplicación]** , en la **[!UICONTROL Servidores]** , en el **[!UICONTROL Servidor de publicación]** , construya la dirección URL directa. Utilice la siguiente sintaxis: `server/is/content/company/folder/filename.m3u8`
+  En la página **[!UICONTROL Configuración general de la aplicación]**, en el grupo **[!UICONTROL Servidores]**, en el campo de texto **[!UICONTROL Nombre del servidor publicado]**, cree la dirección URL directa. Utilice la siguiente sintaxis: `server/is/content/company/folder/filename.m3u8`
 
-  Por ejemplo, supongamos que el nombre del servidor Publicado es `https://s7d9.scene7.com/.` Con la sintaxis del paso 2, la dirección URL directa podría tener el siguiente aspecto:
+  Por ejemplo, supongamos que el nombre del servidor publicado es `https://s7d9.scene7.com/.`. Utilizando la sintaxis del paso 2, la dirección URL directa podría tener el aspecto siguiente:
   `https://s7d9.scene7.com/is/content/GeoRetail/AdobeRIA-AVS.m3u8`
 
 * Para generar una URL de vídeo de flujo HLS directa (velocidad de bits única)
 
-  En el **[!UICONTROL Configuración general de la aplicación]** , en la **[!UICONTROL Servidores]** , en el **[!UICONTROL Nombre del servidor de flujo HLS]** , cree la dirección URL directa con la siguiente sintaxis:
+  En la página **[!UICONTROL Configuración general de la aplicación]**, en el grupo **[!UICONTROL Servidores]**, en el campo de texto **[!UICONTROL Nombre del servidor de flujo HLS]**, cree la dirección URL directa con la siguiente sintaxis:
 
   `server/company/folder/filename.ext.m3u8`
 
@@ -160,7 +160,7 @@ Si utiliza reproductores de vídeo de terceros o un reproductor de vídeo person
 
   `server/company/folder/filename`
 
-  Por ejemplo, supongamos que el nombre del servidor de vídeo progresivo es `https://s7d9.scene7.com/is/content/`. Con la sintaxis del paso 2, la dirección URL directa podría tener el siguiente aspecto:
+  Por ejemplo, suponga que el nombre del servidor de vídeo progresivo es `https://s7d9.scene7.com/is/content/`. Con la sintaxis del paso 2, la dirección URL directa podría tener el siguiente aspecto:
   `https://s7d9.scene7.com/e2/GeoRetail/SourceVideo/outdoors.mp4`
 
 ## Trabajo con miniaturas de vídeo {#working-with-video-thumbnails}
@@ -175,9 +175,9 @@ Adobe Dynamic Media Classic genera miniaturas de vídeo automáticamente durante
 
 Para generar direcciones URL para miniaturas de vídeo, realice una operación de publicación.
 
-Consulte [Publicar vídeo](deploying-video-websites-mobile-sites.md#publishing_video).
+Ver [vídeo de Publish](deploying-video-websites-mobile-sites.md#publishing_video).
 
-Tras la publicación, puede obtener las URL de las miniaturas de vídeo en la vista de detalles del panel URL y código incrustado. Seleccionar **[!UICONTROL Copiar URL]** a la derecha de la miniatura de vídeo para poder copiar su URL asociada.
+Tras la publicación, puede obtener las URL de las miniaturas de vídeo en la vista de detalles del panel URL y código incrustado. Seleccione **[!UICONTROL Copiar URL]** a la derecha de la miniatura de vídeo para poder copiar su URL asociada.
 
 ### Modificación de fotogramas de póster en visores de vídeo {#modifying-poster-frames-in-video-viewers}
 
@@ -185,12 +185,12 @@ El *fotograma de póster* es el fotograma inicial que aparece en los visores de 
 
 Puede aplicar modificadores de imagen al fotograma de póster. Por ejemplo, puede recortar el fotograma de póster o hacerlo transparente. Para modificar el fotograma de póster, abra la pantalla de configuración del visor de vídeo e introduzca modificadores en la sección Modificadores de imagen de póster. 
 
-Consulte [Agregar o editar un ajuste preestablecido de visor de vídeo](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
+Consulte [Agregar o editar un ajuste preestablecido de visualizador de vídeo](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
-Consulte [Guía del servicio de imágenes](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
+Consulte [Guía de servicio de imágenes](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
 
 También puede modificar las miniaturas de los vídeos agregando modificadores a las URL de las miniaturas de vídeo.
 
 >[!MORELIKETHIS]
 >
->* [Publicar archivos](publishing-files.md#publishing_files)
+>* [archivos de Publish](publishing-files.md#publishing_files)

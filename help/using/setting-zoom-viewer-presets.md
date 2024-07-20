@@ -29,7 +29,7 @@ Adobe Dynamic Media Classic ofrece los siguientes ajustes preestablecidos de vis
 
 * **Visor de zoom: Básico**: Proporciona un zoom básico en la imagen original.
 
-* **Visor de zoom: Flotante**: muestra una segunda imagen del área ampliada junto a la imagen original. No hay controles, los usuarios simplemente mueven la selección sobre la zona que desean ver.
+* **Visor de zoom: Flotante**: Muestra una segunda imagen del área ampliada junto a la imagen original. No hay controles, los usuarios simplemente mueven la selección sobre la zona que desean ver.
 
 Al determinar el uso del ancho de banda completo para este visor, tenga en cuenta que tanto la imagen principal como la imagen flotante se muestran en el visor. El tamaño de la imagen flotante se determina utilizando el tamaño de la imagen principal (anchura y altura del escenario) y el factor de zoom. Para evitar que el tamaño del archivo flotante sea demasiado grande, equilibre estos dos valores: si el tamaño de la imagen principal es muy grande, reduzca el valor de Factor de zoom. (Los valores de Anchura flotante y Altura flotante determinan el tamaño de la ventana flotante, pero no el tamaño de la imagen que se muestra en el visor).
 
@@ -37,29 +37,29 @@ Por ejemplo, si el tamaño de la imagen principal es 350 x 350 píxeles, con un 
 
 Adobe Dynamic Media Classic recomienda los siguientes parámetros para ajustes preestablecidos del visor de zoom flotantes:
 
-* **Tamaño de imagen ampliado**: aproximadamente 1500 por 1500 píxeles, sin superar los 2000 por 2000 píxeles.
+* **Tamaño de imagen ampliado**: aproximadamente 1.500 por 1.500 píxeles, sin superar los 2.000 por 2.000 píxeles.
 
-* **Tamaño de imagen**: 100 KB o menos, no debe superar los 150 KB (comprima el archivo para mantenerlo por debajo de 150 KB).
+* **Tamaño de imagen**: 100 KB o menos, no debe exceder los 150 KB (comprima el archivo para mantenerlo por debajo de 150 KB).
 
-* **Visor de zoom: Personalizado**: proporciona un zoom guiado o no guiado con imágenes, conjuntos de imágenes con varias vistas o conjuntos de muestras de color.
+* **Visor de zoom: Personalizado**: Proporciona un zoom guiado o no guiado con imágenes, Conjuntos de imágenes con varias vistas o Conjuntos de muestras de color.
 
 ## Crear y editar ajustes preestablecidos del visor de zoom {#creating-and-editing-zoom-viewer-presets}
 
-1. En la barra de navegación global, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes preestablecidos de visor]**.
+1. En la barra de navegación global, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Ajustes preestablecidos de visor]**.
 1. Realice una de las siguientes acciones:
 
-   * **Crear un ajuste preestablecido**: Seleccionar **[!UICONTROL Añadir]**. En el cuadro de diálogo Agregar ajuste preestablecido de visor, elija una plataforma, elija un visor de zoom y, a continuación, seleccione **[!UICONTROL Añadir]**. Introduzca un nombre para el ajuste preestablecido en el cuadro Nombre del ajuste preestablecido.
+   * **Crear un ajuste preestablecido**: Seleccione **[!UICONTROL Agregar]**. En el cuadro de diálogo Agregar ajuste preestablecido de visor, elija una plataforma, elija un visor de zoom y, a continuación, seleccione **[!UICONTROL Agregar]**. Introduzca un nombre para el ajuste preestablecido en el cuadro Nombre del ajuste preestablecido.
 
    * **Editar un ajuste preestablecido**: seleccione un ajuste preestablecido de visor de zoom y, a continuación, seleccione **[!UICONTROL Editar]**.
 
 1. Especifique los ajustes que desee.
 
-   Para ver la descripción de una opción, seleccione la **[!UICONTROL Sugerencia de información]** junto a la opción.
+   Para ver una descripción de una opción, seleccione el icono **[!UICONTROL Información]** que hay junto a la opción.
 
    La página Vista previa muestra el visor mientras actualiza y cambia la configuración.
 
-1. Seleccionar **[!UICONTROL Guardar]** o **[!UICONTROL Guardar como]**.
-1. En la página Ajustes preestablecidos del visor, examine los ajustes preestablecidos del visor de zoom o del visor de zoom guiado que ha creado. Si es necesario ajustarlo, seleccione **[!UICONTROL Editar]**, cambie la configuración en `Configure Viewer` y, a continuación, seleccione **[!UICONTROL Guardar]**.
+1. Seleccione **[!UICONTROL Guardar]** o **[!UICONTROL Guardar como]**.
+1. En la página Ajustes preestablecidos del visor, examine los ajustes preestablecidos del visor de zoom o del visor de zoom guiado que ha creado. Si necesita ajustes, seleccione **[!UICONTROL Editar]**, cambie la configuración en la página `Configure Viewer` y, a continuación, seleccione **[!UICONTROL Guardar]**.
 
 Para obtener más información sobre la gestión de valores preestablecidos de visor en la pantalla Ajustes preestablecidos de visor, consulte [Ajustes preestablecidos de visor](application-setup.md#viewer_presets).
 

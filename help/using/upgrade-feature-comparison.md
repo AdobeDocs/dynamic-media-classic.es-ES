@@ -1,6 +1,6 @@
 ---
 title: Comparación de características
-description: Tabla de comparación de funciones entre [!DNL Dynamic Media] in [!DNL Adobe Experience Manager] Recursos y [!DNL Adobe Dynamic Media Classic] aplicación de escritorio.
+description: Tabla comparativa de características entre  [!DNL Dynamic Media] en [!DNL Adobe Experience Manager] Assets y [!DNL Adobe Dynamic Media Classic] aplicación de escritorio.
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: eb56533a-4e31-4367-8b68-879cd70c761e
@@ -15,9 +15,9 @@ ht-degree: 3%
 
 # Comparación de características
 
-Una tabla de comparación de características entre [!DNL Dynamic Media] in [!DNL Adobe Experience Manager] Recursos y [!DNL Adobe Dynamic Media Classic] aplicación de escritorio. ✓ Un &quot;&quot; significa que la función está disponible en el software o con él; un &quot;-&quot; significa que no lo está.
+Tabla comparativa de características entre [!DNL Dynamic Media] en [!DNL Adobe Experience Manager] Assets y [!DNL Adobe Dynamic Media Classic] aplicación de escritorio. ✓ Un &quot;&quot; significa que la función está disponible en el software o con él; un &quot;-&quot; significa que no lo está.
 
-| Función | [!DNL Dynamic Media] | [!DNL Dynamic Media<br>Classic] |
+| Función | [!DNL Dynamic Media] | [!DNL Dynamic Media<br>Clásico] |
 | :--- | :---: | :---: |
 | Vídeo 360 | ✓ | ✓ |
 | Procesamiento avanzado de imágenes | ✓ | ✓ |
@@ -26,7 +26,7 @@ Una tabla de comparación de características entre [!DNL Dynamic Media] in [!DN
 | Creación automatizada de conjunto | ✓ | ✓ |
 | Integración de CDN | ✓ | ✓ |
 | Dynamic Imaging | ✓ | ✓ |
-| Catálogos electrónicos | ✓<br>*Recursos + InDesign Server* | ✓ |
+| Catálogos electrónicos | ✓<br>*Assets + InDesign Server* | ✓ |
 | Publicación instantánea | ✓ | ✓ |
 | Visualizadores interactivos | ✓ | ✓ |
 | Archivos de manifiesto | ✓ | ✓ |
@@ -35,21 +35,21 @@ Una tabla de comparación de características entre [!DNL Dynamic Media] in [!DN
 | Previsualización segura | ✓ | ✓ |
 | Conjuntos (imagen, giros, medios mixtos) | ✓<br>*No hay giros multieje* | ✓ |
 | Imágenes inteligentes | ✓ | ✓ |
-| Entrega de contenido estático<br>(PDF, GIT, etc.) | ✓ | ✓ |
+| Entrega de contenido estático <br>(PDF, GIT, etc.) | ✓ | ✓ |
 | Entrega de vídeo (adaptable) | ✓ | ✓ |
 | Codificación de vídeo | ✓ | ✓ |
 | Accesibilidad del visor | ✓ | ✓ |
 | Integración del visor con Analytics | ✓ | ✓ |
 | Plantillas 1:1 | ✓<br>*Paquete de medios personalizado* | ✓ |
-| Visual Configurator<br>(personalización del producto) | ✓<br>*Paquete de medios personalizado* | ✓ |
-| 3D: Experience Manager Sites<br>Componente WCM | ✓ | : |
+| Configurador visual <br>(personalización de producto) | ✓<br>*Paquete de medios personalizado* | ✓ |
+| 3D: componente Experience Manager Sites<br>WCM | ✓ | : |
 | 3D: visualizador de experiencias interactivo | ✓ | : |
-| 3D: publicar archivos AR/VR y archivos 3D principales | ✓ | : |
+| 3D: Publish AR/VR y archivos 3D principales | ✓ | : |
 | Carruseles | ✓ | : |
 | Medios de compra/interactivos: imágenes | ✓ | : |
 | Medios interactivos/de ventas: vídeo | ✓ | : |
 | Recorte inteligente: imágenes | ✓ | : |
 | Recorte inteligente: vídeo | ✓ | : |
 | Selección de miniatura de vídeo | ✓ | : |
-| Diseñador de visores | ✓ | : |
-| Publicación de YouTube | ✓ | : |
+| Visor de Designer | ✓ | : |
+| YouTube Publish | ✓ | : |

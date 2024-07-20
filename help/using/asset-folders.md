@@ -27,35 +27,35 @@ Asegúrese de establecer una estructura de carpetas y una organización para alm
 
 En la biblioteca de recursos se muestran los archivos que contiene el árbol de carpetas. Al seleccionar una carpeta en la biblioteca de recursos, su contenido aparece en el panel Examinar. Utilice estas técnicas para localizar carpetas en el árbol de carpetas:
 
-* **Mostrar subcarpetas**: seleccione la **[!UICONTROL Expandir carpeta]** para mostrar las subcarpetas de una carpeta. Este icono se encuentra a la izquierda del nombre de cada carpeta.
+* **Mostrar subcarpetas**: Seleccione el icono **[!UICONTROL Expandir carpeta]** para mostrar las subcarpetas de una carpeta. Este icono se encuentra a la izquierda del nombre de cada carpeta.
 
-* **Mover una carpeta**: Puede mover una carpeta arrastrándola y soltándola en su nueva ubicación o seleccionando **[!UICONTROL Archivo]** > **[!UICONTROL Mover carpeta]**.
+* **Mover una carpeta**: Puede mover una carpeta arrastrándola y soltándola en su nueva ubicación, o seleccionando **[!UICONTROL Archivo]** > **[!UICONTROL Mover carpeta]**.
 
-* **Ocultar carpetas**: seleccione la **[!UICONTROL Contraer carpeta]** si desea contraer las subcarpetas para ocultarlas de la vista. Este icono se encuentra a la izquierda del nombre de cada carpeta.
+* **Ocultar carpetas**: seleccione el icono **[!UICONTROL Contraer carpeta]** si desea contraer subcarpetas para ocultarlas de la vista. Este icono se encuentra a la izquierda del nombre de cada carpeta.
 
 * **Abrir una carpeta**: seleccione una carpeta si desea mostrar su contenido en el panel Examinar.
 
 >[!TIP]
 >
->Puede ocultar o mostrar la biblioteca de recursos seleccionando la **[!UICONTROL Expandir]** o **[!UICONTROL Contraer]** control en el lado izquierdo. Contraiga el panel Biblioteca de recursos cuando necesite más espacio para trabajar en el panel Examinar.
+>Puede ocultar o mostrar la biblioteca de recursos seleccionando el control **[!UICONTROL Expand]** o **[!UICONTROL Collapse]** en el lado izquierdo. Contraiga el panel Biblioteca de recursos cuando necesite más espacio para trabajar en el panel Examinar.
 
 ## Creación de carpetas
 
 1. En la biblioteca de recursos, seleccione la carpeta dentro de la que desea crear una carpeta.
-1. Seleccione el **[!UICONTROL `Add Folder`]** botón. Este icono se encuentra en la parte superior de la lista de carpetas.
+1. Seleccione el botón **[!UICONTROL `Add Folder`]**. Este icono se encuentra en la parte superior de la lista de carpetas.
 1. Escriba un nombre descriptivo para la nueva carpeta o subcarpeta. Escríbalo en el campo situado junto al icono de la carpeta.
 
    >[!NOTE]
    >
-   >También puede crear carpetas en Adobe Dynamic Media Classic al cargar archivos mediante FTP. Selección de la **[!UICONTROL Incluir subcarpetas]** al cargar mediante FTP se replica la estructura de carpetas en el equipo en el sistema. Las carpetas y subcarpetas del ordenador o la red se reproducirán en la biblioteca de recursos, y los recursos cargados se colocarán en estas carpetas.
+   >También puede crear carpetas en Adobe Dynamic Media Classic al cargar archivos mediante FTP. Si selecciona la opción **[!UICONTROL Incluir subcarpetas]** al cargar mediante FTP, se replicará la estructura de carpetas del equipo en el sistema. Las carpetas y subcarpetas del ordenador o la red se reproducirán en la biblioteca de recursos, y los recursos cargados se colocarán en estas carpetas.
 
 ## Eliminar y cambiar el nombre de las carpetas {#deleting-and-renaming-folders}
 
 Seleccione una carpeta y utilice estas técnicas para eliminarla o cambiar su nombre:
 
-* **Eliminar**: seleccione la **[!UICONTROL `Remove Folder`]** botón. Los recursos que se encuentren en una carpeta eliminada se colocarán en la carpeta Papelera. Podrá recuperarlos desde esta carpeta.
+* **Eliminar**: seleccione el botón **[!UICONTROL `Remove Folder`]**. Los recursos que se encuentren en una carpeta eliminada se colocarán en la carpeta Papelera. Podrá recuperarlos desde esta carpeta.
 
-* **Cambiar nombre**: Haga doble clic en el nombre e introduzca uno nuevo.
+* **Cambiar nombre**: haga doble clic en el nombre e introduzca uno nuevo.
 
 >[!NOTE]
 >

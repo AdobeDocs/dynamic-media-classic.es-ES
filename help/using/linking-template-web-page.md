@@ -31,14 +31,14 @@ Para colocar cadenas de URL en las páginas web y aplicaciones, cópielas desde 
 
 Puede obtener una cadena URL de plantilla generada por un ajuste preestablecido de imagen en la pantalla Vista previa de plantilla. Una vez copiada la URL, ésta queda disponible en el portapapeles para que pueda pegarla cuando lo necesite. Para obtener una cadena de URL de plantilla generada con un ajuste preestablecido de imagen desde la página Vista previa de plantilla, haga lo siguiente:
 
-1. Seleccione la sustitución de la plantilla **[!UICONTROL Previsualizar]** o vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Previsualizar]**.
+1. Seleccione el botón de rollover **[!UICONTROL Vista previa]** de la plantilla o vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Vista previa]**.
 1. En los menús del ajuste preestablecido, seleccione el ajuste preestablecido de imagen con el que desea enviar la imagen de plantilla. La página Vista previa muestra el aspecto de la plantilla cuando se envía desde el servidor.
-1. Seleccionar **[!UICONTROL Copiar URL]** para poder copiar la URL en el Portapapeles.
+1. Seleccione **[!UICONTROL Copiar URL]** para poder copiar la URL en el Portapapeles.
 
 ## Añadir URL de plantilla a la página web {#adding-template-urls-to-your-web-page}
 
-Para agregar una plantilla a la página Web, consulte con el equipo de desarrollo de páginas Web para modificar la plantilla `<IMG>` en el código de la página web del HTML. Utilice la cadena URL de Adobe Dynamic Media Classic para realizar una solicitud a los servidores de imágenes de Dynamic Media. El motor de comercio o el código de página Web dinámica insertan la imagen de la plantilla con el tamaño y con la especificación de formato definida por el ajuste preestablecido de imagen que elija para la plantilla.
+Para agregar una plantilla a su página Web, consulte con el equipo de desarrollo de páginas Web para modificar la etiqueta `<IMG>` en el código de la página Web del HTML. Utilice la cadena URL de Adobe Dynamic Media Classic para realizar una solicitud a los servidores de imágenes de Dynamic Media. El motor de comercio o el código de página Web dinámica insertan la imagen de la plantilla con el tamaño y con la especificación de formato definida por el ajuste preestablecido de imagen que elija para la plantilla.
 
 >[!MORELIKETHIS]
 >
->* [Agregar imágenes dinámicas a la página Web](linking-urls-web-application.md#adding_dynamic_images_to_your_web_page)
+>* [Agregar imágenes dinámicas a su página web](linking-urls-web-application.md#adding_dynamic_images_to_your_web_page)

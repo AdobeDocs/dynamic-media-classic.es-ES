@@ -23,17 +23,17 @@ ht-degree: 7%
 
 Asegúrese de que dispone de lo siguiente antes de utilizar la aplicación de escritorio de Adobe Dynamic Media Classic:
 
-* **Nombre de usuario**: utiliza su dirección de correo electrónico como nombre de inicio de sesión.
+* **Nombre de usuario**: Utiliza tu dirección de correo electrónico como nombre de inicio de sesión.
 
 * **Contraseña**: obtiene su contraseña temporal en un mensaje de correo electrónico de &quot;bienvenida&quot; de Adobe Dynamic Media Classic o de su administrador de Adobe Dynamic Media Classic. Al iniciar sesión por primera vez, se indica al usuario que puede cambiar esa contraseña temporal.
 
 1. Abra la aplicación de escritorio de Adobe Dynamic Media Classic.
 
-   ![Inicio de sesión de Adobe Dynamic Media Classic](/help/using/assets/dmclassic-login1.png)
+   ![Adobe Dynamic Media Classic inició sesión](/help/using/assets/dmclassic-login1.png)
 
-1. En el **[!UICONTROL Nombre de usuario]** , introduzca su dirección de correo electrónico.
-1. En el **[!UICONTROL Contraseña]** , escriba la contraseña.
-1. En el **[!UICONTROL Servidor]** , seleccione un servidor.
+1. En el campo **[!UICONTROL Nombre de usuario]**, escriba su dirección de correo electrónico.
+1. En el campo **[!UICONTROL Contraseña]**, escriba la contraseña.
+1. En la lista desplegable **[!UICONTROL Servidor]**, seleccione un servidor.
 Utilice la siguiente asignación para seleccionar el entorno de producción que desea utilizar.
 
    | URL del explorador | Nombre del servidor de aplicaciones de escritorio |
@@ -42,11 +42,11 @@ Utilice la siguiente asignación para seleccionar el entorno de producción que 
    | https://s7sps3.scene7.com/ | Producción de EMEA (Europa, Oriente Medio y África) |
    | https://s7sps5.scene7.com/ | Producción de Asia-Pacífico (APAC) |
 
-1. Seleccionar **[!UICONTROL Iniciar sesión]**.
+1. Seleccione **[!UICONTROL Iniciar sesión]**.
 
 ## Cerrar sesión en Adobe Dynamic Media Classic {#dmc-sign-out}
 
-1. En la esquina superior derecha de la aplicación de escritorio de Adobe Dynamic Media Classic, seleccione **[!UICONTROL Cerrar sesión]**, y luego seleccione **[!UICONTROL Cerrar sesión]** otra vez.
+1. En la esquina superior derecha de la aplicación de escritorio de Adobe Dynamic Media Classic, selecciona **[!UICONTROL Cerrar sesión]** y luego selecciona **[!UICONTROL Cerrar sesión]** de nuevo.
 
 >[!MORELIKETHIS]
 >

@@ -28,17 +28,17 @@ Los subtítulos también permiten una mayor accesibilidad gracias al uso de rót
 
 Para configurar el efecto de rótulo y editar el propio menú de rótulo, incluido el texto del menú para cualquiera de los siguientes visores:
 
-* `Universal_HTML5_Video` visualizador
-* `Universal_HTML5_MixedMedia_dark` visualizador
-* `Universal_HTML5_MixedMedia_light` visualizador
+* `Universal_HTML5_Video` visor
+* `Universal_HTML5_MixedMedia_dark` visor
+* `Universal_HTML5_MixedMedia_light` visor
 
-Consulte [Agregar o editar un ajuste preestablecido de visor de vídeo](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
+Consulte [Agregar o editar un ajuste preestablecido de visualizador de vídeo](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
 Consulte también [Agregar y editar ajustes preestablecidos de visor](application-setup.md#adding_and_editing_viewer_presets).
 
 Adobe Dynamic Media Classic puede convertir archivos de rótulo al formato JSON (JavaScript Object Notation). Esta conversión significa que puede incrustar el texto JSON en una página web como una transcripción oculta pero completa del vídeo. Los motores de búsqueda pueden rastrear e indexar el contenido para que los vídeos sean más fáciles de descubrir y dar a los clientes más detalles sobre el contenido del vídeo.
 
-Consulte [Proporcionar contenido estático (que no sea de imagen)](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) para obtener más información sobre el uso de la función JSON en una dirección URL.
+Consulte [Proporcionar contenido estático (que no es de imagen)](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) en para obtener más información sobre el uso de la función JSON en una dirección URL.
 
 **Para agregar subtítulos a un vídeo:**
 
@@ -46,30 +46,30 @@ Consulte [Proporcionar contenido estático (que no sea de imagen)](https://exper
 
    | Tipo de visor | Archivo de subtítulos |
    |--- |--- |
-   | HTML5 | Si utiliza un visor de vídeo HTML5, asegúrese de que el archivo de subtítulos que cree sigue el estándar de WebVTT (Web Video Text Tracks). La extensión del nombre de archivo de subtítulos es `.VTT`. Puede obtener más información sobre el estándar de subtítulos WebVTT.<br><br>[Consulte WebVTT](https://w3c.github.io/webvtt/): el formato de seguimiento de texto de vídeo web. <br><br>Hay muchos sitios web que ofrecen herramientas y servicios gratuitos y de pago que puede utilizar para crear archivos de subtítulos WebVTT. <br><br>Siga las instrucciones en pantalla de un sitio para crear y guardar el archivo WebVTT. Cuando haya terminado, copie el contenido del archivo de rótulo y péguelo en un editor de texto sin formato y guárdelo con la extensión de nombre de archivo VTT. <br><br><b>Nota:</b> Para ofrecer compatibilidad global con subtítulos de vídeo en idiomas distintos del inglés, el estándar WebVTT requiere que cree subtítulos independientes `.VTT` archivos y llamadas para cada idioma que desee admitir. <br><br>Por lo general, desea asignar al archivo VTT de rótulo el mismo nombre que al archivo de vídeo y anexarlo con rótulos. Al hacerlo, puede ayudarle con la automatización de la generación de las direcciones URL de vídeo mediante el sistema de administración de contenido web existente. |
+   | HTML5 | Si utiliza un visor de vídeo HTML5, asegúrese de que el archivo de subtítulos que cree sigue el estándar de WebVTT (Web Video Text Tracks). La extensión de nombre de archivo de subtítulos es `.VTT`. Puede obtener más información sobre el estándar de subtítulos WebVTT.<br><br>[Consulte WebVTT](https://w3c.github.io/webvtt/): El formato de seguimiento de texto de vídeo web. <br><br>Hay muchos sitios web que ofrecen herramientas y servicios gratuitos y de pago que puede usar para crear archivos de subtítulos WebVTT. <br><br>Siga las instrucciones en pantalla de un sitio para crear y guardar el archivo WebVTT. Cuando haya terminado, copie el contenido del archivo de rótulo y péguelo en un editor de texto sin formato y guárdelo con la extensión de nombre de archivo VTT. <br><br><b>Nota:</b> Para obtener compatibilidad global con subtítulos de vídeo en idiomas distintos del inglés, el estándar WebVTT requiere que cree `.VTT` archivos y llamadas independientes para cada idioma que desee admitir. <br><br>En general, desea asignar al archivo VTT de subtítulos el mismo nombre que al archivo de vídeo y anexarlo con subtítulos. Al hacerlo, puede ayudarle con la automatización de la generación de las direcciones URL de vídeo mediante el sistema de administración de contenido web existente. |
 
 1. En Adobe Dynamic Media Classic, cargue el archivo de subtítulos XML WebVTT, DFXP o SMPTE.
 
-   Consulte [Cargar archivos](uploading-files.md#uploading_files).
+   Ver [Cargar archivos](uploading-files.md#uploading_files).
 
 1. En el panel Biblioteca de recursos de la izquierda, vaya a la carpeta de recursos que contiene el archivo de vídeo que se asociará al archivo de rótulo que ha cargado.
-1. En el panel Examinar recursos, seleccione un único recurso de vídeo y, debajo de la imagen en miniatura del recurso, seleccione **[!UICONTROL Previsualizar]** > **[!UICONTROL Lista del visor]**.
-1. En la tabla Lista de visualizadores, busque el visualizador HTML 5 denominado **Universal_HTML 5_Video**, **Universal_HTML 5_MixedMedia_oscuro**, o **Universal_HTML 5_MixedMedia_light**, a continuación, realice una de las siguientes acciones:
+1. En el panel Examinar recursos, seleccione un solo recurso de vídeo y, debajo de la imagen en miniatura del recurso, seleccione **[!UICONTROL Vista previa]** > **[!UICONTROL Lista de visualizadores]**.
+1. En la tabla Lista de visores, busque el visor de HTML 5 denominado **Universal_HTML 5_Video**, **Universal_HTML 5_MixedMedia_oscuro** o **Universal_HTML 5_MixedMedia_light** y, a continuación, siga uno de estos procedimientos:
 
-   * Para una experiencia de visor de vídeo emergente, seleccione **[!UICONTROL Copiar URL]** situado en el extremo derecho del nombre.
+   * Para obtener una experiencia de visor de vídeo emergente, seleccione **[!UICONTROL Copiar URL]** en el extremo derecho del nombre.
 
      Anexe la URL copiada del vídeo con la siguiente sintaxis para que pueda asociarla con la URL copiada al archivo de rótulo:
 
      `&caption=<full Copy URL path to the caption file .vtt>,1`
 
-     Tenga en cuenta `,1` al final de la ruta de URL del pie de ilustración. Inmediatamente después de la extensión de nombre de archivo VTT en la ruta, puede, opcionalmente, habilitar o deshabilitar el botón de subtítulos opcionales en la barra del reproductor de vídeo estableciendo en `1` o `0`, respectivamente.
+     Observe `,1` al final de la ruta de acceso de la dirección URL de rótulo. Inmediatamente después de la extensión de nombre de archivo VTT en la ruta, opcionalmente puede habilitar o deshabilitar el botón de subtítulos opcionales en la barra del reproductor de vídeo estableciendo en `1` o `0`, respectivamente.
 
-   * Para una experiencia de visor de vídeo integrada, seleccione **[!UICONTROL Código incrustado]** situado en el extremo derecho del nombre.
+   * Para disfrutar de una experiencia de visor de vídeo integrada, seleccione **[!UICONTROL Código incrustado]** en el extremo derecho del nombre.
 
-     En el cuadro de diálogo Código incrustado, seleccione **[!UICONTROL Copiar al portapapeles]**.
+     En el cuadro de diálogo Código incrustado, seleccione **[!UICONTROL Copiar al Portapapeles]**.
 
-     Para el HTML 5 `Universal_HTML5_Video`, `Universal_HTML5_MixedMedia_dark`, o `Universal_HTML5_MixedMedia_light` Para los visualizadores de, anexe el código incrustado copiado con lo siguiente:
+     Para los visores HTML5 `Universal_HTML5_Video`, `Universal_HTML5_MixedMedia_dark` o `Universal_HTML5_MixedMedia_light`, anexe el código incrustado copiado con lo siguiente:
 
      `videoViewer.setParam("caption","<full Copy URL path to the caption file .vtt>,1"`
 
-     Tenga en cuenta `,1` al final de la ruta URL. Inmediatamente después de la extensión de nombre de archivo VTT en la ruta URL, puede, opcionalmente, habilitar o deshabilitar el botón de rótulo en la barra del reproductor de vídeo estableciendo en `1` o `0`, respectivamente.
+     Observe `,1` al final de la ruta de acceso de la dirección URL. Inmediatamente después de la extensión de nombre de archivo VTT en la ruta URL, opcionalmente puede habilitar o deshabilitar el botón de rótulo en la barra del reproductor de vídeo estableciendo en `1` o `0`, respectivamente.

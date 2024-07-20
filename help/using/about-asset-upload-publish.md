@@ -24,7 +24,7 @@ Su trabajo en Adobe Dynamic Media Classic se divide en tres áreas básicas:
 * Administración de archivos para usarlos en la creación de recursos de medios enriquecidos.
 * Publicación de los archivos de recursos en un servidor de Dynamic Media Classic para que estén disponibles para su entrega al sitio web y a la aplicación.
 
-Al cargar archivos de recursos en Adobe Dynamic Media Classic y al publicar archivos de recursos en servidores de Adobe Dynamic Media Classic, el sistema registra estas transferencias de archivos en **[!UICONTROL Trabajos]** página. Puede ir a esta página para realizar un seguimiento de las actividades de carga y publicación.
+Al cargar archivos de recursos en Adobe Dynamic Media Classic y al publicar archivos de recursos en servidores de Adobe Dynamic Media Classic, el sistema registra estas transferencias de archivos en la página **[!UICONTROL Trabajos]**. Puede ir a esta página para realizar un seguimiento de las actividades de carga y publicación.
 
 >[!NOTE]
 >

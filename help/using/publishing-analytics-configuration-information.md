@@ -1,5 +1,5 @@
 ---
-title: Publicar información de configuración de Adobe Analytics
+title: Información de configuración de Publish Adobe Analytics
 description: Obtenga información sobre cómo publicar información de configuración de Adobe Analytics desde Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -17,9 +17,9 @@ ht-degree: 19%
 
 ---
 
-# Publicar información de configuración de Adobe Analytics{#publishing-adobe-analytics-configuration-information}
+# Información de configuración de Publish Adobe Analytics{#publishing-adobe-analytics-configuration-information}
 
-Publique los visores de Adobe Dynamic Media Classic para que se envíe información sobre la configuración de informes de Adobe Analytics a los servidores de Adobe Dynamic Media Classic. Esta información se incrusta en los visores. La publicación es necesaria para que la información contenida en los visores esté disponible en los servidores de Adobe Dynamic Media Classic. Desde los servidores, se puede retransmitir a Adobe Analytics cuando los usuarios realizan alguna actividad en los visores.
+Publish envía los visores de Adobe Dynamic Media Classic para que la información sobre la configuración de los informes de Adobe Analytics se envíe a los servidores de Adobe Dynamic Media Classic. Esta información se incrusta en los visores. La publicación es necesaria para que la información contenida en los visores esté disponible en los servidores de Adobe Dynamic Media Classic. Desde los servidores, se puede retransmitir a Adobe Analytics cuando los usuarios realizan alguna actividad en los visores.
 
 >[!NOTE]
 >
@@ -32,4 +32,4 @@ Consulte [Configuración de informes de Adobe Analytics](configuring-analytics-r
 **Para publicar información de configuración:**
 
 1. En la barra de navegación global, seleccione **[!UICONTROL Publish]**.
-1. En el **[!UICONTROL `Publish`]** , seleccione **[!UICONTROL Enviar publicación]**.
+1. En el cuadro de diálogo **[!UICONTROL `Publish`]**, seleccione **[!UICONTROL Enviar Publish]**.

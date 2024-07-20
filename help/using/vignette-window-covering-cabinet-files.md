@@ -19,7 +19,7 @@ ht-degree: 1%
 
 # Trabajar con archivos de viñeta, cubierta de ventana y archivador{#working-with-vignette-window-covering-and-cabinet-files}
 
-Los usuarios de la herramienta Adobe Dynamic Media Classic Image Authoring pueden *use* viñetas (ficheros VNT), cubiertas de ventanas (ficheros VNW) y archivadores (ficheros VNC). Estos archivos no se pueden crear ni editar en Adobe Dynamic Media Classic.
+Los usuarios de la herramienta de creación de imágenes de Adobe Dynamic Media Classic pueden *usar* viñetas (archivos VNT), cubiertas de ventanas (archivos VNW) y archivadores (archivos VNC). Estos archivos no se pueden crear ni editar en Adobe Dynamic Media Classic.
 
 Las viñetas, los revestimientos de ventanas y los archivadores son imágenes creadas. Con un programa de Adobe Dynamic Media Classic diferente llamado Image Authoring, se enmascaran objetos en una imagen para que los usuarios puedan ver la misma imagen en varias texturas o colores. Por ejemplo, los usuarios ven un sofá tapizado con varios tejidos, una ventana decorada con diversos tratamientos de ventana o un armario acabado con diferentes tipos de madera.
 

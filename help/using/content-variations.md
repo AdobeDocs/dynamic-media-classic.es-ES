@@ -27,10 +27,10 @@ Las direcciones URL universales se utilizan para mostrar la variación de planti
 
 Puede utilizar cualquier URL de ajuste preestablecido de imagen de la lista. Las URL de ajustes preestablecidos de imagen son como URL universales. Puede haber más de una URL de ajuste preestablecido de imagen.
 
-1. Ir a **[!UICONTROL Generar]** > **[!UICONTROL Conjuntos de plantillas]**.
-1. En el generador, seleccione una plantilla y, a continuación, seleccione **[!UICONTROL Añadir/previsualizar]**.
+1. Vaya a **[!UICONTROL Compilación]** > **[!UICONTROL Conjuntos de plantillas]**.
+1. En el generador, seleccione una plantilla y, a continuación, seleccione **[!UICONTROL Agregar/Vista previa]**.
 1. Modifique las propiedades de la plantilla y seleccione **[!UICONTROL Guardar como]** para crear otra versión.
-1. Escriba un nombre y seleccione **[!UICONTROL Guardar]**.
+1. Escriba un nombre y, a continuación, seleccione **[!UICONTROL Guardar]**.
 
    Tanto el recurso como la plantilla deben publicarse.
 

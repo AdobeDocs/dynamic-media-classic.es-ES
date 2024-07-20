@@ -36,21 +36,21 @@ Puede obtener una cadena URL generada por un ajuste preestablecido de imagen en 
 1. En el panel Biblioteca de recursos de la izquierda, vaya a la carpeta de recursos que contiene el recurso de imagen que desea previsualizar.
 1. Realice una de las acciones siguientes:
 
-   * Sobre la ventana Recursos, en la parte derecha de la barra de herramientas, seleccione **[!UICONTROL Vista de cuadrícula]**. En la ventana Recurso, seleccione un único recurso de imagen y, debajo de la imagen en miniatura, vaya a **[!UICONTROL Previsualizar]** > **[!UICONTROL Lista de ajustes preestablecidos de imagen]**.
-   * Sobre la ventana Recursos, en la parte derecha de la barra de herramientas, seleccione **[!UICONTROL Vista de lista]**. En la ventana Recurso, seleccione un único recurso de imagen y, a continuación, a la derecha de la imagen en miniatura, vaya a **[!UICONTROL Previsualizar]** > **[!UICONTROL Lista de ajustes preestablecidos de imagen]**.
-   * Sobre la ventana Recursos, en la parte derecha de la barra de herramientas, seleccione **[!UICONTROL Vista de detalles]**. En la misma barra de herramientas, vaya a **[!UICONTROL Previsualizar]** > **[!UICONTROL Lista de ajustes preestablecidos de imagen]**.
+   * Encima de la ventana de Assets, en el lado derecho de la barra de herramientas, seleccione **[!UICONTROL Vista de cuadrícula]**. En la ventana Recurso, seleccione un solo recurso de imagen y, debajo de la imagen en miniatura, vaya a **[!UICONTROL Vista previa]** > **[!UICONTROL Lista de ajustes preestablecidos de imagen]**.
+   * Encima de la ventana de Assets, en el lado derecho de la barra de herramientas, seleccione **[!UICONTROL Vista de lista]**. En la ventana Recurso, seleccione un solo recurso de imagen y, a continuación, a la derecha de la imagen en miniatura, vaya a **[!UICONTROL Vista previa]** > **[!UICONTROL Lista de ajustes preestablecidos de imagen]**.
+   * Encima de la ventana de Assets, en la parte derecha de la barra de herramientas, seleccione **[!UICONTROL Vista de detalles]**. En la misma barra de herramientas, vaya a **[!UICONTROL Vista previa]** > **[!UICONTROL Lista de ajustes preestablecidos de imagen]**.
 
 1. (Opcional) En la Lista de ajustes preestablecidos de imagen, en la lista desplegable Codificación URL para la creación de copias URL, seleccione la Codificación URL que se aplicará a la URL del recurso de imagen cuando se copie.
 1. En la ventana Lista de ajustes preestablecidos de imagen, en el área superior derecha del panel de vista previa, seleccione **[!UICONTROL Copiar URL]** para el tipo de ajuste preestablecido seleccionado.
-1. En la esquina inferior derecha de la ventana Lista de ajustes preestablecidos de imagen, seleccione **[!UICONTROL Cerrar]** para volver a la pantalla Recursos.
+1. En la esquina inferior derecha de la ventana Lista de ajustes preestablecidos de imagen, seleccione **[!UICONTROL Cerrar]** para volver a la pantalla de Assets.
 
 ### Obtenga una URL de ajuste preestablecido de imagen del panel Examinar {#obtaining-an-image-preset-url-from-the-browse-panel}
 
 1. En el panel Biblioteca de recursos de la izquierda, vaya a la carpeta de recursos que contiene el recurso de imagen que desea previsualizar.
-1. Sobre la ventana Recursos, en la parte derecha de la barra de herramientas, seleccione **[!UICONTROL Vista de cuadrícula]**. En la ventana Recurso, seleccione un único recurso de imagen.
-1. Sobre la ventana Recursos, en la parte derecha de la barra de herramientas, seleccione **[!UICONTROL Vista de detalles]**.
-1. Seleccionar **[!UICONTROL URL]** en el panel situado en la parte derecha de la pantalla para poder desplegar la lista de ajustes preestablecidos de imagen.
-1. Seleccionar **[!UICONTROL Copiar URL]** junto al nombre del ajuste preestablecido de imagen con la dirección URL que desea copiar en el portapapeles.
+1. Encima de la ventana de Assets, en el lado derecho de la barra de herramientas, seleccione **[!UICONTROL Vista de cuadrícula]**. En la ventana Recurso, seleccione un único recurso de imagen.
+1. Encima de la ventana de Assets, en la parte derecha de la barra de herramientas, seleccione **[!UICONTROL Vista de detalles]**.
+1. Seleccione **[!UICONTROL URL]** en el panel del lado derecho de la pantalla para poder desplegar la lista de ajustes preestablecidos de imagen.
+1. Seleccione el vínculo **[!UICONTROL Copiar URL]** junto al nombre del ajuste preestablecido de imagen con la URL que desea copiar en el portapapeles.
 
 ## Acerca de las cadenas URL de ajustes preestablecidos de imagen {#about-image-preset-url-strings}
 
@@ -76,11 +76,11 @@ Pero en una cadena URL generada con un ajuste preestablecido de imagen, el nombr
 https://s7d1.scene7.com/is/image/S7learn/backpack?$Large$
 ```
 
-Los nombres de ajuste preestablecido de imagen en direcciones URL se incluyen entre signos de dólar ($). Cuando un servidor de imágenes de Dynamic Media encuentra la parte de ajuste preestablecido de imagen de la URL (la variable `Large` en este caso), utilizando las instrucciones de tamaño y formato definidas por el ajuste preestablecido de imagen &quot;Grande&quot;.
+Los nombres de ajuste preestablecido de imagen en direcciones URL se incluyen entre signos de dólar ($). Cuando un servidor de imágenes de Dynamic Media encuentra la parte del ajuste preestablecido de imagen de la dirección URL (la `Large`, en este caso), empleando las instrucciones de tamaño y formato definidas por el ajuste preestablecido de imagen &quot;grande&quot;.
 
 ## Agregar imágenes dinámicas a la página Web {#adding-dynamic-images-to-your-web-page}
 
-Al agregar imágenes dinámicas a la página web, se `<IMG>` El código de la página del HTML suele modificarse con la cadena URL de Adobe Dynamic Media Classic para realizar una solicitud a los servidores de imágenes de Dynamic Media. Esta cadena produce una imagen con las especificaciones de formato y tamaño definidas por el ajuste preestablecido de imagen.
+Al agregar imágenes dinámicas a la página web, la etiqueta `<IMG>` del código de página del HTML suele modificarse con la cadena URL de Adobe Dynamic Media Classic para realizar una solicitud a los servidores de imágenes de Dynamic Media. Esta cadena produce una imagen con las especificaciones de formato y tamaño definidas por el ajuste preestablecido de imagen.
 
 Por ejemplo, en lugar de la típica llamada para abrir una imagen estática:
 
@@ -88,10 +88,10 @@ Por ejemplo, en lugar de la típica llamada para abrir una imagen estática:
 img src="/company_images/products/backpack_thumbnail.jpg"
 ```
 
-Ahora puede usar la variable `<IMG>`para reemplazar la referencia a una imagen estática con una llamada de ajuste preestablecido de imagen a la plataforma de Adobe Dynamic Media Classic. Ejemplo de llamada:
+Ahora utiliza la etiqueta `<IMG>` para reemplazar la referencia a una imagen estática con una llamada de ajuste preestablecido de imagen a la plataforma Adobe Dynamic Media Classic. Ejemplo de llamada:
 
 ```as3
 img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$"
 ```
 
-En este ejemplo, un servidor de imágenes de Dynamic Media busca la definición de `$thumbnail$` y genera dinámicamente la imagen adecuada con las especificaciones de tamaño y formato definidas por el `thumbnail`Ajuste preestablecido de imagen. En una cadena URL, todos los elementos excepto el nombre de archivo de la imagen del producto ( `backpack_trns` en este caso) suelen estar cableadas para la plantilla de página. El único elemento que se inserta automáticamente en la plantilla desde el servidor comercial es el ID de IPS o nombre de la imagen.
+En este ejemplo, un servidor de imágenes de Dynamic Media &quot;busca&quot; la definición de `$thumbnail$` y genera dinámicamente la imagen adecuada con las especificaciones de tamaño y formato definidas por el ajuste preestablecido de imagen `thumbnail`Image. En una cadena URL, todos los elementos excepto el nombre de archivo de la imagen del producto ( `backpack_trns` en este caso) suelen estar conectados para la plantilla de página. El único elemento que se inserta automáticamente en la plantilla desde el servidor comercial es el ID de IPS o nombre de la imagen.

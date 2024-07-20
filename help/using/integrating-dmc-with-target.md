@@ -19,13 +19,13 @@ ht-degree: 0%
 
 # Integración de Adobe Dynamic Media Classic con Adobe Target Standard/Premium {#integrating-dmc-with-target}
 
-Antes de integrar [!DNL Adobe Dynamic Media Classic] con [!DNL Target Standard/Premium], debe introducir la dirección URL de destino en la [!DNL Adobe Dynamic Media Classic] Pantalla Configuración general de la aplicación. Para obtener la URL de Target e introducirla en la página Configuración general de la aplicación, haga lo siguiente:
+Para poder integrar [!DNL Adobe Dynamic Media Classic] con [!DNL Target Standard/Premium], debe escribir la dirección URL de destino en la pantalla Configuración general de la aplicación [!DNL Adobe Dynamic Media Classic]. Para obtener la URL de Target e introducirla en la página Configuración general de la aplicación, haga lo siguiente:
 
-1. Entrada [!DNL Adobe Experience Cloud], inicie sesión en su [!DNL Target Standard/Premium] cuenta.
-1. Después de iniciar sesión, en la barra de direcciones del explorador, copie la dirección URL hasta el `.com`.
+1. En [!DNL Adobe Experience Cloud], inicie sesión en su cuenta de [!DNL Target Standard/Premium].
+1. Después de iniciar sesión, en la barra de direcciones del explorador, copie la dirección URL hasta `.com`, inclusive.
 
-   Por ejemplo, si la variable *ficticio* La dirección URL (las rutas de URL siempre contienen barras diagonales, no barras invertidas, como en este ejemplo) de la barra de direcciones es `https:\\www.myfictionalsite.com/categories/admin/home.do`, copie solo esta parte de *ficticio* URL: `https:\\www.myfictionalsite.com`.
+   Por ejemplo, si la dirección URL *ficticia* (las rutas de URL siempre contienen barras diagonales, no barras invertidas como en este ejemplo) de la barra de direcciones es `https:\\www.myfictionalsite.com/categories/admin/home.do`, copie solo esta parte de la dirección URL *ficticia*: `https:\\www.myfictionalsite.com`.
 
-1. Entrada [!DNL Adobe Dynamic Media Classic], vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes de aplicación]**.
-1. En la página Configuración general de la aplicación, en **[!UICONTROL Nombre del servidor de Test&amp;Target]** , pegue la URL copiada en el paso 2.
-1. Seleccionar **[!UICONTROL Cerrar]**.
+1. En [!DNL Adobe Dynamic Media Classic], vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de aplicación]**.
+1. En la página Configuración general de la aplicación, en el campo **[!UICONTROL Nombre del servidor de Test&amp;Target]**, pegue la dirección URL que ha copiado en el paso 2.
+1. Seleccione **[!UICONTROL Cerrar]**.

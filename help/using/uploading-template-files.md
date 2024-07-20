@@ -29,12 +29,12 @@ Las plantillas pueden crearse a partir de archivos PSD de Adobe Photoshop o arch
 
 Para obtener instrucciones detalladas sobre la carga de archivos, consulte [Cargar archivos](uploading-files.md#uploading_files). Tenga en cuenta lo siguiente al cargar archivos de plantilla:
 
-* Si está cargando un archivo de PSD, puede crear una plantilla a partir de él. Adobe Dynamic Media Classic crea una imagen independiente para cada capa en el PSD. En el cuadro de diálogo Opciones del trabajo de carga, seleccione **[!UICONTROL Opciones de Photoshop]** y seleccione **[!UICONTROL Mantener capas]** y **[!UICONTROL Crear plantilla]**. A continuación, elija una opción en la **[!UICONTROL Nombres de capas]** lista desplegable para asignar un nombre a las imágenes que Adobe Dynamic Media Classic crea a partir de las capas del PSD.
+* Si está cargando un archivo de PSD, puede crear una plantilla a partir de él. Adobe Dynamic Media Classic crea una imagen independiente para cada capa en el PSD. En el cuadro de diálogo Cargar opciones del trabajo, seleccione **[!UICONTROL Opciones de Photoshop]** y seleccione **[!UICONTROL Mantener capas]** y **[!UICONTROL Crear plantilla]**. A continuación, elija una opción en la lista desplegable **[!UICONTROL Nombres de capas]** para asignar un nombre a las imágenes que Adobe Dynamic Media Classic crea a partir de las capas del PSD.
 Consulte [Opciones de carga de archivos PSD](psd-files.md#psd_upload_options).
 <!-- THERE IS NO LONGER AN IMAGE EDITING OPTIONS MENU * If you are uploading images, you can create a mask from its clipping path. This option applies to images created with image-editing applications in which a clipping path was created. In the Upload Job Options dialog box, select Image Editing Options and select the Create Mask From Clipping Path option. 
 See [Image editing options at upload](image-editing-options-upload.md#image-editing-options-at-upload). -->
 
 >[!MORELIKETHIS]
 >
->* [Cargar los archivos](uploading-files.md#uploading_your_files)
->* [Trabajo con archivos de PSD](psd-files.md#working_with_psd_files)
+>* [Cargue sus archivos](uploading-files.md#uploading_your_files)
+>* [Trabajar con archivos de PSD](psd-files.md#working_with_psd_files)

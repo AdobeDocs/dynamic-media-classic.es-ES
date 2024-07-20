@@ -23,24 +23,24 @@ Los ajustes preestablecidos de visor de conjuntos de giros determinan el estilo,
 
 **Para crear un ajuste preestablecido de visualizador de conjuntos de giros:**
 
-1. En la barra de navegación global, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes preestablecidos de visor]**.
+1. En la barra de navegación global, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Ajustes preestablecidos de visor]**.
 1. Realice una de las siguientes acciones:
 
-   * Para crear un ajuste preestablecido, seleccione **[!UICONTROL Añadir]**, en el cuadro de diálogo Agregar ajuste preestablecido de visor, elija una plataforma y, a continuación, seleccione **[!UICONTROL Visor de conjuntos de giros]**.
+   * Para crear un ajuste preestablecido, seleccione **[!UICONTROL Agregar]** y, a continuación, en el cuadro de diálogo Agregar ajuste preestablecido de visor, elija una plataforma y seleccione **[!UICONTROL Visor de conjuntos de giros]**.
    * Para editar un ajuste preestablecido de visualizador de conjuntos de giros existente, seleccione el ajuste preestablecido y, a continuación, seleccione **[!UICONTROL Editar]**.
 
-1. En el `Configure Viewer` , escriba un nombre en el cuadro Nombre de ajuste preestablecido para el ajuste preestablecido del visualizador de conjuntos de giros.
-1. Especifique otras opciones que desee. Para ver la descripción de una opción, seleccione la **[!UICONTROL Sugerencia de información]** junto a la opción.
+1. En la página `Configure Viewer`, escriba un nombre en el cuadro Nombre de ajuste preestablecido para el ajuste preestablecido del visualizador de conjuntos de giros.
+1. Especifique otras opciones que desee. Para ver una descripción de una opción, seleccione el icono **[!UICONTROL Información]** que hay junto a la opción.
 
    La página Vista previa muestra el visor mientras actualiza y cambia la configuración.
 
-1. Seleccionar **[!UICONTROL Guardar]**.
+1. Seleccione **[!UICONTROL Guardar]**.
 
-Seleccionar **[!UICONTROL Establecer como predeterminado]** para convertir el ajuste preestablecido del visualizador de conjuntos de giros ha creado la empresa de forma predeterminada para mostrar los conjuntos de giros.
+Seleccione **[!UICONTROL Establecer como predeterminado]** para que el ajuste preestablecido del visualizador de conjuntos de giros que creó sea el predeterminado de la empresa para mostrar conjuntos de giros.
 
 Consulte [Configurar visores predeterminados](application-setup.md#configuring_default_viewers).
 
-Para eliminar un ajuste preestablecido de visualizador de conjuntos de giros, selecciónelo en la página Ajustes preestablecidos de visualizador y, a continuación, seleccione **[!UICONTROL Eliminar]**.
+Para eliminar un ajuste preestablecido de visor de conjuntos de giros, selecciónelo en la página Ajustes preestablecidos de visor y, a continuación, seleccione **[!UICONTROL Eliminar]**.
 
 >[!MORELIKETHIS]
 >

@@ -27,13 +27,13 @@ La publicación de la plantilla la coloca en Dynamic Media Image Servers, donde 
 
 ## Marcar plantillas para publicación {#marking-templates-for-publish}
 
-Las plantillas y todos sus archivos de soporte deben marcarse para su publicación para que se coloquen en los servidores de imágenes de Dynamic Media. Puede marcar estos elementos para su publicación en el panel Examinar seleccionando la **[!UICONTROL Marcar para publicación]** icono.
+Las plantillas y todos sus archivos de soporte deben marcarse para su publicación para que se coloquen en los servidores de imágenes de Dynamic Media. Puede marcar estos elementos para su publicación en el panel Examinar seleccionando el icono **[!UICONTROL Marcar para Publish]**.
 
-## Publicación de la plantilla {#publishing-your-template}
+## Publish su plantilla {#publishing-your-template}
 
-Para publicar plantillas en Dynamic Media Image Servers, en la barra de navegación global, seleccione **[!UICONTROL Publish]**, luego seleccione una **[!UICONTROL Cuándo]** opción. Si lo desea, puede introducir un nombre para el trabajo de publicación. Seleccionar **[!UICONTROL Enviar publicación]**.
+Para publicar plantillas en Dynamic Media Image Servers, en la barra de navegación global, seleccione **[!UICONTROL Publish]** y, a continuación, seleccione una opción **[!UICONTROL When]**. Si lo desea, puede introducir un nombre para el trabajo de publicación. Seleccione **[!UICONTROL Enviar Publish]**.
 
 >[!MORELIKETHIS]
 >
->* [Marcar recursos para publicación](publishing-files.md#publish_after_uploading)
->* [Creación de un trabajo de publicación](publishing-files.md#creating_a_publish_job)
+>* [Marcar recursos para publicar](publishing-files.md#publish_after_uploading)
+>* [Crear un trabajo de publicación](publishing-files.md#creating_a_publish_job)

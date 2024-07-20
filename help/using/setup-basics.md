@@ -19,18 +19,18 @@ ht-degree: 16%
 
 # Nociones básicas de ajuste{#setup-basics}
 
-Utilice la página Configuración de Adobe Dynamic Media Classic para especificar su configuración personal. Si es un administrador, configure los ajustes de su empresa. Para abrir una página de instalación, en la barra de navegación global, seleccione **[!UICONTROL Configurar]**.
+Utilice la página Configuración de Adobe Dynamic Media Classic para especificar su configuración personal. Si es un administrador, configure los ajustes de su empresa. Para abrir una página de instalación, en la barra de navegación global, seleccione **[!UICONTROL Configuración]**.
 
 La configuración disponible en esta página depende de su estado como usuario o administrador:
 
-* Los usuarios solo pueden acceder a **[!UICONTROL Ajustes personales]** y las cuentas de las empresas de las que son miembros; no pueden realizar ninguna tarea administrativa.
+* Los usuarios solamente pueden tener acceso a **[!UICONTROL Ajustes personales]** y a las cuentas de las empresas de las que son miembros; no pueden realizar ninguna tarea administrativa.
 * Los administradores pueden acceder a **[!UICONTROL Ajustes personales]** y ver y administrar sus propias cuentas de compañía. Además, pueden realizar todas las funciones de configuración de la aplicación y todas las funciones de administración, incluyendo agregar administradores y usuarios.
 
-Los administradores también pueden configurar ajustes preestablecidos de imagen y de visualizador en la **[!UICONTROL Configurar]** página:
+Los administradores también pueden configurar ajustes preestablecidos de imagen y de visor en la página **[!UICONTROL Configurar]**:
 
-* **Ajustes preestablecidos de imagen**: los ajustes preestablecidos de imagen son formatos guardados para mostrar imágenes principales en diferentes tamaños y formatos.
+* **Ajustes preestablecidos de imagen**: Los ajustes preestablecidos de imagen son formatos guardados para mostrar imágenes principales en diferentes tamaños y formatos.
 
-* **Ajustes preestablecidos de visor**: Los ajustes preestablecidos del visualizador determinan cómo ve los medios enriquecidos cuando los ve en un visualizador.
+* **Ajustes preestablecidos del visor**: Los ajustes preestablecidos del visor determinan cómo ve el medio enriquecido cuando lo ve en un visor.
 
 >[!MORELIKETHIS]
 >

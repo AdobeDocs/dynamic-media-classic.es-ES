@@ -26,38 +26,38 @@ Los ajustes preestablecidos del visor de catálogos electrónicos ofrecen muchas
 
 Siga estos pasos para poder crear un ajuste preestablecido de visualizador de catálogos electrónicos (debe ser administrador):
 
-1. En la barra de navegación global, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes preestablecidos de visor]**.
+1. En la barra de navegación global, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Ajustes preestablecidos de visor]**.
 1. En la pantalla Ajustes preestablecidos de visor, cree un ajuste preestablecido de visor de catálogos electrónicos desde cero o a partir de un ajuste preestablecido de visor de catálogos electrónicos existente:
 
-   * **Crear un ajuste preestablecido de visor de catálogos electrónicos**: Seleccionar **[!UICONTROL Añadir]**. En el cuadro de diálogo Agregar ajuste preestablecido de visor, elija una plataforma, elija Visor de catálogos electrónicos y, a continuación, seleccione **[!UICONTROL Añadir]**.
+   * **Crear un ajuste preestablecido de visor de catálogo electrónico**: seleccione **[!UICONTROL Agregar]**. En el cuadro de diálogo Agregar ajuste preestablecido de visor, elija una plataforma, elija Visor de catálogo electrónico y, a continuación, seleccione **[!UICONTROL Agregar]**.
 
-   * **Editar un ajuste preestablecido del visor de catálogos electrónicos**: seleccione un ajuste preestablecido del visor de catálogos electrónicos y, a continuación, seleccione **[!UICONTROL Editar]**. Seleccionar **[!UICONTROL Guardar como]** después de terminar de crear el ajuste preestablecido.
+   * **Editar un ajuste preestablecido de visor de catálogo electrónico**: seleccione un ajuste preestablecido de visor de catálogo electrónico y, a continuación, seleccione **[!UICONTROL Editar]**. Seleccione **[!UICONTROL Guardar como]** cuando termine de crear el ajuste preestablecido.
 
-1. En el `Configure Viewer` , introduzca un nombre para el ajuste preestablecido del visor de catálogos electrónicos.
-1. En el `Configure Viewer` , establezca las opciones que desee.
+1. En la página `Configure Viewer`, escriba un nombre para el ajuste preestablecido del visor de catálogos electrónicos.
+1. En la página `Configure Viewer`, defina las opciones que desee.
 
-   seleccione el **[!UICONTROL Sugerencia de información]** junto a la opción si desea leer su descripción.
+   seleccione el icono **[!UICONTROL Sugerencia de información]** junto a la opción si desea leer su descripción.
 
    La página Vista previa muestra el visor mientras actualiza y cambia la configuración.
 
-1. (Opcional) En el **[!UICONTROL Configuración del panel de información]**, el **[!UICONTROL URL de servidor de información]** Esta opción puede incluir los siguientes tokens especiales, que el visor sustituye:
+1. (Opcional) En la **[!UICONTROL Configuración del panel de información]**, la opción **[!UICONTROL URL del servidor de información]** puede incluir los siguientes tokens especiales, que el visor sustituye:
 
    | Distintivo | Se sustituye por | Notas |
    | --- | --- | --- |
-   | `$1$` | valor rollover_key | El identificador de elemento del `<area>` del mapa. |
+   | `$1$` | valor rollover_key | El identificador de elemento del elemento `<area>` del mapa. |
    | `$2$` | frame | El número de secuencia del cuadro que se muestra actualmente en el conjunto de imágenes. |
    | `$3$` | raíz de imagen | El primer elemento de ruta del primer elemento especificado en el comando de imagen (normalmente el ID del catálogo de imágenes de la entrada del catálogo en la que se especifica el conjunto de imágenes). |
 
-1. (Opcional) En el **[!UICONTROL Configuración del panel de información]**, en el **[!UICONTROL Plantilla de respuesta]** , escriba el texto que desea que aparezca si Adobe Dynamic Media Classic encuentra un error al recuperar información para un mapa de imagen. Por ejemplo, si el sistema recibe un nombre de empresa y un nombre de catálogo electrónico, pero ningún identificador rollover, aparecerá este mensaje para el usuario.
+1. (Opcional) En **[!UICONTROL Configuración del panel de información]**, en el cuadro **[!UICONTROL Plantilla de respuesta]**, escriba el texto que desea que aparezca si Adobe Dynamic Media Classic encuentra un error al recuperar información para un mapa de imagen. Por ejemplo, si el sistema recibe un nombre de empresa y un nombre de catálogo electrónico, pero ningún identificador rollover, aparecerá este mensaje para el usuario.
 
 >[!NOTE]
 >
->Para utilizar esta plantilla de respuesta en lugar de la plantilla definida en el propio catálogo electrónico, añada `fmt=1` al final de la URL del servidor de información. Por ejemplo: `https://.../$3$/$4$/$1$/?FMT=1`.
+>Para utilizar esta plantilla de respuesta en lugar de la plantilla definida en el propio catálogo electrónico, agregue `fmt=1` al final de la dirección URL del servidor de información. Por ejemplo: `https://.../$3$/$4$/$1$/?FMT=1`.
 
-1. Seleccionar **[!UICONTROL Guardar]**.
-1. Seleccionar **[!UICONTROL Predeterminado]** de forma que el ajuste preestablecido del visor de catálogos electrónicos que ha creado sea el que se utiliza para mostrar los catálogos electrónicos en su página web.
+1. Seleccione **[!UICONTROL Guardar]**.
+1. Seleccione **[!UICONTROL Predeterminado]** para que el ajuste preestablecido del visor de catálogos electrónicos que ha creado sea el que se utilice para mostrar los catálogos electrónicos en su página web.
 
-Para eliminar un ajuste preestablecido del visor de catálogos electrónicos, selecciónelo en la pantalla Ajustes preestablecidos del visor y seleccione **[!UICONTROL Eliminar]**.
+Para eliminar un ajuste preestablecido de visor de catálogo electrónico, selecciónelo en la pantalla Ajustes preestablecidos de visor y seleccione **[!UICONTROL Eliminar]**.
 
 >[!MORELIKETHIS]
 >

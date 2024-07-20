@@ -27,7 +27,7 @@ Consulte los siguientes vídeos de formación:
 
 * [Información general de Media Portal](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/544_mp_overview1_converted%20renamed_Done-AVS)
 
-* [Recorrido por Media Portal 1](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/545_mp_tour1_user_converted%20renamed_Done-AVS)
+* [Recorrido de Media Portal 1](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/545_mp_tour1_user_converted%20renamed_Done-AVS)
 
 * [Recorrido por Media Portal 2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
 
@@ -49,13 +49,13 @@ Consulte [Crear y administrar grupos de Media Portal](creating-media-portal-grou
 
 Cuando se agrega un usuario, se le asigna una función (usuario, colaborador o usuario colaborador). También puede asignar el usuario a uno o varios grupos. Para acelerar el proceso de adición de usuarios, puede cargar una lista de usuarios en forma de archivo CSV. Los usuarios nuevos recibirán un mensaje de correo electrónico de bienvenida con instrucciones acerca de cómo iniciar sesión en Media Portal.
 
-Consulte [Adición y administración de usuarios de Media Portal](adding-media-portal-users.md#adding_and_managing_media_portal_users).
+Consulte [Agregar y administrar usuarios de Media Portal](adding-media-portal-users.md#adding_and_managing_media_portal_users).
 
 ## 4. Administración de cuentas de FTP
 
 Puede tener cuentas de FTP independientes asociadas a Media Portal. Se pueden asignar a una carpeta específica de su cuenta de Adobe Dynamic Media Classic. Este tipo de funcionalidad significa que puede permitir a los usuarios cargar recursos digitales en la cuenta a través de cuentas de FTP independientes.
 
-Consulte [Administración de cuentas de FTP](ftp-accounts.md#managing_ftp_accounts).
+Ver [Administrar cuentas de FTP](ftp-accounts.md#managing_ftp_accounts).
 
 >[!NOTE]
 >

@@ -32,8 +32,8 @@ Al crear un conjunto de giros o de imágenes, o al cargar PDF para la extracció
 
 | Recurso: tipo de límite | Práctica recomendada | Límite impuesto |
 | --- | --- | --- |
-| **Imagen**: Número de recortes inteligentes por imagen | 5 | 100 |
-| **Todos los conjuntos**: Número de recursos duplicados por conjunto | No hay duplicados | 20 ‡ |
+| **Imagen**: número de recortes inteligentes por imagen | 5 | 100 |
+| **Todos los conjuntos**: número de recursos duplicados por conjunto | No hay duplicados | 20 ‡ |
 | **Todos los conjuntos**: Número máximo de recursos por conjunto | 5-10 imágenes por conjunto | 1.000 |
 | **Conjunto de giros**: Número máximo de filas/columnas por conjunto 2D | 12 a 18 imágenes por conjunto | 1.000 |
 | **PDF**: Número máximo de páginas para que un PDF se considere para la extracción |  | 100 (para todos los PDF) |

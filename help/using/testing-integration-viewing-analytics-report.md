@@ -27,9 +27,9 @@ Después de crear las variables necesarias en Adobe Analytics, vincularlas a eve
 
    Por ejemplo, si desea medir vistas alternativas populares en un conjunto de imágenes, previsualice un conjunto de imágenes y haga clic en las distintas miniaturas de imágenes.
 
-1. Dentro de Adobe Analytics, vaya a **[!UICONTROL Tráfico personalizado]** > **[!UICONTROL Tráfico personalizado 1-10]** > [Nombre de prop], seleccionando el nombre de la prop de tráfico en las opciones del menú.
+1. En Adobe Analytics, ve a **[!UICONTROL Tráfico personalizado]** > **[!UICONTROL Tráfico personalizado 1-10]** > [Nombre de prop], y selecciona el nombre de la prop de tráfico en las opciones del menú.
 
-   Por ejemplo, para acceder a **[!UICONTROL LoadAsset]** prop en la cuenta de ejemplo, la opción de menú adecuada es **[!UICONTROL Tráfico personalizado]** > **[!UICONTROL Tráfico personalizado 1-10]** > **[!UICONTROL LoadAsset]**. Si tiene más de diez propiedades personalizadas, también verá otras opciones de menú.
+   Por ejemplo, para acceder a la propiedad **[!UICONTROL LoadAsset]** en la cuenta de ejemplo, la opción de menú adecuada es **[!UICONTROL Tráfico personalizado]** > **[!UICONTROL Tráfico personalizado 1-10]** > **[!UICONTROL LoadAsset]**. Si tiene más de diez propiedades personalizadas, también verá otras opciones de menú.
 
 1. Consulte la tabla generada por Adobe Analytics. Este gráfico suele ser solo los datos de una única métrica. Si también desea saber con qué recurso están asociados estos datos, obtenga los datos de recursos de este evento. Por ejemplo, a menudo resulta útil saber qué vídeo se ve solo el 50 % o qué imagen de un conjunto es popular.
 

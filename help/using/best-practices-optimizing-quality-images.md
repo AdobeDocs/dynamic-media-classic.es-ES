@@ -27,7 +27,7 @@ Consulte también [Imágenes inteligentes](https://experienceleague.adobe.com/en
 
 >[!TIP]
 >
->Pruebe y descubra las ventajas de los modificadores de imagen de Dynamic Media y de las imágenes inteligentes con Dynamic Media [_Instantánea_](https://snapshot.scene7.com/).
+>Pruebe y descubra las ventajas de los modificadores de imagen de Dynamic Media y de las imágenes inteligentes con Dynamic Media [_Snapshot_](https://snapshot.scene7.com/).
 >
 > Snapshot es una herramienta de demostración visual diseñada para ilustrar la potencia de Dynamic Media para la entrega de imágenes optimizadas y dinámicas. Experimente con imágenes de prueba o direcciones URL de Dynamic Media para poder observar visualmente la salida de varios modificadores de imagen de Dynamic Media y optimizaciones de imágenes inteligentes para lo siguiente:
 >
@@ -35,13 +35,13 @@ Consulte también [Imágenes inteligentes](https://experienceleague.adobe.com/en
 >* Ancho de banda de red
 >* DPR (proporción de píxeles del dispositivo)
 >
->Para aprender lo fácil que es usar Snapshot, juegue el [Vídeo de formación de instantáneas](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) (3 minutos y 17 segundos).
+>Para aprender lo fácil que es usar Snapshot, reproduzca el [vídeo de entrenamiento Snapshot](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) (3 minutos y 17 segundos).
 
 
 ## Prácticas recomendadas para el formato de imágenes (&amp;fmt=) {#best-practices-for-image-format-fmt}
 
 * Los formatos JPG o PNG son las mejores opciones para distribuir imágenes con una buena calidad y con un tamaño y peso manejables.
-* Si no se proporciona ningún comando de formato en la dirección URL, el servicio de imágenes de Dynamic Media toma el valor predeterminado de JPG para la entrega.
+* Si no se proporciona ningún comando de formato en la dirección URL, el servicio de imágenes de Dynamic Media toma el valor predeterminado de JPG para la entrega de los datos.
 * JPG comprime en una proporción de 10:1 y generalmente ofrece tamaños de archivo de imagen más pequeños. PNG comprime a una proporción de aproximadamente 2:1, excepto a veces cuando las imágenes contienen un fondo vacío. Normalmente, los tamaños de archivo PNG son mayores que los archivos JPG.
 * JPG utiliza compresión con pérdidas, lo que significa que elementos de la imagen (píxeles) se eliminan durante la compresión. PNG utiliza la compresión sin pérdidas.
 * JPG a menudo comprime imágenes fotográficas con una mejor fidelidad que las imágenes sintéticas con contraste y bordes y nítidos.
@@ -53,16 +53,16 @@ Como práctica recomendada para el formato de imagen, comience con la configurac
 
 La reducción dinámica del tamaño de la imagen es una de las tareas más comunes que realiza el servicio de imágenes de Dynamic Media. Requiere especificar el tamaño y, opcionalmente, el modo de disminución de resolución que se utiliza para reducir el tamaño de la imagen.
 
-* Para el tamaño de la imagen, el enfoque mejor y más directo es utilizar `&wid=<value>` y `&hei=<value>` o simplemente `&hei=<value>`. Estos parámetros establecen la anchura de la imagen automáticamente según la proporción de aspecto.
-* `&resMode=<value>` controla el algoritmo utilizado para la disminución de resolución. Comience por `&resMode=sharp2`. Este valor proporciona la mejor calidad de imagen. Al utilizar el valor de disminución de resolución `=bilin` es más rápido, a menudo resulta en el solapamiento de artefactos.
+* Para el tamaño de la imagen, el mejor enfoque y el más directo es usar `&wid=<value>` y `&hei=<value>` o solo `&hei=<value>`. Estos parámetros establecen la anchura de la imagen automáticamente según la proporción de aspecto.
+* `&resMode=<value>` controla el algoritmo utilizado para la disminución de resolución. Comience por `&resMode=sharp2`. Este valor proporciona la mejor calidad de imagen. Aunque el uso del valor de disminución de resolución `=bilin` es más rápido, a menudo resulta en el solapamiento de artefactos.
 
-Como práctica recomendada para el tamaño de imágenes, utilice `&wid=<value>&hei=<value>&resMode=sharp2` o `&hei=<value>&resMode=sharp2`
+Como práctica recomendada para el tamaño de imagen, use `&wid=<value>&hei=<value>&resMode=sharp2` o `&hei=<value>&resMode=sharp2`
 
 ## Prácticas recomendadas para el enfoque de imágenes {#best-practices-for-image-sharpening}
 
 El enfoque de imágenes es el aspecto más complejo del control de imágenes en su sitio Web y en el que se producen muchos errores. Tómese el tiempo necesario para obtener más información sobre el funcionamiento del enfoque y el enmascaramiento de enfoque en Adobe Dynamic Media Classic consultando los siguientes recursos útiles:
 
-Documentación técnica sobre prácticas recomendadas [Enfoque de imágenes en Adobe Dynamic Media Classic y en el servidor de imágenes](/help/using/assets/s7_sharpening_images.pdf).
+Documentación técnica sobre prácticas recomendadas [Enfoque de imágenes en Adobe Dynamic Media Classic y en Image Server](/help/using/assets/s7_sharpening_images.pdf).
 
 <!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
@@ -70,23 +70,23 @@ Con Adobe Dynamic Media Classic, puede enfocar las imágenes durante la ingesta,
 
 Existen dos métodos de enfoque de imágenes que puede utilizar:
 
-* Enfoque simple ( `&op_sharpen`): similar al filtro de enfoque utilizado en Photoshop, el enfoque simple aplica un enfoque básico a la vista final de la imagen después del cambio de tamaño dinámico. Sin embargo, este método no puede configurarse. La práctica recomendada es evitar el uso de `&op_sharpen` a menos que sea necesario.
-* Máscara de enfoque ( `&op_USM`): La máscara de enfoque es un filtro estándar en la industria para el enfoque. La práctica recomendada es enfocar imágenes con la máscara de enfoque siguiendo las directrices siguientes. Las máscaras de enfoque permiten controlar los tres parámetros siguientes:
+* Enfoque simple (`&op_sharpen`): de forma similar al filtro de enfoque utilizado en Photoshop, el enfoque simple aplica un enfoque básico a la vista final de la imagen tras el cambio de tamaño dinámico. Sin embargo, este método no puede configurarse. Se recomienda evitar el uso de `&op_sharpen` a menos que sea necesario.
+* Máscara de enfoque (`&op_USM`): la máscara de enfoque es un filtro estándar del sector para el enfoque. La práctica recomendada es enfocar imágenes con la máscara de enfoque siguiendo las directrices siguientes. Las máscaras de enfoque permiten controlar los tres parámetros siguientes:
 
    * `&op_sharpen=amount,radius,threshold`
 
-      * `amount` (0-5, intensidad del efecto.)
-      * `radius` (0-250, anchura de las &quot;líneas de enfoque&quot; dibujadas alrededor del objeto enfocado, medida en píxeles.)
+      * `amount` (0-5, intensidad del efecto).
+      * `radius` (0-250, ancho de las &quot;líneas de enfoque&quot; dibujadas alrededor del objeto enfocado, medido en píxeles.)
 
-        Tenga en cuenta que los parámetros de `radius` y `amount` trabajar unos contra otros. Reducción `radius` puede compensarse aumentando el `amount`. `Radius` permite un control más preciso, ya que un valor más bajo enfoca únicamente los píxeles del borde, mientras que un valor más alto enfoca una banda más ancha de píxeles.
+        Tenga en cuenta que los parámetros `radius` y `amount` funcionan entre sí. La reducción de `radius` se puede compensar aumentando `amount`. `Radius` permite un control más preciso ya que un valor más bajo enfoca únicamente los píxeles del borde, mientras que un valor más alto enfoca una banda más ancha de píxeles.
 
       * `threshold` (0-255, sensibilidad del efecto.)
 
         Este parámetro determina hasta qué punto deben ser distintos los píxeles enfocados respecto al área que los rodea para poder considerarse píxeles de borde y por tanto enfocarse. El umbral ayuda a evitar el exceso de áreas de enfoque con colores similares, como los tonos de piel. Por ejemplo, un valor de umbral de 12 ignora las ligeras variaciones en el brillo del tono de la piel para evitar añadir &quot;ruido&quot;, mientras que al mismo tiempo agrega contraste al borde de las áreas de alto contraste, como cuando las pestañas tocan la piel.
 
-        Para obtener más información sobre cómo configurar estos tres parámetros, incluidas las prácticas recomendadas para su uso con el filtro, consulte [Enfoque de imágenes en Adobe Dynamic Media Classic y en el servidor de imágenes](/help/using/assets/s7_sharpening_images.pdf).
+        Para obtener más información acerca de cómo establecer estos tres parámetros, incluidas las prácticas recomendadas para usar con el filtro, consulte [Enfoque de imágenes en Adobe Dynamic Media Classic y en Image Server](/help/using/assets/s7_sharpening_images.pdf).
 
-      * Adobe Dynamic Media Classic también permite controlar un cuarto parámetro: monocromo ( `0,1`). Este parámetro determina si se aplica máscara de enfoque a cada componente de color por separado utilizando el valor `0` o a la intensidad/brillo de la imagen con el valor `1`.
+      * Adobe Dynamic Media Classic también le permite controlar un cuarto parámetro: monocromo ( `0,1`). Este parámetro determina si se aplica la máscara de enfoque a cada componente de color por separado usando el valor `0` o al brillo/intensidad de la imagen usando el valor `1`.
 
 La práctica recomendada es comenzar con el parámetro de radio de máscara de enfoque. Puede comenzar con las configuraciones de radio siguientes:
 
@@ -99,27 +99,27 @@ Aumente gradualmente la cantidad de 1,75 a 4. Si el enfoque aún no aparece como
 
 Deje la configuración del parámetro monocromo en 0.
 
-## Prácticas recomendadas para la compresión JPEG (`&qlt=`) {#best-practices-for-jpeg-compression-qlt}
+## Prácticas recomendadas para la compresión del JPEG (`&qlt=`) {#best-practices-for-jpeg-compression-qlt}
 
 * Este parámetro controla la calidad de codificación de JPG. Un valor más alto significa una mejor calidad de imagen pero un tamaño mayor de archivo; por lo contrario, un valor inferior significa una imagen de menor calidad pero un tamaño de archivo más pequeño. El rango de este parámetro es 0-100.
-* Para optimizar la calidad, no defina el valor del parámetro a 100. La diferencia entre un ajuste de 90 o 95 y 100 es casi imperceptible. Sin embargo, 100 aumenta innecesariamente el tamaño del archivo de imagen. Por lo tanto, para optimizar la calidad pero evitar que los archivos de imagen se vuelvan demasiado grandes, establezca el `qlt=` valor 90 o 95.
-* Para optimizar para un tamaño de archivo de imagen pequeño pero mantener la calidad de imagen en un nivel aceptable, establezca el `qlt=` valor 80. Los valores por debajo de 70 a 75 degradan considerablemente la calidad de imagen.
-* Como práctica recomendada, para permanecer en el medio, configure el `qlt=` valor de 85 para permanecer en el medio.
+* Para optimizar la calidad, no defina el valor del parámetro a 100. La diferencia entre un ajuste de 90 o 95 y 100 es casi imperceptible. Sin embargo, 100 aumenta innecesariamente el tamaño del archivo de imagen. Por lo tanto, para optimizar la calidad pero evitar que los archivos de imagen se vuelvan demasiado grandes, establezca el valor de `qlt=` en 90 o 95.
+* Para optimizar para un archivo de imagen pequeño pero mantener la calidad de la imagen en un nivel aceptable, establezca el valor `qlt=` en 80. Los valores por debajo de 70 a 75 degradan considerablemente la calidad de imagen.
+* Como práctica recomendada, para permanecer en el medio, establezca el valor de `qlt=` en 85 para permanecer en el medio.
 * Uso del indicador de croma en `qlt=`
 
-   * El `qlt=` El parámetro tiene un segundo ajuste que permite activar la disminución de resolución de cromaticidad del RGB utilizando el valor normal `,0` (predeterminado) o desactívelo con el valor `,1`.
+   * El parámetro `qlt=` tiene una segunda configuración que le permite activar la disminución de resolución de cromaticidad del RGB con el valor normal `,0` (predeterminado), o desactivarla con el valor `,1`.
    * Para que sea sencillo, comience con la disminución de resolución de cromaticidad RGB desactivada ( `,1`). Este ajuste normalmente ofrece una mejor calidad de imagen, especialmente en imágenes sintéticas con muchos bordes nítidos y contraste.
 
-Como práctica recomendada para el uso de compresión JPG `&qlt=85,0`.
+Como práctica recomendada para la compresión en JPG, use `&qlt=85,0`.
 
 ## Prácticas recomendadas para el tamaño JPEG (&amp;jpegSize=) {#best-practices-for-jpeg-sizing-jpegsize}
 
 El parámetro `jpegSize` es útil si desea garantizar que una imagen no supere un tamaño determinado para su entrega a dispositivos con memoria limitada.
 
 * Este parámetro se establece en kilobytes ( `jpegSize=<size_in_kilobytes>`). Define el tamaño máximo permitido para la distribución de imágenes.
-* `&jpegSize=` interactúa con el parámetro de compresión del JPG `&qlt=`. Si la respuesta del JPG con el parámetro de compresión del JPG especificado ( `&qlt=`) no supera el `jpegSize` , la imagen se devuelve con `&qlt=` como se define. De lo contrario, `&qlt=` se reduce gradualmente hasta que la imagen se ajusta al tamaño máximo permitido. O bien, hasta que el sistema determine que no cabe y devuelva un error.
+* `&jpegSize=` interactúa con el parámetro de compresión `&qlt=` del JPG de la aplicación. Si la respuesta del JPG con el parámetro de compresión del JPG de la aplicación especificado (`&qlt=`) no sobrepasa el valor `jpegSize`, la imagen se devuelve con `&qlt=` tal como se definió. De lo contrario, `&qlt=` se reducirá gradualmente hasta que la imagen se ajuste al tamaño máximo permitido. O bien, hasta que el sistema determine que no cabe y devuelva un error.
 
-Como práctica recomendada, establezca `&jpegSize=` y añada el parámetro `&qlt=` si ofrece imágenes JPG a dispositivos con memoria limitada.
+JPG Como práctica recomendada, establezca `&jpegSize=` y agregue el parámetro `&qlt=` si va a enviar imágenes de calidad superior a dispositivos con memoria limitada.
 
 ## Resumen de prácticas recomendadas {#best-practices-summary}
 

@@ -32,6 +32,6 @@ Después de realizar un cambio en el cliente de origen, todos los clientes del m
 
 Cuando inició sesión, se le pidió que permitiera o denegara las actualizaciones de iguales. Puede especificar que se &quot;recuerde&quot; la selección para que solo se le pregunte una vez. Para borrar la opción elegida, elimine el sitio oportuno del panel Redes asistidas por pares de Configuración global.
 
-Si estaba editando un recurso modificado por un compañero, se le pedirá que introduzca el cambio en el generador o editor. Si elige **[!UICONTROL Sí]**, el generador o editor descarta los cambios realizados en el recurso e importa el recurso actualizado. Si elige **[!UICONTROL No]** Sin embargo, el recurso no se modifica en el generador o editor y cualquier cambio que haya realizado persistirá en esa sesión.
+Si estaba editando un recurso modificado por un compañero, se le pedirá que introduzca el cambio en el generador o editor. Si elige **[!UICONTROL Sí]**, el generador o editor descartará los cambios realizados en el recurso e importará el recurso actualizado. Si elige **[!UICONTROL No]**, el recurso no cambiará en el generador o editor y cualquier cambio que haya realizado persistirá en esa sesión.
 
 Cuando guardó el recurso, se le notificó que existe una versión más reciente y se le preguntó si desea sobrescribir el recurso con sus cambios.

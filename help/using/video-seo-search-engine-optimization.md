@@ -23,9 +23,9 @@ La optimización para motores de búsqueda de vídeos es el proceso que consiste
 
 Con Adobe Dynamic Media Classic Video SEO, puede aplicar metadatos de vídeo para proporcionar a los motores de búsqueda descripciones de sus vídeos. Adobe Dynamic Media Classic le permite crear mapas del sitio de vídeo y fuentes mRSS. Estos archivos XML estándar se utilizan para enviar información de vídeo a los motores de búsqueda:
 
-* **Mapa de vídeos**: informa a Google exactamente dónde y qué contenido de vídeo hay en un sitio. Por lo tanto, los vídeos se pueden buscar completamente en Google. Por ejemplo, un mapa de vídeos puede especificar el tiempo de reproducción y las categorías de los vídeos. Para obtener información sobre los mapas del sitio de vídeo, consulte [Mapas del sitio de vídeo y alternativas de mapas del sitio de vídeo](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
+* **Mapa de vídeos**: informa a Google exactamente dónde y qué contenido de vídeo hay en un sitio. Por lo tanto, los vídeos se pueden buscar completamente en Google. Por ejemplo, un mapa de vídeos puede especificar el tiempo de reproducción y las categorías de los vídeos. Para obtener información sobre los mapas del sitio de vídeo, consulte [Mapas del sitio de vídeo y alternativas para los mapas del sitio de vídeo](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
 
-* **Fuente mRSS (Media Really Simple Syndication)**: Utilizado por los editores de contenido para alimentar archivos multimedia en Yahoo! búsqueda de vídeos de Yahoo!. Para obtener información acerca de las fuentes mRSS, consulte [Mapas del sitio de vídeo y alternativas de mapas del sitio de vídeo](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
+* Fuente **mRSS (Media Really Simple Syndication)**: Utilizada por los editores de contenido para enviar archivos multimedia a Yahoo! búsqueda de vídeos de Yahoo!. Para obtener información sobre las fuentes mRSS, consulte [Mapas del sitio de vídeo y alternativas de mapas del sitio de vídeo](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
 
 >[!NOTE]
 >
@@ -45,35 +45,35 @@ Adobe Dynamic Media Classic crea informes sobre los mapas del sitio de vídeo y 
 
 ## Elija la configuración de SEO de vídeo
 
-Seleccione la configuración de optimización para motores de búsqueda (SEO) de vídeo para mapas de sitio de vídeo y fuentes mRSS en **[!UICONTROL Configuración de optimización del motor de búsqueda de vídeo]** página. Para abrir esta página, en la barra de navegación global, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Vídeo SEO]** > **[!UICONTROL Configuración]**.
+Seleccione la configuración de Video SEO para los mapas del sitio de vídeo y las fuentes mRSS en la página **[!UICONTROL Configuración de optimización del motor de búsqueda de vídeo]**. Para abrir esta página, en la barra de navegación global, ve a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de aplicación]** > **[!UICONTROL SEO de vídeo]** > **[!UICONTROL Configuración]**.
 
-En el **[!UICONTROL Configuración general]** , elija si desea generar mapas del sitio de vídeo, fuentes mRSS o ambos. En el **[!UICONTROL Configuración de generación]** , asigne campos de metadatos a campos de entrada.
+En el área **[!UICONTROL Configuración general]**, elija si desea generar mapas del sitio de vídeo, fuentes mRSS o ambos. En el área **[!UICONTROL Configuración de generación]**, asigne campos de metadatos a campos de entrada.
 
-Después de elegir la configuración, seleccione **[!UICONTROL Guardar]** (o **[!UICONTROL Guardar y generar]**) para crear el mapa de vídeos, fuentes mRSS o ambos.
+Después de elegir la configuración, selecciona **[!UICONTROL Guardar]** (o **[!UICONTROL Guardar y generar]**) para crear el mapa de vídeos, las fuentes mRSS o ambos.
 
 ### Configurar la configuración general {#choosing-general-settings}
 
-En el **[!UICONTROL Modo de generación]** , elija un modo de informe:
+En la lista desplegable **[!UICONTROL Modo de generación]**, elija un modo de informe:
 
-* **Mapa de vídeos**: Cree un mapa de vídeos.
+* **Mapa de vídeos**: crea un mapa de vídeos.
 
-* **Fuente mRSS**: cree una fuente RSS de medios (mRSS).
+* **Fuente mRSS**: Cree una fuente RSS de medios (mRSS).
 
 * **Ambos**: cree ambos tipos de archivos XML.
 
-* **Desactivado**: para dejar de generar mapas del sitio de vídeo y fuentes RSS de medios (mRSS), elija esta opción.
+* **Desactivado**: Para dejar de generar mapas de sitios de vídeo y fuentes RSS de medios (mRSS), elija esta opción.
 
-En el **[!UICONTROL Modo automático/manual]** , elija si desea generar de forma automática o manual:
+En la lista desplegable **[!UICONTROL Modo automático/manual]**, elija si desea generar de forma automática o manual:
 
-* **Modo automático**: Adobe Dynamic Media Classic genera automáticamente un mapa de vídeos, una fuente RSS de medios (mRSS) o ambas cada día. Seleccione el **[!UICONTROL Marcar para publicación]** opción para que pueda marcar automáticamente para publicar el archivo XML que genera Adobe Dynamic Media Classic.
+* **Modo automático**: Adobe Dynamic Media Classic genera automáticamente un mapa de vídeos, una fuente RSS de medios (mRSS) o ambas cosas cada día. Seleccione la opción **[!UICONTROL Marcar para Publish]** para que pueda marcar automáticamente para publicar el archivo XML que genera Adobe Dynamic Media Classic.
 
-   * **Marcar para publicación** Marcas para publicar el archivo XML generado.
+   * **Marcar para Publish** Marcas para publicar el archivo XML generado.
 
-* **Modo manual**: Adobe Dynamic Media Classic genera el mapa de vídeos, la fuente RSS de medios (mRSS) o ambos al seleccionar **[!UICONTROL Generar]** o **[!UICONTROL Guardar y generar]** en la pantalla Configuración de optimización de búsqueda de vídeo. Elija también estas opciones:
+* **Modo manual**: Adobe Dynamic Media Classic genera el mapa de vídeos, la fuente RSS de medios (mRSS) o ambos al seleccionar **[!UICONTROL Generar]** o **[!UICONTROL Guardar y generar]** en la pantalla Configuración de optimización de búsqueda de vídeos. Elija también estas opciones:
 
-   * **No hay más configuraciones**: No marca para publicar el archivo XML generado.
+   * **Sin más configuración**: no marca para publicar el archivo XML generado.
 
-   * **Marcar para publicación**: Marcas para publicar el archivo XML generado.
+   * **Marcar para Publish**: marcas para publicar el archivo XML generado.
 
    * **Permitir generación parcial**: los motores de búsqueda pueden rechazar un archivo XML si no contiene información de metadatos completa para todos los vídeos. Esta opción genera el archivo XML incluso si los metadatos no están disponibles para algunos vídeos. Se registra un aviso en la pantalla del informe. Elija esta opción si pretende exportar el archivo XML y procesar la información que falta manualmente.
 
@@ -98,7 +98,7 @@ Consulte [Vistas de metadatos](application-setup.md#metadata_views).
 
 >[!NOTE]
 >
->Publique el mapa de vídeos o la fuente mRSS antes de enviarla a los motores de búsqueda. Los archivos de mapas de vídeos y de recursos mRSS se almacenan en la carpeta raíz de la empresa. Si es necesario, marque estos archivos XML para la publicación y seleccione **[!UICONTROL Publish]**.
+>Publish el mapa de vídeos o la fuente mRSS antes de enviarlo a los motores de búsqueda. Los archivos de mapas de vídeos y de recursos mRSS se almacenan en la carpeta raíz de la empresa. Marque estos archivos XML para publicarlos, si es necesario, y seleccione **[!UICONTROL Publish]**.
 
 ## Envíe archivos de mapa de vídeos y de fuente mRSS a un motor de búsqueda {#submitting-video-sitemap-and-mrss-feed-files-to-search-engines}
 
@@ -111,6 +111,6 @@ Copie una de estas URL en las herramientas de webmaster del motor de búsqueda p
 
 ## Ver informes de optimización para motores de búsqueda {#viewing-video-seo-reports}
 
-Vea los informes de Video SEO en la página Informe de optimización del motor de búsqueda de vídeo. Para abrir esta página, en la barra de navegación global, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes de aplicación]** > **[!UICONTROL Vídeo SEO]** > **[!UICONTROL Informes]**.
+Vea los informes de Video SEO en la página Informe de optimización del motor de búsqueda de vídeo. Para abrir esta página, en la barra de navegación global, ve a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de aplicación]** > **[!UICONTROL Video SEO]** > **[!UICONTROL Informes]**.
 
 Si se produjeron errores cuando se generó un informe, aparecen en la página Informe.

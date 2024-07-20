@@ -30,7 +30,7 @@ Para poder cargar un recurso de imagen, primero debe solicitar una clave secreta
 
 ## Solicitar una clave de secreto compartido {#requesting-a-shared-secret-key}
 
-Solicite un *clave de secreto compartido* por [uso del Admin Console para crear un caso de asistencia.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) En el caso del soporte técnico, solicite una clave de secreto compartido.
+Solicite una clave de secreto compartido *shared-secret* de [usando el Admin Console para crear un caso de asistencia.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) En el caso de soporte técnico, solicite una clave de secreto compartido.
 
 En el mensaje, proporcione el nombre de empresa que desee utilizar para cargar los recursos de imagen. Una vez que reciba la clave de Adobe Dynamic Media Classic, guárdela localmente para usarla en el futuro.
 
@@ -46,7 +46,7 @@ El distintivo de carga es una cadena alfanumérica que solo se encuentra disponi
 <!-- * Vector
   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` -->
 
-De manera predeterminada, el distintivo de carga caduca en 5 minutos (300 segundos) después de recuperarlo. Para solicitar más tiempo, incluya `expires` en la dirección URL y el tiempo necesario en segundos. Por ejemplo, esta URL de imagen de ejemplo recupera un distintivo de carga válido durante 1.800 segundos:
+De manera predeterminada, el distintivo de carga caduca en 5 minutos (300 segundos) después de recuperarlo. Para solicitar más tiempo, incluya `expires` en la dirección URL y el tiempo que necesite en segundos. Por ejemplo, esta URL de imagen de ejemplo recupera un distintivo de carga válido durante 1.800 segundos:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=1800
@@ -83,7 +83,7 @@ Se pueden usar los campos siguientes en la cadena de consulta URL para recuperar
 | shared_secret | Obligatorio | La clave de secreto compartido de la empresa que realiza la carga. |
 | caduca | Opcional | Número de segundos durante los que es válido el distintivo de carga. El valor predeterminado es 300 segundos, si no se especifica. |
 
-**URL de imagen rasterizada de ejemplo:**
+**URL de imagen de trama de muestra:**
 
 `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=600`
 
@@ -106,9 +106,9 @@ Después de recuperar un distintivo de carga válido durante un tiempo determina
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company
 ```
 
-El `upload_token` y `company_name` son obligatorios.
+Los campos `upload_token` y `company_name` son obligatorios.
 
-Consulte [Recuperación del token de carga](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
+Consulte [Recuperar el token de carga](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
 Consulte [Recuperar una clave de secreto compartido](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
 
@@ -118,14 +118,14 @@ También se pueden enviar otros valores opcionales en forma de cadenas de consul
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-El `file_limit` especifica el límite de tamaño de archivo en bytes. El `file_exts` parámetro especifica las extensiones de nombre de archivo permitidas para la carga. Ambos valores son opcionales.
+El parámetro `file_limit` especifica el límite de tamaño de archivo en bytes. El parámetro `file_exts` especifica las extensiones de nombre de archivo que se permiten para la carga. Ambos valores son opcionales.
 
 En la aplicación se definen límites globales tanto para el límite de tamaño de los archivos como para las extensiones de nombre de archivo permitidas. Si lo que ha enviado en la solicitud es un subconjunto de los límites globales, se cumple. Éstos son los límites globales:
 
 | Límite global | Valor |
 | --- | --- |
 | Tamaño de archivo para todos los clientes | 20 MB |
-| Formatos de archivo de imagen admitidos para la carga | BMP, GIF, JPG, PNG, PSD, TIFF |
+| Formatos de archivo de imagen admitidos para la carga | BMP, GIF JPG,, PNG, PSD, TIFF |
 
 El siguiente formulario HTML permite al usuario cargar un recurso. En el formulario se pide al usuario que introduzca la información siguiente:
 
@@ -138,11 +138,11 @@ El siguiente formulario HTML permite al usuario cargar un recurso. En el formula
 Consulte Fondo de cobertura en [Opciones de ajuste de imagen al cargar](image-editing-options-upload.md#image-editing-options-at-upload).
 * Nombre del archivo que se va a cargar.
 
-Puede ver el código fuente del HTML asociado al formulario anterior seleccionando [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
+Puede ver el código fuente del HTML asociado con el formulario anterior seleccionando [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-En Firefox, haga clic con el botón derecho en la ventana del explorador y seleccione **[!UICONTROL Ver origen de página]**. El código muestra la cadena de consulta URL correspondiente y el método POST que se ejecuta cuando el usuario selecciona **[!UICONTROL Enviar]**.
+En Firefox, haga clic con el botón derecho en la ventana del explorador y seleccione **[!UICONTROL Ver página Source]**. El código muestra la cadena de consulta de URL correspondiente y el método de POST que se ejecuta cuando el usuario selecciona **[!UICONTROL Enviar]**.
 
-Para ver la respuesta XML en Internet Explorer, vaya a **[!UICONTROL Ver]** > **[!UICONTROL Origen]**. Para ver la respuesta XML en Firefox, vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Herramientas del explorador]** > **[!UICONTROL Herramientas para desarrolladores web]**. Se recomienda utilizar Firefox para ver las respuestas en XML.
+Para ver la respuesta XML en Internet Explorer, ve a **[!UICONTROL Ver]** > **[!UICONTROL Source]**. Para ver la respuesta XML en Firefox, ve a **[!UICONTROL Herramientas]** > **[!UICONTROL Herramientas de navegador]** > **[!UICONTROL Herramientas para desarrolladores web]**. Se recomienda utilizar Firefox para ver las respuestas en XML.
 
 A continuación se muestra una respuesta de carga correcta de ejemplo:
 
@@ -202,7 +202,7 @@ POST
 
 ### Obtener metadatos de recursos para imágenes {#getting-asset-metadata-for-images}
 
-Puede utilizar `image_info` para recuperar los metadatos de un recurso cargado, como se muestra en el siguiente ejemplo:
+Puede usar `image_info` para recuperar metadatos de un recurso que haya cargado, como se muestra en el siguiente ejemplo:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif

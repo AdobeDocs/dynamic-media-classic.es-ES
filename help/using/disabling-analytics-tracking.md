@@ -24,4 +24,4 @@ ht-degree: 3%
 1. Desactive todos los eventos en la página Configuración de Adobe Analytics en Adobe Dynamic Media Classic.
 1. Guarde y publique.
 
-Estos pasos desactivan la compatibilidad con Adobe Dynamic Media Classic y con las direcciones URL obtenidas del **[!UICONTROL CopyURL]** función. Si implementa un seguimiento personalizado, deshabilite el seguimiento de Adobe Analytics como se ha configurado en la página Configuración para evitar conflictos con la implementación personalizada.
+Estos pasos desactivan la compatibilidad con Adobe Dynamic Media Classic y con las direcciones URL obtenidas de la función **[!UICONTROL CopyURL]**. Si implementa un seguimiento personalizado, deshabilite el seguimiento de Adobe Analytics como se ha configurado en la página Configuración para evitar conflictos con la implementación personalizada.

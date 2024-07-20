@@ -25,5 +25,5 @@ Si desea que los destinos de zoom y los mapas de imagen estén disponibles para 
 
 >[!MORELIKETHIS]
 >
->* [Creación de destinos de zoom para el zoom guiado](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom)
+>* [Crear destinos de zoom para el zoom guiado](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom)
 >* [Crear mapas de imagen](creating-image-maps.md#creating_image_maps)

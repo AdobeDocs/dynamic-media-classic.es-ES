@@ -25,22 +25,22 @@ Si exporta recursos de imagen mediante una conversión definida por el usuario o
 * El archivo ZIP comprimido de exportación tiene un tamaño máximo de 1 GB para el trabajo de exportación.
 * Puede tener un máximo de 500 recursos en total por trabajo de exportación.
 
-Consulte también [Exportación de recursos desde Adobe Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from_dmc).
+Consulte también [Exportar recursos desde Adobe Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from_dmc).
 
 **Para especificar las opciones de exportación disponibles para los usuarios de Media Portal:**
 
-1. En la barra de navegación global, vaya a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes preestablecidos de imagen]**.
+1. En la barra de navegación global, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Ajustes preestablecidos de imagen]**.
 1. En la ventana Ajustes preestablecidos de imagen, seleccione una de las siguientes opciones:
 
-   * **Habilitar conversión definida por el usuario**: cuando se selecciona, esta opción permite a los usuarios elegir otras opciones del **[!UICONTROL Tamaño]** en la ventana Exportar recursos seleccionados. Los usuarios pueden elegir una unidad de medida, como píxeles o centímetros, y especificar la anchura y la altura deseadas. Al exportar o descargar estos archivos, se cambia el formato de los archivos de imagen.
+   * **Habilitar conversión definida por el usuario**: cuando se selecciona, esta opción permite a los usuarios elegir otras opciones de la lista desplegable **[!UICONTROL Tamaño]** en la ventana Exportar Assets seleccionado. Los usuarios pueden elegir una unidad de medida, como píxeles o centímetros, y especificar la anchura y la altura deseadas. Al exportar o descargar estos archivos, se cambia el formato de los archivos de imagen.
 
-     Cuándo **[!UICONTROL píxeles]** se eligen de la **[!UICONTROL Tamaño]** , la anchura × altura de la imagen resultante no puede superar los 100 millones de píxeles. Este tamaño equivale a 10.000 × 10.000 píxeles para una imagen cuadrada, o aproximadamente 8.000 × 12.000 píxeles para una imagen con una relación de aspecto 2x3. Esta limitación de tamaño no se aplica si exporta imágenes principales originales.
+     Si se eligen **[!UICONTROL píxeles]** de la lista desplegable **[!UICONTROL Tamaño]**, el ancho × alto de la imagen resultante no puede superar los 100 millones de píxeles. Este tamaño equivale a 10.000 × 10.000 píxeles para una imagen cuadrada, o aproximadamente 8.000 × 12.000 píxeles para una imagen con una relación de aspecto 2x3. Esta limitación de tamaño no se aplica si exporta imágenes principales originales.
 
      Anule la selección de esta opción para que los usuarios descarguen los archivos sin volver a aplicarles formato a medida que se descargan.
 
-   * **Habilitar la exportación del original**: permite exportar imágenes principales originales. En el **[!UICONTROL Exportar recursos seleccionados]** , los usuarios pueden abrir el panel **[!UICONTROL Conversión]** menú desplegable y elija **[!UICONTROL Exportar original]** para exportar archivos originales. Anule la selección de esta opción si desea obligar a los usuarios a seleccionar un ajuste preestablecido de imagen o sus propias opciones de conversión al exportar imágenes.
+   * **Habilitar la exportación del original**: permite exportar las imágenes principales originales. En el panel **[!UICONTROL Exportar Assets seleccionado]**, los usuarios pueden abrir el menú desplegable **[!UICONTROL Conversión]** y elegir **[!UICONTROL Exportar original]** para exportar los archivos originales. Anule la selección de esta opción si desea obligar a los usuarios a seleccionar un ajuste preestablecido de imagen o sus propias opciones de conversión al exportar imágenes.
 
 >[!MORELIKETHIS]
 >
 >* [Ajustes preestablecidos de imagen](application-setup.md#image_presets)
->* [Elija permisos de acceso a ajustes preestablecidos de imagen para un grupo](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
+>* [Elegir permisos de acceso a ajustes preestablecidos de imagen para un grupo](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)

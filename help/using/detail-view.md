@@ -32,7 +32,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
  -->
 
 ![Vista de detalles](/help/using/assets/image_0.img.png)
-*Vista de detalles con el panel Biblioteca de recursos oculto de la vista en el lado izquierdo.*
+*Vista de detalles con el panel Biblioteca de recursos oculto en la vista del lado izquierdo.*
 
 >[!NOTE]
 >
@@ -44,13 +44,13 @@ Puede mostrar un recurso en la Vista de detalles para que pueda examinarlo, prev
 
 1. En el panel Examinar, realice una de las acciones siguientes:
 
-   * Seleccione el recurso. Cerca de la esquina superior derecha de Adobe Dynamic Media Classic, seleccione la opción **[!UICONTROL Vista de detalles]** icono.
+   * Seleccione el recurso. Cerca de la esquina superior derecha de Adobe Dynamic Media Classic, seleccione el icono **[!UICONTROL Vista de detalles]**.
    * Haga doble clic en el recurso.
-   * Seleccione el recurso y vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Detalles]**.
+   * Seleccione el recurso y, a continuación, vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Detalles]**.
 
 >[!NOTE]
 >
->Puede pasar de un recurso a otro en la misma carpeta en la Vista de detalles. Solo haga clic en **[!UICONTROL Recurso anterior]** o **[!UICONTROL Siguiente recurso]**. Estos botones se encuentran en la esquina superior derecha de la Vista de detalles.
+>Puede pasar de un recurso a otro en la misma carpeta en la Vista de detalles. Simplemente haga clic en **[!UICONTROL Recurso anterior]** o en **[!UICONTROL Recurso siguiente]**. Estos botones se encuentran en la esquina superior derecha de la Vista de detalles.
 
 ## Obtener información en la Vista de detalles {#getting-information-in-detail-view}
 
@@ -62,13 +62,13 @@ Puede obtener una URL de recurso en la Vista de detalles; sin embargo, la URL no
 
 La Vista de detalles ofrece herramientas para trabajar con el recurso que ha abierto. Las herramientas disponibles dependen del tipo de recurso con el que trabaje, pero la Vista de detalles siempre ofrece estas funciones:
 
-* **elementos para publicar**: seleccione la **[!UICONTROL `Publish`]** a la izquierda del nombre o vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Publish]** o **[!UICONTROL Archivo]** > **[!UICONTROL Cancelar publicación]**.
+* **elementos para la publicación**: seleccione el icono **[!UICONTROL `Publish`]** a la izquierda del nombre o vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Publish]** o **[!UICONTROL Archivo]** > **[!UICONTROL Cancelar la publicación]**.
 
 * **Cambiar el nombre del recurso**: seleccione el nombre e introduzca uno nuevo.
 
-* **Edición y adición de metadatos**: seleccione el panel Metadatos y cámbielo como desee. Consulte [Visualización, adición y exportación de metadatos](/help/using/viewing-adding-exporting-metadata.md).
+* **Editar y agregar metadatos**: seleccione el panel Metadatos y cámbielo como desee. Ver [Ver, agregar y exportar metadatos](/help/using/viewing-adding-exporting-metadata.md).
 
-* **Editar y añadir palabras clave**: seleccione Palabras clave y añádalas o quítelas según desee. Consulte [Adición o edición de palabras clave](/help/using/viewing-adding-exporting-metadata.md).
+* **Editar y agregar palabras clave**: seleccione Palabras clave y agréguelas o quítelas como desee. Consulte [Adición o edición de palabras clave](/help/using/viewing-adding-exporting-metadata.md).
 
 * **Eliminar el recurso**: Vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Eliminar]**.
 
@@ -78,7 +78,7 @@ Esta tabla muestra qué otras opciones están disponibles con diferentes tipos d
 
 | Tipo de recurso | Edición/Ajustes | Vista previa |
 | --- | --- | --- |
-| Imágenes | Añadir mapas de imagen<br>Añadir destinos de zoom<br>Recorte<br>Enfoque<br>Creación de vistas ajustadas | Sí; ajustes preestablecidos de zoom e imagen |
+| Imágenes | Agregar mapas de imagen<br>Agregar destinos de zoom<br>Recortar<br>Enfoque<br>Crear vistas ajustadas | Sí; ajustes preestablecidos de zoom e imagen |
 | Imágenes de cobertura de ventana y armario | No | Miniatura |
 | Catálogos electrónicos | Editar | Sí<br>El panel de información también está disponible |
 | Fuentes | Editar información de fuente | No |
@@ -99,4 +99,4 @@ Esta tabla muestra qué otras opciones están disponibles con diferentes tipos d
 
 >[!MORELIKETHIS]
 >
->* [Visualización, adición y exportación de metadatos](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
+>* [Ver, agregar y exportar metadatos](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)

@@ -31,13 +31,13 @@ Puede crear sus propios ajustes preestablecidos de imagen si es administrador de
 
 **Para crear un ajuste preestablecido de imagen:**
 
-1. Ir a **[!UICONTROL Configurar]** > **[!UICONTROL Ajustes preestablecidos de imagen]**.
+1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Ajustes preestablecidos de imagen]**.
 
    Puede buscar el nombre de uno de ellos aquí para obtener una vista previa. Al seleccionar el nombre de un ajuste preestablecido, cambia el tamaño y el aspecto de la imagen de muestra en la ventana Vista previa.
 
 1. Realice una de las siguientes acciones:
 
-   * **Crear un ajuste preestablecido de imagen**: Seleccionar **[!UICONTROL Añadir]**.
+   * **Crear un ajuste preestablecido de imagen**: seleccione **[!UICONTROL Agregar]**.
    * **Editar un ajuste preestablecido de imagen**: busque el ajuste preestablecido de imagen que se parezca más al que desea crear y, a continuación, seleccione **[!UICONTROL Editar]**.
 
 1. Asigne un nombre al ajuste.
@@ -46,11 +46,11 @@ Puede crear sus propios ajustes preestablecidos de imagen si es administrador de
 
    Adobe Dynamic Media Classic recomienda estas opciones de &quot;práctica recomendada&quot; para comenzar:
 
-   * **[!UICONTROL Formato]**: elija un JPEG u otro formato que cumpla sus necesidades. Todos los navegadores web admiten el formato de imagen JPEG; ofrece un buen equilibrio entre los tamaños de archivo pequeños y la calidad de imagen. Sin embargo, las imágenes JPEG utilizan un esquema de compresión con pérdidas que puede producir artefactos de imagen no deseados si el ajuste de compresión es demasiado bajo. Por este motivo, Adobe Dynamic Media Classic recomienda establecer la calidad de compresión (en el control deslizante) en 75. Este valor ofrece un buen equilibrio entre la calidad de imagen y el tamaño de archivo pequeño.
+   * **[!UICONTROL Formato]**: Elija un JPEG u otro formato que cumpla sus necesidades. Todos los navegadores web admiten el formato de imagen JPEG; ofrece un buen equilibrio entre los tamaños de archivo pequeños y la calidad de imagen. Sin embargo, las imágenes JPEG utilizan un esquema de compresión con pérdidas que puede producir artefactos de imagen no deseados si el ajuste de compresión es demasiado bajo. Por este motivo, Adobe Dynamic Media Classic recomienda establecer la calidad de compresión (en el control deslizante) en 75. Este valor ofrece un buen equilibrio entre la calidad de imagen y el tamaño de archivo pequeño.
 
-   * **[!UICONTROL Enfoque]**: No seleccione Enfoque (este filtro de enfoque ofrece menos control que **[!UICONTROL Máscara de enfoque]** configuración).
+   * **[!UICONTROL Enfoque]**: No seleccione Enfoque (este filtro de enfoque ofrece menos control que la configuración de **[!UICONTROL Máscara de enfoque]**).
 
-   * **[!UICONTROL Modo de remuestreo]**: elija **[!UICONTROL Bicúbico]**.
+   * **[!UICONTROL Modo de remuestreo]**: Elija **[!UICONTROL Bicúbico]**.
 
    * **[!UICONTROL Máscara de enfoque]** (USM): introduzca la siguiente configuración:
 
@@ -61,15 +61,15 @@ Puede crear sus propios ajustes preestablecidos de imagen si es administrador de
    | Principal | 350 × 350 | 1 | 1 | 6 |
    | Ampliación | 500 × 500 | 1,2 | 1,2 | 5 |
 
-1. Seleccionar **[!UICONTROL Guardar]**.
+1. Seleccione **[!UICONTROL Guardar]**.
 
 Las opciones de &quot;práctica recomendada&quot; de Adobe Dynamic Media Classic para crear ajustes preestablecidos de imagen que se enumeran a continuación son recomendaciones generales; el enfoque es muy subjetivo. Esta configuración de &quot;prácticas recomendadas&quot; se basó en una imagen principal de 2000 × 2000; la configuración de los archivos principales más grandes o más pequeños puede ser diferente. Si desea ajustar la configuración de la máscara de enfoque, Adobe Dynamic Media Classic recomienda estos intervalos:
 
-* **[!UICONTROL Cantidad]**: entre `.8` y `1.5`.
+* **[!UICONTROL Importe]**: entre `.8` y `1.5`.
 
-* **[!UICONTROL Radio]**: entre `.6` y `2`.
+* **[!UICONTROL Radio]**: Entre `.6` y `2`.
 
-* **[!UICONTROL Umbral]**: desde `1` mediante `6`.
+* **[!UICONTROL Umbral]**: Desde `1` hasta `6`.
 
 Para eliminar un ajuste preestablecido de imagen, selecciónelo en la pantalla Ajustes preestablecidos de imagen y, a continuación, seleccione **[!UICONTROL Eliminar]**.
 

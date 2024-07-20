@@ -34,16 +34,16 @@ Puede seleccionar una de las tres plantillas de respuesta preestablecidas para m
 
 >[!NOTE]
 >
->También puede configurar una plantilla de respuesta en Ajustes preestablecidos de visor. Para utilizar la plantilla de respuesta en el ajuste preestablecido de visor, agregue. `fmt=1` al final de la URL de servidor de información en el ajuste preestablecido de visor.
+>También puede configurar una plantilla de respuesta en Ajustes preestablecidos de visor. Para usar la plantilla de respuesta en el ajuste preestablecido de visor, agregue `fmt=1` al final de la URL de servidor de información en el ajuste preestablecido de visor.
 >
 >Consulte [Configurar ajustes preestablecidos del visor de catálogos electrónicos](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets).
 
 1. Haga doble clic en el catálogo electrónico para que se abra en la Vista de detalles.
-1. Seleccione el **[!UICONTROL Configuración de InfoPanel]** panel.
+1. Seleccione el panel **[!UICONTROL Configuración de InfoPanel]**.
 1. Seleccione una plantilla de respuesta:
 
    * Seleccione un ajuste preestablecido en el menú de la plantilla de respuesta. El XML para el diseño de la plantilla aparece en el cuadro de plantilla de usuario.
-   * Para crear su propia plantilla de respuesta, seleccione **[!UICONTROL Personalizado]**. Escriba la definición de la plantilla XML en el cuadro de plantilla de usuario. Puede usar una plantilla preestablecida como base para la suya propia. 
+   * Para crear tu propia plantilla de respuesta, selecciona **[!UICONTROL Personalizado]**. Escriba la definición de la plantilla XML en el cuadro de plantilla de usuario. Puede usar una plantilla preestablecida como base para la suya propia. 
 
 1. (Opcional) En el cuadro Respuesta predeterminada, escriba el texto que desea que aparezca si Adobe Dynamic Media Classic encuentra un error al recuperar información para un mapa de imagen. Por ejemplo, si el sistema recibe un nombre de empresa y un nombre de catálogo electrónico, pero ningún identificador rollover, aparecerá este mensaje para el usuario.
 1. En el cuadro de respuesta TTL, escriba el número de horas que desea esperar antes de almacenar los datos en caché:
@@ -51,7 +51,7 @@ Puede seleccionar una de las tres plantillas de respuesta preestablecidas para m
    * Establezca un número más bajo si los datos se actualizan frecuentemente a lo largo del día.
    * Establezca un número mayor si los datos son relativamente estables y no requieren una actualización frecuente a lo largo del día. El valor predeterminado es de diez horas.
 
-1. Seleccionar **[!UICONTROL Publish]**.
+1. Seleccione **[!UICONTROL Publish]**.
 
 ## Importar contenido de origen para el panel de información en catálogos electrónicos {#import-source-content-for-the-info-panel-in-ecatalogs}
 
@@ -66,10 +66,10 @@ Cuando dé formato al contenido de origen, tenga en cuenta las siguientes pautas
 ### Importación de contenido CSV en catálogos electrónicos desde una ubicación alojada de forma externa {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}
 
 1. Haga doble clic en el catálogo electrónico para que se abra en la Vista de detalles.
-1. Seleccione el **[!UICONTROL Fuente de datos de InfoPanel]** panel.
+1. Seleccione el panel **[!UICONTROL Fuente de datos de InfoPanel]**.
 1. Introduzca la dirección URL para el archivo CSV en el cuadro Ubicación del archivo CSV alojado de forma externa. Puede pegar la URL en este campo o escribirla directamente.
-1. (Opcional) Especifique una hora para actualizar el contenido mediante el menú Programar actualización y seleccione **[!UICONTROL Añadir]**. Puede seleccionar varios tiempos de actualización. Cada tiempo de actualización aparece en el cuadro de tiempos de actualización. (Para quitar una hora, selecciónela y seleccione **[!UICONTROL Eliminar]**.)
-1. (Opcional) Seleccione **[!UICONTROL Ejecutar actualización ahora]** para que pueda actualizar el contenido inmediatamente.
+1. (Opcional) Especifique una hora para actualizar el contenido mediante el menú Programar actualización y seleccione **[!UICONTROL Agregar]**. Puede seleccionar varios tiempos de actualización. Cada tiempo de actualización aparece en el cuadro de tiempos de actualización. (Para quitar una hora, selecciónela y seleccione **[!UICONTROL Eliminar]**).
+1. (Opcional) Seleccione **[!UICONTROL Ejecutar actualización ahora]** para que pueda actualizar inmediatamente el contenido.
 
 ### Importación de un archivo CSV o delimitado por tabuladores {#import-a-tab-delimited-or-csv-file}
 
@@ -84,10 +84,10 @@ Last Modified Date:
  -->
 
 1. Haga doble clic en el catálogo electrónico para que se abra en la Vista de detalles.
-1. Seleccione el **[!UICONTROL Configuración de InfoPanel]** panel.
-1. Seleccionar **[!UICONTROL Cargar contenido de S7Info]**.
-1. Seleccionar **[!UICONTROL Examinar]**, seleccione el archivo TXT, CSV o CSV delimitado por tabuladores que desee utilizar y seleccione **[!UICONTROL Abrir]**.
-1. Seleccionar **[!UICONTROL Cargar]**.
+1. Seleccione el panel **[!UICONTROL Configuración de InfoPanel]**.
+1. Seleccione **[!UICONTROL Cargar contenido de S7Info]**.
+1. Seleccione **[!UICONTROL Examinar]**, seleccione el archivo TXT, CSV o SSV delimitado por tabuladores que desee usar y seleccione **[!UICONTROL Abrir]**.
+1. Seleccione **[!UICONTROL Cargar]**.
 
 Adobe Dynamic Media Classic le envía un mensaje de correo electrónico para saber si la carga se ha realizado correctamente o no.
 
@@ -95,8 +95,8 @@ Adobe Dynamic Media Classic le envía un mensaje de correo electrónico para sab
 
 Mediante la pantalla Páginas de mapa, puede ver de forma fácil y rápida el texto del panel de información para los mapas de imágenes en una página específica de su catálogo electrónico.
 
-1. Seleccione la sustitución del catálogo **[!UICONTROL Editar]** botón.
-1. Seleccionar **[!UICONTROL Páginas de mapa]**.
+1. Seleccione el botón de rollover **[!UICONTROL Editar]** del catálogo.
+1. Seleccione **[!UICONTROL Páginas de mapa]**.
 1. En la parte superior de la tabla, en el lado derecho de la pantalla, elija **[!UICONTROL Panel de información]** en el menú Mostrar.
 
    El texto de tecla rollover aparece junto a cada mapa de imagen que contiene texto del panel de información.

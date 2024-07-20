@@ -23,7 +23,7 @@ Si desea crear un conjunto de giros eficaz, asegúrese de tomar las imágenes co
 
 >[!NOTE]
 >
->Las versiones anteriores de Adobe Dynamic Media Classic no ofrecían conjuntos de giros bidimensionales. Si creó un conjunto de giros en una versión anterior de Adobe Dynamic Media Classic, guárdelo con un nombre diferente y, a continuación, podrá guardar el conjunto de giros unidimensional. Seleccionar **[!UICONTROL Guardar como]** en la pantalla Conjunto de giros e introduzca un nombre nuevo para poder editarlo en Adobe Dynamic Media Classic.
+>Las versiones anteriores de Adobe Dynamic Media Classic no ofrecían conjuntos de giros bidimensionales. Si creó un conjunto de giros en una versión anterior de Adobe Dynamic Media Classic, guárdelo con un nombre diferente y, a continuación, podrá guardar el conjunto de giros unidimensional. Seleccione **[!UICONTROL Guardar como]** en la pantalla del conjunto de giros e introduzca un nombre nuevo para poder editarlo en Adobe Dynamic Media Classic.
 
 ## Instrucciones para obtener imágenes para conjuntos de giros {#guidelines-for-shooting-spin-set-images}
 
@@ -39,9 +39,9 @@ En general, cuantas más imágenes tenga en un conjunto de giros, mejor será el
 
 El orden en que se crea o crea el conjunto de giros en Adobe Dynamic Media Classic es importante. Según la forma en que ordene los recursos al arrastrar y soltar imágenes en la cuadrícula de la página Conjunto de giros, el conjunto de giros girará en una dirección determinada. Por lo tanto, el orden en el que se muestra visualmente en el generador es el giro del recurso cuando un usuario mueve el puntero del mouse o el dedo, de izquierda a derecha.
 
-Al crear un conjunto, la variable **[!UICONTROL Publicar tras guardar]** afecta a los miembros set y set de las siguientes maneras:
+Cuando crea un conjunto, la opción **[!UICONTROL Publish después de guardar]** afecta a los miembros del conjunto y del conjunto de las siguientes maneras:
 
-| **[!UICONTROL Publicar tras guardar]** opción seleccionada antes de guardar? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
+| **[!UICONTROL Publish después de seleccionar una opción de guardar]** antes de guardar? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
 | --- | --- | --- |
 | Sí | Publicado | Publicado |
 | No | Sin publicar | Los miembros del conjunto conservan su estado publicado o no. |
@@ -54,31 +54,31 @@ Al crear un conjunto de giros, Adobe recomienda la siguiente práctica recomenda
 | --- | --- | --- |
 | Número máximo de filas/columnas por conjunto 2D | 12 a 18 imágenes por conjunto | 1.000 |
 
-Consulte también [Limitaciones de Dynamic Media](/help/using/limitations.md).
+Ver también [limitaciones de Dynamic Media](/help/using/limitations.md).
 
 Después de guardar un conjunto de giros, use la opción Vista previa de la página Generar: Conjunto de giros para comprobar el aspecto del conjunto de giros en el visor predeterminado.
 
 **Para crear un conjunto de giros:**
 
-1. En el **[!UICONTROL Generar]** menú desplegable, seleccione **[!UICONTROL Conjuntos de giros]**.
+1. En el menú desplegable **[!UICONTROL Generar]**, seleccione **[!UICONTROL Conjuntos de giros]**.
 1. En el cuadro de diálogo Tamaño del conjunto de giros, defina el número de filas y celdas que desee.
 
    Para crear un conjunto de giros unidimensional, seleccione solo una fila.
 
    Para crear un conjunto de giros de dos dimensiones, seleccione dos filas o más.
 
-1. Seleccionar **[!UICONTROL OK]**.
+1. Seleccione **[!UICONTROL Aceptar]**.
 1. Arrastre las imágenes y suéltelas en la cuadrícula de la pantalla Conjunto de giros.
-1. Cuando termine, cerca de la esquina inferior derecha de la página, asegúrese de que **Publicar tras guardar** está seleccionado (predeterminado).
-1. Seleccionar **[!UICONTROL Guardar]**.
+1. Cuando termine, cerca de la esquina inferior derecha de la página, asegúrese de seleccionar **Publish después de guardar** (opción predeterminada).
+1. Seleccione **[!UICONTROL Guardar]**.
 1. En el cuadro de diálogo Guardar, seleccione una carpeta para almacenar el conjunto de giros. En el campo Nombre de archivo, introduzca el nombre del conjunto de giros.
-1. Seleccionar **[!UICONTROL Guardar]**.
+1. Seleccione **[!UICONTROL Guardar]**.
 
 ## Edición de un conjunto de giros {#editing-a-spin-set}
 
-Si edita un conjunto publicado o no publicado, la variable **[!UICONTROL Publicar tras guardar]** afecta a los miembros set y set de las siguientes maneras:
+Tanto si edita un conjunto publicado como un conjunto sin publicar, la opción **[!UICONTROL Publish después de guardar]** afecta a los miembros del conjunto y del conjunto de las siguientes maneras:
 
-| ¿Ya se ha publicado el conjunto? | **[!UICONTROL Publicar tras guardar]** opción seleccionada antes de guardar la edición? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
+| ¿Ya se ha publicado el conjunto? | **[!UICONTROL Publish después de seleccionar una opción para guardar]** antes de guardar la edición? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
 | --- | --- | --- | --- |
 | Sí | Sí | Publicado | Publicado |
 | Sí | No | Publicado | Los miembros del conjunto existentes conservan su estado publicado. Cualquier nuevo miembro que añada al conjunto durante la edición conservará su estado publicado o no publicado. |
@@ -89,19 +89,19 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 **Para editar un conjunto de giros:**
 
-1. Selección de la sustitución del conjunto de giros **[!UICONTROL Editar]** botón.
+1. Seleccione el botón de rollover **[!UICONTROL Editar]** del conjunto de giros.
 1. Realice una de las siguientes acciones:
 
-   * **Eliminación de imágenes**: seleccione la imagen y, a continuación, seleccione **[!UICONTROL Eliminar]**.
+   * **Eliminando imágenes**: Seleccione la imagen y, a continuación, seleccione **[!UICONTROL Eliminar]**.
 
-   * **Adición de imágenes**: arrastre la imagen a una celda.
+   * **Agregando imágenes**: arrastre la imagen a una celda.
 
-   * **Reordenación de filas (conjuntos de giros bidimensionales)**: seleccione un cuadro de selector de fila (a la izquierda de la fila) y, a continuación, seleccione **[!UICONTROL Mover fila hacia abajo]** o **[!UICONTROL Mover fila hacia arriba]**.
+   * **Reordenación de filas (conjuntos de giros bidimensionales)**: seleccione un cuadro de selector de fila (a la izquierda de la fila) y, a continuación, seleccione **[!UICONTROL Bajar fila]** o **[!UICONTROL Subir fila]**.
 
-   * **Adición de filas y celdas**: introduzca un número en el cuadro Filas y en el cuadro Celdas para determinar el número de filas y el número de celdas de cada fila.
+   * **Agregar filas y celdas**: Escriba un número en el cuadro Filas y en el cuadro Celdas para determinar el número de filas y el número de celdas de cada fila.
 
-1. Cuando termine de editar, cerca de la esquina inferior derecha de la página, asegúrese de que **[!UICONTROL Publicar tras guardar]** está seleccionado (predeterminado).
-1. Seleccionar **[!UICONTROL Guardar]**, seleccione una carpeta de almacenamiento, introduzca un nombre para el conjunto y, a continuación, seleccione **[!UICONTROL Guardar]**.
+1. Cuando termine de editar, cerca de la esquina inferior derecha de la página, asegúrese de que **[!UICONTROL Publish después de guardar]** esté seleccionado (opción predeterminada).
+1. Seleccione **[!UICONTROL Guardar]**, seleccione una carpeta de almacenamiento, escriba un nombre para el conjunto y, a continuación, seleccione **[!UICONTROL Guardar]**.
 
 ## Eliminación de un conjunto de giros
 
@@ -112,4 +112,4 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 **Para eliminar un conjunto de giros:**
 
 1. En la vista de cuadrícula, la vista de lista o la vista de detalles, seleccione uno o varios conjuntos de giros.
-1. En la barra de navegación global, vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Eliminar]** > **[!UICONTROL Eliminar]**.
+1. En la barra de navegación global, ve a **[!UICONTROL Archivo]** > **[!UICONTROL Eliminar]** > **[!UICONTROL Eliminar]**.

@@ -27,7 +27,7 @@ Al cargar un PDF para la extracción de páginas, el Adobe aplica el siguiente l
 | --- | --- | --- |
 | Número máximo de páginas para que un PDF se considere para la extracción | 5000 (para nuevas cargas) | 100 (para todos los PDF) |
 
-Consulte también [Limitaciones de Dynamic Media](/help/using/limitations.md).
+Ver también [limitaciones de Dynamic Media](/help/using/limitations.md).
 
 ## Opciones de carga de archivos PDF {#pdf-upload-options}
 
@@ -39,11 +39,11 @@ Las opciones para cargar archivos de PDF se encuentran en la página Cargar, en 
 
 **[!UICONTROL Rasterizar]**: (Predeterminado) rasga las páginas del archivo PDF y convierte los gráficos vectoriales en imágenes de mapa de bits. Para crear un catálogo electrónico, elija esta opción.
 
-**[!UICONTROL Extraer palabras de búsqueda]**: extrae palabras del archivo PDF para que se puedan buscar palabras clave en el archivo en un visor de catálogos electrónicos.
+**[!UICONTROL Extraer palabras de búsqueda]**: extrae palabras del archivo del PDF para que las palabras clave del archivo se puedan buscar en un visor de catálogos electrónicos.
 
-**[!UICONTROL Extraer vínculos]**: extrae vínculos de los archivos del PDF y los convierte a mapas de imágenes que se utilizan en un visor de catálogos electrónicos.
+**[!UICONTROL Extraer vínculos]**: extrae vínculos de los archivos del PDF y los convierte en mapas de imágenes que se utilizan en un visor de catálogos electrónicos.
 
-**[!UICONTROL Generación automática de catálogos electrónicos con PDF de varias páginas]**: crea automáticamente un catálogo electrónico a partir del archivo del PDF. El catálogo electrónico recibe el mismo nombre que el archivo PDF cargado. (Esta opción solo está disponible si rasteriza el archivo PDF al cargarlo).
+**[!UICONTROL Generar catálogo electrónico automáticamente con el PDF de varias páginas]**: Crea automáticamente un catálogo electrónico a partir del archivo de PDF. El catálogo electrónico recibe el mismo nombre que el archivo PDF cargado. (Esta opción solo está disponible si rasteriza el archivo PDF al cargarlo).
 
 ### Resolución
 
@@ -53,21 +53,21 @@ Determina el valor de la resolución. Este valor determina cuántos píxeles se 
 
 Seleccione el menú Espacio de color y elija un espacio de color para el archivo PDF. La mayoría de los archivos PDF tienen imágenes de color RGB y CMYK. El espacio de color RGB es preferible para la visualización en línea.
 
-* **[!UICONTROL Detectar automáticamente]**: Conserva el espacio de color del archivo del PDF.
+* **[!UICONTROL Detectar automáticamente]**: conserva el espacio de color del archivo del PDF.
 
-* **[!UICONTROL Forzar como RGB]**: convierte al espacio de color del RGB.
+* **[!UICONTROL Forzar como RGB]**: se convierte al espacio de color del RGB.
 
-* **[!UICONTROL Forzar como CMYK]**: convierte al espacio de color CMYK.
+* **[!UICONTROL Forzar como CMYK]**: se convierte al espacio de color CMYK.
 
-* **[!UICONTROL Forzar como escala de grises]**: convierte al espacio de color de escala de grises.
+* **[!UICONTROL Forzar como escala de grises]**: se convierte al espacio de color de escala de grises.
 
 ### Opciones de perfiles de color
 
 * **[!UICONTROL Convertir a sRGB]**: Convierte a sRGB (azul rojo y verde estándar). sRGB es el espacio de color recomendado para mostrar imágenes en una página Web.
 
-* **[!UICONTROL Mantener el espacio de color original]**: conserva el espacio de color original.
+* **[!UICONTROL Conservar el espacio de color original]**: conserva el espacio de color original.
 
-* **[!UICONTROL Personalizar desde]** > **[!UICONTROL Hasta]**: abre menús para que pueda elegir un espacio de color Convertir de y Convertir a. Puede elegir un espacio de color estándar de Photoshop o un espacio de color que haya cargado en Adobe Dynamic Media Classic.
+* **[!UICONTROL Personalizar desde]** > **[!UICONTROL hasta]**: abre menús para que pueda elegir un espacio de color Convertir desde y Convertir a. Puede elegir un espacio de color estándar de Photoshop o un espacio de color que haya cargado en Adobe Dynamic Media Classic.
 
 Consulte también [Perfiles ICC](/help/using/icc-profiles.md#icc_profiles).
 
@@ -78,17 +78,17 @@ Puede recortar automáticamente los píxeles de espacio en blanco de un archivo 
 1. Seleccione el menú Recortar y elija Recortar.
 1. Especifique las opciones siguientes:
 
-   * **[!UICONTROL Recortar basándose en]**: elija si desea recortar en función del color o la transparencia:
+   * **[!UICONTROL Recortar basándose en]**: elige si recortar basándose en el color o la transparencia:
 
-      * **[!UICONTROL Color]**: elija la opción Color. A continuación, seleccione la **[!UICONTROL Esquina]** y elija la esquina del PDF con el color que mejor represente el color del espacio en blanco que desea recortar.
+      * **[!UICONTROL Color]**: elige la opción Color. A continuación, seleccione el menú **[!UICONTROL Esquina]** y elija la esquina del PDF con el color que mejor represente el color del espacio en blanco que desea recortar.
 
       * **[!UICONTROL Transparencia]**: elija la opción Transparencia.
 
-   * **[!UICONTROL Tolerancia]**: Arrastre el regulador para especificar una tolerancia de 0 a 1.
+   * **[!UICONTROL Tolerancia]**: arrastre el regulador para especificar una tolerancia de 0 a 1.
 
    * **[!UICONTROL Recorte basado en el color]**: especifique 0 para recortar píxeles solo si coinciden exactamente con el color seleccionado en la esquina del PDF. Los números más cercanos a 1 permiten una mayor diferencia de color.
 
-   * **[!UICONTROL Recorte basado en la transparencia]**: especifique 0 para recortar los píxeles solo si son transparentes; los números más cercanos a 1 permiten una mayor transparencia.
+   * **[!UICONTROL Recorte basado en la transparencia]**: especifique 0 para recortar píxeles sólo si son transparentes; los números más cercanos a 1 permiten una mayor transparencia.
 
 ## Recortar desde los lados de las páginas PDF {#cropping-from-the-sides-of-pdf-pages}
 

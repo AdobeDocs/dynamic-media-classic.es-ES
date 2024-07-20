@@ -33,7 +33,7 @@ Una vez cargado un archivo de fuente, puede cambiar su Adobe Dynamic Media Class
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic recomienda cargar todos los estilos de fuente (negrita, cursiva, negrita/cursiva y normal) si planea utilizar fuentes en las capas de plantilla. Adobe Dynamic Media Classic necesita estos estilos de fuente para procesar solicitudes. Cargando todo `PostScript/Adobe Type1` también se recomiendan los archivos asociados a una fuente porque algunas de estas fuentes contienen información detallada sobre el kerning.
+>Adobe Dynamic Media Classic recomienda cargar todos los estilos de fuente (negrita, cursiva, negrita/cursiva y normal) si planea utilizar fuentes en las capas de plantilla. Adobe Dynamic Media Classic necesita estos estilos de fuente para procesar solicitudes. También se recomienda cargar todos los `PostScript/Adobe Type1` archivos asociados con una fuente, ya que algunas de estas fuentes contienen información detallada sobre el kerning.
 
 ## Cargar archivos de fuentes {#uploading-font-files}
 
@@ -47,22 +47,22 @@ En el panel Examinar, seleccione el archivo de fuente que desee editar en Vista 
 
 * **[!UICONTROL Nombre de fuente]**: Este nombre identifica la fuente cuando se publica.
 
-* **[!UICONTROL Nombre de PostScript]**: este nombre es el nombre PostScript completo para la fuente. Suele referirse al grosor o el estilo.
+* **[!UICONTROL Nombre de PostScript]**: Este nombre es el nombre completo de PostScript para la fuente. Suele referirse al grosor o el estilo.
 
 * **[!UICONTROL Nombre RTF]**: Este nombre aparece en un menú emergente del editor RTF donde se crean las capas de texto de la plantilla.
 
-* **[!UICONTROL Nombre de familia de fuentes]**: Este nombre enumera el nombre de la fuente sin el indicador de estilo, peso o tipo de fuente.
+* **[!UICONTROL Nombre de familia de fuentes]**: este nombre muestra el nombre de fuente sin el indicador de estilo, grosor o tipo de fuente.
 
 * **[!UICONTROL Estilo de fuente]**: las opciones son Sin formato, Negrita, Cursiva y Negrita-Cursiva.
 
 * **[!UICONTROL Tipo de fuente]**: las opciones son TrueType y Adobe Type 1. Si utiliza otro nombre para denominar estas fuentes, puede introducirlo.
 
-* **[!UICONTROL Abreviatura de tipo de fuente]**: las opciones son las siguientes:
+* **[!UICONTROL Abreviatura de tipo de fuente]**: Las opciones son las siguientes:
 
-   * **[!UICONTROL TTF]**: archivos de fuente TrueType utilizados para el procesamiento PDF/PostScript y el servicio de imágenes.
+   * **[!UICONTROL TTF]**: Archivos de fuente TrueType utilizados para la representación de PDF/PostScript y el servicio de imágenes.
 
    * **[!UICONTROL AFM]**: archivos de fuentes de Adobe PostScript que contienen información de métricas de fuentes de Adobe y se utilizan para el servicio de imágenes.
 
    * **[!UICONTROL PFM]**: archivos de fuentes de Adobe PostScript que contienen información de métricas de fuentes binarias.
 
-   * **[!UICONTROL PFB]**: archivos de fuentes de Adobe PostScript que contienen información de esquema de fuentes binarias y se utilizan para el procesamiento de PDF/PostScript y el servicio de imágenes.
+   * **[!UICONTROL PFB]**: archivos de fuentes de Adobe PostScript que contienen información de esquema de fuentes binarias y se utilizan para el procesamiento de PDF/PostScript y para el servicio de imágenes.

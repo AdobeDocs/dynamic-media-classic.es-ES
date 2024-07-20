@@ -30,14 +30,14 @@ Puede mover recursos a diferentes carpetas en el panel Examinar.
 1. Seleccione el recurso o los recursos en el panel Examinar y realice una de las siguientes acciones:
 
    * Muestre la carpeta a la que desea mover los recursos en la Biblioteca de recursos y arrastre los recursos a la carpeta.
-   * Ir a **[!UICONTROL Archivo]** > **[!UICONTROL Mover]**, seleccione una carpeta en la ventana Mover recursos y seleccione **[!UICONTROL Mover]**.
+   * Vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Mover]**, seleccione una carpeta en la ventana Mover Assets y seleccione **[!UICONTROL Mover]**.
 
 ## Cambio de nombre de un recurso {#rename-assets}
 
 1. Seleccione el recurso en el panel Examinar y realice una de las siguientes acciones:
 
-   * Seleccione el nombre, escriba un nombre nuevo y pulse **[!UICONTROL Entrar]** o seleccione fuera del nombre.
-   * Ir a **[!UICONTROL Archivo]** > **[!UICONTROL Cambiar nombre]**. Se resaltará el nombre del archivo. Introduzca un nombre nuevo y pulse **[!UICONTROL Entrar]**. Asegúrese de no introducir el nombre de un recurso de Adobe Dynamic Media Classic existente.
+   * Seleccione el nombre, escriba un nombre nuevo y presione **[!UICONTROL Intro]** o seleccione un nombre distinto.
+   * Vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Cambiar nombre]**. Se resaltará el nombre del archivo. Escriba un nombre nuevo y presione **[!UICONTROL Entrar]**. Asegúrese de no introducir el nombre de un recurso de Adobe Dynamic Media Classic existente.
 
 ## Eliminación de recursos {#delete-assets}
 
@@ -55,7 +55,7 @@ los destinos de zoom, los atributos de imagen y las entradas del historial se el
 
 1. Realice una de las siguientes acciones:
 
-   * Para eliminar uno o varios recursos, selecciónelos en el panel Examinar y presione **[!UICONTROL Eliminar]** o vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Eliminar]**.
+   * Para eliminar uno o más recursos, selecciónelos en el panel Examinar y presione **[!UICONTROL Eliminar]** o vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Eliminar]**.
    * Para eliminar una carpeta, selecciónela en la Biblioteca de recursos y seleccione **[!UICONTROL Quitar carpeta]**.
 
      Al eliminar una carpeta, se elimina la carpeta, todos sus recursos y todos los de sus subcarpetas.
@@ -70,14 +70,14 @@ Cree la lista de Adobe Dynamic Media Classic ID y guárdela como un archivo de t
 
 Después de crear la lista, siga estos pasos para eliminar los recursos:
 
-1. Ir a **[!UICONTROL Archivo]** > **[!UICONTROL Eliminar lista de recursos]**.
-1. En el **[!UICONTROL Lista de recursos eliminados]** , escriba la ruta de acceso al archivo de texto con la lista de recursos que desea eliminar.
-1. Seleccionar **[!UICONTROL Eliminar]**.
+1. Vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Eliminar lista de recursos]**.
+1. En el cuadro de diálogo **[!UICONTROL Lista de recursos eliminados]**, escriba la ruta de acceso al archivo de texto con la lista de recursos que desea eliminar.
+1. Seleccione **[!UICONTROL Eliminar]**.
 
 Cuando se eliminan recursos con un archivo de texto, si algún Adobe Dynamic Media Classic ID no está en la lista, se muestra el mensaje &quot;No se pueden validar estas entradas en la lista:&quot;. También se muestra la lista de entradas. Sin embargo, Adobe Dynamic Media Classic no genera un error en la página Trabajo.
 
 >[!MORELIKETHIS]
 >
 >* [Seleccionar recursos en el panel Examinar](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
->* [Preparación de recursos y carpetas para su carga](uploading-files.md#preparing_your_assets_and_folders_for_uploading)
+>* [Prepare sus recursos y carpetas para la carga](uploading-files.md#preparing_your_assets_and_folders_for_uploading)
 >* [Restaurar recursos desde la carpeta Papelera](trash-folder.md#restoring_assets_from_the_trash_folder)

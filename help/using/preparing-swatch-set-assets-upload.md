@@ -28,8 +28,8 @@ Para crear un conjunto de muestras, necesita viñetas o distintas tomas de la mi
 
 Puesto que los usuarios pueden aplicar zoom a las muestras en los conjuntos de imágenes, asegúrese de que las imágenes de mayor dimensión tienen un mínimo de 2000 píxeles. Adobe Dynamic Media Classic admite muchos formatos de archivo de imagen, pero se recomiendan imágenes de TIFF, PNG y EPS sin pérdidas.
 
-Para obtener instrucciones detalladas sobre la carga de recursos, consulte [Cargar archivos](uploading-files.md#uploading_files).
+Para obtener instrucciones detalladas sobre cómo cargar recursos, consulte [Cargar archivos](uploading-files.md#uploading_files).
 
 >[!MORELIKETHIS]
 >
->* [Trabajar con viñetas, revestimientos de ventanas y archivos .cab](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
+>* [Trabajar con viñetas, cubiertas de ventanas y archivos .CAB](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
