@@ -9,9 +9,9 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 1cd516119da23f5ef4c0195273025ddd4b3fa789
 workflow-type: tm+mt
-source-wordcount: '3868'
+source-wordcount: '3858'
 ht-degree: 25%
 
 ---
@@ -26,7 +26,7 @@ Antes de cargar recursos en Adobe Dynamic Media Classic, asegúrese de que tenga
 
 ### Formatos de archivo de recurso admitidos {#supported-asset-file-formats}
 
-En esta tabla se enumeran los formatos de archivo de recursos compatibles con Adobe Dynamic Media Classic. Para obtener información sobre los archivos Camera Raw admitidos, consulte [https://helpx.adobe.com/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/camera-raw/using/supported-cameras.html).
+En esta tabla se enumeran los formatos de archivo de recursos compatibles con Adobe Dynamic Media Classic. Para obtener información acerca de los archivos Camera Raw compatibles, consulte [https://helpx.adobe.com/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/camera-raw/using/supported-cameras.html).
 
 | Formatos de archivo de recurso | Descripción |
 | --- | --- |
@@ -36,7 +36,7 @@ En esta tabla se enumeran los formatos de archivo de recursos compatibles con Ad
 | Fuentes | AFM, OTF, PFB, PFM, PhotoFont, TTC, TTF |
 | FXG | FXG |
 | Illustrator | AI, FXG |
-| Imágenes | BMP, FPX, GIF, JPEG, JPG, , PNG, PICT (solo Windows®), TIF, TIFF |
+| Imágenes | BMP, FPX, GIF, JPEG, JPG, PNG, PICT (solo Windows®), TIF, TIFF |
 | InDesign | INDD, INDT |
 | MS® Office | DOC, PPT, RTF, XLS |
 | PDF | PDF |
@@ -51,18 +51,16 @@ En esta tabla se enumeran los formatos de archivo de recursos compatibles con Ad
 
 La carga de archivos TAR y ZIP incluye una casilla de verificación para seleccionar si desea descomprimir los archivos.
 
-### Formatos de imagen no compatibles en Dynamic Media {#unsupported-image-formats-dynamic-media}
+### Formatos de imagen no admitidos en Dynamic Media {#unsupported-image-formats-dynamic-media}
 
-En la lista siguiente se describen los subtipos de formatos de archivo de imagen rasterizada que *no* son compatibles con Dynamic Media.
-
-Consulte también [Detectar formatos de archivo no compatibles para Dynamic Media](https://helpx.adobe.com/experience-manager/kb/detect-unsupported-assets-for-dynamic-media.html).
+La siguiente lista describe los subtipos de formatos de archivo de imagen rasterizada que *no* son compatibles con Dynamic Media.
 
 * Archivos PNG con un tamaño de fragmento IDAT superior a 100 MB.
 * Archivos PSB.
-* Los archivos de PSD con un espacio de color distinto de CMYK, RGB, escala de grises o mapa de bits no son compatibles. No se admiten los espacios de color DuoTone, Lab e Indexed.
+* Los archivos PSD con un espacio de color distinto de CMYK, RGB, escala de grises o mapa de bits no son compatibles. No se admiten los espacios de color DuoTone, Lab e Indexed.
 * Archivos PSD con una profundidad de bits superior a 16.
-* Archivos de TIFF que tienen datos de punto flotante.
-* Archivos de TIFF con espacio de color Lab.
+* Archivos TIFF que tienen datos de punto flotante.
+* Archivos TIFF que tienen espacio de color Lab.
 
 ### Tipos de recursos {#asset-types}
 
@@ -71,11 +69,11 @@ Para lograr resultados óptimos con el programa Adobe Dynamic Media Classic, ase
 | Tipo de recurso | Descripción/Recomendaciones |
 | --- | --- |
 | Audio | Los formatos de recursos de audio de entrada incluyen AAC, HE-AAC, AC3, WAV, WMA, AIFF y MP3. Puede transcodificar audio a los formatos siguientes: MP3, AAC y HE-AAC. |
-| Imágenes (para cambio de tamaño de imagen, zoom, conjuntos de imágenes, conjuntos de giros) | Las imágenes deben tener al menos 2000 píxeles en el tamaño más largo; los tamaños de imagen típicos oscilan entre 1500 y 2500 píxeles en el tamaño más largo. Se recomiendan los formatos de imagen sin pérdida (incluidos TIFF y PNG). Con imágenes JPEG, use los valores más altos de calidad. Los archivos del GIF de animación se gestionan como cualquier otro contenido estático. |
-| Catálogos electrónicos | Utilice archivos de PDF de alta resolución creados en Adobe Acrobat o una aplicación de Creative Suite de Adobe guardada como &quot;preparada para la prensa&quot;. Los PDF incluyen todas las fuentes, imágenes y máscaras necesarias. Además, incluya todos los elementos gráficos a los que se haga referencia necesarios, ya sea como páginas únicas, pliegos de dos páginas o en un formato de varias páginas. Asigne un nombre alfanumérico a los archivos para ordenar las páginas. Coloque todos los PDF para el catálogo electrónico en una misma carpeta, para facilitar la tarea de carga. Puede seleccionar opciones de recorte para quitar de los archivos marcas de recorte, destinos de registro o barras de color. La mayoría de archivos PDF listos para imprenta utilizan un espacio de color CMYK, por lo que es importante obtener el perfil de color CMYK ICC utilizado con los archivos. |
+| Imágenes (para cambio de tamaño de imagen, zoom, conjuntos de imágenes, conjuntos de giros) | Las imágenes deben tener al menos 2000 píxeles en el tamaño más largo; los tamaños de imagen típicos oscilan entre 1500 y 2500 píxeles en el tamaño más largo. Se recomiendan los formatos de imagen sin pérdida (incluidos TIFF y PNG). Con imágenes JPEG, use los valores más altos de calidad. Los archivos GIF de animación se gestionan como cualquier otro contenido estático. |
+| Catálogos electrónicos | Utilice archivos PDF de alta resolución creados en Adobe Acrobat o una aplicación de Adobe Creative Suite guardada como &quot;lista para imprimir&quot;. Los PDF incluyen todas las fuentes, imágenes y máscaras necesarias. Además, incluya todos los elementos gráficos a los que se haga referencia necesarios, ya sea como páginas únicas, pliegos de dos páginas o en un formato de varias páginas. Asigne un nombre alfanumérico a los archivos para ordenar las páginas. Coloque todos los PDF para el catálogo electrónico en una misma carpeta, para facilitar la tarea de carga. Puede seleccionar opciones de recorte para quitar de los archivos marcas de recorte, destinos de registro o barras de color. La mayoría de archivos PDF listos para imprenta utilizan un espacio de color CMYK, por lo que es importante obtener el perfil de color CMYK ICC utilizado con los archivos. |
 | Plantillas | Las imágenes o los diseños con capas pueden incluir texto, imágenes y capas. Las capas de imagen, las cadenas de texto y los atributos, tales como el color y tamaño, pueden parametrizarse para personalizar los datos variables. Los requisitos de imagen cuando se utilizan plantillas son los mismos que para otros tipos de imagen. Prepare los gráficos en Photoshop u otro programa de edición de imágenes. Guarde cada gráfico como archivo acoplado transparente, en formato TIFF o PNG. Asegúrese de que la resolución de la imagen es apropiada para el uso previsto. Las imágenes para impresión son de 300 ppp. |
 | Vídeos | Adobe Dynamic Media Classic admite archivos de vídeo guardados en formato OGV y MP4. Puede transcodificar archivos al formato MP4 al cargarlos. Consulte [Formatos de archivo de recursos admitidos](#supported-static-file-formats) |
-| Fuentes | TrueType, `Type1` (solo Windows®), OpenType ® fuentes y PhotoFonts cargados. |
+| Fuentes | TrueType, `Type1` (solo Windows®), OpenType® fuentes y PhotoFonts cargados. |
 | Imágenes | Imágenes y archivos de imagen con capas. |
 | Conjuntos de imágenes y conjuntos de muestras | Un conjunto de imágenes se compone de imágenes relacionadas que se pueden mostrar en un visor. |
 | Perfiles ICC | Un perfil de color que puede utilizar para convertir una imagen cargada desde su espacio de color de origen a un espacio de color diferente. |
@@ -84,16 +82,16 @@ Para lograr resultados óptimos con el programa Adobe Dynamic Media Classic, ase
 | Archivos FXG | Archivos con formato gráfico independiente de la resolución que puede utilizar para crear plantillas personalizadas para impresión, web, correo electrónico, escritorio y dispositivos. |
 | Archivos SVG | Archivos gráficos vectoriales escalables que los servidores para servicio de imágenes pueden procesar. |
 | Archivos XML | Archivos que definen reglas de preprocesamiento utilizadas para modificar la ruta y las partes de consulta de las solicitudes. |
-| Archivos de hoja de estilos en cascada | Cargar máscaras CSS para personalizar los visores de HTML5. |
-| Archivos JavaScript | Los archivos JavaScript se utilizan en la instrumentación del visor para guardar información de la cuenta. Adobe Security recomienda este tipo de recurso únicamente para las cuentas de cliente que tengan un dominio independiente en uso para la entrega (para evitar scripts entre sitios). |
+| Archivos de hoja de estilos en cascada | Cargue máscaras CSS para personalizar los visores de HTML5. |
+| Archivos JavaScript | Los archivos JavaScript se utilizan en la instrumentación del visor para guardar información de la cuenta. Seguridad de Adobe recomienda este tipo de recurso solo para cuentas de cliente que tengan un dominio independiente en uso para la entrega (para evitar scripts entre sitios). |
 
 >[!NOTE]
 >
->Al cargar archivos de imagen y PDF en Adobe Dynamic Media Classic, el sistema convierte estos archivos de origen en archivos P-TIFF (TIFF piramidal). Estos TIFF P son los archivos que se publican posteriormente en los servidores de imágenes de Dynamic Media. Adobe Dynamic Media Classic utiliza el formato de archivo Tiff piramidal porque contiene varias relaciones de zoom que permiten un zoom rápido cuando se visualiza con un visor de zoom de Adobe Dynamic Media Classic.
+>Al cargar archivos de imagen y PDF en Adobe Dynamic Media Classic, el sistema convierte estos archivos de origen en archivos P-TIFF (TIFF piramidal). Estos P-TIFF son los archivos que se publican posteriormente en los servidores de imágenes de Dynamic Media. Adobe Dynamic Media Classic utiliza el formato de archivo Tiff piramidal porque contiene varias relaciones de zoom que permiten un zoom rápido cuando se visualiza con un visor de zoom de Adobe Dynamic Media Classic.
 
 ### Formatos de archivo estático compatibles {#supported-static-file-formats}
 
-Adobe Dynamic Media Classic admite varios formatos de archivo estático. El contenido estático es cualquier recurso que se publica &quot;tal cual&quot;, como CSS, PDF, SVG y XML.
+Adobe Dynamic Media Classic admite varios formatos de archivo estático. El contenido estático es cualquier recurso que se publica tal cual, como CSS, PDF, SVG y XML.
 
 Los siguientes tipos de archivo pueden publicarse:
 
@@ -102,7 +100,7 @@ Los siguientes tipos de archivo pueden publicarse:
 * CSS
 * JavaScript (cuando la empresa se configura con su propio dominio)
 * Vídeo principal
-* PDF (cuando el PDF está marcado para su publicación después de la carga, para evitar la entrega de todos los PDF para el flujo de trabajo de catálogo electrónico/PDF existente)
+* PDF (cuando PDF está marcado para su publicación después de la carga, para evitar la entrega de todos los PDF para el flujo de trabajo de catálogo electrónico/PDF existente)
 * Vídeo PrX
 * SVG
 * XML
@@ -166,7 +164,7 @@ La aplicación Adobe Dynamic Media Classic Desktop permite cargar archivos y car
 1. En el lado izquierdo de la página Cargar, en el área **[!UICONTROL Seleccionar archivos para cargar]**, selecciona **[!UICONTROL Examinar]** para seleccionar los archivos o carpetas que deseas cargar y, a continuación, selecciona **[!UICONTROL Abrir]**.
 1. En el lado derecho de la página Cargar, en el área **Destino de carpeta** elegida, vaya a una carpeta de destino en la que desee agregar los archivos o carpetas cargados.
 1. (Opcional) Cerca de la parte inferior de la página Cargar, en el campo de texto Nombre del trabajo, introduzca el nuevo nombre del trabajo de carga. O bien, puede utilizar el nombre predeterminado generado por el sistema que proporciona Adobe Dynamic Media Classic. Los trabajos de carga y publicación se registran en la página Trabajos, donde puede comprobar el estado de los trabajos. Consulte [Comprobación de archivos de trabajo](checking-job-files.md#checking_job_files).
-1. (Opcional) Cerca de la parte inferior de la página Cargar, seleccione **[!UICONTROL Publish después de cargar]** para que pueda publicar automáticamente los recursos que cargue.
+1. (Opcional) Cerca de la parte inferior de la página Cargar, seleccione **[!UICONTROL Publicar después de cargar]** para que pueda publicar automáticamente los recursos que cargue.
 Al publicar archivos, se envían a servidores interactivos. Las URL para estos archivos se pueden utilizar en sitios Web y aplicaciones externas. Esta misma opción también está disponible en el cuadro de diálogo Opciones del trabajo.
 1. (Opcional) Cerca de la parte inferior de la página Cargar, seleccione **[!UICONTROL Sobrescribir en cualquier carpeta, mismo nombre de recurso base independientemente de la extensión]** si desea que los archivos que cargue reemplacen los archivos existentes con los mismos nombres. Esta misma opción también está disponible en el cuadro de diálogo Opciones del trabajo.
 El nombre de esta opción podría ser diferente, según la configuración de **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Configuración general]** > **[!UICONTROL Cargar a la aplicación]** > **[!UICONTROL Sobrescribir imágenes]**.
@@ -184,10 +182,10 @@ Para ver el progreso de la carga, seleccione **[!UICONTROL Trabajos]** en la bar
 1. En Adobe Dynamic Media Classic, en la barra de navegación global, seleccione **[!UICONTROL Cargar]**.
 1. En la página Cargar, seleccione la ficha **[!UICONTROL MEDIANTE FTP]**.
 1. En el lado izquierdo de la página Cargar, en el área **[!UICONTROL Elegir carpeta FTP para cargar]**, elija una carpeta FTP desde la cual cargar los archivos.
-1. En el lado derecho de la página Cargar, en el área **[!UICONTROL Destino de carpeta Dynamic Media de Adobe]** elegido, elija una carpeta de destino en Adobe Dynamic Media Classic.
+1. En el lado derecho de la página Cargar, en el área **[!UICONTROL Destino de carpeta de Dynamic Media de Adobe]** elegido, elija una carpeta de destino en Adobe Dynamic Media Classic.
 1. (Opcional) Cerca de la parte inferior de la página Cargar, en el campo de texto Nombre del trabajo, introduzca el nuevo nombre del trabajo de carga. O bien, puede utilizar el nombre predeterminado generado por el sistema que proporciona Adobe Dynamic Media Classic. Los trabajos de carga y publicación se registran en la página Trabajos, donde puede comprobar el estado de los trabajos.
 Consulte [Comprobación de archivos de trabajo](checking-job-files.md#checking_job_files).
-1. (Opcional) Cerca de la parte inferior de la página Cargar, seleccione **[!UICONTROL Publish después de la carga]** para que pueda publicar automáticamente los recursos que cargue.
+1. (Opcional) Cerca de la parte inferior de la página Cargar, seleccione **[!UICONTROL Publicar después de la carga]** para que pueda publicar automáticamente los recursos que cargue.
 Al publicar archivos, se envían a servidores interactivos. Las URL para estos archivos se pueden utilizar en sitios Web y aplicaciones externas. Esta misma opción también está disponible en el cuadro de diálogo Opciones del trabajo.
 1. (Opcional) Cerca de la parte inferior de la página Cargar, seleccione **[!UICONTROL Sobrescribir en cualquier carpeta, mismo nombre de recurso base independientemente de la extensión]** si desea que los archivos que cargue reemplacen los archivos existentes con los mismos nombres. Esta misma opción también está disponible en el cuadro de diálogo Opciones del trabajo.
 El nombre de esta opción podría ser diferente, según la configuración de **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Configuración general]** > **[!UICONTROL Cargar a la aplicación]** > **[!UICONTROL Sobrescribir imágenes]**.
@@ -221,7 +219,7 @@ Al cargar archivos, puede elegir entre las siguientes opciones del cuadro de di�
          * **[!UICONTROL Mensual]**: elija un día específico del mes o día de la semana, incluida la hora de inicio, en el que desea que se ejecute el trabajo.
          * **[!UICONTROL Personalizado]**: personalice un intervalo de tiempo de trabajo de carga o publicación según sus propias especificaciones. Consulte [Crear un intervalo de tiempo de trabajo de publicación o carga personalizado](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval).
 
-   * **[!UICONTROL Publish después de cargar]**: disponible si seleccionó la pestaña **[!UICONTROL FROM DESKTOP]** o **[!UICONTROL VIA FTP]**. Seleccione esta opción para que pueda publicar automáticamente los recursos que carga. Al publicar archivos, se envían a servidores interactivos. Las URL para estos archivos se pueden utilizar en sitios Web y aplicaciones externas. Esta opción también está disponible en la página de carga.
+   * **[!UICONTROL Publicar después de cargar]**: disponible si seleccionó la pestaña **[!UICONTROL DESDE EL ESCRITORIO]** o **[!UICONTROL MEDIANTE FTP]**. Seleccione esta opción para que pueda publicar automáticamente los recursos que carga. Al publicar archivos, se envían a servidores interactivos. Las URL para estos archivos se pueden utilizar en sitios Web y aplicaciones externas. Esta opción también está disponible en la página de carga.
 
    * **[!UICONTROL Sobrescribir en cualquier carpeta, mismo nombre de recurso base independientemente de la extensión]**: disponible si seleccionó la pestaña **[!UICONTROL DESDE EL ESCRITORIO]** o **[!UICONTROL A TRAVÉS DEL FTP]**. Seleccione esta opción si desea que los archivos que cargue sustituyan archivos existentes con los mismos nombres. Esta opción también está disponible en la página de carga. El nombre de esta opción podría ser diferente, según la configuración de **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Configuración general]** > **[!UICONTROL Cargar a la aplicación]** > **[!UICONTROL Sobrescribir imágenes]**.
 
@@ -252,10 +250,10 @@ Recorte basado en la transparencia: especifique 0 para recortar píxeles solo si
 * **Opciones de edición de imágenes**: puede conservar las máscaras de recorte &lt;> en las imágenes y elegir un perfil de color.
 Ver [opciones de ajuste de imagen al cargar](image-editing-options-upload.md#image-editing-options-at-upload).
 
-* **opciones de PostScript®**: puede rasterizar archivos de PostScript®, recortar archivos, mantener fondos transparentes, elegir una resolución y elegir un espacio de color.
+* **Opciones de PostScript®**: puede rasterizar archivos de PostScript®, recortar archivos, mantener fondos transparentes, elegir una resolución y elegir un espacio de color.
 Ver [Trabajar con archivos de PostScript y Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
-* **Opciones de Photoshop**: puede crear plantillas a partir de archivos de Adobe ® Photoshop®, mantener las capas, especificar cómo se asignan los nombres a las capas, extraer el texto y especificar cómo se anclan las imágenes en las plantillas.
+* **Opciones de Photoshop**: puede crear plantillas a partir de archivos de Adobe® Photoshop®, mantener las capas, especificar cómo se asignan los nombres a las capas, extraer texto y especificar cómo se anclan las imágenes en las plantillas.
 Consulte [Opciones de carga de archivos PSD](psd-files.md#psd_upload_options).
 
 * **Opciones de PDF**: puede rasterizar los archivos, extraer palabras de búsqueda y vínculos, generar automáticamente un catálogo electrónico, establecer la resolución y elegir un espacio de color.
