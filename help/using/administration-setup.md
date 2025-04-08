@@ -9,7 +9,7 @@ role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: fc2138cc9fd08cb4ce7466724af03f0901edebf3
+source-git-commit: dd799969ff9fd2638537254ae928a598eec627a3
 workflow-type: tm+mt
 source-wordcount: '1995'
 ht-degree: 29%
@@ -153,9 +153,9 @@ En la tabla siguiente se describen los informes que se pueden generar desde la p
 
 | Informe | Información | Uso |
 | --- | --- | --- |
-| Ancho de banda | | <!-- CQDOC-22504 --> **IMPORTANTE**: La ficha Ancho de banda ya no es compatible. Aunque sigue apareciendo en la interfaz de usuario, los datos del ancho de banda no están disponibles y todos los valores se muestran como `0`. |
+| Ancho de banda | | **IMPORTANTE**: La ficha Ancho de banda ya no es compatible. Aunque sigue apareciendo en la interfaz de usuario, los datos del ancho de banda no están disponibles y todos los valores se muestran como `0`. |
 | Almacenamiento | Uso del almacenamiento | Rastree la cantidad de datos cargados por la compañía. |
-| Contenido de imagen | Muestra el total de visitas y el volumen de entrega de imágenes desglosados por tipo de solicitud y subtipo. | Rastree el número de solicitudes y el volumen para diferentes tipos de imagen, incluidas las métricas de recursos que no son de vídeo. <!-- CQDOC-22504 --> |
+| Contenido de imagen | Muestra el total de visitas y el volumen de entrega de imágenes desglosados por tipo de solicitud y subtipo. | Rastree el número de solicitudes y el volumen para diferentes tipos de imagen, incluidas las métricas de recursos que no son de vídeo. |
 | Dominio | El número de solicitudes de URL por dominio | Lleve un seguimiento del uso de imágenes según el dominio de la solicitud de imagen para una empresa concreta. (Adobe Dynamic Media Classic puede proporcionar más de un dominio por cuenta. Para obtener más información, póngase en contacto con el equipo de asistencia técnica). |
 | Flujo continuo de vídeo | Uso del ancho de banda para el flujo continuo de vídeo | Lleve un seguimiento del uso del flujo continuo de vídeo por empresa a lo largo de intervalos de fechas específicos para determinar patrones de tráfico. |
 | Contenido de vídeo | Tiempo de reproducción de distintos vídeos | Determine cuáles son los vídeos más vistos y menos vistos. |
