@@ -198,7 +198,7 @@ Sí. Puede usar su propia CDN con [!DNL Dynamic Media].
 
 +++
 
-+++**¿Tiene [!DNL Dynamic Media] las características que necesito para poder actualizar? ¿Qué funciones están disponibles en [!DNL Dynamic Media] [!DNL Experience Manager] Assets?** Consulte la Página de comparación](/help/using/upgrade-feature-comparison.md) de [características, donde puede obtener más información.
++++**¿Tiene [!DNL Dynamic Media] las características que necesito para poder actualizar? ¿Qué funciones están disponibles en [!DNL Dynamic Media] [!DNL Experience Manager] Assets?** Consulte la Página de comparación[&#128279;](/help/using/upgrade-feature-comparison.md) de características, donde puede obtener más información.
 
 +++
 
@@ -208,7 +208,7 @@ Sí. Puede usar su propia CDN con [!DNL Dynamic Media].
 * Imagen plantillas.
 * Catálogos electrónicos.
 
-Consulte también la Página de comparación](/help/using/upgrade-feature-comparison.md) de [características, donde puede obtener más información.
+Consulte también la Página de comparación[&#128279;](/help/using/upgrade-feature-comparison.md) de características, donde puede obtener más información.
 
 +++
 

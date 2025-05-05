@@ -73,7 +73,7 @@ Especifique cualquiera de los siguientes criterios en la búsqueda avanzada:
 
 * **Criterios de búsqueda**: Cree uno o más campos de búsqueda para buscar metadatos. Para crear campos de búsqueda:
 
-   1. En Búsqueda avanzada, bajo el encabezado **[!UICONTROL Criterios de búsqueda]** y a la izquierda del menú **[!UICONTROL Agregar un campo]**), seleccione el icono de flecha de triángulo hacia abajo para abrir la lista desplegable. Elija una vista de metadatos. Puede elegir **[!UICONTROL Todas las propiedades con valores]**, **[!UICONTROL Vista compacta]**, **[!UICONTROL IPTC]**, **[!UICONTROL Campos Publish XMP del servidor de metadatos]** o ****.
+   1. En Búsqueda avanzada, bajo el encabezado **[!UICONTROL Criterios de búsqueda]** y a la izquierda del menú **[!UICONTROL Agregar un campo]**), seleccione el icono de flecha de triángulo hacia abajo para abrir la lista desplegable. Elija una vista de metadatos. Puede elegir **[!UICONTROL Todas las propiedades con valores]**, **[!UICONTROL Vista compacta]**, **[!UICONTROL IPTC]**, **[!UICONTROL Campos Publish XMP del servidor de metadatos]** o **&#x200B;**.
    1. Seleccione el menú desplegable **[!UICONTROL Agregar un campo]** y elija un nombre de campo.
    1. Elija una opción **[!UICONTROL Contains]**: **[!UICONTROL Contains]**, **[!UICONTROL Does Not Contain]**, **[!UICONTROL Begins With]**, **[!UICONTROL Ends With]** o **[!UICONTROL Equals]**.
    1. En el caso de los campos numéricos, elija un valor o introduzca un intervalo de fechas personalizado.

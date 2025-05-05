@@ -35,7 +35,7 @@ Para ver los metadatos de un recurso, ábralo en Vista de detalles y pulse el pa
 
 * **IPTC**: Valores definidos por el Consejo Internacional de Telecomunicaciones de la Prensa.
 
-* XMP ****: valores definidos por el programa de metadatos extensible.
+* XMP **&#x200B;**: valores definidos por el programa de metadatos extensible.
 
 Los administradores pueden crear vistas de metadatos. Estas vistas también aparecen en el menú Vistas de metadatos.
 
