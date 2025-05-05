@@ -31,7 +31,7 @@ Al combinar en un solo jugador las siguientes habilidades:
 
 El alcance del contenido multimedia enriquecido se amplía a los usuarios de equipos de escritorio y dispositivos móviles. También garantiza una experiencia de vídeo optimizada.
 
-Consulte también [Acerca de los visores de HTML 5](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) en la Guía de referencia de visores de Adobe.
+Consulte también [Acerca de los visores de HTML 5](https://experienceleague.adobe.com/es/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) en la Guía de referencia de visores de Adobe.
 
 Consulte también [Ajustes preestablecidos del visor](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) vídeo de formación.
 

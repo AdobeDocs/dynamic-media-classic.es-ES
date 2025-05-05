@@ -48,7 +48,7 @@ Después de publicar un conjunto de imágenes, puede copiar su dirección URL as
 
 La forma más común de implementar conjuntos de imágenes es colocar un vínculo (mediante un icono de navegación) en la página web. Cuando se selecciona, el vínculo inicia una página dinámica (JSP) que muestra el conjunto de imágenes en una ventana de zoom emergente. El vínculo de zoom abre una ventana emergente que contiene la función de zoom real.
 
-Para obtener más detalles y ejemplos de código, consulte [Visor de zoom del HTML incrustado5 en la Guía de referencia de visores de Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Para obtener más detalles y ejemplos de código, consulte [Visor de zoom del HTML incrustado5 en la Guía de referencia de visores de Adobe](https://experienceleague.adobe.com/es/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copiar el código de incrustación de un visor de conjuntos de imágenes {#copying-the-embed-code-of-an-image-set-viewer}
 

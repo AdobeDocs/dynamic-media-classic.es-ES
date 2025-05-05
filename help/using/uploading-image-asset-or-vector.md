@@ -30,7 +30,7 @@ Para poder cargar un recurso de imagen, primero debe solicitar una clave secreta
 
 ## Solicitar una clave de secreto compartido {#requesting-a-shared-secret-key}
 
-Solicite una clave de secreto compartido *shared-secret* de [usando el Admin Console para crear un caso de asistencia.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) En el caso de soporte técnico, solicite una clave de secreto compartido.
+Solicite una clave de secreto compartido *shared-secret* de [usando el Admin Console para crear un caso de asistencia.](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) En el caso de soporte técnico, solicite una clave de secreto compartido.
 
 En el mensaje, proporcione el nombre de empresa que desee utilizar para cargar los recursos de imagen. Una vez que reciba la clave de Adobe Dynamic Media Classic, guárdela localmente para usarla en el futuro.
 

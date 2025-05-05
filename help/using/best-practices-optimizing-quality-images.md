@@ -23,7 +23,7 @@ Optimizar la calidad de la imagen puede consumir mucho tiempo. Muchos factores c
 
 Adobe Dynamic Media Classic incluye más de 100 comandos de servidor de imágenes para ajustar y optimizar imágenes y procesar resultados. Las directrices siguientes pueden ayudarle a agilizar el proceso y a obtener buenos resultados con rapidez utilizando ciertos comandos esenciales y prácticas recomendadas.
 
-Consulte también [Imágenes inteligentes](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
+Consulte también [Imágenes inteligentes](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 >[!TIP]
 >
@@ -35,7 +35,7 @@ Consulte también [Imágenes inteligentes](https://experienceleague.adobe.com/en
 >* Ancho de banda de red
 >* DPR (proporción de píxeles del dispositivo)
 >
->Para aprender lo fácil que es usar Snapshot, reproduzca el [vídeo de entrenamiento Snapshot](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) (3 minutos y 17 segundos).
+>Para aprender lo fácil que es usar Snapshot, reproduzca el [vídeo de entrenamiento Snapshot](https://experienceleague.adobe.com/es/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) (3 minutos y 17 segundos).
 
 
 ## Prácticas recomendadas para el formato de imágenes (&amp;fmt=) {#best-practices-for-image-format-fmt}
