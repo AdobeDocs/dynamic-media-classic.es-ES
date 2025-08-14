@@ -73,7 +73,7 @@ Si ha añadido palabras clave a otros archivos durante esta sesión o si ha elim
 >[!NOTE]
 >
 >Puede añadir palabras clave a los archivos a medida que los carga en Adobe Dynamic Media Classic. En el cuadro de diálogo Cargar opciones del trabajo, elija **[!UICONTROL Más metadatos]** e introduzca palabras clave.
->>Consulte [Opciones de carga](uploading-files.md#upload_options).
+>&#x200B;>Consulte [Opciones de carga](uploading-files.md#upload_options).
 
 ## Importación de metadatos {#import-metadata}
 
@@ -82,7 +82,7 @@ En lugar de introducir los metadatos manualmente de uno en uno, puede importar l
 >[!NOTE]
 >
 >Puede crear una plantilla para introducir metadatos de modo que se puedan importar correctamente a Adobe Dynamic Media Classic. Después de crear la plantilla, puede utilizarla para introducir los metadatos.
->>Consulte [Creación de una plantilla para la introducción y carga de metadatos](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload).
+>&#x200B;>Consulte [Creación de una plantilla para la introducción y carga de metadatos](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload).
 
 Puede encontrar más información sobre propiedades estandarizadas en [Adobe XMP Developer Center](https://www.adobe.com/devnet/xmp.html).
 
