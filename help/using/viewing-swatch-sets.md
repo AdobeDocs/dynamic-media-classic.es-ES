@@ -44,7 +44,7 @@ Puede crear y personalizar ajustes preestablecidos de visor de acuerdo con sus n
 
 ## Vista previa de conjuntos de muestras en un visor {#previewing-swatch-sets-in-a-viewer}
 
-Puede utilizar Vista previa para ver cómo aparece un recurso en un tipo de visor concreto, como HTML 5. Según el tipo de recurso y el visor asociado que haya seleccionado para la vista previa, no todas las plataformas de tipo de visor están disponibles en la vista previa.
+Puede utilizar Vista previa para ver cómo aparece un recurso en un tipo de visor concreto como HTML5. Según el tipo de recurso y el visor asociado que haya seleccionado para la vista previa, no todas las plataformas de tipo de visor están disponibles en la vista previa.
 
 1. En el panel Biblioteca de recursos de la izquierda, en la lista desplegable **[!UICONTROL Mostrar]**, seleccione un tipo de recurso basado en conjuntos de muestras como **[!UICONTROL Conjunto de muestras]**.
 1. En el panel Biblioteca de recursos del lado izquierdo, navegue a las carpetas de recursos que contengan el conjunto de muestras cuya vista previa desee obtener con un visor.

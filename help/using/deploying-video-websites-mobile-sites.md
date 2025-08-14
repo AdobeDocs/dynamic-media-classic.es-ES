@@ -31,18 +31,18 @@ La publicación de un vídeo permite a los servidores de Adobe Dynamic Media Cla
 
 Existen dos métodos diferentes que puede utilizar para publicar vídeos:
 
-* **Vídeos de Publish de forma automática e instantánea al cargar**: Como parte del proceso de carga de vídeos, Adobe Dynamic Media Classic puede publicar vídeos automáticamente cuando se cargan y codifican. Esta capacidad de publicación instantánea significa que no hay necesidad de publicar vídeos por separado después del hecho.
+* **Publicar vídeos de forma automática e instantánea al cargarlos**: Como parte del proceso de carga de vídeos, Adobe Dynamic Media Classic puede publicar vídeos automáticamente cuando se cargan y codifican. Esta capacidad de publicación instantánea significa que no hay necesidad de publicar vídeos por separado después del hecho.
 
-* **Vídeo de Publish manualmente después de la carga**: Si no desea publicar vídeos inmediatamente, puede publicarlos manualmente en cualquier momento.
+* **Publicar vídeo manualmente después de la carga**: Si no desea publicar vídeos inmediatamente, puede publicarlos manualmente en cualquier momento.
 
-Después de publicar los vídeos, Adobe Dynamic Media Classic activa las cadenas URL de la página del HTML o del código de la aplicación.
+Después de publicar los vídeos, Adobe Dynamic Media Classic activa las cadenas URL de la página de HTML o del código de la aplicación.
 
 **Para publicar el vídeo:**
 
 1. Realice una de las siguientes acciones:
 
-   * Para publicar vídeos de forma automática e instantánea al cargar, en la página Cargar, selecciona **[!UICONTROL Publish después de cargar]**. Ya ha terminado; no tiene que seguir más pasos.
-   * Para publicar vídeos manualmente después de la carga, en el panel Examinar, selecciona los vídeos y, a continuación, en la barra de navegación global, selecciona **Publish**.
+   * Para publicar vídeos de forma automática e instantánea al cargar, en la página Cargar, selecciona **[!UICONTROL Publicar después de cargar]**. Ya ha terminado; no tiene que seguir más pasos.
+   * Para publicar vídeos manualmente después de la carga, en el panel Examinar, selecciona los vídeos y, a continuación, en la barra de navegación global, selecciona **Publicar**.
 
 ## Vinculación de una URL de vídeo a un sitio móvil o sitio web {#linking-a-video-url-to-a-mobile-site-or-a-website}
 
@@ -105,9 +105,9 @@ Ver también [Vincular una URL de vídeo a un sitio móvil o sitio web](deployin
 1. seleccione **[!UICONTROL Cerrar]**.
 1. Pegue el código incrustado en las páginas web.
 
-### Implementar código incrustado para utilizar vídeo de HTML5 con recursos de vídeo MP4 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
+### Implementar código incrustado para utilizar vídeo HTML5 con recursos de vídeo MP4 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
-Es posible que no desee utilizar el reproductor de vídeo Adobe Dynamic Media Classic HTML5. En su lugar, si desea utilizar la etiqueta nativa HTML5 `<video>` con recursos de vídeo MP4, puede utilizar el siguiente ejemplo de código incrustado:
+Es posible que no desee utilizar el reproductor de vídeo HTML5 de Adobe Dynamic Media Classic. En su lugar, si desea utilizar la etiqueta nativa HTML5 `<video>` con recursos de vídeo MP4, puede utilizar el siguiente ejemplo de código incrustado:
 
 ```as3
 <video poster="S7 video thumbnail URL" controls> 
@@ -131,27 +131,27 @@ Es posible que no desee utilizar el reproductor de vídeo Adobe Dynamic Media Cl
 
 ## Implementación de vídeo mediante un reproductor de vídeo de terceros {#deploying-video-using-a-third-party-video-player}
 
-Si utiliza reproductores de vídeo de terceros o un reproductor de vídeo personalizado en lugar de un visor de vídeo de Dynamic Media Classic, obtendrá la URL de vídeo directo que funciona para la descarga progresiva o la transmisión de vídeo a varias velocidades de bits HLS.
+Si utiliza reproductores de vídeo de terceros o un reproductor de vídeo personalizado en lugar de un visor de vídeo de Dynamic Media Classic, obtendrá la URL de vídeo directo que funciona para la descarga progresiva o la transmisión de vídeo a varias velocidades de bits de HLS.
 
 **Para implementar vídeo mediante un reproductor de vídeo de terceros:**
 
 1. En Adobe Dynamic Media Classic, en la barra de navegación global, ve a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Configuración general]**.
 1. Según el tipo de URL que desee utilizar, realice una de las tareas siguientes:
 
-* Para generar una URL de vídeo de flujo HLS directa (varias velocidades de bits)
+* Para generar una URL de vídeo de flujo continuo directo de HLS (varias velocidades de bits)
 
   En la página **[!UICONTROL Configuración general de la aplicación]**, en el grupo **[!UICONTROL Servidores]**, en el campo de texto **[!UICONTROL Nombre del servidor publicado]**, cree la dirección URL directa. Utilice la siguiente sintaxis: `server/is/content/company/folder/filename.m3u8`
 
   Por ejemplo, supongamos que el nombre del servidor publicado es `https://s7d9.scene7.com/.`. Utilizando la sintaxis del paso 2, la dirección URL directa podría tener el aspecto siguiente:
   `https://s7d9.scene7.com/is/content/GeoRetail/AdobeRIA-AVS.m3u8`
 
-* Para generar una URL de vídeo de flujo HLS directa (velocidad de bits única)
+* Para generar una URL de vídeo de flujo continuo de HLS directo (velocidad de bits única)
 
   En la página **[!UICONTROL Configuración general de la aplicación]**, en el grupo **[!UICONTROL Servidores]**, en el campo de texto **[!UICONTROL Nombre del servidor de flujo HLS]**, cree la dirección URL directa con la siguiente sintaxis:
 
   `server/company/folder/filename.ext.m3u8`
 
-  Por ejemplo, supongamos que el nombre del servidor de flujo HLS es `https://s7mbrstream.scene7.com/hls-vod/`. Con la sintaxis del paso 2, la dirección URL directa podría tener el siguiente aspecto:
+  Por ejemplo, suponga que el nombre del servidor de flujo continuo de HLS es `https://s7mbrstream.scene7.com/hls-vod/`. Con la sintaxis del paso 2, la dirección URL directa podría tener el siguiente aspecto:
   `https://s7mbrstream.scene7.com/hls-vod/GeoRetail/MBR/ToyStory3\_Teaser1\_High\_iPad\_768x432\_1296K.mp4.m3u8`
 
 * Para generar una URL directa de vídeo progresivo
@@ -175,7 +175,7 @@ Adobe Dynamic Media Classic genera miniaturas de vídeo automáticamente durante
 
 Para generar direcciones URL para miniaturas de vídeo, realice una operación de publicación.
 
-Ver [vídeo de Publish](deploying-video-websites-mobile-sites.md#publishing_video).
+Ver [Publicar vídeo](deploying-video-websites-mobile-sites.md#publishing_video).
 
 Tras la publicación, puede obtener las URL de las miniaturas de vídeo en la vista de detalles del panel URL y código incrustado. Seleccione **[!UICONTROL Copiar URL]** a la derecha de la miniatura de vídeo para poder copiar su URL asociada.
 
@@ -187,10 +187,10 @@ Puede aplicar modificadores de imagen al fotograma de póster. Por ejemplo, pued
 
 Consulte [Agregar o editar un ajuste preestablecido de visualizador de vídeo](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
-Consulte [Guía de servicio de imágenes](https://experienceleague.adobe.com/es/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
+Consulte [Guía de servicio de imágenes](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
 
 También puede modificar las miniaturas de los vídeos agregando modificadores a las URL de las miniaturas de vídeo.
 
 >[!MORELIKETHIS]
 >
->* [archivos de Publish](publishing-files.md#publishing_files)
+>* [Publicar archivos](publishing-files.md#publishing_files)

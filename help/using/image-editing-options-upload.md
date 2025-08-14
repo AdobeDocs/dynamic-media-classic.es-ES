@@ -93,7 +93,7 @@ Utilice Fondo de cobertura para poder eliminar automáticamente el fondo de una 
 | --- | --- |
 | Fondo de cobertura | Seleccione esta opción para activar o &quot;activar&quot; la función y las opciones de Fondo de cobertura. |
 | Esquina | Obligatorio.<br>Esquina de la imagen que se usa para definir el color de fondo que se va a noquear.<br>Puede elegir entre <b>Superior izquierdo, Inferior izquierdo, Superior derecho o Inferior derecho</b>. |
-| Método de relleno | Requerido. <br>Controla la transparencia de píxeles desde la ubicación de Corner que haya establecido.<br>Puede elegir entre los siguientes métodos de relleno:<br>· <b>Relleno Flood</b>: convierte en transparentes todos los píxeles que coincidan con la Esquina que ha especificado y que estén conectados a ella.<br>· <b>Píxel coincidente</b>: vuelve transparentes todos los píxeles coincidentes, independientemente de su ubicación en la imagen. |
+| Método de relleno | Requerido. <br>Controla la transparencia de píxeles desde la ubicación de Corner que haya establecido.<br>Puede elegir entre los siguientes métodos de relleno:<br>· <b>Relleno de inundación</b>: convierte en transparentes todos los píxeles que coincidan con la Esquina que ha especificado y que estén conectados a ella.<br>· <b>Píxel coincidente</b>: vuelve transparentes todos los píxeles coincidentes, independientemente de su ubicación en la imagen. |
 | Tolerancia | Opcional.<br>Controla la cantidad de variación permitida en la coincidencia de color de píxel en función de la ubicación de Esquina que haya establecido.<br>Use un valor de 0,0 para que coincida exactamente con los colores de los píxeles. O bien, use un valor de 1,0 para permitir la mayor variación. |
 
 >[!MORELIKETHIS]

@@ -1,5 +1,5 @@
 ---
-title: Publish es un conjunto de medios mixtos
+title: Publicar un conjunto de medios mixtos
 description: Obtenga información sobre cómo publicar un conjunto de medios mixtos desde Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -17,7 +17,7 @@ ht-degree: 12%
 
 ---
 
-# Publish es un conjunto de medios mixtos{#publishing-a-mixed-media-set}
+# Publicar un conjunto de medios mixtos{#publishing-a-mixed-media-set}
 
 Cree un trabajo de publicación para publicar un conjunto de medios mixtos que haya marcado para su publicación en el servidor de vídeo e imagen de Adobe Dynamic Media Classic. Adobe Dynamic Media Classic ofrece opciones de publicación avanzadas para la publicación en servidores específicos y opciones para volver a publicar recursos que ya se han publicado.
 
@@ -43,20 +43,20 @@ Last Modified Date:
 
 1. Realice una de las siguientes acciones:
 
-   * En el panel Examinar, seleccione **[!UICONTROL Marcar para Publish]** junto a cada nombre de archivo que desee publicar.
-   * En la pantalla Cargar, seleccione **[!UICONTROL Marcar para Publish]** junto a cada nombre de archivo que desee publicar.
+   * En el panel Examinar, seleccione **[!UICONTROL Marcar para publicación]** junto a cada nombre de archivo que desee publicar.
+   * En la pantalla Cargar, seleccione **[!UICONTROL Marcar para publicación]** junto a cada nombre de archivo que desee publicar.
 
-1. En la barra de navegación global, seleccione **[!UICONTROL Publish]**.
+1. En la barra de navegación global, seleccione **[!UICONTROL Publicar]**.
 1. Establezca las opciones de programación que desee.
 1. (Opcional) En el campo **[!UICONTROL Nombre de trabajo]**, escriba un nombre para el trabajo de publicación.
-1. En las opciones **[!UICONTROL Avanzadas]**, en la lista desplegable **[!UICONTROL Publish To]**, seleccione **[!UICONTROL Servidor de vídeo]**.
+1. En las opciones **[!UICONTROL Avanzadas]**, en la lista desplegable **[!UICONTROL Publicar en]**, seleccione **[!UICONTROL Servidor de vídeo]**.
 
    Consulte [Opciones de publicación avanzadas](publishing-files.md#advanced_publish_options) para ver más opciones que puede establecer.
 
-1. Seleccione **[!UICONTROL Enviar Publish]**.
+1. Seleccione **[!UICONTROL Enviar publicación]**.
 1. Repita los pasos 2-4 anteriores.
 1. En las opciones **[!UICONTROL Avanzado]**, en la lista desplegable **[!UICONTROL Publicar en]**, seleccione **[!UICONTROL Servidor de imágenes]**.
 
    Consulte [Opciones de publicación avanzadas](publishing-files.md#advanced_publish_options) para ver más opciones que puede establecer.
 
-1. Seleccione **[!UICONTROL Enviar Publish]**.
+1. Seleccione **[!UICONTROL Enviar publicación]**.

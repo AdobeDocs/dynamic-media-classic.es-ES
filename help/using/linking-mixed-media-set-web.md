@@ -75,4 +75,4 @@ El uso de la función de código incrustado permite revisar el código del visor
 
 >[!MORELIKETHIS]
 >
->* [Publish](publishing-files.md#publishing_files)
+>* [Publicar](publishing-files.md#publishing_files)

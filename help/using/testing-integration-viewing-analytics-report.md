@@ -37,4 +37,4 @@ Después de crear las variables necesarias en Adobe Analytics, vincularlas a eve
 >
 >Todos los datos del visualizador de Adobe Dynamic Media Classic se muestran y se comunican en los informes Tráfico personalizado o Conversión personalizada de Adobe Analytics.
 
-Para obtener más información, consulte [Tutorials de Analytics](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/overview).
+Para obtener más información, consulte [Tutoriales de Analytics](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview).

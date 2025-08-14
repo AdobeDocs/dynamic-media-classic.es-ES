@@ -24,9 +24,9 @@ Cree un conjunto de medios mixtos cuando desee combinar varios tipos de visores 
 
 ## Creación de un conjunto de medios mixtos {#create-a-mixed-media-set}
 
-Cuando crea un conjunto, la opción **Publish después de guardar** afecta a los miembros del conjunto y del conjunto de las siguientes maneras:
+Cuando crea un conjunto, la opción **Publicar después de guardar** afecta a los miembros del conjunto y del conjunto de las siguientes maneras:
 
-| ¿La opción &quot;Publish después de guardar&quot; está seleccionada antes de guardar? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
+| ¿Desea seleccionar la opción &quot;Publicar después de guardar&quot; antes de guardar? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
 | --- | --- | --- |
 | Sí | Publicado | Publicado |
 | No | Sin publicar | Los miembros del conjunto conservan su estado publicado o no. |
@@ -48,7 +48,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
    * Para cambiar el orden de los conjuntos, arrástrelos a nuevas ubicaciones en la pantalla Conjunto de medios mixtos. El orden de los conjuntos en la pantalla determina el orden de izquierda a derecha en que los usuarios verán los conjuntos en el visor de conjuntos de medios mixtos.
    * (Opcional) Para añadir una miniatura personalizada que represente el vídeo en el visor, arrastre el archivo de imagen desde la biblioteca de recursos hasta el cuadro de posición de miniaturas.
 
-1. Cerca de la esquina inferior derecha de la página, asegúrese de que **[!UICONTROL Publish después de guardar]** está seleccionado (predeterminado).
+1. Cerca de la esquina inferior derecha de la página, asegúrese de que **[!UICONTROL Publicar después de guardar]** está seleccionado (predeterminado).
 1. Seleccione **[!UICONTROL Guardar]**.
 1. Seleccione una carpeta para almacenar el conjunto de medios mixtos y, a continuación, introduzca un nombre para el conjunto.
 1. Seleccione **[!UICONTROL Guardar]**.
@@ -59,9 +59,9 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 Puede editar un conjunto de medios mixtos. Si desea editar un conjunto dentro de un conjunto de medios mixtos, abra el conjunto por separado, edítelo y guárdelo. Las ediciones aparecerán en el conjunto de medios mixtos.
 
-Tanto si edita un conjunto publicado como no publicado, la opción **[!UICONTROL Publish después de guardar]** afecta a los miembros del conjunto y del conjunto de las siguientes maneras:
+Tanto si edita un conjunto publicado como no publicado, la opción **[!UICONTROL Publicar después de guardar]** afecta a los miembros del conjunto y del conjunto de las siguientes maneras:
 
-| ¿Ya se ha publicado el conjunto? | **[!UICONTROL Publish después de seleccionar una opción para guardar]** antes de guardar la edición? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
+| ¿Ya se ha publicado el conjunto? | **[!UICONTROL Publicar después de seleccionar la opción Guardar]** antes de guardar la edición? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
 | --- |--- |--- |--- |
 | Sí | Sí | Publicado | Publicado |
 | Sí | No | Publicado | Los miembros del conjunto existentes conservan su estado publicado. Cualquier nuevo miembro que añada al conjunto durante la edición conservará su estado publicado o no publicado. |
@@ -78,7 +78,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
    * Para quitar elementos, selecciónelos y seleccione **[!UICONTROL Eliminar]**.
    * Para reordenar elementos, arrástrelos a sus nuevas ubicaciones.
 
-1. Cuando termine de editar el conjunto, cerca de la esquina inferior derecha de la página, asegúrese de que **[!UICONTROL Publish después de guardar]** esté seleccionado (opción predeterminada).
+1. Cuando haya terminado de editar el conjunto, cerca de la esquina inferior derecha de la página, asegúrese de que **[!UICONTROL Publicar después de guardar]** esté seleccionado (opción predeterminada).
 1. Seleccione **[!UICONTROL Guardar]** o **[!UICONTROL Guardar como]**.
 
 ## Eliminar un conjunto de medios mixtos

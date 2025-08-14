@@ -24,7 +24,7 @@ A veces, Adobe Dynamic Media Classic requiere que cargue un archivo de fuentes p
 Adobe Dynamic Media Classic admite estos tipos de fuentes:
 
 * Todas las fuentes TrueType
-* fuentes de PostScript®
+* Fuentes PostScript®
 * Fuentes OpenType/TrueType
 * Fuentes OpenType/PostScript
 * PhotoFonts
@@ -59,10 +59,10 @@ En el panel Examinar, seleccione el archivo de fuente que desee editar en Vista 
 
 * **[!UICONTROL Abreviatura de tipo de fuente]**: Las opciones son las siguientes:
 
-   * **[!UICONTROL TTF]**: Archivos de fuente TrueType utilizados para la representación de PDF/PostScript y el servicio de imágenes.
+   * **[!UICONTROL TTF]**: Archivos de fuente TrueType utilizados para la representación y el servicio de imágenes de PDF/PostScript.
 
    * **[!UICONTROL AFM]**: archivos de fuentes de Adobe PostScript que contienen información de métricas de fuentes de Adobe y se utilizan para el servicio de imágenes.
 
    * **[!UICONTROL PFM]**: archivos de fuentes de Adobe PostScript que contienen información de métricas de fuentes binarias.
 
-   * **[!UICONTROL PFB]**: archivos de fuentes de Adobe PostScript que contienen información de esquema de fuentes binarias y se utilizan para el procesamiento de PDF/PostScript y para el servicio de imágenes.
+   * **[!UICONTROL PFB]**: archivos de fuentes de Adobe PostScript que contienen información de esquema de fuentes binarias y que se utilizan para el procesamiento y el servicio de imágenes de PDF/PostScript.

@@ -41,7 +41,7 @@ Desde su red corporativa, puede averiguar su dirección IP pública usando sitio
 
 Con las pruebas seguras, Adobe Dynamic Media Classic crea un servidor de imágenes específico para entornos de ensayo o aplicaciones internas. Cualquier solicitud a este servidor comprueba la dirección IP de origen. Si la solicitud entrante no se encuentra dentro de la lista aprobada de direcciones IP, se devuelve una respuesta de error. El administrador de la empresa de Adobe Dynamic Media Classic configura la lista aprobada de direcciones IP para el entorno de prueba segura de su empresa.
 
-Dado que la ubicación de la solicitud original debe confirmarse, el tráfico del servicio Prueba segura no se enruta a través de una red de distribución de contenido como el tráfico público de Dynamic Media Image Server. Las solicitudes al servicio Secure Testing tienen una latencia ligeramente superior en comparación con los servidores de imágenes de Dynamic Media públicos.
+Dado que la ubicación de la solicitud original debe confirmarse, el tráfico del servicio Prueba segura no se enruta a través de una red de distribución de contenido como el tráfico público del servidor de imágenes de Dynamic Media. Las solicitudes al servicio de pruebas seguras tienen una latencia ligeramente superior en comparación con los servidores de imágenes públicos de Dynamic Media.
 
 Los recursos no publicados están disponibles inmediatamente desde los servicios de Secure Testing, sin necesidad de publicarlos. De este modo, puede ejecutar una previsualización antes de que los recursos se publiquen en su servidor de imágenes público.
 
@@ -102,9 +102,9 @@ Last Modified Date:
 
  -->
 
-1. Póngase en contacto con el Servicio de atención al cliente de Adobe y solicite que habiliten Prueba segura en su cuenta.
-1. En Adobe Dynamic Media Classic, en la barra de navegación global, ve a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de Publish]** > **[!UICONTROL Servidor de imágenes]**.
-1. En la página Publish del servidor de imágenes, en la lista desplegable **[!UICONTROL `Publish Context`]**, seleccione **[!UICONTROL Probar servicio de imágenes]**.
+1. Póngase en contacto con el Servicio de atención al cliente de Adobe y solicite que habiliten las pruebas seguras en su cuenta.
+1. En Adobe Dynamic Media Classic, en la barra de navegación global, ve a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de publicación]** > **[!UICONTROL Servidor de imágenes]**.
+1. En la página Publicación del servidor de imágenes, en la lista desplegable **[!UICONTROL `Publish Context`]**, seleccione **[!UICONTROL Probar servicio de imágenes]**.
 1. Para el Filtro de direcciones de cliente, seleccione **[!UICONTROL Agregar]**.
 1. Active la casilla de verificación para que la dirección esté habilitada (activada) y, a continuación, escriba una dirección IP y una máscara de red en los campos de texto correspondientes.
 
@@ -115,19 +115,19 @@ Last Modified Date:
 1. Realice una de las siguientes acciones:
    * Repita los dos pasos anteriores si debe agregar más direcciones IP.
    * Continúe con el paso siguiente.
-1. En la parte inferior izquierda de la página Publish del servidor de imágenes, seleccione **[!UICONTROL Guardar]**
+1. En la parte inferior izquierda de la página Publicación del servidor de imágenes, seleccione **[!UICONTROL Guardar]**
 1. Cargue las imágenes que desee en su cuenta de Adobe Dynamic Media Classic.
 
    Ver [Cargar archivos](uploading-files.md#uploading_files).
 
 1. Asegúrese de que algunas imágenes estén marcadas para su publicación y otras no, y luego envíe el trabajo de publicación.
 
-   Ver [archivos de Publish](publishing-files.md#publishing_files).
+   Ver [Publicar archivos](publishing-files.md#publishing_files).
 
 1. Determine el nombre de su servicio de pruebas seguras en **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Configuración general]**.
 1. En el grupo de servidores de la página Configuración general de la aplicación, busque el nombre a la derecha de la opción **[!UICONTROL Nombre del servidor del contexto de publicación de prueba]**.
 
-Póngase en contacto con el Servicio de atención al Adobe si falta el nombre del servidor o si las direcciones URL del servidor no funcionan.
+Póngase en contacto con Adobe Care si falta el nombre del servidor o si las direcciones URL del servidor no funcionan.
 
 ### Preparación de las variaciones del sitio web
 

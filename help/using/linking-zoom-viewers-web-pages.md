@@ -19,7 +19,7 @@ ht-degree: 23%
 
 # Vinculación de visores de zoom a sus páginas web{#linking-zoom-viewers-to-your-web-pages}
 
-Sus sitios web y aplicaciones acceden al contenido de Dynamic Media Image Server mediante cadenas URL o código incrustado. Ese acceso incluye imágenes principales y destinos de zoom asociados. También incluye ajustes preestablecidos del visor de zoom. Estas cadenas URL se activan durante el proceso de publicación. Para colocar estas cadenas URL o el código incrustado en las páginas Web y aplicaciones, cópielas desde Adobe Dynamic Media Classic.
+Sus sitios web y aplicaciones acceden al contenido del servidor de imágenes de Dynamic Media mediante cadenas URL o código incrustado. Ese acceso incluye imágenes principales y destinos de zoom asociados. También incluye ajustes preestablecidos del visor de zoom. Estas cadenas URL se activan durante el proceso de publicación. Para colocar estas cadenas URL o el código incrustado en las páginas Web y aplicaciones, cópielas desde Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ Sus sitios web y aplicaciones acceden al contenido de Dynamic Media Image Server
 
 Normalmente, los visitantes hacen zoom de las imágenes de un sitio web seleccionando primero un icono de Zoom (a menudo el icono muestra la imagen de una lupa). Al seleccionar este icono, se inicia una página Web dinámica (ASP o JSP) que muestra la imagen en una ventana emergente. Es en esta ventana emergente donde los visitantes aplican zoom en la imagen.
 
-Para obtener más detalles y ejemplos de código, consulte [Visor de zoom básico de Incrustar HTML 5 en la Guía de referencia de visores de Adobe](https://experienceleague.adobe.com/es/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Para obtener más detalles y ejemplos de código, consulte [Incrustar visor de zoom básico de HTML5 en la Guía de referencia de visores de Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copiar la copia incrustada de un visor de zoom {#copying-the-embed-copy-of-a-zoom-viewer}
 

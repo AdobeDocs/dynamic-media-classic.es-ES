@@ -1,5 +1,5 @@
 ---
-title: "Inicio rápido: Conjuntos de muestras"
+title: 'Inicio rápido: Conjuntos de muestras'
 description: Introducción y inicio rápido del conjunto de muestras para ayudarle a ponerse en marcha rápidamente con Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -13,7 +13,7 @@ level: Beginner
 source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '402'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -23,37 +23,37 @@ Los conjuntos de muestras de Adobe Dynamic Media Classic proporcionan a los usua
 
 Inicio rápido Este Inicio rápido de conjuntos de muestras está diseñado para que pueda ponerse en marcha rápidamente con las técnicas de conjuntos de muestras en Adobe Dynamic Media Classic.
 
-## 1. Cargar las imágenes y los archivos de muestra
+## &#x200B;1. Cargar las imágenes y los archivos de muestra
 
 Comience el proceso cargando las imágenes y los archivos de muestra para los conjuntos de muestras.
 
 En la barra de navegación global, selecciona **[!UICONTROL Cargar]** para cargar archivos de tu equipo a una carpeta en Adobe Dynamic Media Classic. Ver [Preparar recursos del conjunto de muestras para cargar](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) y [Cargar los archivos](uploading-files.md#uploading-your-files).
 
-## 2. Crear un conjunto de muestras
+## &#x200B;2. Crear un conjunto de muestras
 
 Para crear un conjunto de muestras, en la barra de navegación global, ve a **[!UICONTROL Generar]** > **[!UICONTROL Conjuntos de muestras]**. En la página Conjunto de muestras, arrastre imágenes y muestras de color a la página. Ver [Crear un conjunto de muestras](creating-swatch-set.md#creating-a-swatch-set).
 
-## 3. Configurar ajustes preestablecidos del visualizador de conjuntos de muestras
+## &#x200B;3. Configurar ajustes preestablecidos del visualizador de conjuntos de muestras
 
 Los administradores pueden crear o modificar los ajustes preestablecidos de visor de conjuntos de imágenes. Adobe Dynamic Media Classic incluye ajustes preestablecidos de visor predeterminados para cada tipo de medio enriquecido. Utilice el Visor de zoom: Personalizar > ajustes preestablecidos de Conjuntos de imágenes/Muestras de color para ver sus conjuntos de muestras.
 
 Consulte [Crear y editar ajustes preestablecidos de visor](application-setup.md#adding-and-editing-viewer-presets).
 
-## 4. Previsualizar un conjunto de muestras
+## &#x200B;4. Previsualizar un conjunto de muestras
 
 Seleccione el conjunto de muestras en el panel Examinar y, a continuación, seleccione **[!UICONTROL Vista previa]**. El conjunto de muestras aparecerá en esta página. Seleccione los iconos de miniatura y muestra para poder examinar el conjunto de muestras en el visor seleccionado. Puede elegir distintos visores en el menú Ajustes preestablecidos.
 
 Ver [Vista previa de un recurso](previewing-asset.md#previewing-an-asset).
 
-## 5. Publish es un conjunto de muestras
+## &#x200B;5. Publicación de un conjunto de muestras
 
 Al publicar un conjunto de muestras, se coloca en los servidores de Adobe Dynamic Media Classic y se activa la cadena URL.
 
-Seleccione el icono **[!UICONTROL Marcar para Publish]** a la izquierda de su nombre en el panel Examinar. Luego selecciona **[!UICONTROL Publish]**. En la página Publicación, seleccione **[!UICONTROL Enviar Publish]**.
+Seleccione el icono **[!UICONTROL Marcar para publicación]** a la izquierda de su nombre en el panel Examinar. Luego selecciona **[!UICONTROL Publicar]**. En la página Publicación, seleccione **[!UICONTROL Enviar publicación]**.
 
-Ver [archivos de Publish](publishing-files.md#publishing-files).
+Ver [Publicar archivos](publishing-files.md#publishing-files).
 
-## 6. Vinculación de un juego de muestras a una página web
+## &#x200B;6. Vinculación de un juego de muestras a una página web
 
 Adobe Dynamic Media Classic crea llamadas de URL para conjuntos de muestras y las activa después de la publicación. Puede copiar estas direcciones URL desde la página de vista previa.
 

@@ -62,7 +62,7 @@ Puede obtener una URL de recurso en la Vista de detalles; sin embargo, la URL no
 
 La Vista de detalles ofrece herramientas para trabajar con el recurso que ha abierto. Las herramientas disponibles dependen del tipo de recurso con el que trabaje, pero la Vista de detalles siempre ofrece estas funciones:
 
-* **elementos para la publicación**: seleccione el icono **[!UICONTROL `Publish`]** a la izquierda del nombre o vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Publish]** o **[!UICONTROL Archivo]** > **[!UICONTROL Cancelar la publicación]**.
+* **elementos para la publicación**: seleccione el icono **[!UICONTROL `Publish`]** a la izquierda del nombre o vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Publicar]** o **[!UICONTROL Archivo]** > **[!UICONTROL Cancelar la publicación]**.
 
 * **Cambiar el nombre del recurso**: seleccione el nombre e introduzca uno nuevo.
 

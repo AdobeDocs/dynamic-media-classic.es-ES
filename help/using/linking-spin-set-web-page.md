@@ -19,7 +19,7 @@ ht-degree: 23%
 
 # Vinculación de un conjunto de giros a una página web{#linking-a-spin-set-to-a-web-page}
 
-Los sitios web y las aplicaciones acceden al contenido de Dynamic Media Image Server, incluidos los conjuntos de giros, mediante cadenas URL o código incrustado. Estas cadenas URL se activan durante el proceso de publicación. Para colocar la cadena URL o el código incrustado del conjunto de giros en las páginas web y aplicaciones, cópielo desde Adobe Dynamic Media Classic.
+Los sitios web y las aplicaciones acceden al contenido del servidor de imágenes de Dynamic Media, incluidos los conjuntos de giros, mediante cadenas URL o código incrustado. Estas cadenas URL se activan durante el proceso de publicación. Para colocar la cadena URL o el código incrustado del conjunto de giros en las páginas web y aplicaciones, cópielo desde Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >

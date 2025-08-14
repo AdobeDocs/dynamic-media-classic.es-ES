@@ -19,7 +19,7 @@ ht-degree: 26%
 
 # Vinculación de URL en la aplicación web{#linking-urls-to-your-web-application}
 
-Sus sitios web y aplicaciones acceden al contenido de Dynamic Media Image Server mediante cadenas URL. Después de publicar una imagen, Adobe Dynamic Media Classic activa una cadena URL que hace referencia al ajuste preestablecido de imagen en los servidores de imágenes de Dynamic Media. Puede pegar estas direcciones URL en un explorador web para probarlas.
+Sus sitios web y aplicaciones acceden al contenido del servidor de imágenes de Dynamic Media mediante cadenas URL. Después de publicar una imagen, Adobe Dynamic Media Classic activa una cadena URL que hace referencia al ajuste preestablecido de imagen en los servidores de imágenes de Dynamic Media. Puede pegar estas direcciones URL en un explorador web para probarlas.
 
 Para colocar estas cadenas de URL en las páginas web y aplicaciones, cópielas desde Adobe Dynamic Media Classic. Para obtener una cadena URL generada con un ajuste preestablecido de imagen, vaya a la pantalla Vista previa o al panel Examinar (en la Vista de detalles).
 
@@ -58,7 +58,7 @@ Una llamada URL para el ajuste de tamaño de imagen en servidores de imágenes d
 
 *ruta*/*nombre de servidor de imágenes*/*nombre de cuenta*/*nombre de imagen*?*modificador1*&amp;*modificador2*&amp;...
 
-En la URL de un servidor de imágenes de Dynamic Media, las instrucciones para mostrar la imagen al servidor aparecen después del signo de interrogación (?). Por ejemplo, esta llamada URL ofrece una imagen denominada &quot;mochila&quot; con una anchura de 250 píxeles:
+En la URL de un servidor de imágenes de Dynamic Media, las instrucciones al servidor para mostrar la imagen aparecen después del signo de interrogación (?). Por ejemplo, esta llamada URL ofrece una imagen denominada &quot;mochila&quot; con una anchura de 250 píxeles:
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250
@@ -76,11 +76,11 @@ Pero en una cadena URL generada con un ajuste preestablecido de imagen, el nombr
 https://s7d1.scene7.com/is/image/S7learn/backpack?$Large$
 ```
 
-Los nombres de ajuste preestablecido de imagen en direcciones URL se incluyen entre signos de dólar ($). Cuando un servidor de imágenes de Dynamic Media encuentra la parte del ajuste preestablecido de imagen de la dirección URL (la `Large`, en este caso), empleando las instrucciones de tamaño y formato definidas por el ajuste preestablecido de imagen &quot;grande&quot;.
+Los nombres de ajuste preestablecido de imagen en direcciones URL se incluyen entre signos de dólar ($). Cuando el servidor de imágenes de Dynamic Media encuentra la parte Ajuste preestablecido de imagen de la URL (la `Large` en este caso), utilizando las instrucciones de tamaño y formato definidas por el Ajuste preestablecido de imagen &quot;Grande&quot;.
 
 ## Agregar imágenes dinámicas a la página Web {#adding-dynamic-images-to-your-web-page}
 
-Al agregar imágenes dinámicas a la página web, la etiqueta `<IMG>` del código de página del HTML suele modificarse con la cadena URL de Adobe Dynamic Media Classic para realizar una solicitud a los servidores de imágenes de Dynamic Media. Esta cadena produce una imagen con las especificaciones de formato y tamaño definidas por el ajuste preestablecido de imagen.
+Al agregar imágenes dinámicas a la página web, la etiqueta `<IMG>` del código de página de HTML suele modificarse con la cadena URL de Adobe Dynamic Media Classic para realizar una solicitud a los servidores de imágenes de Dynamic Media. Esta cadena produce una imagen con las especificaciones de formato y tamaño definidas por el ajuste preestablecido de imagen.
 
 Por ejemplo, en lugar de la típica llamada para abrir una imagen estática:
 

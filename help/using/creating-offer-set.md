@@ -41,15 +41,15 @@ Cree un conjunto de ofertas a partir de los siguientes tipos de conjuntos de ofe
 
 * **Plantilla de imagen**: puede parametrizar plantillas de imagen en Adobe Dynamic Media Classic con el comando **[!UICONTROL Generar]** > Conceptos básicos de plantilla. Mediante parámetros, componentes de la plantilla, el texto en marcos de texto, las diferentes imágenes, se pueden intercambiar y personalizar. Para un conjunto de ofertas, puede utilizar parámetros de plantilla para crear variaciones en la misma imagen del conjunto de ofertas, por ejemplo. Para obtener información sobre cómo crear y parametrizar plantillas de imagen, consulte [Crear parámetros de plantilla](creating-template-parameters.md#creating_template_parameters).
 
-Vea también [Fundamentos de la plantilla](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) vídeo de formación.
+Vea también [Fundamentos de la plantilla](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) vídeo de formación.
 
 * **Vídeo**: puede combinar vídeo para un conjunto de ofertas. Cada vídeo conforma una oferta distinta en el conjunto.
 
 ## Creación de un conjunto de ofertas con una plantilla con parámetros {#creating-an-offer-set-with-a-parameterized-template}
 
-Cuando crea un conjunto de ofertas, la opción **[!UICONTROL Publish después de guardar]** afecta a los miembros del conjunto y del conjunto de las siguientes maneras:
+Cuando crea un conjunto de ofertas, la opción **[!UICONTROL Publicar después de guardar]** afecta a los miembros del conjunto y del conjunto de las siguientes maneras:
 
-| **[!UICONTROL Publish después de seleccionar una opción de guardar]** antes de guardar? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
+| **[!UICONTROL Publicar después de seleccionar la opción Guardar]** antes de guardar? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
 | --- | --- | --- |
 | Sí | Publicado | Publicado |
 | No | Sin publicar | Los miembros del conjunto conservan su estado publicado o no. |
@@ -73,16 +73,16 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
    La página Conjunto de ofertas de Test&amp;Target enumera las ofertas que ha creado.
 
 1. Repita los pasos del 3 al 5 para crear más ofertas para el conjunto.
-1. Cuando termine, cerca de la esquina inferior derecha de la página, asegúrese de seleccionar **[!UICONTROL Publish después de guardar*]** (opción predeterminada).
+1. Cuando termine, cerca de la esquina inferior derecha de la página, asegúrese de que **[!UICONTROL Publicar después de guardar*]** está seleccionado (predeterminado).
 1. Seleccione **[!UICONTROL Cerrar]**, escriba un nombre para el conjunto de ofertas y, a continuación, seleccione **[!UICONTROL Guardar]**.
 
 Antes de cerrar la página Conjunto de ofertas de Test&amp;Target, inserte el conjunto de ofertas en Adobe Target Standard/Premium. Consulte [Insertar conjuntos de ofertas en Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
 ## Creación de un conjunto de ofertas con imágenes o vídeos {#creating-an-offer-set-with-images-or-videos}
 
-Cuando crea un conjunto de ofertas, la opción **[!UICONTROL Publish después de guardar]** afecta a los miembros del conjunto y del conjunto de las siguientes maneras:
+Cuando crea un conjunto de ofertas, la opción **[!UICONTROL Publicar después de guardar]** afecta a los miembros del conjunto y del conjunto de las siguientes maneras:
 
-| **[!UICONTROL Publish después de seleccionar una opción de guardar]** antes de guardar? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
+| **[!UICONTROL Publicar después de seleccionar la opción Guardar]** antes de guardar? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
 | --- | --- | --- |
 | Sí | Publicado | Publicado |
 | No | Sin publicar | Los miembros del conjunto conservan su estado publicado o no. |
@@ -104,16 +104,16 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
    Seleccione **[!UICONTROL Guardar]** para guardar los cambios en la oferta de imagen o vídeo. A continuación, seleccione **[!UICONTROL Cerrar]** para volver a la página del conjunto de ofertas de Test&amp;Target.
 
-1. Cuando termine de crear ofertas para el conjunto de ofertas y de elegir ajustes preestablecidos de imagen para distintas imágenes, asegúrese de seleccionar **[!UICONTROL Publish después de guardar]** (opción predeterminada).
+1. Cuando termine de crear ofertas para el conjunto de ofertas y de elegir ajustes preestablecidos de imagen para distintas imágenes, asegúrese de que la opción **[!UICONTROL Publicar después de guardar]** esté seleccionada (opción predeterminada).
 1. Seleccione **[!UICONTROL Guardar]**, escriba un nombre para el conjunto de ofertas y seleccione **[!UICONTROL Guardar]**.
 
 Antes de cerrar la página de conjuntos de ofertas de Test&amp;Target, inserte el conjunto de ofertas en Adobe Target Standard/Premium. Consulte [Insertar conjuntos de ofertas en Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
 ## Editar un conjunto de ofertas {#editing-an-offer-set}
 
-Tanto si edita un conjunto publicado como un conjunto sin publicar, la opción **[!UICONTROL Publish después de guardar]** afecta a los miembros del conjunto y del conjunto de las siguientes maneras:
+Tanto si edita un conjunto publicado como un conjunto sin publicar, la opción **[!UICONTROL Publicar después de guardar]** afecta a los miembros del conjunto y del conjunto de las siguientes maneras:
 
-| ¿Ya se ha publicado el conjunto? | **[!UICONTROL Publish después de seleccionar una opción para guardar]** antes de guardar la edición? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
+| ¿Ya se ha publicado el conjunto? | **[!UICONTROL Publicar después de seleccionar la opción Guardar]** antes de guardar la edición? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
 | --- | --- | --- | --- |
 | Sí | Sí | Publicado | Publicado |
 | Sí | No | Publicado | Los miembros del conjunto existentes conservan su estado publicado. Cualquier nuevo miembro que añada al conjunto durante la edición conservará su estado publicado o no publicado. |
@@ -136,7 +136,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
    >
    >No puede eliminar un conjunto de ofertas asociado a una campaña. Para eliminar un conjunto de ofertas asociado a una campaña, inicie sesión en Adobe Target Standard/Premium y elimine primero las asociaciones de campañas. Incluso después de desasociarse de una campaña, el recurso solo se puede eliminar de Adobe Dynamic Media Classic, por lo que se requiere un inicio de sesión en Adobe Target Standard/Premium y no desde Adobe Target Standard/Premium.
 
-1. Cuando termine de editar, cerca de la esquina inferior derecha de la página, asegúrese de que **[!UICONTROL Publish después de guardar]** esté seleccionado (predeterminado).
+1. Cuando termine de editar, cerca de la esquina inferior derecha de la página, asegúrese de que **[!UICONTROL Publicar después de guardar]** está seleccionado (predeterminado).
 1. Seleccione **[!UICONTROL Guardar]**, seleccione una carpeta de almacenamiento, escriba un nombre para el conjunto y, a continuación, seleccione **[!UICONTROL Guardar]**.
 
 ## Eliminar un conjunto de ofertas {#delet-an-offer-set}

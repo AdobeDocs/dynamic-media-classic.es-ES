@@ -12,8 +12,8 @@ topic: Content Management
 level: Intermediate
 source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 40%
+source-wordcount: '1602'
+ht-degree: 39%
 
 ---
 
@@ -23,26 +23,26 @@ Optimizar la calidad de la imagen puede consumir mucho tiempo. Muchos factores c
 
 Adobe Dynamic Media Classic incluye más de 100 comandos de servidor de imágenes para ajustar y optimizar imágenes y procesar resultados. Las directrices siguientes pueden ayudarle a agilizar el proceso y a obtener buenos resultados con rapidez utilizando ciertos comandos esenciales y prácticas recomendadas.
 
-Consulte también [Imágenes inteligentes](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
+Consulte también [Imágenes inteligentes](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 >[!TIP]
 >
 >Pruebe y descubra las ventajas de los modificadores de imagen de Dynamic Media y de las imágenes inteligentes con Dynamic Media [_Snapshot_](https://snapshot.scene7.com/).
 >
-> Snapshot es una herramienta de demostración visual diseñada para ilustrar la potencia de Dynamic Media para la entrega de imágenes optimizadas y dinámicas. Experimente con imágenes de prueba o direcciones URL de Dynamic Media para poder observar visualmente la salida de varios modificadores de imagen de Dynamic Media y optimizaciones de imágenes inteligentes para lo siguiente:
+> Snapshot es una herramienta de demostración visual diseñada para ilustrar la potencia de Dynamic Media para la entrega de imágenes optimizadas y dinámicas. Experimente con imágenes de prueba o URL de Dynamic Media para poder observar visualmente la salida de varios modificadores de imagen de Dynamic Media y optimizaciones de imágenes inteligentes para lo siguiente:
 >
 >* Tamaño de archivo (con envío WebP y AVIF)
 >* Ancho de banda de red
 >* DPR (proporción de píxeles del dispositivo)
 >
->Para aprender lo fácil que es usar Snapshot, reproduzca el [vídeo de entrenamiento Snapshot](https://experienceleague.adobe.com/es/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) (3 minutos y 17 segundos).
+>Para aprender lo fácil que es usar Snapshot, reproduzca el [vídeo de entrenamiento Snapshot](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) (3 minutos y 17 segundos).
 
 
 ## Prácticas recomendadas para el formato de imágenes (&amp;fmt=) {#best-practices-for-image-format-fmt}
 
 * Los formatos JPG o PNG son las mejores opciones para distribuir imágenes con una buena calidad y con un tamaño y peso manejables.
-* Si no se proporciona ningún comando de formato en la dirección URL, el servicio de imágenes de Dynamic Media toma el valor predeterminado de JPG para la entrega de los datos.
-* JPG comprime en una proporción de 10:1 y generalmente ofrece tamaños de archivo de imagen más pequeños. PNG comprime a una proporción de aproximadamente 2:1, excepto a veces cuando las imágenes contienen un fondo vacío. Normalmente, los tamaños de archivo PNG son mayores que los archivos JPG.
+* Si no se proporciona ningún comando de formato en la dirección URL, el servicio de imágenes de Dynamic Media toma el valor predeterminado de JPG para la entrega.
+* JPG comprime a una proporción de 10:1 y normalmente produce tamaños de archivo de imagen más pequeños. PNG comprime a una proporción de aproximadamente 2:1, excepto a veces cuando las imágenes contienen un fondo vacío. Normalmente, los tamaños de archivo PNG son mayores que los archivos JPG.
 * JPG utiliza compresión con pérdidas, lo que significa que elementos de la imagen (píxeles) se eliminan durante la compresión. PNG utiliza la compresión sin pérdidas.
 * JPG a menudo comprime imágenes fotográficas con una mejor fidelidad que las imágenes sintéticas con contraste y bordes y nítidos.
 * Si las imágenes contienen transparencias, utilice PNG porque JPG no admite transparencias.
@@ -99,7 +99,7 @@ Aumente gradualmente la cantidad de 1,75 a 4. Si el enfoque aún no aparece como
 
 Deje la configuración del parámetro monocromo en 0.
 
-## Prácticas recomendadas para la compresión del JPEG (`&qlt=`) {#best-practices-for-jpeg-compression-qlt}
+## Prácticas recomendadas para la compresión de JPEG (`&qlt=`) {#best-practices-for-jpeg-compression-qlt}
 
 * Este parámetro controla la calidad de codificación de JPG. Un valor más alto significa una mejor calidad de imagen pero un tamaño mayor de archivo; por lo contrario, un valor inferior significa una imagen de menor calidad pero un tamaño de archivo más pequeño. El rango de este parámetro es 0-100.
 * Para optimizar la calidad, no defina el valor del parámetro a 100. La diferencia entre un ajuste de 90 o 95 y 100 es casi imperceptible. Sin embargo, 100 aumenta innecesariamente el tamaño del archivo de imagen. Por lo tanto, para optimizar la calidad pero evitar que los archivos de imagen se vuelvan demasiado grandes, establezca el valor de `qlt=` en 90 o 95.
@@ -107,19 +107,19 @@ Deje la configuración del parámetro monocromo en 0.
 * Como práctica recomendada, para permanecer en el medio, establezca el valor de `qlt=` en 85 para permanecer en el medio.
 * Uso del indicador de croma en `qlt=`
 
-   * El parámetro `qlt=` tiene una segunda configuración que le permite activar la disminución de resolución de cromaticidad del RGB con el valor normal `,0` (predeterminado), o desactivarla con el valor `,1`.
-   * Para que sea sencillo, comience con la disminución de resolución de cromaticidad RGB desactivada ( `,1`). Este ajuste normalmente ofrece una mejor calidad de imagen, especialmente en imágenes sintéticas con muchos bordes nítidos y contraste.
+   * El parámetro `qlt=` tiene una segunda configuración que le permite activar la disminución de resolución de cromaticidad de RGB con el valor normal `,0` (predeterminado), o desactivarla con el valor `,1`.
+   * Para que sea sencillo, comience con la disminución de resolución de cromaticidad de RGB desactivada ( `,1`). Este ajuste normalmente ofrece una mejor calidad de imagen, especialmente en imágenes sintéticas con muchos bordes nítidos y contraste.
 
-Como práctica recomendada para la compresión en JPG, use `&qlt=85,0`.
+Como práctica recomendada para la compresión de JPG, use `&qlt=85,0`.
 
 ## Prácticas recomendadas para el tamaño JPEG (&amp;jpegSize=) {#best-practices-for-jpeg-sizing-jpegsize}
 
 El parámetro `jpegSize` es útil si desea garantizar que una imagen no supere un tamaño determinado para su entrega a dispositivos con memoria limitada.
 
 * Este parámetro se establece en kilobytes ( `jpegSize=<size_in_kilobytes>`). Define el tamaño máximo permitido para la distribución de imágenes.
-* `&jpegSize=` interactúa con el parámetro de compresión `&qlt=` del JPG de la aplicación. Si la respuesta del JPG con el parámetro de compresión del JPG de la aplicación especificado (`&qlt=`) no sobrepasa el valor `jpegSize`, la imagen se devuelve con `&qlt=` tal como se definió. De lo contrario, `&qlt=` se reducirá gradualmente hasta que la imagen se ajuste al tamaño máximo permitido. O bien, hasta que el sistema determine que no cabe y devuelva un error.
+* `&jpegSize=` interactúa con el parámetro de compresión de JPG `&qlt=`. Si la respuesta de JPG con el parámetro de compresión de JPG especificado (`&qlt=`) no supera el valor `jpegSize`, la imagen se devuelve con `&qlt=` tal como se definió. De lo contrario, `&qlt=` se reducirá gradualmente hasta que la imagen se ajuste al tamaño máximo permitido. O bien, hasta que el sistema determine que no cabe y devuelva un error.
 
-JPG Como práctica recomendada, establezca `&jpegSize=` y agregue el parámetro `&qlt=` si va a enviar imágenes de calidad superior a dispositivos con memoria limitada.
+Se recomienda configurar `&jpegSize=` y agregar el parámetro `&qlt=` si va a enviar imágenes de JPG a dispositivos con memoria limitada.
 
 ## Resumen de prácticas recomendadas {#best-practices-summary}
 
@@ -136,5 +136,5 @@ Si los resultados de enfoque aún no son satisfactorios, aumente el radio en inc
 A medida que experimenta, las siguientes sugerencias generales son útiles para optimizar el flujo de trabajo:
 
 * Pruebe diferentes parámetros en tiempo real, ya sea directamente en una dirección URL o utilizando la funcionalidad de ajuste de imagen de Adobe Dynamic Media Classic. Este último proporciona previsualizaciones en tiempo real para operaciones de ajuste.
-* Como práctica recomendada, recuerde que puede agrupar comandos del servicio de imágenes de Dynamic Media en un ajuste preestablecido de imagen. Un ajuste preestablecido de imagen son básicamente macros de comandos de URL con nombres de ajustes preestablecidos personalizados como `$thumb_low$` y `&product_high$`. El nombre del ajuste preestablecido personalizado en una ruta URL llama a estos ajustes preestablecidos. Esta funcionalidad le ayudará a administrar comandos y ajustes de calidad para diferentes modelos de uso de imágenes en su sitio web y reducirá la longitud total de la URL.
-* Adobe Dynamic Media Classic también proporciona formas más avanzadas de ajustar la calidad de la imagen, como aplicar enfoque de imagen al ingerir. En los casos de uso avanzados en los que una opción es seguir ajustando y optimizando los resultados procesados, Adobe Professional Services puede ayudarle con información personalizada y prácticas recomendadas.
+* Como práctica recomendada, recuerde que puede agrupar comandos de servicio de imágenes de Dynamic Media en un ajuste preestablecido de imagen. Un ajuste preestablecido de imagen son básicamente macros de comandos de URL con nombres de ajustes preestablecidos personalizados como `$thumb_low$` y `&product_high$`. El nombre del ajuste preestablecido personalizado en una ruta URL llama a estos ajustes preestablecidos. Esta funcionalidad le ayudará a administrar comandos y ajustes de calidad para diferentes modelos de uso de imágenes en su sitio web y reducirá la longitud total de la URL.
+* Adobe Dynamic Media Classic también proporciona formas más avanzadas de ajustar la calidad de la imagen, como aplicar enfoque de imagen al ingerir. En los casos de uso avanzados en los que una opción es seguir ajustando y optimizando los resultados procesados, Adobe Professional Services puede ayudarle con la insight personalizada y con las prácticas recomendadas.

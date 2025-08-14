@@ -29,7 +29,7 @@ Sin embargo, tanto si utiliza ajustes preestablecidos de imagen y ajustes preest
 
 >[!NOTE]
 >
->los comandos de Enfocar anulan los valores de Ajuste preestablecido, incluidos sus efectos de enfoque. Un ajuste preestablecido de imagen determina el tamaño y el formato con el que se envían las imágenes desde los servidores de imágenes de Dynamic Media. Adobe Dynamic Media Classic recomienda encarecidamente utilizar ajustes preestablecidos de imagen para ofrecer todas las imágenes y garantizar que las imágenes se envíen con un tamaño y enfoque uniformes. Una vez que se cambian los valores de enfoque de una imagen individual, sin embargo, los valores de enfoque del ajuste preestablecido de imagen dejarán de aplicarse a la imagen. Se distribuye sin los valores de enfoque del ajuste preestablecido de imagen.
+>los comandos de Enfocar anulan los valores de Ajuste preestablecido, incluidos sus efectos de enfoque. Un ajuste preestablecido de imagen determina el tamaño y el formato con que se envían las imágenes desde los servidores de imágenes de Dynamic Media. Adobe Dynamic Media Classic recomienda encarecidamente utilizar ajustes preestablecidos de imagen para ofrecer todas las imágenes y garantizar que las imágenes se envíen con un tamaño y enfoque uniformes. Una vez que se cambian los valores de enfoque de una imagen individual, sin embargo, los valores de enfoque del ajuste preestablecido de imagen dejarán de aplicarse a la imagen. Se distribuye sin los valores de enfoque del ajuste preestablecido de imagen.
 
 A menudo es necesario enfocar imágenes. Adobe Dynamic Media Classic y los servidores de imágenes ofrecen varias opciones de enfoque. Es importante entender cómo afecta el enfoque a una imagen y el grado de enfoque que necesita. La mayoría de las imágenes necesitan algo de enfoque pero la cantidad necesaria depende de la imagen.
 
@@ -37,11 +37,11 @@ El enfoque de imágenes aumenta el contraste de los píxeles para crear el efect
 
 Al enfocar excesivamente una imagen, se crea un efecto de halo o una banda de las líneas del borde.
 
-Hay prácticas recomendadas que puede seguir para optimizar el enfoque de las imágenes en Adobe Dynamic Media Classic y en Dynamic Media Image Server.
+Hay prácticas recomendadas que puede seguir para optimizar el enfoque de las imágenes en Adobe Dynamic Media Classic y en el servidor de imágenes de Dynamic Media.
 
-Consulte las [Prácticas recomendadas para enfocar imágenes en Adobe Dynamic Media Classic y en Dynamic Media Image Server](/help/using/assets/s7_sharpening_images.pdf).
+Consulte las [Prácticas recomendadas para enfocar imágenes en Adobe Dynamic Media Classic y en el servidor de imágenes de Dynamic Media](/help/using/assets/s7_sharpening_images.pdf).
 
-Ver también el vídeo de aprendizaje [Enfoque](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS).
+Ver también el vídeo de aprendizaje [Enfoque](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS).
 
 **Para enfocar una imagen:**
 
@@ -58,7 +58,7 @@ La siguiente tabla muestra las opciones de enfoque del servidor de imágenes.
 | Nombre | Protocolo de URL | Valores | Ejemplo |
 | --- | --- | --- | --- |
 | Enfoque simple | `op_sharpen` | `0` o `1` | `op_sharpen=1` |
-| Modo de remuestreo | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: selecciona la interpolación bilineal estándar. Método de remuestreo más rápido; a menudo pueden verse algunos defectos de solapamiento.<br>`bicub`: selecciona la interpolación bicúbica. Requiere más CPU que `bilin`, pero genera imágenes más nítidas con menos defectos de solapamiento visibles.<br><br>`sharp2`: selecciona una función Lanczos Windows® modificada como algoritmo de interpolación. Puede producir resultados ligeramente más nítidos que los bicúbicos a un mayor coste de CPU.<br><br>`trilin`: selecciona una interpolación trilineal modificada, que utiliza resoluciones superiores e inferiores, si están disponibles. Solo se recomienda su uso cuando el solapamiento suponga un problema. Reducirá los tamaños de JPEG debido a la disminución de datos de alta frecuencia. | `resMode=sharp2` |
+| Modo de remuestreo | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: selecciona la interpolación bilineal estándar. Método de remuestreo más rápido; a menudo pueden verse algunos defectos de solapamiento.<br>`bicub`: selecciona la interpolación bicúbica. Requiere más CPU que `bilin`, pero genera imágenes más nítidas con defectos de solapamiento menos evidentes.<br><br>`sharp2`: selecciona una función Lanczos Windows® modificada como algoritmo de interpolación. Puede producir resultados ligeramente más nítidos que los bicúbicos a un coste de CPU más alto.<br><br>`trilin`: selecciona una interpolación trilineal modificada, que utiliza resoluciones superiores e inferiores, si están disponibles. Solo se recomienda su uso cuando el solapamiento suponga un problema. Reducirá los tamaños de JPEG debido a la disminución de datos de alta frecuencia. | `resMode=sharp2` |
 | Máscara de enfoque | `op_usm` | `amount`, `radius`, `threshold`, `monochrome`<br><br>`amount`: factor de intensidad del filtro (real 0...5)<br><br>`radius`: radio del núcleo del filtro en píxeles (real 0...250) <br><br>`threshold`: nivel de umbral del filtro (int 0...255)<br><br>`monochrome`: establezca en `0` para aplicar máscara de enfoque a cada componente de color por separado, establezca en `1` para aplicar brillo (intensidad) a la imagen de máscara de enfoque | `op_usm=1,1,10,0` |
 
 Seleccione el menú **[!UICONTROL Enfoque]** y elija una opción:
@@ -95,9 +95,9 @@ Seleccione el menú **[!UICONTROL Remuestreo]** y elija una opción. Estas opcio
 
 * **[!UICONTROL Bilinear]**: El método de remuestreo más rápido; pueden verse algunos defectos de solapamiento.
 
-* **[!UICONTROL Bicúbico]**: aumenta el uso de la CPU en el servidor de imágenes, pero genera imágenes más nítidas con defectos de solapamiento menos evidentes.
+* **[!UICONTROL Bicúbico]**: aumenta el uso de CPU en el servidor de imágenes, pero genera imágenes más nítidas con defectos de solapamiento menos evidentes.
 
-* **[!UICONTROL `Sharpen 2`]**: produce resultados ligeramente más enfocados que **[!UICONTROL Bicubic]**, pero con un costo de CPU aún mayor en el servidor de imágenes.
+* **[!UICONTROL `Sharpen 2`]**: produce resultados ligeramente más enfocados que **[!UICONTROL Bicubic]**, pero con un costo aún mayor para CPU en el servidor de imágenes.
 
 * **[!UICONTROL Trilinear]**: Utiliza resoluciones más altas y más bajas si está disponible; recomendado solo cuando el alias es un problema. Este método reduce el tamaño JPEG debido a la reducción de datos de alta frecuencia.
 
@@ -112,21 +112,21 @@ Los ajustes preestablecidos de imagen se pueden cambiar y actualizar en cualquie
 
 Si utiliza un ajuste preestablecido para cada imagen de una categoría de tamaño, cualquier administrador de la empresa puede actualizar la definición de dicho ajuste preestablecido de imagen. Luego pueden volver a publicar y afectar a todas las imágenes con ese formato. Todo sin cambiar ningún código web. La práctica recomendada es utilizar un ajuste preestablecido de imagen para cada tamaño único en el sitio. Para agregar un ajuste preestablecido de imagen, en la barra de navegación global, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Ajustes preestablecidos de imagen]**. A continuación, seleccione **[!UICONTROL Agregar]** o seleccione **[!UICONTROL Editar]** para cambiar un ajuste preestablecido existente. El único campo requerido es el nombre del ajuste preestablecido. Sin embargo, es mejor incluir algún nivel de enfoque en cada ajuste preestablecido.
 
-**Calidad JPG de la**
+**Calidad JPG**
 
 Las opciones de Calidad JPG controlan el nivel de compresión JPG:
 
-* **Calidad de JPG**: Seleccione esta opción si desea controlar los niveles de compresión y la disminución de resolución de crominancia.
+* **Calidad JPG**: Seleccione esta opción si desea controlar los niveles de compresión y la disminución de resolución de crominancia.
 
-* JPG **Regulador**: Determina el nivel de compresión de la compresión de la pantalla que es más. Esta configuración afecta tanto al tamaño como a la calidad de la imagen. La escala de la calidad JPG va de 1 a 100.
+* **Regulador**: Determina el nivel de compresión de JPG. Esta configuración afecta tanto al tamaño como a la calidad de la imagen. La escala de la calidad JPG va de 1 a 100.
 
-* JPG **Habilitar la disminución de resolución de crominancia en la frecuencia de la pantalla**: Debido a que el ojo es menos sensible a la información de color de alta frecuencia que a la luminancia de alta frecuencia, las imágenes en JPEG dividen la información de la imagen en componentes de luminancia y color. Al comprimir una imagen JPEG, el componente de luminancia conserva la totalidad de su resolución, mientras que la resolución de los componentes de color se disminuye mediante promedios de grupos de píxeles. La disminución de la resolución reduce el volumen de datos en la mitad o en un tercio, y casi no afecta a la calidad percibida. La disminución de resolución no se aplica a las imágenes en escala de grises. Esta técnica reduce la cantidad de compresión, lo cual resulta útil para las imágenes de mayor contraste (por ejemplo, las imágenes con texto superpuesto).
+* **Habilitar la disminución de resolución de crominancia de JPG**: como el ojo es menos sensible a la información de color de alta frecuencia que la de alta frecuencia, las imágenes de JPEG dividen la información de imagen en componentes de luminancia y color. Al comprimir una imagen JPEG, el componente de luminancia conserva la totalidad de su resolución, mientras que la resolución de los componentes de color se disminuye mediante promedios de grupos de píxeles. La disminución de la resolución reduce el volumen de datos en la mitad o en un tercio, y casi no afecta a la calidad percibida. La disminución de resolución no se aplica a las imágenes en escala de grises. Esta técnica reduce la cantidad de compresión, lo cual resulta útil para las imágenes de mayor contraste (por ejemplo, las imágenes con texto superpuesto).
 
 **Establecer opciones de enfoque para toda la compañía**
 
 Si no ha utilizado un ajuste preestablecido de imagen ni ha pasado protocolos de enfoque específicos del servidor de imágenes a lo largo de la cadena URL, no se produce ningún enfoque en la imagen cuando se reduce su resolución. Sin embargo, si no se produce este enfoque, puede establecer los valores predeterminados de enfoque para garantizar que cualquier imagen tenga siempre algún enfoque.
 
-Para establecer las opciones de enfoque predeterminadas de tu empresa, ve a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Configuración de Publish]** > **[!UICONTROL Servidor de imágenes]**. Si establece el modo de remuestreo predeterminado en **`Sharp2`**, siempre enfoca la imagen al reducir la resolución.
+Para establecer las opciones de enfoque predeterminadas de su compañía, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de aplicación]** > **[!UICONTROL Configuración de publicación]** > **[!UICONTROL Servidor de imágenes]**. Si establece el modo de remuestreo predeterminado en **`Sharp2`**, siempre enfoca la imagen al reducir la resolución.
 
 **Agregar enfoque a los ajustes preestablecidos del visor**
 
@@ -134,7 +134,7 @@ A menos que haya agregado modificadores de imagen de enfoque al ajuste preestabl
 
 Los ajustes preestablecidos del visualizador (como los ajustes preestablecidos de imagen) le permiten centralizar muchas opciones en una ubicación, incluidas las opciones de aspecto y del visualizador (como incluir un botón de impresión o controlar la velocidad de la animación de zoom). Los ajustes preestablecidos de visor se encuentran en la misma sección que los ajustes preestablecidos de imagen, en **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Ajustes preestablecidos de visor]**.
 
-Ver el vídeo de formación de [Ajustes preestablecidos del visor](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS).
+Ver el vídeo de formación de [Ajustes preestablecidos del visor](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS).
 
 La opción Modificadores se encuentra en la sección Configuración básica de todos los ajustes preestablecidos de visor de catálogos electrónicos, de conjunto de giros y de zoom personalizado. Al agregar los comandos de enfoque de URL al cuadro Modificadores, se agrega enfoque cada vez que se llama al visor con ese ajuste preestablecido de visor.
 

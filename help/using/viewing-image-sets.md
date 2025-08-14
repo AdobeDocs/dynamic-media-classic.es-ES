@@ -45,7 +45,7 @@ Puede crear y personalizar ajustes preestablecidos de visor de acuerdo con sus n
 
 ## Vista previa del conjunto de imágenes Assets en un visor {#previewing-image-set-assets-in-a-viewer}
 
-Puede utilizar Vista previa para ver cómo aparece un recurso en un tipo de visor concreto, como HTML 5. Según el tipo de recurso y el visor asociado cuya vista previa haya seleccionado, no todas las plataformas se encuentran disponibles en Vista previa.
+Puede utilizar Vista previa para ver cómo aparece un recurso en un tipo de visor concreto como HTML5. Según el tipo de recurso y el visor asociado cuya vista previa haya seleccionado, no todas las plataformas se encuentran disponibles en Vista previa.
 
 1. En el panel Biblioteca de recursos de la izquierda, en la lista desplegable **[!UICONTROL Mostrar]**, elija **[!UICONTROL Conjunto de imágenes]**.
 1. En el panel Biblioteca de recursos del lado izquierdo, navegue por las carpetas de recursos para seleccionar el conjunto de imágenes cuya vista previa desee obtener.

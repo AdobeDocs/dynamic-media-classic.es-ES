@@ -33,7 +33,7 @@ Al cargar archivos de imagen PostScript (EPS) o Illustrator (AI), se les puede d
 
    * **[!UICONTROL Detectar automáticamente]**: conserva el espacio de color del archivo.
 
-   * **[!UICONTROL Forzar como RGB]**: se convierte al espacio de color del RGB.
+   * **[!UICONTROL Forzar como RGB]**: se convierte al espacio de color de RGB.
 
    * **[!UICONTROL Forzar como CMYK]**: se convierte al espacio de color CMYK.
 

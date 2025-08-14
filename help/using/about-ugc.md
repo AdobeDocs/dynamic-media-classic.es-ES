@@ -20,11 +20,11 @@ ht-degree: 33%
 
 El uso de UGC (contenido generado por el usuario) consiste en cargar recursos a un repositorio de almacenamiento de Adobe Dynamic Media Classic dedicado y realizar operaciones relacionadas.
 
-UGC admite formatos de archivo de imagen rasterizada BMP, GIF, JPG, PNG, PSD, TIFF.
+UGC admite los formatos de archivo de imagen rasterizada BMP, GIF, JPG, PNG, PSD y TIFF.
 
 >[!IMPORTANT]
 >
->A partir del 1 de mayo de 2023, los recursos UGC de Dynamic Media estarán disponibles para su uso durante un máximo de 60 días a partir de la fecha de carga. Después de 60 días, los recursos se eliminarán.
+>A partir del 1 de mayo de 2023, los recursos UGC en Dynamic Media estarán disponibles para su uso hasta 60 días después de la fecha de carga. Después de 60 días, los recursos se eliminarán.
 
 <!-- * Vector: AI, EPS (EPS files from Adobe Illustrator 2018 are not supported), PDF (only when the PDF file is previously opened and saved in Adobe Illustrator CS6) -->
 

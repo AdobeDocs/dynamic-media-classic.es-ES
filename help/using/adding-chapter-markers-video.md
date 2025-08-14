@@ -25,7 +25,7 @@ Puede facilitar la visualización y navegación de los vídeos de formato largo 
 >
 >El reproductor de vídeo que se utilice debe admitir los marcadores de capítulo.
 
-Consulte [Agregar o editar un ajuste preestablecido del visor de vídeo](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) si desea configurar los puntos de referencia de navegación por capítulos y el texto emergente del título del capítulo para el visor `Universal_HTML5_Video` (HTML 5).
+Consulte [Agregar o editar un ajuste preestablecido de visor de vídeo](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) si desea configurar los puntos de referencia de navegación por capítulos y el texto emergente del título del capítulo para el visor `Universal_HTML5_Video` (HTML5).
 
 Consulte también [Agregar y editar ajustes preestablecidos de visor](application-setup.md#adding_and_editing_viewer_presets).
 
@@ -85,6 +85,6 @@ Ver [WebVTT: el formato de seguimiento de texto de vídeo web](https://w3c.githu
 
      En el cuadro de diálogo Código incrustado, seleccione **[!UICONTROL Copiar al Portapapeles]**.
 
-     Para el visor HTML5 `Universal_HTML5_Video`, anexe el código incrustado copiado con lo siguiente:
+     Para el visor de HTML5 `Universal_HTML5_Video`, anexe el código incrustado copiado con lo siguiente:
 
      `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*"`

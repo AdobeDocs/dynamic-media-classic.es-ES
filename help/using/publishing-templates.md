@@ -19,7 +19,7 @@ ht-degree: 11%
 
 # Publicación de plantillas{#publishing-templates}
 
-La publicación de la plantilla la coloca en Dynamic Media Image Servers, donde está disponible para el sitio web y la aplicación. Durante el proceso de publicación, Adobe Dynamic Media Classic activa las direcciones URL necesarias para el sitio web y la aplicación.
+La publicación de la plantilla la coloca en Servidores de imágenes de Dynamic Media, donde está disponible para el sitio web y la aplicación. Durante el proceso de publicación, Adobe Dynamic Media Classic activa las direcciones URL necesarias para el sitio web y la aplicación.
 
 >[!NOTE]
 >
@@ -27,11 +27,11 @@ La publicación de la plantilla la coloca en Dynamic Media Image Servers, donde 
 
 ## Marcar plantillas para publicación {#marking-templates-for-publish}
 
-Las plantillas y todos sus archivos de soporte deben marcarse para su publicación para que se coloquen en los servidores de imágenes de Dynamic Media. Puede marcar estos elementos para su publicación en el panel Examinar seleccionando el icono **[!UICONTROL Marcar para Publish]**.
+Las plantillas y todos sus archivos de soporte deben marcarse para su publicación a fin de que se coloquen en los servidores de imágenes de Dynamic Media. Puede marcar estos elementos para su publicación en el panel Examinar seleccionando el icono **[!UICONTROL Marcar para publicación]**.
 
-## Publish su plantilla {#publishing-your-template}
+## Publicación de la plantilla {#publishing-your-template}
 
-Para publicar plantillas en Dynamic Media Image Servers, en la barra de navegación global, seleccione **[!UICONTROL Publish]** y, a continuación, seleccione una opción **[!UICONTROL When]**. Si lo desea, puede introducir un nombre para el trabajo de publicación. Seleccione **[!UICONTROL Enviar Publish]**.
+Para publicar plantillas en servidores de imágenes de Dynamic Media, en la barra de navegación global, seleccione **[!UICONTROL Publicar]** y, a continuación, seleccione una opción **[!UICONTROL Cuando]**. Si lo desea, puede introducir un nombre para el trabajo de publicación. Seleccione **[!UICONTROL Enviar publicación]**.
 
 >[!MORELIKETHIS]
 >

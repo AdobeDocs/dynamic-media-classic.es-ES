@@ -19,13 +19,13 @@ ht-degree: 0%
 
 # Ya disponible: aplicación de escritorio de Adobe Dynamic Media Classic {#dynamic-media-classic-desktop-app}
 
-Los usuarios de Adobe Dynamic Media Classic ahora tienen acceso a una nueva experiencia de aplicación de escritorio que ya no depende de la tecnología de Flash de Adobe en el navegador.
+Los usuarios de Adobe Dynamic Media Classic ahora tienen acceso a una nueva experiencia de aplicación de escritorio que ya no depende de la tecnología Adobe Flash en el navegador.
 
 Esta nueva aplicación ya está disponible para Windows® y macOS.
 
 >[!IMPORTANT]
 >
->El Adobe recomienda instalar la nueva aplicación de escritorio de Adobe Dynamic Media Classic antes del 1 de octubre de 2020. Al hacerlo, se garantiza una transición sin problemas antes de que el Flash Player de Adobe quede obsoleto el 31 de diciembre de 2020. Después de esta fecha, no podrá iniciar sesión en la versión del explorador de la interfaz de usuario de Adobe Dynamic Media Classic, etiquetada como Adobe Dynamic Media Classic en el producto.
+>Adobe recomienda instalar la nueva aplicación de escritorio de Adobe Dynamic Media Classic antes del 1 de octubre de 2020. Al hacerlo, se garantiza una transición sin problemas antes de que Adobe Flash Player quede obsoleto el 31 de diciembre de 2020. Después de esta fecha, no podrá iniciar sesión en la versión del explorador de la interfaz de usuario de Adobe Dynamic Media Classic, etiquetada como Adobe Dynamic Media Classic en el producto.
 
 Ver las preguntas frecuentes para el [nuevo inicio de sesión de Adobe Dynamic Media Classic ya disponible.](/help/using/new-ui-2020.md)
 
@@ -67,10 +67,10 @@ No se ha generado una notificación de actualización en la aplicación de escri
 ## Correcciones en la versión 20.21.2 {#minor-release}
 
 * Limitación conocida en 20.21.1: la lista desplegable **[!UICONTROL Servidor]** de la pantalla de inicio de sesión estaba vacía.
-* En **[!UICONTROL Opciones de trabajo de carga]**, el valor predeterminado del nombre de capa en **[!UICONTROL Opciones de Photoshop]** es ahora **[!UICONTROL Photoshop y Nombre de capa]**. Las capas del archivo de PSD se cargan como imágenes independientes.
-   * El valor predeterminado anterior de **[!UICONTROL Nombre de capa]**, asignaba a las imágenes el nombre de su nombre o número de capa en el archivo PSD. El número de capa se utilizaba si los nombres de capa del fichero de PSD eran nombres de capa de Photoshop por defecto.
-   * El nuevo valor predeterminado de **[!UICONTROL Photoshop y Nombre de capa]**, asigna un nombre a las imágenes después del archivo de PSD seguido del nombre o número de capa. El número de capa se utiliza si los nombres de capa del fichero de PSD son nombres de capa de Photoshop por defecto.
-   * Dado que las imágenes de capa de Adobe Dynamic Media Classic ahora tienen nombres únicos, no se va a realizar ninguna actualización de las plantillas existentes o del PSD (qué nombres de capa compartidos en los archivos de PSD originales).
+* En **[!UICONTROL Opciones de trabajo de carga]**, el valor predeterminado del nombre de capa en **[!UICONTROL Opciones de Photoshop]** es ahora **[!UICONTROL Photoshop y Nombre de capa]**. Las capas del archivo PSD se cargan como imágenes independientes.
+   * El valor predeterminado anterior de **[!UICONTROL Nombre de capa]**, asignaba a las imágenes el nombre de su nombre o número de capa en el archivo PSD. El número de capa se utilizaba si los nombres de capa del fichero PSD eran nombres de capa de Photoshop por defecto.
+   * El nuevo valor predeterminado de **[!UICONTROL Photoshop y Nombre de capa]**, asigna un nombre a las imágenes después del archivo PSD seguido del nombre o número de capa. El número de capa se utiliza si los nombres de capa del fichero PSD son nombres de capa Photoshop por defecto.
+   * Dado que las imágenes de capa en Adobe Dynamic Media Classic ahora tienen nombres únicos, no se van a realizar actualizaciones en PSD o Templates existentes (qué nombres de capa compartidos tienen los archivos PSD originales).
 * Miniaturas de recursos rotas.
 
 ## Correcciones en la versión 20.21.1 {#latest-fixes-desktop-app}
@@ -233,14 +233,14 @@ Para descargar y *instalar en modo silencioso* la versión más reciente de la a
 
 ## Introducción a vídeo sobre el uso de Adobe Dynamic Media Classic Desktop App {#dmc-app-video-walk-through}
 
-Vea un recorrido en vídeo de [con la aplicación Adobe Dynamic Media Classic para escritorio](https://experienceleague.adobe.com/es/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (duración: 2 minutos y 36 segundos).
+Vea un recorrido en vídeo de [con la aplicación Adobe Dynamic Media Classic para escritorio](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (duración: 2 minutos y 36 segundos).
 
 ## Borrando la caché de imágenes y de recursos del equipo mediante la aplicación de escritorio {#clear-cache}
 
 1. En la aplicación de escritorio de Adobe Dynamic Media Classic, cerca de la esquina superior derecha, pulsa **[!UICONTROL Configuración]** > **[!UICONTROL Configuración personal]**.
 1. En la página **[!UICONTROL Configuración personal]**, en el encabezado **[!UICONTROL Escritorio]**, realice una de las siguientes acciones:
-   * Para quitar todos los archivos de imagen en caché de Dynamic Media de Adobe del equipo, puntee **[!UICONTROL Borrar caché de imágenes]** y, a continuación, puntee **[!UICONTROL Aceptar]**.
-   * Para quitar todos los archivos de recursos en caché de Dynamic Media de Adobe del equipo, puntee **[!UICONTROL Borrar caché de recursos]** y, a continuación, puntee **[!UICONTROL Aceptar]**.
+   * Para quitar todos los archivos de imagen en caché de Adobe Dynamic Media del equipo, pulse **[!UICONTROL Borrar caché de imágenes]** y, a continuación, pulse **[!UICONTROL Aceptar]**.
+   * Para quitar todos los archivos de recursos en caché de Adobe Dynamic Media del equipo, pulse **[!UICONTROL Borrar caché de recursos]** y, a continuación, pulse **[!UICONTROL Aceptar]**.
 1. En la esquina inferior derecha de la página, pulse **[!UICONTROL Cerrar]**.
 
 ### Borrado manual de la caché de imágenes y la caché de recursos
@@ -271,11 +271,11 @@ Además de borrar la caché de imágenes y recursos mediante la aplicación de e
 
 ## Sugerencias y trucos
 
-**_No puedo ver el panel Carro de medios en la página de aterrizaje de Adobe Dynamic Media Classic._**<br>En Adobe Dynamic Media Classic, pulse&#x200B;**[!UICONTROL Configuración > Configuración personal &#x200B;]**. En la sección Explorador, asegúrese de que&#x200B;**[!UICONTROL Mostrar características de MediaPortal &#x200B;]**&#x200B;está seleccionado (marcado). Pulse&#x200B;**[!UICONTROL Guardar > Cerrar &#x200B;]**.
+**_No puedo ver el panel Carro de medios en la página de aterrizaje de Adobe Dynamic Media Classic._**<br>En Adobe Dynamic Media Classic, pulse**[!UICONTROL Configuración > Configuración personal ]**. En la sección Explorador, asegúrese de que**[!UICONTROL Mostrar características de MediaPortal ]**está seleccionado (marcado). Pulse**[!UICONTROL Guardar > Cerrar ]**.
 
-**_El estado de Publish (indicador verde) de un recurso no se refleja correctamente._**<br>En la interfaz de usuario del explorador, era necesario volver a iniciar sesión en la interfaz de usuario para ver el estado de publicación correcto de los recursos. En la aplicación de escritorio, el Adobe ha incluido un icono&#x200B;**[!UICONTROL Actualizar &#x200B;]**&#x200B;en la barra de herramientas, a la derecha del botón&#x200B;**[!UICONTROL Seleccionar ninguno &#x200B;]**. Pulse el icono&#x200B;**[!UICONTROL Actualizar &#x200B;]**&#x200B;para ver el estado más reciente de todos los recursos de la página dada. No es necesario volver a iniciar sesión, como con la interfaz de usuario del explorador.
+**_El estado de publicación (indicador verde) de un recurso no se refleja correctamente._**<br>En la interfaz de usuario del explorador, era necesario volver a iniciar sesión en la interfaz de usuario para ver el estado de publicación correcto de los recursos. En la aplicación de escritorio, Adobe ha incluido el icono**[!UICONTROL Actualizar ]**en la barra de herramientas, a la derecha del botón**[!UICONTROL Seleccionar ninguno ]**. Pulse el icono**[!UICONTROL Actualizar ]**para ver el estado más reciente de todos los recursos de la página dada. No es necesario volver a iniciar sesión, como con la interfaz de usuario del explorador.
 
 ![Icono de actualización](/help/using/assets/refresh-icon1.png)
 *Icono de actualización*
 
-**_No veo que funcionen los ajustes preestablecidos de conjunto por lotes en la aplicación de escritorio._**<br>Pulse&#x200B;**[!UICONTROL Cargar > Opciones del trabajo > Ajustes preestablecidos de conjunto de lotes &#x200B;]**. Asegúrese de que el&#x200B;**[!UICONTROL ajuste preestablecido del conjunto de lotes &#x200B;]**&#x200B;correspondiente esté habilitado. Haga clic en&#x200B;**[!UICONTROL Guardar y enviar carga &#x200B;]**.
+**_No veo que funcionen los ajustes preestablecidos de conjunto por lotes en la aplicación de escritorio._**<br>Pulse**[!UICONTROL Cargar > Opciones del trabajo > Ajustes preestablecidos de conjunto de lotes ]**. Asegúrese de que el**[!UICONTROL ajuste preestablecido del conjunto de lotes ]**correspondiente esté habilitado. Haga clic en**[!UICONTROL Guardar y enviar carga ]**.

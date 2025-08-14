@@ -33,9 +33,9 @@ Para ver los metadatos de un recurso, ábralo en Vista de detalles y pulse el pa
 
 * **Vista compacta**: Una lista básica de valores.
 
-* **IPTC**: Valores definidos por el Consejo Internacional de Telecomunicaciones de la Prensa.
+* **IPTC**: Valores según la definición del International Press Telecommunications Council.
 
-* XMP **&#x200B;**: valores definidos por el programa de metadatos extensible.
+* **XMP**: valores definidos por el programa de metadatos extensible.
 
 Los administradores pueden crear vistas de metadatos. Estas vistas también aparecen en el menú Vistas de metadatos.
 
@@ -73,7 +73,7 @@ Si ha añadido palabras clave a otros archivos durante esta sesión o si ha elim
 >[!NOTE]
 >
 >Puede añadir palabras clave a los archivos a medida que los carga en Adobe Dynamic Media Classic. En el cuadro de diálogo Cargar opciones del trabajo, elija **[!UICONTROL Más metadatos]** e introduzca palabras clave.
->Consulte [Opciones de carga](uploading-files.md#upload_options).
+>>Consulte [Opciones de carga](uploading-files.md#upload_options).
 
 ## Importación de metadatos {#import-metadata}
 
@@ -82,9 +82,9 @@ En lugar de introducir los metadatos manualmente de uno en uno, puede importar l
 >[!NOTE]
 >
 >Puede crear una plantilla para introducir metadatos de modo que se puedan importar correctamente a Adobe Dynamic Media Classic. Después de crear la plantilla, puede utilizarla para introducir los metadatos.
->Consulte [Creación de una plantilla para la introducción y carga de metadatos](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload).
+>>Consulte [Creación de una plantilla para la introducción y carga de metadatos](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload).
 
-Puede encontrar más información sobre las propiedades estandarizadas en [Centro para desarrolladores de Adobe XMP](https://www.adobe.com/devnet/xmp.html).
+Puede encontrar más información sobre propiedades estandarizadas en [Adobe XMP Developer Center](https://www.adobe.com/devnet/xmp.html).
 
 1. En el panel Examinar, seleccione las imágenes a las que desea agregar metadatos desde el archivo XML o delimitado por tabulaciones.
 1. Vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Importar metadatos]**.
@@ -98,20 +98,20 @@ Puede encontrar más información sobre las propiedades estandarizadas en [Centr
 Tenga en cuenta lo siguiente al identificar diferentes tipos de metadatos para su importación:
 
 * Los nombres de los campos definidos por el usuario se identifican como creados en **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Metadatos]** > **[!UICONTROL Campos definidos por el usuario]**. Utilice la funcionalidad `Generate file` para obtener una lista de todas las FDU definidas en el formato de importación correcto.
-* Las propiedades de metadatos XMP deben tener el prefijo XMP correspondiente antes que el nombre (propiedad- ). Dos puntos separan el prefijo y el nombre. XMP El prefijo se encuentra en **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de aplicación]** > **[!UICONTROL Metadatos]** > Editor de **[!UICONTROL esquemas de metadatos]**. Los nombres técnicos se pueden encontrar en la documentación del esquema de XMP correspondiente. XMP Los nombres de propiedades de la propiedad no aparecen en la característica `Generate file`.
+* Las propiedades de metadatos XMP deben tener el prefijo XMP correspondiente antes que el nombre (propiedad- ). Dos puntos separan el prefijo y el nombre. El prefijo XMP se encuentra en el editor de **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de aplicación]** > **[!UICONTROL Metadatos]** > **[!UICONTROL Esquema de metadatos]**. Los nombres técnicos se pueden encontrar en la documentación del esquema de XMP correspondiente. Los nombres de las propiedades de XMP no aparecen en la característica `Generate file`.
 * Las propiedades del esquema de metadatos deben tener el prefijo correspondiente antes del nombre (propiedad- ). Dos puntos separan el prefijo y el nombre. El prefijo y los nombres de propiedad se definen en el Editor de esquemas de metadatos. Los nombres de las propiedades del esquema de metadatos no aparecen en la característica `Generate file`.
 
-XMP XMP XMP Por ejemplo: la propiedad de la palabra clave en el caso de las palabras clave es el esquema de la palabra clave &quot;Dublin Core&quot; con el prefijo `dc` y `subject` es el nombre técnico de la palabra clave en el caso de las palabras clave XMP El prefijo y el nombre técnico de la propiedad se combinan en el nombre completo de la propiedad `dc:subject`. En el formato de importación de metadatos XML, `dc.subject` debe ser el nombre de la propiedad. En el formato de importación delimitado por tabuladores, debe ser el encabezado de columna.
+Por ejemplo: la propiedad XMP para palabras clave es el esquema de XMP &quot;Dublin Core&quot; con el prefijo `dc` y `subject` es el nombre técnico de XMP. El prefijo y el nombre técnico de XMP se combinan en el nombre completo de la propiedad `dc:subject`. En el formato de importación de metadatos XML, `dc.subject` debe ser el nombre de la propiedad. En el formato de importación delimitado por tabuladores, debe ser el encabezado de columna.
 
 ### Importación de palabras clave
 
 Las palabras clave se pueden importar como listas separadas por comas. Si aparece una coma en cualquiera de los valores individuales, escríbala con una barra invertida (\). Una barra invertida literal es la barra invertida doble habitual (\\).
 
-XMP Por ejemplo, un archivo de importación de metadatos que contiene el valor `Hello\, World!,back\\slash,foo` para `dc:subject` establece tres palabras clave de la palabra clave de la en el recurso: `Hello, World!,` `back\slash,` y `foo`.
+Por ejemplo, un archivo de importación de metadatos que contiene el valor `Hello\, World!,back\\slash,foo` para `dc:subject` establece tres palabras clave de XMP en el recurso: `Hello, World!,` `back\slash,` y `foo`.
 
 ### Importación de archivos XMP de metadatos de esquemas de metadatos y XMP
 
-La importación de XML solo acepta XML válido. XMP XMP Al importar campos de esquema de metadatos o de recursos, el prefijo del área de nombres se agrega y se comporta aquí como un área de nombres de la. Este área de nombres debe declararse. Por ejemplo, en la etiqueta de nivel superior.
+La importación de XML solo acepta XML válido. Al importar campos de XMP o de esquema de metadatos, el prefijo del área de nombres se agrega y se comporta aquí como un área de nombres de XMP. Este área de nombres debe declararse. Por ejemplo, en la etiqueta de nivel superior.
 
 Por ejemplo:
 
@@ -121,7 +121,7 @@ Por ejemplo:
 </ips>
 ```
 
-### XMP Importar archivos delimitados por tabuladores de metadatos y esquemas de metadatos
+### Importar archivos delimitados por tabuladores de metadatos y XMP
 
 El prefijo debe agregarse en el encabezado de la columna correspondiente del campo de importación.
 
@@ -163,7 +163,7 @@ Adobe Dynamic Media Classic ofrece un comando para crear una plantilla para grab
 
 Un administrador de la empresa puede ver una lista de todos los esquemas disponibles. En la barra de navegación global, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de aplicación]** > **[!UICONTROL Metadatos]** > **[!UICONTROL Esquema de metadatos]**.
 
-XMP Inicialmente, la lista de esquemas estándar globales como está oculta Para verlos, use la casilla de verificación de la parte inferior de la lista.
+Inicialmente, la lista de esquemas estándar globales como XMP está oculta. Para verlos, use la casilla de verificación de la parte inferior de la lista.
 
 El administrador de la empresa puede crear un esquema personalizado o editar uno existente.
 
@@ -175,7 +175,7 @@ Puede utilizar el editor de esquemas de metadatos para realizar las siguientes a
 | Agregar valor de opción | Agrega una nueva opción seleccionable a una propiedad con estructura Opción abierta u Opción cerrada. Todos los valores de opción son del mismo tipo. Seleccione la propiedad en sí para habilitar el botón. |
 | Editar | Permite editar la etiqueta de una propiedad o valor de opción. Solo se puede cambiar la etiqueta, ID, y la información de tipo es inmutable. |
 | Subir/Bajar | El orden en el esquema se refleja en la interfaz de usuario. Para cambiar el orden, seleccione una propiedad o un valor de opción, y muévalos con los botones. Arrastrar y soltar no es compatible actualmente. |
-| Eliminar | Elimina una propiedad o un valor de opción del esquema. XMP No elimina valores del bloque de la base de datos o del bloque de la base de datos de la. La propiedad ya no está disponible para las vistas de metadatos y se elimina de la vista de detalles del recurso. Si la propiedad se publicó en el servidor de metadatos, realice una publicación forzada para eliminar los datos del servidor de metadatos público. |
+| Eliminar | Elimina una propiedad o un valor de opción del esquema. No elimina valores del bloque de XMP ni de la base de datos. La propiedad ya no está disponible para las vistas de metadatos y se elimina de la vista de detalles del recurso. Si la propiedad se publicó en el servidor de metadatos, realice una publicación forzada para eliminar los datos del servidor de metadatos público. |
 
 El sistema genera automáticamente un esquema personalizado para los campos definidos por el usuario con el prefijo `s7udf`. El esquema consta de campos definidos por el usuario existentes que se editan en su propia sección de configuración.
 
@@ -187,9 +187,9 @@ El Editor de esquemas de metadatos ofrece una forma gráfica de agregar o editar
 
 * **[!UICONTROL Nombre]**: UI-Name para el esquema. Se utiliza para identificar las propiedades en las vistas de metadatos y la búsqueda avanzada. Similar a las secciones XMP como Basic, IPTC, PDF.
 
-* **[!UICONTROL Prefijo]**: identificador técnico único del esquema. Limitado a las letras a-z y A-Z. El prefijo no está visible en la interfaz de usuario de Adobe Dynamic Media Classic XMP, pero se utiliza cuando los metadatos de un recurso se almacenan en el bloque de la base de datos y en el bloque de la base de datos de la aplicación. El prefijo identifica de forma exclusiva los campos de metadatos en las consultas de búsqueda de metadatos del servidor de metadatos o en la importación.
+* **[!UICONTROL Prefijo]**: identificador técnico único del esquema. Limitado a las letras a-z y A-Z. El prefijo no está visible en la interfaz de usuario de Adobe Dynamic Media Classic, pero se utiliza cuando los metadatos de un recurso se almacenan en el bloque de XMP y en la base de datos. El prefijo identifica de forma exclusiva los campos de metadatos en las consultas de búsqueda de metadatos del servidor de metadatos o en la importación.
 
-* **[!UICONTROL Espacio de nombres]**: Identificador técnico único del esquema, normalmente una dirección URL con el formato `https://your.company.com/name/version/`. Consulte ejemplos en la lista de esquemas de estándares. El área de nombres no está visible en la interfaz de usuario de Adobe Dynamic Media Classic XMP, pero se utiliza para almacenar metadatos en el bloque de.
+* **[!UICONTROL Espacio de nombres]**: Identificador técnico único del esquema, normalmente una dirección URL con el formato `https://your.company.com/name/version/`. Consulte ejemplos en la lista de esquemas de estándares. El área de nombres no está visible en la interfaz de usuario de Adobe Dynamic Media Classic, pero se utiliza para almacenar metadatos en el bloque de XMP.
 
 * **[!UICONTROL Descripción]**: descripción en formato libre del esquema.
 
@@ -201,7 +201,7 @@ Las propiedades describen los metadatos que se pueden almacenar con este esquema
 
 | Propiedad | Descripción |
 | --- | --- |
-| ID | Identificador técnico para esta propiedad. El ID no es visible en la interfaz de usuario de Adobe Dynamic Media Classic XMP, pero se utiliza cuando los metadatos de un recurso se almacenan en el bloque de la base de datos y en el bloque de la base de datos de la base de datos. El ID se utiliza para crear consultas de búsqueda en el servidor de metadatos. El identificador tiene algunas restricciones como: `<ul><li>No spaces</li><li>No ".", ":", "$"</li><li>No number as first character</li><li>Best practice is to use a-z or A-Z as first character</li></ul>` <br>Una vez creado, el identificador no se puede cambiar. |
+| ID | Identificador técnico para esta propiedad. El ID no es visible en la interfaz de usuario de Adobe Dynamic Media Classic, pero se utiliza cuando los metadatos de un recurso se almacenan en el bloque de XMP y en la base de datos. El ID se utiliza para crear consultas de búsqueda en el servidor de metadatos. El identificador tiene algunas restricciones como: `<ul><li>No spaces</li><li>No ".", ":", "$"</li><li>No number as first character</li><li>Best practice is to use a-z or A-Z as first character</li></ul>` <br>Una vez creado, el identificador no se puede cambiar. |
 | Etiqueta | Nombre de interfaz de usuario para esta propiedad. |
 | Estructura | Determina el tipo de la propiedad junto con el tipo de datos. La estructura puede ser uno de los siguientes valores:<ul><li>Tipo simple: solo el valor del tipo de datos.</li><li>Secuencia: una lista de valores del mismo tipo de datos.</li><li>Abrir opción: seleccione un elemento de una lista de valores predefinidos o introduzca texto. Solo puede ser del tipo de datos Cadena o Entero</li><li>Opción cerrada: seleccione un elemento de la lista de valores predefinidos (una ventana emergente o un cuadro combinado).</li></ul> |
 | Tipo de datos | Seleccione uno de estos tipos disponibles: <ul><li>Cadena</li><li>Entero</li><li>Flotante</li><li>Sí/No (booleano)</li><li>Fecha</li></ul> |
@@ -210,7 +210,7 @@ Cuando la propiedad tiene la estructura Opción abierta u Opción cerrada, debe 
 
 | Propiedad | Descripción |
 | --- | --- |
-| ID | Identificador técnico para este valor. El ID no es visible en la interfaz de usuario de Adobe Dynamic Media Classic XMP, pero se utiliza cuando los metadatos de un recurso se almacenan en el bloque de la base de datos y en el bloque de la base de datos de la base de datos. Este ID se utiliza en las consultas de búsquedas del servidor de metadatos. El ID no puede contener espacios. Una vez creado, el ID no se puede modificar. |
+| ID | Identificador técnico para este valor. El ID no es visible en la interfaz de usuario de Adobe Dynamic Media Classic, pero se utiliza cuando los metadatos de un recurso se almacenan en el bloque de XMP y en la base de datos. Este ID se utiliza en las consultas de búsquedas del servidor de metadatos. El ID no puede contener espacios. Una vez creado, el ID no se puede modificar. |
 | Etiqueta | Nombre de interfaz de usuario para este valor. |
 
 >[!MORELIKETHIS]

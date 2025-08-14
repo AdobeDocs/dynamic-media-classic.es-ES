@@ -63,5 +63,5 @@ Puede recortar los píxeles transparentes o de color sólido del borde de una im
 >[!MORELIKETHIS]
 >
 >* [Opciones para editar imágenes al cargar](image-editing-options-upload.md#image-editing-options-at-upload)
->* [Recortar espacio en blanco de un archivo de PDF](pdfs.md#cropping_white_space_from_a_pdf_file)
->* [Recorte desde los lados de las páginas del PDF](pdfs.md#cropping_from_the_sides_of_pdf_pages)
+>* [Recortar espacio en blanco de un archivo PDF](pdfs.md#cropping_white_space_from_a_pdf_file)
+>* [Recorte desde los lados de las páginas de PDF](pdfs.md#cropping_from_the_sides_of_pdf_pages)

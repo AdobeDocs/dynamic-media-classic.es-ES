@@ -19,9 +19,9 @@ ht-degree: 0%
 
 # Iniciar sesión en Adobe Analytics{#log-in-to-adobe-analytics}
 
-Compruebe que es miembro del grupo Acceso a servicio Web de Adobe Analytics. Hágalo antes de iniciar sesión para configurar informes de Adobe Analytics y relacionar variables de informes de Adobe Analytics con eventos de Adobe Dynamic Media Classic. Los miembros de este grupo pueden acceder a todos los informes de los grupos de informes especificados. Para ello, utilice la API de servicios web del Experience Cloud, independientemente de los permisos establecidos en la interfaz. Para agregar un miembro al grupo, en Adobe Analytics, ve a **[!UICONTROL Herramientas de administración]** > **[!UICONTROL Administración de usuarios]** > **[!UICONTROL Editar grupos]**.
+Compruebe que es miembro del grupo Acceso a servicio Web de Adobe Analytics. Hágalo antes de iniciar sesión para configurar informes de Adobe Analytics y relacionar variables de informes de Adobe Analytics con eventos de Adobe Dynamic Media Classic. Los miembros de este grupo pueden acceder a todos los informes de los grupos de informes especificados. Para ello, utilice la API de servicios web de Experience Cloud, independientemente de los permisos establecidos en la interfaz. Para agregar un miembro al grupo, en Adobe Analytics, ve a **[!UICONTROL Herramientas de administración]** > **[!UICONTROL Administración de usuarios]** > **[!UICONTROL Editar grupos]**.
 
-Al iniciar sesión, tiene la opción de introducir el ID de organización de Experience Cloud para utilizar la implementación de análisis de vídeo más reciente. Si decide no introducir su ID, el sistema de informes de vídeo seguirá funcionando. Sin embargo, puede hacer que los datos no se integren correctamente con otros datos de ese cliente desde fuera de Adobe Dynamic Media Classic.
+Al iniciar sesión, tiene la opción de introducir su ID de organización de Experience Cloud para utilizar la implementación de análisis de vídeo más reciente. Si decide no introducir su ID, el sistema de informes de vídeo seguirá funcionando. Sin embargo, puede hacer que los datos no se integren correctamente con otros datos de ese cliente desde fuera de Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >

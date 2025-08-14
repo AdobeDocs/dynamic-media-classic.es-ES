@@ -1,6 +1,6 @@
 ---
-title: Archivos Publish
-description: Obtenga información sobre cómo publicar sus recursos en Dynamic Media Image Servers.
+title: Publicar archivos
+description: Obtenga información sobre cómo publicar sus recursos en servidores de imágenes de Dynamic Media.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -17,23 +17,23 @@ ht-degree: 21%
 
 ---
 
-# Archivos Publish{#publishing-files}
+# Publicar archivos{#publishing-files}
 
-Los recursos se publican en Dynamic Media Image Servers. Puede publicar recursos una vez o hacer que Adobe Dynamic Media Classic publique los recursos de forma recurrente. Después de publicarse, tiene los recursos disponibles para su entrega. Puede copiar las llamadas de URL desde Adobe Dynamic Media Classic y añadirlas a su sitio web o aplicación.
+Los recursos se publican en servidores de imágenes de Dynamic Media. Puede publicar recursos una vez o hacer que Adobe Dynamic Media Classic publique los recursos de forma recurrente. Después de publicarse, tiene los recursos disponibles para su entrega. Puede copiar las llamadas de URL desde Adobe Dynamic Media Classic y añadirlas a su sitio web o aplicación.
 
-Adobe Dynamic Media Classic ahora admite el envío de todas las imágenes y vídeos a través de HTTP/2. Es decir, hay disponible una URL publicada o un código incrustado para la imagen o el vídeo que se va a integrar con cualquier aplicación que acepte un recurso alojado. Ese recurso publicado utiliza el protocolo HTTP/2 para entregarlo. Este método de entrega mejora la forma en que los navegadores y servidores se comunican, lo que permite una mejor respuesta y tiempos de carga de todos los recursos de Adobe Dynamic Media Classic. Consulte [Preguntas frecuentes sobre la entrega de contenido HTTP2](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/dynamic/http2).
+Adobe Dynamic Media Classic ahora admite el envío de todas las imágenes y vídeos a través de HTTP/2. Es decir, hay disponible una URL publicada o un código incrustado para la imagen o el vídeo que se va a integrar con cualquier aplicación que acepte un recurso alojado. Ese recurso publicado utiliza el protocolo HTTP/2 para entregarlo. Este método de entrega mejora la forma en que los navegadores y servidores se comunican, lo que permite una mejor respuesta y tiempos de carga de todos los recursos de Adobe Dynamic Media Classic. Consulte [Preguntas frecuentes sobre la entrega de contenido HTTP2](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2).
 
 ## Publicar tras la carga {#publish-after-uploading}
 
 Los recursos están en un estado publicado o no. De forma predeterminada, todos los recursos que cargue en Adobe Dynamic Media Classic se marcarán automáticamente para su publicación.
 
-Para obtener más información, consulte [PDF de avisos instantáneos de Publish](/help/using/assets/rendering-instant-publish-notification.pdf).
+Para obtener más información, consulte [Aviso de publicación instantánea PDF](/help/using/assets/rendering-instant-publish-notification.pdf).
 
 Utilice estas técnicas para marcar recursos para su publicación:
 
-* **[!UICONTROL Publish después de cargar]**: en la página Cargar, cerca de la parte inferior, selecciona **[!UICONTROL Publish después de cargar]**. El valor predeterminado es un estado seleccionado.
+* **[!UICONTROL Publicar después de cargar]**: en la página Cargar, cerca de la parte inferior, seleccione **[!UICONTROL Publicar después de cargar]**. El valor predeterminado es un estado seleccionado.
 
-* **[!UICONTROL Publish después de cargar]**: en el cuadro de diálogo Opciones del trabajo, seleccione **[!UICONTROL Publish después de cargar]**. El valor predeterminado es un estado seleccionado.
+* **[!UICONTROL Publicar después de cargar]**: En el cuadro de diálogo Opciones del trabajo, seleccione **[!UICONTROL Publicar después de cargar]**. El valor predeterminado es un estado seleccionado.
 
 Algunos recursos &quot;secundarios&quot; se marcan para la publicación de forma automática al marcarse para publicación los recursos principales. Esta tabla enumera los recursos secundarios marcados automáticamente para su publicación.
 
@@ -52,7 +52,7 @@ Cree un trabajo de publicación para publicar los recursos que ha cargado en los
 
 **Para crear un trabajo de publicación:**
 
-1. En la barra de navegación global, seleccione **[!UICONTROL Publish]**.
+1. En la barra de navegación global, seleccione **[!UICONTROL Publicar]**.
 1. En el cuadro de diálogo Publicación, elija si desea un trabajo de publicación único o recurrente.
 
    Consulte [Crear un trabajo de publicación único](publishing-files.md#creating_a_one_time_publish_job) y [Crear un trabajo de publicación recurrente](publishing-files.md#creating_a_recurring_publish_job).
@@ -62,7 +62,7 @@ Cree un trabajo de publicación para publicar los recursos que ha cargado en los
 
    Consulte [Opciones avanzadas de publicación](publishing-files.md#advanced_publish_options).
 
-1. Seleccione **[!UICONTROL Enviar Publish]**.
+1. Seleccione **[!UICONTROL Enviar publicación]**.
 
 Adobe Dynamic Media Classic realiza un seguimiento de los trabajos de publicación en la página Trabajos. Puede revisar los trabajos de publicación en esta página.
 
@@ -92,9 +92,9 @@ Consulte [Crear un intervalo de tiempo de trabajo de publicación o carga person
 
 Puede mostrar las opciones Avanzadas en la página Publicación y elegir estas opciones para administrar un trabajo de publicación:
 
-* **[!UICONTROL Publish To]**: para publicar recursos solamente en un servidor específico, elija un tipo de servidor.
+* **[!UICONTROL Publicar en]**: para publicar recursos solamente en un servidor específico, elija un tipo de servidor.
 
-* **[!UICONTROL Publish]**: de forma predeterminada, Adobe Dynamic Media Classic publica solo los recursos que son nuevos y no se han publicado antes (opción Nuevo desde el último Publish ). Sin embargo, puede seleccionar **[!UICONTROL Publish completo]** para que también pueda publicar recursos que se hayan actualizado o cambiado desde la última vez que se publicaron. Seleccione **[!UICONTROL Completo con datos de búsqueda]** si va a publicar un catálogo electrónico y desea que los lectores puedan buscarlo por palabra clave.
+* **[!UICONTROL Publicar]**: De forma predeterminada, Adobe Dynamic Media Classic publica solo los recursos que son nuevos y no se han publicado anteriormente (opción Nuevo desde la última publicación ). Sin embargo, puede seleccionar **[!UICONTROL Publicación completa]** para que también pueda publicar recursos que se hayan actualizado o cambiado desde la última vez que se publicaron. Seleccione **[!UICONTROL Completo con datos de búsqueda]** si va a publicar un catálogo electrónico y desea que los lectores puedan buscarlo por palabra clave.
 
 * **[!UICONTROL Ejecutar trabajo como]**: Elija un nombre de usuario en la lista. Desde la página Trabajos, puede ordenar los trabajos por nombre de usuario. Al elegir un nombre, asocia un trabajo de publicación con un usuario.
 
@@ -112,7 +112,7 @@ Para cancelar un trabajo de publicación, vaya a la página Trabajos y seleccion
 >
 >Después de cancelar un trabajo de publicación, su estado cambia a &quot;detener&quot; hasta que el trabajo llegue un punto en el que se pueda detener de forma segura. Detener un trabajo de publicación puede tardar algún tiempo si el trabajo está en proceso de obtener datos de la base de datos.
 
-## Recursos de Publish manualmente {#manually-publishing-assets}
+## Publicar recursos manualmente {#manually-publishing-assets}
 
 Puede publicar recursos individuales manualmente en lugar de crear un trabajo de publicación. Cuando publica conjuntos, como un conjunto de imágenes o un conjunto de vídeos adaptable, se publican el conjunto (o &quot;principal&quot;) y todos los miembros (o &quot;secundarios&quot;) de ese conjunto.
 
@@ -124,7 +124,7 @@ Los recursos sin publicar se indican en la interfaz de usuario mediante un icono
 
    * En la vista de cuadrícula, la vista de lista o la vista de detalles, utilice los métodos tradicionales de selección de archivos para seleccionar uno o más recursos sin publicar.
 
-     En la barra de navegación global, ve a **[!UICONTROL Archivo]** > **[!UICONTROL Publish]**.
+     En la barra de navegación global, vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Publicar]**.
 
    * En la vista de cuadrícula, vista de lista o vista de detalles, seleccione el icono gris redondeado con una barra diagonal a la izquierda del nombre del recurso.
 

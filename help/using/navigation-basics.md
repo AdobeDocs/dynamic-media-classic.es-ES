@@ -35,7 +35,7 @@ La barra de navegación global, situada en la parte superior de la pantalla, con
 
 * **[!UICONTROL Generar]**: elija una tarea de generación en el menú. Se abrirá el panel de generación, donde podrá crear un tipo de recurso.
 
-* **[!UICONTROL Publish]**: abre la pantalla Publicación para que pueda publicar recursos de medios enriquecidos en los servidores de imágenes de Dynamic Media de Adobe y en el resto de la infraestructura de SAAS de Adobe Dynamic Media Classic.
+* **[!UICONTROL Publicar]**: Abre la pantalla Publicación para que pueda publicar recursos de medios enriquecidos en los servidores de imágenes de Dynamic Media de Adobe y en el resto de la infraestructura de SAAS de Adobe Dynamic Media Classic.
 
 * **[!UICONTROL Trabajos]**: Abre la pantalla Trabajos para que pueda examinar los registros de los trabajos de carga y publicación.
 
@@ -71,7 +71,7 @@ La mayor parte del trabajo se realiza en el panel Examinar/generación. Las func
 
 * **[!UICONTROL Modo de generación]**: selecciona **[!UICONTROL generación]** y, a continuación, elige una opción para empezar a crear un catálogo electrónico, un conjunto de imágenes, un conjunto de giros o uno de los elementos disponibles en el menú Generar. Se abre la página Generar. La selección de recursos con los que trabajar se puede realizar antes o después de activar el modo de generación.
 
-Vea también [Vídeo de formación sobre conceptos básicos de navegación](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/571_Navigation%20Basics_converted%20renamed_Getting%20Started-AVS).
+Vea también [Vídeo de formación sobre conceptos básicos de navegación](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/571_Navigation%20Basics_converted%20renamed_Getting%20Started-AVS).
 
 >[!MORELIKETHIS]
 >

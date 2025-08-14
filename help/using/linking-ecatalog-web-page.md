@@ -19,7 +19,7 @@ ht-degree: 23%
 
 # Vinculación de un catálogo electrónico a una página web{#linking-an-ecatalog-to-a-web-page}
 
-Sus sitios web y aplicaciones acceden al contenido de Dynamic Media Image Server, incluidos los catálogos electrónicos, mediante cadenas URL o código incrustado. Estas cadenas URL se activan durante el proceso de publicación. Para colocar la cadena URL o el código incrustado del catálogo electrónico en las páginas Web y aplicaciones, cópielo desde Adobe Dynamic Media Classic.
+Sus sitios web y aplicaciones acceden al contenido del servidor de imágenes de Dynamic Media, incluidos los catálogos electrónicos, mediante cadenas URL o código incrustado. Estas cadenas URL se activan durante el proceso de publicación. Para colocar la cadena URL o el código incrustado del catálogo electrónico en las páginas Web y aplicaciones, cópielo desde Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ Sus sitios web y aplicaciones acceden al contenido de Dynamic Media Image Server
 
 La forma más común de implementar un catálogo electrónico es colocar un vínculo en forma de portada en miniatura de catálogo electrónico en la página Web. Trabaje con su grupo de TI para que el catálogo electrónico se abra en una ventana emergente centrada y bien visible. Solicite al grupo de TI que no se muestren la barra de herramientas ni la de dirección del explorador.
 
-Para obtener más detalles y ejemplos de código, consulte [Visualizador de catálogo electrónico de HTML incrustado5 en la Guía de referencia de visualizadores de Adobe](https://experienceleague.adobe.com/es/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Para obtener más detalles y ejemplos de código, consulte [Incrustar el visor de catálogo electrónico de HTML5 en la Guía de referencia de visores de Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copiar el código incrustado de un visor de catálogos electrónicos {#copying-the-embed-code-of-an-ecatalog-viewer}
 

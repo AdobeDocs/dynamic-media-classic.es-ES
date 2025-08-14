@@ -11,7 +11,7 @@ topic: Content Management
 level: Intermediate
 source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '3989'
+source-wordcount: '3981'
 ht-degree: 40%
 
 ---
@@ -56,7 +56,7 @@ Realice una de las siguientes acciones.
 1. En la página Cargar, seleccione la ficha **[!UICONTROL Desde el escritorio]**.
 1. En la página Cargar, en el panel **[!UICONTROL Seleccionar archivos para cargar]**, selecciona **[!UICONTROL Examinar]**, navega a un archivo de vídeo MP4 y, a continuación, selecciona **[!UICONTROL Abrir]**.
 1. En el panel **[!UICONTROL Destino de carpeta]** elegido, seleccione una carpeta para el archivo cargado.
-1. En la página Cargar, asegúrese de marcar **[!UICONTROL Publish después de cargar]**.
+1. En la página Cargar, asegúrese de marcar **[!UICONTROL Publicar después de cargar]**.
 1. Seleccione **[!UICONTROL Cargar envío]**.
 
 *Si desea codificar los vídeos mediante Adobe Dynamic Media Classic*
@@ -72,7 +72,7 @@ Realice una de las siguientes acciones.
    * Opcional. Si desea usar una configuración de codificación individual, expanda **[!UICONTROL Ajustes preestablecidos de codificación única]** y, a continuación, seleccione las opciones de codificación que desee para Escritorio, Móvil y Tablet.
 Consulte [Ajustes preestablecidos de codificación de vídeo para equipos de escritorio](application-setup.md#desktop-video-encoding-presets), [Ajustes preestablecidos de codificación de vídeo para dispositivos móviles](application-setup.md#mobile-video-encoding-presets), [Ajustes preestablecidos de codificación de vídeo para tablets](application-setup.md#tablet-video-encoding-presets).
 1. En el cuadro de diálogo Opciones del trabajo de carga, seleccione **[!UICONTROL Guardar]**.
-1. En la página Cargar, asegúrese de marcar **[!UICONTROL Publish después de cargar]**.
+1. En la página Cargar, asegúrese de marcar **[!UICONTROL Publicar después de cargar]**.
 1. En la página Cargar, en la esquina inferior derecha, seleccione **[!UICONTROL Cargar envío]**.
 
 *Si desea volver a codificar un archivo de vídeo que haya cargado anteriormente*
@@ -277,7 +277,7 @@ Para los recursos de vídeo que se cargan y codifican en Adobe Dynamic Media Cla
 **MP4 H.264** Use archivos MP4 para lo siguiente:
 
 * Flujo dinámico HTTP en equipos de escritorio.
-* HLS (flujo en directo HTTP, protocolo de flujo de Apple).
+* HLS (flujo en directo HTTP, protocolo de flujo continuo de Apple).
 * Envío de vídeo progresivo a dispositivos móviles Android™, BlackBerry® y Windows®.
 
 Cualquier otro formato de vídeo y códec se trata como &quot;Vídeo principal&quot;. Esta clasificación de los recursos implica que el vídeo es un archivo de origen y no se puede utilizar para su reproducción en escritorios ni dispositivos móviles. Por ejemplo, no puede obtener una vista previa de estos tipos de vídeos en Adobe Dynamic Media Classic. No se pueden generar direcciones URL de copia ni códigos incrustados para utilizarlos en reproductores de vídeo, sitios web, etc.
@@ -378,4 +378,4 @@ Los administradores pueden eliminar ajustes preestablecidos de vídeo personaliz
 >* [Inicio rápido: Vídeo en Adobe Dynamic Media Classic](quick-start-video.md#quick-start-video)
 >* [Cargar y codificar vídeos](uploading-encoding-videos.md#uploading-and-encoding-videos)
 >* [Trabajar con ajustes preestablecidos de visor de vídeo](previewing-videos-video-viewer.md#working-with-video-viewer-presets)
->* [Ajustes preestablecidos de vídeo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) vídeo de formación
+>* [Ajustes preestablecidos de vídeo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) vídeo de formación

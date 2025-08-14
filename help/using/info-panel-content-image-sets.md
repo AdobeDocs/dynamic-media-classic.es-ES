@@ -51,11 +51,11 @@ Puede seleccionar una de las tres plantillas de respuesta preestablecidas para m
 
    Los formatos de archivo compatibles son archivos delimitados por tabuladores con codificación UTF-16 y archivos CSV con codificación ASCII. En el caso de los archivos CSV, los caracteres no ASCII deben estar codificados en HTML.
 
-1. En el panel Configuración de InfoPanel, seleccione **[!UICONTROL Publish]**.
+1. En el panel Configuración de InfoPanel, seleccione **[!UICONTROL Publicar]**.
 
 ## Importar contenido de origen para el panel de información en conjuntos de imágenes {#import-source-content-for-the-info-panel-in-image-sets}
 
-Puede utilizar un archivo CSV (Valor separado por comas) con codificación ASCII (los caracteres no ASCII deben estar codificados por el HTML) o un archivo delimitado por tabuladores para el texto de origen de un panel de información de un conjunto de imágenes. Los archivos delimitados por tabuladores deben usar la codificación UTF-16 (Unicode). Puede importar los distintos tipos de archivo mediante diferentes métodos.
+Puede utilizar un archivo CSV (Valor separado por comas) con codificación ASCII (los caracteres no ASCII deben estar codificados en HTML) o un archivo delimitado por tabuladores para el texto de origen de un panel de información de un conjunto de imágenes. Los archivos delimitados por tabuladores deben usar la codificación UTF-16 (Unicode). Puede importar los distintos tipos de archivo mediante diferentes métodos.
 
 Cuando dé formato al contenido de origen, tenga en cuenta las siguientes pautas:
 

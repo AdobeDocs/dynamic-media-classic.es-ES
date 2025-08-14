@@ -33,8 +33,8 @@ Identifica el nombre de la cuenta, el nombre, el nombre de usuario (dirección d
 
 ## Ordenador
 
-* **Borrar caché de imágenes**: Elimina todos los archivos de imagen en caché de Dynamic Media de Adobe del equipo.
-* **Borrar caché de recursos**: Elimina todos los archivos de recursos de la memoria caché de Dynamic Media en Adobe del equipo.
+* **Borrar caché de imágenes**: Elimina todos los archivos de imagen en caché de Dynamic Media de Adobe de su equipo.
+* **Borrar caché de recursos**: Elimina todos los archivos de recursos de la caché de Dynamic Media de Adobe de su equipo.
 
 Además de borrar la caché de imágenes y recursos mediante la aplicación de escritorio, puede borrar manualmente la caché directamente desde el sistema de archivos. En función del sistema operativo, vaya a lo siguiente:
 
@@ -43,9 +43,9 @@ Además de borrar la caché de imágenes y recursos mediante la aplicación de e
 
 ## Creative Suite Extension
 
-**Para instalar la extensión de Creative Suite de Dynamic Media de Adobe:**
+**Para instalar la extensión Adobe Dynamic Media Creative Suite:**
 
-1. En Adobe Dynamic Media Classic, en la barra de herramientas, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración personal]**, en Extensión de Creative Suite, seleccione **[!UICONTROL Descargar ahora]** para descargar el archivo `s7csxs.zxp`.
+1. En Adobe Dynamic Media Classic, en la barra de herramientas, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración personal]**, en Extensión de Creative Suite, seleccione **[!UICONTROL Descargar ahora]** para descargar el archivo de `s7csxs.zxp`.
 1. Seleccione los vínculos **[!UICONTROL Instalación]** y **[!UICONTROL Requisitos del sistema]** para obtener información adicional acerca de la extensión.
 
 <!--    A readme file is included at the root of the unzipped file to provide you with additional information about the extension.

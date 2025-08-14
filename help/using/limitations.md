@@ -1,6 +1,6 @@
 ---
 title: Limitaciones de Dynamic Media
-description: '"Conozca las prácticas recomendadas y los límites aplicados al crear un conjunto de imágenes o un conjunto de giros, o al cargar un PDF. Obtenga información también sobre las combinaciones de explorador web y sistema operativo no admitidas para Dynamic Media".'
+description: Conozca las prácticas recomendadas y los límites aplicados al crear un conjunto de imágenes o un conjunto de giros, o al cargar un PDF. Obtenga información también sobre las combinaciones de explorador web y sistema operativo no admitidas para Dynamic Media.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -23,12 +23,12 @@ Las secciones siguientes describen las limitaciones de Dynamic Media.
 
 Este tema incluye las siguientes secciones:
 
-* [Prácticas recomendadas y límites impuestos por Dynamic Media en los tipos de recursos](#best-practice-enforced-limits)
+* [Prácticas recomendadas y límites aplicados por Dynamic Media en los tipos de recursos](#best-practice-enforced-limits)
 * [Combinaciones de explorador web y sistema operativo no admitidas para Dynamic Media](#unsupported-browser-os)
 
-## Prácticas recomendadas y límites impuestos por Dynamic Media en los tipos de recursos {#best-practice-enforced-limits}
+## Prácticas recomendadas y límites aplicados por Dynamic Media en los tipos de recursos {#best-practice-enforced-limits}
 
-Al crear un conjunto de giros o de imágenes, o al cargar PDF para la extracción de páginas, Adobe recomienda las siguientes prácticas recomendadas. El Adobe también impone los límites siguientes:
+Al crear un conjunto de giros o un conjunto de imágenes, o al cargar PDF para la extracción de páginas, Adobe recomienda las siguientes prácticas recomendadas. Adobe también aplica los límites siguientes:
 
 | Recurso: tipo de límite | Práctica recomendada | Límite impuesto |
 | --- | --- | --- |
@@ -36,7 +36,7 @@ Al crear un conjunto de giros o de imágenes, o al cargar PDF para la extracció
 | **Todos los conjuntos**: número de recursos duplicados por conjunto | No hay duplicados | 20 ‡ |
 | **Todos los conjuntos**: Número máximo de recursos por conjunto | 5-10 imágenes por conjunto | 1.000 |
 | **Conjunto de giros**: Número máximo de filas/columnas por conjunto 2D | 12 a 18 imágenes por conjunto | 1.000 |
-| **PDF**: Número máximo de páginas para que un PDF se considere para la extracción |  | 100 (para todos los PDF) |
+| **PDF**: Número máximo de páginas de un PDF que se tendrán en cuenta para la extracción |  | 100 (para todos los PDF) |
 
 ‡ práctica recomendada es no tener recursos duplicados en un conjunto. El límite es de 20 duplicados para un solo recurso. Si agrega otro duplicado para ese recurso (dentro de ese conjunto), la solicitud genera un error o ignora el duplicado.
 

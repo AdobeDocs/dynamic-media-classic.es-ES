@@ -73,7 +73,7 @@ Especifique cualquiera de los siguientes criterios en la búsqueda avanzada:
 
 * **Criterios de búsqueda**: Cree uno o más campos de búsqueda para buscar metadatos. Para crear campos de búsqueda:
 
-   1. En Búsqueda avanzada, bajo el encabezado **[!UICONTROL Criterios de búsqueda]** y a la izquierda del menú **[!UICONTROL Agregar un campo]**), seleccione el icono de flecha de triángulo hacia abajo para abrir la lista desplegable. Elija una vista de metadatos. Puede elegir **[!UICONTROL Todas las propiedades con valores]**, **[!UICONTROL Vista compacta]**, **[!UICONTROL IPTC]**, **[!UICONTROL Campos Publish XMP del servidor de metadatos]** o **&#x200B;**.
+   1. En Búsqueda avanzada, bajo el encabezado **[!UICONTROL Criterios de búsqueda]** y a la izquierda del menú **[!UICONTROL Agregar un campo]**), seleccione el icono de flecha de triángulo hacia abajo para abrir la lista desplegable. Elija una vista de metadatos. Puede elegir **[!UICONTROL Todas las propiedades con valores]**, **[!UICONTROL Vista compacta]**, **[!UICONTROL IPTC]**, **[!UICONTROL Campos de publicación del servidor de metadatos]** o **[!UICONTROL XMP]**.
    1. Seleccione el menú desplegable **[!UICONTROL Agregar un campo]** y elija un nombre de campo.
    1. Elija una opción **[!UICONTROL Contains]**: **[!UICONTROL Contains]**, **[!UICONTROL Does Not Contain]**, **[!UICONTROL Begins With]**, **[!UICONTROL Ends With]** o **[!UICONTROL Equals]**.
    1. En el caso de los campos numéricos, elija un valor o introduzca un intervalo de fechas personalizado.
@@ -153,19 +153,19 @@ Siga estas instrucciones en la pestaña Filtros para poder guardar, repetir y el
 
 El servidor de metadatos es una API pública que puede utilizar para buscar recursos mediante metadatos a través de solicitudes http.
 
-Para configurar el servidor de metadatos, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de aplicación]** > **[!UICONTROL Configuración de Publish]** > **[!UICONTROL Servidor de metadatos]**.
+Para configurar el servidor de metadatos, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de aplicación]** > **[!UICONTROL Configuración de publicación]** > **[!UICONTROL Servidor de metadatos]**.
 
-La página Publish del servidor de metadatos le permite establecer las siguientes opciones:
+La página Publicación del servidor de metadatos le permite establecer las siguientes opciones:
 
-* **[!UICONTROL Publish instantáneo]**: inserta automáticamente los cambios de metadatos que se realicen, incluidos los nuevos recursos, los cambios de palabras clave, etc.
+* **[!UICONTROL Publicación instantánea]**: inserta automáticamente los cambios de metadatos que se realicen, incluidos los nuevos recursos, los cambios de palabras clave, etc.
 
-* XMP XMP **[!UICONTROL Paquete de]**: Publica el paquete de paquetes de la aplicación. XMP Este paquete no se utiliza para la búsqueda, pero proporciona la información más actualizada de la versión de la aplicación de la interfaz de usuario de.
+* **[!UICONTROL Paquete XMP]**: Publica el paquete XMP. Este paquete no se utiliza para la búsqueda, pero proporciona el XMP más actualizado.
 
 * **[!UICONTROL Palabras clave]**: publica las palabras clave en el servidor de metadatos para su uso en búsquedas.
 
-* **[!UICONTROL Campos Publish del servidor de metadatos]**: seleccione los campos que desea incluir en los metadatos. Esta opción le permite determinar cuánta información sobre los recursos está disponible para el público. Estos campos también se muestran en Vistas de metadatos, pero solo se pueden modificar en el servidor de metadatos.
+* **[!UICONTROL Campos de publicación del servidor de metadatos]**: seleccione los campos que desea incluir en los metadatos. Esta opción le permite determinar cuánta información sobre los recursos está disponible para el público. Estos campos también se muestran en Vistas de metadatos, pero solo se pueden modificar en el servidor de metadatos.
 
-Seleccione **[!UICONTROL Publish Now]** para iniciar el trabajo. Aparece una confirmación de que el trabajo se ha iniciado.
+Seleccione **[!UICONTROL Publicar ahora]** para iniciar el trabajo. Aparece una confirmación de que el trabajo se ha iniciado.
 
 >[!MORELIKETHIS]
 >

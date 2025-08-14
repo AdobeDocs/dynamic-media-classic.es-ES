@@ -26,7 +26,7 @@ Antes de cargar recursos en Adobe Dynamic Media Classic, asegúrese de que tenga
 
 ### Formatos de archivo de recurso admitidos {#supported-asset-file-formats}
 
-En esta tabla se enumeran los formatos de archivo de recursos compatibles con Adobe Dynamic Media Classic. Para obtener información acerca de los archivos Camera Raw compatibles, consulte [https://helpx.adobe.com/es/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/es/camera-raw/using/supported-cameras.html).
+En esta tabla se enumeran los formatos de archivo de recursos compatibles con Adobe Dynamic Media Classic. Para obtener información acerca de los archivos Camera Raw compatibles, consulte [https://helpx.adobe.com/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/camera-raw/using/supported-cameras.html).
 
 | Formatos de archivo de recurso | Descripción |
 | --- | --- |
@@ -267,7 +267,7 @@ Consulte [Trabajar con ajustes preestablecidos de codificación de vídeo](uploa
 
 * **Más metadatos**: escribe palabras clave que describan los archivos que deseas cargar. Separe las palabras clave con una coma. Las palabras clave facilitan la búsqueda de recursos.
 Ver [Realizar una búsqueda avanzada](searching-assets.md#conducting_an_advanced_search).
-Consulte también [Cargar el vídeo de aprendizaje de palabras clave](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS).
+Consulte también [Cargar el vídeo de aprendizaje de palabras clave](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS).
 
 * **Ajustes preestablecidos de conjunto de lotes**: para crear un conjunto de imágenes, un conjunto de giros o un conjunto de muestras a partir de los archivos cargados, seleccione la columna **[!UICONTROL Activo]** del ajuste preestablecido que desee utilizar. Puede seleccionar varios ajustes preestablecidos. Puede crear los ajustes preestablecidos en la página Ajustes de Aplicación/Ajustes Preestablecidos de Conjunto de Lotes.
 Consulte [Valores preestablecidos de conjunto por lotes](application-setup.md#batch_set_presets).

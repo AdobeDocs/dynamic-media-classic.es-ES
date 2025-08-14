@@ -46,7 +46,7 @@ Puede crear sus propios ajustes preestablecidos de imagen si es administrador de
 
    Adobe Dynamic Media Classic recomienda estas opciones de &quot;práctica recomendada&quot; para comenzar:
 
-   * **[!UICONTROL Formato]**: Elija un JPEG u otro formato que cumpla sus necesidades. Todos los navegadores web admiten el formato de imagen JPEG; ofrece un buen equilibrio entre los tamaños de archivo pequeños y la calidad de imagen. Sin embargo, las imágenes JPEG utilizan un esquema de compresión con pérdidas que puede producir artefactos de imagen no deseados si el ajuste de compresión es demasiado bajo. Por este motivo, Adobe Dynamic Media Classic recomienda establecer la calidad de compresión (en el control deslizante) en 75. Este valor ofrece un buen equilibrio entre la calidad de imagen y el tamaño de archivo pequeño.
+   * **[!UICONTROL Formato]**: Elija JPEG u otro formato que cumpla sus requisitos. Todos los navegadores web admiten el formato de imagen JPEG; ofrece un buen equilibrio entre los tamaños de archivo pequeños y la calidad de imagen. Sin embargo, las imágenes de JPEG utilizan un esquema de compresión con pérdidas que puede introducir artefactos de imagen no deseados si el ajuste de compresión es demasiado bajo. Por este motivo, Adobe Dynamic Media Classic recomienda establecer la calidad de compresión (en el control deslizante) en 75. Este valor ofrece un buen equilibrio entre la calidad de imagen y el tamaño de archivo pequeño.
 
    * **[!UICONTROL Enfoque]**: No seleccione Enfoque (este filtro de enfoque ofrece menos control que la configuración de **[!UICONTROL Máscara de enfoque]**).
 

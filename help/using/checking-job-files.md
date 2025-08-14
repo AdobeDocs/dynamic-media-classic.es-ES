@@ -12,7 +12,7 @@ topic: Administration, Content Management
 level: Intermediate
 source-git-commit: bb229047c0c9b3855453ea15dcd1f9754bc65cef
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1633'
 ht-degree: 23%
 
 ---
@@ -33,7 +33,7 @@ Seleccione **[!UICONTROL Jobs]** en la barra de navegación global para que se a
 
 En la ficha Historial de la página Trabajos, los trabajos se clasifican según estas categorías:
 
-* **[!UICONTROL Tipo de trabajo]**: Un icono indica el tipo de trabajo: Cargar y Publish son los tipos de trabajo más comunes.
+* **[!UICONTROL Tipo de trabajo]**: Un icono indica el tipo de trabajo: Cargar y Publicar son los tipos de trabajo más comunes.
 
 * **[!UICONTROL Nombre de trabajo]**: El nombre del trabajo. El nombre incluye la parte del nombre introducida por el usuario, así como la fecha y la hora.
 
@@ -65,7 +65,7 @@ Para ordenar trabajos o cambiar la vista de la ficha Historial en la página Tra
 
 * **[!UICONTROL Intervalo de fechas]**: seleccione el menú **[!UICONTROL Intervalo de fechas]** y elija una opción para reducir la lista de trabajos a la fecha actual, la semana anterior o el mes anterior. Seleccione **[!UICONTROL Intervalo de fecha personalizado]** y luego ingrese un intervalo de fecha específico.
 
-* **[!UICONTROL Tipo de trabajo]**: selecciona el menú **[!UICONTROL Tipo de trabajo]** y elige **[!UICONTROL Publish]** o **[!UICONTROL Cargar]** para reducir la lista de trabajos de publicación o carga. Seleccione **[!UICONTROL Todos]** para ver ambos tipos de trabajos.
+* **[!UICONTROL Tipo de trabajo]**: Seleccione el menú **[!UICONTROL Tipo de trabajo]** y elija **[!UICONTROL Publicar]** o **[!UICONTROL Cargar]** para reducir la lista de trabajos de publicación o carga. Seleccione **[!UICONTROL Todos]** para ver ambos tipos de trabajos.
 
 * **[!UICONTROL Mostrar]**: Ve a **[!UICONTROL Mostrar]** > **[!UICONTROL Mis trabajos]** o **[!UICONTROL Mostrar]** > **[!UICONTROL Todos los trabajos]** para reducir la lista a los trabajos que pediste o a los trabajos que pidieron los empleados de tu compañía.
 
@@ -81,7 +81,7 @@ Puede copiar esta información en el portapapeles.
 
 ## Gestión de trabajos recurrentes de carga y publicación {#handling-recurring-upload-and-publish-jobs}
 
-Los trabajos de carga y publicación recurrentes que se crean en las páginas Carga y Publish se muestran en la pestaña Programado de la página Trabajos. Desde esta ficha, puede editar y eliminar los trabajos recurrentes.
+Los trabajos de carga y publicación recurrentes que se crean en las páginas Cargar y Publicar se muestran en la pestaña Programado de la página Trabajos. Desde esta ficha, puede editar y eliminar los trabajos recurrentes.
 
 Seleccione el botón Trabajos en la barra de navegación global y, en la página Trabajos, seleccione la pestaña **[!UICONTROL Programados]** para poder editar y eliminar los trabajos recurrentes.
 
@@ -103,7 +103,7 @@ Consulte [Crear un intervalo de tiempo de trabajo de publicación o carga person
 
 ### Crear un intervalo de tiempo de trabajo de carga o publicación personalizado {#creating-a-custom-upload-or-publish-job-time-interval}
 
-Para crear un intervalo de tiempo personalizado para una carga (mediante FTP) o un trabajo de publicación, en la página Cargar o Publish, ve a **[!UICONTROL Repetir]** > **[!UICONTROL Personalizado]**. A continuación, introduzca números y caracteres comodín en el cuadro Regla que describa un intervalo de tiempo para que los trabajos de carga o publicación se repitan.
+Para crear un intervalo de tiempo personalizado para una carga (mediante FTP) o un trabajo de publicación, en la página Cargar o publicar, ve a **[!UICONTROL Repetir]** > **[!UICONTROL Personalizado]**. A continuación, introduzca números y caracteres comodín en el cuadro Regla que describa un intervalo de tiempo para que los trabajos de carga o publicación se repitan.
 
 La sintaxis con que se describen los intervalos para los trabajos de carga y publicación en el cuadro Regla es la siguiente:
 
@@ -142,12 +142,12 @@ En esta tabla se muestran los caracteres comodín que se admiten en el cuadro Re
 En esta lista se pueden ver ejemplos de cómo se describen los intervalos de tiempo en el cuadro Regla:
 
 * `0 0 12 * * ?` : mediodía todos los días
-* `0 15 10 ? * *` : 10:15 a.m. todos los días
-* `0 0/5 14 * * ?`: cada 5 minutos entre las 2:00 y las 2:55 p.m. todos los días
-* `0 0/5 14,18 * * ?` : Cada 5 minutos entre las 2:00 y las 2:55 pm todos los días y cada 5 minutos entre las 6:00 y las 6:55 pm todos los días
-* `0 10,44 14 ? 3` : Miércoles a las 2:10 pm y 2:44 pm todos los miércoles en marzo
-* `0 15 10 ? *`: lunes a viernes a las 10:15 todos los días de la semana
-* `0 15 10 20 * ?` : a las 10:15 a.m. del día 20 de cada mes
+* `0 15 10 ? * *`: 10:15 am todos los días
+* `0 0/5 14 * * ?`: cada 5 minutos entre las 2:00 y las 2:55 de la tarde todos los días
+* `0 0/5 14,18 * * ?` : Cada 5 minutos entre las 2:00 y las 2:55 de la tarde todos los días y cada 5 minutos entre las 6:00 y las 6:55 de la tarde todos los días
+* `0 10,44 14 ? 3` : miércoles a las 2:10 pm y 2:44 pm todos los miércoles de marzo
+* `0 15 10 ? *` : lunes a viernes a las 10:15 a.m. todos los días de la semana
+* `0 15 10 20 * ?` : a las 10:15 del día 20 de cada mes
 * `0 15 10 L * ?` : a las 10:15 a.m. del último día de cada mes
 * `0 15 10 ? * 6L` : a las 10:15 a.m. del último viernes de cada mes
 * `0 15 10 * * 6#3` : a las 10:15 a.m. del tercer viernes de cada mes
@@ -156,4 +156,4 @@ En esta lista se pueden ver ejemplos de cómo se describen los intervalos de tie
 
 Al cargar recursos a través de FTP o ejecutar un trabajo de publicación, puede programar un trabajo posterior para que comience cuando se complete la carga. (Si hay otros trabajos programados para empezar, el trabajo que programa aquí se pone en cola detrás de ellos). El nuevo trabajo envía una notificación a la dirección especificada para que se pueda activar el código en esa ubicación. Este trabajo de carga que sigue recibe el mismo nombre que el trabajo de carga actual, pero se le añade el prefijo _Pub.
 
-Para que un trabajo de carga o publicación déclencheur otro trabajo, seleccione **[!UICONTROL Avanzado]** en la página Cargar o Publish. A continuación, introduzca la URL en el campo de texto Notificación http.
+Para hacer que un trabajo de carga o publicación déclencheur otro trabajo, seleccione **[!UICONTROL Avanzado]** en la página Cargar o Publicar. A continuación, introduzca la URL en el campo de texto Notificación http.

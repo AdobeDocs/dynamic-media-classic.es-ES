@@ -21,7 +21,7 @@ ht-degree: 36%
 
 Para crear una plantilla, ve a **[!UICONTROL Compilación]** > **[!UICONTROL Conceptos básicos de plantilla]**. Seleccione Diseñador o Desarrollador. En esta página puede añadir capas de imagen y de texto. También puede cambiar el orden de las capas, modificar el tamaño y la posición de éstas y aplicarles efectos de sombra y resplandor.
 
-Vea también [Fundamentos de la plantilla](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) vídeo de formación.
+Vea también [Fundamentos de la plantilla](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) vídeo de formación.
 
 >[!NOTE]
 >
@@ -29,9 +29,9 @@ Vea también [Fundamentos de la plantilla](https://s7d5.scene7.com/s7viewers/htm
 
 ## Creación de la plantilla inicial {#creating-the-initial-template}
 
-Cuando crea un conjunto de plantillas, la opción **[!UICONTROL Publish después de guardar]** afecta a los miembros del conjunto y del conjunto de las siguientes maneras:
+Cuando crea un conjunto de plantillas, la opción **[!UICONTROL Publicar después de guardar]** afecta a los miembros del conjunto y del conjunto de las siguientes maneras:
 
-| **[!UICONTROL Publish después de seleccionar una opción de guardar]** antes de guardar? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
+| **[!UICONTROL Publicar después de seleccionar la opción Guardar]** antes de guardar? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
 | --- | --- | --- |
 | Sí | Publicado | Publicado |
 | No | Sin publicar | Los miembros del conjunto conservan su estado publicado o no. |
@@ -44,13 +44,13 @@ Puede crear una plantilla a partir de una existente. Abra la plantilla, seleccio
 
 1. Para crear la plantilla inicial, utilice uno de los siguientes métodos:
 
-   * **Seleccione primero el PSD o las imágenes**: en el panel Examinar, seleccione el archivo o las imágenes del PSD que desee para la plantilla y vaya a **[!UICONTROL Generar]** > **[!UICONTROL Conceptos básicos de la plantilla]**.
+   * **Seleccione primero el PSD o las imágenes**: en el panel Examinar, seleccione el archivo o las imágenes de PSD que desee para la plantilla y vaya a **[!UICONTROL Generar]** > **[!UICONTROL Conceptos básicos de la plantilla]**.
 
    * **Empiece desde la pantalla Plantilla**: Vaya a **[!UICONTROL Compilación]** > **[!UICONTROL Conceptos básicos de plantilla]**. Seleccione Diseñador o Desarrollador.
 
 1. En el cuadro de diálogo Especificar tamaño de lienzo, escriba las medidas de anchura y altura para la plantilla.
 1. Seleccione una carpeta en la biblioteca de recursos y arrastre el archivo PSD o las imágenes requeridas hasta la pantalla Plantilla.
-1. Cuando termine, cerca de la esquina inferior derecha de la página, asegúrese de seleccionar **[!UICONTROL Publish después de guardar]** (opción predeterminada).
+1. Cuando termine, cerca de la esquina inferior derecha de la página, asegúrese de que **[!UICONTROL Publicar después de guardar]** está seleccionado (predeterminado).
 1. Seleccione **[!UICONTROL Guardar]**.
 1. Seleccione una carpeta para almacenar la plantilla, escriba un nombre para ella y seleccione **[!UICONTROL Enviar]**.
 
@@ -58,9 +58,9 @@ Puede crear una plantilla a partir de una existente. Abra la plantilla, seleccio
 
 ## Edición de un conjunto de plantillas {#editing-a-template-set}
 
-Tanto si edita un conjunto de plantillas publicadas como si no, la opción **[!UICONTROL Publish después de guardar]** afecta a los miembros del conjunto y del conjunto de las siguientes maneras:
+Tanto si edita un conjunto publicado como un conjunto de plantillas sin publicar, la opción **[!UICONTROL Publicar después de guardar]** afecta a los miembros del conjunto y del conjunto de las siguientes maneras:
 
-| ¿Ya se ha publicado el conjunto? | **[!UICONTROL Publish después de seleccionar una opción para guardar]** antes de guardar la edición? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
+| ¿Ya se ha publicado el conjunto? | **[!UICONTROL Publicar después de seleccionar la opción Guardar]** antes de guardar la edición? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
 | --- | --- | --- | --- |
 | Sí | Sí | Publicado | Publicado |
 | Sí | No | Publicado | Los miembros del conjunto existentes conservan su estado publicado. Cualquier nuevo miembro que añada al conjunto durante la edición conservará su estado publicado o no publicado. |
@@ -73,7 +73,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 1. En la vista de cuadrícula, busque un conjunto de plantillas y, debajo de la imagen, seleccione **[!UICONTROL Editar]**.
 1. Cambie la plantilla según sea necesario.
-1. Cuando termine de editar, cerca de la esquina inferior derecha de la página, asegúrese de que **[!UICONTROL Publish después de guardar]** esté seleccionado (opción predeterminada).
+1. Cuando termine de editar, cerca de la esquina inferior derecha de la página, asegúrese de que **[!UICONTROL Publicar después de guardar]** está seleccionado (predeterminado).
 1. Seleccione **[!UICONTROL Guardar]**, seleccione una carpeta de almacenamiento, escriba un nombre para el conjunto y, a continuación, seleccione **[!UICONTROL Guardar]**.
 
 ## Eliminar una plantilla

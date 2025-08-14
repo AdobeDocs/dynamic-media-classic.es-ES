@@ -8,14 +8,14 @@ topic: Content Management
 level: Intermediate
 source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 3%
+source-wordcount: '160'
+ht-degree: 5%
 
 ---
 
 # Comparación de características
 
-Tabla comparativa de características entre [!DNL Dynamic Media] en [!DNL Adobe Experience Manager] Assets y [!DNL Adobe Dynamic Media Classic] aplicación de escritorio. ✓ Un &quot;&quot; significa que la función está disponible en el software o con él; un &quot;-&quot; significa que no lo está.
+Tabla comparativa de características entre [!DNL Dynamic Media] en [!DNL Adobe Experience Manager] Assets y [!DNL Adobe Dynamic Media Classic] aplicación de escritorio. Un &quot;✓&quot; significa que la característica está disponible en o con el software; un &quot;-&quot; significa que no lo está.
 
 | Función | [!DNL Dynamic Media] | [!DNL Dynamic Media<br>Clásico] |
 | :--- | :---: | :---: |
@@ -40,11 +40,11 @@ Tabla comparativa de características entre [!DNL Dynamic Media] en [!DNL Adobe 
 | Codificación de vídeo | ✓ | ✓ |
 | Accesibilidad del visor | ✓ | ✓ |
 | Integración del visor con Analytics | ✓ | ✓ |
-| Plantillas 1:1 | ✓<br>*Paquete de medios personalizado* | ✓ |
+| 1:1 plantillas | ✓<br>*Paquete de medios personalizado* | ✓ |
 | Configurador visual <br>(personalización de producto) | ✓<br>*Paquete de medios personalizado* | ✓ |
 | 3D: componente Experience Manager Sites<br>WCM | ✓ | : |
 | 3D: visualizador de experiencias interactivo | ✓ | : |
-| 3D: Publish AR/VR y archivos 3D principales | ✓ | : |
+| 3D: publicar archivos AR/VR y archivos 3D principales | ✓ | : |
 | Carruseles | ✓ | : |
 | Medios de compra/interactivos: imágenes | ✓ | : |
 | Medios interactivos/de ventas: vídeo | ✓ | : |
@@ -52,4 +52,4 @@ Tabla comparativa de características entre [!DNL Dynamic Media] en [!DNL Adobe 
 | Recorte inteligente: vídeo | ✓ | : |
 | Selección de miniatura de vídeo | ✓ | : |
 | Visor de Designer | ✓ | : |
-| YouTube Publish | ✓ | : |
+| Publicación de YouTube | ✓ | : |

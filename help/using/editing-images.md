@@ -31,6 +31,6 @@ Adobe Dynamic Media Classic ofrece muchas herramientas para crear efectos de med
 
 * **Ajustar una imagen**: selecciona el comando `Adjust` o el botón **[!UICONTROL Ajustar]** para voltear, rotar, desenfocar, colorear o alterar el equilibrio de color de una imagen. Ver [Ajustar una imagen](/help/using/adjusting-image.md).
 
-* **Editar capas**: para mostrar capas editables individuales en un archivo de PSD, seleccione la pestaña **[!UICONTROL Capas]**. Al cargar un archivo de PSD, todas las capas se cargan individualmente como archivos independientes para que pueda editarlas en Adobe Dynamic Media Classic.
+* **Editar capas**: para mostrar capas individuales editables en un archivo PSD, seleccione la pestaña **[!UICONTROL Capas]**. Al cargar un archivo de PSD, todas las capas se cargan individualmente como archivos independientes para que pueda editarlas en Adobe Dynamic Media Classic.
 
 Además de utilizar estas herramientas para editar imágenes, puede editar imágenes a medida que las carga en Adobe Dynamic Media Classic. Por ejemplo, puede recortar imágenes, crear una máscara a partir de una ruta de recorte, y seleccionar un perfil de color para una imagen al cargarla.

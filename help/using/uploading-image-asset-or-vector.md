@@ -22,7 +22,7 @@ Para poder cargar un recurso de imagen, primero debe solicitar una clave secreta
 
 >[!IMPORTANT]
 >
->A partir del 1 de mayo de 2023, los recursos UGC de Dynamic Media estarán disponibles para su uso durante un máximo de 60 días a partir de la fecha de carga. Después de 60 días, los recursos se eliminarán.
+>A partir del 1 de mayo de 2023, los recursos UGC en Dynamic Media estarán disponibles para su uso hasta 60 días después de la fecha de carga. Después de 60 días, los recursos se eliminarán.
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ Para poder cargar un recurso de imagen, primero debe solicitar una clave secreta
 
 ## Solicitar una clave de secreto compartido {#requesting-a-shared-secret-key}
 
-Solicite una clave de secreto compartido *shared-secret* de [usando el Admin Console para crear un caso de asistencia.](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) En el caso de soporte técnico, solicite una clave de secreto compartido.
+Solicite una clave de secreto compartido *shared-secret* de [usando el Admin Console para crear un caso de asistencia.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) En el caso de soporte técnico, solicite una clave de secreto compartido.
 
 En el mensaje, proporcione el nombre de empresa que desee utilizar para cargar los recursos de imagen. Una vez que reciba la clave de Adobe Dynamic Media Classic, guárdela localmente para usarla en el futuro.
 
@@ -125,7 +125,7 @@ En la aplicación se definen límites globales tanto para el límite de tamaño 
 | Límite global | Valor |
 | --- | --- |
 | Tamaño de archivo para todos los clientes | 20 MB |
-| Formatos de archivo de imagen admitidos para la carga | BMP, GIF JPG,, PNG, PSD, TIFF |
+| Formatos de archivo de imagen admitidos para la carga | BMP, GIF, JPG, PNG, PSD, TIFF |
 
 El siguiente formulario HTML permite al usuario cargar un recurso. En el formulario se pide al usuario que introduzca la información siguiente:
 
@@ -138,9 +138,9 @@ El siguiente formulario HTML permite al usuario cargar un recurso. En el formula
 Consulte Fondo de cobertura en [Opciones de ajuste de imagen al cargar](image-editing-options-upload.md#image-editing-options-at-upload).
 * Nombre del archivo que se va a cargar.
 
-Puede ver el código fuente del HTML asociado con el formulario anterior seleccionando [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
+Para ver el código fuente de HTML asociado con el formulario anterior, seleccione [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-En Firefox, haga clic con el botón derecho en la ventana del explorador y seleccione **[!UICONTROL Ver página Source]**. El código muestra la cadena de consulta de URL correspondiente y el método de POST que se ejecuta cuando el usuario selecciona **[!UICONTROL Enviar]**.
+En Firefox, haga clic con el botón derecho en la ventana del explorador y seleccione **[!UICONTROL Ver página Source]**. El código muestra la cadena de consulta de URL correspondiente y el método POST que se ejecuta cuando el usuario selecciona **[!UICONTROL Enviar]**.
 
 Para ver la respuesta XML en Internet Explorer, ve a **[!UICONTROL Ver]** > **[!UICONTROL Source]**. Para ver la respuesta XML en Firefox, ve a **[!UICONTROL Herramientas]** > **[!UICONTROL Herramientas de navegador]** > **[!UICONTROL Herramientas para desarrolladores web]**. Se recomienda utilizar Firefox para ver las respuestas en XML.
 

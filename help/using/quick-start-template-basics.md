@@ -1,5 +1,5 @@
 ---
-title: "Inicio rápido: Conceptos básicos de plantilla"
+title: 'Inicio rápido: Funciones básicas de plantilla'
 description: Introducción y Inicio rápido de los conceptos básicos de las plantillas para ayudarle a ponerse en marcha rápidamente con Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -25,23 +25,23 @@ Una plantilla puede contener un número cualquiera de capas de imagen y capas de
 
 En la página Parámetros, puede convertir cualquier aspecto de una plantilla en un parámetro direccionable. Al hacerlo, puede cambiar qué imagen de capas utilizar o qué valor de texto utilizar en la plantilla. Los parámetros se pasan con la cadena URL, lo que permite cambiar cualquier parámetro para personalizar dinámicamente la imagen de respuesta generada desde el servidor de imágenes.
 
-Vea también [Fundamentos de la plantilla](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) vídeo de formación.
+Vea también [Fundamentos de la plantilla](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) vídeo de formación.
 
 Este Inicio rápido está diseñado para ayudarle a ponerse en marcha rápidamente con Conceptos básicos de plantilla.
 
-## 1. Cargue los archivos
+## &#x200B;1. Cargue los archivos
 
-Empiece por subir el archivo PSD o archivo de imagen para su plantilla. Adobe Dynamic Media Classic admite muchos formatos de archivo de imagen además de PSD, pero se recomiendan imágenes de TIFF y PNG sin pérdidas para las plantillas porque permiten la transparencia.
+Empiece por subir el archivo PSD o archivo de imagen para su plantilla. Adobe Dynamic Media Classic admite muchos formatos de archivo de imagen además de PSD, pero se recomiendan imágenes TIFF y PNG sin pérdidas para las plantillas porque permiten la transparencia.
 
-Si usa un archivo de PSD para crear la plantilla, seleccione **[!UICONTROL Crear plantilla]** en el cuadro de diálogo **[!UICONTROL Cargar opciones del trabajo]** al cargar el archivo de PSD. Elija también una opción **[!UICONTROL Nombres de capas]** para que Adobe Dynamic Media Classic sepa cómo asignar nombres a las capas de PSD cuando se carguen en Adobe Dynamic Media Classic.
+Si usa un archivo PSD para crear la plantilla, seleccione **[!UICONTROL Crear plantilla]** en el cuadro de diálogo **[!UICONTROL Cargar opciones del trabajo]** al cargar el archivo PSD. Elija también una opción **[!UICONTROL Nombres de capas]** para que Adobe Dynamic Media Classic sepa cómo asignar nombres a las capas de PSD cuando se carguen en Adobe Dynamic Media Classic.
 
 Si utiliza archivos de imagen, puede recortar las imágenes y también crear una máscara a partir de trazados de recorte en las imágenes a medida que las carga.
 
 En la barra de navegación global, selecciona **[!UICONTROL Cargar]** para cargar un archivo de PSD u otros archivos de imagen de tu equipo a una carpeta en Adobe Dynamic Media Classic. Ver [Cargar archivos de plantilla](uploading-template-files.md#uploading_template_files).
 
-## 2. Crear una plantilla
+## &#x200B;2. Crear una plantilla
 
-Para crear una plantilla a partir de un archivo de PSD, seleccione **[!UICONTROL Crear plantilla]** al cargar el archivo. Para crear una plantilla a partir de imágenes, en la barra de navegación global, vaya a **[!UICONTROL Generar]** > **[!UICONTROL Conceptos básicos de plantilla]** e introduzca una medida de anchura y altura para el lienzo. Cerca de la esquina superior derecha de la página, seleccione **[!UICONTROL Designer]** o **[!UICONTROL Desarrollador]** y arrastre imágenes a la página Plantilla. También puede seleccionar las imágenes *antes de* de ir a **[!UICONTROL Compilación]** > **[!UICONTROL Conceptos básicos de plantilla]**. La página Plantilla ofrece herramientas para lo siguiente:
+Para crear una plantilla a partir de un archivo PSD, seleccione **[!UICONTROL Crear plantilla]** al cargar el archivo. Para crear una plantilla a partir de imágenes, en la barra de navegación global, vaya a **[!UICONTROL Generar]** > **[!UICONTROL Conceptos básicos de plantilla]** e introduzca una medida de anchura y altura para el lienzo. Cerca de la esquina superior derecha de la página, seleccione **[!UICONTROL Designer]** o **[!UICONTROL Desarrollador]** y arrastre imágenes a la página Plantilla. También puede seleccionar las imágenes *antes de* de ir a **[!UICONTROL Compilación]** > **[!UICONTROL Conceptos básicos de plantilla]**. La página Plantilla ofrece herramientas para lo siguiente:
 
 * Agregar capas de imagen. Para agregar una capa, arrastre una imagen a la página Plantilla.
 * Agregar capas de texto. Seleccione el icono **[!UICONTROL Herramienta de texto]**. Arrastre el puntero para crear un cuadro para la capa de texto; a continuación, dé formato al texto con herramientas en la página Texto.
@@ -51,21 +51,21 @@ Para crear una plantilla a partir de un archivo de PSD, seleccione **[!UICONTROL
 
 Consulte [Crear una plantilla](creating-template.md#creating_a_template).
 
-## 3. Crear parámetros de plantilla
+## &#x200B;3. Crear parámetros de plantilla
 
 El siguiente paso es la parametrización de las propiedades de capas para determinar qué propiedades se incluyen en la cadena URL. Los parámetros aumentan la flexibilidad de uso de las plantillas. Después de convertir una propiedad de capa en parámetro, se puede cambiar de forma dinámica.
 
 Para parametrizar una capa, abra la plantilla en la página Plantilla y, a continuación, seleccione **[!UICONTROL Parámetros]** junto al nombre de una capa. En la página Parámetros, seleccione la opción situada junto a cada parámetro que desee añadir. Consulte [Crear parámetros de plantilla](creating-template-parameters.md#creating_template_parameters).
 
-## 4. Plantillas de Publish
+## &#x200B;4. Publicar plantillas
 
-La publicación de la plantilla la coloca en Dynamic Media Image Servers para que se pueda enviar dinámicamente al sitio web o a la aplicación. La publicación también activa la dirección URL para llamar a la plantilla desde los servidores de imágenes de Dynamic Media a su sitio web o aplicación.
+La publicación de la plantilla la coloca en servidores de imágenes de Dynamic Media para que se pueda enviar dinámicamente al sitio web o a la aplicación. La publicación también activa la dirección URL para llamar a la plantilla desde los servidores de imágenes de Dynamic Media a su sitio web o aplicación.
 
 Debe publicar todas las imágenes asociadas a su plantilla.
 
-Para publicar una plantilla, márquela para publicación y, en la barra de navegación global, seleccione **[!UICONTROL Publish]**. Luego selecciona **[!UICONTROL Enviar Publish]**. Ver [plantillas de Publish](publishing-templates.md#publishing_templates).
+Para publicar una plantilla, márquela para publicación y, en la barra de navegación global, seleccione **[!UICONTROL Publicar]**. Luego seleccione **[!UICONTROL Enviar publicación]**. Ver [plantillas de publicación](publishing-templates.md#publishing_templates).
 
-## 5. Vinculación de una plantilla a una página Web
+## &#x200B;5. Vinculación de una plantilla a una página Web
 
 Dynamic Media Classic crea direcciones URL para las plantillas y las activa al publicar plantillas en servidores de imágenes de Dynamic Media. Puede copiar estas cadenas de URL desde la página Vista previa de plantilla.
 

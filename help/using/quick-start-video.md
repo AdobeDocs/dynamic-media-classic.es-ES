@@ -1,5 +1,5 @@
 ---
-title: "Inicio rápido: Vídeo en Adobe Dynamic Media Classic"
+title: 'Inicio rápido: Vídeo en Adobe Dynamic Media Classic'
 description: Introducción y Inicio rápido del vídeo de Adobe Dynamic Media Classic para ayudarle a ponerse en marcha rápidamente.
 contentOwner: Rick Brough
 content-type: reference
@@ -12,8 +12,8 @@ topic: Content Management
 level: Beginner
 source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 23%
+source-wordcount: '1441'
+ht-degree: 24%
 
 ---
 
@@ -41,7 +41,7 @@ Para administrar vídeos únicos y conjuntos de vídeos adaptables, Adobe Dynami
 
 Consulte [Activar o desactivar ajustes preestablecidos de vídeo adaptables](/help/using/application-setup.md#activating-or-deactivating-adaptive-video-presets)
 
-Consulte también [Ajustes preestablecidos de vídeo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) vídeo de formación.
+Consulte también [Ajustes preestablecidos de vídeo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) vídeo de formación.
 
 Cuando se genera un conjunto de vídeos adaptable, incluye vídeos MP4.
 
@@ -49,7 +49,7 @@ Cuando se genera un conjunto de vídeos adaptable, incluye vídeos MP4.
 >
 >Los vídeos principales/de origen y cualquier otro vídeo en formato de origen *no* se han agregado a un conjunto de vídeos adaptable.
 
-* Subtítulos de vídeo en los visores Universal_HTML 5_Video, Universal_HTML 5_MixedMedia_dark y Universal_HTML 5_MixedMedia_light y navegación de capítulos de vídeo en los visores Universal_HTML 5_Video, Universal_HTML 5_MixedMedia_dark y Universal_HTML 5_MixedMedia_light.
+* Subtítulos de vídeo en los visores Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark y Universal_HTML5_MixedMedia_light y navegación de capítulos de vídeo en los visores Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark y Universal_HTML5_MixedMedia_light.
 
   Ver [Agregar subtítulos a un vídeo](adding-captions-video.md).
 
@@ -60,7 +60,7 @@ Cuando se genera un conjunto de vídeos adaptable, incluye vídeos MP4.
 
   La transmisión de vídeo adaptable es compatible con varias plataformas de iOS.
 
-  Consulte la compatibilidad más reciente en la [Guía de referencia de visores de Adobe](https://experienceleague.adobe.com/es/docs/dynamic-media-developer-resources).
+  Consulte la compatibilidad más reciente en la [Guía de referencia de visores de Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
   Adobe Dynamic Media Classic admite la reproducción de vídeo móvil para vídeo MP4 H.264. <!-- LINK IS 404; NO SUITABLE REPLACEMENT WAS FOUND You can find BlackBerry&reg; devices that support this video format at the following website: -->
 
@@ -79,19 +79,19 @@ Cuando se genera un conjunto de vídeos adaptable, incluye vídeos MP4.
 * Integre vídeo en su sitio web, sitio móvil o aplicación móvil con una URL simple o un código incrustado.
 
 Consulte los siguientes vídeos de formación:
-* [Descripción general del vídeo MP4](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/563_MP4%20Video%20Overview_converted%20renamed_eVideos-AVS)
+* [Descripción general del vídeo MP4](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/563_MP4%20Video%20Overview_converted%20renamed_eVideos-AVS)
 
-* [Vista previa de vídeo MP4](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/564_MP4%20Video%20Preview_converted%20renamed_eVideos-AVS)
+* [Vista previa de vídeo MP4](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/564_MP4%20Video%20Preview_converted%20renamed_eVideos-AVS)
 
-* [Carga de vídeo MP4](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/565_MP4%20Video%20Upload_converted%20renamed_eVideos-AVS)
+* [Carga de vídeo MP4](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/565_MP4%20Video%20Upload_converted%20renamed_eVideos-AVS)
 
-* [Resumen de transmisión](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/567_Streaming%20Overview_master_eVideos_converted%20renamed_eVideos-AVS)
+* [Resumen de transmisión](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/567_Streaming%20Overview_master_eVideos_converted%20renamed_eVideos-AVS)
 
 **Inicio rápido**
 
 La siguiente descripción paso a paso del flujo de trabajo se ha diseñado para ayudarle a ponerse en marcha rápidamente con los conjuntos de vídeos adaptables en Adobe Dynamic Media Classic. Después de cada paso, se hace una referencia cruzada a un encabezado de tema donde puede encontrar más información.
 
-## 1. Cargue y codifique vídeos
+## &#x200B;1. Cargue y codifique vídeos
 
 Cargue y genere conjuntos de vídeos adaptables con una de los dos situaciones siguientes:
 
@@ -114,7 +114,7 @@ Sin embargo, si es necesario personalizar más el proyecto, los administradores 
 
 Consulte [Trabajar con ajustes preestablecidos de codificación de vídeo](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
-## 2. Vista previa de vídeos en un visor de vídeos
+## &#x200B;2. Vista previa de vídeos en un visor de vídeos
 
 Para ver cómo se reproduce un vídeo para los usuarios finales en un escritorio, un sitio web o un dispositivo móvil, seleccione el vídeo en el panel Examinar. Luego selecciona **[!UICONTROL Vista previa]**.
 
@@ -128,9 +128,9 @@ Personalización de ajustes preestablecidos de visualizador: Adobe Dynamic Media
 
 Consulte [Trabajar con ajustes preestablecidos del visor de vídeo](previewing-videos-video-viewer.md#working_with_video_viewer_presets).
 
-Consulte también [Ajustes preestablecidos de vídeo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) vídeo de formación.
+Consulte también [Ajustes preestablecidos de vídeo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) vídeo de formación.
 
-## 3. Implementar vídeos en sus sitios web y sitios móviles
+## &#x200B;3. Implementar vídeos en sus sitios web y sitios móviles
 
 Para incorporar el vídeo en el sitio web, puede realizar cualquiera de las acciones siguientes:
 

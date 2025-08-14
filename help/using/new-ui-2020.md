@@ -22,12 +22,12 @@ Consulta la [aplicación de escritorio de Adobe Dynamic Media Classic](/help/usi
 
 ## _Última revisión el 30 de junio de 2020_
 
-Los usuarios de Adobe Dynamic Media Classic ahora tienen acceso a un nuevo inicio de sesión que ya no depende de la tecnología de Flash de Adobe en el explorador.
+Los usuarios de Adobe Dynamic Media Classic ahora tienen acceso a un nuevo inicio de sesión que ya no depende de la tecnología Adobe Flash en el explorador.
 
 ## Preguntas frecuentes
 
-+++**_Cuando los exploradores dejen de admitir el Flash de Adobe el 31 de diciembre de 2020, ¿tendrá algún impacto Adobe Dynamic Media Classic (anteriormente Scene7)?_**
-El Flash Player de Adobe era un complemento del explorador web que permitía a los exploradores web utilizar contenido desarrollado en Adobe Flash Platform. La interfaz de usuario web de Adobe Dynamic Media Classic (actualmente con la etiqueta [!DNL Scene7 Publishing System] o [!DNL SPS] en el producto) requería el Flash Player de Adobe. Cuando el Flash de Adobe quede obsoleto el 31 de diciembre de 2020, los clientes de Adobe Dynamic Media Classic ya no podrán iniciar sesión en la interfaz de usuario web. Debido a este cambio, Adobe ha proporcionado a los clientes una aplicación de escritorio que reemplaza la experiencia del explorador.
++++**_Cuando los exploradores dejen de admitir Adobe Flash el 31 de diciembre de 2020, ¿afectará a Adobe Dynamic Media Classic (anteriormente Scene7)?_**
+Adobe Flash Player era un complemento para explorador Web que permitía a los exploradores Web utilizar contenido desarrollado en Adobe Flash Platform. La interfaz de usuario web de Adobe Dynamic Media Classic (actualmente con la etiqueta [!DNL Scene7 Publishing System] o [!DNL SPS] en el producto) requería Adobe Flash Player. Cuando Adobe Flash quede obsoleto el 31 de diciembre de 2020, los clientes de Adobe Dynamic Media Classic ya no podrán iniciar sesión en la interfaz de usuario web. Debido a este cambio, Adobe ha proporcionado a los clientes una aplicación de escritorio que reemplaza la experiencia del explorador.
 +++
 
 +++**_¿Cómo puedo acceder a la nueva aplicación de escritorio?_**
@@ -51,7 +51,7 @@ Después de descargar, instalar e iniciar la aplicación de escritorio, se le mo
 No hay cambios en las API subyacentes de Adobe Dynamic Media Classic.
 +++
 
-+++**_¿Esta nueva experiencia de aplicación de escritorio requiere migraciones o cambios en las integraciones de terceros?_**
++++**_¿Esta nueva experiencia de aplicación de escritorio requiere alguna migración o cambio en las integraciones de terceros?_**
 No. Los clientes de Adobe Dynamic Media Classic no tienen que migrar ni cambiar ninguna integración de terceros para utilizar la nueva aplicación de escritorio.
 +++
 
@@ -60,11 +60,11 @@ No. Los scripts de automatización no tienen ningún impacto. La nueva aplicaci�
 +++
 
 +++**_¿Funcionará la nueva aplicación de escritorio de Adobe Dynamic Media Classic en equipos Mac y personales?_**
-Sí. La nueva aplicación de escritorio es una solución multiplataforma y funciona en equipos Mac y PC. Linux® *no es compatible con*.
+Sí; La nueva aplicación de escritorio es una solución multiplataforma y funciona en equipos Mac y PC. Linux® *no es compatible con*.
 +++
 
 +++**_Mi compañía tiene requisitos de seguridad estrictos. ¿Cómo gestiona la nueva aplicación de escritorio de Adobe Dynamic Media Classic estos requisitos?_**
-Adobe se compromete a garantizar que sus productos cumplen los requisitos de seguridad de sus clientes. La nueva aplicación de escritorio de Adobe Dynamic Media Classic sigue proporcionando a los clientes una experiencia altamente segura que se ajusta a todos los estándares de seguridad de Adobe.
+Adobe se compromete a garantizar que sus productos cumplan los requisitos de seguridad de sus clientes. La nueva aplicación de escritorio de Adobe Dynamic Media Classic sigue proporcionando a los clientes una experiencia altamente segura que se ajusta a todos los estándares de seguridad de Adobe.
 +++
 
 +++**_Mi compañía no me permite instalar software y aplicaciones en el equipo. ¿Cómo recomienda que obtenga acceso a la nueva aplicación de escritorio?_**
@@ -75,34 +75,34 @@ Algunas empresas no permiten descargar e instalar software y aplicaciones en el 
 No. La tecnología de AIR en la que se basa la nueva aplicación de escritorio de Adobe Dynamic Media Classic impide que un usuario tenga varias instancias de la aplicación abiertas a la vez.
 +++
 
-+++**_¿Hay alguna restricción en el número de archivos que se pueden cargar en Adobe Dynamic Media Classic a través de un equipo local?_**
++++**_¿Hay alguna restricción en el número de archivos que se pueden cargar en Adobe Dynamic Media Classic mediante un equipo local?_**
 Al usar la nueva aplicación de escritorio de Adobe Dynamic Media Classic en Windows®, puede cargar un máximo de 150 archivos a la vez mediante el cuadro de diálogo **[!UICONTROL Cargar]**. Esta limitación ya se había abordado antes de finales de 2020. Hay *no* restricciones de carga en la plataforma macOS.
 +++
 
-+++**_¿La nueva aplicación de escritorio de Adobe Dynamic Media Classic requiere un nuevo SKU? ¿Está implicado el coste de la licencia?_**
++++**_¿La nueva aplicación de escritorio de Adobe Dynamic Media Classic requiere un nuevo SKU? ¿Hay algún costo de licencia involucrado?_**
 No a ambas preguntas. No se requiere ningún cambio de SKU o licencia para utilizar la nueva aplicación de escritorio de Adobe Dynamic Media Classic.
 +++
 
 +++**_¿Cómo están habilitadas las actualizaciones a la aplicación de escritorio de Adobe Dynamic Media Classic?_**
-Después del lanzamiento de la aplicación de escritorio de Adobe Dynamic Media Classic el 30 de junio de 2020, si Adobe publica una nueva versión, los clientes deberán descargar e instalar la nueva versión (reemplace la aplicación existente en **[!UICONTROL Aplicaciones]**). Se le notifica la nueva versión a través de su equipo de cuenta de Adobe y de un mecanismo de notificación de actualización en la aplicación que notifica a los usuarios de una actualización.
+Después del lanzamiento de la aplicación de escritorio de Adobe Dynamic Media Classic el 30 de junio de 2020, si Adobe lanza una nueva versión, los clientes deberán descargar e instalar la nueva versión (reemplazar la aplicación existente en **[!UICONTROL Aplicaciones]**). Se le notifica la nueva versión a través de su equipo de cuenta de Adobe y de un mecanismo de notificación de actualización en la aplicación que notifica a los usuarios de una actualización.
 +++
 
 +++**_¿Cómo obtengo ayuda para cualquier problema que tenga con la aplicación de escritorio de Adobe Dynamic Media Classic?_**
 Póngase en contacto con el Soporte técnico de Adobe si tiene algún problema al usar la aplicación.
 +++
 
-+++**_Quiero asegurarme de estar optimizando mi estrategia de medios enriquecidos. ¿Cómo puedo obtener más información acerca de Adobe Dynamic Media Classic?_**
++++**_Quiero asegurarme de estar optimizando mi estrategia de medios enriquecidos. ¿Cómo puedo obtener más información acerca de Adobe Dynamic Media Classic?_** 
 Adobe Dynamic Media Classic es una potente solución con numerosas funciones diseñada para mejorar sus estrategias de medios enriquecidos. Para asegurarse de aprovechar todas las funcionalidades, asegúrese de explorar estos recursos prácticos:
 
-* [Tutorial sobre prácticas recomendadas de Adobe Dynamic Media Classic](https://experienceleague.adobe.com/es/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
-* [Entradas de blog de Adobe](https://blog.adobe.com/)<!-- (https://blog.adobe.com/tag/dynamic-media/) -->
-* [Archivos de newsletter de Dynamic Media de Adobe](https://experienceleague.adobe.com/es/docs/dynamic-media-classic/using/dynamic-media-newsletter)
+* [Tutorial sobre prácticas recomendadas de Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
+* [Publicaciones de blog de Adobe](https://blog.adobe.com/)<!-- (https://blog.adobe.com/tag/dynamic-media/) -->
+* [Archivos de newsletter de Dynamic Media de Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/dynamic-media-newsletter)
 +++
 
-<!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html?lang=es), and the complementary audit program. -->
+<!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html), and the complementary audit program. -->
 
 +++**_Estoy interesado en obtener más información sobre la actualización a Adobe Dynamic Media con Adobe Experience Manager Assets. ¿Dónde puedo encontrar más información?_**
-Para obtener más información sobre las ventajas de actualizar a la siguiente generación de medios enriquecidos, creación, publicación y distribución dinámica, visita [Adobe Dynamic Media Portal para actualizar](/help/using/upgrade.md).
+Para obtener más información sobre las ventajas de actualizar a la siguiente generación de creación, publicación y distribución dinámica de medios enriquecidos, visita [Adobe Dynamic Media Portal for upgrade](/help/using/upgrade.md).
 +++
 
 >[!MORELIKETHIS]

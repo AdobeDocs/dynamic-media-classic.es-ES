@@ -19,13 +19,13 @@ ht-degree: 15%
 
 # Instrumentación de un visor mediante el kit de instrumentación de Adobe Analytics{#instrumenting-a-viewer-using-the-adobe-analytics-instrumentation-kit}
 
-Puede utilizar el kit de instrumentación de Adobe Analytics para integrar un visor HTML5 con Adobe Analytics.
+Puede utilizar el kit de instrumentación de Adobe Analytics para integrar un visor de HTML5 con Adobe Analytics.
 
-Si utiliza cualquiera de los ajustes predefinidos del visualizador HTML 5 de Adobe Dynamic Media Classic, ya contienen todo el código de implementación para enviar datos a Adobe Analytics. No es necesario añadir más instrumentación.
+Si utiliza cualquiera de los ajustes predefinidos del visualizador HTML5 de Adobe Dynamic Media Classic, ya contienen todo el código de implementación para enviar datos a Adobe Analytics. No es necesario añadir más instrumentación.
 
 ## Configurar el seguimiento de Adobe Analytics desde Adobe Dynamic Media Classic {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
 
-Para todos los visualizadores de HTML 5, añada la siguiente JavaScript al contenedor de HTML, normalmente en el elemento &lt;head>:
+Para todos los visualizadores de HTML5, añada la siguiente JavaScript al contenedor de HTML, normalmente en el elemento &lt;head>:
 
 ```as3
 <!-- ***** Adobe Analytics Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Adobe Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
@@ -35,7 +35,7 @@ Donde `Adobe Dynamic Media Classic Company ID` se establece en el nombre de empr
 
 A continuación, agregue una función que transmita el evento del visor al código de seguimiento de Adobe Analytics.
 
-Agregue la función `s7ComponentEvent()` al HTML contenedor (o JSP, o ASPX u otro):
+Agregue la función `s7ComponentEvent()` al contenedor HTML (o JSP, o ASPX u otro):
 
 ```as3
 function s7ComponentEvent(objectId, componentClass, instanceName, timeStamp, eventData) {     s7track(eventData); }

@@ -1,5 +1,5 @@
 ---
-title: Trabajo con archivos de PSD
+title: Trabajo con archivos PSD
 description: Aprenda a trabajar con archivos de PSD en Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -17,13 +17,13 @@ ht-degree: 22%
 
 ---
 
-# Trabajo con archivos de PSD{#working-with-psd-files}
+# Trabajo con archivos PSD{#working-with-psd-files}
 
 <!--   USED TO BE AN OPTION UNDER COLOR PROFILE OPTIONS * **Convert To sRGB (default)**: Converts to sRGB (Standard Red Green Blue). sRGB is the recommended color space for displaying images on Web pages. -->
 
-Los PSD (archivos de documentos de Photoshop) se utilizan principalmente en Adobe Dynamic Media Classic para crear plantillas. Al cargar un archivo de PSD, puede crear una plantilla de Adobe Dynamic Media Classic automáticamente a partir del archivo (seleccione la opción Crear plantilla en la pantalla Cargar ).
+PSD (archivos de documentos de Photoshop) se utiliza con mayor frecuencia en Adobe Dynamic Media Classic para crear plantillas. Al cargar un archivo de PSD, puede crear una plantilla de Adobe Dynamic Media Classic automáticamente a partir del archivo (seleccione la opción Crear plantilla en la pantalla Cargar ).
 
-Adobe Dynamic Media Classic crea varias imágenes a partir de un archivo de PSD con capas si utiliza el archivo para crear una plantilla; crea una imagen para cada capa.
+Adobe Dynamic Media Classic crea varias imágenes a partir de un archivo PSD con capas si utiliza el archivo para crear una plantilla; crea una imagen para cada capa.
 
 ## Opciones de carga de archivos PSD {#psd-upload-options}
 
@@ -31,11 +31,11 @@ Las opciones para cargar archivos de PSD se encuentran en Opciones de Photoshop,
 
 Estas opciones están disponibles al cargar archivos PSD:
 
-* **Opciones de recorte**: se encuentra en **[!UICONTROL Opciones de recorte]**. Seleccione **[!UICONTROL Recortar]** para que pueda recortar automáticamente el espacio en blanco de los bordes de un archivo de PSD. Seleccione **[!UICONTROL Manual]** para recortar los lados del archivo del PSD:
+* **Opciones de recorte**: se encuentra en **[!UICONTROL Opciones de recorte]**. Seleccione **[!UICONTROL Recortar]** para que pueda recortar automáticamente el espacio en blanco de los bordes de un archivo PSD. Seleccione **[!UICONTROL Manual]** para recortar los lados del archivo PSD:
 
    * **[!UICONTROL Recortar]**: selecciona el menú **[!UICONTROL Recortar basándose en]** y elige **[!UICONTROL Color]** o **[!UICONTROL Transparencia]**.
 
-  Si elige la opción **[!UICONTROL Color]**, seleccione el menú Esquina y elija la esquina del PSD con el color que mejor represente el color del espacio en blanco que desea recortar.
+  Si elige la opción **[!UICONTROL Color]**, seleccione el menú Esquina y elija la esquina de la PSD con el color que mejor represente el color del espacio en blanco que desea recortar.
 
   Arrastre el control deslizante para especificar una tolerancia de 0 a 1. Para un recorte basado en color, especifique 0 para recortar píxeles solo si coinciden exactamente con el color seleccionado en la esquina del PSD. Los números más cercanos a 1 permiten una mayor diferencia de color. Para recortar según la transparencia, especifique 0 para recortar píxeles solo si son transparentes; los números más cercanos a 1 permiten una mayor transparencia.
 
@@ -51,7 +51,7 @@ Estas opciones están disponibles al cargar archivos PSD:
 
 * **Opciones de Photoshop**
 
-   * **[!UICONTROL Mantener capas]**: extrae las capas del PSD, si las hay, en recursos individuales. Las capas de recursos permanecen asociadas al PSD. Para verlos, abra el fichero PSD en Vista de detalles y seleccione el panel Capa. Consulte Visualización y edición de capas en un fichero de PSD.
+   * **[!UICONTROL Mantener capas]**: extrae las capas de PSD, si las hay, en recursos individuales. Las capas de recursos permanecen asociadas al PSD. Para verlos, abra el archivo PSD en Vista de detalles y seleccione el panel Capa. Consulte Visualización y edición de capas en un archivo PSD.
 
    * **[!UICONTROL Crear plantilla]**: crea una plantilla a partir de las capas del archivo PSD.
 
@@ -59,25 +59,25 @@ Estas opciones están disponibles al cargar archivos PSD:
 
    * **[!UICONTROL Extender capas al tamaño del fondo]**: Extiende el tamaño de las capas de imagen copiada al tamaño de la capa de fondo.
 
-   * **[!UICONTROL Nombres de capas]**: las capas del archivo del PSD se cargan como imágenes independientes. Para asignar un nombre a estas imágenes en Adobe Dynamic Media Classic, elija una de las siguientes opciones:
+   * **[!UICONTROL Nombres de capas]**: las capas del archivo PSD se cargan como imágenes independientes. Para asignar un nombre a estas imágenes en Adobe Dynamic Media Classic, elija una de las siguientes opciones:
 
-      * **[!UICONTROL Nombre de capa]**: asigna un nombre a las imágenes después de sus nombres de capa en el archivo PSD. Por ejemplo, una capa con el nombre Etiqueta de precio en el archivo PSD original se convierte en una imagen con el nombre Etiqueta de precio. Sin embargo, si los nombres de las capas del fichero de PSD son nombres de capas Photoshop por defecto (Fondo, Capa 1, Capa 2, etc.), las imágenes recibirán los nombres de sus números de capa en el fichero de PSD. <!-- not their default layer names -->
+      * **[!UICONTROL Nombre de capa]**: asigna un nombre a las imágenes después de sus nombres de capa en el archivo PSD. Por ejemplo, una capa con el nombre Etiqueta de precio en el archivo PSD original se convierte en una imagen con el nombre Etiqueta de precio. Sin embargo, si los nombres de las capas del fichero PSD son nombres de capas Photoshop por defecto (Fondo, Capa 1, Capa 2, etc.), las imágenes recibirán los nombres de sus números de capa en el fichero PSD. <!-- not their default layer names -->
 
-      * **[!UICONTROL Photoshop y número de capa]**: asigna un nombre a las imágenes después de sus números de capa en el archivo PSD, omitiendo los nombres de capa originales. Las imágenes reciben el nombre del archivo de Photoshop y un sufijo de número de capa. Por ejemplo, la segunda capa de un archivo denominado `Spring Ad.psd` se denomina `Spring Ad_2` aunque no tuviera un nombre predeterminado en Photoshop.
+      * **[!UICONTROL Photoshop y número de capa]**: asigna un nombre a las imágenes después de sus números de capa en el archivo PSD e ignora los nombres de capa originales. Las imágenes reciben el nombre del archivo de Photoshop y un sufijo de número de capa. Por ejemplo, la segunda capa de un archivo denominado `Spring Ad.psd` se denomina `Spring Ad_2` aunque no tuviera un nombre predeterminado en Photoshop.
 
-      * **[!UICONTROL Photoshop y nombre de capa]**: nombra las imágenes después del archivo de PSD seguido del nombre de capa o número de capa. El número de capa se utiliza si los nombres de capa en el archivo PSD son nombres de capa predeterminados de Photoshop. Por ejemplo, una capa denominada `Price Tag` en un archivo de PSD denominado `SpringAd` se denomina `Spring Ad_Price Tag`. Una capa con el nombre predeterminado Capa 2 se llama `Spring Ad_2`.
+      * **[!UICONTROL Photoshop y nombre de capa]**: asigna un nombre a las imágenes después del archivo PSD seguido del nombre o número de capa. El número de capa se utiliza si los nombres de capa en el archivo PSD son nombres de capa predeterminados de Photoshop. Por ejemplo, una capa denominada `Price Tag` en un archivo PSD con el nombre `SpringAd` se denomina `Spring Ad_Price Tag`. Una capa con el nombre predeterminado Capa 2 se llama `Spring Ad_2`.
 
    * **[!UICONTROL Anclaje]**: especifique cómo se anclan las imágenes en las plantillas que se generan a partir de la composición con capas producida a partir del archivo PSD. De forma predeterminada, el anclaje es al centro. Un anclaje central permite imágenes de reemplazo que pueden rellenar mejor el mismo espacio, sin importar la proporción de aspecto de la imagen de reemplazo. Las imágenes con una proporción diferente que sustituyan esta imagen, al hacer referencia a la plantilla y usar la sustitución paramétrica, ocuparán el mismo espacio. Cambie a otra configuración si la aplicación requiere que las imágenes de sustitución rellenen el espacio asignado en la plantilla.
 
-## Visualización y edición de capas en un archivo de PSD {#viewing-and-editing-layers-in-a-psd-file}
+## Visualización y edición de capas en un archivo PSD {#viewing-and-editing-layers-in-a-psd-file}
 
-Si seleccionó la opción **[!UICONTROL Mantener capas]** al cargar el PSD, Adobe Dynamic Media Classic copió las capas individuales en los recursos. Puede ver y editar las capas de recursos que pertenecen a un archivo de PSD abriendo el archivo en el panel Examinar en la Vista de detalles.
+Si seleccionó la opción **[!UICONTROL Mantener capas]** al cargar el PSD, Adobe Dynamic Media Classic copió las capas individuales en los recursos. Puede ver y editar las capas de recursos que pertenecen a un archivo PSD abriendo el archivo en el panel Examinar en la Vista de detalles.
 
 >[!NOTE]
 >
 >Adobe Dynamic Media Classic admite hasta cinco niveles en un grupo de capas anidadas.
 
-1. Haga doble clic en el archivo de PSD completo en el panel Examinar. El archivo se abre en la Vista de detalles.
+1. Haga doble clic en el archivo PSD completo en el panel Examinar. El archivo se abre en la Vista de detalles.
 
    >[!NOTE]
    >

@@ -159,7 +159,7 @@ De manera predeterminada, la plantilla de dirección URL incluye un controlador 
 
   >[!NOTE]
   >
-  >El controlador `loadProductPW` no admite visores DHTML y HTML 5.
+  >El controlador `loadProductPW` no admite visores DHTML y HTML5.
 
 ### Creación de una plantilla de URL {#creating-a-url-template}
 
@@ -197,7 +197,7 @@ Seleccione el menú **[!UICONTROL Mostrar]** y seleccione **[!UICONTROL Ambos]**
 
 Puede crear mapas de imagen mientras diseña su catálogo electrónico en Adobe Acrobat o en Adobe InDesign.
 
-En Adobe Acrobat o Adobe InDesign, cree referencias de hipervínculo donde desee que aparezcan los mapas de imagen y especifique las ubicaciones URL para el mapa de imagen. Al seleccionar la opción Extraer vínculos al cargar el archivo del PDF en Adobe Dynamic Media Classic, se convierten automáticamente los vínculos a mapas de imágenes.
+En Adobe Acrobat o Adobe InDesign, cree referencias de hipervínculo donde desee que aparezcan los mapas de imagen y especifique las ubicaciones URL para el mapa de imagen. Al seleccionar la opción Extraer vínculos al cargar el archivo de PDF en Adobe Dynamic Media Classic, se convierten automáticamente los vínculos a mapas de imágenes.
 
 Para obtener más información, consulte Ayuda de Adobe InDesign o Ayuda de Adobe Acrobat.
 
@@ -216,7 +216,7 @@ Para obtener más información, consulte Ayuda de Adobe InDesign o Ayuda de Adob
 
 1. Repita los pasos 2 a 6 para todos los mapas de imágenes que desee crear.
 1. Exporte el archivo como PDF.
-1. Cargue el PDF en Adobe Dynamic Media Classic.
+1. Cargue PDF en Adobe Dynamic Media Classic.
 1. En **[!UICONTROL Opciones de PDF]**, seleccione **[!UICONTROL Extraer vínculos]**.
 
 ### Para crear mapas de imagen en Adobe Acrobat {#to-create-image-maps-in-adobe-acrobat}
@@ -234,4 +234,4 @@ Para obtener más información, consulte Ayuda de Adobe InDesign o Ayuda de Adob
 1. Escriba el id. de producto para el mapa de imagen en el cuadro Editar URL y seleccione **[!UICONTROL Aceptar]**. (Adobe Dynamic Media Classic completa la dirección URL con la plantilla URL del mapa de imagen).
 1. Repita los pasos 1 a 7 para todos los mapas de imágenes que desee crear.
 1. Guarde el archivo.
-1. Cargue el PDF en Adobe Dynamic Media Classic y seleccione Extraer vínculos en las opciones del PDF.
+1. Cargue PDF en Adobe Dynamic Media Classic y seleccione Extraer vínculos en las opciones de PDF.
