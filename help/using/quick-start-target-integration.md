@@ -23,7 +23,7 @@ Adobe Target Standard/Premium pone el control directamente en manos de los espec
 
 Adobe Dynamic Media Classic permite crear ofertas y conjuntos de ofertas para campañas de Adobe Target Standard/Premium. Por ejemplo, puede crear un conjunto de ofertas con tres variaciones del mismo recurso de medios enriquecidos. A continuación, puede tener Adobe Target Standard o Premium para determinar qué recurso proporciona un mejor aumento de conversión. Puede crear ofertas y conjuntos de ofertas a partir de una plantilla básica o de imágenes individuales. Una vez que el conjunto de ofertas se haya insertado o guardado en Adobe Target Standard/Premium, donde las ofertas están asociadas a mboxes y experiencias, Adobe Target Standard/Premium podrá ejecutar campañas. Estas campañas determinan qué variación de un sitio web probablemente funcione mejor para las pulsaciones y la conversión.
 
-Para una mayor personalización del contenido dinámico de Adobe Dynamic Media Classic, utilice ofertas de HTML de Adobe Target Standard/Premium. Consulte la [documentación del producto de Adobe Target Standard/Premium](https://experienceleague.adobe.com/en/docs/target) para obtener más información.
+Para una mayor personalización del contenido dinámico de Adobe Dynamic Media Classic, utilice ofertas de HTML de Adobe Target Standard/Premium. Consulte la [documentación del producto de Adobe Target Standard/Premium](https://experienceleague.adobe.com/es/docs/target) para obtener más información.
 
 >[!NOTE]
 >

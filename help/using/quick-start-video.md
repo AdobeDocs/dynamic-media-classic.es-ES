@@ -60,7 +60,7 @@ Cuando se genera un conjunto de vídeos adaptable, incluye vídeos MP4.
 
   La transmisión de vídeo adaptable es compatible con varias plataformas de iOS.
 
-  Consulte la compatibilidad más reciente en la [Guía de referencia de visores de Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
+  Consulte la compatibilidad más reciente en la [Guía de referencia de visores de Adobe](https://experienceleague.adobe.com/es/docs/dynamic-media-developer-resources).
 
   Adobe Dynamic Media Classic admite la reproducción de vídeo móvil para vídeo MP4 H.264. <!-- LINK IS 404; NO SUITABLE REPLACEMENT WAS FOUND You can find BlackBerry&reg; devices that support this video format at the following website: -->
 

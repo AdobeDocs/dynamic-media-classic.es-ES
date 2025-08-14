@@ -255,7 +255,7 @@ Los clientes son los principales responsables de la administración de cambios, 
 ## Asistencia y formación
 
 +++**¿Cómo obtengo soporte técnico?**
-El servicio de atención al cliente está disponible las 24 horas del día, los 7 días de la semana. [Póngase en contacto con el soporte técnico](https://experienceleague.adobe.com/?support-solution=General#support).
+El servicio de atención al cliente está disponible las 24 horas del día, los 7 días de la semana. [Póngase en contacto con el soporte técnico](https://experienceleague.adobe.com/es?support-solution=General#support).
 
 Teléfono: 1-800-898-9743 (EE. UU.) | +44 (0)20 35641782 (RU) | +81-3-6743-9632 (Japón)
 
