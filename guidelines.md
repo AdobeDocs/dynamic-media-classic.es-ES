@@ -37,7 +37,7 @@ Las excepciones a esta regla se aplican a las notas de la versión, donde los pr
 
 Cualquier idea que tenga para mejorar la documentación de es bienvenida como contribución. Sin embargo, los comentarios, los problemas y las solicitudes de extracción están destinados a *contribuciones* solo. No pretenden responder a sus preguntas sobre cómo utilizar Adobe Dynamic Media Classic, implementar su proyecto ni resolver problemas técnicos.
 
-Cualquier pregunta sobre el uso de Adobe Dynamic Media Classic o errores técnicos que pueda tener debe notificarse a través de la [Portal de soporte Enterprise de Experience Cloud](https://experienceleague.adobe.com/es?support-solution=General&amp;support-tab=home#support) o discutido en el [comunidad de Experience Cloud](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=es).
+Cualquier pregunta sobre el uso de Adobe Dynamic Media Classic o errores técnicos que pueda tener debe notificarse a través de la [Portal de soporte Enterprise de Experience Cloud](https://experienceleague.adobe.com/es?support-solution=General&support-tab=home#support) o discutido en el [comunidad de Experience Cloud](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=es).
 
 ***Las contribuciones a la documentación no sustituyen al Servicio de atención al cliente de Adobe*** y se rechazará cualquier contribución de este tipo que busque respuestas a preguntas relacionadas con la asistencia.
 
