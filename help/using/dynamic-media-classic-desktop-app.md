@@ -233,7 +233,7 @@ Para descargar y *instalar en modo silencioso* la versión más reciente de la a
 
 ## Introducción a vídeo sobre el uso de Adobe Dynamic Media Classic Desktop App {#dmc-app-video-walk-through}
 
-Vea un recorrido en vídeo de [con la aplicación Adobe Dynamic Media Classic para escritorio](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (duración: 2 minutos y 36 segundos).
+Vea un recorrido en vídeo de [con la aplicación Adobe Dynamic Media Classic para escritorio](https://experienceleague.adobe.com/es/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (duración: 2 minutos y 36 segundos).
 
 ## Borrando la caché de imágenes y de recursos del equipo mediante la aplicación de escritorio {#clear-cache}
 

@@ -187,7 +187,7 @@ Puede aplicar modificadores de imagen al fotograma de póster. Por ejemplo, pued
 
 Consulte [Agregar o editar un ajuste preestablecido de visualizador de vídeo](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
-Consulte [Guía de servicio de imágenes](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
+Consulte [Guía de servicio de imágenes](https://experienceleague.adobe.com/es/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
 
 También puede modificar las miniaturas de los vídeos agregando modificadores a las URL de las miniaturas de vídeo.
 
