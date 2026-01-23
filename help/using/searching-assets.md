@@ -10,7 +10,7 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 17%
@@ -155,7 +155,7 @@ El servidor de metadatos es una API pública que puede utilizar para buscar recu
 
 Para configurar el servidor de metadatos, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de aplicación]** > **[!UICONTROL Configuración de publicación]** > **[!UICONTROL Servidor de metadatos]**.
 
-La página Publicación del servidor de metadatos le permite establecer las siguientes opciones:
+La página Editor del servidor de metadatos le permite establecer las siguientes opciones:
 
 * **[!UICONTROL Publicación instantánea]**: inserta automáticamente los cambios de metadatos que se realicen, incluidos los nuevos recursos, los cambios de palabras clave, etc.
 

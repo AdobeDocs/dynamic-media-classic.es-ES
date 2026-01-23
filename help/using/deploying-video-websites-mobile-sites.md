@@ -10,7 +10,7 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '1703'
 ht-degree: 23%
@@ -73,9 +73,9 @@ Vea también [Incrustar el visor de vídeo en una página web](deploying-video-w
 
 1. Coloque el vínculo a la URL del vídeo HTML5 en el sitio web y el sitio de dispositivos móviles.
 
-## Incrustar el visor de vídeo en una página web {#embedding-the-video-viewer-on-a-web-page}
+## Añadir el visor de vídeo en una página web {#embedding-the-video-viewer-on-a-web-page}
 
-Utilice la función Código incrustado cuando desee reproducir el vídeo incrustado en la página web. El código incrustado se copia en el portapapeles para pegarlo en las páginas Web. No se permite la edición del código en el cuadro de diálogo Código incrustado.
+Utilice la función de código incrustado cuando desee reproducir el vídeo incrustado en la página Web. El código incrustado se copia en el portapapeles para pegarlo en las páginas Web. No se permite la edición del código en el cuadro de diálogo Código incrustado.
 
 Ver también [Vincular una URL de vídeo a un sitio móvil o sitio web](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
@@ -103,7 +103,7 @@ Ver también [Vincular una URL de vídeo a un sitio móvil o sitio web](deployin
    No se permite la edición del código en el cuadro de diálogo Código incrustado.
 
 1. seleccione **[!UICONTROL Cerrar]**.
-1. Pegue el código incrustado en las páginas web.
+1. Pegue el código incrustado en las páginas Web.
 
 ### Implementar código incrustado para utilizar vídeo HTML5 con recursos de vídeo MP4 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
@@ -187,7 +187,7 @@ Puede aplicar modificadores de imagen al fotograma de póster. Por ejemplo, pued
 
 Consulte [Agregar o editar un ajuste preestablecido de visualizador de vídeo](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
-Consulte [Guía de servicio de imágenes](https://experienceleague.adobe.com/es/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
+Consulte [Guía de servicio de imágenes](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
 
 También puede modificar las miniaturas de los vídeos agregando modificadores a las URL de las miniaturas de vídeo.
 

@@ -10,7 +10,7 @@ role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 27%
@@ -27,11 +27,11 @@ Asegúrese de establecer una estructura de carpetas y una organización para alm
 
 En la biblioteca de recursos se muestran los archivos que contiene el árbol de carpetas. Al seleccionar una carpeta en la biblioteca de recursos, su contenido aparece en el panel Examinar. Utilice estas técnicas para localizar carpetas en el árbol de carpetas:
 
-* **Mostrar subcarpetas**: Seleccione el icono **[!UICONTROL Expandir carpeta]** para mostrar las subcarpetas de una carpeta. Este icono se encuentra a la izquierda del nombre de cada carpeta.
+* **Mostrar subcarpetas**: seleccione el icono **[!UICONTROL Carpeta expandida]** para mostrar las subcarpetas en una carpeta. Este icono se encuentra a la izquierda del nombre de cada carpeta.
 
 * **Mover una carpeta**: Puede mover una carpeta arrastrándola y soltándola en su nueva ubicación, o seleccionando **[!UICONTROL Archivo]** > **[!UICONTROL Mover carpeta]**.
 
-* **Ocultar carpetas**: seleccione el icono **[!UICONTROL Contraer carpeta]** si desea contraer subcarpetas para ocultarlas de la vista. Este icono se encuentra a la izquierda del nombre de cada carpeta.
+* **Ocultar carpetas**: seleccione el icono **[!UICONTROL Carpeta contraída]** si desea contraer subcarpetas para ocultarlas de la vista. Este icono se encuentra a la izquierda del nombre de cada carpeta.
 
 * **Abrir una carpeta**: seleccione una carpeta si desea mostrar su contenido en el panel Examinar.
 

@@ -9,10 +9,10 @@ role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: dd799969ff9fd2638537254ae928a598eec627a3
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '1995'
-ht-degree: 29%
+source-wordcount: '1991'
+ht-degree: 30%
 
 ---
 
@@ -105,7 +105,7 @@ Puede utilizar las siguientes técnicas de filtrado de listas de usuarios:
 
 * **Filtrar por función de usuario**: seleccione el menú **[!UICONTROL Por función de usuario]** y elija una opción para reducir la lista a usuarios o administradores de diferentes tipos.
 
-* **Filtrar por nombre de campo**: Seleccione **[!UICONTROL Habilitar filtro por campo]**. A continuación, seleccione el menú **[!UICONTROL Por nombre de campo]**, elija una columna para filtrar la lista, seleccione el menú Carácter de filtro y elija una carta. La lista se filtra en una de las columnas mediante la letra que elija. Para ver la lista completa, anule la selección de la opción **[!UICONTROL Habilitar filtro por campo]**.
+* **Filtrar por nombre de campo**: Seleccione **[!UICONTROL Habilitar filtro por campo]**. A continuación, seleccione el menú **[!UICONTROL Por nombre de campo]**, elija una columna para filtrar la lista, seleccione el menú Carácter de filtro y elija una carta. La lista se filtra en una de las columnas mediante la letra que elija. Para ver la lista completa, deseleccione la opción **`Enable Filter By Field`**.
 
 * **Filtrar usuarios no válidos**: Anule la selección de **[!UICONTROL Incluir no válido]**. En los resultados de búsqueda aparecerán solo los usuarios que están en el sistema. Se han eliminado usuarios no válidos del sistema y de las cuentas que administra.
 

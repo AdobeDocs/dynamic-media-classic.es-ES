@@ -10,10 +10,10 @@ role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 topic: Integrations
 level: Experienced
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '877'
-ht-degree: 40%
+ht-degree: 38%
 
 ---
 
@@ -23,7 +23,7 @@ Además de utilizar el texto del mapa de imagen para sus rollover en los catálo
 
 Puede administrar la configuración y los datos de InfoPanel mediante las siguientes funciones de Adobe Dynamic Media Classic:
 
-* El panel Configuración de InfoPanel le permite especificar la plantilla utilizada para mostrar el texto del Panel de información, una respuesta predeterminada para los errores y el número de horas que la información se almacena en caché. Además, puede especificar si desea publicar automáticamente los catálogos electrónicos.
+* El panel Configuración de InfoPanel le permite especificar la plantilla utilizada para mostrar el texto del Panel de información, una respuesta predeterminada para los errores y el número de horas que la información se almacena en caché. Además, puede especificar si los catálogos electrónicos se publican automáticamente.
 * El panel Fuente de datos de InfoPanel le permite especificar un archivo CSV que contiene el texto que desea que aparezca en el texto de rollover de InfoPanel y programar tiempos para actualizar la información.
 * El cuadro de diálogo Importar metadatos (al que se accede desde la vista Páginas de mapa) permite importar un archivo TXT delimitado por tabuladores que contiene la información de texto de rollover. Puede utilizar esta opción TXT o el panel Fuente de datos con la opción de archivo CSV para el texto de rollover.
 * La vista Páginas de mapas proporciona una opción para obtener una vista previa del xml que aparece para mapas de imagen específicos.

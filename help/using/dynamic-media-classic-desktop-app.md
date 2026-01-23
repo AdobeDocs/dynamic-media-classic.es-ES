@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: afc347201b13c3b91ec5e1bd3ac5304442772f8d
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '1994'
+source-wordcount: '1996'
 ht-degree: 0%
 
 ---
@@ -233,7 +233,7 @@ Para descargar y *instalar en modo silencioso* la versión más reciente de la a
 
 ## Introducción a vídeo sobre el uso de Adobe Dynamic Media Classic Desktop App {#dmc-app-video-walk-through}
 
-Vea un recorrido en vídeo de [con la aplicación Adobe Dynamic Media Classic para escritorio](https://experienceleague.adobe.com/es/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (duración: 2 minutos y 36 segundos).
+Vea un recorrido en vídeo de [con la aplicación Adobe Dynamic Media Classic para escritorio](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (duración: 2 minutos y 36 segundos).
 
 ## Borrando la caché de imágenes y de recursos del equipo mediante la aplicación de escritorio {#clear-cache}
 
@@ -271,11 +271,11 @@ Además de borrar la caché de imágenes y recursos mediante la aplicación de e
 
 ## Sugerencias y trucos
 
-**_No puedo ver el panel Carro de medios en la página de aterrizaje de Adobe Dynamic Media Classic._**<br>En Adobe Dynamic Media Classic, pulse&#x200B;**[!UICONTROL Configuración > Configuración personal &#x200B;]**. En la sección Explorador, asegúrese de que&#x200B;**[!UICONTROL Mostrar características de MediaPortal &#x200B;]**&#x200B;está seleccionado (marcado). Pulse&#x200B;**[!UICONTROL Guardar > Cerrar &#x200B;]**.
+**_No puedo ver el panel Carro de medios en la página de aterrizaje de Adobe Dynamic Media Classic._**<br>En Adobe Dynamic Media Classic, pulse**[!UICONTROL Configuración > Configuración personal ]**. En la sección Explorador, asegúrese de que**[!UICONTROL Mostrar características de MediaPortal ]**está seleccionado (marcado). Pulse**[!UICONTROL Guardar > Cerrar ]**.
 
-**_El estado de publicación (indicador verde) de un recurso no se refleja correctamente._**<br>En la interfaz de usuario del explorador, era necesario volver a iniciar sesión en la interfaz de usuario para ver el estado de publicación correcto de los recursos. En la aplicación de escritorio, Adobe ha incluido el icono&#x200B;**[!UICONTROL Actualizar &#x200B;]**&#x200B;en la barra de herramientas, a la derecha del botón&#x200B;**[!UICONTROL Seleccionar ninguno &#x200B;]**. Pulse el icono&#x200B;**[!UICONTROL Actualizar &#x200B;]**&#x200B;para ver el estado más reciente de todos los recursos de la página dada. No es necesario volver a iniciar sesión, como con la interfaz de usuario del explorador.
+**_El estado de publicación (indicador verde) de un recurso no se refleja correctamente._**<br>En la interfaz de usuario del explorador, se requería volver a iniciar sesión en la interfaz de usuario para ver el estado de publicación correcto de los recursos. En la aplicación de escritorio, Adobe ha incluido el icono**[!UICONTROL Actualizar ]**en la barra de herramientas, a la derecha del botón**[!UICONTROL Seleccionar ninguno ]**. Pulse el icono**[!UICONTROL Actualizador ]**para ver el estado más reciente de todos los recursos de la página dada. No es necesario volver a iniciar sesión, como con la interfaz de usuario del explorador.
 
 ![Icono de actualización](/help/using/assets/refresh-icon1.png)
 *Icono de actualización*
 
-**_No veo que funcionen los ajustes preestablecidos de conjunto por lotes en la aplicación de escritorio._**<br>Pulse&#x200B;**[!UICONTROL Cargar > Opciones del trabajo > Ajustes preestablecidos de conjunto de lotes &#x200B;]**. Asegúrese de que el&#x200B;**[!UICONTROL ajuste preestablecido del conjunto de lotes &#x200B;]**&#x200B;correspondiente esté habilitado. Haga clic en&#x200B;**[!UICONTROL Guardar y enviar carga &#x200B;]**.
+**_No veo que funcionen los ajustes preestablecidos de conjunto por lotes en la aplicación de escritorio._**<br>Pulse**[!UICONTROL Cargar > Opciones del trabajo > Ajustes preestablecidos de conjunto de lotes ]**. Asegúrese de que el**[!UICONTROL ajuste preestablecido de conjuntos de lotes ]**correspondiente esté habilitado. Haga clic en**[!UICONTROL Guardar y enviar carga ]**.

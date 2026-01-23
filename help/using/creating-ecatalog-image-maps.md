@@ -10,7 +10,7 @@ role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '1494'
 ht-degree: 26%
@@ -66,7 +66,7 @@ También puede mostrar, de forma opcional, el texto de la información del objet
    Consulte [Dibujar mapas de imágenes de catálogo electrónico](creating-ecatalog-image-maps.md#drawing_ecatalog_image_maps).
 
 1. En la lista desplegable Mostrar, seleccione **[!UICONTROL Medios enriquecidos]**.
-1. En el panel Añadir Assets de la izquierda, navegue hasta una carpeta que contenga el recurso de conjunto de giros o vídeo (formato MP4) que desee incrustar.
+1. En el panel Añadir Assets de la izquierda, navegue hasta una carpeta que contenga el conjunto de giros o el recurso de vídeo (formato MP4) que desee incrustar.
 1. Arrastre el recurso al mapa de imagen.
 1. (Opcional) En el panel de lista Mapa de imágenes, en el encabezado de columna **[!UICONTROL Información sobre herramientas]**, escriba el texto que desea que los visualizadores vean en pantalla cuando muevan el puntero sobre el Mapa de imágenes.
 1. Seleccione **[!UICONTROL Guardar]**.

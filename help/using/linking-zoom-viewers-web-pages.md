@@ -10,10 +10,10 @@ role: User
 exl-id: 2073d95b-1600-481f-8038-d29e8acacf7d
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '671'
-ht-degree: 23%
+ht-degree: 21%
 
 ---
 
@@ -47,11 +47,11 @@ Sus sitios web y aplicaciones acceden al contenido del servidor de imágenes de 
 
 Normalmente, los visitantes hacen zoom de las imágenes de un sitio web seleccionando primero un icono de Zoom (a menudo el icono muestra la imagen de una lupa). Al seleccionar este icono, se inicia una página Web dinámica (ASP o JSP) que muestra la imagen en una ventana emergente. Es en esta ventana emergente donde los visitantes aplican zoom en la imagen.
 
-Para obtener más detalles y ejemplos de código, consulte [Incrustar visor de zoom básico de HTML5 en la Guía de referencia de visores de Adobe](https://experienceleague.adobe.com/es/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Para obtener más detalles y ejemplos de código, consulte el [Visor de zoom básico de HTML5 incrustado](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) en la Guía de referencia de visores de Adobe.
 
 ## Copiar la copia incrustada de un visor de zoom {#copying-the-embed-copy-of-a-zoom-viewer}
 
-El uso de la función de código incrustado permite revisar el código del visor de zoom seleccionado. También puede copiar el código en el portapapeles para pegarlo en las páginas web y así poder implementar el visor. No se permite la edición del código en el cuadro de diálogo Código incrustado.
+El uso de la función de código incrustado permite revisar el código del visor para el visor de zoom seleccionado. También puede copiar el código en el portapapeles para pegarlo en las páginas web y así poder implementar el visor. No se permite la edición del código en el cuadro de diálogo Código incrustado.
 
 **Para copiar el código incrustado de un visor de zoom:**
 

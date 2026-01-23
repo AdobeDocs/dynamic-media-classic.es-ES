@@ -9,10 +9,10 @@ role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '3981'
-ht-degree: 40%
+ht-degree: 39%
 
 ---
 
@@ -264,7 +264,7 @@ En la pantalla Ajustes preestablecidos de vídeo, los administradores pueden con
 * Editar ajustes preestablecidos de codificación de vídeo.
 * Eliminar ajustes preestablecidos de vídeo.
 
-Cualquier vídeo que cargue en Adobe Dynamic Media Classic o que codifique en Adobe Dynamic Media Classic se tratará como &quot;vídeo&quot;. Es decir, con esta clasificación de los recursos, podrá publicar el vídeo para reproducirlo en equipos de escritorio, dispositivos móviles, o ambos. Por ejemplo, puede obtener una vista previa de estos tipos de vídeos en Adobe Dynamic Media Classic. También puede generar direcciones URL (con la función de Copiar URL) y código que puede incrustar (con la función de Código incrustado) para su uso con los reproductores de vídeo, en sitios web, etc.
+Cualquier vídeo que cargue en Adobe Dynamic Media Classic o que codifique en Adobe Dynamic Media Classic se tratará como &quot;vídeo&quot;. Es decir, con esta clasificación de los recursos, podrá publicar el vídeo para reproducirlo en equipos de escritorio, dispositivos móviles, o ambos. Por ejemplo, puede obtener una vista previa de estos tipos de vídeos en Adobe Dynamic Media Classic. También puede generar direcciones URL (con la función Copiar URL ) y código que puede incrustar (con la función de código incrustado ) para su uso con reproductores de vídeo, sitios web, etc.
 
 Ver [Vista previa de vídeos en un visor de vídeos](previewing-videos-video-viewer.md#previewing-videos-in-a-video-viewer).
 

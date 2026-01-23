@@ -10,9 +10,9 @@ role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
 topic: Integrations, Development
 level: Experienced
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1232'
 ht-degree: 21%
 
 ---
@@ -100,7 +100,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 1. Si lo desea, seleccione una imagen o un vídeo y seleccione **[!UICONTROL Vista previa]**. En la página Vista previa de ofertas, puede cambiar el tamaño y el aspecto de la imagen o el vídeo que ha seleccionado. O bien, puede cambiar todas las imágenes o vídeos del conjunto de ofertas.
 
    * Elija un valor preestablecido para cambiar el aspecto y el tamaño de la imagen o del vídeo.
-   * Para aplicar el ajuste preestablecido que eligió a todas las ofertas del conjunto de ofertas, active la casilla de verificación **[!UICONTROL Seleccionar ajustes preestablecidos para todos]**.
+   * Para aplicar el ajuste preestablecido que eligió a todas las ofertas del conjunto de ofertas, marque la casilla **`Select Presets to All`**.
 
    Seleccione **[!UICONTROL Guardar]** para guardar los cambios en la oferta de imagen o vídeo. A continuación, seleccione **[!UICONTROL Cerrar]** para volver a la página del conjunto de ofertas de Test&amp;Target.
 

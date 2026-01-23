@@ -10,10 +10,10 @@ role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 22%
+ht-degree: 20%
 
 ---
 
@@ -44,9 +44,9 @@ Después de publicar un conjunto de medios mixtos, puede obtener su dirección U
 
 La forma más común de implementar un conjunto de medios mixtos es colocar un vínculo (mediante un icono de navegación) en la página web. Cuando se selecciona, el vínculo inicia una página dinámica (ASP o JSP) que muestra el conjunto de medios mixtos en el visualizador de conjuntos de medios mixtos.
 
-## Copiar el código de incrustación de un visualizador de conjuntos de medios mixtos {#copying-the-embed-code-of-a-mixed-media-set-viewer}
+## Copiar el código incrustado de un visualizador de conjuntos de medios mixtos {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
-El uso de la función de código incrustado permite revisar el código del visor del conjunto de medios mixtos seleccionado. También puede copiar el código en el portapapeles para pegarlo en las páginas web y así poder implementar el visor. No se permite la edición del código en el cuadro de diálogo Código incrustado.
+El uso de la función de código incrustado permite revisar el código del visualizador del conjunto de medios mixtos seleccionado. También puede copiar el código en el portapapeles para pegarlo en las páginas web y así poder implementar el visor. No se permite la edición del código en el cuadro de diálogo Código incrustado.
 
 **Para copiar el código incrustado de un visor de conjuntos de medios mixtos:**
 

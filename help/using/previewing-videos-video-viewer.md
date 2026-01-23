@@ -10,7 +10,7 @@ role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 21%
@@ -45,7 +45,7 @@ Consulte [Agregar y editar ajustes preestablecidos de visor](application-setup.m
 
 ## Trabajar con ajustes preestablecidos de visor de vídeo {#working-with-video-viewer-presets}
 
-Los usuarios ven vídeos en el visor de vídeo. La manera de comportarse del visor de vídeo, su aspecto y el funcionamiento de los controles de reproducción dependerán del ajuste preestablecido de visor que elija para reproducir el vídeo. Puede seleccionar un ajuste preestablecido de vídeo en la pantalla Vista previa. Después de elegir un ajuste preestablecido, puede obtener la URL, o el código de incrustación, para reproducir el vídeo utilizando el ajuste preestablecido de visualizador que haya elegido.
+Los usuarios ven vídeos en el visor de vídeo. La manera de comportarse del visor de vídeo, su aspecto y el funcionamiento de los controles de reproducción dependerán del ajuste preestablecido de visor que elija para reproducir el vídeo. Puede seleccionar un ajuste preestablecido de vídeo en la pantalla Vista previa. Después de elegir un ajuste preestablecido, puede obtener la URL, o el código incrustado, para reproducir el vídeo utilizando el ajuste preestablecido de visualizador que haya elegido.
 
 Adobe Dynamic Media Classic incluye muchos ajustes preestablecidos de visualizador para reproducir vídeo y, si es administrador, puede crear ajustes preestablecidos de visualizador personalizados. Hay más de 12 ajustes diferentes para configurar el Visor de vídeo. Puede configurar el tamaño, el color, los controles de audio y vídeo, la barra de progreso, la apariencia de la interfaz del usuario y las funciones sociales del visor.
 

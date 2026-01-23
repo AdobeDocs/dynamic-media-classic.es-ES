@@ -10,7 +10,7 @@ role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '2207'
 ht-degree: 30%
@@ -59,7 +59,7 @@ La siguiente tabla muestra las opciones de enfoque del servidor de imágenes.
 | --- | --- | --- | --- |
 | Enfoque simple | `op_sharpen` | `0` o `1` | `op_sharpen=1` |
 | Modo de remuestreo | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: selecciona la interpolación bilineal estándar. Método de remuestreo más rápido; a menudo pueden verse algunos defectos de solapamiento.<br>`bicub`: selecciona la interpolación bicúbica. Requiere más CPU que `bilin`, pero genera imágenes más nítidas con defectos de solapamiento menos evidentes.<br><br>`sharp2`: selecciona una función Lanczos Windows® modificada como algoritmo de interpolación. Puede producir resultados ligeramente más nítidos que los bicúbicos a un coste de CPU más alto.<br><br>`trilin`: selecciona una interpolación trilineal modificada, que utiliza resoluciones superiores e inferiores, si están disponibles. Solo se recomienda su uso cuando el solapamiento suponga un problema. Reducirá los tamaños de JPEG debido a la disminución de datos de alta frecuencia. | `resMode=sharp2` |
-| Máscara de enfoque | `op_usm` | `amount`, `radius`, `threshold`, `monochrome`<br><br>`amount`: factor de intensidad del filtro (real 0...5)<br><br>`radius`: radio del núcleo del filtro en píxeles (real 0...250) <br><br>`threshold`: nivel de umbral del filtro (int 0...255)<br><br>`monochrome`: establezca en `0` para aplicar máscara de enfoque a cada componente de color por separado, establezca en `1` para aplicar brillo (intensidad) a la imagen de máscara de enfoque | `op_usm=1,1,10,0` |
+| Máscara de enfoque | `op_usm` | `amount`, `radius`, `threshold`, `monochrome`<br><br>`amount`: factor de intensidad del filtro (real 0...5)<br><br>`radius`: radio del núcleo del filtro en píxeles (real 0...250) <br><br>`threshold`: nivel de umbral del filtro (entero 0...255)<br><br>`monochrome`: establezca en `0` para aplicar máscara de enfoque a cada componente de color por separado, establezca en `1` para aplicar brillo (intensidad) a la imagen de máscara de enfoque | `op_usm=1,1,10,0` |
 
 Seleccione el menú **[!UICONTROL Enfoque]** y elija una opción:
 

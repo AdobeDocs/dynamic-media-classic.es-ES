@@ -10,10 +10,10 @@ role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '683'
-ht-degree: 16%
+ht-degree: 14%
 
 ---
 
@@ -48,11 +48,11 @@ Después de publicar un conjunto de muestras, puede utilizar su dirección URL a
 
 La forma más común de implementar Conjuntos de muestras es colocar un vínculo (mediante un icono de navegación) en la página web. Cuando se selecciona, el vínculo inicia una página dinámica (ASP o JSP) que muestra el conjunto de muestras en una ventana de zoom emergente. El vínculo de zoom abre una ventana emergente que contiene la función de zoom real.
 
-Para obtener más detalles y ejemplos de código, consulte [Incrustación del visor de zoom HTML5 en la Guía de referencia de visores de Adobe](https://experienceleague.adobe.com/es/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Para obtener más detalles y ejemplos de código, consulte [Incrustación del visor de zoom HTML5 en la Guía de referencia de visores de Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
-## Copia del código de incrustación de un visor de conjuntos de muestras {#copying-the-embed-code-of-a-swatch-set-viewer}
+## Copiar el código incrustado de un visor de conjuntos de muestras {#copying-the-embed-code-of-a-swatch-set-viewer}
 
-El uso de la función de código incrustado permite revisar el código del visor del conjunto de muestras seleccionado. También puede copiar el código en el portapapeles para pegarlo en las páginas web y así poder implementar el visor. No se permite la edición del código en el cuadro de diálogo Código incrustado.
+El uso de la función de código incrustado permite revisar el código del visor para el conjunto de muestras seleccionado. También puede copiar el código en el portapapeles para pegarlo en las páginas web y así poder implementar el visor. No se permite la edición del código en el cuadro de diálogo Código incrustado.
 
 **Para copiar el código incrustado de un visor de conjunto de muestras:**
 

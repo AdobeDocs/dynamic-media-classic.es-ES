@@ -10,10 +10,10 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '1441'
-ht-degree: 24%
+ht-degree: 22%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 24%
 
 Adobe Dynamic Media Classic Video es una solución integral que facilita la publicación de vídeos adaptables de alta calidad para su transmisión por streaming en varias pantallas, incluidos dispositivos de escritorio, iOS, Android™, BlackBerry® y Windows® para dispositivos móviles. Los conjuntos de vídeos adaptables agrupan versiones del mismo vídeo codificadas con una velocidad de bits y un formato diferentes, por ejemplo, 400 kbps, 800 kbps y 1.000 kbps. El ordenador de escritorio o dispositivo móvil detecta el ancho de banda disponible.
 
-Por ejemplo, en un dispositivo móvil iOS, detecta un ancho de banda de, por ejemplo, 3G, 4G o Wi-Fi. A continuación, selecciona de forma automática el vídeo codificado correcto de las diversas velocidades de bits que incluye el conjunto de vídeos adaptable. El vídeo se transmite a equipos de escritorio, dispositivos móviles o tablets.
+Por ejemplo, en un dispositivo móvil iOS, detecta un ancho de banda, como 3G, 4G o Wi-Fi. A continuación, selecciona de forma automática el vídeo codificado correcto de las diversas velocidades de bits que incluye el conjunto de vídeos adaptable. El vídeo se transmite a equipos de escritorio, dispositivos móviles o tablets.
 
 Además, la calidad de vídeo se cambia dinámicamente de forma automática si las condiciones de la red cambian en el equipo de escritorio o en el dispositivo móvil. Además, si un cliente entra en modo de pantalla completa en un equipo de escritorio, el conjunto de vídeos adaptable responde con una mejor resolución, lo que mejora la experiencia de visualización del cliente. El uso de conjuntos de vídeos adaptables proporciona la mejor reproducción posible. Es mejor para los clientes que reproducen Adobe Dynamic Media Classic Video en varias pantallas y dispositivos.
 
@@ -60,7 +60,7 @@ Cuando se genera un conjunto de vídeos adaptable, incluye vídeos MP4.
 
   La transmisión de vídeo adaptable es compatible con varias plataformas de iOS.
 
-  Consulte la compatibilidad más reciente en la [Guía de referencia de visores de Adobe](https://experienceleague.adobe.com/es/docs/dynamic-media-developer-resources).
+  Consulte la compatibilidad más reciente en la [Guía de referencia de visores de Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
   Adobe Dynamic Media Classic admite la reproducción de vídeo móvil para vídeo MP4 H.264. <!-- LINK IS 404; NO SUITABLE REPLACEMENT WAS FOUND You can find BlackBerry&reg; devices that support this video format at the following website: -->
 
@@ -144,9 +144,9 @@ Para incorporar el vídeo en el sitio web, puede realizar cualquiera de las acci
   >
   >Las direcciones URL solo se activan tras publicar el vídeo o el conjunto de vídeos adaptables.
 
-* Muestre el vídeo incrustado en la página web, en cuyo caso use la característica **[!UICONTROL Código incrustado]**.
+* Muestre el vídeo incrustado en la página web, en cuyo caso utilice la función de código incrustado.
 
-  Para obtener el código incrustado de un vídeo, en las vistas de cuadrícula o de lista, seleccione el vídeo en el panel Examinar. Vaya a **[!UICONTROL Vista previa]** > **[!UICONTROL Lista de visualizadores]**. En la columna Acciones de la tabla, seleccione **[!UICONTROL Código incrustado]** a la derecha de `Universal_HTML5_Video`. No se permite editar el código.
+  Para obtener el código incrustado de un vídeo, en las vistas Cuadrícula o Lista, seleccione el vídeo en el panel Examinar. Vaya a **[!UICONTROL Vista previa]** > **[!UICONTROL Lista de visualizadores]**. En la columna Acciones de la tabla, seleccione **[!UICONTROL Código incrustado]** a la derecha de `Universal_HTML5_Video`. No se permite editar el código.
 
   Seleccione **[!UICONTROL Cerrar]** y pegue el código incrustado en una o varias de sus páginas web.
 

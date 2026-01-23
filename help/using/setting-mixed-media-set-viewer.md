@@ -10,10 +10,10 @@ role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 20%
+source-wordcount: '614'
+ht-degree: 17%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 20%
 
 Los ajustes preestablecidos de visor de conjuntos de medios mixtos determinan el estilo, el comportamiento y la apariencia del visor principal. Al configurar un ajuste preestablecido, puede especificar qué otros visores desea que aparezcan en el interior del visor de medios mixtos. Por ejemplo, si ha incluido un conjunto de imágenes en el conjunto de medios mixtos, especifique un ajuste preestablecido del visualizador de conjuntos de imágenes para el visualizador de conjuntos de medios mixtos.
 
-Puede elegir incluir todas o algunas de las funciones de comunidad en el visor de conjuntos de medios mixtos. La función Insertar agrega un vínculo al visor que permite a los usuarios copiar el código necesario para mostrar el visor en una página externa (como un blog, un sitio web o un sitio de redes sociales). La función Vínculo proporciona la dirección URL al visor, de forma que los usuarios pueden volver a este visor. La característica Visita proporciona un vínculo al sitio Web especificado.
+Puede elegir incluir todas o algunas de las funciones de comunidad en el visor de conjuntos de medios mixtos. La función de incrustación añade un vínculo al visor que permite a los usuarios copiar el código necesario para mostrar el visor en una página externa (como un blog, un sitio web o un sitio de redes sociales). La función Vínculo proporciona la dirección URL al visor, de forma que los usuarios pueden volver a este visor. La función Visitado proporciona un vínculo al sitio Web que especifique.
 
 1. En la barra de navegación global, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Ajustes preestablecidos de visor]**.
 1. En la página Ajustes preestablecidos de visor, realice una de las siguientes acciones:
@@ -50,7 +50,7 @@ Puede elegir incluir todas o algunas de las funciones de comunidad en el visor d
    * Para eliminar un ajuste preestablecido de la lista, selecciónelo y, a continuación, seleccione **[!UICONTROL Eliminar]**.
    * Para reordenar los ajustes preestablecidos en la lista, seleccione un ajuste preestablecido y, a continuación, la flecha azul **[!UICONTROL Arriba]** o **[!UICONTROL Abajo]**.
 
-1. Para agregar funciones de comunidad (Incrustar, Vínculo, Visita) al visor, especifique las opciones para cualquiera de lo siguiente:
+1. Para añadir funciones de la comunidad (incrustado, vínculo, visitado) al visor, especifique opciones para cualquiera de las siguientes opciones:
 
    * **Correo electrónico**: Seleccione **[!UICONTROL Activado]** para habilitar un botón de correo electrónico en el visor. Cuando los usuarios seleccionan el botón Correo electrónico mientras ven el conjunto, se abre un correo electrónico que contiene el vínculo al conjunto.
 

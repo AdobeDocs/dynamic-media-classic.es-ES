@@ -10,10 +10,10 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '10899'
-ht-degree: 29%
+source-wordcount: '10892'
+ht-degree: 28%
 
 ---
 
@@ -103,7 +103,7 @@ Consulte también [Probar el servicio Prueba segura](testing-assets-making-them-
   >
   >Si no ha utilizado Adobe Dynamic Media Classic para cargar y codificar los recursos de vídeo, Adobe Dynamic Media Classic muestra todos los vídeos codificados individualmente, aunque esta opción no esté seleccionada.
 
-* **[!UICONTROL Mostrar botón Actualizar subcarpetas]**: Activar o desactivar la visualización del botón Actualizar de las subcarpetas.
+* **[!UICONTROL Mostrar el botón Actualizar subcarpetas]**: Activar o desactivar la visualización del botón Actualizar de las subcarpetas.
 
 ### Cuenta de FTP de Adobe Dynamic Media Classic
 
@@ -161,7 +161,7 @@ Los administradores pueden crear ajustes preestablecidos para exportar recursos.
 
 Para abrir la pantalla Ajuste preestablecido de imagen, en la barra de navegación global, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Ajustes preestablecidos de imagen]**.
 
-Ver [Imágenes inteligentes](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
+Ver [Imágenes inteligentes](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 ### Creación y edición de ajustes preestablecidos de imagen {#creating-and-editing-image-presets}
 
@@ -213,7 +213,7 @@ En las pantallas de adición y edición de ajustes preestablecidos, encontrará 
 
 * **[!UICONTROL Espacio de color]**: seleccione un espacio de color.
 
-* **[!UICONTROL Enfoque]**: seleccione la opción Habilitar enfoque simple para aplicar un filtro de enfoque básico a la imagen después de cambiar su tamaño. El enfoque puede ayudar a ver mejor las imágenes borrosas que se obtienen al mostrar una imagen en un tamaño diferente. 
+* **[!UICONTROL Enfoque]**: seleccione la opción **[!UICONTROL `Enable Simple Sharpening`]** para aplicar un filtro de enfoque básico a la imagen después de aplicar todo el escalado. El enfoque puede ayudar a ver mejor las imágenes borrosas que se obtienen al mostrar una imagen en un tamaño diferente. 
 
   Para obtener más información acerca del enfoque, los modos de remuestreo y el enmascaramiento de enfoque, vea [Enfoque de una imagen](sharpening-image.md#sharpening_an_image). Ver también el vídeo de aprendizaje [Enfoque](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS).
 
@@ -237,7 +237,7 @@ En las pantallas de adición y edición de ajustes preestablecidos, encontrará 
 
 * **[!UICONTROL Espacio de color]**: Determina si la imagen usa el espacio en el que se creó, normalmente RGB (Original) o un espacio de luminancia (Intensidad).
 
-* **[!UICONTROL Color]** Elija estas opciones:
+* **[!UICONTROL Color]** Puede elegir estas opciones:
 
 * **[!UICONTROL Perfil de color de salida]**: seleccione **[!UICONTROL Usar predeterminado]** o uno de los perfiles de color ICC disponibles en Adobe Dynamic Media Classic.
 
@@ -436,7 +436,7 @@ Al combinar en un solo reproductor lo siguiente:
 
 Amplía el alcance del contenido multimedia enriquecido a usuarios de equipos de escritorio, tabletas y móviles, y garantiza una experiencia de vídeo optimizada.
 
-Consulte [Acerca de los visores de HTML5](https://experienceleague.adobe.com/es/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) en la Guía de referencia de visores de Adobe.
+Consulte [Acerca de los visores de HTML5](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) en la Guía de referencia de visores de Adobe.
 
 Consulte [Matriz de compatibilidad de ajustes preestablecidos de Adobe Dynamic Media Classic Viewer](application-setup.md#scene7_viewer_preset_compatibility_matrix).
 
@@ -450,7 +450,7 @@ Consulte también [Ejemplos de la biblioteca de referencia de visores de Adobe](
 
 Las diferentes páginas web tienen diferentes necesidades. A veces desea una página Web que proporciona un vínculo que abre el Visor de HTML5 en una ventana independiente del explorador. En otros casos, es necesario incrustar el visualizador de HTML5 directamente en la página de alojamiento. En este último caso, es probable que la página web tenga un diseño estático. O bien, es &quot;adaptable&quot; y se muestra de forma diferente en diferentes dispositivos o para diferentes tamaños de ventana del explorador. Para satisfacer estas necesidades, los visores HTML5 que se incluyen con Adobe Dynamic Media Classic admiten tanto páginas web estáticas como páginas web adaptables.
 
-Para obtener más información sobre cómo incrustar visores adaptables en las páginas web, consulte [Acerca de la biblioteca de imágenes adaptables](https://experienceleague.adobe.com/es/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Usar la biblioteca de imágenes adaptables](https://experienceleague.adobe.com/es/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api) y [Referencia de comandos: Atributos de comando](https://experienceleague.adobe.com/es/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
+Para obtener más información sobre cómo incrustar visores adaptables en las páginas web, consulte [Acerca de la biblioteca de imágenes adaptables](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Usar la biblioteca de imágenes adaptables](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api) y [Referencia de comandos: Atributos de comando](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
 
 ### Tipos de ajustes preestablecidos {#viewer-preset-types}
 
@@ -494,7 +494,7 @@ Consulte también [Ejemplos de la biblioteca de referencia de visores de Adobe](
 
 Para obtener información sobre las versiones compatibles del explorador web y el sistema operativo para los visores, consulte las Notas de la versión de los visores.
 
-Ver [Notas de la versión de referencia de visores de Adobe](https://experienceleague.adobe.com/es/docs/dynamic-media-developer-resources).
+Ver [Notas de la versión de referencia de visores de Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
 |  | Tecnología de visor | Ordenador | Apple iPhone | Apple iPad | Smartphone Android™ | Android™ Tablet |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -507,7 +507,7 @@ Ver [Notas de la versión de referencia de visores de Adobe](https://experiencel
 
 |  | Tecnología de visor | Ordenador | Apple iPhone | Apple iPad | Smartphone Android™ | Android™ Tablet |
 |--- |--- |--- |--- |--- |--- |--- |
-| Visores de conjuntos de imágenes |  |  |  |  |  |  |
+| Visualizadores de conjuntos de imágenes |  |  |  |  |  |  |
 | Universal_HTML5_Flyout | HTML5 | X | X | X | X | X |
 | Universal_HTML5_ImageSet_dark | HTML5 | X | X | X | X | X |
 | Universal_HTML5_ImageSet_light | HTML5 | X | X | X | X | X |
@@ -555,7 +555,7 @@ La siguiente tabla identifica los gestos del visor móvil compatibles con los di
 
 |  | Tecnología de visor | Ordenador | Apple iPhone | Apple iPad | Smartphone Android™ | Android™ Tablet |
 |--- |--- |--- |--- |--- |--- |--- |
-| Visores de conjuntos de imágenes |  |  |  |  |  |  |
+| Visualizadores de conjuntos de imágenes |  |  |  |  |  |  |
 | Universal_HTML5_Flyout | HTML5 | X | X | X | X | X |
 | Universal_HTML5_ImageSet_dark | HTML5 | X | X | X | X | X |
 | Universal_HTML5_ImageSet_light | HTML5 | X | X | X | X | X |
@@ -713,9 +713,9 @@ La URL se copiará en el portapapeles. Puede usarlo según sea necesario en el c
 
    En la página Lista de visores, en la columna Acciones de la tabla, seleccione **[!UICONTROL Copiar URL]**.
 
-### Copiar el código de incrustación de un ajuste preestablecido de visualizador {#copying-the-embed-code-of-a-viewer-preset}
+### Copiar el código incrustado de un ajuste preestablecido de visor {#copying-the-embed-code-of-a-viewer-preset}
 
-El uso de la función de código incrustado permite revisar el código del ajuste preestablecido de visor seleccionado. También puede copiar el código en el portapapeles para pegarlo en las páginas web y así poder implementar el visor.
+El uso de la función de código incrustado permite revisar el código del visor para el ajuste preestablecido de visor seleccionado. También puede copiar el código en el portapapeles para pegarlo en las páginas web y así poder implementar el visor.
 
 No se permite la edición del código en el cuadro de diálogo Código incrustado.
 
@@ -824,7 +824,7 @@ Un uso efectivo de los campos de metadatos personalizables es retardar el tiempo
 
 >[!NOTE]
 >
->Para que los campos definidos por el usuario aparezcan en el panel Metadatos en la Vista de detalles, incluya campos definidos por el usuario en Vistas de metadatos. En la pantalla Vistas de metadatos, seleccione la opción Incluir UDF (campos definidos por el usuario). Para obtener más información, consulte [Vistas de metadatos](application-setup.md#metadata_views).
+>Para que los campos definidos por el usuario aparezcan en el panel Metadatos en la Vista de detalles, incluya campos definidos por el usuario en Vistas de metadatos. En la pantalla Vistas de metadatos, seleccione la opción **[!UICONTROL `Include UDF (user-defined fields)`]. Para obtener más información, consulte [Vistas de metadatos](application-setup.md#metadata_views).
 
 >[!NOTE]
 >
@@ -903,7 +903,7 @@ Todos los ajustes preestablecidos de conjunto de lotes activos de una empresa se
 
 ### Nombre por defecto {#default-naming}
 
-El administrador de la empresa crea una convención de nombres predeterminada que se utiliza en cualquier fórmula de ajustes preestablecidos de conjuntos de lotes. La convención de nombres predeterminada seleccionada en la definición de ajustes preestablecidos de conjuntos de lotes puede ser todo lo que su empresa necesite para generar conjuntos por lotes para todos los sitios web. Se crea un ajuste preestablecido de conjunto de lotes para utilizar la convención de nombres predeterminada que defina. Puede crear tantos ajustes preestablecidos de conjunto de lotes con convenciones de nomenclatura alternativas y personalizadas como sea necesario para un conjunto de contenido en particular en los casos en que haya una excepción a la nomenclatura predeterminada definida por la empresa.
+El administrador de la empresa crea una convención de nombres predeterminada que se utiliza en cualquier fórmula de ajustes preestablecidos de conjuntos de lotes. Las convenciones de nomenclatura predeterminadas seleccionadas en la definición de ajustes preestablecidos de conjuntos de lotes pueden ser todo lo que su empresa necesite para generar conjuntos por lotes para todos los sitios web. Se crea un `Batch Set Preset` para utilizar la convención de nombres predeterminada que defina. Puede crear tantos ajustes preestablecidos de conjunto de lotes con convenciones de nomenclatura alternativas y personalizadas como sea necesario para un conjunto de contenido en particular en los casos en que haya una excepción a la nomenclatura predeterminada definida por la empresa.
 
 No es necesario configurar una convención de nombres predeterminada para utilizar la funcionalidad de ajustes preestablecidos de conjunto de lotes. Sin embargo, la práctica recomendada de Adobe recomienda utilizar una convención de nombres predeterminada para definir tantos elementos de la convención de nombres como desee agrupar en un conjunto. Al hacerlo, se agiliza la creación del conjunto de lotes.
 

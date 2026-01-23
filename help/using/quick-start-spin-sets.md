@@ -10,10 +10,10 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 22%
+source-wordcount: '801'
+ht-degree: 18%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 22%
 
 Un conjunto de giros simula la acción física de girar un objeto para examinarlo. Los conjuntos de giros permiten ver elementos desde cualquier ángulo, por lo que se pueden obtener los detalles visuales clave de los mismos desde cualquier ángulo. Un conjunto de giros simula una visualización de 360 grados. Adobe Dynamic Media Classic ofrece conjuntos de giros unidimensionales en los que los visualizadores pueden rotar un elemento y conjuntos de giros bidimensionales en los que los visualizadores pueden rotar y voltear el elemento. Además, los usuarios pueden hacer zoom de forma libre y recorrer cualquiera de las vistas con unos pocos clics de ratón. De esta forma, los usuarios pueden examinar un elemento de cerca desde un punto de vista determinado.
 
-![Imágenes para un conjunto de giros.](/help/using/assets/spin_set.png)
+![Imágenes de un conjunto de giros](/help/using/assets/spin_set.png)
 
-Los conjuntos de giros también aceptan mapas de imagen. Un mapa de imagen es una región de una imagen dentro de un conjunto de giros que muestra un panel de rollover con texto. Cuando el usuario selecciona un mapa de imagen, se activa un tipo de acción. Por ejemplo, se inicia una página web para que el usuario pueda obtener más información sobre un producto. Para señalar un mapa de imagen en un conjunto de giros, aparece un contorno alrededor del propio mapa de imagen cuando el usuario mueve el puntero del ratón sobre él.
+Los conjuntos de giros también aceptan mapas de imagen. Un mapa de imagen es una región de una imagen dentro del conjunto de giros que muestra un panel de rollover con texto. Cuando el usuario selecciona un mapa de imagen, se activa un tipo de acción. Por ejemplo, se inicia una página web para que el usuario pueda obtener más información sobre un producto. Para señalar un mapa de imagen en un conjunto de giros, aparece un contorno alrededor del propio mapa de imagen cuando el usuario mueve el puntero del ratón sobre él.
 
 Consulte [Crear mapas de imagen](creating-image-maps.md).
 
@@ -37,7 +37,7 @@ Al crear un conjunto de giros, Adobe recomienda la siguiente práctica recomenda
 
 Consulte también [Limitaciones de Dynamic Media](/help/using/limitations.md).
 
-Este Inicio rápido de conjuntos de giros está diseñado para ayudarle a ponerse en marcha rápidamente con las técnicas de conjuntos de giros en Adobe Dynamic Media Classic. Siga los pasos del 1 al 7. Al final de cada paso, puede seleccionar un vínculo de tema para obtener más información.
+Este Inicio rápido está diseñado para ayudarle a ponerse en marcha rápidamente con las técnicas de conjuntos de giros de Adobe Dynamic Media Classic. Siga los pasos del 1 al 7. Al final de cada paso, puede seleccionar un vínculo de tema para obtener más información.
 
 ## &#x200B;1. Crear y cargar las imágenes
 

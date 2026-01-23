@@ -10,10 +10,10 @@ role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 24%
+source-wordcount: '619'
+ht-degree: 22%
 
 ---
 
@@ -23,7 +23,7 @@ Puede facilitar la visualización y navegación de los vídeos de formato largo 
 
 >[!NOTE]
 >
->El reproductor de vídeo que se utilice debe admitir los marcadores de capítulo.
+>El reproductor de vídeo debe admitir el uso de marcadores de capítulo.
 
 Consulte [Agregar o editar un ajuste preestablecido de visor de vídeo](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) si desea configurar los puntos de referencia de navegación por capítulos y el texto emergente del título del capítulo para el visor `Universal_HTML5_Video` (HTML5).
 

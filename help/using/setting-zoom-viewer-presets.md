@@ -10,9 +10,9 @@ role: User
 exl-id: ddaaff6c-5447-408e-9c92-bcdfd1a0e72e
 topic: Content Management
 level: Intermediate
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '632'
 ht-degree: 40%
 
 ---
@@ -59,7 +59,7 @@ Adobe Dynamic Media Classic recomienda los siguientes parámetros para ajustes p
    La página Vista previa muestra el visor mientras actualiza y cambia la configuración.
 
 1. Seleccione **[!UICONTROL Guardar]** o **[!UICONTROL Guardar como]**.
-1. En la página Ajustes preestablecidos del visor, examine los ajustes preestablecidos del visor de zoom o del visor de zoom guiado que ha creado. Si necesita ajustes, seleccione **[!UICONTROL Editar]**, cambie la configuración en la página `Configure Viewer` y, a continuación, seleccione **[!UICONTROL Guardar]**.
+1. En la página Ajustes preestablecidos del visor, examine los ajustes preestablecidos del visor de zoom o del visor de zoom guiado que ha creado. Si necesita ajustarlo, seleccione **[!UICONTROL Editar]**, cambie la configuración en la página `Configure Viewer` y, a continuación, seleccione **[!UICONTROL Guardar]**.
 
 Para obtener más información sobre la gestión de valores preestablecidos de visor en la pantalla Ajustes preestablecidos de visor, consulte [Ajustes preestablecidos de visor](application-setup.md#viewer_presets).
 

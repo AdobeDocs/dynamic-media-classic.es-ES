@@ -10,9 +10,9 @@ role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
 topic: Content Management
 level: Intermediate
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '613'
 ht-degree: 17%
 
 ---
@@ -30,7 +30,7 @@ Puede mover recursos a diferentes carpetas en el panel Examinar.
 1. Seleccione el recurso o los recursos en el panel Examinar y realice una de las siguientes acciones:
 
    * Muestre la carpeta a la que desea mover los recursos en la Biblioteca de recursos y arrastre los recursos a la carpeta.
-   * Vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Mover]**, seleccione una carpeta en la ventana Mover Assets y seleccione **[!UICONTROL Mover]**.
+   * Vaya a **[!UICONTROL Archivo]** > **`Move`**, seleccione una carpeta en la ventana `Move Assets` y seleccione **`Move`**.
 
 ## Cambio de nombre de un recurso {#rename-assets}
 

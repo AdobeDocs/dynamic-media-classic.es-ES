@@ -10,10 +10,10 @@ role: User
 exl-id: aee72576-1e3e-401c-953d-cc2be27f7dfd
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 23%
+source-wordcount: '672'
+ht-degree: 21%
 
 ---
 
@@ -48,13 +48,13 @@ Sus sitios web y aplicaciones acceden al contenido del servidor de imágenes de 
 
 La forma más común de implementar un catálogo electrónico es colocar un vínculo en forma de portada en miniatura de catálogo electrónico en la página Web. Trabaje con su grupo de TI para que el catálogo electrónico se abra en una ventana emergente centrada y bien visible. Solicite al grupo de TI que no se muestren la barra de herramientas ni la de dirección del explorador.
 
-Para obtener más detalles y ejemplos de código, consulte [Incrustar el visor de catálogo electrónico de HTML5 en la Guía de referencia de visores de Adobe](https://experienceleague.adobe.com/es/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Para obtener más detalles y ejemplos de código, consulte [Visor de catálogo electrónico HTML5 incrustado](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) en la Referencia de visores de Adobe.
 
 ## Copiar el código incrustado de un visor de catálogos electrónicos {#copying-the-embed-code-of-an-ecatalog-viewer}
 
-El uso de la función de código incrustado permite revisar el código del visor del catálogo electrónico seleccionado. También puede copiar el código en el portapapeles para pegarlo en las páginas web y así poder implementar el visor. No se permite la edición del código en el cuadro de diálogo Código incrustado.
+El uso de la función de código incrustado permite revisar el código del visor para el catálogo electrónico seleccionado. También puede copiar el código en el portapapeles para pegarlo en las páginas web y así poder implementar el visor. No se permite la edición del código en el cuadro de diálogo Código incrustado.
 
-**Para copiar el código incrustado de un visor de catálogos electrónicos:**
+**Para copiar el código incrustado de un visor de catálogo electrónico:**
 
 1. En el panel Examinar recursos, en la lista desplegable Mostrar, seleccione **[!UICONTROL Catálogo]**.
 1. en el panel Biblioteca de recursos de la izquierda, vaya a la carpeta de recursos que contiene el catálogo electrónico cuyo código incrustado desee copiar.

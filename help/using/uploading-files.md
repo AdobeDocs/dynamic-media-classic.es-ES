@@ -9,9 +9,9 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: 1cd516119da23f5ef4c0195273025ddd4b3fa789
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '3858'
+source-wordcount: '3856'
 ht-degree: 25%
 
 ---
@@ -26,7 +26,7 @@ Antes de cargar recursos en Adobe Dynamic Media Classic, asegúrese de que tenga
 
 ### Formatos de archivo de recurso admitidos {#supported-asset-file-formats}
 
-En esta tabla se enumeran los formatos de archivo de recursos compatibles con Adobe Dynamic Media Classic. Para obtener información acerca de los archivos Camera Raw compatibles, consulte [https://helpx.adobe.com/es/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/es/camera-raw/using/supported-cameras.html).
+En esta tabla se enumeran los formatos de archivo de recursos compatibles con Adobe Dynamic Media Classic. Para obtener información acerca de los archivos Camera Raw compatibles, consulte [https://helpx.adobe.com/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/camera-raw/using/supported-cameras.html).
 
 | Formatos de archivo de recurso | Descripción |
 | --- | --- |
@@ -291,11 +291,11 @@ El nuevo trabajo envía una notificación a la dirección especificada para que 
    * Solicitud HTTP
    * Publicación para servicio de imágenes
    * Procesador de imágenes
-   * Publicación de vídeo
+   * `Video Publish`
 
 1. Especifique la dirección HTTP.
 1. Especifique si desea ejecutar solo si los archivos se han cargado.
-1. Indique si desea ejecutar esta solicitud cada vez que termine este trabajo o solo si se han publicado archivos.
+1. Indique si desea ejecutar esta solicitud cada vez que se complete este trabajo o solo cuando se publiquen los archivos.
 
    >[!NOTE]
    >

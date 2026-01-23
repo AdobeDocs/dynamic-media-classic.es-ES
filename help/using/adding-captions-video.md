@@ -9,10 +9,10 @@ role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 17%
+source-wordcount: '703'
+ht-degree: 15%
 
 ---
 
@@ -24,7 +24,7 @@ Los subtítulos también permiten una mayor accesibilidad gracias al uso de rót
 
 >[!NOTE]
 >
->El reproductor de vídeo que se utiliza debe admitir la visualización de rótulos.
+>El reproductor de vídeo utilizado debe admitir la visualización de subtítulos.
 
 Para configurar el efecto de rótulo y editar el propio menú de rótulo, incluido el texto del menú para cualquiera de los siguientes visores:
 
@@ -38,7 +38,7 @@ Consulte también [Agregar y editar ajustes preestablecidos de visor](applicatio
 
 Adobe Dynamic Media Classic puede convertir archivos de rótulo al formato JSON (JavaScript Object Notation). Esta conversión significa que puede incrustar el texto JSON en una página web como una transcripción oculta pero completa del vídeo. Los motores de búsqueda pueden rastrear e indexar el contenido para que los vídeos sean más fáciles de descubrir y dar a los clientes más detalles sobre el contenido del vídeo.
 
-Consulte [Proporcionar contenido estático (que no es de imagen)](https://experienceleague.adobe.com/es/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) en para obtener más información sobre el uso de la función JSON en una dirección URL.
+Consulte [Proporcionar contenido estático (que no es de imagen)](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) en para obtener más información sobre el uso de la función JSON en una dirección URL.
 
 **Para agregar subtítulos a un vídeo:**
 

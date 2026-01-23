@@ -10,9 +10,9 @@ role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1604'
 ht-degree: 39%
 
 ---
@@ -23,7 +23,7 @@ Optimizar la calidad de la imagen puede consumir mucho tiempo. Muchos factores c
 
 Adobe Dynamic Media Classic incluye más de 100 comandos de servidor de imágenes para ajustar y optimizar imágenes y procesar resultados. Las directrices siguientes pueden ayudarle a agilizar el proceso y a obtener buenos resultados con rapidez utilizando ciertos comandos esenciales y prácticas recomendadas.
 
-Consulte también [Imágenes inteligentes](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
+Consulte también [Imágenes inteligentes](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 >[!TIP]
 >
@@ -35,7 +35,7 @@ Consulte también [Imágenes inteligentes](https://experienceleague.adobe.com/es
 >* Ancho de banda de red
 >* DPR (proporción de píxeles del dispositivo)
 >
->Para aprender lo fácil que es usar Snapshot, reproduzca el [vídeo de entrenamiento Snapshot](https://experienceleague.adobe.com/es/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) (3 minutos y 17 segundos).
+>Para aprender lo fácil que es usar Snapshot, reproduzca el [vídeo de entrenamiento Snapshot](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) (3 minutos y 17 segundos).
 
 
 ## Prácticas recomendadas para el formato de imágenes (&amp;fmt=) {#best-practices-for-image-format-fmt}
@@ -62,7 +62,7 @@ Como práctica recomendada para el tamaño de imagen, use `&wid=<value>&hei=<val
 
 El enfoque de imágenes es el aspecto más complejo del control de imágenes en su sitio Web y en el que se producen muchos errores. Tómese el tiempo necesario para obtener más información sobre el funcionamiento del enfoque y el enmascaramiento de enfoque en Adobe Dynamic Media Classic consultando los siguientes recursos útiles:
 
-Documentación técnica sobre prácticas recomendadas [Enfoque de imágenes en Adobe Dynamic Media Classic y en Image Server](/help/using/assets/s7_sharpening_images.pdf).
+Prácticas recomendadas en el documento técnico de PDF denominado [Enfoque de imágenes en Adobe Dynamic Media Classic y en Image Server](/help/using/assets/s7_sharpening_images.pdf).
 
 <!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
@@ -136,5 +136,5 @@ Si los resultados de enfoque aún no son satisfactorios, aumente el radio en inc
 A medida que experimenta, las siguientes sugerencias generales son útiles para optimizar el flujo de trabajo:
 
 * Pruebe diferentes parámetros en tiempo real, ya sea directamente en una dirección URL o utilizando la funcionalidad de ajuste de imagen de Adobe Dynamic Media Classic. Este último proporciona previsualizaciones en tiempo real para operaciones de ajuste.
-* Como práctica recomendada, recuerde que puede agrupar comandos de servicio de imágenes de Dynamic Media en un ajuste preestablecido de imagen. Un ajuste preestablecido de imagen son básicamente macros de comandos de URL con nombres de ajustes preestablecidos personalizados como `$thumb_low$` y `&product_high$`. El nombre del ajuste preestablecido personalizado en una ruta URL llama a estos ajustes preestablecidos. Esta funcionalidad le ayudará a administrar comandos y ajustes de calidad para diferentes modelos de uso de imágenes en su sitio web y reducirá la longitud total de la URL.
+* Como práctica recomendada, recuerde que puede agrupar comandos de servicio de imágenes de Dynamic Media en un ajuste preestablecido de imagen. Un ajuste preestablecido de imagen son básicamente macros de comandos de URL con nombres de ajustes preestablecidos personalizados, como `$thumb_low$` y `&product_high$`. El nombre del ajuste preestablecido personalizado en una ruta URL llama a estos ajustes preestablecidos. Esta funcionalidad le ayudará a administrar comandos y ajustes de calidad para diferentes modelos de uso de imágenes en su sitio web y reducirá la longitud total de la URL.
 * Adobe Dynamic Media Classic también proporciona formas más avanzadas de ajustar la calidad de la imagen, como aplicar enfoque de imagen al ingerir. En los casos de uso avanzados en los que una opción es seguir ajustando y optimizando los resultados procesados, Adobe Professional Services puede ayudarle con la insight personalizada y con las prácticas recomendadas.
