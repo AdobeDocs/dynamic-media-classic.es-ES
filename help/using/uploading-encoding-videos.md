@@ -9,9 +9,9 @@ role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
 workflow-type: tm+mt
-source-wordcount: '3981'
+source-wordcount: '4074'
 ht-degree: 39%
 
 ---
@@ -80,7 +80,7 @@ Consulte [Ajustes preestablecidos de codificación de vídeo para equipos de esc
 1. En Adobe Dynamic Media Classic, en el panel Examinar, vaya al vídeo y selecciónelo.
 1. Vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Reprocesar]**.
 1. En el cuadro de diálogo Volver a procesar Assets, expanda **[!UICONTROL Opciones de vídeo electrónico]** y, a continuación, siga uno de estos procedimientos:
-   * La práctica recomendada es utilizar el siguiente método. Seleccione **Vídeo adaptable**.
+   * La práctica recomendada es utilizar el método siguiente. Seleccione **Vídeo adaptable**.
 Consulte [Vídeo adaptable (predeterminado)](application-setup.md#adaptive-video-default).
    * Opcional. Si desea usar una configuración de codificación individual, expanda **[!UICONTROL Ajustes preestablecidos de codificación única]** y, a continuación, seleccione las opciones de codificación que desee para Escritorio, Móvil y Tablet.
 Consulte [Ajustes preestablecidos de codificación de vídeo para equipos de escritorio](application-setup.md#desktop-video-encoding-presets), [Ajustes preestablecidos de codificación de vídeo para dispositivos móviles](application-setup.md#mobile-video-encoding-presets), [Ajustes preestablecidos de codificación de vídeo para tablets](application-setup.md#tablet-video-encoding-presets).
@@ -106,7 +106,7 @@ En la siguiente tabla se muestran los tipos de archivo de vídeo (con los códec
   | M2T | MPEG-2 TS |
   | M2TS | MPEG-2 TS |
   | M2V | MPEG-2 ES |
-  | M4V | H.264  |
+  | M4V | H.264 |
   | MOV | DV, DVCPro 50, H.261, H.263, H.264, Sorenson Video 1 |
   | MP4 | `H.264/MPEG-4` AVC |
   | MPEG | MPEG-2 SS |
@@ -125,11 +125,13 @@ En la siguiente tabla se muestran los tipos de archivo de vídeo (con los códec
 
 A continuación se ofrecen sugerencias recomendadas para codificar archivos de vídeo de origen en Adobe Dynamic Media Classic.
 
-<!-- THE FOLLOWINGS LINKS APPEAR TO BE DEAD AND THE CONTENT COMPLETELY LOST. THE GO URL DOESN'T EVEN WORK ANYMORE.
+<!--
+THE FOLLOWINGS LINKS APPEAR TO BE DEAD AND THE CONTENT COMPLETELY LOST. THE GO URL DOESN'T EVEN WORK ANYMORE.
 For advice about video encoding, see the following:
 
 * Article: [Streaming 101: The Basics — Codecs, Bandwidth, Data Rate, and Resolution][www.adobe.com/go/learn_s7_streaming101_en](https://www.adobe.com/go/learn_s7_streaming101_en). THIS MATERIAL WAS FOUND ON A THIRD PARTY WEBSITE HERE: https://streaminglearningcenter.com/articles/streaming-101-the-basics-codecs-bandwidth-data-rate-and-resolution.html MATERIAL IS GOOD BUT DO NOT LINK TO IT
-* Video: [Video Encoding Basics][www.adobe.com/go/learn_s7_encoding_en](https://www.adobe.com/go/learn_s7_encoding_en). -->
+* Video: [Video Encoding Basics][www.adobe.com/go/learn_s7_encoding_en](https://www.adobe.com/go/learn_s7_encoding_en). 
+-->
 
 ### Archivos de vídeo de origen {#source-video-files}
 
@@ -164,9 +166,9 @@ En la tabla siguiente se describe cómo se traducen los resultados de la fórmul
 | Resultado de la fórmula | Proporción de aspecto |
 | --- | --- |
 | 1,33 | 4:3 |
-| 0,75 | 3:4 |
-| 1,78 | 16:9 |
-| 0,56 | 9:16 |
+| 0.75 | 3:4 |
+| 1.78 | 16:9 |
+| 0.56 | 9:16 |
 
 Por ejemplo, un vídeo de 1440 de anchura × 1080 de altura tiene una relación de aspecto de 1440/1080 o 1,33. En este caso, elija un ajuste preestablecido de codificación de vídeo con una relación de aspecto de 4:3 para codificar el archivo de vídeo.
 
@@ -186,7 +188,7 @@ En esta tabla se describe la velocidad de datos de las velocidades de conexión 
 | --- | --- |
 | 256 | Conexión de marcación. |
 | 800 | Conexión móvil habitual. Para esta conexión, utilice una velocidad de datos en el rango de 400 a 800 para experiencias 3G. |
-| 2000 | Conexión de escritorio de ancho de banda habitual. Para esta conexión, utilice una velocidad de datos en el rango de 800 a 2000 kbps, con velocidades medias entre 1200 y 1500 kbps. |
+| 2000 | Conexión de escritorio de ancho de banda habitual. Para esta conexión, establezca como objetivo una velocidad de datos en el rango de 800-2000 Kbps, con un promedio de la mayoría de los objetivos de 1200-1500 Kbps. |
 | 5000 | Conexión de gran ancho de banda habitual. La codificación en este rango superior no se recomienda, porque la mayoría de los usuarios no pueden recibir el vídeo a esta velocidad. |
 
 ### Resolución {#resolution}
@@ -197,8 +199,8 @@ La resolución y la velocidad de datos son dos factores totalmente vinculados qu
 
 | Resolución | Píxeles por fotograma |
 | --- | --- |
-| 320 × 240 | 76.800 |
-| 640 × 480 | 307.200 |
+| 320 × 240 | 76,800 |
+| 640 × 480 | 307,200 |
 
 El archivo de 640 × 480 tiene cuatro veces más píxeles por fotograma. Para lograr la misma velocidad de datos para estas dos resoluciones de ejemplo, se aplica cuatro veces la compresión al archivo de 640 × 480, lo que puede reducir la calidad del vídeo. Por lo tanto, una velocidad de datos de vídeo de 250 Kbps produce una visualización de alta calidad con una resolución de 320 × 240, pero no con una resolución de 640 × 480.
 

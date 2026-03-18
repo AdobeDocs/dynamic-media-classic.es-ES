@@ -6,14 +6,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 feature: Dynamic Media Classic
-role: Data Engineer,Admin,User
+role: Developer,Admin,User
 exl-id: a8fa2414-af01-4a58-bb33-dfd12c1056cc
 topic: Integrations
 level: Experienced
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: 458a80aad6e983dbccfe2108f0a389a4651f9f38
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 21%
+source-wordcount: '699'
+ht-degree: 23%
 
 ---
 
@@ -25,7 +25,7 @@ Después de integrar Adobe Analytics con Adobe Dynamic Media Classic, puede obte
 
 Con el uso de los informes de Adobe Analytics, podrá obtener una imagen clara de la actividad de los clientes en su sitio web. Puede determinar qué presentaciones de productos generan una conversión y cuáles no atraen el interés de los clientes.
 
-Ver también [Medir vídeo en Adobe Analytics](https://experienceleague.adobe.com/es/docs/media-analytics/using/media-overview).
+Ver también [Medir vídeo en Adobe Analytics](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ Ver también [Medir vídeo en Adobe Analytics](https://experienceleague.adobe.co
 
 Este inicio rápido está diseñado para ayudarle a empezar rápidamente con el kit de instrumentación de Adobe Analytics.
 
-## &#x200B;1. Inicie sesión en Adobe Analytics mediante Adobe Dynamic Media Classic y descargue las variables del informe de Adobe Analytics
+## &#x200B;1. Inicie sesión en Adobe Analytics mediante Adobe Dynamic Media Classic y descargue las variables de informes de Adobe Analytics
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ Ver [Iniciar sesión en Adobe Analytics](log-analytics.md#log_in_to_adobe_analyt
 
 En el cuadro de diálogo Inicio de sesión de Adobe Analytics, escriba su ID de organización de Experience Cloud (opcional), sus credenciales completas y, a continuación, seleccione **[!UICONTROL Inicio de sesión]**. En el menú desplegable Grupo de informes, seleccione el nombre del grupo de informes que desee utilizar.
 
-## &#x200B;2. Asigne variables de informes de Adobe Analytics a eventos de visualizador de Adobe Dynamic Media Classic y variables de Adobe Dynamic Media Classic
+## &#x200B;2. Asignar variables de informes de Adobe Analytics a eventos de visualizador de Adobe Dynamic Media Classic y variables de Adobe Dynamic Media Classic
 
 En la página de configuración de Adobe Analytics, especifique la información que desee incluir en los informes de Adobe Analytics. Para cada evento de visualizador de Adobe Dynamic Media Classic del que desee obtener información, elija una variable de Adobe Analytics (del grupo de informes) y una variable de Adobe Dynamic Media Classic.
 
@@ -58,18 +58,18 @@ Después de seleccionar **[!UICONTROL Guardar]** en la página Configuración de
 
 Consulte [Configuración de informes de Adobe Analytics](configuring-analytics-reports.md#configuring_adobe_analytics_reports).
 
-## &#x200B;3. Publique sus visores de Adobe Dynamic Media Classic
+## &#x200B;3. Publicación de los visores de Adobe Dynamic Media Classic
 
 Publique sus visores de Adobe Dynamic Media Classic para que los visores de (con código para rastrear la actividad de los usuarios en los informes de Adobe Analytics) se carguen en los servidores de Adobe Dynamic Media Classic. Después de la publicación, esta información se incluye en los visualizadores. Utilícelo para el análisis por parte de Adobe Analytics.
 
 Ver [Publicar información de configuración](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
 
-## &#x200B;4. Coloque los visores de Adobe Dynamic Media Classic en el sitio web
+## &#x200B;4. Colocar visores de Adobe Dynamic Media Classic en el sitio web
 
 Coloque los visores de Adobe Dynamic Media Classic con código de seguimiento de Adobe Analytics en el sitio web.
 
-## &#x200B;5. Pruebe la integración de Adobe Analytics consultando un informe de Adobe Analytics
+## &#x200B;5. Prueba de la integración de Adobe Analytics mediante un informe de Adobe Analytics
 
-Para ver los informes de Adobe Analytics, visite el sitio web de Adobe Analytics. En la página de informes puede consultar los datos y generar gráficos y diagramas para medir la actividad de los usuarios con diferentes visores. 
+Para ver los informes de Adobe Analytics, visite el sitio web de Adobe Analytics. En la página de informes puede consultar los datos y generar gráficos y diagramas para medir la actividad de los usuarios con diferentes visores.
 
 Ver [Probar la integración de Adobe Analytics al ver un informe de Adobe Analytics](testing-integration-viewing-analytics-report.md#testing_the_integration_by_viewing_an_adobe_analytics_report).

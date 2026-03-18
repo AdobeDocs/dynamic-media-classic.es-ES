@@ -10,10 +10,10 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+source-git-commit: 84dab57d00d0bd3fec8ed0d0a5ae28e81485fb01
 workflow-type: tm+mt
-source-wordcount: '10892'
-ht-degree: 28%
+source-wordcount: '11377'
+ht-degree: 27%
 
 ---
 
@@ -161,7 +161,7 @@ Los administradores pueden crear ajustes preestablecidos para exportar recursos.
 
 Para abrir la pantalla Ajuste preestablecido de imagen, en la barra de navegación global, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Ajustes preestablecidos de imagen]**.
 
-Ver [Imágenes inteligentes](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
+Ver [Imágenes inteligentes](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 ### Creación y edición de ajustes preestablecidos de imagen {#creating-and-editing-image-presets}
 
@@ -172,7 +172,7 @@ Ver [Imágenes inteligentes](https://experienceleague.adobe.com/es/docs/experien
    * **Crear un ajuste preestablecido de imagen a partir de un ajuste preestablecido existente**: seleccione el ajuste preestablecido de imagen que se parezca más al que desea crear y, a continuación, seleccione **[!UICONTROL Editar]**.
 
 1. En la página Agregar (o editar) ajuste preestablecido, introduzca un nombre para el ajuste preestablecido.
-1. Defina las opciones de ajustes preestablecidos que desea. 
+1. Defina las opciones de ajustes preestablecidos que desea.
 
    Consulte [Opciones de ajuste preestablecido de imagen](application-setup.md#image_preset_options).
 
@@ -203,7 +203,7 @@ En las pantallas de adición y edición de ajustes preestablecidos, encontrará 
 
    * Opciones JPEG
 
-      * **[!UICONTROL Calidad]**: controla el nivel de compresión de JPEG. Esta configuración afecta tanto al tamaño como a la calidad de la imagen. La escala de la calidad JPEG va de 1 a 100.
+      * **[!UICONTROL Calidad]**: controla el nivel de compresión de JPEG. Esta configuración afecta tanto al tamaño como a la calidad de la imagen. La escala de calidad de JPEG es de 1 a 100.
 
       * **[!UICONTROL Habilitar la disminución de resolución de crominancia de JPG]**: como el ojo es menos sensible a la información de color de alta frecuencia que la de alta frecuencia, las imágenes de JPEG dividen la información de imagen en componentes de luminancia y color. Al comprimir una imagen JPEG, el componente de luminancia conserva la totalidad de su resolución, mientras que la resolución de los componentes de color se disminuye mediante promedios de grupos de píxeles. La disminución de la resolución reduce el volumen de datos en la mitad o en un tercio, y casi no afecta a la calidad percibida. La disminución de resolución no se aplica a las imágenes en escala de grises. Esta técnica reduce la cantidad de compresión, lo cual resulta útil para las imágenes de mayor contraste (por ejemplo, las imágenes con texto superpuesto).
 
@@ -213,7 +213,7 @@ En las pantallas de adición y edición de ajustes preestablecidos, encontrará 
 
 * **[!UICONTROL Espacio de color]**: seleccione un espacio de color.
 
-* **[!UICONTROL Enfoque]**: seleccione la opción **[!UICONTROL `Enable Simple Sharpening`]** para aplicar un filtro de enfoque básico a la imagen después de aplicar todo el escalado. El enfoque puede ayudar a ver mejor las imágenes borrosas que se obtienen al mostrar una imagen en un tamaño diferente. 
+* **[!UICONTROL Enfoque]**: seleccione la opción **[!UICONTROL `Enable Simple Sharpening`]** para aplicar un filtro de enfoque básico a la imagen después de aplicar todo el escalado. El enfoque puede ayudar a ver mejor las imágenes borrosas que se obtienen al mostrar una imagen en un tamaño diferente.
 
   Para obtener más información acerca del enfoque, los modos de remuestreo y el enmascaramiento de enfoque, vea [Enfoque de una imagen](sharpening-image.md#sharpening_an_image). Ver también el vídeo de aprendizaje [Enfoque](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS).
 
@@ -229,7 +229,7 @@ En las pantallas de adición y edición de ajustes preestablecidos, encontrará 
 
 * **[!UICONTROL Máscara de enfoque]**: elija estas opciones para ajustar el enfoque:
 
-* **[!UICONTROL Cantidad]**: controla el contraste aplicado a los píxeles del borde. El valor predeterminado es 1,0. En las imágenes de alta resolución, puede aumentarse hasta 5,0. La cantidad equivaldría a la medida de la intensidad del filtro.
+* **[!UICONTROL Cantidad]**: controla el contraste aplicado a los píxeles del borde. El valor predeterminado es 1,0. Para imágenes de alta resolución, puede aumentarla hasta 5,0. Considere la cantidad como una medida de la intensidad del filtro.
 
 * **[!UICONTROL Radio]**: Determina el número de píxeles adyacentes a los píxeles de borde que afectan al enfoque. Para las imágenes de alta resolución, introduzca una cantidad de 1 a 2. Un valor bajo aplica enfoque solo a los píxeles de borde; un valor alto aplica enfoque a un mayor número de píxeles. El valor adecuado depende del tamaño de la imagen.
 
@@ -426,7 +426,7 @@ Para obtener más información sobre los parámetros de opciones de codificació
 
 Un *ajuste preestablecido de visor* es una serie de opciones que determinan la manera en que los usuarios verán los recursos de medios enriquecidos en la pantalla de su ordenador y dispositivos móviles. Como administrador, puede crear ajustes preestablecidos de visor. Se pueden configurar varias opciones de configuración para los visores. Por ejemplo, puede cambiar el tamaño, el comportamiento del zoom, las combinaciones de colores, los bordes y las fuentes del visor.
 
-Se recomienda utilizar los visores de vídeo HTML5 de Adobe Dynamic Media Classic. Los ajustes preestablecidos utilizados en los visores de vídeo HTML5 son reproductores de vídeo robustos.
+Se recomienda utilizar los visores de vídeo HTML5 de Adobe Dynamic Media Classic. Los ajustes preestablecidos utilizados en los visores de vídeo HTML5 son reproductores de vídeo sólidos.
 
 Al combinar en un solo reproductor lo siguiente:
 
@@ -436,7 +436,7 @@ Al combinar en un solo reproductor lo siguiente:
 
 Amplía el alcance del contenido multimedia enriquecido a usuarios de equipos de escritorio, tabletas y móviles, y garantiza una experiencia de vídeo optimizada.
 
-Consulte [Acerca de los visores de HTML5](https://experienceleague.adobe.com/es/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) en la Guía de referencia de visores de Adobe.
+Consulte [Acerca de los visores de HTML5](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) en la Guía de referencia de visores de Adobe.
 
 Consulte [Matriz de compatibilidad de ajustes preestablecidos de Adobe Dynamic Media Classic Viewer](application-setup.md#scene7_viewer_preset_compatibility_matrix).
 
@@ -450,7 +450,7 @@ Consulte también [Ejemplos de la biblioteca de referencia de visores de Adobe](
 
 Las diferentes páginas web tienen diferentes necesidades. A veces desea una página Web que proporciona un vínculo que abre el Visor de HTML5 en una ventana independiente del explorador. En otros casos, es necesario incrustar el visualizador de HTML5 directamente en la página de alojamiento. En este último caso, es probable que la página web tenga un diseño estático. O bien, es &quot;adaptable&quot; y se muestra de forma diferente en diferentes dispositivos o para diferentes tamaños de ventana del explorador. Para satisfacer estas necesidades, los visores HTML5 que se incluyen con Adobe Dynamic Media Classic admiten tanto páginas web estáticas como páginas web adaptables.
 
-Para obtener más información sobre cómo incrustar visores adaptables en las páginas web, consulte [Acerca de la biblioteca de imágenes adaptables](https://experienceleague.adobe.com/es/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Usar la biblioteca de imágenes adaptables](https://experienceleague.adobe.com/es/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api) y [Referencia de comandos: Atributos de comando](https://experienceleague.adobe.com/es/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
+Para obtener más información sobre cómo incrustar visores adaptables en las páginas web, consulte [Acerca de la biblioteca de imágenes adaptables](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Usar la biblioteca de imágenes adaptables](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api) y [Referencia de comandos: Atributos de comando](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
 
 ### Tipos de ajustes preestablecidos {#viewer-preset-types}
 
@@ -494,7 +494,7 @@ Consulte también [Ejemplos de la biblioteca de referencia de visores de Adobe](
 
 Para obtener información sobre las versiones compatibles del explorador web y el sistema operativo para los visores, consulte las Notas de la versión de los visores.
 
-Ver [Notas de la versión de referencia de visores de Adobe](https://experienceleague.adobe.com/es/docs/dynamic-media-developer-resources).
+Ver [Notas de la versión de referencia de visores de Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
 |  | Tecnología de visor | Ordenador | Apple iPhone | Apple iPad | Smartphone Android™ | Android™ Tablet |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -568,29 +568,29 @@ La pantalla Ajustes preestablecidos de visor ofrece una serie de herramientas pa
 
 * **Agregar un ajuste preestablecido**: seleccione **[!UICONTROL Agregar]** y realice opciones en el cuadro de diálogo Agregar ajuste preestablecido de visor.
 
-      Consulte [Agregar y editar ajustes preestablecidos de visor](application-setup.md#adding_and_editing_viewer_presets).
-  
+  Consulte [Agregar y editar ajustes preestablecidos de visor](application-setup.md#adding_and_editing_viewer_presets).
+
 * **Editar un ajuste preestablecido**: seleccione un ajuste preestablecido y, a continuación, seleccione **[!UICONTROL Editar]**.
 
-      Consulte [Agregar y editar ajustes preestablecidos de visor](application-setup.md#adding_and_editing_viewer_presets).
-  
+  Consulte [Agregar y editar ajustes preestablecidos de visor](application-setup.md#adding_and_editing_viewer_presets).
+
 * **Eliminar un ajuste preestablecido**: seleccione un ajuste preestablecido y, a continuación, seleccione **[!UICONTROL Eliminar]**.
 
 * **Exportar un ajuste preestablecido**: seleccione un ajuste preestablecido de visor de HTML5. A continuación, haga clic en **[!UICONTROL Exportar]** para descargar la apariencia del visor y utilizarlo como base para crear y agregar otro ajuste preestablecido de visor.
 
-      Consulte [Exportar un ajuste preestablecido de visor de HTML5](application-setup.md#export_an_html5_viewer_preset).
-  
+  Consulte [Exportar un ajuste preestablecido de visor de HTML5](application-setup.md#exporting_an_html5_viewer_preset).
+
 * **Filtrar la lista de ajustes preestablecidos de visor**: use estas herramientas para filtrar la lista:
 
-      * Abra la lista desplegable **Activo/Inactivo** y seleccione una opción para mostrar los ajustes preestablecidos activos, inactivos o todos los ajustes preestablecidos.
-     * Abra la lista desplegable **Visor** y seleccione una opción para ver solo los visores de un tipo determinado. Seleccione **[!UICONTROL Todos los visores]** para ver todos los visores.
-  
+   * Abra la lista desplegable **Activo/Inactivo** y seleccione una opción para mostrar los ajustes preestablecidos activos, inactivos o todos los ajustes preestablecidos.
+   * Abra la lista desplegable **Visor** y seleccione una opción para ver solamente visores de un tipo determinado. Seleccione **[!UICONTROL Todos los visualizadores]** para ver todos los visualizadores.
+
 * **Ordenar ajustes preestablecidos**: seleccione un encabezado de columna (**[!UICONTROL Activo]**, **[!UICONTROL Tipo]**, **[!UICONTROL Ajuste preestablecido]** o **[!UICONTROL Plataforma]**) para ordenar la lista en una columna. Seleccione un encabezado de columna por segunda vez para ordenar la lista en orden descendente (o ascendente).
 
 * **Activar y desactivar ajustes preestablecidos**: seleccione un ajuste preestablecido y, a continuación, seleccione su opción Activo para que pueda activarlo o desactivarlo.
 
-      Consulte [Activar o desactivar ajustes preestablecidos de visor](application-setup.md#activating_or_deactivating_viewer_presets).
-  
+  Consulte [Activar o desactivar ajustes preestablecidos de visor](application-setup.md#activating_or_deactivating_viewer_presets).
+
 >[!NOTE]
 >
 >Seleccione **[!UICONTROL Vista previa]** a la derecha de la página Ajustes preestablecidos de visor para poder ver el aspecto de un recurso en el Ajuste preestablecido de visor que seleccionó. Para ver un recurso diferente, seleccione **[!UICONTROL Examinar]** en la página Ajustes preestablecidos de visor y seleccione un recurso diferente en el cuadro de diálogo Seleccionar vista previa del recurso.
@@ -613,12 +613,12 @@ Consulte también [Ajustes preestablecidos de visor](https://s7d5.scene7.com/s7v
 
    * **Agregar**: en la barra de herramientas, seleccione **[!UICONTROL Agregar]**. En el cuadro de diálogo Agregar ajuste preestablecido de visualizador, seleccione una plataforma y un tipo de recurso de medios enriquecidos.
 
-         Seleccione **[!UICONTROL Guardar como]** cuando haya terminado de crear el ajuste preestablecido de visor.
-     
+     Seleccione **[!UICONTROL Guardar como]** cuando haya terminado de crear el ajuste preestablecido de visor.
+
    * **Agregar empezando desde un ajuste preestablecido de visor existente**: en la tabla, seleccione un ajuste preestablecido de visor de vídeo y, a continuación, seleccione **[!UICONTROL Editar]** en la barra de herramientas.
 
-         Después de volver a configurar el Visor de vídeo, seleccione **[!UICONTROL Guardar como]** para guardar el ajuste preestablecido con un nombre diferente en el campo de texto Nombre del ajuste preestablecido.
-     
+     Después de volver a configurar el Visor de vídeo, seleccione **[!UICONTROL Guardar como]** para guardar el ajuste preestablecido con un nombre diferente en el campo de texto Nombre del ajuste preestablecido.
+
    * **Editar**: selecciona un ajuste preestablecido de visor existente y luego selecciona **[!UICONTROL Editar]**.
 
 1. En la página Configurar visor, en el campo Nombre del ajuste preestablecido, introduzca o edite el nombre del ajuste preestablecido.
@@ -682,7 +682,7 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
 
 Para crear una URL para mostrar los recursos, los usuarios abren la lista desplegable Ajustes preestablecidos en el cuadro de diálogo Vista previa, seleccionan un Ajuste preestablecido de visor y, a continuación, seleccionan **[!UICONTROL Copiar URL]** (consulte [Copiar la URL de un Ajuste preestablecido de visor](application-setup.md#copying_the_url_of_a_viewer_preset)). La lista Ajustes preestablecidos contiene unos ajustes que los administradores pueden agregar y gestionar desde la pantalla Ajustes preestablecidos de visor. Por ejemplo, todos los ajustes preestablecidos del visualizador de catálogos electrónicos activos aparecen en la lista desplegable Ajustes preestablecidos del cuadro de diálogo Vista previa cuando un usuario obtiene una vista previa de un catálogo electrónico.
 
-Si no desactiva los ajustes preestablecidos de visor en su pantalla correspondiente, la lista desplegable de ajustes del cuadro de diálogo Ajustes preestablecidos puede llenarse demasiado. 
+Si no desactiva los ajustes preestablecidos de visor en su pantalla correspondiente, la lista desplegable de ajustes del cuadro de diálogo Ajustes preestablecidos puede llenarse demasiado.
 
 **Para activar o desactivar los ajustes preestablecidos del visor:**
 
@@ -938,7 +938,7 @@ Vea también el vídeo de entrenamiento [2D Spin Set](https://s7d5.scene7.com/s7
 
 **Para crear un conjunto preestablecido de lotes:**
 
-1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de aplicación]** > **[!UICONTROL Ajustes preestablecidos de conjunto de lotes]** > **[!UICONTROL Ajuste preestablecido de conjunto de lotes]**. **[!UICONTROL Ver formulario]**, definido en la esquina superior derecha de la página Detalles, es la opción predeterminada.
+1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de aplicación]** > **[!UICONTROL Ajustes preestablecidos de conjunto de lotes]** > **[!UICONTROL Ajuste preestablecido de conjunto de lotes]**. **[!UICONTROL Ver formulario]**, tal como se establece en la esquina superior derecha de la página Detalles, es la vista predeterminada.
 1. En el panel Lista de ajustes preestablecidos, seleccione **[!UICONTROL Agregar]** para activar los campos de definición en el panel Detalles en el lado derecho de la página.
 1. En el panel Detalles, en el campo Nombre de ajuste preestablecido, escriba un nombre para el ajuste preestablecido.
 1. En el menú desplegable Tipo de conjunto de lotes, seleccione un tipo de ajuste preestablecido.
@@ -987,7 +987,7 @@ Cuando se carga y publica el conjunto de giros, se activa el nombre de la fórmu
 
 **Para crear un conjunto preestablecido de lotes para la generación automática de un conjunto de giros 2D:**
 
-1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de aplicación]** > **[!UICONTROL Ajustes preestablecidos de conjunto de lotes]** > **[!UICONTROL Ajuste preestablecido de conjunto de lotes]**. **[!UICONTROL Ver formulario]**, definido en la esquina superior derecha de la página Detalles, es la opción predeterminada.
+1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de aplicación]** > **[!UICONTROL Ajustes preestablecidos de conjunto de lotes]** > **[!UICONTROL Ajuste preestablecido de conjunto de lotes]**. **[!UICONTROL Ver formulario]**, tal como se establece en la esquina superior derecha de la página Detalles, es la vista predeterminada.
 1. En el panel Lista de ajustes preestablecidos, seleccione **[!UICONTROL Agregar]** para activar los campos de definición en el panel Detalles situado a la derecha de la página.
 1. En el panel Detalles, en el campo Nombre de ajuste preestablecido, escriba un nombre para el ajuste preestablecido.
 1. En el menú desplegable Tipo de conjunto de lotes, seleccione **[!UICONTROL Conjunto de recursos]**.

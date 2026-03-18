@@ -10,9 +10,9 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1521'
 ht-degree: 17%
 
 ---
@@ -43,7 +43,7 @@ En Vista de lista, puede ordenar seleccionando un nombre de columna.
 
 ## Búsqueda sencilla {#conducting-a-simple-search}
 
-Utilice el campo Buscar de la biblioteca de recursos para realizar búsquedas sencillas. Puede buscar elementos por nombre o buscar los elementos cuyos metadatos contengan una palabra clave determinada. 
+Utilice el campo Buscar de la biblioteca de recursos para realizar búsquedas sencillas. Puede buscar elementos por nombre o buscar los elementos cuyos metadatos contengan una palabra clave determinada.
 
 1. En la Biblioteca de recursos, en el panel **[!UICONTROL Carpetas]**, seleccione la carpeta en la que buscar en una carpeta concreta y sus subcarpetas.
 1. A la izquierda del campo Buscar en la Biblioteca de recursos, seleccione el icono **[!UICONTROL Lupa]** para abrir la lista desplegable.
@@ -53,9 +53,11 @@ Utilice el campo Buscar de la biblioteca de recursos para realizar búsquedas se
 
    Los resultados de la búsqueda aparecen en el panel Examinar de la derecha.
 
-<!-- Does not appear to be working anymore >[!NOTE]
+<!--
+Does not appear to be working anymore >[!NOTE]
 >
->Adobe Dynamic Media Classic tracks searches. To run a search a second time, select **[!UICONTROL Search]** and choose the name of a search at the bottom of the Search menu. -->
+>Adobe Dynamic Media Classic tracks searches. To run a search a second time, select **[!UICONTROL Search]** and choose the name of a search at the bottom of the Search menu. 
+-->
 
 ## Búsqueda avanzada {#conducting-an-advanced-search}
 

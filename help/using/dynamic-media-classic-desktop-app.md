@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
 workflow-type: tm+mt
-source-wordcount: '1996'
-ht-degree: 0%
+source-wordcount: '2133'
+ht-degree: 1%
 
 ---
 
@@ -67,9 +67,9 @@ No se ha generado una notificación de actualización en la aplicación de escri
 ## Correcciones en la versión 20.21.2 {#minor-release}
 
 * Limitación conocida en 20.21.1: la lista desplegable **[!UICONTROL Servidor]** de la pantalla de inicio de sesión estaba vacía.
-* En **[!UICONTROL Opciones de trabajo de carga]**, el valor predeterminado del nombre de capa en **[!UICONTROL Opciones de Photoshop]** es ahora **[!UICONTROL Photoshop y Nombre de capa]**. Las capas del archivo PSD se cargan como imágenes independientes.
+* En **[!UICONTROL Opciones de trabajo de carga]**, el valor predeterminado del nombre de capa en **[!UICONTROL Opciones de Photoshop]** es ahora **[!UICONTROL Photoshop y Nombre de capa]**. Las capas en el archivo PSD se cargan como imágenes independientes.
    * El valor predeterminado anterior de **[!UICONTROL Nombre de capa]**, asignaba a las imágenes el nombre de su nombre o número de capa en el archivo PSD. El número de capa se utilizaba si los nombres de capa del fichero PSD eran nombres de capa de Photoshop por defecto.
-   * El nuevo valor predeterminado de **[!UICONTROL Photoshop y Nombre de capa]**, asigna un nombre a las imágenes después del archivo PSD seguido del nombre o número de capa. El número de capa se utiliza si los nombres de capa del fichero PSD son nombres de capa Photoshop por defecto.
+   * El nuevo valor predeterminado de **[!UICONTROL Photoshop y Nombre de capa]**, asigna un nombre a las imágenes después del archivo PSD seguido del nombre o número de capa. El número de capa se utiliza si los nombres de capa en el archivo PSD son nombres de capa predeterminados de Photoshop.
    * Dado que las imágenes de capa en Adobe Dynamic Media Classic ahora tienen nombres únicos, no se van a realizar actualizaciones en PSD o Templates existentes (qué nombres de capa compartidos tienen los archivos PSD originales).
 * Miniaturas de recursos rotas.
 
@@ -91,7 +91,7 @@ No se ha generado una notificación de actualización en la aplicación de escri
 Consulte también:
 
 * [Descargue e instale de forma silenciosa la última aplicación de escritorio de Adobe Dynamic Media Classic en Mac](#install-silent-mac-dmc-app)
-* [Descargue e instale de forma silenciosa la última aplicación de escritorio de Adobe Dynamic Media Classic en Windows](#install-silent-windows-dmc-app)
+* [Descargue e instale de forma silenciosa la última aplicación de escritorio de Adobe Dynamic Media Classic en Windows®](#install-silent-windows-dmc-app)
 
 1. Desinstale las versiones anteriores de la aplicación de escritorio de Adobe Dynamic Media Classic en el sistema.
 
@@ -107,13 +107,19 @@ Consulte también:
       * [macOS (.DMG): Descargar](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
       * [Windows® (.EXE): Descargar](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
 
-<!--         * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) -->
+<!--
+         * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) 
+-->
 
-<!--    * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
-        * [Windows&reg; (.EXE): Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) -->
+<!--
+        * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
+        * [Windows&reg; (.EXE): Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) 
+-->
 
-<!--    * [macOS (.DMG): Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
-        * [Windows (.EXE): Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) -->
+<!--
+    * [macOS (.DMG): Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
+    * [Windows (.EXE): Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) 
+-->
 
 
 1. Realice una de las siguientes acciones en función del programa de instalación que descargó.
@@ -149,8 +155,8 @@ Consulte también:
 
 Consulte también:
 
-* [Descargue e instale la última aplicación de escritorio de Adobe Dynamic Media Classic en Mac o Windows](#installation-dmc-app)
-* [Descargue e instale de forma silenciosa la última aplicación de escritorio de Adobe Dynamic Media Classic en Windows](#install-silent-windows-dmc-app)
+* [Descargue e instale la última aplicación de escritorio de Adobe Dynamic Media Classic en Mac o Windows®](#installation-dmc-app)
+* [Descargue e instale de forma silenciosa la última aplicación de escritorio de Adobe Dynamic Media Classic en Windows®](#install-silent-windows-dmc-app)
 
 Para descargar y *instalar en modo silencioso* la versión más reciente de la aplicación de escritorio de Adobe Dynamic Media Classic en macOS:
 
@@ -191,7 +197,7 @@ El comando que utiliza es para una instalación silenciosa MSI básica. Sin emba
 
 Consulte también:
 
-* [Descargue e instale la última aplicación de escritorio de Adobe Dynamic Media Classic en Mac o Windows](#installation-dmc-app)
+* [Descargue e instale la última aplicación de escritorio de Adobe Dynamic Media Classic en Mac o Windows®](#installation-dmc-app)
 
 * [Descargue e instale de forma silenciosa la última aplicación de escritorio de Adobe Dynamic Media Classic en macOS](#install-silent-mac-dmc-app)
 
@@ -233,7 +239,7 @@ Para descargar y *instalar en modo silencioso* la versión más reciente de la a
 
 ## Introducción a vídeo sobre el uso de Adobe Dynamic Media Classic Desktop App {#dmc-app-video-walk-through}
 
-Vea un recorrido en vídeo de [con la aplicación Adobe Dynamic Media Classic para escritorio](https://experienceleague.adobe.com/es/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (duración: 2 minutos y 36 segundos).
+Vea un recorrido en vídeo de [con la aplicación Adobe Dynamic Media Classic para escritorio](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (duración: 2 minutos y 36 segundos).
 
 ## Borrando la caché de imágenes y de recursos del equipo mediante la aplicación de escritorio {#clear-cache}
 
@@ -258,9 +264,9 @@ Además de borrar la caché de imágenes y recursos mediante la aplicación de e
 
 ## Limitaciones conocidas en Adobe Dynamic Media Classic 20.20.1 (corregidas en 20.20.2)
 
-**_Solo se aplica a Windows®. ¿Hay alguna limitación en la cantidad de archivos que se pueden cargar a través de la interfaz de usuario de la aplicación de escritorio?_**<br>Sí, se pueden cargar un máximo de 150 archivos a la vez mediante la interfaz de usuario de la aplicación de escritorio.
+**_Solo se aplica a Windows®. ¿Hay una limitación en el número de archivos que se pueden cargar a través de la interfaz de usuario de la aplicación de escritorio?_**<br>Sí, se puede cargar un máximo de 150 archivos a la vez mediante la interfaz de usuario de la aplicación de escritorio.
 
-**_Se aplica a Windows® y macOS. ¿Cómo cambio de empresa?_**<br>Para cambiar de empresa, haga lo siguiente:
+**_Se aplica a Windows® y macOS. ¿Cómo puedo cambiar de una empresa a otra?_**<br>Para cambiar de una empresa a otra, haga lo siguiente:
 
 * En la aplicación de Adobe Dynamic Media Classic, seleccione la nueva empresa en la lista desplegable empresa.
 * Cuando aparezca la ventana emergente, pulsa **[!UICONTROL Aceptar]** para cerrar la sesión y cerrar la aplicación.
@@ -271,11 +277,11 @@ Además de borrar la caché de imágenes y recursos mediante la aplicación de e
 
 ## Sugerencias y trucos
 
-**_No puedo ver el panel Carro de medios en la página de aterrizaje de Adobe Dynamic Media Classic._**<br>En Adobe Dynamic Media Classic, pulse&#x200B;**[!UICONTROL Configuración > Configuración personal &#x200B;]**. En la sección Explorador, asegúrese de que&#x200B;**[!UICONTROL Mostrar características de MediaPortal &#x200B;]**&#x200B;está seleccionado (marcado). Pulse&#x200B;**[!UICONTROL Guardar > Cerrar &#x200B;]**.
+**_No puedo ver el panel Carro de medios en la página de aterrizaje de Adobe Dynamic Media Classic._**<br>En Adobe Dynamic Media Classic, pulse**[!UICONTROL Configuración > Configuración personal ]**. En la sección Explorador, asegúrese de que**[!UICONTROL Mostrar características de MediaPortal ]**está seleccionado (marcado). Pulse**[!UICONTROL Guardar > Cerrar ]**.
 
-**_El estado de publicación (indicador verde) de un recurso no se refleja correctamente._**<br>En la interfaz de usuario del explorador, se requería volver a iniciar sesión en la interfaz de usuario para ver el estado de publicación correcto de los recursos. En la aplicación de escritorio, Adobe ha incluido el icono&#x200B;**[!UICONTROL Actualizar &#x200B;]**&#x200B;en la barra de herramientas, a la derecha del botón&#x200B;**[!UICONTROL Seleccionar ninguno &#x200B;]**. Pulse el icono&#x200B;**[!UICONTROL Actualizador &#x200B;]**&#x200B;para ver el estado más reciente de todos los recursos de la página dada. No es necesario volver a iniciar sesión, como con la interfaz de usuario del explorador.
+**_El estado de publicación (indicador verde) de un recurso no se refleja correctamente._**<br>En la interfaz de usuario del explorador, era necesario volver a iniciar sesión en la interfaz de usuario para ver el estado de publicación correcto de los recursos. En la aplicación de escritorio, Adobe ha incluido el icono**[!UICONTROL Actualizar ]**en la barra de herramientas, a la derecha del botón**[!UICONTROL Seleccionar ninguno ]**. Pulse el icono**[!UICONTROL Actualizador ]**para ver el estado más reciente de todos los recursos de la página dada. No es necesario volver a iniciar sesión, como con la interfaz de usuario del explorador.
 
 ![Icono de actualización](/help/using/assets/refresh-icon1.png)
 *Icono de actualización*
 
-**_No veo que funcionen los ajustes preestablecidos de conjunto por lotes en la aplicación de escritorio._**<br>Pulse&#x200B;**[!UICONTROL Cargar > Opciones del trabajo > Ajustes preestablecidos de conjunto de lotes &#x200B;]**. Asegúrese de que el&#x200B;**[!UICONTROL ajuste preestablecido de conjuntos de lotes &#x200B;]**&#x200B;correspondiente esté habilitado. Haga clic en&#x200B;**[!UICONTROL Guardar y enviar carga &#x200B;]**.
+**_No veo que funcionen los ajustes preestablecidos de conjunto de lotes en la aplicación de escritorio._**<br>Puntee en**[!UICONTROL Cargar > Opciones del trabajo > Ajustes preestablecidos de conjunto de lotes ]**. Asegúrese de que el**[!UICONTROL ajuste preestablecido de conjuntos de lotes ]**correspondiente esté habilitado. Haga clic en**[!UICONTROL Guardar y enviar carga ]**.
