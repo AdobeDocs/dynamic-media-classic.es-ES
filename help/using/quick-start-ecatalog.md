@@ -10,16 +10,25 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+autotag-review: '2026-05-13T19:55:49.663Z'
+TQID: 'https://experienceleague.adobe.com/EFy8tVdGv5q5mmQQS-m0Mb8AuphJHEDHzspsPWNxMlI'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: 1572
 ht-degree: 25%
 
 ---
 
 # Inicio rápido: Catálogos electrónicos{#quick-start-ecatalogs}
 
-Un catálogo electrónico es una versión digital en la Web del material impreso: un catálogo, un folleto, un folleto, un manual de producto o una circular publicitaria, por ejemplo. Se muestra un catálogo electrónico en un visor de catálogos electrónicos de un sitio Web. Este visor simula la experiencia de lectura de material impreso.
+Un catálogo electrónico es una versión digital en la Web del material impreso: un catálogo, un folleto, un folleto, un manual de producto o una circular publicitaria, por ejemplo. Se muestra un catálogo electrónico en un visor de catálogos electrónicos de un sitio Web. Este visor simula la lectura de material impreso.
 
 Consulte también los siguientes vídeos de formación:
 
@@ -58,7 +67,7 @@ Al crear el catálogo electrónico, tiene la posibilidad de ordenar como desee p
 
 Este inicio rápido de catálogos electrónicos se ha diseñado para ayudarle en el uso inicial de catálogos electrónicos. Siga los pasos del 1 al 7. Después de cada paso, se hace una referencia cruzada a un encabezado de tema donde puede encontrar más información.
 
-## &#x200B;1. Cargar los archivos de PDF
+## &#x200B;1. Carga de los archivos de PDF
 
 Los catálogos electrónicos suelen crearse a partir de archivos PDF. Puesto que están diseñados para imprimirse, los archivos PDF suelen contener imágenes en CMYK. Adobe Dynamic Media Classic detecta estas imágenes y las convierte con un perfil de color CMYK estándar. Sin embargo, debe cargar y utilizar un perfil de color personalizado.
 
@@ -86,7 +95,7 @@ Los mapas de imágenes añaden otro aspecto a las páginas del catálogo electr�
 
 Para crear un mapa de imagen, abra la pantalla Catálogo electrónico. A continuación, vaya a la ficha **[!UICONTROL Páginas de mapa]** de la pantalla Catálogo electrónico y enmarque el mapa con la herramienta Mapa de imagen rectangular o Mapa de imagen poligonal. Para ajustar la posición y el tamaño de los mapas de imagen, arrastre los bordes de los mapas con la herramienta Panorámica.
 
-Después de enmarcar el mapa de imagen, escriba la dirección URL a la que desea ir al seleccionar el mapa de imagen. También puede escribir el texto de rollover que aparecerá al mover el puntero sobre el mapa de imagen. 
+Después de enmarcar el mapa de imagen, escriba la dirección URL a la que desea ir al seleccionar el mapa de imagen. También puede escribir el texto de rollover que aparecerá al mover el puntero sobre el mapa de imagen.
 
 Consulte [Crear mapas de imágenes de catálogo electrónico](creating-ecatalog-image-maps.md#creating-ecatalog-image-maps).
 

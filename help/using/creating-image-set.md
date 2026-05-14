@@ -10,10 +10,18 @@ role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+autotag-review: '2026-05-13T17:41:43.308Z'
+TQID: 'https://experienceleague.adobe.com/W8HyE6-6ofFJRUWa37n9XnVAeXDkQ8ycBY-hna1ArAY'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 38%
+source-wordcount: 679
+ht-degree: 39%
 
 ---
 
@@ -37,7 +45,7 @@ Al crear un conjunto de imágenes, Adobe recomienda las siguientes prácticas re
 | Tipo de límite | Práctica recomendada | Límite impuesto |
 | --- | --- | --- |
 | Número de recursos duplicados por conjunto | No hay duplicados | 20 ‡ |
-| Número máximo de imágenes por conjunto | 5-10 imágenes por conjunto | 1.000 |
+| Número máximo de imágenes por conjunto | 5-10 imágenes por conjunto | 1000 |
 
 ‡ práctica recomendada es no tener recursos duplicados en un conjunto. El límite es de 20 duplicados para un solo recurso. Si, dentro del conjunto, agrega otro duplicado para ese recurso, la solicitud generará un error o ignorará el duplicado.
 
@@ -45,7 +53,7 @@ Consulte también [Limitaciones de Dynamic Media](/help/using/limitations.md).
 
 **Para crear un conjunto de imágenes:**
 
-1. Realice una de las siguientes acciones:
+1. Realice una de las acciones siguientes:
 
    * **Seleccione las imágenes primero**: en el panel Examinar, seleccione las imágenes que desee para su conjunto de imágenes y vaya a **[!UICONTROL Generar]** > **[!UICONTROL Conjuntos de imágenes]**.
 
@@ -63,7 +71,7 @@ Tanto si edita un conjunto publicado como no publicado, la opción **[!UICONTROL
 | ¿Ya se ha publicado el conjunto? | ¿Ha seleccionado la opción **[!UICONTROL `Publish after a save`]** antes de guardar la edición? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
 | --- | --- | --- | --- |
 | Sí | Sí | Publicado | Publicado |
-| Sí | No | Publicado | Los miembros del conjunto existentes conservan su estado publicado. Cualquier nuevo miembro que añada al conjunto durante la edición conservará su estado publicado o no publicado. |
+| Sí | No | Publicado | Los miembros existentes del conjunto conservarán su estado publicado. Cualquier nuevo miembro que añada al conjunto durante la edición conservará su estado publicado o no publicado. |
 | No | Sí | Publicado | Publicado |
 | No | No | Sin publicar | Los miembros existentes del conjunto y cualquier nuevo miembro que añada al conjunto durante la edición conservarán su estado publicado o no publicado. |
 

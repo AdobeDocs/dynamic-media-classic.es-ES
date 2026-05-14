@@ -10,10 +10,18 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T19:45:00.273Z'
+TQID: 'https://experienceleague.adobe.com/lVQWshcgF66zFJ9pTVdrMaGNowclV5u6nxzqOSetns0'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '1703'
-ht-degree: 23%
+source-wordcount: 1735
+ht-degree: 22%
 
 ---
 
@@ -39,7 +47,7 @@ Después de publicar los vídeos, Adobe Dynamic Media Classic activa las cadenas
 
 **Para publicar el vídeo:**
 
-1. Realice una de las siguientes acciones:
+1. Realice una de las acciones siguientes:
 
    * Para publicar vídeos de forma automática e instantánea al cargar, en la página Cargar, selecciona **[!UICONTROL Publicar después de cargar]**. Ya ha terminado; no tiene que seguir más pasos.
    * Para publicar vídeos manualmente después de la carga, en el panel Examinar, selecciona los vídeos y, a continuación, en la barra de navegación global, selecciona **Publicar**.
@@ -183,7 +191,7 @@ Tras la publicación, puede obtener las URL de las miniaturas de vídeo en la vi
 
 El *fotograma de póster* es el fotograma inicial que aparece en los visores de vídeo antes de que el vídeo empiece a reproducirse. Adobe Dynamic Media Classic utiliza miniaturas de vídeo como fotogramas de póster.
 
-Puede aplicar modificadores de imagen al fotograma de póster. Por ejemplo, puede recortar el fotograma de póster o hacerlo transparente. Para modificar el fotograma de póster, abra la pantalla de configuración del visor de vídeo e introduzca modificadores en la sección Modificadores de imagen de póster. 
+Puede aplicar modificadores de imagen al fotograma de póster. Por ejemplo, puede recortar el fotograma de póster o hacerlo transparente. Para modificar el fotograma de póster, abra la pantalla de configuración del visor de vídeo e introduzca modificadores en la sección Modificadores de imagen de póster.
 
 Consulte [Agregar o editar un ajuste preestablecido de visualizador de vídeo](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 

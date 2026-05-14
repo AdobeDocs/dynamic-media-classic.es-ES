@@ -10,10 +10,20 @@ role: User
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+autotag-review: '2026-05-13T17:41:35.428Z'
+TQID: 'https://experienceleague.adobe.com/zss-r9uFbwUnAU35hcpQsXKE1HgyBCrrK7JGiqV65Pg'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '2444'
-ht-degree: 31%
+source-wordcount: 2454
+ht-degree: 30%
 
 ---
 
@@ -36,7 +46,7 @@ Al crear mapas de imagen, puede realizar una de las siguientes acciones:
 
 ## Dibujo y ajuste de un mapa de imagen {#drawing-and-adjusting-an-image-map}
 
-1. Realice una de las siguientes acciones:
+1. Realice una de las acciones siguientes:
 
    * Si está trabajando con una imagen en la vista de cuadrícula o en la vista de lista, en la lista desplegable Editar seleccione **[!UICONTROL Mapa de imágenes]**. O bien, ábralo en Vista de detalles y, a continuación, seleccione **[!UICONTROL Mapa de imagen]** encima de la imagen.
    * Si está trabajando con un conjunto de giros en la vista de cuadrícula o vista de lista, seleccione **[!UICONTROL Editar]**. O bien, ábralo en Vista de detalles y, a continuación, seleccione **[!UICONTROL Editar]**. Seleccione un recurso de imagen y, a continuación, seleccione **[!UICONTROL Mapa de imagen]**.
@@ -214,7 +224,7 @@ Para obtener más información, consulte Ayuda de Adobe InDesign o Ayuda de Adob
    >
    >No es necesario establecer las opciones de apariencia en Adobe InDesign. Puede especificar el aspecto en Adobe Dynamic Media Classic.
 
-1. Repita los pasos 2 a 6 para todos los mapas de imágenes que desee crear.
+1. Repita los pasos del 2 al 6 para todos los mapas de imagen que desee crear.
 1. Exporte el archivo como PDF.
 1. Cargue PDF en Adobe Dynamic Media Classic.
 1. En **[!UICONTROL Opciones de PDF]**, seleccione **[!UICONTROL Extraer vínculos]**.

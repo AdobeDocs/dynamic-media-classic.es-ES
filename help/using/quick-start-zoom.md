@@ -10,10 +10,18 @@ role: User
 exl-id: eae35207-000c-4ced-b9ab-714c2384a9e7
 topic: Content Management
 level: Beginner
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+autotag-review: '2026-05-13T20:11:12.792Z'
+TQID: 'https://experienceleague.adobe.com/0ilSf9rbFcvh2-AVdVnifjNi7bOa5AjCqBFCUC95I5Q'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 19%
+source-wordcount: 934
+ht-degree: 18%
 
 ---
 
@@ -35,7 +43,7 @@ Comience por cargar las imágenes de zoom en Adobe Dynamic Media Classic. Para c
 
 En la barra de navegación global, selecciona **[!UICONTROL Cargar]** para cargar imágenes desde tu equipo o red a una carpeta en Adobe Dynamic Media Classic. Ver [Cargar imágenes de zoom](uploading-zoom-images.md#uploading_zoom_images).
 
-## &#x200B;2. Crear destinos de zoom para el zoom guiado
+## &#x200B;2. Creación de destinos de zoom para el zoom guiado
 
 Los destinos de zoom permiten resaltar partes específicas de una imagen. Por ejemplo, puede hacer destacar las partes de una imagen que la hacen exclusiva. En la ventana Visor de zoom, los destinos de zoom aparecen en forma de imágenes en miniatura a un lado de la imagen. Si se selecciona una de estas miniaturas de destino de zoom, se aplica zoom automáticamente en una parte de la imagen que se especifique.
 

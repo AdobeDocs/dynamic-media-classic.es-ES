@@ -6,9 +6,24 @@ role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
 topic: Administration, Migration
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:16:25.016Z'
+TQID: 'https://experienceleague.adobe.com/CvChy3DWZdh9S-6Ps3s4BidW0jESBzMQfQmf6zk-4U0'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: da3860b0-d637-47df-bef0-273751180266
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: 598
 ht-degree: 0%
 
 ---
@@ -19,7 +34,7 @@ Adobe creó [!DNL Dynamic Media] pensando en usted.
 
 El nuevo [!DNL Dynamic Media] de [!DNL Adobe Experience Manager] se basa en la funcionalidad que espera de [!DNL Dynamic Media Classic] (anteriormente Scene7). Le proporciona a su organización herramientas nuevas y mejoradas para crear experiencias mejores y más atractivas.
 
-[!DNL Dynamic Media] actualiza la experiencia de creación de contenido mediante generadores visuales en tiempo real. [!DNL Adobe Experience Manager], que se encuentra en la parte superior de la red de entregas de Adobe, que es de confianza, escalable y está emparejada con la intuitiva interfaz de usuario [!DNL Dynamic Media], proporciona las capacidades para crear, repetir y ofrecer experiencias atractivas de siguiente nivel.
+[!DNL Dynamic Media] actualiza la experiencia de creación de contenido mediante generadores visuales en tiempo real. [!DNL Dynamic Media], que se encuentra en la parte superior de la red de entregas de Adobe, que es de confianza, escalable y está emparejada con la intuitiva interfaz de usuario [!DNL Adobe Experience Manager], proporciona las capacidades para crear, repetir y ofrecer experiencias atractivas de siguiente nivel.
 
 | Lo que obtiene con [!DNL Dynamic Media] | Descripción |
 | --- | --- |
@@ -46,9 +61,9 @@ El nuevo [!DNL Dynamic Media] de [!DNL Adobe Experience Manager] se basa en la f
 
 | Capacidad | Descripción |
 | --- | --- |
-| Creación y entrega aceleradas de contenido | · Collaboration y sincronización de archivos compartidos con aplicaciones de [!DNL Adobe Creative Cloud].<br>· Cumple todos los criterios requeridos de Dynamic Asset Management: crear, colaborar, administrar y entregar todo en una aplicación, una interfaz y una red.<br>· Administración de activos digitales de nivel empresarial con sólida compatibilidad con metadatos, búsqueda inteligente, Lightbox y colecciones, control de versiones y uso compartido seguro de activos para que puedan usarlo proveedores, socios y franquiciados<br>· Revisar y aprobar flujos de trabajo para recursos de trabajo en proceso. |
-| Elementos de la IU de Experiencias interactivas sencillas | · Cree experiencias fácilmente con creadores no técnicos y en tiempo real.<br>· Medios interactivos/de ventas, combinar recursos de campaña con información del producto.<br>· Aumentar la satisfacción del cliente y dirigir la conversión. |
-| Flujo De Trabajo Integral E Inclusivo | · Distribuya medios enriquecidos optimizados a todos los puntos de contacto, incluidas las [!DNL Adobe Experience Cloud] soluciones completas.<br>· Integración con [!DNL Adobe Experience Cloud] para el análisis avanzado de recursos, la segmentación y la reutilización de recursos en puntos de contacto de marketing. Algunos de estos puntos de contacto incluyen [!DNL Adobe Campaign] para correo electrónico, [!DNL Adobe Social] para canales sociales y [!DNL Adobe Experience Manager] sitios para aplicaciones móviles y web adaptables. |
+| Creación y entrega aceleradas de contenido | · Collaboration y sincronización de archivos compartidos con aplicaciones de [!DNL Adobe Creative Cloud].<br>· Cumple todos los criterios requeridos de Dynamic Asset Management: Crear, colaborar, administrar y entregar todo en una aplicación, una interfaz, una red.<br>· Administración de recursos digitales de nivel empresarial con soporte de metadatos sólido, búsqueda inteligente, Lightbox y colecciones, control de versiones y uso compartido seguro de recursos para que los usen proveedores, socios y franquicias<br>· Revisar y aprobar flujos de trabajo para recursos de trabajo en proceso. |
+| Elementos de la IU de Experiencias interactivas sencillas | · Cree experiencias fácilmente con creadores no técnicos y en tiempo real.<br>· Medios interactivos/de ventas, combine recursos de campañas con información de productos.<br>· Aumente la satisfacción del cliente y fomente la conversión. |
+| Flujo De Trabajo Integral E Inclusivo | · Ofrezca medios enriquecidos optimizados a todos los puntos de contacto, incluidas las soluciones completas de [!DNL Adobe Experience Cloud].<br>· Integración con [!DNL Adobe Experience Cloud] para el análisis avanzado de recursos, la segmentación y la reutilización de recursos en todos los puntos de contacto de marketing. Algunos de estos puntos de contacto incluyen [!DNL Adobe Campaign] para correo electrónico, [!DNL Adobe Social] para canales sociales y [!DNL Adobe Experience Manager] sitios para aplicaciones móviles y web adaptables. |
 
 ## ¿Por qué Adobe?
 

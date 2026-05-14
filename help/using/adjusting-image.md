@@ -10,10 +10,18 @@ role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T17:38:08.783Z'
+TQID: 'https://experienceleague.adobe.com/Gze3kMTnn5xWFZ4uUW-aNo5VASF2ncV7T1jvcsRadaQ'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 37%
+source-wordcount: 578
+ht-degree: 35%
 
 ---
 
@@ -29,11 +37,11 @@ Vea también [Crear un alias para una imagen](adjusting-image.md#creating_an_ali
 1. Seleccione un tamaño y un ajuste preestablecido de imagen (en la parte inferior de la ventana).
 1. Utilice los comandos del lado derecho de la ventana `Adjust Editor` para ajustar la imagen:
 
-   * Use las opciones de Voltear para voltear una imagen horizontal o verticalmente. 
+   * Use las opciones de Voltear para voltear una imagen horizontal o verticalmente.
    * Utilice el control deslizante **[!UICONTROL Rotador]** para girar la imagen. Puede introducir valores en el campo **[!UICONTROL Rotador]** para girar una imagen. Los valores positivos la rotan hacia la derecha; los negativos, hacia la izquierda.
    * Use el control deslizante Desenfocar o su cuadro correspondiente para desenfocar una imagen. Cuanto más alto sea el valor, más desenfocada quedará la imagen.
    * Use las opciones Contraste, Brillo, Saturación, Tono y Equilibrio de color para ajustar el color y el brillo. Estos efectos son acumulativos. Por ejemplo, los cambios en el valor Magenta/Verde se agregan a los realizados en el valor Tono.
-   * Utilice las opciones `Colorize` para colorear una imagen conservando las sombras y los resaltados. Los cambios en la opción Colorear también son acumulativos. En el menú Brillo, elija **[!UICONTROL Sin compensación]** para deshabilitar la compensación automática de brillo. Establezca el valor de contraste en 0 para conservar el rango de contraste de la imagen original, o especifique un rango de contraste con un valor superior a 0. Un valor de 100 maximiza el contraste. Los valores típicos se encuentran entre 30 y 70.
+   * Utilice las opciones `Colorize` para colorear una imagen conservando las sombras y los resaltados. Los cambios en la opción Colorear también son acumulativos. En el menú Brillo, elija **[!UICONTROL Sin compensación]** para deshabilitar la compensación automática de brillo. Establezca el valor de contraste en 0 para conservar el rango de contraste de la imagen original, o especifique un rango de contraste con un valor superior a 0. Un valor de 100 maximiza el contraste. Los valores típicos están en el rango 30-70.
 
 1. Cuando termine de ajustar la imagen, realice una de las acciones siguientes:
 

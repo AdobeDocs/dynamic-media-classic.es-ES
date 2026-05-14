@@ -9,9 +9,20 @@ role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+autotag-review: '2026-05-13T20:08:29.260Z'
+TQID: 'https://experienceleague.adobe.com/-fupHROLSD2veWgnchj2uhPQCKhLqtMasdqOVUNri6g'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '2383'
+source-wordcount: 2434
 ht-degree: 30%
 
 ---
@@ -53,7 +64,7 @@ Cambie esta configuración solo con la ayuda de una persona de asistencia de Ado
   Por ejemplo, si es una marca multinacional que vende en distintos países, puede asegurarse de que cada país tiene su propio visor con su propia configuración regional específica. Para llevar a cabo esta funcionalidad, puede especificar una cadena de asignación de configuración regional. A continuación, edite el texto de la información del objeto en el ajuste preestablecido de un visor. Solo tiene que añadir las cadenas de texto traducidas para el idioma que desee.
 
   >[!NOTE]
-  > Para configurar las opciones de soporte de localización, [use Admin Console para crear un caso de soporte.](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) En su caso de soporte técnico, solicite ayuda para la configuración.
+  > Para configurar las opciones de soporte de localización, [use Admin Console para crear un caso de soporte.](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) En su caso de asistencia, solicite ayuda para la configuración.
 
   Para más información sobre la configuración de la **[!UICONTROL Asistencia para la localización]**, consulte [Consideraciones al configurar la localización de recursos](publish-setup.md#considerations_when_setting_up_localization_of_assets).
 
@@ -61,7 +72,7 @@ Cambie esta configuración solo con la ayuda de una persona de asistencia de Ado
 
 >[!NOTE]
 >
->Si desea configurar opciones de soporte de localización en Adobe Dynamic Media Classic, como el campo Locale Map, [use Admin Console para crear un caso de soporte.](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) En su caso de soporte técnico, solicite ayuda para la configuración.
+>Si desea configurar las opciones de compatibilidad con la localización en Adobe Dynamic Media Classic, como el campo Mapa de configuración regional, [use Admin Console para crear un caso de compatibilidad.](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) En su caso de asistencia, solicite ayuda para la configuración.
 
 Una forma habitual de utilizar Adobe Dynamic Media Classic es administrar las imágenes del producto en sitios web de e-Commerce. Las empresas internacionales se enfrentan a un reto importante, ya que los recursos para productos similares tienen un aspecto distinto según el país. Por lo general, las diferencias son para algunas partes de los medios generales. Abordar esas diferencias copiando todos los activos para cada uno de los países y sobrescribiendo sólo las diferencias es un esfuerzo tremendo y contradice la metáfora del activo primario único. Dichas diferencias en los recursos pueden ser numerosas, desde vídeos para cada país con diferentes pistas de audio hasta diferencias pequeñas pero importantes en el cable de alimentación que se utiliza con el producto. Adobe Dynamic Media Classic utiliza un mecanismo de búsqueda básico. Puede definir el orden de los sufijos de los recursos en que busca el servidor de imágenes, empezando por la configuración regional requerida.
 

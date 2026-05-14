@@ -10,10 +10,20 @@ role: User
 exl-id: 2d9fc6d8-973f-4aaa-bc2c-b49cda2cde58
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+autotag-review: '2026-05-13T19:59:54.410Z'
+TQID: 'https://experienceleague.adobe.com/C0REr3rutR9-FalFXHHeGVtYJGEeODYtTnAfWk-S0-M'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 28%
+source-wordcount: 1212
+ht-degree: 26%
 
 ---
 
@@ -78,8 +88,8 @@ En Máscara de enfoque, establezca las opciones que desee. Las opciones de confi
 | --- | --- |
 | Cantidad | Cantidad controla la cantidad de contraste que se aplica a los píxeles del borde.<br><br>Considérelo como la intensidad del efecto. Hay una diferencia entre los valores de cantidad de Máscara de enfoque en Dynamic Media Classic y en Adobe Photoshop. La principal diferencia es que Photoshop tiene un rango de cantidades de 1% a 500%. Mientras que en Adobe Dynamic Media Classic, el rango de valores es de 0,0 a 5,0. Un valor de 5,0 en Adobe Dynamic Media Classic es el equivalente aproximado de 500% en Photoshop; un valor de 0,9 es el equivalente de 90%, y así sucesivamente. |
 | Radio | Controla el radio del efecto. <br><br>El intervalo de valores es de 0 a 250. El efecto se ejecuta en todos los píxeles de una imagen e irradia desde todos los píxeles en todas las direcciones. El radio se mide en píxeles. Por ejemplo, para obtener un efecto de enfoque similar para una imagen de 2000 × 2000 píxeles e imagen de 500 × 500 píxeles, debe establecer un radio de dos píxeles en la imagen de 2000 × 2000 píxeles. A continuación, defina un valor de radio de un píxel en la imagen de 500 × 500 píxeles. Para una imagen que tenga más píxeles, se utilizará un valor más alto. |
-| Umbral | El umbral es un rango de contraste que se omite cuando se aplica el filtro Máscara de enfoque. Este efecto es importante para que no se introduzca ningún &quot;ruido&quot; en una imagen cuando se utilice este filtro. El rango de valores es 0-255, que es el número de pasos de brillo de una imagen en escala de grises. 0 = negro, 128 = 50% gris y 255 = blanco. <br><br>Por ejemplo, un valor de umbral de 12 ignora las ligeras variaciones en el brillo del tono de la piel para evitar agregar ruido, pero agrega contraste al borde de las áreas de contrastes, como cuando las pestañas tocan la piel.<br><br>Por ejemplo, si tiene una foto de la cara de alguien, la máscara de enfoque afecta a las partes de contraste de la imagen. Por ejemplo, donde las pestañas y la piel se juntan para crear una zona obvia de contraste, y la piel lisa en sí misma. Incluso la piel más suave presenta cambios sutiles en los valores de brillo. Si no utiliza un valor de umbral, el filtro enfatiza estos cambios sutiles en píxeles de piel. A su vez, se crea un efecto ruidoso e indeseable mientras el contraste en las pestañas se aumenta, lo que aumenta el enfoque.<br><br>Para evitar este problema, se introduce un valor de umbral que indica al filtro que ignore los píxeles que no cambian drásticamente el contraste, como la apariencia suave. <br><br>En el gráfico de cremallera mostrado anteriormente, observe la textura junto a las cremalleras. El ruido de la imagen se muestra porque los valores de umbral son demasiado bajos para suprimir el ruido. |
-| Monocromo | Selecciónelo para aplicar una máscara de enfoque al brillo (intensidad) de la imagen.<br><br>Anule la selección para aplicar máscara de enfoque a cada componente de color por separado. |
+| Umbral | El umbral es un rango de contraste que se omite cuando se aplica el filtro Máscara de enfoque. Este efecto es importante para que no se introduzca ningún &quot;ruido&quot; en una imagen cuando se utilice este filtro. El rango de valores es 0-255, que es el número de pasos de brillo de una imagen en escala de grises. 0=negro, 128=50% gris y 255=blanco.<br><br>Por ejemplo, un valor de umbral de 12 ignora las ligeras variaciones en el brillo del tono de la piel para evitar agregar ruido, pero agrega contraste al borde de las áreas contrastadas, como cuando las pestañas tocan la piel.<br><br>Por ejemplo, si tiene una foto de la cara de alguien, la máscara de enfoque afecta a las partes de contraste de la imagen. Por ejemplo, donde las pestañas y la piel se juntan para crear una zona obvia de contraste, y la piel lisa en sí misma. Incluso la piel más suave presenta cambios sutiles en los valores de brillo. Si no utiliza un valor de umbral, el filtro enfatiza estos cambios sutiles en píxeles de piel. A su vez, se crea un efecto ruidoso e indeseable mientras el contraste en las pestañas se aumenta, lo que aumenta el enfoque.<br><br>Para evitar este problema, se introduce un valor de umbral que indica al filtro que ignore los píxeles que no cambian drásticamente el contraste, como la apariencia suave. <br><br>En el gráfico de cremallera mostrado anteriormente, observe la textura junto a las cremalleras. El ruido de la imagen se muestra porque los valores de umbral son demasiado bajos para suprimir el ruido. |
+| Monocromo | Seleccione esta opción para resaltar el brillo (intensidad) de la imagen con máscara de enfoque.<br><br>Anule la selección de esta opción para resaltar cada componente de color por separado. |
 
 Consulte también [Enfoque de una imagen](sharpening-image.md#sharpening_an_image).
 
@@ -92,9 +102,9 @@ Utilice Fondo de cobertura para poder eliminar automáticamente el fondo de una 
 | Opciones de fondo de cobertura | Descripción |
 | --- | --- |
 | Fondo de cobertura | Seleccione esta opción para activar o &quot;activar&quot; la función y las opciones de Fondo de cobertura. |
-| Esquina | Obligatorio.<br>Esquina de la imagen que se usa para definir el color de fondo que se va a noquear.<br>Puede elegir entre <b>Superior izquierdo, Inferior izquierdo, Superior derecho o Inferior derecho</b>. |
-| Método de relleno | Requerido. <br>Controla la transparencia de píxeles desde la ubicación de Corner que haya establecido.<br>Puede elegir entre los siguientes métodos de relleno:<br>· <b>Relleno de inundación</b>: convierte en transparentes todos los píxeles que coincidan con la Esquina que ha especificado y que estén conectados a ella.<br>· <b>Píxel coincidente</b>: vuelve transparentes todos los píxeles coincidentes, independientemente de su ubicación en la imagen. |
-| Tolerancia | Opcional.<br>Controla la cantidad de variación permitida en la coincidencia de color de píxel en función de la ubicación de Esquina que haya establecido.<br>Use un valor de 0,0 para que coincida exactamente con los colores de los píxeles. O bien, use un valor de 1,0 para permitir la mayor variación. |
+| Esquina | Requerido.<br>Esquina de la imagen que se usa para definir el color de fondo que se va a utilizar para la cobertura.<br>Puede elegir entre <b>Superior izquierdo, Inferior izquierdo, Superior derecho o Inferior derecho</b>. |
+| Método de relleno | Obligatorio. <br>Controla la transparencia de píxeles desde la ubicación de Corner que haya establecido.<br>Puede elegir entre los siguientes métodos de relleno:<br>· <b>Relleno de inundación</b>: convierte en transparentes todos los píxeles que coincidan con la Esquina que ha especificado y están conectados a ella.<br>· <b>Coincidir píxeles</b>: convierte en transparentes todos los píxeles coincidentes, independientemente de su ubicación en la imagen. |
+| Tolerancia | Opcional.<br>Controla la cantidad de variación permitida en la coincidencia de color de píxeles en función de la ubicación de Esquina que haya establecido.<br>Use un valor de 0,0 para que coincida exactamente con los colores de los píxeles. O bien, use un valor de 1,0 para permitir la mayor variación. |
 
 >[!MORELIKETHIS]
 >

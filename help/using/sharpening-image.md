@@ -10,10 +10,20 @@ role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:13:09.120Z'
+TQID: 'https://experienceleague.adobe.com/y5rcs4ohA-zMFKKm1EjsSxuUqgqbp-CVMzRcmTaRs6c'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '2207'
-ht-degree: 30%
+source-wordcount: 2315
+ht-degree: 27%
 
 ---
 
@@ -58,7 +68,7 @@ La siguiente tabla muestra las opciones de enfoque del servidor de imágenes.
 | Nombre | Protocolo de URL | Valores | Ejemplo |
 | --- | --- | --- | --- |
 | Enfoque simple | `op_sharpen` | `0` o `1` | `op_sharpen=1` |
-| Modo de remuestreo | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: selecciona la interpolación bilineal estándar. Método de remuestreo más rápido; a menudo pueden verse algunos defectos de solapamiento.<br>`bicub`: selecciona la interpolación bicúbica. Requiere más CPU que `bilin`, pero genera imágenes más nítidas con defectos de solapamiento menos evidentes.<br><br>`sharp2`: selecciona una función Lanczos Windows® modificada como algoritmo de interpolación. Puede producir resultados ligeramente más nítidos que los bicúbicos a un coste de CPU más alto.<br><br>`trilin`: selecciona una interpolación trilineal modificada, que utiliza resoluciones superiores e inferiores, si están disponibles. Solo se recomienda su uso cuando el solapamiento suponga un problema. Reducirá los tamaños de JPEG debido a la disminución de datos de alta frecuencia. | `resMode=sharp2` |
+| Modo de remuestreo | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: selecciona la interpolación bilineal estándar. Método de remuestreo más rápido; a menudo pueden verse algunos defectos de solapamiento.<br>`bicub`: selecciona la interpolación bicúbica. Requiere más CPU que `bilin`, pero genera imágenes más nítidas con defectos de solapamiento menos evidentes.<br><br>`sharp2`: selecciona una función de Lanczos Windows® modificada como algoritmo de interpolación. Puede producir resultados ligeramente más enfocados que los bicúbicos a un costo de CPU mayor.<br><br>`trilin`: selecciona una interpolación trilineal modificada, que utiliza resoluciones más altas y más bajas, si está disponible. Solo se recomienda su uso cuando el solapamiento suponga un problema. Reducirá los tamaños de JPEG debido a la disminución de datos de alta frecuencia. | `resMode=sharp2` |
 | Máscara de enfoque | `op_usm` | `amount`, `radius`, `threshold`, `monochrome`<br><br>`amount`: factor de intensidad del filtro (real 0...5)<br><br>`radius`: radio del núcleo del filtro en píxeles (real 0...250) <br><br>`threshold`: nivel de umbral del filtro (entero 0...255)<br><br>`monochrome`: establezca en `0` para aplicar máscara de enfoque a cada componente de color por separado, establezca en `1` para aplicar brillo (intensidad) a la imagen de máscara de enfoque | `op_usm=1,1,10,0` |
 
 Seleccione el menú **[!UICONTROL Enfoque]** y elija una opción:
@@ -71,11 +81,11 @@ Seleccione el menú **[!UICONTROL Enfoque]** y elija una opción:
 
 Elija estas opciones para ajustar el enfoque con la máscara de enfoque:
 
-* **Cantidad**: controla el contraste aplicado a los píxeles del borde. El valor predeterminado es 0,0. En las imágenes de alta resolución, puede aumentarse hasta 5,0. La cantidad equivaldría a la medida de la intensidad del filtro. La configuración **[!UICONTROL Amount]** de Adobe Dynamic Media Classic no es la misma que la configuración de Amount de Adobe Photoshop. Adobe Photoshop utiliza una cantidad en el rango del 1 % al 500 %, mientras que Adobe Dynamic Media Classic escala del 0,0 al 5,0. (5,0 equivale aproximadamente al 500% en Photoshop, 0,9 es similar al 90 % y así sucesivamente).
+* **Cantidad**: controla el contraste aplicado a los píxeles del borde. El valor predeterminado es 0,0. Para imágenes de alta resolución, puede aumentarla hasta 5,0. Considere la cantidad como una medida de la intensidad del filtro. La configuración **[!UICONTROL Amount]** de Adobe Dynamic Media Classic no es la misma que la configuración de Amount de Adobe Photoshop. Adobe Photoshop utiliza una cantidad en el rango del 1 % al 500 %, mientras que Adobe Dynamic Media Classic escala del 0,0 al 5,0. (5,0 equivale aproximadamente al 500% en Photoshop, 0,9 es similar al 90 % y así sucesivamente).
 
-* **Radio**: Determina el número de píxeles adyacentes a los píxeles de borde que afectan al enfoque. El efecto se ejecuta en todos los píxeles de la imagen e irradia en todas las direcciones. 
+* **Radio**: Determina el número de píxeles adyacentes a los píxeles de borde que afectan al enfoque. El efecto se ejecuta en todos los píxeles de la imagen e irradia en todas las direcciones.
 
-El valor de radio óptimo depende del tamaño de la imagen. Un valor bajo enfoca sólo los píxeles del borde. Un valor alto enfoca una banda más ancha de píxeles. 
+El valor de radio óptimo depende del tamaño de la imagen. Un valor bajo enfoca sólo los píxeles del borde. Un valor alto enfoca una banda más ancha de píxeles.
 
 Por ejemplo, para obtener un efecto de enfoque similar para una imagen de 2000 × 2000 píxeles e imagen de 500 × 500 píxeles, puede establecer un valor de radio de dos píxeles en la imagen de 2000 × 2000 píxeles. A continuación, defina un valor de radio de un píxel en la imagen de 500 × 500 píxeles (un valor mayor para una imagen con más píxeles).
 
@@ -118,7 +128,7 @@ Las opciones de Calidad JPG controlan el nivel de compresión JPG:
 
 * **Calidad JPG**: Seleccione esta opción si desea controlar los niveles de compresión y la disminución de resolución de crominancia.
 
-* **Regulador**: Determina el nivel de compresión de JPG. Esta configuración afecta tanto al tamaño como a la calidad de la imagen. La escala de la calidad JPG va de 1 a 100.
+* **Regulador**: Determina el nivel de compresión de JPG. Esta configuración afecta tanto al tamaño como a la calidad de la imagen. La escala de calidad de JPG es de 1 a 100.
 
 * **Habilitar la disminución de resolución de crominancia de JPG**: como el ojo es menos sensible a la información de color de alta frecuencia que la de alta frecuencia, las imágenes de JPEG dividen la información de imagen en componentes de luminancia y color. Al comprimir una imagen JPEG, el componente de luminancia conserva la totalidad de su resolución, mientras que la resolución de los componentes de color se disminuye mediante promedios de grupos de píxeles. La disminución de la resolución reduce el volumen de datos en la mitad o en un tercio, y casi no afecta a la calidad percibida. La disminución de resolución no se aplica a las imágenes en escala de grises. Esta técnica reduce la cantidad de compresión, lo cual resulta útil para las imágenes de mayor contraste (por ejemplo, las imágenes con texto superpuesto).
 

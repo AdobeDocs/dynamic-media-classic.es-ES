@@ -10,10 +10,18 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:10:31.990Z'
+TQID: 'https://experienceleague.adobe.com/dYjjsyvPAPOS5icw4Yi6Kpo93Nh2qvnCiW5-ih2hmDk'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 18%
+source-wordcount: 856
+ht-degree: 16%
 
 ---
 
@@ -33,21 +41,21 @@ Al crear un conjunto de giros, Adobe recomienda la siguiente práctica recomenda
 
 | Tipo de límite de conjunto de giros | Práctica recomendada | Límite impuesto |
 | --- | --- | --- |
-| Número máximo de filas/columnas por conjunto 2D | 12 a 18 imágenes por conjunto | 1.000 |
+| Número máximo de filas/columnas por conjunto 2D | 12 a 18 imágenes por conjunto | 1000 |
 
 Consulte también [Limitaciones de Dynamic Media](/help/using/limitations.md).
 
 Este Inicio rápido está diseñado para ayudarle a ponerse en marcha rápidamente con las técnicas de conjuntos de giros de Adobe Dynamic Media Classic. Siga los pasos del 1 al 7. Al final de cada paso, puede seleccionar un vínculo de tema para obtener más información.
 
-## &#x200B;1. Crear y cargar las imágenes
+## &#x200B;1. Creación y carga de imágenes
 
-Necesita un mínimo de 8 a 12 tomas de un elemento para un conjunto de giros unidimensional y de 16 a 24 para un conjunto de giros bidimensional. Las tomas deben realizarse siguiendo intervalos regulares para dar la impresión de que se está rotando y volteando el elemento. Por ejemplo, si un conjunto de giros unidimensional incluye 12 disparos, gire el elemento 30° (360/12) para cada disparo.
+Como mínimo, necesita 8-12 tomas de un artículo para un conjunto de giros unidimensional y 16-24 para un conjunto de giros bidimensional. Las tomas deben realizarse siguiendo intervalos regulares para dar la impresión de que se está rotando y volteando el elemento. Por ejemplo, si un conjunto de giros unidimensional incluye 12 disparos, gire el elemento 30° (360/12) para cada disparo.
 
 En la barra de navegación global, selecciona **[!UICONTROL Cargar]** para cargar imágenes de giros desde tu equipo o red a Adobe Dynamic Media Classic.
 
 Consulte [Instrucciones para obtener imágenes para conjuntos de giros](creating-spin-set.md#guidelines-for-shooting-spin-set-images).
 
-## &#x200B;2. Crear un conjunto de giros
+## &#x200B;2. Creación de un conjunto de giros
 
 Para crear un conjunto de giros, en la barra de navegación global, ve a **[!UICONTROL Generar]** > **[!UICONTROL Conjuntos de giros]**. En el cuadro de diálogo Tamaño del conjunto de giros, elija cuántas filas y celdas desea y seleccione **[!UICONTROL Aceptar]**. A continuación, arrastre las imágenes a la cuadrícula de la página Conjunto de giros.
 
@@ -81,7 +89,7 @@ Para publicar un conjunto de giros, márquelo para su publicación seleccionando
 
 Ver [Publicar un conjunto de giros](publishing-spin-set.md#publishing-a-spin-set).
 
-## &#x200B;7. Vinculación de un juego de giros a una página Web
+## &#x200B;7. Vinculación de un conjunto de giros a una página web
 
 Adobe Dynamic Media Classic crea cadenas de llamada de URL para conjuntos de giros y las activa después de publicarlas. Puede copiar estas direcciones URL desde la página de vista previa.
 
