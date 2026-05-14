@@ -9,10 +9,16 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:16:48.480Z'
+TQID: 'https://experienceleague.adobe.com/GHFAnTWOGJjh5T5swbhJLj9-3iAOP7Ne5MQRObGPubI'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '3856'
-ht-degree: 25%
+source-wordcount: 3956
+ht-degree: 26%
 
 ---
 
@@ -26,7 +32,7 @@ Antes de cargar recursos en Adobe Dynamic Media Classic, asegúrese de que tenga
 
 ### Formatos de archivo de recurso admitidos {#supported-asset-file-formats}
 
-En esta tabla se enumeran los formatos de archivo de recursos compatibles con Adobe Dynamic Media Classic. Para obtener información acerca de los archivos Camera Raw compatibles, consulte [https://helpx.adobe.com/es/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/es/camera-raw/using/supported-cameras.html).
+En esta tabla se enumeran los formatos de archivo de recursos compatibles con Adobe Dynamic Media Classic. Para obtener información acerca de los archivos Camera Raw compatibles, consulte [https://helpx.adobe.com/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/camera-raw/using/supported-cameras.html).
 
 | Formatos de archivo de recurso | Descripción |
 | --- | --- |
@@ -72,7 +78,7 @@ Para lograr resultados óptimos con el programa Adobe Dynamic Media Classic, ase
 | Imágenes (para cambio de tamaño de imagen, zoom, conjuntos de imágenes, conjuntos de giros) | Las imágenes deben tener al menos 2000 píxeles en el tamaño más largo; los tamaños de imagen típicos oscilan entre 1500 y 2500 píxeles en el tamaño más largo. Se recomiendan los formatos de imagen sin pérdida (incluidos TIFF y PNG). Con imágenes JPEG, use los valores más altos de calidad. Los archivos GIF de animación se gestionan como cualquier otro contenido estático. |
 | Catálogos electrónicos | Utilice archivos PDF de alta resolución creados en Adobe Acrobat o una aplicación de Adobe Creative Suite guardada como &quot;lista para imprimir&quot;. Los PDF incluyen todas las fuentes, imágenes y máscaras necesarias. Además, incluya todos los elementos gráficos a los que se haga referencia necesarios, ya sea como páginas únicas, pliegos de dos páginas o en un formato de varias páginas. Asigne un nombre alfanumérico a los archivos para ordenar las páginas. Coloque todos los PDF para el catálogo electrónico en una misma carpeta, para facilitar la tarea de carga. Puede seleccionar opciones de recorte para quitar de los archivos marcas de recorte, destinos de registro o barras de color. La mayoría de archivos PDF listos para imprenta utilizan un espacio de color CMYK, por lo que es importante obtener el perfil de color CMYK ICC utilizado con los archivos. |
 | Plantillas | Las imágenes o los diseños con capas pueden incluir texto, imágenes y capas. Las capas de imagen, las cadenas de texto y los atributos, tales como el color y tamaño, pueden parametrizarse para personalizar los datos variables. Los requisitos de imagen cuando se utilizan plantillas son los mismos que para otros tipos de imagen. Prepare los gráficos en Photoshop u otro programa de edición de imágenes. Guarde cada gráfico como archivo acoplado transparente, en formato TIFF o PNG. Asegúrese de que la resolución de la imagen es apropiada para el uso previsto. Las imágenes para impresión son de 300 ppp. |
-| Vídeos | Adobe Dynamic Media Classic admite archivos de vídeo guardados en formato OGV y MP4. Puede transcodificar archivos al formato MP4 al cargarlos. Consulte [Formatos de archivo de recursos admitidos](#supported-static-file-formats) |
+| Vídeos | Adobe Dynamic Media Classic admite archivos de vídeo guardados en formato OGV y MP4. Puede transcodificar los archivos a formato MP4 en el momento de realizar la carga. Consulte [Formatos de archivo de recursos admitidos](#supported-static-file-formats) |
 | Fuentes | TrueType, `Type1` (solo Windows®), OpenType® fuentes y PhotoFonts cargados. |
 | Imágenes | Imágenes y archivos de imagen con capas. |
 | Conjuntos de imágenes y conjuntos de muestras | Un conjunto de imágenes se compone de imágenes relacionadas que se pueden mostrar en un visor. |
@@ -82,7 +88,7 @@ Para lograr resultados óptimos con el programa Adobe Dynamic Media Classic, ase
 | Archivos FXG | Archivos con formato gráfico independiente de la resolución que puede utilizar para crear plantillas personalizadas para impresión, web, correo electrónico, escritorio y dispositivos. |
 | Archivos SVG | Archivos gráficos vectoriales escalables que los servidores para servicio de imágenes pueden procesar. |
 | Archivos XML | Archivos que definen reglas de preprocesamiento utilizadas para modificar la ruta y las partes de consulta de las solicitudes. |
-| Archivos de hoja de estilos en cascada | Cargue máscaras CSS para personalizar los visores de HTML5. |
+| Archivos de hoja de estilos en cascada | Cargue apariencias de CSS para personalizar los visores de HTML5. |
 | Archivos JavaScript | Los archivos JavaScript se utilizan en la instrumentación del visor para guardar información de la cuenta. Seguridad de Adobe recomienda este tipo de recurso solo para cuentas de cliente que tengan un dominio independiente en uso para la entrega (para evitar scripts entre sitios). |
 
 >[!NOTE]
@@ -229,13 +235,13 @@ Seleccione esta opción para poder extraer automáticamente todos los archivos d
    * **[!UICONTROL Incluir subcarpetas]**: Disponible solo si seleccionó la ficha **[!UICONTROL A TRAVÉS DE FTP]**.
 Seleccione esta opción si desea cargar subcarpetas de la carpeta que va a cargar. Los nombres de la carpeta y sus subcarpetas que carga se introducen automáticamente en Adobe Dynamic Media Classic.
 
-   * **[!UICONTROL Procesar archivos de metadatos]**: solo está disponible si seleccionó la ficha **[!UICONTROL VÍA FTP]**. Seleccione esta opción si desea cargar un archivo XML o delimitado por tabuladores para agregar metadatos a varios recursos.
+   * **[!UICONTROL Procesar archivos de metadatos]**: solo está disponible si seleccionó la ficha **[!UICONTROL VÍA FTP]**. Seleccione esta opción si desea cargar un archivo delimitado por tabuladores o XML para agregar metadatos a varios recursos.
 Consulte [Importación de datos (mediante FTP)](viewing-adding-exporting-metadata.md#import-metadata).
 
 * **Opciones de recorte**: Recorte automáticamente píxeles de espacio en blanco de una imagen. Abra el menú **[!UICONTROL Recortar]**, seleccione **[!UICONTROL Manual]** e introduzca las medidas de los píxeles en los campos de texto superior, derecho, inferior e izquierdo para recortar desde los lados. También puedes seleccionar **[!UICONTROL Recortar]** en el menú Recortar y elegir estas opciones:
 
    * **[!UICONTROL Recortar basándose en]**: elige si recortar basándose en el color o la transparencia:
-      * **[!UICONTROL Color]**: elige la opción Color. A continuación, seleccione el menú Esquina y elija la esquina de la imagen con el color que mejor represente el color del espacio en blanco que desea recortar.
+      * **[!UICONTROL Color]**: elige la opción Color. A continuación, seleccione el menú Esquina y elija la esquina de la imagen que mejor represente el color de espacio en blanco que desea recortar.
 Recorte basado en el color: especifique 0 para recortar píxeles solo si coinciden exactamente con el color seleccionado en la esquina de la imagen. Los números más cercanos a 1 permiten una mayor diferencia de color.
       * **[!UICONTROL Transparencia]**: elige la opción **[!UICONTROL Transparencia]**.
 Recorte basado en la transparencia: especifique 0 para recortar píxeles solo si son transparentes; los números cercanos a 1 permiten una mayor transparencia.

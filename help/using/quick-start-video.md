@@ -10,10 +10,16 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:11:06.721Z'
+TQID: 'https://experienceleague.adobe.com/lB0O224FfzW1smqCgkraE9czEF4XSD98qarRus6GEFw'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 22%
+source-wordcount: 1748
+ht-degree: 19%
 
 ---
 
@@ -55,12 +61,12 @@ Cuando se genera un conjunto de vídeos adaptable, incluye vídeos MP4.
 
   Ver [Agregar marcadores de capítulo a un vídeo](adding-chapter-markers-video.md).
 
-* Organice, explore o busque vídeos con total compatibilidad de metadatos para gestionar eficazmente sus recursos de vídeo. 
+* Organice, explore o busque vídeos con total compatibilidad de metadatos para gestionar eficazmente sus recursos de vídeo.
 * Ofrezca conjuntos de vídeos adaptables a la web y a equipos de escritorio y dispositivos móviles, incluidos iPhone, iPad, Android™, BlackBerry® y Windows® phone.
 
   La transmisión de vídeo adaptable es compatible con varias plataformas de iOS.
 
-  Consulte la compatibilidad más reciente en la [Guía de referencia de visores de Adobe](https://experienceleague.adobe.com/es/docs/dynamic-media-developer-resources).
+  Consulte la compatibilidad más reciente en la [Guía de referencia de visores de Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
   Adobe Dynamic Media Classic admite la reproducción de vídeo móvil para vídeo MP4 H.264. <!-- LINK IS 404; NO SUITABLE REPLACEMENT WAS FOUND You can find BlackBerry&reg; devices that support this video format at the following website: -->
 
@@ -91,7 +97,7 @@ Consulte los siguientes vídeos de formación:
 
 La siguiente descripción paso a paso del flujo de trabajo se ha diseñado para ayudarle a ponerse en marcha rápidamente con los conjuntos de vídeos adaptables en Adobe Dynamic Media Classic. Después de cada paso, se hace una referencia cruzada a un encabezado de tema donde puede encontrar más información.
 
-## &#x200B;1. Cargue y codifique vídeos
+## &#x200B;1. Carga y codificación de vídeos
 
 Cargue y genere conjuntos de vídeos adaptables con una de los dos situaciones siguientes:
 
@@ -130,7 +136,7 @@ Consulte [Trabajar con ajustes preestablecidos del visor de vídeo](previewing-v
 
 Consulte también [Ajustes preestablecidos de vídeo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) vídeo de formación.
 
-## &#x200B;3. Implementar vídeos en sus sitios web y sitios móviles
+## &#x200B;3. Implementación de vídeos en sitios web y sitios móviles
 
 Para incorporar el vídeo en el sitio web, puede realizar cualquiera de las acciones siguientes:
 
@@ -138,7 +144,7 @@ Para incorporar el vídeo en el sitio web, puede realizar cualquiera de las acci
 
   Para obtener la dirección URL de un vídeo, en las vistas Cuadrícula o Lista, selecciónelo en el panel Examinar. Seleccione **[!UICONTROL Vista previa]** y, a continuación, seleccione **[!UICONTROL Copiar URL]** a la derecha de `Universal_HTML5_Viewer`.
 
-  Al seleccionar **[!UICONTROL Copiar URL]**, la URL se copia en el Portapapeles. Coloque este código en el HTML de su sitio web, sitio móvil o aplicación. 
+  Al seleccionar **[!UICONTROL Copiar URL]**, la URL se copia en el Portapapeles. Coloque este código en el HTML de su sitio web, sitio móvil o aplicación.
 
   >[!NOTE]
   >

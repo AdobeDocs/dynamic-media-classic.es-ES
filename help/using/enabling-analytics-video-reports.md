@@ -10,9 +10,15 @@ role: Developer,Admin,User
 exl-id: 9d017742-1ed2-411d-a8a6-438102bf1557
 topic: Development, Integrations
 level: Experienced
-source-git-commit: 458a80aad6e983dbccfe2108f0a389a4651f9f38
+autotag-review: '2026-05-13T19:47:00.853Z'
+TQID: 'https://experienceleague.adobe.com/bXlrGU0zMEyfa-E-x-29-biChC17GJTEViBP8GoouTU'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: 270
 ht-degree: 0%
 
 ---
@@ -21,17 +27,17 @@ ht-degree: 0%
 
 Con los informes de vídeo basados en Adobe Analytics Heartbeat, ya no es necesario activar los cuatro eventos de visualizador de vídeo (Reproducir, Pausa, Detener, Hito) al configurar Adobe Analytics en Adobe Dynamic Media Classic. Video Heartbeat funciona con los visores de vídeo y medios mixtos Adobe Dynamic Media Classic HTML5 predeterminados. El reproductor de vídeo genera datos de seguimiento para verlos en informes de vídeo de Adobe Analytics.
 
-* Para ver una introducción a los medios de streaming y la &quot;medición de latidos&quot;, consulta [Acerca de Adobe Analytics para medios de streaming](https://experienceleague.adobe.com/es/docs/media-analytics/using/media-overview).
+* Para ver una introducción a los medios de streaming y la &quot;medición de latidos&quot;, consulta [Acerca de Adobe Analytics para medios de streaming](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
 
 * La integración de informes de vídeo de Adobe Analytics con Adobe Dynamic Media Classic admite variables de solución, pero no variables personalizadas.
 
-  Consulte [Parámetros de audio y vídeo](https://experienceleague.adobe.com/es/docs/media-analytics/using/implementation/variables/audio-video-parameters) para obtener más información sobre las variables de solución y las variables personalizadas.
+  Consulte [Parámetros de audio y vídeo](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters) para obtener más información sobre las variables de solución y las variables personalizadas.
 
 * Se admiten segmentos listos para usar de incrementos de un minuto. Sin embargo, no se admiten los informes de segmentos personalizados, como los hitos definidos por el cliente en función de incrementos de tiempo, hitos de % o hitos de desplazamiento.
 
-  Para obtener más información acerca de los requisitos y la configuración de los medios de transmisión, vea [Medir los medios de transmisión en Adobe Analytics](https://experienceleague.adobe.com/es/docs/media-analytics/using/media-overview).
+  Para obtener más información acerca de los requisitos y la configuración de los medios de transmisión, vea [Medir los medios de transmisión en Adobe Analytics](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
 
-* Para obtener información acerca de las variables personalizadas y de solución, vea [Habilitación de informes de contenidos](https://experienceleague.adobe.com/es/docs/media-analytics/using/media-reports/media-reports-enable#media-reports).
+* Para obtener información acerca de las variables personalizadas y de solución, vea [Habilitación de informes de contenidos](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-reports/media-reports-enable#media-reports).
 
 >[!NOTE]
 >

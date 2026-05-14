@@ -10,10 +10,15 @@ role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 topic: Content Management
 level: Beginner
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+autotag-review: '2026-05-13T20:10:43.672Z'
+TQID: 'https://experienceleague.adobe.com/vS0okk4Ham0VZzFCWdvOpl48NkeW9Nq5wlH6ZJAWGCM'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 18%
+source-wordcount: 402
+ht-degree: 21%
 
 ---
 
@@ -23,23 +28,23 @@ Los conjuntos de muestras de Adobe Dynamic Media Classic proporcionan a los usua
 
 Inicio rápido Este Inicio rápido de conjuntos de muestras está diseñado para que pueda ponerse en marcha rápidamente con las técnicas de conjuntos de muestras en Adobe Dynamic Media Classic.
 
-## &#x200B;1. Cargar las imágenes y los archivos de muestra
+## &#x200B;1. Carga de las imágenes y los archivos de muestra
 
 Comience el proceso cargando las imágenes y los archivos de muestra para los conjuntos de muestras.
 
 En la barra de navegación global, selecciona **[!UICONTROL Cargar]** para cargar archivos de tu equipo a una carpeta en Adobe Dynamic Media Classic. Ver [Preparar recursos del conjunto de muestras para cargar](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) y [Cargar los archivos](uploading-files.md#uploading-your-files).
 
-## &#x200B;2. Crear un conjunto de muestras
+## &#x200B;2. Creación de un conjunto de muestras
 
 Para crear un conjunto de muestras, en la barra de navegación global, ve a **[!UICONTROL Generar]** > **[!UICONTROL Conjuntos de muestras]**. En la página Conjunto de muestras, arrastre imágenes y muestras de color a la página. Ver [Crear un conjunto de muestras](creating-swatch-set.md#creating-a-swatch-set).
 
-## &#x200B;3. Configurar ajustes preestablecidos del visualizador de conjuntos de muestras
+## &#x200B;3. Configurar ajustes preestablecidos del visor de conjuntos de muestras
 
 Los administradores pueden crear o modificar los ajustes preestablecidos de visor de conjuntos de imágenes. Adobe Dynamic Media Classic incluye ajustes preestablecidos de visor predeterminados para cada tipo de medio enriquecido. Utilice el Visor de zoom: Personalizar > ajustes preestablecidos de Conjuntos de imágenes/Muestras de color para ver sus conjuntos de muestras.
 
 Consulte [Crear y editar ajustes preestablecidos de visor](application-setup.md#adding-and-editing-viewer-presets).
 
-## &#x200B;4. Previsualizar un conjunto de muestras
+## &#x200B;4. Previsualización de un conjunto de muestras
 
 Seleccione el conjunto de muestras en el panel Examinar y, a continuación, seleccione **[!UICONTROL Vista previa]**. El conjunto de muestras aparecerá en esta página. Seleccione los iconos de miniatura y muestra para poder examinar el conjunto de muestras en el visor seleccionado. Puede elegir distintos visores en el menú Ajustes preestablecidos.
 
@@ -53,7 +58,7 @@ Seleccione el icono **[!UICONTROL Marcar para publicación]** a la izquierda de 
 
 Ver [Publicar archivos](publishing-files.md#publishing-files).
 
-## &#x200B;6. Vinculación de un juego de muestras a una página web
+## &#x200B;6. Vinculación de un conjunto de muestras a una página web
 
 Adobe Dynamic Media Classic crea llamadas de URL para conjuntos de muestras y las activa después de la publicación. Puede copiar estas direcciones URL desde la página de vista previa.
 

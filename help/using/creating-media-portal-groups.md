@@ -10,9 +10,15 @@ role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+autotag-review: '2026-05-13T17:41:54.576Z'
+TQID: 'https://experienceleague.adobe.com/If0j5hWmxTOGGYshsqh2sa0iM3S2SvG57iPO2rtG1lY'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: 841
 ht-degree: 49%
 
 ---
@@ -29,7 +35,7 @@ Si, específicamente, no concede permisos de grupo a un recurso o carpeta, ese r
 
 >[!NOTE]
 >
->Un usuario puede ser miembro de varios grupos. Cuando un usuario pertenece a dos grupos con permisos de acceso diferentes a una carpeta, el usuario recibe el permiso mayor. 
+>Un usuario puede ser miembro de varios grupos. Cuando un usuario pertenece a dos grupos con permisos de acceso diferentes a una carpeta, el usuario recibe el permiso mayor.
 
 ## Adición de un grupo {#adding-a-group}
 
@@ -63,7 +69,7 @@ Si, específicamente, no concede permisos de grupo a un recurso o carpeta, ese r
    | Tarea | Leer | Escribir | Eliminar |
    | --- | --- | --- | --- |
    | Examinar carpetas y archivos | X | | |
-   | Editar archivos (recortar, enfocar, ajustar)  | | X | |
+   | Editar archivos (recortar, enfocar, ajustar) | | X | |
    | Cambiar nombres de archivo | | X | |
    | Mover archivos a otras carpetas | | X | |
    | Cambiar el nombre de los archivos | | X | |

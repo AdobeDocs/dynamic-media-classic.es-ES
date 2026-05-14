@@ -10,10 +10,15 @@ role: User
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
 topic: Content Management
 level: Beginner
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+autotag-review: '2026-05-13T20:10:24.352Z'
+TQID: 'https://experienceleague.adobe.com/23AoGDGEDm6MKPXwRk5Orvi445FdE3BpcTaSY21YSUE'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 16%
+source-wordcount: 698
+ht-degree: 17%
 
 ---
 
@@ -25,7 +30,7 @@ Los ajustes preestablecidos del visualizador de conjuntos de medios mixtos inclu
 
 La opción Inicio rápido de los conjuntos de medios mixtos se ha diseñado para que pueda ponerse en marcha rápidamente con las técnicas de conjuntos de medios mixtos de Adobe Dynamic Media Classic.
 
-## &#x200B;1. Cargue las imágenes, los archivos de muestra y los vídeos
+## &#x200B;1. Carga de imágenes, archivos de muestra y vídeos
 
 Comience por cargar las imágenes, los archivos de muestras, y los vídeos para sus conjuntos de medios mixtos. Dado que los usuarios pueden aplicar zoom a las imágenes en el visualizador de conjuntos de medios mixtos, asegúrese de tener en cuenta esta capacidad al elegir imágenes. Asegúrese de que las imágenes tengan al menos 2000 píxeles del tamaño más grande.
 
@@ -33,13 +38,13 @@ En la barra de navegación global, selecciona **[!UICONTROL Cargar]** para carga
 
 Ver [Cargar los archivos](uploading-files.md#uploading-your-files).
 
-## &#x200B;2. Crear conjuntos de medios para utilizarlos en el conjunto de medios mixtos
+## &#x200B;2. Creación de conjuntos de medios para utilizarlos en el conjunto de medios mixtos
 
 Puede agregar imágenes, conjuntos de imágenes, conjuntos de muestras, conjuntos de giros y vídeos a su conjunto de medios mixtos. Prepare los conjuntos de medios antes de agregarlos al conjunto de medios mixtos.
 
 Ver [Crear un conjunto de imágenes](creating-image-set.md#creating-an-image-set), [Crear un conjunto de muestras](creating-swatch-set.md#creating-a-swatch-set) y [Crear un conjunto de giros](creating-spin-set.md#creating-a-spin-set).
 
-## &#x200B;3. Crear un conjunto de medios mixtos
+## &#x200B;3. Creación de un conjunto de medios mixtos
 
 En la barra de navegación global, vaya a **[!UICONTROL Compilación]** > **[!UICONTROL Conjuntos de medios mixtos]**. Arrastre las imágenes, los conjuntos de muestras, los conjuntos de imágenes y los vídeos a la página Conjunto de medios mixtos. Para añadir una pista de sonido, arrastre un archivo de audio al cuadro Pista de sonido.
 
@@ -55,7 +60,7 @@ Consulte [Configurar un ajuste preestablecido de visualizador de conjuntos de me
 
 Consulte también [Ajustes preestablecidos del visor](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) vídeo de formación.
 
-## &#x200B;5. Previsualizar un conjunto de medios mixtos
+## &#x200B;5. Previsualización de un conjunto de medios mixtos
 
 Seleccione el botón **[!UICONTROL Vista previa]** del conjunto de medios mixtos. Puede seleccionar los iconos de miniatura y muestra para examinar el conjunto de medios mixtos en el visualizador de conjuntos de medios mixtos. Puede elegir distintos visores en el menú Ajustes preestablecidos.
 
@@ -69,7 +74,7 @@ Los conjuntos de vídeo adaptables requieren que se publique en el **Servidor de
 
 Ver [Publicar un conjunto de medios mixtos](publishing-mixed-media-set.md#publishing-a-mixed-media-set).
 
-## &#x200B;7. Vincular un conjunto de medios mixtos a una página web
+## &#x200B;7. Vinculación de un conjunto de medios mixtos a una página web
 
 Adobe Dynamic Media Classic activa las llamadas de URL para los conjuntos de medios mixtos después de publicarlos. Puede copiar estas direcciones URL desde la página de vista previa.
 

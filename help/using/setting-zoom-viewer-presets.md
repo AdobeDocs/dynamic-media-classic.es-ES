@@ -10,9 +10,14 @@ role: User
 exl-id: ddaaff6c-5447-408e-9c92-bcdfd1a0e72e
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:12:28.286Z'
+TQID: 'https://experienceleague.adobe.com/dVCfolvS11dmHRlOF2OruJwM1TMM68lEtKy76l4LkC8'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: 638
 ht-degree: 40%
 
 ---
@@ -46,7 +51,7 @@ Adobe Dynamic Media Classic recomienda los siguientes parámetros para ajustes p
 ## Crear y editar ajustes preestablecidos del visor de zoom {#creating-and-editing-zoom-viewer-presets}
 
 1. En la barra de navegación global, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Ajustes preestablecidos de visor]**.
-1. Realice una de las siguientes acciones:
+1. Realice una de las acciones siguientes:
 
    * **Crear un ajuste preestablecido**: Seleccione **[!UICONTROL Agregar]**. En el cuadro de diálogo Agregar ajuste preestablecido de visor, elija una plataforma, elija un visor de zoom y, a continuación, seleccione **[!UICONTROL Agregar]**. Introduzca un nombre para el ajuste preestablecido en el cuadro Nombre del ajuste preestablecido.
 

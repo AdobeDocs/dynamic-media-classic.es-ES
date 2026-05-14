@@ -10,10 +10,16 @@ role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
 topic: Collaboration, Content Management
 level: Beginner
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+autotag-review: '2026-05-13T20:10:17.674Z'
+TQID: 'https://experienceleague.adobe.com/FSvq-Pe4KTPk2wslzWUkBExR1rZNQAqB90Xw5e-QT-Q'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 45%
+source-wordcount: 859
+ht-degree: 35%
 
 ---
 
@@ -33,7 +39,7 @@ Consulte los siguientes vídeos de formación:
 
 El siguiente Inicio rápido está diseñado para ayudarle a empezar rápidamente con la administración de Media Portal. Al final de cada paso, seleccione el vínculo del tema para obtener más información.
 
-## &#x200B;1. Comprensión del funcionamiento de las funciones de usuario en Media Portal
+## &#x200B;1. Comprender las funciones de usuario de Media Portal
 
 Los usuarios de Media Portal tienen tres funciones: usuario, colaborador y usuario-colaborador. Cada función puede realizar un conjunto diferente de tareas. Por ejemplo, los colaboradores pueden cambiar el nombre de los archivos y las carpetas y eliminarlos, pero los usuarios normales no pueden realizar estas tareas. Es fundamental que entienda qué capacidades ofrecen las diferentes funciones, de modo que, cuando agregue usuarios, sea consciente de las responsabilidades que les va a dar.
 
@@ -63,21 +69,21 @@ Ver [Administrar cuentas de FTP](ftp-accounts.md#managing_ftp_accounts).
 
 Consulte [Funciones de usuario en Media Portal](media-portal-user-roles.md#media_portal_user_roles).
 
-## &#x200B;5. Especificación de opciones de exportación
+## &#x200B;5. Especificar opciones de exportación
 
-Los usuarios de Media Portal, cuando exportan archivos, pueden cambiar el formato de los archivos y exportar los archivos principales originales, si les concede permiso para hacerlo. Como administrador, usted decidirá cómo deben exportar los archivos los usuarios. 
+Los usuarios de Media Portal, cuando exportan archivos, pueden cambiar el formato de los archivos y exportar los archivos principales originales, si les concede permiso para hacerlo. Como administrador, usted decidirá cómo deben exportar los archivos los usuarios.
 
 Consulte [Especificar las opciones de exportación disponibles para los usuarios de Media Portal](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
-## &#x200B;6. Creación de ajustes preestablecidos de imagen
+## &#x200B;6. Crear ajustes preestablecidos de imagen
 
-Un ajuste preestablecido de imagen es un conjunto de ajustes predefinidos. Estos ajustes pueden cambiar el tamaño, la calidad de imagen, el formato, la resolución y otros aspectos de la apariencia de una imagen cuando se exporta. Puede crear ajustes preestablecidos de imágenes para controlar el modo en el que se cambiará el formato de las imágenes cuando los usuarios las exporten. 
+Un ajuste preestablecido de imagen es un conjunto de ajustes predefinidos. Estos ajustes pueden cambiar el tamaño, la calidad de imagen, el formato, la resolución y otros aspectos de la apariencia de una imagen cuando se exporta. Puede crear ajustes preestablecidos de imágenes para controlar el modo en el que se cambiará el formato de las imágenes cuando los usuarios las exporten.
 
 Consulte [Crear y habilitar ajustes preestablecidos de imagen](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
 
-## &#x200B;7. Creación de ajustes preestablecidos de metadatos y campos de metadatos personalizables
+## &#x200B;7. Crear ajustes preestablecidos de metadatos y campos de metadatos definidos por el usuario
 
-Los metadatos describen e identifican un archivo. Se utiliza para buscar y organizar recursos. Puede crear ajustes preestablecidos de metadatos para asegurarse de introducir los metadatos correctamente y de que se rellenan todos los campos de metadatos que requieran datos. Un ajuste preestablecido de metadatos es un conjunto predefinido de entradas de metadatos. También se pueden crear campos de metadatos que describan de forma exclusiva los archivos con los que se trabaja. 
+Los metadatos describen e identifican un archivo. Se utiliza para buscar y organizar recursos. Puede crear ajustes preestablecidos de metadatos para asegurarse de introducir los metadatos correctamente y de que se rellenan todos los campos de metadatos que requieran datos. Un ajuste preestablecido de metadatos es un conjunto predefinido de entradas de metadatos. También se pueden crear campos de metadatos que describan de forma exclusiva los archivos con los que se trabaja.
 
 Consulte [Uso eficaz de los metadatos](making-efficient-metadata.md#making_more_efficient_use_of_metadata).
 

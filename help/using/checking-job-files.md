@@ -10,10 +10,16 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: bb229047c0c9b3855453ea15dcd1f9754bc65cef
+autotag-review: '2026-05-13T17:39:54.763Z'
+TQID: 'https://experienceleague.adobe.com/eXBA0XV6xC3vgJ7eqqnDwnx0dThxnALmVrOo58jd-wc'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '1633'
-ht-degree: 23%
+source-wordcount: 1643
+ht-degree: 21%
 
 ---
 
@@ -117,13 +123,13 @@ En esta tabla se muestran los períodos temporales, los valores permitidos y los
 
 | Períodos temporales | Valores permitidos | Comentarios | Comodines admitidos |
 |--- |--- |--- |--- |
-| Segundos | 0 a 59 |  | `,: * /` |
-| Minutos | 0 a 59 |  | `,: * /` |
-| Horas | 0 a 23 | Tenga en cuenta que se utiliza un reloj de 24 horas. | `,: * /` |
-| Día del mes | 1 a 31 | No se puede especificar un valor numérico tanto para &quot;día del mes&quot; como para &quot;día de la semana&quot;. Uno de estos campos debe utilizar un carácter comodín `?`. | `,: * / ? L C` |
-| Mes | 1 a 12 o ene, feb, mar, abr, may, jun, jul, ago, sep, oct, nov, dic | Los valores distinguen entre mayúsculas y minúsculas. | `,: * /` |
+| Segundos | 0-59 |  | `,: * /` |
+| Minutos | 0-59 |  | `,: * /` |
+| Horas | 0-23 | Tenga en cuenta que se utiliza un reloj de 24 horas. | `,: * /` |
+| Día del mes | 1-31 | No se puede especificar un valor numérico tanto para &quot;día del mes&quot; como para &quot;día de la semana&quot;. Uno de estos campos debe utilizar un carácter comodín `?`. | `,: * / ? L C` |
+| Mes | 1-12 o enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, septiembre, octubre, noviembre, diciembre | Los valores distinguen entre mayúsculas y minúsculas. | `,: * /` |
 | Día de la semana | lun, mar, mié, jue, vie, sáb, dom | Los valores distinguen entre mayúsculas y minúsculas. No se puede especificar un valor numérico tanto para &quot;día del mes&quot; como para &quot;día de la semana&quot;. Uno de estos campos debe utilizar un carácter comodín `?`. | `,: * / ? L C #` |
-| Año (opcional) | Vacío o de 1970 a 2099 |  | `,: * /` |
+| Año (opcional) | Vacío o 1970-2099 |  | `,: * /` |
 
 
 En esta tabla se muestran los caracteres comodín que se admiten en el cuadro Regla y cómo se utilizan estos caracteres:

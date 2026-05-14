@@ -10,9 +10,14 @@ role: User
 topic: Content Management
 level: Beginner
 exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+autotag-review: '2026-05-13T20:09:57.533Z'
+TQID: 'https://experienceleague.adobe.com/VGp4OQ03iRiobXKWuUERNtFwUMQ4z7a19wyOgHWuv3w'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: 926
 ht-degree: 7%
 
 ---
@@ -47,7 +52,7 @@ El ajuste preestablecido de imagen que cree se añadirá al menú Ajuste preesta
 
 ## &#x200B;3. Previsualizar ajustes preestablecidos de imagen
 
-El siguiente paso consiste en obtener una vista previa de los ajustes preestablecidos creados por el administrador en diferentes tamaños. 
+El siguiente paso consiste en obtener una vista previa de los ajustes preestablecidos creados por el administrador en diferentes tamaños.
 
 Para explorar los ajustes preestablecidos de imagen, en la barra de navegación global, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Ajustes preestablecidos de imagen]** y, a continuación, busque un ajuste preestablecido de imagen.
 
@@ -55,7 +60,7 @@ Experimente con los diversos ajustes. Descubra cómo aparece la imagen cuando se
 
 Consulte [Previsualizar un recurso de imagen en función de su ajuste preestablecido de imagen](previewing-asset.md#previewing_an_image_asset_based_on_its_image_preset).
 
-## &#x200B;4. Publicar las imágenes principales
+## &#x200B;4. Publicación de las imágenes principales
 
 La publicación de los archivos de imagen principales tiene dos propósitos esenciales:
 
@@ -64,7 +69,7 @@ La publicación de los archivos de imagen principales tiene dos propósitos esen
 
 En la barra de navegación global, seleccione **[!UICONTROL Publicar]** para iniciar un trabajo de publicación. En el cuadro de diálogo Publicación, seleccione **[!UICONTROL Enviar publicación]**. Ver [Publicar imágenes principales](publishing-master-images.md#publishing_master_images).
 
-## &#x200B;5. Vincular URL a la aplicación web
+## &#x200B;5. Vinculación de URL en la aplicación web
 
 Adobe Dynamic Media Classic crea cadenas de llamada de URL para las imágenes. Cuando publica imágenes en servidores de imágenes de Dynamic Media, las direcciones URL se activan. Puede copiar estas cadenas de URL desde el panel Examinar (en la vista de detalles) o la pantalla Vista previa. Una vez copiadas las cadenas URL, puede utilizarlas en su sitio Web y en las aplicaciones. La dirección URL para Ajustar el tamaño de la imagen reemplaza la referencia a un nombre de imagen estático en el código de la página web. La URL hace referencia a un nombre de imagen principal que la base de datos sustituye para cada nueva imagen que se va a mostrar.
 
