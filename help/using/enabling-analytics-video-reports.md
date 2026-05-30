@@ -40,7 +40,7 @@ Con los informes de vídeo basados en Adobe Analytics Heartbeat, ya no es necesa
 
 * La integración de informes de vídeo de Adobe Analytics con Adobe Dynamic Media Classic admite variables de solución, pero no variables personalizadas.
 
-  Consulte [Parámetros de audio y vídeo](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters) para obtener más información sobre las variables de solución y las variables personalizadas.
+  Consulte [Parámetros de audio y vídeo](https://experienceleague.adobe.com/es/docs/media-analytics/using/implementation/variables/audio-video-parameters) para obtener más información sobre las variables de solución y las variables personalizadas.
 
 * Se admiten segmentos listos para usar de incrementos de un minuto. Sin embargo, no se admiten los informes de segmentos personalizados, como los hitos definidos por el cliente en función de incrementos de tiempo, hitos de % o hitos de desplazamiento.
 
