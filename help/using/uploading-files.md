@@ -11,20 +11,14 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:16:48.480Z'
 TQID: 'https://experienceleague.adobe.com/GHFAnTWOGJjh5T5swbhJLj9-3iAOP7Ne5MQRObGPubI'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: f6be3a8f58b37185e171449f5abdd755c3cee042
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: e52a31a700f7b319f0fe3aee836687771bf5618c
 workflow-type: tm+mt
-source-wordcount: 3681
-ht-degree: 21%
+source-wordcount: 3571
+ht-degree: 22%
 
 ---
 
@@ -38,7 +32,7 @@ Antes de cargar recursos en Adobe Dynamic Media Classic, asegúrese de que tenga
 
 ### Formatos de archivo de recurso admitidos {#supported-asset-file-formats}
 
-En esta tabla se enumeran los formatos de archivo de recursos compatibles con Adobe Dynamic Media Classic. Para obtener información acerca de los archivos Camera Raw compatibles, consulte [https://helpx.adobe.com/es/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/es/camera-raw/using/supported-cameras.html).
+En esta tabla se enumeran los formatos de archivo de recursos compatibles con Adobe Dynamic Media Classic. Para obtener información acerca de los archivos Camera Raw compatibles, consulte [https://helpx.adobe.com/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/camera-raw/using/supported-cameras.html).
 
 | Formatos de archivo de recurso | Descripción |
 | --- | --- |
@@ -158,18 +152,6 @@ El método de asignación de nombres a carpetas y la estructura que elija para a
 **Basadas en proyectos**: las carpetas están organizadas según la fecha de despliegue o de colocación, o el nombre del proyecto. Es el método favorito de los clientes que producen principalmente catálogos electrónicos.
 
 **Espejo de la jerarquía de carpetas del sitio web**: Esta estructura de carpetas refleja la estructura de carpetas del sitio web, con las carpetas denominadas, por ejemplo, para las categorías de productos.
-
-### Seguridad FTP {#about-ftp-security}
-
-Dynamic Media Classic aplica las siguientes políticas de seguridad para el acceso a FTP:
-
-| Política de seguridad | Descripción |
-| --- | --- |
-| Aislamiento del usuario | Cada usuario de FTP está restringido a su propio directorio y no puede acceder a directorios que pertenezcan a otros usuarios. |
-| Cuentas únicas | Cada usuario o integración de FTP requiere una cuenta de FTP específica. No se permiten las cuentas compartidas. Ver [Administrar cuentas de FTP](/help/using/ftp-accounts.md). |
-| Líneas bases de configuración | Las configuraciones del servidor FTP cumplen con las líneas de base de seguridad establecidas. |
-| Auditoría en curso | La aplicación del servidor FTP y el sistema operativo subyacente se auditan y supervisan regularmente para detectar vulnerabilidades de seguridad y se actualizan según sea necesario. |
-| Proteger FTP para *nuevos* clientes | Los nuevos clientes se aprovisionan con FTP seguro. El acceso FTP heredado sigue estando disponible para *los clientes existentes*. |
 
 ## Acerca de la carga {#uploading-your-files}
 
