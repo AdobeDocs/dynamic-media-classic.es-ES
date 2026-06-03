@@ -21,10 +21,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: f6be3a8f58b37185e171449f5abdd755c3cee042
+source-git-commit: e52a31a700f7b319f0fe3aee836687771bf5618c
 workflow-type: tm+mt
-source-wordcount: 3681
-ht-degree: 21%
+source-wordcount: 3571
+ht-degree: 22%
 
 ---
 
@@ -158,18 +158,6 @@ El método de asignación de nombres a carpetas y la estructura que elija para a
 **Basadas en proyectos**: las carpetas están organizadas según la fecha de despliegue o de colocación, o el nombre del proyecto. Es el método favorito de los clientes que producen principalmente catálogos electrónicos.
 
 **Espejo de la jerarquía de carpetas del sitio web**: Esta estructura de carpetas refleja la estructura de carpetas del sitio web, con las carpetas denominadas, por ejemplo, para las categorías de productos.
-
-### Seguridad FTP {#about-ftp-security}
-
-Dynamic Media Classic aplica las siguientes políticas de seguridad para el acceso a FTP:
-
-| Política de seguridad | Descripción |
-| --- | --- |
-| Aislamiento del usuario | Cada usuario de FTP está restringido a su propio directorio y no puede acceder a directorios que pertenezcan a otros usuarios. |
-| Cuentas únicas | Cada usuario o integración de FTP requiere una cuenta de FTP específica. No se permiten las cuentas compartidas. Ver [Administrar cuentas de FTP](/help/using/ftp-accounts.md). |
-| Líneas bases de configuración | Las configuraciones del servidor FTP cumplen con las líneas de base de seguridad establecidas. |
-| Auditoría en curso | La aplicación del servidor FTP y el sistema operativo subyacente se auditan y supervisan regularmente para detectar vulnerabilidades de seguridad y se actualizan según sea necesario. |
-| Proteger FTP para *nuevos* clientes | Los nuevos clientes se aprovisionan con FTP seguro. El acceso FTP heredado sigue estando disponible para *los clientes existentes*. |
 
 ## Acerca de la carga {#uploading-your-files}
 
