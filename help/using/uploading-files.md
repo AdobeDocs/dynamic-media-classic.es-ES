@@ -11,19 +11,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:16:48.480Z'
 TQID: 'https://experienceleague.adobe.com/GHFAnTWOGJjh5T5swbhJLj9-3iAOP7Ne5MQRObGPubI'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 788c18da7c6dc10ecdfbaec06710ded784559f82
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: e1fd972b1f1cb575295c8dbc79443693cacccdff
 workflow-type: tm+mt
-source-wordcount: 3570
+source-wordcount: 3571
 ht-degree: 22%
 
 ---
@@ -38,7 +32,7 @@ Antes de cargar recursos en Adobe Dynamic Media Classic, asegúrese de que tenga
 
 ### Formatos de archivo de recurso admitidos {#supported-asset-file-formats}
 
-En esta tabla se enumeran los formatos de archivo de recursos compatibles con Adobe Dynamic Media Classic. Para obtener información acerca de los archivos Camera Raw compatibles, consulte [https://helpx.adobe.com/es/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/es/camera-raw/using/supported-cameras.html).
+En esta tabla se enumeran los formatos de archivo de recursos compatibles con Adobe Dynamic Media Classic. Para obtener información acerca de los archivos Camera Raw compatibles, consulte [https://helpx.adobe.com/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/camera-raw/using/supported-cameras.html).
 
 | Formatos de archivo de recurso | Descripción |
 | --- | --- |
@@ -167,11 +161,11 @@ Adobe Dynamic Media Classic le envía un mensaje de correo electrónico para con
 
 Durante (o inmediatamente después) un trabajo de carga grande, es posible que algunos elementos nuevos muestren el mensaje &quot;Imagen aún no optimizada&quot;. Este mensaje aparece porque los archivos aún no se han procesado completamente y no se han agregado a Adobe Dynamic Media Classic. Puede optimizar estos archivos posteriormente. Ver [Optimizar archivos](application-setup.md#optimize_files).
 
-### Seguridad FTP {#about-ftp-security}
+### Seguridad FTP {#ftp-security}
 
 Dynamic Media Classic aplica las siguientes políticas de seguridad para el acceso a FTP:
 
-| Política | Descripción |
+| Política de seguridad | Descripción |
 | --- | --- |
 | Aislamiento del usuario | Cada usuario de FTP está restringido a su propio directorio y no puede acceder a directorios que pertenezcan a otros usuarios. |
 | Cuentas únicas | Cada usuario o integración de FTP requiere una cuenta de FTP específica. No se permiten las cuentas compartidas. Ver [Administrar cuentas de FTP](/help/using/ftp-accounts.md). |
