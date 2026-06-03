@@ -4,9 +4,9 @@ product: adobe dynamic media classic
 audience: end-user
 user-guide-title: Guía de Adobe Dynamic Media Classic
 breadcrumb-title: Guía de Dynamic Media Classic
-user-guide-description: Más información sobre el uso de Adobe Dynamic Media Classic
+user-guide-description: Más información sobre el uso de Adobe Dynamic Media Classic.
 index: true
-source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
+source-git-commit: 34e160beda5a4ccae31adf0d2fac0f40e5156c89
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 21%
