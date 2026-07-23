@@ -12,20 +12,14 @@ topic: Administration
 level: Intermediate
 autotag-review: '2026-05-13T17:37:47.692Z'
 TQID: 'https://experienceleague.adobe.com/77PJd-uwpdL58aZssu7Ko0fMDpa17heQ1dUUEXRhdDM'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9915c19c020d871f3241feaebbd309d639130855
 workflow-type: tm+mt
-source-wordcount: 1032
-ht-degree: 51%
+source-wordcount: 1031
+ht-degree: 49%
 
 ---
 
@@ -111,7 +105,7 @@ Cada usuario de la lista se agrega automáticamente a los grupos especificados. 
 
 ## Generación de una lista seleccionable de usuarios de Media Portal {#generating-a-selectable-list-of-media-portal-users}
 
-Puede ver los nombres y las direcciones de correo electrónico de los usuarios de Media Portal en una ventana emergente. Esta lista resulta útil para cortar y pegar nombres y direcciones de correo electrónico de usuarios y usarlos en otra aplicación distinta a Media Portal.
+Puede ver los nombres y las direcciones de correo electrónico de los usuarios de Media Portal en una ventana emergente. Esta lista es útil si desea copiar y pegar nombres de usuario y direcciones para utilizarlos fuera de Media Portal.
 
 1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de aplicación]** > **[!UICONTROL Configuración de administración]** > **[!UICONTROL Administración de usuarios]**.
 1. En la lista desplegable **[!UICONTROL Por función de usuario]**, elija el nombre de una función de usuario de Media Portal y seleccione **[!UICONTROL Actualizar]** para mostrar los nombres de una clase de usuario de Media Portal.
@@ -135,7 +129,7 @@ Puede enviar un mensaje de correo de bienvenida cuando agregue usuarios, colabor
 
 También puede realizar las siguientes tareas desde la pantalla de ajuste Administración de usuarios:
 
-* **[!UICONTROL Filtrar y ordenar la lista de usuarios]**: filtre la lista de usuarios de Media Portal para localizar a usuarios.
+* **[!UICONTROL Filtrar y ordenar la lista de usuarios]**: Para localizar usuarios, filtre la lista de usuarios de Media Portal.
 
 * **[!UICONTROL Eliminar usuarios]**: elimine un usuario de la lista.
 
