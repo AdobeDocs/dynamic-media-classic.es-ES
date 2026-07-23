@@ -11,18 +11,14 @@ topic: Administration
 level: Intermediate
 autotag-review: '2026-05-13T17:38:22.364Z'
 TQID: 'https://experienceleague.adobe.com/UbxE4vDKYB-6CsdV2d4lX2WeOMYPe9caewOQD-MBark'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 74cf44585cb4d2d62cf4b5d7894dbe7f5c5847b9
 workflow-type: tm+mt
-source-wordcount: 2004
-ht-degree: 29%
+source-wordcount: 1993
+ht-degree: 27%
 
 ---
 
@@ -72,9 +68,9 @@ Después de agregar un usuario, Adobe Dynamic Media Classic le envía un mensaje
 
    A todos los usuarios nuevos se les asigna una contraseña generada aleatoriamente; los usuarios deben cambiar la contraseña la primera vez que inicien sesión en la aplicación de escritorio de Adobe Dynamic Media Classic.
 
-   Los nuevos usuarios reciben un correo electrónico de bienvenida una vez que se han agregado al sistema. El mensaje de correo electrónico proporciona una contraseña temporal y explica cómo iniciar sesión en Adobe Dynamic Media Classic.
+   Los nuevos usuarios reciben un correo electrónico de bienvenida después de agregarlos. El correo electrónico proporciona una contraseña temporal y explica cómo iniciar sesión en Adobe Dynamic Media Classic.
 
-   Si el usuario no recibe el correo electrónico de bienvenida, pídale que vaya a la página de inicio de sesión de Adobe Dynamic Media Classic (https://s7sps1.scene7.com) y seleccione **[!UICONTROL Olvidé mi contraseña]**. La contraseña se restablece y se envía un nuevo mensaje de correo electrónico. Si el usuario no recibe el correo electrónico y no se encuentra en su carpeta de correo no deseado, póngase en contacto con el servicio de asistencia técnica.
+   Si el usuario no recibe el correo electrónico de bienvenida, pídale que vaya a la página de inicio de sesión de Adobe Dynamic Media Classic (https://s7sps1.scene7.com) y seleccione **[!UICONTROL Olvidé mi contraseña]**. La contraseña se restablece y se envía un nuevo mensaje de correo electrónico. Si el usuario no recibe el correo electrónico y no se encuentra en su carpeta de correo no deseado, póngase en contacto con el soporte técnico.
 
    Al agregar nuevos usuarios de Media Portal, también puede ir a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de aplicación]** > **[!UICONTROL Administración de usuarios]**, luego seleccionar **[!UICONTROL Cargar lista de usuarios]** y seleccionar un archivo .csv que no contenga más de 500 usuarios.
 
@@ -98,6 +94,8 @@ Los usuarios desactivados dejan de tener permiso para acceder a una cuenta que a
 
 La información de usuario que puede modificar depende de su función como administrador y de la función que tenga asignada el usuario cuya información se desea editar. Las opciones que aparecen atenuadas (no disponibles) no son editables.
 
+**Para editar la información de usuario:**
+
 1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de aplicación]** > **[!UICONTROL Configuración de administración]** > **[!UICONTROL Administración de usuario]**.
 1. Seleccione un usuario de la lista y luego seleccione **[!UICONTROL Editar]**.
 1. Seleccione la entrada de la tabla que muestra la empresa para la que intenta modificar los permisos o el acceso y, a continuación, seleccione **[!UICONTROL Administrar empresa]**.
@@ -115,11 +113,11 @@ Puede utilizar las siguientes técnicas de filtrado de listas de usuarios:
 
 * **Filtrar por función de usuario**: seleccione el menú **[!UICONTROL Por función de usuario]** y elija una opción para reducir la lista a usuarios o administradores de diferentes tipos.
 
-* **Filtrar por nombre de campo**: Seleccione **[!UICONTROL Habilitar filtro por campo]**. A continuación, seleccione el menú **[!UICONTROL Por nombre de campo]**, elija una columna para filtrar la lista, seleccione el menú Carácter de filtro y elija una carta. La lista se filtra en una de las columnas mediante la letra que elija. Para ver la lista completa, deseleccione la opción **`Enable Filter By Field`**.
+* **Filtrar por nombre de campo**: Seleccione **[!UICONTROL Habilitar filtro por campo]**. A continuación, seleccione el menú **[!UICONTROL Por nombre de campo]**, elija una columna para filtrar la lista, seleccione el menú Carácter de filtro y elija una carta. La carta que ha elegido filtra la lista en una de las columnas. Para ver la lista completa, deseleccione la opción **`Enable Filter By Field`**.
 
 * **Filtrar usuarios no válidos**: Anule la selección de **[!UICONTROL Incluir no válido]**. En los resultados de búsqueda aparecerán solo los usuarios que están en el sistema. Se han eliminado usuarios no válidos del sistema y de las cuentas que administra.
 
-* **Ordenar por encabezado de columna**: seleccione un encabezado para ordenar a todos los usuarios por su estado, alfabéticamente por nombre, apellido o correo electrónico. O bien, ordene por función de usuario o por estado válido o no válido.
+* **Ordenar por encabezado de columna**: seleccione un encabezado para ordenar todos los usuarios por estado, nombre, apellidos o correo electrónico. O bien, ordene por función de usuario o por estado válido/no válido.
 
 Si tiene muchos usuarios, puede limitar el tamaño de la lista seleccionando un número en el menú Tamaño máximo de lista.
 
@@ -199,19 +197,19 @@ Siga estos pasos para generar un informe de ancho de banda, almacenamiento, cont
 
    Consulte [Tipos de informes](administration-setup.md#types_of_reports).
 
-### Vista de datos de diferentes maneras {#viewing-data-in-different-ways}
+### Configuración de opciones de visualización de datos {#viewing-data-in-different-ways}
 
 Después de generar un informe en la página Ancho de banda y almacenamiento, puede elegir opciones para ver la información. Puede elegir cómo se presenta la información, ver la información en un diagrama o en una cuadrícula de datos, así como especificar un período de tiempo para la recopilación de información. En la vista Datos, también puede ordenar la información y reorganizar las columnas.
 
 * **Ver datos en un gráfico o cuadrícula de datos**: seleccione **[!UICONTROL Vista de gráfico]** para ver los datos en un gráfico; seleccione **[!UICONTROL Vista de datos]** para ver los datos en una cuadrícula de datos.
 
-* **Elija un tipo de presentación de informe**: en el menú Tipo de informe, seleccione **[!UICONTROL Resumen]**, **[!UICONTROL Diario]** o **[!UICONTROL Mensual]** para organizar los datos en forma de resumen, por día o por mes. No todos los informes ofrecen esta opción.
+* **Elija un tipo de presentación de informe**: en el menú Tipo de informe, seleccione **[!UICONTROL Resumen]**, **[!UICONTROL Diario]** o **[!UICONTROL Mensual]** para organizar los datos por resumen, día o mes. No todos los informes ofrecen esta opción.
 
 * **Especifique un período de tiempo**: elija opciones para definir un período de tiempo para el informe y, a continuación, seleccione **[!UICONTROL Actualizar]** después de definir un período de tiempo:
 
 * **Período de tiempo predefinido**: en el menú Informe predefinido, elija una opción. Por ejemplo, elija Último mes para recopilar los datos del mes anterior.
 
-* **Período de tiempo personalizado**: en el menú Informe predefinido, seleccione **[!UICONTROL Personalizado]**. A continuación, elija una fecha en el menú **[!UICONTROL Mes de inicio]** (o **[!UICONTROL Fecha de inicio]**) y una fecha en el menú # de meses (o # o días). En el caso de informes de dominio y de contenido de vídeo, puede elegir una fecha inicial y final específica para capturar los datos del informe.
+* **Período de tiempo personalizado**: en el menú Informe predefinido, seleccione **[!UICONTROL Personalizado]**. A continuación, elija una fecha en el menú **[!UICONTROL Mes de inicio]** (o **[!UICONTROL Fecha de inicio]**) y una fecha en el menú # de meses (o # de días). En el caso de informes de dominio y de contenido de vídeo, puede elegir una fecha inicial y final específica para capturar los datos del informe.
 
 * **Ordenar datos (solo vista de datos)**: ordene información en una columna. Seleccione el encabezado de la columna. Vuelva a seleccionar para ordenar en orden descendente.
 
@@ -236,14 +234,14 @@ Los administradores de Adobe Dynamic Media Classic pueden generar informes de er
    * Para ordenar los errores por la información de encabezado, seleccione un encabezado. De manera predeterminada, los errores se ordenan, de mayor a menor, según el número de veces que aparecen.
    * Mueva el cursor sobre el campo Respuesta de un determinado error para ver el mensaje de error específico.
    * Para ver el vínculo a la imagen o a la página web de referencia, mueva el cursor sobre el campo URL o el campo Referente.
-   * Para copiar el vínculo a la imagen real, seleccione **[!UICONTROL URL de copia de URL]**. Puede pegar este vínculo en una ventana del explorador para acceder a la imagen e investigar el error.
+   * Para copiar el vínculo a la imagen real, seleccione **[!UICONTROL URL de copia de URL]**. Para ir a la imagen e investigar el error, pegue este vínculo en una ventana del explorador.
    * Para copiar el vínculo a la página web de referente, seleccione **[!UICONTROL URL de copia de referente]**.
 
 Los errores mostrados son para la empresa en la que ha iniciado sesión actualmente. Cada error incluye la siguiente información:
 
-* **ID de imagen**: ID de la imagen infractora.
+* **ID de imagen**: ID de la imagen problemática.
 
-* **Tiempo**: el intervalo de tiempo desde la primera vez que se notificó el error hasta la última vez que se notificó el error, en las últimas 24 horas.
+* **Tiempo**: El intervalo de tiempo desde la primera vez que se notificó el error hasta la última vez que se notificó el error, en las últimas 24 horas.
 
 * **Recuento**: El número de errores notificados en la imagen.
 

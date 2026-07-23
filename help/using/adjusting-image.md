@@ -12,22 +12,19 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:38:08.783Z'
 TQID: 'https://experienceleague.adobe.com/Gze3kMTnn5xWFZ4uUW-aNo5VASF2ncV7T1jvcsRadaQ'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 4280c815eca0ff8828d350afe6de877f6160e9ae
 workflow-type: tm+mt
-source-wordcount: 578
-ht-degree: 35%
+source-wordcount: 535
+ht-degree: 24%
 
 ---
 
 # Ajustar una imagen{#adjusting-an-image}
 
-Adobe Dynamic Media Classic ofrece varios comandos para ajustar el aspecto de una imagen. Puede voltear, girar, desenfocar, modificar el equilibrio de color y colorear una imagen. Al experimentar con estos comandos, puede ver sus efectos en la imagen con que trabaje.
+Adobe Dynamic Media Classic ofrece varios comandos para ajustar el aspecto de una imagen. Puede voltear, girar, desenfocar, modificar el equilibrio de color y colorear una imagen. A medida que experimenta con estos comandos, puede observar sus efectos en la imagen con la que está trabajando.
 
 Vea también [Crear un alias para una imagen](adjusting-image.md#creating_an_alias_for_an_image).
 
@@ -39,29 +36,29 @@ Vea también [Crear un alias para una imagen](adjusting-image.md#creating_an_ali
 
    * Use las opciones de Voltear para voltear una imagen horizontal o verticalmente.
    * Utilice el control deslizante **[!UICONTROL Rotador]** para girar la imagen. Puede introducir valores en el campo **[!UICONTROL Rotador]** para girar una imagen. Los valores positivos la rotan hacia la derecha; los negativos, hacia la izquierda.
-   * Use el control deslizante Desenfocar o su cuadro correspondiente para desenfocar una imagen. Cuanto más alto sea el valor, más desenfocada quedará la imagen.
+   * Use el control deslizante Desenfocar o su cuadro correspondiente para desenfocar una imagen. Los valores más altos aumentan el desenfoque de la imagen.
    * Use las opciones Contraste, Brillo, Saturación, Tono y Equilibrio de color para ajustar el color y el brillo. Estos efectos son acumulativos. Por ejemplo, los cambios en el valor Magenta/Verde se agregan a los realizados en el valor Tono.
-   * Utilice las opciones `Colorize` para colorear una imagen conservando las sombras y los resaltados. Los cambios en la opción Colorear también son acumulativos. En el menú Brillo, elija **[!UICONTROL Sin compensación]** para deshabilitar la compensación automática de brillo. Establezca el valor de contraste en 0 para conservar el rango de contraste de la imagen original, o especifique un rango de contraste con un valor superior a 0. Un valor de 100 maximiza el contraste. Los valores típicos están en el rango 30-70.
+   * Utilice las opciones `Colorize` para colorear una imagen conservando las sombras y los resaltados. Los cambios en la opción Colorear también son acumulativos. En el menú Brillo, elija **[!UICONTROL Sin compensación]** para deshabilitar la compensación automática de brillo. Para conservar el intervalo de contraste de la imagen original, establezca el valor de contraste en 0 o especifique un intervalo de contraste con un valor mayor que 0. Un valor de 100 maximiza el contraste. Los valores típicos están en el rango 30-70.
 
 1. Cuando termine de ajustar la imagen, realice una de las acciones siguientes:
 
    * Seleccione **[!UICONTROL Guardar]**.
 
-   * Para reemplazar el original de la imagen, seleccione **[!UICONTROL Guardar como]**.
+   * Para reemplazar la imagen original, seleccione **[!UICONTROL Guardar como]**.
 
      En la lista desplegable, seleccione **[!UICONTROL Reemplazar original]** y, a continuación, seleccione **[!UICONTROL Guardar]**.
 
    * Para guardar la imagen como una nueva imagen principal, seleccione **[!UICONTROL Guardar como]**.
 
      En la lista desplegable, seleccione **[!UICONTROL Guardar como nuevo elemento principal]**.
-En el cuadro de lista **[!UICONTROL Nombre de carpeta]**, seleccione la carpeta en la que desea guardar la nueva imagen principal.
-Seleccione **[!UICONTROL Guardar]**.
+     En el cuadro de lista **[!UICONTROL Nombre de carpeta]**, seleccione la carpeta en la que desea guardar la nueva imagen principal.
+     Seleccione **[!UICONTROL Guardar]**.
 
-   * Para guardar la imagen como otra vista de la imagen principal. puede crear un alias. Seleccione **[!UICONTROL Guardar como]**.
+   * Para guardar la imagen como otra vista de la imagen principal, puede crear un alias para ella. Seleccione **[!UICONTROL Guardar como]**.
 
      En la lista desplegable del cuadro de diálogo **[!UICONTROL Guardar como]**, seleccione **[!UICONTROL Guardar como otra vista de]** principal.
-En el cuadro de lista **[!UICONTROL Nombre de carpeta]**, seleccione la carpeta en la que desea guardar la nueva imagen principal.
-Seleccione **[!UICONTROL Guardar]**.
+     En el cuadro de lista **[!UICONTROL Nombre de carpeta]**, seleccione la carpeta en la que desea guardar la nueva imagen principal.
+     Seleccione **[!UICONTROL Guardar]**.
 
 ## Creación de un alias para una imagen {#creating-an-alias-for-an-image}
 
