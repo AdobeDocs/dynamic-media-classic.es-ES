@@ -1,5 +1,5 @@
 ---
-title: Acerca de la administración de recursos en Adobe Dynamic Media Classic
+title: Acerca de la administración de Assets en Adobe Dynamic Media Classic
 description: Introducción a la administración de recursos en Adobe Dynamic Media Classic
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -19,17 +19,17 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 0113d50278f9a54db3602b060f978c314b335ff9
 workflow-type: tm+mt
-source-wordcount: 171
-ht-degree: 16%
+source-wordcount: 166
+ht-degree: 7%
 
 ---
 
 # Acerca de la administración de recursos en Adobe Dynamic Media Classic {#about-managing-assets}
 
-Adobe Dynamic Media Classic ofrece la Biblioteca de recursos para administrar recursos. La biblioteca de recursos contiene las carpetas donde se almacenan los archivos de recursos. Al seleccionar una carpeta en la biblioteca de recursos, se muestra el contenido de la carpeta en el panel Examinar. Puede ver elementos en el panel Examinar en las vistas Cuadrícula, Lista o Detalle. Si desea centrarse en un solo recurso, haga doble clic en él en el panel Examinar para mostrarlo en la Vista de detalles.
+Adobe Dynamic Media Classic ofrece la Biblioteca de recursos para administrar recursos. La biblioteca de recursos contiene las carpetas donde se almacenan los archivos de recursos. Al seleccionar una carpeta en la biblioteca de recursos, se muestra el contenido de la carpeta en el panel Examinar. Puede ver los elementos en el panel Examinar mediante las vistas Cuadrícula, Lista o Detalle. Si desea centrarse en un solo recurso, haga doble clic en él en el panel Examinar para mostrarlo en la Vista de detalles.
 
-El panel Examinar ofrece herramientas para ver, seleccionar y localizar. El panel también ofrece la opción de previsualizar, mover, cambiar el nombre y eliminar recursos. Los recursos que se eliminan se colocan en la carpeta Papelera y se pueden recuperar.
+El panel Examinar ofrece herramientas para ver, seleccionar y localizar. El panel también ofrece funciones de vista previa, movimiento, cambio de nombre y eliminación de recursos. Assets que elimine se colocará en la carpeta Elementos eliminados; puede recuperar los recursos de esta carpeta.
 
-Si desea examinar o trabajar con un recurso, ábralo en la Vista de detalles. Puede grabar metadatos en la Vista de detalles para que sea más fácil localizar y trabajar con un recurso.
+Para ver o administrar un recurso, ábralo en la Vista de detalles. Para facilitar la localización y el trabajo con un recurso, puede agregar metadatos en la Vista de detalles.
