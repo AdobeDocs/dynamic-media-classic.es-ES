@@ -11,24 +11,20 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:36:57.321Z'
 TQID: 'https://experienceleague.adobe.com/wFvWrYRUlCvHwaZFcCcHVDS3ApzUEX2AkFD3EovQJ1g'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: fb3cf42c8b9b0b90e2378beedce15a20c086f1a9
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: d916bcffc88b88a6cefec53fb7775c7a1eb78910
 workflow-type: tm+mt
-source-wordcount: 730
-ht-degree: 15%
+source-wordcount: 716
+ht-degree: 7%
 
 ---
 
 # Agregar subtítulos a vídeo {#add-captions-to-video}
 
-Amplíe el alcance de sus vídeos a los mercados internacionales. Puede hacerlo añadiendo subtítulos a vídeos únicos o conjuntos de vídeos adaptables. Con los rótulos, evita tener que doblar el audio o la necesidad de utilizar hablantes nativos para volver a grabar el audio en idiomas diferentes. El vídeo se reproduce en el idioma en el que se ha grabado. Los subtítulos en lengua extranjera aparecen para que las personas de distintos idiomas puedan entender la parte de audio.
+Ponga sus vídeos a disposición de los mercados internacionales. Puede hacerlo añadiendo subtítulos a vídeos únicos o conjuntos de vídeos adaptables. Al agregar subtítulos se evita la necesidad de doblar el audio, o la necesidad de utilizar intérpretes de voz nativos para grabar el audio en cada idioma. El vídeo se reproduce en su idioma original. Los subtítulos traducidos aparecen para que personas de diferentes idiomas puedan entender la parte del audio.
 
 Los subtítulos también permiten una mayor accesibilidad gracias al uso de rótulos cerrados para personas con discapacidad auditiva.
 
@@ -46,9 +42,9 @@ Consulte [Agregar o editar un ajuste preestablecido de visualizador de vídeo](p
 
 Consulte también [Agregar y editar ajustes preestablecidos de visor](application-setup.md#adding_and_editing_viewer_presets).
 
-Adobe Dynamic Media Classic puede convertir archivos de rótulo al formato JSON (JavaScript Object Notation). Esta conversión significa que puede incrustar el texto JSON en una página web como una transcripción oculta pero completa del vídeo. Los motores de búsqueda pueden rastrear e indexar el contenido para que los vídeos sean más fáciles de descubrir y dar a los clientes más detalles sobre el contenido del vídeo.
+Adobe Dynamic Media Classic puede convertir archivos de rótulo al formato JSON (JavaScript Object Notation). Esta conversión le permite incrustar el texto JSON en una página web como una transcripción oculta pero completa del vídeo. Los motores de búsqueda pueden rastrear e indexar el contenido para que los vídeos sean más fáciles de descubrir y dar a los clientes más detalles sobre el contenido del vídeo.
 
-Consulte [Proporcionar contenido estático (que no es de imagen)](https://experienceleague.adobe.com/es/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) en para obtener más información sobre el uso de la función JSON en una dirección URL.
+Consulte [Proporcionar contenido estático (que no es de imagen)](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) para obtener más información sobre el uso de la función JSON en una dirección URL.
 
 **Para agregar subtítulos a un vídeo:**
 
@@ -66,15 +62,15 @@ Consulte [Proporcionar contenido estático (que no es de imagen)](https://experi
 1. En el panel Examinar recursos, seleccione un solo recurso de vídeo y, debajo de la imagen en miniatura del recurso, seleccione **[!UICONTROL Vista previa]** > **[!UICONTROL Lista de visualizadores]**.
 1. En la tabla Lista de visores, busque el visor de HTML5 denominado **Universal_HTML5_Video**, **Universal_HTML5_MixedMedia_oscuro** o **Universal_HTML5_MixedMedia_light** y, a continuación, siga uno de estos procedimientos:
 
-   * Para obtener una experiencia de visor de vídeo emergente, seleccione **[!UICONTROL Copiar URL]** en el extremo derecho del nombre.
+   * Para obtener una experiencia de visor de vídeo emergente, seleccione **[!UICONTROL Copiar URL]** a la derecha del nombre.
 
-     Anexe la URL copiada del vídeo con la siguiente sintaxis para que pueda asociarla con la URL copiada al archivo de rótulo:
+     Anexe la siguiente sintaxis a la URL copiada del vídeo para que pueda asociarla al archivo de rótulo:
 
      `&caption=<full Copy URL path to the caption file .vtt>,1`
 
      Observe `,1` al final de la ruta de acceso de la dirección URL de rótulo. Inmediatamente después de la extensión de nombre de archivo VTT en la ruta, opcionalmente puede habilitar o deshabilitar el botón de subtítulos opcionales en la barra del reproductor de vídeo estableciendo en `1` o `0`, respectivamente.
 
-   * Para disfrutar de una experiencia de visor de vídeo integrada, seleccione **[!UICONTROL Código incrustado]** en el extremo derecho del nombre.
+   * Para disfrutar de una experiencia de visor de vídeo integrada, seleccione **[!UICONTROL Código incrustado]** a la derecha del nombre.
 
      En el cuadro de diálogo Código incrustado, seleccione **[!UICONTROL Copiar al Portapapeles]**.
 
