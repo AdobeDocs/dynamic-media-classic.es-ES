@@ -12,19 +12,14 @@ topic: Integrations, Development
 level: Experienced
 autotag-review: '2026-05-13T17:43:46.184Z'
 TQID: 'https://experienceleague.adobe.com/wNCmgUez4XtC2sJFmMQvlsczy2r-TxFsDXzrzACGNXc'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 948a71b794caa0297a73e6ad689ab752b86edbf0
 workflow-type: tm+mt
-source-wordcount: 990
-ht-degree: 31%
+source-wordcount: 995
+ht-degree: 27%
 
 ---
 
@@ -57,22 +52,22 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
      >
      >Para ver los elementos de la biblioteca de recursos por su nombre en lugar de ver las miniaturas, seleccione la opción Nombre en la vista de biblioteca de recursos predeterminada en Ajustes personales.
 
-1. Seleccione la presentación general que tendrá el catálogo electrónico. Seleccione **[!UICONTROL 1 Up]** para páginas individuales, **[!UICONTROL 2 Up]** para pliegos de dos páginas o **[!UICONTROL Custom]** para pliegos de más de dos páginas. En el cuadro de diálogo **[!UICONTROL Cambiar diseño de catálogo electrónico]**, seleccione las opciones **[!UICONTROL Todas las distribuciones]** y seleccione **[!UICONTROL Aceptar]**.
-1. Si lo desea, puede cambiar el diseño de páginas o pliegos de páginas individuales seleccionándolos y eligiendo el botón **[!UICONTROL 1 arriba]**, **[!UICONTROL 2 arriba]** o **[!UICONTROL personalizado]**. En el cuadro de diálogo **[!UICONTROL Cambiar diseño de catálogo electrónico]**, seleccione las opciones **[!UICONTROL Distribuciones seleccionadas]** y seleccione **[!UICONTROL Aceptar]**.
+1. Seleccione la presentación general que tendrá el catálogo electrónico. Seleccione **[!UICONTROL 1 Up]** para páginas individuales, **[!UICONTROL 2 Up]** para pliegos de dos páginas o **[!UICONTROL Custom]** para pliegos de más de dos páginas. En el cuadro de diálogo **[!UICONTROL Cambiar diseño de catálogo electrónico]**, seleccione la opción **[!UICONTROL Todas las distribuciones]** y seleccione **[!UICONTROL Aceptar]**.
+1. Si lo desea, puede cambiar el diseño de páginas o pliegos de páginas individuales seleccionándolos y eligiendo el botón **[!UICONTROL 1 arriba]**, **[!UICONTROL 2 arriba]** o **[!UICONTROL personalizado]**. En el cuadro de diálogo **[!UICONTROL Cambiar diseño de catálogo electrónico]**, seleccione la opción **[!UICONTROL Distribuciones seleccionadas]** y seleccione **[!UICONTROL Aceptar]**.
 1. Reordene las páginas según sea necesario con una de estas técnicas:
 
-   * **Arrastrando**: arrastre una página o un pliego de páginas a una nueva ubicación. La barra vertical muestra el lugar al que se ha movido la página.
+   * **Arrastrando**: arrastre una página o un pliego de páginas a una nueva ubicación. La barra vertical indica la posición a la que se mueve la página.
 
    * **Botón Mover a**: seleccione una página o un pliego de páginas, seleccione **[!UICONTROL Mover a]** y elija la página del menú antes de la cual desea que aparezca la página.
 
-   * **Secuencia #**: en la vista de lista, escriba números de página en los campos de Secuencia #.
+   * **Secuencia #**: en la vista de lista, escriba números de página en los campos Secuencia #.
 
 1. Cuando termine, cerca de la esquina inferior derecha de la página, asegúrese de que **[!UICONTROL Publicar después de guardar]** está seleccionado (predeterminado).
 1. Seleccione **[!UICONTROL Guardar]**.
-1. En el cuadro de diálogo Guardar, seleccione la carpeta en la que desee almacenar el catálogo electrónico. En el campo Nombre de archivo, introduzca el nombre del conjunto de giros.
+1. En el cuadro de diálogo Guardar, seleccione la carpeta en la que desee almacenar el catálogo electrónico. En el campo Nombre de archivo, introduzca el nombre del catálogo electrónico.
 1. Seleccione **[!UICONTROL Guardar]**.
 
-   Puede obtener una vista previa del catálogo electrónico, después de guardarlo, seleccionando **[!UICONTROL Vista previa]**.
+   Puede obtener una vista previa del catálogo electrónico después de guardarlo seleccionando **[!UICONTROL Vista previa]**.
 
 ## Editar un catálogo electrónico {#editing-an-ecatalog}
 
@@ -96,7 +91,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 ## Eliminar un catálogo electrónico
 
-Cuando se elimina un conjunto, el conjunto en sí se mueve a la papelera. Sin embargo, los miembros (o &quot;hijos&quot;) de ese conjunto no se ven afectados, sino que cada uno de ellos conserva su estado publicado o no publicado.
+Al eliminar un conjunto, éste se mueve a la carpeta Elementos eliminados. Los miembros de ese conjunto no se ven afectados; cada uno de ellos conserva su estado publicado o no publicado.
 
 Consulte también [Publicación manual de recursos](publishing-files.md#manually_publishing_assets) y [Cancelación manual de la publicación de recursos](publishing-files.md#manually_unpublishing_assets).
 
@@ -121,9 +116,9 @@ Introduzca manualmente los nombres de las páginas de uno en uno accediendo a la
 
 ### Importar nombres de página {#importing-page-names}
 
-Se recomienda la importación de nombres de página si se trabaja con un catálogo electrónico de muchas páginas. También puede importar los nombres de un archivo delimitado por tabuladores o XML.
+Se recomienda importar nombres de página si trabaja con un catálogo electrónico que contenga muchas páginas. También puede importar los nombres de un archivo delimitado por tabuladores o XML.
 
-La etiqueta TOC se almacena en el campo Datos de usuario de una imagen; dé formato a estos datos como una lista de `name=<value>` ` pairs separated by two question marks "??" `. Por ejemplo, para establecer una etiqueta para un campo de índice denominado `tocEN`, establezca los Datos de usuario de la imagen en:
+La etiqueta del índice se almacena en el campo Datos de usuario de una imagen; dé formato a estos datos como una lista de `name=<value>` pares separados por dos signos de interrogación &quot;??&quot;. Por ejemplo, para establecer una etiqueta para un campo de índice denominado `tocEN`, establezca los Datos de usuario de la imagen en:
 
 `tocEN=&lt;EN_page_label>`
 
