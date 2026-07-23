@@ -12,18 +12,14 @@ topic: Administration, Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:39:54.763Z'
 TQID: 'https://experienceleague.adobe.com/eXBA0XV6xC3vgJ7eqqnDwnx0dThxnALmVrOo58jd-wc'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 839735160b7123c57d176866bc4e5dd56dbf4bdc
 workflow-type: tm+mt
-source-wordcount: 1643
-ht-degree: 21%
+source-wordcount: 1656
+ht-degree: 20%
 
 ---
 
@@ -31,7 +27,7 @@ ht-degree: 21%
 
 Para monitorizar las cargas de archivos a Adobe Dynamic Media Classic y los archivos que publica en servidores de Adobe Dynamic Media Classic, Adobe Dynamic Media Classic ofrece la página Trabajos. Puede revisar, cargar y publicar trabajos en la página Trabajos, comprobar el estado de los trabajos y cancelar los trabajos de publicación desde esta página. También puede programar trabajos de carga y publicación.
 
-Cuando carga recursos, aparece un icono que gira junto al menú Trabajos que indica que el trabajo está en curso y el número de archivos que se están procesando. Puede seleccionar el icono para ver más información sobre el trabajo activo.
+Al cargar recursos, aparece un icono giratorio junto al menú Trabajos que indica que un trabajo está en curso y muestra el número de archivos en curso. Puede seleccionar el icono para ver más información sobre el trabajo activo.
 
 >[!NOTE]
 >
@@ -51,7 +47,7 @@ En la ficha Historial de la página Trabajos, los trabajos se clasifican según 
 
 * **[!UICONTROL Total]**: El número de archivos transferidos.
 
-* **[!UICONTROL W (advertencias)]**: El número de advertencias del trabajo (si las hay). Las advertencias indican los problemas sobre el trabajo que no afectan a la finalización del mismo. Normalmente, estas advertencias pueden omitirse porque se refieren a archivos ocultos. Por ejemplo, `.DS_store` archivos (Mac) y Thumbs.db (Windows®) contienen información sobre cómo mostrar archivos de imagen a los usuarios. Sin embargo, las entradas de advertencia relativas a estos archivos se pueden ignorar porque no pertenecen a cómo se utilizan estos archivos en Adobe Dynamic Media Classic. Si desea obtener información detallada sobre las advertencias, puede hacer doble clic en el nombre de trabajo.
+* **[!UICONTROL W (advertencias)]**: El número de advertencias del trabajo (si las hay). Las advertencias indican los problemas sobre el trabajo que no afectan a la finalización del mismo. Normalmente, estas advertencias pueden omitirse porque se refieren a archivos ocultos. Por ejemplo: `.DS_store` archivos (Mac) y archivos Thumbs.db (Windows®) contienen información sobre cómo mostrar archivos de imagen a los usuarios. Sin embargo, las entradas de advertencia relativas a estos archivos se pueden ignorar porque no pertenecen a cómo se utilizan estos archivos en Adobe Dynamic Media Classic. Si desea obtener información detallada sobre las advertencias, puede hacer doble clic en el nombre de trabajo.
 
 * **[!UICONTROL E (errores)]**: Enumera el número de errores en el trabajo (si los hay). Si desea obtener información detallada sobre los errores, puede hacer doble clic en el nombre de trabajo.
 
@@ -91,7 +87,7 @@ Puede copiar esta información en el portapapeles.
 
 ## Gestión de trabajos recurrentes de carga y publicación {#handling-recurring-upload-and-publish-jobs}
 
-Los trabajos de carga y publicación recurrentes que se crean en las páginas Cargar y Publicar se muestran en la pestaña Programado de la página Trabajos. Desde esta ficha, puede editar y eliminar los trabajos recurrentes.
+Los trabajos recurrentes de carga y publicación que se crean en las páginas de carga y publicación se muestran en la ficha Programados de la página Trabajos. Desde esta ficha, puede editar y eliminar los trabajos recurrentes.
 
 Seleccione el botón Trabajos en la barra de navegación global y, en la página Trabajos, seleccione la pestaña **[!UICONTROL Programados]** para poder editar y eliminar los trabajos recurrentes.
 
@@ -152,18 +148,18 @@ En esta tabla se muestran los caracteres comodín que se admiten en el cuadro Re
 En esta lista se pueden ver ejemplos de cómo se describen los intervalos de tiempo en el cuadro Regla:
 
 * `0 0 12 * * ?` : mediodía todos los días
-* `0 15 10 ? * *`: 10:15 am todos los días
-* `0 0/5 14 * * ?`: cada 5 minutos entre las 2:00 y las 2:55 de la tarde todos los días
-* `0 0/5 14,18 * * ?` : Cada 5 minutos entre las 2:00 y las 2:55 de la tarde todos los días y cada 5 minutos entre las 6:00 y las 6:55 de la tarde todos los días
-* `0 10,44 14 ? 3` : miércoles a las 2:10 pm y 2:44 pm todos los miércoles de marzo
-* `0 15 10 ? *` : lunes a viernes a las 10:15 a.m. todos los días de la semana
-* `0 15 10 20 * ?` : a las 10:15 del día 20 de cada mes
+* `0 15 10 ? * *` : 10:15 a.m. todos los días
+* `0 0/5 14 * * ?`: cada 5 minutos entre las 2:00 y las 2:55 p.m. todos los días
+* `0 0/5 14,18 * * ?` : Cada 5 minutos entre las 2:00 y las 2:55 pm todos los días y cada 5 minutos entre las 6:00 y las 6:55 pm todos los días
+* `0 10,44 14 ? 3` : Miércoles a las 2:10 pm y 2:44 pm todos los miércoles en marzo
+* `0 15 10 ? *`: lunes a viernes a las 10:15 todos los días de la semana
+* `0 15 10 20 * ?` : a las 10:15 a.m. del día 20 de cada mes
 * `0 15 10 L * ?` : a las 10:15 a.m. del último día de cada mes
 * `0 15 10 ? * 6L` : a las 10:15 a.m. del último viernes de cada mes
 * `0 15 10 * * 6#3` : a las 10:15 a.m. del tercer viernes de cada mes
 
 ## Uso de un trabajo de carga o publicación como déclencheur {#using-an-upload-or-publish-job-as-a-trigger}
 
-Al cargar recursos a través de FTP o ejecutar un trabajo de publicación, puede programar un trabajo posterior para que comience cuando se complete la carga. (Si hay otros trabajos programados para empezar, el trabajo que programa aquí se pone en cola detrás de ellos). El nuevo trabajo envía una notificación a la dirección especificada para que se pueda activar el código en esa ubicación. Este trabajo de carga que sigue recibe el mismo nombre que el trabajo de carga actual, pero se le añade el prefijo _Pub.
+Al cargar recursos a través de FTP o ejecutar un trabajo de publicación, puede programar un trabajo posterior para que comience cuando se complete la carga. (Si hay otros trabajos programados para empezar, el trabajo que programa aquí se pone en cola detrás de ellos). El nuevo trabajo envía una notificación a la dirección especificada para que se pueda activar el código en esa ubicación. A este trabajo de carga de seguimiento se le asigna el mismo nombre que al trabajo de carga actual, pero con el prefijo `_Pub`.
 
 Para hacer que un trabajo de carga o publicación déclencheur otro trabajo, seleccione **[!UICONTROL Avanzado]** en la página Cargar o Publicar. A continuación, introduzca la URL en el campo de texto Notificación http.
