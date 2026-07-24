@@ -20,22 +20,22 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: fb3cf42c8b9b0b90e2378beedce15a20c086f1a9
 workflow-type: tm+mt
-source-wordcount: 179
-ht-degree: 33%
+source-wordcount: 173
+ht-degree: 29%
 
 ---
 
 # Acerca del contenido generado por el usuario en Adobe Dynamic Media Classic {#about-user-generated-content}
 
-El uso de UGC (contenido generado por el usuario) consiste en cargar recursos a un repositorio de almacenamiento de Adobe Dynamic Media Classic dedicado y realizar operaciones relacionadas.
+UGC (contenido generado por el usuario) consiste en cargar recursos a un repositorio de almacenamiento de [!DNL Adobe Dynamic Media Classic] dedicado y realizar operaciones relacionadas.
 
 UGC admite los formatos de archivo de imagen rasterizada BMP, GIF, JPG, PNG, PSD y TIFF.
 
 >[!IMPORTANT]
 >
->A partir del 1 de mayo de 2023, los recursos UGC en Dynamic Media estarán disponibles para su uso hasta 60 días después de la fecha de carga. Después de 60 días, los recursos se eliminarán.
+>A partir del 1 de mayo de 2023, los recursos UGC en Dynamic Media seguirán estando disponibles para su uso hasta 60 días después de la fecha de carga. Después de 60 días, los recursos se eliminan.
 
 <!-- * Vector: AI, EPS (EPS files from Adobe Illustrator 2018 are not supported), PDF (only when the PDF file is previously opened and saved in Adobe Illustrator CS6) -->
 
@@ -43,7 +43,7 @@ UGC admite los formatos de archivo de imagen rasterizada BMP, GIF, JPG, PNG, PSD
 >
 >La compatibilidad con recursos de imagen vectorial UGC nuevos o existentes en Adobe Dynamic Media Classic finalizó el 30 de septiembre de 2021.
 
-Antes de cargar los recursos, es preciso obtener una clave secreta compartida. Esta clave permite recuperar un distintivo de carga. El distintivo de carga se envía al cargar recursos y al realizar otras tareas con el contenido generado por usuarios.
+Antes de cargar recursos, debe obtener una clave de secreto compartido. Esta clave permite recuperar un distintivo de carga. El distintivo de carga se envía al cargar recursos y al realizar otras tareas con el contenido generado por usuarios.
 
 Tras recuperar una clave secreta compartida y un distintivo de carga, se pueden realizar las operaciones siguientes con el contenido generado por usuarios:
 
