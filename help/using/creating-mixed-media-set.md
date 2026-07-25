@@ -17,10 +17,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 408b6136b4171af1e0e39a735fc1e56b9d6967ec
 workflow-type: tm+mt
-source-wordcount: 637
-ht-degree: 57%
+source-wordcount: 628
+ht-degree: 54%
 
 ---
 
@@ -53,7 +53,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 1. Realice una de las siguientes acciones:
 
    * Para añadir una pista de sonido, arrastre un archivo de audio de la biblioteca de recursos al cuadro Pista de sonido. La pista de sonido se reproduce mientras se muestran las imágenes. Se detiene cuando se reproduce un vídeo.
-   * Para cambiar el orden de los conjuntos, arrástrelos a nuevas ubicaciones en la pantalla Conjunto de medios mixtos. El orden de los conjuntos en la pantalla determina el orden de izquierda a derecha en que los usuarios verán los conjuntos en el visor de conjuntos de medios mixtos.
+   * Para cambiar el orden de los conjuntos, arrástrelos a nuevas ubicaciones en la pantalla Conjunto de medios mixtos. El orden de la pantalla determina el orden de izquierda a derecha en el que los usuarios ven los conjuntos en el Visor de conjuntos de medios mixtos.
    * (Opcional) Para añadir una miniatura personalizada que represente el vídeo en el visor, arrastre el archivo de imagen desde la biblioteca de recursos hasta el cuadro de posición de miniaturas.
 
 1. Cerca de la esquina inferior derecha de la página, asegúrese de que **[!UICONTROL Publicar después de guardar]** está seleccionado (predeterminado).
@@ -61,7 +61,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 1. Seleccione una carpeta para almacenar el conjunto de medios mixtos y, a continuación, introduzca un nombre para el conjunto.
 1. Seleccione **[!UICONTROL Guardar]**.
 
-   Para ver el aspecto del conjunto de imágenes combinado en un visor de conjuntos de imágenes, seleccione **[!UICONTROL Vista previa]**.
+   Para ver el aspecto del conjunto de medios mixtos en un visor de conjuntos de imágenes, seleccione **[!UICONTROL Vista previa]**.
 
 ## Edición de un conjunto de medios mixtos {#edit-a-mixed-media-set}
 
@@ -91,7 +91,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 ## Eliminar un conjunto de medios mixtos
 
-Cuando se elimina un conjunto, el conjunto en sí se mueve a la papelera. Sin embargo, los miembros (o &quot;hijos&quot;) de ese conjunto no se ven afectados, sino que cada uno de ellos conserva su estado publicado o no publicado.
+Cuando se elimina un conjunto, el conjunto en sí se mueve a la papelera. Los miembros de ese conjunto no se ven afectados; en su lugar, cada uno de ellos conserva su estado publicado o no publicado.
 
 Consulte también [Publicación manual de recursos](publishing-files.md#manually_publishing_assets) y [Cancelación manual de la publicación de recursos](publishing-files.md#manually_unpublishing_assets).
 

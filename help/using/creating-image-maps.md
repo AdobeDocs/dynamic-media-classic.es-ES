@@ -20,10 +20,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: f139091df2b0bd1018cd89c591abdde2c0f57cc0
 workflow-type: tm+mt
-source-wordcount: 2454
-ht-degree: 30%
+source-wordcount: 2431
+ht-degree: 24%
 
 ---
 
@@ -38,19 +38,19 @@ Al crear mapas de imagen, puede realizar una de las siguientes acciones:
 * Introducir texto de rollover.
 * Introduzca JavaScript y direcciones URL para iniciar páginas web.
 * Crear plantillas URL para mapas de imagen.
-* Copiar mapas de imagen en otras imágenes, páginas de catálogo electrónico o conjuntos de giro.
+* Copiar mapas de imagen en otras imágenes, páginas de catálogo electrónico o conjuntos de giros.
 * Exportar mapas de imagen a CSV o XML.
 * Importe metadatos de imagen desde un archivo delimitado por tabuladores o desde un archivo XML.
-* Defina Otras acciones según lo determinado por el World Wide Web Consortium.
+* Definir otras acciones determinadas por el consorcio World Wide Web.
 * Obtener una vista previa de mapas de imagen.
 
 ## Dibujo y ajuste de un mapa de imagen {#drawing-and-adjusting-an-image-map}
 
 1. Realice una de las acciones siguientes:
 
-   * Si está trabajando con una imagen en la vista de cuadrícula o en la vista de lista, en la lista desplegable Editar seleccione **[!UICONTROL Mapa de imágenes]**. O bien, ábralo en Vista de detalles y, a continuación, seleccione **[!UICONTROL Mapa de imagen]** encima de la imagen.
+   * Si está trabajando con una imagen en la vista de cuadrícula o de lista, seleccione **[!UICONTROL Mapa de imagen]** en la lista desplegable Editar. O bien, ábralo en Vista de detalles y, a continuación, seleccione **[!UICONTROL Mapa de imagen]** encima de la imagen.
    * Si está trabajando con un conjunto de giros en la vista de cuadrícula o vista de lista, seleccione **[!UICONTROL Editar]**. O bien, ábralo en Vista de detalles y, a continuación, seleccione **[!UICONTROL Editar]**. Seleccione un recurso de imagen y, a continuación, seleccione **[!UICONTROL Mapa de imagen]**.
-   * Si está trabajando con un catálogo electrónico, en las vistas Cuadrícula, Lista, Detalle, seleccione **[!UICONTROL Editar]**. Seleccione la ficha **[!UICONTROL Asignar páginas]**.
+   * Si está trabajando con un catálogo electrónico en la cuadrícula, lista o vista de detalles, seleccione **[!UICONTROL Editar]**. Seleccione la ficha **[!UICONTROL Asignar páginas]**.
 
    ![Ilustración de mapa de imagen](assets/ma_image_map.png)
 
@@ -78,10 +78,10 @@ Al crear mapas de imagen, puede realizar una de las siguientes acciones:
 
    * Para obtener una vista previa de los mapas de imágenes, seleccione **[!UICONTROL Vista previa]**.
    * Para eliminar un vértice de polígono o un mapa de imagen, seleccione una forma de la imagen y, a continuación, seleccione **[!UICONTROL Eliminar]**. O bien, para un catálogo electrónico, en la ficha Ordenar páginas, seleccione **[!UICONTROL Borrar mapas]** para quitar los mapas de imágenes de todas las páginas.
-   * Para eliminar un:
-      * Mapa de imagen de una imagen
-      * Crear una imagen en un conjunto de giros
-      * o una página de catálogo electrónico
+   * Para quitar cualquiera de las siguientes opciones
+     * Mapa de imagen de una imagen
+     * Crear una imagen en un conjunto de giros
+     * o una página de catálogo electrónico
 
      de forma temporal, sin eliminarla, anule la selección de la opción Activado correspondiente en la lista Mapa de imagen.
 
@@ -91,15 +91,15 @@ Al crear mapas de imagen, puede realizar una de las siguientes acciones:
 
 Para cambiar la posición, la forma y el tamaño de un mapa de imagen, seleccione el botón Mapa de imagen. A continuación, seleccione la herramienta **[!UICONTROL Panorámica]** y siga estas instrucciones:
 
-* **Cambiar posición**: mueva el puntero cerca del borde del mapa de imagen, pero no sobre él. Cuando vea el icono de flecha con cuatro puntas, arrastre el mapa a una nueva ubicación.
+* **Cambiar posición**: mueva el puntero cerca del borde del mapa de imagen, pero no sobre él. Cuando vea el icono de mover, arrastre el mapa a una nueva ubicación.
 
 * **Cambiar el tamaño y la forma**: El modo de cambiar la forma y el tamaño de un mapa de imagen depende de si está trabajando con un mapa de imagen rectangular o poligonal:
 
 >[!TIP]
 >
->Puede arrastrar el control deslizante Tamaño en la parte inferior de la pantalla para cambiar de vista y visualizar mejor el mapa de imagen.
+>Para cambiar las vistas y ver el mapa de imagen con mayor claridad, arrastre el control deslizante Tamaño en la parte inferior de la pantalla.
 
-* **Mapa de imagen rectangular**: mueva el puntero sobre un lado o esquina del Mapa de imagen. Al ver el icono de flecha con dos puntas, comience a arrastrar. Mantenga pulsada la tecla Mayús mientras arrastra para cambiar el tamaño pero mantener la relación de aspecto (la forma).
+* **Mapa de imagen rectangular**: mueva el puntero sobre un lado o esquina del Mapa de imagen. Al ver el icono de flecha con dos puntas, comience a arrastrar. Para cambiar el tamaño pero mantener la relación de aspecto (la forma), mantenga presionada la tecla Mayús mientras arrastra.
 
 * **Mapa de imagen poligonal**: arrastre un controlador de selección cuadrado. Para crear un controlador de selección, seleccione el borde del mapa de imagen y comience a arrastrar.
 
@@ -109,7 +109,7 @@ Si la imagen o la página de catálogo electrónico incluye más de un mapa de i
 
 ### Importación de datos de mapa de imagen {#importing-image-map-data}
 
-En lugar de introducir datos de mapa de imagen en cada página, puede importar los datos de su conjunto de giros o catálogo electrónico desde la pantalla Resumen de mapas. Los datos de mapa de imagen se importan como un archivo delimitado por tabuladores o DTD de XML. Los campos del archivo deben tener el orden que se muestra en la pantalla Resumen de mapas: Nombre, Etiquetas de tabla de contenido, Mapas, Direcciones URL, Texto de rollover, Otras acciones y Cadenas de búsqueda. La importación de datos de mapa de imagen evita tener que introducir los datos en la lista de mapa de imagen a medida que se crea cada mapa de imagen.
+En lugar de introducir datos de mapa de imagen en cada página, puede importar los datos de su imagen, conjunto de giros o catálogo electrónico en la pantalla Resumen de mapas. Los datos de mapa de imagen se importan como un archivo delimitado por tabuladores o DTD de XML. Los campos del archivo deben seguir el orden mostrado en la pantalla Resumen de mapas: Nombre, Etiquetas de tabla de contenido, Mapas, URL, Texto de rollover, Otras acciones y Cadenas de búsqueda. La importación de datos de mapa de imagen evita la necesidad de introducir los datos en la lista de mapa de imagen a medida que crea cada mapa de imagen.
 
 **Para importar datos de mapa de imagen:**
 
@@ -117,22 +117,22 @@ En lugar de introducir datos de mapa de imagen en cada página, puede importar l
 1. Seleccione **[!UICONTROL Importar metadatos]**.
 1. En el cuadro de diálogo Cargar metadatos, seleccione Imagen o Mapa de imagen para cargar los metadatos desde el tipo de propiedad de recurso deseado.
 1. En la lista desplegable `Generate File`, seleccione el tipo de archivo que desea crear.
-1. (Opcional) Seleccione **[!UICONTROL Generar]** para obtener una vista previa de los datos resultantes en función del tipo de archivo que desee crear. Seleccione **[!UICONTROL Cerrar]** para volver al cuadro de diálogo Cargar metadatos.
+1. (Opcional) Seleccione **[!UICONTROL Generar]**. De este modo, se obtiene una vista previa de los datos resultantes en función del tipo de archivo que desea crear. Seleccione **[!UICONTROL Cerrar]** para volver al cuadro de diálogo Cargar metadatos.
 1. Busque el archivo que desea cargar. En el campo de texto Nombre del archivo, especifique el nombre del archivo generado.
 1. (Opcional) En el campo Nombre del trabajo, especifique un nombre para el trabajo de carga de metadatos.
 1. Seleccione **[!UICONTROL Cargar]**.
 
 ### Copiar mapas de imagen {#copying-image-maps}
 
-Puede copiar mapas de imagen de una imagen o página de catálogo electrónico a otra. Use **[!UICONTROL Copiar mapa de imagen]** para empezar a crearlos. También puede copiar mapas de imagen para volver a crearlos en imágenes o páginas que compartan diseño o estructura de asignación.
+Puede copiar mapas de imagen de una imagen o página de catálogo electrónico a otra. Use **[!UICONTROL Copiar mapa de imagen]** para simplificar el proceso de creación. Para crear mapas de imagen en imágenes o páginas que comparten diseño o estructura de asignación, también puede copiarlos.
 
-Por ejemplo, copiar los mapas de imágenes en un catálogo electrónico es una forma cómoda de copiar todos los mapas de imágenes entre versiones en idiomas extranjeros del mismo catálogo electrónico. Para obtener mejores resultados, la copia es más exitosa si copia entre catálogos electrónicos con el mismo número de páginas y las mismas imágenes. Si el catálogo electrónico al que copia ya contiene mapas de imágenes, estos se eliminan cuando se realiza la copia.
+Por ejemplo, copiar los mapas de imágenes en un catálogo electrónico es una forma cómoda de copiar todos los mapas de imágenes entre versiones de idiomas diferentes del mismo catálogo electrónico. Para obtener mejores resultados, la copia es más exitosa si copia entre catálogos electrónicos con el mismo número de páginas y las mismas imágenes. Si el catálogo electrónico al que copia ya contiene mapas de imágenes, estos se eliminan cuando se realiza la copia.
 
 **Para copiar los mapas de imagen:**
 
 1. Vaya a la página del editor Mapa de imagen (para las imágenes o imágenes de los conjuntos de giros) o a la ficha Páginas de mapa de la pantalla de edición del catálogo electrónico.
 1. Seleccionar **[!UICONTROL Copiar asignaciones en]**.
-1. Realice una de las acciones siguientes, dependiendo de si está copiando los mapas de imagen desde imágenes o desde un catálogo electrónico:
+1. Realice una de las siguientes acciones, en función de si está copiando mapas de imagen de imágenes o mapas de imagen de un catálogo electrónico:
 
    * (Imágenes) En la pantalla Seleccionar imágenes, seleccione las imágenes a las que desea copiar los mapas de imagen.
    * (Catálogo electrónico) En la pantalla Seleccionar recurso, seleccione las imágenes o las páginas del catálogo electrónico a las que desea copiar los mapas de imagen.
@@ -141,21 +141,21 @@ Por ejemplo, copiar los mapas de imágenes en un catálogo electrónico es una f
 
 ## Utilice una plantilla para introducir JavaScript y direcciones URL {#using-a-template-to-enter-javascript-and-urls}
 
-Puede definir una plantilla URL (conocida también como plantilla Href) para introducir direcciones URL de mapa de imagen con mayor facilidad y eficiencia. Defina una plantilla URL si la mayoría de las URL de mapa de imagen comparten un formato común, fijo. Al introducir la parte de la URL que es fija como plantilla de URL, no tiene que introducir esta parte de la URL cada vez que cree un mapa de imagen. La plantilla URL también puede contener comandos, nombres de ruta y parámetros de JavaScript. De manera predeterminada, la plantilla de dirección URL contiene un controlador JavaScript de Adobe Dynamic Media Classic propiedad denominado `loadProduct` que abre la imagen en una nueva ventana.
+Para simplificar la introducción de direcciones URL de mapa de imagen, puede definir una plantilla URL (también conocida como plantilla Href). Defina una plantilla URL si la mayoría de las URL de mapa de imagen comparten un formato común, fijo. Al introducir la parte de la URL que es fija como plantilla de URL, no tiene que introducir esta parte de la URL cada vez que cree un mapa de imagen. La plantilla URL también puede contener comandos, nombres de ruta y parámetros de JavaScript. De manera predeterminada, la plantilla de dirección URL contiene un controlador JavaScript de Adobe Dynamic Media Classic propiedad denominado `loadProduct` que abre la imagen en una nueva ventana.
 
 >[!NOTE]
 >
->Cuando agrega el código JavaScript al atributo HREF del mapa de imágenes, el código se ejecuta en el equipo cliente. Por lo tanto, asegúrese de que el código de JavaScript sea seguro.
+>Cuando se agrega el código JavaScript al atributo HREF del mapa de imagen, el código se procesa en el equipo del usuario. Por lo tanto, asegúrese de que el código de JavaScript sea seguro.
 
 ### Acerca de las plantillas URL {#about-url-templates}
 
-La plantilla URL funciona sustituyendo el contenido de la columna URL en la lista Mapa de imágenes. Lo sustituye por los signos de dólar dobles (&#39;$$&#39;) en la plantilla:
+La plantilla URL funciona sustituyendo el contenido de la columna URL en la lista Mapa de imágenes. Los sustituye por los signos de dólar dobles ($$) de la plantilla:
 
 ```as3
 Javascript:loadProduct('$$');void(0);
 ```
 
-En la plantilla URL se colocan todos los valores que no cambian entre Mapas de imagen. Agregue solo los valores que no cambien en la columna URL en la lista de mapas de imagen. Por ejemplo:
+En la plantilla URL se colocan todos los valores que no cambian entre Mapas de imagen. Agregue únicamente los valores que cambien a la columna URL en la lista Mapa de imágenes. Por ejemplo:
 
 * Plantilla de URL: `javascript:loadProduct('https://www.examplesitehere.com/$$');void(0);`
 * Valor de URL: `product.htm`
@@ -163,7 +163,7 @@ En la plantilla URL se colocan todos los valores que no cambian entre Mapas de i
 
 De manera predeterminada, la plantilla de dirección URL incluye un controlador JavaScript de Adobe Dynamic Media Classic propiedad denominado `loadProduct` que abre una nueva ventana con el destino de la dirección URL. Sin embargo, puede utilizar cualquier código de JavaScript para reemplazar este controlador de JavaScript o utilizar uno de los siguientes controladores de Adobe Dynamic Media Classic:
 
-* `loadProductCW`: muestra el destino de URL especificado en la columna URL de la ventana actual. Este controlador es fundamentalmente para catálogos electrónicos que se integran en una página dentro de un sitio Web.
+* `loadProductCW`: muestra el destino de URL especificado en la columna URL dentro de la ventana actual. Este controlador es fundamentalmente para catálogos electrónicos que se integran en una página dentro de un sitio Web.
 
 * `loadProductPW`: muestra el destino de dirección URL especificado en la columna URL de la ventana principal (la página que abrió la actual). La ventana activa permanece abierta, pero la principal cambia para mostrar el destino URL.
 
@@ -183,7 +183,7 @@ La página Editor de mapas (imágenes y conjuntos de giros) y la ficha Páginas 
 
 * **Opción de plantilla URL**: seleccione la opción de plantilla URL para aplicar la plantilla URL a todos los mapas de imágenes de una imagen o página de catálogo electrónico.
 
-* **Opción de plantilla**: anule la selección de una opción de plantilla en la lista Mapa de imágenes de URL si no desea que un mapa de imágenes individual utilice la plantilla URL.
+* **Opción de plantilla**: anule la selección de una opción de plantilla en la lista Mapa de imágenes si no desea que un mapa de imágenes individual utilice la plantilla URL.
 
 ## Definir otras acciones para los mapas de imagen {#defining-other-actions-for-image-maps}
 
@@ -191,9 +191,9 @@ Puede seleccionar el menú **[!UICONTROL Mostrar]** y elegir **[!UICONTROL Otras
 
 * **`accesskey`**: Déclencheur una acción cuando el usuario presiona una tecla designada en el teclado.
 
-* **`onfocus`**: almacena en Déclencheur un evento cuando el mapa de imagen recibe el enfoque mediante el cursor, tabulando o presionando una tecla de acceso. Por ejemplo, puede iniciar una página web cuando el mapa de imagen recibe el enfoque y cerrarla cuando el mapa de imagen pierde el enfoque.
+* **`onfocus`**: Déclencheur un evento cuando el mapa de imagen recibe el enfoque mediante el cursor, la tabulación o la presión de una tecla de acceso. Por ejemplo, puede iniciar una página web cuando el mapa de imagen recibe el enfoque y cerrarla cuando el mapa de imagen pierde el enfoque.
 
-* **`onblur`**: almacena en Déclencheur un evento cuando el mapa de imagen pierde el enfoque, ya sea por el cursor o por tabulación.
+* **`onblur`**: Déclencheur un evento cuando el mapa de imagen pierde el enfoque mediante el cursor o la tabulación.
 
 **Para definir otras acciones para los mapas de imágenes:**
 
@@ -213,7 +213,7 @@ Para obtener más información, consulte Ayuda de Adobe InDesign o Ayuda de Adob
 
 ### Para crear mapas de imagen en Adobe InDesign {#to-create-image-maps-in-adobe-indesign}
 
-1. En Adobe InDesign, vaya a **[!UICONTROL Windows®]** > **[!UICONTROL Interactivo]** > **[!UICONTROL Hipervínculos]**.
+1. En Adobe InDesign, vaya a **[!UICONTROL Ventana]** > **[!UICONTROL Interactivo]** > **[!UICONTROL Hipervínculos]**.
 1. En el panel Hipervínculos, seleccione el texto, el marco o el gráfico que desea convertir en un mapa de imagen.
 1. Seleccione **[!UICONTROL Nuevo hipervínculo]** en el menú del panel.
 1. En el cuadro de diálogo Nuevo hipervínculo, en el menú **[!UICONTROL Vincular a]**, elija la **[!UICONTROL URL]**.
