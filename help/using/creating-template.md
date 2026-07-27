@@ -1,5 +1,5 @@
 ---
-title: Creación de una plantilla
+title: Crear una plantilla
 description: Obtenga información sobre cómo crear una plantilla en Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -12,19 +12,14 @@ topic: Content Management
 level: Experienced
 autotag-review: '2026-05-13T18:19:13.276Z'
 TQID: 'https://experienceleague.adobe.com/2bY6F28UOt--BmRcI4xv1GJnmSMzqbnkUnnPmfFHxmw'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 016933e6edfe59faa37ca6821184d7bcdb333b97
 workflow-type: tm+mt
-source-wordcount: 3493
-ht-degree: 36%
+source-wordcount: 3550
+ht-degree: 32%
 
 ---
 
@@ -40,7 +35,7 @@ Vea también [Fundamentos de la plantilla](https://s7d5.scene7.com/s7viewers/htm
 
 ## Creación de la plantilla inicial {#creating-the-initial-template}
 
-Cuando crea un conjunto de plantillas, la opción **[!UICONTROL Publicar después de guardar]** afecta a los miembros del conjunto y del conjunto de las siguientes maneras:
+Cuando crea un conjunto de plantillas, la opción **[!UICONTROL Publicar después de guardar]** afecta a los miembros del conjunto y del conjunto de las siguientes maneras.
 
 | **[!UICONTROL Publicar después de seleccionar la opción Guardar]** antes de guardar? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
 | --- | --- | --- |
@@ -65,11 +60,11 @@ Puede crear una plantilla a partir de una existente. Abra la plantilla, seleccio
 1. Seleccione **[!UICONTROL Guardar]**.
 1. Seleccione una carpeta para almacenar la plantilla, escriba un nombre para ella y seleccione **[!UICONTROL Enviar]**.
 
-   Adobe Dynamic Media Classic reduce el tamaño de las imágenes si es necesario para ajustarlas al lienzo, el área de la pantalla Plantilla para definir la plantilla.
+   Adobe Dynamic Media Classic escala las imágenes si es necesario para ajustarlas al lienzo, el área de la pantalla Plantilla para definir la plantilla.
 
 ## Edición de un conjunto de plantillas {#editing-a-template-set}
 
-Tanto si edita un conjunto publicado como un conjunto de plantillas sin publicar, la opción **[!UICONTROL Publicar después de guardar]** afecta a los miembros del conjunto y del conjunto de las siguientes maneras:
+Ya sea que edite un conjunto publicado o un conjunto de plantillas no publicado, la opción **[!UICONTROL Publicar después de guardar]** afecta a los miembros del conjunto y del conjunto de las siguientes maneras.
 
 | ¿Ya se ha publicado el conjunto? | **[!UICONTROL Publicar después de seleccionar la opción Guardar]** antes de guardar la edición? | Estado del conjunto después de guardar | Estado de los miembros del conjunto después de guardar |
 | --- | --- | --- | --- |
@@ -89,7 +84,7 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 ## Eliminar una plantilla
 
-Al eliminar un conjunto de plantillas, el propio conjunto se mueve a la papelera. Sin embargo, los miembros (o &quot;hijos&quot;) de ese conjunto no se ven afectados, sino que cada uno de ellos conserva su estado publicado o no publicado.
+Al eliminar un conjunto de plantillas, el propio conjunto se mueve a la papelera. Sin embargo, los miembros de ese conjunto no se ven afectados; en su lugar, cada uno de ellos conserva su estado existente de publicado o no publicado.
 
 Consulte también [Publicación manual de recursos](publishing-files.md#manually_publishing_assets) y [Cancelación manual de la publicación de recursos](publishing-files.md#manually_unpublishing_assets).
 
@@ -106,13 +101,13 @@ Utilice estas herramientas en la pantalla Plantilla para poder crear plantillas:
 
 * **[!UICONTROL Panorámica]**: permite seleccionar capas, moverlas alrededor del lienzo, cambiar su tamaño o girarlas.
 
-* **[!UICONTROL Texto]**: crea una capa de texto. Arrastre el puntero sobre el lienzo para crear una capa de texto e introduzca el texto en la capa. Ver [Creación de una capa de texto](#creating-a-text-layer).
+* **[!UICONTROL Texto]**: crea una capa de texto. Para crear una capa de texto, arrastre el lienzo y escriba el texto en la capa. Ver [Creación de una capa de texto](#creating-a-text-layer).
 
 * **[!UICONTROL Vista previa]**: abre la pantalla Vista previa y muestra la plantilla en un visor de zoom. Verá el aspecto que tendrá la plantilla para los usuarios de su sitio web o aplicación.
 
 * **[!UICONTROL Resumen de parámetros]** Abre la pantalla Resumen de parámetros. Puede ver el nombre de cada una de las capas de una plantilla y, en cada capa, los nombres de los parámetros que se han activado.
 
-* **[!UICONTROL Editor de texto v4.3 y Editor de texto v4.2]**: Use el Editor de texto más reciente y con las funciones más completas. Puede elegir utilizar el Editor de texto v4.3 o el Editor de texto anterior, Editor de texto v4.2. Al crear plantillas, Editor de texto v4.3 está seleccionado de forma predeterminada. Al editar plantillas antiguas, se seleccionará por defecto el Editor de texto 4.2. El Editor de texto v4.3 no admite actualmente el ajuste de palabras, por lo que al editar plantillas antiguas que utilizan el ajuste de palabras, utilice el Editor de texto v4.2 para mantener la fidelidad de la plantilla totalmente intacta. Si la plantilla anterior no utiliza ajuste de línea, puede elegir Editor de texto v4.3 para aprovechar las numerosas funciones nuevas que ofrece. Por ejemplo, Aumentar márgenes, Reducir márgenes, Definir texto en mayúsculas y Copiar texto de ajuste.
+* **[!UICONTROL Editor de texto v4.3 y Editor de texto v4.2]**: Use el Editor de texto más reciente y con las funciones más completas. Puede elegir utilizar el Editor de texto v4.3 o el Editor de texto anterior, Editor de texto v4.2. Al crear plantillas, el sistema selecciona Editor de texto v4.3 de forma predeterminada. Al editar plantillas antiguas, el sistema selecciona Editor de texto v4.2 de forma predeterminada. El Editor de texto v4.3 no admite actualmente el ajuste de palabras, por lo que al editar plantillas antiguas que utilizan el ajuste de palabras, utilice el Editor de texto v4.2 para mantener la fidelidad de la plantilla totalmente intacta. Si la plantilla anterior no utiliza ajuste de línea, puede elegir Editor de texto v4.3 para aprovechar las numerosas funciones nuevas que ofrece. Algunos ejemplos son Aumentar márgenes, Reducir márgenes, Definir texto en mayúsculas y Copiar texto de ajuste.
 
   >[!NOTE]
   >
@@ -139,17 +134,15 @@ Utilice estas herramientas en la pantalla Plantilla para poder crear plantillas:
 ## Creación de una capa de texto {#creating-a-text-layer}
 
 1. Seleccione la herramienta **[!UICONTROL Texto]**.
-1. Arrastre para crear un cuadro de texto en el lienzo o en una imagen.
+1. Arrastre para crear un cuadro de texto en el lienzo o la imagen.
 1. En la pantalla Texto que se abre, agregue texto mediante cualquiera de las siguientes acciones en la pestaña Vista previa:
 
-   * Escriba el texto en el cuadro de texto. Seleccione Copiar texto de ajuste para ajustar el texto al cuadro de texto.
+   * Escriba el texto en el cuadro de texto. Elija Copiar texto para ajustar el texto en el cuadro de texto.
    * Pegue el texto desde el portapapeles en el cuadro de texto.
 
 1. Seleccione **[!UICONTROL Aplicar]** y luego cierre la pantalla Texto.
 
 ### Formateo de texto {#format-text}
-
-Para dar formato al texto en una capa de texto, haga lo siguiente:
 
 1. En la lista Capas, haga doble clic en el nombre del cuadro de texto que contenga el texto que desee editar. Accederá al Editor de texto.
 1. En el cuadro de texto del Editor de texto, seleccione el texto al que desee dar formato. Puede seleccionar todo el texto, partes del texto o caracteres individuales.
@@ -161,9 +154,17 @@ Para dar formato al texto en una capa de texto, haga lo siguiente:
 
    * **[!UICONTROL Color]**: seleccione esta opción para elegir un color para el texto.
 
-   * **[!UICONTROL Negrita]**, **[!UICONTROL Cursiva]** o **[!UICONTROL Subrayado]**: seleccione el texto y, a continuación, seleccione el icono para el tipo de formato que desee aplicar al texto.
+   * **[!UICONTROL Negrita]**: seleccione el texto y, a continuación, seleccione el icono correspondiente al tipo de formato que desee aplicar al texto.
 
-   * **[!UICONTROL Todas las mayúsculas]**, **[!UICONTROL Superíndice]** o **[!UICONTROL Subíndice]**: seleccione el texto y, a continuación, seleccione el icono correspondiente al tipo de formato que desee aplicar al texto.
+   * **[!UICONTROL Cursiva]**: seleccione el texto y, a continuación, seleccione el icono para el tipo de formato que desee aplicar al texto.
+
+   * **[!UICONTROL Subrayado]**: seleccione el texto y, a continuación, seleccione el icono para el tipo de formato que desee aplicar al texto.
+
+   * **[!UICONTROL Todo en mayúsculas]**: seleccione el texto y, a continuación, seleccione el icono del tipo de formato que desee aplicar al texto.
+
+   * **[!UICONTROL Superíndice]**: seleccione el texto y, a continuación, seleccione el icono del tipo de formato que desee aplicar al texto.
+
+   * **[!UICONTROL Subíndice]**: seleccione el texto y, a continuación, seleccione el icono correspondiente al tipo de formato que desee aplicar al texto.
 
    * **[!UICONTROL Alineación]**: elija un botón Alineación para alinear a la izquierda, centrar o alinear a la derecha el texto de la capa de texto.
 
@@ -177,7 +178,7 @@ Para dar formato al texto en una capa de texto, haga lo siguiente:
 
 >[!NOTE]
 >
->Seleccione **[!UICONTROL Deshacer]** si desea revertir la última acción. Seleccione **[!UICONTROL Rehacer]** si cambia de opinión acerca de revertir una acción después de seleccionar **[!UICONTROL Deshacer]**.
+>Seleccione **[!UICONTROL Deshacer]** si desea revertir la última acción. Seleccione **[!UICONTROL Rehacer]** si decide revertir una acción después de seleccionar **[!UICONTROL Deshacer]**.
 
 ### Formateo de párrafos {#format-paragraphs}
 
@@ -187,7 +188,7 @@ Para dar formato al texto en una capa de texto, haga lo siguiente:
 
    * **[!UICONTROL Alineación]**: especifique el tipo de alineación haciendo clic en **[!UICONTROL Alinear a la izquierda]**, **[!UICONTROL Alinear al centro]**, **[!UICONTROL Alinear a la derecha]** o **[!UICONTROL Justificar]**.
 
-   * **[!UICONTROL Fin de justificación de párrafo]**: seleccione esta opción para especificar el tipo de justificación de la última línea del párrafo: la última línea se alinea a la izquierda; la última línea, al centro; y la última línea, a la derecha.
+   * **[!UICONTROL Fin de justificación de párrafo]**: seleccione esta opción para especificar el tipo de justificación de la última línea del párrafo: última línea se alinea a la izquierda, última línea se alinea al centro y última línea se alinea a la derecha.
 
    * **[!UICONTROL Interlineado]**: escriba o seleccione un valor numérico para ajustar la cantidad de espacio entre todas las líneas del párrafo.
 
@@ -222,7 +223,7 @@ Para dar formato al texto en una capa de texto, haga lo siguiente:
 
    * **[!UICONTROL Posición]**: especifica la ubicación del cuadro de texto en el lienzo.
 
-   * **[!UICONTROL Relleno]**: agrega márgenes o recorta el rectángulo de capa. Especifique el número de píxeles que desea añadir o quitar para izquierda, arriba, abajo y derecha. Introduzca números positivos si desea añadir un margen o números negativos al recorte.
+   * **[!UICONTROL Relleno]**: agrega márgenes o recorta el rectángulo de capa. Especifique el número de píxeles que desea añadir o quitar para izquierda, arriba, abajo y derecha. Introduzca números positivos si desea añadir un margen o números negativos para recortar.
 
 ### Visualización y edición de texto del código fuente {#view-and-edit-text-source-code}
 
@@ -244,11 +245,11 @@ También es posible modificar el tamaño del lienzo y especificar su color de fo
 
 ### Reordenar capas {#reordering-layers}
 
-Cambiar el orden de las capas puede afectar al aspecto, especialmente cuando hay transparencia o sobreimpresión. Asegúrese de comprobar el resultado mediante una vista previa antes de confirmar los cambios.
+Cambiar el orden de las capas puede afectar al aspecto, especialmente cuando hay transparencia o sobreimpresión. Previsualice el resultado antes de guardar los cambios.
 
 1. Use una de estas técnicas para cambiar el orden de las capas de una plantilla:
 
-   * Seleccione una capa en la lista de capas. A continuación, seleccione **[!UICONTROL Arriba]** o **[!UICONTROL Abajo]** tantas veces como sea necesario para colocarlo en la posición correcta en la lista.
+   * Seleccione una capa en la lista de capas. A continuación, seleccione **[!UICONTROL Arriba]** o **[!UICONTROL Abajo]** tantas veces como sea necesario para colocarlo correctamente en la lista.
    * Arrastre una capa a una posición superior o inferior en la lista.
 
 ### Cambiar el tamaño y la posición de las capas y el lienzo {#changing-the-size-and-position-of-layers-and-the-canvas}
@@ -261,27 +262,27 @@ El tamaño de las capas no debe superar las restricciones del lienzo. Puede modi
 
 * **Cambiar el tamaño de una capa**: Para cambiar el tamaño de una capa o del lienzo, seleccione la capa o el lienzo en la lista Capas y utilice una de estas técnicas:
 
-* **Cambio manual del tamaño**: seleccione y arrastre una esquina de la capa o el lienzo. Con las capas de texto, también puede arrastrar un lado de la capa. Mantenga pulsada la tecla Mayús mientras arrastra para cambiar el tamaño pero mantener la relación de aspecto (la forma).
+* **Cambio manual del tamaño**: seleccione y arrastre una esquina de la capa o el lienzo. Con las capas de texto, también puede arrastrar un lado de la capa. Para cambiar el tamaño manteniendo la relación de aspecto, mantenga pulsada la tecla Mayús mientras arrastra.
 
 * **Introduciendo medidas de tamaño de capa**: escriba medidas de píxeles en los cuadros de texto An. (Anchura) y Al. (Altura) del área Propiedades de capa.
 
-Además de cambiar el tamaño, también es posible añadir un margen a la capa. Para ello, introduzca un valor de margen en los cuadros Izquierda, Derecha, Superior e Inferior del área Propiedades de la capa. Se insertará un margen entre la capa actual y el perímetro de la capa base. El margen es útil para hacer más visibles efectos de sombra paralela o resplandor exterior añadidos. El margen incrementa el tamaño de una capa y muestra su color de fondo en el área extendida. La posición de la capa base se ajusta con relación al nuevo tamaño de la capa. Por ejemplo, si la capa actual está centrada en la capa base, al extenderse el lado izquierdo de la capa ésta se desplaza hacia la derecha de la capa base.
+Además de cambiar el tamaño de una capa, puede rellenarla. Para ello, introduzca un valor de margen en los cuadros Izquierda, Derecha, Superior e Inferior del área Propiedades de la capa. Se insertará un margen entre la capa actual y el perímetro de la capa base. El margen es útil para hacer más visibles efectos de sombra paralela o resplandor exterior añadidos. El margen incrementa el tamaño de una capa y muestra su color de fondo en el área extendida. La posición de la capa base se ajusta con relación al nuevo tamaño de la capa. Por ejemplo, si la capa actual está centrada en la capa base, al extenderse el lado izquierdo de la capa ésta se desplaza hacia la derecha de la capa base.
 
 * **Cambio de la posición de una capa**: para cambiar la posición de una capa en el lienzo, seleccione su nombre en la lista Capas y utilice una de estas técnicas:
 
-* **Cambio manual de posición**: mueva el puntero cerca del límite de una capa, pero no sobre él, y cuando vea el cursor de flecha de cuatro puntas, seleccione y comience a arrastrar.
+* **Cambio manual de posición**: mueva el puntero cerca de un límite de capa, pero no sobre él, y cuando vea el cursor de movimiento, seleccione y comience a arrastrar.
 
 * **Introduciendo medidas de desplazamiento de posición**: escriba medidas de desplazamiento X e Y en los cuadros de texto X e Y. Esto valores representan el desfase x, y del punto de anclaje, medido en píxeles.
 
 * **Rotación de una capa**: El cuadro Rotar enumera el ángulo al que se giró la capa. Para rotar una capa, seleccione el nombre de ésta en la lista de capas y use una de estas técnicas:
 
-* **Girar manualmente**: mueva el cursor cerca de una esquina de la capa, pero no sobre ella. Cuando aparezca el cursor de rotación, arrastre la esquina de la capa. Mantenga pulsada la tecla Mayús mientras arrastra para rotar en incrementos de 15 grados.
+* **Girar manualmente**: mueva el cursor cerca de una esquina de la capa, pero no sobre ella. Cuando aparezca el cursor de rotación, arrastre la esquina de la capa. Para rotar en incrementos de 15 grados, mantenga pulsada la tecla Mayús mientras arrastra.
 
-* **Introducción de una medida de grado**: Escriba el número de grados para girar la capa. Se aplica una rotación hacia la derecha; para rotar la capa hacia la izquierda, debe introducir un valor negativo.
+* **Introducción de una medida de grado**: Escriba el número de grados para girar la capa. La rotación es en el sentido de las agujas del reloj; para girar en sentido contrario a las agujas del reloj, introduzca un número negativo.
 
 **Ocultar una capa o un efecto de capa:**
 
-Para ocultar una capa o un efecto de capa, seleccione el icono del ojo junto al nombre de una capa o un nombre de efecto. Las capas ocultas no aparecen en las vistas previas o en el resultado final. La información de la capa no se elimina de la URL. En su lugar, `hide=1` se agrega a la dirección URL para tener en cuenta que la capa está oculta para su visualización. Por ejemplo:
+Para ocultar una capa o un efecto de capa, seleccione el icono del ojo junto al nombre de una capa o un nombre de efecto. Las capas ocultas no aparecen en las vistas previas o en el resultado final. La información de la capa no se elimina de la URL. Para tener en cuenta que la capa está oculta, el sistema agrega `hide=1` a la dirección URL. Por ejemplo:
 
 `layer=5&src=is{PortalCo/title}&pos=274,192&effect=-1&.effect=Drop Shadow&blendmode`
 
@@ -295,13 +296,13 @@ Para definir el color de fondo, la opacidad y el modo de fusión de una capa o d
 
 * **Color de fondo**: seleccione **[!UICONTROL Color de fondo]** y elija una muestra de color para cambiar el color de las áreas acolchadas.
 
-* **Opacidad**: arrastre el control deslizante Opacidad para que cualquier capa sea translúcida y que se muestre parte de la imagen subyacente. El valor del 100 por ciento es opaco; 0 es transparente.
+* **Opacidad**: para que cualquier capa sea translúcida y se muestre la parte de la imagen subyacente, arrastre el control deslizante Opacidad. El valor del 100 por ciento es opaco; 0 es transparente.
 
-* **Modo de fusión**: para simular uno de los modos de fusión disponibles en Photoshop, elija una opción. Las opciones son Normal, Disolver, Aclarar, Oscurecer, Multiplicar y Pantalla. Estas opciones están disponibles para capas únicamente, no son aplicables a lienzos.
+* **Modo de fusión**: para simular uno de los modos de fusión disponibles en Adobe Photoshop, elija una opción. Las opciones son Normal, Disolver, Aclarar, Oscurecer, Multiplicar y Pantalla. Estas opciones están disponibles para capas únicamente, no son aplicables a lienzos.
 
 ## Uso de efectos de sombra y resplandor en las capas {#using-shadow-and-glow-effects-on-layers}
 
-Puede aplicar una sombra o un resplandor a una capa. La sombra o el resplandor se aplica al perímetro de la capa y se extiende hacia dentro o hacia fuera, según la opción de sombra o resplandor que elija. Si la plantilla se originó con un archivo PSD con efectos de sombreado y resplandor, puede ajustar estos efectos en Adobe Dynamic Media Classic.
+Puede aplicar una sombra o un resplandor a una capa. La sombra o el resplandor se aplica al perímetro de la capa y se extiende hacia dentro o hacia fuera, según la opción de sombra o resplandor que elija. Si la plantilla se originó con un archivo PSD que contiene efectos de sombreado y resplandor, puede ajustar estos efectos en Adobe Dynamic Media Classic.
 
 Después de aplicar un efecto de sombra o resplandor, puede ajustar su tamaño, color, opacidad y posición en el área Propiedades de la capa, en la pantalla Plantilla.
 
@@ -330,13 +331,13 @@ Para ajustar un efecto de sombra o resplandor, seleccione el nombre correspondie
 
 * **[!UICONTROL Color]**: seleccione el botón Color y elija una muestra de color para cambiar el color de la sombra o el resplandor. También puede introducir un valor de color en el cuadro.
 
-* **[!UICONTROL Opacidad]**: arrastre el control deslizante para determinar la intensidad del efecto. Cuanto menor sea el valor de opacidad, mayor será la transparencia del efecto.
+* **[!UICONTROL Opacidad]**: Para determinar la intensidad del efecto, arrastre el control deslizante. Cuanto menor sea el valor de opacidad, mayor será la transparencia del efecto.
 
-* **[!UICONTROL Modo de fusión]**: Para simular uno de los modos de fusión disponibles en Photoshop, elija una opción. Las opciones son Normal, Disolver, Aclarar, Oscurecer, Multiplicar y Pantalla.
+* **[!UICONTROL Modo de fusión]**: Para simular uno de los modos de fusión disponibles en Adobe Photoshop, elija una opción. Las opciones son Normal, Disolver, Aclarar, Oscurecer, Multiplicar y Pantalla.
 
 * **[!UICONTROL Tamaño]**: escriba las medidas en los cuadros X e Y para aumentar o reducir el efecto de sombra. Las opciones de tamaño son aplicables a sombras interiores y paralelas.
 
-* **[!UICONTROL Aumentar]**: arrastre el control deslizante para extender el efecto hacia dentro o hacia fuera.
+* **[!UICONTROL Aumentar]**: Para extender el efecto hacia dentro o hacia fuera, arrastre el control deslizante.
 
 * **[!UICONTROL Desenfocar]**: arrastre el control deslizante para controlar el calado en los bordes del efecto. Cuanto mayor sea el desenfoque, mayor será el calado.
 
