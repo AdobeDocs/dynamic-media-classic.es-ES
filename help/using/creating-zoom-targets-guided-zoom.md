@@ -12,22 +12,19 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T19:42:52.841Z'
 TQID: 'https://experienceleague.adobe.com/XXeYyrU-e6TE4MwaaiGmV176s9PZuOoBI1oSOXEtzGE'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: e7543e72fee35a936749cdd110d1d4a2a288c3bf
 workflow-type: tm+mt
-source-wordcount: 732
-ht-degree: 27%
+source-wordcount: 724
+ht-degree: 25%
 
 ---
 
 # Creación de destinos de zoom para el zoom guiado{#creating-zoom-targets-for-guided-zoom}
 
-Los destinos de zoom guían a ciertas partes de una imagen. Además del zoom de forma libre, los visualizadores pueden seleccionar una miniatura de destino de zoom y hacer zoom en la parte de la imagen en la que desea que se centren. Los destinos de zoom permiten resaltar las partes atractivas o interesantes de una imagen.
+Los destinos de zoom guían a ciertas partes de una imagen. Además del zoom de forma libre, los visualizadores pueden seleccionar una miniatura de destino de zoom y hacer zoom en la parte de la imagen en la que desea que se centren. Los destinos de zoom permiten resaltar partes específicas de una imagen.
 
 ![Crear destinos de zoom para el zoom guiado](/help/using/assets/zo_guided_zoom.png)
 
@@ -40,7 +37,7 @@ El porcentaje de zoom máximo de Destinos de zoom es 100 por ciento. El porcenta
 | Grande | Menor | Mínimo más pequeño |
 | Pequeño | Mayor | Mínimo más grande |
 
-Puede cambiar el tamaño del Visor de zoom para que coincida con el tamaño que se está utilizando en la página Web. Puede cambiar esta configuración de forma permanente cambiando el tamaño del visor en la pantalla Configuración (si es administrador). Consulte [Configurar ajustes preestablecidos del visor de zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
+Para que coincida con el tamaño que se está utilizando en la página Web, puede cambiar el tamaño del Visor de zoom. Puede cambiar esta configuración de forma permanente cambiando el tamaño del visor en la pantalla Configuración (si es administrador). Consulte [Configurar ajustes preestablecidos del visor de zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
 
 ## Creación y edición de destinos de zoom {#creating-and-editing-zoom-targets}
 
@@ -61,7 +58,7 @@ Para crear un destino de zoom, abra la página Editor de destinos de zoom y haga
 
 1. Elija **[!UICONTROL Seleccionar destino]** (flecha) y, a continuación, seleccione el destino de zoom que ha creado y ajuste el tamaño y la posición del destino.
 
-   * **Cambiar tamaño**: mueva el puntero sobre una esquina del destino de zoom y arrástrelo para aumentar o reducir el destino.
+   * **Cambiar tamaño**: para aumentar o reducir el destino, mueva el puntero sobre una esquina del destino de zoom y arrástrelo.
 
    * **Posición**: mueva el puntero sobre el destino de zoom y arrástrelo a una ubicación diferente.
 
@@ -71,7 +68,7 @@ Para crear un destino de zoom, abra la página Editor de destinos de zoom y haga
    >
    >lo que introduzca en el cuadro Nombre es mucho más que un nombre. Cuando los usuarios mueven el puntero por el destino de zoom, ven lo que se ha introducido en el cuadro Nombre. Introduzca una breve descripción del destino de zoom en el cuadro Nombre para que los usuarios sepan en qué pueden hacer zoom.
 
-1. También puede introducir datos de usuario en el campo Datos de usuario. Este campo es para que los diseñadores de sitios Web agreguen información al destino de zoom.
+1. También puede introducir datos de usuario en el campo Datos de usuario. Este campo es para que los profesionales del diseño del sitio web agreguen información al objetivo de zoom.
 1. Seleccione **[!UICONTROL Guardar]**.
 
    Se guardarán las coordenadas y el nivel de zoom correspondientes al destino de zoom. A la derecha de la pantalla aparece una imagen de miniatura del destino de zoom con el nombre introducido.
