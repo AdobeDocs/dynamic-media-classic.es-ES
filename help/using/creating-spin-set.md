@@ -12,16 +12,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:44:09.641Z'
 TQID: 'https://experienceleague.adobe.com/6kiNojlrrS6EiS-7Mp5SvtSMag1k4Hu0EwOr4BmyJfY'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 88c777a6a66189fca8090b33ea9001536e0d78bc
 workflow-type: tm+mt
 source-wordcount: 976
-ht-degree: 33%
+ht-degree: 32%
 
 ---
 
@@ -35,17 +32,17 @@ Si desea crear un conjunto de giros eficaz, asegúrese de tomar las imágenes co
 
 ## Instrucciones para obtener imágenes para conjuntos de giros {#guidelines-for-shooting-spin-set-images}
 
-En general, cuantas más imágenes tenga en un conjunto de giros, mejor será el efecto de giro de la imagen. Sin embargo, si se incluyen muchas imágenes en el conjunto también se aumentará el tiempo que tardan en cargarse las imágenes. Adobe Dynamic Media Classic recomienda estas directrices para grabar imágenes para utilizarlas en conjuntos de giros:
+Cuantas más imágenes tenga en un conjunto de giros, mayor será la calidad del efecto de giro de la imagen. Sin embargo, si se incluyen muchas imágenes en el conjunto también se aumentará el tiempo que tardan en cargarse las imágenes. Adobe Dynamic Media Classic recomienda estas directrices para grabar imágenes para utilizarlas en conjuntos de giros:
 
 * Como mínimo, utilice 8-12 imágenes en un conjunto de giros unidimensional y 16-24 imágenes en un conjunto de giros bidimensional.
 * Utilice un formato sin pérdida; se recomiendan TIFF y PNG.
 * Aplique máscara a todas las imágenes para que el elemento aparezca en un fondo blanco puro o con otro color de alto contraste. Si lo desea, agregue sombras.
-* Asegúrese de que los detalles del producto están bien iluminados y enfocados.
-* Tome las imágenes de giro para las prendas de ropa con un maniquí o una persona. A menudo, el maniquí está enmascarado (usando un maniquí de vidrio) o se muestra un maniquí estilizado/dressform en la imagen. Se puede crear un conjunto de giros en modelo definiendo el número de ángulos. Marque cada ángulo con cinta en el suelo para que pueda guiar al modelo para que avance y mire en la dirección de cada disparo.
+* Asegúrese de que los detalles del producto estén bien iluminados y enfocados.
+* Tome las imágenes de giro para las prendas de ropa con un maniquí o una persona. A menudo, el maniquí está enmascarado (usando un maniquí de vidrio) o se muestra un maniquí estilizado/dressform en la imagen. Se puede crear un conjunto de giros en modelo definiendo el número de ángulos. Marque cada ángulo en el suelo para que pueda guiar al modelo para que se posicione y mire en la dirección de cada toma.
 
 ## Creación de un conjunto de giros {#create}
 
-El orden en que se crea o crea el conjunto de giros en Adobe Dynamic Media Classic es importante. Según la forma en que ordene los recursos al arrastrar y soltar imágenes en la cuadrícula de la página Conjunto de giros, el conjunto de giros girará en una dirección determinada. Por lo tanto, el orden en el que se muestra visualmente en el generador es el giro del recurso cuando un usuario mueve el puntero del mouse o el dedo, de izquierda a derecha.
+El orden en que se crea o crea el conjunto de giros en Adobe Dynamic Media Classic es importante. Según la forma en que ordene los recursos al arrastrar y soltar imágenes en la cuadrícula de la página Conjunto de giros, el conjunto de giros girará en una dirección determinada. Por lo tanto, el orden en el que se muestra visualmente en el generador determina cómo se mueve el recurso cuando un usuario mueve el puntero del mouse o el dedo de izquierda a derecha.
 
 Cuando crea un conjunto, la opción **[!UICONTROL Publicar después de guardar]** afecta a los miembros del conjunto y del conjunto de las siguientes maneras:
 
