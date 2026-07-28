@@ -12,17 +12,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T19:45:19.277Z'
 TQID: 'https://experienceleague.adobe.com/XtUpvJz6aepSU0F9CupyrR8-cdSpNo3blHK38hh9Fc8'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 6cee66920b39dd3995803cf060712025a8b0aa9a
 workflow-type: tm+mt
-source-wordcount: 620
+source-wordcount: 615
 ht-degree: 21%
 
 ---
@@ -60,7 +56,7 @@ Puede mostrar un recurso en la Vista de detalles para que pueda examinarlo, prev
 
 >[!NOTE]
 >
->Puede pasar de un recurso a otro en la misma carpeta en la Vista de detalles. Simplemente haga clic en **[!UICONTROL Recurso anterior]** o en **[!UICONTROL Recurso siguiente]**. Estos botones se encuentran en la esquina superior derecha de la Vista de detalles.
+>Puede navegar entre recursos de la misma carpeta mediante la Vista de detalles. Haga clic en **[!UICONTROL Recurso anterior]** o en **[!UICONTROL Recurso siguiente]**. Estos botones se encuentran en la esquina superior derecha de la Vista de detalles.
 
 ## Obtener información en la Vista de detalles {#getting-information-in-detail-view}
 
@@ -72,7 +68,7 @@ Puede obtener una URL de recurso en la Vista de detalles; sin embargo, la URL no
 
 La Vista de detalles ofrece herramientas para trabajar con el recurso que ha abierto. Las herramientas disponibles dependen del tipo de recurso con el que trabaje, pero la Vista de detalles siempre ofrece estas funciones:
 
-* **elementos para la publicación**: seleccione el icono **[!UICONTROL `Publish`]** a la izquierda del nombre o vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Publicar]** o **[!UICONTROL Archivo]** > **[!UICONTROL Cancelar la publicación]**.
+* **Elementos para publicar**: Seleccione el icono **[!UICONTROL `Publish`]** a la izquierda del nombre o vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Publicar]** o **[!UICONTROL Archivo]** > **[!UICONTROL Cancelar publicación]**.
 
 * **Cambiar el nombre del recurso**: seleccione el nombre e introduzca uno nuevo.
 
