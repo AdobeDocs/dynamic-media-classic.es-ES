@@ -12,21 +12,14 @@ topic: Administration
 level: Beginner
 autotag-review: '2026-05-13T19:46:13.313Z'
 TQID: 'https://experienceleague.adobe.com/qaWxQCcT9VjPt4MmahAR3-voOpUBjYztzNFXSZG6R6k'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ef0a24ad6af986b394d8838318fd870be66732a6
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c0fb79fc030080ac7774fc1428d58a48eb11e1f1
 workflow-type: tm+mt
-source-wordcount: 495
-ht-degree: 6%
+source-wordcount: 496
+ht-degree: 13%
 
 ---
 
@@ -52,7 +45,7 @@ Los pasos clave del flujo de trabajo de Adobe Dynamic Media Classic son:
 
 ## Imágenes principales únicas y llamadas de URL únicas {#single-master-images-and-single-url-calls}
 
-Adobe Dynamic Media Classic es distinto de otros sistemas porque puede utilizar Adobe Dynamic Media Classic para entregar medios de forma dinámica desde recursos principales individuales y solicitudes de URL.
+Adobe Dynamic Media Classic es distinto de otros sistemas, ya que puede utilizar Adobe Dynamic Media Classic para entregar medios de forma dinámica desde recursos principales individuales y llamadas de URL.
 
 Las cadenas URL que genera con Adobe Dynamic Media Classic incluyen instrucciones que indican al servidor cómo mostrar el recurso cuando se envía. Por ejemplo, la misma imagen principal se puede entregar en diferentes tamaños, formatos, pesos, colores o vistas. Como parte de la creación y publicación de recursos multimedia con Adobe Dynamic Media Classic, puede configurar visualmente los efectos. Al hacerlo, crea las llamadas URL que indican correctamente al servidor cómo presentar el recurso principal a las aplicaciones.
 
@@ -61,4 +54,4 @@ Las cadenas URL que genera con Adobe Dynamic Media Classic incluyen instruccione
 
 ## Caché de contenido {#content-caching}
 
-Las imágenes que Adobe Dynamic Media Classic genera dinámicamente son adecuadas para el almacenamiento en caché; normalmente, son imágenes de JPEG con llamadas URL únicas que las identifican. Las imágenes se envían en la red de distribución de contenido (CDN), un sistema de servidores conectados a Internet para proporcionar contenido más rápido. Las imágenes se distribuyen desde servidores ubicados globalmente y, a continuación, a equipos. Para implementar un mecanismo de almacenamiento en caché utilizando cualquier proveedor de CDN, cambie el nombre del servidor para que apunte al servidor de imágenes de Dynamic Media habilitado para CDN. Todas las ediciones de Adobe Dynamic Media Classic incluyen almacenamiento en caché de CDN agrupado.
+Las imágenes que Adobe Dynamic Media Classic genera dinámicamente son adecuadas para el almacenamiento en caché; normalmente, son imágenes de JPEG con llamadas URL únicas que las identifican. Las imágenes se envían a la red de entrega de contenido (CDN), un sistema de servidores conectados entre sí a través de Internet con el fin de agilizar las entregas. Las imágenes se distribuyen a los ordenadores desde servidores globales. Para implementar un mecanismo de almacenamiento en caché utilizando cualquier proveedor de CDN, cambie el nombre del servidor para que apunte al servidor de imágenes de Dynamic Media habilitado para CDN. Todas las ediciones de Adobe Dynamic Media Classic incluyen almacenamiento en caché de CDN agrupado.
