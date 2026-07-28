@@ -36,7 +36,7 @@ La newsletter de Dynamic Media de Adobe Experience League le ayuda a conocer mej
 
 En este boletín archivado encontrará recursos valiosos para la creación de conocimientos, como vídeos explicativos y descripciones generales de las soluciones. También se incluyen introducciones a funciones y capacidades clave como Ajustes preestablecidos de imagen, Ajustes preestablecidos de visualizador y Perfiles de vídeo.
 
-<!-- microsite demo page https://experienceleague.adobe.com/tools/dynamic-media-demo/index.html -->
+<!-- microsite demo page https://experienceleague.adobe.com/tools/dynamic-media-demo/index.html?lang=es -->
 
 <!--
 ## Get inspired. Stay informed.
@@ -63,7 +63,7 @@ En este boletín archivado encontrará recursos valiosos para la creación de co
     * Fast-track your Adobe expertise with Adobe Experience League.
 -->
 
-* **[Abril de 2020, número 3](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_04_2020_April.html)**
+* **[Abril de 2020, número 3](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_04_2020_April.html?lang=es)**
 
   En este número:
 
@@ -74,7 +74,7 @@ En este boletín archivado encontrará recursos valiosos para la creación de co
   * Obtenga más información sobre las auditorías gratuitas de Adobe Dynamic Media Classic de Adobe.
   * Conozca a `John Monroe`, director de programa sénior de soluciones para clientes de Adobe.
 
-* **[Febrero de 2020, número 2](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_02_2020_Feb.html)**
+* **[Febrero de 2020, número 2](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_02_2020_Feb.html?lang=es)**
 
   En este número:
 
@@ -85,7 +85,7 @@ En este boletín archivado encontrará recursos valiosos para la creación de co
   * Obtenga información acerca de la nueva interfaz de usuario para Adobe Dynamic Media Classic.
   * Conozca a `Georgia Myers`, director ejecutivo de éxito de clientes para Adobe Experience Cloud.
 
-* **[Enero de 2020, número 1](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_01_2020_Jan.html)**
+* **[Enero de 2020, número 1](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_01_2020_Jan.html?lang=es)**
 
   En este número:
 
@@ -95,7 +95,7 @@ En este boletín archivado encontrará recursos valiosos para la creación de co
   * Su guía para seleccionar un DAM (Digital Asset Manager) que satisfaga sus necesidades actuales y le prepare para las novedades del mañana en los medios enriquecidos.
   * Conozca a `Mark Dean`, especialista en medios digitales.
 
-* **[Noviembre de 2019, número 11](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_11_2019_Nov.html)**
+* **[Noviembre de 2019, número 11](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_11_2019_Nov.html?lang=es)**
 
   En este número:
 
@@ -105,7 +105,7 @@ En este boletín archivado encontrará recursos valiosos para la creación de co
   * Para crear experiencia en el equipo, comparta la newsletter con sus compañeros.
   * Conozca a `Apoorva Gupta`, director de producto sénior de Dynamic Media.
 
-* **[Octubre de 2019, número 10](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_10_2019_Oct.html)**
+* **[Octubre de 2019, número 10](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_10_2019_Oct.html?lang=es)**
 
   En este número:
 
@@ -116,7 +116,7 @@ En este boletín archivado encontrará recursos valiosos para la creación de co
   * Conozca a `Nick Peters`, Administrador, Ingeniería de confiabilidad del sitio, Adobe Experience Manager.
   * Obtenga información acerca de Dynamic Media y Adobe Dynamic Media Classic en Adobe Experience League.
 
-* **[Septiembre de 2019, número 09](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_09_2019_Sept.html)**
+* **[Septiembre de 2019, número 09](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_09_2019_Sept.html?lang=es)**
 
   En este número:
 
@@ -127,7 +127,7 @@ En este boletín archivado encontrará recursos valiosos para la creación de co
   * Conozca a `Bridget Roman`, director de marketing de producto sénior de Experience Manager Assets.
   * Obtenga información acerca de Dynamic Media y Adobe Dynamic Media Classic en Adobe Experience League.
 
-* **[Agosto de 2019, número 08](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_08_2019_Aug.html)**
+* **[Agosto de 2019, número 08](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_08_2019_Aug.html?lang=es)**
 
   En este número:
 
@@ -137,7 +137,7 @@ En este boletín archivado encontrará recursos valiosos para la creación de co
   * Obtenga una vista previa de una potente integración que se producirá este septiembre y que le permitirá analizar cómo los visitantes interactúan con los medios enriquecidos.
   * Conozca a `PieterJan Pieper`, experto en asistencia técnica de Dynamic Media.
 
-* **[Julio de 2019, número 07](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_07_2019_July.html)**
+* **[Julio de 2019, número 07](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_07_2019_July.html?lang=es)**
 
   En este número:
 
@@ -148,7 +148,7 @@ En este boletín archivado encontrará recursos valiosos para la creación de co
   * Añadir vídeos de 360 grados y miniaturas de vídeo personalizadas al sitio web.
   * Conozca a `Andrew Hathaway`, consultor de soluciones principales para Dynamic Media en Experience Manager Assets.
 
-* **[Junio de 2019, número 06](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_06_2019_June.html)**
+* **[Junio de 2019, número 06](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_06_2019_June.html?lang=es)**
 
   En este número:
 
@@ -158,7 +158,7 @@ En este boletín archivado encontrará recursos valiosos para la creación de co
   * Obtenga información sobre cómo proteger los recursos digitales contra el acceso no autorizado.
   * Obtenga información sobre el recorte inteligente impulsado por IA para imágenes.
 
-* **[Mayo de 2019, número 05](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_05_2019_May.html)**
+* **[Mayo de 2019, número 05](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_05_2019_May.html?lang=es)**
 
   En este número:
 
@@ -168,7 +168,7 @@ En este boletín archivado encontrará recursos valiosos para la creación de co
   * Para actualizar tu estrategia de medios enriquecidos, lee una serie de blogs en tres partes.
   * Obtenga información acerca del recorte inteligente de vídeo impulsado por IA.
 
-* **[Abril de 2019, número 04](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_04_2019_April.html)**
+* **[Abril de 2019, número 04](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_04_2019_April.html?lang=es)**
 
   Le damos la bienvenida al número inaugural de la newsletter de Dynamic Media. El nuevo boletín mensual de Adobe está repleto de noticias, eventos y recursos. El contenido es para usuarios de Dynamic Media en Experience Manager Assets y Adobe Dynamic Media Classic.
 
