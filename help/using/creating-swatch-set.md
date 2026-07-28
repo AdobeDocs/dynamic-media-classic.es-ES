@@ -18,18 +18,18 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 1343214cf19c9cfc6153e3f8b90c8ffc260de999
 workflow-type: tm+mt
-source-wordcount: 720
-ht-degree: 50%
+source-wordcount: 709
+ht-degree: 42%
 
 ---
 
 # Creación de un conjunto de muestras{#creating-a-swatch-set}
 
-Gracias a los conjuntos de muestras, los usuarios pueden ver un elemento en diferentes colores, motivos o acabados. Para crear un conjunto de muestras con muestras de color, necesitará una imagen para cada color, motivo o acabado diferente que desee incluir. También necesitará una muestra de color, motivo o acabado para cada color, motivo o acabado.
+Un conjunto de muestras permite a los usuarios ver un elemento en un color, motivo o acabado diferente. Para crear un conjunto de muestras con muestras de color, necesitará una imagen para cada color, motivo o acabado diferente que desee incluir. También necesitará una muestra de color, motivo o acabado para cada color, motivo o acabado.
 
-Por ejemplo, supongamos que desea ofrecer imágenes de gorras con viseras de distintos colores; las viseras son de color rojo, verde y azul. En este caso, necesita tres tomas de la misma gorra. Necesitará una toma para la visera roja, otra para la verde y una tercera para la azul. También necesitará muestras de color en rojo, verde y azul. Las muestras de color sirven como miniaturas que los usuarios seleccionan en el Visor de conjuntos de muestras para ver el límite rojo, verde o azul.
+Por ejemplo, supongamos que desea ofrecer imágenes de gorras con viseras de distintos colores; las viseras son de color rojo, verde y azul. En este caso, se necesitan tres imágenes del mismo límite. Necesitas una imagen para cada uno de los billetes rojo, verde y azul. También necesitará muestras de color rojo, verde y azul. Las muestras de color sirven como miniaturas que los usuarios seleccionan en el Visor de conjuntos de muestras para ver el límite rojo, verde o azul.
 
 ## Creación de un conjunto de muestras {#create}
 
@@ -56,8 +56,8 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 1. Para cambiar el orden de las imágenes en su conjunto de muestras, arrastre las imágenes a su nueva ubicación.
 1. Cerca de la esquina inferior derecha de la página, asegúrese de que **[!UICONTROL Publicar después de guardar]** está seleccionado (predeterminado).
-1. Seleccione **[!UICONTROL Guardar]**, seleccione una carpeta para almacenar su conjunto de muestras de muestras de color, escriba un nombre para el conjunto y seleccione **[!UICONTROL Enviar]**.
-1. Para ver tu conjunto de muestras en el visor de conjuntos de muestras, selecciona **[!UICONTROL Vista previa]** en la pantalla del conjunto de muestras. Puede seleccionar miniaturas de muestra en el Visor de conjuntos de muestras para ver cómo se comportan.
+1. Seleccione **[!UICONTROL Guardar]**, seleccione una carpeta para almacenar su conjunto de muestras, escriba un nombre para el conjunto y seleccione **[!UICONTROL Enviar]**.
+1. Para ver tu conjunto de muestras en el visor de conjuntos de muestras, selecciona **[!UICONTROL Vista previa]** en la pantalla del conjunto de muestras. Puede seleccionar miniaturas de muestra en el Visor de conjuntos de muestras para ver cómo funcionan.
 
 ## Edición de un conjunto de muestras {#editing-a-swatch-set}
 
@@ -86,11 +86,11 @@ Consulte también [Publicación manual de recursos](publishing-files.md#manually
 
 ## Eliminación de un conjunto de muestras
 
-Cuando se elimina un conjunto, el conjunto en sí se mueve a la papelera. Sin embargo, los miembros (o &quot;hijos&quot;) de ese conjunto no se ven afectados, sino que cada uno de ellos conserva su estado publicado o no publicado.
+Al eliminar un conjunto, éste se mueve a la carpeta Elementos eliminados. Los miembros de ese conjunto no se ven afectados; mantienen su estado publicado o no publicado existente.
 
 Consulte también [Publicación manual de recursos](publishing-files.md#manually_publishing_assets) y [Cancelación manual de la publicación de recursos](publishing-files.md#manually_unpublishing_assets).
 
 **Para eliminar un conjunto de muestras:**
 
-1. En la vista de cuadrícula, vista de lista o vista de detalles, seleccione un conjunto de muestras o más.
+1. En la vista de cuadrícula, la vista de lista o la vista de detalles, seleccione uno o varios conjuntos de muestras.
 1. En la barra de navegación global, ve a **[!UICONTROL Archivo]** > **[!UICONTROL Eliminar]** > **[!UICONTROL Eliminar]**.
