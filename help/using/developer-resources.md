@@ -28,26 +28,26 @@ ht-degree: 12%
 
 Las guías de referencia para visores, servicio y renderización de imágenes y Image Production System describen los protocolos HTTP para estos módulos de servidor. Los desarrolladores de sitios web que deseen personalizar y utilizar medios enriquecidos de Adobe Dynamic Media Classic para un sitio web o una aplicación personalizada pueden utilizar estas guías. Los usuarios deben estar familiarizados con la aplicación de escritorio de Dynamic Media Classic, las normas y convenciones generales del protocolo HTTP y la terminología básica de la creación de imágenes.
 
-Consulte también [Recursos para desarrolladores de Dynamic Media](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
+Consulte también [Recursos para desarrolladores de Dynamic Media](https://experienceleague.adobe.com/es/docs/dynamic-media-developer-resources).
 
 ## Visores {#viewers-guide}
 
 | Documento | Dirección web |
 | --- | --- |
-| Guía de referencia de visores y notas de la versión | [https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/homeviewers](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/homeviewers) |
+| Guía de referencia de visores y notas de la versión | [https://experienceleague.adobe.com/es/docs/dynamic-media-developer-resources/library/homeviewers](https://experienceleague.adobe.com/es/docs/dynamic-media-developer-resources/library/homeviewers) |
 | Ejemplos de la biblioteca de visores | [https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) |
 
 ## API de servicio/procesamiento de imágenes (IS/IR) {#is-ir-api-guide}
 
 | Documento | Dirección web |
 | --- | --- |
-| Guía de referencia de API | [https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/homeisir](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/homeisir) |
+| Guía de referencia de API | [https://experienceleague.adobe.com/es/docs/dynamic-media-developer-resources/image-serving-api/homeisir](https://experienceleague.adobe.com/es/docs/dynamic-media-developer-resources/image-serving-api/homeisir) |
 
 ## API de Image Production System (IPS) {#ips-api-guide}
 
 | Documento | Dirección web |
 | --- | --- |
-| Guía de referencia de API | [https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-production-api/c-overview](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-production-api/c-overview) |
+| Guía de referencia de API | [https://experienceleague.adobe.com/es/docs/dynamic-media-developer-resources/image-production-api/c-overview](https://experienceleague.adobe.com/es/docs/dynamic-media-developer-resources/image-production-api/c-overview) |
 
 <!-- 
 ## Image Authoring {#ia}
