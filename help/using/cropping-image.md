@@ -12,18 +12,14 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T19:43:15.888Z'
 TQID: 'https://experienceleague.adobe.com/ocIRAbDQHlduym6sy-qxPpXaD-UZJp6jzjV758oduZw'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: af8d42004b6de1fea57ea6a59fea930b8e8516e3
 workflow-type: tm+mt
-source-wordcount: 560
-ht-degree: 32%
+source-wordcount: 552
+ht-degree: 25%
 
 ---
 
@@ -31,7 +27,7 @@ ht-degree: 32%
 
 Puede recortar imágenes en Adobe Dynamic Media Classic. El sistema retiene información sobre las imágenes que se recortaron para que pueda restaurar su estado original. También puede recortar una imagen y guardar con otro nombre la versión recortada.
 
-Al recortar una imagen, puede quitar el espacio en blanco que la rodea o un área concreta de la imagen.
+Para eliminar espacios en blanco alrededor de una imagen o recortar un área de la imagen, puede recortarla.
 
 >[!NOTE]
 >
@@ -41,7 +37,7 @@ Al recortar una imagen, puede quitar el espacio en blanco que la rodea o un áre
 
 Puede recortar los píxeles transparentes o de color sólido del borde de una imagen.
 
-1. Para recortar una imagen, selecciona su botón de rollover **[!UICONTROL Editar]** y, a continuación, selecciona **[!UICONTROL Recortar]**, o muéstrala en el panel Examinar en la Vista de detalles y selecciona el botón **[!UICONTROL Recortar]**.
+1. Para recortar una imagen, selecciona su botón de rollover **[!UICONTROL Editar]** y, a continuación, selecciona **[!UICONTROL Recortar]**, o muéstrala en la Vista de detalles del panel de exploración y selecciona el botón **[!UICONTROL Recortar]**.
 1. En la página Editor de recorte, realice una de las acciones siguientes:
 
    * Para recortar píxeles de color, ve a **[!UICONTROL Recortar]** > **[!UICONTROL Color]**. En el cuadro de diálogo **[!UICONTROL Recorte automático por color]**, seleccione el menú **[!UICONTROL Esquina]** y elija una esquina con el color de fondo que desee recortar. A continuación, escriba un valor de **[!UICONTROL Tolerancia]** de 0 a 1. El valor 0 recorta píxeles solo si coinciden exactamente con el color seleccionado en la esquina de la imagen. Los números más cercanos a 1 permiten una mayor diferencia de color. Seleccione **[!UICONTROL Recortar]**.
@@ -55,14 +51,14 @@ Puede recortar los píxeles transparentes o de color sólido del borde de una im
 
 ## Selección de áreas que recortar {#select-an-area-to-crop}
 
-1. Para recortar una imagen, seleccione su botón de rollover **[!UICONTROL Editar]** y elija **[!UICONTROL Recortar]**, o muéstrela en el panel Examinar en la Vista de detalles y seleccione **[!UICONTROL Recortar]**.
+1. Para recortar una imagen, selecciona su botón de rollover **[!UICONTROL Editar]** y elige **[!UICONTROL Recortar]**, o muéstrala en la vista de detalles del panel de exploración y selecciona **[!UICONTROL Recortar]**.
 
-1. En la ventana Editor de recorte, coloque la parte de la imagen que no desea recortar en el cuadro de recorte. Lo que aparezca dentro del cuadro es lo que quedará después de seleccionar **[!UICONTROL Guardar]** y recortar la imagen.
+1. En la ventana Editor de recorte, coloque la parte de la imagen que desea conservar dentro del cuadro de recorte. Lo que aparezca dentro del cuadro permanecerá después de seleccionar **[!UICONTROL Guardar]** y recortar la imagen.
 1. Para ajustar el área de recorte, siga uno de estos procedimientos:
 
-   * Arrastre un lado o una esquina del recuadro. Mantenga pulsada la tecla Mayús mientras arrastra para cambiar el tamaño, pero mantenga la relación de aspecto (la forma) del cuadro de recorte.
+   * Arrastre un lado o una esquina del recuadro. Para cambiar el tamaño pero mantener la relación de aspecto (la forma) del cuadro de recorte, mantenga presionada la tecla Mayús mientras arrastra.
    * Introduzca medidas de píxel en los cuadros Tamaño.
-   * Arrastre para mover el cuadro de recorte. Mueva el puntero dentro de los límites del cuadro. Cuando vea la flecha con cuatro puntas, arrastre el cuadro a una nueva ubicación en la imagen.
+   * Arrastre para mover el cuadro de recorte. Mueva el puntero dentro de los límites del cuadro. Cuando vea el puntero de movimiento, arrastre el cuadro a una nueva ubicación en la imagen.
 
 1. Seleccione **[!UICONTROL Guardar]**.
 
