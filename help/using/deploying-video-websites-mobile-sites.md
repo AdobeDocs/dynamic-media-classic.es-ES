@@ -1,5 +1,5 @@
 ---
-title: Distribución de vídeo en los sitios web y sitios móviles
+title: Implementación de vídeo en sitios web y sitios móviles
 description: Obtenga información sobre cómo implementar vídeo en sus sitios web y sitios móviles desde Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -12,16 +12,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T19:45:00.273Z'
 TQID: 'https://experienceleague.adobe.com/lVQWshcgF66zFJ9pTVdrMaGNowclV5u6nxzqOSetns0'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: ece86bc451fa15d9d4bc688bce4b91c2c2f97e33
 workflow-type: tm+mt
-source-wordcount: 1735
-ht-degree: 22%
+source-wordcount: 1720
+ht-degree: 19%
 
 ---
 
@@ -39,7 +36,7 @@ La publicación de un vídeo permite a los servidores de Adobe Dynamic Media Cla
 
 Existen dos métodos diferentes que puede utilizar para publicar vídeos:
 
-* **Publicar vídeos de forma automática e instantánea al cargarlos**: Como parte del proceso de carga de vídeos, Adobe Dynamic Media Classic puede publicar vídeos automáticamente cuando se cargan y codifican. Esta capacidad de publicación instantánea significa que no hay necesidad de publicar vídeos por separado después del hecho.
+* **Publicar vídeos de forma automática e instantánea al cargarlos**: Como parte del proceso de carga de vídeos, Adobe Dynamic Media Classic puede publicar vídeos automáticamente cuando se cargan y codifican. La publicación instantánea significa que no es necesario publicar los vídeos por separado.
 
 * **Publicar vídeo manualmente después de la carga**: Si no desea publicar vídeos inmediatamente, puede publicarlos manualmente en cualquier momento.
 
@@ -49,7 +46,7 @@ Después de publicar los vídeos, Adobe Dynamic Media Classic activa las cadenas
 
 1. Realice una de las acciones siguientes:
 
-   * Para publicar vídeos de forma automática e instantánea al cargar, en la página Cargar, selecciona **[!UICONTROL Publicar después de cargar]**. Ya ha terminado; no tiene que seguir más pasos.
+   * Para publicar vídeos de forma automática e instantánea tras la carga, selecciona **[!UICONTROL Publicar después de cargar]** en la página Cargar. El proceso ha finalizado; no hay más pasos que realizar.
    * Para publicar vídeos manualmente después de la carga, en el panel Examinar, selecciona los vídeos y, a continuación, en la barra de navegación global, selecciona **Publicar**.
 
 ## Vinculación de una URL de vídeo a un sitio móvil o sitio web {#linking-a-video-url-to-a-mobile-site-or-a-website}
@@ -150,7 +147,8 @@ Si utiliza reproductores de vídeo de terceros o un reproductor de vídeo person
 
   En la página **[!UICONTROL Configuración general de la aplicación]**, en el grupo **[!UICONTROL Servidores]**, en el campo de texto **[!UICONTROL Nombre del servidor publicado]**, cree la dirección URL directa. Utilice la siguiente sintaxis: `server/is/content/company/folder/filename.m3u8`
 
-  Por ejemplo, supongamos que el nombre del servidor publicado es `https://s7d9.scene7.com/.`. Utilizando la sintaxis del paso 2, la dirección URL directa podría tener el aspecto siguiente:
+  Por ejemplo, supongamos que el nombre del servidor publicado es `https://s7d9.scene7.com/`. Utilizando la sintaxis del paso 2, la dirección URL directa es la siguiente:
+
   `https://s7d9.scene7.com/is/content/GeoRetail/AdobeRIA-AVS.m3u8`
 
 * Para generar una URL de vídeo de flujo continuo de HLS directo (velocidad de bits única)
@@ -159,7 +157,8 @@ Si utiliza reproductores de vídeo de terceros o un reproductor de vídeo person
 
   `server/company/folder/filename.ext.m3u8`
 
-  Por ejemplo, suponga que el nombre del servidor de flujo continuo de HLS es `https://s7mbrstream.scene7.com/hls-vod/`. Con la sintaxis del paso 2, la dirección URL directa podría tener el siguiente aspecto:
+  Por ejemplo, suponga que el nombre del servidor de flujo continuo de HLS es `https://s7mbrstream.scene7.com/hls-vod/`. Utilizando la sintaxis del paso 2, la dirección URL directa es la siguiente:
+
   `https://s7mbrstream.scene7.com/hls-vod/GeoRetail/MBR/ToyStory3\_Teaser1\_High\_iPad\_768x432\_1296K.mp4.m3u8`
 
 * Para generar una URL directa de vídeo progresivo
@@ -168,24 +167,25 @@ Si utiliza reproductores de vídeo de terceros o un reproductor de vídeo person
 
   `server/company/folder/filename`
 
-  Por ejemplo, suponga que el nombre del servidor de vídeo progresivo es `https://s7d9.scene7.com/is/content/`. Con la sintaxis del paso 2, la dirección URL directa podría tener el siguiente aspecto:
+  Por ejemplo, suponga que el nombre del servidor de vídeo progresivo es `https://s7d9.scene7.com/is/content/`. Utilizando la sintaxis del paso 2, la dirección URL directa es la siguiente:
+
   `https://s7d9.scene7.com/e2/GeoRetail/SourceVideo/outdoors.mp4`
 
 ## Trabajo con miniaturas de vídeo {#working-with-video-thumbnails}
 
 Adobe Dynamic Media Classic genera miniaturas para vídeos codificados y vídeos precodificados. Puede utilizar las miniaturas de vídeo como cualquier otro recurso de imagen. Además, puede obtener las direcciones URL de las miniaturas de vídeo que genera Adobe Dynamic Media Classic. A continuación, puede implementar estas direcciones URL fuera de Adobe Dynamic Media Classic. Por ejemplo, puede implementar las miniaturas en resultados de búsquedas, listados de vídeos relacionados y listas de reproducción de vídeos en un sitio web.
 
-Las miniaturas se generan en función del primer fotograma heterogéneo (no en un fotograma todo negro o todo blanco, etc. ) del vídeo.
+Las miniaturas se generan en función del primer fotograma heterogéneo (no todo un fotograma negro o todo un fotograma blanco) del vídeo.
 
 ### Obtener URL de miniaturas de vídeo {#obtaining-video-thumbnail-urls}
 
-Adobe Dynamic Media Classic genera miniaturas de vídeo automáticamente durante el proceso de carga. Las miniaturas aparecen en el panel Examinar de las vistas Lista y Cuadrícula.
+Adobe Dynamic Media Classic genera miniaturas de vídeo automáticamente durante el proceso de carga. Las miniaturas aparecerán en la vista de lista y la vista de cuadrícula del panel Examinar.
 
 Para generar direcciones URL para miniaturas de vídeo, realice una operación de publicación.
 
 Ver [Publicar vídeo](deploying-video-websites-mobile-sites.md#publishing_video).
 
-Tras la publicación, puede obtener las URL de las miniaturas de vídeo en la vista de detalles del panel URL y código incrustado. Seleccione **[!UICONTROL Copiar URL]** a la derecha de la miniatura de vídeo para poder copiar su URL asociada.
+Después de la publicación, puede obtener las URL de miniaturas de vídeo en la Vista de detalles del panel URL e Código incrustado. Seleccione **[!UICONTROL Copiar URL]** a la derecha de la miniatura de vídeo para poder copiar su URL asociada.
 
 ### Modificación de fotogramas de póster en visores de vídeo {#modifying-poster-frames-in-video-viewers}
 
@@ -195,7 +195,7 @@ Puede aplicar modificadores de imagen al fotograma de póster. Por ejemplo, pued
 
 Consulte [Agregar o editar un ajuste preestablecido de visualizador de vídeo](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
-Consulte [Guía de servicio de imágenes](https://experienceleague.adobe.com/es/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
+Consulte [Guía de servicio de imágenes](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
 
 También puede modificar las miniaturas de los vídeos agregando modificadores a las URL de las miniaturas de vídeo.
 
