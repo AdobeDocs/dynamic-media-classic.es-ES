@@ -23,18 +23,20 @@ level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 48c22780dad668ea7189197dce2ca2a7edd1cedd
 workflow-type: tm+mt
-source-wordcount: 85
-ht-degree: 3%
+source-wordcount: 84
+ht-degree: 32%
 
 ---
 
 # Deshabilitar el seguimiento de Adobe Analytics{#disabling-adobe-analytics-tracking}
+
+Estos pasos deshabilitan la compatibilidad con Adobe Dynamic Media Classic y con las direcciones URL obtenidas de la característica **[!UICONTROL CopyURL]**. Si implementa el seguimiento personalizado, desactive el seguimiento de Adobe Analytics tal como se ha configurado en la página de configuración para evitar conflictos con la implementación personalizada.
 
 **Para deshabilitar el seguimiento de Adobe Analytics:**
 
 1. Desactive todos los eventos en la página Configuración de Adobe Analytics en Adobe Dynamic Media Classic.
 1. Guarde y publique.
 
-Estos pasos desactivan la compatibilidad con Adobe Dynamic Media Classic y con las direcciones URL obtenidas de la función **[!UICONTROL CopyURL]**. Si implementa un seguimiento personalizado, deshabilite el seguimiento de Adobe Analytics como se ha configurado en la página Configuración para evitar conflictos con la implementación personalizada.
+

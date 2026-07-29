@@ -1,5 +1,5 @@
 ---
-title: Adobe Dynamic Media Classic Desktop
+title: Aplicación de escritorio de Adobe Dynamic Media Classic
 description: Obtenga más información sobre la aplicación de escritorio de Adobe Dynamic Media Classic que ya está disponible.
 contentOwner: rbrough
 content-type: reference
@@ -21,22 +21,22 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: fcd8f761bcc746c402db2f06347b77352d1488f7
 workflow-type: tm+mt
-source-wordcount: 2135
-ht-degree: 1%
+source-wordcount: 2124
+ht-degree: 0%
 
 ---
 
 # Ya disponible: aplicación de escritorio de Adobe Dynamic Media Classic {#dynamic-media-classic-desktop-app}
 
-Los usuarios de Adobe Dynamic Media Classic ahora tienen acceso a una nueva experiencia de aplicación de escritorio que ya no depende de la tecnología Adobe Flash en el navegador.
+Los usuarios de Adobe Dynamic Media Classic ahora tienen acceso a una nueva aplicación de escritorio que ya no depende de la tecnología Adobe Flash en el navegador.
 
 Esta nueva aplicación ya está disponible para Windows® y macOS.
 
 >[!IMPORTANT]
 >
->Adobe recomienda instalar la nueva aplicación de escritorio de Adobe Dynamic Media Classic antes del 1 de octubre de 2020. Al hacerlo, se garantiza una transición sin problemas antes de que Adobe Flash Player quede obsoleto el 31 de diciembre de 2020. Después de esta fecha, no podrá iniciar sesión en la versión del explorador de la interfaz de usuario de Adobe Dynamic Media Classic, etiquetada como Adobe Dynamic Media Classic en el producto.
+>Adobe recomienda instalar la nueva aplicación de escritorio de Adobe Dynamic Media Classic antes del 1 de octubre de 2020. Esto garantiza que tenga un periodo de transición antes de que Adobe Flash Player quede obsoleto el 31 de diciembre de 2020. Después de esta fecha, no podrá iniciar sesión en la versión del explorador de la interfaz de usuario de Adobe Dynamic Media Classic, etiquetada como Adobe Dynamic Media Classic en el producto.
 
 Ver las preguntas frecuentes para el [nuevo inicio de sesión de Adobe Dynamic Media Classic ya disponible.](/help/using/new-ui-2020.md)
 
@@ -60,8 +60,8 @@ No se ha generado una notificación de actualización en la aplicación de escri
 * Al editar una imagen, los botones **[!UICONTROL Guardar]** no funcionaban.
 * En los editores de conjuntos, los botones **[!UICONTROL Cerrar]**, **[!UICONTROL Guardar]** y **[!UICONTROL Guardar como]** se desactivan después de desplazarse por los recursos en el panel **[!UICONTROL Agregar Assets]**.
 * El botón **[!UICONTROL Reproducir]** de la vista de detalles de vídeo no funcionó.
-* No se pudo escribir `d` y `e` en los campos **[!UICONTROL Nombre de usuario]** y **[!UICONTROL Contraseña]** al ejecutar macOS Monterey.
-* Se han movido las API de análisis restantes a la versión 2.0.
+* Los usuarios no pueden escribir `d` y `e` en los campos **[!UICONTROL Nombre de usuario]** y **[!UICONTROL Contraseña]** al ejecutar macOS Monterey.
+* Se han movido las API de Analytics restantes a la versión 2.0.
 
 ## Correcciones en la versión 20.21.3 {#release-sept2021}
 
@@ -77,16 +77,16 @@ No se ha generado una notificación de actualización en la aplicación de escri
 
 ## Correcciones en la versión 20.21.2 {#minor-release}
 
-* Limitación conocida en 20.21.1: la lista desplegable **[!UICONTROL Servidor]** de la pantalla de inicio de sesión estaba vacía.
+* Limitación conocida en 20.21.1: La lista desplegable **[!UICONTROL Servidor]** de la pantalla de inicio de sesión estaba vacía.
 * En **[!UICONTROL Opciones de trabajo de carga]**, el valor predeterminado del nombre de capa en **[!UICONTROL Opciones de Photoshop]** es ahora **[!UICONTROL Photoshop y Nombre de capa]**. Las capas en el archivo PSD se cargan como imágenes independientes.
-   * El valor predeterminado anterior de **[!UICONTROL Nombre de capa]**, asignaba a las imágenes el nombre de su nombre o número de capa en el archivo PSD. El número de capa se utilizaba si los nombres de capa del fichero PSD eran nombres de capa de Photoshop por defecto.
-   * El nuevo valor predeterminado de **[!UICONTROL Photoshop y Nombre de capa]**, asigna un nombre a las imágenes después del archivo PSD seguido del nombre o número de capa. El número de capa se utiliza si los nombres de capa en el archivo PSD son nombres de capa predeterminados de Photoshop.
-   * Dado que las imágenes de capa en Adobe Dynamic Media Classic ahora tienen nombres únicos, no se van a realizar actualizaciones en PSD o Templates existentes (qué nombres de capa compartidos tienen los archivos PSD originales).
+  * El valor predeterminado anterior de **[!UICONTROL Nombre de capa]** asignaba a las imágenes un nombre a partir de su nombre o número de capa en el archivo PSD. El número de capa se utilizaba si los nombres de capa del fichero PSD eran nombres de capa de Adobe Photoshop por defecto.
+  * El nuevo valor predeterminado de **[!UICONTROL Photoshop y Nombre de capa]** asigna un nombre a las imágenes después del archivo PSD seguido del nombre o número de capa. El número de capa se utiliza si los nombres de capa del fichero PSD son nombres de capa Adobe Photoshop por defecto.
+  * Dado que las imágenes de capa de Adobe Dynamic Media Classic ahora tienen nombres únicos, no se realizan actualizaciones de PSD ni de las plantillas existentes (qué nombres de capa compartidos tienen los archivos PSD originales).
 * Miniaturas de recursos rotas.
 
 ## Correcciones en la versión 20.21.1 {#latest-fixes-desktop-app}
 
-* Problemas de inicio de sesión debido al tiempo de espera, lo que da como resultado el siguiente mensaje: *Este usuario puede asignarse al grupo o grupos sin permiso. Póngase en contacto con el administrador.*
+* Problemas con el inicio de sesión debido al tiempo de espera, como resultado del siguiente mensaje: *Este usuario está asignado al grupo o grupos sin permiso. Póngase en contacto con el administrador.*
 * Los ajustes preestablecidos del visor se duplican con cada intento de contraseña incorrecto.
 * La aplicación de escritorio deja de responder debido a muchos recursos de la carpeta raíz. (Se corrigió en Windows®; funciona como se desea en macOS).
 
@@ -110,13 +110,13 @@ Consulte también:
 
    * La versión más reciente está disponible en los siguientes enlaces:
 
-      * [macOS (.DMG): Descargar](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
-      * [Windows (.EXE): Descargar](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
+     * [macOS (.DMG): Descargar](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
+     * [Windows (.EXE): Descargar](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
 
    * La versión anterior está disponible en los siguientes enlaces:
 
-      * [macOS (.DMG): Descargar](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
-      * [Windows® (.EXE): Descargar](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
+     * [macOS (.DMG): Descargar](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
+     * [Windows® (.EXE): Descargar](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
 
 <!--
          * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) 
@@ -160,7 +160,7 @@ Consulte también:
    | Producción de EMEA (Europa, Oriente Medio y África) | https://s7sps3.scene7.com/ |
    | Producción de Asia-Pacífico (Asia-Pacífico) | https://s7sps5.scene7.com/ |
 
-1. Después de iniciar sesión, observe la experiencia familiar de la interfaz de usuario del explorador. Puede continuar con su actividad diaria de Adobe Dynamic Media Classic como de costumbre en la aplicación de escritorio.
+1. Después de iniciar sesión, se muestra la experiencia de interfaz de usuario del explorador. Puede continuar con su actividad de Adobe Dynamic Media Classic como de costumbre en la aplicación de escritorio.
 
 ## Descargue e *instale de forma silenciosa* la aplicación de escritorio más reciente de Adobe Dynamic Media Classic en macOS {#install-silent-mac-dmc-app}
 
@@ -181,7 +181,7 @@ Para descargar y *instalar en modo silencioso* la versión más reciente de la a
 
    `hdiutil attach adobe-dynamic-media-classic-20.22.2.dmg -mountpoint <mount_point_path>`
 
-1. Copie el archivo .APP en **[!UICONTROL Aplicaciones]** mediante el siguiente comando:
+1. Copie el archivo `.APP` en **[!UICONTROL Aplicaciones]** mediante el siguiente comando:
 
    ```
    rsync -a <mount_point_path>/Adobe\ Dynamic\ Media\ Classic.app /Applications/
@@ -204,7 +204,7 @@ Para descargar y *instalar en modo silencioso* la versión más reciente de la a
 
 ## Descargue e *instale de forma silenciosa* la aplicación de escritorio más reciente de Adobe Dynamic Media Classic en Windows® {#install-silent-windows-dmc-app}
 
-El comando que utiliza es para una instalación silenciosa MSI básica. Sin embargo, el instalador de la aplicación de escritorio de Adobe Dynamic Media Classic es un instalador MSI de InstallScript creado con InstallShield. Cuando se ejecuta el instalador en modo de registro, cualquier interacción del usuario se registra en un archivo de respuesta. Este archivo de respuesta se utiliza para una instalación silenciosa como se describe en [Ejecución de instalaciones en modo silencioso](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/SilentInstall.htm).
+El comando que utiliza es para una instalación silenciosa MSI básica. Sin embargo, el instalador de la aplicación de escritorio de Adobe Dynamic Media Classic es un instalador MSI de InstallScript creado con InstallShield. Cuando se ejecuta el instalador en modo de registro, cualquier interacción del usuario se registra en un archivo de respuesta. Este archivo de respuesta se utiliza para una instalación silenciosa, tal como se describe en [Ejecución de instalaciones en modo silencioso](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/SilentInstall.htm).
 
 Consulte también:
 
@@ -286,13 +286,13 @@ Además de borrar la caché de imágenes y recursos mediante la aplicación de e
 
 * Reinicie Adobe Dynamic Media Classic y, a continuación, inicie sesión como de costumbre para trabajar con la nueva empresa.
 
-## Sugerencias y trucos
+## Prácticas recomendadas
 
-**_No puedo ver el panel Carro de medios en la página de aterrizaje de Adobe Dynamic Media Classic._**<br>En Adobe Dynamic Media Classic, pulse&#x200B;**[!UICONTROL Configuración > Configuración personal &#x200B;]**. En la sección Explorador, asegúrese de que&#x200B;**[!UICONTROL Mostrar características de MediaPortal &#x200B;]**&#x200B;está seleccionado (marcado). Pulse&#x200B;**[!UICONTROL Guardar > Cerrar &#x200B;]**.
+***No puedo ver el panel de Media Portal en la página de aterrizaje de Adobe Dynamic Media Classic.***<br>En Adobe Dynamic Media Classic, pulse **[!UICONTROL Configuración > Configuración personal]**. En la sección Explorador, asegúrese de que **[!UICONTROL Mostrar características de MediaPortal]** está seleccionado (marcado). Pulse **[!UICONTROL Guardar > Cerrar]**.
 
-**_El estado de publicación (indicador verde) de un recurso no se refleja correctamente._**<br>En la interfaz de usuario del explorador, se requería volver a iniciar sesión en la interfaz de usuario para ver el estado de publicación correcto de los recursos. En la aplicación de escritorio, Adobe ha incluido el icono&#x200B;**[!UICONTROL Actualizar &#x200B;]**&#x200B;en la barra de herramientas, a la derecha del botón&#x200B;**[!UICONTROL Seleccionar ninguno &#x200B;]**. Pulse el icono&#x200B;**[!UICONTROL Actualizador &#x200B;]**&#x200B;para ver el estado más reciente de todos los recursos de la página dada. No es necesario volver a iniciar sesión, como con la interfaz de usuario del explorador.
+***El estado de publicación (indicador verde) de un recurso no se refleja correctamente.***<br>En la interfaz de usuario del explorador, anteriormente era necesario volver a iniciar sesión en la interfaz de usuario para ver el estado de publicación correcto de los recursos. En la aplicación de escritorio, Adobe ha agregado un icono **[!UICONTROL Actualizar]** en la barra de herramientas, a la derecha del botón **[!UICONTROL Seleccionar ninguno]**. Para ver el estado más reciente de todos los recursos de una página determinada, pulsa el icono **[!UICONTROL Actualizar]**. No se requiere volver a autenticarse, como con la interfaz de usuario del explorador.
 
 ![Icono de actualización](/help/using/assets/refresh-icon1.png)
 *Icono de actualización*
 
-**_No veo que funcionen los ajustes preestablecidos de conjunto por lotes en la aplicación de escritorio._**<br>Pulse&#x200B;**[!UICONTROL Cargar > Opciones del trabajo > Ajustes preestablecidos de conjunto de lotes &#x200B;]**. Asegúrese de que el&#x200B;**[!UICONTROL ajuste preestablecido de conjuntos de lotes &#x200B;]**&#x200B;correspondiente esté habilitado. Haga clic en&#x200B;**[!UICONTROL Guardar y enviar carga &#x200B;]**.
+***No veo que funcionen los ajustes preestablecidos de conjunto de lotes en la aplicación de escritorio.***<br>Puntee en **[!UICONTROL Cargar > Opciones del trabajo > Ajustes preestablecidos de conjunto de lotes]**. Asegúrese de que el **[!UICONTROL ajuste preestablecido de conjuntos de lotes]** correspondiente esté habilitado. Haga clic en **[!UICONTROL Guardar y enviar carga]**.

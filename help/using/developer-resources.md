@@ -1,5 +1,5 @@
 ---
-title: Recursos para el desarrollador
+title: Recursos para desarrolladores
 description: Obtenga información acerca de los recursos para desarrolladores disponibles para Dynamic Media.
 contentOwner: Rick Brough
 content-type: reference
@@ -17,16 +17,16 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: ef0ddb7b88e52964af778ddb3ab049ce540f8f3d
 workflow-type: tm+mt
-source-wordcount: 228
+source-wordcount: 221
 ht-degree: 12%
 
 ---
 
 # Recursos para el desarrollador {#developer-resources}
 
-Las guías de referencia para visores, servicio y renderización de imágenes y Image Production System describen los protocolos http para estos módulos de servidor. Los desarrolladores de sitios web que deseen seguir personalizando y utilizar medios enriquecidos de Adobe Dynamic Media Classic para un sitio web o una aplicación personalizada pueden utilizar estas guías. Se da por hecho que el usuario está familiarizado con la aplicación de escritorio de Dynamic Media Classic, las convenciones y los estándares generales de protocolo http y la terminología básica de imágenes.
+Las guías de referencia para visores, servicio y renderización de imágenes y Image Production System describen los protocolos HTTP para estos módulos de servidor. Los desarrolladores de sitios web que deseen personalizar y utilizar medios enriquecidos de Adobe Dynamic Media Classic para un sitio web o una aplicación personalizada pueden utilizar estas guías. Los usuarios deben estar familiarizados con la aplicación de escritorio de Dynamic Media Classic, las normas y convenciones generales del protocolo HTTP y la terminología básica de la creación de imágenes.
 
 Consulte también [Recursos para desarrolladores de Dynamic Media](https://experienceleague.adobe.com/es/docs/dynamic-media-developer-resources).
 

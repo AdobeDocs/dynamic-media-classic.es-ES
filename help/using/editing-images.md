@@ -1,5 +1,5 @@
 ---
-title: Edición de imágenes
+title: Editar imágenes
 description: Obtenga información sobre cómo editar imágenes en Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -18,27 +18,27 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 7030f0f6339a3fd25ac7d81f5d11cd2edbc1996a
 workflow-type: tm+mt
-source-wordcount: 318
+source-wordcount: 317
 ht-degree: 7%
 
 ---
 
 # Edición de imágenes{#editing-images}
 
-Adobe Dynamic Media Classic ofrece muchas herramientas para crear efectos de medios enriquecidos. Estas herramientas están disponibles al seleccionar el botón **[!UICONTROL Editar]** de rollover y en el panel Examinar de la Vista de detalles. Puede realizar las siguientes tareas de edición de imágenes en Adobe Dynamic Media Classic:
+Adobe Dynamic Media Classic ofrece muchas herramientas para crear efectos multimedia. Estas herramientas están disponibles al seleccionar el botón de rollover **[!UICONTROL Editar]** o en el panel Examinar de la vista de detalles. Puede realizar las siguientes tareas de edición de imágenes en Adobe Dynamic Media Classic:
 
 * **Crear mapas de imagen**: Para crear un mapa de imagen, seleccione el comando Imagen o el botón **[!UICONTROL Mapa de imagen]**. Un mapa de imagen es un punto interactivo de una imagen, una página de catálogo electrónico o una imagen de un conjunto de giros que muestra un panel con texto de rollover. Los usuarios pueden seleccionar un mapa de imagen, por ejemplo, para iniciar una nueva página web. Consulte [Crear mapas de imagen](/help/using/creating-image-maps.md).
 
-* **Crear destinos de zoom**: Para crear destinos de miniatura, puede seleccionar el comando Destinos de zoom o el botón **[!UICONTROL Destinos de zoom]**. Los usuarios pueden seleccionar un destino de miniatura en el visor de zoom para ampliar directamente a una parte concreta de una imagen. Ver [Crear destinos de zoom para el zoom guiado](/help/using/creating-zoom-targets-guided-zoom.md).
+* **Crear destinos de zoom**: Para crear destinos de zoom, puede seleccionar el comando Destinos de zoom o el botón **[!UICONTROL Destinos de zoom]**. Los usuarios pueden seleccionar un destino de miniatura en el visor de zoom para ampliar directamente a una parte concreta de una imagen. Ver [Crear destinos de zoom para el zoom guiado](/help/using/creating-zoom-targets-guided-zoom.md).
 
 * **Recortar una imagen**: Para recortar una imagen, seleccione el comando Recortar o el botón **[!UICONTROL Recortar]**. Consulte [Recortar una imagen](/help/using/cropping-image.md).
 
 * **Enfoque de una imagen**: haga que los contornos de una imagen sean menos borrosos al seleccionar el comando Enfoque o el botón **[!UICONTROL Enfoque]**. Ver [Enfoque de una imagen](/help/using/sharpening-image.md).
 
-* **Ajustar una imagen**: selecciona el comando `Adjust` o el botón **[!UICONTROL Ajustar]** para voltear, rotar, desenfocar, colorear o alterar el equilibrio de color de una imagen. Ver [Ajustar una imagen](/help/using/adjusting-image.md).
+* **Ajustar una imagen**: seleccione el comando `Adjust` o el botón **[!UICONTROL Ajustar]** para voltear, rotar, desenfocar, colorear o modificar el equilibrio de color de una imagen. Ver [Ajustar una imagen](/help/using/adjusting-image.md).
 
-* **Editar capas**: para mostrar capas individuales editables en un archivo PSD, seleccione la pestaña **[!UICONTROL Capas]**. Al cargar un archivo de PSD, todas las capas se cargan individualmente como archivos independientes para que pueda editarlas en Adobe Dynamic Media Classic.
+* **Editar capas**: para mostrar capas individuales editables en un archivo PSD, seleccione la pestaña **[!UICONTROL Capas]**. Al cargar un archivo PSD, todas las capas se cargan individualmente como archivos independientes para que pueda editarlas en Adobe Dynamic Media Classic.
 
 Además de utilizar estas herramientas para editar imágenes, puede editar imágenes a medida que las carga en Adobe Dynamic Media Classic. Por ejemplo, puede recortar imágenes, crear una máscara a partir de una ruta de recorte, y seleccionar un perfil de color para una imagen al cargarla.
