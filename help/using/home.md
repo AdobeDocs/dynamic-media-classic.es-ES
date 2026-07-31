@@ -40,7 +40,7 @@ Ver [Preguntas más frecuentes](new-ui-2020.md). Las nuevas actualizaciones entr
 
 ## Recursos para desarrolladores de Dynamic Media
 
-* [Página de aterrizaje de Recursos para desarrolladores de Dynamic Media](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources): Incluye:
+* [Página de aterrizaje de Recursos para desarrolladores de Dynamic Media](https://experienceleague.adobe.com/es/docs/dynamic-media-developer-resources): Incluye:
   * Guía de referencia del visor
   * API de servicio/renderización de imágenes
   * API del sistema de producción de imágenes
@@ -50,7 +50,7 @@ Ver [Preguntas más frecuentes](new-ui-2020.md). Las nuevas actualizaciones entr
 ## Recursos de usuario de Adobe Dynamic Media Classic
 
 * [Boletín mensual de Dynamic Media](dynamic-media-newsletter.md)
-* [Tutorial sobre prácticas recomendadas de Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
+* [Tutorial sobre prácticas recomendadas de Adobe Dynamic Media Classic](https://experienceleague.adobe.com/es/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 * [Guía: Guía de prácticas recomendadas para enfocar imágenes](/help/using/assets/s7_sharpening_images.pdf)
 * [Guía: Cómo admite Adobe Dynamic Media Classic SEO](/help/using/assets/s7_seo.pdf): Los motores de búsqueda permiten hoy la búsqueda de sitios web e imágenes. Adobe Dynamic Media Classic respalda los esfuerzos por optimizar el motor de búsqueda de imágenes para que se dirija más tráfico al sitio web del usuario de Adobe Dynamic Media Classic. Esta guía de PDF proporciona los antecedentes y las recomendaciones de implementación para lograr ese resultado.
 <!-- * [Webinar: Best Practices for Responsive Design](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html): Learn practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one primary asset that works across multiple devices and increase mobile performance by dynamically changing the resolution of images or the orientation of images for portrait or landscape displays. Learn how to also dynamically crop, scale, or resize images. -->
@@ -62,6 +62,6 @@ Ver [Preguntas más frecuentes](new-ui-2020.md). Las nuevas actualizaciones entr
 
 ## Formación de Adobe Dynamic Media Classic
 
-Ir [aquí](https://experienceleague.adobe.com/en/premium/premium-search?sort=relevance&q=dynamic+media).
+Ir [aquí](https://experienceleague.adobe.com/es/premium/premium-search?sort=relevance&q=dynamic+media).
 
 [Vídeos De Formación De Adobe Dynamic Media Classic](/help/using/training-videos.md).
