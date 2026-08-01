@@ -12,24 +12,21 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:00:57.150Z'
 TQID: 'https://experienceleague.adobe.com/Q5-EarOAdtuY4h49QkLiDbhbGeCt2DQu--chprO1L50'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 65591cf1e26795a581209be9eba93d4161452025
 workflow-type: tm+mt
-source-wordcount: 165
+source-wordcount: 167
 ht-degree: 0%
 
 ---
 
 # Inclusión de destinos de zoom y mapas de imagen en conjuntos de imágenes{#including-zoom-targets-and-image-maps-in-image-sets}
 
-Si define Destinos de zoom y Mapas de imagen para las imágenes del conjunto de imágenes, estos destinos y mapas aparecerán en el Visor de conjuntos de imágenes. Los usuarios, por ejemplo, pueden seleccionar un mapa de imagen en el visor de conjuntos de imágenes y abrir una nueva página en el sitio web con información sobre un elemento. Los usuarios pueden seleccionar una imagen en miniatura de destino en el visualizador de conjuntos de imágenes y aplicar zoom automáticamente a parte de la imagen.
+Si define Destinos de zoom y Mapas de imagen para las imágenes del conjunto de imágenes, estos destinos y mapas aparecerán en el Visor de conjuntos de imágenes. Los usuarios, por ejemplo, pueden seleccionar un mapa de imagen en el visor de conjuntos de imágenes y abrir una nueva página del sitio web con información sobre un elemento. Los usuarios pueden seleccionar una imagen en miniatura de destino en el visualizador de conjuntos de imágenes y aplicar zoom automáticamente a una zona específica de la imagen.
 
-Si desea que los destinos de zoom y los mapas de imagen estén disponibles para los usuarios, cree destinos de zoom y mapas de imagen para las imágenes del conjunto de imágenes. Puede hacerlo con las herramientas Mapas de imágenes o Destinos de zoom en la pantalla Conjunto de imágenes o en el panel Examinar (en la Vista de detalles).
+Si desea que los destinos de zoom y los mapas de imagen estén disponibles para los usuarios, cree destinos de zoom y mapas de imagen para las imágenes del conjunto de imágenes. Puede realizar esta acción con las herramientas Mapas de imágenes o Destinos de zoom en la pantalla Conjunto de imágenes o en el panel Examinar (en la Vista de detalles).
 
 >[!MORELIKETHIS]
 >
