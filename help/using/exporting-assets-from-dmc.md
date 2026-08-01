@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 74b2fd3a2c7808f5a3cb73bdece56d2914090d8e
 workflow-type: tm+mt
-source-wordcount: 443
-ht-degree: 38%
+source-wordcount: 448
+ht-degree: 32%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Dynamic Media Classic mantiene un registro de los trabajos de exportación
 **Para exportar recursos desde Adobe Dynamic Media Classic:**
 
 1. Seleccione los recursos que desea exportar y, a continuación, vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Exportar]**.
-1. En la ventana Exportar recursos seleccionados, haga clic en **[!UICONTROL Opciones de imagen]** y especifique cualquiera de las siguientes opciones (los administradores determinan las opciones que están disponibles para los usuarios):
+1. En la ventana Exportar Assets seleccionado, haga clic en **[!UICONTROL Opciones de imagen]** y, a continuación, especifique cualquiera de las siguientes opciones (los administradores determinan qué opciones están disponibles para los usuarios del software):
 
    * **[!UICONTROL Ajustes preestablecidos]**: de forma opcional, elija un Ajuste preestablecido de imagen para dar formato al recurso al exportarlo. Si elige un ajuste preestablecido de imagen, las otras opciones de formato no estarán disponibles, ya que el recurso adopta los formatos definidos en el ajuste preestablecido de imagen.
 
@@ -86,4 +86,4 @@ Es posible usar la conversión con el fin de exportar los siguientes tipos de re
 Si se indica una amplia selección de tipos de recursos diversos al proceso de exportación, se produce el siguiente comportamiento:
 
 * Todos los tipos de recursos que no se pueden exportar se eliminan de la lista antes del envío del trabajo
-* Si se solicita una conversión, todos los tipos que se pueden convertir son y todos los demás se exportan como originales
+* Si se solicita una conversión, se procesan todos los tipos que se pueden convertir y todos los demás se exportan como el archivo original

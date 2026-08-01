@@ -20,16 +20,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: df89051c2f5083cdf7ae39f978ab0bfc05230296
 workflow-type: tm+mt
-source-wordcount: 92
-ht-degree: 42%
+source-wordcount: 88
+ht-degree: 34%
 
 ---
 
 # Obtener información de uso del disco {#get-disk-usage-information}
 
-Puede usar el parámetro `disk_info` para recuperar información sobre el uso del espacio en disco de una compañía, como se muestra en el siguiente ejemplo:
+Puede usar el parámetro `disk_info` para recuperar información sobre el uso del espacio en disco, como se muestra en el siguiente ejemplo:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=disk_info&shared_secret=d03b7e0b-c9dc-4c6c-af0b-419beeea1c63
@@ -60,7 +60,7 @@ Se pueden usar los campos siguientes en la cadena de consulta URL para obtener i
 | op | Obligatorio | disk_info |
 | shared_secret | Obligatorio | La clave que es un secreto compartido para la compañía |
 
-El siguiente ejemplo de código obtiene información del disco de la empresa 000Company:
+El siguiente código de ejemplo obtiene información del disco:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=disk_info&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b9602

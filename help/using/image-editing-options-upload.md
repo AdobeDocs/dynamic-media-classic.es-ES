@@ -20,45 +20,45 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: d4b7c732ad5e23237d00f1c5d344f1264ac48293
 workflow-type: tm+mt
-source-wordcount: 1212
-ht-degree: 26%
+source-wordcount: 1203
+ht-degree: 19%
 
 ---
 
 # Opciones de ajuste de imagen al cargar{#image-editing-options-at-upload}
 
-A la hora de cargar archivos de imágenes, incluidos archivos AI, EPS y PSD, podrá realizar las siguientes tareas de edición desde el cuadro de diálogo Opciones de trabajo de carga:
+Al cargar archivos AI, EPS y PSD, puede realizar estas acciones en el [!UICONTROL cuadro de diálogo Cargar opciones del trabajo]:
 
 * Recorte el espacio en blanco desde el borde de las imágenes.
 * Recortar manualmente de los lados de imágenes.
 * Elegir un perfil de color.
 * Crear una máscara a partir de una ruta de recorte.
-* Enfoque de imágenes con las opciones de máscara de enfoque
-* Fondo de cobertura
+* Enfoque de imágenes con opciones de máscara de enfoque.
+* Golpea el fondo.
 
 Estas opciones se encuentran en la página Cargar bajo el encabezado **[!UICONTROL Opciones de edición de imágenes]**.
 
 ## Recortar espacio en blanco de las imágenes
 
-Puede recortar automáticamente los píxeles del espacio en blanco de una imagen. En el cuadro de diálogo Cargar opciones del trabajo, seleccione **[!UICONTROL Opciones de recorte]**. En la lista desplegable **[!UICONTROL Recortar]**, elija **[!UICONTROL Recortar]**. Elija a continuación estas opciones:
+Puede recortar automáticamente los píxeles de espacio en blanco de una imagen. En el cuadro de diálogo Cargar opciones del trabajo, seleccione **[!UICONTROL Opciones de recorte]**. En la lista desplegable **[!UICONTROL Recortar]**, elija **[!UICONTROL Recortar]**. Elija a continuación estas opciones:
 
 * **[!UICONTROL Recortar basándose en]**: en esta lista desplegable, elija si desea recortar basándose en el color o en la transparencia:
 
-   * **[!UICONTROL Color]**: elige la opción **[!UICONTROL Color]**. A continuación, en la lista desplegable **[!UICONTROL Esquina]**, seleccione la esquina de la imagen con el color que mejor represente el color del espacio en blanco que desee recortar.
+  * **[!UICONTROL Color]**: elige la opción **[!UICONTROL Color]**. A continuación, en la lista desplegable **[!UICONTROL Esquina]**, seleccione la esquina de la imagen con el color que mejor represente el color del espacio en blanco que desee recortar.
 
-   * **[!UICONTROL Transparencia]**: elija la opción Transparencia.
+  * **[!UICONTROL Transparencia]**: elija la opción Transparencia.
 
-* **[!UICONTROL Tolerancia]**: arrastre el control deslizante para especificar una tolerancia de 0 a 1:
+* **[!UICONTROL Tolerancia]**: Para especificar una tolerancia de 0 a 1, arrastre el control deslizante:
 
-   * **Recorte basado en el color**: especifique 0 para recortar píxeles solo si coinciden exactamente con el color seleccionado en la esquina de la imagen. Los números más cercanos a 1 permiten una mayor diferencia de color.
+  * **Recorte basado en el color**: especifique 0 para recortar píxeles solo si coinciden exactamente con el color seleccionado en la esquina de la imagen. Los números más cercanos a 1 permiten una mayor diferencia de color.
 
-   * **Recorte basado en la transparencia**: especifique 0 para recortar píxeles sólo si son transparentes; los números más cercanos a 1 permiten una mayor transparencia.
+  * **Recorte basado en la transparencia**: especifique 0 para recortar píxeles sólo si son transparentes; los números más cercanos a 1 permiten una mayor transparencia.
 
 ## Recortar manualmente desde los lados de las imágenes
 
-Para recortar manualmente de los lados de una imagen, seleccione el menú Recortar y elija Manual. A continuación, introduzca el número de píxeles que recortar de uno o ambos lados de la imagen. La cantidad de imagen que se recorte dependerá del valor ppp (píxeles por pulgada) en el archivo de imagen. Por ejemplo, supongamos que la imagen muestra 150 ppp. A continuación, escriba 75 en los cuadros de texto Superior, Derecha, Inferior e Izquierda. En este punto, cada lado se recorta 0,5 pulgadas.
+Para recortar manualmente de los lados de una imagen, seleccione el menú Recortar y elija Manual. A continuación, introduzca el número de píxeles que recortar de uno o ambos lados de la imagen. La cantidad de imagen recortada depende de la configuración de ppp (píxeles por pulgada) en el archivo de imagen. Por ejemplo, supongamos que la imagen muestra 150 ppp. A continuación, escriba 75 en los cuadros de texto Superior, Derecha, Inferior e Izquierda. En este punto, cada lado se recorta 0,5 pulgadas.
 
 ## Elija un perfil de color
 
@@ -68,7 +68,7 @@ Para seleccionar un espacio de color para la imagen, elija una opción de Perfil
 
 * **[!UICONTROL Conservar el espacio de color original]**: conserva el espacio de color original.
 
-* **[!UICONTROL Personalizar desde]** > **[!UICONTROL hasta]**: abre menús para que pueda elegir un espacio de color Convertir desde y Convertir a. Puede elegir un espacio de color estándar de Photoshop o un espacio de color que haya cargado en Adobe Dynamic Media Classic.
+* **[!UICONTROL Personalizar desde]** > **[!UICONTROL hasta]**: abre menús para que pueda elegir un espacio de color Convertir desde y Convertir a. Puede elegir un espacio de color estándar de Adobe Photoshop o un espacio de color que haya cargado en Adobe Dynamic Media Classic.
 
 Consulte [Perfiles ICC](icc-profiles.md#icc_profiles).
 
@@ -76,11 +76,11 @@ Consulte [Perfiles ICC](icc-profiles.md#icc_profiles).
 
 Para crear una máscara para la imagen basada en la información de ruta de recorte, seleccione **[!UICONTROL Crear máscara a partir de ruta de recorte]**. Esta opción es aplicable a imágenes creadas con aplicaciones de edición de imágenes en que se ha creado una ruta de recorte.
 
-## Enfoque de una imagen mediante la máscara de enfoque
+## Enfoque de una imagen con Máscara de enfoque
 
 Este filtro le permite ajustar un efecto de filtro de enfoque en la imagen final con disminución de resolución. Ayuda a controlar la intensidad del efecto, el radio del efecto (medido en píxeles) y un umbral de contraste que se ignora.
 
-Este efecto utiliza las mismas opciones que el filtro Máscara de enfoque de Photoshop. Máscara de enfoque es un filtro de enfoque.
+Este efecto utiliza las mismas opciones que el filtro Máscara de enfoque de Adobe Photoshop. Aunque el nombre puede resultar confuso, Máscara de enfoque es un filtro de enfoque.
 
 En Máscara de enfoque, establezca las opciones que desee. Las opciones de configuración se describen en la siguiente tabla:
 
@@ -95,9 +95,9 @@ Consulte también [Enfoque de una imagen](sharpening-image.md#sharpening_an_imag
 
 Vea también [Enfoque de imágenes en Adobe Dynamic Media y en Image Server](/help/using/assets/s7_sharpening_images.pdf).
 
-## Fondo de cobertura
+## Quitar fondo
 
-Utilice Fondo de cobertura para poder eliminar automáticamente el fondo de una imagen cuando la cargue. Esta técnica es útil para resaltar un objeto concreto y hacer que destaque en un fondo recargado.
+Utilice Quitar fondo para quitar el fondo de una imagen automáticamente al cargarla. Esta técnica es útil para resaltar un objeto en particular y aislarlo de un fondo complejo.
 
 | Opciones de fondo de cobertura | Descripción |
 | --- | --- |

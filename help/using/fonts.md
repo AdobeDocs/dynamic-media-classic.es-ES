@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: aff765628275d5725ace65a497424effb8213c37
 workflow-type: tm+mt
-source-wordcount: 430
-ht-degree: 23%
+source-wordcount: 431
+ht-degree: 16%
 
 ---
 
@@ -41,7 +41,7 @@ Una vez cargado un archivo de fuente, puede cambiar su Adobe Dynamic Media Class
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic recomienda cargar todos los estilos de fuente (negrita, cursiva, negrita/cursiva y normal) si planea utilizar fuentes en las capas de plantilla. Adobe Dynamic Media Classic necesita estos estilos de fuente para procesar solicitudes. También se recomienda cargar todos los `PostScript/Adobe Type1` archivos asociados con una fuente, ya que algunas de estas fuentes contienen información detallada sobre el kerning.
+>Adobe Dynamic Media Classic recomienda cargar todos los estilos de fuente (negrita, cursiva, negrita/cursiva y normal) si planea utilizar fuentes en las capas de plantilla. Adobe Dynamic Media Classic necesita estos estilos de fuente para procesar solicitudes. También se recomienda cargar todos los `PostScript/Adobe Type1` archivos asociados con una fuente porque algunas de estas fuentes contienen datos de kerning específicos.
 
 ## Cargar archivos de fuentes {#uploading-font-files}
 
@@ -49,7 +49,7 @@ Cargue archivos de fuente utilizando las mismas técnicas que usa para cargar ot
 
 ## Editar información del archivo de fuente {#editing-font-file-information}
 
-Puede cambiar el nombre de ID de una fuente y su información de tipo. Editar una fuente puede resultar útil en las búsquedas y facilitar la identificación de fuentes.
+Puede cambiar el nombre de ID de una fuente y su información de tipo. Editar un archivo de fuente puede ser útil para las búsquedas y facilitar la identificación de las fuentes.
 
 En el panel Examinar, seleccione el archivo de fuente que desee editar en Vista de detalles y elija Archivo > Editar información. Se abrirá la pantalla Editar información. Elija las siguientes opciones y luego seleccione **[!UICONTROL Enviar]**.
 
@@ -63,14 +63,14 @@ En el panel Examinar, seleccione el archivo de fuente que desee editar en Vista 
 
 * **[!UICONTROL Estilo de fuente]**: las opciones son Sin formato, Negrita, Cursiva y Negrita-Cursiva.
 
-* **[!UICONTROL Tipo de fuente]**: las opciones son TrueType y Adobe Type 1. Si utiliza otro nombre para denominar estas fuentes, puede introducirlo.
+* **[!UICONTROL Tipo de fuente]**: las opciones son TrueType y Adobe Type 1. Si llama a estas fuentes con otro nombre, puede escribir los nombres.
 
 * **[!UICONTROL Abreviatura de tipo de fuente]**: Las opciones son las siguientes:
 
-   * **[!UICONTROL TTF]**: Archivos de fuente TrueType utilizados para la representación y el servicio de imágenes de PDF/PostScript.
+  * **[!UICONTROL TTF]**: Archivos de fuente TrueType utilizados para la representación y el servicio de imágenes de PDF/PostScript.
 
-   * **[!UICONTROL AFM]**: archivos de fuentes de Adobe PostScript que contienen información de métricas de fuentes de Adobe y se utilizan para el servicio de imágenes.
+  * **[!UICONTROL AFM]**: archivos de fuentes de Adobe PostScript que contienen información de métricas de fuentes de Adobe y se utilizan para el servicio de imágenes.
 
-   * **[!UICONTROL PFM]**: archivos de fuentes de Adobe PostScript que contienen información de métricas de fuentes binarias.
+  * **[!UICONTROL PFM]**: archivos de fuentes de Adobe PostScript que contienen información de métricas de fuentes binarias.
 
-   * **[!UICONTROL PFB]**: archivos de fuentes de Adobe PostScript que contienen información de esquema de fuentes binarias y que se utilizan para el procesamiento y el servicio de imágenes de PDF/PostScript.
+  * **[!UICONTROL PFB]**: archivos de fuentes de Adobe PostScript que contienen información de esquema de fuentes binarias y que se utilizan para el procesamiento y el servicio de imágenes de PDF/PostScript.
