@@ -57,7 +57,7 @@ Sus sitios web y aplicaciones acceden al contenido de Dynamic Media Image Server
 
 El método estándar para implementar un catálogo electrónico es agregar un vínculo mediante una portada en miniatura de catálogo electrónico en la página Web. Para asegurarse de que el catálogo electrónico se inicia en una ventana emergente centrada, póngase en contacto con el departamento de TI. Para ocultar la barra de herramientas y la barra de direcciones, configure el explorador.
 
-Para obtener más detalles y ejemplos de código, consulte [Visor de catálogo electrónico HTML5 incrustado](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) en la Referencia de visores de Adobe.
+Para obtener más detalles y ejemplos de código, consulte [Visor de catálogo electrónico HTML5 incrustado](https://experienceleague.adobe.com/es/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) en la Referencia de visores de Adobe.
 
 ## Copiar el código incrustado de un visor de catálogos electrónicos {#copying-the-embed-code-of-an-ecatalog-viewer}
 
