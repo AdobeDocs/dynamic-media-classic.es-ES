@@ -12,27 +12,24 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:02:51.028Z'
 TQID: 'https://experienceleague.adobe.com/3AeMn6W1vePdJL1PkXuy-YISRw75QUDfdkUP5V2xhEs'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: afcc58640eb472fbd6877795fa24414b15eccf55
 workflow-type: tm+mt
-source-wordcount: 657
-ht-degree: 20%
+source-wordcount: 650
+ht-degree: 23%
 
 ---
 
 # Vinculación de un conjunto de medios mixtos a una página web{#linking-a-mixed-media-set-to-a-web-page}
 
-Después de publicar un conjunto de medios mixtos, puede obtener su dirección URL asociada para usarla en su sitio web o aplicación. A continuación, puede implementar la dirección URL según sea necesario para que los usuarios puedan ver el conjunto de medios mixtos en su sitio web o aplicación.
+Después de publicar un conjunto de medios mixtos, puede obtener su URL asociada para usarla en su sitio web o aplicación. A continuación puede implementar la URL como lo necesite para que los usuarios puedan ver el conjunto de medios mixtos en la página Web o aplicación.
 
 ## Obtención de URL para un conjunto de medios mixtos {#obtain-a-mixed-media-set-url}
 
 1. En el panel Examen de recursos, en la lista desplegable Mostrar, seleccione **[!UICONTROL Conjunto de medios]**.
-1. en el panel Biblioteca de recursos, en el lado izquierdo, navegue hasta la carpeta de recursos que contenga el conjunto de medios cuyo código incrustado desee copiar.
+1. En el panel Biblioteca de recursos de la izquierda, vaya a la carpeta de recursos. Contiene el conjunto de medios cuyo código incrustado desea copiar.
 1. Encima del panel de exploración de recursos, en la parte derecha de la barra de herramientas, realice una de las siguientes acciones:
 
    * Haga clic en **[!UICONTROL Vista de cuadrícula]**. En el panel de exploración de recursos, haga doble clic en un único recurso para abrirlo en la vista de detalles. En el panel Direcciones URL e Código incrustado que se encuentra a la derecha, seleccione **[!UICONTROL Copiar dirección URL]** a la derecha del visor que desee.
@@ -50,7 +47,7 @@ Después de publicar un conjunto de medios mixtos, puede obtener su dirección U
 
 ## Añadir URL de conjuntos de medios mixtos a la página web {#add-mixed-media-set-urls-to-your-web-page}
 
-La forma más común de implementar un conjunto de medios mixtos es colocar un vínculo (mediante un icono de navegación) en la página web. Cuando se selecciona, el vínculo inicia una página dinámica (ASP o JSP) que muestra el conjunto de medios mixtos en el visualizador de conjuntos de medios mixtos.
+Un método estándar para implementar un conjunto de medios mixtos es agregar un vínculo (mediante un icono de navegación) en la página web. Cuando se selecciona, el vínculo inicia una página dinámica (ASP o JSP) que muestra el conjunto de medios mixtos en el visualizador de conjuntos de medios mixtos.
 
 ## Copiar el código incrustado de un visualizador de conjuntos de medios mixtos {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
