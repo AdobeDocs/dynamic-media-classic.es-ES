@@ -20,27 +20,27 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: a6556d91057da7b0cd02523a48f97e2eadcebb88
 workflow-type: tm+mt
-source-wordcount: 890
-ht-degree: 38%
+source-wordcount: 889
+ht-degree: 26%
 
 ---
 
 # Administración del contenido del panel de información en catálogos electrónicos{#managing-info-panel-content-in-ecatalogs}
 
-Además de utilizar el texto del mapa de imagen para sus rollover en los catálogos electrónicos, puede utilizar un panel de información para agregar grandes cantidades de texto rollover, incluyendo los vínculos. También puede administrar el panel de información mediante el almacenamiento en caché programado y las actualizaciones de contenido.
+Además de utilizar el texto del mapa de imagen para sus rollover en los catálogos electrónicos, puede utilizar un panel de información para agregar grandes cantidades de texto rollover, incluyendo los vínculos. También puede administrar el Panel de información mediante el almacenamiento en caché temporizado y la programación de actualizaciones de contenido.
 
-Puede administrar la configuración y los datos de InfoPanel mediante las siguientes funciones de Adobe Dynamic Media Classic:
+Puede administrar la configuración y los datos del panel de información mediante las siguientes funciones de Adobe Dynamic Media Classic:
 
 * El panel Configuración de InfoPanel le permite especificar la plantilla utilizada para mostrar el texto del Panel de información, una respuesta predeterminada para los errores y el número de horas que la información se almacena en caché. Además, puede especificar si los catálogos electrónicos se publican automáticamente.
-* El panel Fuente de datos de InfoPanel le permite especificar un archivo CSV que contiene el texto que desea que aparezca en el texto de rollover de InfoPanel y programar tiempos para actualizar la información.
+* El panel Información Panel Fuente de datos permite especificar un archivo CSV. Este archivo contiene el texto que desea que aparezca en el texto de rollover del panel de información. También puede programar tiempos para actualizar la información.
 * El cuadro de diálogo Importar metadatos (al que se accede desde la vista Páginas de mapa) permite importar un archivo TXT delimitado por tabuladores que contiene la información de texto de rollover. Puede utilizar esta opción TXT o el panel Fuente de datos con la opción de archivo CSV para el texto de rollover.
-* La vista Páginas de mapas proporciona una opción para obtener una vista previa del xml que aparece para mapas de imagen específicos.
+* La vista Páginas de mapas proporciona una opción para obtener una vista previa del XML que aparece para mapas de imágenes específicos.
 
 ## Configuración de una plantilla de respuesta para catálogos electrónicos {#set-up-a-response-template-for-ecatalogs}
 
-Puede seleccionar una de las tres plantillas de respuesta preestablecidas para mostrar el texto en un panel de información. Estas plantillas de respuesta preestablecidas determinan cómo se presenta la información en el panel de información: el número de columnas y filas, el tamaño del tipo de letra, la fuente, etc. Puede seleccionar una plantilla de respuesta preestablecida o crear una propia.
+Puede seleccionar una de las tres plantillas de respuesta preestablecidas para mostrar texto en un panel de información. Estas plantillas de respuesta preestablecidas determinan cómo se presenta la información en el panel de información: cuántas columnas y filas, tipo de letra, tamaño, fuente y otros ajustes. Puede seleccionar una plantilla de respuesta preestablecida o crear una propia.
 
 >[!NOTE]
 >
@@ -53,13 +53,13 @@ Puede seleccionar una de las tres plantillas de respuesta preestablecidas para m
 1. Seleccione una plantilla de respuesta:
 
    * Seleccione un ajuste preestablecido en el menú de la plantilla de respuesta. El XML para el diseño de la plantilla aparece en el cuadro de plantilla de usuario.
-   * Para crear tu propia plantilla de respuesta, selecciona **[!UICONTROL Personalizado]**. Escriba la definición de la plantilla XML en el cuadro de plantilla de usuario. Puede usar una plantilla preestablecida como base para la suya propia.
+   * Para crear tu propia plantilla de respuesta, selecciona **[!UICONTROL Personalizado]**. Escriba la definición de la plantilla XML en el cuadro de plantilla de usuario. Puede utilizar las plantillas preestablecidas como punto de partida para las suyas propias.
 
-1. (Opcional) En el cuadro Respuesta predeterminada, escriba el texto que desea que aparezca si Adobe Dynamic Media Classic encuentra un error al recuperar información para un mapa de imagen. Por ejemplo, si el sistema recibe un nombre de empresa y un nombre de catálogo electrónico, pero ningún identificador rollover, aparecerá este mensaje para el usuario.
+1. (Opcional) En el cuadro Respuesta predeterminada, escriba el texto que desea que aparezca si Adobe Dynamic Media Classic encuentra un error al recuperar información para un mapa de imagen. Por ejemplo, si el sistema recibe un nombre de empresa y de catálogo electrónico pero no un identificador de rollover, este mensaje aparece para el usuario.
 1. En el cuadro de respuesta TTL, escriba el número de horas que desea esperar antes de almacenar los datos en caché:
 
-   * Establezca un número más bajo si los datos se actualizan frecuentemente a lo largo del día.
-   * Establezca un número mayor si los datos son relativamente estables y no requieren una actualización frecuente a lo largo del día. El valor predeterminado es de diez horas.
+   * Establezca un número menor si los datos se actualizan con frecuencia durante el día.
+   * Configure un número mayor si los datos son relativamente estables y no requieren actualizaciones frecuentes durante el día. El valor predeterminado es de diez horas.
 
 1. Seleccione **[!UICONTROL Publicar]**.
 
@@ -99,13 +99,13 @@ Last Modified Date:
 1. Seleccione **[!UICONTROL Examinar]**, seleccione el archivo TXT, CSV o SSV delimitado por tabuladores que desee usar y seleccione **[!UICONTROL Abrir]**.
 1. Seleccione **[!UICONTROL Cargar]**.
 
-Adobe Dynamic Media Classic le envía un mensaje de correo electrónico para saber si la carga se ha realizado correctamente o no.
+Adobe Dynamic Media Classic le envía un mensaje de correo electrónico para informarle de si la carga se ha realizado correctamente.
 
 ## Vista previa de texto de tecla rollover para un mapa de imagen {#preview-rollover-key-text-for-an-image-map}
 
-Mediante la pantalla Páginas de mapa, puede ver de forma fácil y rápida el texto del panel de información para los mapas de imágenes en una página específica de su catálogo electrónico.
+Con la pantalla Páginas de mapa, puede ver el texto del panel de información de los mapas de imágenes en una página específica del catálogo electrónico.
 
-1. Seleccione el botón de rollover **[!UICONTROL Editar]** del catálogo.
+1. Seleccione el botón de sustitución del catálogo **[!UICONTROL Editar]**.
 1. Seleccione **[!UICONTROL Páginas de mapa]**.
 1. En la parte superior de la tabla, en el lado derecho de la pantalla, elija **[!UICONTROL Panel de información]** en el menú Mostrar.
 

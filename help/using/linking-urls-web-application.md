@@ -20,22 +20,22 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 1960799e4144942d4d9443196e6db425f87c7686
 workflow-type: tm+mt
-source-wordcount: 844
-ht-degree: 24%
+source-wordcount: 821
+ht-degree: 16%
 
 ---
 
 # Vinculación de URL en la aplicación web{#linking-urls-to-your-web-application}
 
-Sus sitios web y aplicaciones acceden al contenido del servidor de imágenes de Dynamic Media mediante cadenas URL. Después de publicar una imagen, Adobe Dynamic Media Classic activa una cadena URL que hace referencia al ajuste preestablecido de imagen en los servidores de imágenes de Dynamic Media. Puede pegar estas direcciones URL en un explorador web para probarlas.
+Sus sitios web y aplicaciones acceden al contenido de Dynamic Media Image Server mediante cadenas de URL. Después de publicar una imagen, Adobe Dynamic Media Classic activa una cadena URL que hace referencia al ajuste preestablecido de imagen en los servidores de imágenes de Dynamic Media. Puede utilizar estas direcciones URL en un explorador web para realizar pruebas.
 
 Para colocar estas cadenas de URL en las páginas web y aplicaciones, cópielas desde Adobe Dynamic Media Classic. Para obtener una cadena URL generada con un ajuste preestablecido de imagen, vaya a la pantalla Vista previa o al panel Examinar (en la Vista de detalles).
 
 ## Obtener una URL de ajuste preestablecido de imagen {#obtaining-an-image-preset-url}
 
-Puede obtener una cadena URL generada por un ajuste preestablecido de imagen en la Vista previa o en Vista de detalles. Una vez copiada, la URL queda disponible en el portapapeles para que pueda pegarla cuando lo necesite.
+Puede obtener una cadena URL generada por un ajuste preestablecido de imagen en la Vista previa o en Vista de detalles. Después de copiar la dirección URL, se guarda en el Portapapeles para poder pegarla según sea necesario.
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Puede obtener una cadena URL generada por un ajuste preestablecido de imagen en 
 ### Obtener una URL de ajuste preestablecido de imagen de la vista previa {#obtaining-an-image-preset-url-from-preview}
 
 1. En el panel Biblioteca de recursos de la izquierda, vaya a la carpeta de recursos que contiene el recurso de imagen que desea previsualizar.
-1. Realice una de las acciones siguientes:
+1. Realice una de las siguientes acciones:
 
    * Encima de la ventana de Assets, en el lado derecho de la barra de herramientas, seleccione **[!UICONTROL Vista de cuadrícula]**. En la ventana Recurso, seleccione un solo recurso de imagen y, debajo de la imagen en miniatura, vaya a **[!UICONTROL Vista previa]** > **[!UICONTROL Lista de ajustes preestablecidos de imagen]**.
    * Encima de la ventana de Assets, en el lado derecho de la barra de herramientas, seleccione **[!UICONTROL Vista de lista]**. En la ventana Recurso, seleccione un solo recurso de imagen y, a continuación, a la derecha de la imagen en miniatura, vaya a **[!UICONTROL Vista previa]** > **[!UICONTROL Lista de ajustes preestablecidos de imagen]**.
@@ -59,38 +59,38 @@ Puede obtener una cadena URL generada por un ajuste preestablecido de imagen en 
 1. En el panel Biblioteca de recursos de la izquierda, vaya a la carpeta de recursos que contiene el recurso de imagen que desea previsualizar.
 1. Encima de la ventana de Assets, en el lado derecho de la barra de herramientas, seleccione **[!UICONTROL Vista de cuadrícula]**. En la ventana Recurso, seleccione un único recurso de imagen.
 1. Encima de la ventana de Assets, en la parte derecha de la barra de herramientas, seleccione **[!UICONTROL Vista de detalles]**.
-1. Seleccione **[!UICONTROL URL]** en el panel del lado derecho de la pantalla para poder desplegar la lista de ajustes preestablecidos de imagen.
+1. Seleccione **[!UICONTROL URL]** en el panel derecho para mostrar la lista de ajustes preestablecidos de imagen.
 1. Seleccione el vínculo **[!UICONTROL Copiar URL]** junto al nombre del ajuste preestablecido de imagen con la URL que desea copiar en el portapapeles.
 
-## Acerca de las cadenas URL de ajustes preestablecidos de imagen {#about-image-preset-url-strings}
+## Descripción general de las cadenas URL de ajustes preestablecidos de imagen {#about-image-preset-url-strings}
 
-Una llamada URL para el ajuste de tamaño de imagen en servidores de imágenes de Dynamic Media tiene la siguiente sintaxis básica:
+Una llamada URL para el tamaño de imágenes en los servidores de imágenes de Dynamic Media tiene la siguiente sintaxis básica:
 
 *ruta*/*nombre del servidor de imágenes*/*nombre de cuenta*/*nombre de imagen*?*modificador1*&amp;*modificador2*&amp;...
 
-En la URL de un servidor de imágenes de Dynamic Media, las instrucciones al servidor para mostrar la imagen aparecen después del signo de interrogación (?). Por ejemplo, esta llamada URL ofrece una imagen denominada &quot;mochila&quot; con una anchura de 250 píxeles:
+En una URL de servidor de imágenes de Dynamic Media, las instrucciones para mostrar la imagen siguen el signo de interrogación (?). Por ejemplo, esta llamada URL ofrece una imagen denominada &quot;mochila&quot; con una anchura de 250 píxeles:
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250
 ```
 
-Una URL de ajuste preestablecido de imagen contiene todas las instrucciones de modificador para presentar la imagen con las especificaciones de formato y tamaño correctas. Si no hay un ajuste preestablecido de imagen, observará que todas las instrucciones de modificador aparecen tras el signo de interrogación (?) en esta cadena URL:
+Una URL de ajuste preestablecido de imagen contiene todas las instrucciones de modificador para presentar la imagen con las especificaciones de formato y tamaño correctas. Sin un ajuste preestablecido de imagen, anote todas las instrucciones de modificación después del signo de interrogación (?) en esta cadena URL:
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250&fmt=jpeg&qlt=80,0&resMode=sharp&op_usm=1.1,0.5,1,0
 ```
 
-Pero en una cadena URL generada con un ajuste preestablecido de imagen, el nombre del ajuste aparece en lugar de las instrucciones definidas por el ajuste preestablecido. Por ejemplo, para la URL larga ilustrada arriba, la cadena URL es:
+Sin embargo, en una cadena URL generada con un ajuste preestablecido de imagen, el nombre del ajuste preestablecido de imagen reemplaza las instrucciones definidas por el ajuste preestablecido de imagen. Por ejemplo, para la URL larga ilustrada arriba, la cadena URL es:
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?$Large$
 ```
 
-Los nombres de ajuste preestablecido de imagen en direcciones URL se incluyen entre signos de dólar ($). Cuando el servidor de imágenes de Dynamic Media encuentra la parte Ajuste preestablecido de imagen de la URL (la `Large` en este caso), utilizando las instrucciones de tamaño y formato definidas por el Ajuste preestablecido de imagen &quot;Grande&quot;.
+Los nombres de ajustes preestablecidos de imagen en las direcciones URL utilizan signos de dólar ($). Cuando un servidor de imágenes de Dynamic Media procesa la parte del ajuste preestablecido de imagen de la URL (la `Large`, en este caso), utiliza las instrucciones de tamaño y formato definidas por el ajuste preestablecido de imagen &quot;grande&quot;.
 
 ## Agregar imágenes dinámicas a la página Web {#adding-dynamic-images-to-your-web-page}
 
-Al agregar imágenes dinámicas a la página web, la etiqueta `<IMG>` del código de página de HTML suele modificarse con la cadena URL de Adobe Dynamic Media Classic para realizar una solicitud a los servidores de imágenes de Dynamic Media. Esta cadena produce una imagen con las especificaciones de formato y tamaño definidas por el ajuste preestablecido de imagen.
+Al agregar imágenes dinámicas a las páginas web, la etiqueta `<IMG>` se suele modificar mediante la cadena URL de Adobe Dynamic Media Classic para solicitar imágenes de los servidores de imágenes de Dynamic Media. Esta cadena produce una imagen con las especificaciones de formato y tamaño definidas por el ajuste preestablecido de imagen.
 
 Por ejemplo, en lugar de la típica llamada para abrir una imagen estática:
 
@@ -98,10 +98,10 @@ Por ejemplo, en lugar de la típica llamada para abrir una imagen estática:
 img src="/company_images/products/backpack_thumbnail.jpg"
 ```
 
-Ahora utiliza la etiqueta `<IMG>` para reemplazar la referencia a una imagen estática con una llamada de ajuste preestablecido de imagen a la plataforma Adobe Dynamic Media Classic. Ejemplo de llamada:
+Ahora utiliza la etiqueta `<IMG>` para reemplazar la referencia a una imagen estática con una llamada de ajuste preestablecido de imagen a Adobe Dynamic Media Classic Platform. Ejemplo de llamada:
 
 ```as3
 img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$"
 ```
 
-En este ejemplo, un servidor de imágenes de Dynamic Media &quot;busca&quot; la definición de `$thumbnail$` y genera dinámicamente la imagen adecuada con las especificaciones de tamaño y formato definidas por el ajuste preestablecido de imagen `thumbnail`Image. En una cadena URL, todos los elementos excepto el nombre de archivo de la imagen del producto ( `backpack_trns` en este caso) suelen estar conectados para la plantilla de página. El único elemento que se inserta automáticamente en la plantilla desde el servidor comercial es el ID de IPS o nombre de la imagen.
+En este ejemplo, un servidor de imágenes de Dynamic Media recupera la definición de `$thumbnail$` y genera dinámicamente la imagen adecuada con las especificaciones de tamaño y formato definidas por el ajuste preestablecido de imagen `thumbnail`. En una cadena URL, todos los elementos excepto el nombre de archivo de la imagen del producto ( `backpack_trns` en este caso) suelen configurarse para la plantilla de página. El único elemento que se inserta automáticamente en la plantilla desde el servidor comercial es el ID de IPS o nombre de la imagen.

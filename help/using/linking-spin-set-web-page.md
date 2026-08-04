@@ -20,10 +20,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 98c2209424b1ad028b194d1bdf7c71d77b16b50d
 workflow-type: tm+mt
-source-wordcount: 732
-ht-degree: 21%
+source-wordcount: 729
+ht-degree: 16%
 
 ---
 
@@ -56,13 +56,13 @@ Los sitios web y las aplicaciones acceden al contenido del servidor de imágenes
 
 ## Añadir URL de conjuntos de giros a la página web {#adding-spin-set-urls-to-your-web-page}
 
-Los conjuntos de giros se distribuyen como todos los visores de zoom, a través de una página dinámica (ASP o JSP) que muestra el conjunto de giros en una ventana de zoom. La llamada URL a la plataforma de Adobe Dynamic Media Classic sigue el mismo protocolo en el visor de zoom. Sin embargo, el nombre del ajuste preestablecido de visor depende del ajuste preestablecido que el administrador haya definido como ajuste preestablecido de visor de conjuntos de giros predeterminado. Por ejemplo, el siguiente ejemplo de sintaxis de URL no activa incluye un nombre de ajuste preestablecido denominado `viewer.jsp` y el parámetro SKU es ahora el nombre del conjunto de giros:
+Los conjuntos de giros se implementan como todos los visores de zoom, utilizando una página dinámica (ASP o JSP) que muestra el conjunto de giros en una ventana de zoom. La solicitud de URL a la plataforma de Adobe Dynamic Media Classic utiliza el mismo protocolo que el visor de zoom. Sin embargo, el nombre del ajuste preestablecido de visor depende del ajuste preestablecido que el administrador haya definido como ajuste preestablecido de visor de conjuntos de giros predeterminado. Por ejemplo, el siguiente ejemplo de sintaxis de URL (no activa) incluye un nombre de ajuste preestablecido denominado `viewer.jsp` y el parámetro SKU es ahora el nombre del conjunto de giros:
 
 ```as3
 https://sample.scene7.com/s7ondemand/spin/viewer.jsp?company=S7Web&sku=backpack_spin
 ```
 
-En este ejemplo de sintaxis de URL (el vínculo no está activo), observe un número de SKU ( `sku=backpack_spin`). La cadena después de `sku=` es el nombre del conjunto de giros ( `backpack spin`).
+En este ejemplo de sintaxis de URL (el vínculo no está activo), consulte un número de SKU ( `sku=backpack_spin`). La cadena después de `sku=` es el nombre del conjunto de giros ( `backpack spin`).
 
 ## Copiar el código incrustado de un visor de conjuntos de giros {#copying-the-embed-code-of-a-spin-set-viewer}
 

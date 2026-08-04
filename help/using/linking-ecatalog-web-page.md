@@ -19,16 +19,16 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: a6b941f1da5843a57d082f6bebc4a75a6c2ee65c
 workflow-type: tm+mt
-source-wordcount: 698
-ht-degree: 20%
+source-wordcount: 683
+ht-degree: 16%
 
 ---
 
 # Vinculación de un catálogo electrónico a una página web{#linking-an-ecatalog-to-a-web-page}
 
-Sus sitios web y aplicaciones acceden al contenido del servidor de imágenes de Dynamic Media, incluidos los catálogos electrónicos, mediante cadenas URL o código incrustado. Estas cadenas URL se activan durante el proceso de publicación. Para colocar la cadena URL o el código incrustado del catálogo electrónico en las páginas Web y aplicaciones, cópielo desde Adobe Dynamic Media Classic.
+Sus sitios web y aplicaciones acceden al contenido de Dynamic Media Image Server, incluidos los catálogos electrónicos, mediante cadenas URL o código incrustado. Estas cadenas URL se activan durante el proceso de publicación. Para colocar la cadena URL o el código incrustado del catálogo electrónico en las páginas Web y aplicaciones, cópielo desde Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -55,13 +55,13 @@ Sus sitios web y aplicaciones acceden al contenido del servidor de imágenes de 
 
 ## Añadir direcciones URL de catálogo electrónico a la página web {#adding-ecatalog-urls-to-your-web-page}
 
-La forma más común de implementar un catálogo electrónico es colocar un vínculo en forma de portada en miniatura de catálogo electrónico en la página Web. Trabaje con su grupo de TI para que el catálogo electrónico se abra en una ventana emergente centrada y bien visible. Solicite al grupo de TI que no se muestren la barra de herramientas ni la de dirección del explorador.
+El método estándar para implementar un catálogo electrónico es agregar un vínculo mediante una portada en miniatura de catálogo electrónico en la página Web. Para asegurarse de que el catálogo electrónico se inicia en una ventana emergente centrada, póngase en contacto con el departamento de TI. Para ocultar la barra de herramientas y la barra de direcciones, configure el explorador.
 
 Para obtener más detalles y ejemplos de código, consulte [Visor de catálogo electrónico HTML5 incrustado](https://experienceleague.adobe.com/es/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) en la Referencia de visores de Adobe.
 
 ## Copiar el código incrustado de un visor de catálogos electrónicos {#copying-the-embed-code-of-an-ecatalog-viewer}
 
-El uso de la función de código incrustado permite revisar el código del visor para el catálogo electrónico seleccionado. También puede copiar el código en el portapapeles para pegarlo en las páginas web y así poder implementar el visor. No se permite la edición del código en el cuadro de diálogo Código incrustado.
+La función de código incrustado permite revisar el código del visor para el catálogo electrónico seleccionado. También puede copiar el código en el portapapeles para pegarlo en las páginas web y así poder implementar el visor. No se permite la edición del código en el cuadro de diálogo Código incrustado.
 
 **Para copiar el código incrustado de un visor de catálogo electrónico:**
 
