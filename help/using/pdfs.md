@@ -12,22 +12,19 @@ topic: Integrations, Development
 level: Experienced
 autotag-review: '2026-05-13T19:53:07.417Z'
 TQID: 'https://experienceleague.adobe.com/yM24UnCiU64kLvHXjhX6S8ZJpWgoyAzQKuDHN02yUXs'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: a6f31cfc417aa908738642a9543ada88b4620c02
 workflow-type: tm+mt
-source-wordcount: 735
-ht-degree: 26%
+source-wordcount: 734
+ht-degree: 21%
 
 ---
 
 # Trabajo con PDF{#working-with-pdfs}
 
-Los archivos de PDF (Portable Document Format) se utilizan principalmente en Adobe Dynamic Media Classic para crear catálogos electrónicos. Al cargar un archivo de PDF, Adobe Dynamic Media Classic rasteriza o extrae las páginas de forma predeterminada para que puedan utilizarse en la creación de medios enriquecidos.
+Los archivos de PDF (Portable Document Format) se utilizan principalmente en Adobe Dynamic Media Classic para crear catálogos electrónicos. Al cargar un archivo de PDF, Adobe Dynamic Media Classic rasteriza las páginas de forma predeterminada para que se puedan utilizar para crear medios enriquecidos.
 
 Al cargar un PDF para la extracción de páginas, Adobe aplica el siguiente límite:
 
@@ -39,17 +36,17 @@ Consulte también [Limitaciones de Dynamic Media](/help/using/limitations.md).
 
 ## Opciones de carga de archivos PDF {#pdf-upload-options}
 
-Al cargar un archivo PDF, puede darle formato de varios modos. Puede recortar sus páginas, extraer palabras de búsqueda, introducir una resolución de píxeles por pulgada y elegir un espacio de color. Los archivos PDF suelen contener un margen de recorte, marcas de recorte, marcas de registro y otras marcas de impresora. Estas marcas se pueden recortar de los lados de las páginas al cargar un archivo PDF.
+Al cargar un archivo PDF, puede darle formato de varios modos. Puede recortar sus páginas, extraer palabras de búsqueda, introducir una resolución de píxeles por pulgada y elegir un espacio de color. Los archivos PDF suelen contener un margen de recorte, marcas de recorte, marcas de registro y otras marcas de impresión. Estas marcas se pueden recortar de los lados de las páginas al cargar un archivo PDF.
 
 Las opciones para cargar archivos de PDF se encuentran en la página Cargar, en Opciones de PDF.
 
 ### Opciones de procesamiento
 
-**[!UICONTROL Rasterizar]**: (Predeterminado) rasga las páginas del archivo PDF y convierte los gráficos vectoriales en imágenes de mapa de bits. Para crear un catálogo electrónico, elija esta opción.
+**[!UICONTROL Rasterizar]**: (Predeterminado) Para rasterizar las páginas del archivo PDF y convertir gráficos vectoriales en imágenes de mapa de bits, utilice esta opción. Para crear un catálogo electrónico, elija esta opción.
 
 **[!UICONTROL Extraer palabras de búsqueda]**: extrae palabras del archivo PDF para que las palabras clave del archivo se puedan buscar en un visor de catálogos electrónicos.
 
-**[!UICONTROL Extraer vínculos]**: extrae vínculos de los archivos PDF y los convierte a mapas de imágenes que se utilizan en un visor de catálogos electrónicos.
+**[!UICONTROL Extraer vínculos]**: extrae vínculos del archivo PDF y los convierte a mapas de imágenes que se utilizan en un visor de catálogos electrónicos.
 
 **[!UICONTROL Generar catálogo electrónico automáticamente con PDF de varias páginas]**: Crea automáticamente un catálogo electrónico a partir del archivo de PDF. El catálogo electrónico recibe el mismo nombre que el archivo PDF cargado. (Esta opción solo está disponible si rasteriza el archivo PDF al cargarlo).
 
@@ -75,7 +72,7 @@ Seleccione el menú Espacio de color y elija un espacio de color para el archivo
 
 * **[!UICONTROL Conservar el espacio de color original]**: conserva el espacio de color original.
 
-* **[!UICONTROL Personalizar desde]** > **[!UICONTROL hasta]**: abre menús para que pueda elegir un espacio de color Convertir desde y Convertir a. Puede elegir un espacio de color estándar de Photoshop o un espacio de color que haya cargado en Adobe Dynamic Media Classic.
+* **[!UICONTROL Personalizado desde]** > **[!UICONTROL hasta]**: abre menús para que pueda elegir `Convert From` y `Convert To` espacios de color. Puede elegir un espacio de color estándar de Adobe Photoshop o un espacio de color que haya cargado en Adobe Dynamic Media Classic.
 
 Consulte también [Perfiles ICC](/help/using/icc-profiles.md#icc_profiles).
 
@@ -88,11 +85,11 @@ Puede recortar automáticamente los píxeles de espacio en blanco de un archivo 
 
    * **[!UICONTROL Recortar basándose en]**: elige si recortar basándose en el color o la transparencia:
 
-      * **[!UICONTROL Color]**: elige la opción Color. A continuación, seleccione el menú **[!UICONTROL Esquina]** y elija la esquina de la PDF con el color que mejor represente el color del espacio en blanco que desea recortar.
+     * **[!UICONTROL Color]**: elige la opción Color. A continuación, seleccione el menú **[!UICONTROL Esquina]** y elija la esquina de la PDF con el color que mejor represente el color del espacio en blanco que desea recortar.
 
-      * **[!UICONTROL Transparencia]**: elija la opción Transparencia.
+     * **[!UICONTROL Transparencia]**: elija la opción Transparencia.
 
-   * **[!UICONTROL Tolerancia]**: arrastre el regulador para especificar una tolerancia de 0 a 1.
+   * **[!UICONTROL Tolerancia]**: Para especificar una tolerancia de 0 a 1, arrastre el control deslizante.
 
    * **[!UICONTROL Recorte basado en el color]**: especifique 0 para recortar píxeles solo si coinciden exactamente con el color seleccionado en la esquina de PDF. Los números más cercanos a 1 permiten una mayor diferencia de color.
 
@@ -100,9 +97,9 @@ Puede recortar automáticamente los píxeles de espacio en blanco de un archivo 
 
 ## Recorte desde los lados de las páginas de PDF {#cropping-from-the-sides-of-pdf-pages}
 
-Puede quitar manualmente las marcas de impresora de los lados de las páginas de un archivo PDF a medida que lo carga.
+Puede quitar manualmente las marcas de impresión de los lados de las páginas en un archivo PDF a medida que lo carga.
 
 1. En el menú Recortar, seleccione **[!UICONTROL Manual]**.
 1. Introduzca valores de píxeles en los cuadros de texto Superior, Derecha, Inferior e Izquierda para recortar de las partes superior e inferior, así como los lados, de las páginas.
 
-La cantidad que se recorte de la página dependerá del valor de resolución en píxeles/pulgada que se introduzca para el archivo PDF. Por ejemplo, suponga que especifica 150 (valor predeterminado) como valor de Resolución PX/Pulgada. A continuación, se recortan 75 píxeles de los lados de las páginas. En tal caso, 0,5 pda. se ha recortado. A 150 píxeles por pulgada, 75 píxeles equivale a media pulgada.
+La cantidad de página recortada depende de la configuración de Resolución PX/Pulgada que introduzca para el archivo PDF. Por ejemplo, suponga que especifica 150 (valor predeterminado) como valor de Resolución PX/Pulgada. A continuación, se recortan 75 píxeles de los lados de las páginas. En este caso, 0,5 pda. se ha recortado. A 150 píxeles por pulgada, 75 píxeles equivale a media pulgada.
