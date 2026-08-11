@@ -12,21 +12,14 @@ topic: Administration, Collaboration
 level: Intermediate
 autotag-review: '2026-05-13T20:06:35.284Z'
 TQID: 'https://experienceleague.adobe.com/u57YFGIgu4AwlDGLqXRDdT2os-RBYCQK-voETH58Wt4'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 81089133386ccbda70df77ced6f4f3fe7327be1e
 workflow-type: tm+mt
-source-wordcount: 841
-ht-degree: 19%
+source-wordcount: 826
+ht-degree: 14%
 
 ---
 
@@ -47,7 +40,7 @@ Identifica el nombre de la cuenta, el nombre, el nombre de usuario (dirección d
 ## Ordenador
 
 * **Borrar caché de imágenes**: Elimina todos los archivos de imagen en caché de Dynamic Media de Adobe de su equipo.
-* **Borrar caché de recursos**: Elimina todos los archivos de recursos de la caché de Dynamic Media de Adobe de su equipo.
+* **Borrar caché de recursos**: Elimina todos los archivos de recursos en caché de Adobe Dynamic Media del equipo.
 
 Además de borrar la caché de imágenes y recursos mediante la aplicación de escritorio, puede borrar manualmente la caché directamente desde el sistema de archivos. En función del sistema operativo, vaya a lo siguiente:
 
@@ -89,16 +82,16 @@ The plug-in is now available for you to use in Adobe Illustrator.
 
 ## Explorador
 
-* **[!UICONTROL Tamaño de miniatura]**: Determina el tamaño predeterminado de las imágenes en miniatura en la Vista de cuadrícula del panel Examinar.
-* **[!UICONTROL Vista predeterminada de la biblioteca de recursos]**: Determina si los recursos de la biblioteca de recursos de los conjuntos de compilación aparecen como miniaturas o por nombre. Si trabaja con numerosos recursos de la biblioteca de recursos, puede visualizarlos por nombre. Por ejemplo, si va a crear un catálogo electrónico con muchos archivos PDF, puede ver los recursos por nombre para que la lista sea más pequeña.
+* **[!UICONTROL Tamaño de miniatura]**: Determina el tamaño predeterminado de las imágenes en miniatura en la vista de cuadrícula del panel Examinar.
+* **[!UICONTROL Vista predeterminada de la biblioteca de recursos]**: Determina si los recursos de la biblioteca de recursos de los conjuntos de compilación aparecen como miniaturas o por nombre. Si trabaja con numerosos recursos de la biblioteca de recursos, puede visualizarlos por nombre. Por ejemplo, para acortar la lista al crear un catálogo electrónico grande con muchos archivos PDF, puede ver los recursos por nombre.
 * **[!UICONTROL Orden de exploración predeterminado]**: Determina el orden en que aparecen los recursos de forma predeterminada en el panel Examinar. Elija un criterio de orden en el menú y seleccione si desea un orden ascendente o descendente.
-* **[!UICONTROL Ubicación de exploración predeterminada]**: permite establecer la ubicación de exploración en la ubicación predeterminada, en la última carpeta examinada o en una ubicación específica a la que se desplaza y se identifica. También puede definir que los archivos y las carpetas aparezcan por orden ascendente o descendente en la ubicación de exploración.
+* **[!UICONTROL Ubicación de exploración predeterminada]**: permite establecer la ubicación de exploración en la ubicación predeterminada, en la última carpeta examinada o en una ubicación específica a la que se desplaza y se identifica. Para ordenar los archivos y carpetas en orden ascendente o descendente, también puede establecer la ubicación de exploración.
 * **[!UICONTROL Vista de exploración predeterminada]**: Determina si la vista de cuadrícula o la vista de lista es la vista predeterminada que se ve la primera vez que se abre el panel Examinar.
 * **[!UICONTROL Visualización de pantalla de bienvenida]**: Determina si ve alguna pantalla de bienvenida, incluida la pantalla de bienvenida.
 * **[!UICONTROL Mostrar información sobre herramientas]**: Determina si aparece información sobre herramientas al mover el puntero sobre botones, menús y vínculos de exploración. La información sobre herramientas describe los elementos de la interfaz de usuario en pantalla.
-* **[!UICONTROL Fondo del tablero de ajedrez]**: muestra una capa de tablero de ajedrez detrás de las imágenes, lo que permite ver fácilmente las áreas transparentes de una imagen que tiene un canal alfa.
+* **[!UICONTROL Fondo del tablero de ajedrez]**: muestra una capa de tablero de ajedrez detrás de las imágenes, lo que permite ver las áreas transparentes de una imagen que tiene un canal alfa.
 * **[!UICONTROL Mostrar tamaño de archivo]**: muestra el tamaño de archivo de un recurso al examinar.
-* **[!UICONTROL Incluir UDF en la búsqueda]**: Para mejorar el rendimiento del sistema para la mayoría de las búsquedas de metadatos que ejecuta, anule la selección (predeterminado).
+* **[!UICONTROL Incluir UDF en la búsqueda]**: Para mejorar el rendimiento del sistema para la mayoría de las búsquedas de metadatos que ejecuta, anule la selección (valor predeterminado).
 
   Si necesita incluir los campos personalizables en la mayoría de sus búsquedas de metadatos, puede seleccionar esta opción para activarla. Como alternativa, utilice Búsqueda avanzada para ofrecerle una experiencia de búsqueda más dirigida y rápida que mediante la inclusión de campos definidos por el usuario.
 
@@ -106,14 +99,14 @@ The plug-in is now available for you to use in Adobe Illustrator.
 
   Consulte también [Campos personalizables](application-setup.md#user_defined_fields).
 
-* **[!UICONTROL Tipo de búsqueda básica]**: puede seleccionar entre dos opciones: **[!UICONTROL Contiene]** busca en la cadena completa el valor especificado; **[!UICONTROL Comienza con]** busca desde el principio de la cadena y devuelve resultados más rápidos que **[!UICONTROL Contiene]**. Cualquiera de las opciones anula el valor predeterminado establecido por el administrador en **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Configuración general de la aplicación]**.
+* **[!UICONTROL Tipo de búsqueda básica]**: puede seleccionar entre dos opciones: **[!UICONTROL Contiene]** busca en la cadena completa el valor especificado; **[!UICONTROL Comienza con]** busca desde el principio de la cadena y devuelve resultados más rápidos que **[!UICONTROL Contiene]**. Cualquiera de las opciones anula el valor predeterminado que establece el administrador en **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Configuración general de la aplicación]**.
 * **[!UICONTROL Mostrar comentarios de comandos]**: seleccione esta opción para activar la visualización de las solicitudes de comandos al servidor; anule la selección de esta opción para desactivarla.
 * **[!UICONTROL Mostrar cuadro de diálogo durante la exportación]**: seleccione esta opción para mostrar un cuadro de diálogo emergente durante la exportación. Si anula la selección de esta opción (o la desactiva), sigue pudiendo ir a la página Trabajos para recuperar los resultados de la exportación.
 
 ## Correo electrónico
 
 * **[!UICONTROL Opciones de correo electrónico]**: elija cómo desea que Adobe Dynamic Media Classic le informe por correo electrónico cuando se completen los trabajos de carga y publicación. Puede recibir notificaciones sobre la finalización de un trabajo solo cuando aparezcan advertencias o se produzcan errores.
-* **[!UICONTROL Ámbito del correo electrónico]**: Determina si recibe todo el correo electrónico del trabajo de su empresa o sólo el correo electrónico sobre los trabajos de carga y publicación que ha iniciado.
+* **[!UICONTROL Ámbito del correo electrónico]**: Determina si recibe todos los mensajes de correo electrónico del trabajo para su compañía o únicamente los mensajes de correo electrónico sobre los trabajos de carga y publicación que inicia.
 * **[!UICONTROL Tipos de correo electrónico]**: Determina si se le informará cuando se completen los trabajos de carga y publicación.
 
 ## Idioma
@@ -122,12 +115,12 @@ The plug-in is now available for you to use in Adobe Illustrator.
 
 ## Contraseña
 
-* **[!UICONTROL Contraseña actual]**: Escriba la contraseña para la contraseña actual.
+* **[!UICONTROL Contraseña actual]**: Escriba la contraseña actual.
 * **[!UICONTROL Nueva contraseña]**: escriba una contraseña nueva y válida. La contraseña debe cumplir los siguientes requisitos:
-   * Debe tener entre 8 y 25 caracteres.
-   * Incluir al menos una letra minúscula
-   * Incluir al menos una letra mayúscula
-   * Incluir al menos un número
-   * Incluir al menos uno de los siguientes caracteres especiales: `# $ &: _ : { }`
-* **[!UICONTROL Vuelva a escribir la contraseña]**: Vuelva a escribir la nueva contraseña para confirmar que la ha escrito correctamente.
-* **[!UICONTROL Caducidad de contraseña]**: Determina si la contraseña caduca pasados 72 días como medida de seguridad. Si selecciona Sí, se le pedirá que cree una contraseña después de 72 días.
+  * Debe tener entre 8 y 25 caracteres.
+  * Incluir al menos una letra minúscula
+  * Incluir al menos una letra mayúscula
+  * Incluir al menos un número
+  * Incluir al menos uno de los siguientes caracteres especiales: `# $ &: _ : { }`
+* **[!UICONTROL Vuelva a escribir la contraseña]**: Vuelva a escribir la nueva contraseña. Esto confirma que lo está introduciendo correctamente.
+* **[!UICONTROL Caducidad de contraseña]**: Determina si la contraseña caduca pasados 72 días. Si selecciona Sí, se le pedirá que cree una contraseña después de 72 días.
