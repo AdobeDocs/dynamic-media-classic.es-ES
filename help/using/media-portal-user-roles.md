@@ -1,5 +1,5 @@
 ---
-title: Funciones de usuario en Media Portal
+title: Roles de usuario de Media Portal
 description: Obtenga información acerca de las distintas funciones de usuario disponibles en Media Portal en Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -12,21 +12,14 @@ topic: Administration, Collaboration
 level: Intermediate
 autotag-review: '2026-05-13T20:04:17.274Z'
 TQID: 'https://experienceleague.adobe.com/ViAv-ylLlmVONL1lliFC1HPfFYYph4MsGB4gSWCxSJQ'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 28282f7005b22a50a9a49416549c29806e497085
 workflow-type: tm+mt
-source-wordcount: 321
-ht-degree: 65%
+source-wordcount: 320
+ht-degree: 50%
 
 ---
 
@@ -34,7 +27,7 @@ ht-degree: 65%
 
 Media Portal incluye las siguientes funciones, cada una con derechos de acceso y permisos diferentes. Cuando se registra a un usuario, se le asigna una de las siguientes funciones:
 
-* **[!UICONTROL Administrador de Media Portal]**: puede agregar y quitar administradores, colaboradores y usuarios. El administrador también puede establecer derechos de acceso de grupo, administrar cuentas de FTP, asignar formatos de conversión aprobados por la empresa (ajustes preestablecidos), enviar correos electrónicos a los usuarios de Media Portal y ver los informes de almacenamiento y uso del portal.
+* **[!UICONTROL Administrador de Media Portal]**: puede agregar y quitar administradores, colaboradores y usuarios. El administrador también puede establecer derechos de acceso de grupo, administrar cuentas de FTP, asignar formatos de conversión (ajustes preestablecidos) aprobados por la empresa, enviar correos electrónicos a los usuarios de Media Portal y ver los informes de uso y almacenamiento del portal.
 
 * **[!UICONTROL Usuario de Media Portal]**: Tiene acceso a carpetas y archivos. Un usuario solo puede examinar, previsualizar y descargar archivos. Esta función es adecuada para socios de canal o de servicio que necesitan acceso a los recursos aprobados de su empresa.
 
@@ -42,7 +35,7 @@ Media Portal incluye las siguientes funciones, cada una con derechos de acceso y
 
 * **[!UICONTROL Usuario colaborador de Media Portal]**: Tiene acceso a carpetas y archivos. Un usuario colaborador puede examinar, previsualizar, descargar y cargar imágenes y metadatos. Los usuarios colaboradores pueden cambiar el nombre de los archivos, moverlos a otras carpetas y eliminarlos.
 
-Esta tabla describe las tareas que pueden realizar los usuarios según su función. Los administradores y los usuarios colaboradores pueden realizar todas las tareas incluidas en la tabla:
+Esta tabla describe las tareas que pueden realizar los usuarios según su función. Los administradores y los usuarios colaboradores pueden realizar todas las tareas que se enumeran en esta tabla:
 
 | Tarea | Usuario | Colaborador | Usuario colaborador |
 | --- | --- | --- | --- |
