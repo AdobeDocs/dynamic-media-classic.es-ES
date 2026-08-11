@@ -1,5 +1,5 @@
 ---
-title: Nociones básicas de navegación
+title: Conceptos básicos de navegación
 description: Obtenga información sobre cómo navegar por la interfaz de usuario de Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -12,29 +12,24 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:05:39.171Z'
 TQID: 'https://experienceleague.adobe.com/DCK4H8boSXIInHtizm4W1MbLLE6jkwizXhi7fHFVWr0'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8c84c2e2ad388139c165ab4df89c5aa688f45051
 workflow-type: tm+mt
-source-wordcount: 702
-ht-degree: 16%
+source-wordcount: 692
+ht-degree: 11%
 
 ---
 
 # Nociones básicas de navegación{#navigation-basics}
 
-La pantalla de Adobe Dynamic Media Classic incluye tres áreas principales: barra de navegación global, biblioteca de recursos, pestaña Filtros de recursos, panel de exploración/panel de generación y carro de medios (solo Media Portal).
+La pantalla de Adobe Dynamic Media Classic incluye cinco áreas principales: barra de navegación global, biblioteca de recursos, pestaña Filtros de recursos, panel de exploración/panel de generación y carro de medios (solo Media Portal).
 
 ![Conceptos básicos de navegación](/help/using/assets/gs_navigation_basics_popup_popup.png)
 *Áreas principales de Adobe Dynamic Media Classic*
-*A) Barra de navegación global B) Panel de biblioteca de recursos C) Pestaña Filtros de recursos D) Panel de exploración E) Carro de medios (solo Media Portal)*
+*A) Barra de navegación global; B) Biblioteca de recursos; C) Pestaña Filtros de recursos; D) Panel de exploración; E) Carro de medios (solo para Media Portal)*
 
 ## Barra de navegación global {#global-navigation-bar}
 
@@ -42,25 +37,25 @@ La barra de navegación global, situada en la parte superior de la pantalla, con
 
 * **[!UICONTROL Seleccionar compañía]**: elija la compañía a la que desea tener acceso en el menú. Este botón no está disponible si trabaja con una compañía.
 
-* **[!UICONTROL Cargar]**: abre la pantalla Cargar para que pueda cargar archivos desde su equipo o red a Adobe Dynamic Media Classic. Es posible cargar archivos desde el escritorio o por medio de FTP. Ver [Cargar archivos](/help/using/uploading-files.md).
+* **[!UICONTROL Cargar]**: abre la pantalla Cargar para que pueda cargar archivos desde su equipo o red a Adobe Dynamic Media Classic. Puede cargar archivos desde su escritorio o a través de FTP. Ver [Cargar archivos](/help/using/uploading-files.md).
 
 * **[!UICONTROL Generar]**: elija una tarea de generación en el menú. Se abrirá el panel de generación, donde podrá crear un tipo de recurso.
 
-* **[!UICONTROL Publicar]**: Abre la pantalla Publicación para que pueda publicar recursos de medios enriquecidos en los servidores de imágenes de Dynamic Media de Adobe y en el resto de la infraestructura de SAAS de Adobe Dynamic Media Classic.
+* **[!UICONTROL Publicar]**: Abre la pantalla Publicación para que pueda publicar recursos de medios enriquecidos en los servidores de imágenes de Dynamic Media de Adobe y en el resto de la infraestructura SaaS de Adobe Dynamic Media Classic.
 
 * **[!UICONTROL Trabajos]**: Abre la pantalla Trabajos para que pueda examinar los registros de los trabajos de carga y publicación.
 
 * **[!UICONTROL Reciente]**: abre la pantalla Actividad reciente para que pueda ver los nombres de los recursos modificados recientemente y los trabajos recientes de carga y publicación.
 
-* **[!UICONTROL Configuración]**: abre la pantalla Configuración para que pueda elegir las opciones de configuración o administración que desee para optimizar el uso de Adobe Dynamic Media Classic. Consulte [Ajuste](/help/using/setup-basics.md).
+* **[!UICONTROL Configuración]**: Abre la pantalla Configuración para que pueda elegir las opciones de configuración o administración para optimizar el uso de [!DNL Adobe Dynamic Media Classic]. Consulte [Ajuste](/help/using/setup-basics.md).
 
-* **[!UICONTROL Ayuda]** Elija una opción de Ayuda:
+* **[!UICONTROL Ayuda]** Elegir una opción de Ayuda
 
-   * **[!UICONTROL Ayuda sobre este tema]**: abre el sistema de Ayuda a una página con información sobre la tarea que está realizando actualmente.
-   * **[!UICONTROL Tutorial de vídeo]**: obtiene acceso a vídeos sobre temas específicos que muestran cómo empezar con cada flujo de trabajo de publicación de medios enriquecidos.
-   * **[!UICONTROL Contenido de ayuda]**: abre el sistema de ayuda a la página Introducción. Puede seleccionar a través de la Tabla de contenido para buscar y ver diferentes temas.
-   * **[!UICONTROL Acerca de]**: indica qué versión de Adobe Dynamic Media Classic está ejecutando.
-   * **[!UICONTROL Soporte técnico]**: indica cómo obtener soporte técnico de Adobe Dynamic Media Classic.
+  * **[!UICONTROL Ayuda sobre este tema]**: abre el sistema de Ayuda a una página con información sobre la tarea que está realizando actualmente.
+  * **[!UICONTROL Tutorial de vídeo]**: obtiene acceso a vídeos sobre temas específicos que muestran cómo iniciar cada flujo de trabajo de publicación de medios enriquecidos.
+  * **[!UICONTROL Contenido de ayuda]**: abre el sistema de ayuda a la página Introducción. Para buscar y ver diferentes temas, puede examinar la tabla de contenido.
+  * **[!UICONTROL Acerca de]**: muestra la versión de Adobe Dynamic Media Classic que está ejecutando.
+  * **[!UICONTROL Soporte técnico]**: Proporciona información sobre cómo obtener soporte técnico para Adobe Dynamic Media Classic.
 
 * **[!UICONTROL Cerrar sesión]**: Sale de Adobe Dynamic Media Classic.
 
@@ -68,15 +63,15 @@ La barra de navegación global, situada en la parte superior de la pantalla, con
 
 Permite organizar los recursos con los que se está trabajando. Puede crear carpetas y subcarpetas para colocar en ellas los recursos ubicados en la biblioteca.
 
-La parte superior del panel Biblioteca de recursos tiene comandos para localizar recursos. Puede buscar recursos y también aplicar filtros para buscarlos. Para examinar los recursos que eliminó, seleccione el icono **[!UICONTROL Papelera]** en la parte inferior de la Biblioteca de recursos.
+La parte superior del panel Biblioteca de recursos tiene comandos para localizar recursos. Para localizar recursos, puede buscarlos y filtrarlos. Para examinar los recursos que ha eliminado, seleccione el icono **[!UICONTROL Papelera]** en la parte inferior de la Biblioteca de recursos.
 
 >[!NOTE]
 >
->Puede seleccionar controles de **[!UICONTROL Biblioteca de recursos]** para abrir o cerrar la Biblioteca de recursos y dejar más espacio para trabajar en pantalla. Seleccione el control **[!UICONTROL Expand]**/**[!UICONTROL Collapse]** para expandir o cerrar el panel. Estos controles se encuentran en el lado izquierdo del panel.
+>Puede seleccionar controles de **[!UICONTROL Biblioteca de recursos]** para abrir o cerrar la Biblioteca de recursos y expandir el área de trabajo disponible. Seleccione el control **[!UICONTROL Expand]**/**[!UICONTROL Collapse]** para expandir o contraer el panel. Estos controles se encuentran en el lado izquierdo del panel.
 
-## Panel Examinar/Panel Generar {#browse-panel-build-panel}
+## Panel Examinar/panel Generar {#browse-panel-build-panel}
 
-La mayor parte del trabajo se realiza en el panel Examinar/generación. Las funciones disponibles en este panel dependen de si se encuentra en el modo Examinar o en el modo Generar.
+En el panel Examinar/Generar se ejecutan muchas de las tareas. Las funciones disponibles en este panel dependen de si se encuentra en el modo Examinar o en el modo Generar.
 
 * **[!UICONTROL Modo de exploración]**: puede ver y trabajar con el contenido de una carpeta en el panel Examinar. Seleccione una carpeta en la biblioteca de recursos. Este panel ofrece los menús **[!UICONTROL Archivo]**, **[!UICONTROL Vista previa]**, **[!UICONTROL Seleccionar todo]**, **[!UICONTROL Seleccionar ninguno]** y **[!UICONTROL Ordenar]** para trabajar con recursos. También puede ver los recursos de diferentes maneras moviendo el control deslizante o seleccionando **[!UICONTROL Vista de cuadrícula]**, **[!UICONTROL Vista de lista]** o **[!UICONTROL Vista de detalles]**. Si selecciona **[!UICONTROL Vista de detalles]** o hace doble clic en un recurso, se abrirá el recurso en Vista de detalles, donde podrá realizar operaciones de archivo dependientes del recurso.
 
