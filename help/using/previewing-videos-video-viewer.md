@@ -12,16 +12,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:07:44.590Z'
 TQID: 'https://experienceleague.adobe.com/-ulcs6af9bMfE-L-kIhwlqs8edAub06N0FTyfhgGxb4'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: b7031d38bb5093c8fad86927ac0020020fb801e2
 workflow-type: tm+mt
-source-wordcount: 870
-ht-degree: 19%
+source-wordcount: 845
+ht-degree: 15%
 
 ---
 
@@ -33,8 +30,8 @@ Consulte [Agregar y editar ajustes preestablecidos de visor](application-setup.m
 
 **Para obtener una vista previa de los vídeos en un visor de vídeos:**
 
-1. En el panel Biblioteca de recursos de la izquierda, en la lista desplegable Mostrar, seleccione **[!UICONTROL Vídeo]** (vídeos con codificación única) o **[!UICONTROL Conjunto de vídeos adaptable]**. Cuando se utiliza el ajuste preestablecido de codificación de vídeo adaptable, se obtiene un conjunto de vídeos con codificación de velocidad de bits múltiple.
-1. En el panel Biblioteca de recursos del lado izquierdo, navegue a las carpetas de recursos para seleccionar el vídeo cuya vista previa desee obtener.
+1. En el panel Biblioteca de recursos de la izquierda, en la lista desplegable Mostrar, seleccione **[!UICONTROL Vídeo]** (vídeos con codificación única) o **[!UICONTROL Conjunto de vídeos adaptable]**. El ajuste preestablecido de codificación de vídeo adaptable da como resultado un conjunto de vídeos con codificación de varias velocidades de bits.
+1. En el panel Biblioteca de recursos de la izquierda, navegue por las carpetas de recursos para seleccionar el vídeo que desea previsualizar.
 1. Realice una de las acciones siguientes:
 
    * Encima de la ventana de Assets, en el lado derecho de la barra de herramientas, seleccione **[!UICONTROL Vista de lista]**. En la ventana Recurso, coloque el puntero sobre un recurso y seleccione **[!UICONTROL Vista previa]**.
@@ -49,7 +46,7 @@ Consulte [Agregar y editar ajustes preestablecidos de visor](application-setup.m
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic proporciona un método conveniente de previsualización de vídeo MP4 en el escritorio. Utilice este método para obtener una vista previa del contenido móvil en el escritorio sin probarlo físicamente en dispositivos móviles. Sin embargo, tenga en cuenta que lo que se ve en la vista previa de escritorio no muestra de forma realista el aspecto de la reproducción en el dispositivo móvil. Para obtener una vista previa del aspecto y la reproducción del vídeo en un dispositivo móvil, vaya a la pantalla Vista previa. Haga clic en **[!UICONTROL Copiar dirección URL]** e ingrese esa dirección URL en el explorador web de un dispositivo móvil. Para obtener más información, consulte [Implementar vídeo en sus sitios web y sitios móviles](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
+>Adobe Dynamic Media Classic le permite previsualizar vídeo MP4 en el escritorio. Utilice este método para previsualizar el contenido móvil en el escritorio sin probarlo en dispositivos móviles. Sin embargo, la vista previa de escritorio no refleja con precisión la reproducción en el dispositivo móvil. Para obtener una vista previa del aspecto y la reproducción del vídeo en un dispositivo móvil, vaya a la pantalla Vista previa. Haga clic en **[!UICONTROL Copiar dirección URL]** e ingrese esa dirección URL en el explorador web de un dispositivo móvil. Para obtener más información, consulte [Implementar vídeo en sus sitios web y sitios móviles](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
 ## Trabajar con ajustes preestablecidos de visor de vídeo {#working-with-video-viewer-presets}
 
@@ -59,7 +56,7 @@ Adobe Dynamic Media Classic incluye muchos ajustes preestablecidos de visualizad
 
 Ver [Vista previa de vídeos en un visor de vídeos](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
 
-Vea también [Ajustes preestablecidos de vídeo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) vídeo de formación.
+Vea también el vídeo de formación de [Ajustes preestablecidos de vídeo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS).
 
 ### Agregar o editar un ajuste preestablecido de visualizador de vídeo {#adding-or-editing-a-video-viewer-preset}
 
