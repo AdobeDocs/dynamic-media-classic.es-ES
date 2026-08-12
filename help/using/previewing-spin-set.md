@@ -18,16 +18,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 99a88f17cedfc68f0339067c75c360f98f098c30
 workflow-type: tm+mt
-source-wordcount: 258
-ht-degree: 28%
+source-wordcount: 261
+ht-degree: 9%
 
 ---
 
 # Previsualización de un conjunto de giros{#previewing-a-spin-set}
 
-Puede utilizar la Lista del visor para obtener una vista previa del aspecto de un recurso en una plataforma de tipo de visor determinada, como HTML5. Según el tipo de recurso y el visor asociado cuya vista previa haya seleccionado, no todas las plataformas se encuentran disponibles en Lista del visor.
+Puede utilizar la Lista del visor para obtener una vista previa del aspecto de un recurso en una plataforma de tipo visor determinada, como HTML5. Según el tipo de recurso y el visor asociado que haya seleccionado para la vista previa, no todas las plataformas están disponibles en la lista del visor.
 
 Consulte [Configurar visores predeterminados](application-setup.md#configuring_default_viewers).
 
@@ -36,7 +36,7 @@ Ver [Vista previa de un recurso](previewing-asset.md#previewing_an_asset).
 **Para obtener una vista previa de un conjunto de giros:**
 
 1. En la lista desplegable Mostrar del panel Biblioteca de recursos del lado izquierdo, seleccione un tipo de recurso de conjunto de giros.
-1. En el panel Biblioteca de recursos del lado izquierdo, navegue a las carpetas de recursos que contengan el conjunto de giros cuya vista previa desee obtener con un visor.
+1. En el panel Biblioteca de recursos de la izquierda, vaya a las carpetas de recursos que contienen el conjunto de giros que desea previsualizar en un visor.
 1. Realice una de las siguientes acciones:
 
    * Encima de la ventana de Assets, en el lado derecho de la barra de herramientas, seleccione **[!UICONTROL Vista de cuadrícula]**. En la ventana Recurso, debajo de la imagen en miniatura, vaya a **[!UICONTROL Vista previa]** > **[!UICONTROL Lista de visualizadores]**.

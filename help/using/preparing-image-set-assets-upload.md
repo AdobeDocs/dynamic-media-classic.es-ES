@@ -1,5 +1,5 @@
 ---
-title: Preparar recursos del conjunto de imágenes para cargar
+title: Preparar Assets de conjunto de imágenes para cargar
 description: Obtenga información sobre cómo preparar los recursos del conjunto de imágenes para cargarlos en Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -18,18 +18,18 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: a7f99941b1957d8fdb127f488146052ca7ff1d3a
 workflow-type: tm+mt
-source-wordcount: 162
-ht-degree: 45%
+source-wordcount: 157
+ht-degree: 31%
 
 ---
 
-# Preparar recursos del conjunto de imágenes para cargar{#preparing-image-set-assets-for-upload}
+# Preparar Assets de conjunto de imágenes para cargar{#preparing-image-set-assets-for-upload}
 
-Antes de cargar las imágenes que necesita para los conjuntos de imágenes en Adobe Dynamic Media Classic, asegúrese de que las imágenes tengan el tamaño y el formato adecuados.
+Antes de cargar las imágenes que necesita para los conjuntos de imágenes en [!DNL Adobe Dynamic Media Classic], asegúrese de que las imágenes tengan el tamaño y el formato correctos.
 
-Para crear un conjunto de imágenes con varias vistas, necesita imágenes que muestren un elemento desde distintos puntos de vista o que muestren distintos aspectos del mismo elemento. El objetivo es resaltar las características importantes del elemento para que los usuarios tengan una visión completa de su aspecto o función.
+Para crear un conjunto de imágenes con varias vistas, necesita imágenes que muestren un elemento desde distintos puntos de vista o que muestren distintos aspectos del mismo elemento. El objetivo es resaltar las características importantes de un elemento para que los visualizadores comprendan completamente la apariencia o la función del elemento.
 
 Puesto que los usuarios pueden aplicar zoom a las imágenes en los conjuntos de imágenes, asegúrese de que las imágenes de mayor dimensión tienen un mínimo de 2000 píxeles. Adobe Dynamic Media Classic admite muchos formatos de archivo de imagen, pero se recomiendan imágenes de TIFF, PNG y EPS sin pérdidas.
 

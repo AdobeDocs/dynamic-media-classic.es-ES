@@ -1,5 +1,5 @@
 ---
-title: Previsualización de un recurso
+title: Previsualizar un recurso
 description: Obtenga información sobre cómo previsualizar un recurso en Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -18,20 +18,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: ae2683d92d4648fc4d241cd2253de4ae840d8116
 workflow-type: tm+mt
-source-wordcount: 1023
-ht-degree: 11%
+source-wordcount: 1013
+ht-degree: 9%
 
 ---
 
 # Previsualización de un recurso{#previewing-an-asset}
 
-Puede usar Vista previa para ver cómo aparece un recurso digital cuando lo ve un cliente. La Vista previa utiliza el visor predeterminado que tiene asignado el recurso. Los visores predeterminados se configuran en Ajustes de aplicación.
+Puede usar Vista previa para ver cómo aparece un recurso digital cuando lo ve un cliente. La vista previa utiliza el visor predeterminado asignado al recurso. Los visores predeterminados se configuran en Ajustes de aplicación.
 
 Consulte [Configurar visores predeterminados](application-setup.md#configuring_default_viewers).
 
-Si está previsualizando un recurso de plantilla con capas de parámetros, puede cambiar parámetros o el ajuste preestablecido de imagen. Debido a que los cambios se realizan en línea, los resultados pueden verse inmediatamente desde la propia ventana de vista previa.
+Si está previsualizando un recurso de plantilla con capas de parámetros, puede cambiar parámetros o el ajuste preestablecido de imagen. Como los cambios se aplican inmediatamente, puede ver los resultados desde la misma ventana de vista previa.
 
 Consulte también [Ejemplos de la biblioteca de referencia de visores de Adobe](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
@@ -53,14 +53,14 @@ Consulte también [Ejemplos de la biblioteca de referencia de visores de Adobe](
 
 Puede utilizar la lista del visor para obtener una vista previa del aspecto de un recurso en un tipo de plataforma de visor concreto, como HTML5. Según el tipo de recurso y el visor asociado cuya vista previa haya seleccionado, no todas las plataformas se encuentran disponibles en Lista del visor.
 
-También puede utilizar la lista del visor para copiar la URL de un visor o ver y copiar el código del visor para incrustarlo en las páginas Web.
+También puede utilizar la lista del visor para copiar la URL de un visor o ver y copiar el código del visor para incrustarlo en las páginas web.
 
-En una plataforma de visor determinada, la ventana Lista de visores permite ver visualmente qué dispositivos, como tabletas y smartphones, están disponibles para utilizar.
+Para una plataforma de visor determinada, la ventana Lista de visores muestra los dispositivos, como tabletas y smartphones, para los que hay un visor disponible.
 
 **Para obtener una vista previa de un recurso en función del tipo de plataforma del visor:**
 
 1. En el panel Biblioteca de recursos de la izquierda, vaya a la carpeta de recursos que contiene el recurso que desea previsualizar.
-1. Realice una de las acciones siguientes:
+1. Realice una de las siguientes acciones:
 
    * Encima de la ventana de Assets, en el lado derecho de la barra de herramientas, seleccione **[!UICONTROL Vista de cuadrícula]**. En la ventana Recurso, seleccione un solo recurso y, debajo de la imagen en miniatura, vaya a **[!UICONTROL Vista previa]** > **[!UICONTROL Lista de visualizadores]**.
    * Encima de la ventana de Assets, en el lado derecho de la barra de herramientas, seleccione **[!UICONTROL Vista de lista]**. En la ventana Recurso, seleccione un solo recurso y, a continuación, a la derecha de la imagen en miniatura, vaya a **[!UICONTROL Vista previa]** > **[!UICONTROL Lista de visualizadores]**.
@@ -80,7 +80,7 @@ En una plataforma de visor determinada, la ventana Lista de visores permite ver 
 
    * En la ventana Lista de visualizadores, en la columna Acciones de la tabla, seleccione **[!UICONTROL Código incrustado]**.
 
-     Al seleccionar **[!UICONTROL Código incrustado]**, se abrirá la ventana Código incrustado, donde podrá revisar el código del visor. El código no se puede editar en la ventana. También puede copiar el código en el portapapeles para pegarlo en las páginas Web.
+     Al seleccionar **[!UICONTROL Código incrustado]**, se abrirá la ventana Código incrustado, donde podrá revisar el código del visor. No se puede editar el código en la ventana. También puede copiar el código en el portapapeles para pegarlo en sus páginas web.
 
      Cerrar la vista previa mostrada.
 
@@ -88,7 +88,7 @@ En una plataforma de visor determinada, la ventana Lista de visores permite ver 
 
 ## Previsualizar un recurso de imagen en función de su ajuste preestablecido de imagen {#previewing-an-image-asset-based-on-its-image-preset}
 
-Puede obtener una vista previa de un recurso de imagen en función de su ajuste preestablecido de imagen para averiguar el aspecto de la imagen cuando se envía dinámicamente al sitio web o a la aplicación en diferentes tamaños.
+Para determinar cómo aparece la imagen cuando se envía dinámicamente al sitio web o a la aplicación en diferentes tamaños, puede obtener una vista previa de un recurso de imagen en función de su ajuste preestablecido de imagen.
 
 Un ajuste preestablecido de imagen es un conjunto de ajustes predefinidos. Estos ajustes cambian el tamaño, la calidad de imagen, el formato, la resolución y otros aspectos de la apariencia de una imagen cuando se exporta.
 
@@ -99,14 +99,14 @@ Consulte [Crear y habilitar ajustes preestablecidos de imagen](creating-enabling
 **Para obtener una vista previa de un recurso de imagen en función de su ajuste preestablecido de imagen:**
 
 1. En el panel Biblioteca de recursos de la izquierda, vaya a la carpeta de recursos que contiene el recurso de imagen que desea previsualizar.
-1. Realice una de las acciones siguientes:
+1. Realice una de las siguientes acciones:
 
    * Encima de la ventana de Assets, en el lado derecho de la barra de herramientas, seleccione **[!UICONTROL Vista de cuadrícula]**. En la ventana Recurso, seleccione un solo recurso de imagen y, debajo de la imagen en miniatura, vaya a **[!UICONTROL Vista previa]** > **[!UICONTROL Lista de ajustes preestablecidos de imagen]**.
    * Encima de la ventana de Assets, en el lado derecho de la barra de herramientas, seleccione **[!UICONTROL Vista de lista]**. En la ventana Recurso, seleccione un solo recurso de imagen y, a continuación, a la derecha de la imagen en miniatura, vaya a **[!UICONTROL Vista previa]** > **[!UICONTROL Lista de ajustes preestablecidos de imagen]**.
    * Encima de la ventana de Assets, en la parte derecha de la barra de herramientas, seleccione **[!UICONTROL Vista de detalles]**. En la misma barra de herramientas, vaya a **[!UICONTROL Vista previa]** > **[!UICONTROL Lista de ajustes preestablecidos de imagen]**.
 
 1. En la tabla de la ventana Lista de ajustes preestablecidos de imagen, seleccione el nombre de un tipo de ajuste preestablecido cuyo recurso de imagen quiera previsualizar en línea en el panel derecho.
-1. (Opcional) En la ventana Lista de ajustes preestablecidos de imagen, en la lista desplegable **[!UICONTROL Codificación de URL para la generación de copias de URL]**, en la parte inferior.
+1. (Opcional) En la ventana Lista de ajustes preestablecidos de imagen, en la lista desplegable **[!UICONTROL Codificación de URL para la generación de copias de URL]** en la parte inferior, seleccione la Codificación de URL.
 1. Seleccione la codificación URL que se aplicará a la URL del recurso de imagen cuando se copie.
 1. (Opcional) En la ventana Lista de ajustes preestablecidos de imagen, en el área superior derecha del panel de vista previa, seleccione **[!UICONTROL Copiar URL]** para el tipo de ajuste preestablecido seleccionado.
 

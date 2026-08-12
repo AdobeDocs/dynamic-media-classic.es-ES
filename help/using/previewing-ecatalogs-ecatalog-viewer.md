@@ -18,16 +18,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 3f3b662bf92a81b908f0f10ded2e5c19aa62266a
 workflow-type: tm+mt
-source-wordcount: 258
-ht-degree: 22%
+source-wordcount: 259
+ht-degree: 1%
 
 ---
 
 # Vista previa de catálogos electrónicos en el visor de catálogos electrónicos{#previewing-ecatalogs-in-the-ecatalog-viewer}
 
-Utilice Vista previa para mostrar el catálogo electrónico con diferentes ajustes preestablecidos del visor. Puede probar los diferentes controles para pasar páginas, escribir notas adhesivas y examinar el catálogo.
+Puede utilizar la función Vista previa para mostrar el catálogo electrónico con diferentes ajustes preestablecidos del Visor de catálogos electrónicos. Para pasar páginas, agregar notas y examinar, puede utilizar los diferentes controles.
 
 Consulte [Configurar visores predeterminados](application-setup.md#configuring_default_viewers).
 
@@ -35,8 +35,8 @@ Ver [Vista previa de un recurso](previewing-asset.md#previewing_an_asset).
 
 **Para obtener una vista previa de los catálogos electrónicos en el visor de catálogos electrónicos:**
 
-1. En el panel Biblioteca de recursos de la izquierda, en la lista desplegable Mostrar, seleccione un tipo de recurso basado en vídeo, como Vídeo o Conjunto de vídeos.
-1. En el panel Biblioteca de recursos del lado izquierdo, navegue a las carpetas de recursos que contengan los vídeos cuya vista previa desee obtener con el visor de catálogos electrónicos.
+1. En el panel Biblioteca de recursos de la izquierda, en la lista desplegable Mostrar, seleccione un tipo de recurso basado en catálogo electrónico, como Catálogo electrónico o Conjunto de catálogos electrónicos.
+1. En el panel Biblioteca de recursos de la izquierda, vaya a las carpetas de recursos que contienen catálogos electrónicos que desea previsualizar con un visor de catálogos electrónicos.
 1. Realice una de las siguientes acciones:
 
    * Encima de la ventana de Assets, en el lado derecho de la barra de herramientas, seleccione **[!UICONTROL Vista de cuadrícula]**. En la ventana Recurso, debajo de la imagen en miniatura, vaya a **[!UICONTROL Vista previa]** > **[!UICONTROL Lista de visualizadores]**.

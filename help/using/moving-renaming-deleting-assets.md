@@ -1,5 +1,5 @@
 ---
-title: Mover, cambiar el nombre y eliminar recursos
+title: Mover, cambiar nombre y eliminar Assets
 description: Obtenga información sobre cómo mover, cambiar el nombre y eliminar recursos en Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -19,16 +19,16 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 86437beff2a5d9e45380e423c760c5f5ffe04411
 workflow-type: tm+mt
-source-wordcount: 613
-ht-degree: 17%
+source-wordcount: 607
+ht-degree: 12%
 
 ---
 
 # Mover, cambiar el nombre y eliminar recursos{#moving-renaming-and-deleting-assets}
 
-Puede mover, cambiar el nombre y eliminar recursos desde el panel Examinar. Además, puede eliminar varios recursos de forma simultánea con un archivo de texto.
+Puede mover, cambiar el nombre y eliminar recursos desde el panel Examinar. Además, puede eliminar varios recursos simultáneamente mediante un archivo de texto.
 
 ## Desplazamiento de recursos {#move-assets}
 
@@ -52,13 +52,13 @@ Puede mover recursos a diferentes carpetas en el panel Examinar.
 
 Puede eliminar los recursos seleccionados en el panel Examinar y eliminar carpetas completas. Los recursos y carpetas eliminados se mueven a la carpeta Papelera, donde permanecerán durante 7 días antes de ser eliminados de forma permanente.
 
-Al eliminar un recurso, también se eliminan todos los recursos derivados de él. Por ejemplo, al eliminar una imagen para la que ha creado Destinos de zoom, se eliminan los Destinos de zoom junto con la imagen.
+Al eliminar un recurso, todos los derivados de dicho recurso se eliminarán con él. Por ejemplo, al eliminar una imagen para la que ha creado Destinos de zoom, se eliminan los Destinos de zoom junto con la imagen.
 
-los destinos de zoom, los atributos de imagen y las entradas del historial se eliminarán permanentemente al eliminar los recursos a partir de los que se originaron. No se mueven junto con el recurso a la carpeta Papelera, por lo que no se pueden restaurar desde la papelera.
+Los destinos de zoom, los atributos de imagen y las entradas del historial se eliminan de forma permanente al eliminar los recursos de los que se derivan. No se mueven junto con el recurso a la carpeta Papelera, por lo que no se pueden restaurar desde la papelera.
 
 >[!IMPORTANT]
 >
->La eliminación en lote es una operación intensiva. Asegúrese de ejecutar las eliminaciones masivas secuencialmente en lugar de como operaciones de eliminación simultáneas y pesadas. Adobe recomienda limitar las operaciones de eliminación a 5000 o menos eliminaciones de recursos por hora. Cualquier número mayor de 5000 por hora puede limitar la velocidad.
+>La eliminación en lote es una operación que consume muchos recursos. Ejecute las eliminaciones masivas de forma secuencial en lugar de como operaciones de eliminación simultáneas a gran escala. Adobe recomienda limitar las operaciones de eliminación a 5000 o menos eliminaciones de recursos por hora. Cualquier cantidad superior a 5000 por hora puede causar una limitación de la velocidad.
 
 **Para eliminar recursos:**
 
@@ -73,11 +73,11 @@ Adobe Dynamic Media Classic recomienda sobrescribir los archivos de recursos en 
 
 ## Eliminación de varios recursos con un archivo de texto {#delete-multiple-assets-with-a-text-file}
 
-Para eliminar muchos recursos a la vez en la biblioteca de recursos, puede enumerar los recursos que desea eliminar en un archivo de texto y enviar la lista a Adobe Dynamic Media Classic.
+Para eliminar varios recursos a la vez en la biblioteca de recursos, puede enumerar los recursos que desea eliminar en un archivo de texto y enviar la lista a Adobe Dynamic Media Classic.
 
-Cree la lista de Adobe Dynamic Media Classic ID y guárdela como un archivo de texto (.txt). Cada ID de Adobe Dynamic Media Classic debe estar en su propia línea (seguida de una devolución fuerte).
+Cree la lista de Adobe Dynamic Media Classic ID y guárdela como un archivo de texto (.txt). Cada ID de Adobe Dynamic Media Classic debe estar en su propia línea (seguida de un retorno de carro).
 
-Después de crear la lista, siga estos pasos para eliminar los recursos:
+Para utilizar la lista para eliminar recursos, haga lo siguiente:
 
 1. Vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Eliminar lista de recursos]**.
 1. En el cuadro de diálogo **[!UICONTROL Lista de recursos eliminados]**, escriba la ruta de acceso al archivo de texto con la lista de recursos que desea eliminar.

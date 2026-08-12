@@ -22,10 +22,10 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: cbeb7293d2fbe21f2ec2e585b389c1056404341c
 workflow-type: tm+mt
-source-wordcount: 483
-ht-degree: 21%
+source-wordcount: 478
+ht-degree: 14%
 
 ---
 
@@ -33,9 +33,9 @@ ht-degree: 21%
 
 Los proyectos proporcionan una manera opcional de organizar los recursos, sin tener en cuenta las carpetas en las que están almacenados. Un recurso solo puede colocarse en una carpeta, aunque puede copiarse en más de una carpeta de proyecto con el fin de organizar los elementos.
 
-Una vez que haya creado una carpeta de proyecto, podrá colocar recursos en ella. Assets en un proyecto es en realidad un indicador de la carpeta de la biblioteca de recursos en la que se almacenan los recursos. Puede colocar un recurso en más de un proyecto. Por ejemplo, se puede colocar una imagen de una blusa en las carpetas &quot;Blusas&quot; y &quot;Colección de otoño&quot; del proyecto.
+Una vez que haya creado una carpeta de proyecto, podrá colocar recursos en ella. Assets en un proyecto es un puntero a la carpeta de la biblioteca de recursos en la que se almacenan los recursos. Puede colocar un recurso en más de un proyecto. Por ejemplo, la imagen de una camisa se puede colocar en las carpetas &quot;Camisas&quot; y &quot;Colección de otoño&quot; del proyecto.
 
-Los proyectos pueden crearse al cargar archivos o desde el panel de la biblioteca de recursos.
+Puede crear un proyecto al cargar archivos o al crear proyectos en el panel Biblioteca de recursos.
 
 >[!NOTE]
 >
@@ -43,13 +43,13 @@ Los proyectos pueden crearse al cargar archivos o desde el panel de la bibliotec
 
 >[!NOTE]
 >
->Para poder organizar los recursos por proyectos, es necesario tener permiso del administrador. Si no ve una sección de carpetas de proyectos en la parte inferior de la biblioteca de Assets, significa que este método de organización de recursos no está disponible. Consulte [Configuración general de la aplicación](application-setup.md#general-settings).
+>Para organizar los recursos en Proyectos, el administrador debe tener configurada la cuenta para utilizarlos. Si no ve una sección de carpeta Proyectos en la parte inferior de la biblioteca de recursos, este método de organización de recursos no está disponible. Consulte [Configuración general de la aplicación](application-setup.md#general-settings).
 
 ## Crear una carpeta de proyecto {#creating-a-project-folder}
 
-Puede crear una carpeta de proyecto a partir de la biblioteca de Assets o al cargar archivos en Adobe Dynamic Media Classic:
+Puede crear una carpeta de proyecto a partir de la Biblioteca de recursos o al cargar archivos en Adobe Dynamic Media Classic:
 
-* **En la biblioteca de recursos**: desplácese hasta la parte inferior de la biblioteca de recursos, a la sección Proyectos y, a continuación, seleccione **[!UICONTROL Agregar proyecto]**. Escriba un nombre para el proyecto.
+* **En la biblioteca de recursos**: desplácese hasta la parte inferior de la biblioteca de recursos hasta la sección Proyectos y, a continuación, seleccione **[!UICONTROL Agregar proyecto]**. Escriba un nombre para el proyecto.
 
 * **Al cargar archivos**: en la pantalla Cargar, ve a **[!UICONTROL Agregar al proyecto]** > **[!UICONTROL Crear proyecto]**. Escriba un nombre para el proyecto.
 
@@ -59,11 +59,11 @@ Puede crear una carpeta de proyecto a partir de la biblioteca de Assets o al car
 
 ## Trabajar con carpetas de proyecto {#working-with-project-folders}
 
-Para mostrar, eliminar y cambiar el nombre de una carpeta de Project, siga uno de estos procedimientos:
+Para mostrar, eliminar y cambiar el nombre de una carpeta de Project, utilice cualquiera de los siguientes métodos:
 
 * **Explorar contenido**: seleccione el nombre de la carpeta en la Biblioteca de recursos. Sus recursos aparecerán en el panel Examinar.
 
-* **Eliminando carpetas de proyecto**: seleccione la carpeta Proyecto y, a continuación, seleccione **[!UICONTROL Quitar proyecto]**. Al eliminar recursos de una carpeta de Project, no se eliminan de Adobe Dynamic Media Classic; los recursos permanecen en las carpetas originales en las que están almacenados.
+* **Eliminando carpetas de proyecto**: seleccione la carpeta Proyecto y, a continuación, seleccione **[!UICONTROL Quitar proyecto]**. Al eliminar recursos de una carpeta de Project, no se eliminan de Adobe Dynamic Media Classic; los recursos permanecen en sus carpetas de almacenamiento originales.
 
 * **Cambiando el nombre de las carpetas del proyecto**: haga doble clic en el nombre de la carpeta en el panel de recursos y, a continuación, escriba un nombre nuevo.
 

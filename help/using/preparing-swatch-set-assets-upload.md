@@ -1,5 +1,5 @@
 ---
-title: Preparar recursos del conjunto de muestras para cargar
+title: Preparar Assets del conjunto de muestras para la carga
 description: Obtenga información sobre cómo preparar los recursos del conjunto de muestras para cargarlos en Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -18,14 +18,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 327c9ba1e3d58d2daa8032dbd248c0312a7ec882
 workflow-type: tm+mt
 source-wordcount: 180
 ht-degree: 61%
 
 ---
 
-# Preparar recursos del conjunto de muestras para cargar{#preparing-swatch-set-assets-for-upload}
+# Preparar Assets del conjunto de muestras para la carga{#preparing-swatch-set-assets-for-upload}
 
 Antes de cargar las imágenes que necesita, asegúrese de que las imágenes son del tamaño y formato correctos. Monte también los archivos de muestras que necesite.
 
