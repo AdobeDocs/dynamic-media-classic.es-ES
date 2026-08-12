@@ -1,5 +1,5 @@
 ---
-title: Publicación de imágenes principales
+title: Publicar imágenes principales
 description: Obtenga información sobre cómo publicar imágenes principales desde Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -12,15 +12,12 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:08:49.126Z'
 TQID: 'https://experienceleague.adobe.com/MsYvgtKLOqbCZFs67ZPD2hN0fHoKj-AgIpGjM4EWyrM'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 50446d4791c5eda0eb9b9b5369cf4eee1fee2d3b
 workflow-type: tm+mt
-source-wordcount: 165
+source-wordcount: 164
 ht-degree: 6%
 
 ---
@@ -31,7 +28,7 @@ La publicación de los archivos de imagen los publica en los servidores de imág
 
 ## Marcar imágenes principales para publicarlas {#marking-master-images-for-publish}
 
-Las imágenes principales deben marcarse para la publicación para que se copien en los servidores de imágenes de Dynamic Media. Puede marcar las imágenes principales para su publicación en el panel Examinar seleccionando el icono **[!UICONTROL Marcar para publicación]**. También puede marcar imágenes para su publicación cuando las cargue en Adobe Dynamic Media Classic.
+Las imágenes principales deben marcarse para la publicación, de modo que se puedan copiar en los servidores de imágenes de Dynamic Media. Puede marcar las imágenes principales para su publicación en el panel Examinar seleccionando el icono **[!UICONTROL Marcar para publicación]**. También puede marcar las imágenes para publicarlas cuando las cargue en Adobe Dynamic Media Classic.
 
 ## Publicación de las imágenes principales {#publishing-your-master-images}
 
