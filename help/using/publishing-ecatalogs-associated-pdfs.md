@@ -12,16 +12,13 @@ topic: Integrations, Development
 level: Experienced
 autotag-review: '2026-05-13T19:54:33.145Z'
 TQID: 'https://experienceleague.adobe.com/fMbleVTKmwZDm8Ol0jSNVG130jTYKkPcE4SuQA520bA'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6fb52aee7459e9e80a812215a5ba225348fced52
 workflow-type: tm+mt
-source-wordcount: 197
-ht-degree: 13%
+source-wordcount: 195
+ht-degree: 10%
 
 ---
 
@@ -31,7 +28,7 @@ La publicación coloca el catálogo electrónico y PDF en servidores de imágene
 
 >[!NOTE]
 >
->Asegúrese de que el catálogo electrónico y PDF residen en la misma carpeta. Además, asegúrese de que estén marcados para su publicación en el panel Examinar o en la página Detalles del recurso antes de publicarlos.
+>Asegúrese de que el catálogo electrónico y PDF residen en la misma carpeta. Asegúrese de que estén marcados para su publicación en el panel Examinar o en la página Detalles del recurso antes de publicarlos.
 
 **Para publicar catálogos electrónicos y PDF asociados:**
 
@@ -39,7 +36,7 @@ La publicación coloca el catálogo electrónico y PDF en servidores de imágene
 1. En la pantalla Publicación, seleccione **[!UICONTROL Una vez]** o **[!UICONTROL Recurrente]**.
 1. (Opcional) En el campo Nombre del trabajo, introduzca un nombre para el trabajo de publicación, pero mantenga el texto predefinido de fecha y hora.
 
-   Si configura el catálogo electrónico para que los usuarios puedan realizar búsquedas por palabras clave, deberá publicar los datos de palabra clave. En el cuadro de diálogo Publicación, seleccione **[!UICONTROL Avanzadas]**. En el menú desplegable **[!UICONTROL Publicar]**, seleccione **[!UICONTROL Completo con datos de búsqueda]**. Ésta es la opción seleccionada por defecto.
+   Si configura el catálogo electrónico para que los usuarios puedan realizar búsquedas por palabras clave, deberá publicar los datos de palabra clave. En el cuadro de diálogo Publicación, seleccione **[!UICONTROL Avanzadas]**. En el menú desplegable **[!UICONTROL Publicar]**, seleccione **[!UICONTROL Completo con datos de búsqueda]**. El sistema selecciona esta opción de forma predeterminada.
 
 1. Seleccione **[!UICONTROL Enviar publicación]**.
 
