@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 8653e7b7e736c91c71e1b66902525344b81320ed
 workflow-type: tm+mt
-source-wordcount: 1696
-ht-degree: 21%
+source-wordcount: 1669
+ht-degree: 17%
 
 ---
 
@@ -29,21 +29,21 @@ ht-degree: 21%
 
 Los recursos se publican en servidores de imágenes de Dynamic Media. Puede publicar recursos una vez o hacer que Adobe Dynamic Media Classic publique los recursos de forma recurrente. Después de publicarse, tiene los recursos disponibles para su entrega. Puede copiar las llamadas de URL desde Adobe Dynamic Media Classic y añadirlas a su sitio web o aplicación.
 
-Adobe Dynamic Media Classic ahora admite el envío de todas las imágenes y vídeos a través de HTTP/2. Es decir, hay disponible una URL publicada o un código incrustado para la imagen o el vídeo que se va a integrar con cualquier aplicación que acepte un recurso alojado. Ese recurso publicado utiliza el protocolo HTTP/2 para entregarlo. Este método de entrega mejora la forma en que los navegadores y servidores se comunican, lo que permite una mejor respuesta y tiempos de carga de todos los recursos de Adobe Dynamic Media Classic. Consulte [Preguntas frecuentes sobre la entrega de contenido HTTP2](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/dynamic/http2).
+Adobe Dynamic Media Classic ahora admite el envío de todas las imágenes y vídeos a través de HTTP/2. Es decir, hay disponible una URL publicada o un código incrustado para la imagen o el vídeo que se va a integrar con cualquier aplicación que acepte un recurso alojado. Ese recurso publicado utiliza el protocolo HTTP/2 para entregarlo. Este método de envío mejora la forma en que los exploradores y servidores se comunican, lo que mejora los tiempos de respuesta y carga de todos los recursos de Adobe Dynamic Media Classic. Consulte [Preguntas frecuentes sobre la entrega de contenido HTTP2](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/assets/dynamic/http2).
 
 ## Publicar tras la carga {#publish-after-uploading}
 
-Los recursos están en un estado publicado o no. De forma predeterminada, todos los recursos que cargue en Adobe Dynamic Media Classic se marcarán automáticamente para su publicación.
+Assets tiene el estado Publicación o Publicación cancelada. De forma predeterminada, todos los recursos que cargue en Adobe Dynamic Media Classic se marcarán automáticamente para su publicación.
 
 Para obtener más información, consulte [Aviso de publicación instantánea PDF](/help/using/assets/rendering-instant-publish-notification.pdf).
 
-Utilice estas técnicas para marcar recursos para su publicación:
+Utilice estas técnicas para marcar recursos para publicarlos:
 
 * **[!UICONTROL Publicar después de cargar]**: en la página Cargar, cerca de la parte inferior, seleccione **[!UICONTROL Publicar después de cargar]**. El valor predeterminado es un estado seleccionado.
 
 * **[!UICONTROL Publicar después de cargar]**: En el cuadro de diálogo Opciones del trabajo, seleccione **[!UICONTROL Publicar después de cargar]**. El valor predeterminado es un estado seleccionado.
 
-Algunos recursos &quot;secundarios&quot; se marcan para la publicación de forma automática al marcarse para publicación los recursos principales. Esta tabla enumera los recursos secundarios marcados automáticamente para su publicación.
+Algunos recursos dependientes se marcan automáticamente para su publicación cuando sus recursos principales se marcan para su publicación. Esta tabla enumera los recursos secundarios marcados para su publicación automáticamente.
 
 | Elemento principal (grupo) | Elementos secundarios (miembros) |
 | --- | --- |
@@ -56,14 +56,14 @@ Las imágenes derivadas también se marcan automáticamente para su publicación
 
 ## Creación de un trabajo de publicación {#creating-a-publish-job}
 
-Cree un trabajo de publicación para publicar los recursos que ha cargado en los servidores de Adobe Dynamic Media Classic, pero no desea que se publiquen automáticamente todavía. Puede realizar un trabajo de publicación único o programar trabajos para que se repitan con regularidad. Adobe Dynamic Media Classic ofrece opciones de publicación avanzadas para la publicación en servidores específicos y opciones para volver a publicar recursos que ya se han publicado.
+Cree un trabajo de publicación para publicar los recursos que ha cargado en los servidores de Adobe Dynamic Media Classic. Utilícelo para recursos que no desea publicar automáticamente. Puede realizar un trabajo de publicación único o programar trabajos para que se repitan con regularidad. Adobe Dynamic Media Classic ofrece opciones de publicación avanzadas para la publicación en servidores específicos y opciones para volver a publicar recursos que ya se han publicado.
 
 **Para crear un trabajo de publicación:**
 
 1. En la barra de navegación global, seleccione **[!UICONTROL Publicar]**.
 1. En el cuadro de diálogo Publicación, elija si desea un trabajo de publicación único o recurrente.
 
-   Consulte [Crear un trabajo de publicación único](publishing-files.md#creating_a_one_time_publish_job) y [Crear un trabajo de publicación recurrente](publishing-files.md#creating_a_recurring_publish_job).
+   Ver [Crear un trabajo de publicación único](publishing-files.md#creating_a_one_time_publish_job) y [Crear un trabajo de publicación recurrente](publishing-files.md#creating_a_recurring_publish_job).
 
 1. Introduzca un nombre de trabajo.
 1. Si lo desea, acceda a las opciones avanzadas y elija entre estas opciones.
@@ -84,21 +84,21 @@ Cree un trabajo de publicación único seleccionando la opción **[!UICONTROL Ú
 
 Si desea que el trabajo de publicación se realice más adelante, en la página Publicación, seleccione **[!UICONTROL Único]**. En la lista desplegable, seleccione **[!UICONTROL Programar para más tarde]**. Utilice el control deslizante Calendario y Hora para seleccionar un día y una hora para ejecutar el trabajo de publicación.
 
-### Crear un trabajo de publicación recurrente {#creating-a-recurring-publish-job}
+### Creación de un trabajo de publicación recurrente {#creating-a-recurring-publish-job}
 
 Cree un trabajo de publicación recurrente seleccionando **[!UICONTROL Recurrente]** en la página Publicación.
 
-A continuación, elija una opción Repetir de **[!UICONTROL Diario]**, **[!UICONTROL Semanal]**, **[!UICONTROL Mensual]** o **[!UICONTROL Personalizado]**, y después especifique cuándo desea que se repita el trabajo de publicación. Adobe Dynamic Media Classic presenta las herramientas de calendario para programar el trabajo de publicación recurrente. Puede seleccionar la opción **[!UICONTROL Personalizado]** e introducir una regla en el campo de texto Regla para describir un intervalo de trabajo personalizado.
+A continuación, elija una opción Repetir de **[!UICONTROL Diario]**, **[!UICONTROL Semanal]**, **[!UICONTROL Mensual]** o **[!UICONTROL Personalizado]**, y después especifique cuándo desea que se repita el trabajo de publicación. Adobe Dynamic Media Classic presenta herramientas de calendario para programar el trabajo de publicación recurrente. Puede seleccionar la opción **[!UICONTROL Personalizado]** e introducir una regla en el campo de texto Regla para describir un intervalo de trabajo personalizado.
 
 Consulte [Crear un intervalo de tiempo de trabajo de publicación o carga personalizado](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
 
 >[!NOTE]
 >
->Los trabajos de publicación (y carga) recurrentes aparecen en la página Trabajos. Si desea editar o eliminar un trabajo programado vaya a la ficha Programados en la página Trabajos.
+>Los trabajos de publicación (y carga) recurrentes aparecen en la página Trabajos. Para editar o eliminar un trabajo programado, vaya a la pestaña Programado de la página Trabajos.
 
 ### Opciones avanzadas de publicación {#advanced-publish-options}
 
-Puede mostrar las opciones Avanzadas en la página Publicación y elegir estas opciones para administrar un trabajo de publicación:
+Puede mostrar las opciones Avanzadas en la página Publicación y elegir estas opciones para gestionar un trabajo de publicación:
 
 * **[!UICONTROL Publicar en]**: para publicar recursos solamente en un servidor específico, elija un tipo de servidor.
 
@@ -122,9 +122,9 @@ Para cancelar un trabajo de publicación, vaya a la página Trabajos y seleccion
 
 ## Publicar recursos manualmente {#manually-publishing-assets}
 
-Puede publicar recursos individuales manualmente en lugar de crear un trabajo de publicación. Cuando publica conjuntos, como un conjunto de imágenes o un conjunto de vídeos adaptable, se publican el conjunto (o &quot;principal&quot;) y todos los miembros (o &quot;secundarios&quot;) de ese conjunto.
+Puede publicar recursos individuales manualmente en lugar de crear un trabajo de publicación. Cuando publica conjuntos, se publican el principal y todos los secundarios de ese conjunto.
 
-Los recursos sin publicar se indican en la interfaz de usuario mediante un icono redondo gris con una barra diagonal (estado sin publicar) a la izquierda del nombre del recurso. Tras publicar un recurso, el icono cambia a verde y tiene una marca de comprobación blanca en el centro (estado publicado).
+Un icono gris redondo con una línea a su través (estado sin publicar) a la izquierda del nombre del recurso indica recursos sin publicar en la interfaz de usuario. Tras publicar un recurso, el icono cambia a verde y tiene una marca de comprobación blanca en el centro (estado publicado).
 
 **Para publicar recursos manualmente:**
 
@@ -134,13 +134,13 @@ Los recursos sin publicar se indican en la interfaz de usuario mediante un icono
 
      En la barra de navegación global, vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Publicar]**.
 
-   * En la vista de cuadrícula, vista de lista o vista de detalles, seleccione el icono gris redondeado con una barra diagonal a la izquierda del nombre del recurso.
+   * En la vista de cuadrícula, vista de lista o vista de detalles, seleccione el icono gris redondeado con una línea a través, a la izquierda del nombre del recurso.
 
 ## Cancelar la publicación de recursos manualmente {#manually-unpublishing-assets}
 
-Puede cancelar la publicación de los recursos individuales manualmente. Al cancelar la publicación de conjuntos, como un conjunto de muestras o un catálogo electrónico, el conjunto (o &quot;principal&quot;) pasa a estar en estado de no publicación. Sin embargo, los miembros (o &quot;hijos&quot;) de ese conjunto no se ven afectados, sino que cada uno de ellos conserva su estado publicado o no publicado.
+Puede cancelar la publicación de los recursos individuales manualmente. Cuando cancela la publicación de conjuntos, el elemento principal pasa a un estado sin publicar. Sin embargo, los miembros (o &quot;hijos&quot;) de ese conjunto no se ven afectados, sino que cada uno de ellos conserva su estado publicado o no publicado.
 
-Los recursos publicados se indican en la interfaz de usuario mediante un icono redondo de color verde con una marca de verificación blanca en el centro (estado publicado), a la izquierda del nombre del recurso. Una vez cancelada la publicación de un recurso, el icono se vuelve gris con una barra diagonal (estado sin publicar),
+Un icono redondo de color verde con una marca de verificación blanca en el centro (estado de publicación) a la izquierda del nombre del recurso indica los recursos publicados en la interfaz de usuario. Una vez cancelada la publicación de un recurso, el icono se vuelve gris con una línea a su través (estado de cancelación de publicación).
 
 **Para cancelar la publicación manual de recursos:**
 
@@ -158,11 +158,11 @@ La última fecha de publicación de un recurso se muestra en Vista de detalles e
 
 ## Segunda publicación de recursos y retrasos de CDN {#republished-assets-and-cdn-delays}
 
-Los recursos de Adobe Dynamic Media Classic se distribuyen en la red de entrega de contenido (CDN). CDN es un sistema de servidores de ordenador conectados entre sí que cooperan con transparencia para entregar contenido, especialmente de medios de gran tamaño, a los usuarios finales. En el sistema CDN, el contenido web se almacena en cachés web a través de Internet (lo que se denomina red de caché perimetral). El contenido web se entrega desde las cachés web a los usuarios finales para realizar envíos más rápidos.
+Los recursos de Adobe Dynamic Media Classic se distribuyen en la red de entrega de contenido (CDN). CDN es un sistema de servidores informáticos conectados en red. Trabajan juntos para ofrecer contenido, especialmente contenido multimedia de gran tamaño, a los usuarios finales. En el sistema CDN, el contenido web se almacena en cachés web a través de Internet (lo que se denomina red de caché perimetral). El contenido web se entrega desde las cachés web a los usuarios finales para proporcionar envíos más rápidos.
 
-La primera vez que alguien descarga una página web, los recursos se envían a un servidor de caché web de CDN. Este servidor los almacena de modo que la próxima vez que alguien en la misma área acceda a la página web, el mismo contenido almacenado en caché se envíe más rápido. El contenido se entrega con mayor rapidez porque se encuentra más cerca del usuario final. CDN hace que las páginas web se muestren más rápido. Disminuye la necesidad de banda ancha del servidor central porque el contenido se entrega desde la red de borde de almacenamiento en caché, y no desde un servidor central en cada caso.
+La primera vez que alguien descarga una página web, los recursos se envían a un servidor de caché web de CDN. Este servidor los almacena de modo que la próxima vez que alguien en la misma área acceda a la página web, el mismo contenido almacenado en caché se envíe más rápido. El contenido se entrega con mayor rapidez porque se encuentra más cerca del usuario final. CDN permite mostrar páginas web más rápido. Disminuye la necesidad de banda ancha del servidor central porque el contenido se entrega desde la red de borde de almacenamiento en caché, y no desde un servidor central en cada caso.
 
-El contenido de Adobe Dynamic Media Classic recién publicado está disponible inmediatamente para el usuario final y rellena rápidamente la red de caché de Edge. Sin embargo, el contenido recién republicado, es decir, las imágenes que tienen los mismos nombres que las imágenes publicadas anteriormente en un servidor de imágenes, no se actualizan en CDN durante un máximo de diez horas. En su lugar, los usuarios finales ven lo que hay en una caché web en la red CDN. Por este motivo, los recursos que ha vuelto a publicar Adobe Dynamic Media Classic no aparecen a los usuarios finales durante diez horas.
+El contenido de Adobe Dynamic Media Classic recién publicado está disponible inmediatamente para el usuario final y rellena rápidamente la red de caché de Edge. Sin embargo, el contenido recién republicado, es decir, las imágenes que tienen los mismos nombres que las imágenes publicadas anteriormente en un servidor de imágenes, no se actualizan en la CDN durante un máximo de diez horas. En su lugar, los usuarios finales ven lo que hay en una caché web en la red CDN. Por este motivo, los recursos que ha vuelto a publicar Adobe Dynamic Media Classic no aparecen a los usuarios finales durante diez horas.
 
 Si desea que los recursos de imagen recién publicados estén disponibles antes del retraso de diez horas, puede vaciar las cachés web en CDN. Al vaciar estas cachés web, se elimina el contenido antiguo de las cachés web de la CDN y se sustituye por los recursos publicados más recientemente.
 
