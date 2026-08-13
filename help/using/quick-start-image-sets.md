@@ -12,16 +12,13 @@ topic: Content Management
 level: Beginner
 autotag-review: '2026-05-13T20:09:40.553Z'
 TQID: 'https://experienceleague.adobe.com/s3cXJgoACODCKQ8oMlykXjLAVmx6yWw9F2EC-3EbR0k'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: c1f9ca034a6cc7545f18a41876f737eb9144e157
 workflow-type: tm+mt
-source-wordcount: 719
-ht-degree: 11%
+source-wordcount: 707
+ht-degree: 10%
 
 ---
 
@@ -29,7 +26,7 @@ ht-degree: 11%
 
 Los conjuntos de imágenes de Adobe Dynamic Media Classic proporcionan a los usuarios una experiencia de visualización integrada. En el visualizador dinámico de conjuntos de imágenes, los usuarios pueden ver diferentes vistas de un elemento seleccionando una imagen en miniatura. Los conjuntos de imágenes permiten presentar vistas alternativas de alta resolución de un elemento.
 
-El visor de conjuntos de imágenes ofrece herramientas de zoom para examinar las imágenes de cerca. Si lo desea, puede hacer que los destinos de zoom y los mapas de imagen guiados formen parte del conjunto de imágenes. Los conjuntos de imágenes permiten una visualización completa y coordinada.
+El visor de conjuntos de imágenes ofrece herramientas de zoom para examinar las imágenes de cerca. Puede hacer que los destinos de zoom y los mapas de imagen guiados formen parte del conjunto de imágenes. Los conjuntos de imágenes proporcionan una experiencia de visualización más coherente y centrada.
 
 Ver el vídeo de aprendizaje [Conjuntos de giros e imágenes: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/556_Image%20&%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS).
 
@@ -44,13 +41,13 @@ Al crear un conjunto de imágenes, Adobe recomienda las siguientes prácticas re
 
 Consulte también [Limitaciones de Dynamic Media](/help/using/limitations.md).
 
-El siguiente Inicio rápido de conjuntos de imágenes está diseñado para ayudarle a ponerse en marcha rápidamente con las técnicas de conjuntos de imágenes en Adobe Dynamic Media Classic.
+El siguiente Inicio rápido de conjuntos de imágenes está diseñado para ayudarle a empezar a utilizar las técnicas de conjuntos de imágenes en [!DNL Adobe Dynamic Media Classic].
 
 ## &#x200B;1. Cargar las imágenes principales para varias vistas y muestras
 
-Comience el proceso cargando las imágenes para los conjuntos de imágenes. Dado que los usuarios pueden aplicar zoom a las imágenes en el Visor de conjuntos de imágenes, asegúrese de tener en cuenta esta capacidad al elegir imágenes. Asegúrese de que las imágenes tengan al menos 2000 píxeles del tamaño más grande. Adobe Dynamic Media Classic admite muchos formatos de archivo de imagen, pero se recomiendan imágenes de TIFF, PNG y EPS sin pérdidas.
+Comience el proceso cargando las imágenes para los conjuntos de imágenes. Dado que los usuarios pueden ampliar las imágenes en el Visor de conjuntos de imágenes, asegúrese de evaluar esta función al elegir imágenes. Asegúrese de que las imágenes tengan al menos 2000 píxeles en la dimensión más grande. Adobe Dynamic Media Classic admite muchos formatos de archivo de imagen, pero se recomiendan imágenes de TIFF, PNG y EPS sin pérdidas.
 
-En la barra de navegación global, selecciona **[!UICONTROL Cargar]** para cargar archivos de tu equipo a una carpeta en Adobe Dynamic Media Classic.
+En la barra de navegación global, selecciona **[!UICONTROL Cargar]** para cargar archivos de tu equipo a una carpeta de Adobe Dynamic Media Classic.
 
 Ver [Preparar recursos del conjunto de imágenes para cargar](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload) y [Cargar los archivos](uploading-files.md#uploading-your-files).
 
@@ -58,7 +55,7 @@ Ver [Preparar recursos del conjunto de imágenes para cargar](preparing-image-se
 
 En los conjuntos de imágenes, los usuarios seleccionan imágenes en miniatura en el Visor de conjuntos de imágenes para ver una imagen desde un lado o ángulo diferente.
 
-Para crear un conjunto de imágenes, en la barra de navegación global, selecciona **[!UICONTROL Generar]** y, a continuación, elige **[!UICONTROL Conjuntos de imágenes]**. En la ventana Conjunto de imágenes, arrastre las imágenes a la página para componer el conjunto de imágenes. Organice, agregue y elimine imágenes según sea necesario.
+Para crear un conjunto de imágenes, en la barra de navegación global, selecciona **[!UICONTROL Generar]** y, a continuación, elige **[!UICONTROL Conjuntos de imágenes]**. Para componer el conjunto de imágenes, arrastre las imágenes a la página en la ventana Conjunto de imágenes. Organice, agregue y elimine imágenes según sea necesario.
 
 Consulte [Crear un conjunto de imágenes](creating-image-set.md#creating-an-image-set).
 
