@@ -19,10 +19,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 434650e895dc16bf523b12106700915171ae2f73
 workflow-type: tm+mt
-source-wordcount: 1572
-ht-degree: 25%
+source-wordcount: 1565
+ht-degree: 22%
 
 ---
 
@@ -65,7 +65,7 @@ Al crear el catálogo electrónico, tiene la posibilidad de ordenar como desee p
 >
 >Ahora puede crear catálogos electrónicos en Adobe Dynamic Media Classic.
 
-Este inicio rápido de catálogos electrónicos se ha diseñado para ayudarle en el uso inicial de catálogos electrónicos. Siga los pasos del 1 al 7. Después de cada paso, se hace una referencia cruzada a un encabezado de tema donde puede encontrar más información.
+Este Inicio rápido de catálogo electrónico está diseñado para ayudarle a empezar a trabajar rápidamente con catálogos electrónicos. Siga los pasos del 1 al 7. Después de cada paso, se hace una referencia cruzada a un encabezado de tema donde puede encontrar más información.
 
 ## &#x200B;1. Carga de los archivos de PDF
 
@@ -83,7 +83,7 @@ Cree su catálogo electrónico seleccionando PDF o archivos de imagen en el pane
 
 En la página Catálogo electrónico, en la ficha **[!UICONTROL Ordenar páginas]**, seleccione una opción de diseño: **[!UICONTROL 1 arriba]**, **[!UICONTROL 2 arriba]** o **[!UICONTROL personalizado]**. Puede reorganizar las páginas o los conjuntos de páginas arrastrándolos o, en el caso de los catálogos electrónicos de mayor tamaño, eligiendo un nombre de página en el menú Mover a.
 
-Para agregar páginas, seleccione una carpeta en la biblioteca de recursos y arrastre los archivos PDF o de imagen a la pantalla Ordenar páginas. En lugar de los números de página predeterminados, puede proporcionar nombres de página personalizados o importar muchos nombres de página.
+Para agregar páginas, seleccione una carpeta en la Biblioteca de recursos y, a continuación, arrastre los archivos de imagen o PDF a la pantalla Ordenar páginas. En lugar de los números de página predeterminados, puede proporcionar nombres de página personalizados o importar muchos nombres de página.
 
 Seleccione **[!UICONTROL Guardar]**, escriba un nombre para el catálogo electrónico, elija una carpeta de Adobe Dynamic Media Classic para almacenarla y seleccione **[!UICONTROL Guardar]**. Cada vez que cambie el orden de las páginas o edite el catálogo electrónico, guarde los cambios seleccionando **[!UICONTROL Guardar]**.
 
@@ -135,6 +135,6 @@ Ver [Publicar catálogos electrónicos y PDF asociados](publishing-ecatalogs-ass
 
 Adobe Dynamic Media Classic activa la cadena de llamada de URL necesaria para mostrar el catálogo electrónico al publicarlo en los servidores de imágenes de Dynamic Media. Puede copiar esta cadena de URL desde la pantalla Vista previa y el panel Examinar (en la Vista de detalles) seleccionando URL en el panel. Una vez copiada la cadena URL, estará disponible para los sitios Web y las aplicaciones.
 
-Trabaje con su equipo de TI para colocar el vínculo al catálogo electrónico en el lugar adecuado de la página Web. Cuando los usuarios seleccionan el vínculo, aparece el Visor de catálogos electrónicos y los usuarios pueden examinar el catálogo electrónico.
+Para colocar el vínculo al catálogo electrónico en la página web, trabaje con su equipo de TI. Cuando los usuarios seleccionan el vínculo, aparece el Visor de catálogos electrónicos y los usuarios pueden examinar el catálogo electrónico.
 
 Ver [Vincular un catálogo electrónico a una página web](linking-ecatalog-web-page.md#linking-an-ecatalog-to-a-web-page).
