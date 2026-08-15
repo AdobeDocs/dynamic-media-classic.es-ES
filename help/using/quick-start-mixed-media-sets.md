@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: f5b282e36a7c765b37cecc24edb829e36169e5c3
 workflow-type: tm+mt
-source-wordcount: 698
-ht-degree: 17%
+source-wordcount: 688
+ht-degree: 18%
 
 ---
 
@@ -29,13 +29,13 @@ ht-degree: 17%
 
 Los conjuntos de medios mixtos proporcionan a los usuarios una experiencia de visualización integrada. Los conjuntos de medios mixtos pueden incluir imágenes, conjuntos de imágenes, conjuntos de muestras, conjuntos de giros y vídeos. Los usuarios pueden seleccionar diferentes pestañas dentro del visualizador de medios mixtos para ver los elementos en los distintos visualizadores. Si no se especifica ninguna ficha, todos los recursos se muestran juntos en la fila de muestras.
 
-Los ajustes preestablecidos del visualizador de conjuntos de medios mixtos incluyen opciones de la comunidad para que los usuarios finales incrusten código, copien direcciones URL y enlacen al sitio web principal. Los usuarios pueden utilizar estas opciones para compartir información sobre productos en sus sitios Web personales o sitios de redes sociales.
+Los ajustes preestablecidos del visualizador de conjuntos de medios mixtos incluyen opciones de la comunidad para que los usuarios finales incrusten código, copien direcciones URL y enlacen al sitio web principal. Los usuarios pueden utilizar estas opciones para compartir información sobre los productos en sus sitios Web personales o en los sitios de redes sociales.
 
-La opción Inicio rápido de los conjuntos de medios mixtos se ha diseñado para que pueda ponerse en marcha rápidamente con las técnicas de conjuntos de medios mixtos de Adobe Dynamic Media Classic.
+El Inicio rápido Conjuntos de medios mixtos se ha diseñado para ayudarle a empezar a trabajar con las técnicas de conjuntos de medios mixtos en Adobe Dynamic Media Classic.
 
 ## &#x200B;1. Carga de imágenes, archivos de muestra y vídeos
 
-Comience por cargar las imágenes, los archivos de muestras, y los vídeos para sus conjuntos de medios mixtos. Dado que los usuarios pueden aplicar zoom a las imágenes en el visualizador de conjuntos de medios mixtos, asegúrese de tener en cuenta esta capacidad al elegir imágenes. Asegúrese de que las imágenes tengan al menos 2000 píxeles del tamaño más grande.
+Cargue las imágenes, los archivos de muestra y los vídeos de los conjuntos de medios mixtos. Dado que los usuarios pueden ampliar las imágenes en el visualizador de conjuntos de medios mixtos, asegúrese de probar esta función al elegir imágenes. Asegúrese de que las imágenes tengan al menos 2000 píxeles en la dimensión más grande.
 
 En la barra de navegación global, selecciona **[!UICONTROL Cargar]** para cargar archivos de tu equipo a una carpeta en Adobe Dynamic Media Classic.
 
@@ -73,7 +73,7 @@ Ver [Vista previa de un recurso](previewing-asset.md#previewing-an-asset).
 
 La publicación de un conjunto de medios mixtos lo coloca en servidores de Adobe Dynamic Media Classic y activa la cadena URL.
 
-Los conjuntos de vídeo adaptables requieren que se publique en el **Servidor de vídeo** y también en el **Servidor de imágenes**. Use **Servidor de vídeo** para publicar los vídeos que marcó para la publicación. Además, usa **Image Server** para publicar recursos relacionados, como las miniaturas de vídeo, y establecer información para cualquier conjunto de vídeos adaptable.
+Los conjuntos de vídeo adaptables requieren que se publique en el **Servidor de vídeo** y también en el **Servidor de imágenes**. Use **Servidor de vídeo** para publicar los vídeos que marcó para la publicación. Utiliza **Image Server** para publicar recursos relacionados, como las miniaturas de vídeo, y establecer información para cualquier conjunto de vídeos adaptable.
 
 Ver [Publicar un conjunto de medios mixtos](publishing-mixed-media-set.md#publishing-a-mixed-media-set).
 
