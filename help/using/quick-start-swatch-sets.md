@@ -12,30 +12,27 @@ topic: Content Management
 level: Beginner
 autotag-review: '2026-05-13T20:10:43.672Z'
 TQID: 'https://experienceleague.adobe.com/vS0okk4Ham0VZzFCWdvOpl48NkeW9Nq5wlH6ZJAWGCM'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 2a9101333a8c097674004fdd1cf1b7f9ea96f9dd
 workflow-type: tm+mt
-source-wordcount: 402
-ht-degree: 21%
+source-wordcount: 398
+ht-degree: 17%
 
 ---
 
 # Inicio rápido: Conjuntos de muestras{#quick-start-swatch-sets}
 
-Los conjuntos de muestras de Adobe Dynamic Media Classic proporcionan a los usuarios una experiencia de visualización integrada. En el visualizador dinámico de conjuntos de muestras, los usuarios pueden ver un elemento procesado en un color, material, textura, acabado o tejido diferente simplemente seleccionando una miniatura.
+Los conjuntos de muestras de Adobe Dynamic Media Classic proporcionan a los usuarios una experiencia de visualización integrada. Con el visualizador dinámico de conjuntos de muestras, los usuarios pueden ver un elemento procesado en un color, material, textura, acabado o tejido diferente al seleccionar una miniatura.
 
-Inicio rápido Este Inicio rápido de conjuntos de muestras está diseñado para que pueda ponerse en marcha rápidamente con las técnicas de conjuntos de muestras en Adobe Dynamic Media Classic.
+Inicio rápido Este Inicio rápido de conjuntos de muestras está diseñado para ayudarle a empezar a utilizar las técnicas de conjuntos de muestras en Adobe Dynamic Media Classic.
 
 ## &#x200B;1. Carga de las imágenes y los archivos de muestra
 
 Comience el proceso cargando las imágenes y los archivos de muestra para los conjuntos de muestras.
 
-En la barra de navegación global, selecciona **[!UICONTROL Cargar]** para cargar archivos de tu equipo a una carpeta en Adobe Dynamic Media Classic. Ver [Preparar recursos del conjunto de muestras para cargar](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) y [Cargar los archivos](uploading-files.md#uploading-your-files).
+En la barra de navegación global, selecciona **[!UICONTROL Cargar]** para cargar archivos de tu equipo a una carpeta de Adobe Dynamic Media Classic. Ver [Preparar Assets de conjunto de muestras para cargar](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) y [Cargar los archivos](uploading-files.md#uploading-your-files).
 
 ## &#x200B;2. Creación de un conjunto de muestras
 
@@ -43,7 +40,7 @@ Para crear un conjunto de muestras, en la barra de navegación global, ve a **[!
 
 ## &#x200B;3. Configurar ajustes preestablecidos del visor de conjuntos de muestras
 
-Los administradores pueden crear o modificar los ajustes preestablecidos de visor de conjuntos de imágenes. Adobe Dynamic Media Classic incluye ajustes preestablecidos de visor predeterminados para cada tipo de medio enriquecido. Utilice el Visor de zoom: Personalizar > ajustes preestablecidos de Conjuntos de imágenes/Muestras de color para ver sus conjuntos de muestras.
+Los administradores pueden crear o modificar los ajustes preestablecidos de visor de conjuntos de imágenes. Adobe Dynamic Media Classic incluye ajustes preestablecidos de visor predeterminados para cada tipo de medio enriquecido. Utilice el Visor de zoom: Personalizado > Conjuntos de imágenes/Muestras de color para ver los conjuntos de muestras.
 
 Consulte [Crear y editar ajustes preestablecidos de visor](application-setup.md#adding-and-editing-viewer-presets).
 
