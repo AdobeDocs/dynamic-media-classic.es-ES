@@ -21,10 +21,10 @@ level_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: e692b0e39f641db097413710611d19dc30ad42b7
 workflow-type: tm+mt
 source-wordcount: 670
-ht-degree: 32%
+ht-degree: 29%
 
 ---
 
@@ -32,24 +32,24 @@ ht-degree: 32%
 
 Un ajuste preestablecido de imagen, que se guarda con un nombre exclusivo, es similar a una macro y se compone de una serie de comandos de formato y tamaño predefinidos. Para comprender cómo funcionan los ajustes preestablecidos de imagen, supongamos que el sitio Web requiere que cada imagen de producto aparezca en dos tamaños diferentes: 500 × 500 píxeles y 150 × 150 píxeles. Puede crear dos ajustes preestablecidos de imagen, uno denominado &quot;Ampliar&quot; para mostrar imágenes a 500x500 píxeles y otro denominado &quot;Miniatura&quot; para mostrar imágenes a 150 × 150 píxeles. Para ofrecer imágenes con los tamaños &quot;Ampliar&quot; y &quot;Miniatura&quot;, un servidor de imágenes de Dynamic Media busca la definición de los ajustes preestablecidos &quot;Ampliar imagen&quot; y &quot;Miniatura de imagen&quot;. El servidor generará dinámicamente una imagen con las especificaciones de tamaño y formato de cada ajuste preestablecido de imagen.
 
-Adobe Dynamic Media Classic incluye varios ajustes preestablecidos de imagen de prácticas recomendadas que ya están configurados para que los utilice. Los administradores también pueden crear ajustes preestablecidos de imagen. Para crear un nuevo ajuste preestablecido, puede empezar desde cero o tomar uno existente como punto de partida y guardarlo con un nombre nuevo.
+Adobe Dynamic Media Classic incluye varios ajustes preestablecidos de imagen de prácticas recomendadas que ya están configurados para que los utilice. Los administradores también pueden crear ajustes preestablecidos de imagen. Para crear un ajuste preestablecido de imagen, puede crear uno nuevo o puede empezar desde uno existente y guardarlo con un nombre nuevo.
 
-Téngase en cuenta que las imágenes de tamaño reducido pueden sufrir pérdidas de enfoque y detalles al distribuirse dinámicamente desde un servidor. Por esta razón, cada ajuste preestablecido de imagen contiene controles de formato para optimizar una imagen cuando se distribuye con un tamaño concreto. Estos controles garantizan que las imágenes sean nítidas y claras cuando se envíen al sitio web o a la aplicación.
+Téngase en cuenta que las imágenes de tamaño reducido pueden sufrir pérdidas de enfoque y detalles al distribuirse dinámicamente desde un servidor. Por esta razón, cada ajuste preestablecido de imagen contiene controles de formato para optimizar una imagen cuando se distribuye con un tamaño concreto. Estos controles garantizan la nitidez de las imágenes al llegar a la página o aplicación de destino.
 
 ## Crear un ajuste preestablecido de imagen {#creating-an-image-preset}
 
-Puede crear sus propios ajustes preestablecidos de imagen si es administrador de la empresa. Puede crear ajustes preestablecidos de imagen o empezar con un ajuste preestablecido de imagen predeterminado que proporciona Adobe Dynamic Media Classic, editarlo y guardarlo con un nombre nuevo.
+Puede crear sus propios ajustes preestablecidos de imagen si es administrador de la empresa. Puede crear ajustes preestablecidos de imagen o utilizar un ajuste preestablecido de imagen predeterminado que proporciona Adobe Dynamic Media Classic, editarlo y guardarlo con un nombre nuevo.
 
 **Para crear un ajuste preestablecido de imagen:**
 
 1. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Ajustes preestablecidos de imagen]**.
 
-   Puede buscar el nombre de uno de ellos aquí para obtener una vista previa. Al seleccionar el nombre de un ajuste preestablecido, cambia el tamaño y el aspecto de la imagen de muestra en la ventana Vista previa.
+   Para previsualizar un ajuste preestablecido de imagen existente, puede buscar un nombre de ajuste preestablecido de imagen en esta pantalla. Al seleccionar el nombre de un ajuste preestablecido, cambia el tamaño y el aspecto de la imagen de muestra en la ventana Vista previa.
 
 1. Realice una de las siguientes acciones:
 
    * **Crear un ajuste preestablecido de imagen**: seleccione **[!UICONTROL Agregar]**.
-   * **Editar un ajuste preestablecido de imagen**: busque el ajuste preestablecido de imagen que se parezca más al que desea crear y, a continuación, seleccione **[!UICONTROL Editar]**.
+   * **Editar un ajuste preestablecido de imagen**: busque el ajuste preestablecido de imagen más similar al que desea crear y, a continuación, seleccione **[!UICONTROL Editar]**.
 
 1. Asigne un nombre al ajuste.
 1. Indique los valores de altura y anchura en píxeles. Estas medidas determinan el tamaño en que se distribuirán las imágenes.

@@ -1,5 +1,5 @@
 ---
-title: Buscar recursos de Dynamic Media Classic
+title: Buscar Dynamic Media Classic Assets
 description: Obtenga información sobre cómo buscar recursos en Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -21,10 +21,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: fd4b2bc8960392112ad800d9e3da62a09196462b
 workflow-type: tm+mt
-source-wordcount: 1521
-ht-degree: 17%
+source-wordcount: 1501
+ht-degree: 16%
 
 ---
 
@@ -38,15 +38,15 @@ Para localizar recursos de archivo en Adobe Dynamic Media Classic, puede ver los
 
 ## Ver recursos por tipo {#viewing-assets-by-type}
 
-Para ver sólo los archivos de un tipo determinado mientras explora, en la biblioteca de recursos del lado izquierdo, en la lista desplegable **[!UICONTROL Mostrar]**, elija un tipo de archivo. En la biblioteca de recursos solo aparecen los recursos del tipo que ha elegido mostrar.
+Para ver sólo los archivos de un tipo determinado mientras explora, elija un tipo de archivo en la lista desplegable **[!UICONTROL Mostrar]** de la Biblioteca de recursos de la izquierda. En la biblioteca de recursos solo aparecen los recursos del tipo que ha elegido mostrar.
 
 >[!NOTE]
 >
->Si no ve el panel Biblioteca de recursos en el lado izquierdo, haga clic en la flecha triangular derecha del lado izquierdo, a mitad de camino por la ventana de Dynamic Media Classic, para abrir la Biblioteca de recursos.
+>Si el panel Biblioteca de recursos está oculto, haga clic en la flecha de triángulo derecha situada en medio de la ventana de Dynamic Media Classic para mostrarlo.
 
 ## Ordenar archivos en el panel Examinar {#sorting-files-in-the-browse-panel}
 
-Puede ordenar el contenido de una carpeta o los resultados de búsqueda que aparecen en el panel Examinar de la derecha. En la barra de navegación global, seleccione **[!UICONTROL Ordenar]** y, a continuación, elija una opción. Las opciones son **[!UICONTROL Nombre]**, **[!UICONTROL Tamaño (KB)]**, **[!UICONTROL Tipo]**, **[!UICONTROL Fecha de creación]** y **[!UICONTROL Última modificación]**.
+Puede ordenar el contenido de una carpeta o los resultados de búsqueda que aparecen en el panel Examinar. En la barra de navegación global, seleccione **[!UICONTROL Ordenar]** y, a continuación, elija una opción. Las opciones son **[!UICONTROL Nombre]**, **[!UICONTROL Tamaño (KB)]**, **[!UICONTROL Tipo]**, **[!UICONTROL Fecha de creación]** y **[!UICONTROL Última modificación]**.
 
 También puede elegir **[!UICONTROL Ascendente]** o **[!UICONTROL Descendente]** para ordenar los recursos en orden ascendente o descendente según los criterios que elija.
 
@@ -57,7 +57,7 @@ En Vista de lista, puede ordenar seleccionando un nombre de columna.
 Utilice el campo Buscar de la biblioteca de recursos para realizar búsquedas sencillas. Puede buscar elementos por nombre o buscar los elementos cuyos metadatos contengan una palabra clave determinada.
 
 1. En la Biblioteca de recursos, en el panel **[!UICONTROL Carpetas]**, seleccione la carpeta en la que buscar en una carpeta concreta y sus subcarpetas.
-1. A la izquierda del campo Buscar en la Biblioteca de recursos, seleccione el icono **[!UICONTROL Lupa]** para abrir la lista desplegable.
+1. A la izquierda del campo Buscar en la biblioteca de recursos, seleccione el icono **[!UICONTROL Buscar]** para abrir la lista desplegable.
 1. En la lista desplegable, elija una opción que describa lo estrecha o amplia que desea que sea la búsqueda. Puede elegir **[!UICONTROL En todos los archivos y carpetas]**, **[!UICONTROL En la carpeta seleccionada]** o **[!UICONTROL En la carpeta y subcarpetas seleccionadas]**.
 1. En el campo Buscar, introduzca un término de búsqueda.
 1. A la derecha del campo Buscar, selecciona **[!UICONTROL Ir]** o pulsa **[!UICONTROL Entrar]**.
@@ -80,17 +80,17 @@ Especifique cualquiera de los siguientes criterios en la búsqueda avanzada:
 
 * **Archivos y carpetas**: Elija dónde desea buscar: **[!UICONTROL En todos los archivos y carpetas]**, **[!UICONTROL En la carpeta seleccionada]** o **[!UICONTROL En las carpetas y subcarpetas seleccionadas]**.
 
-* **Todos los estados de publicación**: busque los archivos marcados como listos para publicación, no marcados como listos para publicación o todos los archivos.
+* **Todos los estados de publicación**: busque los archivos marcados como listos para publicar, no marcados como listos para publicar o todos los archivos.
 
 * **Condiciones**: si especifica criterios de metadatos para la búsqueda, seleccione si la búsqueda debe coincidir con todas las condiciones (una búsqueda ALL) o con cualquier condición (una búsqueda OR).
 
 * **Criterios de búsqueda**: Cree uno o más campos de búsqueda para buscar metadatos. Para crear campos de búsqueda:
 
-   1. En Búsqueda avanzada, bajo el encabezado **[!UICONTROL Criterios de búsqueda]** y a la izquierda del menú **[!UICONTROL Agregar un campo]**), seleccione el icono de flecha de triángulo hacia abajo para abrir la lista desplegable. Elija una vista de metadatos. Puede elegir **[!UICONTROL Todas las propiedades con valores]**, **[!UICONTROL Vista compacta]**, **[!UICONTROL IPTC]**, **[!UICONTROL Campos de publicación del servidor de metadatos]** o **[!UICONTROL XMP]**.
-   1. Seleccione el menú desplegable **[!UICONTROL Agregar un campo]** y elija un nombre de campo.
-   1. Elija una opción **[!UICONTROL Contains]**: **[!UICONTROL Contains]**, **[!UICONTROL Does Not Contain]**, **[!UICONTROL Begins With]**, **[!UICONTROL Ends With]** o **[!UICONTROL Equals]**.
-   1. En el caso de los campos numéricos, elija un valor o introduzca un intervalo de fechas personalizado.
-   1. (Opcional) Repita los pasos del 1 al 4 para crear más campos de búsqueda.
+  1. En Búsqueda avanzada, bajo el encabezado **[!UICONTROL Criterios de búsqueda]** y a la izquierda del menú **[!UICONTROL Agregar un campo]**), seleccione el icono de flecha de triángulo hacia abajo para abrir la lista desplegable. Elija una vista de metadatos. Puede elegir **[!UICONTROL Todas las propiedades con valores]**, **[!UICONTROL Vista compacta]**, **[!UICONTROL IPTC]**, **[!UICONTROL Campos de publicación del servidor de metadatos]** o **[!UICONTROL XMP]**.
+  1. Seleccione el menú desplegable **[!UICONTROL Agregar un campo]** y elija un nombre de campo.
+  1. Elija una opción **[!UICONTROL Contains]**: **[!UICONTROL Contains]**, **[!UICONTROL Does Not Contain]**, **[!UICONTROL Begins With]**, **[!UICONTROL Ends With]** o **[!UICONTROL Equals]**.
+  1. En el caso de los campos numéricos, elija un valor o introduzca un intervalo de fechas personalizado.
+  1. (Opcional) Repita los pasos del 1 al 4 para crear más campos de búsqueda.
 
 Seleccione el icono **[!UICONTROL Quitar un campo de búsqueda]** (círculo con &quot;X&quot; dentro) para que se elimine el campo de búsqueda.
 
@@ -102,7 +102,7 @@ Seleccione **[!UICONTROL Borrar]** si desea borrar los criterios de búsqueda e 
 
 Filtre recursos en la ficha Filtros de la Biblioteca de recursos. Para filtrar recursos, utilice valores de metadatos como criterios. Después de elegir un campo de metadatos por el que filtrar, la pestaña Filtros muestra todos los valores de metadatos introducidos en el campo elegido. También indica el número de recursos que se asignaron a cada valor. Por ejemplo, en una operación de filtrado en el campo de metadatos **[!UICONTROL Creador]**, la pestaña **[!UICONTROL Filtros]** enumera todos los nombres que se han introducido en el campo de metadatos **[!UICONTROL Creador]** para diferentes recursos. También muestra para cada nombre, el número de recursos asignados al nombre. A continuación, seleccione un valor de metadatos para ver todos los recursos a los que se ha asignado ese valor. En el ejemplo, selecciona el valor de metadatos `Prairie Cat` para ver todos los recursos en los que se especificó el nombre `Prairie Cat` en el campo de metadatos **[!UICONTROL Creador]**. Puede filtrar utilizando más de un campo de metadatos como criterio de filtro.
 
-Puede guardar operaciones de filtro para ejecutarlas muchas veces.
+Para ejecutar operaciones de filtro muchas veces, puede guardarlas.
 
 >[!NOTE]
 >
@@ -116,7 +116,7 @@ Siga estos pasos para poder localizar los recursos filtrándolos con sus valores
 
 1. En la Biblioteca de recursos, seleccione la ficha **[!UICONTROL Filtros]**.
 
-   Los criterios de su operación de filtrado anterior se mostrarán en el panel Filtros. El panel Filtros está dividido en varios paneles; cada uno de ellos representa un campo de metadatos. Utilice los paneles para seleccionar con qué campos de metadatos filtrar y, dentro de cada campo, para seleccionar un valor de metadatos para la operación de filtrado.
+   Los criterios de su operación de filtrado anterior se mostrarán en el panel Filtros. El panel Filtros se divide en paneles, cada uno de los cuales representa un campo de metadatos. Utilice los paneles para seleccionar con qué campos de metadatos filtrar y, dentro de cada campo, para seleccionar un valor de metadatos para la operación de filtrado.
 
    Para ejecutar una operación de filtro que creó y guardó, seleccione **[!UICONTROL Seleccionar ajuste preestablecido]** y, a continuación, elija el nombre de la operación en el menú.
 
@@ -164,13 +164,13 @@ Siga estas instrucciones en la pestaña Filtros para poder guardar, repetir y el
 
 ## Uso del servidor de metadatos {#using-the-metadata-server}
 
-El servidor de metadatos es una API pública que puede utilizar para buscar recursos mediante metadatos a través de solicitudes http.
+El servidor de metadatos es una API pública que puede utilizar para buscar recursos mediante metadatos mediante solicitudes http.
 
 Para configurar el servidor de metadatos, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de aplicación]** > **[!UICONTROL Configuración de publicación]** > **[!UICONTROL Servidor de metadatos]**.
 
 La página Editor del servidor de metadatos le permite establecer las siguientes opciones:
 
-* **[!UICONTROL Publicación instantánea]**: inserta automáticamente los cambios de metadatos que se realicen, incluidos los nuevos recursos, los cambios de palabras clave, etc.
+* **[!UICONTROL Publicación instantánea]**: inserta automáticamente los cambios de metadatos que se realicen, incluidos los nuevos recursos, los cambios de palabras clave y otros elementos relacionados.
 
 * **[!UICONTROL Paquete XMP]**: Publica el paquete XMP. Este paquete no se utiliza para la búsqueda, pero proporciona el XMP más actualizado.
 
