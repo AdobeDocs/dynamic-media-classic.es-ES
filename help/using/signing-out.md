@@ -20,7 +20,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 69ab9545c953152b98c0981abaef0d33f6b5683e
 workflow-type: tm+mt
 source-wordcount: 237
 ht-degree: 6%
@@ -33,7 +33,7 @@ ht-degree: 6%
 
 Asegúrese de que dispone de lo siguiente antes de utilizar la aplicación de escritorio de Adobe Dynamic Media Classic:
 
-* **Nombre de usuario**: Utiliza tu dirección de correo electrónico como nombre de inicio de sesión.
+* **Nombre de usuario**: Usa su dirección de correo electrónico como nombre de usuario.
 
 * **Contraseña**: obtiene su contraseña temporal en un mensaje de correo electrónico de &quot;bienvenida&quot; de Adobe Dynamic Media Classic o de su administrador de Adobe Dynamic Media Classic. Al iniciar sesión por primera vez, se indica al usuario que puede cambiar esa contraseña temporal.
 
