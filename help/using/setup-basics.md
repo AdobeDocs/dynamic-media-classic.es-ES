@@ -1,5 +1,5 @@
 ---
-title: Nociones básicas de ajuste
+title: Conceptos básicos de configuración
 description: Aprenda a utilizar la pantalla Configuración para introducir su configuración personal en Adobe Dynamic Media Classic. Si es un administrador, configure los ajustes de su empresa.
 contentOwner: Rick Brough
 content-type: reference
@@ -12,20 +12,14 @@ topic: Administration, Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:12:38.912Z'
 TQID: 'https://experienceleague.adobe.com/LYe-5f29Xdb2kVjoXs7lx2vUs6-iSpn3m6irRZc5Aag'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: edbf737fe99ee47c475564fbc41d931498681145
 workflow-type: tm+mt
-source-wordcount: 244
-ht-degree: 17%
+source-wordcount: 234
+ht-degree: 10%
 
 ---
 
@@ -33,16 +27,16 @@ ht-degree: 17%
 
 Utilice la página Configuración de Adobe Dynamic Media Classic para especificar su configuración personal. Si es un administrador, configure los ajustes de su empresa. Para abrir una página de instalación, en la barra de navegación global, seleccione **[!UICONTROL Configuración]**.
 
-La configuración disponible en esta página depende de su estado como usuario o administrador:
+La configuración de esta página depende del usuario o de la función de administrador:
 
-* Los usuarios solamente pueden tener acceso a **[!UICONTROL Ajustes personales]** y a las cuentas de las empresas de las que son miembros; no pueden realizar ninguna tarea administrativa.
-* Los administradores pueden acceder a **[!UICONTROL Ajustes personales]** y ver y administrar sus propias cuentas de compañía. Además, pueden realizar todas las funciones de configuración de la aplicación y todas las funciones de administración, incluyendo agregar administradores y usuarios.
+* Los usuarios pueden tener acceso a **[!UICONTROL Ajustes personales]** y a las cuentas de las empresas de las que son miembros; no pueden realizar ninguna tarea administrativa.
+* Los administradores pueden acceder a **[!UICONTROL Ajustes personales]** y ver y administrar sus propias cuentas de compañía. También pueden realizar todas las funciones de configuración de aplicaciones y todas las funciones de administración, incluida la adición de administradores y usuarios.
 
 Los administradores también pueden configurar ajustes preestablecidos de imagen y de visor en la página **[!UICONTROL Configurar]**:
 
 * **Ajustes preestablecidos de imagen**: Los ajustes preestablecidos de imagen son formatos guardados para mostrar imágenes principales en diferentes tamaños y formatos.
 
-* **Ajustes preestablecidos del visor**: Los ajustes preestablecidos del visor determinan cómo ve el medio enriquecido cuando lo ve en un visor.
+* **Ajustes preestablecidos del visor**: Los ajustes preestablecidos del visor determinan cómo aparecen los medios enriquecidos cuando se visualizan en un visor.
 
 >[!MORELIKETHIS]
 >
