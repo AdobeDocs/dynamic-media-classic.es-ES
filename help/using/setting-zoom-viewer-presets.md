@@ -18,16 +18,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 96e28bfa7ee65d01d22591dc4a020507fe1d9a9d
 workflow-type: tm+mt
-source-wordcount: 638
-ht-degree: 40%
+source-wordcount: 632
+ht-degree: 31%
 
 ---
 
 # Configurar ajustes preestablecidos del visor de zoom{#setting-up-zoom-viewer-presets}
 
-Los ajustes preestablecidos del visor de zoom determinan el estilo, el comportamiento y el aspecto de los visores de zoom. Adobe Dynamic Media Classic ofrece muchas opciones para personalizar y desollar visores. Adobe Dynamic Media Classic incluye ajustes preestablecidos básicos (rápidos), desplegables y personalizados del visor de zoom predeterminados. Si es administrador, puede crear ajustes preestablecidos del visor de zoom de la empresa o editar un ajuste preestablecido predeterminado y guardarlo con un nombre nuevo.
+Los ajustes preestablecidos del visor de zoom determinan el estilo, el comportamiento y el aspecto de los visores de zoom. Adobe Dynamic Media Classic ofrece muchas opciones para personalizar y configurar visores. Adobe Dynamic Media Classic incluye ajustes preestablecidos básicos (rápidos), desplegables y personalizados del visor de zoom predeterminados. Si es administrador, puede crear ajustes preestablecidos del visor de zoom de la organización o editar un ajuste preestablecido predeterminado y guardarlo con un nombre nuevo.
 
 Todos los visores de zoom tienen botones para acercar, alejar, desplazar y restablecer la imagen a su estado original tras la aplicación de zoom. El aspecto de estos botones y el modo en que aparece la ventana dependen de la selección de los ajustes preestablecidos del visor de zoom. Los ajustes preestablecidos de visor de zoom se pueden configurar con diferentes colores, bordes, fuentes y parámetros de imagen. Al configurar un Visor de zoom guiado, también puede elegir dónde colocar los destinos de zoom. Los destinos de zoom son miniaturas en las que hacen clic los usuarios para aplicar zoom en áreas que se hayan especificado.
 
@@ -37,19 +37,19 @@ Adobe Dynamic Media Classic ofrece los siguientes ajustes preestablecidos de vis
 
 * **Visor de zoom: Básico**: Proporciona un zoom básico en la imagen original.
 
-* **Visor de zoom: Flotante**: Muestra una segunda imagen del área ampliada junto a la imagen original. No hay controles, los usuarios simplemente mueven la selección sobre la zona que desean ver.
+* **Visor de zoom: Flotante**: Muestra una segunda imagen del área ampliada junto a la imagen original. No hay controles; los usuarios mueven la selección sobre el área que desean ver.
 
-Al determinar el uso del ancho de banda completo para este visor, tenga en cuenta que tanto la imagen principal como la imagen flotante se muestran en el visor. El tamaño de la imagen flotante se determina utilizando el tamaño de la imagen principal (anchura y altura del escenario) y el factor de zoom. Para evitar que el tamaño del archivo flotante sea demasiado grande, equilibre estos dos valores: si el tamaño de la imagen principal es muy grande, reduzca el valor de Factor de zoom. (Los valores de Anchura flotante y Altura flotante determinan el tamaño de la ventana flotante, pero no el tamaño de la imagen que se muestra en el visor).
+Al determinar el uso total del ancho de banda para este visor, tenga en cuenta que tanto la imagen principal como la imagen flotante se proporcionan en el visor. El tamaño de la imagen flotante se determina utilizando el tamaño de la imagen principal (anchura y altura del escenario) y el factor de zoom. Para evitar que el tamaño del archivo flotante sea demasiado grande, equilibre estos dos valores: si el tamaño de la imagen principal es muy grande, reduzca el valor de Factor de zoom. (Los valores de Anchura flotante y Altura flotante determinan el tamaño de la ventana flotante, pero no el tamaño de la imagen que se muestra en el visor).
 
-Por ejemplo, si el tamaño de la imagen principal es 350 x 350 píxeles, con un factor de zoom de 3, el tamaño de la imagen flotante que resultará será de 1050 x 1050 píxeles. Si el tamaño de la imagen principal es de 300 x 300 píxeles, con un factor de zoom de 4, el tamaño de la imagen flotante será de 1200 x 1200 píxeles. Según el ajuste de calidad JPEG (el recomendado es entre 80 y 90), podrá reducir el tamaño del archivo en gran medida. Los factores de zoom recomendados son de 2,5 a 4, según el tamaño de la imagen principal.
+Por ejemplo, si el tamaño de la imagen principal es 350 x 350 píxeles, con un factor de zoom de 3, el tamaño de la imagen flotante que resultará será de 1050 x 1050 píxeles. Si el tamaño de la imagen principal es de 300 x 300 píxeles, con un factor de zoom de 4, el tamaño de la imagen flotante será de 1200 x 1200 píxeles. Según la configuración de calidad de JPEG (la configuración recomendada es 80-90), puede reducir el tamaño del archivo. Los factores de zoom recomendados son de 2,5 a 4, según el tamaño de la imagen principal.
 
 Adobe Dynamic Media Classic recomienda los siguientes parámetros para ajustes preestablecidos del visor de zoom flotantes:
 
-* **Tamaño de imagen ampliado**: aproximadamente 1.500 por 1.500 píxeles, sin superar los 2.000 por 2.000 píxeles.
+* **Tamaño de imagen ampliado**: 1.500 por 1.500 píxeles, sin superar los 2.000 por 2.000 píxeles.
 
 * **Tamaño de imagen**: 100 KB o menos, no debe exceder los 150 KB (comprima el archivo para mantenerlo por debajo de 150 KB).
 
-* **Visor de zoom: Personalizado**: Proporciona un zoom guiado o no guiado con imágenes, Conjuntos de imágenes con varias vistas o Conjuntos de muestras de color.
+* **Visor de zoom: Personalizado**: Proporciona un zoom guiado o no guiado para imágenes, Conjuntos de imágenes con varias vistas o Conjuntos de muestras de color.
 
 ## Crear y editar ajustes preestablecidos del visor de zoom {#creating-and-editing-zoom-viewer-presets}
 
