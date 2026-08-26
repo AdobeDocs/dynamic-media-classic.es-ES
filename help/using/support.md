@@ -22,16 +22,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 7e29275844146b46dba3f1034d1a244f5be5b8b8
 workflow-type: tm+mt
-source-wordcount: 217
-ht-degree: 12%
+source-wordcount: 216
+ht-degree: 6%
 
 ---
 
 # Asistencia técnica {#support}
 
-La asistencia técnica está pensada para empresas de cualquier tamaño. En la tabla siguiente se describen las ofertas del Servicio de atención al cliente de Adobe Dynamic Media Classic:
+Las ofertas de soporte técnico están diseñadas para satisfacer las necesidades de cualquier empresa de tamaño. En la tabla siguiente se describen las ofertas del Servicio de atención al cliente de Adobe Dynamic Media Classic:
 
 | Asistencia técnica | Suscripción |
 | --- | --- |

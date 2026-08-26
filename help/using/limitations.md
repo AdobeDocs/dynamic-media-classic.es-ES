@@ -1,5 +1,5 @@
 ---
-title: Limitaciones de Dynamic Media
+title: Restricciones de Dynamic Media
 description: Conozca las prácticas recomendadas y los límites aplicados al crear un conjunto de imágenes o un conjunto de giros, o al cargar un PDF. Obtenga información también sobre las combinaciones de explorador web y sistema operativo no admitidas para Dynamic Media.
 contentOwner: Rick Brough
 content-type: reference
@@ -22,14 +22,14 @@ level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: c4599d7dfba3811fba73f7e9366f9427f0f20d78
+source-git-commit: b589fcbd330e4c703d64f0143c87e5674c772924
 workflow-type: tm+mt
 source-wordcount: 352
 ht-degree: 1%
 
 ---
 
-# Limitaciones de Dynamic Media
+# Restricciones de Dynamic Media
 
 Las secciones siguientes describen las limitaciones de Dynamic Media.
 

@@ -1,5 +1,5 @@
 ---
-title: Especificación de opciones de exportación disponibles para los usuarios de Media Portal
+title: Especificar las opciones de exportación disponibles para los usuarios de Media Portal
 description: Obtenga información sobre cómo especificar las opciones de exportación disponibles para los usuarios de Media Portal en Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -18,16 +18,16 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: d5c5ccb9773848290f7f5f129f2c15d9e6386a21
 workflow-type: tm+mt
-source-wordcount: 390
-ht-degree: 42%
+source-wordcount: 382
+ht-degree: 37%
 
 ---
 
 # Especificación de opciones de exportación disponibles para los usuarios de Media Portal {#specifying-export-options-available-to-media-portal-users}
 
-Si el administrador les otorga permiso para hacerlo, los usuarios de Media Portal pueden cambiar el formato de las imágenes al exportarlas. Por ejemplo, pueden cambiar el tamaño, el formato de archivo y la calidad de la imagen. Al cambiar el formato de las imágenes automáticamente a medida que se exportan, se ahorra tiempo, ya que no tiene que formatearlas por separado. Además, los administradores pueden crear un ajuste preestablecido, es decir, una selección preestablecida de configuraciones de formato de imagen. Puede usar un ajuste preestablecido al exportar imágenes para cambiarles el formato conforme a las especificaciones de la empresa.
+Si el administrador les otorga permiso para hacerlo, los usuarios de Media Portal pueden cambiar el formato de las imágenes al exportarlas. Por ejemplo, pueden cambiar el tamaño, el formato de archivo y la calidad de la imagen. El cambio automático del formato de las imágenes a medida que se exportan mejora la eficacia al eliminar la necesidad de cambiar el formato de las imágenes por separado. Además, los administradores pueden crear un ajuste preestablecido, es decir, una selección preestablecida de configuraciones de formato de imagen. Puede usar un ajuste preestablecido al exportar imágenes para cambiarles el formato conforme a las especificaciones de la empresa.
 
 Si exporta recursos de imagen mediante una conversión definida por el usuario o si exporta imágenes principales originales, se aplican las dos restricciones siguientes:
 
@@ -41,7 +41,7 @@ Consulte también [Exportar recursos desde Adobe Dynamic Media Classic](exportin
 1. En la barra de navegación global, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Ajustes preestablecidos de imagen]**.
 1. En la ventana Ajustes preestablecidos de imagen, seleccione una de las siguientes opciones:
 
-   * **Habilitar conversión definida por el usuario**: cuando se selecciona, esta opción permite a los usuarios elegir otras opciones de la lista desplegable **[!UICONTROL Tamaño]** en la ventana Exportar Assets seleccionado. Los usuarios pueden elegir una unidad de medida, como píxeles o centímetros, y especificar la anchura y la altura deseadas. Al exportar o descargar estos archivos, se cambia el formato de los archivos de imagen.
+   * **Habilitar conversión definida por el usuario**: cuando se selecciona, esta opción permite a los usuarios elegir &quot;otro&quot; de la lista desplegable **[!UICONTROL Tamaño]** en la ventana Exportar Assets seleccionado. Los usuarios pueden elegir una unidad de medida y especificar la anchura y altura deseadas. Al exportar o descargar estos archivos, se cambia el formato de los archivos de imagen.
 
      Si se eligen **[!UICONTROL píxeles]** de la lista desplegable **[!UICONTROL Tamaño]**, el ancho × alto de la imagen resultante no puede superar los 100 millones de píxeles. Este tamaño equivale a 10.000 × 10.000 píxeles para una imagen cuadrada, o aproximadamente 8.000 × 12.000 píxeles para una imagen con una relación de aspecto 2x3. Esta limitación de tamaño no se aplica si exporta imágenes principales originales.
 
