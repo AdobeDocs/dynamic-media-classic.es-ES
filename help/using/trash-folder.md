@@ -12,17 +12,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:15:24.015Z'
 TQID: 'https://experienceleague.adobe.com/5XOu6T0n7zssUzXgQXushja4DJBSHs8-0-2h2Ao1L20'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 6da2e49f8dde8d9bbedb1d4264f34d52548d0d6c
 workflow-type: tm+mt
-source-wordcount: 563
-ht-degree: 28%
+source-wordcount: 562
+ht-degree: 24%
 
 ---
 
@@ -36,15 +32,15 @@ Al eliminar elementos de la papelera, se eliminan permanentemente los elementos 
 
 >[!NOTE]
 >
->Los Assets que se hayan movido a la papelera seguirán registrados en Adobe Dynamic Media Classic. Por ejemplo, supongamos que intenta cargar un archivo que tiene el mismo nombre que un archivo eliminado en la carpeta Papelera. Adobe Dynamic Media Classic trata el recurso que desea cargar como un recurso duplicado. En este caso, se anexa un número a su nombre.
+>Los Assets que se hayan movido a la papelera seguirán registrados en Adobe Dynamic Media Classic. Por ejemplo, supongamos que intenta cargar un archivo que tiene el mismo nombre que un archivo eliminado en la carpeta Papelera. Adobe Dynamic Media Classic trata el recurso que desea cargar como un recurso duplicado. En tal caso, se anexa un número a su nombre.
 
 ## Acerca de la carpeta Papelera {#about-the-trash-folder}
 
 Si elimina un recurso en una carpeta, éste se colocará en la carpeta Papelera. Al eliminar un elemento y moverlo a la carpeta Papelera, ocurre lo siguiente:
 
 * Aunque el elemento se elimine de la carpeta Adobe Dynamic Media Classic, su ID no se podrá asignar a otro recurso mientras permanezca en la carpeta Papelera. Si intenta cargar un recurso con el mismo nombre que un archivo en la carpeta Papelera, Adobe Dynamic Media Classic anexa un número al nombre del recurso.
-* El elemento no se puede publicar. Aunque el elemento estuviera marcado para la publicación al eliminarlo, no se publicará.
-* El elemento permanece en la carpeta Papelera hasta que se restaure, pasen siete días o alguien elija el comando **[!UICONTROL Vaciar papelera]**. Pasados siete días, se produce una operación de limpieza automática y el elemento se elimina de forma permanente.
+* El elemento no se puede publicar. Incluso si el elemento se marcó para su publicación cuando lo eliminó, no se publica.
+* El elemento permanece en la carpeta Papelera hasta que se restaure, pasen siete días o alguien elija el comando **[!UICONTROL Vaciar papelera]**. Después de siete días, una operación de eliminación automática elimina permanentemente el elemento.
 
 ## Restaurar recursos desde la carpeta Papelera {#restoring-assets-from-the-trash-folder}
 
