@@ -1,5 +1,5 @@
 ---
-title: Administración eficaz de metadatos
+title: Administrar metadatos
 description: Aprenda a utilizar los metadatos de forma más eficaz en Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -21,14 +21,14 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: fdc076f96c16423fb4ed47e583b9c4b95b507e64
+source-git-commit: bbfeefce82fc757d71e5ad0038120752eb0683c1
 workflow-type: tm+mt
-source-wordcount: 163
+source-wordcount: 161
 ht-degree: 37%
 
 ---
 
-# Administración eficaz de metadatos{#making-more-efficient-use-of-metadata}
+# Administrar metadatos {#making-more-efficient-use-of-metadata}
 
 Todos los archivos de Adobe Dynamic Media Classic contienen metadatos. Los metadatos, que describen e identifican un archivo, se utilizan para buscar y organizar recursos. Para ver los metadatos de un recurso, ábralo en la Vista de detalles y examine el panel Metadatos. Los campos de metadatos de este panel ofrecen información descriptiva sobre el recurso.
 

@@ -1,5 +1,5 @@
 ---
-title: Prueba de la integración viendo un informe de Adobe Analytics
+title: Prueba de la integración mediante la visualización de un informe de Adobe Analytics
 description: Obtenga información sobre cómo probar la integración en Adobe Dynamic Media Classic consultando un informe de Adobe Analytics.
 contentOwner: Rick Brough
 content-type: reference
@@ -22,9 +22,9 @@ level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 42a60be8f52236a376c408b168323c9aca8ecf6b
 workflow-type: tm+mt
-source-wordcount: 345
+source-wordcount: 343
 ht-degree: 5%
 
 ---
@@ -35,15 +35,15 @@ Después de crear las variables necesarias en Adobe Analytics, vincularlas a eve
 
 **Para probar la integración mediante la visualización de un informe de Adobe Analytics:**
 
-1. Inicie un visualizador de Adobe Dynamic Media Classic desde su cuenta, especialmente uno que difunda la métrica que desea obtener e interactúe con él para crear algunos datos de evento.
+1. Inicie un visualizador de Adobe Dynamic Media Classic desde su cuenta, uno que difunda la métrica que desea obtener e interactúe con él para crear algunos datos de evento.
 
-   Por ejemplo, si desea medir vistas alternativas populares en un conjunto de imágenes, previsualice un conjunto de imágenes y haga clic en las distintas miniaturas de imágenes.
+   Por ejemplo, si desea medir vistas alternativas populares en un conjunto de imágenes, previsualice un conjunto de imágenes y haga clic en las distintas imágenes en miniatura.
 
 1. En Adobe Analytics, ve a **[!UICONTROL Tráfico personalizado]** > **[!UICONTROL Tráfico personalizado 1-10]** > [Nombre de prop], y selecciona el nombre de la prop de tráfico en las opciones del menú.
 
    Por ejemplo, para acceder a la propiedad **[!UICONTROL LoadAsset]** en la cuenta de ejemplo, la opción de menú adecuada es **[!UICONTROL Tráfico personalizado]** > **[!UICONTROL Tráfico personalizado 1-10]** > **[!UICONTROL LoadAsset]**. Si tiene más de diez propiedades personalizadas, también verá otras opciones de menú.
 
-1. Consulte la tabla generada por Adobe Analytics. Este gráfico suele ser solo los datos de una única métrica. Si también desea saber con qué recurso están asociados estos datos, obtenga los datos de recursos de este evento. Por ejemplo, a menudo resulta útil saber qué vídeo se ve solo el 50 % o qué imagen de un conjunto es popular.
+1. Consulte la tabla generada por Adobe Analytics. Este gráfico son los datos de una sola métrica. Si también desea saber a qué recurso están asociados estos datos, obtenga los datos de recursos de este evento. Por ejemplo, a menudo resulta útil saber qué vídeo se ve solo el 50 % o qué imagen de un conjunto se ve con frecuencia.
 
 >[!NOTE]
 >

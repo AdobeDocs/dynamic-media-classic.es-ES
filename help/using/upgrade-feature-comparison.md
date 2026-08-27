@@ -1,5 +1,5 @@
 ---
-title: Comparación de características
+title: Comparación de funciones
 description: Tabla comparativa de características entre  [!DNL Dynamic Media] en [!DNL Adobe Experience Manager] Assets y [!DNL Adobe Dynamic Media Classic] aplicación de escritorio.
 feature: Dynamic Media Classic
 role: Admin,User
@@ -18,9 +18,9 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: e44775f081eb50324762f2409552e2e833a3b953
 workflow-type: tm+mt
-source-wordcount: 156
+source-wordcount: 157
 ht-degree: 5%
 
 ---
@@ -52,7 +52,7 @@ Tabla comparativa de características entre [!DNL Dynamic Media] en [!DNL Adobe 
 | Codificación de vídeo | ✓ | ✓ |
 | Accesibilidad del visor | ✓ | ✓ |
 | Integración del visor con Analytics | ✓ | ✓ |
-| 1:1 plantillas | ✓<br>*Paquete de medios personalizado* | ✓ |
+| Plantillas 1:1 | ✓<br>*Paquete de medios personalizado* | ✓ |
 | Configurador visual <br>(personalización de producto) | ✓<br>*Paquete de medios personalizado* | ✓ |
 | 3D: componente Experience Manager Sites<br>WCM | ✓ | : |
 | 3D: visualizador de experiencias interactivo | ✓ | : |

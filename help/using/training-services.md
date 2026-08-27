@@ -20,10 +20,10 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 40a2891b75d900454c59bc24556b22c50185013f
 workflow-type: tm+mt
-source-wordcount: 174
-ht-degree: 42%
+source-wordcount: 177
+ht-degree: 41%
 
 ---
 
@@ -35,7 +35,7 @@ Dynamic Media Classic ofrece formación mediante vídeo, talleres dirigidos por 
 
 Los servicios de formación de Adobe ofrecen sesiones de formación presencial exhaustivas y personalizadas adaptadas a las necesidades de cada organización. Los cursos de formación pueden seguir el modelo de clases universitarias a nivel regional, pueden ser sesiones basadas en Web o bien talleres personalizados en las instalaciones del cliente. Las clases a nivel regional están abiertas a todos los clientes y tienen lugar de manera periódica en distintas ubicaciones de Norteamérica y los países EMEA. Las sesiones de formación personalizadas se pueden adaptar a diversos tipos de usuarios: avanzados, usuarios finales, administradores y personal de TI.
 
-Ver [Servicios de formación de Adobe](https://learning.adobe.com/)
+Ver [Servicios de formación de Adobe](https://experienceleague.adobe.com/es/premium/home)
 
 ## Demostraciones
 
@@ -43,8 +43,8 @@ Vea demostraciones de las funciones del visualizador de Adobe Dynamic Media Clas
 
 Ver [Demostraciones](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
-## Introducción a un capítulo de la Ayuda
+## Capítulo de ayuda de introducción
 
-La sección Introducción del sistema de ayuda presenta instrucciones para los usuarios que son nuevos en Adobe Dynamic Media Classic. Explica los conceptos básicos del programa, la navegación, la configuración, la administración de recursos y la creación de medios enriquecidos.
+La sección Introducción del sistema de ayuda presenta instrucciones para los usuarios que son nuevos en Adobe Dynamic Media Classic. Explica los aspectos básicos del programa, la navegación, la configuración, la administración de recursos y la creación de medios enriquecidos.
 
 Consulte [Introducción](dmc-platform-overview.md).

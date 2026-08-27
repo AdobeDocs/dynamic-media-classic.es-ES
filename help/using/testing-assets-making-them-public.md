@@ -1,5 +1,5 @@
 ---
-title: Pruebe los recursos antes de hacerlos públicos
+title: Pruebe Assets antes de publicarlas
 description: Obtenga información sobre cómo probar recursos en Adobe Dynamic Media Classic antes de publicarlos.
 contentOwner: Rick Brough
 content-type: reference
@@ -20,10 +20,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 83f1e1305a59b4f75d9be9e4c4b3d0038160749a
 workflow-type: tm+mt
-source-wordcount: 1070
-ht-degree: 21%
+source-wordcount: 1050
+ht-degree: 17%
 
 ---
 
@@ -37,7 +37,7 @@ Si lo desea, cree un entorno de ensayo en lugar de publicar los recursos por los
 
 * Previsualizar sitios web antes del lanzamiento público (sitio web de ensayo).
 * Proporcione recursos que requieran acceso restringido, como catálogos electrónicos que muestran precios en una aplicación web B2B.
-* Utilice recursos detrás de un cortafuegos como parte de un sistema de gestión de la información sobre productos, una aplicación de servicio al cliente, un sitio de formación, etc.
+* Utilice recursos detrás de un cortafuegos como parte de un sistema de gestión de la información de productos, una aplicación de servicio al cliente, un sitio de formación o sistemas similares.
 
 >[!NOTE]
 >
@@ -45,11 +45,11 @@ Si lo desea, cree un entorno de ensayo en lugar de publicar los recursos por los
 
 ## Funcionamiento de Secure Testing {#how-secure-testing-works}
 
-Las mayoría de las empresas ejecutan Internet detrás de un firewall. El acceso a Internet se lleva a cabo a través de ciertas rutas y normalmente desde un rango limitado de direcciones IP públicas.
+La mayoría de las empresas alojan sus servicios de Internet en una red privada. El acceso a Internet se lleva a cabo a través de ciertas rutas y normalmente desde un rango limitado de direcciones IP públicas.
 
-Desde su red corporativa, puede averiguar su dirección IP pública usando sitios web como [https://www.whatismyip.com](https://www.whatismyip.com/) o solicitar esta información a su organización de TI corporativa.
+Desde la red corporativa, puede determinar su dirección IP pública a través de sitios web como [https://www.whatismyip.com](https://www.whatismyip.com/) o solicitar esta información a su organización de TI corporativa.
 
-Con las pruebas seguras, Adobe Dynamic Media Classic crea un servidor de imágenes específico para entornos de ensayo o aplicaciones internas. Cualquier solicitud a este servidor comprueba la dirección IP de origen. Si la solicitud entrante no está en la lista aprobada de direcciones IP, se devuelve una respuesta de error. El administrador de la empresa de Adobe Dynamic Media Classic configura la lista aprobada de direcciones IP para el entorno de prueba segura de su empresa.
+Con las pruebas seguras, Adobe Dynamic Media Classic crea un servidor de imágenes específico para entornos de ensayo o aplicaciones internas. Cualquier solicitud a este servidor comprueba la dirección IP de origen. Si la solicitud entrante no está en la lista aprobada de direcciones IP, se devuelve una respuesta de error. El administrador de la empresa de Adobe Dynamic Media Classic configura la lista aprobada de direcciones IP para el entorno de prueba segura de la empresa.
 
 Dado que la ubicación de la solicitud original debe confirmarse, el tráfico del servicio Prueba segura no se enruta a través de una red de distribución de contenido como el tráfico público del servidor de imágenes de Dynamic Media. Las solicitudes al servicio de pruebas seguras tienen una latencia ligeramente superior en comparación con los servidores de imágenes públicos de Dynamic Media.
 
@@ -57,7 +57,7 @@ Los recursos no publicados están disponibles inmediatamente desde los servicios
 
 >[!NOTE]
 >
->Los servicios de prueba segura utilizan el servidor de catálogos configurado con un contexto de publicación interno. Por lo tanto, si su empresa está configurada para publicar en pruebas seguras, todos los recursos cargados en Adobe Dynamic Media Classic estarán disponibles inmediatamente en los servicios de pruebas seguras. Esta funcionalidad se cumple independientemente de si los recursos se marcan para su publicación durante la carga.
+>Los servicios de prueba segura utilizan el servidor de catálogos configurado con un contexto de publicación interno. Por lo tanto, si su empresa está configurada para publicar en pruebas seguras, todos los recursos cargados en Adobe Dynamic Media Classic estarán disponibles inmediatamente en los servicios de pruebas seguras. Esta funcionalidad se aplica independientemente de si los recursos están marcados para su publicación durante la carga.
 
 Actualmente, los servicios de prueba segura admiten los siguientes tipos de recursos y funcionalidades:
 
@@ -74,7 +74,7 @@ Last Modified Date:
 * Imágenes.
 * Viñetas (solicitudes del servidor de procesamiento).
 * Procesar solicitudes del servidor (compatible, pero el cliente debe solicitarlo explícitamente).
-* Conjuntos, incluidos los conjuntos de imágenes, catálogos electrónicos, conjuntos de procesamiento y conjuntos de medios.
+* Conjuntos, incluidos los conjuntos de imágenes, catálogos electrónicos, representaciones y medios.
 * Visores de medios enriquecidos estándar de Adobe Dynamic Media Classic.
 * Páginas JSP de Adobe Dynamic Media Classic OnDemand.
 * Contenido estático, como archivos PDF y vídeos de reproducción progresiva.
@@ -118,7 +118,7 @@ Last Modified Date:
 1. En Adobe Dynamic Media Classic, en la barra de navegación global, ve a **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de publicación]** > **[!UICONTROL Servidor de imágenes]**.
 1. En la página Publicación del servidor de imágenes, en la lista desplegable **[!UICONTROL `Publish Context`]**, seleccione **[!UICONTROL Probar servicio de imágenes]**.
 1. Para el Filtro de direcciones de cliente, seleccione **[!UICONTROL Agregar]**.
-1. Active la casilla de verificación para que la dirección esté habilitada (activada) y, a continuación, escriba una dirección IP y una máscara de red en los campos de texto correspondientes.
+1. Active la casilla de verificación para que la dirección esté habilitada y, a continuación, escriba una dirección IP y una máscara de red en los campos de texto correspondientes.
 
    >[!NOTE]
    >
@@ -154,12 +154,12 @@ Realice las siguientes pruebas:
 
 1. Compruebe si los recursos son visibles desde la red de la empresa.
 
-   Desde la red corporativa identificada por el intervalo de direcciones IP previamente definido, la versión de ensayo del sitio web muestra todas las imágenes, estén marcadas para publicación o no. Como tal, puede realizar pruebas sin poner accidentalmente las imágenes a disposición antes de la aprobación de la vista previa o el lanzamiento del producto.
+   Desde la red corporativa identificada por el intervalo de direcciones IP previamente definido, la versión de ensayo del sitio web muestra todas las imágenes, estén marcadas para su publicación o no. Por lo tanto, puede realizar pruebas sin poner accidentalmente imágenes disponibles antes de la aprobación de la vista previa o el lanzamiento del producto.
 
-   Confirme que la versión pública del sitio muestra los recursos publicados tal como se experimentó anteriormente con Adobe Dynamic Media Classic.
+   Confirme que la versión pública del sitio muestra los recursos publicados como se observó anteriormente con Adobe Dynamic Media Classic.
 
-1. Desde fuera de la red corporativa, compruebe que los recursos no publicados (es decir, sin marcar para publicación) estén protegidos frente al acceso de terceros.
+1. Desde fuera de la red corporativa, compruebe que los recursos sin publicar (es decir, sin marcar para publicación) estén protegidos frente al acceso de terceros.
 
-   Acceda a la red desde fuera (por ejemplo, desde el equipo doméstico o a través de una conexión 3G) y, a continuación, compruebe que la versión pública del sitio muestre todos los recursos publicados, pero ninguno de los contenidos no publicados.
+   Acceda a la red desde fuera y, a continuación, compruebe que la versión pública del sitio muestra todos los recursos publicados, pero no el contenido sin publicar.
 
-   Compruebe que la versión de ensayo no muestra ningún recurso, ya que está accediendo al servicio Secure Testing desde una dirección IP no autorizada.
+   Confirme que la versión de ensayo no muestra ningún recurso porque está accediendo al servicio Prueba segura desde una dirección IP no aprobada.
