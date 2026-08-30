@@ -64,7 +64,7 @@ Cambie esta configuración solo con la ayuda de un miembro del equipo de asisten
   Por ejemplo, si es una marca multinacional que vende en distintos países, puede asegurarse de que cada país tiene su propio visor con su propia configuración regional específica. Para llevar a cabo esta funcionalidad, puede especificar una cadena de asignación de configuración regional. A continuación, edite el texto de la información del objeto en el ajuste preestablecido de un visor. Solo tiene que añadir las cadenas de texto traducidas para el idioma que desee.
 
   >[!NOTE]
-  > Para configurar las opciones de soporte de localización, [use Admin Console para crear un caso de soporte](https://helpx.adobe.com/business/enterprise.html). En su caso de asistencia, solicite ayuda para la configuración.
+  > Para configurar las opciones de soporte de localización, [use Admin Console para crear un caso de soporte](https://helpx.adobe.com/es/business/enterprise.html). En su caso de asistencia, solicite ayuda para la configuración.
 
   Para más información sobre la configuración de la **[!UICONTROL Asistencia para la localización]**, consulte [Consideraciones al configurar la localización de recursos](publish-setup.md#considerations_when_setting_up_localization_of_assets).
 
@@ -72,7 +72,7 @@ Cambie esta configuración solo con la ayuda de un miembro del equipo de asisten
 
 >[!NOTE]
 >
->Si desea configurar opciones de soporte de localización en Adobe Dynamic Media Classic, como el campo Locale Map, [use Admin Console para crear un caso de soporte](https://helpx.adobe.com/business/enterprise.html). En su caso de asistencia, solicite ayuda para la configuración.
+>Si desea configurar opciones de soporte de localización en Adobe Dynamic Media Classic, como el campo Locale Map, [use Admin Console para crear un caso de soporte](https://helpx.adobe.com/es/business/enterprise.html). En su caso de asistencia, solicite ayuda para la configuración.
 
 Una forma habitual de utilizar Adobe Dynamic Media Classic es administrar las imágenes del producto en los sitios web de comercio electrónico. Las empresas internacionales se enfrentan al desafío de que los activos de productos similares varían según la región. Por lo general, las diferencias son para algunos componentes del medio. Gestionar estas diferencias copiando todos los activos de cada país y sobrescribiendo las diferencias es una tarea compleja que no es coherente con el principio del activo principal único. Las diferencias en cuanto a los recursos pueden abarcar desde vídeos específicos del país con diferentes pistas de audio hasta diferencias sutiles pero importantes en un cable de alimentación que se utiliza con el producto. Adobe Dynamic Media Classic utiliza un mecanismo de búsqueda básico. Puede definir un orden de sufijos de recursos en el que se verá el servidor de imágenes, empezando por la configuración regional requerida.
 
