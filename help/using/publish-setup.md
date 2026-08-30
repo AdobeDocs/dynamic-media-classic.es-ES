@@ -11,16 +11,11 @@ topic: Administration, Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:08:29.260Z'
 TQID: 'https://experienceleague.adobe.com/-fupHROLSD2veWgnchj2uhPQCKhLqtMasdqOVUNri6g'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: eb277ead83e873c9bcc8bacaf300993a1f0565a4
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: 2368
 ht-degree: 23%
@@ -64,7 +59,7 @@ Cambie esta configuración solo con la ayuda de un miembro del equipo de asisten
   Por ejemplo, si es una marca multinacional que vende en distintos países, puede asegurarse de que cada país tiene su propio visor con su propia configuración regional específica. Para llevar a cabo esta funcionalidad, puede especificar una cadena de asignación de configuración regional. A continuación, edite el texto de la información del objeto en el ajuste preestablecido de un visor. Solo tiene que añadir las cadenas de texto traducidas para el idioma que desee.
 
   >[!NOTE]
-  > Para configurar las opciones de soporte de localización, [use Admin Console para crear un caso de soporte.](https://helpx.adobe.com/es/business/enterprise.html) En su caso de asistencia, solicite ayuda para la configuración.
+  > Para configurar las opciones de soporte de localización, [use Admin Console para crear un caso de soporte](https://helpx.adobe.com/business/enterprise.html). En su caso de asistencia, solicite ayuda para la configuración.
 
   Para más información sobre la configuración de la **[!UICONTROL Asistencia para la localización]**, consulte [Consideraciones al configurar la localización de recursos](publish-setup.md#considerations_when_setting_up_localization_of_assets).
 
@@ -72,7 +67,7 @@ Cambie esta configuración solo con la ayuda de un miembro del equipo de asisten
 
 >[!NOTE]
 >
->Si desea configurar las opciones de compatibilidad con la localización en Adobe Dynamic Media Classic, como el campo Mapa de configuración regional, [use Admin Console para crear un caso de compatibilidad.](https://helpx.adobe.com/es/business/enterprise.html) En su caso de asistencia, solicite ayuda para la configuración.
+>Si desea configurar opciones de soporte de localización en Adobe Dynamic Media Classic, como el campo Locale Map, [use Admin Console para crear un caso de soporte](https://helpx.adobe.com/business/enterprise.html). En su caso de asistencia, solicite ayuda para la configuración.
 
 Una forma habitual de utilizar Adobe Dynamic Media Classic es administrar las imágenes del producto en los sitios web de comercio electrónico. Las empresas internacionales se enfrentan al desafío de que los activos de productos similares varían según la región. Por lo general, las diferencias son para algunos componentes del medio. Gestionar estas diferencias copiando todos los activos de cada país y sobrescribiendo las diferencias es una tarea compleja que no es coherente con el principio del activo principal único. Las diferencias en cuanto a los recursos pueden abarcar desde vídeos específicos del país con diferentes pistas de audio hasta diferencias sutiles pero importantes en un cable de alimentación que se utiliza con el producto. Adobe Dynamic Media Classic utiliza un mecanismo de búsqueda básico. Puede definir un orden de sufijos de recursos en el que se verá el servidor de imágenes, empezando por la configuración regional requerida.
 

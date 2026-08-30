@@ -11,28 +11,24 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:16:55.218Z'
 TQID: 'https://experienceleague.adobe.com/oR7ZZoQsq8nYVZnpQ82hn2PwgIiCmKXKnHfdr0GQSb8'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
-source-wordcount: 1051
-ht-degree: 50%
+source-wordcount: 1052
+ht-degree: 45%
 
 ---
 
 # Cargar un recurso de imagen de trama {#uploading-an-image-asset-or-a-vector-asset}
 
-Para poder cargar un recurso de imagen, primero debe solicitar una clave secreta compartida. Esta clave permite recuperar un distintivo de carga. A continuación, utilice el token de carga para cargar recursos de imagen rasterizada.
+Para poder cargar un recurso de imagen, primero debe solicitar una clave de secreto compartido. Esta clave permite recuperar un distintivo de carga. A continuación, utilice el token de carga para cargar recursos de imagen rasterizada.
 
 >[!IMPORTANT]
 >
->A partir del 1 de mayo de 2023, los recursos UGC en Dynamic Media estarán disponibles para su uso hasta 60 días después de la fecha de carga. Después de 60 días, los recursos se eliminarán.
+>A partir del 1 de mayo de 2023, los recursos UGC en Dynamic Media estarán disponibles para su uso hasta 60 días después de la fecha de carga. Después de 60 días, los recursos se eliminan.
 
 >[!NOTE]
 >
@@ -40,13 +36,13 @@ Para poder cargar un recurso de imagen, primero debe solicitar una clave secreta
 
 ## Solicitar una clave de secreto compartido {#requesting-a-shared-secret-key}
 
-Solicite una clave de secreto compartido *shared-secret* de [usando el Admin Console para crear un caso de asistencia.](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) En el caso del soporte técnico, solicite una clave de secreto compartido.
+Solicite una clave de secreto compartido *shared-secret* de [usando el Admin Console para crear un caso de asistencia](https://helpx.adobe.com/business/enterprise.html). En el caso del soporte técnico, solicite una clave de secreto compartido.
 
 En el mensaje, proporcione el nombre de empresa que desee utilizar para cargar los recursos de imagen. Una vez que reciba la clave de Adobe Dynamic Media Classic, guárdela localmente para usarla en el futuro.
 
 ## Recuperación del token de carga {#retrieving-the-upload-token}
 
-El *distintivo de carga* garantiza que nadie más use la misma clave secreta compartida para cargar recursos. Garantiza que la carga sea legítima y que proceda de una fuente de confianza.
+El *token de carga* garantiza que no se pueda usar la misma clave de secreto compartido para cargar recursos. Garantiza que la carga sea legítima y que proceda de una fuente de confianza.
 
 El distintivo de carga es una cadena alfanumérica que solo se encuentra disponible durante un tiempo concreto. Utilice las siguientes direcciones URL, sustituyendo la clave de secreto compartido, para poder recuperar el token de carga.
 
@@ -148,7 +144,7 @@ El siguiente formulario HTML permite al usuario cargar un recurso. En el formula
 * Un límite de tamaño de archivo.
 * Una lista de extensiones de nombre de archivo.
 * Si se conserva el perfil de color y el nombre de archivo asociados al recurso.
-* Si se debe utilizar un fondo de cobertura. Si activa Fondo de cobertura (Knockout Background), defina las opciones Esquina (Corner), Tolerancia (Tolerance) y Relleno (Fill Method).
+* Si se debe utilizar un fondo de cobertura. Si activa Fondo de cobertura (Knockout Background), configure las opciones Esquina (Corner), Tolerancia (Tolerance) y Relleno (Fill Method).
 Consulte Fondo de cobertura en [Opciones de ajuste de imagen al cargar](image-editing-options-upload.md#image-editing-options-at-upload).
 * Nombre del archivo que se va a cargar.
 
@@ -156,7 +152,7 @@ Para ver el código fuente de HTML asociado con el formulario anterior, seleccio
 
 En Firefox, haga clic con el botón derecho en la ventana del explorador y seleccione **[!UICONTROL Ver página Source]**. El código muestra la cadena de consulta de URL correspondiente y el método POST que se ejecuta cuando el usuario selecciona **[!UICONTROL Enviar]**.
 
-Para ver la respuesta XML en Internet Explorer, ve a **[!UICONTROL Ver]** > **[!UICONTROL Source]**. Para ver la respuesta XML en Firefox, ve a **[!UICONTROL Herramientas]** > **[!UICONTROL Herramientas de navegador]** > **[!UICONTROL Herramientas para desarrolladores web]**. Se recomienda utilizar Firefox para ver las respuestas en XML.
+Para ver la respuesta XML en un explorador, ve a **[!UICONTROL Ver]** > **[!UICONTROL Source]**. Para ver la respuesta XML en Firefox, ve a **[!UICONTROL Herramientas]** > **[!UICONTROL Herramientas de navegador]** > **[!UICONTROL Herramientas para desarrolladores web]**. Se recomienda utilizar Firefox para ver las respuestas en XML.
 
 A continuación se muestra una respuesta de carga correcta de ejemplo:
 
@@ -184,13 +180,13 @@ A continuación se muestra una respuesta de carga correcta de ejemplo:
 >
 >El recurso cargado (JPG, GIF, etc.) se convierte al formato PTIFF y la respuesta envía un vínculo directo a ese recurso PTIFF.
 
-El recurso es igual que cualquier otro recurso de servicio de imágenes, es decir, se le pueden aplicar consultas de procesamiento. Por ejemplo, la siguiente URL solicita un recurso que se expande a la anchura y altura especificadas.
+El recurso es un recurso del servicio de imágenes; puede aplicarle consultas de procesamiento. Por ejemplo, la URL siguiente solicita un recurso ajustado con la anchura y la altura especificadas.
 
 ```as3
 https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit=stretch
 ```
 
-Envíe el recurso para la carga como una publicación de varias partes o formularios y el resto de los valores en forma de cadena de consulta URL. Se pueden usar los campos siguientes en la cadena de consulta URL para cargar un recurso:
+Para cargar el recurso, envíelo como una publicación de varias partes o de formulario y envíe el resto de los valores como una cadena de consulta de URL. Se pueden usar los campos siguientes en la cadena de consulta URL para cargar un recurso:
 
 | Parámetro de URL | Obligatorio u opcional | Valor |
 | --- | --- | --- |

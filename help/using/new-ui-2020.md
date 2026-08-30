@@ -11,19 +11,11 @@ topic: Administration
 level: Intermediate
 autotag-review: '2026-05-13T20:06:03.775Z'
 TQID: 'https://experienceleague.adobe.com/drvyHmeIdmW-jUGd6-Ugc0C8CoveFURR4ozcr1cB-rc'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d6d329e2b9940f67b3c171395b4d5356f7d75776
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: 1049
 ht-degree: 0%
@@ -50,7 +42,7 @@ La nueva aplicación de escritorio está disponible como programa de instalació
 Para revisar los requisitos del sistema, descargar e instalar la nueva aplicación e iniciar sesión, consulta la [aplicación de escritorio de Adobe Dynamic Media Classic](/help/using/dynamic-media-classic-desktop-app.md).
 +++
 
-<!-- NEWSLETTER IS DEAD The download links are also available by way of the [Adobe Dynamic Media Classic newsletter subscription page.](https://www.adobe.com/subscription/dynamic-media-newsletter.html) -->
+<!-- NEWSLETTER IS DEAD The download links are also available by way of the [Adobe Dynamic Media Classic newsletter subscription page](https://www.adobe.com/subscription/dynamic-media-newsletter.html). -->
 
 +++**_¿Cómo funciona la nueva aplicación de escritorio?_**
 Después de descargar, instalar e iniciar la aplicación de escritorio, se le mostrará un inicio de sesión actualizado. Al introducir el nombre de usuario y la contraseña existentes y seleccionar el servidor adecuado en función de su región, puede iniciar sesión en Adobe Dynamic Media Classic. La experiencia general es la misma que la versión del explorador web. Desde la aplicación de escritorio puede acceder a los entornos de producción y ensayo de Adobe Dynamic Media Classic. También puede acceder a Media Portal si tiene credenciales para esta capacidad.
@@ -108,13 +100,13 @@ Póngase en contacto con el Soporte técnico de Adobe si tiene algún problema a
 +++**_Quiero asegurarme de estar optimizando mi estrategia de medios enriquecidos. ¿Cómo puedo obtener más información acerca de Adobe Dynamic Media Classic?_** 
 Adobe Dynamic Media Classic es una solución completa diseñada para admitir los flujos de trabajo de medios enriquecidos. Para asegurarse de utilizar todas las funcionalidades, explore estos recursos prácticos:
 
-* [Tutorial sobre prácticas recomendadas de Adobe Dynamic Media Classic](https://experienceleague.adobe.com/es/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
+* [Tutorial sobre prácticas recomendadas de Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 * [Publicaciones de blog de Adobe](https://blog.adobe.com/)
-* [Archivos de newsletter de Dynamic Media de Adobe](https://experienceleague.adobe.com/es/docs/dynamic-media-classic/using/dynamic-media-newsletter)
+* [Archivos de newsletter de Dynamic Media de Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/dynamic-media-newsletter)
 
 +++
 
-<!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html?lang=es), and the complementary audit program. -->
+<!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html), and the complementary audit program. -->
 
 +++**_Estoy interesado en obtener más información sobre la actualización a Adobe Dynamic Media con Adobe Experience Manager Assets. ¿Dónde puedo encontrar más información?_**
 Para obtener más información sobre las ventajas de actualizar a la siguiente generación de creación, publicación y distribución dinámica de medios enriquecidos, visita [Adobe Dynamic Media Portal for upgrade](/help/using/upgrade.md).
