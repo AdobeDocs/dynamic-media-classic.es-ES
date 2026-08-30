@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 1d00f05c8705cdb241dffe9639afab653e566dc9
 workflow-type: tm+mt
-source-wordcount: 500
-ht-degree: 19%
+source-wordcount: 496
+ht-degree: 17%
 
 ---
 
@@ -33,14 +33,14 @@ Adobe Dynamic Media Classic incluye ajustes preestablecidos de visor predetermin
 
 ## Configuración de ajustes preestablecidos de visor de zoom para conjuntos de imágenes {#setting-up-zoom-viewer-presets-for-image-sets}
 
-Puede crear y personalizar ajustes preestablecidos de visor de acuerdo con sus necesidades.
+Puede crear y personalizar ajustes preestablecidos de visor.
 
 1. En la barra de navegación global, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Ajustes preestablecidos de visor]**.
 1. Cree o edite un ajuste preestablecido de visualizador en la página Ajustes preestablecidos de visualizador mediante uno de estos procedimientos:
 
    * **Crear**: Seleccione **[!UICONTROL Agregar]**. En el cuadro de diálogo Agregar ajuste preestablecido de visor, en la lista desplegable Visor, elija **[!UICONTROL Visor de zoom]** y, a continuación, seleccione **[!UICONTROL Agregar]**. También puede crear un ajuste preestablecido de Visor de zoom a partir de uno existente. Muestre el nombre del ajuste preestablecido, selecciónelo y, a continuación, seleccione **[!UICONTROL Editar]**. En la página `Configure Viewer`, escriba un nombre nuevo para el ajuste preestablecido.
 
-   * **Editar**: muestra el nombre de un ajuste preestablecido, selecciónalo y luego selecciona **[!UICONTROL Editar]**.
+   * **Editar**: muestra el nombre de un ajuste preestablecido, selecciónalo y, a continuación, selecciona **[!UICONTROL Editar]**.
 
 1. En la página `Configure Viewer`, en el campo de texto Nombre de ajuste preestablecido, escriba un nombre para el ajuste preestablecido del visualizador de conjuntos de muestras.
 1. Elija opciones en la página `Configure Viewer`.
