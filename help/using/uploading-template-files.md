@@ -19,10 +19,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 9c30d97a0a8b110f966eec5901c6e1dc84590951
 workflow-type: tm+mt
-source-wordcount: 245
-ht-degree: 32%
+source-wordcount: 244
+ht-degree: 12%
 
 ---
 
@@ -32,7 +32,7 @@ Cargue en Adobe Dynamic Media Classic los archivos que necesite para la plantill
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic recomienda utilizar imágenes transparentes de TIFF o PSD en las plantillas con el tamaño exacto que desee para mostrarlas en el sitio web. Al publicar la plantilla, utilice un ajuste preestablecido de imagen del mismo tamaño para llamar a la imagen. Con esta precaución se evitará un remuestreo que dé como resultado un tamaño mayor o menor que el previsto.
+>Adobe Dynamic Media Classic recomienda utilizar imágenes transparentes de TIFF o PSD en las plantillas con el tamaño exacto que desee para mostrarlas en el sitio web. Cuando publique la plantilla, llame a la imagen con un ajuste preestablecido de imagen que tenga el mismo tamaño. Prestar atención al tamaño garantiza que la plantilla no cambie de tamaño (se remuestree) a un tamaño mayor o menor que el tamaño con el que se diseñó.
 
 Las plantillas pueden crearse a partir de archivos PSD de Adobe Photoshop o archivos de imagen.
 

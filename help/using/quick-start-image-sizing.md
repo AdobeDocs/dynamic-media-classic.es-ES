@@ -18,7 +18,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: e66a98d5071f107477891c3769f1301fcc0d86db
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: 870
 ht-degree: 6%
@@ -33,7 +33,7 @@ El tamaño de imagen hace referencia a la capacidad de Adobe Dynamic Media Class
 * Puede cambiar rápidamente el tamaño de una imagen en el sitio web o la aplicación. Por ejemplo, para cambiar todas las imágenes de miniaturas, puede modificar el ajuste preestablecido de imagen &quot;thumbnail&quot;. Un ajuste preestablecido de imagen es una colección de atributos de tamaño y formato. Para cambiar el tamaño de todas las imágenes en miniatura en el sitio web o la aplicación, puede modificar el ajuste preestablecido de imagen en &quot;miniatura&quot;.
 * No tiene que administrar los archivos principales ni todos los derivados en ninguno de los sistemas de administración de recursos o contenido.
 
-![Puede crear varias imágenes derivadas con un tamaño diferente desde el mismo archivo principal de alta resolución.](/help/using/assets/is_derivative_sizes_popup.png)
+![Puede crear varias imágenes derivadas con un tamaño diferente a partir del mismo archivo principal de alta resolución](/help/using/assets/is_derivative_sizes_popup.png).
 
 Ver [Tamaño de imagen: Vídeo de formación de Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/557_Image%20Sizing_converted%20renamed_Dynamic%20Imaging-AVS).
 

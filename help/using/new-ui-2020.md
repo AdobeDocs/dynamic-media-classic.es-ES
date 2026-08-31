@@ -23,7 +23,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d6d329e2b9940f67b3c171395b4d5356f7d75776
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: 1049
 ht-degree: 0%
@@ -50,7 +50,7 @@ La nueva aplicación de escritorio está disponible como programa de instalació
 Para revisar los requisitos del sistema, descargar e instalar la nueva aplicación e iniciar sesión, consulta la [aplicación de escritorio de Adobe Dynamic Media Classic](/help/using/dynamic-media-classic-desktop-app.md).
 +++
 
-<!-- NEWSLETTER IS DEAD The download links are also available by way of the [Adobe Dynamic Media Classic newsletter subscription page.](https://www.adobe.com/subscription/dynamic-media-newsletter.html) -->
+<!-- NEWSLETTER IS DEAD The download links are also available by way of the [Adobe Dynamic Media Classic newsletter subscription page](https://www.adobe.com/subscription/dynamic-media-newsletter.html). -->
 
 +++**_¿Cómo funciona la nueva aplicación de escritorio?_**
 Después de descargar, instalar e iniciar la aplicación de escritorio, se le mostrará un inicio de sesión actualizado. Al introducir el nombre de usuario y la contraseña existentes y seleccionar el servidor adecuado en función de su región, puede iniciar sesión en Adobe Dynamic Media Classic. La experiencia general es la misma que la versión del explorador web. Desde la aplicación de escritorio puede acceder a los entornos de producción y ensayo de Adobe Dynamic Media Classic. También puede acceder a Media Portal si tiene credenciales para esta capacidad.

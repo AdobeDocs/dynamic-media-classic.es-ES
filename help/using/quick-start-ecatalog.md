@@ -19,7 +19,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 434650e895dc16bf523b12106700915171ae2f73
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: 1565
 ht-degree: 22%
@@ -49,7 +49,7 @@ Según la configuración que elija para el catálogo electrónico, el visor pued
 * Usar interacciones de gestos como pellizcar para ampliar y reducir la imagen o arrastrar para pasar de página.
 * Buscar elementos por palabras clave.
 
-![Catálogo electrónico tal como lo ven los usuarios. A) Página de apertura del catálogo electrónico. B)Catálogo electrónico convertido a página 2.](/help/using/assets/ec_cat_viewer_popup.png)
+![Catálogo electrónico tal como lo ven los usuarios. A) Página de apertura del catálogo electrónico. B)Catálogo electrónico convertido a página 2](/help/using/assets/ec_cat_viewer_popup.png).
 
 Para crear un catálogo electrónico, normalmente se utilizan archivos PDF de alta resolución creados en Adobe Acrobat u otro programa de impresión, pero también se puede crear un catálogo electrónico a partir de archivos de imagen.
 
