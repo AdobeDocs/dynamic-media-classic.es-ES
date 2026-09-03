@@ -1,5 +1,5 @@
 ---
-title: Visualización, adición y exportación de metadatos
+title: Ver, agregar y exportar metadatos
 description: Obtenga información sobre cómo ver, agregar y exportar metadatos en Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -20,10 +20,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 53f5fe67de6ca178464f91efbe1312e8571e6679
 workflow-type: tm+mt
-source-wordcount: 2266
-ht-degree: 36%
+source-wordcount: 2275
+ht-degree: 34%
 
 ---
 
@@ -33,7 +33,7 @@ Puede almacenar información específica de los archivos con los que trabaja en 
 
 Los metadatos aparecen en la Vista de detalles. Aparece junto con información generada por Adobe Dynamic Media Classic. Por ejemplo, fecha de creación del archivo, fecha de publicación y palabras clave. Para ver los metadatos, abra el recurso en la Vista de detalles y, a continuación, seleccione el panel Metadatos. Puede introducir y editar metadatos en la vista de detalles.
 
-Algunos metadatos están incrustados directamente en un archivo. Si un archivo contiene estos metadatos, Adobe Dynamic Media Classic los carga automáticamente con el archivo. Puede incrustar metadatos en recursos de origen en Adobe Photoshop, InDesign, Illustrator y otras aplicaciones; Adobe Dynamic Media Classic reconoce estos metadatos. También puede agregar metadatos a archivos individuales en el panel Metadatos en la Vista de detalles. Para mantener la coherencia entre los recursos, los administradores de empresa pueden crear plantillas de metadatos que proporcionen los campos de metadatos que se pueden rellenar.
+Algunos metadatos están incrustados directamente en un archivo. Si un archivo contiene estos metadatos, Adobe Dynamic Media Classic los carga automáticamente con el archivo. Puede incrustar metadatos en recursos de origen en Adobe Photoshop, InDesign, Adobe Illustrator y otras aplicaciones; Adobe Dynamic Media Classic reconoce estos metadatos. También puede agregar metadatos a archivos individuales mediante el panel Metadatos en la Vista de detalles. Para garantizar la coherencia en todos los recursos, los administradores de la empresa crean plantillas de metadatos que proporcionan los campos de metadatos que se pueden completar.
 
 Para obtener más información acerca de los metadatos incrustados, vea [Plataforma de metadatos extensible](https://www.adobe.com/es/products/xmp.html).
 
@@ -45,7 +45,7 @@ Para ver los metadatos de un recurso, ábralo en Vista de detalles y pulse el pa
 
 * **IPTC**: Valores según la definición del International Press Telecommunications Council.
 
-* **XMP**: valores definidos por el programa de metadatos extensible.
+* **XMP**: valores definidos por la plataforma de metadatos extensible.
 
 Los administradores pueden crear vistas de metadatos. Estas vistas también aparecen en el menú Vistas de metadatos.
 
@@ -63,7 +63,7 @@ Consulte [Vistas de metadatos](application-setup.md#metadata_views) para obtener
 
 >[!NOTE]
 >
->Para editar los metadatos de varios recursos a la vez, selecciónelos y ve a **[!UICONTROL Archivo]** > **[!UICONTROL Editar información]**. Las ediciones realizadas en los metadatos en la ventana Editar información se aplican a todos los recursos seleccionados.
+>Para editar los metadatos de varios recursos a la vez, selecciónelos y ve a **[!UICONTROL Archivo]** > **[!UICONTROL Editar información]**. Los cambios que se hagan en la ventana Editar información se aplicarán a todos los recursos seleccionados.
 
 ## Adición o edición de palabras clave {#add-or-edit-keywords}
 
@@ -87,7 +87,7 @@ Si ha añadido palabras clave a otros archivos durante esta sesión o si ha elim
 
 ## Importación de metadatos {#import-metadata}
 
-En lugar de introducir los metadatos manualmente de uno en uno, puede importar los metadatos para varios recursos diferentes desde un archivo delimitado por tabuladores o XML. Introducir los metadatos en un archivo delimitado por tabuladores o XML e importar este archivo requiere menos tiempo que si se introducen estos metadatos en recursos individuales. En la primera fila del archivo delimitado por tabuladores, introduzca el ID y los nombres de los campos para los que desea grabar los metadatos. En cada fila posterior, introduzca un nombre de ID de recurso seguido de los valores de los metadatos. Los campos que no se incluyen en el archivo XML o delimitado por tabuladores no se modificarán. Para importar metadatos desde un archivo XML, asegúrese de que cumple con el archivo DTD.
+En lugar de introducir metadatos de forma manual de uno en uno, puede importarlos para muchos recursos diferentes desde un archivo XML o delimitado por tabuladores. Introducir los metadatos en un archivo delimitado por tabuladores o XML e importar este archivo requiere menos tiempo que si se introducen estos metadatos en recursos individuales. En la primera fila del archivo delimitado por tabuladores, introduzca el ID y los nombres de los campos para los que desea grabar los metadatos. En cada fila posterior, introduzca un nombre de ID de recurso seguido de los valores de los metadatos. Los campos que no se incluyen en el archivo XML o delimitado por tabuladores no se modificarán. Para importar metadatos desde un archivo XML, asegúrese de que cumple con el archivo DTD.
 
 >[!NOTE]
 >
@@ -108,8 +108,8 @@ Puede encontrar más información sobre propiedades estandarizadas en [Adobe XMP
 Tenga en cuenta lo siguiente al identificar diferentes tipos de metadatos para su importación:
 
 * Los nombres de los campos definidos por el usuario se identifican como creados en **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de la aplicación]** > **[!UICONTROL Metadatos]** > **[!UICONTROL Campos definidos por el usuario]**. Utilice la funcionalidad `Generate file` para obtener una lista de todas las FDU definidas en el formato de importación correcto.
-* Las propiedades de metadatos XMP deben tener el prefijo XMP correspondiente antes que el nombre (propiedad- ). Dos puntos separan el prefijo y el nombre. El prefijo XMP se encuentra en el editor de **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de aplicación]** > **[!UICONTROL Metadatos]** > **[!UICONTROL Esquema de metadatos]**. Los nombres técnicos se pueden encontrar en la documentación del esquema de XMP correspondiente. Los nombres de las propiedades de XMP no aparecen en la característica `Generate file`.
-* Las propiedades del esquema de metadatos deben tener el prefijo correspondiente antes del nombre (propiedad- ). Dos puntos separan el prefijo y el nombre. El prefijo y los nombres de propiedad se definen en el Editor de esquemas de metadatos. Los nombres de las propiedades del esquema de metadatos no aparecen en la característica `Generate file`.
+* Las propiedades de metadatos de XMP deben tener el prefijo XMP relacionado antes del nombre de la (propiedad). Dos puntos separan el prefijo y el nombre. El prefijo XMP se encuentra en el editor de **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de aplicación]** > **[!UICONTROL Metadatos]** > **[!UICONTROL Esquema de metadatos]**. Los nombres técnicos se pueden encontrar en la documentación del esquema de XMP correspondiente. Los nombres de propiedades de XMP no aparecen en la característica `Generate file`.
+* Las propiedades del esquema de metadatos deben tener el prefijo relacionado antes del nombre de la propiedad. Dos puntos separan el prefijo y el nombre. El prefijo y los nombres de propiedad se definen en el Editor de esquemas de metadatos. Los nombres de las propiedades del esquema de metadatos no aparecen en la característica `Generate file`.
 
 Por ejemplo: la propiedad XMP para palabras clave es el esquema de XMP &quot;Dublin Core&quot; con el prefijo `dc` y `subject` es el nombre técnico de XMP. El prefijo y el nombre técnico de XMP se combinan en el nombre completo de la propiedad `dc:subject`. En el formato de importación de metadatos XML, `dc.subject` debe ser el nombre de la propiedad. En el formato de importación delimitado por tabuladores, debe ser el encabezado de columna.
 
@@ -191,9 +191,9 @@ El sistema genera automáticamente un esquema personalizado para los campos defi
 
 >[!NOTE]
 >
->Los cambios en el esquema nunca cambian los metadatos del recurso. Sin embargo, no son visibles para todas las funciones de Adobe Dynamic Media Classic y del servidor de metadatos, y no se puede acceder a ellos después de cambiarlos. Del mismo modo, si existen metadatos para un recurso, la creación del esquema coincidente permite utilizarlos en Adobe Dynamic Media Classic y en el servidor de metadatos.
+>Los cambios en el esquema nunca cambian los metadatos del recurso. Sin embargo, no son visibles en todas las funciones de Adobe Dynamic Media Classic y del servidor de metadatos y no se pueden recuperar después de cambiarlas. Del mismo modo, si existen metadatos para un recurso, la creación del esquema coincidente permite utilizarlos en Adobe Dynamic Media Classic y en el servidor de metadatos.
 
-El Editor de esquemas de metadatos ofrece una forma gráfica de agregar o editar un esquema de empresa personalizado dentro de Adobe Dynamic Media Classic. Un prefijo, un espacio de nombres y una lista de propiedades definen un esquema.
+El Editor de esquemas de metadatos proporciona una interfaz visual para agregar o editar un esquema de empresa personalizado dentro de Adobe Dynamic Media Classic. Un prefijo, un área de nombres y una lista de propiedades definen un esquema.
 
 * **[!UICONTROL Nombre]**: UI-Name para el esquema. Se utiliza para identificar las propiedades en las vistas de metadatos y la búsqueda avanzada. Similar a las secciones XMP como Basic, IPTC, PDF.
 
