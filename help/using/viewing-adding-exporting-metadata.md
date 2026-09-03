@@ -35,7 +35,7 @@ Los metadatos aparecen en la Vista de detalles. Aparece junto con información g
 
 Algunos metadatos están incrustados directamente en un archivo. Si un archivo contiene estos metadatos, Adobe Dynamic Media Classic los carga automáticamente con el archivo. Puede incrustar metadatos en recursos de origen en Adobe Photoshop, InDesign, Adobe Illustrator y otras aplicaciones; Adobe Dynamic Media Classic reconoce estos metadatos. También puede agregar metadatos a archivos individuales mediante el panel Metadatos en la Vista de detalles. Para garantizar la coherencia en todos los recursos, los administradores de la empresa crean plantillas de metadatos que proporcionan los campos de metadatos que se pueden completar.
 
-Para obtener más información acerca de los metadatos incrustados, vea [Plataforma de metadatos extensible](https://www.adobe.com/products/xmp.html).
+Para obtener más información acerca de los metadatos incrustados, vea [Plataforma de metadatos extensible](https://www.adobe.com/es/products/xmp.html).
 
 ## Visualización de metadatos {#view-metadata}
 
