@@ -1,13 +1,12 @@
 ---
 source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '457'
 ht-degree: 0%
-
 ---
-# Código de conducta del Adobe
+# Código de conducta de Adobe
 
-## Promesa del Adobe
+## Promesa de Adobe
 
 Con el fin de fomentar un entorno abierto y acogedor, los colaboradores y administradores se comprometen a hacer de la participación en el proyecto y la comunidad de Adobe una experiencia libre de acoso para todos. Esta conducta es cierta, independientemente de lo siguiente:
 
@@ -23,7 +22,7 @@ Con el fin de fomentar un entorno abierto y acogedor, los colaboradores y admini
 * religión
 * identidad y orientación sexual
 
-## Estándares del Adobe
+## Estándares de Adobe
 
 Algunos ejemplos de comportamiento que contribuyen a crear un entorno positivo son:
 
@@ -41,7 +40,7 @@ Algunos ejemplos de comportamiento inaceptable por parte de los participantes so
 * Publicación de información privada de terceros, como una dirección física o electrónica, sin permiso explícito
 * Otras conductas que puedan considerarse razonablemente inapropiadas en un entorno profesional
 
-## Responsabilidades del Adobe
+## Responsabilidades de Adobe
 
 Los administradores del proyecto son responsables de aclarar los estándares de comportamiento aceptable y se espera que tomen medidas correctivas apropiadas y justas en respuesta a cualquier caso de comportamiento inaceptable.
 
@@ -65,4 +64,4 @@ Los administradores de proyectos que no sigan o apliquen el Código de conducta 
 
 ## Atribución
 
-El presente Código de conducta es una adaptación de la [Pacto del colaborador](https://www.contributor-covenant.org/), versión 1.4, disponible en [https://www.contributor-covenant.org/version/1/4](https://www.contributor-covenant.org/version/1/4/).
+Este Código de conducta es una adaptación del [Convenio de colaboradores](https://www.contributor-covenant.org/), versión 1.4, disponible en [https://www.contributor-covenant.org/version/1/4](https://www.contributor-covenant.org/version/1/4/).
