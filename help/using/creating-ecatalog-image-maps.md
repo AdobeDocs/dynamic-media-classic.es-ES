@@ -14,19 +14,23 @@ autotag-review: '2026-05-13T17:43:26.837Z'
 TQID: 'https://experienceleague.adobe.com/E1qnvzD2WIqVHt0UAtIq7bZfYlPZbfG9Ye6F9ntX5Q4'
 product_v2:
   - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+    internal-label: Dynamic Media Classic
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 23257d3c04ec0d662f382ffb55fd6c26454d39a2
+    internal-label: Metadata
+source-git-commit: d12d3b1055080f034ebd7e7ec00941fa58ec5caf
 workflow-type: tm+mt
-source-wordcount: 1496
+source-wordcount: '1496'
 ht-degree: 18%
-
 ---
-
 # Crear mapas de imagen de catálogo electrónico{#creating-ecatalog-image-maps}
 
 Un mapa de imagen es una región de una página de catálogo electrónico que se puede mover con el ratón o seleccionar para almacenar en déclencheur acciones de distintos tipos. Por ejemplo, cuando se mueve el puntero sobre un mapa de imagen, aparece una descripción de texto de rollover de un elemento. Al seleccionar un mapa de imagen, se inicia otra acción. Por ejemplo, puede abrir una página Web para que los usuarios puedan obtener más información sobre un elemento o comprarlo, o puede iniciar un vídeo para ver un elemento en uso.
